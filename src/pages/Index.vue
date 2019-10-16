@@ -6,9 +6,7 @@
 
     <h1>Design Gouv</h1>
 
-    <p>
-      À bientôt !
-    </p>
+    <iframe class="mj-w-res-iframe" frameborder="0" height="400" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/1O2v/jax" width="100%"></iframe>
 
     <p class="home-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
@@ -17,14 +15,6 @@
 
   </Layout>
 </template>
-
-<script>
-export default {
-  metaInfo: {
-    title: 'Hello, world!'
-  }
-}
-</script>
 
 <style>
 .home-links a {

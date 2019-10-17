@@ -22,13 +22,17 @@ query {
 </static-query>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:400,600&display=swap');
 
 body {
   font-family: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",Arial,sans-serif;
   margin:0;
   padding:0;
   line-height: 1.5;
+}
+
+a {
+  color: #1044F2;
 }
 
 h1 {

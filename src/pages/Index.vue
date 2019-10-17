@@ -4,7 +4,7 @@
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
     <!-- <g-image alt="Example image" src="~/favicon.png" width="135" /> -->
 
-    <h1>Design Gouv</h1>
+    <h1>DesignGouv</h1>
 
     <p>Bienvenue sur le site de la communauté des <strong>designers numériques de l'État</strong>. Vous y trouverez prochainement un ensemble de ressources utiles lors du développement de services publics numériques centrés sur les usagers.</p>
     <p class="subtitle">En attendant, inscrivez-vous à notre newsletter :</p>

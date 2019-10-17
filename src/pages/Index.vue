@@ -21,6 +21,9 @@
 
     <p>Et sur Twitter : <a href="https://twitter.com/designgouv" title="Twitter" target="_blank">@designGouv</a></p>
 
+    <p class="small"><strong>DesignGouv</strong> est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">Direction Interministérielle du Numérique</a>. <br>
+    Le code de ce site est <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">ouvert</a>.</p>
+
     <p class="home-links">
       <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
       <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
@@ -35,5 +38,12 @@
   margin-right: 1rem;
   display: none;
 }
-.subtitle {}
+.small {
+  color: #999;
+  font-size: .8em;
+  margin-top: 5em;
+}
+.small a {
+color: red;
+}
 </style>

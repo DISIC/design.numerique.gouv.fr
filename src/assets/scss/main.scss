@@ -87,6 +87,13 @@ h1 {
 
   .public {
     font-size: .8em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    span {
+      margin-right: 5px;
+    }
 
     a {
       margin-right: 10px;

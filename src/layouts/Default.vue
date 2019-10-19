@@ -21,7 +21,7 @@
         Le code de ce site est <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">ouvert</a>.</p>
 
         <div class="public">
-          LES SITES PUBLICS :
+          <span>LES SITES PUBLICS :</span>
           <g-link to="https://elysee.fr">Elysee.fr</g-link>
           <g-link to="https://service-public.fr">service-public.fr</g-link>
           <g-link to="https://legifrance.gouv.fr">legifrance.gouv.fr</g-link>

@@ -5,6 +5,6 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Design Gouv',
+  siteName: 'DesignGouv',
   plugins: []
 }

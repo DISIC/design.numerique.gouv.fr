@@ -1,7 +1,5 @@
-$blue: #1044F2;
-$light-gray: #ebeff3;
-$gray: #333333;
-$dark: #202328;
+@import "vars";
+@import "layout";
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:400,600&display=swap');
 
@@ -10,6 +8,7 @@ body {
   margin:0;
   padding:0;
   line-height: 1.5;
+  color: $gray;
 }
 
 a {
@@ -17,8 +16,13 @@ a {
 }
 
 h1 {
-  font-family: "Montserrat";
   font-size: 3em;
+  line-height: 1.1;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-family: "Montserrat";
 }
 
 .layout {

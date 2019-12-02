@@ -9,6 +9,7 @@
       </div>
       <nav class="nav">
         <g-link class="nav__link" to="/">Accueil</g-link>
+        <g-link class="nav__link" to="/recrutement">Recrutement</g-link>
       </nav>
     </header>
     <main class="layout">

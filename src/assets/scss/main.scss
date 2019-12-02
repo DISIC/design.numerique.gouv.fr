@@ -20,7 +20,7 @@ h1 {
   line-height: 1.1;
 
   @media only screen and (max-width: 600px) {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 }
 
@@ -47,6 +47,7 @@ h1, h2, h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 20px;
   }
 
   .title {

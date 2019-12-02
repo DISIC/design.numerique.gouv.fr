@@ -2,7 +2,7 @@
   <div>
     <header class="header">
       <div>
-        <g-link class="title" to="/">
+        <g-link to="/">
           <g-image src="~/assets/images/marianne.svg" width="80" />
         </g-link>
         <strong>

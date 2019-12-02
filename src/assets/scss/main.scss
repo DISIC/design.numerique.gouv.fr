@@ -18,6 +18,10 @@ a {
 h1 {
   font-size: 3em;
   line-height: 1.1;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 2em;
+  }
 }
 
 h1, h2, h3 {
@@ -37,8 +41,13 @@ h1, h2, h3 {
   padding: 0 20px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+  margin: 20px auto;
+
+  @media only screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
   .title {
     color: $gray;
@@ -58,18 +67,28 @@ h1, h2, h3 {
     font-weight: normal;
   }
 
+  .nav {
+    @media only screen and (max-width: 600px) {
+      padding: 0.4em 0;
+      margin: 20px 0;
+      box-sizing: border-box;
+    }
+  }
+
   .nav__link {
     color: $gray;
     text-decoration: none;
     padding: 0.4em 0.8em;
+    margin: 0 5px 0 0;
     border-radius: 3px;
 
     &:hover {
       background: $light-gray;
     }
 
-    @media only screen and (max-width: 600px) {
-      display: none;
+    &.active--exact {
+      background: $blue;
+      color: white;
     }
   }
 }

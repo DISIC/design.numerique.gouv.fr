@@ -20,9 +20,10 @@
         Vous rejoignez le pôle <strong>Design des services numérique</strong> pour nous accompagner sur la partie animation de la communauté DesignGouv. Nous recherchons un profil curieux, très polyvalent, et enthousiaste.
       </p>
       <ul>
-        <li>Rédaction de contenu (compte <a href="https://twitter.com/designgouv">Twitter</a> et newsletter)</li>
+        <li>Rédaction de contenu (compte <a href="https://twitter.com/designgouv" target="
+          ">Twitter</a> et newsletter)</li>
         <li>Veille design (administrations and beyond)</li>
-        <li>Participation à l'organisation d'événements comme <a href="https://www.eventbrite.fr/e/billets-accessibilite-numerique-ameliorer-les-interfaces-pour-tous-les-usagers-75318067367">celui-ci</a></li>
+        <li>Participation à l'organisation d'événements comme <a href="https://www.eventbrite.fr/e/billets-accessibilite-numerique-ameliorer-les-interfaces-pour-tous-les-usagers-75318067367" target="_blank">celui-ci</a></li>
         <li>Creation de visuels graphiques (promotions événements, etc)</li>
         <li>Pourra être amené à faire du design de produits (UX/UI)</li>
         <li>Sens aigu de l'esthétique et attention aux détails</li>

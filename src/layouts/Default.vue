@@ -2,7 +2,9 @@
   <div>
     <header class="header">
       <div>
-        <g-image src="~/assets/images/marianne.svg" width="80" />
+        <g-link class="title" to="/">
+          <g-image src="~/assets/images/marianne.svg" width="80" />
+        </g-link>
         <strong>
           <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>
         </strong>
@@ -19,15 +21,15 @@
       <div class="layout">
 
         <p class="small"><strong>DesignGouv</strong> est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">Direction Interministérielle du Numérique</a>. <br>
-        Le code de ce site est <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">ouvert</a>.</p>
+        Le code de ce site est <a href="https://github.com/DSIC/design.numerique.gouv.fr" target="_blank">ouvert</a>.</p>
 
         <div class="public">
           <span>LES SITES PUBLICS :</span>
-          <g-link to="https://elysee.fr">Elysee.fr</g-link>
-          <g-link to="https://service-public.fr">service-public.fr</g-link>
-          <g-link to="https://legifrance.gouv.fr">legifrance.gouv.fr</g-link>
-          <g-link to="https://data.gouv.fr">data.gouv.fr</g-link>
-          <g-link to="https://france.fr">france.fr</g-link>
+          <a href="https://elysee.fr" target="_blank">Elysee.fr</a>
+          <a href="https://service-public.fr" target="_blank">service-public.fr</a>
+          <a href="https://legifrance.gouv.fr" target="_blank">legifrance.gouv.fr</a>
+          <a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a>
+          <a href="https://france.fr" target="_blank">france.fr</a>
         </div>
       </div>
     </footer>

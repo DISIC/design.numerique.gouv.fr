@@ -13,6 +13,26 @@ body {
 
 a {
   color: $blue;
+  transition: .5s all;
+
+  &:hover {
+    color: $blue-hover;
+  }
+}
+
+.button {
+  background: $blue;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 0;
+
+  &:hover {
+    background: $blue-hover;
+    color: white;
+  }
 }
 
 h1 {
@@ -27,6 +47,10 @@ h1 {
 h1, h2, h3 {
   color: black;
   font-family: "Montserrat";
+}
+
+li {
+  margin-bottom: 5px;
 }
 
 .layout {

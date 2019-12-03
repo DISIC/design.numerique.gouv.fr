@@ -4,6 +4,7 @@
     <p>Venez travailler avec nous sur l'amélioration des services publics numériques.</p>
     <ul>
       <li><g-link to="/recrutement/stage-design/">Chargé(e) d'animation</g-link> (stage)</li>
+      <li><g-link to="/recrutement/stage-observatoire/">Adjoint(e) au responsable "Observatoire"</g-link> (stage)</li>
     </ul>
   </Layout>
 </template>

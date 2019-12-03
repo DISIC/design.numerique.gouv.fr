@@ -17,7 +17,7 @@
       </p>
       <h2>Descriptif du stage</h2>
       <p>
-        Vous rejoignez le pôle <strong>Design des services numérique</strong> pour nous accompagner sur la partie animation de la communauté DesignGouv. Nous recherchons un profil curieux, très polyvalent, et enthousiaste.
+        Vous rejoignez le pôle <strong>Design des services numérique</strong> pour nous accompagner sur la partie animation de la communauté DesignGouv.
       </p>
       <ul>
         <li>Rédaction de contenu (compte <a href="https://twitter.com/designgouv" target="
@@ -29,6 +29,10 @@
         <li>Sens aigu de l'esthétique et attention aux détails</li>
         <li>Montage vidéo (pas besoin de connaissances, juste d'une envie d'apprendre)</li>
       </ul>
+      <h2>Vous</h2>
+      <p>
+        Vous avez à cœur d’améliorer le fonctionnement de l’Etat, vous avez de bonnes aptitudes relationnelles et le sens du travail en équipe. Vous savez faire preuve de polyvalence, de réactivité, de méthode et de rigueur. Vous êtes curieux, polyvalent, et enthousiaste.
+      </p>
       <h2>Détails pratiques</h2>
       <p>
         <strong>Durée</strong> : 3 à 6 mois<br>
@@ -40,7 +44,7 @@
         Envoyer un e-mail de motivation simple à <a href="mailto:marine.boudeau@modernisation.gouv.fr">marine.boudeau@modernisation.gouv.fr</a> et :
       </p>
         <ul>
-          <li>CV (sans photo et ni âge) ou profil linkedin</li>
+          <li>CV (sans photo, âge ou situation familiale) ou profil linkedin</li>
           <li>Portfolio (si vous en avez un)</li>
           <li>Objet de l'e-mail "Stage design"</li>
         </ul>

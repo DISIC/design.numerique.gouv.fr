@@ -10,7 +10,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-matomo',
       options: {
-        host: 'stats.data.gouv.fr',
+        host: '//stats.data.gouv.fr',
         siteId: 105
       }
     }

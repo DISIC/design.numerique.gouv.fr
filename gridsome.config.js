@@ -6,5 +6,13 @@
 
 module.exports = {
   siteName: 'DesignGouv',
-  plugins: []
+  plugins: [
+    {
+      use: 'gridsome-plugin-matomo',
+      options: {
+        host: 'stats.data.gouv.fr',
+        siteId: 105
+      }
+    }
+  ]
 }

@@ -7,9 +7,6 @@ import '~/assets/scss/main.scss'
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  
-  head.htmlAttrs = { lang: 'fr' }
 
-  // Custom scripts
-  head.script.push({ src: '/assets/js/mailjet.js' })
+  head.htmlAttrs = { lang: 'fr' }
 }

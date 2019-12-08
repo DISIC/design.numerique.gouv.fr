@@ -1,4 +1,4 @@
-# Design Gouv
+# DesignGouv
 
 ### Initial setup
 

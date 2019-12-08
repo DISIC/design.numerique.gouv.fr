@@ -10,9 +10,9 @@
 - Enter directory `cd design.numerique.gouv.fr`
 - Run `gridsome develop` to start local development
     - This won't run unless you're also running the APIs from this [repo](https://github.com/DISIC/designgouv-admin)
-    - If your work is unrelated to the APIs, you can also comment out these 2 parts below from `gridsome.config.js` while you develop. 
+    - If your work is unrelated to the APIs, you can also comment out these 2 parts below from `gridsome.config.js` while you develop.
 
-      ```
+      ```js
       {
         use: '@gridsome/source-strapi',
         options: {
@@ -23,7 +23,7 @@
       }
       ```
       and
-      ```
+      ```js
       templates: {
         StrapiJobs: '/recrutement/:title',
       },

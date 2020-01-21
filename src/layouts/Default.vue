@@ -21,7 +21,7 @@
       <div class="layout">
 
         <p class="small"><strong>DesignGouv</strong> est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">Direction Interministérielle du Numérique</a>. <br>
-        Le code de ce site est <a href="https://github.com/DSIC/design.numerique.gouv.fr" target="_blank">ouvert</a>.</p>
+        Le code de ce site est <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">ouvert</a>.</p>
 
         <div class="public">
           <span>LES SITES PUBLICS :</span>

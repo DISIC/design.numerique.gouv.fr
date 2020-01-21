@@ -8,7 +8,7 @@
 
     <a href="http://eepurl.com/gLJCsb" class="button">Je m'inscris à la newsletter</a>
 
-    <p>Et sur Twitter : <a href="https://twitter.com/designgouv" title="Twitter" target="_blank">@designGouv</a></p>
+    <p>Sur Twitter : <a href="https://twitter.com/designgouv" title="Twitter" target="_blank">@DesignGouv</a></p>
 
   </Layout>
 </template>

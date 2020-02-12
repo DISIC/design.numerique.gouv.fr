@@ -3,11 +3,11 @@
     <Header class="page-header">
       <h1>Transcription de l'événement accessibilité numerique</h1>
     </Header>
-    <Main>
+    <Main class="transcription">
       <h2>Le 29 novembre 2019, Salle Marceau LONG – Paris</h2>
 
       <p>
-        (pour revoir les vidéos, c'est par <a href="https://www.youtube.com/watch?v=HUhRLREsFiQ&list=PLzwHdQWfGYgZOVnuQWScwnf-1Q3D553wj" title="Revoir les vidéos" target="_blank">ici</a>) 
+        (pour revoir les vidéos, c'est par <a href="https://www.youtube.com/watch?v=HUhRLREsFiQ&list=PLzwHdQWfGYgZOVnuQWScwnf-1Q3D553wj" title="Revoir les vidéos" target="_blank">ici</a>)
       </p>
 
 <p><strong>Marine Boudeau :</strong> Bonjour. L&#39;accessibilité numérique, sujet complexe… Pour commencer une journée de si bonne heure. On va essayer de déconstruire l&#39;accessibilité aujourd&#39;hui avec nos différents intervenants. Merci pour votre présence. Les personnes issues du privé dans la salle peuvent-elles lever la main ? Bienvenue. Est-ce qu&#39;il y a des développeurs, designers et ingénieurs ? Bonne représentation. Est-ce que des personnes dans la salle pensent qu&#39;elles sont vraiment les meilleures, qu&#39;elles ont toutes les bonnes pratiques ? Je suis Marine Boudeau, je travaille à la direction interministérielle du numérique. Nous sommes en charge de l&#39;observatoire de la qualité des services numériques. Dans le cadre de la numérisation des services publics, on recense les 250 services publics les plus utilisés par les Français. On les suit et on les mesure pour comprendre la satisfaction des usagers. Cela nous permet de prioriser les actions avec les ministères pour améliorer leur qualité. L&#39;idée, c&#39;est de les optimiser pour le mobile, qu&#39;ils soient accessibles, rapides et faciles. Car 82 % des Français pensent que le numérique complexifie leurs relations avec l&#39;administration. On anime aussi cette communauté. Notre rêve, c&#39;est de donner envie aux administrations d&#39;acquérir les compétences numériques en interne, que les tests utilisateurs soient un rituel. Ce sera aussi d&#39;apporter de la convivialité et du plaisir aux usagers. Nos événements sont plus généralistes, mais à l&#39;occasion de la sortie du RGAA 4, on a voulu créer un événement spécial. Je tiens d&#39;ailleurs à remercier chaleureusement le FIPHFP de son soutien. L&#39;idée, c&#39;est d&#39;intégrer l&#39;accessibilité. Accessibilité ou pas, personne ne doit être bloqué dans une démarche. Je ne sais pas si vous vous êtes déjà fait recaler d&#39;une boîte de nuit lorsque vous étiez jeune ? Vous ne rentriez pas dans la « case », avec le sentiment d&#39;être inadapté, exclus. Imaginez que c&#39;est le cas si vous êtes en fauteuil roulant. Le numérique doit accueillir le plus possible le plus grand nombre. C&#39;est un principe basique d&#39;égalité. Bien sûr, il y aura toujours des personnes qui ne sauront pas faire. Il faudra toujours de l&#39;humain et des aidants pour accompagner certaines personnes, qu&#39;elles soient les 13 millions d&#39;exclus du numérique ou des personnes en situation de handicap. Mais on peut faire beaucoup pour se rapprocher, se donner les outils pour faire en autonomie. C&#39;est à nous de changer et de nous adapter. Est-ce qu&#39;un designer peut aider ? Oui, mais pas seulement. Ce sont les méthodologies de travail qui doivent changer. C&#39;est le besoin d&#39;une prise en compte collective des enjeux. Tout cela a un coût, bien sûr. Si vous pensez à toutes les fonctionnalités de votre service, où seules 30 % des fonctionnalités sont peut-être vraiment utilisées par les utilisateurs. Peut-être moins encore… Je peux économiser sur le développement de certaines fonctionnalités peu désirées au profit de l&#39;accessibilité pour tous, et profiter d&#39;une expérience très simple, testée avec différents profils d&#39;usagers, conçus avec du code de qualité en développement continu pour aboutir à une satisfaction optimale de tous les usagers, et surtout pour les personnes en situation de handicap. Je passe la parole à Monsieur le Ministre, secrétaire d&#39;État chargé du numérique, Cédric O.
@@ -374,7 +374,7 @@ export default {
 </script>
 
 <style>
-Main p {
+Main .transcription p {
   text-align: justify;
 }
 </style>

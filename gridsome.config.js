@@ -13,17 +13,7 @@ module.exports = {
         host: '//stats.data.gouv.fr',
         siteId: 105
       }
-    },
-    {
-      use: '@gridsome/source-strapi',
-      options: {
-        apiURL: process.env.STRAPI_API,
-        queryLimit: 1000, // Defaults to 100
-        contentTypes: ['jobs'],
-      }
     }
   ],
-  templates: {
-    StrapiJobs: '/recrutement/:title',
-  },
+  templates: {},
 }

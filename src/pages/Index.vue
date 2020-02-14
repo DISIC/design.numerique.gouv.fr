@@ -3,7 +3,7 @@
 
     <h1>DesignGouv</h1>
 
-    <p>Bienvenue ! Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous. Vous y trouverez très prochainement :</p>
+    <p>Bienvenue ! Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous. Vous y trouverez prochainement :</p>
     <ul>
       <li>Des guides sur le rôle du design et l'importance de concevoir des expériences utiles, utilisables et agréables</li>
       <li>Les outils pour mieux faire (bonnes pratiques, accessibilité numérique, formations, etc.)</li>

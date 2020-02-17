@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="33px" viewBox="0 0 33 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>community</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Main" transform="translate(-750.000000, -229.000000)" stroke="#009985" stroke-width="3.20000005">
+            <g id="Header">
+                <g id="Group-2" transform="translate(260.000000, 147.000000)">
+                    <g id="Group-5" transform="translate(237.000000, 82.000000)">
+                        <g id="community" transform="translate(255.000000, 2.000000)">
+                            <path d="M28.800046,13.6000002 C28.8055064,15.7117887 28.3121106,17.7950156 27.3600004,19.6800003 C25.057535,24.2869248 20.3502523,27.1980075 15.2000002,27.2000004 C13.0882117,27.2055064 11.0049848,26.7121106 9.12000014,25.7600004 L0,28.8000004 L3.04000005,19.6800003 C2.08788986,17.7950156 1.59449402,15.7117887 1.60000002,13.6000002 C1.60199292,8.44974811 4.51307562,3.74246545 9.12000014,1.44000002 C11.0049848,0.487889831 13.0882117,-0.00550600361 15.2000002,-4.55809641e-05 L16,-4.55809641e-05 C22.9052954,0.380959511 28.4190409,5.89470501 28.800046,12.8000002 L28.800046,13.6000002 L28.800046,13.6000002 Z" id="Path"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

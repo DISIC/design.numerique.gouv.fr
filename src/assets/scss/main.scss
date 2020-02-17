@@ -23,21 +23,21 @@ a {
 h1, h2, h3 {
   color: $dark;
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.2em;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 900;
 
   @media only screen and (max-width: 600px) {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
 h2 {
   font-size: 2em;
   font-weight: 800;
-  line-height: 1.2em;
 
   @media only screen and (max-width: 600px) {
     font-size: 1.75em;
@@ -71,14 +71,17 @@ li {
     padding-bottom: 44px;
   }
 
-  h1, p {
-    font-size: 1em;
-    font-weight: 400;
+  .coverContainer {
     max-width: 760px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 24px;
+  }
+
+  p {
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0 0 2px 0;
   }
 
   .logo {
@@ -101,7 +104,7 @@ li {
   text-align: center;
   padding: 32px 32px 24px 32px;
   background: #FFFFFF;
-  box-shadow: 0 0 32px -4px #C9D3DF;
+  box-shadow: 0 0 32px -8px #C9D3DF;
   border-radius: 32px;
 
   @media only screen and (max-width: 600px) {

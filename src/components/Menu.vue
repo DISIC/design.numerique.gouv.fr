@@ -1,7 +1,7 @@
 <template>
 
   <div class="menuButton">
-    <button @click="toggle" id="">Menu</button>
+    <button @click="toggle" v-click-outside="hide">Menu</button>
     <div id="menu" class="menuContent">
       <button @click="toggle" class="closeButton">Fermer ✕</button>
       <g-link to="/">Accueil</g-link>
@@ -18,18 +18,23 @@
 
 <script>
 
+import ClickOutside from 'vue-click-outside'
+
 export default {
   name: 'Menu',
   methods: {
     toggle() {
       document.getElementById("menu").classList.toggle("show");
+    },
+    hide() {
+      if (document.getElementById("menu").classList.contains("show")) {
+        document.getElementById("menu").classList.remove("show");
+      }
     }
   },
-  data () {
-    return {
-      opened: false,
-    }
-  },
+  directives: {
+    ClickOutside
+  }
 }
 
 </script>

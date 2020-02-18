@@ -3,14 +3,14 @@
     <header class="header">
       <div>
         <g-link to="/">
-          <g-image src="~/assets/images/marianne.svg" alt="DesignGouv - Retour à l'accueil" width="80" />
+          <g-image class="marianne" src="~/assets/images/marianne.svg" alt="DesignGouv - Retour à l'accueil"/>
         </g-link>
-        <strong>
+        <strong class="website">
           <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>
         </strong>
       </div>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Accueil</g-link>
+        <Menu />
         <!-- <g-link class="nav__link" to="/recrutement">Recrutement</g-link> -->
       </nav>
     </header>
@@ -44,3 +44,25 @@ query {
   }
 }
 </static-query>
+
+<script>
+import Menu from '~/components/Menu.vue'
+
+export default {
+  components: {
+    Menu,
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+  .marianne {
+    width: 80px;
+  }
+
+  .website {
+    @media only screen and (max-width: 600px) {
+      display: none;
+    }
+  }
+</style>

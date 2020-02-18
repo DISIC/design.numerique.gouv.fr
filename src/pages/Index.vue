@@ -83,7 +83,7 @@ import HomeItem from '~/components/HomeItem.vue'
 
 export default {
   components: {
-    HomeItem
+    HomeItem,
   },
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",

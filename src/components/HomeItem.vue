@@ -51,7 +51,7 @@ export default {
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 
 .homeItem {
   margin: 48px 0 108px 0;
@@ -102,7 +102,7 @@ export default {
       font-size: 0.875em;
     }
 
-    &:hover {
+    &:hover, &:focus {
       background: var(--color);
       color: white;
     }

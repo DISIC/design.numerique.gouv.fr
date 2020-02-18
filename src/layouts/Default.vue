@@ -3,7 +3,7 @@
     <header class="header">
       <div>
         <g-link to="/">
-          <g-image src="~/assets/images/marianne.svg" width="80" />
+          <g-image src="~/assets/images/marianne.svg" alt="DesignGouv - Retour à l'accueil" width="80" />
         </g-link>
         <strong>
           <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>

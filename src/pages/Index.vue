@@ -7,11 +7,11 @@
         <p><g-image class="logo" alt="DesignGouv" src="~/assets/images/logo.svg"/></p>
 
         <p>
-          <g-link to=""><g-image class="icon" alt="Star icon" src="~/assets/images/design.svg"/></g-link>
-          <g-link to=""><g-image class="icon" alt="Tool icon" src="~/assets/images/tools.svg"/></g-link>
-          <g-link to=""><g-image class="icon" alt="Lifebuoy icon" src="~/assets/images/services.svg"/></g-link>
-          <g-link to=""><g-image class="icon" alt="Book icon" src="~/assets/images/courses.svg"/></g-link>
-          <g-link to=""><g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/></g-link>
+          <g-link to="/design"><g-image class="icon" alt="Le design numérique en détails" src="~/assets/images/design.svg"/></g-link>
+          <g-link to="/outils"><g-image class="icon" alt="J'accède aux outils" src="~/assets/images/tools.svg"/></g-link>
+          <g-link to="/accompagnement"><g-image class="icon" alt="J'ai un besoin en Design" src="~/assets/images/services.svg"/></g-link>
+          <g-link to="/formations"><g-image class="icon" alt="Je découvre les formations" src="~/assets/images/courses.svg"/></g-link>
+          <a href="#communaute"><g-image class="icon" alt="La communauté" src="~/assets/images/community.svg"/></a>
         </p>
 
         <p>Bienvenue ! Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous.</p>
@@ -37,7 +37,7 @@
       link="/outils"
       iconSrc="tools.svg"
       iconAlt="Tool icon"
-      color="#44A74C"
+      color="#37863D"
       colorLight="#84CD86"
     />
 
@@ -48,7 +48,7 @@
       link="/accompagnement"
       iconSrc="services.svg"
       iconAlt="Lifebuoy icon"
-      color="#FF5D52"
+      color="#EB1000"
       colorLight="#FFA89E"
     />
 
@@ -59,11 +59,11 @@
       link="/formations"
       iconSrc="courses.svg"
       iconAlt="Book icon"
-      color="#AE8C24"
+      color="#90731D"
       colorLight="#E2C56F"
     />
 
-    <div class="card" style="--color: #1B998B; --colorLight: #3CDDCA;">
+    <div class="card" id="communaute" style="--color: #168376; --colorLight: #3CDDCA;">
       <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
 
       <p><a href="http://eepurl.com/gLJCsb"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>

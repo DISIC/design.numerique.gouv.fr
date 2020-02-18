@@ -10,6 +10,7 @@
         </strong>
       </div>
       <nav class="nav">
+        <a href="http://eepurl.com/gLJCsb" target="_blank" class="community">Rejoindre la communauté</a>
         <Menu />
         <!-- <g-link class="nav__link" to="/recrutement">Recrutement</g-link> -->
       </nav>
@@ -56,13 +57,36 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+  @import "src/assets/scss/_vars.scss";
+
   .marianne {
     width: 80px;
   }
 
   .website {
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 740px) {
       display: none;
     }
   }
+
+  .community {
+    background-color: #FFFFFF;
+    padding: 8px 22px;
+    border: solid 1px $emerald;
+    border-radius: 24px;
+    text-decoration: none;
+    color: $emerald;
+    margin-right: 16px;
+
+    &:hover, &:focus {
+      background-color: $emerald;
+      color: white;
+    }
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      display: none;
+    }
+  }
+
 </style>

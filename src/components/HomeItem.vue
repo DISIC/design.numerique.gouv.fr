@@ -53,10 +53,12 @@ export default {
 
 <style lang="scss" scoped>
 
+@import "src/assets/scss/_vars.scss";
+
 .homeItem {
   margin: 48px 0 108px 0;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobileMaxWidth) {
     margin: 28px 0 68px;
 
     p {
@@ -98,7 +100,7 @@ export default {
     display: inline-block;
     margin: 10px 0;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: $mobileMaxWidth) {
       font-size: 0.875em;
     }
 

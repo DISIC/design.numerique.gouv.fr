@@ -22,7 +22,7 @@
     <HomeItem
       title="Découvrez le Design numérique"
       text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>, <b>accessibles</b> et <b>agréables</b> pour tous les usagers. Concevoir par le design, c’est mettre en oeuvre une démarche de création centrée sur les usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Nous vous expliquons tout cela en détails."
-      buttonText="Le design numérique en détails →"
+      buttonText="Le design numérique →"
       link="/design"
       iconSrc="design.svg"
       iconAlt="Star icon"
@@ -66,11 +66,11 @@
     <div class="card" id="communaute" style="--color: #168376; --colorLight: #3CDDCA;">
       <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
 
-      <p><a href="http://eepurl.com/gLJCsb"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
+      <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
       <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous !</p>
 
-      <a href="http://eepurl.com/gLJCsb" class="button">Je m'inscris à la newsletter</a>
+      <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
       <p>Sur Twitter : <a href="https://twitter.com/designgouv" title="Twitter" target="_blank">@DesignGouv</a></p>
     </div>

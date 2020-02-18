@@ -1,13 +1,15 @@
 <template>
 
-  <div class="menu">
-    <button @click="toggle" id="menuButton">Menu</button>
+  <div class="menuButton">
+    <button @click="toggle" id="">Menu</button>
     <div id="menu" class="menuContent">
+      <button @click="toggle" class="closeButton">Fermer ✕</button>
       <g-link to="/">Accueil</g-link>
       <g-link to="/design">Le design numérique</g-link>
       <g-link to="/outils">Les outils</g-link>
       <g-link to="/accompagnement">Notre accompagnement</g-link>
       <g-link to="/formations">Les formations</g-link>
+      <a class="community" href="http://eepurl.com/gLJCsb">Rejoindre la communauté</a>
     </div>
   </div>
 
@@ -21,15 +23,6 @@ export default {
   methods: {
     toggle() {
       document.getElementById("menu").classList.toggle("show");
-      if(this.opened) {
-        document.getElementById("menuButton").classList.toggle("menuShown");
-        document.getElementById("menuButton").innerHTML = "Menu";
-        this.opened = false;
-      } else {
-        document.getElementById("menuButton").classList.toggle("menuShown");
-        document.getElementById("menuButton").innerHTML = "Fermer ✕";
-        this.opened = true;
-      }
     }
   },
   data () {
@@ -46,9 +39,13 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  .menu {
+  .menuButton {
     position: relative;
     display: inline-block;
+  }
+
+  #menu {
+    position: fixed;
   }
 
   .menuContent {
@@ -57,8 +54,8 @@ export default {
     background-color: $light-gray;
     width: 248px;
     z-index: 1;
-    left: -1;
-    right: 0;
+    top: 23px;
+    right: 20px;
 
     a {
       color: $dark;
@@ -71,16 +68,46 @@ export default {
       &:hover, &:focus {
         background-color: $light-gray-hover
       }
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        text-align: center;
+      }
+    }
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      top: 0px;
+      right: 0px;
+      width: 100vw;
+      height: 100vh;
+
+      .closeButton {
+        padding-bottom: 40px;
+      }
+    }
+
+    .community {
+      display: none;
+      color: $emerald;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: block;
+      }
     }
   }
 
-  .menuShown {
+  .closeButton {
     text-align: right;
+    padding: 12px 24px;
     width: 248px;
     border-radius: 0px;
 
     &:hover, &:focus {
       background-color: $light-gray-hover
+    }
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 35px 24px 12px 24px;
+      width: 100vw;
     }
   }
 

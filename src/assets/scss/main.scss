@@ -30,7 +30,7 @@ h1 {
   font-size: 3em;
   font-weight: 900;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 2.5em;
   }
 }
@@ -39,7 +39,7 @@ h2 {
   font-size: 2em;
   font-weight: 800;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 1.75em;
   }
 }
@@ -52,14 +52,19 @@ button {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   background-color: $light-gray;
   color: $dark;
-  padding: 12px 24px;
+  padding: 10px 24px;
   font-size: 1em;
   border-radius: 24px;
   border: none;
+  cursor: pointer;
   transition: .2s background-color;
 
   &:hover, &:focus {
     background-color: $light-gray-hover
+  }
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    font-size: 0.875em;
   }
 }
 
@@ -82,7 +87,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobileMaxWidth) {
     padding-bottom: 44px;
   }
 
@@ -100,7 +105,7 @@ button {
   }
 
   .logo {
-    max-width: 100%;
+    max-width: 92%;
     padding-top: 20px;
   }
 
@@ -123,7 +128,7 @@ button {
   box-shadow: 0 0 32px -8px #C9D3DF;
   border-radius: 32px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobileMaxWidth) {
     padding: 24px 8px 16px 8px;
   }
 
@@ -146,8 +151,11 @@ button {
   }
 
   a {
-    text-decoration: none;
     color: var(--color);
+  }
+
+  .h2 {
+    text-decoration: none;
   }
 
   .homeItemText {
@@ -155,6 +163,7 @@ button {
   }
 
   .button {
+    text-decoration: none;
     color: white;
     border: 2px solid var(--color);
     background-color: var(--color);
@@ -165,7 +174,7 @@ button {
     display: inline-block;
     margin: 10px 0;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: $mobileMaxWidth) {
       font-size: 0.875em;
     }
 

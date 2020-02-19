@@ -23,6 +23,10 @@
     <footer class="footer">
       <div class="layout">
 
+        <g-link to="/">
+          <g-image class="logoFooter" alt="DesignGouv" src="~/assets/images/logoBetaWhite.svg"/>
+        </g-link>
+
         <p class="small"><strong>DesignGouv</strong> est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> (DINUM).<br>
         Accessibilité : en cours d'évaluation au 15 jan 2020<br>
         Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre.</p>
@@ -112,6 +116,10 @@ export default {
     @media only screen and (max-width: $mobileMaxWidth) {
       align-self: flex-start;
     }
+  }
+
+  .logoFooter {
+    width: 220px;
   }
 
   .logoSmall {

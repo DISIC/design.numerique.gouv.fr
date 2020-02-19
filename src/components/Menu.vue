@@ -7,7 +7,7 @@
       <g-link to="/">Accueil</g-link>
       <g-link to="/design">Le design numérique</g-link>
       <g-link to="/outils">Les outils</g-link>
-      <g-link to="/accompagnement">Notre accompagnement</g-link>
+      <g-link to="/services">Nos services</g-link>
       <g-link to="/formations">Les formations</g-link>
       <a class="community" href="http://eepurl.com/gLJCsb">Rejoindre la communauté</a>
     </div>
@@ -63,6 +63,7 @@ export default {
     right: 20px;
 
     a {
+      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
       color: $dark;
       font-weight: bold;
       text-align: left;

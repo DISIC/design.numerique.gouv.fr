@@ -45,7 +45,7 @@
       title="Un besoin en Design ? Nous vous aidons."
       text="Vous avez un besoin urgent ou des questions concernant l’amélioration de vos démarches, nous pouvons vous accompagner."
       buttonText="J'ai un besoin en Design →"
-      link="/accompagnement"
+      link="/services"
       iconSrc="services.svg"
       iconAlt="Lifebuoy icon"
       color="#EB1000"

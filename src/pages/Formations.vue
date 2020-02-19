@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="coverContainer">
 
-      <p><h1>Les formations</h1></p>
+      <h1>Les formations</h1>
 
       <p>
         <g-image class="icon" alt="Star icon" src="~/assets/images/courses.svg"/>

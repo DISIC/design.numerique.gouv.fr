@@ -59,7 +59,7 @@ export default {
     background-color: $light-gray;
     width: 248px;
     z-index: 1;
-    top: 23px;
+    top: 20px;
     right: 20px;
 
     a {

@@ -3,16 +3,18 @@
     <header class="header">
       <div>
         <g-link to="/">
-          <g-image class="marianne" src="~/assets/images/marianne.svg" alt="DesignGouv - Retour à l'accueil"/>
+          <g-image class="marianne" src="~/assets/images/dinumLogoDesktop.svg" alt="DesignGouv - Retour à l'accueil"/>
+          <g-image v-if="logoLarge === false" class="logoSmall" alt="DesignGouv" src="~/assets/images/logoBeta.svg"/>
         </g-link>
-        <strong class="website">
-          <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>
-        </strong>
       </div>
-      <nav class="nav">
-        <a href="http://eepurl.com/gLJCsb" target="_blank" class="community">Rejoindre la communauté</a>
+      <div v-if="logoLarge" class="logoDesktop bottom">
+        <g-image alt="DesignGouv" src="~/assets/images/logoBeta.svg"/>
+      </div>
+      <nav v-if="logoLarge" class="nav top">
         <Menu />
-        <!-- <g-link class="nav__link" to="/recrutement">Recrutement</g-link> -->
+      </nav>
+      <nav v-else class="nav">
+        <Menu />
       </nav>
     </header>
     <main class="layout">
@@ -52,25 +54,83 @@ import Menu from '~/components/Menu.vue'
 export default {
   components: {
     Menu,
+  },
+  props: {
+    logoLarge: {
+      default: false,
+      type: Boolean
+    },
   }
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
-  .marianne {
-    width: 80px;
+  @font-face {
+  	font-family: "Marianne";
+  	font-weight: 300;
+  	src: url("../assets/fonts/Marianne-Light.ttf") format("ttf"),
+  	     url("../assets/fonts/Marianne-Light.woff") format("woff2"),
+  	     url("../assets/fonts/Marianne-Light.woff2") format("woff");
+  }
+  @font-face {
+  	font-family: "Marianne";
+  	font-weight: 400;
+  	src: url("../assets/fonts/Marianne-Regular.ttf") format("ttf"),
+  	     url("../assets/fonts/Marianne-Regular.woff") format("woff2"),
+  	     url("../assets/fonts/Marianne-Regular.woff2") format("woff");
+  }
+  @font-face {
+  	font-family: "Marianne";
+  	font-weight: 700;
+  	src: url("../assets/fonts/Marianne-Bold.ttf") format("ttf"),
+  	     url("../assets/fonts/Marianne-Bold.woff") format("woff2"),
+  	     url("../assets/fonts/Marianne-Bold.woff2") format("woff");
+  }
+  @font-face {
+  	font-family: "Marianne";
+  	font-weight: 800;
+  	src: url("../assets/fonts/Marianne-ExtraBold.ttf") format("ttf"),
+  	     url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
+  	     url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
   }
 
-  .website {
-    @media only screen and (max-width: 740px) {
+  .bottom {
+    align-self: flex-end;
+  }
+
+  .top {
+    align-self: flex-start;
+  }
+
+  .nav {
+    width: 185px;
+    text-align: right;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      align-self: flex-start;
+    }
+  }
+
+  .logoSmall {
+    width: 220px;
+    padding-left: 64px;
+    padding-bottom: 48px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
       display: none;
     }
   }
 
-  .community {
+  .logoDesktop {
+    @media only screen and (max-width: $desktopMinWidth) {
+      display: none;
+    }
+  }
+
+  /* .community {
     background-color: #FFFFFF;
     padding: 8px 22px;
     border: solid 1px $emerald;
@@ -87,6 +147,6 @@ export default {
     @media only screen and (max-width: $mobileMaxWidth) {
       display: none;
     }
-  }
+  } */
 
 </style>

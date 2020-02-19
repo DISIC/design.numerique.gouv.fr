@@ -22,13 +22,13 @@ a {
 
 h1, h2, h3 {
   color: $dark;
-  font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2em;
 }
 
 h1 {
   font-size: 3em;
-  font-weight: 900;
+  font-weight: 800;
 
   @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 2.5em;
@@ -37,7 +37,7 @@ h1 {
 
 h2 {
   font-size: 2em;
-  font-weight: 800;
+  font-weight: 700;
 
   @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 1.75em;
@@ -49,7 +49,7 @@ li {
 }
 
 button {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   background-color: $light-gray;
   color: $dark;
   padding: 10px 24px;
@@ -66,6 +66,10 @@ button {
   @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 0.875em;
   }
+}
+
+.button {
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 }
 
 .layout {
@@ -105,8 +109,16 @@ button {
   }
 
   .logo {
-    max-width: 92%;
-    padding-top: 20px;
+    display: none;
+
+    img {
+      max-width: 92%;
+      padding-top: 20px;
+    }
+
+    @media only screen and (max-width: $desktopMinWidth) {
+      display: inline;
+    }
   }
 
   .icon {

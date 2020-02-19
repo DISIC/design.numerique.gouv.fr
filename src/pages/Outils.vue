@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="coverContainer">
 
-      <p><h1>Nos outils</h1></p>
+      <h1>Nos outils</h1>
 
       <p>
         <g-image class="icon" alt="Star icon" src="~/assets/images/tools.svg"/>

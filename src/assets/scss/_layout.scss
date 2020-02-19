@@ -4,31 +4,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 20px auto 20px;
-
-  // @media only screen and (max-width: 600px) {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: flex-start;
-  //   margin-bottom: 20px;
-  // }
-
-  .title {
-    color: $gray;
-    text-decoration: none;
-    margin-left: 10px;
-  }
-
-  div {
-    display: flex;
-    align-items: center;
-  }
-
-  span {
-    font-style: italic;
-    font-family: serif;
-    font-size: 1.2em;
-    font-weight: normal;
-  }
 }
 
 .footer {

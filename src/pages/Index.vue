@@ -1,10 +1,10 @@
 <template>
-  <Layout>
+  <Layout :logoLarge="true">
 
     <div class="cover">
       <div class="coverContainer">
 
-        <p><g-image class="logo" alt="DesignGouv" src="~/assets/images/logo.svg"/></p>
+        <p class="logo"><g-image alt="DesignGouv" src="~/assets/images/logoBeta.svg"/></p>
 
         <p>
           <g-link to="/design"><g-image class="icon" alt="Le design numérique en détails" src="~/assets/images/design.svg"/></g-link>

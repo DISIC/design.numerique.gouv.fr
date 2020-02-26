@@ -6,7 +6,10 @@
 
       <h1>Les formations</h1>
 
-      <p class="subtitle">De nombreuses formations sont disponibles, certaines accessibles gratuitement, que ce soit pour vous former personnellement ou en équipe sur les divers sujets liés au design et à la qualité des services numérique, l’accessibilité etc. Nous proposons également un accompagnement sur ces sujets.</p>
+      <p class="subtitle">De nombreuses formations sont disponibles, certaines accessibles
+        gratuitement, que ce soit pour vous former personnellement ou en équipe
+        sur les divers sujets liés au design, à la qualité des services numérique,
+        à l’accessibilité etc.</p>
 
       </div>
     </div>
@@ -16,57 +19,51 @@
       <div class="">
 
         <h2>
-          <g-image class="icon" width="24" alt="Lifebuoy icon" src="~/assets/images/services.svg"/>
-          <span class="highlight">Les bureaux ouverts</span>
+          <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
+          <span class="highlight">Initiations</span>
         </h2>
-        <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
+        <p>Initier vous gratuitement, c'est une bonne manière de découvrir rapidement un nouveau sujet&nbsp;!</p>
 
-        <strong>Qui</strong>
-        <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
+        <h3>Design</h3>
+        <p>
+          <a href="http://eepurl.com/gLJCsb" target="_blank" class="buttonLight">Initiez-vous au Design</a>, 6 heures, gratuit.</br>
+          <a href="http://eepurl.com/gLJCsb" target="_blank" class="buttonLight">UX design : découvrez les fondamentaux</a>, 8 heures, gratuit.
+        </p>
 
-        <strong>Quand</strong>
-        <p>Dès que vous en avez besoin, nous sommes disponibles librement chaque vendredi de 10h à 12h, dans nos bureaux 20 avenue de Ségur 75007 Paris.</p>
-
-        <strong>Comment</strong>
-        <p>Très simplement, en prenant <a href="https://calendly.com/designgouv" target="_blank">rendez-vous ici.</a></p>
+        <h3>Accessibilité</h3>
+        <p>
+          <a href="https://www.fun-mooc.fr/courses/inria/41012/session01/about" target="_blank" class="buttonLight">L'accessibilité numérique</a>, 15 heures, gratuit.</br>
+          <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank" class="buttonLight">Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.
+        </p>
 
       </div>
 
       <div class="">
 
         <h2>
-          <g-image class="icon" width="24" alt="Lifebuoy icon" src="~/assets/images/services.svg"/>
-          <span class="highlight">Les revues de conception</span>
+          <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
+          <span class="highlight">Certifications</span>
         </h2>
-        <p>Lors d'un atelier d'un demi-journée, présentez votre service à des membres de la communauté DesignGouv (designers, chefs de projet, etc.) qui vous aideront à mener à bien votre projet. Obtenez des avis, des conseils, des idées, des retours d'expérience.</p>
+        <p>Avec les formations certifiantes, vous pouvez acquerir rapidement des
+          compétences sur les sujets qui vous intéressent.</p>
 
-        <strong>Qui</strong>
-        <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
-
-        <strong>Quand</strong>
-        <p>Les revues de conception sont des évènements que nous organisons une fois tous les deux mois. Nous annoncerons bientôt les dates des premiers évènements !</p>
-
-        <strong>Comment</strong>
-        <p>Nous lancerons bientôt les inscriptions.</p>
+        <h3>Qualité</h3>
+        <p>
+          <a href="https://www.opquast.com/formation/" target="_blank" class="buttonLight"> Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</br>
+        </p>
 
       </div>
 
       <div class="">
 
         <h2>
-          <g-image class="icon" width="24" alt="Lifebuoy icon" src="~/assets/images/services.svg"/>
-          <span class="highlight">Le commando UX</span>
+          <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
+          <span class="highlight">Diplômes</span>
         </h2>
-        <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
+        <p>Les formations diplômantes vous permettent de vous former à un nouveau
+          metier, pour en devenir expert.</p>
 
-        <strong>Qui</strong>
-        <p>En priorité, les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Votre démarche n'en fait pas partie ? Rencontrez-nous lors de nos Bureaux ouverts !</p>
-
-        <strong>Quand</strong>
-        <p>Nous conviendrons ensemble d'un premier rendez-vous pour discuter plus en détails de votre démarche et vous présenter un premier diagnostique rapide.</p>
-
-        <strong>Comment</strong>
-        <p>En nous contactant par email à l'adresse .</p>
+        <h3>Bientôt disponible</h3>
 
       </div>
 
@@ -77,7 +74,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous !</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -138,6 +135,20 @@ export default {
 
     strong {
       color: $brown;
+    }
+
+    .buttonLight {
+      text-decoration: none;
+      background-color: white;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0 0 16px 0;
+
+      &:hover {
+        .arrow {
+          padding: 0 0 0 10px;
+        }
+      }
     }
   }
 

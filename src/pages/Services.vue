@@ -6,7 +6,9 @@
 
       <h1>Nos services</h1>
 
-      <p class="subtitle">Vous avez en besoin en design&nbsp;? Des questions&nbsp;? Vous souhaitez obtenir des retours, des conseils sur votre service&nbsp;? Nous vous aidons&nbsp;!</p>
+      <p class="subtitle">Vous avez des besoin en design&nbsp;? Sur les sujets d'accessibilité&nbsp;?
+        Des questions&nbsp;? Vous souhaitez obtenir des retours, des conseils sur
+        votre service&nbsp;? Nous vous aidons&nbsp;!</p>
 
       </div>
     </div>
@@ -77,7 +79,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous !</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -122,8 +124,7 @@ export default {
 
   .highlight {
     box-shadow:
-      inset 0 -0.05em white,
-      inset 0 -1.4em $red-light;
+      inset 0 -1.2em $red-light;
   }
 
   .cover {

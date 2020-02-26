@@ -5,7 +5,7 @@
     <div id="menu" class="menuContent">
       <button @click="toggle" class="closeButton">Fermer ✕</button>
       <g-link to="/">Accueil</g-link>
-      <g-link to="/design">Le design numérique</g-link>
+      <!-- <g-link to="/design">Le design numérique</g-link> -->
       <g-link to="/outils">Les outils</g-link>
       <g-link to="/services">Nos services</g-link>
       <g-link to="/formations">Les formations</g-link>

@@ -26,7 +26,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   font-weight: 800;
 
   @media only screen and (max-width: $mobileMaxWidth) {
@@ -71,8 +71,14 @@ button {
   }
 }
 
-.button {
+.button, .buttonLight {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+}
+
+.arrow {
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  padding: 0 0 0 6px;
+  transition: .2s all;
 }
 
 .cover {
@@ -94,10 +100,6 @@ button {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
-  }
-
-  .logo {
-    max-width: 92%;
   }
 
   .subtitle {
@@ -123,7 +125,7 @@ button {
     }
   }
 
-  p, strong {
+  p, strong, h3 {
     margin: 0px 0 24px 0;
     padding-left: 44px;
 

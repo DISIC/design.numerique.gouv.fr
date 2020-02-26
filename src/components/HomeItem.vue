@@ -8,7 +8,10 @@
 
     <p class="homeItemText" v-html="text"></p>
 
-    <g-link :to="link" class="button">{{ buttonText }}</g-link>
+    <g-link :to="link" class="button">
+      {{ buttonText }}
+      <span class='arrow'>→</span>
+    </g-link>
 
   </div>
   <div v-else class="homeItem" :style="colors">
@@ -124,10 +127,6 @@ export default {
 
   .buttonDisabled {
     color: $gray;
-    //border: 2px solid $gray;
-    //background-color: white;
-    //border-radius: 32px;
-    //padding: 8px 24px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;

@@ -6,9 +6,10 @@
 
       <h1>Nos services</h1>
 
-      <p class="subtitle">Vous avez des besoin en design&nbsp;? Sur les sujets d'accessibilité&nbsp;?
-        Des questions&nbsp;? Vous souhaitez obtenir des retours, des conseils sur
-        votre service&nbsp;? Nous vous aidons&nbsp;!</p>
+      <p class="subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
+        questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,
+        demander des conseils pour le développement ou l'amélioration de votre service&nbsp;?
+        Nous vous aidons&nbsp;!</p>
 
       </div>
     </div>
@@ -79,7 +80,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -96,10 +97,23 @@ export default {
   components: {
   },
   metaInfo: {
-    title: "DesignGouv - Le design numérique au service des administrations",
-    meta: [
-      { name: "description", content: "Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous." }
-    ],
+    title: "Nos services pour améliorer vos démarches en ligne - DesignGouv",
+    meta: [{
+      name: 'description',
+      content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+    },
+    {
+      property: 'og:title',
+      content: "Nos services pour améliorer vos démarches en ligne - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+    },
+    {
+      property: 'og:image',
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

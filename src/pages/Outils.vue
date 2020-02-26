@@ -7,8 +7,8 @@
       <h1>Les Outils</h1>
 
       <p class="subtitle">
-        De nombreux outils peuvent vous aider à améliorer la qualité de vos
-        démarches vous-même. Bonnes pratiques, expérience utilisateur, accessibilité&nbsp;:
+        De nombreux outils peuvent vous aider à améliorer vous-même la qualité de
+        vos démarches. Bonnes pratiques, expérience utilisateur, accessibilité&nbsp;:
         nous les avons réunis pour vous.
       </p>
 
@@ -49,9 +49,9 @@
         <p>
           Les services publics ont l’obligation d’être accessibles de façon équivalente
           à tout citoyen, qu’il soit ou non en situation de handicap. Un service
-          numérique accessible est plus facile à utiliser pour les personnes handicapées
+          numérique accessible est plus facile à utiliser pour les personnes en situation de handicap
           et de meilleure qualité pour tous&nbsp;! Si vous ne savez pas par
-          où commencer, laissez vous guider&nbsp;:
+          où commencer, laissez-vous guider&nbsp;:
         </p>
 
         <p>
@@ -69,9 +69,9 @@
               <td><span class="bullet">2</span></td>
               <td>
                 Si besoin, formez les développeurs‧es et designers</br>
-                <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite" target="_blank" class="buttonLight">
+                <g-link to="/formations" class="buttonLight">
                   Voir les formations&nbsp;<span class='arrow'>→</span>
-                </a>
+                </g-link>
               </td>
             </tr>
             <tr>
@@ -112,7 +112,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -129,10 +129,23 @@ export default {
   components: {
   },
   metaInfo: {
-    title: "DesignGouv - Le design numérique au service des administrations",
-    meta: [
-      { name: "description", content: "Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous." }
-    ],
+    title: "Les outils pour le design numérique et l'accessibilité - DesignGouv",
+    meta: [{
+      name: 'description',
+      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+    },
+    {
+      property: 'og:title',
+      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+    },
+    {
+      property: 'og:image',
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

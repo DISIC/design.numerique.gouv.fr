@@ -1,7 +1,10 @@
 <template>
 
   <div class="menuButton">
-    <button @click="toggle" v-click-outside="hide">Menu</button>
+    <button @click="toggle" v-click-outside="hide">
+      <span class="menuText">Menu</span>
+      <g-image class="menuIcon" alt="Menu" src="~/assets/images/menu.svg"/>
+    </button>
     <div id="menu" class="menuContent">
       <button @click="toggle" class="closeButton">Fermer ✕</button>
       <g-link to="/">Accueil</g-link>
@@ -9,7 +12,7 @@
       <g-link to="/outils">Les outils</g-link>
       <g-link to="/services">Nos services</g-link>
       <g-link to="/formations">Les formations</g-link>
-      <a class="community" href="http://eepurl.com/gLJCsb">Rejoindre la communauté</a>
+      <a class="community" href="http://eepurl.com/gLJCsb" target="_blank">Rejoindre la communauté</a>
     </div>
   </div>
 
@@ -47,6 +50,30 @@ export default {
   .menuButton {
     position: relative;
     display: inline-block;
+  }
+
+  .menuText {
+    font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      display: none;
+    }
+  }
+
+  .menuIcon {
+    display: none;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      display: inline-block;
+    }
+  }
+
+  button {
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 12px 16px;
+    }
   }
 
   #menu {
@@ -92,12 +119,7 @@ export default {
     }
 
     .community {
-      display: none;
       color: $emerald;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        display: block;
-      }
     }
   }
 

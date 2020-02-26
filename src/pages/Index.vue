@@ -14,10 +14,10 @@
     <HomeItem
       title="Découvrez le Design numérique"
       text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
-      <b>accessibles</b> et <b>agréables</b> pour tous les usagers. Concevoir par
-      le design, c’est mettre en oeuvre une démarche de création centrée sur les
+      <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
+      le design, c’est mettre en œuvre une démarche de création centrée sur les
       usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Nous vous présenterons
-      tout cela en détails bientôt."
+      tout cela en détail bientôt."
       buttonText="Bientôt disponible !"
       v-bind:buttonActivated="false"
       link="/"
@@ -29,8 +29,8 @@
 
     <HomeItem
       title="Design & accessibilité : les outils"
-      text="De nombreux outils peuvent vous aider à améliorer la qualité de vos
-      démarches vous-même. Bonnes pratiques, expérience utilisateur, accessibilité&nbsp;:
+      text="De nombreux outils peuvent vous aider à améliorer vous-même la qualité de vos
+      démarches. <b>Bonnes pratiques</b>, <b>expérience utilisateur</b>, <b>accessibilité</b>&nbsp;:
       nous les avons réunis pour vous."
       buttonText="J'accède aux outils"
       v-bind:buttonActivated="true"
@@ -43,9 +43,10 @@
 
     <HomeItem
       title="Besoin d'aide ? Nous vous accompagnons."
-      text="Vous avez des besoin en design&nbsp;? Sur les sujets d'accessibilité&nbsp;?
-        Des questions&nbsp;? Vous souhaitez obtenir des retours, des conseils sur
-        votre service&nbsp;? Nous vous aidons&nbsp;!"
+      text="Vous avez des besoins en design&nbsp;?
+        Vous vous <b>posez des questions</b> sur les sujets d'accessibilité&nbsp;? Vous souhaitez <b>obtenir des
+        retours</b>, <b>demander des conseils</b> pour le développement ou l'amélioration
+        de votre service&nbsp;? Nous vous aidons&nbsp;!"
       buttonText="J'ai besoin d'aide"
       v-bind:buttonActivated="true"
       link="/services"
@@ -58,9 +59,9 @@
     <HomeItem
       title="Des formations pour vous et vos équipes"
       text="De nombreuses formations sont disponibles, certaines accessibles
-        gratuitement, que ce soit pour vous former personnellement ou en équipe
-        sur les divers sujets liés au design, à la qualité des services numérique,
-        à l’accessibilité etc."
+        <b>gratuitement</b>, pour vous former <b>personnellement</b>
+        ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
+        services numériques et à l’accessibilité."
       buttonText="Je découvre les formations"
       v-bind:buttonActivated="true"
       link="/formations"
@@ -75,7 +76,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -94,9 +95,22 @@ export default {
   },
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",
-    meta: [
-      { name: "description", content: "Comment créer des services numériques de qualité et accessibles pour tous." }
-    ],
+    meta: [{
+      name: 'description',
+      content: "Comment créer des services numériques de qualité et accessibles pour tous."
+    },
+    {
+      property: 'og:title',
+      content: "DesignGouv - Le design numérique au service des administrations"
+    },
+    {
+      property: 'og:description',
+      content: "Comment créer des services numériques de qualité et accessibles pour tous."
+    },
+    {
+      property: 'og:image',
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

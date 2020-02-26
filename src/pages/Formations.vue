@@ -7,9 +7,8 @@
       <h1>Les formations</h1>
 
       <p class="subtitle">De nombreuses formations sont disponibles, certaines accessibles
-        gratuitement, que ce soit pour vous former personnellement ou en équipe
-        sur les divers sujets liés au design, à la qualité des services numérique,
-        à l’accessibilité etc.</p>
+        gratuitement, pour vous former personnellement ou en équipe sur les divers
+        sujets liés au design, à la qualité des services numériques et à l’accessibilité.</p>
 
       </div>
     </div>
@@ -22,7 +21,7 @@
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
           <span class="highlight">Initiations</span>
         </h2>
-        <p>Initier vous gratuitement, c'est une bonne manière de découvrir rapidement un nouveau sujet&nbsp;!</p>
+        <p>Initiez-vous facilement et gratuitement. C'est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
 
         <h3>Design</h3>
         <p>
@@ -44,7 +43,7 @@
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
           <span class="highlight">Certifications</span>
         </h2>
-        <p>Avec les formations certifiantes, vous pouvez acquerir rapidement des
+        <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
           compétences sur les sujets qui vous intéressent.</p>
 
         <h3>Qualité</h3>
@@ -60,8 +59,7 @@
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
           <span class="highlight">Diplômes</span>
         </h2>
-        <p>Les formations diplômantes vous permettent de vous former à un nouveau
-          metier, pour en devenir expert.</p>
+        <p>Les formations diplômantes vous permettent de devenir expert ou de vous diriger vers un nouveau métier.</p>
 
         <h3>Bientôt disponible</h3>
 
@@ -74,7 +72,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunis celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres, des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -91,10 +89,23 @@ export default {
   components: {
   },
   metaInfo: {
-    title: "DesignGouv - Le design numérique au service des administrations",
-    meta: [
-      { name: "description", content: "Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous." }
-    ],
+    title: "Les formations au design numérique et à l'accessibilté - DesignGouv",
+    meta: [{
+      name: 'description',
+      content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+    },
+    {
+      property: 'og:title',
+      content: "Les formations au design numérique et à l'accessibilté - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+    },
+    {
+      property: 'og:image',
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

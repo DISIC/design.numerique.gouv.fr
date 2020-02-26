@@ -3,7 +3,7 @@
     <header class="header">
       <div>
         <g-link to="/">
-          <g-image src="~/assets/images/marianne.svg" width="80" />
+          <g-image src="~/assets/images/marianne.svg" width="80" alt="Marianne" />
         </g-link>
         <strong>
           <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>
@@ -105,11 +105,10 @@ export default {
     margin: 12px auto;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      display: flex;
-      padding: 0 12px;
-      flex-direction: column;
-      align-items: flex-start;
-      margin-bottom: 20px;
+      padding: 0 8px;
+      // flex-direction: column;
+      // align-items: flex-start;
+      // margin-bottom: 20px;
     }
 
     .title {

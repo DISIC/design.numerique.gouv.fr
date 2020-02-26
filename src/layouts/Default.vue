@@ -3,17 +3,13 @@
     <header class="header">
       <div>
         <g-link to="/">
-          <g-image class="marianne" src="~/assets/images/dinumLogoDesktop.svg" alt="DesignGouv - Retour à l'accueil"/>
-          <g-image v-if="logoLarge === false" class="logoSmall" alt="DesignGouv" src="~/assets/images/logoBeta.svg"/>
+          <g-image src="~/assets/images/marianne.svg" width="80" />
         </g-link>
+        <strong>
+          <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>
+        </strong>
       </div>
-      <div v-if="logoLarge" class="logoDesktop bottom">
-        <g-image alt="DesignGouv" src="~/assets/images/logoBeta.svg"/>
-      </div>
-      <nav v-if="logoLarge" class="nav top">
-        <Menu />
-      </nav>
-      <nav v-else class="nav">
+      <nav class="nav">
         <Menu />
       </nav>
     </header>
@@ -24,7 +20,7 @@
       <div class="layout">
 
         <g-link to="/">
-          <g-image class="logoFooter" alt="DesignGouv" src="~/assets/images/logoBetaWhite.svg"/>
+          <g-image class="logo" alt="DesignGouv" width="320" src="~/assets/images/logoBetaWhite.svg"/>
         </g-link>
 
         <p class="small"><strong>DesignGouv</strong> est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> (DINUM).<br>
@@ -73,88 +69,120 @@ export default {
   @import "src/assets/scss/_vars.scss";
 
   @font-face {
-  	font-family: "Marianne";
-  	font-weight: 300;
-  	src: url("../assets/fonts/Marianne-Light.ttf") format("ttf"),
-  	     url("../assets/fonts/Marianne-Light.woff") format("woff2"),
-  	     url("../assets/fonts/Marianne-Light.woff2") format("woff");
+    font-family: "Marianne";
+    font-weight: 300;
+    src: url("../assets/fonts/Marianne-Light.ttf") format("ttf"),
+         url("../assets/fonts/Marianne-Light.woff") format("woff2"),
+         url("../assets/fonts/Marianne-Light.woff2") format("woff");
   }
   @font-face {
-  	font-family: "Marianne";
-  	font-weight: 400;
-  	src: url("../assets/fonts/Marianne-Regular.ttf") format("ttf"),
-  	     url("../assets/fonts/Marianne-Regular.woff") format("woff2"),
-  	     url("../assets/fonts/Marianne-Regular.woff2") format("woff");
+    font-family: "Marianne";
+    font-weight: 400;
+    src: url("../assets/fonts/Marianne-Regular.ttf") format("ttf"),
+         url("../assets/fonts/Marianne-Regular.woff") format("woff2"),
+         url("../assets/fonts/Marianne-Regular.woff2") format("woff");
   }
   @font-face {
-  	font-family: "Marianne";
-  	font-weight: 700;
-  	src: url("../assets/fonts/Marianne-Bold.ttf") format("ttf"),
-  	     url("../assets/fonts/Marianne-Bold.woff") format("woff2"),
-  	     url("../assets/fonts/Marianne-Bold.woff2") format("woff");
+    font-family: "Marianne";
+    font-weight: 700;
+    src: url("../assets/fonts/Marianne-Bold.ttf") format("ttf"),
+         url("../assets/fonts/Marianne-Bold.woff") format("woff2"),
+         url("../assets/fonts/Marianne-Bold.woff2") format("woff");
   }
   @font-face {
-  	font-family: "Marianne";
-  	font-weight: 800;
-  	src: url("../assets/fonts/Marianne-ExtraBold.ttf") format("ttf"),
-  	     url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
-  	     url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
+    font-family: "Marianne";
+    font-weight: 800;
+    src: url("../assets/fonts/Marianne-ExtraBold.ttf") format("ttf"),
+         url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
+         url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
   }
 
-  .bottom {
-    align-self: flex-end;
-  }
-
-  .top {
-    align-self: flex-start;
-  }
-
-  .nav {
-    width: 185px;
-    text-align: right;
+  .header {
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px auto;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      align-self: flex-start;
+      display: flex;
+      padding: 0 12px;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      color: $gray;
+      text-decoration: none;
+      margin-left: 10px;
+
+      // @media only screen and (max-width: $mobileMaxWidth) {
+      //   display: none;
+      // }
+    }
+
+    .nav {
+      text-align: right;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        align-self: flex-end;
+      }
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    span {
+      font-style: italic;
+      font-family: serif;
+      font-size: 1.2em;
+      font-weight: normal;
     }
   }
 
-  .logoFooter {
-    width: 220px;
+  .layout {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
   }
 
-  .logoSmall {
-    width: 220px;
-    padding-left: 64px;
-    padding-bottom: 48px;
+  .footer {
+    padding: 40px 0;
+    margin-top: 100px;
+    background: $dark;
+    color: #9e9d9a;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
-      display: none;
-    }
-  }
-
-  .logoDesktop {
-    @media only screen and (max-width: $desktopMinWidth) {
-      display: none;
-    }
-  }
-
-  /* .community {
-    background-color: #FFFFFF;
-    padding: 8px 22px;
-    border: solid 1px $emerald;
-    border-radius: 24px;
-    text-decoration: none;
-    color: $emerald;
-    margin-right: 16px;
-
-    &:hover, &:focus {
-      background-color: $emerald;
+    a {
+      text-decoration: none;
       color: white;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
 
-    @media only screen and (max-width: $mobileMaxWidth) {
-      display: none;
+    .logo {
+      max-width: 80%;
     }
-  } */
+
+    .public {
+      font-size: .8em;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      span {
+        margin-right: 5px;
+      }
+
+      a {
+        margin-right: 10px;
+        opacity: 0.8;
+      }
+    }
+  }
 
 </style>

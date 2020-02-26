@@ -25,14 +25,14 @@
 
         <h3>Design</h3>
         <p>
-          <a href="http://eepurl.com/gLJCsb" target="_blank" class="buttonLight">Initiez-vous au Design</a>, 6 heures, gratuit.</br>
-          <a href="http://eepurl.com/gLJCsb" target="_blank" class="buttonLight">UX design : découvrez les fondamentaux</a>, 8 heures, gratuit.
+          <a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Initiez-vous au Design<span class="black">, 6 heures, gratuit.</span></a></br>
+          <a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>UX design&nbsp;: découvrez les fondamentaux<span class="black">, 8 heures, gratuit.</span></a>
         </p>
 
         <h3>Accessibilité</h3>
         <p>
-          <a href="https://www.fun-mooc.fr/courses/inria/41012/session01/about" target="_blank" class="buttonLight">L'accessibilité numérique</a>, 15 heures, gratuit.</br>
-          <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank" class="buttonLight">Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.
+          <a href="https://www.fun-mooc.fr/courses/inria/41012/session01/about" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>L'accessibilité numérique<span class="black">, 15 heures, gratuit.</span></a></br>
+          <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Mise en œuvre de l’accessibilité numérique<span class="black">, 14 heures, gratuit.</span></a>
         </p>
 
       </div>
@@ -48,7 +48,7 @@
 
         <h3>Qualité</h3>
         <p>
-          <a href="https://www.opquast.com/formation/" target="_blank" class="buttonLight"> Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</br>
+          <a href="https://www.opquast.com/formation/" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Maîtrise de la qualité en projet web<span class="black">, 14 heures, 250€ HT.</span></a></br>
         </p>
 
       </div>
@@ -155,9 +155,18 @@ export default {
       display: inline-block;
       margin: 0 0 16px 0;
 
+      .black {
+        color: $dark;
+        font-weight: normal;
+      }
+
       &:hover {
         .arrow {
           padding: 0 0 0 10px;
+        }
+
+        .arrowLeft {
+          padding: 0 4px 0 4px;
         }
       }
     }

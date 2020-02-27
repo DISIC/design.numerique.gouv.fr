@@ -82,6 +82,9 @@
                 <!-- <a href="https://github.com/DISIC/assistant-rgaa" target="_blank" class="buttonLight">
                   L'assistant RGAA&nbsp;<span class='arrow'>→</span>
                 </a></br> -->
+                <a href="https://accessibilityinsights.io/" target="_blank" class="buttonLight">
+                   Extension Chrome et Microsoft analyse accessibilité (WCAG 2.1)&nbsp;<span class='arrow'>→</span>
+                </a></br>
                 <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
                    Extension Firefox analyse des structures HTML5&nbsp;<span class='arrow'>→</span>
                 </a></br>

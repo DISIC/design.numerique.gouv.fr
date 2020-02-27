@@ -4,7 +4,7 @@
 
     <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
-    <p><g-link :to="link"><h2>{{ title }}</h2></g-link></p>
+    <h2><g-link :to="link">{{ title }}</g-link></h2>
 
     <p class="homeItemText" v-html="text"></p>
 
@@ -14,11 +14,11 @@
     </g-link>
 
   </div>
-  <div v-else class="homeItem" :style="colors">
+  <div v-else class="homeItem disabled" :style="colors">
 
     <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
-    <p><h2>{{ title }}</h2></p>
+    <h2>{{ title }}</h2>
 
     <p class="homeItemText" v-html="text"></p>
 
@@ -70,6 +70,22 @@ export default {
 
 @import "src/assets/scss/_vars.scss";
 
+.disabled {
+
+  .icon {
+    display: block;
+    padding-bottom: 24px;
+  }
+
+  h2 {
+    box-shadow:
+      inset 0 -0.05em white,
+      inset 0 -0.4em var(--colorLight);
+    display: inline;
+    transition: .1s all;
+  }
+}
+
 .homeItem {
   margin: 48px 0 108px 0;
 
@@ -82,22 +98,21 @@ export default {
   }
 
   h2 {
-    box-shadow:
-      inset 0 -0.05em white,
-      inset 0 -0.4em var(--colorLight);
-    display: inline;
-    transition: .1s all;
-  }
+    a {
+      text-decoration: none;
+      color: $dark;
+      box-shadow:
+        inset 0 -0.05em white,
+        inset 0 -0.4em var(--colorLight);
+      display: inline;
+      transition: .1s all;
+    }
 
-  a h2:hover {
-    box-shadow:
-      inset 0 -0.05em white,
-      inset 0 -1.4em var(--colorLight);
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--color);
+    a:hover {
+      box-shadow:
+        inset 0 -0.05em white,
+        inset 0 -1.4em var(--colorLight);
+    }
   }
 
   .homeItemText {

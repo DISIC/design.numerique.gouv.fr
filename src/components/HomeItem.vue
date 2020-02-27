@@ -1,10 +1,10 @@
 <template>
 
-  <div v-if="buttonActivated" class="homeItem" :style="colors">
+  <section v-if="buttonActivated" class="homeItem" :style="colors">
 
     <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
-    <h2><g-link :to="link">{{ title }}</g-link></h2>
+    <h2><g-link :to="link" v-html="title">{{ title }}</g-link></h2>
 
     <p class="homeItemText" v-html="text"></p>
 
@@ -13,8 +13,8 @@
       <span class='arrow'>→</span>
     </g-link>
 
-  </div>
-  <div v-else class="homeItem disabled" :style="colors">
+  </section>
+  <section v-else class="homeItem disabled" :style="colors">
 
     <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
@@ -24,7 +24,7 @@
 
     <p class="buttonDisabled">{{ buttonText }}</p>
 
-  </div>
+  </section>
 
 </template>
 
@@ -71,12 +71,6 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
 .disabled {
-
-  .icon {
-    display: block;
-    padding-bottom: 24px;
-  }
-
   h2 {
     box-shadow:
       inset 0 -0.05em white,
@@ -87,17 +81,16 @@ export default {
 }
 
 .homeItem {
-  margin: 48px 0 108px 0;
 
-  @media only screen and (max-width: $mobileMaxWidth) {
-    margin: 28px 0 68px;
-
-    p {
-      margin: 12px 0;
-    }
+  .icon {
+    display: block;
+    padding-bottom: 16px;
   }
 
   h2 {
+    padding: 0;
+    margin: 0;
+
     a {
       text-decoration: none;
       color: $dark;
@@ -145,7 +138,7 @@ export default {
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       font-size: 0.875em;

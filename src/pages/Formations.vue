@@ -15,7 +15,7 @@
 
     <div class="content">
 
-      <div class="">
+      <section>
 
         <h2>
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
@@ -35,9 +35,9 @@
           <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Mise en œuvre de l’accessibilité numérique<span class="black">, 14 heures, gratuit.</span></a>
         </p>
 
-      </div>
+      </section>
 
-      <div class="">
+      <section>
 
         <h2>
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
@@ -51,9 +51,9 @@
           <a href="https://www.opquast.com/formation/" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Maîtrise de la qualité en projet web<span class="black">, 14 heures, 250€ HT.</span></a></br>
         </p>
 
-      </div>
+      </section>
 
-      <div class="">
+      <section>
 
         <h2>
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
@@ -63,7 +63,7 @@
 
         <h3>Bientôt disponible</h3>
 
-      </div>
+      </section>
 
     </div>
 
@@ -72,7 +72,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="title">Rejoignez la communauté&nbsp;!</a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="description">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 

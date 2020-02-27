@@ -1,7 +1,5 @@
 @import "vars";
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap|Open+Sans:400,600&display=swap');
-
 body {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   margin: 0;
@@ -38,16 +36,16 @@ h2 {
   font-size: 2em;
   font-weight: 700;
 
-  .icon {
-    padding-right: 20px;
-  }
-
   @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 1.75em;
+  }
+}
 
-    .icon {
-      display: none;
-    }
+section {
+  margin-bottom: 96px;
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    margin-bottom: 64px;
   }
 }
 
@@ -97,8 +95,8 @@ button {
   left: 50%;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    padding: 32px 0 16px;
-    margin-bottom: 64px;
+    padding: 48px 0 32px;
+    margin-bottom: 48px;
   }
 
   .coverContainer {
@@ -123,16 +121,19 @@ button {
 
 .content {
 
-  div {
-    margin-bottom: 96px;
+  .icon {
+    padding-right: 20px;
+  }
 
-    @media only screen and (max-width: $mobileMaxWidth) {
-      margin-bottom: 80px;
+  @media only screen and (max-width: $mobileMaxWidth) {
+
+    .icon {
+      display: none;
     }
   }
 
-  p, strong, h3 {
-    margin: 0px 0 24px 0;
+  p, strong, h3, table {
+    margin: 0 0 24px 0;
     padding-left: 44px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
@@ -174,6 +175,10 @@ button {
     display: inline;
     transition: .1s all;
 
+    @media only screen and (max-width: $mobileMaxWidth) {
+      font-size: 1.75em;
+    }
+
     &:hover, &:focus {
       box-shadow:
         inset 0 -0.05em white,
@@ -181,7 +186,7 @@ button {
     }
   }
 
-  .homeItemText {
+  .description {
     margin-top: 24px;
   }
 

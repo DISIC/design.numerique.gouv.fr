@@ -17,7 +17,7 @@
 
     <div class="content">
 
-      <div class="">
+      <section>
 
         <h2>
           <g-image class="icon" width="24" alt="Tool icon" src="~/assets/images/tools.svg"/>
@@ -37,9 +37,9 @@
           </a>
         </p>
 
-      </div>
+      </section>
 
-      <div class="">
+      <section>
 
         <h2>
           <g-image class="icon" width="24" alt="Tool icon" src="~/assets/images/tools.svg"/>
@@ -55,69 +55,67 @@
           Si vous ne savez pas par où commencer, laissez-vous guider&nbsp;:
         </p>
 
-        <p>
-          <table>
-            <tr>
-              <td><span class="bullet">1</span></td>
-              <td>
-                Prenez en compte les règles d’accessibilité référencées dans le RGAA, dès le début du projet.</br>
-                <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite" target="_blank" class="buttonLight">
-                  Voir les règles d'accessibilité du RGAA 4&nbsp;<span class='arrow'>→</span>
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td><span class="bullet">2</span></td>
-              <td>
-                Si besoin, formez les développeurs‧es et designers</br>
-                <g-link to="/formations" class="buttonLight">
-                  Voir les formations&nbsp;<span class='arrow'>→</span>
-                </g-link>
-              </td>
-            </tr>
-            <tr>
-              <td><span class="bullet">3</span></td>
-              <td>
-                Tout au long du developpement, testez régulièrement l’accessibilité de votre service. Plusieurs outils peuvent vous y aider :</br>
-                <a href="https://accessibilityinsights.io/" target="_blank" class="buttonLight">
-                   Extension Chrome et Microsoft analyse accessibilité (WCAG 2.1)&nbsp;<span class='arrow'>→</span>
-                </a></br>
-                <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
-                   Extension Firefox analyse des structures HTML5&nbsp;<span class='arrow'>→</span>
-                </a></br>
-                <a href="https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/" target="_blank" class="buttonLight">
-                  Extension Firefox controleur de contraste (WCAG 2.1)&nbsp;<span class='arrow'>→</span>
-                </a></br>
-                <a href="https://github.com/Tanaguru/webextension" target="_blank" class="buttonLight">
-                  Extension Firefox test accessibilité (RGAA 4)&nbsp;<span class='arrow'>→</span>
-                </a>
-                <span class="comment">
-                  Ces extensions analysent la page affichée et permettent facilement de savoir que corriger.
-                </span>
-              </td>
-            </tr>
-            <tr>
-              <td><span class="bullet">4</span></td>
-              <td>Testez vos services avec des vrais usagers en situations de handicap variées. Nous sommes là pour faciliter.</br>
-                <a href="mailto:contact@design.numerique.gouv.fr" target="_blank" class="buttonLight">
-                  Contacter via e-mail&nbsp;<span class='arrow'>→</span>
-                </a>
-              </td>
-            </tr>
-            <tr>
-              <td><span class="bullet">5</span></td>
-              <td>Enfin, pour répondre aux nouvelles obligations du <a href="https://beta.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" target="_blank">décret n° 2019-768</a> relatif à l'accessibilité aux personnes handicapées des services en ligne, vous devrez :
-                <ul>
-                  <li>Pour chaque service, produire une déclaration d’accessibilité</li>
-                  <li>Pour chaque service, indiquer son niveau d'accessibilité dès la page d'accueil</li>
-                  <li>Pour votre entité, produire un schéma pluriannuel</li>
-                </ul>
-              </td>
-            </tr>
-          </table>
-        </p>
+        <table>
+          <tr>
+            <td><span class="bullet">1</span></td>
+            <td>
+              Prenez en compte les règles d’accessibilité référencées dans le RGAA, dès le début du projet.</br>
+              <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite" target="_blank" class="buttonLight">
+                Voir les règles d'accessibilité du RGAA 4&nbsp;<span class='arrow'>→</span>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="bullet">2</span></td>
+            <td>
+              Si besoin, formez les développeurs‧es et designers</br>
+              <g-link to="/formations" class="buttonLight">
+                Voir les formations&nbsp;<span class='arrow'>→</span>
+              </g-link>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="bullet">3</span></td>
+            <td>
+              Tout au long du developpement, testez régulièrement l’accessibilité de votre service. Plusieurs outils peuvent vous y aider :</br>
+              <!-- <a href="https://github.com/DISIC/assistant-rgaa" target="_blank" class="buttonLight">
+                L'assistant RGAA&nbsp;<span class='arrow'>→</span>
+              </a></br> -->
+              <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
+                 Extension Firefox analyse des structures HTML5&nbsp;<span class='arrow'>→</span>
+              </a></br>
+              <a href="https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/" target="_blank" class="buttonLight">
+                Extension Firefox controleur de contraste (WCAG 2.1)&nbsp;<span class='arrow'>→</span>
+              </a></br>
+              <a href="https://github.com/Tanaguru/webextension" target="_blank" class="buttonLight">
+                Extension Firefox test accessibilité (RGAA 4)&nbsp;<span class='arrow'>→</span>
+              </a>
+              <span class="comment">
+                Ces extensions analysent la page affichée et permettent facilement de savoir que corriger.
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="bullet">4</span></td>
+            <td>Testez vos services avec des vrais usagers en situations de handicap variées. Nous sommes là pour faciliter.</br>
+              <a href="mailto:contact@design.numerique.gouv.fr" target="_blank" class="buttonLight">
+                Contacter via e-mail&nbsp;<span class='arrow'>→</span>
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td><span class="bullet">5</span></td>
+            <td>Enfin, pour répondre aux nouvelles obligations du <a href="https://beta.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" target="_blank">décret n° 2019-768</a> relatif à l'accessibilité aux personnes handicapées des services en ligne, vous devrez :
+              <ul>
+                <li>Pour chaque service, produire une déclaration d’accessibilité</li>
+                <li>Pour chaque service, indiquer son niveau d'accessibilité dès la page d'accueil</li>
+                <li>Pour votre entité, produire un schéma pluriannuel</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
 
-      </div>
+      </section>
 
     </div>
 
@@ -126,7 +124,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="title">Rejoignez la communauté&nbsp;!</a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="description">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -216,11 +214,15 @@ export default {
     }
 
     .bullet {
+      display: inline-block;
       font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
       color: $green;
       border: 2px solid $green;
-      border-radius: 32px;
-      padding: 8px 14px;
+      text-align: center;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      padding: 8px;
       margin-right: 8px;
       font-weight: 900;
     }

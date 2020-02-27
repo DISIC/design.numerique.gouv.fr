@@ -15,9 +15,8 @@
       title="Découvrez le Design numérique"
       text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
       <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
-      le design, c’est mettre en œuvre une démarche de création centrée sur les
-      usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Nous vous présenterons
-      tout cela en détail bientôt."
+      le design, c’est mettre en œuvre des solutions centrées sur les
+      usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier ! Nous vous présenterons tout cela en détail bientôt."
       buttonText="Bientôt disponible !"
       v-bind:buttonActivated="false"
       link="/"
@@ -76,7 +75,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 

@@ -23,9 +23,14 @@
           <g-image class="logo" alt="DesignGouv" width="320" src="~/assets/images/logoBetaWhite.svg"/>
         </g-link>
 
-        <p class="small"><strong>DesignGouv</strong> est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> (DINUM).<br>
-        Accessibilité : en cours d'évaluation au 15 jan 2020<br>
-        Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre.</p>
+        <p class="small">
+          <strong>DesignGouv</strong> est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> (DINUM).</br>
+          Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre. Et nous vous invitons à contribuer.
+        </p>
+
+        <p>
+          Accessibilité : en cours d'évaluation.
+        </p>
 
         <div class="public">
           <span>LES SITES PUBLICS :</span>
@@ -152,11 +157,11 @@ export default {
     padding: 40px 0;
     margin-top: 100px;
     background: $dark;
-    color: #9e9d9a;
+    color: #fafafa;
 
     a {
       text-decoration: none;
-      color: white;
+      color: $blue-hover;
 
       &:hover {
         text-decoration: underline;

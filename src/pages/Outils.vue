@@ -28,7 +28,7 @@
           Qu’est-ce qu’une démarche en ligne de qualité&nbsp;? Quelles sont les attentes
           de l’usager&nbsp;? Quels objectifs viser pour aller plus loin&nbsp;? Nous avons identifié, avec les administrations,
           dix principes traçant la voie pour des services publics numériques encore
-          plus efficaces et proches du citoyen.
+          plus efficaces et proches des besoins des citoyens.
         </p>
 
         <p>
@@ -47,11 +47,12 @@
         </h2>
 
         <p>
-          Les services publics ont l’obligation d’être accessibles de façon équivalente
+          Les services publics ont l’obligation légale d’être accessibles de façon équivalente
           à tout citoyen, qu’il soit ou non en situation de handicap. Un service
-          numérique accessible est plus facile à utiliser pour les personnes en situation de handicap
-          et de meilleure qualité pour tous&nbsp;! Si vous ne savez pas par
-          où commencer, laissez-vous guider&nbsp;:
+          numérique accessible sera plus facile à utiliser pour tous les usagers.
+        </p>
+        <p>
+          Si vous ne savez pas par où commencer, laissez-vous guider&nbsp;:
         </p>
 
         <p>
@@ -59,9 +60,9 @@
             <tr>
               <td><span class="bullet">1</span></td>
               <td>
-                Prenez en compte les règles d’accessibilité référencées dans le RGAA, si possible dès le début du projet.</br>
+                Prenez en compte les règles d’accessibilité référencées dans le RGAA, dès le début du projet.</br>
                 <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite" target="_blank" class="buttonLight">
-                  Voir les règles d'accessibilité RGAA&nbsp;<span class='arrow'>→</span>
+                  Voir les règles d'accessibilité du RGAA 4&nbsp;<span class='arrow'>→</span>
                 </a>
               </td>
             </tr>
@@ -77,13 +78,13 @@
             <tr>
               <td><span class="bullet">3</span></td>
               <td>
-                Tout au long du developpement, testez régulièrement l’accessibilité. Plusieurs outils peuvent vous y aider :</br>
-                <a href="https://github.com/DISIC/assistant-rgaa" target="_blank" class="buttonLight">
+                Tout au long du developpement, testez régulièrement l’accessibilité de votre service. Plusieurs outils peuvent vous y aider :</br>
+                <!-- <a href="https://github.com/DISIC/assistant-rgaa" target="_blank" class="buttonLight">
                   L'assistant RGAA&nbsp;<span class='arrow'>→</span>
-                </a></br>
-                <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
+                </a></br> -->
+                <!-- <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
                   HeadingMap&nbsp;<span class='arrow'>→</span>
-                </a></br>
+                </a></br> -->
                 <a href="https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/" target="_blank" class="buttonLight">
                   WCag Contrast Checker&nbsp;<span class='arrow'>→</span>
                 </a></br>
@@ -94,11 +95,21 @@
             </tr>
             <tr>
               <td><span class="bullet">4</span></td>
-              <td>Testez avec des vrais usagers en situations de handicap variées</td>
+              <td>Testez vos services avec des vrais usagers en situations de handicap variées. Nous sommes là pour faciliter.</br>
+                <a href="mailto:contact@design.numerique.gouv.fr" target="_blank" class="buttonLight">
+                  Contacter via e-mail&nbsp;<span class='arrow'>→</span>
+                </a>
+              </td>
             </tr>
             <tr>
               <td><span class="bullet">5</span></td>
-              <td>Produisez la déclaration d’accessibilité (site) et le schéma pluriannuel (entité)</td>
+              <td>Enfin, pour répondre aux nouvelles obligations du <a href="https://beta.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" target="_blank">décret n° 2019-768</a> relatif à l'accessibilité aux personnes handicapées des services en ligne, vous devrez :
+                <ul>
+                  <li>Pour chaque service, produire une déclaration d’accessibilité</li>
+                  <li>Pour chaque service, indiquer son niveau d'accessibilité dès la page d'accueil</li>
+                  <li>Pour votre entité, produire un schéma pluriannuel</li>
+                </ul>
+              </td>
             </tr>
           </table>
         </p>
@@ -112,7 +123,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
@@ -195,6 +206,10 @@ export default {
       vertical-align: top;
       font-weight: 700;
       padding-bottom: 32px;
+
+      li {
+        font-weight: normal;
+      }
     }
 
     .bullet {

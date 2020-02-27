@@ -47,7 +47,7 @@
         <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
 
         <strong>Quand</strong>
-        <p>Les revues de conception sont des évènements que nous organisons une fois tous les deux mois. Nous annoncerons bientôt les dates des premiers évènements !</p>
+        <p>Les revues de conception sont des événements que nous organisons une fois tous les deux mois. Nous annoncerons bientôt les dates des premiers événements !</p>
 
         <strong>Comment</strong>
         <p>Nous lancerons bientôt les inscriptions.</p>
@@ -80,7 +80,7 @@
 
       <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="h2"><h2>Rejoignez la communauté&nbsp;!</h2></a></p>
 
-      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des évènements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
+      <p class="homeItemText">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 

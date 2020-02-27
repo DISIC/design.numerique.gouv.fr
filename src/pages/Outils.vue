@@ -79,9 +79,6 @@
               <td><span class="bullet">3</span></td>
               <td>
                 Tout au long du developpement, testez régulièrement l’accessibilité de votre service. Plusieurs outils peuvent vous y aider :</br>
-                <!-- <a href="https://github.com/DISIC/assistant-rgaa" target="_blank" class="buttonLight">
-                  L'assistant RGAA&nbsp;<span class='arrow'>→</span>
-                </a></br> -->
                 <a href="https://accessibilityinsights.io/" target="_blank" class="buttonLight">
                    Extension Chrome et Microsoft analyse accessibilité (WCAG 2.1)&nbsp;<span class='arrow'>→</span>
                 </a></br>

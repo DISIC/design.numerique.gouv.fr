@@ -82,15 +82,18 @@
                 <!-- <a href="https://github.com/DISIC/assistant-rgaa" target="_blank" class="buttonLight">
                   L'assistant RGAA&nbsp;<span class='arrow'>→</span>
                 </a></br> -->
-                <!-- <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
-                  HeadingMap&nbsp;<span class='arrow'>→</span>
-                </a></br> -->
+                <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
+                   Extension Firefox analyse des structures HTML5&nbsp;<span class='arrow'>→</span>
+                </a></br>
                 <a href="https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/" target="_blank" class="buttonLight">
-                  WCag Contrast Checker&nbsp;<span class='arrow'>→</span>
+                  Extension Firefox controleur de contraste (WCAG 2.1)&nbsp;<span class='arrow'>→</span>
                 </a></br>
                 <a href="https://github.com/Tanaguru/webextension" target="_blank" class="buttonLight">
-                  Tanaguru Engine&nbsp;<span class='arrow'>→</span>
+                  Extension Firefox test accessibilité (RGAA 4)&nbsp;<span class='arrow'>→</span>
                 </a>
+                <span class="comment">
+                  Ces extensions analysent la page affichée et permettent facilement de savoir que corriger.
+                </span>
               </td>
             </tr>
             <tr>
@@ -220,6 +223,12 @@ export default {
       padding: 8px 14px;
       margin-right: 8px;
       font-weight: 900;
+    }
+
+    .comment {
+      display: inline-block;
+      font-weight: normal;
+      margin-top: 10px;
     }
 
     .button {

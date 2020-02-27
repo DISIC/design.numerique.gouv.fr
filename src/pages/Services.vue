@@ -69,7 +69,7 @@
         <p>Nous conviendrons ensemble d'un premier rendez-vous pour discuter plus en détails de votre démarche et vous présenter un premier diagnostique rapide.</p>
 
         <strong>Comment</strong>
-        <p>En nous contactant par email à l'adresse .</p>
+        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
 
       </div>
 

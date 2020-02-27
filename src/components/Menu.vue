@@ -1,8 +1,7 @@
 <template>
 
   <div class="menuButton">
-    <!-- <button @click="toggle" v-click-outside="hide"> -->
-    <button @click="toggle">
+    <button @click="toggle" v-click-outside="hide">
       <span class="menuText">Menu</span>
       <g-image class="menuIcon" alt="Menu" src="~/assets/images/menu.svg"/>
     </button>

@@ -51,6 +51,7 @@
           à tout citoyen, qu’il soit ou non en situation de handicap. Un service
           numérique accessible sera plus facile à utiliser pour tous les usagers.
         </p>
+
         <p>
           Si vous ne savez pas par où commencer, laissez-vous guider&nbsp;:
         </p>
@@ -81,6 +82,9 @@
               <!-- <a href="https://github.com/DISIC/assistant-rgaa" target="_blank" class="buttonLight">
                 L'assistant RGAA&nbsp;<span class='arrow'>→</span>
               </a></br> -->
+              <a href="https://accessibilityinsights.io/" target="_blank" class="buttonLight">
+                 Extension Chrome et Microsoft analyse accessibilité&nbsp;<span class='arrow'>→</span>
+              </a></br>
               <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
                  Extension Firefox analyse des structures HTML5&nbsp;<span class='arrow'>→</span>
               </a></br>

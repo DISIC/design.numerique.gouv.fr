@@ -153,7 +153,21 @@ button {
     padding: 24px 8px 16px 8px;
   }
 
-  h2 {
+  p {
+    margin: 8px;
+  }
+
+  a {
+    color: var(--color);
+  }
+
+  .title {
+    color: $dark;
+    font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.2em;
+    font-size: 2em;
+    font-weight: 700;
+    text-decoration: none;
     box-shadow:
       inset 0 -0.05em white,
       inset 0 -0.4em var(--colorLight);
@@ -165,18 +179,6 @@ button {
         inset 0 -0.05em white,
         inset 0 -1.4em var(--colorLight);
     }
-  }
-
-  p {
-    margin: 8px;
-  }
-
-  a {
-    color: var(--color);
-  }
-
-  .h2 {
-    text-decoration: none;
   }
 
   .homeItemText {

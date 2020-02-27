@@ -73,6 +73,8 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800,900&display=swap');
+
   @font-face {
     font-family: "Marianne";
     font-weight: 300;

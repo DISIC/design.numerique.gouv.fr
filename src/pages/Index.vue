@@ -95,19 +95,39 @@ export default {
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",
     meta: [{
-      name: 'description',
+      name: "description",
       content: "Comment créer des services numériques de qualité et accessibles pour tous."
     },
     {
-      property: 'og:title',
+      property: "og:title",
       content: "DesignGouv - Le design numérique au service des administrations"
     },
     {
-      property: 'og:description',
+      property: "og:description",
       content: "Comment créer des services numériques de qualité et accessibles pour tous."
     },
     {
-      property: 'og:image',
+      property: "og:image",
+      content: "https://designgouv.fr/designGouv.png"
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      name: "twitter:site",
+      content: "@DesignGouv"
+    },
+    {
+      name: "twitter:title",
+      content: "DesignGouv - Le design numérique au service des administrations"
+    },
+    {
+      name: "twitter:description",
+      content: "Comment créer des services numériques de qualité et accessibles pour tous."
+    },
+    {
+      name: "twitter:image",
       content: "https://designgouv.fr/designGouv.png"
     }],
   }

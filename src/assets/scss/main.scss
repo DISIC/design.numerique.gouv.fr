@@ -1,151 +1,207 @@
 @import "vars";
-@import "layout";
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap|Open+Sans:400,600&display=swap');
 
 body {
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
   color: $gray;
 }
 
 a {
   color: $blue;
-  transition: .5s all;
+  transition: .2s all;
 
   &:hover {
     color: $blue-hover;
   }
 }
 
-.button {
-  background: $blue;
-  color: white;
-  border-radius: 50px;
-  padding: 10px 20px;
-  text-decoration: none;
-  display: inline-block;
-  margin: 10px 0;
-
-  &:hover {
-    background: $blue-hover;
-    color: white;
-  }
+h1, h2, h3 {
+  color: $dark;
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.2em;
 }
 
 h1 {
-  font-size: 3em;
-  line-height: 1.1;
+  font-size: 4em;
+  font-weight: 800;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 2.5em;
   }
 }
 
-h1, h2, h3 {
-  color: black;
-  font-family: "Montserrat";
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+
+  .icon {
+    padding-right: 20px;
+  }
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    font-size: 1.75em;
+
+    .icon {
+      display: none;
+    }
+  }
 }
 
 li {
   margin-bottom: 5px;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+button {
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  background-color: $light-gray;
+  color: $dark;
+  padding: 10px 24px;
+  font-size: 1em;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  transition: .2s background-color;
+
+  &:hover, &:focus {
+    background-color: $light-gray-hover
+  }
 }
 
-.header {
-  display: flex;
-  padding: 0 20px;
-  justify-content: space-between;
-  align-items: center;
-  margin: 20px auto 50px;
+.button, .buttonLight {
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+}
 
-  @media only screen and (max-width: 600px) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 20px;
+.arrow {
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  padding: 0 0 0 6px;
+  transition: .2s all;
+}
+
+.arrowLeft {
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  padding: 0 8px 0 0px;
+  transition: .2s all;
+}
+
+.cover {
+  padding: 80px 0 64px;
+  margin-bottom: 80px;
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    padding: 32px 0 16px;
+    margin-bottom: 64px;
   }
 
-  .title {
-    color: $gray;
-    text-decoration: none;
-    margin-left: 10px;
+  .coverContainer {
+    max-width: 640px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
+
+  .subtitle {
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 1.5em;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding-top: 8px;
+      font-weight: 700;
+      font-size: 1.125em;
+    }
+  }
+}
+
+.content {
 
   div {
-    display: flex;
-    align-items: center;
-  }
+    margin-bottom: 96px;
 
-  span {
-    font-style: italic;
-    font-family: serif;
-    font-size: 1.2em;
-    font-weight: normal;
-  }
-
-  .nav {
-    @media only screen and (max-width: 600px) {
-      padding: 0.4em 0;
-      margin: 20px 0;
-      box-sizing: border-box;
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 80px;
     }
   }
 
-  .nav__link {
-    color: $gray;
-    text-decoration: none;
-    padding: 0.4em 0.8em;
-    margin: 0 5px 0 0;
-    border-radius: 3px;
+  p, strong, h3 {
+    margin: 0px 0 24px 0;
+    padding-left: 44px;
 
-    @media only screen and (max-width: 600px) {
-      border: 1px solid $light-gray;
-    }
-
-    &:hover,
-    &.active--exact {
-      background: $light-gray;
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding-left: 0px;
     }
   }
 }
 
-.footer {
-  padding: 40px 0;
-  margin-top: 100px;
-  background: $dark;
-  color: #9e9d9a;
+.card {
+  margin: 80px 0;
+  text-align: center;
+  padding: 32px 32px 24px 32px;
+  background: #FFFFFF;
+  box-shadow: 0 0 32px -8px #C9D3DF;
+  border-radius: 32px;
 
-  a {
-    text-decoration: none;
-    color: white;
+  @media only screen and (max-width: $mobileMaxWidth) {
+    padding: 24px 8px 16px 8px;
+  }
 
-    &:hover {
-      text-decoration: underline;
+  h2 {
+    box-shadow:
+      inset 0 -0.05em white,
+      inset 0 -0.4em var(--colorLight);
+    display: inline;
+    transition: .1s all;
+
+    &:hover, &:focus {
+      box-shadow:
+        inset 0 -0.05em white,
+        inset 0 -1.4em var(--colorLight);
     }
   }
 
-  .public {
-    font-size: .8em;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  p {
+    margin: 8px;
+  }
 
-    span {
-      margin-right: 5px;
+  a {
+    color: var(--color);
+  }
+
+  .h2 {
+    text-decoration: none;
+  }
+
+  .homeItemText {
+    margin-top: 24px;
+  }
+
+  .button {
+    text-decoration: none;
+    color: white;
+    border: 2px solid var(--color);
+    background-color: var(--color);
+    border-radius: 32px;
+    padding: 8px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      font-size: 0.875em;
     }
 
-    a {
-      margin-right: 10px;
-      opacity: 0.8;
+    &:hover {
+      background: white;
+      color: var(--color);
     }
   }
 }

@@ -111,9 +111,9 @@
             <td><span class="bullet">5</span></td>
             <td>Enfin, pour répondre aux nouvelles obligations du <a href="https://beta.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" target="_blank">décret n° 2019-768</a> relatif à l'accessibilité aux personnes handicapées des services en ligne, vous devrez :
               <ul>
-                <li>Pour chaque service, produire une déclaration d’accessibilité</li>
+                <li>Pour chaque service, produire une déclaration d’accessibilité (<a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-exemple-declaration.pdf" title="Exemple de déclaration d'accessibilité" target="_blank">exemple</a>)</li>
                 <li>Pour chaque service, indiquer son niveau d'accessibilité dès la page d'accueil</li>
-                <li>Pour votre entité, produire un schéma pluriannuel</li>
+                <li>Pour votre entité, produire un schéma pluriannuel de mise en accessibilité</li>
               </ul>
             </td>
           </tr>

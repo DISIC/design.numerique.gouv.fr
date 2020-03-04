@@ -116,7 +116,7 @@ export default {
     },
     {
       name: "twitter:site",
-      content: "@DesignGouv"
+      content: "@Design_Gouv"
     },
     {
       name: "twitter:title",

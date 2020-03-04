@@ -132,7 +132,7 @@
 
       <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 
-      <p>Sur Twitter : <a href="https://twitter.com/designgouv" title="Twitter" target="_blank">@DesignGouv</a></p>
+      <p>Sur Twitter : <a href="https://twitter.com/design_gouv" title="Twitter" target="_blank">@Design_gouv</a></p>
     </div>
 
   </Layout>

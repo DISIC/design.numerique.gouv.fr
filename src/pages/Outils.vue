@@ -113,7 +113,7 @@
               <ul>
                 <li>Pour chaque service, produire une déclaration d’accessibilité (<a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-exemple-declaration.pdf" title="Exemple de déclaration d'accessibilité" target="_blank">exemple</a>)</li>
                 <li>Pour chaque service, indiquer son niveau d'accessibilité dès la page d'accueil</li>
-                <li>Pour votre entité, produire un schéma pluriannuel de mise en accessibilité</li>
+                <li>Pour votre entité, produire un schéma pluriannuel de mise en accessibilité (<a href="https://www.iledefrance.fr/sites/default/files/medias/2019/07/20190708_schema-pluriannuel-access_public.pdf" target="_blank" title="Exemple de schéma pluriannuel">exemple</a>)</li>
               </ul>
             </td>
           </tr>

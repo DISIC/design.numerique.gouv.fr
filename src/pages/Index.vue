@@ -6,7 +6,7 @@
 
         <h1>DesignGouv <span class="beta">ßeta</span></h1>
 
-        <p class="subtitle">Bienvenue&nbsp;! Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques de qualité et accessibles pour tous.</p>
+        <p class="subtitle">Bienvenue&nbsp;! Cet espace est dédié aux agents publics soucieux de créer des services numériques de qualité et accessibles pour tous.</p>
 
       </div>
     </div>

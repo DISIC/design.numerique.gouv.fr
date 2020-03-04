@@ -6,7 +6,7 @@
 
       <h1>Le Design numérique</h1>
 
-      <p>Bienvenue ! Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous.</p>
+      <p>Bienvenue ! Cet espace est dédié aux agents publics soucieux de créer des services numériques accessibles pour tous.</p>
 
       </div>
     </div>
@@ -35,7 +35,7 @@ export default {
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",
     meta: [
-      { name: "description", content: "Cet espace est dédié aux agents publics de l'État soucieux de créer des services numériques accessibles pour tous." }
+      { name: "description", content: "Cet espace est dédié aux agents publics soucieux de créer des services numériques accessibles pour tous." }
     ],
   }
 }

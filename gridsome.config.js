@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'DesignGouv',
+  siteUrl: 'https://design.numerique.gouv.fr/',
   plugins: [
     {
       use: 'gridsome-plugin-matomo',

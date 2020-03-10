@@ -12,6 +12,7 @@
       <g-link to="/outils">Les outils</g-link>
       <g-link to="/services">Nos services</g-link>
       <g-link to="/formations">Les formations</g-link>
+      <g-link to="/recrutement">Recrutement</g-link>
       <a class="community" href="http://eepurl.com/gLJCsb" target="_blank">Rejoindre la communauté</a>
     </div>
   </div>

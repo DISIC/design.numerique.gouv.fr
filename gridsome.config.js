@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'DesignGouv',
+  siteUrl: 'https://design.numerique.gouv.fr/',
   plugins: [
     {
       use: 'gridsome-plugin-matomo',
@@ -13,7 +14,14 @@ module.exports = {
         host: '//stats.data.gouv.fr',
         siteId: 105
       }
-    }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/docs/*','/recrutement/*','/recrutement'],
+      }
+    },
   ],
   templates: {},
 }

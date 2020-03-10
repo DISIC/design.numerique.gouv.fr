@@ -129,6 +129,10 @@ export default {
     {
       name: "twitter:image",
       content: "https://designgouv.fr/designGouv.png"
+    },
+    {
+      name: "google-site-verification",
+      content: "3lr6jhip11QgAYBjIlgBMRAi7CfsjE8mQygaLbZo68A"
     }],
   }
 }

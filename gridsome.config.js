@@ -14,7 +14,13 @@ module.exports = {
         host: '//stats.data.gouv.fr',
         siteId: 105
       }
-    }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+      }
+    },
   ],
   templates: {},
 }

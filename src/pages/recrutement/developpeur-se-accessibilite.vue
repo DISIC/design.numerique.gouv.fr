@@ -89,7 +89,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'stage-design'
+    title: 'Expert-e design et accessibilité numérique (niveau développeur-se)'
   }
 }
 </script>

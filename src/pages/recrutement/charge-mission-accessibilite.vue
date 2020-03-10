@@ -100,7 +100,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'stage-design'
+    title: 'Chargé-e de mission accessibilité et qualité des services numériques'
   }
 }
 </script>

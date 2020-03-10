@@ -92,7 +92,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'stage-design'
+    title: 'Designer UX'
   }
 }
 </script>

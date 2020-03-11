@@ -92,7 +92,43 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Designer UX'
+    title: "Designer UX",
+    meta: [{
+      name: "description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:title",
+      content: "Designer UX"
+    },
+    {
+      property: "og:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:image",
+      content: "https://designgouv.fr/designGouv.png"
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      name: "twitter:site",
+      content: "@Design_Gouv"
+    },
+    {
+      name: "twitter:title",
+      content: "Designer UX"
+    },
+    {
+      name: "twitter:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      name: "twitter:image",
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

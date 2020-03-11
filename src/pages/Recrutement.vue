@@ -13,7 +13,43 @@
 <script>
 export default {
   metaInfo: {
-    title: 'recrutement'
+    title: "Recrutement",
+    meta: [{
+      name: "description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:title",
+      content: "DesignGouv - Recrutement"
+    },
+    {
+      property: "og:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:image",
+      content: "https://designgouv.fr/designGouv.png"
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      name: "twitter:site",
+      content: "@Design_Gouv"
+    },
+    {
+      name: "twitter:title",
+      content: "DesignGouv - Recrutement"
+    },
+    {
+      name: "twitter:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      name: "twitter:image",
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

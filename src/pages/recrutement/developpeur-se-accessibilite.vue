@@ -89,7 +89,43 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Expert-e design et accessibilité numérique (niveau développeur-se)'
+    title: "Expert-e design et accessibilité numérique (niveau développeur-se)",
+    meta: [{
+      name: "description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:title",
+      content: "Expert-e design et accessibilité numérique (niveau développeur-se)"
+    },
+    {
+      property: "og:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:image",
+      content: "https://designgouv.fr/designGouv.png"
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      name: "twitter:site",
+      content: "@Design_Gouv"
+    },
+    {
+      name: "twitter:title",
+      content: "Expert-e design et accessibilité numérique (niveau développeur-se)"
+    },
+    {
+      name: "twitter:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      name: "twitter:image",
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

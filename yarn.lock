@@ -768,6 +768,30 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@fortawesome/fontawesome-common-types@^0.2.27":
+  version "0.2.27"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.27.tgz#19706345859fc46adf3684ed01d11b40903b87e9"
+  integrity sha512-97GaByGaXDGMkzcJX7VmR/jRJd8h1mfhtA7RsxDBN61GnWE/PPCZhOdwG/8OZYktiRUF0CvFOr+VgRkJrt6TWg==
+
+"@fortawesome/fontawesome-svg-core@^1.2.27":
+  version "1.2.27"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.27.tgz#e4db8e3be81a40988213507c3e3d0c158a6641a3"
+  integrity sha512-sOD3DKynocnHYpuw2sLPnTunDj7rLk91LYhi2axUYwuGe9cPCw7Bsu9EWtVdNJP+IYgTCZIbyARKXuy5K/nv+Q==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.27"
+
+"@fortawesome/free-brands-svg-icons@^5.12.1":
+  version "5.12.1"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.12.1.tgz#67977addd15e21e57aa1ed71cd2ddecdfaa88647"
+  integrity sha512-IYUYcgGsQuwiIHjRGfeSTCIQKUSZMb6FsV6mDj78K0D+YzGJkM4cvEBBUMHtnla5D2HCxncMI/9JX5YIk2GHeQ==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.27"
+
+"@fortawesome/vue-fontawesome@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.9.tgz#d3af6d4e50f337327de90447fe35fa1e117a2fbe"
+  integrity sha512-h/emhmZz+DfB2zOGLWawNwXq82UYhn9waTfUjLLmeaIqtnIyNt6kYlpQT/vzJjLZRDRvY2IEJAh1di5qKpKVpA==
+
 "@gridsome/cli@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.1.tgz#8bdf97facddb3ab5338eb57521bc0bf5808561d2"

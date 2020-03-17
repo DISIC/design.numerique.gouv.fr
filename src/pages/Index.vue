@@ -15,10 +15,10 @@
 
         <strong>COVID-19</strong>
 
-        <p>Depuis janvier 2020, une épidémie de Coronavirus COVID-19 (ex 2019-nCoV) s’est propagée depuis la Chine. Nous mettons à votre disposition les informations et documents utiles.</p>
+        <p>Nous avons créé des attestations de déplacements accessibles et inclusives de toutes et tous, à imprimer, à recopier ou à garder sur son téléphone.</p>
 
         <g-link to="/covid-19" class="button">
-          Les informations et documents utiles
+          Voir les documents
           <span class='arrow'>→</span>
         </g-link>
 

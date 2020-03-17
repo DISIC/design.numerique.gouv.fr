@@ -1,12 +1,10 @@
 <template>
   <Layout>
     <h1>Covid-19</h1>
-    <p>Depuis janvier 2020, une épidémie de Coronavirus COVID-19 (ex 2019-nCoV) s’est propagée depuis la Chine. Retrouvez toutes les réponses officielles aux questions que vous vous posez sur ce qu’est le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
+    <p>Retrouvez toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
     </p>
-    <p>Le 16 mars 2020, le Président de la République a pris des mesures pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire à compter du mardi 17 mars à 12h00, pour quinze jours minimum.</p>
-    <p>Des dérogations sur attestation sont possibles (déplacements entre le domicile et le lieu de travail, achats de première nécessité, motifs de santé, motif familial, assistance aux personnes vulnérables ou garde d’enfants et enfin pour des déplacements brefs, à proximité du domicile, liés à l’activité physique et aux besoins des animaux de compagnie).
-    </p>
-    <p>Accédez aux attestations et justificatifs ci-dessous :</p>
+    <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
+    <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous :</p>
     <p class="small">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Si vous ne pouvez pas les recopier, vous pouvez aussi les présenter sur votre téléphone.</p>
 
     <h2>Télécharger au format .txt</h2>

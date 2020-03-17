@@ -18,10 +18,11 @@ Date de naissance :
 Adresse de domicile :
 
 
+
 Je certifie que mon déplacement est lié à un des motifs suivants :
 Vous pouvez cocher ou mettre un X devant l’option qui correspond à votre situation.
 
-[ ] déplacement entre mon domicile et mon travail, lorsque le télétravail n’est pas une option (il faut aussi présenter un le justificatif de déplacement professionnel) ou des déplacements professionnels qui ne peuvent pas être faits à un autre moment ;
+[ ] déplacement entre mon domicile et mon travail, lorsque le télétravail n’est pas une option (il faut aussi présenter le justificatif de déplacement professionnel) ou des déplacements professionnels qui ne peuvent pas être annulés ;
 
 [ ] déplacement pour effectuer des achats de première nécessité dans des établissements autorisés (liste disponible sur https://www.gouvernement.fr) ;
 
@@ -29,9 +30,9 @@ Vous pouvez cocher ou mettre un X devant l’option qui correspond à votre situ
 
 [ ] déplacement pour motif familial, pour l’assistance aux personnes vulnérables ou la garde d’enfants ;
 
-[ ] déplacements brefs, à proximité du domicile, liés à mon activité physique individuelle (hors pratique du sportive collective), ou aux besoins de mes animaux de compagnie ;
+[ ] déplacements brefs, à proximité du domicile, liés à mon activité physique individuelle (hors pratique du sport collectif), ou aux besoins de mes animaux de compagnie ;
 
 
 Fait à :
 Date :
-Signature :
+Signer avec son nom :

@@ -100,7 +100,43 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Chargé-e de mission accessibilité et qualité des services numériques'
+    title: "Chargé-e de mission accessibilité et qualité des services numériques",
+    meta: [{
+      name: "description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:title",
+      content: "Chargé-e de mission accessibilité et qualité des services numériques"
+    },
+    {
+      property: "og:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      property: "og:image",
+      content: "https://designgouv.fr/designGouv.png"
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      name: "twitter:site",
+      content: "@Design_Gouv"
+    },
+    {
+      name: "twitter:title",
+      content: "Chargé-e de mission accessibilité et qualité des services numériques"
+    },
+    {
+      name: "twitter:description",
+      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+    },
+    {
+      name: "twitter:image",
+      content: "https://designgouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

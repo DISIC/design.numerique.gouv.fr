@@ -5,8 +5,8 @@
     <ul>
       <li><a href="/covid-19/attestation-deplacement-fr.txt" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
       <li><a href="/covid-19/attestation-deplacement-en.txt" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li>
-      <li><a href="/covid-19/justificatif-deplacement-professionnel-fr.txt" download="justificatif-deplacement-professionnel-fr">Attestation de déplacement dérogatoire (Français)</a></li>
-      <li><a href="/covid-19/justificatif-deplacement-professionnel-en.txt" download="justificatif-deplacement-professionnel-en">Attestation de déplacement dérogatoire (English)</a></li>
+      <li><a href="/covid-19/justificatif-deplacement-professionnel-fr.txt" download="justificatif-deplacement-professionnel-fr">Justificatif deplacement professionnel (Français)</a></li>
+      <li><a href="/covid-19/justificatif-deplacement-professionnel-en.txt" download="justificatif-deplacement-professionnel-en">Justificatif deplacement professionnel (English)</a></li>
     </ul>
   </Layout>
 </template>

@@ -7,8 +7,7 @@
     <p>Des dérogations sur attestation sont possibles (déplacements entre le domicile et le lieu de travail, achats de première nécessité, motifs de santé, motif familial, assistance aux personnes vulnérables ou garde d’enfants et enfin pour des déplacements brefs, à proximité du domicile, liés à l’activité physique et aux besoins des animaux de compagnie).
     </p>
     <p>Accédez aux attestations et justificatifs ci-dessous :</p>
-    <p class="small">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez recopier ces documents sur une feuille de papier. Si vous ne pouvez pas imprimer ce formulaire ou le recopier, vous pouvez aussi les présenter sur votre téléphone.</p>
-
+    <p class="small">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Si vous ne pouvez pas les recopier, vous pouvez aussi les présenter sur votre téléphone.</p>
 
     <h2>Télécharger au format .txt</h2>
     <ul>

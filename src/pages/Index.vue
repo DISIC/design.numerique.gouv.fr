@@ -11,6 +11,19 @@
       </div>
     </div>
 
+    <div class="message">
+
+        <strong>COVID-19</strong>
+
+        <p>Depuis janvier 2020, une épidémie de Coronavirus COVID-19 (ex 2019-nCoV) s’est propagée depuis la Chine. Nous mettons à votre disposition les informations et documents utiles.</p>
+
+        <g-link to="/covid-19" class="button">
+          Les informations et documents utiles
+          <span class='arrow'>→</span>
+        </g-link>
+
+    </div>
+
     <HomeItem
       title="Découvrez le Design numérique"
       text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
@@ -163,6 +176,46 @@ export default {
     .subtitle {
       color: white;
       font-weight: 600;
+    }
+  }
+
+  .message {
+    text-align: center;
+    background-color: $light-gray;
+    padding: 24px 16px 16px 16px;
+    margin-top: -48px;
+    margin-bottom: 108px;
+    border-radius: 32px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-top: -16px;
+      margin-bottom: 80px;
+    }
+
+    strong {
+      font-size: 1.5em;
+    }
+
+    .button {
+      text-decoration: none;
+      color: $gray;
+      border: 2px solid $gray;
+      background-color: white;
+      border-radius: 32px;
+      padding: 8px 24px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        font-size: 0.8em;
+      }
+
+      &:hover {
+        background: $gray;
+        color: white;
+      }
     }
   }
 

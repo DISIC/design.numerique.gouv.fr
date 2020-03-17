@@ -19,7 +19,7 @@
       <li><a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
       <li><a href="/covid-19/docx/attestation-deplacement-en.docx" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li>
       <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr">Justificatif déplacement professionnel (Français)</a></li>
-      <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en">Justificatif déplacement professionnel (English)</a></li>      
+      <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en">Justificatif déplacement professionnel (English)</a></li>
     </ul>
 
   </Layout>

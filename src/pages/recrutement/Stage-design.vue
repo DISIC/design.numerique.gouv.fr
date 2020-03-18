@@ -55,7 +55,11 @@
 <script>
 export default {
   metaInfo: {
-    title: 'stage-design'
+    title: "Stage Design",
+    meta: [{
+      name: "robots",
+      content: "noindex"
+    }],
   }
 }
 </script>

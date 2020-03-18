@@ -136,6 +136,10 @@ export default {
     {
       name: "twitter:image",
       content: "https://designgouv.fr/designGouv.png"
+    },
+    {
+      name: "robots",
+      content: "noindex"
     }],
   }
 }

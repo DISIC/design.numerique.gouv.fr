@@ -15,10 +15,10 @@
 
         <strong>COVID-19</strong>
 
-        <p>Nous avons créé des attestations de déplacements accessibles et inclusives de toutes et tous, à imprimer ou à recopier.</p>
+        <p>Nous avons créé des attestations de déplacements accessibles et inclusives pour toutes et tous, à imprimer ou à recopier.</p>
 
         <g-link to="/covid-19" class="button">
-          Voir les documents
+          Accéder aux documents
           <span class='arrow'>→</span>
         </g-link>
 
@@ -182,7 +182,7 @@ export default {
   .message {
     text-align: center;
     background-color: $light-gray;
-    padding: 24px 16px 16px 16px;
+    padding: 24px 48px 16px 48px;
     margin-top: -48px;
     margin-bottom: 108px;
     border-radius: 32px;
@@ -190,6 +190,7 @@ export default {
     @media only screen and (max-width: $mobileMaxWidth) {
       margin-top: -16px;
       margin-bottom: 80px;
+      padding: 24px 16px 16px 16px;
     }
 
     strong {

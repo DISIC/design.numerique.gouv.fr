@@ -5,7 +5,7 @@
     </p>
     <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
     <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous :</p>
-    <p class="small">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Si vous ne pouvez pas les recopier, vous pouvez aussi les présenter sur votre téléphone.</p>
+    <p class="small">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier.</p>
 
     <h2>Télécharger au format .txt</h2>
     <ul>

@@ -210,7 +210,7 @@ export default {
       margin: 10px 0;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 0.8em;
+        font-size: 1em;
       }
 
       &:hover {

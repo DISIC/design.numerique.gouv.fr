@@ -63,11 +63,7 @@
 </template>
 
 <script>
-import HomeItem from '~/components/HomeItem.vue'
-
 export default {
-  components: {
-  },
   metaInfo: {
     title: "Accessibilité",
     meta: [{

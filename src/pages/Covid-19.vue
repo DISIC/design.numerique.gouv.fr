@@ -1,33 +1,48 @@
 <template>
   <Layout>
-    <h1>Covid-19</h1>
-    <p>Retrouvez toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
-    </p>
-    <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
-    <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous :</p>
-    <p class="small">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier.</p>
 
-    <h2>Télécharger au format .txt</h2>
-    <ul>
-      <li><a href="/covid-19/txt/attestation-deplacement-fr.txt" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
-      <!-- <li><a href="/covid-19/txt/attestation-deplacement-en.txt" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li> -->
-      <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-fr.txt" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
-      <!-- <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-en.txt" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li> -->
-    </ul>
+    <div class="coverLight">
+     <div class="coverContainer">
 
-    <h2>Télécharger au format .docx</h2>
-    <ul>
-      <li><a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
-      <li><a href="/covid-19/docx/attestation-deplacement-en.docx" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li>
-      <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
-      <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li>
-    </ul>
+       <h1>Covid-19</h1>
 
-    <h2>Format web pour les recopier si vous n'avez pas d'imprimante</h2>
-    <ul>
-      <li><g-link to="/covid-19/attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</g-link></li>
-      <li><g-link to="/covid-19/justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</g-link></li>
-    </ul>
+      </div>
+    </div>
+
+    <section>
+      <p>Retrouvez toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
+      </p>
+      <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
+      <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous.</p>
+      <p class="">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
+    </section>
+
+    <section>
+      <h2>Télécharger au format .txt</h2>
+      <ul>
+        <li><a href="/covid-19/txt/attestation-deplacement-fr.txt" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
+        <!-- <li><a href="/covid-19/txt/attestation-deplacement-en.txt" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li> -->
+        <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-fr.txt" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
+        <!-- <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-en.txt" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li> -->
+      </ul>
+    </section>
+
+    <section><h2>Télécharger au format .docx</h2>
+      <ul>
+        <li><a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
+        <li><a href="/covid-19/docx/attestation-deplacement-en.docx" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li>
+        <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
+        <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Afficher au format web pour recopie</h2>
+      <ul>
+        <li><g-link to="/covid-19/attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</g-link></li>
+        <li><g-link to="/covid-19/justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</g-link></li>
+      </ul>
+    </section>
 
     <div class="card" style="--color: #168376; --colorLight: #3CDDCA;">
       <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
@@ -46,5 +61,12 @@
 
 <script>
 export default {
+  metaInfo: {
+    title: "Covid-19",
+  }
 }
 </script>
+
+<style scoped lang="scss">
+
+</style>

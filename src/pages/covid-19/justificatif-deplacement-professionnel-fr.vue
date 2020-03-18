@@ -1,8 +1,18 @@
 <template>
   <Layout>
+
+    <div class="coverLight">
+     <div class="coverContainer covid-cover">
+
+       <strong>Covid-19</strong>
+       <h1>Justificatif de déplacement professionnel (Français)</h1>
+
+      </div>
+    </div>
+
     <p class="recopier">Recopier le texte dans l'encadré sur une feuille de papier, puis le remplir :</p>
-    <main class="covid-form">
-      <h1>Justificatif de déplacement professionnel</h1>
+    <div class="covid-form">
+      <h2>Justificatif de déplacement professionnel</h2>
       <p>En application de l’article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19 :</p>
       <br>
 
@@ -22,7 +32,7 @@
       <p>Fait à :</p>
       <p>Le :</p>
 
-    </main>
+    </div>
 
     <div class="card" style="--color: #168376; --colorLight: #3CDDCA;">
       <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
@@ -41,5 +51,12 @@
 
 <script>
 export default {
+  metaInfo: {
+    title: "Covid-19 - Justificatif de déplacement professionnel (Français)",
+  }
 }
 </script>
+
+<style scoped lang="scss">
+
+</style>

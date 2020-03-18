@@ -1,8 +1,18 @@
 <template>
   <Layout>
+
+    <div class="coverLight">
+     <div class="coverContainer covid-cover">
+
+       <strong>Covid-19</strong>
+       <h1>Attestation de déplacement dérogatoire (Français)</h1>
+
+      </div>
+    </div>
+
     <p class="recopier">Recopier le texte dans l'encadré sur une feuille de papier, puis le remplir :</p>
-    <main class="covid-form">
-      <h1>Attestation de déplacement dérogatoire</h1>
+    <div class="covid-form">
+      <h2>Attestation de déplacement dérogatoire</h2>
       <p>En application de l’article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19 :</p>
       <br>
       <p>Je sousigné(e)</p>
@@ -30,7 +40,7 @@
       <p>Le :</p>
       <p>Signature :</p>
 
-    </main>
+    </div>
 
 
     <div class="card" style="--color: #168376; --colorLight: #3CDDCA;">
@@ -50,5 +60,12 @@
 
 <script>
 export default {
+  metaInfo: {
+    title: "Covid-19 - Attestation de déplacement dérogatoire (Français)",
+  }
 }
 </script>
+
+<style scoped lang="scss">
+
+</style>

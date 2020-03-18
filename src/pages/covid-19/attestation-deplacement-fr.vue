@@ -16,7 +16,7 @@
 
       <p>[ ] déplacements entre le domicile et le lieu d’exercice de l’activité professionnelle, lorsqu’ils sont indispensables à l’exercice d’activités ne pouvant être organisées sous forme de télétravail (sur justificatif permanent) ou déplacements professionnels ne pouvant être différés ;</p>
 
-      <p>[ ] déplacements pour effectuer des achats de première nécessité dans des établissements autorisés (liste sur gouvernement.fr); </p>
+      <p>[ ] déplacements pour effectuer des achats de première nécessité dans des établissements autorisés (liste sur gouvernement.fr) ; </p>
 
       <p>[ ] déplacement pour motif de santé ;</p>
 

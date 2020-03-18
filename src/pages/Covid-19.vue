@@ -10,9 +10,9 @@
     <h2>Télécharger au format .txt</h2>
     <ul>
       <li><a href="/covid-19/txt/attestation-deplacement-fr.txt" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
-      <li><a href="/covid-19/txt/attestation-deplacement-en.txt" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li>
+      <!-- <li><a href="/covid-19/txt/attestation-deplacement-en.txt" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li> -->
       <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-fr.txt" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
-      <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-en.txt" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li>
+      <!-- <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-en.txt" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li> -->
     </ul>
 
     <h2>Télécharger au format .docx</h2>

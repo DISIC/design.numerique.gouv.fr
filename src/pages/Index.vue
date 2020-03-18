@@ -15,7 +15,7 @@
 
         <strong>COVID-19</strong>
 
-        <p>Nous avons créé des attestations de déplacements accessibles et inclusives de toutes et tous, à imprimer, à recopier ou à garder sur son téléphone.</p>
+        <p>Nous avons créé des attestations de déplacements accessibles et inclusives de toutes et tous, à imprimer ou à recopier.</p>
 
         <g-link to="/covid-19" class="button">
           Voir les documents

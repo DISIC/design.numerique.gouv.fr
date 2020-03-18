@@ -3,32 +3,32 @@
     <p class="recopier">Recopier le texte dans l'encadré sur une feuille de papier, puis le remplir :</p>
     <main class="covid-form">
       <h1>Attestation de déplacement dérogatoire</h1>
-      <p>En application de l’article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19.</p>
+      <p>En application de l’article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19 :</p>
       <br>
-      <p>Nom :</p>
-      <p>Prénom :</p>
-      <p>Date de naissance :</p>
-      <p>Adresse de domicile :</p>
+      <p>Je sousigné(e)</p>
+      <p>Mme/M. :</p>
+      <p>Né(e) le :</p>
+      <p>Demeurant :</p>
 
       <br>
 
-      <p>Je certifie que mon déplacement est lié à un des motifs suivants :</p>
+      <p>certifie que mon déplacement est lié au motif suivant (cocher la case) autorisé par l’article 1er du décret du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus Covid-19 :</p>
 
-      <p>[ ] déplacement entre mon domicile et mon travail, lorsque le télétravail n’est pas une option (il faut aussi présenter le justificatif de déplacement professionnel) ou des déplacements professionnels qui ne peuvent pas être annulés ;</p>
+      <p>[ ] déplacements entre le domicile et le lieu d’exercice de l’activité professionnelle, lorsqu’ils sont indispensables à l’exercice d’activités ne pouvant être organisées sous forme de télétravail (sur justificatif permanent) ou déplacements professionnels ne pouvant être différés ;</p>
 
-      <p>[ ] déplacement pour effectuer des achats de première nécessité dans des établissements autorisés (liste disponible sur https://gouvernement.fr) ;</p>
+      <p>[ ] déplacements pour effectuer des achats de première nécessité dans des établissements autorisés (liste sur gouvernement.fr); </p>
 
       <p>[ ] déplacement pour motif de santé ;</p>
 
-      <p>[ ] déplacement pour motif familial, pour l’assistance aux personnes vulnérables ou la garde d’enfants ;</p>
+      <p>[ ] déplacements pour motif familial impérieux, pour l’assistance aux personnes vulnérables ou la garde d’enfants ;</p>
 
-      <p>[ ] déplacements brefs, à proximité du domicile, liés à mon activité physique individuelle (hors pratique du sport collectif), ou aux besoins de mes animaux de compagnie ;</p>
+      <p>[ ] déplacements brefs, à proximité du domicile, liés à l’activité physique individuelle des personnes, à l’exclusion de toute pratique sportive collective, et aux besoins des animaux de compagnie.</p>
 
       <br>
-      
+
       <p>Fait à :</p>
-      <p>Date :</p>
-      <p>Signer avec votre nom :</p>
+      <p>Le :</p>
+      <p>Signature :</p>
 
     </main>
 

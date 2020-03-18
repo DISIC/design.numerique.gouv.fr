@@ -39,18 +39,23 @@
               <li><a href="https://twitter.com/design_gouv" target="_blank">
                 Twitter <font-awesome :icon="['fab', 'twitter']"/>
                 </a></li>
-              <li><a href="https://www.numerique.gouv.fr/donnees-personnelles/" target="_blank">Données personnelles</a></li>
-              <li><a href="https://www.numerique.gouv.fr/mentions-legales/" target="_blank">Mentions légales</a></li>
-              <li><a href="https://www.numerique.gouv.fr/accessibilite/" target="_blank">Accessibilité</a></li>
+              <li><a href="mailto:contact@design.numerique.gouv.fr" target="_blank">
+                  Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
+                  </a></li>
+              <li><g-link to="/recrutement">Recrutement</g-link></li>
+              <li><g-link to="/misc/accessibilite">Accessibilité</g-link></li>
+              <li><g-link to="/misc/donnees-personnelles">Données personnelles</g-link></li>
+              <li><g-link to="/misc/mentions-legales">Mentions légales</g-link></li>
               <!-- <li><a href="" target="_blank">Contact</a></li> -->
             </ul>
           </div>
           <div>
             Autres services
             <ul>
-              <li><a href="https://observatoire.numerique.gouv.fr" target="_blank">observatoire.numerique.gouv.fr</a></li>
-              <li><a href="https://demarches-simplifiees.fr" target="_blank">demarches-simplifiees.fr</a></li>
-              <li><a href="https://franceconnect.gouv.fr" target="_blank">franceconnect.gouv.fr</a></li>
+              <li><a href="https://observatoire.numerique.gouv.fr" target="_blank">L'obseravtoire du numérique</a></li>
+              <li><a href="https://demarches-simplifiees.fr" target="_blank">Demarches simplifiées</a></li>
+              <li><a href="https://franceconnect.gouv.fr" target="_blank">FranceConnect</a></li>
+              <li><a href="https://voxusagers.gouv.fr" target="_blank">Voxusagers</a></li>
             </ul>
           </div>
           <div>
@@ -135,6 +140,10 @@ export default {
     src: url("../assets/fonts/Marianne-ExtraBold.ttf") format("ttf"),
          url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
          url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
+  }
+
+  font-awesome {
+    padding-left: 4px;
   }
 
   header {
@@ -233,7 +242,6 @@ export default {
 
       a {
         margin-right: 12px;
-        //opacity: 0.8;
       }
     }
   }

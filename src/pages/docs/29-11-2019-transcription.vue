@@ -368,7 +368,11 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Transcription'
+    title: "Évènement accessibilité numérique",
+    meta: [{
+      name: "robots",
+      content: "noindex"
+    }],
   }
 }
 </script>

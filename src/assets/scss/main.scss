@@ -43,10 +43,10 @@ h2 {
 }
 
 section {
-  margin-bottom: 96px;
+  margin-bottom: 64px;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    margin-bottom: 64px;
+    margin-bottom: 48px;
   }
 }
 
@@ -94,6 +94,7 @@ button {
   position: relative;
   margin-left: -50vw;
   left: 50%;
+  background-color: $light-gray;
 
   @media only screen and (max-width: $mobileMaxWidth) {
     padding: 48px 0 32px;
@@ -120,6 +121,29 @@ button {
   }
 }
 
+.coverLight {
+  padding: 32px 0;
+  margin-bottom: 64px;
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  background-color: $light-gray;
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    padding: 32px 0;
+    margin-bottom: 48px;
+  }
+
+  .coverContainer {
+    max-width: 640px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .content {
 
   .icon {
@@ -130,6 +154,14 @@ button {
 
     .icon {
       display: none;
+    }
+  }
+
+  section {
+    margin-bottom: 96px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 64px;
     }
   }
 

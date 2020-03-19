@@ -52,7 +52,7 @@
           <div>
             Autres services
             <ul>
-              <li><a href="https://observatoire.numerique.gouv.fr" target="_blank">L'obseravtoire du numérique</a></li>
+              <li><a href="https://observatoire.numerique.gouv.fr" target="_blank">L'observatoire du numérique</a></li>
               <li><a href="https://demarches-simplifiees.fr" target="_blank">Demarches simplifiées</a></li>
               <li><a href="https://franceconnect.gouv.fr" target="_blank">FranceConnect</a></li>
               <li><a href="https://voxusagers.gouv.fr" target="_blank">Voxusagers</a></li>

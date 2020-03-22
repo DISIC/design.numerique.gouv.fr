@@ -15,8 +15,7 @@
         <p>Retrouvez toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
         </p>
         <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
-        <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous.</p>
-        <p class="">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
+        <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
       </section>
 
       <section>

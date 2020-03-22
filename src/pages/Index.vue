@@ -43,10 +43,8 @@
 
       <HomeItem
         title="Accessibilité numérique"
-        text="De nombreux outils peuvent vous aider à améliorer vous-même la qualité de vos
-        démarches. <b>Bonnes pratiques</b>, <b>expérience utilisateur</b>, <b>accessibilité</b>&nbsp;:
-        nous les avons réunis pour vous."
-        buttonText="J'accède aux outils"
+        text="L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout."
+        buttonText="Je découvre"
         v-bind:buttonActivated="true"
         link="/accessibilite-numerique"
         iconSrc="tools.svg"

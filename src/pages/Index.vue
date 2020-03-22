@@ -40,13 +40,13 @@
     />
 
     <HomeItem
-      title="Design & accessibilité : les outils"
+      title="Accessibilité numérique"
       text="De nombreux outils peuvent vous aider à améliorer vous-même la qualité de vos
       démarches. <b>Bonnes pratiques</b>, <b>expérience utilisateur</b>, <b>accessibilité</b>&nbsp;:
       nous les avons réunis pour vous."
       buttonText="J'accède aux outils"
       v-bind:buttonActivated="true"
-      link="/outils"
+      link="/accessibilite-numerique"
       iconSrc="tools.svg"
       iconAlt="Tool icon"
       color="#37863D"
@@ -83,18 +83,6 @@
       colorLight="#E2C56F"
     />
 
-    <div class="card" id="communaute" style="--color: #168376; --colorLight: #3CDDCA;">
-      <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
-
-      <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="title">Rejoignez la communauté&nbsp;!</a></p>
-
-      <p class="description">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
-
-      <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
-
-      <p>Sur Twitter : <a href="https://twitter.com/design_gouv" title="Twitter" target="_blank">@design_gouv</a></p>
-    </div>
-
   </Layout>
 </template>
 
@@ -103,7 +91,7 @@ import HomeItem from '~/components/HomeItem.vue'
 
 export default {
   components: {
-    HomeItem,
+    HomeItem
   },
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",

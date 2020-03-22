@@ -2,7 +2,7 @@
 @import "covid";
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5;
@@ -165,14 +165,15 @@ button {
     }
   }
 
-  p, strong, h3, table {
-    margin: 0 0 24px 0;
-    padding-left: 44px;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      padding-left: 0px;
-    }
-  }
+  // TODO: delete this normally. Waiting to see if it breaks something. (Marine)
+  // p, strong, h3, table {
+  //   margin: 0 0 24px 0;
+  //   padding-left: 44px;
+  //
+  //   @media only screen and (max-width: $mobileMaxWidth) {
+  //     padding-left: 0px;
+  //   }
+  // }
 }
 
 .card {

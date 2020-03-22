@@ -67,11 +67,12 @@
         </p>
         <ul>
           <li>Publier un schéma pluriannuel de mise en accessibilité sur 3 ans, décliné en plan annuel détaillant les actions prévues pour évoluer vers une accessibilité complète</li>
-          <li>Pour chacun de leurs sites et services (incluant intranet, extranet, ainsi qu’aux applications mobiles, progiciels et mobiliers urbains numériques) : </li>
-          <ul>
-            <li>Publier en ligne une déclaration d’accessibilité indiquant en détail l’état d’accessibilité du site ou service</li>
-            <li>Afficher une mention dès la page d’accueil afin d’indiquer l’état d’accessibilité du site ou service</li>
-          </ul>
+          <li>Pour chacun de leurs sites et services (incluant intranet, extranet, ainsi qu’aux applications mobiles, progiciels et mobiliers urbains numériques) :
+            <ul>
+              <li>Publier en ligne une déclaration d’accessibilité indiquant en détail l’état d’accessibilité du site ou service</li>
+              <li>Afficher une mention dès la page d’accueil afin d’indiquer l’état d’accessibilité du site ou service</li>
+            </ul>
+          </li>
         </ul>
         <p>
           Les usagers doivent pouvoir faire part de leurs difficultés, et saisir le Défenseur des droits en cas de non-réponse du responsable du site.

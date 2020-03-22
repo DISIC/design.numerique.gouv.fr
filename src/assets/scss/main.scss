@@ -158,22 +158,9 @@ button {
   }
 
   section {
-    margin-bottom: 96px;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
       margin-bottom: 64px;
-    }
   }
 
-  // TODO: delete this normally. Waiting to see if it breaks something. (Marine)
-  // p, strong, h3, table {
-  //   margin: 0 0 24px 0;
-  //   padding-left: 44px;
-  //
-  //   @media only screen and (max-width: $mobileMaxWidth) {
-  //     padding-left: 0px;
-  //   }
-  // }
 }
 
 .card {

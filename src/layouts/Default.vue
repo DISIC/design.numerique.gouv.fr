@@ -17,6 +17,9 @@
 
     <main class="layout">
       <slot/>
+      <div>
+        <Newsletter />
+      </div>
     </main>
 
     <footer>
@@ -27,8 +30,8 @@
             <g-image class="logo" alt="DesignGouv" width="320" src="~/assets/images/logoBetaWhite.svg"/>
           </g-link>
           <p>
-            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> (DINUM).</br>
-            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre. Et nous vous invitons à contribuer.
+            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
+            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre.
           </p>
         </div>
 
@@ -93,10 +96,12 @@ query {
 
 <script>
 import Menu from '~/components/Menu.vue'
+import Newsletter from '~/components/Newsletter.vue'
 
 export default {
   components: {
     Menu,
+    Newsletter
   },
   props: {
     logoLarge: {
@@ -111,35 +116,68 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800,900&display=swap');
-
   @font-face {
     font-family: "Marianne";
     font-weight: 300;
-    src: url("../assets/fonts/Marianne-Light.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-Light.woff") format("woff2"),
-         url("../assets/fonts/Marianne-Light.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-Light.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-Light.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-Light.woff2") format("woff");
   }
   @font-face {
     font-family: "Marianne";
     font-weight: 400;
-    src: url("../assets/fonts/Marianne-Regular.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-Regular.woff") format("woff2"),
-         url("../assets/fonts/Marianne-Regular.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-Regular.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-Regular.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-Regular.woff2") format("woff");
   }
   @font-face {
     font-family: "Marianne";
     font-weight: 700;
-    src: url("../assets/fonts/Marianne-Bold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-Bold.woff") format("woff2"),
-         url("../assets/fonts/Marianne-Bold.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-Bold.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-Bold.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-Bold.woff2") format("woff");
   }
   @font-face {
     font-family: "Marianne";
     font-weight: 800;
-    src: url("../assets/fonts/Marianne-ExtraBold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
-         url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-ExtraBold.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 300;
+    src: url("../assets/fonts/Inter/Inter-Light.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Light.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    src: url("../assets/fonts/Inter/Inter-Regular.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Regular.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    src: url("../assets/fonts/Inter/Inter-Medium.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Medium.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    src: url("../assets/fonts/Inter/Inter-Bold.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Bold.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 900;
+    src: url("../assets/fonts/Inter/Inter-Black.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Black.woff2") format("woff");
   }
 
   font-awesome {
@@ -188,6 +226,11 @@ export default {
     max-width: 760px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+
+  .content {
+    max-width: 580px;
+    margin: 0 auto;
   }
 
   footer {

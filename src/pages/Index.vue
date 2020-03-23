@@ -188,45 +188,4 @@ export default {
     }
   }
 
-  .message {
-    text-align: center;
-    background-color: $light-gray;
-    padding: 24px 48px 16px 48px;
-    margin-top: -30px;
-    margin-bottom: 50px;
-    border-radius: 32px;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      margin-top: -16px;
-      margin-bottom: 80px;
-      padding: 24px 16px 16px 16px;
-    }
-
-    strong {
-      font-size: 1.5em;
-    }
-
-    .button {
-      text-decoration: none;
-      color: $gray;
-      border: 2px solid $gray;
-      background-color: white;
-      border-radius: 32px;
-      padding: 8px 24px;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-      margin: 10px 0;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1em;
-      }
-
-      &:hover {
-        background: $gray;
-        color: white;
-      }
-    }
-  }
-
 </style>

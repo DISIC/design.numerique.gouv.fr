@@ -4,11 +4,8 @@
     <header>
       <div>
         <g-link to="/">
-          <g-image src="~/assets/images/marianne.svg" width="80" alt="Marianne" />
+          <g-image class="logo" src="~/assets/images/logoDesignGouvBeta.svg" width="320" alt="Logo DesignGouv" />
         </g-link>
-        <strong>
-          <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>
-        </strong>
       </div>
       <nav>
         <Menu />
@@ -180,45 +177,24 @@ export default {
          url("../assets/fonts/Inter/Inter-Black.woff2") format("woff");
   }
 
-  font-awesome {
-    padding-left: 4px;
-  }
-
   header {
     display: flex;
     padding: 0 20px;
     justify-content: space-between;
     align-items: center;
-    margin: 12px auto;
+    height: 72px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       padding: 0 8px;
+      height: 64px;
     }
 
-    .title {
-      color: $gray;
-      text-decoration: none;
-      margin-left: 10px;
-    }
-
-    nav {
-      text-align: right;
+    .logo {
+      padding-top: 8px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        align-self: flex-end;
+        width: 240px;
       }
-    }
-
-    div {
-      display: flex;
-      align-items: center;
-    }
-
-    span {
-      font-style: italic;
-      font-family: serif;
-      font-size: 1.2em;
-      font-weight: normal;
     }
   }
 
@@ -258,6 +234,10 @@ export default {
       div {
         margin-right: 48px;
         margin-bottom: 16px;
+      }
+
+      font-awesome {
+        padding-left: 4px;
       }
     }
 

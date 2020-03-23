@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="content">
 
         <section>
           <h2>Éditeur</h2>

@@ -169,7 +169,7 @@ export default {
       }
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1.75em;
+        font-size: 2em;
       }
     }
 

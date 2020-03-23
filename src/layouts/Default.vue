@@ -2,13 +2,15 @@
   <div>
 
     <header>
-      <div>
+      <div class="marque-etat">
         <g-link to="/">
-          <g-image src="~/assets/images/marianne.svg" width="80" alt="Marianne" />
+          <g-image src="~/assets/images/RFLogo.svg" alt="République Française" />
         </g-link>
-        <strong>
-          <g-link class="title" to="/">design.numerique.gouv.<span>fr</span></g-link>
-        </strong>
+      </div>
+      <div class="marque-dsn">
+        <g-link to="/">
+          <g-image class="logo" alt="DesignGouv" width="187" src="~/assets/images/DesignNumBeta.svg"/>
+        </g-link>
       </div>
       <nav>
         <Menu />
@@ -147,14 +149,13 @@ export default {
   }
 
   header {
-    display: flex;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 12px auto;
+    height: 86px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 0 8px;
+    }
+
+    .logo {
+      text-align: center;
     }
 
     .title {
@@ -165,22 +166,54 @@ export default {
 
     nav {
       text-align: right;
+      position: absolute;
+      right: 40px;
+      top: 22px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        align-self: flex-end;
+        right: 20px;
       }
     }
 
-    div {
-      display: flex;
-      align-items: center;
+    .marque-etat {
+      width: 18%;
+      max-width: 161px;
+      background-color: white;
+      position: absolute;
+      margin-left: 20px;
+      z-index: 1;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 92px;
+        margin-left: 0px;
+      }
+
+      img {
+        width: 76%;
+        margin: 12% 12% 8% 12%;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin-bottom: 0px;
+        }
+      }
     }
 
-    span {
-      font-style: italic;
-      font-family: serif;
-      font-size: 1.2em;
-      font-weight: normal;
+    .marque-dsn {
+      position: absolute;
+      top: 32px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 34%;
+      max-width: 187px;
+
+      img {
+        width: 100%;
+      }
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        top: 36px;
+      }
     }
   }
 

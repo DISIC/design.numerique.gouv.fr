@@ -30,7 +30,7 @@
       <div class="footer-content">
         <div class="">
           <g-link to="/">
-            <g-image class="logoDG" alt="Logo DesignGouv" width="280" src="~/assets/images/logoDGBwhite.svg"/>
+            <g-image class="logoDG" alt="Logo DesignGouv" width="280" src="~/assets/images/logoDGB.svg"/>
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -213,8 +213,8 @@ export default {
   footer {
     padding: 40px 20px 24px 20px;
     margin-top: 100px;
-    background: $dark;
-    color: #fafafa;
+    background: $light-gray;
+    color: #black;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -225,11 +225,11 @@ export default {
 
     a {
       text-decoration: none;
-      color: $blue-light;
+      color: $blue;
 
       &:hover {
         text-decoration: underline;
-        color: $blue-light;
+        color: $blue;
       }
     }
 

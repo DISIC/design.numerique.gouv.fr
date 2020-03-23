@@ -20,11 +20,17 @@
     </main>
 
     <footer>
-      <div class="layout">
 
+      <div class="footer-logo">
+        <g-link to="/">
+          <g-image class="logoRF" alt="Logo République française" width="200" src="~/assets/images/logoRF.svg"/>
+        </g-link>
+      </div>
+
+      <div class="footer-content">
         <div class="">
           <g-link to="/">
-            <g-image class="logo" alt="Logo DesignGouv" width="320" src="~/assets/images/logoDGBwhite.svg"/>
+            <g-image class="logoDG" alt="Logo DesignGouv" width="280" src="~/assets/images/logoDGBwhite.svg"/>
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -76,8 +82,8 @@
           <a href="https://www.service-public.fr" target="_blank">service-public.fr</a>
           <a href="https://legifrance.gouv.fr" target="_blank">legifrance.gouv.fr</a>
         </div>
-
       </div>
+
     </footer>
 
   </div>
@@ -204,21 +210,18 @@ export default {
     padding: 0 20px;
   }
 
-  .content {
-    //max-width: 760px;
-    //margin: 0 auto;
-  }
-
-  .text-content {
-    max-width: 580px;
-    margin: 0 auto;
-  }
-
   footer {
-    padding: 48px 0 24px 0;
+    padding: 40px 20px 24px 20px;
     margin-top: 100px;
     background: $dark;
     color: #fafafa;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      display: inline-block;
+    }
 
     a {
       text-decoration: none;
@@ -227,6 +230,28 @@ export default {
       &:hover {
         text-decoration: underline;
         color: $blue-light;
+      }
+    }
+
+    .footer-logo {
+
+      .logoRF {
+        padding-bottom: 24px;
+      }
+    }
+
+    .footer-content {
+      padding-top: 8px;
+      margin: 0 64px;
+      max-width: 80%;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        max-width: 100%;
+        margin: 0;
+      }
+
+      .logoDG {
+        max-width: 80%;
       }
     }
 
@@ -252,10 +277,6 @@ export default {
       li {
         list-style-type: none;
       }
-    }
-
-    .logo {
-      max-width: 80%;
     }
 
     .public {

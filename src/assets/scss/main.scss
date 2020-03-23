@@ -42,11 +42,39 @@ h2 {
   }
 }
 
-section {
-  margin-bottom: 64px;
+.content {
+  margin: 0 auto;
+
+  section {
+    margin-bottom: 80px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 48px;
+    }
+  }
+
+  .icon {
+    padding-right: 20px;
+  }
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    margin-bottom: 48px;
+
+    .icon {
+      display: none;
+    }
+  }
+}
+
+.text-content {
+  max-width: 580px;
+  margin: 0 auto;
+
+  section {
+    margin-bottom: 64px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 48px;
+    }
   }
 }
 
@@ -142,25 +170,6 @@ button {
     padding-left: 20px;
     padding-right: 20px;
   }
-}
-
-.content .text-content {
-
-  .icon {
-    padding-right: 20px;
-  }
-
-  @media only screen and (max-width: $mobileMaxWidth) {
-
-    .icon {
-      display: none;
-    }
-  }
-
-  section {
-      margin-bottom: 64px;
-  }
-
 }
 
 .card {

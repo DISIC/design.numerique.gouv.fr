@@ -25,7 +25,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: 800;
 
   @media only screen and (max-width: $mobileMaxWidth) {
@@ -87,7 +87,7 @@ button {
 }
 
 .cover {
-  padding: 80px 0 64px;
+  padding: 72px 0 64px;
   margin-bottom: 80px;
   text-align: center;
   width: 100vw;
@@ -102,7 +102,7 @@ button {
   }
 
   .coverContainer {
-    max-width: 640px;
+    max-width: 760px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
@@ -144,7 +144,7 @@ button {
   }
 }
 
-.content {
+.content .text-content {
 
   .icon {
     padding-right: 20px;

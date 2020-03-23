@@ -6,12 +6,12 @@
 
       <h1>Accessibilité numérique</h1>
 
-      <p class="subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées.</p>
+      <p class="subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 
       </div>
     </div>
 
-    <div class="content">
+    <div class="content text-content">
 
 
       <h2>

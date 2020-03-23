@@ -4,7 +4,7 @@
     <header>
       <div>
         <g-link to="/">
-          <g-image class="logo" src="~/assets/images/logoDesignGouvBeta.svg" width="320" alt="Logo DesignGouv" />
+          <g-image class="logo" src="~/assets/images/logoMDGB.svg" width="320" alt="Logo DesignGouv" />
         </g-link>
       </div>
       <nav>
@@ -24,7 +24,7 @@
 
         <div class="">
           <g-link to="/">
-            <g-image class="logo" alt="DesignGouv" width="320" src="~/assets/images/logoBetaWhite.svg"/>
+            <g-image class="logo" alt="Logo DesignGouv" width="320" src="~/assets/images/logoDGBwhite.svg"/>
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -205,6 +205,11 @@ export default {
   }
 
   .content {
+    //max-width: 760px;
+    //margin: 0 auto;
+  }
+
+  .text-content {
     max-width: 580px;
     margin: 0 auto;
   }

@@ -4,9 +4,9 @@
     <div class="cover">
       <div class="coverContainer">
 
-        <h1>DesignGouv <span class="beta">ßeta</span></h1>
+        <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
-        <p class="subtitle">Concevoir des services publics numériques accessibles, inclusifs et humains</p>
+        <p class="subtitle"><strong>DesignGouv</strong> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
 
       </div>
     </div>
@@ -27,7 +27,7 @@
       </div>
 
       <HomeItem
-        title="Découvrez le Design numérique"
+        title="Design des services numériques"
         text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
         <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
         le design, c’est mettre en œuvre des solutions centrées sur les
@@ -44,7 +44,7 @@
       <HomeItem
         title="Accessibilité numérique"
         text="L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout."
-        buttonText="Je découvre"
+        buttonText="L'accessibilité en détails"
         v-bind:buttonActivated="true"
         link="/accessibilite-numerique"
         iconSrc="tools.svg"
@@ -69,7 +69,7 @@
       />
 
       <HomeItem
-        title="Des formations pour vous et vos équipes"
+        title="Les formations pour vous et vos équipes"
         text="De nombreuses formations sont disponibles, certaines accessibles
           <b>gratuitement</b>, pour vous former <b>personnellement</b>
           ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
@@ -151,21 +151,40 @@ export default {
     h1 {
       padding: 0;
       margin: 0;
-      font-size: 4em;
       color: white;
+      font-weight: bold;
 
-      .beta {
-        font-weight: 500;
+      .highlight {
+        box-shadow:
+          inset 0 -0.05em $blue,
+          inset 0 -0.3em lighten($blue, 10%);
+        display: inline;
+        transition: .1s all;
+
+        &:hover {
+          box-shadow:
+            inset 0 -0.05em $blue,
+            inset 0 -1.2em lighten($blue, 10%);
+        }
       }
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 2em;
+        font-size: 1.75em;
       }
+    }
+
+    .logo {
+      padding-bottom: 16px;
     }
 
     .subtitle {
       color: white;
-      font-weight: 500;
+      font-weight: normal;
+      font-size: 1.25em;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        font-size: 1.125em;
+      }
     }
   }
 

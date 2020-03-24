@@ -143,7 +143,7 @@ button {
 
     @media only screen and (max-width: $mobileMaxWidth) {
       padding-top: 8px;
-      font-weight: 700;
+      font-weight: 500;
       font-size: 1.125em;
     }
   }
@@ -165,10 +165,22 @@ button {
   }
 
   .coverContainer {
-    max-width: 640px;
+    max-width: 760px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .subtitle {
+    padding-top: 4px;
+    font-weight: 500;
+    font-size: 1.25em;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding-top: 4px;
+      font-weight: 500;
+      font-size: 1.125em;
+    }
   }
 }
 

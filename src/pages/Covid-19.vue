@@ -4,7 +4,9 @@
     <div class="coverLight">
      <div class="coverContainer">
 
-       <h1>Covid-19</h1>
+       <h1>Covid-19 : attestations</h1>
+
+       <p class="subtitle">Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel</p>
 
       </div>
     </div>
@@ -12,7 +14,7 @@
     <div class="content">
 
       <section>
-        <p>Retrouvez toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
+        <p>Toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
         </p>
         <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
         <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
@@ -55,7 +57,43 @@ export default {
   components: {
   },
   metaInfo: {
-    title: "Covid-19",
+    title: "Attestation de déplacement dérogatoire covid-19",
+    meta: [{
+      name: 'description',
+      content: "Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel dans divers formats numériques"
+    },
+    {
+      property: 'og:title',
+      content: "Attestation de déplacement dérogatoire covid-19 - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel dans divers formats numériques"
+    },
+    {
+      property: 'og:image',
+      content: "https://designgouv.fr/attestation.png"
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      name: "twitter:site",
+      content: "@Design_Gouv"
+    },
+    {
+      name: "twitter:title",
+      content: "Attestation de déplacement dérogatoire covid-19 - DesignGouv"
+    },
+    {
+      name: "twitter:description",
+      content: "Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel dans divers formats numériques"
+    },
+    {
+      name: "twitter:image",
+      content: "https://designgouv.fr/attestation.png"
+    },],
   }
 }
 </script>

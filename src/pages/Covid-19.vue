@@ -30,12 +30,20 @@
         </ul>
       </section>
 
-      <section><h2>Télécharger au format .docx</h2>
+      <section>
+        <h2>Télécharger au format .docx</h2>
         <ul>
           <li><a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
           <li><a href="/covid-19/docx/attestation-deplacement-en.docx" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li>
           <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
           <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Télécharger au format .pdf</h2>
+        <ul>
+          <li><a href="/covid-19/pdf/attestation-deplacement-fr.pdf" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
         </ul>
       </section>
 

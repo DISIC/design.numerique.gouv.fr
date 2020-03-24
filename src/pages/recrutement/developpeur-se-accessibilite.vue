@@ -1,9 +1,14 @@
 <template>
   <Layout>
-    <Header class="page-header">
-      <h1>Expert-e design et accessibilité numérique (niveau développeur-se)</h1>
-    </Header>
-    <Main>
+
+      <div class="coverLight">
+       <div class="coverContainer">
+
+         <h1>Expert-e design et accessibilité numérique (niveau développeur-se)</h1>
+
+        </div>
+      </div>
+
       <h2>Structure</h2>
       <ul class="job-intro">
         <li>Direction interministérielle du numérique (DINUM)</li>
@@ -82,7 +87,7 @@
       <p>Les services du Premier ministre sont engagés dans une politique active en faveur de la diversité, de l’égalité professionnelle et du handicap.</p>
       <p>A ce titre, le ou la candidat(e) ne doit indiquer aucune information personnelle (âge, situation de famille, photographie) sur sa candidature.</p>
       <p>Nous conserverons, pour une durée de deux ans, l’ensemble des éléments que vous nous avez transmis afin de vous faire part d’opportunités futures susceptibles de vous intéresser.</p>
-    </Main>
+
   </Layout>
 </template>
 

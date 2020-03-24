@@ -14,8 +14,8 @@
         <section>
           <h2>Éditeur</h2>
           <p>
-            Ce site est édité par l'équipe DesignGouv, au sein de la direction interministérielle
-            du numérique (DINUM), un service du Premier ministre.
+            Ce site est édité par l'équipe Design des services numériques, au sein de la direction interministérielle
+            du numérique, un service du Premier ministre.
           </p>
           <p>
             DINUM</br>
@@ -40,7 +40,7 @@
         <section>
           <h2>Conception et gestion du site</h2>
           <p>
-            Ce site est conçu et développé par l'équipe DesignGouv. De nouvelles
+            Ce site est conçu et développé par l'équipe Design des services numériques. De nouvelles
             fonctionnalités sont ajoutées en continue.
           </p>
         </section>

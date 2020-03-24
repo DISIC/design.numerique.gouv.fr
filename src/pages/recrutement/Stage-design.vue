@@ -1,10 +1,15 @@
 <template>
   <Layout>
-    <Header class="page-header">
-      <div>Stage</div>
-      <h1>Chargé(e) d'animation</h1>
-    </Header>
-    <Main>
+
+      <div class="coverLight">
+       <div class="coverContainer">
+
+         <span class="subtitle">Stage</span>
+         <h1>Chargé(e) d'animation</h1>
+
+        </div>
+      </div>
+
       <h2>Contexte</h2>
       <p>
         La direction interministérielle du numérique (DINUM) oriente, anime, soutient et coordonne les actions des administrations de l’État visant à améliorer la qualité, l’efficacité, l’efficience et la fiabilité des services rendus par le système d’information et de communication de l’Etat. Elle conseille le Premier ministre et les ministres compétents sur la prise en compte du numérique dans les politiques publiques mises en œuvre par les ministères.
@@ -48,7 +53,7 @@
           <li>Portfolio (si vous en avez un)</li>
           <li>Objet de l'e-mail "Stage design"</li>
         </ul>
-    </Main>
+
   </Layout>
 </template>
 

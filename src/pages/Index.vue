@@ -1,5 +1,5 @@
 <template>
-  <Layout :logoLarge="true">
+  <Layout>
 
     <div class="cover">
       <div class="coverContainer">

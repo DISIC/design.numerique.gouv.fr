@@ -138,7 +138,7 @@ section {
   }
 
   .buttonDisabled {
-    color: $gray;
+    //color: dark;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;

@@ -6,15 +6,16 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  color: $gray;
+  color: $dark;
 }
 
 a {
+  text-decoration: none;
   color: $blue;
-  transition: .2s all;
 
   &:hover {
-    color: $blue-hover;
+    text-decoration: underline;
+    color: $blue;
   }
 }
 

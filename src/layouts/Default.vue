@@ -2,37 +2,35 @@
   <div>
 
     <header>
+
       <div class="marque-etat">
         <g-link to="/">
-<<<<<<< HEAD
-          <g-image src="~/assets/images/RFLogo.svg" alt="République Française" />
+          <g-image src="~/assets/images/logoRF.svg" alt="Logo République Française" />
         </g-link>
       </div>
+
       <div class="marque-dsn">
         <g-link to="/">
-          <g-image class="logo" alt="DesignGouv" width="187" src="~/assets/images/DesignNumBeta.svg"/>
-=======
-          <g-image class="logo" src="~/assets/images/logoMDGB.svg" width="320" alt="Logo DesignGouv" />
->>>>>>> develop
+          <g-image class="logo" alt="Logo DesignGouv" src="~/assets/images/logoDGB.svg"/>
         </g-link>
       </div>
+
       <nav>
         <Menu />
       </nav>
+
     </header>
 
     <main class="layout">
       <slot/>
-      <div>
-        <Newsletter />
-      </div>
+      <Newsletter />
     </main>
 
     <footer>
 
       <div class="footer-logo">
         <g-link to="/">
-          <g-image class="logoRF" alt="Logo République française" width="200" src="~/assets/images/logoRF.svg"/>
+          <g-image class="logoRF" alt="Logo République Française" width="200" src="~/assets/images/logoRF.svg"/>
         </g-link>
       </div>
 
@@ -193,93 +191,43 @@ export default {
   }
 
   header {
-<<<<<<< HEAD
-    height: 86px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
-    }
-
-    .logo {
-      text-align: center;
-    }
-
-    .title {
-      color: $gray;
-      text-decoration: none;
-      margin-left: 10px;
-    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     nav {
+      width: 33%;
       text-align: right;
-      position: absolute;
-      right: 40px;
-      top: 22px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
-        right: 20px;
+      button {
+        margin-right: 20px;
       }
     }
 
     .marque-etat {
-      width: 18%;
-      max-width: 161px;
-      background-color: white;
-      position: absolute;
-      margin-left: 20px;
-      z-index: 1;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        width: 92px;
-        margin-left: 0px;
-      }
+      width: 33%;
 
       img {
-        width: 76%;
-        margin: 12% 12% 8% 12%;
+        max-width: 120px;
+        margin: 20px 0px 12px 20px;
 
         @media only screen and (max-width: $mobileMaxWidth) {
-          margin-bottom: 0px;
+          max-width: 64px;
+          margin: 12px 0px 4px 12px;
         }
       }
     }
 
     .marque-dsn {
-      position: absolute;
-      top: 32px;
-      left: 0;
-      right: 0;
-      margin: auto;
-      width: 34%;
-      max-width: 187px;
+      text-align: center;
 
       img {
-        width: 100%;
-      }
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        top: 36px;
+        max-width: 320px;
+        width: 80%;
+        margin-top: 8px;
       }
     }
-=======
-    display: flex;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-    height: 72px;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 0 8px;
-      height: 64px;
-    }
-
-    .logo {
-      padding-top: 8px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        width: 240px;
-      }
-    }
->>>>>>> develop
   }
 
   .layout {
@@ -290,41 +238,32 @@ export default {
 
   footer {
     padding: 40px 20px 24px 20px;
-    margin-top: 100px;
+    margin-top: 80px;
     background: $light-gray;
-    color: #black;
+    color: $dark;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
 
     @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 20px 20px 24px 20px;
+      margin-top: 0px;
       display: inline-block;
     }
 
-    a {
-      text-decoration: none;
-      color: $blue;
-
-      &:hover {
-        text-decoration: underline;
-        color: $blue;
-      }
-    }
-
     .footer-logo {
-
       .logoRF {
-        padding-bottom: 24px;
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 24px;
       }
     }
 
     .footer-content {
       padding-top: 8px;
-      margin: 0 64px;
-      max-width: 80%;
+      margin: 0 40px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        max-width: 100%;
+        padding-top: 0px;
         margin: 0;
       }
 

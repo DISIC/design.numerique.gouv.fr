@@ -208,8 +208,8 @@ export default {
 
     .button {
       text-decoration: none;
-      color: $gray;
-      border: 2px solid $gray;
+      color: $dark;
+      border: 2px solid $dark;
       background-color: white;
       border-radius: 32px;
       padding: 8px 24px;
@@ -223,7 +223,7 @@ export default {
       }
 
       &:hover {
-        background: $gray;
+        background: $dark;
         color: white;
       }
     }

@@ -36,14 +36,14 @@ export default {
   h1 {
     box-shadow:
       inset 0 -0.05em white,
-      inset 0 -0.4em $blue-light;
+      inset 0 -0.4em $blue;
     display: inline;
     transition: .1s all;
 
     &:hover {
       box-shadow:
         inset 0 -0.05em white,
-        inset 0 -1.4em $blue-light;
+        inset 0 -1.4em $blue;
     }
   }
 

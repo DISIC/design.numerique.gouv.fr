@@ -24,6 +24,7 @@
         <h2>Télécharger au format .pdf</h2>
         <ul>
           <li><a href="/covid-19/pdf/attestation-deplacement-fr.pdf" download="attestation-deplacement-fr.pdf">Attestation de déplacement dérogatoire (Français)</a></li>
+          <li><a href="/covid-19/pdf/attestation-deplacement-falc.pdf" download="attestation-deplacement-fr.pdf">Attestation pour pouvoir me déplacer (FALC / français simplifié pour les personnes en situation de handicap)</a></li>
         </ul>
       </section>
 
@@ -32,13 +33,6 @@
         <ul>
           <li><g-link to="/covid-19/attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</g-link></li>
           <li><g-link to="/covid-19/justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</g-link></li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Télécharger au format FALC (facile à lire et à comprendre)</h2>
-        <ul>
-          <li><a href="/covid-19/pdf/attestation-deplacement-falc.pdf" download="attestation-deplacement-fr.pdf">Attestation pour pouvoir me déplacer (Français simplifié)</a></li>
         </ul>
       </section>
 

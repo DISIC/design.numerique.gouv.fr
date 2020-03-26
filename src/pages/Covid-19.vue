@@ -21,6 +21,28 @@
       </section>
 
       <section>
+        <h2>Télécharger au format .pdf</h2>
+        <ul>
+          <li><a href="/covid-19/pdf/attestation-deplacement-fr.pdf" download="attestation-deplacement-fr.pdf">Attestation de déplacement dérogatoire (Français)</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Afficher au format web pour recopie</h2>
+        <ul>
+          <li><g-link to="/covid-19/attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</g-link></li>
+          <li><g-link to="/covid-19/justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</g-link></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Télécharger au format FALC (facile à lire et à comprendre)</h2>
+        <ul>
+          <li><a href="/covid-19/pdf/attestation-deplacement-falc.pdf" download="attestation-deplacement-fr.pdf">Attestation pour pouvoir me déplacer (Français simplifié)</a></li>
+        </ul>
+      </section>
+
+      <section>
         <h2>Télécharger au format .txt</h2>
         <ul>
           <li><a href="/covid-19/txt/attestation-deplacement-fr.txt" download="attestation-deplacement-fr.txt">Attestation de déplacement dérogatoire (Français)</a></li>
@@ -35,21 +57,6 @@
           <li><a href="/covid-19/docx/attestation-deplacement-en.docx" download="attestation-deplacement-en.docx">Attestation de déplacement dérogatoire (English)</a></li>
           <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr.docx">Justificatif de déplacement professionnel (Français)</a></li>
           <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en.docx">Justificatif de déplacement professionnel (English)</a></li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Télécharger au format .pdf</h2>
-        <ul>
-          <li><a href="/covid-19/pdf/attestation-deplacement-fr.pdf" download="attestation-deplacement-fr.pdf">Attestation de déplacement dérogatoire (Français)</a></li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Afficher au format web pour recopie</h2>
-        <ul>
-          <li><g-link to="/covid-19/attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</g-link></li>
-          <li><g-link to="/covid-19/justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</g-link></li>
         </ul>
       </section>
 

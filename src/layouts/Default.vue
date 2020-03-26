@@ -4,12 +4,16 @@
     <header>
       <div class="marque-etat">
         <g-link to="/">
+<<<<<<< HEAD
           <g-image src="~/assets/images/RFLogo.svg" alt="République Française" />
         </g-link>
       </div>
       <div class="marque-dsn">
         <g-link to="/">
           <g-image class="logo" alt="DesignGouv" width="187" src="~/assets/images/DesignNumBeta.svg"/>
+=======
+          <g-image class="logo" src="~/assets/images/logoMDGB.svg" width="320" alt="Logo DesignGouv" />
+>>>>>>> develop
         </g-link>
       </div>
       <nav>
@@ -19,18 +23,27 @@
 
     <main class="layout">
       <slot/>
+      <div>
+        <Newsletter />
+      </div>
     </main>
 
     <footer>
-      <div class="layout">
 
+      <div class="footer-logo">
+        <g-link to="/">
+          <g-image class="logoRF" alt="Logo République française" width="200" src="~/assets/images/logoRF.svg"/>
+        </g-link>
+      </div>
+
+      <div class="footer-content">
         <div class="">
           <g-link to="/">
-            <g-image class="logo" alt="DesignGouv" width="320" src="~/assets/images/logoBetaWhite.svg"/>
+            <g-image class="logoDG" alt="Logo DesignGouv" width="280" src="~/assets/images/logoDGB.svg"/>
           </g-link>
           <p>
-            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> (DINUM).</br>
-            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre. Et nous vous invitons à contribuer.
+            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
+            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre.
           </p>
         </div>
 
@@ -78,8 +91,8 @@
           <a href="https://www.service-public.fr" target="_blank">service-public.fr</a>
           <a href="https://legifrance.gouv.fr" target="_blank">legifrance.gouv.fr</a>
         </div>
-
       </div>
+
     </footer>
 
   </div>
@@ -95,10 +108,12 @@ query {
 
 <script>
 import Menu from '~/components/Menu.vue'
+import Newsletter from '~/components/Newsletter.vue'
 
 export default {
   components: {
     Menu,
+    Newsletter
   },
   props: {
     logoLarge: {
@@ -113,42 +128,72 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800,900&display=swap');
-
   @font-face {
     font-family: "Marianne";
     font-weight: 300;
-    src: url("../assets/fonts/Marianne-Light.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-Light.woff") format("woff2"),
-         url("../assets/fonts/Marianne-Light.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-Light.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-Light.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-Light.woff2") format("woff");
   }
   @font-face {
     font-family: "Marianne";
     font-weight: 400;
-    src: url("../assets/fonts/Marianne-Regular.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-Regular.woff") format("woff2"),
-         url("../assets/fonts/Marianne-Regular.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-Regular.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-Regular.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-Regular.woff2") format("woff");
   }
   @font-face {
     font-family: "Marianne";
     font-weight: 700;
-    src: url("../assets/fonts/Marianne-Bold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-Bold.woff") format("woff2"),
-         url("../assets/fonts/Marianne-Bold.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-Bold.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-Bold.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-Bold.woff2") format("woff");
   }
   @font-face {
     font-family: "Marianne";
     font-weight: 800;
-    src: url("../assets/fonts/Marianne-ExtraBold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
-         url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
+    src: url("../assets/fonts/Marianne/Marianne-ExtraBold.ttf") format("ttf"),
+         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff") format("woff2"),
+         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
   }
 
-  font-awesome {
-    padding-left: 4px;
+  @font-face {
+    font-family: "Inter";
+    font-weight: 300;
+    src: url("../assets/fonts/Inter/Inter-Light.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Light.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    src: url("../assets/fonts/Inter/Inter-Regular.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Regular.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    src: url("../assets/fonts/Inter/Inter-Medium.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Medium.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    src: url("../assets/fonts/Inter/Inter-Bold.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Bold.woff2") format("woff");
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-weight: 900;
+    src: url("../assets/fonts/Inter/Inter-Black.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Black.woff2") format("woff");
   }
 
   header {
+<<<<<<< HEAD
     height: 86px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
@@ -215,6 +260,26 @@ export default {
         top: 36px;
       }
     }
+=======
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 0 8px;
+      height: 64px;
+    }
+
+    .logo {
+      padding-top: 8px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 240px;
+      }
+    }
+>>>>>>> develop
   }
 
   .layout {
@@ -224,18 +289,47 @@ export default {
   }
 
   footer {
-    padding: 48px 0 24px 0;
+    padding: 40px 20px 24px 20px;
     margin-top: 100px;
-    background: $dark;
-    color: #fafafa;
+    background: $light-gray;
+    color: #black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      display: inline-block;
+    }
 
     a {
       text-decoration: none;
-      color: $blue-light;
+      color: $blue;
 
       &:hover {
         text-decoration: underline;
-        color: $blue-light;
+        color: $blue;
+      }
+    }
+
+    .footer-logo {
+
+      .logoRF {
+        padding-bottom: 24px;
+      }
+    }
+
+    .footer-content {
+      padding-top: 8px;
+      margin: 0 64px;
+      max-width: 80%;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        max-width: 100%;
+        margin: 0;
+      }
+
+      .logoDG {
+        max-width: 80%;
       }
     }
 
@@ -249,6 +343,10 @@ export default {
         margin-right: 48px;
         margin-bottom: 16px;
       }
+
+      font-awesome {
+        padding-left: 4px;
+      }
     }
 
     ul {
@@ -257,10 +355,6 @@ export default {
       li {
         list-style-type: none;
       }
-    }
-
-    .logo {
-      max-width: 80%;
     }
 
     .public {

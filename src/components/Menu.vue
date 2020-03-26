@@ -9,11 +9,11 @@
       <button @click="toggle" class="closeButton">Fermer ✕</button>
       <g-link to="/">Accueil</g-link>
       <!-- <g-link to="/design">Le design numérique</g-link> -->
-      <g-link to="/outils">Les outils</g-link>
+      <g-link to="/accessibilite-numerique">Accessibilité numérique</g-link>
       <g-link to="/services">Nos services</g-link>
       <g-link to="/formations">Les formations</g-link>
       <g-link to="/recrutement">Recrutement</g-link>
-      <a class="community" href="http://eepurl.com/gLJCsb" target="_blank">Rejoindre la communauté</a>
+      <a class="community" href="http://eepurl.com/gLJCsb" target="_blank">Newsletter</a>
     </div>
   </div>
 

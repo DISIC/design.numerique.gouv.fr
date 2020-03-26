@@ -70,6 +70,10 @@ export default {
 
 @import "src/assets/scss/_vars.scss";
 
+section {
+  margin-bottom: 80px;
+}
+
 .disabled {
   h2 {
     box-shadow:

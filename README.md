@@ -1,11 +1,13 @@
 # DesignGouv
+## Concevons des services publics numériques accessibles, inclusifs et humains.
+DesignGouv rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.
 
-### Initial setup
+### Installation
 
 - `git clone git@github.com:DISIC/design.numerique.gouv.fr.git`
 - `yarn global add @gridsome/cli`
 - `yarn`
 
-### Run the projet
-- Enter directory `cd design.numerique.gouv.fr`
-- Run `gridsome develop` to start local development
+### Démarrer le projet
+- Entrer dans le projet `cd design.numerique.gouv.fr`
+- Executer `gridsome develop` pour démarrer un environnement local

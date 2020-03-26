@@ -1,98 +1,88 @@
 <template>
-  <Layout :logoLarge="true">
+  <Layout>
 
     <div class="cover">
       <div class="coverContainer">
 
-        <h1>DesignGouv <span class="beta">ßeta</span></h1>
+        <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
-        <p class="subtitle">Bienvenue&nbsp;! Cet espace est dédié aux agents publics soucieux de créer des services numériques de qualité et accessibles pour tous.</p>
+        <p class="subtitle"><strong>DesignGouv</strong> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
 
       </div>
     </div>
 
-    <div class="message">
+    <div class="content">
 
-        <strong>COVID-19</strong>
+      <div class="message">
 
-        <p>Nous avons créé des attestations de déplacements accessibles et inclusives pour toutes et tous, à imprimer ou à recopier.</p>
+          <strong>COVID-19</strong>
 
-        <g-link to="/covid-19" class="button">
-          Accéder aux documents
-          <span class='arrow'>→</span>
-        </g-link>
+          <p>Nous avons créé des attestations de déplacements accessibles et inclusives pour toutes et tous, à imprimer ou à recopier.</p>
 
-    </div>
+          <g-link to="/covid-19" class="button">
+            Accéder aux documents
+            <span class='arrow'>→</span>
+          </g-link>
 
-    <HomeItem
-      title="Découvrez le Design numérique"
-      text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
-      <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
-      le design, c’est mettre en œuvre des solutions centrées sur les
-      usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt."
-      buttonText="Bientôt disponible !"
-      v-bind:buttonActivated="false"
-      link="/"
-      iconSrc="design.svg"
-      iconAlt="Star icon"
-      color="#2854D6"
-      colorLight="#ACBDF1"
-    />
+      </div>
 
-    <HomeItem
-      title="Design & accessibilité : les outils"
-      text="De nombreux outils peuvent vous aider à améliorer vous-même la qualité de vos
-      démarches. <b>Bonnes pratiques</b>, <b>expérience utilisateur</b>, <b>accessibilité</b>&nbsp;:
-      nous les avons réunis pour vous."
-      buttonText="J'accède aux outils"
-      v-bind:buttonActivated="true"
-      link="/outils"
-      iconSrc="tools.svg"
-      iconAlt="Tool icon"
-      color="#37863D"
-      colorLight="#84CD86"
-    />
+      <HomeItem
+        title="Design des services numériques"
+        text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
+        <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
+        le design, c’est mettre en œuvre des solutions centrées sur les
+        usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt."
+        buttonText="Bientôt disponible !"
+        v-bind:buttonActivated="false"
+        link="/"
+        iconSrc="design.svg"
+        iconAlt="Star icon"
+        color="#2854D6"
+        colorLight="#ACBDF1"
+      />
 
-    <HomeItem
-      title="Besoin d'aide ? Nous vous accompagnons."
-      text="Vous avez des besoins en design&nbsp;?
-        Vous vous <b>posez des questions</b> sur les sujets d'accessibilité&nbsp;? Vous souhaitez <b>obtenir des
-        retours</b>, <b>demander des conseils</b> pour le développement ou l'amélioration
-        de votre service&nbsp;? Nous vous aidons&nbsp;!"
-      buttonText="J'ai besoin d'aide"
-      v-bind:buttonActivated="true"
-      link="/services"
-      iconSrc="services.svg"
-      iconAlt="Lifebuoy icon"
-      color="#EB1000"
-      colorLight="#FFA89E"
-    />
+      <HomeItem
+        title="Accessibilité numérique"
+        text="L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout."
+        buttonText="L'accessibilité en détails"
+        v-bind:buttonActivated="true"
+        link="/accessibilite-numerique"
+        iconSrc="tools.svg"
+        iconAlt="Tool icon"
+        color="#37863D"
+        colorLight="#84CD86"
+      />
 
-    <HomeItem
-      title="Des formations pour vous et vos équipes"
-      text="De nombreuses formations sont disponibles, certaines accessibles
-        <b>gratuitement</b>, pour vous former <b>personnellement</b>
-        ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
-        services numériques et à l’accessibilité."
-      buttonText="Je découvre les formations"
-      v-bind:buttonActivated="true"
-      link="/formations"
-      iconSrc="courses.svg"
-      iconAlt="Book icon"
-      color="#90731D"
-      colorLight="#E2C56F"
-    />
+      <HomeItem
+        title="Besoin d'aide ? Nous vous accompagnons."
+        text="Vous avez des besoins en design&nbsp;?
+          Vous vous <b>posez des questions</b> sur les sujets d'accessibilité&nbsp;? Vous souhaitez <b>obtenir des
+          retours</b>, <b>demander des conseils</b> pour le développement ou l'amélioration
+          de votre service&nbsp;? Nous vous aidons&nbsp;!"
+        buttonText="J'ai besoin d'aide"
+        v-bind:buttonActivated="true"
+        link="/services"
+        iconSrc="services.svg"
+        iconAlt="Lifebuoy icon"
+        color="#EB1000"
+        colorLight="#FFA89E"
+      />
 
-    <div class="card" id="communaute" style="--color: #168376; --colorLight: #3CDDCA;">
-      <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
+      <HomeItem
+        title="Les formations pour vous et vos équipes"
+        text="De nombreuses formations sont disponibles, certaines accessibles
+          <b>gratuitement</b>, pour vous former <b>personnellement</b>
+          ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
+          services numériques et à l’accessibilité."
+        buttonText="Je découvre les formations"
+        v-bind:buttonActivated="true"
+        link="/formations"
+        iconSrc="courses.svg"
+        iconAlt="Book icon"
+        color="#90731D"
+        colorLight="#E2C56F"
+      />
 
-      <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="title">Rejoignez la communauté&nbsp;!</a></p>
-
-      <p class="description">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
-
-      <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
-
-      <p>Sur Twitter : <a href="https://twitter.com/design_gouv" title="Twitter" target="_blank">@design_gouv</a></p>
     </div>
 
   </Layout>
@@ -103,7 +93,7 @@ import HomeItem from '~/components/HomeItem.vue'
 
 export default {
   components: {
-    HomeItem,
+    HomeItem
   },
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",
@@ -161,21 +151,40 @@ export default {
     h1 {
       padding: 0;
       margin: 0;
-      font-size: 4em;
       color: white;
+      font-weight: bold;
 
-      .beta {
-        font-weight: 500;
+      .highlight {
+        box-shadow:
+          inset 0 -0.05em $blue,
+          inset 0 -0.3em lighten($blue, 10%);
+        display: inline;
+        transition: .1s all;
+
+        &:hover {
+          box-shadow:
+            inset 0 -0.05em $blue,
+            inset 0 -1.2em lighten($blue, 10%);
+        }
       }
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 2em;
+        font-size: 1.8em;
       }
+    }
+
+    .logo {
+      padding-bottom: 16px;
     }
 
     .subtitle {
       color: white;
-      font-weight: 600;
+      font-weight: normal;
+      font-size: 1.25em;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        font-size: 1.125em;
+      }
     }
   }
 
@@ -183,8 +192,8 @@ export default {
     text-align: center;
     background-color: $light-gray;
     padding: 24px 48px 16px 48px;
-    margin-top: -48px;
-    margin-bottom: 108px;
+    margin-top: -30px;
+    margin-bottom: 50px;
     border-radius: 32px;
 
     @media only screen and (max-width: $mobileMaxWidth) {

@@ -4,56 +4,62 @@
     <div class="coverLight">
      <div class="coverContainer">
 
-       <h1>Covid-19</h1>
+       <h1>Covid-19 : attestations</h1>
+
+       <p class="subtitle">Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel</p>
 
       </div>
     </div>
 
-    <section>
-      <p>Retrouvez toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
-      </p>
-      <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
-      <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous.</p>
-      <p class="">Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
-    </section>
+    <div class="content">
 
-    <section>
-      <h2>Télécharger au format .txt</h2>
-      <ul>
-        <li><a href="/covid-19/txt/attestation-deplacement-fr.txt" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
-        <!-- <li><a href="/covid-19/txt/attestation-deplacement-en.txt" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li> -->
-        <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-fr.txt" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
-        <!-- <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-en.txt" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li> -->
-      </ul>
-    </section>
+      <section>
+        <p>Toutes les réponses officielles sur le Coronavirus COVID-19 sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.
+        </p>
+        <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum.</p>
+        <p>Des dérogations sur attestation sont possibles. Accédez à ces documents ci-dessous. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
+      </section>
 
-    <section><h2>Télécharger au format .docx</h2>
-      <ul>
-        <li><a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</a></li>
-        <li><a href="/covid-19/docx/attestation-deplacement-en.docx" download="attestation-deplacement-en">Attestation de déplacement dérogatoire (English)</a></li>
-        <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</a></li>
-        <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en">Justificatif de déplacement professionnel (English)</a></li>
-      </ul>
-    </section>
+      <section>
+        <h2>Télécharger au format .pdf</h2>
+        <ul>
+          <li><a href="/covid-19/pdf/attestation-deplacement-fr.pdf" download="attestation-deplacement-fr.pdf">Attestation de déplacement dérogatoire (Français)</a></li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Afficher au format web pour recopie</h2>
-      <ul>
-        <li><g-link to="/covid-19/attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</g-link></li>
-        <li><g-link to="/covid-19/justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</g-link></li>
-      </ul>
-    </section>
+      <section>
+        <h2>Afficher au format web pour recopie</h2>
+        <ul>
+          <li><g-link to="/covid-19/attestation-deplacement-fr">Attestation de déplacement dérogatoire (Français)</g-link></li>
+          <li><g-link to="/covid-19/justificatif-deplacement-professionnel-fr">Justificatif de déplacement professionnel (Français)</g-link></li>
+        </ul>
+      </section>
 
-    <div class="card" style="--color: #168376; --colorLight: #3CDDCA;">
-      <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
+      <section>
+        <h2>Télécharger au format FALC (facile à lire et à comprendre)</h2>
+        <ul>
+          <li><a href="/covid-19/pdf/attestation-deplacement-falc.pdf" download="attestation-deplacement-fr.pdf">Attestation pour pouvoir me déplacer (Français simplifié)</a></li>
+        </ul>
+      </section>
 
-      <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="title">Rejoignez la communauté&nbsp;!</a></p>
+      <section>
+        <h2>Télécharger au format .txt</h2>
+        <ul>
+          <li><a href="/covid-19/txt/attestation-deplacement-fr.txt" download="attestation-deplacement-fr.txt">Attestation de déplacement dérogatoire (Français)</a></li>
+          <li><a href="/covid-19/txt/justificatif-deplacement-professionnel-fr.txt" download="justificatif-deplacement-professionnel-fr.txt">Justificatif de déplacement professionnel (Français)</a></li>
+        </ul>
+      </section>
 
-      <p class="description">DesignGouv, c’est aussi une communauté qui réunit celles et ceux qui s’engagent pour promouvoir et faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
+      <section>
+        <h2>Télécharger au format .docx</h2>
+        <ul>
+          <li><a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr.docx">Attestation de déplacement dérogatoire (Français)</a></li>
+          <li><a href="/covid-19/docx/attestation-deplacement-en.docx" download="attestation-deplacement-en.docx">Attestation de déplacement dérogatoire (English)</a></li>
+          <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr.docx">Justificatif de déplacement professionnel (Français)</a></li>
+          <li><a href="/covid-19/docx/justificatif-deplacement-professionnel-en.docx" download="justificatif-deplacement-professionnel-en.docx">Justificatif de déplacement professionnel (English)</a></li>
+        </ul>
+      </section>
 
-      <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
-
-      <p>Sur Twitter : <a href="https://twitter.com/design_gouv" title="Twitter" target="_blank">@design_gouv</a></p>
     </div>
 
   </Layout>
@@ -61,8 +67,46 @@
 
 <script>
 export default {
+  components: {
+  },
   metaInfo: {
-    title: "Covid-19",
+    title: "Attestation de déplacement dérogatoire covid-19",
+    meta: [{
+      name: 'description',
+      content: "Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel dans divers formats numériques"
+    },
+    {
+      property: 'og:title',
+      content: "Attestation de déplacement dérogatoire covid-19 - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel dans divers formats numériques"
+    },
+    {
+      property: 'og:image',
+      content: "https://designgouv.fr/attestation.png"
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image"
+    },
+    {
+      name: "twitter:site",
+      content: "@Design_Gouv"
+    },
+    {
+      name: "twitter:title",
+      content: "Attestation de déplacement dérogatoire covid-19 - DesignGouv"
+    },
+    {
+      name: "twitter:description",
+      content: "Retrouvez ici l'attestation de déplacement dérogatoire et le justificatif de déplacement professionnel dans divers formats numériques"
+    },
+    {
+      name: "twitter:image",
+      content: "https://designgouv.fr/attestation.png"
+    },],
   }
 }
 </script>

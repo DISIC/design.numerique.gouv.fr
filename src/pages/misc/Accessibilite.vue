@@ -9,7 +9,7 @@
       </div>
     </div>
 
-    <div>
+    <div class="content">
 
         <section>
           <h2>Déclaration de conformité - RGAA 4.0</h2>

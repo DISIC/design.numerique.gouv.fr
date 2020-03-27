@@ -1,28 +1,32 @@
 <template>
 
-  <section v-if="buttonActivated" class="homeItem" :style="colors">
+  <section v-if="buttonActivated">
+    <g-link :to="link" >
+      <div @mouseenter="mouseEnter()" @mouseleave="mouseLeave()">
 
-    <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
+        <g-image :id="imageId" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
-    <h2><g-link :to="link" v-html="title">{{ title }}</g-link></h2>
+        <h2>{{ title }}</h2>
 
-    <p class="homeItemText" v-html="text"></p>
+        <p v-html="text"></p>
 
-    <g-link :to="link" class="button">
-      {{ buttonText }}
-      <span class='arrow'>→</span>
+        <p :id="buttonId" class="button button-blue">
+          {{ buttonText }}<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+        </p>
+
+      </div>
     </g-link>
-
   </section>
-  <section v-else class="homeItem disabled" :style="colors">
+
+  <section v-else>
 
     <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
     <h2>{{ title }}</h2>
 
-    <p class="homeItemText" v-html="text"></p>
+    <p class="text" v-html="text"></p>
 
-    <p class="buttonDisabled">{{ buttonText }}</p>
+    <p class="button-disabled">{{ buttonText }}</p>
 
   </section>
 
@@ -31,8 +35,10 @@
 
 <script>
 
+import styles from "../assets/scss/_vars.scss";
+
 export default {
-  name: 'HomeItem',
+  name: "HomeItem",
   props: {
     title: String,
     iconSrc: String,
@@ -41,25 +47,35 @@ export default {
     buttonText: String,
     buttonActivated: Boolean,
     link: String,
-    color: String,
-    colorLight: String,
   },
   data () {
     return {
+      imageId: null,
+      buttonId: null
     }
+  },
+  mounted () {
+    this.imageId = "image-" + this._uid;
+    this.buttonId = "button-" + this._uid;
   },
   methods: {
     getImgUrl (src) {
-      return require('../assets/images/' + src)
-    }
-  },
-  computed: {
-    colors () {
-      return {
-        '--color': this.color,
-        '--colorLight': this.colorLight
-      }
-    }
+      return require("../assets/images/" + src)
+    },
+    mouseEnter () {
+      //document.getElementById("title-" + this._uid).style.color = styles.blue;
+      document.getElementById("image-" + this._uid).classList.add("rotate-in");
+      document.getElementById("image-" + this._uid).classList.remove("rotate-out");
+
+      document.getElementById("button-" + this._uid).classList.add("hover");
+    },
+    mouseLeave () {
+      //document.getElementById("title-" + this._uid).style.color = styles.black;
+      document.getElementById("image-" + this._uid).classList.add("rotate-out");
+      document.getElementById("image-" + this._uid).classList.remove("rotate-in");
+
+      document.getElementById("button-" + this._uid).classList.remove("hover");
+    },
   }
 }
 
@@ -71,82 +87,46 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
 section {
-  margin-bottom: 80px;
-}
 
-.disabled {
-  h2 {
-    box-shadow:
-      inset 0 -0.05em white,
-      inset 0 -0.4em var(--colorLight);
-    display: inline;
-    transition: .1s all;
+  max-width: 680px;
+  margin: 0 auto 96px auto;
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    margin: 0 auto 64px auto;
   }
-}
 
-.homeItem {
+  h2 {
+    margin: 16px 0 20px 0;
+  }
 
-  .icon {
+  a {
     display: block;
-    padding-bottom: 16px;
-  }
-
-  h2 {
-    padding: 0;
-    margin: 0;
-
-    a {
-      text-decoration: none;
-      color: $dark;
-      box-shadow:
-        inset 0 -0.05em white,
-        inset 0 -0.4em var(--colorLight);
-      display: inline;
-      transition: .1s all;
-    }
-
-    a:hover {
-      box-shadow:
-        inset 0 -0.05em white,
-        inset 0 -1.4em var(--colorLight);
-    }
-  }
-
-  .homeItemText {
-    margin-top: 24px;
+    text-decoration: none;
+    color: $dark;
   }
 
   .button {
-    color: var(--color);
-    border: 2px solid var(--color);
-    background-color: white;
-    border-radius: 32px;
-    padding: 8px 24px;
-    text-decoration: none;
-    font-weight: bold;
     display: inline-block;
-    margin: 10px 0;
+    margin-top: 8px;
+  }
+
+  .button-disabled {
+    font-weight: bold;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       font-size: 0.875em;
-    }
-
-    &:hover, &:focus {
-      background: var(--color);
-      color: white;
     }
   }
 
-  .buttonDisabled {
-    //color: dark;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin: 10px 0 0 0;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      font-size: 0.875em;
-    }
+  .rotate-in
+  {
+    -webkit-transform: rotate(180deg);
+    -webkit-transition: -webkit-transform 0.2s;
+  }
+  .rotate-out
+  {
+    -webkit-transform: rotate(0deg);
+    -webkit-transition: -webkit-transform 0.2s;
   }
 }
 

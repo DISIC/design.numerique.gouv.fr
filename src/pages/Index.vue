@@ -20,8 +20,7 @@
           <p>Nous avons créé des attestations de déplacements accessibles et inclusives pour toutes et tous, à imprimer ou à recopier.</p>
 
           <g-link to="/covid-19" class="button">
-            Accéder aux documents
-            <span class='arrow'>→</span>
+            Accéder aux documents<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
 
       </div>
@@ -36,9 +35,7 @@
         v-bind:buttonActivated="false"
         link="/"
         iconSrc="design.svg"
-        iconAlt="Star icon"
-        color="#2854D6"
-        colorLight="#ACBDF1"
+        iconAlt="Logo design"
       />
 
       <HomeItem
@@ -47,10 +44,8 @@
         buttonText="L'accessibilité en détails"
         v-bind:buttonActivated="true"
         link="/accessibilite-numerique"
-        iconSrc="tools.svg"
-        iconAlt="Tool icon"
-        color="#37863D"
-        colorLight="#84CD86"
+        iconSrc="accessibilite.svg"
+        iconAlt="Logo accessibilité"
       />
 
       <HomeItem
@@ -63,9 +58,7 @@
         v-bind:buttonActivated="true"
         link="/services"
         iconSrc="services.svg"
-        iconAlt="Lifebuoy icon"
-        color="#EB1000"
-        colorLight="#FFA89E"
+        iconAlt="Logo services"
       />
 
       <HomeItem
@@ -77,10 +70,8 @@
         buttonText="Je découvre les formations"
         v-bind:buttonActivated="true"
         link="/formations"
-        iconSrc="courses.svg"
-        iconAlt="Book icon"
-        color="#90731D"
-        colorLight="#E2C56F"
+        iconSrc="formations.svg"
+        iconAlt="Logo formations"
       />
 
     </div>

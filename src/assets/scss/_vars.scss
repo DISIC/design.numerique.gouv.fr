@@ -1,9 +1,16 @@
 $blue: #3355E3;
+$red: #FF5F42;
+$gray: #EBECF0;
+$gray-hover: #D7D8DB;
+$black: #323233;
+
+$mobileMaxWidth: 480px;
+
+$dark: #323233;
 
 $green: #37863D;
 $green-light: #84CD86;
 
-$red: #EB1000;
 $red-light: #FFA89E;
 
 $brown: #90731D;
@@ -12,8 +19,13 @@ $brown-light: #E2C56F;
 $emerald: #168376;
 $emerald-light: #3CDDCA;
 
-$light-gray: #ebeff3;
-$light-gray-hover: #C9D3DF;
-$dark: #333333;
+$light-gray: #EBECF0;
+$light-gray-hover: #D7D8DB;
 
-$mobileMaxWidth: 480px;
+:export {
+  blue: $blue;
+  red: $red;
+  gray: $gray;
+  gray-over: $gray-hover;
+  black: $black;
+}

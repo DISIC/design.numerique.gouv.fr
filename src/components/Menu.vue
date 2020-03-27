@@ -1,19 +1,17 @@
 <template>
 
-  <div class="menuButton">
-    <button @click="toggle" v-click-outside="hide">
-      <span class="menuText">Menu</span>
-      <g-image class="menuIcon" alt="Menu" src="~/assets/images/menu.svg"/>
+  <div>
+    <button type="button" @click="toggle" v-click-outside="hide">
+      <span class="text">Menu</span><font-awesome class="icon" :icon="['fas', 'bars']"/>
     </button>
-    <div id="menu" class="menuContent">
-      <button @click="toggle" class="closeButton">Fermer ✕</button>
-      <g-link to="/">Accueil</g-link>
-      <!-- <g-link to="/design">Le design numérique</g-link> -->
-      <g-link to="/accessibilite-numerique">Accessibilité numérique</g-link>
-      <g-link to="/services">Nos services</g-link>
-      <g-link to="/formations">Les formations</g-link>
-      <g-link to="/recrutement">Recrutement</g-link>
-      <a class="community" href="http://eepurl.com/gLJCsb" target="_blank">Newsletter</a>
+    <div id="menu" class="menu">
+      <button type="button" @click="toggle" class="close">Fermer ✕</button>
+      <g-link to="/">Accueil<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link to="/covid-19">Covid-19<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link to="/accessibilite-numerique">Accessibilité numérique<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link to="/services">Nos services<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link to="/formations">Les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link to="/recrutement">Recrutement<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
     </div>
   </div>
 
@@ -48,47 +46,41 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  .menuButton {
-    position: relative;
-    display: inline-block;
-  }
-
-  .menuText {
-    font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-    font-style: normal;
-    font-size: 1em;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      display: none;
-    }
-  }
-
-  .menuIcon {
-    display: none;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      display: inline-block;
-    }
-  }
-
   button {
     @media only screen and (max-width: $mobileMaxWidth) {
       padding: 12px 16px;
     }
+
+    .text {
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: none;
+      }
+    }
+
+    .icon {
+      display: none;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: inline-block;
+      }
+    }
   }
 
-  #menu {
-    position: fixed;
-  }
-
-  .menuContent {
+  .menu {
     display: none;
-    position: absolute;
-    background-color: $light-gray;
-    width: 248px;
+    position: fixed;
+    background-color: $gray;
+    width: 256px;
     z-index: 1;
-    top: 14px;
+    top: 52px;
     right: 20px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      top: 0px;
+      right: 0px;
+      width: 100vw;
+      height: 100vh;
+    }
 
     a {
       font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
@@ -98,9 +90,22 @@ export default {
       padding: 12px 24px;
       text-decoration: none;
       display: block;
+      transition: .1s all;
+
+      .icon {
+        display: none;
+        padding-left: 8px;
+      }
 
       &:hover, &:focus {
-        background-color: $light-gray-hover
+        background-color: $gray-hover;
+        color: $blue;
+
+        .icon {
+          @media only screen and (min-width: $mobileMaxWidth+1) {
+            display: inline-block;
+          }
+        }
       }
 
       @media only screen and (max-width: $mobileMaxWidth) {
@@ -108,35 +113,16 @@ export default {
       }
     }
 
-    @media only screen and (max-width: $mobileMaxWidth) {
-      top: 0px;
-      right: 0px;
-      width: 100vw;
-      height: 100vh;
+    .close {
+      text-align: right;
+      padding: 12px 24px;
+      width: 256px;
+      border-radius: 0px;
 
-      .closeButton {
-        padding-bottom: 40px;
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding: 35px 24px 12px 24px;
+        width: 100vw;
       }
-    }
-
-    .community {
-      color: $emerald;
-    }
-  }
-
-  .closeButton {
-    text-align: right;
-    padding: 12px 24px;
-    width: 248px;
-    border-radius: 0px;
-
-    &:hover, &:focus {
-      background-color: $light-gray-hover
-    }
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 35px 24px 12px 24px;
-      width: 100vw;
     }
   }
 

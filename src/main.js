@@ -7,11 +7,11 @@ import '~/assets/scss/main.scss'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane, faArrowRight, faBars } from '@fortawesome/free-solid-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
-library.add(faGithub, faTwitter, faPaperPlane)
+library.add(faGithub, faTwitter, faPaperPlane, faArrowRight, faBars)
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

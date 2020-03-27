@@ -59,7 +59,6 @@
               <li><g-link to="/misc/accessibilite">Accessibilité</g-link></li>
               <li><g-link to="/misc/donnees-personnelles">Données personnelles</g-link></li>
               <li><g-link to="/misc/mentions-legales">Mentions légales</g-link></li>
-              <!-- <li><a href="" target="_blank">Contact</a></li> -->
             </ul>
           </div>
           <div>
@@ -281,10 +280,6 @@ export default {
       div {
         margin-right: 48px;
         margin-bottom: 16px;
-      }
-
-      font-awesome {
-        padding-left: 4px;
       }
     }
 

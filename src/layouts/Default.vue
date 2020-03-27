@@ -245,7 +245,7 @@ export default {
 
     @media only screen and (max-width: $mobileMaxWidth) {
       padding: 20px 20px 24px 20px;
-      margin-top: 0px;
+      margin-top: 64px;
       display: inline-block;
     }
 

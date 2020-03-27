@@ -13,7 +13,7 @@
 
     <div class="content">
 
-      <div class="message">
+      <div class="message covid">
 
           <strong>COVID-19</strong>
 
@@ -164,10 +164,6 @@ export default {
       }
     }
 
-    .logo {
-      padding-bottom: 16px;
-    }
-
     .subtitle {
       color: white;
       font-weight: normal;
@@ -179,44 +175,13 @@ export default {
     }
   }
 
-  .message {
-    text-align: center;
-    background-color: $light-gray;
-    padding: 24px 48px 16px 48px;
-    margin-top: -30px;
-    margin-bottom: 50px;
-    border-radius: 32px;
+  .covid {
+    margin-top: -40px;
+    margin-bottom: 80px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       margin-top: -16px;
-      margin-bottom: 80px;
-      padding: 24px 16px 16px 16px;
-    }
-
-    strong {
-      font-size: 1.5em;
-    }
-
-    .button {
-      text-decoration: none;
-      color: $dark;
-      border: 2px solid $dark;
-      background-color: white;
-      border-radius: 32px;
-      padding: 8px 24px;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-      margin: 10px 0;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1em;
-      }
-
-      &:hover {
-        background: $dark;
-        color: white;
-      }
+      margin-bottom: 64px;
     }
   }
 

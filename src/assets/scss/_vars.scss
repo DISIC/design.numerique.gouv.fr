@@ -1,5 +1,6 @@
 $blue: #3355E3;
 $red: #FF5F42;
+$light: #FFFF8F;
 $gray: #EBECF0;
 $gray-hover: #D7D8DB;
 $black: #323233;
@@ -25,6 +26,7 @@ $light-gray-hover: #D7D8DB;
 :export {
   blue: $blue;
   red: $red;
+  light: $light;
   gray: $gray;
   gray-over: $gray-hover;
   black: $black;

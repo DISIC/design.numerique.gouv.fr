@@ -193,7 +193,8 @@ export default {
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 20px;
 
     nav {
       width: 33%;
@@ -209,7 +210,7 @@ export default {
 
       img {
         max-width: 120px;
-        margin: 20px 0px 12px 20px;
+        margin: 0px 0px 0px 20px;
 
         @media only screen and (max-width: $mobileMaxWidth) {
           max-width: 64px;
@@ -222,7 +223,7 @@ export default {
       text-align: center;
 
       img {
-        max-width: 320px;
+        max-width: 280px;
         width: 80%;
         margin-top: 8px;
       }
@@ -236,9 +237,11 @@ export default {
   }
 
   footer {
-    padding: 40px 20px 24px 20px;
-    margin-top: 80px;
-    background: $light-gray;
+    padding: 20px 20px 24px 20px;
+    margin-top: 120px;
+    border-top: 2px solid $black;
+    //outline: 5px solid $light;
+    //background: $light-gray;
     color: $dark;
     display: flex;
     justify-content: center;
@@ -253,12 +256,13 @@ export default {
       .logoRF {
         background-color: white;
         padding: 20px;
+        padding-right: 40px;
         margin-bottom: 24px;
       }
     }
 
     .footer-content {
-      padding-top: 8px;
+      padding-top: 18px;
       margin: 0 40px;
 
       @media only screen and (max-width: $mobileMaxWidth) {

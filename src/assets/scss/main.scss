@@ -80,8 +80,8 @@ button {
   font-size: 1em;
   color: $black;
 
-  border: none;
-  background-color: $gray;
+  border: 2px solid $black;
+  background-color: white;
   border-radius: 32px;
 
   padding: 10px 24px;
@@ -94,7 +94,8 @@ button {
   }
 
   &:hover, &:focus {
-    background-color: $gray-hover;
+    background-color: $black;
+    color: white;
   }
 }
 
@@ -138,7 +139,9 @@ button {
 
 .message {
   text-align: center;
-  background-color: $light-gray;
+  //background-color: $light-gray;
+  border: 2px solid $black;
+  box-shadow: 5px 5px 0px $light;
   padding: 32px 48px 16px 48px;
   border-radius: 32px;
 
@@ -176,7 +179,7 @@ button {
 }
 
 .cover {
-  padding: 72px 0 64px;
+  padding: 56px 0 56px;
   margin-bottom: 80px;
   text-align: center;
   width: 100vw;
@@ -191,14 +194,16 @@ button {
   }
 
   .coverContainer {
-    max-width: 760px;
+    max-width: 920px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .subtitle {
-    padding-top: 12px;
+    max-width: 840px;
+    margin: 0 auto;
+    padding-top: 32px;
     font-weight: 500;
     font-size: 1.5em;
 

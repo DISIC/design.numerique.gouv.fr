@@ -19,15 +19,17 @@
   </section>
 
   <section v-else>
+    <div @mouseenter="mouseEnter()" @mouseleave="mouseLeave()">
 
-    <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
+      <g-image :id="imageId" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
-    <h2>{{ title }}</h2>
+      <h2>{{ title }}</h2>
 
-    <p class="text" v-html="text"></p>
+      <p class="text" v-html="text"></p>
 
-    <p class="button-disabled">{{ buttonText }}</p>
+      <p class="button-disabled">{{ buttonText }}</p>
 
+    </div>
   </section>
 
 </template>
@@ -88,8 +90,10 @@ export default {
 
 section {
 
-  max-width: 680px;
-  margin: 0 auto 96px auto;
+  //border-top: 2px solid $black;
+  padding: 16px 40px;
+  margin: 0;
+  margin-top: 64px;
 
   @media only screen and (max-width: $mobileMaxWidth) {
     margin: 0 auto 64px auto;
@@ -108,6 +112,7 @@ section {
   .button {
     display: inline-block;
     margin-top: 8px;
+    box-shadow: 5px 5px 0px $light;
   }
 
   .button-disabled {

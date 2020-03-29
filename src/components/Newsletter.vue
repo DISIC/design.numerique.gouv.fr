@@ -22,8 +22,8 @@ export default {
 
 .message {
 
-  margin-top: 64px;
-  
+  margin-top: 80px;
+
   .button {
     margin-bottom: 0;
   }

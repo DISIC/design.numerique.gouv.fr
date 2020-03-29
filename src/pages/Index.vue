@@ -137,26 +137,29 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
   .cover {
-    background-color: $blue;
+    background-color: white;
 
     h1 {
+      font-size: 3.5em;
       padding: 0;
       margin: 0;
-      color: white;
-      font-weight: bold;
+      color: $blue;
+      font-weight: 800;
 
       .highlight {
-        box-shadow:
-          inset 0 -0.05em $blue,
-          inset 0 -0.3em lighten($blue, 10%);
-        display: inline;
-        transition: .1s all;
-
-        &:hover {
-          box-shadow:
-            inset 0 -0.05em $blue,
-            inset 0 -1.2em lighten($blue, 10%);
-        }
+        text-shadow: 5px 5px 0px $light;
+        //background-color: $light;
+        // box-shadow:
+        //   inset 0 -0.05em $blue,
+        //   inset 0 -0.3em lighten($blue, 10%);
+        // display: inline;
+        // transition: .1s all;
+        //
+        // &:hover {
+        //   box-shadow:
+        //     inset 0 -0.05em $blue,
+        //     inset 0 -1.2em lighten($blue, 10%);
+        // }
       }
 
       @media only screen and (max-width: $mobileMaxWidth) {
@@ -165,9 +168,10 @@ export default {
     }
 
     .subtitle {
-      color: white;
+      color: $blue;
       font-weight: normal;
       font-size: 1.25em;
+      font-style: italic;
 
       @media only screen and (max-width: $mobileMaxWidth) {
         font-size: 1.125em;

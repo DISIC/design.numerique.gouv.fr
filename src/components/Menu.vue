@@ -72,7 +72,7 @@ export default {
     background-color: $gray;
     width: 256px;
     z-index: 1;
-    top: 52px;
+    top: 20px;
     right: 20px;
 
     @media only screen and (max-width: $mobileMaxWidth) {

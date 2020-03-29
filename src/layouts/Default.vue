@@ -210,11 +210,11 @@ export default {
 
       img {
         max-width: 120px;
-        margin: 0px 0px 0px 20px;
+        margin: 0px 16px 0px 20px;
 
         @media only screen and (max-width: $mobileMaxWidth) {
           max-width: 64px;
-          margin: 12px 0px 4px 12px;
+          margin: 0px 0px 4px 12px;
         }
       }
     }

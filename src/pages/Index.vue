@@ -6,6 +6,11 @@
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
+        <g-image alt="Book icon" src="~/assets/images/design.svg"/>
+        <g-image alt="Book icon" src="~/assets/images/accessibilite.svg"/>
+        <g-image alt="Book icon" src="~/assets/images/services.svg"/>
+        <g-image alt="Book icon" src="~/assets/images/formations.svg"/>
+
         <p class="subtitle"><strong>DesignGouv</strong> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
 
       </div>
@@ -32,7 +37,7 @@
         le design, c’est mettre en œuvre des solutions centrées sur les
         usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt."
         buttonText="Bientôt disponible !"
-        v-bind:buttonActivated="false"
+        v-bind:buttonActivated="true"
         link="/"
         iconSrc="design.svg"
         iconAlt="Logo design"
@@ -167,8 +172,18 @@ export default {
       }
     }
 
+    img {
+      width: 32px;
+      margin: 32px 12px 0px 12px;
+      transition: .2s all;
+
+      &:hover, &:focus {
+        -webkit-transform: rotate(180deg);
+      }
+    }
+
     .subtitle {
-      color: $blue;
+      color: $dark;
       font-weight: normal;
       font-size: 1.25em;
       font-style: italic;

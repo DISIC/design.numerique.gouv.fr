@@ -179,7 +179,7 @@ button {
 }
 
 .cover {
-  padding: 40px 0 64px;
+  padding: 0px 0 64px;
   margin-bottom: 80px;
   text-align: center;
   width: 100vw;
@@ -189,7 +189,7 @@ button {
   background-color: $light-gray;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    padding: 48px 0 32px;
+    padding: 0px 0 32px;
     margin-bottom: 48px;
   }
 

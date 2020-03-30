@@ -1,6 +1,6 @@
 <template>
 
-  <section v-if="buttonActivated">
+  <section>
     <g-link :to="link" >
       <div @mouseenter="mouseEnter()" @mouseleave="mouseLeave()">
 
@@ -10,28 +10,14 @@
 
         <p v-html="text"></p>
 
-        <p :id="buttonId" class="button button-blue">
+        <p v-if="buttonActivated" :id="buttonId" class="button button-blue">
           {{ buttonText }}<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
         </p>
+        <p v-else class="button-disabled">{{ buttonText }}</p>
 
       </div>
     </g-link>
   </section>
-
-  <section v-else>
-    <div @mouseenter="mouseEnter()" @mouseleave="mouseLeave()">
-
-      <g-image :id="imageId" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
-
-      <h2>{{ title }}</h2>
-
-      <p class="text" v-html="text"></p>
-
-      <p class="button-disabled">{{ buttonText }}</p>
-
-    </div>
-  </section>
-
 </template>
 
 
@@ -90,17 +76,19 @@ export default {
 
 section {
 
-  //border-top: 2px solid $black;
-  padding: 16px 40px;
-  margin: 0;
-  margin-top: 64px;
+  max-width: 680px;
+  margin: 80px auto;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    margin: 0 auto 64px auto;
+    margin: 64px auto;
   }
 
   h2 {
     margin: 16px 0 20px 0;
+  }
+
+  img {
+    transition: .2s all;
   }
 
   a {
@@ -125,13 +113,11 @@ section {
 
   .rotate-in
   {
-    -webkit-transform: rotate(180deg);
-    -webkit-transition: -webkit-transform 0.2s;
+    rotate : 180deg;
   }
   .rotate-out
   {
-    -webkit-transform: rotate(0deg);
-    -webkit-transition: -webkit-transform 0.2s;
+    rotate : 0deg;
   }
 }
 

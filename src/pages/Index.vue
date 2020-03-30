@@ -37,7 +37,7 @@
         le design, c’est mettre en œuvre des solutions centrées sur les
         usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt."
         buttonText="Bientôt disponible !"
-        v-bind:buttonActivated="true"
+        v-bind:buttonActivated="false"
         link="/"
         iconSrc="design.svg"
         iconAlt="Logo design"
@@ -153,18 +153,6 @@ export default {
 
       .highlight {
         text-shadow: 5px 5px 0px $light;
-        //background-color: $light;
-        // box-shadow:
-        //   inset 0 -0.05em $blue,
-        //   inset 0 -0.3em lighten($blue, 10%);
-        // display: inline;
-        // transition: .1s all;
-        //
-        // &:hover {
-        //   box-shadow:
-        //     inset 0 -0.05em $blue,
-        //     inset 0 -1.2em lighten($blue, 10%);
-        // }
       }
 
       @media only screen and (max-width: $mobileMaxWidth) {
@@ -178,7 +166,7 @@ export default {
       transition: .2s all;
 
       &:hover, &:focus {
-        -webkit-transform: rotate(180deg);
+        rotate : 180deg;
       }
     }
 

@@ -193,20 +193,29 @@ export default {
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: start;
     padding-top: 20px;
 
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding-top: 10px;
+      align-items: center;
+    }
+
     nav {
-      width: 33%;
+      width: 36%;
       text-align: right;
 
       button {
         margin-right: 20px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin-right: 10px;
+        }
       }
     }
 
     .marque-etat {
-      width: 33%;
+      width: 36%;
 
       img {
         max-width: 120px;
@@ -240,8 +249,6 @@ export default {
     padding: 20px 20px 24px 20px;
     margin-top: 120px;
     border-top: 2px solid $black;
-    //outline: 5px solid $light;
-    //background: $light-gray;
     color: $dark;
     display: flex;
     justify-content: center;
@@ -254,24 +261,23 @@ export default {
 
     .footer-logo {
       .logoRF {
-        background-color: white;
-        padding: 20px;
-        padding-right: 40px;
-        margin-bottom: 24px;
+        margin: 20px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin: 0 0 20px 0;
+        }
       }
     }
 
     .footer-content {
-      padding-top: 18px;
-      margin: 0 40px;
+      margin: 18px 40px 0px 40px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        padding-top: 0px;
         margin: 0;
       }
 
       .logoDG {
-        max-width: 80%;
+        max-width: 88%;
       }
     }
 

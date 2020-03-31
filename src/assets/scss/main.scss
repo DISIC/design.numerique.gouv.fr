@@ -12,10 +12,10 @@ body {
 a {
   text-decoration: none;
   color: $blue;
+  transition: .2s all;
 
   &:hover {
     text-decoration: underline;
-    color: $blue;
   }
 }
 

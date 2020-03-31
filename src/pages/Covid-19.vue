@@ -216,6 +216,14 @@
         </div>
 
         <div class="website">
+          <p class="logo"><g-image alt="Logo Open Covid" src="~/assets/images/websites/opencovid.png"/></p>
+          <p class="name">Data Against COVID-19 / FR</p>
+          <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Data</span></p>
+          <p class="description">Une organisation informelle issue de la société civile avec des développeurs, des data scientist, des ingénieurs, des chefs de projets et talents de tous corps de métiers qui s'organisent ensemble pour fournir des données consolidées sur l'épidémie de covid 19 et proposer des outils de visualisation.</p>
+          <a href="https://opencovid19.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+        </div>
+
+        <div class="website">
           <p class="logo"><font-awesome :icon="['fas', 'newspaper']" size="2x" /></p>
           <p class="name">Développeurs / datascientistes - Comment aider ?</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Code</span></p>

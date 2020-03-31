@@ -8,12 +8,11 @@
     <div id="menu" class="menuContent">
       <button @click="toggle" class="closeButton">Fermer ✕</button>
       <g-link to="/">Accueil</g-link>
-      <!-- <g-link to="/design">Le design numérique</g-link> -->
+      <g-link to="/covid-19">Covid-19</g-link>
       <g-link to="/accessibilite-numerique">Accessibilité numérique</g-link>
       <g-link to="/services">Nos services</g-link>
       <g-link to="/formations">Les formations</g-link>
       <g-link to="/recrutement">Recrutement</g-link>
-      <a class="community" href="http://eepurl.com/gLJCsb" target="_blank">Newsletter</a>
     </div>
   </div>
 

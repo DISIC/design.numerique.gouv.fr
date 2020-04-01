@@ -6,12 +6,12 @@
     </button>
     <div id="menu" class="menu">
       <button type="button" @click="toggle" class="close">Fermer ✕</button>
-      <g-link to="/">Accueil<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
-      <g-link to="/covid-19">Covid-19<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
-      <g-link to="/accessibilite-numerique">Accessibilité numérique<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
-      <g-link to="/services">Nos services<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
-      <g-link to="/formations">Les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
-      <g-link to="/recrutement">Recrutement<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link class="button" to="/">Accueil<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link class="button" to="/covid-19">Covid-19<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link class="button" to="/accessibilite-numerique">Accessibilité numérique<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link class="button" to="/services">Nos services<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link class="button" to="/formations">Les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <g-link class="button" to="/recrutement">Recrutement<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
     </div>
   </div>
 
@@ -70,13 +70,16 @@ export default {
   .menu {
     display: none;
     position: fixed;
-    background-color: $gray;
-    width: 256px;
+    background-color: white;
+    border: 2px solid $black;
+    box-shadow: 5px 5px 0 $light;
+    width: 280px;
     z-index: 1;
-    top: 20px;
+    top: 14px;
     right: 20px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
+      border: none;
       top: 0px;
       right: 0px;
       width: 100vw;
@@ -84,23 +87,16 @@ export default {
     }
 
     a {
-      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-      color: $dark;
-      font-weight: bold;
-      text-align: left;
-      padding: 12px 24px;
-      text-decoration: none;
       display: block;
-      transition: .1s all;
+      border: none;
+      border-radius: 0;
+      padding: 14px 24px;
 
       .icon {
         display: none;
-        padding-left: 8px;
       }
 
       &:hover, &:focus {
-        background-color: $gray-hover;
-        color: $blue;
 
         .icon {
           @media only screen and (min-width: $mobileMaxWidth+1) {
@@ -115,13 +111,14 @@ export default {
     }
 
     .close {
+      width: 100%;
+      border: none;
       text-align: right;
-      padding: 12px 24px;
-      width: 256px;
+      padding: 14px 24px;
       border-radius: 0px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        padding: 35px 24px 12px 24px;
+        padding: 24px;
         width: 100vw;
       }
     }

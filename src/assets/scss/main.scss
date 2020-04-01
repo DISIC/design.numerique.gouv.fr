@@ -2,11 +2,10 @@
 @import "covid";
 
 body {
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
-  color: $dark;
+  color: $black;
 }
 
 a {
@@ -21,7 +20,7 @@ a {
 
 h1, h2, h3 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.2em;
+  line-height: 1.2;
 }
 
 h1 {
@@ -35,15 +34,19 @@ h1 {
 
 h2 {
   font-size: 2em;
-  font-weight: 700;
+  font-weight: bold;
 
   @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 1.75em;
   }
 }
 
-.page-header {
-  padding: 80px 0;
+.highlight {
+  text-shadow: 5px 5px 0px $light;
+}
+
+.shadow {
+  box-shadow: 5px 5px 0px $light;
 }
 
 .content {
@@ -71,13 +74,11 @@ h2 {
   }
 }
 
-li {
-  margin-bottom: 5px;
-}
-
-button {
+button, .button {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
   font-size: 1em;
+  font-weight: bold;
   color: $black;
 
   border: 2px solid $black;
@@ -89,38 +90,20 @@ button {
   cursor: pointer;
   transition: .1s all;
 
-  @media only screen and (max-width: $mobileMaxWidth) {
-    font-size: 0.875em;
-  }
-
-  &:hover, &:focus {
-    background-color: $black;
-    color: white;
-  }
-}
-
-.button {
-  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  color: $black;
-
-  border: 2px solid $black;
-  background-color: white;
-  border-radius: 32px;
-
-  padding: 8px 24px;
-
-  transition: .1s all;
-
-  @media only screen and (max-width: $mobileMaxWidth) {
-    font-size: 0.875em;
-  }
-
   &:hover, &:focus, &.hover {
     text-decoration: none;
     background-color: $black;
     color: white;
+  }
+
+  &.blue {
+    color: $blue;
+    border-color: $blue;
+
+    &:hover, &:focus, &.hover {
+      color: white;
+      background-color: $blue;
+    }
   }
 
   .icon {
@@ -128,30 +111,21 @@ button {
   }
 }
 
-.button-blue {
-  color: $blue;
-  border-color: $blue;
-
-  &:hover, &:focus, &.hover {
-    background-color: $blue;
-  }
-}
-
 .message {
   text-align: center;
   border: 2px solid $black;
-  box-shadow: 5px 5px 0px $light;
   padding: 32px 48px 16px 48px;
   border-radius: 32px;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    padding: 32px 24px 16px 24px;
+    padding: 24px 24px 16px 24px;
   }
 
   strong {
     display: block;
     font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
     font-size: 1.75em;
+    line-height: 1.4;
     padding-bottom: 4px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
@@ -165,31 +139,17 @@ button {
   }
 }
 
-.arrow {
-  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-  padding: 0 0 0 6px;
-  transition: .2s all;
-}
-
-.arrowLeft {
-  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-  padding: 0 8px 0 0px;
-  transition: .2s all;
-}
-
 .cover {
-  padding: 64px 0;
+  padding-top: 32px;
   margin-bottom: 80px;
   text-align: center;
   width: 100vw;
   position: relative;
   margin-left: -50vw;
   left: 50%;
-  background-color: $light-gray;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    padding: 32px 0;
-    margin-bottom: 48px;
+    padding-top: 16px;
   }
 
   .coverContainer {
@@ -222,7 +182,7 @@ button {
   position: relative;
   margin-left: -50vw;
   left: 50%;
-  background-color: $light-gray;
+  background-color: $gray;
 
   @media only screen and (max-width: $mobileMaxWidth) {
     padding: 32px 0;

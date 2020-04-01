@@ -1,6 +1,6 @@
 <template>
 
-  <div class="message">
+  <div class="message shadow">
     <strong>Rejoignez la communauté&nbsp;!</strong>
 
     <p>DesignGouv, c’est aussi une communauté pour faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>

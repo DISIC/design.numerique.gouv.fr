@@ -10,10 +10,10 @@
 
         <p v-html="text"></p>
 
-        <p v-if="buttonActivated" :id="buttonId" class="button button-blue">
+        <p v-if="buttonActivated" :id="buttonId" class="button blue shadow">
           {{ buttonText }}<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
         </p>
-        <p v-else class="button-disabled">{{ buttonText }}</p>
+        <p v-else class="disabled">{{ buttonText }}</p>
 
       </div>
     </g-link>
@@ -51,17 +51,11 @@ export default {
       return require("../assets/images/" + src)
     },
     mouseEnter () {
-      //document.getElementById("title-" + this._uid).style.color = styles.blue;
-      document.getElementById("image-" + this._uid).classList.add("rotate-in");
-      document.getElementById("image-" + this._uid).classList.remove("rotate-out");
-
+      document.getElementById("image-" + this._uid).classList.add("rotate");
       document.getElementById("button-" + this._uid).classList.add("hover");
     },
     mouseLeave () {
-      //document.getElementById("title-" + this._uid).style.color = styles.black;
-      document.getElementById("image-" + this._uid).classList.add("rotate-out");
-      document.getElementById("image-" + this._uid).classList.remove("rotate-in");
-
+      document.getElementById("image-" + this._uid).classList.remove("rotate");
       document.getElementById("button-" + this._uid).classList.remove("hover");
     },
   }
@@ -75,7 +69,6 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
 section {
-
   max-width: 680px;
   margin: 80px auto;
 
@@ -94,16 +87,15 @@ section {
   a {
     display: block;
     text-decoration: none;
-    color: $dark;
+    color: $black;
   }
 
   .button {
     display: inline-block;
     margin-top: 8px;
-    box-shadow: 5px 5px 0px $light;
   }
 
-  .button-disabled {
+  .disabled {
     font-weight: bold;
 
     @media only screen and (max-width: $mobileMaxWidth) {
@@ -111,13 +103,9 @@ section {
     }
   }
 
-  .rotate-in
+  .rotate
   {
-    rotate : 180deg;
-  }
-  .rotate-out
-  {
-    rotate : 0deg;
+    transform: rotate(180deg);
   }
 }
 

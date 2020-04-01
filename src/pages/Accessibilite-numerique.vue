@@ -244,7 +244,7 @@ export default {
   }
 
   .cover {
-    background-color: $light-gray;
+    background-color: $gray;
   }
 
   .content {

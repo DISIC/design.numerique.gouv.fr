@@ -18,7 +18,7 @@
 
     <div class="content">
 
-      <div class="message covid">
+      <div class="message covid shadow">
 
           <strong>COVID-19</strong>
 
@@ -142,36 +142,32 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
   .cover {
-    background-color: white;
 
     h1 {
       font-size: 3.5em;
-      padding: 0;
-      margin: 0;
       color: $blue;
-      font-weight: 800;
-
-      .highlight {
-        text-shadow: 5px 5px 0px $light;
-      }
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1.8em;
+        font-size: 2em;
       }
     }
 
     img {
       width: 32px;
-      margin: 32px 12px 0px 12px;
+      margin: 0px 12px;
       transition: .2s all;
 
       &:hover, &:focus {
-        rotate : 180deg;
+        transform: rotate(180deg);
+      }
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 24px;
       }
     }
 
     .subtitle {
-      color: $dark;
+      color: $black;
       font-weight: normal;
       font-size: 1.25em;
       font-style: italic;
@@ -183,11 +179,9 @@ export default {
   }
 
   .covid {
-    margin-top: -40px;
     margin-bottom: 80px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      margin-top: -16px;
       margin-bottom: 64px;
     }
   }

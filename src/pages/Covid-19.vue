@@ -312,8 +312,8 @@ export default {
     display: inline-block;
     padding: 16px;
     margin: 20px 20px 0 0;
-    border: 2px solid $light-gray;
-    background-color: $light-gray;
+    border: 2px solid $gray;
+    background-color: $gray;
     border-radius: 16px;
     width: 192px;
 
@@ -332,7 +332,7 @@ export default {
 
     .description {
       font-weight: bold;
-      color: $dark;
+      color: $black;
       margin-bottom: 8px;
     }
 
@@ -393,7 +393,7 @@ export default {
         display: inline-block;
         font-size: 0.75em;
         font-weight: bold;
-        background-color: $light-gray;
+        background-color: $gray;
         border-radius: 16px;
         padding: 4px 12px;
         margin-top: 4px;

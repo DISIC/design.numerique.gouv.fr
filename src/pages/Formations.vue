@@ -19,7 +19,7 @@
 
         <h2>
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
-          <span class="highlight">Initiations</span>
+          <span class="">Initiations</span>
         </h2>
         <p>Initiez-vous facilement et gratuitement. C'est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
 
@@ -41,7 +41,7 @@
 
         <h2>
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
-          <span class="highlight">Certifications</span>
+          <span class="">Certifications</span>
         </h2>
         <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
           compétences sur les sujets qui vous intéressent.</p>
@@ -57,7 +57,7 @@
 
         <h2>
           <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
-          <span class="highlight">Diplômes</span>
+          <span class="">Diplômes</span>
         </h2>
         <p>Les formations diplômantes vous permettent de devenir expert ou de vous diriger vers un nouveau métier.</p>
 
@@ -102,38 +102,10 @@ export default {
 
 @import "src/assets/scss/_vars.scss";
 
-  h1 {
-    box-shadow:
-      inset 0 -0.05em $brown-light,
-      inset 0 -0.3em white;
-    display: inline;
-    transition: .1s all;
-
-    &:hover {
-      box-shadow:
-        inset 0 -0.05em $brown-light,
-        inset 0 -1.4em white;
-    }
-  }
-
-  .highlight {
-    box-shadow:
-      inset 0 -0.05em white,
-      inset 0 -1.4em $brown-light;
-  }
-
-  .cover {
-    background-color: $brown-light;
-  }
-
   .content {
 
-    a {
-      color: $brown;
-    }
-
     strong {
-      color: $brown;
+      color: $blue;
     }
 
     .buttonLight {
@@ -144,7 +116,7 @@ export default {
       margin: 0 0 16px 0;
 
       .black {
-        color: $dark;
+        color: $black;
         font-weight: normal;
       }
 

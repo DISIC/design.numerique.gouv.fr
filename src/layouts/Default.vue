@@ -188,8 +188,7 @@ export default {
     height: 72px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 0 8px;
-      height: 64px;
+      padding: 0 12px;
     }
 
     .logo {
@@ -211,7 +210,7 @@ export default {
     padding: 20px 20px 24px 20px;
     margin-top: 120px;
     border-top: 2px solid $black;
-    color: $dark;
+    color: $black;
     display: flex;
     justify-content: center;
 
@@ -239,7 +238,7 @@ export default {
       }
 
       .logoDG {
-        max-width: 88%;
+        max-width: 80%;
       }
     }
 
@@ -257,23 +256,19 @@ export default {
 
     ul {
       padding: 0;
-
+      
       li {
         list-style-type: none;
       }
     }
 
     .public {
-      font-size: .8em;
+      font-size: .875em;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
 
-      span {
-        margin-right: 12px;
-      }
-
-      a {
+      a, span {
         margin-right: 12px;
       }
     }

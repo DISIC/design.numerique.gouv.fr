@@ -4,7 +4,7 @@
     <button type="button" @click="toggle" v-click-outside="hide">
       <span class="text">Menu</span><font-awesome class="icon" :icon="['fas', 'bars']"/>
     </button>
-    <div id="menu" class="menu">
+    <div id="menu" class="menu shadow">
       <button type="button" @click="toggle" class="close">Fermer ✕</button>
       <g-link class="button" to="/">Accueil<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
       <g-link class="button" to="/covid-19">Covid-19<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
@@ -47,9 +47,13 @@ export default {
   @import "src/assets/scss/_vars.scss";
 
   button {
+    font-weight: normal;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 8px 12px;
+      width: 44px;
+      height: 44px;
+      padding: 8px;
+      border-radius: 50%;
     }
 
     .text {
@@ -62,6 +66,7 @@ export default {
       display: none;
 
       @media only screen and (max-width: $mobileMaxWidth) {
+        padding: 0;
         display: inline-block;
       }
     }
@@ -72,7 +77,6 @@ export default {
     position: fixed;
     background-color: white;
     border: 2px solid $black;
-    box-shadow: 5px 5px 0 $light;
     width: 280px;
     z-index: 1;
     top: 14px;
@@ -98,7 +102,6 @@ export default {
       }
 
       &:hover, &:focus {
-
         .icon {
           @media only screen and (min-width: $mobileMaxWidth+1) {
             display: inline-block;
@@ -114,12 +117,12 @@ export default {
     .close {
       width: 100%;
       border: none;
+      border-radius: 0px;
       text-align: right;
       padding: 14px 24px;
-      border-radius: 0px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        padding: 24px;
+        padding: 32px 32px 48px 0;
         width: 100vw;
       }
     }

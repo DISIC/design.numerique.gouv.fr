@@ -47,8 +47,9 @@ export default {
   @import "src/assets/scss/_vars.scss";
 
   button {
+
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 12px 16px;
+      padding: 8px 12px;
     }
 
     .text {

@@ -2,23 +2,14 @@
   <div>
 
     <header>
-
-      <div class="marque-etat">
+      <div>
         <g-link to="/">
-          <g-image src="~/assets/images/logoRF.svg" alt="Logo République Française" />
+          <g-image class="logo" src="~/assets/images/logoMDGB.svg" width="320" alt="Logo DesignGouv" />
         </g-link>
       </div>
-
-      <div class="marque-dsn">
-        <g-link to="/">
-          <g-image class="logo" alt="Logo DesignGouv" src="~/assets/images/logoDGB.svg"/>
-        </g-link>
-      </div>
-
       <nav>
         <Menu />
       </nav>
-
     </header>
 
     <main class="layout">
@@ -190,51 +181,22 @@ export default {
   }
 
   header {
-
     display: flex;
+    padding: 0 20px;
     justify-content: space-between;
-    align-items: start;
-    padding-top: 20px;
+    align-items: center;
+    height: 72px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding-top: 10px;
-      align-items: center;
+      padding: 0 8px;
+      height: 64px;
     }
 
-    nav {
-      width: 36%;
-      text-align: right;
+    .logo {
+      padding-top: 8px;
 
-      button {
-        margin-right: 20px;
-
-        @media only screen and (max-width: $mobileMaxWidth) {
-          margin-right: 10px;
-        }
-      }
-    }
-
-    .marque-etat {
-      width: 36%;
-
-      img {
-        max-width: 120px;
-        margin: 0px 16px 0px 20px;
-
-        @media only screen and (max-width: $mobileMaxWidth) {
-          max-width: 64px;
-          margin: 0px 0px 4px 12px;
-        }
-      }
-    }
-
-    .marque-dsn {
-      text-align: center;
-
-      img {
-        max-width: 280px;
-        width: 80%;
-        margin-top: 8px;
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 240px;
       }
     }
   }

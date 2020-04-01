@@ -94,6 +94,7 @@ export default {
 
       .icon {
         display: none;
+        color: $light;
       }
 
       &:hover, &:focus {

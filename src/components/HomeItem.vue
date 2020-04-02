@@ -69,12 +69,6 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
 section {
-  max-width: 680px;
-  margin: 80px auto;
-
-  @media only screen and (max-width: $mobileMaxWidth) {
-    margin: 64px auto;
-  }
 
   h2 {
     margin: 16px 0 20px 0;
@@ -91,7 +85,6 @@ section {
   }
 
   .button {
-    display: inline-block;
     margin-top: 8px;
   }
 
@@ -101,11 +94,6 @@ section {
     @media only screen and (max-width: $mobileMaxWidth) {
       font-size: 0.875em;
     }
-  }
-
-  .rotate
-  {
-    transform: rotate(180deg);
   }
 }
 

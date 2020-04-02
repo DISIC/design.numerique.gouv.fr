@@ -2,16 +2,16 @@
   <Layout>
 
     <div class="cover">
-      <div class="coverContainer">
+      <div class="container">
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
-        <g-image alt="Book icon" src="~/assets/images/design.svg"/>
-        <g-image alt="Book icon" src="~/assets/images/accessibilite.svg"/>
-        <g-image alt="Book icon" src="~/assets/images/services.svg"/>
-        <g-image alt="Book icon" src="~/assets/images/formations.svg"/>
+        <g-image alt="Icone design" src="~/assets/images/design.svg"/>
+        <g-image alt="Icone accesibilité" src="~/assets/images/accessibilite.svg"/>
+        <g-image alt="Icone services" src="~/assets/images/services.svg"/>
+        <g-image alt="Icone formations" src="~/assets/images/formations.svg"/>
 
-        <p class="subtitle"><strong>DesignGouv</strong> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
+        <p class="subtitle"><b>DesignGouv</b> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
 
       </div>
     </div>
@@ -40,7 +40,7 @@
         v-bind:buttonActivated="false"
         link="/"
         iconSrc="design.svg"
-        iconAlt="Logo design"
+        iconAlt="Icone design"
       />
 
       <HomeItem
@@ -50,7 +50,7 @@
         v-bind:buttonActivated="true"
         link="/accessibilite-numerique"
         iconSrc="accessibilite.svg"
-        iconAlt="Logo accessibilité"
+        iconAlt="Icone accessibilité"
       />
 
       <HomeItem
@@ -63,7 +63,7 @@
         v-bind:buttonActivated="true"
         link="/services"
         iconSrc="services.svg"
-        iconAlt="Logo services"
+        iconAlt="Icone services"
       />
 
       <HomeItem
@@ -76,7 +76,7 @@
         v-bind:buttonActivated="true"
         link="/formations"
         iconSrc="formations.svg"
-        iconAlt="Logo formations"
+        iconAlt="Icone formations"
       />
 
     </div>
@@ -140,43 +140,6 @@ export default {
 <style scoped lang="scss">
 
 @import "src/assets/scss/_vars.scss";
-
-  .cover {
-
-    h1 {
-      font-size: 3.5em;
-      color: $blue;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 2em;
-      }
-    }
-
-    img {
-      width: 32px;
-      margin: 0px 12px;
-      transition: .2s all;
-
-      &:hover, &:focus {
-        transform: rotate(180deg);
-      }
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        width: 24px;
-      }
-    }
-
-    .subtitle {
-      color: $black;
-      font-weight: normal;
-      font-size: 1.25em;
-      font-style: italic;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1.125em;
-      }
-    }
-  }
 
   .covid {
     margin-bottom: 80px;

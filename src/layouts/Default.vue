@@ -256,7 +256,7 @@ export default {
 
     ul {
       padding: 0;
-      
+
       li {
         list-style-type: none;
       }

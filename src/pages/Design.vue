@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="cover">
-     <div class="coverContainer">
+     <div class="container">
 
       <h1>Le Design numérique</h1>
 

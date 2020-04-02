@@ -1,14 +1,14 @@
 <template>
   <Layout>
 
-    <div class="coverLight">
-     <div class="coverContainer covid-cover">
+    <div class="cover">
+     <div class="container">
 
        <strong>Covid-19</strong>
        <h1>Les attestations de sortie et les opportunités d'entraide</h1>
 
-       <a href="#attestations"><button>Attestations</button></a>
-       <a href="#initiatives"><button>Me porter volontaire</button></a>
+       <a href="#attestations" class="button shadow">Attestations</a>
+       <a href="#initiatives" class="button shadow">Me porter volontaire</a>
 
       </div>
     </div>
@@ -289,20 +289,6 @@ export default {
 <style scoped lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-
-  button {
-    background-color: white;
-    color: $blue;
-    margin: 0 8px;
-
-    &:hover, &:focus {
-      border-color: $blue;
-
-      a {
-        text-decoration: none;
-      }
-    }
-  }
 
   .entete {
     margin-bottom: 64px;

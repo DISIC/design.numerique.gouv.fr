@@ -22,10 +22,10 @@
 
           <strong>COVID-19</strong>
 
-          <p>Nous avons créé des attestations de déplacements accessibles et inclusives pour toutes et tous, à imprimer ou à recopier.</p>
+          <p>Retrouvez les attestations de déplacements accessibles et inclusives ainsi qu'une liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
 
           <g-link to="/covid-19" class="button">
-            Accéder aux documents<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Accéder aux documents et aux initiatives&nbsp;<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
 
       </div>

@@ -231,7 +231,7 @@
           <a href="https://bzg.fr/covid19-developpeurs-datascientistes-comment-aider/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
-        <p><i>Vous souhaitez ajouter une initiative ? <a href="mailto:contact@design.numerique.gouv.fr" target="_blank">Contactez-nous</a> ou contribuez sur note <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">github</a> !</i></p>
+        <p><i>Vous souhaitez ajouter une initiative ? <a href="mailto:contact@design.numerique.gouv.fr" target="_blank">Contactez-nous</a> ou contribuez sur notre <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">github</a> !</i></p>
 
       </section>
 

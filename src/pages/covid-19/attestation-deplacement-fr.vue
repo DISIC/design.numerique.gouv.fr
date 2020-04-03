@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <div class="coverLight">
-     <div class="coverContainer covid-cover">
+    <div class="cover">
+     <div class="container light shadow">
 
        <strong>Covid-19</strong>
        <h1>Attestation de déplacement dérogatoire (Français)</h1>

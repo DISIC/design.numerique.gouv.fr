@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="36px" height="34px" viewBox="0 0 36 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
     <title>design</title>
     <desc>Created with Sketch.</desc>
-    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Main" transform="translate(-495.000000, -228.000000)" stroke="#2854D6" stroke-width="2.8">
-            <g id="Header">
-                <g id="Group-2" transform="translate(260.000000, 154.000000)">
-                    <g id="Group-5" transform="translate(237.000000, 75.000000)">
-                        <g id="design" transform="translate(0.000000, 1.000000)">
-                            <polygon id="Path" points="16 0 20.944 10.016 32 11.632 24 19.424 25.888 30.432 16 25.232 6.112 30.432 8 19.424 0 11.632 11.056 10.016"></polygon>
-                        </g>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Copy-5" transform="translate(-260.000000, -646.000000)">
+            <g id="Main" transform="translate(260.000000, 646.000000)">
+                <g id="Card-Copy-2">
+                    <g id="design">
+                        <rect id="Rectangle" fill="#FF5F42" x="11" y="2.5" width="7" height="35" rx="3.5"></rect>
+                        <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,6 C12.2680135,6 6,12.2680135 6,20 C6,27.7319865 12.2680135,34 20,34 C27.7319865,34 34,27.7319865 34,20 C34,12.2680135 27.7319865,6 20,6 Z" id="Combined-Shape" fill="#3355E3"></path>
                     </g>
                 </g>
             </g>

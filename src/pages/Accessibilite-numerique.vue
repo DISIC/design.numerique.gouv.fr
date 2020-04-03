@@ -2,16 +2,16 @@
   <Layout>
 
     <div class="cover">
-     <div class="coverContainer">
+     <div class="container">
 
-      <h1>Accessibilité numérique</h1>
+      <h1 class="highlight">Accessibilité numérique</h1>
 
       <p class="subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 
       </div>
     </div>
 
-    <div class="content text-content">
+    <div class="content small">
 
 
       <h2>
@@ -235,17 +235,6 @@ export default {
 <style scoped lang="scss">
 
 @import "src/assets/scss/_vars.scss";
-
-  h1 {
-    box-shadow:
-      inset 0 -0.3em white;
-    display: inline;
-    transition: .1s all;
-  }
-
-  .cover {
-    background-color: $light-gray;
-  }
 
   .content {
     table {

@@ -2,26 +2,30 @@
   <Layout>
 
     <div class="cover">
-      <div class="coverContainer">
+      <div class="container">
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
-        <p class="subtitle"><strong>DesignGouv</strong> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
+        <g-image alt="Icone design" src="~/assets/images/design.svg"/>
+        <g-image alt="Icone accesibilité" src="~/assets/images/accessibilite.svg"/>
+        <g-image alt="Icone services" src="~/assets/images/services.svg"/>
+        <g-image alt="Icone formations" src="~/assets/images/formations.svg"/>
+
+        <p class="subtitle"><b>DesignGouv</b> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
 
       </div>
     </div>
 
     <div class="content">
 
-      <div class="message">
+      <div class="message covid shadow">
 
           <strong>COVID-19</strong>
 
           <p>Retrouvez les attestations de déplacements accessibles et inclusives ainsi qu'une liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
 
           <g-link to="/covid-19" class="button">
-            Accéder aux documents et aux initiatives
-            <span class='arrow'>→</span>
+            Accéder aux documents et aux initiatives&nbsp;<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
 
       </div>
@@ -36,9 +40,7 @@
         v-bind:buttonActivated="false"
         link="/"
         iconSrc="design.svg"
-        iconAlt="Star icon"
-        color="#2854D6"
-        colorLight="#ACBDF1"
+        iconAlt="Icone design"
       />
 
       <HomeItem
@@ -47,10 +49,8 @@
         buttonText="L'accessibilité en détails"
         v-bind:buttonActivated="true"
         link="/accessibilite-numerique"
-        iconSrc="tools.svg"
-        iconAlt="Tool icon"
-        color="#37863D"
-        colorLight="#84CD86"
+        iconSrc="accessibilite.svg"
+        iconAlt="Icone accessibilité"
       />
 
       <HomeItem
@@ -63,9 +63,7 @@
         v-bind:buttonActivated="true"
         link="/services"
         iconSrc="services.svg"
-        iconAlt="Lifebuoy icon"
-        color="#EB1000"
-        colorLight="#FFA89E"
+        iconAlt="Icone services"
       />
 
       <HomeItem
@@ -77,10 +75,8 @@
         buttonText="Je découvre les formations"
         v-bind:buttonActivated="true"
         link="/formations"
-        iconSrc="courses.svg"
-        iconAlt="Book icon"
-        color="#90731D"
-        colorLight="#E2C56F"
+        iconSrc="formations.svg"
+        iconAlt="Icone formations"
       />
 
     </div>
@@ -145,46 +141,11 @@ export default {
 
 @import "src/assets/scss/_vars.scss";
 
-  .cover {
-    background-color: $blue;
+  .covid {
+    margin-bottom: 80px;
 
-    h1 {
-      padding: 0;
-      margin: 0;
-      color: white;
-      font-weight: bold;
-
-      .highlight {
-        box-shadow:
-          inset 0 -0.05em $blue,
-          inset 0 -0.3em lighten($blue, 10%);
-        display: inline;
-        transition: .1s all;
-
-        &:hover {
-          box-shadow:
-            inset 0 -0.05em $blue,
-            inset 0 -1.2em lighten($blue, 10%);
-        }
-      }
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1.8em;
-      }
-    }
-
-    .logo {
-      padding-bottom: 16px;
-    }
-
-    .subtitle {
-      color: white;
-      font-weight: normal;
-      font-size: 1.25em;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1.125em;
-      }
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 64px;
     }
   }
 

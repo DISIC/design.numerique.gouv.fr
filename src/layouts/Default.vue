@@ -2,33 +2,48 @@
   <div>
 
     <header>
-      <div>
-        <g-link to="/">
-          <g-image class="logo" src="~/assets/images/logoMDGB.svg" width="320" alt="Logo DesignGouv" />
-        </g-link>
+
+      <div class="logo">
+
+        <div  class="etat">
+          <g-link to="/">
+            <g-image src="~/assets/images/logoRF.svg" alt="République Française" />
+          </g-link>
+        </div>
+
+        <div  class="designgouv">
+          <g-link to="/">
+            <g-image class="logo" alt="DesignGouv" src="~/assets/images/logoDGB.svg"/>
+          </g-link>
+        </div>
+
       </div>
+
       <nav>
         <Menu />
       </nav>
+
     </header>
+
 
     <main class="layout">
       <slot/>
       <Newsletter />
     </main>
 
+
     <footer>
 
       <div class="footer-logo">
         <g-link to="/">
-          <g-image class="logoRF" alt="Logo République Française" width="200" src="~/assets/images/logoRF.svg"/>
+          <g-image class="logoRF" alt="République Française" width="200" src="~/assets/images/logoRF.svg"/>
         </g-link>
       </div>
 
       <div class="footer-content">
         <div class="">
           <g-link to="/">
-            <g-image class="logoDG" alt="Logo DesignGouv" width="280" src="~/assets/images/logoDGB.svg"/>
+            <g-image class="logoDG" alt="DesignGouv" width="280" src="~/assets/images/logoDGB.svg"/>
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -182,20 +197,47 @@ export default {
 
   header {
     display: flex;
-    padding: 0 20px;
     justify-content: space-between;
     align-items: center;
-    height: 72px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 0 12px;
+    nav {
+      text-align: right;
+
+      button {
+        margin: 0 30px 0 40px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin: 0 12px 0 16px;
+        }
+      }
     }
 
     .logo {
-      padding-top: 8px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
-        width: 240px;
+      .etat {
+        img {
+          max-width: 120px;
+          margin: 30px 40px 12px 30px;
+
+          @media only screen and (max-width: $mobileMaxWidth) {
+            max-width: 64px;
+            margin: 12px 16px 0px 12px;
+          }
+        }
+      }
+
+      .designgouv {
+        img {
+          max-width: 260px;
+          width: 100%;
+
+          @media only screen and (max-width: $mobileMaxWidth) {
+            max-width: 140px;
+          }
+        }
       }
     }
   }

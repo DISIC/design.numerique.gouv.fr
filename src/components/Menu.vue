@@ -79,10 +79,11 @@ export default {
     border: 2px solid $black;
     width: 280px;
     z-index: 1;
-    top: 14px;
-    right: 20px;
+    top: 52px;
+    right: 30px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
+      font-size: 1.2em;
       border: none;
       top: 0px;
       right: 0px;
@@ -92,6 +93,7 @@ export default {
 
     a {
       display: block;
+      text-align: left;
       border: none;
       border-radius: 0;
       padding: 14px 24px;
@@ -120,6 +122,7 @@ export default {
       border-radius: 0px;
       text-align: right;
       padding: 14px 24px;
+      margin: 0;
 
       @media only screen and (max-width: $mobileMaxWidth) {
         padding: 32px 32px 48px 0;

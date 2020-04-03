@@ -10,4 +10,8 @@ DesignGouv rassemble les agents publics soucieux de la qualité des services num
 
 ### Démarrer le projet
 - Entrer dans le projet `cd design.numerique.gouv.fr`
-- Executer `gridsome develop` pour démarrer un environnement local
+- Exécuter `gridsome develop` pour démarrer un environnement local
+
+
+# Licence
+La licence du contenu du site est en cours de réévaluation.

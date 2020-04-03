@@ -5,7 +5,7 @@
 
       <div class="logo">
 
-        <div  class="etat">
+        <div  class="rf">
           <g-link to="/">
             <g-image src="~/assets/images/logoRF.svg" alt="République Française" />
           </g-link>
@@ -34,21 +34,26 @@
 
     <footer>
 
-      <div class="footer-logo">
-        <g-link to="/">
-          <g-image class="logoRF" alt="République Française" width="200" src="~/assets/images/logoRF.svg"/>
-        </g-link>
+      <div class="logo">
+
+        <div  class="rf">
+          <g-link to="/">
+            <g-image src="~/assets/images/logoRF.svg" alt="République Française" />
+          </g-link>
+        </div>
+
+        <div  class="designgouv">
+          <g-link to="/">
+            <g-image class="logo" alt="DesignGouv" src="~/assets/images/logoDGB.svg"/>
+          </g-link>
+        </div>
+
       </div>
 
       <div class="footer-content">
-        <div class="">
-          <g-link to="/">
-            <g-image class="logoDG" alt="DesignGouv" width="280" src="~/assets/images/logoDGB.svg"/>
-          </g-link>
-          <p>
-            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
-            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre.
-          </p>
+        <div>
+          DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
+          Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre.
         </div>
 
         <div class="websites">
@@ -195,29 +200,23 @@ export default {
          url("../assets/fonts/Inter/Inter-Black.woff2") format("woff");
   }
 
+  .layout {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    nav {
-      text-align: right;
-
-      button {
-        margin: 0 30px 0 40px;
-
-        @media only screen and (max-width: $mobileMaxWidth) {
-          margin: 0 12px 0 16px;
-        }
-      }
-    }
 
     .logo {
       display: flex;
       justify-content: flex-start;
       align-items: center;
 
-      .etat {
+      .rf {
         img {
           max-width: 120px;
           margin: 30px 40px 12px 30px;
@@ -240,21 +239,28 @@ export default {
         }
       }
     }
-  }
 
-  .layout {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 0 20px;
+    nav {
+      text-align: right;
+
+      button {
+        margin: 0 30px 0 40px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin: 0 12px 0 16px;
+        }
+      }
+    }
   }
 
   footer {
-    padding: 20px 20px 24px 20px;
+    padding: 50px 20px;
     margin-top: 120px;
-    border-top: 2px solid $black;
+    border-top: 6px solid $gray;
     color: $black;
     display: flex;
     justify-content: center;
+    font-family: "Marianne", Arial, sans-serif;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       padding: 20px 20px 24px 20px;
@@ -262,25 +268,30 @@ export default {
       display: inline-block;
     }
 
-    .footer-logo {
-      .logoRF {
-        margin: 20px;
+    .logo {
+      display: flex;
+      justify-content: space-between;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
-          margin: 0 0 20px 0;
+      .rf {
+        img {
+          max-width: 120px;
+          margin: 0px 40px 12px 10px;
+
+          @media only screen and (max-width: $mobileMaxWidth) {
+            margin: 0px 16px 16px 0px;
+          }
         }
       }
-    }
 
-    .footer-content {
-      margin: 18px 40px 0px 40px;
+      .designgouv {
+        img {
+          max-width: 160px;
+          margin: 2px 60px 12px 0px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
-        margin: 0;
-      }
-
-      .logoDG {
-        max-width: 80%;
+          @media only screen and (max-width: $mobileMaxWidth) {
+            margin: 0;
+          }
+        }
       }
     }
 
@@ -288,7 +299,7 @@ export default {
       margin: 32px 0 8px 0;
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-between;
+      justify-content: flex-start;
 
       div {
         margin-right: 48px;

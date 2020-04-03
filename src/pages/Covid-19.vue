@@ -186,7 +186,7 @@
         <div class="website">
           <p class="logo"><g-image alt="Logo Continuité pédagogique" src="~/assets/images/websites/cp.png"/></p>
           <p class="name">Continuité pédagogique</p>
-          <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Numérique et enseignement</span></p>
+          <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Enseignement</span><span class="tag">Numérique</span></p>
           <p class="description">Met en relation des volontaires qui souhaitent aider les enseignants sur l'usage des outils numériques.</p>
           <a href="https://www.continuitepedagogique.org/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
@@ -298,8 +298,9 @@ export default {
     display: inline-block;
     padding: 16px;
     margin: 20px 20px 0 0;
-    border: 2px solid $gray;
-    background-color: $gray;
+    border: 2px solid $black;
+    background-color: white;
+    //box-shadow: 5px 5px 0px $light;
     border-radius: 16px;
     width: 192px;
 
@@ -313,7 +314,12 @@ export default {
     }
 
     &:hover, &:focus {
-      border: 2px solid $blue;
+      background-color: $black;
+
+      .description, .link, svg {
+        font-weight: bold;
+        color: white !important;
+      }
     }
 
     .description {
@@ -371,7 +377,7 @@ export default {
       font-weight: bold;
       font-size: 1.375em;
       line-height: 1.2;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
     }
 
     .tags {
@@ -382,7 +388,7 @@ export default {
         background-color: $gray;
         border-radius: 16px;
         padding: 4px 12px;
-        margin-top: 4px;
+        margin-top: 8px;
         margin-right: 8px;
       }
     }

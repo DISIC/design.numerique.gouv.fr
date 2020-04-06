@@ -2,9 +2,9 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="coverContainer">
 
-      <h1 class="highlight">Nos services</h1>
+      <h1>Nos services</h1>
 
       <p class="subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
         questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,
@@ -14,13 +14,13 @@
       </div>
     </div>
 
-    <div class="content medium">
+    <div class="content">
 
       <section>
 
         <h2>
-          <g-image class="icon" alt="Icone services" src="~/assets/images/services.svg"/>
-          <span class="">Les bureaux ouverts</span>
+          <g-image class="icon" width="24" alt="Lifebuoy icon" src="~/assets/images/services.svg"/>
+          <span class="highlight">Les bureaux ouverts</span>
         </h2>
         <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
 
@@ -38,8 +38,8 @@
       <section>
 
         <h2>
-          <g-image class="icon" alt="Icone services" src="~/assets/images/services.svg"/>
-          <span class="">Les revues de conception</span>
+          <g-image class="icon" width="24" alt="Lifebuoy icon" src="~/assets/images/services.svg"/>
+          <span class="highlight">Les revues de conception</span>
         </h2>
         <p>Lors d'un atelier d'un demi-journée, présentez votre service à des membres de la communauté DesignGouv (designers, chefs de projet, etc.) qui vous aideront à mener à bien votre projet. Obtenez des avis, des conseils, des idées, des retours d'expérience.</p>
 
@@ -57,8 +57,8 @@
       <section>
 
         <h2>
-          <g-image class="icon" alt="Icone services" src="~/assets/images/services.svg"/>
-          <span class="">Le commando UX</span>
+          <g-image class="icon" width="24" alt="Lifebuoy icon" src="~/assets/images/services.svg"/>
+          <span class="highlight">Le commando UX</span>
         </h2>
         <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
 
@@ -108,10 +108,37 @@ export default {
 
 @import "src/assets/scss/_vars.scss";
 
+  h1 {
+    box-shadow:
+      inset 0 -0.05em $red-light,
+      inset 0 -0.3em white;
+    display: inline;
+    transition: .1s all;
+
+    &:hover {
+      box-shadow:
+        inset 0 -0.05em $red-light,
+        inset 0 -1.4em white;
+    }
+  }
+
+  .highlight {
+    box-shadow:
+      inset 0 -1.2em $red-light;
+  }
+
+  .cover {
+    background-color: $red-light;
+  }
+
   .content {
 
+    a {
+      color: $red;
+    }
+
     strong {
-      color: $blue;
+      color: $red;
     }
   }
 

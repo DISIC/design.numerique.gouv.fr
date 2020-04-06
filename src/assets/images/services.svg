@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
     <title>services</title>
     <desc>Created with Sketch.</desc>
-    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Main-Copy-4" transform="translate(-260.000000, -1308.000000)">
-            <g id="Main" transform="translate(251.000000, 566.000000)">
-                <g id="Card" transform="translate(0.000000, 733.000000)">
-                    <g id="services" transform="translate(29.000000, 29.000000) rotate(315.000000) translate(-29.000000, -29.000000) translate(9.000000, 9.000000)">
-                        <rect id="Combined-Shape-Copy-5" fill="#FF5F42" x="16" y="16" width="24" height="8" rx="4"></rect>
-                        <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,6 C12.2680135,6 6,12.2680135 6,20 C6,27.7319865 12.2680135,34 20,34 C27.7319865,34 34,27.7319865 34,20 C34,12.2680135 27.7319865,6 20,6 Z" id="Combined-Shape" fill="#3355E3"></path>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Main" transform="translate(-622.000000, -227.000000)" stroke="#EB1000" stroke-width="2.8">
+            <g id="Header">
+                <g id="Group-2" transform="translate(260.000000, 147.000000)">
+                    <g id="Group-5" transform="translate(237.000000, 82.000000)">
+                        <g id="services" transform="translate(127.000000, 0.000000)">
+                            <path d="M16,0 C24.836556,0 32,7.163444 32,16 C32,24.836556 24.836556,32 16,32 C7.163444,32 0,24.836556 0,16 C0,7.163444 7.163444,0 16,0 Z M16,9.6 C12.4653776,9.6 9.6,12.4653776 9.6,16 C9.6,19.5346224 12.4653776,22.4 16,22.4 C19.5346224,22.4 22.4,19.5346224 22.4,16 C22.4,12.4653776 19.5346224,9.6 16,9.6 Z M4.688,4.688 L11.472,11.472 M20.528,20.528 L27.312,27.312 M20.528,11.472 L27.312,4.688 M20.528,11.472 L26.176,5.824 M4.688,27.312 L11.472,20.528" id="Combined-Shape"></path>
+                        </g>
                     </g>
                 </g>
             </g>

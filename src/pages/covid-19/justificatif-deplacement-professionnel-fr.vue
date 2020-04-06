@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <div class="cover">
-     <div class="container light shadow">
+    <div class="coverLight">
+     <div class="coverContainer covid-cover">
 
        <strong>Covid-19</strong>
        <h1>Justificatif de déplacement professionnel (Français)</h1>

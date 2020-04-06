@@ -1,14 +1,14 @@
 <template>
   <Layout>
 
-    <div class="cover">
-     <div class="container">
+    <div class="coverLight">
+     <div class="coverContainer covid-cover">
 
        <strong>Covid-19</strong>
        <h1>Les attestations de sortie et les opportunités d'entraide</h1>
 
-       <a href="#attestations" class="button shadow">Attestations</a>
-       <a href="#initiatives" class="button shadow">Me porter volontaire</a>
+       <a href="#attestations"><button>Attestations</button></a>
+       <a href="#initiatives"><button>Me porter volontaire</button></a>
 
       </div>
     </div>
@@ -186,7 +186,7 @@
         <div class="website">
           <p class="logo"><g-image alt="Logo Continuité pédagogique" src="~/assets/images/websites/cp.png"/></p>
           <p class="name">Continuité pédagogique</p>
-          <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Enseignement</span><span class="tag">Numérique</span></p>
+          <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Numérique et enseignement</span></p>
           <p class="description">Met en relation des volontaires qui souhaitent aider les enseignants sur l'usage des outils numériques.</p>
           <a href="https://www.continuitepedagogique.org/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
@@ -290,6 +290,20 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
+  button {
+    background-color: white;
+    color: $blue;
+    margin: 0 8px;
+
+    &:hover, &:focus {
+      border-color: $blue;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
   .entete {
     margin-bottom: 64px;
   }
@@ -298,9 +312,8 @@ export default {
     display: inline-block;
     padding: 16px;
     margin: 20px 20px 0 0;
-    border: 2px solid $black;
-    background-color: white;
-    //box-shadow: 5px 5px 0px $light;
+    border: 2px solid $light-gray;
+    background-color: $light-gray;
     border-radius: 16px;
     width: 192px;
 
@@ -314,17 +327,12 @@ export default {
     }
 
     &:hover, &:focus {
-      background-color: $black;
-
-      .description, .link, svg {
-        font-weight: bold;
-        color: white !important;
-      }
+      border: 2px solid $blue;
     }
 
     .description {
       font-weight: bold;
-      color: $black;
+      color: $dark;
       margin-bottom: 8px;
     }
 
@@ -377,7 +385,7 @@ export default {
       font-weight: bold;
       font-size: 1.375em;
       line-height: 1.2;
-      margin-bottom: 4px;
+      margin-bottom: 8px;
     }
 
     .tags {
@@ -385,10 +393,10 @@ export default {
         display: inline-block;
         font-size: 0.75em;
         font-weight: bold;
-        background-color: $gray;
+        background-color: $light-gray;
         border-radius: 16px;
         padding: 4px 12px;
-        margin-top: 8px;
+        margin-top: 4px;
         margin-right: 8px;
       }
     }

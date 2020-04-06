@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-      <div class="cover">
-       <div class="container light shadow">
+      <div class="coverLight">
+       <div class="coverContainer">
 
          <h1>Chargé-e de mission accessibilité et qualité des services numériques</h1>
 

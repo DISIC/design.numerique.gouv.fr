@@ -14,14 +14,16 @@
 
     <main class="layout">
       <slot/>
-      <Newsletter />
+      <div>
+        <Newsletter />
+      </div>
     </main>
 
     <footer>
 
       <div class="footer-logo">
         <g-link to="/">
-          <g-image class="logoRF" alt="Logo République Française" width="200" src="~/assets/images/logoRF.svg"/>
+          <g-image class="logoRF" alt="Logo République française" width="200" src="~/assets/images/logoRF.svg"/>
         </g-link>
       </div>
 
@@ -188,7 +190,8 @@ export default {
     height: 72px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 0 12px;
+      padding: 0 8px;
+      height: 64px;
     }
 
     .logo {
@@ -207,33 +210,42 @@ export default {
   }
 
   footer {
-    padding: 20px 20px 24px 20px;
-    margin-top: 120px;
-    border-top: 2px solid $black;
-    color: $black;
+    padding: 40px 20px 24px 20px;
+    margin-top: 100px;
+    background: $light-gray;
+    color: #black;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 20px 20px 24px 20px;
-      margin-top: 64px;
       display: inline-block;
     }
 
-    .footer-logo {
-      .logoRF {
-        margin: 20px;
+    a {
+      text-decoration: none;
+      color: $blue;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
-          margin: 0 0 20px 0;
-        }
+      &:hover {
+        text-decoration: underline;
+        color: $blue;
+      }
+    }
+
+    .footer-logo {
+
+      .logoRF {
+        padding-bottom: 24px;
       }
     }
 
     .footer-content {
-      margin: 18px 40px 0px 40px;
+      padding-top: 8px;
+      margin: 0 64px;
+      max-width: 80%;
 
       @media only screen and (max-width: $mobileMaxWidth) {
+        max-width: 100%;
         margin: 0;
       }
 
@@ -252,6 +264,10 @@ export default {
         margin-right: 48px;
         margin-bottom: 16px;
       }
+
+      font-awesome {
+        padding-left: 4px;
+      }
     }
 
     ul {
@@ -263,12 +279,16 @@ export default {
     }
 
     .public {
-      font-size: .875em;
+      font-size: .8em;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
 
-      a, span {
+      span {
+        margin-right: 12px;
+      }
+
+      a {
         margin-right: 12px;
       }
     }

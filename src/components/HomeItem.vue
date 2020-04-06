@@ -1,32 +1,38 @@
 <template>
 
-  <section>
-    <g-link :to="link" >
-      <div @mouseenter="mouseEnter()" @mouseleave="mouseLeave()">
+  <section v-if="buttonActivated" class="homeItem" :style="colors">
 
-        <g-image :id="imageId" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
+    <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
 
-        <h2>{{ title }}</h2>
+    <h2><g-link :to="link" v-html="title">{{ title }}</g-link></h2>
 
-        <p v-html="text"></p>
+    <p class="homeItemText" v-html="text"></p>
 
-        <p v-if="buttonActivated" :id="buttonId" class="button blue shadow">
-          {{ buttonText }}<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-        </p>
-        <p v-else class="disabled">{{ buttonText }}</p>
-
-      </div>
+    <g-link :to="link" class="button">
+      {{ buttonText }}
+      <span class='arrow'>→</span>
     </g-link>
+
   </section>
+  <section v-else class="homeItem disabled" :style="colors">
+
+    <g-image class="icon" :alt="iconAlt" :src="getImgUrl(iconSrc)"/>
+
+    <h2>{{ title }}</h2>
+
+    <p class="homeItemText" v-html="text"></p>
+
+    <p class="buttonDisabled">{{ buttonText }}</p>
+
+  </section>
+
 </template>
 
 
 <script>
 
-import styles from "../assets/scss/_vars.scss";
-
 export default {
-  name: "HomeItem",
+  name: 'HomeItem',
   props: {
     title: String,
     iconSrc: String,
@@ -35,29 +41,25 @@ export default {
     buttonText: String,
     buttonActivated: Boolean,
     link: String,
+    color: String,
+    colorLight: String,
   },
   data () {
     return {
-      imageId: null,
-      buttonId: null
     }
-  },
-  mounted () {
-    this.imageId = "image-" + this._uid;
-    this.buttonId = "button-" + this._uid;
   },
   methods: {
     getImgUrl (src) {
-      return require("../assets/images/" + src)
-    },
-    mouseEnter () {
-      document.getElementById("image-" + this._uid).classList.add("rotate");
-      document.getElementById("button-" + this._uid).classList.add("hover");
-    },
-    mouseLeave () {
-      document.getElementById("image-" + this._uid).classList.remove("rotate");
-      document.getElementById("button-" + this._uid).classList.remove("hover");
-    },
+      return require('../assets/images/' + src)
+    }
+  },
+  computed: {
+    colors () {
+      return {
+        '--color': this.color,
+        '--colorLight': this.colorLight
+      }
+    }
   }
 }
 
@@ -69,27 +71,78 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
 section {
+  margin-bottom: 80px;
+}
+
+.disabled {
+  h2 {
+    box-shadow:
+      inset 0 -0.05em white,
+      inset 0 -0.4em var(--colorLight);
+    display: inline;
+    transition: .1s all;
+  }
+}
+
+.homeItem {
+
+  .icon {
+    display: block;
+    padding-bottom: 16px;
+  }
 
   h2 {
-    margin: 16px 0 20px 0;
+    padding: 0;
+    margin: 0;
+
+    a {
+      text-decoration: none;
+      color: $dark;
+      box-shadow:
+        inset 0 -0.05em white,
+        inset 0 -0.4em var(--colorLight);
+      display: inline;
+      transition: .1s all;
+    }
+
+    a:hover {
+      box-shadow:
+        inset 0 -0.05em white,
+        inset 0 -1.4em var(--colorLight);
+    }
   }
 
-  img {
-    transition: .2s all;
-  }
-
-  a {
-    display: block;
-    text-decoration: none;
-    color: $black;
+  .homeItemText {
+    margin-top: 24px;
   }
 
   .button {
-    margin-top: 8px;
+    color: var(--color);
+    border: 2px solid var(--color);
+    background-color: white;
+    border-radius: 32px;
+    padding: 8px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      font-size: 0.875em;
+    }
+
+    &:hover, &:focus {
+      background: var(--color);
+      color: white;
+    }
   }
 
-  .disabled {
+  .buttonDisabled {
+    color: $gray;
+    text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    margin: 10px 0 0 0;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       font-size: 0.875em;

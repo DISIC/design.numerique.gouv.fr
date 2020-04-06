@@ -2,9 +2,9 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="coverContainer">
 
-      <h1 class="highlight">Les formations</h1>
+      <h1>Les formations</h1>
 
       <p class="subtitle">De nombreuses formations sont disponibles, certaines accessibles
         gratuitement, pour vous former personnellement ou en équipe sur les divers
@@ -13,26 +13,26 @@
       </div>
     </div>
 
-    <div class="content medium">
+    <div class="content">
 
       <section>
 
         <h2>
-          <g-image class="icon" width="24" alt="Icone formations" src="~/assets/images/formations.svg"/>
-          <span class="">Initiations</span>
+          <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
+          <span class="highlight">Initiations</span>
         </h2>
         <p>Initiez-vous facilement et gratuitement. C'est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
 
         <h3>Design</h3>
         <p>
-          <a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Initiez-vous au Design</a>, 6 heures, gratuit.</br>
-          <a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>UX design&nbsp;: découvrez les fondamentaux</a>, 8 heures, gratuit.
+          <a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Initiez-vous au Design<span class="black">, 6 heures, gratuit.</span></a></br>
+          <a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>UX design&nbsp;: découvrez les fondamentaux<span class="black">, 8 heures, gratuit.</span></a>
         </p>
 
         <h3>Accessibilité</h3>
         <p>
-          <a href="https://www.fun-mooc.fr/courses/inria/41012/session01/about" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></br>
-          <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.
+          <a href="https://www.fun-mooc.fr/courses/inria/41012/session01/about" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>L'accessibilité numérique<span class="black">, 15 heures, gratuit.</span></a></br>
+          <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Mise en œuvre de l’accessibilité numérique<span class="black">, 14 heures, gratuit.</span></a>
         </p>
 
       </section>
@@ -40,15 +40,15 @@
       <section>
 
         <h2>
-          <g-image class="icon" width="24" alt="Icone formations" src="~/assets/images/formations.svg"/>
-          <span class="">Certifications</span>
+          <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
+          <span class="highlight">Certifications</span>
         </h2>
         <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
           compétences sur les sujets qui vous intéressent.</p>
 
         <h3>Qualité</h3>
         <p>
-          <a href="https://www.opquast.com/formation/" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</br>
+          <a href="https://www.opquast.com/formation/" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Maîtrise de la qualité en projet web<span class="black">, 14 heures, 250€ HT.</span></a></br>
         </p>
 
       </section>
@@ -56,8 +56,8 @@
       <section>
 
         <h2>
-          <g-image class="icon" width="24" alt="Icone formations" src="~/assets/images/formations.svg"/>
-          <span class="">Diplômes</span>
+          <g-image class="icon" width="24" alt="Book icon" src="~/assets/images/courses.svg"/>
+          <span class="highlight">Diplômes</span>
         </h2>
         <p>Les formations diplômantes vous permettent de devenir expert ou de vous diriger vers un nouveau métier.</p>
 
@@ -102,20 +102,59 @@ export default {
 
 @import "src/assets/scss/_vars.scss";
 
+  h1 {
+    box-shadow:
+      inset 0 -0.05em $brown-light,
+      inset 0 -0.3em white;
+    display: inline;
+    transition: .1s all;
+
+    &:hover {
+      box-shadow:
+        inset 0 -0.05em $brown-light,
+        inset 0 -1.4em white;
+    }
+  }
+
+  .highlight {
+    box-shadow:
+      inset 0 -0.05em white,
+      inset 0 -1.4em $brown-light;
+  }
+
+  .cover {
+    background-color: $brown-light;
+  }
+
   .content {
 
     a {
-      font-weight: bold;
+      color: $brown;
+    }
 
-      svg {
-        padding-right: 12px;
-        transition: .1s all;
+    strong {
+      color: $brown;
+    }
+
+    .buttonLight {
+      text-decoration: none;
+      background-color: white;
+      font-weight: bold;
+      display: inline-block;
+      margin: 0 0 16px 0;
+
+      .black {
+        color: $dark;
+        font-weight: normal;
       }
 
       &:hover {
-        svg {
-          padding-left: 8px;
-          padding-right: 4px;
+        .arrow {
+          padding: 0 0 0 10px;
+        }
+
+        .arrowLeft {
+          padding: 0 4px 0 4px;
         }
       }
     }

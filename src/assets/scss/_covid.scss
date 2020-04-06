@@ -1,6 +1,35 @@
+.covid-cover {
+
+  margin-top: 20px !important;
+  margin-bottom: 24px !important;
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    margin-top: 8px !important;
+    margin-bottom: 12px !important;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      font-size: 1.5em;
+      margin-top: 12px;
+    }
+  }
+
+  strong {
+    font-size: 1.5em;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      font-size: 1em;
+    }
+  }
+}
+
 .recopier {
   padding: 20px;
-  background: rgba($blue, 1);
+  background: rgba($emerald, 1);
   color: white;
   margin: 30px 0;
 }
@@ -12,4 +41,8 @@
   h2 {
     font-size: 1.75em;
   }
+}
+
+.small {
+  font-size: .8em;
 }

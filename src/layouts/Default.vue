@@ -42,7 +42,7 @@
           <div>
             DesignGouv
             <ul>
-              <li><a href="https://twitter.com/design_gouv_num" target="_blank">
+              <li><a href="https://twitter.com/design_gouv" target="_blank">
                 Twitter <font-awesome :icon="['fab', 'twitter']"/>
                 </a></li>
               <li><a href="mailto:contact@design.numerique.gouv.fr" target="_blank">

@@ -120,7 +120,7 @@ export default {
     },
     {
       name: "twitter:site",
-      content: "@Design_Gouv_Num"
+      content: "@Design_Gouv"
     },
     {
       name: "twitter:title",

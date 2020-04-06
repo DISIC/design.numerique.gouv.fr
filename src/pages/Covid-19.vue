@@ -17,7 +17,7 @@
 
       <section class="entete">
         <p>Retrouvez toutes les réponses officielles sur le Coronavirus sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.</p>
-        <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum. Des dérogations sur attestation sont possibles. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
+        <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum. Des dérogations sur attestation sont possibles. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Une <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" target="_blank">version numérique de l'attestation de déplacement dérogatoire</a> est maintenant disponible.</p>
       </section>
 
       <section id="attestations">
@@ -43,15 +43,15 @@
           </div>
         </a>
 
-        <g-link to="/covid-19/attestation-deplacement-fr" title="Afficher sur le web pour recopier">
+        <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" title="En numérique, à remplir"  target="_blank">
           <div class="file">
-            <p class="description">Sur le web, à recopier</p>
+            <p class="description">En numérique, à remplir</p>
             <p class="download">
-              <span class="link">Afficher <font-awesome :icon="['fas', 'arrow-right']"/></span>
-              <font-awesome :icon="['far', 'edit']" size="2x" transform="shrink-5" alt="Icon"/>
+              <span class="link">Accéder <font-awesome :icon="['fas', 'arrow-right']"/></span>
+              <font-awesome :icon="['fas', 'mobile-alt']" size="2x" transform="shrink-3" alt="Icon"/>
             </p>
           </div>
-        </g-link>
+        </a>
 
         <a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr.docx" title="Télécharger au format Word">
           <div class="file">

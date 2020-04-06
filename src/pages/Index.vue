@@ -141,12 +141,6 @@ export default {
 
 @import "src/assets/scss/_vars.scss";
 
-  h1 {
-    @media only screen and (max-width: $mobileMaxWidth) {
-      font-size: 2em;
-    }
-  }
-
   .covid {
     margin-bottom: 80px;
 

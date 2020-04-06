@@ -30,7 +30,7 @@ h1 {
   color: $blue;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    font-size: 2.5em;
+    font-size: 2em;
   }
 }
 
@@ -49,7 +49,8 @@ h2 {
     transition: .2s all;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      margin-bottom: 12px;
+      width: 20px;
+      margin-right: 8px;
     }
 
     &:hover, &:focus {
@@ -91,6 +92,7 @@ h2 {
 }
 
 .cover {
+  padding-top: 32px;
   margin-bottom: 96px;
   text-align: center;
   width: 100vw;
@@ -99,8 +101,7 @@ h2 {
   left: 50%;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    margin-top: 40px;
-    margin-bottom: 64px;
+    padding-top: 16px;
   }
 
   .container {
@@ -113,11 +114,7 @@ h2 {
       display: block;
       font-size: 1.25em;
       margin-top: 8px;
-    }
-
-    h1 {
-      margin-top: 0.2em;
-      margin-bottom: 0.5em;
+      margin-bottom: -16px;
     }
 
     img {
@@ -137,22 +134,12 @@ h2 {
 
     &.light {
       max-width: 720px;
-      padding: 16px;
+      padding: 20px;
       border: 2px solid $black;
-      margin-right: 20px;
-      margin-left: 20px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        margin-bottom: 32px;
-      }
 
       h1 {
         color: $black;
         font-size: 3em;
-
-        @media only screen and (max-width: $mobileMaxWidth) {
-          font-size: 2em;
-        }
       }
     }
   }
@@ -169,7 +156,7 @@ h2 {
   }
 
   button, .button {
-    margin: 8px 8px;
+    margin: 4px 8px;
     display: inline-block;
   }
 }

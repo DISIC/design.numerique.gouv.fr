@@ -12,7 +12,7 @@
       <g-link to="/accessibilite-numerique">Accessibilité numérique</g-link>
       <g-link to="/services">Nos services</g-link>
       <g-link to="/formations">Les formations</g-link>
-      <g-link to="/recrutement">Recrutement</g-link>
+      <a href="/recrutement">Recrutement</a>
     </div>
   </div>
 

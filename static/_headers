@@ -4,7 +4,7 @@
 /assets/js/*
   Cache-Control: public, max-age=60
 
-assets/static/*
+/covid-19/*
   Cache-Control: public, max-age=3600
 
 /assets/img/*

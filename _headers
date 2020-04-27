@@ -1,0 +1,17 @@
+/src/assets/images/*
+  Cache-Control: public, max-age=360000
+
+/src/assets/font/*
+  Cache-Control: public, max-age=360000
+
+/src/assets/scss/*
+  Cache-Control: public, max-age=60
+
+/src/pages/*
+  Cache-Control: public, max-age=60
+
+/src/pages/favicon.png
+  Cache-Control: public, max-age=360000
+
+/static/*
+  Cache-Control: public, max-age=3600

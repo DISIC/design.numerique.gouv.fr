@@ -7,7 +7,7 @@
 *.js
   Cache-Control: public, max-age=60
 
-covid-19/*
+/covid-19/*
   Cache-Control: public, max-age=3600
 
 *.svg

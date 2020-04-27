@@ -1,38 +1,14 @@
-*.html
+/assets/css/*
   Cache-Control: public, max-age=60
 
-*.css
+/assets/js/*
   Cache-Control: public, max-age=60
 
-*.js
-  Cache-Control: public, max-age=60
-
-/covid-19/*
+assets/static/*
   Cache-Control: public, max-age=3600
 
-*.svg
+/assets/img/*
   Cache-Control: public, max-age=360000
 
-*.png
-  Cache-Control: public, max-age=360000
-
-*.jpg
-  Cache-Control: public, max-age=360000
-
-*.jpeg
-  Cache-Control: public, max-age=360000
-
-*.gif
-  Cache-Control: public, max-age=360000
-
-*.ttf
-  Cache-Control: public, max-age=360000
-
-*.otf
-  Cache-Control: public, max-age=360000
-
-*.woff
-  Cache-Control: public, max-age=360000
-
-*.woff2
+/assets/fonts/*
   Cache-Control: public, max-age=360000

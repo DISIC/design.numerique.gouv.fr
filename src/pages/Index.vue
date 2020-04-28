@@ -1,4 +1,5 @@
 <template>
+
   <Layout>
 
     <div class="cover">
@@ -26,74 +27,100 @@
 
       </div>
 
-      <HomeItem
-        title="Design des services numériques"
-        text="Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
-        <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
-        le design, c’est mettre en œuvre des solutions centrées sur les
-        usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt."
-        buttonText="Bientôt disponible !"
-        v-bind:buttonActivated="false"
-        link="/"
-        iconSrc="design.svg"
-        iconAlt="Star icon"
-        color="#2854D6"
-        colorLight="#ACBDF1"
-      />
+      <section class="homeItem design">
 
-      <HomeItem
-        title="Accessibilité numérique"
-        text="L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout."
-        buttonText="L'accessibilité en détails"
-        v-bind:buttonActivated="true"
-        link="/accessibilite-numerique/"
-        iconSrc="tools.svg"
-        iconAlt="Tool icon"
-        color="#37863D"
-        colorLight="#84CD86"
-      />
+        <Design class="icon" title="Star icon"/>
 
-      <HomeItem
-        title="Besoin d'aide ? Nous vous accompagnons."
-        text="Vous avez des besoins en design&nbsp;?
-          Vous vous <b>posez des questions</b> sur les sujets d'accessibilité&nbsp;? Vous souhaitez <b>obtenir des
-          retours</b>, <b>demander des conseils</b> pour le développement ou l'amélioration
-          de votre service&nbsp;? Nous vous aidons&nbsp;!"
-        buttonText="J'ai besoin d'aide"
-        v-bind:buttonActivated="true"
-        link="/services/"
-        iconSrc="services.svg"
-        iconAlt="Lifebuoy icon"
-        color="#EB1000"
-        colorLight="#FFA89E"
-      />
+        <h2><span>Design des services numériques</span></h2>
 
-      <HomeItem
-        title="Les formations pour vous et vos équipes"
-        text="De nombreuses formations sont disponibles, certaines accessibles
-          <b>gratuitement</b>, pour vous former <b>personnellement</b>
-          ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
-          services numériques et à l’accessibilité."
-        buttonText="Je découvre les formations"
-        v-bind:buttonActivated="true"
-        link="/formations/"
-        iconSrc="courses.svg"
-        iconAlt="Book icon"
-        color="#90731D"
-        colorLight="#E2C56F"
-      />
+        <p class="homeItemText">
+          Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
+          <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
+          le design, c’est mettre en œuvre des solutions centrées sur les
+          usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt.
+        </p>
+
+        <p class="buttonDisabled">Bientôt disponible !</p>
+
+      </section>
+
+      <section class="homeItem accessibility">
+
+        <Tools class="icon" title="Tool icon"/>
+
+        <h2><g-link to="/accessibilite-numerique/">Accessibilité numérique</g-link></h2>
+
+        <p class="homeItemText">
+          L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout.
+        </p>
+
+        <g-link to="/accessibilite-numerique/" class="button">
+          L'accessibilité en détails
+          <span class='arrow'>→</span>
+        </g-link>
+
+      </section>
+
+      <section class="homeItem services">
+
+        <Services class="icon" title="Lifebuoy icon"/>
+
+        <h2><g-link to="/services/">Besoin d'aide ? Nous vous accompagnons.</g-link></h2>
+
+        <p class="homeItemText">
+          Vous avez des besoins en design&nbsp;?
+            Vous vous <b>posez des questions</b> sur les sujets d'accessibilité&nbsp;? Vous souhaitez <b>obtenir des
+            retours</b>, <b>demander des conseils</b> pour le développement ou l'amélioration
+            de votre service&nbsp;? Nous vous aidons&nbsp;!
+        </p>
+
+        <g-link to="/services/" class="button">
+          J'ai besoin d'aide
+          <span class='arrow'>→</span>
+        </g-link>
+
+      </section>
+
+      <section class="homeItem courses">
+
+        <Courses class="icon" title="Book icon"/>
+
+        <h2><g-link to="/formations/">Les formations pour vous et vos équipes</g-link></h2>
+
+        <p class="homeItemText">
+          De nombreuses formations sont disponibles, certaines accessibles
+            <b>gratuitement</b>, pour vous former <b>personnellement</b>
+            ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
+            services numériques et à l’accessibilité.
+        </p>
+
+        <g-link to="/formations/" class="button">
+          Je découvre les formations
+          <span class='arrow'>→</span>
+        </g-link>
+
+      </section>
 
     </div>
 
   </Layout>
+
 </template>
 
+
 <script>
-import HomeItem from '~/components/HomeItem.vue'
+
+import Design from '~/assets/images/design.svg'
+import Tools from '~/assets/images/tools.svg'
+import Services from '~/assets/images/services.svg'
+import Courses from '~/assets/images/courses.svg'
 
 export default {
   components: {
-    HomeItem
+    Design,
+    Tools,
+    Services,
+    Courses,
   },
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",
@@ -139,7 +166,9 @@ export default {
     }],
   }
 }
+
 </script>
+
 
 <style scoped lang="scss">
 
@@ -184,6 +213,148 @@ export default {
 
       @media only screen and (max-width: $mobileMaxWidth) {
         font-size: 1.125em;
+      }
+    }
+  }
+
+  .homeItem {
+
+    .icon {
+      display: block;
+      padding-bottom: 16px;
+    }
+
+    h2 {
+      padding: 0;
+      margin: 0;
+      transition: .1s all;
+
+      a {
+        text-decoration: none;
+        color: $dark;
+        display: inline;
+      }
+    }
+
+    .homeItemText {
+      margin-top: 24px;
+    }
+
+    .button {
+      background-color: white;
+      border-radius: 32px;
+      padding: 8px 24px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0;
+      border: 2px solid;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        font-size: 0.875em;
+      }
+    }
+
+    .buttonDisabled {
+      color: $gray;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0 0 0;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        font-size: 0.875em;
+      }
+    }
+
+    &.design {
+      h2 span {
+        display: inline;
+        box-shadow:
+          inset 0 -0.05em white,
+          inset 0 -0.4em $blue-light;
+      }
+
+      .button {
+        color: $blue;
+        border-color: $blue;
+
+        &:hover, &:focus {
+          color: white;
+          background: $blue;
+        }
+      }
+    }
+
+    &.accessibility {
+      h2 a {
+        box-shadow:
+          inset 0 -0.05em white,
+          inset 0 -0.4em $green-light;
+
+        &:hover, &:focus {
+          box-shadow:
+            inset 0 -0.05em white,
+            inset 0 -1.4em $green-light;
+        }
+      }
+
+      .button {
+        color: $green;
+        border-color: $green;
+
+        &:hover, &:focus {
+          color: white;
+          background: $green;
+        }
+      }
+    }
+
+    &.services {
+      h2 a {
+        box-shadow:
+          inset 0 -0.05em white,
+          inset 0 -0.4em $red-light;
+
+        &:hover, &:focus {
+          box-shadow:
+            inset 0 -0.05em white,
+            inset 0 -1.4em $red-light;
+        }
+      }
+
+      .button {
+        color: $red;
+        border-color: $red;
+
+        &:hover, &:focus {
+          color: white;
+          background: $red;
+        }
+      }
+    }
+
+    &.courses {
+      h2 a {
+        box-shadow:
+          inset 0 -0.05em white,
+          inset 0 -0.4em $brown-light;
+
+        &:hover, &:focus {
+          box-shadow:
+            inset 0 -0.05em white,
+            inset 0 -1.4em $brown-light;
+        }
+      }
+
+      .button {
+        color: $brown;
+        border-color: $brown;
+
+        &:hover, &:focus {
+          color: white;
+          background: $brown;
+        }
       }
     }
   }

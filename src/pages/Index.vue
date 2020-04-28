@@ -19,7 +19,7 @@
 
           <p>Retrouvez les attestations de déplacements accessibles et inclusives ainsi qu'une liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
 
-          <g-link to="/covid-19" class="button">
+          <g-link to="/covid-19/" class="button">
             Accéder aux documents et aux initiatives
             <span class='arrow'>→</span>
           </g-link>
@@ -46,7 +46,7 @@
         text="L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout."
         buttonText="L'accessibilité en détails"
         v-bind:buttonActivated="true"
-        link="/accessibilite-numerique"
+        link="/accessibilite-numerique/"
         iconSrc="tools.svg"
         iconAlt="Tool icon"
         color="#37863D"
@@ -61,7 +61,7 @@
           de votre service&nbsp;? Nous vous aidons&nbsp;!"
         buttonText="J'ai besoin d'aide"
         v-bind:buttonActivated="true"
-        link="/services"
+        link="/services/"
         iconSrc="services.svg"
         iconAlt="Lifebuoy icon"
         color="#EB1000"
@@ -76,7 +76,7 @@
           services numériques et à l’accessibilité."
         buttonText="Je découvre les formations"
         v-bind:buttonActivated="true"
-        link="/formations"
+        link="/formations/"
         iconSrc="courses.svg"
         iconAlt="Book icon"
         color="#90731D"

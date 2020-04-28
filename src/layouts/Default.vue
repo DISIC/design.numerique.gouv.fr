@@ -48,10 +48,10 @@
               <li><a href="mailto:contact@design.numerique.gouv.fr" target="_blank">
                   Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
-              <li><a href="/recrutement">Recrutement</a></li>
-              <li><a href="/misc/accessibilite">Accessibilité</a></li>
-              <li><a href="/misc/donnees-personnelles">Données personnelles</a></li>
-              <li><a href="/misc/mentions-legales">Mentions légales</a></li>
+              <li><a href="/recrutement/">Recrutement</a></li>
+              <li><a href="/misc/accessibilite/">Accessibilité</a></li>
+              <li><a href="/misc/donnees-personnelles/">Données personnelles</a></li>
+              <li><a href="/misc/mentions-legales/">Mentions légales</a></li>
             </ul>
           </div>
           <div>

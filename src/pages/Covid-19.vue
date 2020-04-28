@@ -87,7 +87,7 @@
       <section>
         <h2>Justificatif de déplacement professionnel</h2>
 
-        <g-link to="/covid-19/justificatif-deplacement-professionnel-fr" title="Afficher sur le web pour recopier">
+        <g-link to="/covid-19/justificatif-deplacement-professionnel-fr/" title="Afficher sur le web pour recopier">
           <div class="file">
             <p class="description">Sur le web, à recopier</p>
             <p class="download">

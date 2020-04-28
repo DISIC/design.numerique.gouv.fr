@@ -3,17 +3,17 @@
 
     <header>
 
-      <div class="logo">
+      <div class="header-logo">
 
         <div  class="rf">
-          <g-link to="/">
-            <g-image src="~/assets/images/logoRF.svg" alt="République Française" />
+          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
+            <LogoRF class="logo" title="Logo République Française" />
           </g-link>
         </div>
 
-        <div  class="designgouv">
-          <g-link to="/">
-            <g-image class="logo" alt="DesignGouv" src="~/assets/images/logoDGB.svg"/>
+        <div  class="dg">
+          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
+            <LogoDG class="logo" title="Logo DesignGouv" />
           </g-link>
         </div>
 
@@ -36,14 +36,14 @@
 
       <div class="footer-logo">
         <g-link to="/">
-          <g-image class="logoRF" alt="Logo République française" width="112" src="~/assets/images/logoRF.svg"/>
+          <LogoRF class="rf" title="République Française" />
         </g-link>
       </div>
 
       <div class="footer-content">
         <div class="">
           <g-link to="/">
-            <g-image class="logoDG" alt="Logo DesignGouv" width="280" src="~/assets/images/logoDGB.svg"/>
+            <LogoDG class="dg" title="Logo DesignGouv" />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -112,11 +112,15 @@ query {
 <script>
 import Menu from '~/components/Menu.vue'
 import Newsletter from '~/components/Newsletter.vue'
+import LogoRF from '~/assets/images/logoRF.svg'
+import LogoDG from '~/assets/images/logoDG.svg'
 
 export default {
   components: {
     Menu,
-    Newsletter
+    Newsletter,
+    LogoRF,
+    LogoDG,
   },
   props: {
     logoLarge: {
@@ -215,14 +219,14 @@ export default {
     justify-content: space-between;
     align-items: center;
 
-    .logo {
+    .header-logo {
       display: flex;
       justify-content: flex-start;
       align-items: center;
 
       .rf {
-        img {
-          max-width: 120px;
+        .logo {
+          width: 121px;
           margin: 30px 40px 22px 30px;
 
           @media only screen and (max-width: $mobileMaxWidth) {
@@ -232,15 +236,15 @@ export default {
         }
       }
 
-      .designgouv {
-        img {
+      .dg {
+        .logo {
           max-width: 260px;
           width: 100%;
-          padding-bottom: 10px;
+          padding-bottom: 6px;
 
           @media only screen and (max-width: $mobileMaxWidth) {
-            max-width: 140px;
-            padding-bottom: 4px;
+            width: 140px;
+            padding-bottom: 0px;
           }
         }
       }
@@ -248,7 +252,7 @@ export default {
 
     nav {
       text-align: right;
-      padding-bottom: 10px;
+      padding-bottom: 6px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
         padding-bottom: 0px;
@@ -281,7 +285,8 @@ export default {
 
     .footer-logo {
 
-      .logoRF {
+      .rf {
+        width: 121px;
         background-color: white;
         padding: 20px;
         margin-bottom: 24px;
@@ -298,7 +303,8 @@ export default {
         margin: 0;
       }
 
-      .logoDG {
+      .dg {
+        width: 280px;
         max-width: 80%;
       }
     }

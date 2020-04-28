@@ -2,14 +2,27 @@
   <div>
 
     <header>
-      <div>
-        <g-link to="/">
-          <g-image class="logo" src="~/assets/images/logoMDGB.svg" width="320" alt="Logo DesignGouv" />
-        </g-link>
+
+      <div class="logo">
+
+        <div  class="rf">
+          <g-link to="/">
+            <g-image src="~/assets/images/logoRF.svg" alt="République Française" />
+          </g-link>
+        </div>
+
+        <div  class="designgouv">
+          <g-link to="/">
+            <g-image class="logo" alt="DesignGouv" src="~/assets/images/logoDGB.svg"/>
+          </g-link>
+        </div>
+
       </div>
+
       <nav>
         <Menu />
       </nav>
+
     </header>
 
     <main class="layout">
@@ -23,7 +36,7 @@
 
       <div class="footer-logo">
         <g-link to="/">
-          <g-image class="logoRF" alt="Logo République française" width="200" src="~/assets/images/logoRF.svg"/>
+          <g-image class="logoRF" alt="Logo République française" width="112" src="~/assets/images/logoRF.svg"/>
         </g-link>
       </div>
 
@@ -191,31 +204,56 @@ export default {
     font-display: fallback;
   }
 
-  header {
-    display: flex;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-    height: 72px;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 0 8px;
-      height: 64px;
-    }
-
-    .logo {
-      padding-top: 8px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        width: 240px;
-      }
-    }
-  }
-
   .layout {
     max-width: 760px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .rf {
+        img {
+          max-width: 120px;
+          margin: 30px 40px 22px 30px;
+
+          @media only screen and (max-width: $mobileMaxWidth) {
+            max-width: 64px;
+            margin: 12px 16px 4px 12px;
+          }
+        }
+      }
+
+      .designgouv {
+        img {
+          max-width: 260px;
+          width: 100%;
+          padding-bottom: 10px;
+
+          @media only screen and (max-width: $mobileMaxWidth) {
+            max-width: 140px;
+            padding-bottom: 4px;
+          }
+        }
+      }
+    }
+
+    nav {
+      text-align: right;
+      padding-bottom: 10px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding-bottom: 0px;
+      }
+    }
   }
 
   footer {
@@ -244,7 +282,9 @@ export default {
     .footer-logo {
 
       .logoRF {
-        padding-bottom: 24px;
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 24px;
       }
     }
 

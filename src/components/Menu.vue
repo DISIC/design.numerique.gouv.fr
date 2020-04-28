@@ -71,7 +71,10 @@ export default {
   }
 
   button {
+    margin: 0 30px 0 40px;
+
     @media only screen and (max-width: $mobileMaxWidth) {
+      margin: 0 12px 0 16px;
       padding: 12px 16px;
     }
   }
@@ -125,6 +128,7 @@ export default {
 
   .closeButton {
     text-align: right;
+    margin: 0px;
     padding: 12px 24px;
     width: 248px;
     border-radius: 0px;

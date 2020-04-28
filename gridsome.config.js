@@ -24,4 +24,7 @@ module.exports = {
     },
   ],
   templates: {},
+  prefetch: {
+    mask: '^$', // example - disable all prefetch
+  },
 }

@@ -124,6 +124,7 @@ export default {
     src: url("../assets/fonts/Marianne/Marianne-Light.ttf") format("ttf"),
          url("../assets/fonts/Marianne/Marianne-Light.woff") format("woff2"),
          url("../assets/fonts/Marianne/Marianne-Light.woff2") format("woff");
+   font-display: fallback;
   }
   @font-face {
     font-family: "Marianne";
@@ -131,6 +132,7 @@ export default {
     src: url("../assets/fonts/Marianne/Marianne-Regular.ttf") format("ttf"),
          url("../assets/fonts/Marianne/Marianne-Regular.woff") format("woff2"),
          url("../assets/fonts/Marianne/Marianne-Regular.woff2") format("woff");
+    font-display: fallback;
   }
   @font-face {
     font-family: "Marianne";
@@ -138,6 +140,7 @@ export default {
     src: url("../assets/fonts/Marianne/Marianne-Bold.ttf") format("ttf"),
          url("../assets/fonts/Marianne/Marianne-Bold.woff") format("woff2"),
          url("../assets/fonts/Marianne/Marianne-Bold.woff2") format("woff");
+    font-display: fallback;
   }
   @font-face {
     font-family: "Marianne";
@@ -145,6 +148,7 @@ export default {
     src: url("../assets/fonts/Marianne/Marianne-ExtraBold.ttf") format("ttf"),
          url("../assets/fonts/Marianne/Marianne-ExtraBold.woff") format("woff2"),
          url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
@@ -152,6 +156,7 @@ export default {
     font-weight: 300;
     src: url("../assets/fonts/Inter/Inter-Light.woff") format("woff2"),
          url("../assets/fonts/Inter/Inter-Light.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
@@ -159,6 +164,7 @@ export default {
     font-weight: 400;
     src: url("../assets/fonts/Inter/Inter-Regular.woff") format("woff2"),
          url("../assets/fonts/Inter/Inter-Regular.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
@@ -166,6 +172,7 @@ export default {
     font-weight: 500;
     src: url("../assets/fonts/Inter/Inter-Medium.woff") format("woff2"),
          url("../assets/fonts/Inter/Inter-Medium.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
@@ -173,6 +180,7 @@ export default {
     font-weight: 700;
     src: url("../assets/fonts/Inter/Inter-Bold.woff") format("woff2"),
          url("../assets/fonts/Inter/Inter-Bold.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
@@ -180,6 +188,7 @@ export default {
     font-weight: 900;
     src: url("../assets/fonts/Inter/Inter-Black.woff") format("woff2"),
          url("../assets/fonts/Inter/Inter-Black.woff2") format("woff");
+    font-display: fallback;
   }
 
   header {

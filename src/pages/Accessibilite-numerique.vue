@@ -149,7 +149,7 @@
             <td><span class="bullet">2</span></td>
             <td>
               Si besoin, formez les développeurs‧es et designers</br>
-              <g-link to="/formations" class="buttonLight">
+              <g-link to="/formations/" class="buttonLight">
                 Voir les formations&nbsp;<span class='arrow'>→</span>
               </g-link>
             </td>

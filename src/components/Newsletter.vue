@@ -1,7 +1,7 @@
 <template>
 
   <div class="card" style="--color: #168376; --colorLight: #3CDDCA;">
-    <g-image class="icon" alt="Tchat icon" src="~/assets/images/community.svg"/>
+    <Community class="icon" title="Tchat icon"/>
 
     <p><a href="http://eepurl.com/gLJCsb" target="_blank" class="title">Rejoignez la communauté&nbsp;!</a></p>
 
@@ -17,8 +17,13 @@
 
 <script>
 
+import Community from '~/assets/images/community.svg'
+
 export default {
-  name: 'Newsletter'
+  name: 'Newsletter',
+  components: {
+    Community,
+  },
 }
 
 </script>

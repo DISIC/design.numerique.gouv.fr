@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <div class="coverLight">
-     <div class="coverContainer">
+    <div class="cover">
+     <div class="container light shadow">
 
        <h1>Accessibilité</h1>
 
@@ -75,5 +75,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 </style>

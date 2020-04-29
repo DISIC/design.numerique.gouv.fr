@@ -35,15 +35,15 @@
     <footer>
 
       <div class="footer-logo">
-        <g-link to="/">
-          <LogoRF class="rf" title="République Française" />
+        <g-link to="/" alt="DesignGouv - Retour à l'accueil">
+          <LogoRF class="logoRF" title="Logo République Française" />
         </g-link>
       </div>
 
       <div class="footer-content">
-        <div class="">
-          <g-link to="/">
-            <LogoDG class="dg" title="Logo DesignGouv" />
+        <div>
+          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
+            <LogoDG class="logoDG" title="Logo DesignGouv" />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -61,10 +61,10 @@
               <li><a href="mailto:contact@design.numerique.gouv.fr" target="_blank">
                   Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
-              <li><a href="/recrutement/">Recrutement</a></li>
-              <li><a href="/misc/accessibilite/">Accessibilité</a></li>
-              <li><a href="/misc/donnees-personnelles/">Données personnelles</a></li>
-              <li><a href="/misc/mentions-legales/">Mentions légales</a></li>
+              <li><g-link to="/recrutement/">Recrutement</g-link></li>
+              <li><g-link to="/misc/accessibilite/">Accessibilité</g-link></li>
+              <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
+              <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>
             </ul>
           </div>
           <div>
@@ -235,11 +235,11 @@ export default {
       .rf {
         .logo {
           width: 121px;
-          margin: 30px 40px 22px 30px;
+          margin: 30px 40px 0px 30px;
 
           @media only screen and (max-width: $mobileMaxWidth) {
             max-width: 64px;
-            margin: 12px 16px 4px 12px;
+            margin: 12px 16px 0px 12px;
           }
         }
       }
@@ -248,71 +248,62 @@ export default {
         .logo {
           max-width: 260px;
           width: 100%;
-          padding-bottom: 6px;
+          padding-top: 14px;
 
           @media only screen and (max-width: $mobileMaxWidth) {
             width: 140px;
-            padding-bottom: 0px;
+            padding-top: 6px;
           }
         }
       }
     }
 
     nav {
-      text-align: right;
-      padding-bottom: 6px;
+      padding-top: 7px;
+      padding-right: 30px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-right: 12px;
       }
     }
   }
 
   footer {
-    padding: 40px 20px 24px 20px;
-    margin-top: 100px;
-    background: $light-gray;
-    color: #black;
+    padding: 20px 20px 24px 20px;
+    margin-top: 120px;
+    border-top: 6px solid $gray;
+    color: $black;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
 
     @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 20px 20px 24px 20px;
+      margin-top: 64px;
       display: inline-block;
-    }
-
-    a {
-      text-decoration: none;
-      color: $blue;
-
-      &:hover {
-        text-decoration: underline;
-        color: $blue;
-      }
     }
 
     .footer-logo {
 
-      .rf {
+      .logoRF {
         width: 121px;
-        background-color: white;
-        padding: 20px;
-        margin-bottom: 24px;
+        margin: 20px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin: 0 0 20px 0;
+        }
       }
     }
 
     .footer-content {
-      padding-top: 8px;
-      margin: 0 64px;
-      max-width: 80%;
+      margin: 18px 40px 0px 40px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        max-width: 100%;
         margin: 0;
       }
 
-      .dg {
-        width: 280px;
+      .logoDG {
+        width: 260px;
         max-width: 80%;
       }
     }
@@ -327,10 +318,6 @@ export default {
         margin-right: 48px;
         margin-bottom: 16px;
       }
-
-      font-awesome {
-        padding-left: 4px;
-      }
     }
 
     ul {
@@ -342,16 +329,12 @@ export default {
     }
 
     .public {
-      font-size: .8em;
+      font-size: .875em;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
 
-      span {
-        margin-right: 12px;
-      }
-
-      a {
+      a, span {
         margin-right: 12px;
       }
     }

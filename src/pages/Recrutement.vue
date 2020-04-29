@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <div class="coverLight">
-     <div class="coverContainer">
+    <div class="cover">
+     <div class="container light shadow">
 
        <h1>Rejoignez-nous</h1>
 
@@ -11,9 +11,9 @@
 
     <p>Venez travailler avec nous sur l'amélioration des services publics numériques.</p>
     <ul>
-      <li><a href="/recrutement/charge-mission-accessibilite/">Chargé-e de mission accessibilité et qualité des services numériques</a> (CDD 3 ans)</li>
-      <li><a href="/recrutement/developpeur-se-accessibilite/">Expert-e design et accessibilité numérique (niveau développeur-se)</a> (CDD 3 ans)</li>
-      <li><a href="/recrutement/designer-ux/">Designer UX</a> (CDD 9 mois)</li>
+      <li><g-link to="/recrutement/charge-mission-accessibilite/">Chargé-e de mission accessibilité et qualité des services numériques</g-link> (CDD 3 ans)</li>
+      <li><g-link to="/recrutement/developpeur-se-accessibilite/">Expert-e design et accessibilité numérique (niveau développeur-se)</g-link> (CDD 3 ans)</li>
+      <li><g-link to="/recrutement/designer-ux/">Designer UX</g-link> (CDD 9 mois)</li>
     </ul>
 
   </Layout>

@@ -1,22 +1,17 @@
-$blue: #2854D6;
-$blue-light: #ACBDF1;
-$blue-hover: #4696E4;
-
-$green: #37863D;
-$green-light: #84CD86;
-
-$red: #EB1000;
-$red-light: #FFA89E;
-
-$brown: #90731D;
-$brown-light: #E2C56F;
-
-$emerald: #168376;
-$emerald-light: #3CDDCA;
-
-$light-gray: #ebeff3;
-$light-gray-hover: #C9D3DF;
-$gray: #333333;
-$dark: #2D2D2D;
+$blue: #3355E3;
+$red: #FF5F42;
+$light: #FFFF8F;
+$gray: #EBECF0;
+$gray-hover: #D7D8DB;
+$black: #323233;
 
 $mobileMaxWidth: 480px;
+
+:export {
+  blue: $blue;
+  red: $red;
+  light: $light;
+  gray: $gray;
+  gray-over: $gray-hover;
+  black: $black;
+}

@@ -5,6 +5,8 @@
     <div class="cover">
       <div class="container">
 
+        <CoverIllustration class="illustration" title="Illustration"/>
+
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
         <!-- <g-image alt="Icone design" src="~/assets/images/design.svg"/>
@@ -33,84 +35,90 @@
 
       <section class="item">
         <!-- <g-link to="/design/"> -->
+          <div class="description">
+            <Design class="item-icon" title="Icon design"/>
 
-          <Design class="item-icon" title="Icon accessibilité"/>
+            <h2>Design numérique</h2>
 
-          <h2>Design des services numériques</h2>
+            <p>
+              Le design permet de rendre les <b>services numériques</b> plus <b>simples</b>, <b>accessibles</b>
+              et <b>agréables</b> pour tous les usagers.
+            </p>
 
-          <p>
-            Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
-            <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
-            le design, c’est mettre en œuvre des solutions centrées sur les
-            usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est
-            aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt.
-          </p>
+            <p class="disabled">
+              Bientôt disponible !
+            </p>
+          </div>
 
-          <p class="disabled">
-            Bientôt disponible !
-          </p>
+          <DesignIllustration class="illustration right" title="Icon design"/>
 
         <!-- </g-link> -->
       </section>
 
       <section class="item">
-        <g-link to="/accessibilite-numerique/">
 
-          <Accessibilite class="item-icon" title="Icon accessibilité"/>
+        <AccessibiliteIllustration class="illustration left" title="Illustration accessibilité"/>
 
-          <h2>Accessibilité numérique</h2>
+        <div class="description">
+          <g-link to="/accessibilite-numerique/">
+            <Accessibilite class="item-icon" title="Icon accessibilité"/>
 
-          <p>
-            L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout.
-          </p>
+            <h2>Accessibilité numérique</h2>
 
-          <p class="button blue shadow">
-            L'accessibilité en détails<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-          </p>
+            <p>
+              L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en <b>situation de handicap</b>.
+            </p>
 
-        </g-link>
+            <p class="button blue shadow">
+              L'accessibilité en détails<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </p>
+          </g-link>
+        </div>
+
       </section>
 
       <section class="item">
-        <g-link to="/services/">
 
-          <Services class="item-icon" title="Icon services"/>
+        <div class="description">
+          <g-link to="/services/">
+            <Services class="item-icon" title="Icon services"/>
 
-          <h2>Besoin d'aide ? Nous vous accompagnons.</h2>
+            <h2>Besoin d'aide ?</h2>
 
-          <p>
-            Vous avez des besoins en design&nbsp;?
-            Vous vous <b>posez des questions</b> sur les sujets d'accessibilité&nbsp;? Vous souhaitez <b>obtenir des
-            retours</b>, <b>demander des conseils</b> pour le développement ou l'amélioration
-            de votre service&nbsp;? Nous vous aidons&nbsp;!
-          </p>
+            <p>
+              Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous vous accompagnons.
+            </p>
 
-          <p class="button blue shadow">
-            J'ai besoin d'aide<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-          </p>
+            <p class="button blue shadow">
+              J'ai besoin d'aide<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </p>
+          </g-link>
+        </div>
 
-        </g-link>
+        <ServicesIllustration class="illustration right" title="Illustration services"/>
+
       </section>
 
       <section class="item">
-        <g-link to="/formations/">
 
-          <Formations class="item-icon" title="Icon formations"/>
+        <FormationsIllustration class="illustration left" title="Illsutration formations"/>
 
-          <h2>Les formations pour vous et vos équipes</h2>
+        <div class="description">
+          <g-link to="/formations/">
+            <Formations class="item-icon" title="Icon formations"/>
 
-          <p>
-            De nombreuses formations sont disponibles, certaines accessibles
-            <b>gratuitement</b>, pour vous former <b>personnellement</b>
-            ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
-            services numériques et à l’accessibilité.
-          </p>
+            <h2>Les formations</h2>
 
-          <p class="button blue shadow">
-            Je découvre les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-          </p>
+            <p>
+              De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>
+            </p>
 
-        </g-link>
+            <p class="button blue shadow">
+              Je découvre les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </p>
+          </g-link>
+        </div>
+
       </section>
 
     </div>
@@ -122,17 +130,27 @@
 
 <script>
 
-import Design from '~/assets/images/design.svg'
-import Accessibilite from '~/assets/images/accessibilite.svg'
-import Services from '~/assets/images/services.svg'
-import Formations from '~/assets/images/formations.svg'
+import CoverIllustration from "~/assets/images/coverIllustration.svg"
+import Design from "~/assets/images/design.svg"
+import DesignIllustration from "~/assets/images/designIllustration.svg"
+import Accessibilite from "~/assets/images/accessibilite.svg"
+import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg"
+import Services from "~/assets/images/services.svg"
+import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
+import Formations from "~/assets/images/formations.svg"
+import FormationsIllustration from "~/assets/images/formationsIllustration.svg"
 
 export default {
   components: {
+    CoverIllustration,
     Design,
+    DesignIllustration,
     Accessibilite,
+    AccessibiliteIllustration,
     Services,
+    ServicesIllustration,
     Formations,
+    FormationsIllustration,
   },
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",
@@ -186,12 +204,52 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  h1 {
-    margin-top: 0px;
+  .cover {
+    padding-top: 0px;
+    padding-bottom: 5%;
+
+    .container {
+      width: 72vw;
+      max-width: 1200px;
+    }
+
+    h1 {
+      font-size: 4.4vw;
+      @media only screen and (min-width: 1666px) {
+        font-size: 4.5em;
+      }
+      margin-top: 0px;
+      padding-top: 5%;
+    }
+
+    .subtitle {
+      font-size: 1.6vw;
+      @media only screen and (min-width: 1666px) {
+        font-size: 1.6em;
+      }
+      padding: 3% 20%;
+    }
+
+    .illustration {
+      position: absolute;
+      width: 86vw;
+      max-width: 1400px;
+      margin-left: -43vw;
+      @media only screen and (min-width: 1466px) {
+        margin-left: -700px;
+      }
+      left: 50%;
+      bottom: 0;
+      //padding-left: 20px;
+      //padding-right: 20px;
+      z-index: -1;
+    }
   }
 
+
+
   .covid {
-    margin-bottom: 80px;
+    margin-bottom: 120px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       margin-bottom: 64px;
@@ -199,6 +257,29 @@ export default {
   }
 
   .item {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .description {
+      display: inline-block;
+      width: 56%;
+    }
+
+    .illustration {
+      display: inline-block;
+      //width: 40%;
+      height: 320px;
+
+      &.right {
+        padding-left: 64px;
+      }
+
+      &.left {
+        padding-right: 54px;
+      }
+    }
 
     h2 {
       margin: 16px 0 20px 0;

@@ -47,10 +47,9 @@
   @import "src/assets/scss/_vars.scss";
 
   button {
-    font-weight: normal;
+    height: 44px;
     @media only screen and (max-width: $mobileMaxWidth) {
       width: 44px;
-      height: 44px;
       padding: 8px;
       border-radius: 50%;
     }

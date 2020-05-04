@@ -9,11 +9,6 @@
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
-        <!-- <g-image alt="Icone design" src="~/assets/images/design.svg"/>
-        <g-image alt="Icone accesibilité" src="~/assets/images/accessibilite.svg"/>
-        <g-image alt="Icone services" src="~/assets/images/services.svg"/>
-        <g-image alt="Icone formations" src="~/assets/images/formations.svg"/> -->
-
         <p class="subtitle"><b>DesignGouv</b> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
 
       </div>
@@ -50,14 +45,12 @@
             </p>
           </div>
 
-          <DesignIllustration class="illustration right" title="Icon design"/>
+          <DesignIllustration class="illustration right" title="Illustration design"/>
 
         <!-- </g-link> -->
       </section>
 
       <section class="item">
-
-        <AccessibiliteIllustration class="illustration left" title="Illustration accessibilité"/>
 
         <div class="description">
           <g-link to="/accessibilite-numerique/">
@@ -74,6 +67,8 @@
             </p>
           </g-link>
         </div>
+
+        <AccessibiliteIllustration class="illustration right" title="Illustration accessibilité"/>
 
       </section>
 
@@ -101,8 +96,6 @@
 
       <section class="item">
 
-        <FormationsIllustration class="illustration left" title="Illsutration formations"/>
-
         <div class="description">
           <g-link to="/formations/">
             <Formations class="item-icon" title="Icon formations"/>
@@ -118,6 +111,8 @@
             </p>
           </g-link>
         </div>
+
+        <FormationsIllustration class="illustration right" title="Illsutration formations"/>
 
       </section>
 
@@ -205,48 +200,26 @@ export default {
   @import "src/assets/scss/_vars.scss";
 
   .cover {
-    padding-top: 0px;
-    padding-bottom: 5%;
-
-    .container {
-      width: 72vw;
-      max-width: 1200px;
-    }
-
-    h1 {
-      font-size: 4.4vw;
-      @media only screen and (min-width: 1666px) {
-        font-size: 4.5em;
-      }
-      margin-top: 0px;
-      padding-top: 5%;
-    }
+    padding-top: 8px;
+    padding-bottom: 48px;
 
     .subtitle {
-      font-size: 1.6vw;
-      @media only screen and (min-width: 1666px) {
-        font-size: 1.6em;
-      }
       padding: 3% 20%;
     }
 
     .illustration {
       position: absolute;
       width: 86vw;
-      max-width: 1400px;
-      margin-left: -43vw;
-      @media only screen and (min-width: 1466px) {
-        margin-left: -700px;
-      }
+      max-width: 1100px;
       left: 50%;
       bottom: 0;
-      //padding-left: 20px;
-      //padding-right: 20px;
       z-index: -1;
+      margin-left: -43vw;
+      @media only screen and (min-width: 1280px) {
+        margin-left: -550px;
+      }
     }
   }
-
-
 
   .covid {
     margin-bottom: 120px;
@@ -257,36 +230,42 @@ export default {
   }
 
   .item {
-    margin-bottom: 120px;
+    margin-bottom: 160px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     .description {
       display: inline-block;
-      width: 56%;
+      width: 64%;
     }
 
     .illustration {
       display: inline-block;
-      //width: 40%;
-      height: 320px;
+      height: 240px;
 
       &.right {
-        padding-left: 64px;
+        padding-left: 40px;
       }
 
       &.left {
-        padding-right: 54px;
+        padding-right: 40px;
       }
     }
 
     h2 {
-      margin: 16px 0 20px 0;
+      display: inline-block;
+      padding: 8px 0;
+      margin: 0;
     }
 
     .item-icon {
+      display: inline-block;
       transition: .2s all;
+      height: 36px;
+      width: 36px;
+      margin-bottom: -5px;
+      margin-right: 16px;
     }
 
     a {
@@ -296,6 +275,7 @@ export default {
     }
 
     .button {
+      text-align: center;
       margin-top: 8px;
     }
 

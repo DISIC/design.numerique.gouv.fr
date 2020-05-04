@@ -1,6 +1,6 @@
 <template>
 
-  <div>
+  <nav>
     <button type="button" @click="toggle" v-click-outside="hide">
       <span class="text">Menu</span><font-awesome class="icon" :icon="['fas', 'bars']"/>
     </button>
@@ -13,7 +13,7 @@
       <g-link class="button" to="/formations/">Les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
       <g-link class="button" to="/recrutement/">Recrutement<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
     </div>
-  </div>
+  </nav>
 
 </template>
 

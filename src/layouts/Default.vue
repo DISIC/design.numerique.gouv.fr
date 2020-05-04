@@ -4,46 +4,35 @@
     <header>
 
       <div class="header-logo">
+        <g-link to="/" class="rf" alt="DesignGouv - Retour à l'accueil">
+          <LogoRF class="logo" title="Logo République Française" />
+        </g-link>
 
-        <div  class="rf">
-          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-            <LogoRF class="logo" title="Logo République Française" />
-          </g-link>
-        </div>
-
-        <div  class="dg">
-          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-            <LogoDG class="logo" title="Logo DesignGouv" />
-          </g-link>
-        </div>
-
+        <g-link to="/" class="dg" alt="DesignGouv - Retour à l'accueil">
+          <LogoDG class="logo" title="Logo DesignGouv" />
+        </g-link>
       </div>
 
-      <nav>
-        <Menu />
-      </nav>
+      <Menu />
 
     </header>
 
     <main class="layout">
       <slot/>
-      <div>
-        <Newsletter />
-      </div>
+      <Newsletter />
     </main>
 
     <footer>
 
-      <div class="footer-logo">
-        <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-          <LogoRF class="logoRF" title="Logo République Française" />
-        </g-link>
-      </div>
+      <g-link to="/" alt="DesignGouv - Retour à l'accueil">
+        <LogoRF class="rf" title="Logo République Française" />
+      </g-link>
 
       <div class="footer-content">
+
         <div>
           <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-            <LogoDG class="logoDG" title="Logo DesignGouv" />
+            <LogoDG class="dg" title="Logo DesignGouv" />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -259,12 +248,10 @@ export default {
     }
 
     nav {
-      padding-top: 7px;
-      padding-right: 30px;
+      padding: 7px 30px 0 30px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        padding-top: 0px;
-        padding-right: 12px;
+        padding: 0px 12px;
       }
     }
   }
@@ -283,15 +270,12 @@ export default {
       display: inline-block;
     }
 
-    .footer-logo {
+    .rf {
+      width: 121px;
+      margin: 20px;
 
-      .logoRF {
-        width: 121px;
-        margin: 20px;
-
-        @media only screen and (max-width: $mobileMaxWidth) {
-          margin: 0 0 20px 0;
-        }
+      @media only screen and (max-width: $mobileMaxWidth) {
+        margin: 0 0 20px 0;
       }
     }
 
@@ -302,7 +286,7 @@ export default {
         margin: 0;
       }
 
-      .logoDG {
+      .dg {
         width: 260px;
         max-width: 80%;
       }

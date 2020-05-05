@@ -5,7 +5,7 @@
     <div class="cover">
       <div class="container">
 
-        <CoverIllustration class="illustration" title="Illustration"/>
+        <CoverIllustration class="illustration" aria-hidden="true"/>
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
@@ -29,9 +29,9 @@
       </div>
 
       <section class="item">
-        <!-- <g-link to="/design/"> -->
+
           <div class="description">
-            <Design class="item-icon" title="Icon design"/>
+            <Design class="item-icon" aria-hidden="true"/>
 
             <h2>Design numérique</h2>
 
@@ -45,74 +45,67 @@
             </p>
           </div>
 
-          <DesignIllustration class="illustration right" title="Illustration design"/>
-
-        <!-- </g-link> -->
-      </section>
-
-      <section class="item">
-
-        <div class="description">
-          <g-link to="/accessibilite-numerique/">
-            <Accessibilite class="item-icon" title="Icon accessibilité"/>
-
-            <h2>Accessibilité numérique</h2>
-
-            <p>
-              L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en <b>situation de handicap</b>.
-            </p>
-
-            <p class="button blue shadow">
-              L'accessibilité en détails<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </p>
-          </g-link>
-        </div>
-
-        <AccessibiliteIllustration class="illustration right" title="Illustration accessibilité"/>
+          <DesignIllustration class="illustration right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="description">
-          <g-link to="/services/">
-            <Services class="item-icon" title="Icon services"/>
+          <Accessibilite class="item-icon" aria-hidden="true"/>
 
-            <h2>Besoin d'aide ?</h2>
+          <h2>Accessibilité numérique</h2>
 
-            <p>
-              Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous vous accompagnons.
-            </p>
+          <p>
+            L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en <b>situation de handicap</b>.
+          </p>
 
-            <p class="button blue shadow">
-              J'ai besoin d'aide<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </p>
+          <g-link to="/accessibilite-numerique/" class="button blue shadow">
+            L'accessibilité en détails<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
-        <ServicesIllustration class="illustration right" title="Illustration services"/>
+        <AccessibiliteIllustration class="illustration right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="description">
-          <g-link to="/formations/">
-            <Formations class="item-icon" title="Icon formations"/>
+          <Services class="item-icon" aria-hidden="true"/>
 
-            <h2>Les formations</h2>
+          <h2>Besoin d'aide ?</h2>
 
-            <p>
-              De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>
-            </p>
+          <p>
+            Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous vous accompagnons.
+          </p>
 
-            <p class="button blue shadow">
-              Je découvre les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </p>
+          <g-link to="/services/" class="button blue shadow">
+            J'ai besoin d'aide<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
-        <FormationsIllustration class="illustration right" title="Illsutration formations"/>
+        <ServicesIllustration class="illustration right" aria-hidden="true"/>
+
+      </section>
+
+      <section class="item">
+
+        <div class="description">
+          <Formations class="item-icon" aria-hidden="true"/>
+
+          <h2>Les formations</h2>
+
+          <p>
+            De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>
+          </p>
+
+          <g-link to="/formations/" class="button blue shadow">
+            Je découvre les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+          </g-link>
+        </div>
+
+        <FormationsIllustration class="illustration right" aria-hidden="true"/>
 
       </section>
 
@@ -268,13 +261,8 @@ export default {
       margin-right: 16px;
     }
 
-    a {
-      display: block;
-      text-decoration: none;
-      color: $black;
-    }
-
     .button {
+      display: inline-block;
       text-align: center;
       margin-top: 8px;
     }
@@ -290,11 +278,6 @@ export default {
     &:hover, &:focus {
       .item-icon {
         transform: rotate(180deg);
-      }
-
-      .button {
-        color: white;
-        background-color: $blue;
       }
     }
   }

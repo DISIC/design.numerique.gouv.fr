@@ -2,18 +2,14 @@
   <div>
 
     <header>
+      <g-link class="header-logo" to="/" title="DesignGouv - Retour à l'accueil">
+        <LogoRF class="rf" role="img" title="Logo Républiqe Française"/>
+        <LogoDG class="dg" role="img" title="Logo DesignGouv"/>
+      </g-link>
 
-      <div class="header-logo">
-        <g-link to="/" class="rf" alt="DesignGouv - Retour à l'accueil">
-          <LogoRF class="logo" title="Logo République Française" />
-        </g-link>
-
-        <g-link to="/" class="dg" alt="DesignGouv - Retour à l'accueil">
-          <LogoDG class="logo" title="Logo DesignGouv" />
-        </g-link>
-      </div>
-
-      <Menu />
+      <nav>
+        <Menu />
+      </nav>
 
     </header>
 
@@ -24,15 +20,15 @@
 
     <footer>
 
-      <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-        <LogoRF class="rf" title="Logo République Française" />
+      <g-link to="/" title="DesignGouv - Retour à l'accueil">
+        <LogoRF class="rf" role="img" title="Logo République Française" />
       </g-link>
 
       <div class="footer-content">
 
-        <div>
-          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-            <LogoDG class="dg" title="Logo DesignGouv" />
+        <div class="description">
+          <g-link to="/" title="DesignGouv - Retour à l'accueil">
+            <LogoDG class="dg" role="img" title="Logo DesignGouv" />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -222,27 +218,24 @@ export default {
       align-items: center;
 
       .rf {
-        .logo {
-          width: 121px;
-          margin: 30px 40px 0px 30px;
+        flex-shrink: 0;
+        width: 121px;
+        margin: 30px 40px 0px 30px;
 
-          @media only screen and (max-width: $mobileMaxWidth) {
-            max-width: 64px;
-            margin: 12px 16px 0px 12px;
-          }
+        @media only screen and (max-width: $mobileMaxWidth) {
+          width: 64px;
+          margin: 12px 16px 0px 12px;
         }
       }
 
       .dg {
-        .logo {
-          max-width: 260px;
-          width: 100%;
-          padding-top: 14px;
+        max-width: 260px;
+        width: 100%;
+        padding-top: 16px;
 
-          @media only screen and (max-width: $mobileMaxWidth) {
-            width: 140px;
-            padding-top: 6px;
-          }
+        @media only screen and (max-width: $mobileMaxWidth) {
+          width: 140px;
+          padding-top: 6px;
         }
       }
     }
@@ -279,6 +272,11 @@ export default {
       }
     }
 
+    .dg {
+      width: 260px;
+      max-width: 80%;
+    }
+
     .footer-content {
       margin: 18px 40px 0px 40px;
 
@@ -286,29 +284,28 @@ export default {
         margin: 0;
       }
 
-      .dg {
-        width: 260px;
-        max-width: 80%;
+      .description {
+        max-width: 640px;
       }
-    }
 
-    .websites {
-      margin: 32px 0 8px 0;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
+      .websites {
+        margin: 32px 0 8px 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
 
-      div {
-        margin-right: 48px;
-        margin-bottom: 16px;
-      }
-    }
+        div {
+          margin-right: 48px;
+          margin-bottom: 16px;
+        }
 
-    ul {
-      padding: 0;
+        ul {
+          padding: 0;
 
-      li {
-        list-style-type: none;
+          li {
+            list-style-type: none;
+          }
+        }
       }
     }
 

@@ -2,14 +2,27 @@
   <div>
 
     <header>
-      <div>
-        <g-link to="/">
-          <g-image class="logo" src="~/assets/images/logoMDGB.svg" width="320" alt="Logo DesignGouv" />
-        </g-link>
+
+      <div class="header-logo">
+
+        <div  class="rf">
+          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
+            <LogoRF class="logo" title="Logo République Française" />
+          </g-link>
+        </div>
+
+        <div  class="dg">
+          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
+            <LogoDG class="logo" title="Logo DesignGouv" />
+          </g-link>
+        </div>
+
       </div>
+
       <nav>
         <Menu />
       </nav>
+
     </header>
 
     <main class="layout">
@@ -23,14 +36,14 @@
 
       <div class="footer-logo">
         <g-link to="/">
-          <g-image class="logoRF" alt="Logo République française" width="200" src="~/assets/images/logoRF.svg"/>
+          <LogoRF class="rf" title="République Française" />
         </g-link>
       </div>
 
       <div class="footer-content">
         <div class="">
           <g-link to="/">
-            <g-image class="logoDG" alt="Logo DesignGouv" width="280" src="~/assets/images/logoDGB.svg"/>
+            <LogoDG class="dg" title="Logo DesignGouv" />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -42,16 +55,16 @@
           <div>
             DesignGouv
             <ul>
-              <li><a href="https://twitter.com/design_gouv_num" target="_blank">
+              <li><a href="https://twitter.com/design_gouv" target="_blank">
                 Twitter <font-awesome :icon="['fab', 'twitter']"/>
                 </a></li>
               <li><a href="mailto:contact@design.numerique.gouv.fr" target="_blank">
                   Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
-              <li><g-link to="/recrutement">Recrutement</g-link></li>
-              <li><g-link to="/misc/accessibilite">Accessibilité</g-link></li>
-              <li><g-link to="/misc/donnees-personnelles">Données personnelles</g-link></li>
-              <li><g-link to="/misc/mentions-legales">Mentions légales</g-link></li>
+              <li><a href="/recrutement/">Recrutement</a></li>
+              <li><a href="/misc/accessibilite/">Accessibilité</a></li>
+              <li><a href="/misc/donnees-personnelles/">Données personnelles</a></li>
+              <li><a href="/misc/mentions-legales/">Mentions légales</a></li>
             </ul>
           </div>
           <div>
@@ -97,13 +110,17 @@ query {
 </static-query>
 
 <script>
-import Menu from '~/components/Menu.vue'
-import Newsletter from '~/components/Newsletter.vue'
+import Menu from "~/components/Menu.vue"
+import Newsletter from "~/components/Newsletter.vue"
+import LogoRF from "~/assets/images/logoRF.svg"
+import LogoDG from "~/assets/images/logoDG.svg"
 
 export default {
   components: {
     Menu,
-    Newsletter
+    Newsletter,
+    LogoRF,
+    LogoDG,
   },
   props: {
     logoLarge: {
@@ -120,93 +137,135 @@ export default {
 
   @font-face {
     font-family: "Marianne";
-    font-weight: 300;
-    src: url("../assets/fonts/Marianne/Marianne-Light.ttf") format("ttf"),
-         url("../assets/fonts/Marianne/Marianne-Light.woff") format("woff2"),
-         url("../assets/fonts/Marianne/Marianne-Light.woff2") format("woff");
-  }
-  @font-face {
-    font-family: "Marianne";
     font-weight: 400;
     src: url("../assets/fonts/Marianne/Marianne-Regular.ttf") format("ttf"),
          url("../assets/fonts/Marianne/Marianne-Regular.woff") format("woff2"),
          url("../assets/fonts/Marianne/Marianne-Regular.woff2") format("woff");
+    font-display: fallback;
   }
+
   @font-face {
     font-family: "Marianne";
     font-weight: 700;
     src: url("../assets/fonts/Marianne/Marianne-Bold.ttf") format("ttf"),
          url("../assets/fonts/Marianne/Marianne-Bold.woff") format("woff2"),
          url("../assets/fonts/Marianne/Marianne-Bold.woff2") format("woff");
+    font-display: fallback;
   }
+
   @font-face {
     font-family: "Marianne";
     font-weight: 800;
     src: url("../assets/fonts/Marianne/Marianne-ExtraBold.ttf") format("ttf"),
          url("../assets/fonts/Marianne/Marianne-ExtraBold.woff") format("woff2"),
          url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
     font-family: "Inter";
-    font-weight: 300;
-    src: url("../assets/fonts/Inter/Inter-Light.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Light.woff2") format("woff");
-  }
-
-  @font-face {
-    font-family: "Inter";
+    font-style: normal;
     font-weight: 400;
-    src: url("../assets/fonts/Inter/Inter-Regular.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Regular.woff2") format("woff");
+    src: url("../assets/fonts/Inter/Inter-Regular-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Regular-Reduced.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
     font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    src: url("../assets/fonts/Inter/Inter-Italic-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Italic-Reduced.woff2") format("woff");
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
     font-weight: 500;
-    src: url("../assets/fonts/Inter/Inter-Medium.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Medium.woff2") format("woff");
+    src: url("../assets/fonts/Inter/Inter-Medium-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Medium-Reduced.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
     font-family: "Inter";
+    font-style: italic;
+    font-weight: 500;
+    src: url("../assets/fonts/Inter/Inter-MediumItalic-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-MediumItalic-Reduced.woff2") format("woff");
+    font-display: fallback;
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
     font-weight: 700;
-    src: url("../assets/fonts/Inter/Inter-Bold.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Bold.woff2") format("woff");
+    src: url("../assets/fonts/Inter/Inter-Bold-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-Bold-Reduced.woff2") format("woff");
+    font-display: fallback;
   }
 
   @font-face {
     font-family: "Inter";
-    font-weight: 900;
-    src: url("../assets/fonts/Inter/Inter-Black.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Black.woff2") format("woff");
-  }
-
-  header {
-    display: flex;
-    padding: 0 20px;
-    justify-content: space-between;
-    align-items: center;
-    height: 72px;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 0 8px;
-      height: 64px;
-    }
-
-    .logo {
-      padding-top: 8px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        width: 240px;
-      }
-    }
+    font-style: italic;
+    font-weight: 700;
+    src: url("../assets/fonts/Inter/Inter-BoldItalic-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter/Inter-BoldItalic-Reduced.woff2") format("woff");
+    font-display: fallback;
   }
 
   .layout {
     max-width: 760px;
     margin: 0 auto;
     padding: 0 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-logo {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      .rf {
+        .logo {
+          width: 121px;
+          margin: 30px 40px 22px 30px;
+
+          @media only screen and (max-width: $mobileMaxWidth) {
+            max-width: 64px;
+            margin: 12px 16px 4px 12px;
+          }
+        }
+      }
+
+      .dg {
+        .logo {
+          max-width: 260px;
+          width: 100%;
+          padding-bottom: 6px;
+
+          @media only screen and (max-width: $mobileMaxWidth) {
+            width: 140px;
+            padding-bottom: 0px;
+          }
+        }
+      }
+    }
+
+    nav {
+      text-align: right;
+      padding-bottom: 6px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding-bottom: 0px;
+      }
+    }
   }
 
   footer {
@@ -234,8 +293,11 @@ export default {
 
     .footer-logo {
 
-      .logoRF {
-        padding-bottom: 24px;
+      .rf {
+        width: 121px;
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 24px;
       }
     }
 
@@ -249,7 +311,8 @@ export default {
         margin: 0;
       }
 
-      .logoDG {
+      .dg {
+        width: 280px;
         max-width: 80%;
       }
     }

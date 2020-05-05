@@ -15,8 +15,6 @@
 </template>
 
 <script>
-import HomeItem from '~/components/HomeItem.vue'
-
 export default {
   components: {
   },

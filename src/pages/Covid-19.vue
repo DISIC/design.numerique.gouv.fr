@@ -17,11 +17,21 @@
 
       <section class="entete">
         <p>Retrouvez toutes les réponses officielles sur le Coronavirus sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.</p>
-        <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum. Des dérogations sur attestation sont possibles. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Les versions numériques ne sont pas autorisées.</p>
+        <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum. Des dérogations sur attestation sont possibles. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Une <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" target="_blank">version numérique de l'attestation de déplacement dérogatoire</a> est maintenant disponible.</p>
       </section>
 
       <section id="attestations">
         <h2>Attestation de déplacement dérogatoire</h2>
+
+        <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" title="En numérique, à remplir"  target="_blank">
+          <div class="file">
+            <p class="description">En numérique, à remplir</p>
+            <p class="download">
+              <span class="link">Accéder <font-awesome :icon="['fas', 'arrow-right']"/></span>
+              <font-awesome :icon="['fas', 'mobile-alt']" size="2x" transform="shrink-3" alt="Icon"/>
+            </p>
+          </div>
+        </a>
 
         <a href="/covid-19/pdf/attestation-deplacement-fr.pdf" download="attestation-deplacement-fr.pdf" title="Télécharger au format PDF">
           <div class="file">
@@ -42,16 +52,6 @@
             </p>
           </div>
         </a>
-
-        <g-link to="/covid-19/attestation-deplacement-fr" title="Afficher sur le web pour recopier">
-          <div class="file">
-            <p class="description">Sur le web, à recopier</p>
-            <p class="download">
-              <span class="link">Afficher <font-awesome :icon="['fas', 'arrow-right']"/></span>
-              <font-awesome :icon="['far', 'edit']" size="2x" transform="shrink-5" alt="Icon"/>
-            </p>
-          </div>
-        </g-link>
 
         <a href="/covid-19/docx/attestation-deplacement-fr.docx" download="attestation-deplacement-fr.docx" title="Télécharger au format Word">
           <div class="file">
@@ -87,6 +87,16 @@
       <section>
         <h2>Justificatif de déplacement professionnel</h2>
 
+        <g-link to="/covid-19/justificatif-deplacement-professionnel-fr/" title="Afficher sur le web pour recopier">
+          <div class="file">
+            <p class="description">Sur le web, à recopier</p>
+            <p class="download">
+              <span class="link">Afficher <font-awesome :icon="['fas', 'arrow-right']"/></span>
+              <font-awesome :icon="['far', 'edit']" size="2x" transform="shrink-5" alt="Icon"/>
+            </p>
+          </div>
+        </g-link>
+
         <a href="/covid-19/pdf/justificatif-deplacement-professionnel-fr.pdf" download="justificatif-deplacement-professionnel-fr.pdf" title="Télécharger au format PDF">
           <div class="file">
             <p class="description">Format PDF</p>
@@ -106,16 +116,6 @@
             </p>
           </div>
         </a>
-
-        <g-link to="/covid-19/justificatif-deplacement-professionnel-fr" title="Afficher sur le web pour recopier">
-          <div class="file">
-            <p class="description">Sur le web, à recopier</p>
-            <p class="download">
-              <span class="link">Afficher <font-awesome :icon="['fas', 'arrow-right']"/></span>
-              <font-awesome :icon="['far', 'edit']" size="2x" transform="shrink-5" alt="Icon"/>
-            </p>
-          </div>
-        </g-link>
 
         <a href="/covid-19/docx/justificatif-deplacement-professionnel-fr.docx" download="justificatif-deplacement-professionnel-fr.docx" title="Télécharger au format Word">
           <div class="file">
@@ -268,7 +268,7 @@ export default {
     },
     {
       name: "twitter:site",
-      content: "@Design_Gouv_Num"
+      content: "@Design_Gouv"
     },
     {
       name: "twitter:title",

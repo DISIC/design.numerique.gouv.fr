@@ -1,4 +1,5 @@
 <template>
+  
   <Layout>
 
     <div class="cover">
@@ -68,10 +69,11 @@
     </div>
 
   </Layout>
+
 </template>
 
+
 <script>
-import HomeItem from '~/components/HomeItem.vue'
 
 export default {
   components: {
@@ -96,7 +98,9 @@ export default {
     }],
   }
 }
+
 </script>
+
 
 <style scoped lang="scss">
 

@@ -196,8 +196,18 @@ export default {
     padding-top: 8px;
     padding-bottom: 48px;
 
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding-top: 16px;
+      padding-bottom: 80px;
+    }
+
     .subtitle {
-      padding: 3% 20%;
+      padding: 26px 20%;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding: 0;
+        max-width: 360px;
+      }
     }
 
     .illustration {
@@ -208,8 +218,13 @@ export default {
       bottom: 0;
       z-index: -1;
       margin-left: -43vw;
+
       @media only screen and (min-width: 1280px) {
         margin-left: -550px;
+      }
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding: 0;
       }
     }
   }
@@ -218,7 +233,7 @@ export default {
     margin-bottom: 120px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      margin-bottom: 64px;
+      margin-bottom: 104px;
     }
   }
 
@@ -228,21 +243,46 @@ export default {
     justify-content: space-between;
     align-items: center;
 
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 104px;
+      flex-direction: column-reverse;
+      align-items: start;
+    }
+
     .description {
       display: inline-block;
       width: 64%;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 100%;
+        text-align: center;
+      }
     }
 
     .illustration {
       display: inline-block;
       height: 240px;
 
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 100%
+      }
+
       &.right {
         padding-left: 40px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          padding-left: 0px;
+          padding-bottom: 24px;
+        }
       }
 
       &.left {
         padding-right: 40px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          padding-right: 0px;
+          padding-bottom: 24px;
+        }
       }
     }
 

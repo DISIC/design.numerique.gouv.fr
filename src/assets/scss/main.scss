@@ -98,6 +98,7 @@ h2 {
 
   @media only screen and (max-width: $mobileMaxWidth) {
     padding-top: 16px;
+    margin-bottom: 64px;
   }
 
   .container {
@@ -200,7 +201,7 @@ button, .button {
   border-radius: 32px;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    padding: 24px 24px 16px 24px;
+    padding: 24px 24px 8px 24px;
   }
 
   strong {

@@ -175,8 +175,11 @@ button, .button {
 
   &:hover, &:focus {
     text-decoration: none;
-    background-color: $black;
-    color: white;
+
+    @media only screen and (min-width: $mobileMaxWidth+1) {
+      background-color: $black;
+      color: white;
+    }
   }
 
   &.blue {
@@ -184,8 +187,10 @@ button, .button {
     border-color: $blue;
 
     &:hover, &:focus {
-      color: white;
-      background-color: $blue;
+      @media only screen and (min-width: $mobileMaxWidth+1) {
+        color: white;
+        background-color: $blue;
+      }
     }
   }
 

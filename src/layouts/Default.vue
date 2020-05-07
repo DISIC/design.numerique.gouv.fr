@@ -224,7 +224,7 @@ export default {
 
         @media only screen and (max-width: $mobileMaxWidth) {
           width: 64px;
-          margin: 12px 16px 0px 12px;
+          margin: 12px 24px 0px 12px;
         }
       }
 
@@ -234,8 +234,8 @@ export default {
         padding-top: 16px;
 
         @media only screen and (max-width: $mobileMaxWidth) {
-          width: 140px;
-          padding-top: 6px;
+          width: 160px;
+          padding-top: 4px;
         }
       }
     }

@@ -1,5 +1,5 @@
 <template>
-  
+
   <Layout>
 
     <div class="cover">
@@ -32,7 +32,7 @@
 
         <h3>Accessibilité</h3>
         <p>
-          <a href="https://www.fun-mooc.fr/courses/inria/41012/session01/about" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>L'accessibilité numérique<span class="black">, 15 heures, gratuit.</span></a></br>
+          <a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/about" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>L'accessibilité numérique<span class="black">, 15 heures, gratuit.</span></a></br>
           <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank" class="buttonLight"><span class='arrowLeft'>→</span>Mise en œuvre de l’accessibilité numérique<span class="black">, 14 heures, gratuit.</span></a>
         </p>
 

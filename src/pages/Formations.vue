@@ -31,7 +31,7 @@
 
         <h3>Accessibilité</h3>
         <p>
-          <a href="https://www.fun-mooc.fr/courses/inria/41012/session01/about" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></br>
+          <a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/about" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></br>
           <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.
         </p>
 

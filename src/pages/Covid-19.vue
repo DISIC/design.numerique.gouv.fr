@@ -4,8 +4,11 @@
     <div class="coverLight">
      <div class="coverContainer covid-cover">
 
-       <strong>Covid-19</strong>
-       <h1>Les opportunités d'entraide</h1>
+       <!-- <strong>Coronavirus</strong> -->
+       <h1>Coronavirus : les opportunités d'entraide</h1>
+
+       <p class="subtitle">Retrouvez ci-dessous notre liste d'initiatives pour s'impliquer
+          et aider dans différents domaines pendant l'épidémie de Coronavirus.</p>
 
       </div>
     </div>
@@ -234,14 +237,14 @@ export default {
   components: {
   },
   metaInfo: {
-    title: "Covid-19 : les initiatives d'entraide - DesignGouv",
+    title: "Coronavirus : les initiatives d'entraide - DesignGouv",
     meta: [{
       name: 'description',
       content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
     },
     {
       property: 'og:title',
-      content: "Covid-19 : les initiatives d'entraide - DesignGouv"
+      content: "Coronavirus : les initiatives d'entraide - DesignGouv"
     },
     {
       property: 'og:description',
@@ -261,7 +264,7 @@ export default {
     },
     {
       name: "twitter:title",
-      content: "Covid-19 : les initiatives d'entraide - DesignGouv"
+      content: "Coronavirus : les initiatives d'entraide - DesignGouv"
     },
     {
       name: "twitter:description",

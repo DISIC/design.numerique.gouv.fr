@@ -16,7 +16,7 @@
 
       <div class="message">
 
-          <strong>COVID-19</strong>
+          <strong>Coronavirus</strong>
 
           <p>Retrouvez notre liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
 

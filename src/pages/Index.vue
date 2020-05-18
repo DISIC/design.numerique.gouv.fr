@@ -18,10 +18,10 @@
 
           <strong>COVID-19</strong>
 
-          <p>Retrouvez les attestations de déplacements accessibles et inclusives ainsi qu'une liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
+          <p>Retrouvez notre liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
 
           <g-link to="/covid-19/" class="button">
-            Accéder aux documents et aux initiatives
+            Accéder aux initiatives
             <span class='arrow'>→</span>
           </g-link>
 

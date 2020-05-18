@@ -4,11 +4,13 @@
     <div class="cover">
      <div class="container">
 
-      <h1 class="highlight">Accessibilité numérique</h1>
+      <h1 class="highlight"><Accessibilite class="icon" aria-hidden="true"/>L'accessibilité numérique</h1>
 
       <p class="subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 
-      </div>
+      <AccessibiliteIllustration class="illustration" aria-hidden="true"/>
+
+     </div>
     </div>
 
     <div class="content small">
@@ -206,45 +208,58 @@
 </template>
 
 <script>
-export default {
-  components: {
-  },
-  metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
-    meta: [{
-      name: 'description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+
+  import Accessibilite from "~/assets/images/accessibilite.svg"
+  import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg"
+
+  export default {
+    components: {
+      Accessibilite,
+      AccessibiliteIllustration,
     },
-    {
-      property: 'og:title',
-      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-    },
-    {
-      property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
-    }],
+    metaInfo: {
+      title: "Accessibilité numérique - DesignGouv",
+      meta: [{
+        name: 'description',
+        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      },
+      {
+        property: 'og:title',
+        content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      },
+      {
+        property: 'og:image',
+        content: "https://designgouv.fr/designGouv.png"
+      }],
+    }
   }
-}
+
 </script>
 
 <style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
+
+  @import "src/assets/scss/_vars.scss";
+
   .content {
+
     table {
       margin-top: 40px;
     }
+
     td {
       vertical-align: top;
       font-weight: 700;
       padding-bottom: 32px;
+
       li {
         font-weight: normal;
       }
     }
+
     .bullet {
       display: inline-block;
       font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
@@ -258,11 +273,13 @@ export default {
       margin-right: 8px;
       font-weight: 900;
     }
+
     .comment {
       display: inline-block;
       font-weight: normal;
       margin-top: 10px;
     }
+
     .button {
       text-decoration: none;
       border: 2px solid $blue;
@@ -272,20 +289,24 @@ export default {
       font-weight: bold;
       display: inline-block;
       margin: 10px 0;
+
       @media only screen and (max-width: $mobileMaxWidth) {
         font-size: 0.875em;
       }
+
       &:hover {
         background: $blue;
         color: white;
       }
     }
+
     .buttonLight {
       text-decoration: none;
       background-color: white;
       font-weight: bold;
       display: inline-block;
       margin: 12px 0 0 0;
+
       &:hover {
         .arrow {
           padding: 0 0 0 10px;
@@ -293,4 +314,5 @@ export default {
       }
     }
   }
+
 </style>

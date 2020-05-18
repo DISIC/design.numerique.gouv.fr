@@ -5,7 +5,7 @@
     <div class="cover">
       <div class="container">
 
-        <CoverIllustration class="illustration" aria-hidden="true"/>
+        <CoverIllustration class="home-illustration" aria-hidden="true"/>
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
@@ -193,7 +193,7 @@ export default {
   @import "src/assets/scss/_vars.scss";
 
   .cover {
-    padding-top: 8px;
+    padding-top: 16px;
     padding-bottom: 48px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
@@ -202,7 +202,7 @@ export default {
     }
 
     .subtitle {
-      padding: 26px 20%;
+      padding: 34px 20%;
 
       @media only screen and (max-width: $mobileMaxWidth) {
         padding: 0;
@@ -210,7 +210,7 @@ export default {
       }
     }
 
-    .illustration {
+    .home-illustration {
       position: absolute;
       width: 86vw;
       max-width: 1100px;
@@ -291,6 +291,10 @@ export default {
       display: inline-block;
       padding: 8px 0;
       margin: 0;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: inline;
+      }
     }
 
     .item-icon {
@@ -300,6 +304,12 @@ export default {
       width: 36px;
       margin-bottom: -5px;
       margin-right: 16px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: inline;
+        margin-bottom: -8px;
+        margin-right: 12px;
+      }
     }
 
     .button {

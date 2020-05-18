@@ -4,11 +4,13 @@
     <div class="cover">
      <div class="container">
 
-      <h1 class="highlight">Les formations</h1>
+      <h1 class="highlight"><Formations class="icon" aria-hidden="true"/>Les formations</h1>
 
       <p class="subtitle">De nombreuses formations sont disponibles, certaines accessibles
         gratuitement, pour vous former personnellement ou en équipe sur les divers
         sujets liés au design, à la qualité des services numériques et à l’accessibilité.</p>
+
+      <FormationsIllustration class="illustration" aria-hidden="true"/>
 
       </div>
     </div>
@@ -73,8 +75,13 @@
 
 <script>
 
+  import Formations from "~/assets/images/formations.svg"
+  import FormationsIllustration from "~/assets/images/formationsIllustration.svg"
+
   export default {
     components: {
+      Formations,
+      FormationsIllustration,
     },
     metaInfo: {
       title: "Les formations au design numérique et à l'accessibilté - DesignGouv",

@@ -4,12 +4,14 @@
     <div class="cover">
      <div class="container">
 
-      <h1 class="highlight">Nos services</h1>
+      <h1 class="highlight"><Services class="icon" aria-hidden="true"/>Nos services</h1>
 
       <p class="subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
         questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,
         demander des conseils pour le développement ou l'amélioration de votre service&nbsp;?
         Nous vous aidons&nbsp;!</p>
+
+      <ServicesIllustration class="illustration" aria-hidden="true"/>
 
       </div>
     </div>
@@ -79,29 +81,36 @@
 </template>
 
 <script>
-export default {
-  components: {
-  },
-  metaInfo: {
-    title: "Nos services pour améliorer vos démarches en ligne - DesignGouv",
-    meta: [{
-      name: 'description',
-      content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+
+  import Services from "~/assets/images/services.svg"
+  import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
+
+  export default {
+    components: {
+      Services,
+      ServicesIllustration,
     },
-    {
-      property: 'og:title',
-      content: "Nos services pour améliorer vos démarches en ligne - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
-    },
-    {
-      property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
-    }],
+    metaInfo: {
+      title: "Nos services pour améliorer vos démarches en ligne - DesignGouv",
+      meta: [{
+        name: 'description',
+        content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+      },
+      {
+        property: 'og:title',
+        content: "Nos services pour améliorer vos démarches en ligne - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+      },
+      {
+        property: 'og:image',
+        content: "https://designgouv.fr/designGouv.png"
+      }],
+    }
   }
-}
+
 </script>
 
 <style scoped lang="scss">

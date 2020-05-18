@@ -88,7 +88,6 @@ h2 {
 }
 
 .cover {
-  padding-top: 32px;
   margin-bottom: 96px;
   text-align: center;
   width: 100vw;
@@ -114,18 +113,13 @@ h2 {
       margin-bottom: -16px;
     }
 
-    img {
-      width: 32px;
-      margin: 0px 12px 32px 12px;
-      transition: .2s all;
-
-      &:hover, &:focus {
-        transform: rotate(180deg);
-      }
+    .illustration {
+      height: 240px;
+      padding-top: 32px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        width: 24px;
-        margin-bottom: 16px;
+        height: 160px;
+        padding-top: 24px;
       }
     }
 
@@ -137,6 +131,30 @@ h2 {
       h1 {
         color: $black;
         font-size: 3em;
+      }
+    }
+  }
+
+  h1 {
+    margin: 24px 0;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin: 32px 0 24px 0;
+    }
+
+    .icon {
+      display: inline-block;
+      height: 48px;
+      width: 48px;
+      margin-bottom: -5px;
+      margin-right: 24px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: inline;
+        height: 36px;
+        width: 36px;
+        margin-bottom: -6px;
+        margin-right: 12px;
       }
     }
   }

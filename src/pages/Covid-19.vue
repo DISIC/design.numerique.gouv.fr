@@ -354,12 +354,12 @@ export default {
   .website {
     display: inline-block;
     vertical-align: top;
-    margin: 40px 32px 40px 0;
+    margin: 0px 16px 80px 16px;
     width: 348px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       width: 92%;
-      margin: 32px 32px 32px 0;
+      margin: 0px 0px 64px 0;
     }
 
     p {

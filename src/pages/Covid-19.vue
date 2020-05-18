@@ -155,15 +155,6 @@
           <a href="https://solidaires-handicaps.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
-        <!--Supprimé car hors périmètre : aucun moyen de se porter volontaire -->
-        <!-- <div class="website">
-          <p class="logo"><g-image alt="Logo Arrêtons les violences" src="~/assets/images/websites/alv.svg"/></p>
-          <p class="name">Arrêtons les violences</p>
-          <p class="tags"><span class="tag">Site public</span><span class="tag">Violence</span></p>
-          <p class="description">Aide et accompagne les personnes victimes de violence sexuelles, conjugales ou autres.</p>
-          <a href="https://arretonslesviolences.gouv.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
-        </div> -->
-
         <div class="website">
           <p class="logo"><g-image alt="Logo Solidarité numérique" src="~/assets/images/websites/sn.svg"/></p>
           <p class="name">Solidarité numérique</p>
@@ -302,54 +293,54 @@ export default {
     }
   }
 
-  .entete {
-    margin-bottom: 64px;
-  }
+  // .entete {
+  //   margin-bottom: 64px;
+  // }
 
-  .file {
-    display: inline-block;
-    padding: 16px;
-    margin: 20px 20px 0 0;
-    border: 2px solid $light-gray;
-    background-color: $light-gray;
-    border-radius: 16px;
-    width: 192px;
-
-    p {
-      margin: 0;
-    }
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      margin: 12px 12px 0 0;
-      width: 80%;
-    }
-
-    &:hover, &:focus {
-      border: 2px solid $blue;
-    }
-
-    .description {
-      font-weight: bold;
-      color: $dark;
-      margin-bottom: 8px;
-    }
-
-    .download {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-
-      .link {
-        text-align: left;
-        font-size: 0.875em;
-        color: $blue;
-
-        svg {
-          padding-left: 4px;
-        }
-      }
-    }
-  }
+  // .file {
+  //   display: inline-block;
+  //   padding: 16px;
+  //   margin: 20px 20px 0 0;
+  //   border: 2px solid $light-gray;
+  //   background-color: $light-gray;
+  //   border-radius: 16px;
+  //   width: 192px;
+  //
+  //   p {
+  //     margin: 0;
+  //   }
+  //
+  //   @media only screen and (max-width: $mobileMaxWidth) {
+  //     margin: 12px 12px 0 0;
+  //     width: 80%;
+  //   }
+  //
+  //   &:hover, &:focus {
+  //     border: 2px solid $blue;
+  //   }
+  //
+  //   .description {
+  //     font-weight: bold;
+  //     color: $dark;
+  //     margin-bottom: 8px;
+  //   }
+  //
+  //   .download {
+  //     display: flex;
+  //     align-items: flex-end;
+  //     justify-content: space-between;
+  //
+  //     .link {
+  //       text-align: left;
+  //       font-size: 0.875em;
+  //       color: $blue;
+  //
+  //       svg {
+  //         padding-left: 4px;
+  //       }
+  //     }
+  //   }
+  // }
 
   .website {
     display: inline-block;

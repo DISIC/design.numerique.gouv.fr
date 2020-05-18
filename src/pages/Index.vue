@@ -7,7 +7,7 @@
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
-        <p class="subtitle"><strong>DesignGouv</strong> rassemble les agents publics soucieux de la qualité des services numériques et met à disposition des outils pour leur amélioration.</p>
+        <p class="subtitle">Des idées et des outils à la disposition des agents publics pour améliorer l'expérience usager des services publics numériques.</p>
 
       </div>
     </div>
@@ -16,12 +16,12 @@
 
       <div class="message">
 
-          <strong>COVID-19</strong>
+          <strong>Coronavirus</strong>
 
-          <p>Retrouvez les attestations de déplacements accessibles et inclusives ainsi qu'une liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
+          <p>Retrouvez notre liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
 
           <g-link to="/covid-19/" class="button">
-            Accéder aux documents et aux initiatives
+            Accéder aux initiatives
             <span class='arrow'>→</span>
           </g-link>
 

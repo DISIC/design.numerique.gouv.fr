@@ -4,23 +4,23 @@
     <div class="coverLight">
      <div class="coverContainer covid-cover">
 
-       <strong>Covid-19</strong>
-       <h1>Les attestations de sortie et les opportunités d'entraide</h1>
+       <!-- <strong>Coronavirus</strong> -->
+       <h1>Coronavirus : les opportunités d'entraide</h1>
 
-       <a href="#attestations"><button>Attestations</button></a>
-       <a href="#initiatives"><button>Me porter volontaire</button></a>
+       <p class="subtitle">Retrouvez ci-dessous notre liste d'initiatives pour s'impliquer
+          et aider dans différents domaines pendant l'épidémie de Coronavirus.</p>
 
       </div>
     </div>
 
     <div class="content">
 
-      <section class="entete">
+      <!-- <section class="entete">
         <p>Retrouvez toutes les réponses officielles sur le Coronavirus sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.</p>
         <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum. Des dérogations sur attestation sont possibles. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Une <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" target="_blank">version numérique de l'attestation de déplacement dérogatoire</a> est maintenant disponible.</p>
-      </section>
+      </section> -->
 
-      <section id="attestations">
+      <!-- <section id="attestations">
         <h2>Attestation de déplacement dérogatoire</h2>
 
         <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" title="En numérique, à remplir"  target="_blank">
@@ -137,10 +137,10 @@
           </div>
         </a>
 
-      </section>
+      </section> -->
 
       <section id="initiatives">
-        <h2>Me porter volontaire</h2>
+        <!-- <h2>Me porter volontaire</h2> -->
 
         <div class="website">
           <p class="logo"><g-image alt="Logo Réserve civique" src="~/assets/images/websites/rc.png"/></p>
@@ -157,15 +157,6 @@
           <p class="description">Met en relation associations et bénévoles pour venir en aide aux personnes en situation de handicap.</p>
           <a href="https://solidaires-handicaps.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
-
-        <!--Supprimé car hors périmètre : aucun moyen de se porter volontaire -->
-        <!-- <div class="website">
-          <p class="logo"><g-image alt="Logo Arrêtons les violences" src="~/assets/images/websites/alv.svg"/></p>
-          <p class="name">Arrêtons les violences</p>
-          <p class="tags"><span class="tag">Site public</span><span class="tag">Violence</span></p>
-          <p class="description">Aide et accompagne les personnes victimes de violence sexuelles, conjugales ou autres.</p>
-          <a href="https://arretonslesviolences.gouv.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
-        </div> -->
 
         <div class="website">
           <p class="logo"><g-image alt="Logo Solidarité numérique" src="~/assets/images/websites/sn.svg"/></p>
@@ -184,15 +175,15 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Continuité pédagogique" src="~/assets/images/websites/cp.png"/></p>
-          <p class="name">Continuité pédagogique</p>
+          <p class="logo"><g-image alt="Logo Continuité pédagogique" src="~/assets/images/websites/fee.jpeg"/></p>
+          <p class="name">Faire École Ensemble</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Numérique et enseignement</span></p>
-          <p class="description">Met en relation des volontaires qui souhaitent aider les enseignants sur l'usage des outils numériques.</p>
-          <a href="https://www.continuitepedagogique.org/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <p class="description">Soutenir les communautés éducatives pendant la période de confinement et de réouverture progressive des écoles et des établissements scolaires.</p>
+          <a href="https://wiki.faire-ecole.org/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Réussite virale" src="~/assets/images/websites/rv.png"/></p>
+          <p class="logo"><g-image alt="Logo Réussite virale" src="~/assets/images/websites/rv.jpg"/></p>
           <p class="name">Réussite virale</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Enseignement</span></p>
           <p class="description">Met en relation des volontaires avec des jeunes ayant besoin de soutien pour réussir leurs études.</p>
@@ -215,13 +206,14 @@
           <a href="https://fr.ulule.com/channels/solidarite-coronavirus/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
-        <div class="website">
+        <!-- Supprimé car site web plus disponible -->
+        <!-- <div class="website">
           <p class="logo"><g-image alt="Logo Open Covid" src="~/assets/images/websites/opencovid.png"/></p>
           <p class="name">Data Against COVID-19 / FR</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Data</span></p>
           <p class="description">Une organisation informelle issue de la société civile avec des développeurs, des data scientist, des ingénieurs, des chefs de projets et talents de tous corps de métiers qui s'organisent ensemble pour fournir des données consolidées sur l'épidémie de covid 19 et proposer des outils de visualisation.</p>
           <a href="https://opencovid19.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
-        </div>
+        </div> -->
 
         <div class="website">
           <p class="logo"><font-awesome :icon="['fas', 'newspaper']" size="2x" /></p>
@@ -245,22 +237,22 @@ export default {
   components: {
   },
   metaInfo: {
-    title: "Covid-19 : les attestations de sortie et les initiatives d'entraide - DesignGouv",
+    title: "Coronavirus : les initiatives d'entraide - DesignGouv",
     meta: [{
       name: 'description',
-      content: "Retrouvez ici les attestations de sortie et les initiatives d'entraide mises en place pour faire face à l'épidemie de covid-19."
+      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
     },
     {
       property: 'og:title',
-      content: "Covid-19 : les attestations de sortie et les initiatives d'entraide - DesignGouv"
+      content: "Coronavirus : les initiatives d'entraide - DesignGouv"
     },
     {
       property: 'og:description',
-      content: "Retrouvez ici les attestations de sortie et les initiatives d'entraide mises en place pour faire face à l'épidemie de covid-19."
+      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
     },
     {
       property: 'og:image',
-      content: "https://designgouv.fr/attestation.png"
+      content: "https://designgouv.fr/designGouv.png"
     },
     {
       name: "twitter:card",
@@ -272,15 +264,15 @@ export default {
     },
     {
       name: "twitter:title",
-      content: "Covid-19 : les attestations de sortie et les initiatives d'entraide - DesignGouv"
+      content: "Coronavirus : les initiatives d'entraide - DesignGouv"
     },
     {
       name: "twitter:description",
-      content: "Retrouvez ici les attestations de sortie et les initiatives d'entraide mises en place pour faire face à l'épidemie de covid-19."
+      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
     },
     {
       name: "twitter:image",
-      content: "https://designgouv.fr/attestation.png"
+      content: "https://designgouv.fr/designGouv.png"
     },],
   }
 }
@@ -304,64 +296,64 @@ export default {
     }
   }
 
-  .entete {
-    margin-bottom: 64px;
-  }
+  // .entete {
+  //   margin-bottom: 64px;
+  // }
 
-  .file {
-    display: inline-block;
-    padding: 16px;
-    margin: 20px 20px 0 0;
-    border: 2px solid $light-gray;
-    background-color: $light-gray;
-    border-radius: 16px;
-    width: 192px;
-
-    p {
-      margin: 0;
-    }
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      margin: 12px 12px 0 0;
-      width: 80%;
-    }
-
-    &:hover, &:focus {
-      border: 2px solid $blue;
-    }
-
-    .description {
-      font-weight: bold;
-      color: $dark;
-      margin-bottom: 8px;
-    }
-
-    .download {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-
-      .link {
-        text-align: left;
-        font-size: 0.875em;
-        color: $blue;
-
-        svg {
-          padding-left: 4px;
-        }
-      }
-    }
-  }
+  // .file {
+  //   display: inline-block;
+  //   padding: 16px;
+  //   margin: 20px 20px 0 0;
+  //   border: 2px solid $light-gray;
+  //   background-color: $light-gray;
+  //   border-radius: 16px;
+  //   width: 192px;
+  //
+  //   p {
+  //     margin: 0;
+  //   }
+  //
+  //   @media only screen and (max-width: $mobileMaxWidth) {
+  //     margin: 12px 12px 0 0;
+  //     width: 80%;
+  //   }
+  //
+  //   &:hover, &:focus {
+  //     border: 2px solid $blue;
+  //   }
+  //
+  //   .description {
+  //     font-weight: bold;
+  //     color: $dark;
+  //     margin-bottom: 8px;
+  //   }
+  //
+  //   .download {
+  //     display: flex;
+  //     align-items: flex-end;
+  //     justify-content: space-between;
+  //
+  //     .link {
+  //       text-align: left;
+  //       font-size: 0.875em;
+  //       color: $blue;
+  //
+  //       svg {
+  //         padding-left: 4px;
+  //       }
+  //     }
+  //   }
+  // }
 
   .website {
     display: inline-block;
     vertical-align: top;
-    margin: 40px 32px 40px 0;
+    margin: 0px 16px 80px 16px;
     width: 348px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
       width: 92%;
-      margin: 32px 32px 32px 0;
+      margin: 0px 0px 64px 0;
     }
 
     p {

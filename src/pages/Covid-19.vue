@@ -5,22 +5,19 @@
      <div class="coverContainer covid-cover">
 
        <strong>Covid-19</strong>
-       <h1>Les attestations de sortie et les opportunités d'entraide</h1>
-
-       <a href="#attestations"><button>Attestations</button></a>
-       <a href="#initiatives"><button>Me porter volontaire</button></a>
+       <h1>Les opportunités d'entraide</h1>
 
       </div>
     </div>
 
     <div class="content">
 
-      <section class="entete">
+      <!-- <section class="entete">
         <p>Retrouvez toutes les réponses officielles sur le Coronavirus sur : <a href="https://gouvernement.fr/info-coronavirus">gouvernement.fr/info-coronavirus</a>.</p>
         <p>A compter du 17 mars 2020, des mesures ont été prises pour réduire les contacts et déplacements au strict minimum sur l’ensemble du territoire, pour quinze jours minimum. Des dérogations sur attestation sont possibles. Si vous n’avez <strong>pas d’imprimante</strong>, vous pouvez les recopier sur une feuille de papier. Une <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" target="_blank">version numérique de l'attestation de déplacement dérogatoire</a> est maintenant disponible.</p>
-      </section>
+      </section> -->
 
-      <section id="attestations">
+      <!-- <section id="attestations">
         <h2>Attestation de déplacement dérogatoire</h2>
 
         <a href="https://media.interieur.gouv.fr/deplacement-covid-19/" title="En numérique, à remplir"  target="_blank">
@@ -137,10 +134,10 @@
           </div>
         </a>
 
-      </section>
+      </section> -->
 
       <section id="initiatives">
-        <h2>Me porter volontaire</h2>
+        <!-- <h2>Me porter volontaire</h2> -->
 
         <div class="website">
           <p class="logo"><g-image alt="Logo Réserve civique" src="~/assets/images/websites/rc.png"/></p>

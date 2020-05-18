@@ -189,7 +189,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Réussite virale" src="~/assets/images/websites/rv.png"/></p>
+          <p class="logo"><g-image alt="Logo Réussite virale" src="~/assets/images/websites/rv.jpg"/></p>
           <p class="name">Réussite virale</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Enseignement</span></p>
           <p class="description">Met en relation des volontaires avec des jeunes ayant besoin de soutien pour réussir leurs études.</p>

@@ -264,6 +264,7 @@ export default {
       height: 240px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
+        height: 160px;
         width: 100%
       }
 

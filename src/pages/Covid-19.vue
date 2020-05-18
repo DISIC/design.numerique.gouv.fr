@@ -234,22 +234,22 @@ export default {
   components: {
   },
   metaInfo: {
-    title: "Covid-19 : les attestations de sortie et les initiatives d'entraide - DesignGouv",
+    title: "Covid-19 : les initiatives d'entraide - DesignGouv",
     meta: [{
       name: 'description',
-      content: "Retrouvez ici les attestations de sortie et les initiatives d'entraide mises en place pour faire face à l'épidemie de covid-19."
+      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
     },
     {
       property: 'og:title',
-      content: "Covid-19 : les attestations de sortie et les initiatives d'entraide - DesignGouv"
+      content: "Covid-19 : les initiatives d'entraide - DesignGouv"
     },
     {
       property: 'og:description',
-      content: "Retrouvez ici les attestations de sortie et les initiatives d'entraide mises en place pour faire face à l'épidemie de covid-19."
+      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
     },
     {
       property: 'og:image',
-      content: "https://designgouv.fr/attestation.png"
+      content: "https://designgouv.fr/designGouv.png"
     },
     {
       name: "twitter:card",
@@ -261,15 +261,15 @@ export default {
     },
     {
       name: "twitter:title",
-      content: "Covid-19 : les attestations de sortie et les initiatives d'entraide - DesignGouv"
+      content: "Covid-19 : les initiatives d'entraide - DesignGouv"
     },
     {
       name: "twitter:description",
-      content: "Retrouvez ici les attestations de sortie et les initiatives d'entraide mises en place pour faire face à l'épidemie de covid-19."
+      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
     },
     {
       name: "twitter:image",
-      content: "https://designgouv.fr/attestation.png"
+      content: "https://designgouv.fr/designGouv.png"
     },],
   }
 }

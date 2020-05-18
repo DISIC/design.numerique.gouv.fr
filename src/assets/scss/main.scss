@@ -39,7 +39,7 @@ h2 {
   font-weight: 800;
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    font-size: 1.75em;
+    font-size: 1.5em;
   }
 
   img {
@@ -124,13 +124,18 @@ h2 {
     }
 
     &.light {
-      max-width: 720px;
-      padding: 20px;
-      border: 2px solid $black;
+      text-align: left;
+      margin-top: 80px;
+      margin-bottom: -32px;
+      max-width: 760px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        margin-top: 48px;
+      }
 
       h1 {
         color: $black;
-        font-size: 3em;
+        margin-bottom: 0;
       }
     }
   }

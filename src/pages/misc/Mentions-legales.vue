@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="cover">
-     <div class="container light shadow">
+     <div class="container light">
 
        <h1>Mentions légales</h1>
 

@@ -307,7 +307,9 @@ export default {
 
       @media only screen and (max-width: $mobileMaxWidth) {
         display: inline;
-        margin-bottom: -8px;
+        height: 32px;
+        width: 32px;
+        margin-bottom: -6px;
         margin-right: 12px;
       }
     }

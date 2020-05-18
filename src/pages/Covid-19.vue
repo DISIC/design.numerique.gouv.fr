@@ -184,11 +184,11 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Continuité pédagogique" src="~/assets/images/websites/cp.png"/></p>
-          <p class="name">Continuité pédagogique</p>
+          <p class="logo"><g-image alt="Logo Continuité pédagogique" src="~/assets/images/websites/fee.jpeg"/></p>
+          <p class="name">Faire École Ensemble</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Numérique et enseignement</span></p>
-          <p class="description">Met en relation des volontaires qui souhaitent aider les enseignants sur l'usage des outils numériques.</p>
-          <a href="https://www.continuitepedagogique.org/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <p class="description">Soutenir les communautés éducatives pendant la période de confinement et de réouverture progressive des écoles et des établissements scolaires.</p>
+          <a href="https://wiki.faire-ecole.org/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">

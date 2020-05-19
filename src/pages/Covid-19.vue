@@ -222,6 +222,13 @@
           <p class="description">Bastien Guerry a listé dans un article les initiatives adressées aux développeurs et datascientistes.</p>
           <a href="https://bzg.fr/covid19-developpeurs-datascientistes-comment-aider/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
+        
+        <div class="website">
+          <p class="name">FaireMesCourses.fr - Devenir ambassadeur ?</p>
+          <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Local</span></p>
+          <p class="description">FaireMesCourses.fr est une initiative citoyenne, 100% solidaire et gratuite. Soutenez commerçants, artisans, restaurateurs et producteurs en achetant des produits locaux, en retrait ou livraison. Devenez ambassadeur localement en aidant vos commerces à rejoindre la plateforme.</p>
+          <a href="https://fairemescourses.fr" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+        </div>        
 
         <p><i>Vous souhaitez ajouter une initiative ? <a href="mailto:contact@design.numerique.gouv.fr" target="_blank">Contactez-nous</a> ou contribuez sur notre <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">github</a> !</i></p>
 

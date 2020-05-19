@@ -216,6 +216,14 @@
         </div> -->
 
         <div class="website">
+          <p class="logo"><g-image alt="Logo Faire mes courses" src="~/assets/images/websites/faire-mes-courses.svg"/></p>
+          <p class="name">FaireMesCourses.fr - Devenir ambassadeur ?</p>
+          <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Local</span></p>
+          <p class="description">FaireMesCourses.fr est une initiative citoyenne, 100% solidaire et gratuite. Soutenez commerçants, artisans, restaurateurs et producteurs en achetant des produits locaux, en retrait ou livraison. Devenez ambassadeur localement en aidant vos commerces à rejoindre la plateforme.</p>
+          <a href="https://fairemescourses.fr" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+        </div>
+
+        <div class="website">
           <p class="logo"><font-awesome :icon="['fas', 'newspaper']" size="2x" /></p>
           <p class="name">Développeurs / datascientistes - Comment aider ?</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Code</span></p>

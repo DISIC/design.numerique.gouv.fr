@@ -1,0 +1,136 @@
+h1 {
+  box-shadow:
+    inset 0 -0.3em white;
+  display: inline;
+  transition: .1s all;
+}
+
+.cover {
+  background-color: $light-gray;
+}
+
+.content {
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  .grid-menu {
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+    a {
+      margin-right: 16px;
+      width: 20%;
+      border-radius: 5px;
+      border: 1px solid $blue-light;
+      text-align: center;
+      padding: 16px 8px;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: top;
+      align-items: center;
+      flex-direction: column;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 100%;
+      }
+
+      svg {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      &:hover {
+        text-decoration: none;
+        border-color: $blue;
+      }
+
+      &.inactive {
+        background: $lighter-gray;
+        color: $mid-gray;
+        border-color: $light-gray-hover;
+
+        &:hover {
+          border-color: $light-gray-hover;
+        }
+      }
+    }
+  }
+
+  .intro {
+    display: flex;
+
+    > div {
+      width: 70%;
+      margin-right: 40px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 100%;
+      }
+    }
+
+    > div + div {
+      width: 30%;
+      margin-top: 10px;
+      margin-right: 0;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: none;
+      }
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      overflow: visible;
+      margin-top: 20px;
+    }
+  }
+
+  .comment {
+    display: inline-block;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+
+  .button {
+    text-decoration: none;
+    border: 2px solid $blue;
+    background-color: white;
+    border-radius: 32px;
+    padding: 8px 24px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      font-size: 0.875em;
+    }
+
+    &:hover {
+      background: $blue;
+      color: white;
+    }
+  }
+
+  .buttonLight {
+    text-decoration: none;
+    background-color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin: 12px 0 0 0;
+
+    &:hover {
+      .arrow {
+        padding: 0 0 0 10px;
+      }
+    }
+  }
+}

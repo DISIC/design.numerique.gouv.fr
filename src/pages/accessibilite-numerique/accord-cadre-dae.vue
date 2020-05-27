@@ -42,22 +42,35 @@
       </section>
       <section>
         <h3>Les prestataires</h3>
-        <ul>
-          <li>groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</li>
-          <li>groupement URBILOG – URBI EA et IPEDIS</li>
-          <li>groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</li>
-          <li>KOENA</li>
-        </ul>
+        <ol>
+          <li>
+            <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
+            Renan CUISINIERE / renan.cuisiniere@alterway.fr ; gpaw-accessdae@alterway.fr / Tel : 01 41 16 83 88 / 06 98 51 29 89 / 06 08 87 17 14
+
+        </li>
+          <li>
+            <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
+            Paul CACHEUX / rgaa@urbilog.fr / Tel : 03 28 55 21 30 / 06 35 54 05 81
+          </li>
+          <li>
+            <strong>Groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</strong><br>
+            Romain BRAIBANT / ao_accessibiliteweb@mc2i.fr / Tel : 06 45 51 42 39
+          </li>
+          <li>
+            <strong>KOENA</strong><br>
+            Armony ALTINIER / gestion@koena.net / Tel : 09 72 63 21 28 / 06 68 89 77 51
+          </li>
+        </ol>
       </section>
       <section>
         <h3>Les prestations d'accompagnement</h3>
         <ul>
-          <li>Schéma pluriannuel : Accompagnement pour la mise en œuvre et le suivi du schéma pluriannuel de mise en accessibilité des services de communication au public en ligne</li>
-          <li>Écoute usagers internes : Accompagnement pour la mise en place ou l’amélioration de l’écoute des utilisateurs internes en situation de handicap</li>
-          <li>Étape Maquettes graphiques et spécifications : Accompagnement pour contrôler la prise en compte de l’accessibilité à l’étape des maquettes graphiques, des storyboards ou des spécifications détaillées</li>
-          <li>Phase Développement, intégration du code : Accompagnement pour contrôler la prise en compte de l’accessibilité du code informatique à la phase de développement ou d’intégration</li>
-          <li>Cadrage de la recette : Accompagnement pour contrôler la prise en compte de l’accessibilité lors de la phase de recette</li>
-          <li>Opérations de recette : Accompagnement dans les opérations de recette</li>
+          <li><strong>Schéma pluriannuel</strong> : Accompagnement pour la mise en œuvre et le suivi du schéma pluriannuel de mise en accessibilité des services de communication au public en ligne</li>
+          <li><strong>Écoute usagers internes</strong> : Accompagnement pour la mise en place ou l’amélioration de l’écoute des utilisateurs internes en situation de handicap</li>
+          <li><strong>Étape Maquettes graphiques et spécifications</strong> : Accompagnement pour contrôler la prise en compte de l’accessibilité à l’étape des maquettes graphiques, des storyboards ou des spécifications détaillées</li>
+          <li><strong>Phase Développement, intégration du code</strong> : Accompagnement pour contrôler la prise en compte de l’accessibilité du code informatique à la phase de développement ou d’intégration</li>
+          <li><strong>Cadrage de la recette</strong> : Accompagnement pour contrôler la prise en compte de l’accessibilité lors de la phase de recette</li>
+          <li><strong>Opérations de recette</strong> : Accompagnement dans les opérations de recette</li>
         </ul>
       </section>
       <section>
@@ -75,12 +88,24 @@
       </section>
       <section>
         <h3>Les prestataires</h3>
-        <ul>
-          <li>groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</li>
-          <li>groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</li>
-          <li>TOSCA Consultants</li>
-          <li>groupement URBILOG – URBI EA et IPEDIS</li>
-        </ul>
+        <ol>
+          <li>
+            <strong>Groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</strong><br>
+            Romain BRAIBANT / ao_accessibiliteweb@mc2i.fr / Tel : 06 45 51 42 39
+          </li>
+          <li>
+            <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
+            Renan CUISINIERE / renan.cuisiniere@alterway.fr ; gpaw-accessdae@alterway.fr / Tel : 01 41 16 83 88 / 06 98 51 29 89 / 06 08 87 17 14
+          </li>
+          <li>
+            <strong>TOSCA Consultants</strong><br>
+            Marc MAISONNEUVE / marc.maisonneuve@toscaconsultants.fr / 01 42 36 01 57 et Philipe LENEPVEU / philippe.lenepveu@toscaconsultants.fr / 06 11 24 63 92
+          </li>
+          <li>
+            <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
+            Paul CACHEUX / rgaa@urbilog.fr / Tel : 03 28 55 21 30 / 06 35 54 05 81
+          </li>
+        </ol>
       </section>
       <section>
         <h3>3 modèles de formation</h3>

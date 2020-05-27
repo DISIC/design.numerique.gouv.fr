@@ -39,8 +39,8 @@
           La méthode technique du RGAA propose un cadre opérationnel de vérification de la conformité aux exigences d'accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critères. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
         </p>
 
-        <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/" target="_blank" class="button">
-          Consulter le RGAA
+        <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#contenu" target="_blank" class="button">
+          Consulter les critères du RGAA
         </a>
       </section>
       <section>
@@ -99,116 +99,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-@import "src/assets/scss/_vars.scss";
-
-  h1 {
-    box-shadow:
-      inset 0 -0.3em white;
-    display: inline;
-    transition: .1s all;
-  }
-
-  .cover {
-    background-color: $light-gray;
-  }
-
-  .content {
-    table {
-      margin-top: 40px;
-    }
-
-    .grid-menu {
-      margin-bottom: 0;
-      margin-top: 0;
-      list-style-type: none;
-      padding-left: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      a {
-        margin-right: 16px;
-        width: 32%;
-        border-radius: 5px;
-        border: 1px solid $blue-light;
-        text-align: center;
-        padding: 24px 16px;
-        font-size: 1.5em;
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-
-        &:hover {
-          text-decoration: none;
-          border-color: $blue;
-        }
-      }
-    }
-
-    td {
-      vertical-align: top;
-      font-weight: 700;
-      padding-bottom: 32px;
-
-      li {
-        font-weight: normal;
-      }
-    }
-
-    .bullet {
-      display: inline-block;
-      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-      color: $blue;
-      border: 2px solid $blue;
-      text-align: center;
-      border-radius: 50%;
-      width: 24px;
-      height: 24px;
-      padding: 8px;
-      margin-right: 8px;
-      font-weight: 900;
-    }
-
-    .comment {
-      display: inline-block;
-      font-weight: normal;
-      margin-top: 10px;
-    }
-
-    .button {
-      text-decoration: none;
-      border: 2px solid $blue;
-      background-color: white;
-      border-radius: 32px;
-      padding: 8px 24px;
-      font-weight: bold;
-      display: inline-block;
-      margin: 10px 0;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 0.875em;
-      }
-
-      &:hover {
-        background: $blue;
-        color: white;
-      }
-    }
-
-    .buttonLight {
-      text-decoration: none;
-      background-color: white;
-      font-weight: bold;
-      display: inline-block;
-      margin: 12px 0 0 0;
-
-      &:hover {
-        .arrow {
-          padding: 0 0 0 10px;
-        }
-      }
-    }
-  }
-
+  @import "src/assets/scss/_vars.scss";
+  @import "src/assets/scss/_accessibility.scss";
 </style>

@@ -31,11 +31,11 @@
         </div>
       </section>
 
-      <p>Todo :</p>
+      <!-- <p>Todo :</p>
       <ul>
         <li>Why should i care about accessiblity ?</li>
       </ul>
-
+ -->
       <section>
         <h3>Comprendre le cadre légal</h3>
         <div class="grid-menu">
@@ -64,8 +64,10 @@
 
       <section>
         <h3>Passer à l'action</h3>
-        <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. 😉 Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design, ainsi que lors du développement et des tests automatisés et d'usabilité. Et surtout une volonté forte de rendre vos services accessibles à tous les usagers.</p>
-        <p>Quelques outils et marchés s'offrent à vous :</p>
+        <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design, ainsi que lors du développement et des tests automatisés et d'usabilité. Et surtout avoir une volonté forte de rendre vos services accessibles à tous les usagers, à tous les niveaux de la hierarchie.</p>
+        <p>Vous pouvez faire appel à l'<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel DAE</g-link> sur de l'accompagnement et de la formation si vous n'avez pas les ressources nécéssaire en interne (audits RGAA, formation, tests utilisateur, schéma pluriannuel, etc).</p>
+        <p>Enfin, des financements pour la mise en accessibilité de vos interfaces sont possibles via le FIPHFP.</p>
+        <!-- <p>Quelques outils et marchés s'offrent à vous :</p>
         <div class="grid-menu">
           <g-link to="/">
             <font-awesome :icon="['fas', 'award']"/>
@@ -82,12 +84,12 @@
           <g-link to="/">
             <font-awesome :icon="['fas', 'vials']"/>
             <span>Et plus...</span>
-          </g-link>
+          </g-link> -->
 
           <!-- <g-link to="/accessibilite-numerique/tests-automatises">
             <span>Les tests automatisés</span>
           </g-link> -->
-        </div>
+        <!-- </div> -->
       </section>
 
       <!-- <h2>
@@ -131,155 +133,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
-@import "src/assets/scss/_vars.scss";
-
-  h1 {
-    box-shadow:
-      inset 0 -0.3em white;
-    display: inline;
-    transition: .1s all;
-  }
-
-  .cover {
-    background-color: $light-gray;
-  }
-
-  .content {
-    table {
-      margin-top: 40px;
-    }
-
-    .grid-menu {
-      margin-bottom: 0;
-      margin-top: 0;
-      list-style-type: none;
-      padding-left: 0;
-      display: flex;
-      justify-content: flex-start;
-      align-items: stretch;
-      flex-wrap: wrap;
-
-      a {
-        margin-right: 16px;
-        width: 20%;
-        border-radius: 5px;
-        border: 1px solid $blue-light;
-        text-align: center;
-        padding: 16px 8px;
-        margin-bottom: 16px;
-        display: flex;
-        justify-content: top;
-        align-items: center;
-        flex-direction: column;
-
-        svg {
-          font-size: 2.5em;
-          margin-bottom: 10px;
-        }
-
-        &:hover {
-          text-decoration: none;
-          border-color: $blue;
-        }
-
-        &.inactive {
-          background: $lighter-gray;
-          color: $mid-gray;
-          border-color: $light-gray-hover;
-
-          &:hover {
-            border-color: $light-gray-hover;
-          }
-        }
-      }
-    }
-
-    .intro {
-      display: flex;
-
-      > div {
-        width: 70%;
-        margin-right: 40px;
-      }
-
-      > div + div {
-        width: 30%;
-        margin-top: 10px;
-        margin-right: 0;
-      }
-
-      svg {
-        width: 100%;
-        height: auto;
-        overflow: visible;
-        margin-top: 20px;
-      }
-    }
-
-    td {
-      vertical-align: top;
-      font-weight: 700;
-      padding-bottom: 32px;
-
-      li {
-        font-weight: normal;
-      }
-    }
-
-    .bullet {
-      display: inline-block;
-      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-      color: $blue;
-      border: 2px solid $blue;
-      text-align: center;
-      border-radius: 50%;
-      width: 24px;
-      height: 24px;
-      padding: 8px;
-      margin-right: 8px;
-      font-weight: 900;
-    }
-
-    .comment {
-      display: inline-block;
-      font-weight: normal;
-      margin-top: 10px;
-    }
-
-    .button {
-      text-decoration: none;
-      border: 2px solid $blue;
-      background-color: white;
-      border-radius: 32px;
-      padding: 8px 24px;
-      font-weight: bold;
-      display: inline-block;
-      margin: 10px 0;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 0.875em;
-      }
-
-      &:hover {
-        background: $blue;
-        color: white;
-      }
-    }
-
-    .buttonLight {
-      text-decoration: none;
-      background-color: white;
-      font-weight: bold;
-      display: inline-block;
-      margin: 12px 0 0 0;
-
-      &:hover {
-        .arrow {
-          padding: 0 0 0 10px;
-        }
-      }
-    }
-  }
-
+  @import "src/assets/scss/_vars.scss";
+  @import "src/assets/scss/_accessibility.scss";
 </style>

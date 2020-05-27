@@ -43,6 +43,50 @@ h2 {
   }
 }
 
+nav.breadcrumb {
+  padding: 0.8em 1em;
+  border: 1px solid $light-gray-hover;
+  border-radius: 5px;
+  background: $lighter-gray;
+  margin-bottom: 50px;
+
+  ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline;
+    margin: 0.25em 0 0.5em;
+    padding: 0;
+  }
+
+  li + li::before {
+    display: inline-block;
+    margin: 0 0.5em;
+    transform: rotate(15deg);
+    border-right: 0.1em solid $light-gray-hover;
+    height: 0.8em;
+    content: "";
+  }
+
+  a {
+    border-bottom: 1px solid $blue-light;
+
+    &:hover {
+      text-decoration: none;
+      border-color: $blue;
+    }
+
+  }
+
+  & [aria-current="page"] {
+    color: black;
+    border: none;
+  }
+}
+
 .page-header {
   padding: 80px 0;
 }
@@ -151,6 +195,19 @@ button {
       font-weight: 500;
       font-size: 1.125em;
     }
+  }
+}
+
+.coverWithBreadcrumb {
+  margin-bottom: 30px;
+  padding-top: 64px;
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    padding-bottom: 64px;
+  }
+
+  .subtitle {
+    padding: 0;
   }
 }
 

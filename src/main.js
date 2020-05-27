@@ -12,7 +12,12 @@ import {
   faArrowDown,
   faArrowRight,
   faNewspaper,
-  faMobileAlt
+  faMobileAlt,
+  faBalanceScale,
+  faClipboardList,
+  faAward,
+  faGraduationCap,
+  faVials
   } from '@fortawesome/free-solid-svg-icons'
 import {
     faFilePdf,
@@ -26,7 +31,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false;
 library.add(faGithub, faTwitter, faPaperPlane, faFilePdf, faArrowDown,
   faArrowRight, faFileWord, faFileAlt, faFileImage, faEdit, faNewspaper,
-  faMobileAlt)
+  faMobileAlt, faBalanceScale, faClipboardList, faAward, faGraduationCap, faVials)
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

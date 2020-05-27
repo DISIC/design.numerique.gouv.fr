@@ -64,9 +64,9 @@
 
       <section>
         <h3>Passer à l'action</h3>
-        <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design, ainsi que lors du développement et des tests automatisés et d'usabilité. Et surtout avoir une volonté forte de rendre vos services accessibles à tous les usagers, à tous les niveaux de la hierarchie.</p>
+        <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design et tout au long du développement. Et surtout avoir une volonté forte de rendre vos services accessibles à tous les usagers, partagée à tous les niveaux de la hierarchie.</p>
         <p>Vous pouvez faire appel à l'<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel DAE</g-link> sur de l'accompagnement et de la formation si vous n'avez pas les ressources nécéssaire en interne (audits RGAA, formation, tests utilisateur, schéma pluriannuel, etc).</p>
-        <p>Enfin, des financements pour la mise en accessibilité de vos interfaces sont possibles via le FIPHFP.</p>
+        <p>Enfin, des <a target="_blank "href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite">financements</a> pour la mise en accessibilité de vos interfaces sont possibles via le FIPHFP.</p>
         <!-- <p>Quelques outils et marchés s'offrent à vous :</p>
         <div class="grid-menu">
           <g-link to="/">

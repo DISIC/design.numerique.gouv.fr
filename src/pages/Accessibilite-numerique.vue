@@ -110,11 +110,12 @@
 
 <script>
 
+import Accessibilite from "~/assets/images/accessibilite.svg"
 import AccessibilityIllustration from "~/assets/images/illustration_accessibility.svg";
-
 
 export default {
   components: {
+    Accessibilite,
     AccessibilityIllustration,
   },
   metaInfo: {

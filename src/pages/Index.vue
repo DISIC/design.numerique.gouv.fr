@@ -194,11 +194,9 @@ export default {
   @import "src/assets/scss/_vars.scss";
 
   .cover {
-    padding-top: 16px;
     padding-bottom: 48px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding-top: 16px;
       padding-bottom: 80px;
     }
 

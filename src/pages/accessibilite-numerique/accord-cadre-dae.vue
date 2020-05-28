@@ -2,9 +2,9 @@
   <Layout>
 
     <div class="cover coverWithBreadcrumb">
-     <div class="coverContainer">
+     <div class="container">
 
-       <div class="subtitle">Accessibilité numérique</div>
+       <div class="subhead highlight"><Accessibilite class="icon" aria-hidden="true"/>Accessibilité</div>
        <h1>Accord cadre accompagnement et formations</h1>
 
       </div>
@@ -141,8 +141,11 @@
 
 <script>
 
+import Accessibilite from "~/assets/images/accessibilite.svg"
+
 export default {
   components: {
+    Accessibilite,
   },
   metaInfo: {
     title: "Accessibilité numérique - DesignGouv",

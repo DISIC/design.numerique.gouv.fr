@@ -4,7 +4,7 @@
     <div class="cover coverWithBreadcrumb">
      <div class="container">
 
-       <div class="subhead highlight"><Accessibilite class="icon" aria-hidden="true"/>Accessibilité</div>
+       <div class="subhead"><Accessibilite class="icon" aria-hidden="true"/>Accessibilité</div>
        <h1>Schéma pluriannuel de mise en accessibilité</h1>
 
       </div>

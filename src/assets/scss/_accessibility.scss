@@ -6,7 +6,7 @@ h1 {
 }
 
 .cover {
-  background-color: $light-gray;
+  background-color: $gray;
 }
 
 .content {
@@ -29,7 +29,7 @@ h1 {
       margin-right: 16px;
       width: 20%;
       border-radius: 5px;
-      border: 1px solid $blue-light;
+      border: 1px solid $blue;
       text-align: center;
       padding: 16px 8px;
       margin-bottom: 16px;
@@ -54,12 +54,12 @@ h1 {
       }
 
       &.inactive {
-        background: $lighter-gray;
+        background: $gray;
         color: $mid-gray;
-        border-color: $light-gray-hover;
+        border-color: $gray-hover;
 
         &:hover {
-          border-color: $light-gray-hover;
+          border-color: $gray-hover;
         }
       }
     }

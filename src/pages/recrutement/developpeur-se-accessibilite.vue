@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-      <div class="coverLight">
-       <div class="coverContainer">
+      <div class="cover">
+       <div class="container light shadow">
 
          <h1>Expert-e design et accessibilité numérique (niveau développeur-se)</h1>
 

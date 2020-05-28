@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <div class="coverLight">
-     <div class="coverContainer covid-cover">
+    <div class="cover">
+     <div class="container">
 
        <!-- <strong>Coronavirus</strong> -->
        <h1>Coronavirus : les opportunités d'entraide</h1>
@@ -287,7 +287,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
   @import "src/assets/scss/_vars.scss";
 
   button {
@@ -312,8 +311,8 @@ export default {
   //   display: inline-block;
   //   padding: 16px;
   //   margin: 20px 20px 0 0;
-  //   border: 2px solid $light-gray;
-  //   background-color: $light-gray;
+  //   border: 2px solid $gray;
+  //   background-color: $gray;
   //   border-radius: 16px;
   //   width: 192px;
   //
@@ -358,21 +357,17 @@ export default {
     vertical-align: top;
     margin: 0px 16px 80px 16px;
     width: 348px;
-
     @media only screen and (max-width: $mobileMaxWidth) {
       width: 92%;
       margin: 0px 0px 64px 0;
     }
-
     p {
       margin: 0 0 12px 0;
     }
-
     .logo {
       height: 32px;
       display: flex;
       align-items: flex-end;
-
       img {
         width: auto;
         height: auto;
@@ -380,35 +375,30 @@ export default {
         max-width: 33%;
       }
     }
-
     .name {
       font-weight: bold;
       font-size: 1.375em;
       line-height: 1.2;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
     }
-
     .tags {
       .tag {
         display: inline-block;
         font-size: 0.75em;
         font-weight: bold;
-        background-color: $light-gray;
+        background-color: $gray;
         border-radius: 16px;
         padding: 4px 12px;
-        margin-top: 4px;
+        margin-top: 8px;
         margin-right: 8px;
       }
     }
-
     a {
       font-weight: bold;
-
       svg {
         padding-left: 4px;
         transition: .1s all;
       }
-
       &:hover {
         svg {
           padding-left: 12px;
@@ -416,5 +406,4 @@ export default {
       }
     }
   }
-
 </style>

@@ -2,9 +2,9 @@
   <Layout>
 
     <div class="cover">
-     <div class="coverContainer">
+     <div class="container">
 
-      <h1>Accessibilité numérique</h1>
+      <h1 class="highlight"><Accessibilite class="icon" aria-hidden="true"/>L'accessibilité numérique</h1>
 
       <p class="subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 
@@ -120,23 +120,24 @@ export default {
   metaInfo: {
     title: "Accessibilité numérique - DesignGouv",
     meta: [{
-      name: 'description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-    },
-    {
-      property: 'og:title',
-      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-    },
-    {
-      property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
-    }],
+        name: 'description',
+        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      },
+      {
+        property: 'og:title',
+        content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      },
+      {
+        property: 'og:image',
+        content: "https://designgouv.fr/designGouv.png"
+      }],
+    }
   }
-}
+
 </script>
 
 <style scoped lang="scss">

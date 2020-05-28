@@ -55,7 +55,7 @@
         <div class="description">
           <Accessibilite class="item-icon" aria-hidden="true"/>
 
-          <h2>Accessibilité numérique</h2>
+          <h2>Accessibilité</h2>
 
           <p>
             L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en <b>situation de handicap</b>.

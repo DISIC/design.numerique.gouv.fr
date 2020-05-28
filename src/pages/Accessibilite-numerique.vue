@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="container">
 
-      <h1 class="highlight"><Accessibilite class="icon" aria-hidden="true"/>L'accessibilité numérique</h1>
+      <h1 class="highlight"><Accessibilite class="icon" aria-hidden="true"/>L'accessibilité</h1>
 
       <p class="subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 

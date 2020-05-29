@@ -6,7 +6,7 @@
 
   .grid-menu {
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 32px;
     list-style-type: none;
     padding-left: 0;
     display: flex;
@@ -20,7 +20,7 @@
       border-radius: 16px;
       border: 2px solid $blue;
       text-align: center;
-      padding: 12px 8px;
+      padding: 12px 8px 8px 8px;
       margin-bottom: 16px;
       display: flex;
       justify-content: top;
@@ -34,7 +34,7 @@
 
       svg {
         font-size: 1.75em;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
       }
 
       &:hover {

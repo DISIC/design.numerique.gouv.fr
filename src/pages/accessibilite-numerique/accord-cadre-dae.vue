@@ -1,6 +1,20 @@
 <template>
   <Layout>
 
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
+        </li>
+        <li>
+          <g-link to="/accessibilite-numerique/accord-cadre-dae" aria-current="page">Accord cadre accompagnement et formations</g-link>
+        </li>
+      </ol>
+    </nav>
+
     <div class="cover coverWithBreadcrumb">
      <div class="container">
 
@@ -9,20 +23,6 @@
 
       </div>
     </div>
-
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité numérique</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/accord-cadre-dae" aria-current="page">Accord cadre accompagnement et formations</g-link>
-        </li>
-      </ol>
-    </nav>
 
     <div class="content text-content">
 

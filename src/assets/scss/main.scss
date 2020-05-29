@@ -44,11 +44,15 @@ h2 {
 }
 
 nav.breadcrumb {
-  padding: 0.8em 1em;
-  border: 1px solid $gray-hover;
-  border-radius: 5px;
-  background: $lighter-gray;
-  margin-bottom: 50px;
+  //padding: 0.8em 1em;
+  //border: 1px solid $gray-hover;
+  //border-radius: 5px;
+  //background: $lighter-gray;
+  margin-top: 16px;
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    font-size: 0.875em;
+  }
 
   ol {
     margin: 0;
@@ -242,11 +246,16 @@ nav.breadcrumb {
 }
 
 .coverWithBreadcrumb {
-  margin-top: 32px;
-  margin-bottom: 64px;
+  margin-top: 64px;
+  margin-bottom: 80px;
+
+  .container {
+    max-width: 760px;
+  }
 
   @media only screen and (max-width: $mobileMaxWidth) {
-    margin-bottom: 32px;
+    margin-top: 48px;
+    margin-bottom: 64px;
   }
 }
 

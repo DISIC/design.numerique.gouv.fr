@@ -204,7 +204,11 @@ export default {
   .layout {
     max-width: 760px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 0 12px;
+    }
   }
 
   header {
@@ -258,7 +262,7 @@ export default {
     justify-content: center;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 20px 20px 24px 20px;
+      padding: 20px 12px 24px 12px;
       margin-top: 64px;
       display: inline-block;
     }

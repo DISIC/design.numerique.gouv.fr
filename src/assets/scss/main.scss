@@ -41,6 +41,20 @@ h2 {
   @media only screen and (max-width: $mobileMaxWidth) {
     font-size: 1.5em;
   }
+
+  .icon {
+    height: 32px;
+    width: 32px;
+    margin-right: 12px;
+    margin-bottom: -3px;
+  }
+
+  @media only screen and (max-width: $mobileMaxWidth) {
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+    margin-bottom: -3px;
+  }
 }
 
 nav.breadcrumb {

@@ -20,8 +20,7 @@
       <section>
 
         <h2>
-          <g-image class="icon" width="24" alt="Icone formations" src="~/assets/images/formations.svg"/>
-          <span class="">Initiations</span>
+          <Formations class="icon" aria-hidden="true"/>Initiations
         </h2>
         <p>Initiez-vous facilement et gratuitement. C'est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
 
@@ -42,8 +41,7 @@
       <section>
 
         <h2>
-          <g-image class="icon" width="24" alt="Icone formations" src="~/assets/images/formations.svg"/>
-          <span class="">Certifications</span>
+          <Formations class="icon" aria-hidden="true"/>Certifications
         </h2>
         <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
           compétences sur les sujets qui vous intéressent.</p>
@@ -58,8 +56,7 @@
       <section>
 
         <h2>
-          <g-image class="icon" width="24" alt="Icone formations" src="~/assets/images/formations.svg"/>
-          <span class="">Diplômes</span>
+          <Formations class="icon" aria-hidden="true"/>Diplômes
         </h2>
         <p>Les formations diplômantes vous permettent de devenir expert ou de vous diriger vers un nouveau métier.</p>
 

@@ -21,8 +21,7 @@
       <section>
 
         <h2>
-          <g-image class="icon" alt="Icone services" src="~/assets/images/services.svg"/>
-          <span class="">Les bureaux ouverts</span>
+          <Services class="icon" aria-hidden="true"/>Les bureaux ouverts
         </h2>
         <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
 
@@ -40,8 +39,7 @@
       <section>
 
         <h2>
-          <g-image class="icon" alt="Icone services" src="~/assets/images/services.svg"/>
-          <span class="">Les revues de conception</span>
+          <Services class="icon" aria-hidden="true"/>Les revues de conception
         </h2>
         <p>Lors d'un atelier d'un demi-journée, présentez votre service à des membres de la communauté DesignGouv (designers, chefs de projet, etc.) qui vous aideront à mener à bien votre projet. Obtenez des avis, des conseils, des idées, des retours d'expérience.</p>
 
@@ -59,8 +57,7 @@
       <section>
 
         <h2>
-          <g-image class="icon" alt="Icone services" src="~/assets/images/services.svg"/>
-          <span class="">Le commando UX</span>
+          <Services class="icon" aria-hidden="true"/>Le commando UX
         </h2>
         <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
 

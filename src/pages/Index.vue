@@ -232,18 +232,18 @@ export default {
     margin-bottom: 120px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      margin-bottom: 104px;
+      margin-bottom: 96px;
     }
   }
 
   .item {
-    margin-bottom: 160px;
+    margin-bottom: 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      margin-bottom: 104px;
+      margin-bottom: 96px;
       flex-direction: column-reverse;
       align-items: start;
     }

@@ -43,7 +43,7 @@
       <section>
         <h3>Combien ça coûte ?</h3>
         <p>
-          La Direction interministérielle du numérique (DINUM) prendra en charge le coût des profils recruté à 100%.
+          Rien pour vous. La Direction interministérielle du numérique (DINUM) prendra en charge à 100% le coût des profils recrutés.
         </p>
       </section>
 

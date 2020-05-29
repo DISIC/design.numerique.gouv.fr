@@ -15,12 +15,12 @@
     flex-wrap: wrap;
 
     a {
-      margin-right: 16px;
-      width: 20%;
-      border-radius: 5px;
-      border: 1px solid $blue;
+      margin-right: 14px;
+      width: 20.5%;
+      border-radius: 16px;
+      border: 2px solid $blue;
       text-align: center;
-      padding: 16px 8px;
+      padding: 12px 8px;
       margin-bottom: 16px;
       display: flex;
       justify-content: top;
@@ -33,13 +33,14 @@
       }
 
       svg {
-        font-size: 2.5em;
-        margin-bottom: 10px;
+        font-size: 1.75em;
+        margin-bottom: 12px;
       }
 
       &:hover {
         text-decoration: none;
-        border-color: $blue;
+        background: $blue;
+        color: white;
       }
 
       &.inactive {

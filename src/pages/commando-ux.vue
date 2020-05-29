@@ -108,18 +108,18 @@
       CommandoUX,
     },
     metaInfo: {
-      title: "Les formations au design numérique et à l'accessibilté - DesignGouv",
+      title: "Appel à défi : Commando UX - DesignGouv",
       meta: [{
         name: 'description',
-        content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+        content: "Designers et développeurs auront 4 mois pour améliorer l'expérience des 250 services numériques les plus utilisés par les Français."
       },
       {
         property: 'og:title',
-        content: "Les formations au design numérique et à l'accessibilté - DesignGouv"
+        content: "Appel à défi : Commando UX - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+        content: "Appel à défi : Commando UX - DesignGouv"
       },
       {
         property: 'og:image',

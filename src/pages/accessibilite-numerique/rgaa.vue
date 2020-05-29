@@ -1,28 +1,28 @@
 <template>
   <Layout>
 
-    <div class="cover coverWithBreadcrumb">
-     <div class="coverContainer">
-
-        <div class="subtitle">Accessibilité numérique</div>
-        <h1>Le Référentiel général d'amélioration de l'accessibilité (RGAA)</h1>
-
-      </div>
-    </div>
-
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité numérique</g-link>
+          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
         </li>
         <li>
           <g-link to="/accessibilite-numerique/RGAA" aria-current="page">Le RGAA</g-link>
         </li>
       </ol>
     </nav>
+
+    <div class="cover coverWithBreadcrumb">
+     <div class="container">
+
+        <div class="subhead"><Accessibilite class="icon" aria-hidden="true"/>Accessibilité</div>
+        <h1>Le Référentiel général d'amélioration de l'accessibilité (RGAA)</h1>
+
+      </div>
+    </div>
 
     <div class="content text-content">
 
@@ -73,8 +73,11 @@
 
 <script>
 
+import Accessibilite from "~/assets/images/accessibilite.svg"
+
 export default {
   components: {
+    Accessibilite,
   },
   metaInfo: {
     title: "Accessibilité numérique - DesignGouv",

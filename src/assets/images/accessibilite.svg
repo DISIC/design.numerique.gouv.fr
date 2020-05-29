@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <rect id="Rectangle" fill="#FF5F42" x="11" y="2.5" width="7" height="35" rx="3.5"></rect>
     <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,6 C12.2680135,6 6,12.2680135 6,20 C6,27.7319865 12.2680135,34 20,34 C27.7319865,34 34,27.7319865 34,20 C34,12.2680135 27.7319865,6 20,6 Z" id="Combined-Shape" fill="#3355E3"></path>
+    <circle id="Oval-Copy-3" fill="#FF5F42" cx="20" cy="26" r="5"></circle>
+    <circle id="Oval-Copy-4" fill="#FF5F42" cx="20" cy="14" r="5"></circle>
 </svg>

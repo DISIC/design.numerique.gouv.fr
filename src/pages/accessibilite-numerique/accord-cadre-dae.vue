@@ -1,28 +1,28 @@
 <template>
   <Layout>
 
-    <div class="cover coverWithBreadcrumb">
-     <div class="coverContainer">
-
-       <div class="subtitle">Accessibilité numérique</div>
-       <h1>Accord cadre accompagnement et formations</h1>
-
-      </div>
-    </div>
-
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité numérique</g-link>
+          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
         </li>
         <li>
           <g-link to="/accessibilite-numerique/accord-cadre-dae" aria-current="page">Accord cadre accompagnement et formations</g-link>
         </li>
       </ol>
     </nav>
+
+    <div class="cover coverWithBreadcrumb">
+     <div class="container">
+
+       <div class="subhead"><Accessibilite class="icon" aria-hidden="true"/>Accessibilité</div>
+       <h1>Accord cadre accompagnement et formations</h1>
+
+      </div>
+    </div>
 
     <div class="content text-content">
 
@@ -141,8 +141,11 @@
 
 <script>
 
+import Accessibilite from "~/assets/images/accessibilite.svg"
+
 export default {
   components: {
+    Accessibilite,
   },
   metaInfo: {
     title: "Accessibilité numérique - DesignGouv",

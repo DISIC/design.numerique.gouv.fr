@@ -3,7 +3,9 @@
   <Layout>
 
     <div class="cover">
-      <div class="coverContainer">
+      <div class="container">
+
+        <CoverIllustration class="home-illustration" aria-hidden="true"/>
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
@@ -14,7 +16,7 @@
 
     <div class="content">
 
-      <div class="message">
+      <div class="message covid">
 
           <strong>Coronavirus</strong>
 
@@ -27,77 +29,84 @@
 
       </div>
 
-      <section class="homeItem design">
+      <section class="item">
 
-        <Design class="icon" title="Star icon"/>
+          <div class="description">
+            <Design class="item-icon" aria-hidden="true"/>
 
-        <h2><span>Design des services numériques</span></h2>
+            <h2>Design numérique</h2>
 
-        <p class="homeItemText">
-          Le design permet de rendre les <b>services</b> numériques plus <b>simples</b>,
-          <b>accessibles</b> et <b>agréables</b> pour tous. Concevoir par
-          le design, c’est mettre en œuvre des solutions centrées sur les
-          usagers, tout en s’appuyant sur de bonnes pratiques reconnues. Et c'est aussi un métier&nbsp;! Nous vous présenterons tout cela en détail bientôt.
-        </p>
+            <p>
+              Le design permet de rendre les <b>services numériques</b> plus <b>simples</b>, <b>accessibles</b>
+              et <b>agréables</b> pour tous les usagers.
+            </p>
 
-        <p class="buttonDisabled">Bientôt disponible !</p>
+            <p class="disabled">
+              Bientôt disponible !
+            </p>
+          </div>
 
-      </section>
-
-      <section class="homeItem accessibility">
-
-        <Tools class="icon" title="Tool icon"/>
-
-        <h2><g-link to="/accessibilite-numerique/">Accessibilité numérique</g-link></h2>
-
-        <p class="homeItemText">
-          L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes handicapées. On vous dit tout.
-        </p>
-
-        <g-link to="/accessibilite-numerique/" class="button">
-          L'accessibilité en détails
-          <span class='arrow'>→</span>
-        </g-link>
+          <DesignIllustration class="illustration right" aria-hidden="true"/>
 
       </section>
 
-      <section class="homeItem services">
+      <section class="item">
 
-        <Services class="icon" title="Lifebuoy icon"/>
+        <div class="description">
+          <Accessibilite class="item-icon" aria-hidden="true"/>
 
-        <h2><g-link to="/services/">Besoin d'aide ? Nous vous accompagnons.</g-link></h2>
+          <h2>Accessibilité</h2>
 
-        <p class="homeItemText">
-          Vous avez des besoins en design&nbsp;?
-            Vous vous <b>posez des questions</b> sur les sujets d'accessibilité&nbsp;? Vous souhaitez <b>obtenir des
-            retours</b>, <b>demander des conseils</b> pour le développement ou l'amélioration
-            de votre service&nbsp;? Nous vous aidons&nbsp;!
-        </p>
+          <p>
+            L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en <b>situation de handicap</b>.
+          </p>
 
-        <g-link to="/services/" class="button">
-          J'ai besoin d'aide
-          <span class='arrow'>→</span>
-        </g-link>
+          <g-link to="/accessibilite-numerique/" class="button blue shadow">
+            L'accessibilité en détails<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+          </g-link>
+        </div>
+
+        <AccessibiliteIllustration class="illustration right" aria-hidden="true"/>
 
       </section>
 
-      <section class="homeItem courses">
+      <section class="item">
 
-        <Courses class="icon" title="Book icon"/>
+        <div class="description">
+          <Services class="item-icon" aria-hidden="true"/>
 
-        <h2><g-link to="/formations/">Les formations pour vous et vos équipes</g-link></h2>
+          <h2>Besoin d'aide ?</h2>
 
-        <p class="homeItemText">
-          De nombreuses formations sont disponibles, certaines accessibles
-            <b>gratuitement</b>, pour vous former <b>personnellement</b>
-            ou <b>en équipe</b> sur les divers sujets liés au design, à la qualité des
-            services numériques et à l’accessibilité.
-        </p>
+          <p>
+            Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous vous accompagnons.
+          </p>
 
-        <g-link to="/formations/" class="button">
-          Je découvre les formations
-          <span class='arrow'>→</span>
-        </g-link>
+          <g-link to="/services/" class="button blue shadow">
+            J'ai besoin d'aide<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+          </g-link>
+        </div>
+
+        <ServicesIllustration class="illustration right" aria-hidden="true"/>
+
+      </section>
+
+      <section class="item">
+
+        <div class="description">
+          <Formations class="item-icon" aria-hidden="true"/>
+
+          <h2>Les formations</h2>
+
+          <p>
+            De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>
+          </p>
+
+          <g-link to="/formations/" class="button blue shadow">
+            Je découvre les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+          </g-link>
+        </div>
+
+        <FormationsIllustration class="illustration right" aria-hidden="true"/>
 
       </section>
 
@@ -110,17 +119,27 @@
 
 <script>
 
-import Design from '~/assets/images/design.svg'
-import Tools from '~/assets/images/tools.svg'
-import Services from '~/assets/images/services.svg'
-import Courses from '~/assets/images/courses.svg'
+import CoverIllustration from "~/assets/images/coverIllustration.svg"
+import Design from "~/assets/images/design.svg"
+import DesignIllustration from "~/assets/images/designIllustration.svg"
+import Accessibilite from "~/assets/images/accessibilite.svg"
+import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg"
+import Services from "~/assets/images/services.svg"
+import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
+import Formations from "~/assets/images/formations.svg"
+import FormationsIllustration from "~/assets/images/formationsIllustration.svg"
 
 export default {
   components: {
+    CoverIllustration,
     Design,
-    Tools,
+    DesignIllustration,
+    Accessibilite,
+    AccessibiliteIllustration,
     Services,
-    Courses,
+    ServicesIllustration,
+    Formations,
+    FormationsIllustration,
   },
   metaInfo: {
     title: "DesignGouv - Le design numérique au service des administrations",
@@ -172,189 +191,145 @@ export default {
 
 <style scoped lang="scss">
 
-@import "src/assets/scss/_vars.scss";
+  @import "src/assets/scss/_vars.scss";
 
   .cover {
-    background-color: $blue;
+    padding-bottom: 48px;
 
-    h1 {
-      padding: 0;
-      margin: 0;
-      color: white;
-      font-weight: bold;
-
-      .highlight {
-        box-shadow:
-          inset 0 -0.05em $blue,
-          inset 0 -0.3em lighten($blue, 10%);
-        display: inline;
-        transition: .1s all;
-
-        &:hover {
-          box-shadow:
-            inset 0 -0.05em $blue,
-            inset 0 -1.2em lighten($blue, 10%);
-        }
-      }
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1.8em;
-      }
-    }
-
-    .logo {
-      padding-bottom: 16px;
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding-bottom: 80px;
     }
 
     .subtitle {
-      color: white;
-      font-weight: normal;
-      font-size: 1.25em;
+      padding: 34px 20%;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 1.125em;
+        padding: 0;
+        max-width: 360px;
+      }
+    }
+
+    .home-illustration {
+      position: absolute;
+      width: 86vw;
+      max-width: 1100px;
+      left: 50%;
+      bottom: 0;
+      z-index: -1;
+      margin-left: -43vw;
+
+      @media only screen and (min-width: 1280px) {
+        margin-left: -550px;
+      }
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding: 0;
       }
     }
   }
 
-  .homeItem {
+  .covid {
+    margin-bottom: 120px;
 
-    .icon {
-      display: block;
-      padding-bottom: 16px;
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 96px;
+    }
+  }
+
+  .item {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      margin-bottom: 96px;
+      flex-direction: column-reverse;
+      align-items: start;
+    }
+
+    .description {
+      display: inline-block;
+      width: 64%;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    .illustration {
+      display: inline-block;
+      height: 240px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        height: 160px;
+        width: 100%
+      }
+
+      &.right {
+        padding-left: 40px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          padding-left: 0px;
+          padding-bottom: 24px;
+        }
+      }
+
+      &.left {
+        padding-right: 40px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          padding-right: 0px;
+          padding-bottom: 24px;
+        }
+      }
     }
 
     h2 {
-      padding: 0;
+      display: inline-block;
+      padding: 8px 0;
       margin: 0;
-      transition: .1s all;
 
-      a {
-        text-decoration: none;
-        color: $dark;
+      @media only screen and (max-width: $mobileMaxWidth) {
         display: inline;
       }
     }
 
-    .homeItemText {
-      margin-top: 24px;
+    .item-icon {
+      display: inline-block;
+      transition: .2s all;
+      height: 36px;
+      width: 36px;
+      margin-bottom: -5px;
+      margin-right: 16px;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: inline;
+        height: 32px;
+        width: 32px;
+        margin-bottom: -6px;
+        margin-right: 12px;
+      }
     }
 
     .button {
-      background-color: white;
-      border-radius: 32px;
-      padding: 8px 24px;
-      text-decoration: none;
-      font-weight: bold;
       display: inline-block;
-      margin: 10px 0;
-      border: 2px solid;
+      text-align: center;
+      margin-top: 8px;
+    }
+
+    .disabled {
+      font-weight: bold;
 
       @media only screen and (max-width: $mobileMaxWidth) {
         font-size: 0.875em;
       }
     }
 
-    .buttonDisabled {
-      color: $gray;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-      margin: 10px 0 0 0;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        font-size: 0.875em;
-      }
-    }
-
-    &.design {
-      h2 span {
-        display: inline;
-        box-shadow:
-          inset 0 -0.05em white,
-          inset 0 -0.4em $blue-light;
-      }
-
-      .button {
-        color: $blue;
-        border-color: $blue;
-
-        &:hover, &:focus {
-          color: white;
-          background: $blue;
-        }
-      }
-    }
-
-    &.accessibility {
-      h2 a {
-        box-shadow:
-          inset 0 -0.05em white,
-          inset 0 -0.4em $green-light;
-
-        &:hover, &:focus {
-          box-shadow:
-            inset 0 -0.05em white,
-            inset 0 -1.4em $green-light;
-        }
-      }
-
-      .button {
-        color: $green;
-        border-color: $green;
-
-        &:hover, &:focus {
-          color: white;
-          background: $green;
-        }
-      }
-    }
-
-    &.services {
-      h2 a {
-        box-shadow:
-          inset 0 -0.05em white,
-          inset 0 -0.4em $red-light;
-
-        &:hover, &:focus {
-          box-shadow:
-            inset 0 -0.05em white,
-            inset 0 -1.4em $red-light;
-        }
-      }
-
-      .button {
-        color: $red;
-        border-color: $red;
-
-        &:hover, &:focus {
-          color: white;
-          background: $red;
-        }
-      }
-    }
-
-    &.courses {
-      h2 a {
-        box-shadow:
-          inset 0 -0.05em white,
-          inset 0 -0.4em $brown-light;
-
-        &:hover, &:focus {
-          box-shadow:
-            inset 0 -0.05em white,
-            inset 0 -1.4em $brown-light;
-        }
-      }
-
-      .button {
-        color: $brown;
-        border-color: $brown;
-
-        &:hover, &:focus {
-          color: white;
-          background: $brown;
-        }
+    &:hover, &:focus {
+      .item-icon {
+        transform: rotate(180deg);
       }
     }
   }

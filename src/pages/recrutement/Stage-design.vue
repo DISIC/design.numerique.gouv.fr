@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-      <div class="coverLight">
-       <div class="coverContainer">
+      <div class="cover">
+       <div class="container light shadow">
 
          <span class="subtitle">Stage</span>
          <h1>Chargé(e) d'animation</h1>

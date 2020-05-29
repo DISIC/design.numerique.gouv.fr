@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <div class="coverLight">
-     <div class="coverContainer covid-cover">
+    <div class="cover">
+     <div class="container light shadow">
 
        <strong>Covid-19</strong>
        <h1>Attestation de déplacement dérogatoire (Français)</h1>
@@ -18,9 +18,9 @@
       <br>
 
       <p>Je soussigné(e),</p>
-      <p>Mme/M. :</p>
-      <p>Né(e) le :</p>
-      <p>À :</p>
+      <p>Mme/M. :</p>
+      <p>Né(e) le :</p>
+      <p>À :</p>
       <p>Demeurant :</p>
 
       <br>
@@ -43,8 +43,8 @@
 
       <br>
 
-      <p>Fait à :</p>
-      <p>Le :</p>
+      <p>Fait à :</p>
+      <p>Le :</p>
       <p>Heure et minutes de début sortie :</p>
       <p>(Date et heure de début de sortie à mentionner obligatoirement)</p>
 
@@ -70,5 +70,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 </style>

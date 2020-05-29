@@ -2,22 +2,10 @@
   <div>
 
     <header>
-
-      <div class="header-logo">
-
-        <div  class="rf">
-          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-            <LogoRF class="logo" title="Logo République Française" />
-          </g-link>
-        </div>
-
-        <div  class="dg">
-          <g-link to="/" alt="DesignGouv - Retour à l'accueil">
-            <LogoDG class="logo" title="Logo DesignGouv" />
-          </g-link>
-        </div>
-
-      </div>
+      <g-link class="header-logo" to="/" title="DesignGouv - Retour à l'accueil">
+        <LogoRF class="rf" role="img" title="Logo Républiqe Française"/>
+        <LogoDG class="dg" role="img" title="Logo DesignGouv"/>
+      </g-link>
 
       <nav>
         <Menu />
@@ -27,23 +15,20 @@
 
     <main class="layout">
       <slot/>
-      <div>
-        <Newsletter />
-      </div>
+      <Newsletter />
     </main>
 
     <footer>
 
-      <div class="footer-logo">
-        <g-link to="/">
-          <LogoRF class="rf" title="République Française" />
-        </g-link>
-      </div>
+      <g-link to="/" title="DesignGouv - Retour à l'accueil">
+        <LogoRF class="rf" role="img" title="Logo République Française" />
+      </g-link>
 
       <div class="footer-content">
-        <div class="">
-          <g-link to="/">
-            <LogoDG class="dg" title="Logo DesignGouv" />
+
+        <div class="description">
+          <g-link to="/" title="DesignGouv - Retour à l'accueil">
+            <LogoDG class="dg" role="img" title="Logo DesignGouv" />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -61,10 +46,10 @@
               <li><a href="mailto:contact@design.numerique.gouv.fr" target="_blank">
                   Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
-              <li><a href="/recrutement/">Recrutement</a></li>
-              <li><a href="/misc/accessibilite/">Accessibilité</a></li>
-              <li><a href="/misc/donnees-personnelles/">Données personnelles</a></li>
-              <li><a href="/misc/mentions-legales/">Mentions légales</a></li>
+              <li><g-link to="/recrutement/">Recrutement</g-link></li>
+              <li><g-link to="/misc/accessibilite/">Accessibilité</g-link></li>
+              <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
+              <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>
             </ul>
           </div>
           <div>
@@ -219,7 +204,11 @@ export default {
   .layout {
     max-width: 760px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 30px;
+
+    @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 0 12px;
+    }
   }
 
   header {
@@ -233,125 +222,104 @@ export default {
       align-items: center;
 
       .rf {
-        .logo {
-          width: 121px;
-          margin: 30px 40px 22px 30px;
+        flex-shrink: 0;
+        width: 121px;
+        margin: 30px 40px 0px 30px;
 
-          @media only screen and (max-width: $mobileMaxWidth) {
-            max-width: 64px;
-            margin: 12px 16px 4px 12px;
-          }
+        @media only screen and (max-width: $mobileMaxWidth) {
+          width: 64px;
+          margin: 12px 24px 0px 12px;
         }
       }
 
       .dg {
-        .logo {
-          max-width: 260px;
-          width: 100%;
-          padding-bottom: 6px;
+        max-width: 260px;
+        width: 100%;
+        padding-top: 16px;
 
-          @media only screen and (max-width: $mobileMaxWidth) {
-            width: 140px;
-            padding-bottom: 0px;
-          }
+        @media only screen and (max-width: $mobileMaxWidth) {
+          width: 160px;
+          padding-top: 4px;
         }
       }
     }
 
     nav {
-      text-align: right;
-      padding-bottom: 6px;
+      padding: 7px 30px 0 30px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        padding-bottom: 0px;
+        padding: 0px 12px;
       }
     }
   }
 
   footer {
-    padding: 40px 20px 24px 20px;
-    margin-top: 100px;
-    background: $light-gray;
-    color: #black;
+    padding: 20px 20px 24px 20px;
+    margin-top: 120px;
+    border-top: 6px solid $gray;
+    color: $black;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
 
     @media only screen and (max-width: $mobileMaxWidth) {
+      padding: 20px 12px 24px 12px;
+      margin-top: 64px;
       display: inline-block;
     }
 
-    a {
-      text-decoration: none;
-      color: $blue;
+    .rf {
+      width: 121px;
+      margin: 20px;
 
-      &:hover {
-        text-decoration: underline;
-        color: $blue;
+      @media only screen and (max-width: $mobileMaxWidth) {
+        margin: 0 0 20px 0;
       }
     }
 
-    .footer-logo {
-
-      .rf {
-        width: 121px;
-        background-color: white;
-        padding: 20px;
-        margin-bottom: 24px;
-      }
+    .dg {
+      width: 260px;
+      max-width: 80%;
     }
 
     .footer-content {
-      padding-top: 8px;
-      margin: 0 64px;
-      max-width: 80%;
+      margin: 18px 40px 0px 40px;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        max-width: 100%;
         margin: 0;
       }
 
-      .dg {
-        width: 280px;
-        max-width: 80%;
-      }
-    }
-
-    .websites {
-      margin: 32px 0 8px 0;
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-
-      div {
-        margin-right: 48px;
-        margin-bottom: 16px;
+      .description {
+        max-width: 640px;
       }
 
-      font-awesome {
-        padding-left: 4px;
-      }
-    }
+      .websites {
+        margin: 32px 0 8px 0;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
 
-    ul {
-      padding: 0;
+        div {
+          margin-right: 48px;
+          margin-bottom: 16px;
+        }
 
-      li {
-        list-style-type: none;
+        ul {
+          padding: 0;
+
+          li {
+            list-style-type: none;
+          }
+        }
       }
     }
 
     .public {
-      font-size: .8em;
+      font-size: .875em;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
 
-      span {
-        margin-right: 12px;
-      }
-
-      a {
+      a, span {
         margin-right: 12px;
       }
     }

@@ -1,19 +1,18 @@
 <template>
 
-  <div class="menuButton">
-    <button @click="toggle" v-click-outside="hide">
-      <span class="menuText">Menu</span>
-      <g-image class="menuIcon" alt="Menu" src="~/assets/images/menu.svg"/>
+  <div>
+    <button id="menu-button" type="button" aria-haspopup="true" aria-expanded="false" @click="toggle" v-click-outside="hide">
+      <span id="menu-button-text" class="text">Menu</span>
+      <font-awesome id="menu-button-icon" class="icon" :icon="['fas', 'bars']"/>
     </button>
-    <div id="menu" class="menuContent">
-      <button @click="toggle" class="closeButton">Fermer ✕</button>
-      <g-link to="/">Accueil</g-link>
-      <g-link to="/covid-19/">Coronavirus</g-link>
-      <g-link to="/accessibilite-numerique/">Accessibilité numérique</g-link>
-      <g-link to="/services/">Nos services</g-link>
-      <g-link to="/formations/">Les formations</g-link>
-      <a href="/recrutement/">Recrutement</a>
-    </div>
+    <ul id="menu" role="menu">
+      <li role="none"><g-link class="button" to="/" role="menuitem">Accueil<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/covid-19/" role="menuitem">Coronavirus<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/formations/" role="menuitem">Les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/recrutement/" role="menuitem">Recrutement<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+    </ul>
   </div>
 
 </template>
@@ -21,23 +20,40 @@
 
 <script>
 
-import ClickOutside from 'vue-click-outside'
+  import ClickOutside from 'vue-click-outside'
 
-export default {
-  name: 'Menu',
-  methods: {
-    toggle() {
-      document.getElementById("menu").classList.toggle("show");
-    },
-    hide() {
-      if (document.getElementById("menu").classList.contains("show")) {
+  export default {
+    name: 'Menu',
+    methods: {
+      toggle() {
+        document.getElementById("menu").classList.toggle("show");
+        document.getElementById("menu-button-text").classList.toggle("show");
+        document.getElementById("menu-button-icon").classList.toggle("hide");
+        document.getElementById("menu-button").classList.toggle("open");
+        var expanded = document.getElementById("menu-button").getAttribute("aria-expanded");
+        var text = "Menu";
+        if (expanded == "true") {
+          expanded = "false";
+          text = "Menu";
+        } else {
+          expanded = "true";
+          text = "Fermer";
+        }
+        document.getElementById("menu-button").setAttribute("aria-expanded", expanded);
+        document.getElementById("menu-button-text").innerHTML = text;
+      },
+      hide() {
         document.getElementById("menu").classList.remove("show");
+        document.getElementById("menu-button").classList.remove("open");
+        document.getElementById("menu-button").setAttribute("aria-expanded", false);
+        document.getElementById("menu-button-text").innerHTML = "Menu";
+        document.getElementById("menu-button-text").classList.remove("show");
+        document.getElementById("menu-button-icon").classList.remove("hide");
       }
+    },
+    directives: {
+      ClickOutside
     }
-  },
-  directives: {
-    ClickOutside
-  }
 }
 
 </script>
@@ -47,104 +63,114 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  .menuButton {
-    position: relative;
-    display: inline-block;
-  }
-
-  .menuText {
-    font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-    font-style: normal;
-    font-size: 1em;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      display: none;
-    }
-  }
-
-  .menuIcon {
-    display: none;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      display: inline-block;
-    }
-  }
-
   button {
-    margin: 0 30px 0 40px;
-
+    height: 44px;
+    transition: none;
     @media only screen and (max-width: $mobileMaxWidth) {
-      margin: 0 12px 0 16px;
-      padding: 12px 16px;
+      width: 44px;
+      padding: 8px;
+      border-radius: 50%;
+    }
+
+    &.open {
+      position: absolute;
+      top: 52px;
+      right: 30px;
+      border-radius: 0;
+      width: 284px;
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 100vw;
+        top: 0;
+        right: 0;
+        border: none;
+        height: 71px;
+        text-align: right;
+        padding-right: 27px;
+      }
+    }
+
+    .text {
+      @media only screen and (max-width: $mobileMaxWidth) {
+        display: none;
+      }
+    }
+
+    .icon {
+      display: none;
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding: 0;
+        display: inline-block;
+      }
     }
   }
 
-  #menu {
-    position: fixed;
-  }
-
-  .menuContent {
+  ul {
     display: none;
     position: absolute;
-    background-color: $light-gray;
-    width: 248px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border: 2px solid $black;
+    width: 280px;
     z-index: 1;
-    top: 14px;
-    right: 20px;
-
-    a {
-      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-      color: $dark;
-      font-weight: bold;
-      text-align: left;
-      padding: 12px 24px;
-      text-decoration: none;
-      display: block;
-
-      &:hover, &:focus {
-        background-color: $light-gray-hover
-      }
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        text-align: center;
-      }
-    }
+    top: 94px;
+    right: 30px;
 
     @media only screen and (max-width: $mobileMaxWidth) {
-      top: 0px;
+      border: none;
+      top: 71px;
       right: 0px;
       width: 100vw;
       height: 100vh;
+    }
 
-      .closeButton {
-        padding-bottom: 40px;
+    li {
+      list-style-type: none;
+
+      a {
+        display: block;
+        border: none;
+        border-radius: 0;
+        padding: 14px 24px;
+
+        .icon {
+          display: none;
+          color: $light;
+        }
+
+        &:hover, &:focus {
+          .icon {
+            @media only screen and (min-width: $mobileMaxWidth+1) {
+              display: inline-block;
+            }
+          }
+        }
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          text-align: center;
+        }
       }
     }
 
-    .community {
-      color: $emerald;
-    }
-  }
+    .close {
+      width: 100%;
+      border: none;
+      border-radius: 0px;
+      text-align: right;
+      padding: 14px 24px;
 
-  .closeButton {
-    text-align: right;
-    margin: 0px;
-    padding: 12px 24px;
-    width: 248px;
-    border-radius: 0px;
-
-    &:hover, &:focus {
-      background-color: $light-gray-hover
-    }
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      padding: 35px 24px 12px 24px;
-      width: 100vw;
+      @media only screen and (max-width: $mobileMaxWidth) {
+        padding: 32px 32px 48px 0;
+        width: 100vw;
+      }
     }
   }
 
   .show {
-    display: block;
+    display: inline-block !important;
   }
 
+  .hide {
+    display: none !important;
+  }
 </style>

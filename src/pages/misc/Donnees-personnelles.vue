@@ -1,8 +1,8 @@
 <template>
   <Layout>
 
-    <div class="coverLight">
-     <div class="coverContainer">
+    <div class="cover">
+     <div class="container light">
 
        <h1>Données personnelles</h1>
 
@@ -54,5 +54,4 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 </style>

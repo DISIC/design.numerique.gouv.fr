@@ -1,8 +1,22 @@
 <template>
   <Layout>
 
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
+        </li>
+        <li>
+          <g-link to="/accessibilite-numerique/tests-automatises" aria-current="page">Les tests automatisés</g-link>
+        </li>
+      </ol>
+    </nav>
+
     <div class="cover">
-     <div class="coverContainer">
+     <div class="container">
 
       <h1>Accessibilité numérique</h1>
 
@@ -10,21 +24,6 @@
     </div>
 
     <div class="content text-content">
-
-      <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol>
-          <li>
-            <g-link to="/">Accueil</g-link>
-          </li>
-          <li>
-            <g-link to="/accessibilite-numerique/">Accessibilité numérique</g-link>
-          </li>
-          <li>
-            <g-link to="/accessibilite-numerique/tests-automatises" aria-current="page">Les tests automatisés</g-link>
-          </li>
-        </ol>
-      </nav>
-
 
       <section>
 

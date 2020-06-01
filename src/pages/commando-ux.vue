@@ -50,7 +50,7 @@
       </section>
 
       <section class="quote">
-        <blockquote>Il ne suffit pas de concevoir des produits fonctionnels, compréhensibles et utilisables, nous devons également créer des produits qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
+        <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des produits qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
         <cite>— Don Norman</cite>
       </section>
 

@@ -42,12 +42,19 @@
         </p>
       </section>
 
-      <section>
+      <section class="subsection">
         <h3>Combien ça coûte ?</h3>
         <p>
           Rien pour vous. La Direction interministérielle du numérique (DINUM) prendra en charge à 100% le coût des profils recrutés.
         </p>
       </section>
+
+      <section class="soon">
+        <p>
+          Lancement de l'appel à défi le 8 juin !
+        </p>
+      </section>
+
 
       <section class="quote">
         <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
@@ -183,6 +190,19 @@
 
     .subsection {
       margin-bottom: 40px;
+    }
+
+    .soon {
+      //margin-top: -16px;
+
+      > p {
+        margin: 0 0 32px 0;
+        display: inline-block;
+        font-weight: bold;
+        background-color: $red;
+        padding: 4px 8px;
+        color: white;
+      }
     }
 
     .quote {

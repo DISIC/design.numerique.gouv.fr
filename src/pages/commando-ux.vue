@@ -50,7 +50,7 @@
       </section>
 
       <section class="quote">
-        <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des produits qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
+        <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
         <cite>— Don Norman</cite>
       </section>
 
@@ -58,11 +58,11 @@
         <h2>
           <CommandoUX class="icon" aria-hidden="true"/>Apporter du plaisir aux usagers
         </h2>
-        <p>À travers ce programme, notre objectif est de vous accompagner pour ensemble transformer ces services afin qu'ils soient mieux pensés pour les usagers, plus efficaces et qu'ils apportent du plaisir.</p>
+        <p>À travers ce programme, notre objectif est de mettre à votre disposition des ressources qui s'atteleront à transformer rapidemment vos services afin qu'ils soient plus efficaces et qu'ils apportent du plaisir aux usagers. Nous cherchons des résultats concrets.</p>
         <ul>
           <li>Développer une meilleure analyse et compréhensions des besoins des usagers sur chacun de ces services en exploitant les données sont disponibles et/ou en en collectant de nouvelles</li>
-          <li>Concevoir des parcours simplifiés et agréables (notion de plaisir et de lisibilité à l’utilisation) pour les usagers avec une approche « mobile first » qui démontre un accès sur mobile exemplaire</li>
-          <li>S'assurer que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à ces services</li>
+          <li>Concevoir un parcours simplifié et agréable avec une approche « mobile first » qui démontre un accès sur mobile exemplaire</li>
+          <li>S'assurer que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à votre service</li>
           <li>Exploiter les APIs de l'État pour réduire le nombre d'informations demandées aux usagers (principe du Dites-le-nous une fois)</li>
         </ul>
       </section>
@@ -215,6 +215,7 @@
         color: $mid-gray;
         line-height: 3;
         text-align: left;
+        font-style: normal;
       }
     }
   }

@@ -60,7 +60,7 @@
         </h2>
         <p>À travers ce programme, notre objectif est de mettre à votre disposition des ressources qui s'atteleront à transformer rapidemment vos services afin qu'ils soient plus efficaces et qu'ils apportent du plaisir aux usagers. Nous cherchons des résultats concrets.</p>
         <ul>
-          <li>Développer une meilleure analyse et compréhensions des besoins des usagers sur chacun de ces services en exploitant les données sont disponibles et/ou en en collectant de nouvelles</li>
+          <li>Développer une meilleure analyse et compréhensions des besoins des usagers sur votre service en exploitant les données ou en en collectant de nouvelles</li>
           <li>Concevoir un parcours simplifié et agréable avec une approche « mobile first » qui démontre un accès sur mobile exemplaire</li>
           <li>S'assurer que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à votre service</li>
           <li>Exploiter les APIs de l'État pour réduire le nombre d'informations demandées aux usagers (principe du Dites-le-nous une fois)</li>

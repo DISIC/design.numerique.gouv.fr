@@ -10,6 +10,8 @@
         Designers et développeurs auront 4 mois pour améliorer l'expérience des 250&nbsp;services numériques les plus utilisés par les Français.
       </p>
 
+      <CommandouxIllustration class="illustration" aria-hidden="true"/>
+
       </div>
     </div>
 
@@ -102,10 +104,12 @@
 <script>
 
   import CommandoUX from "~/assets/images/services.svg"
+  import CommandouxIllustration from "~/assets/images/commandouxIllustration.svg"
 
   export default {
     components: {
       CommandoUX,
+      CommandouxIllustration
     },
     metaInfo: {
       title: "Appel à défi : Commando UX - DesignGouv",

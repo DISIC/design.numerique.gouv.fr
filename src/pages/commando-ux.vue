@@ -240,7 +240,7 @@
       //margin-top: -16px;
 
       > p {
-        margin: 0 0 32px 0;
+        margin: 0 0 0 0;
         display: inline-block;
         font-weight: bold;
         background-color: $red;

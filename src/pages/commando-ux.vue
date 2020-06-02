@@ -23,7 +23,7 @@
           <CommandoUX class="icon" aria-hidden="true"/>Appel à défis
         </h2>
         <p>
-          Le 8 juin 2020, nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des <a href="https://observatoire.numerique.gouv.fr" target="_blank">250 démarches de l’Observatoire</a> de la qualité des démarches en ligne. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques.
+          Le 8 juin 2020, nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
         </p>
       </section>
       <section class="subsection">
@@ -168,18 +168,18 @@
       CommandouxIllustration
     },
     metaInfo: {
-      title: "Appel à défi : Commando UX - DesignGouv",
+      title: "Appel à défis : Commando UX - DesignGouv",
       meta: [{
         name: 'description',
-        content: "Designers et développeurs auront 4 mois pour améliorer l'expérience des 250 services numériques les plus utilisés par les Français."
+        content: "Designers et développeurs auront 4 mois pour améliorer l'expérience de 5 à 10 des 250 services publics numériques les plus utilisés par les Français."
       },
       {
         property: 'og:title',
-        content: "Appel à défi : Commando UX - DesignGouv"
+        content: "Appel à défis : Commando UX - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Appel à défi : Commando UX - DesignGouv"
+        content: "Appel à défis : Commando UX - DesignGouv"
       },
       {
         property: 'og:image',

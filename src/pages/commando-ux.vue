@@ -63,17 +63,19 @@
 
       <section>
         <h2>
-          <CommandoUX class="icon" aria-hidden="true"/>Apporter du plaisir aux usagers
+          <CommandoUX class="icon" aria-hidden="true"/>Fluidité, inclusivité et désirabilité
         </h2>
-        <p>À travers ce programme, notre objectif est de mettre à votre disposition des profils qui s'attèleront à transformer rapidemment vos services numériques pour les rendre plus efficaces et qu'ils apportent du plaisir aux usagers. Nous cherchons des résultats concrets.</p>
+        <p>À travers ce programme, notre objectif est de mettre à votre disposition des profils qui s'attèleront à transformer rapidemment vos services numériques pour les rendre plus <strong>efficaces</strong> et plus <strong>compréhensibles</strong> pour qu'ils apportent du <strong>plaisir</strong> aux usagers.</p>
+        <p>Afin d'identifier les améliorations à apporter, le Commando UX évaluera la perception actuelle du service aux usagers, les contraintes techniques ainsi que les besoins métiers.</p>
         <p>Quelques exemples d'axes de travail que le Commando UX pourra entreprendre :</p>
         <ul>
           <li>Développer une meilleure analyse et compréhension des besoins des usagers sur votre service en exploitant vos données ou en en collectant de nouvelles (tests utilisateurs, analytics, etc)</li>
           <li>Concevoir un parcours simplifié et agréable avec une approche « mobile first » qui démontre un accès sur mobile exemplaire</li>
-          <li>Clarifier et simplifier le langage</li>
-          <li>Augmenter la désirabilité du service à travers le langage, le parcours, les visuels et les animations</li>
-          <li>Tout mettre en œuvre pour que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à votre service</li>
           <li>Exploiter les APIs de l'État pour réduire le nombre d'informations demandées aux usagers (principe du Dites-le-nous une fois)</li>
+          <li>Mettre en accessibilité votre service pour les personnes en situation de handicap</li>
+          <li>Clarifier et simplifier le langage pour que le service soit compréhensible pour tous</li>
+          <li>Tout mettre en œuvre pour que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à votre service</li>
+          <li>Augmenter la désirabilité du service à travers le langage, le parcours et les visuels</li>
         </ul>
       </section>
 
@@ -83,11 +85,11 @@
         </h2>
         <p>Il vous suffit de remplir les conditions suivantes :</p>
         <ul>
-          <li>Que vos objectifs et indicateurs de réussite soient clairement énoncés : cibles, complexités levées, délais de mise en œuvre, nombre d'usagers impactés par les améliorations</li>
+          <li>Que vos objectifs et indicateurs de réussite soient clairement énoncés : cibles, enjeux identifiés, délais de mise en œuvre, nombre d'usagers impactés</li>
           <li>Que vous soyez impliqué dans la réussite du projet : temps consacré au défi, motivation et sponsorship hiérarchique</li>
         </ul>
         <p>
-          La Direction interministérielle du numérique (DINUM) vous accompagnera pour redéfinir le projet si besoin. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
+          L'appel à défis sera très fluide. La Direction interministérielle du numérique (DINUM) vous accompagnera pour redéfinir le défi si besoin. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
         </p>
       </section>
 

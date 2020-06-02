@@ -183,7 +183,7 @@
       },
       {
         property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://designgouv.fr/assets/meta-images/commandoUX.png"
       }],
     }
   }

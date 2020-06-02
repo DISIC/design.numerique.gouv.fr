@@ -51,7 +51,7 @@
 
       <section class="soon">
         <p>
-          Lancement de l'appel à défi le 8 juin !
+          Lancement de l'appel à défis le 8 juin !
         </p>
       </section>
 
@@ -98,6 +98,20 @@
         <p>
           L'équipe Design des services numériques de la Direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet.
         </p>
+        <ul class="team">
+          <li>
+            <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
+                     quality="100" height="150" width="150"/>
+            <p><strong>Ugo Dessertine</strong></p>
+            <p>Commando UX</p>
+          </li>
+          <li>
+            <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
+                     quality="100" height="150" width="150"/>
+            <p><strong>Georges Bayard</strong></p>
+            <p>Observatoire</p>
+          </li>
+        </ul>
       </section>
 
       <section>
@@ -236,6 +250,29 @@
         line-height: 3;
         text-align: left;
         font-style: normal;
+      }
+    }
+
+    .team {
+      padding: 0;
+      margin: 40px auto 0;
+      display: flex;
+      justify-content: space-between;
+      max-width: 450px;
+
+      li {
+        list-style: none;
+        text-align: center;
+        width: 200px;
+
+        img {
+          border-radius: 50em;
+          // border: 5px $red solid;
+        }
+
+        p {
+            margin: 0;
+        }
       }
     }
   }

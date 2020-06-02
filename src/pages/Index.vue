@@ -37,8 +37,9 @@
             <h2>Design numérique</h2>
 
             <p>
-              Le design permet de rendre les <b>services numériques</b> plus <b>simples</b>, <b>accessibles</b>
-              et <b>agréables</b> pour tous les usagers.
+              Le design permet de rendre les <strong>services numériques</strong>
+              plus <strong>simples</strong>, <strong>accessibles</strong>
+              et <strong>agréables</strong> pour tous les usagers.
             </p>
 
             <p class="disabled">

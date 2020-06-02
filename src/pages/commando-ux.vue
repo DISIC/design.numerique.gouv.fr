@@ -63,9 +63,9 @@
 
       <section>
         <h2>
-          <CommandoUX class="icon" aria-hidden="true"/>Fluidité, inclusivité et désirabilité
+          <CommandoUX class="icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
         </h2>
-        <p>À travers ce programme, notre objectif est de mettre à votre disposition des profils qui s'attèleront à transformer rapidemment vos services numériques pour les rendre plus <strong>efficaces</strong> et <strong>compréhensibles</strong> pour qu'ils apportent du <strong>plaisir</strong> aux usagers.</p>
+        <p>À travers ce programme, notre objectif est de mettre à votre disposition des profils qui s'attèleront à transformer rapidemment vos services numériques pour les rendre plus <strong>fluides</strong>, <strong>efficaces</strong> et <strong>compréhensibles</strong>. Et qu'ils apportent même du <strong>plaisir</strong> aux usagers.</p>
         <p>Afin d'identifier les améliorations à apporter, le Commando UX évaluera la perception actuelle du service aux usagers, les contraintes techniques ainsi que les besoins métiers.</p>
         <p>Quelques exemples d'axes de travail que le Commando UX pourra entreprendre :</p>
         <ul>

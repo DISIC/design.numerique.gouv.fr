@@ -7,7 +7,7 @@
       <h1 class="highlight"><CommandoUX class="icon" aria-hidden="true"/>Commando UX</h1>
 
       <p class="subtitle">
-        Designers et développeurs auront 4 mois pour améliorer l'expérience des 250&nbsp;services numériques les plus utilisés par les Français.
+        Designers et développeurs auront 4 mois pour améliorer l'expérience de 5 à 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
       <CommandouxIllustration class="illustration" aria-hidden="true"/>
@@ -23,29 +23,30 @@
           <CommandoUX class="icon" aria-hidden="true"/>Appel à défis
         </h2>
         <p>
-          Le 8 juin 2020, nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics porteurs d'une des <a href="https://observatoire.numerique.gouv.fr" target="_blank">250 démarches de l’Observatoire</a>.
+          Le 8 juin 2020, nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des <a href="https://observatoire.numerique.gouv.fr" target="_blank">250 démarches de l’Observatoire</a> de la qualité des démarches en ligne. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques.
         </p>
       </section>
       <section class="subsection">
-        <h3>Vous travaillez sur un projet de l'Observatoire ?</h3>
+        <h3>Vous travaillez pour l'un des services numériques suivi dans l'Observatoire ?</h3>
         <p>
-          Vous avez jusqu'au <strong>19 juin 2020</strong> pour nous soumettre le projet de l'Observatoire sur lequel vous travaillez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
+          Vous aurez jusqu'au <strong>19 juin 2020</strong> à 23h59 pour soumettre le projet de l'Observatoire sur lequel vous travaillez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
         </p>
+
       </section>
       <section class="subsection">
         <h3>À la clé pour vous</h3>
         <p>
-          Au terme des 2 semaines d'appel à défis, nous sélectionnerons les 5 à 10 projets les plus impactants pour les usagers. Nous recruterons des designers et développeurs qui auront 4 mois, de septembre 2020 à décembre 2020, pour améliorer concrètement la qualité de l'expérience perçue sur votre service numérique.
+          Au terme des 2 semaines d'appel à défis, nous sélectionnerons les 5 à 10 projets les plus impactants pour les usagers. Nous recruterons des designers et développeurs qui auront 4 mois, de septembre 2020 à décembre 2020, pour améliorer concrètement la qualité de l'expérience vécue sur votre service numérique. 1 à 2 experts seront déployées au sein de votre équipe.
         </p>
         <p>
-          En fonction des défis, nous recruterons des designers, avec un appui potentiel de développeurs si vos équipes en manquent. Les développeurs devront connaitre les technologies et langages utilisés sur vos services numériques. Dans tous les cas, la possibilité pour les designers de voir leurs préconisations mises en œuvre par des développeurs est une condition indispensable.
+          En fonction des défis, nous recruterons des designers, avec un appui potentiel de développeurs si vos équipes en manquent. Les développeurs devront connaître les technologies et langages utilisés sur vos services numériques. Dans tous les cas, la possibilité pour les designers de voir leurs préconisations mises en œuvre par des développeurs est une condition indispensable. Vous serez à nos côtés pour valider ces profils qui seront recrutés au sein de la direction interministérielle du numérique.
         </p>
       </section>
 
       <section class="subsection">
         <h3>Combien ça coûte ?</h3>
         <p>
-          Rien pour vous. La Direction interministérielle du numérique (DINUM) prendra en charge à 100% le coût des profils recrutés.
+          Rien pour vous. La direction interministérielle du numérique (DINUM) prendra en charge à 100% le salaire des profils recrutés.
         </p>
       </section>
 
@@ -58,16 +59,16 @@
 
       <section class="quote">
         <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
-        <cite>— Don Norman</cite>
+        <cite>— Don Norman, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</cite>
       </section>
 
       <section>
         <h2>
           <CommandoUX class="icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
         </h2>
-        <p>À travers ce programme, notre objectif est de mettre à votre disposition des profils qui s'attèleront à transformer rapidemment vos services numériques pour les rendre plus <strong>fluides</strong>, <strong>efficaces</strong> et <strong>compréhensibles</strong>. Et qu'ils apportent même du <strong>plaisir</strong> aux usagers.</p>
+        <p>À travers ce programme, notre objectif est de mettre à votre disposition des experts qui s'attèleront à transformer rapidemment vos services numériques pour les rendre plus <strong>fluides</strong>, <strong>efficaces</strong> et <strong>compréhensibles</strong>. Et qu'ils apportent même du <strong>plaisir</strong> aux usagers.</p>
         <p>Afin d'identifier les améliorations à apporter, le Commando UX évaluera la perception actuelle du service aux usagers, les contraintes techniques ainsi que les besoins métiers.</p>
-        <p>Quelques exemples d'axes de travail que le Commando UX pourra entreprendre :</p>
+        <p>Quelques exemples d'axes de travail que le Commando UX pourra entreprendre à vos côtés :</p>
         <ul>
           <li>Développer une meilleure analyse et compréhension des besoins des usagers sur votre service en exploitant vos données ou en en collectant de nouvelles (tests utilisateurs, analytics, etc)</li>
           <li>Concevoir un parcours simplifié et agréable avec une approche « mobile first » qui démontre un accès sur mobile exemplaire</li>
@@ -83,13 +84,12 @@
         <h2>
           <CommandoUX class="icon" aria-hidden="true"/>Nos critères de sélection
         </h2>
-        <p>Il vous suffit de remplir les conditions suivantes :</p>
         <ul>
-          <li>Que vos objectifs et indicateurs de réussite soient clairement énoncés : cibles, enjeux identifiés, délais de mise en œuvre, nombre d'usagers impactés</li>
+          <li>Que vos objectifs et indicateurs de réussite soient clairement énoncés, notamment le nombre d'usagers qui seront impactés par ces améliorations</li>
           <li>Que vous soyez impliqué dans la réussite du projet : temps consacré au défi, motivation et sponsorship hiérarchique</li>
         </ul>
         <p>
-          L'appel à défis sera très fluide. La Direction interministérielle du numérique (DINUM) vous accompagnera pour redéfinir le défi si besoin. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
+          Nous vous demanderons quelques informations sur votre défi, la soumission sera rapide pour vous. La direction interministérielle du numérique (DINUM) vous accompagnera pour redéfinir le défi si besoin. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
         </p>
       </section>
 
@@ -99,25 +99,27 @@
         </h2>
         <p>Vous n'avez peur de rien ? Vous vous adaptez rapidemment ? Vous êtes exigeant et efficace ? Vous souhaitez travailler sur un projet d'intérêt général à fort impact ? Et vous êtes disponible de septembre à décembre 2020 ?</p>
         <p>
-          <strong>RDV le lundi 29 juin 2020</strong> pour candidater sur le programme Commando UX. Si vous êtes retenu, vous intégrerez l'équipe Commando UX, serez détaché dans un des défis et aurez 4 mois pour améliorer l'expérience des usagers sur le service.
+          <strong>RDV le lundi 29 juin 2020</strong> pour candidater sur le programme Commando UX. Si vous êtes retenu, vous intégrerez l'équipe Commando UX, serez déployé dans un des défis et aurez 4 mois pour améliorer l'expérience des usagers sur le service.
         </p>
         <p>
-          Nous cherchons avant tout des designers techniques, et des développeurs qui s'intéressent aux besoins des usagers.
+          Nous cherchons des experts extérieurs à la fonction publique, des designers (UX engineers, UX designers) et des développeurs qui s'intéressent aux besoins des usagers avant tout.
         </p>
         <p>
-          L'équipe Design des services numériques de la Direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
+          L'équipe Design des services numériques de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
         </p>
         <ul class="team">
           <li>
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
                      quality="100" height="150" width="150"/>
             <p><strong>Ugo Dessertine</strong></p>
+            <p>Lead Designer</p>
             <p>Commando UX</p>
           </li>
           <li>
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
                      quality="100" height="150" width="150"/>
             <p><strong>Georges Bayard</strong></p>
+            <p>Chargé de mission</p>
             <p>Observatoire</p>
           </li>
         </ul>
@@ -141,11 +143,11 @@
         </p>
         <p>
           <strong>20 juillet – 31 juillet 2020</strong><br>
-          Recrutement Commando UX : nous recrutons les designers et développeurs.
+          Recrutement Commando UX : entretiens individuels avec les designers et développeurs.
         </p>
         <p>
           <strong>7 septembre – 31 décembre 2020</strong><br>
-          Commando UX en action : designers et développeurs intègrent les défis.
+          Commando UX en action : designers et développeurs intègrent les administrations pour relever leur défi.
         </p>
       </section>
 
@@ -254,7 +256,6 @@
 
       cite {
         color: $mid-gray;
-        line-height: 3;
         text-align: left;
         font-style: normal;
       }
@@ -274,7 +275,6 @@
 
         img {
           border-radius: 50em;
-          // border: 5px $red solid;
         }
 
         p {

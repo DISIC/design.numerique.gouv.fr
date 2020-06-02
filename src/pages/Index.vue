@@ -16,14 +16,14 @@
 
     <div class="content">
 
-      <div class="message covid">
+      <div class="message commandoux">
 
-          <strong>Coronavirus</strong>
+          <strong>Commando UX</strong>
 
-          <p>Retrouvez notre liste d'initiatives pour s'impliquer et aider dans différents domaines.</p>
+          <p>Appel à défis à partir du 8 juin : designers et développeurs auront 4 mois pour améliorer l'expérience des 250&nbsp;services numériques les plus utilisés par les Français.</p>
 
-          <g-link to="/covid-19/" class="button">
-            Accéder aux initiatives
+          <g-link to="/commando-ux/" class="button">
+            En savoir plus
             <span class='arrow'>→</span>
           </g-link>
 
@@ -228,7 +228,7 @@ export default {
     }
   }
 
-  .covid {
+  .commandoux {
     margin-bottom: 120px;
 
     @media only screen and (max-width: $mobileMaxWidth) {

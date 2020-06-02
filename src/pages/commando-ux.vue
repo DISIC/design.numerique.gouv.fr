@@ -35,7 +35,7 @@
       <section class="subsection">
         <h3>À la clé pour vous</h3>
         <p>
-          Au terme des 2 semaines d'appel à défis, nous selectionnerons les 5 à 10 projets les plus impactants pour les usagers. Nous recruterons des designers et développeurs qui auront 4 mois, de septembre 2020 à décembre 2020, pour améliorer concrètement la qualité de l'expérience perçue sur votre service numérique.
+          Au terme des 2 semaines d'appel à défis, nous sélectionnerons les 5 à 10 projets les plus impactants pour les usagers. Nous recruterons des designers et développeurs qui auront 4 mois, de septembre 2020 à décembre 2020, pour améliorer concrètement la qualité de l'expérience perçue sur votre service numérique.
         </p>
         <p>
           En fonction des défis, nous recruterons des designers, avec un appui potentiel de développeurs si vos équipes en manquent. Les développeurs devront connaitre les technologies et langages utilisés sur vos services numériques. Dans tous les cas, la possibilité pour les designers de voir leurs préconisations mises en œuvre par des développeurs est une condition indispensable.
@@ -65,38 +65,45 @@
         <h2>
           <CommandoUX class="icon" aria-hidden="true"/>Apporter du plaisir aux usagers
         </h2>
-        <p>À travers ce programme, notre objectif est de mettre à votre disposition des ressources qui s'atteleront à transformer rapidemment vos services afin qu'ils soient plus efficaces et qu'ils apportent du plaisir aux usagers. Nous cherchons des résultats concrets.</p>
+        <p>À travers ce programme, notre objectif est de mettre à votre disposition des profils qui s'attèleront à transformer rapidemment vos services numériques pour les rendre plus efficaces et qu'ils apportent du plaisir aux usagers. Nous cherchons des résultats concrets.</p>
+        <p>Quelques exemples d'axes de travail que le Commando UX pourra entreprendre :</p>
         <ul>
-          <li>Développer une meilleure analyse et compréhensions des besoins des usagers sur votre service en exploitant les données ou en en collectant de nouvelles</li>
+          <li>Développer une meilleure analyse et compréhension des besoins des usagers sur votre service en exploitant vos données ou en en collectant de nouvelles (tests utilisateurs, analytics, etc)</li>
           <li>Concevoir un parcours simplifié et agréable avec une approche « mobile first » qui démontre un accès sur mobile exemplaire</li>
-          <li>S'assurer que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à votre service</li>
+          <li>Clarifier et simplifier le langage</li>
+          <li>Augmenter la désirabilité du service à travers le langage, le parcours, les visuels et les animations</li>
+          <li>Tout mettre en œuvre pour que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à votre service</li>
           <li>Exploiter les APIs de l'État pour réduire le nombre d'informations demandées aux usagers (principe du Dites-le-nous une fois)</li>
         </ul>
       </section>
 
       <section>
         <h2>
-          <CommandoUX class="icon" aria-hidden="true"/>Nos critères de selection
+          <CommandoUX class="icon" aria-hidden="true"/>Nos critères de sélection
         </h2>
         <p>Il vous suffit de remplir les conditions suivantes :</p>
         <ul>
           <li>Que vos objectifs et indicateurs de réussite soient clairement énoncés : cibles, complexités levées, délais de mise en œuvre, nombre d'usagers impactés par les améliorations</li>
-          <li>Que vous soyiez impliqué dans la réussite du projet : temps consacré au défi, motivation et sponsorship hiérarchique</li>
+          <li>Que vous soyez impliqué dans la réussite du projet : temps consacré au défi, motivation et sponsorship hiérarchique</li>
         </ul>
+        <p>
+          La Direction interministérielle du numérique (DINUM) vous accompagnera pour redéfinir le projet si besoin. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
+        </p>
       </section>
 
       <section>
         <h2>
           <CommandoUX class="icon" aria-hidden="true"/>Vous êtes designer ou développeur
         </h2>
+        <p>Vous n'avez peur de rien ? Vous vous adaptez rapidemment ? Vous êtes exigeant et efficace ? Vous souhaitez travailler sur un projet d'intérêt général à fort impact ? Et vous êtes disponible de septembre à décembre 2020 ?</p>
         <p>
-          Vous souhaitez travailler sur un projet d'intérêt général à fort impact ? Vous êtes libre de septembre à décembre 2020 ? <strong>RDV le lundi 29 juin 2020</strong> pour candidater sur le programme Commando UX. Si vous êtes retenu, vous intégrerez l'équipe Commando UX, serez détaché dans un des défis et aurez 4 mois pour améliorer l'expérience des usagers sur le service.
+          <strong>RDV le lundi 29 juin 2020</strong> pour candidater sur le programme Commando UX. Si vous êtes retenu, vous intégrerez l'équipe Commando UX, serez détaché dans un des défis et aurez 4 mois pour améliorer l'expérience des usagers sur le service.
         </p>
         <p>
           Nous cherchons avant tout des designers techniques, et des développeurs qui s'intéressent aux besoins des usagers.
         </p>
         <p>
-          L'équipe Design des services numériques de la Direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet.
+          L'équipe Design des services numériques de la Direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
         </p>
         <ul class="team">
           <li>
@@ -124,7 +131,7 @@
         </p>
         <p>
           <strong>22 juin – 26 juin 2020</strong><br>
-          Étude et sélection des défis : nous selectionnons les 5 à 10 projets les plus impactants.
+          Étude et sélection des défis : nous sélectionnons les 5 à 10 projets les plus impactants.
         </p>
         <p>
           <strong>29 juin – 17 juillet 2020</strong><br>
@@ -187,8 +194,6 @@
   .content {
 
     a {
-      font-weight: bold;
-
       svg {
         padding-right: 12px;
         transition: .1s all;

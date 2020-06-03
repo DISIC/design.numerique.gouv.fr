@@ -29,22 +29,24 @@
           <div class="element">
             <g-image src="~/assets/images/commandoux/top-250.svg"
                      quality="100" height="64" width="64" aria-hidden="true"/>
-            <p>Pour les démarches les plus utilisées</p>
+            <p>Les démarches phares de l'État</p>
           </div>
           <div class="element">
-            <g-image src="~/assets/images/commandoux/profil.svg"
-                     quality="100" height="64" width="64" aria-hidden="true"/>
+            <div>
+              <font-awesome :icon="['fas', 'user-astronaut']"/>
+            </div>
             <p>Designers et développeurs</p>
           </div>
           <div class="element">
-            <g-image src="~/assets/images/commandoux/duration.svg"
-                     quality="100" height="64" width="64" aria-hidden="true"/>
+            <div>
+              <font-awesome :icon="['fas', 'stopwatch']"/>
+            </div>
             <p>À temps plein pendant 4 mois</p>
           </div>
           <div class="element">
             <g-image src="~/assets/images/commandoux/100-percent.svg"
                      quality="100" height="64" width="64" aria-hidden="true"/>
-            <p>Pris en charge par la DINUM</p>
+            <p>Financement par la DINUM</p>
           </div>
         </div>
       </section>
@@ -262,25 +264,47 @@
 
     .key-elements {
       margin: 48px 0 32px 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      flex-wrap: wrap;
 
       @media only screen and (max-width: $mobileMaxWidth) {
         margin: 32px 0 24px 0;
       }
 
       .element {
-        margin: 0px 4px 32px 4px;
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         width: 160px;
 
         @media only screen and (max-width: $mobileMaxWidth) {
           margin: 0px 4px 16px 4px;
+
         }
 
         img {
           background-color: lighten($gray-hover, 10%);
           border-radius: 100%;
           padding: 12px;
+        }
+
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          width: 88px;
+          height: 88px;
+          background-color: lighten($gray-hover, 10%);
+
+          svg {
+            font-size: 40px;
+            color: $blue;
+          }
         }
 
         p {

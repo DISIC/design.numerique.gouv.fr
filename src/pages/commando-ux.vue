@@ -25,6 +25,28 @@
         <p>
           Le 8 juin 2020, nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
         </p>
+        <div class="key-elements">
+          <div class="element">
+            <g-image src="~/assets/images/commandoux/Top250.svg"
+                     quality="100" height="64" width="64"/>
+            <p>Pour les démarches les plus utilisées</p>
+          </div>
+          <div class="element">
+            <g-image src="~/assets/images/commandoux/People.svg"
+                     quality="100" height="64" width="64"/>
+            <p>Designers et développeurs</p>
+          </div>
+          <div class="element">
+            <g-image src="~/assets/images/commandoux/Time.svg"
+                     quality="100" height="64" width="64"/>
+            <p>À temps plein pendant 4 mois</p>
+          </div>
+          <div class="element">
+            <g-image src="~/assets/images/commandoux/100percent.svg"
+                     quality="100" height="64" width="64"/>
+            <p>Pris en charge par la DINUM</p>
+          </div>
+        </div>
       </section>
       <section class="subsection">
         <h3>Vous travaillez pour l'un des services numériques suivi dans l'Observatoire ?</h3>
@@ -236,8 +258,41 @@
       margin-bottom: 40px;
     }
 
+    .key-elements {
+      margin: 48px 0 32px 0;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        margin: 24px 0 16px 0;
+      }
+
+      .element {
+        margin: 0px 4px 32px 4px;
+        display: inline-block;
+        text-align: center;
+        width: 160px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin: 0px 4px 16px 4px;
+        }
+
+        img {
+          background-color: lighten($gray-hover, 10%);
+          border-radius: 100%;
+          padding: 12px;
+        }
+
+        p {
+          font-size: 0.875em;
+          color: $blue;
+          margin: 0;
+          font-weight: 500;
+          border-radius: 8px;
+          padding: 4px 8px;
+        }
+      }
+    }
+
     .soon {
-      //margin-top: -16px;
 
       > p {
         margin: 0 0 0 0;

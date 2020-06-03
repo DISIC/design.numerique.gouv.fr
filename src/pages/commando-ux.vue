@@ -74,7 +74,7 @@
 
       <section class="soon">
         <p>
-          Lancement de l'appel à défis le 8 juin !
+          Lancement de l'appel à défis le 8 juin
         </p>
       </section>
 
@@ -264,7 +264,7 @@
       margin: 48px 0 32px 0;
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        margin: 24px 0 16px 0;
+        margin: 32px 0 24px 0;
       }
 
       .element {
@@ -297,8 +297,8 @@
     .soon {
 
       > p {
-        font-size: 1.2em;
-        margin: 0 0 0 0;
+        font-size: 1.17em;
+        margin: 0;
         display: inline-block;
         font-weight: bold;
         background-color: $red;

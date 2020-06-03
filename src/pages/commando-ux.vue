@@ -27,23 +27,23 @@
         </p>
         <div class="key-elements">
           <div class="element">
-            <g-image src="~/assets/images/commandoux/Top250.svg"
-                     quality="100" height="64" width="64"/>
+            <g-image src="~/assets/images/commandoux/top-250.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
             <p>Pour les démarches les plus utilisées</p>
           </div>
           <div class="element">
-            <g-image src="~/assets/images/commandoux/People.svg"
-                     quality="100" height="64" width="64"/>
+            <g-image src="~/assets/images/commandoux/profil.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
             <p>Designers et développeurs</p>
           </div>
           <div class="element">
-            <g-image src="~/assets/images/commandoux/Time.svg"
-                     quality="100" height="64" width="64"/>
+            <g-image src="~/assets/images/commandoux/duration.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
             <p>À temps plein pendant 4 mois</p>
           </div>
           <div class="element">
-            <g-image src="~/assets/images/commandoux/100percent.svg"
-                     quality="100" height="64" width="64"/>
+            <g-image src="~/assets/images/commandoux/100-percent.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
             <p>Pris en charge par la DINUM</p>
           </div>
         </div>
@@ -132,14 +132,16 @@
         <ul class="team">
           <li>
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                     quality="100" height="150" width="150"/>
+                     quality="100" height="150" width="150"
+                     alt="Photo Ugo Dessertine"/>
             <p><strong>Ugo Dessertine</strong></p>
             <p>Lead Designer</p>
             <p>Commando UX</p>
           </li>
           <li>
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                     quality="100" height="150" width="150"/>
+                     quality="100" height="150" width="150"
+                     alt="Photo Georges Bayard"/>
             <p><strong>Georges Bayard</strong></p>
             <p>Chargé de mission</p>
             <p>Observatoire</p>
@@ -295,6 +297,7 @@
     .soon {
 
       > p {
+        font-size: 1.2em;
         margin: 0 0 0 0;
         display: inline-block;
         font-weight: bold;
@@ -331,7 +334,7 @@
       }
 
       cite {
-        color: $mid-gray;
+        color: $black;
         text-align: left;
         font-style: normal;
       }

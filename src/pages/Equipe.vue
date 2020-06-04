@@ -37,9 +37,9 @@
               <p><a href="https://observatoire.numerique.gouv.fr">Observatoire</a></p>
             </li>
             <li>
-              <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
+              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
                        quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
+                       alt="Photo Maxime Beaugrand"/>
               <h3>Maxime Beaugrand</h3>
               <p>Designer</p>
               <p><a href="https://franceconnect.gouv.fr/" target="_blank">FranceConnect</a></p>
@@ -62,15 +62,15 @@
             <li>
               <g-image src="~/assets/images/team-photos/boutie-camara.jpg"
                        quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
+                       alt="Photo Boutié Camara"/>
               <h3>Boutié Camara</h3>
               <p>Apprentie</p>
               <p><a href="https://observatoire.numerique.gouv.fr">Observatoire</a></p>
             </li>
             <li>
-              <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
+              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
                        quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
+                       alt="Photo Antoine Cao"/>
               <h3>Antoine Cao</h3>
               <p>Chargé de mission</p>
               <p>Accessibilité</p>
@@ -84,33 +84,33 @@
               <p>Commando UX</p>
             </li>
             <li>
-              <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
+              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
                        quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
+                       alt="Photo Jamshid Kohandel"/>
               <h3>Jamshid Kohandel</h3>
               <p>Chargé de mission</p>
               <p>Accessibilité</p>
             </li>
             <li>
-              <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
+              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
                        quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
+                       alt="Photo Vincent Mazalaigue"/>
               <h3>Vincent Mazalaigue</h3>
               <p>Chargé de mission</p>
               <p><a href="https://observatoire.numerique.gouv.fr">Dites-le nous une fois</a></p>
             </li>
             <li>
-              <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
+              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
                        quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
+                       alt="Photo Philippe Vrignaud"/>
               <h3>Philippe Vrignaud</h3>
               <p>Chargé de mission</p>
               <p><a href="https://www.demarches-simplifiees.fr/" target="_blank">Démarches Simplifiées</a> et Compte Citoyen</p>
             </li>
             <li>
-              <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
+              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
                        quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
+                       alt="Photo Hatice Yigit"/>
               <h3>Hatice Yigit</h3>
               <p>Stagiaire</p>
               <p>Observatoire et Ateliers d'écoute</p>

@@ -1,7 +1,8 @@
 <template>
 
   <div>
-    <button id="menu-button" type="button" aria-haspopup="true" aria-expanded="false" @click="toggle" v-click-outside="hide">
+    <button id="menu-button" type="button" aria-haspopup="true" title="Menu" 
+      aria-expanded="false" @click="toggle" v-click-outside="hide">
       <span id="menu-button-text" class="text">Menu</span>
       <font-awesome id="menu-button-icon" class="icon" :icon="['fas', 'bars']"/>
     </button>

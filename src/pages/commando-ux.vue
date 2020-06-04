@@ -25,6 +25,30 @@
         <p>
           Le 8 juin 2020, nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
         </p>
+        <div class="key-elements">
+          <div class="element">
+            <g-image src="~/assets/images/commandoux/top-250.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
+            <p>Les démarches phares de l'État</p>
+          </div>
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'user-astronaut']"/>
+            </div>
+            <p>Designers et développeurs</p>
+          </div>
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'stopwatch']"/>
+            </div>
+            <p>À temps plein pendant 4 mois</p>
+          </div>
+          <div class="element">
+            <g-image src="~/assets/images/commandoux/100-percent.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
+            <p>Financement par la DINUM</p>
+          </div>
+        </div>
       </section>
       <section class="subsection">
         <h3>Vous travaillez pour l'un des services numériques suivi dans l'Observatoire ?</h3>
@@ -52,7 +76,7 @@
 
       <section class="soon">
         <p>
-          Lancement de l'appel à défis le 8 juin !
+          Lancement de l'appel à défis le 8 juin
         </p>
       </section>
 
@@ -110,14 +134,16 @@
         <ul class="team">
           <li>
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                     quality="100" height="150" width="150"/>
+                     quality="100" height="150" width="150"
+                     alt="Photo Ugo Dessertine"/>
             <p><strong>Ugo Dessertine</strong></p>
             <p>Lead Designer</p>
             <p>Commando UX</p>
           </li>
           <li>
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                     quality="100" height="150" width="150"/>
+                     quality="100" height="150" width="150"
+                     alt="Photo Georges Bayard"/>
             <p><strong>Georges Bayard</strong></p>
             <p>Chargé de mission</p>
             <p>Observatoire</p>
@@ -236,11 +262,67 @@
       margin-bottom: 40px;
     }
 
+    .key-elements {
+      margin: 48px 0 32px 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        margin: 32px 0 24px 0;
+      }
+
+      .element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 160px;
+
+        @media only screen and (max-width: $mobileMaxWidth) {
+          margin: 0px 4px 16px 4px;
+
+        }
+
+        img {
+          background-color: lighten($gray-hover, 10%);
+          border-radius: 100%;
+          padding: 12px;
+        }
+
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          width: 88px;
+          height: 88px;
+          background-color: lighten($gray-hover, 10%);
+
+          svg {
+            font-size: 40px;
+            color: $blue;
+          }
+        }
+
+        p {
+          font-size: 0.875em;
+          color: $blue;
+          margin: 0;
+          font-weight: 500;
+          border-radius: 8px;
+          padding: 4px 8px;
+        }
+      }
+    }
+
     .soon {
-      //margin-top: -16px;
 
       > p {
-        margin: 0 0 0 0;
+        font-size: 1.17em;
+        margin: 0;
         display: inline-block;
         font-weight: bold;
         background-color: $red;
@@ -276,7 +358,7 @@
       }
 
       cite {
-        color: $mid-gray;
+        color: $black;
         text-align: left;
         font-style: normal;
       }

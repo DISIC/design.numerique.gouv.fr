@@ -74,12 +74,10 @@
         </p>
       </section>
 
-      <section class="soon">
-        <p>
-          Lancement de l'appel à défis le 8 juin
-        </p>
+      <section class="cta">
+        <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Candidatez et proposez votre défi !</a>
+        <p>Vous avez jusqu'au vendredi 19 juin 2020 à 23h59</p>
       </section>
-
 
       <section class="quote">
         <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
@@ -244,6 +242,41 @@
 
   .content {
 
+    .button {
+      text-decoration: none;
+      border-color: $blue;
+      background-color: $blue;
+      color: white;
+      border-radius: 32px;
+      padding: 8px 24px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0;
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        font-size: 0.875em;
+      }
+
+      &:hover {
+        background: $red;
+        border-color: $red;
+      }
+    }
+
+    .buttonLight {
+      text-decoration: none;
+      background-color: white;
+      font-weight: bold;
+      display: inline-block;
+      margin: 12px 0 0 0;
+
+      &:hover {
+        .arrow {
+          padding: 0 0 0 10px;
+        }
+      }
+    }
+
     a {
       svg {
         padding-right: 12px;
@@ -318,16 +351,15 @@
       }
     }
 
-    .soon {
+    .cta {
+
+      text-align: center;
 
       > p {
-        font-size: 1.17em;
         margin: 0;
-        display: inline-block;
-        font-weight: bold;
-        background-color: $red;
-        padding: 4px 8px;
-        color: white;
+        display: block;
+        font-size: 0.9em;
+        color: $mid-gray;
       }
     }
 

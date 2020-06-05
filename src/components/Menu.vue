@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <button id="menu-button" type="button" aria-haspopup="true" title="Menu" 
+    <button id="menu-button" type="button" aria-haspopup="true" title="Menu"
       aria-expanded="false" @click="toggle" v-click-outside="hide">
       <span id="menu-button-text" class="text">Menu</span>
       <font-awesome id="menu-button-icon" class="icon" :icon="['fas', 'bars']"/>
@@ -12,7 +12,7 @@
       <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
       <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
       <li role="none"><g-link class="button" to="/formations/" role="menuitem">Les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/recrutement/" role="menuitem">Recrutement<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/equipe/" role="menuitem">Notre équipe<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
     </ul>
   </div>
 

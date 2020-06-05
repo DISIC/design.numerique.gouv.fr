@@ -28,92 +28,13 @@
         <section>
           <h2>Notre équipe</h2>
           <ul class="team">
-            <li>
-              <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Georges Bayard"/>
-              <h3>Georges Bayard</h3>
-              <p>Chargé de mission</p>
-              <p><a href="https://observatoire.numerique.gouv.fr">Observatoire</a></p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Maxime Beaugrand"/>
-              <h3>Maxime Beaugrand</h3>
-              <p>Designer</p>
-              <p><a href="https://franceconnect.gouv.fr/" target="_blank">FranceConnect</a></p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/marine-boudeau.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Marine Boudeau"/>
-              <h3>Marine Boudeau</h3>
-              <p>Cheffe du pôle</p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/anthony-brunelli.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Anthony Brunelli"/>
-              <h3>Anthony Brunelli</h3>
-              <p>Chargé de mission</p>
-              <p><a href="https://observatoire.numerique.gouv.fr">Observatoire</a></p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/boutie-camara.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Boutié Camara"/>
-              <h3>Boutié Camara</h3>
-              <p>Apprentie</p>
-              <p><a href="https://observatoire.numerique.gouv.fr">Observatoire</a></p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Antoine Cao"/>
-              <h3>Antoine Cao</h3>
-              <p>Chargé de mission</p>
-              <p>Accessibilité</p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Ugo Dessertine"/>
-              <h3>Ugo Dessertine</h3>
-              <p>Lead Designer</p>
-              <p>Commando UX</p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Jamshid Kohandel"/>
-              <h3>Jamshid Kohandel</h3>
-              <p>Chargé de mission</p>
-              <p>Accessibilité</p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Vincent Mazalaigue"/>
-              <h3>Vincent Mazalaigue</h3>
-              <p>Chargé de mission</p>
-              <p><a href="https://observatoire.numerique.gouv.fr">Dites-le nous une fois</a></p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Philippe Vrignaud"/>
-              <h3>Philippe Vrignaud</h3>
-              <p>Chargé de mission</p>
-              <p><a href="https://www.demarches-simplifiees.fr/" target="_blank">Démarches Simplifiées</a> et Compte Citoyen</p>
-            </li>
-            <li>
-              <g-image src="~/assets/images/team-photos/photo-manquante.jpg"
-                       quality="100" height="150" width="150"
-                       alt="Photo Hatice Yigit"/>
-              <h3>Hatice Yigit</h3>
-              <p>Stagiaire</p>
-              <p>Observatoire et Ateliers d'écoute</p>
+            <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
+              <g-image :src="node.photo" quality="100" height="150" width="150" />
+              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+              <p>{{ node.job_title }}</p>
+              <p v-if="node.sub_team_link"><g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link></p>
+              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+              <!-- <g-link :to="node.path">Read more</g-link> -->
             </li>
           </ul>
         </section>
@@ -122,6 +43,26 @@
 
   </Layout>
 </template>
+
+<page-query>
+query {
+  allPeople (sortBy: "lastName", order: ASC) {
+    edges {
+      node {
+      	id
+        firstName
+        lastName
+        job_title
+        sub_team
+        sub_team_link
+        photo (width: 150, height: 150, quality: 100)
+        path
+        content
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 export default {
@@ -161,6 +102,7 @@ export default {
 
       img {
         border-radius: 50em;
+        max-width: 150px;
       }
 
       p {

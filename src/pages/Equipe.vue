@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="container">
 
-       <p class="subhead">Notre équipe</p>
+       <p class="subhead">À propos</p>
        <h1>Le pôle design des services numériques</h1>
 
       </div>
@@ -20,8 +20,29 @@
           <p>
             En partenariat avec les administrations porteuses des démarches administratives les plus utilisées par les Français, nous travaillons pour une meilleure inclusion des usagers, et pour l'amélioration de l'expérience de ces services pour tous. Nous souhaitons des services numériques qui fonctionnent et paraissent simples, réactifs, attentifs, ludiques, bienveillants et humains.
           </p>
+          <h3>Nos objectifs</h3>
+          <ul>
+            <li>
+              Définir une stratégie globale pour l'évolution des services en ligne rendus aux usagers, tenant compte des décisions gouvernementales, des besoins des usagers, et des possibilités de mise en œuvre par les administrations.
+            </li>
+            <li>
+              Faire évoluer et piloter la mise en œuvre la politique de mesure des usages des services en ligne et de la satisfaction des usagers sur ces services en ligne
+            </li>
+            <li>
+              Fournir ressources et aide aux administrations pour la mise en œuvre et l’améliorations de leurs services en ligne : référentiels, guides, outils, briques réutilisables, dispositifs d’accompagnement
+            </li>
+            <li>
+              Animer un réseau de correspondants dans les administrations
+            </li>
+            <li>
+              Participer au développement d’une culture de Design au sein de l’État, et à la mise en communauté de compétences de design dans les administrations
+            </li>
+            <li>
+              En lien avec l’Agence du Numérique, de stimuler en interministériel le développement d’actions en faveur d’une meilleure inclusion de l’ensemble des usagers dans le cadre de la transformation numérique des services publics
+            </li>
+          </ul>
           <p>
-            Le pôle design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.
+            Le pôle design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de l’action et des comptes publics.
           </p>
         </section>
 

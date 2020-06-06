@@ -2,22 +2,55 @@
   <Layout>
 
     <div class="cover">
-     <div class="container light">
+     <div class="container">
 
-       <h1>Rejoignez-nous</h1>
+       <h1>Recrutement</h1>
 
       </div>
     </div>
 
-    <p>Venez travailler avec nous sur l'amélioration des services publics numériques.</p>
-    <ul>
-      <li><g-link to="/recrutement/charge-mission-accessibilite/">Chargé-e de mission accessibilité et qualité des services numériques</g-link> (CDD 3 ans)</li>
-      <li><g-link to="/recrutement/developpeur-se-accessibilite/">Expert-e design et accessibilité numérique (niveau développeur-se)</g-link> (CDD 3 ans)</li>
-      <li><g-link to="/recrutement/designer-ux/">Designer UX</g-link> (CDD 9 mois)</li>
-    </ul>
+    <div class="content">
+
+        <section>
+          <p>
+            Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
+          </p>
+          <p>
+            Nous sommes rattachés à la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.
+          </p>
+        </section>
+
+        <section>
+          <h2>Les offres</h2>
+          <ul class="jobs">
+            <li v-for="{ node } in $page.allJob.edges" :key="node.id">
+              <g-link :to="node.path">
+                <h3>{{ node.title }}</h3>
+                <p>{{ node.type }}</p>
+              </g-link>
+            </li>
+          </ul>
+        </section>
+
+    </div>
 
   </Layout>
 </template>
+
+<page-query>
+query {
+  allJob (sortBy: "job_title", order: ASC) {
+    edges {
+      node {
+      	id
+        title
+        type
+        path
+      }
+    }
+  }
+}
+</page-query>
 
 <script>
 export default {
@@ -25,15 +58,15 @@ export default {
     title: "Recrutement",
     meta: [{
       name: "description",
-      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+      content: "Améliorons ensemble la qualité des services publics numériques."
     },
     {
       property: "og:title",
-      content: "DesignGouv - Recrutement"
+      content: "Recrutement - DesignGouv"
     },
     {
       property: "og:description",
-      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+      content: "Améliorons ensemble la qualité des services publics numériques."
     },
     {
       property: "og:image",
@@ -49,7 +82,7 @@ export default {
     },
     {
       name: "twitter:title",
-      content: "DesignGouv - Recrutement"
+      content: "Recrutement - DesignGouv"
     },
     {
       name: "twitter:description",
@@ -62,3 +95,64 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="scss">
+@import "src/assets/scss/_vars.scss";
+
+  .jobs {
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    h3 {
+      margin-bottom: 4px;
+    }
+
+    > li {
+      list-style: none;
+      text-align: center;
+      width: 48%;
+      margin: 24px 4px;
+
+      a {
+        border: 1px solid $gray-hover;
+        padding: 8px 12px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+
+        h3 {
+          color: black;
+        }
+
+        p {
+          color: $mid-gray;
+        }
+
+        &:hover {
+          border-color: $blue;
+
+          h3 {
+            color: $blue;
+          }
+        }
+
+      }
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        width: 46%;
+      }
+
+      p {
+          margin: 0;
+      }
+    }
+  }
+
+</style>

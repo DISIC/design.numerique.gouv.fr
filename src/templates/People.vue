@@ -6,13 +6,11 @@
        <h1>{{ $page.people.firstName }} {{ $page.people.lastName }}</h1>
        <!-- <g-image :src="$page.people.photo" /> -->
      </div>
-     </div>
+   </div>
 
-     <div class="content">
-
+   <div class="content">
       <div v-html="$page.people.content" />
-      </div>
-    </div>
+   </div>
 
   </Layout>
 </template>

@@ -29,9 +29,17 @@ module.exports = {
         path: './content/team/*.md',
       }
     },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Job',
+        path: './content/jobs/*.md',
+      }
+    },
   ],
   templates: {
-    People: '/equipe/:firstName-:lastName'
+    People: '/equipe/:firstName-:lastName',
+    Job: '/recrutement/:slug'
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch

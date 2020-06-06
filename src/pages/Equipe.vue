@@ -15,10 +15,10 @@
         <section>
           <h2>Notre mission</h2>
           <p>
-            Le numérique est la promesse notamment d’un accès à une multitude d’informations et de services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent. C’est le cas pour de nombreux services publics numériques.
+            Le numérique, c'est la promesse d’un accès à une multitude d’informations et de services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. C’est le cas pour de nombreux services publics numériques.
           </p>
           <p>
-            En partenariat avec les administrations porteuses des principales démarches en ligne, nous accompagnons l'amélioration de l’expérience des démarches en ligne pour tous les usagers. Nous souhaitons des services numériques qui fonctionnent et paraissent simples, réactifs, attentifs, ludiques, bienveillants et humains.
+            En partenariat avec les administrations porteuses des démarches administratives les plus utilisées par les Français, nous travaillons pour une meilleure inclusion des usagers, et pour l'amélioration de l'expérience de ces services pour tous. Nous souhaitons des services numériques qui fonctionnent et paraissent simples, réactifs, attentifs, ludiques, bienveillants et humains.
           </p>
           <p>
             Le pôle design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.

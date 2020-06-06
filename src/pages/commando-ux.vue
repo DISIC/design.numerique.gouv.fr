@@ -23,7 +23,7 @@
           <CommandoUX class="icon" aria-hidden="true"/>Appel à défis
         </h2>
         <p>
-          Le 8 juin 2020, nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
+          Nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
         </p>
         <div class="key-elements">
           <div class="element">
@@ -53,8 +53,12 @@
       <section class="subsection">
         <h3>Vous travaillez pour l'un des services numériques suivi dans l'Observatoire ?</h3>
         <p>
-          Vous aurez jusqu'au <strong>19 juin 2020</strong> à 23h59 pour soumettre le projet de l'Observatoire sur lequel vous travaillez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
+          Vous avez jusqu'au <strong>19 juin 2020</strong> à 23h59 pour soumettre le projet de l'Observatoire sur lequel vous travaillez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
         </p>
+        <div class="cta">
+          <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Candidatez et proposez votre défi !</a>
+          <p>Vous avez jusqu'au vendredi 19 juin 2020 à 23h59</p>
+        </div>
 
       </section>
       <section class="subsection">
@@ -72,11 +76,6 @@
         <p>
           Rien pour vous. La direction interministérielle du numérique (DINUM) prendra en charge à 100% le salaire des profils recrutés.
         </p>
-      </section>
-
-      <section class="cta">
-        <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Candidatez et proposez votre défi !</a>
-        <p>Vous avez jusqu'au vendredi 19 juin 2020 à 23h59</p>
       </section>
 
       <section class="quote">
@@ -316,7 +315,6 @@
 
         @media only screen and (max-width: $mobileMaxWidth) {
           margin: 0px 4px 16px 4px;
-
         }
 
         img {
@@ -360,6 +358,10 @@
         display: block;
         font-size: 0.9em;
         color: $mid-gray;
+      }
+
+      @media only screen and (max-width: $mobileMaxWidth) {
+        text-align: left;
       }
     }
 

@@ -18,9 +18,11 @@
 
       <div class="message commandoux">
 
-          <strong>Commando UX</strong>
+          <h2>Commando UX</h2>
 
-          <p>Appel à défis à partir du 8 juin : designers et développeurs auront 4 mois pour améliorer l'expérience des 250&nbsp;services numériques les plus utilisés par les Français.</p>
+          <p>
+            <strong>Appel à défis en cours !</strong> Agents publics de l'État : vous avez jusqu'au <strong>19 juin 2020</strong> à 23h59 pour soumettre le projet de l'Observatoire que vous portez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
+          </p>
 
           <g-link to="/commando-ux/" class="button">
             En savoir plus

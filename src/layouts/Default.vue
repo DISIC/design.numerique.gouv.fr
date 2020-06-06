@@ -40,6 +40,7 @@
           <div>
             DesignGouv
             <ul>
+              <li><g-link to="/equipe/">Notre équipe</g-link></li>
               <li><a href="https://twitter.com/design_gouv" target="_blank">
                 Twitter <font-awesome :icon="['fab', 'twitter']"/>
                 </a></li>

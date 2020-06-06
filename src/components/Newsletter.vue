@@ -1,7 +1,7 @@
 <template>
 
   <div class="message">
-    <strong>Rejoignez la communauté&nbsp;!</strong>
+    <h2>Rejoignez la communauté&nbsp;!</h2>
 
     <p>DesignGouv, c’est aussi une communauté pour faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
 

@@ -39,7 +39,7 @@
 
 <page-query>
 query {
-  allJob (sortBy: "job_title", order: ASC) {
+  allJob (sortBy: "title", order: ASC) {
     edges {
       node {
       	id
@@ -146,7 +146,7 @@ export default {
       }
 
       @media only screen and (max-width: $mobileMaxWidth) {
-        width: 46%;
+        width: 100%;
       }
 
       p {

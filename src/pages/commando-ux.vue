@@ -146,6 +146,7 @@
             <p>Observatoire</p>
           </li>
         </ul>
+        <p><g-link to="/equipe/">En savoir plus</g-link> sur notre équipe.</p>
       </section>
 
       <section>

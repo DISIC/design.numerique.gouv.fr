@@ -21,7 +21,7 @@
           <h2>Commando UX</h2>
 
           <p>
-            <strong>Appel à défis en cours !</strong> Agents publics de l'État : vous avez jusqu'au <strong>19 juin 2020</strong> à 23h59 pour soumettre le projet de l'Observatoire que vous portez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
+            <strong>Appel à défis en cours !</strong> Vous avez jusqu'au <strong>19 juin 2020</strong> pour soumettre le projet de l'Observatoire que vous portez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
           </p>
 
           <g-link to="/commando-ux/" class="button">

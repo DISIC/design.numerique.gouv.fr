@@ -57,7 +57,7 @@
         </p>
         <div class="cta">
           <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Candidatez et proposez votre défi !</a>
-          <p>Vous avez jusqu'au vendredi 19 juin 2020 à 23h59</p>
+          <p>Jusqu'au vendredi 19 juin 2020 à 23h59</p>
         </div>
 
       </section>
@@ -126,7 +126,7 @@
           Nous cherchons des experts extérieurs à la fonction publique, des designers (UX engineers, UX designers) et des développeurs qui s'intéressent aux besoins des usagers avant tout.
         </p>
         <p>
-          L'équipe Design des services numériques de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
+          L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
         </p>
         <ul class="team">
           <li>
@@ -146,7 +146,6 @@
             <p>Observatoire</p>
           </li>
         </ul>
-        <p><g-link to="/equipe/">En savoir plus</g-link> sur notre équipe.</p>
       </section>
 
       <section>

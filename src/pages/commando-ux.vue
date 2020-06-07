@@ -71,7 +71,7 @@
         </p>
       </section>
 
-      <section class="subsection">
+      <section>
         <h3>Combien ça coûte ?</h3>
         <p>
           Rien pour vous. La direction interministérielle du numérique (DINUM) prendra en charge à 100% le salaire des profils recrutés.
@@ -154,7 +154,7 @@
         </h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>
-          Appel à défis : administrations, <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank">soumettez votre projet</a> de l'Observatoire. 
+          Appel à défis : administrations, <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank">soumettez votre projet</a> de l'Observatoire.
         </p>
         <p>
           <strong>22 juin – 26 juin 2020</strong><br>

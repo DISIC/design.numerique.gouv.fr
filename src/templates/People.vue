@@ -3,7 +3,7 @@
     <div class="cover">
      <div class="container">
        <p class="subhead">Notre équipe</p>
-       <h1>{{ $page.people.firstName }} {{ $page.people.lastName }}</h1>
+       <h1>{{ $page.people.first_name }} {{ $page.people.last_name }}</h1>
        <!-- <g-image :src="$page.people.photo" /> -->
      </div>
    </div>
@@ -35,8 +35,8 @@ export default {
 <page-query>
 query People ($id: ID!) {
   people: people (id: $id) {
-    firstName
-    lastName
+    first_name
+    last_name
     photo (width: 300, height: 300, quality: 100)
     content
   }

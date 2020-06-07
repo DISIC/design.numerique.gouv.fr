@@ -1,6 +1,6 @@
 ---
-firstName: Georges
-lastName: Bayard
+first_name: Georges
+last_name: Bayard
 photo: ./photos/georges-bayard.jpg
 job_title: Chargé de mission
 sub_team: Observatoire

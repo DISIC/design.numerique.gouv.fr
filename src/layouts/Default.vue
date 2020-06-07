@@ -221,6 +221,7 @@ export default {
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      border: none;
 
       .rf {
         flex-shrink: 0;
@@ -261,6 +262,10 @@ export default {
     color: $black;
     display: flex;
     justify-content: center;
+
+    a {
+      border: none;
+    }
 
     @media only screen and (max-width: $mobileMaxWidth) {
       padding: 20px 12px 24px 12px;

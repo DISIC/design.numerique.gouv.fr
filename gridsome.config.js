@@ -38,7 +38,7 @@ module.exports = {
     },
   ],
   templates: {
-    People: '/equipe/:first_name-:last_name',
+    People: '/equipe/:firstName-:lastName',
     Job: '/recrutement/:slug'
   },
   prefetch: {

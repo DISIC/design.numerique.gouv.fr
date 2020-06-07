@@ -1,6 +1,6 @@
 ---
-first_name: Anthony
-last_name: Brunelli
+firstName: Anthony
+lastName: Brunelli
 photo: ./photos/anthony-brunelli.jpg
 job_title: Chargé de mission
 sub_team: Observatoire

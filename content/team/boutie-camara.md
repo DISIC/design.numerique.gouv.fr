@@ -1,6 +1,6 @@
 ---
-first_name: Boutié
-last_name: Camara
+firstName: Boutié
+lastName: Camara
 photo: ./photos/boutie-camara.jpg
 job_title: Apprentie
 sub_team: Observatoire

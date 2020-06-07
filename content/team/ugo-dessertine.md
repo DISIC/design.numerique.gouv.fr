@@ -1,6 +1,6 @@
 ---
-first_name: Ugo
-last_name: Dessertine
+firstName: Ugo
+lastName: Dessertine
 photo: ./photos/ugo-dessertine.jpg
 job_title: Lead Designer
 sub_team: Commando UX

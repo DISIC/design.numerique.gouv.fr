@@ -1,6 +1,6 @@
 ---
-first_name: Philippe
-last_name: Vrignaud
+firstName: Philippe
+lastName: Vrignaud
 photo: ./photos/photo-manquante.jpg
 job_title: Chargé de mission
 sub_team: Démarches Simplifiées

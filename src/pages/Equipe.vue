@@ -51,7 +51,7 @@
           <ul class="team">
             <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
               <g-image :src="node.photo" quality="100" height="150" width="150" />
-              <h3>{{ node.first_name }} {{ node.last_name }}</h3>
+              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
               <p>{{ node.job_title }}</p>
               <p v-if="node.sub_team_link"><g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link></p>
               <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
@@ -67,12 +67,12 @@
 
 <page-query>
 query {
-  allPeople (sortBy: "last_name", order: ASC) {
+  allPeople (sortBy: "lastName", order: ASC) {
     edges {
       node {
       	id
-        first_name
-        last_name
+        firstName
+        lastName
         job_title
         sub_team
         sub_team_link

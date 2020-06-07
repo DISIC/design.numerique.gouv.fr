@@ -1,6 +1,6 @@
 ---
-first_name: Hatice
-last_name: Yigit
+firstName: Hatice
+lastName: Yigit
 photo: ./photos/hatice-yigit.jpg
 job_title: Stagiaire
 sub_team: Observatoire et Ateliers d'écoute

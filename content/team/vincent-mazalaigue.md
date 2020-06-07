@@ -1,6 +1,6 @@
 ---
-first_name: Vincent
-last_name: Mazalaigue
+firstName: Vincent
+lastName: Mazalaigue
 photo: ./photos/photo-manquante.jpg
 job_title: Chargé de mission
 sub_team: Dites-le nous une fois

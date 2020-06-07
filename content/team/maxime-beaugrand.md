@@ -1,6 +1,6 @@
 ---
-first_name: Maxime
-last_name: Beaugrand
+firstName: Maxime
+lastName: Beaugrand
 photo: ./photos/maxime-beaugrand.jpg
 job_title: Designer
 sub_team: FranceConnect

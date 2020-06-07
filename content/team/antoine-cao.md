@@ -1,6 +1,6 @@
 ---
-first_name: Antoine
-last_name: Cao
+firstName: Antoine
+lastName: Cao
 photo: ./photos/photo-manquante.jpg
 job_title: Chargé de mission
 sub_team: Accessibilité

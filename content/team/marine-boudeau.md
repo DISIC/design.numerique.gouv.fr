@@ -1,6 +1,6 @@
 ---
-first_name: Marine
-last_name: Boudeau
+firstName: Marine
+lastName: Boudeau
 photo: ./photos/marine-boudeau.jpg
 job_title: Cheffe du pôle
 sub_team:

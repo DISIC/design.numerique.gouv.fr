@@ -1,6 +1,6 @@
 ---
-first_name: Jamshid
-last_name: Kohandel
+firstName: Jamshid
+lastName: Kohandel
 photo: ./photos/jamshid-kohandel.jpg
 job_title: Chargé de mission
 sub_team: Accessibilité

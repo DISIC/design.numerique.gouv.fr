@@ -1,0 +1,41 @@
+button, .button {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 700;
+  color: $black;
+  display: inline-block;
+  border: 2px solid $black;
+  background-color: white;
+  border-radius: 64px;
+
+  padding: 8px 24px;
+
+  cursor: pointer;
+  transition: .1s all;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    border-color: black;
+
+    @media only screen and (min-width: $mobileMaxWidth+1) {
+      background-color: $black;
+      color: white;
+    }
+  }
+
+  &.blue {
+    color: $blue;
+    border-color: $blue;
+
+    &:hover, &:focus {
+      @media only screen and (min-width: $mobileMaxWidth+1) {
+        color: white;
+        background-color: $blue;
+      }
+    }
+  }
+
+  .icon {
+    padding-left: 8px;
+  }
+}

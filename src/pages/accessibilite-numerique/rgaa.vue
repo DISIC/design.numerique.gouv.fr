@@ -51,6 +51,13 @@
         <p>
           Le RGAA 4 fait disparaître aussi la distinction entre niveau A et AA qui n’est plus justifiée puisque toutes ces règles sont obligatoires. Il y ajoute des critères de test permettant de vérifier leur bonne application.
         </p>
+        <h3>Clarification sur les critères</h3>
+        <ul>
+          <li>Critère à succès (pour les WCAG), niveaux A et AA : 50 critères à succés</li>
+          <li>Critère de contrôle (pour le RGAA) : 106 critères de contrôle dans le RGAA 4 (vs 133 dans le RGAA 3)</li>
+          <li>Critère de test (pour le RGAA) : 256 critères de test dans le RGAA 4 (vs 334 dans le RGAA 3)</li>
+        </ul>
+        <p>Consulter la <a href="https://design.numerique.gouv.fr/assets/pdf/RGAA4_vs_WCAG2.1.pdf"></a>correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1. </p>
       </section>
 
       <section>

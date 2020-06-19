@@ -199,14 +199,14 @@ export default {
   .cover {
     padding-bottom: 48px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       padding-bottom: 80px;
     }
 
     .subtitle {
       padding: 34px 20%;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         padding: 0;
         max-width: 360px;
       }
@@ -225,7 +225,7 @@ export default {
         margin-left: -550px;
       }
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         padding: 0;
       }
     }
@@ -234,7 +234,7 @@ export default {
   .commandoux {
     margin-bottom: 120px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 96px;
     }
   }
@@ -245,7 +245,7 @@ export default {
     justify-content: space-between;
     align-items: center;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 96px;
       flex-direction: column-reverse;
       align-items: start;
@@ -255,7 +255,7 @@ export default {
       display: inline-block;
       width: 64%;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 100%;
         text-align: center;
       }
@@ -265,7 +265,7 @@ export default {
       display: inline-block;
       height: 240px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         height: 160px;
         width: 100%
       }
@@ -273,7 +273,7 @@ export default {
       &.right {
         padding-left: 40px;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
+        @media only screen and (max-width: $mobile-max-width) {
           padding-left: 0px;
           padding-bottom: 24px;
         }
@@ -282,7 +282,7 @@ export default {
       &.left {
         padding-right: 40px;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
+        @media only screen and (max-width: $mobile-max-width) {
           padding-right: 0px;
           padding-bottom: 24px;
         }
@@ -294,7 +294,7 @@ export default {
       padding: 8px 0;
       margin: 0;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         display: inline;
       }
     }
@@ -307,7 +307,7 @@ export default {
       margin-bottom: -5px;
       margin-right: 16px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         display: inline;
         height: 32px;
         width: 32px;
@@ -325,7 +325,7 @@ export default {
     .disabled {
       font-weight: bold;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         font-size: 0.875em;
       }
     }

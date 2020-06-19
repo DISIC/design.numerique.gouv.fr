@@ -172,7 +172,7 @@ export default {
     vertical-align: top;
     margin: 0px 16px 80px 16px;
     width: 348px;
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       width: 92%;
       margin: 0px 0px 64px 0;
     }

@@ -17,7 +17,7 @@ button, .button {
     text-decoration: none;
     border-color: black;
 
-    @media only screen and (min-width: $mobileMaxWidth+1) {
+    @media only screen and (min-width: $mobile-max-width+1) {
       background-color: $black;
       color: white;
     }
@@ -28,7 +28,7 @@ button, .button {
     border-color: $blue;
 
     &:hover, &:focus {
-      @media only screen and (min-width: $mobileMaxWidth+1) {
+      @media only screen and (min-width: $mobile-max-width+1) {
         color: white;
         background-color: $blue;
       }

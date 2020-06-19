@@ -117,7 +117,7 @@ export default {
       width: 30%;
       margin: 24px 4px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 46%;
       }
 

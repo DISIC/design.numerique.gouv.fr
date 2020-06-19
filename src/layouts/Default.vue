@@ -207,7 +207,7 @@ export default {
     margin: 0 auto;
     padding: 0 30px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;
     }
   }
@@ -228,7 +228,7 @@ export default {
         width: 121px;
         margin: 30px 40px 0px 30px;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
+        @media only screen and (max-width: $mobile-max-width) {
           width: 64px;
           margin: 12px 24px 0px 12px;
         }
@@ -239,7 +239,7 @@ export default {
         width: 100%;
         padding-top: 16px;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
+        @media only screen and (max-width: $mobile-max-width) {
           width: 160px;
           padding-top: 4px;
         }
@@ -249,7 +249,7 @@ export default {
     nav {
       padding: 7px 30px 0 30px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         padding: 0px 12px;
       }
     }
@@ -267,7 +267,7 @@ export default {
       border: none;
     }
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       padding: 20px 12px 24px 12px;
       margin-top: 64px;
       display: inline-block;
@@ -277,7 +277,7 @@ export default {
       width: 121px;
       margin: 20px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         margin: 0 0 20px 0;
       }
     }
@@ -290,7 +290,7 @@ export default {
     .footer-content {
       margin: 18px 40px 0px 40px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         margin: 0;
       }
 

@@ -252,7 +252,7 @@
       display: inline-block;
       margin: 10px 0;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         font-size: 0.875em;
       }
 
@@ -301,7 +301,7 @@
       justify-content: space-around;
       flex-wrap: wrap;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         margin: 32px 0 24px 0;
       }
 
@@ -313,7 +313,7 @@
         text-align: center;
         width: 160px;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
+        @media only screen and (max-width: $mobile-max-width) {
           margin: 0px 4px 16px 4px;
         }
 
@@ -360,7 +360,7 @@
         color: $mid-gray;
       }
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         text-align: left;
       }
     }

@@ -67,7 +67,7 @@
   button {
     height: 44px;
     transition: none;
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       width: 44px;
       padding: 8px;
       border-radius: 50%;
@@ -79,7 +79,7 @@
       right: 30px;
       border-radius: 0;
       width: 284px;
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 100vw;
         top: 0;
         right: 0;
@@ -91,14 +91,14 @@
     }
 
     .text {
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         display: none;
       }
     }
 
     .icon {
       display: none;
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         padding: 0;
         display: inline-block;
       }
@@ -117,7 +117,7 @@
     top: 94px;
     right: 30px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       border: none;
       top: 71px;
       right: 0px;
@@ -141,13 +141,13 @@
 
         &:hover, &:focus {
           .icon {
-            @media only screen and (min-width: $mobileMaxWidth+1) {
+            @media only screen and (min-width: $mobile-max-width+1) {
               display: inline-block;
             }
           }
         }
 
-        @media only screen and (max-width: $mobileMaxWidth) {
+        @media only screen and (max-width: $mobile-max-width) {
           text-align: center;
         }
       }
@@ -160,7 +160,7 @@
       text-align: right;
       padding: 14px 24px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         padding: 32px 32px 48px 0;
         width: 100vw;
       }

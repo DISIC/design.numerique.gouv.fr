@@ -145,7 +145,7 @@ export default {
 
       }
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 100%;
       }
 

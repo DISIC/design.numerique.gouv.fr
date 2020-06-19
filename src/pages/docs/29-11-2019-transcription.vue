@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Header class="page-header">
+    <Header class="cover">
       <h1>Transcription de l'événement accessibilité numerique</h1>
     </Header>
     <Main class="transcription">

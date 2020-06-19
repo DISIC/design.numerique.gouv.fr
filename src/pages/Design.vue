@@ -2,16 +2,16 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
-      <h1 class="highlight"><Design class="icon" aria-hidden="true"/>Le Design numérique</h1>
+      <h1 class="highlight"><Design class="h1__icon" aria-hidden="true"/>Le Design numérique</h1>
 
-      <p class="subtitle">Le design permet de rendre les services numériques plus
+      <p class="cover__subtitle">Le design permet de rendre les services numériques plus
         simples, accessibles et agréables pour tous. Concevoir par le design, c’est
         mettre en œuvre des solutions centrées sur les usagers, tout en s’appuyant
         sur de bonnes pratiques reconnues.</p>
 
-      <DesignIllustration class="illustration" aria-hidden="true"/>
+      <DesignIllustration class="cover__illustration" aria-hidden="true"/>
 
       </div>
     </div>

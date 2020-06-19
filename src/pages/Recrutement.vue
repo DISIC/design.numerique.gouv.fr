@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
        <h1>Recrutement</h1>
 

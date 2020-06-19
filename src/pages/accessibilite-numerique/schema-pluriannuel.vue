@@ -15,16 +15,16 @@
       </ol>
     </nav>
 
-    <div class="cover coverWithBreadcrumb">
-     <div class="container">
+    <div class="cover cover--with-breadcrumbb">
+     <div class="cover__container">
 
-       <div class="subhead"><Accessibilite class="icon" aria-hidden="true"/>Accessibilité</div>
+       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" aria-hidden="true"/>Accessibilité</div>
        <h1>Schéma pluriannuel de mise en accessibilité</h1>
 
       </div>
     </div>
 
-    <div class="content text-content">
+    <div class="content">
 
       <section>
 

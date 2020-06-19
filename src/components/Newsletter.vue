@@ -20,8 +20,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .message {
   margin-top: 80px;
+
   .button {
     margin-bottom: 0;
   }

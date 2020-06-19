@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="cover">
-     <div class="container light">
+     <div class="cover__container cover--light">
 
        <h1>Accessibilité</h1>
 

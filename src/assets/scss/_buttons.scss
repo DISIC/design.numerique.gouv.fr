@@ -13,6 +13,10 @@ button, .button {
   cursor: pointer;
   transition: .1s all;
 
+  .button__icon {
+    padding-left: 8px;
+  }
+
   &:hover, &:focus {
     text-decoration: none;
     border-color: black;
@@ -23,7 +27,7 @@ button, .button {
     }
   }
 
-  &.blue {
+  &.button--blue {
     color: $blue;
     border-color: $blue;
 
@@ -35,7 +39,19 @@ button, .button {
     }
   }
 
-  .icon {
-    padding-left: 8px;
+  &.button--highlight {
+    box-shadow: 5px 5px 0px $light;
+  }
+
+  &.button--light {
+    border: none;
+    color: $blue;
+    padding: 8px 0;
+
+    &:hover {
+      .button__icon {
+        padding-left: 16px;
+      }
+    }
   }
 }

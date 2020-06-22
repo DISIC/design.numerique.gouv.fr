@@ -43,7 +43,7 @@
               et <strong>agréables</strong> pour tous les usagers.
             </p>
 
-            <p class="item__disabled--button">
+            <p class="item__disabled-button">
               Bientôt disponible !
             </p>
           </div>
@@ -202,7 +202,7 @@ export default {
       padding-bottom: 80px;
     }
 
-    .cover__subtitle {
+    &__subtitle {
       padding: 34px 20%;
 
       @media only screen and (max-width: $mobile-max-width) {
@@ -211,7 +211,7 @@ export default {
       }
     }
 
-    .cover__home-illustration {
+    &__home-illustration {
       position: absolute;
       width: 86vw;
       max-width: 1100px;
@@ -250,7 +250,7 @@ export default {
       align-items: start;
     }
 
-    .item__description {
+    &__description {
       display: inline-block;
       width: 64%;
 
@@ -260,7 +260,7 @@ export default {
       }
     }
 
-    .item__icon {
+    &__icon {
       display: inline-block;
       transition: .2s all;
       height: 36px;
@@ -277,7 +277,7 @@ export default {
       }
     }
 
-    .item__illustration {
+    &__illustration {
       display: inline-block;
       height: 240px;
 
@@ -286,7 +286,7 @@ export default {
         width: 100%
       }
 
-      &.item__illustration--right {
+      &--right {
         padding-left: 40px;
 
         @media only screen and (max-width: $mobile-max-width) {
@@ -295,7 +295,7 @@ export default {
         }
       }
 
-      &.item__illustration--left {
+      &--left {
         padding-right: 40px;
 
         @media only screen and (max-width: $mobile-max-width) {
@@ -321,7 +321,7 @@ export default {
       margin-top: 8px;
     }
 
-    .item__disabled--button {
+    &__disabled-button {
       font-weight: bold;
 
       @media only screen and (max-width: $mobile-max-width) {

@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="cover">
-     <div class="cover__container cover--light shadow">
+     <div class="cover__container cover__container--light shadow">
 
        <strong>Covid-19</strong>
        <h1>Attestation de déplacement dérogatoire (Français)</h1>

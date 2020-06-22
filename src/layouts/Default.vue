@@ -2,7 +2,7 @@
   <div>
 
     <header>
-      <g-link class="header__logo" to="/" title="DesignGouv - Retour à l'accueil">
+      <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
         <LogoRF class="header__logo-rf" role="img" title="Logo Républiqe Française"/>
         <LogoDG class="header__logo-dg" role="img" title="Logo DesignGouv"/>
       </g-link>
@@ -216,32 +216,32 @@ export default {
     justify-content: space-between;
     align-items: center;
 
-    .header__logo {
+    .header__logos {
       display: flex;
       justify-content: flex-start;
       align-items: center;
       border: none;
+    }
 
-      .header__logo-rf {
-        flex-shrink: 0;
-        width: 121px;
-        margin: 30px 40px 0px 30px;
+    .header__logo-rf {
+      flex-shrink: 0;
+      width: 121px;
+      margin: 30px 40px 0px 30px;
 
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 64px;
-          margin: 12px 24px 0px 12px;
-        }
+      @media only screen and (max-width: $mobile-max-width) {
+        width: 64px;
+        margin: 12px 24px 0px 12px;
       }
+    }
 
-      .header__logo-dg {
-        max-width: 260px;
-        width: 100%;
-        padding-top: 16px;
+    .header__logo-dg {
+      max-width: 260px;
+      width: 100%;
+      padding-top: 16px;
 
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 160px;
-          padding-top: 4px;
-        }
+      @media only screen and (max-width: $mobile-max-width) {
+        width: 160px;
+        padding-top: 4px;
       }
     }
 

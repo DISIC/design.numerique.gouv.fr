@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="cover">
-     <div class="cover__container cover--light shadow">
+     <div class="cover__container cover__container--light shadow">
 
        <strong>Covid-19</strong>
        <h1>Justificatif de déplacement professionnel (Français)</h1>

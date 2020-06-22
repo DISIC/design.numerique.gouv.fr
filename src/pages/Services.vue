@@ -112,7 +112,9 @@
 
 <style scoped lang="scss">
 @import "src/assets/scss/_vars.scss";
+
   .content {
+    
     strong {
       color: $blue;
     }

@@ -13,7 +13,7 @@ button, .button {
   cursor: pointer;
   transition: .1s all;
 
-  .button__icon {
+  &__icon {
     padding-left: 8px;
   }
 
@@ -27,28 +27,32 @@ button, .button {
     }
   }
 
-  &.button--blue {
+  &--blue {
     color: $blue;
     border-color: $blue;
 
     &:hover, &:focus {
       @media only screen and (min-width: $mobile-max-width+1) {
         color: white;
+        border-color: $blue;
         background-color: $blue;
       }
     }
   }
 
-  &.button--highlight {
+  &--highlight {
     box-shadow: 5px 5px 0px $light;
   }
 
-  &.button--light {
+  &--light {
     border: none;
     color: $blue;
     padding: 8px 0;
 
     &:hover {
+      background-color: white;
+      color: $blue;
+
       .button__icon {
         padding-left: 16px;
       }

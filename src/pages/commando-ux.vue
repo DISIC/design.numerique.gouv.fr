@@ -49,6 +49,11 @@
             <p>En œuvrant pour l'interêt général</p>
           </div>
         </div>
+
+        <div class="cta">
+          <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Déposez votre candidature !</a>
+          <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
+        </div>
       </section>
 
       <section class="subsection">
@@ -401,6 +406,7 @@
     .cta {
 
       text-align: center;
+      margin-bottom: 64px;
 
       > p {
         margin: 0;

@@ -3,9 +3,9 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
-       <p class="subhead">Recrutement</p>
+       <p class="cover__subhead">Recrutement</p>
        <h1 v-html="$page.job.title" />
 
       </div>

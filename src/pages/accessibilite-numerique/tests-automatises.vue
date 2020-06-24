@@ -16,31 +16,31 @@
     </nav>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
       <h1>Accessibilité numérique</h1>
 
       </div>
     </div>
 
-    <div class="content text-content">
+    <div class="content">
 
       <section>
 
         <h2>Les tests automatisés</h2>
         <p>
           Tout au long du developpement, testez régulièrement l’accessibilité de votre service. Plusieurs outils peuvent vous y aider :</br>
-          <a href="https://accessibilityinsights.io/" target="_blank" class="buttonLight">
-             Extension Chrome et Microsoft analyse accessibilité&nbsp;<span class='arrow'>→</span>
+          <a href="https://accessibilityinsights.io/" target="_blank" class="button button--light">
+             Extension Chrome et Microsoft analyse accessibilité<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </a></br>
-          <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="buttonLight">
-             Extension Firefox analyse des structures HTML5&nbsp;<span class='arrow'>→</span>
+          <a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" class="button button--light">
+             Extension Firefox analyse des structures HTML5<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </a></br>
-          <a href="https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/" target="_blank" class="buttonLight">
-            Extension Firefox controleur de contraste (WCAG 2.1)&nbsp;<span class='arrow'>→</span>
+          <a href="https://addons.mozilla.org/fr/firefox/addon/wcag-contrast-checker/" target="_blank" class="button button--light">
+            Extension Firefox controleur de contraste (WCAG 2.1)<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </a></br>
-          <a href="https://github.com/Tanaguru/webextension" target="_blank" class="buttonLight">
-            Extension Firefox test accessibilité (RGAA 4)&nbsp;<span class='arrow'>→</span>
+          <a href="https://github.com/Tanaguru/webextension" target="_blank" class="button button--light">
+            Extension Firefox test accessibilité (RGAA 4)<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </a>
           <span class="comment">
             Ces extensions analysent la page affichée et permettent facilement de savoir que corriger.

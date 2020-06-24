@@ -2,11 +2,11 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
-      <h1 class="highlight"><Accessibilite class="icon" aria-hidden="true"/>Accessibilité</h1>
+      <h1 class="highlight"><Accessibilite class="h1__icon" aria-hidden="true"/>Accessibilité</h1>
 
-      <p class="subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
+      <p class="cover__subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 
       </div>
 

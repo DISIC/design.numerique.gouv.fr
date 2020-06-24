@@ -2,9 +2,9 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
-       <p class="subhead">À propos</p>
+       <p class="cover__subhead">À propos</p>
        <h1>Le pôle design des services numériques</h1>
 
       </div>
@@ -117,7 +117,7 @@ export default {
       width: 30%;
       margin: 24px 4px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 46%;
       }
 

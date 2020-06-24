@@ -2,15 +2,14 @@
   <div>
 
     <header>
-      <g-link class="header-logo" to="/" title="DesignGouv - Retour à l'accueil">
-        <LogoRF class="rf" role="img" title="Logo Républiqe Française"/>
-        <LogoDG class="dg" role="img" title="Logo DesignGouv"/>
+      <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
+        <LogoRF class="header__logo-rf" role="img" title="Logo Républiqe Française"/>
+        <LogoDG class="header__logo-dg" role="img" title="Logo DesignGouv"/>
       </g-link>
 
       <nav>
         <Menu />
       </nav>
-
     </header>
 
     <main class="layout">
@@ -21,14 +20,14 @@
     <footer>
 
       <g-link to="/" title="DesignGouv - Retour à l'accueil">
-        <LogoRF class="rf" role="img" title="Logo République Française" />
+        <LogoRF class="footer__logo-rf" role="img" title="Logo République Française" />
       </g-link>
 
-      <div class="footer-content">
+      <div class="footer__content">
 
-        <div class="description">
+        <div class="footer__description">
           <g-link to="/" title="DesignGouv - Retour à l'accueil">
-            <LogoDG class="dg" role="img" title="Logo DesignGouv" />
+            <LogoDG class="footer__logo-dg" role="img" title="Logo DesignGouv" />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -36,7 +35,7 @@
           </p>
         </div>
 
-        <div class="websites">
+        <div class="footer__websites">
           <div>
             DesignGouv
             <ul>
@@ -73,7 +72,7 @@
           </div>
         </div>
 
-        <div class="public">
+        <div class="footer__sites-publics">
           <span>Les sites publics :</span>
           <a href="https://elysee.fr" target="_blank">Elysee.fr</a>
           <a href="https://gouvernement.fr" target="_blank">gouvernement.fr</a>
@@ -207,7 +206,7 @@ export default {
     margin: 0 auto;
     padding: 0 30px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;
     }
   }
@@ -217,39 +216,39 @@ export default {
     justify-content: space-between;
     align-items: center;
 
-    .header-logo {
+    .header__logos {
       display: flex;
       justify-content: flex-start;
       align-items: center;
       border: none;
+    }
 
-      .rf {
-        flex-shrink: 0;
-        width: 121px;
-        margin: 30px 40px 0px 30px;
+    .header__logo-rf {
+      flex-shrink: 0;
+      width: 121px;
+      margin: 30px 40px 0px 30px;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
-          width: 64px;
-          margin: 12px 24px 0px 12px;
-        }
+      @media only screen and (max-width: $mobile-max-width) {
+        width: 64px;
+        margin: 12px 24px 0px 12px;
       }
+    }
 
-      .dg {
-        max-width: 260px;
-        width: 100%;
-        padding-top: 16px;
+    .header__logo-dg {
+      max-width: 260px;
+      width: 100%;
+      padding-top: 16px;
 
-        @media only screen and (max-width: $mobileMaxWidth) {
-          width: 160px;
-          padding-top: 4px;
-        }
+      @media only screen and (max-width: $mobile-max-width) {
+        width: 160px;
+        padding-top: 4px;
       }
     }
 
     nav {
       padding: 7px 30px 0 30px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         padding: 0px 12px;
       }
     }
@@ -267,59 +266,59 @@ export default {
       border: none;
     }
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       padding: 20px 12px 24px 12px;
       margin-top: 64px;
       display: inline-block;
     }
 
-    .rf {
+    .footer__logo-rf {
       width: 121px;
       margin: 20px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         margin: 0 0 20px 0;
       }
     }
 
-    .dg {
+    .footer__logo-dg {
       width: 260px;
       max-width: 80%;
     }
 
-    .footer-content {
+    .footer__content {
       margin: 18px 40px 0px 40px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         margin: 0;
       }
+    }
 
-      .description {
-        max-width: 640px;
+    .footer__description {
+      max-width: 640px;
+    }
+
+    .footer__websites {
+      margin: 32px 0 8px 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      div {
+        margin-right: 48px;
+        margin-bottom: 16px;
       }
 
-      .websites {
-        margin: 32px 0 8px 0;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
+      ul {
+        padding: 0;
 
-        div {
-          margin-right: 48px;
-          margin-bottom: 16px;
-        }
-
-        ul {
-          padding: 0;
-
-          li {
-            list-style-type: none;
-          }
+        li {
+          list-style-type: none;
         }
       }
     }
 
-    .public {
+    .footer__sites-publics {
       font-size: .875em;
       display: flex;
       flex-direction: row;

@@ -1,19 +1,25 @@
 $blue: #3355E3;
-$red: #FF5F42;
+$red: #FF5638;
 $light: #FFFF8F;
-$lighter-gray: #fcfcfc;
-$gray: #EBECF0;
-$gray-hover: #D7D8DB;
-$mid-gray: #999;
-$black: #323233;
 
-$mobileMaxWidth: 480px;
+$dark: #171819;
+$black: #27282B;
+
+$lighter-gray: #F7F7F7;
+$gray: #E0E1E1;
+$gray-hover: #D4D4D5;
+$mid-gray: #A9A9AA;
+
+$mobile-max-width: 480px;
 
 :export {
   blue: $blue;
   red: $red;
   light: $light;
+  black: $black;
+  dark: $dark;
+  lighter-gray: $lighter-gray;
   gray: $gray;
   gray-over: $gray-hover;
-  black: $black;
+  mid-gray: $mid-gray;
 }

@@ -2,16 +2,16 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
-      <h1 class="highlight"><Services class="icon" aria-hidden="true"/>Nos services</h1>
+      <h1 class="highlight"><Services class="h1__icon" aria-hidden="true"/>Nos services</h1>
 
-      <p class="subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
+      <p class="cover__subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
         questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,
         demander des conseils pour le développement ou l'amélioration de votre service&nbsp;?
         Nous vous aidons&nbsp;!</p>
 
-      <ServicesIllustration class="illustration" aria-hidden="true"/>
+      <ServicesIllustration class="cover__illustration" aria-hidden="true"/>
 
       </div>
     </div>
@@ -21,7 +21,7 @@
       <section>
 
         <h2>
-          <Services class="icon" aria-hidden="true"/>Les bureaux ouverts
+          <Services class="h2__icon" aria-hidden="true"/>Les bureaux ouverts
         </h2>
         <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
 
@@ -39,7 +39,7 @@
       <section>
 
         <h2>
-          <Services class="icon" aria-hidden="true"/>Les revues de conception
+          <Services class="h2__icon" aria-hidden="true"/>Les revues de conception
         </h2>
         <p>Lors d'un atelier d'un demi-journée, présentez votre service à des membres de la communauté DesignGouv (designers, chefs de projet, etc.) qui vous aideront à mener à bien votre projet. Obtenez des avis, des conseils, des idées, des retours d'expérience.</p>
 
@@ -57,7 +57,7 @@
       <section>
 
         <h2>
-          <Services class="icon" aria-hidden="true"/>Le commando UX
+          <Services class="h2__icon" aria-hidden="true"/>Le commando UX
         </h2>
         <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
 
@@ -112,7 +112,9 @@
 
 <style scoped lang="scss">
 @import "src/assets/scss/_vars.scss";
+
   .content {
+    
     strong {
       color: $blue;
     }

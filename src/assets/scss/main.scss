@@ -7,6 +7,10 @@ body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
   color: $black;
+
+  .highlight {
+    text-shadow: 5px 5px 0px $light;
+  }
 }
 
 a {
@@ -25,6 +29,7 @@ h1, h2, h3 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2;
   letter-spacing: -0.10px;
+  color: $dark;
 }
 
 h1 {
@@ -32,8 +37,24 @@ h1 {
   font-weight: 800;
   color: $blue;
 
-  @media only screen and (max-width: $mobileMaxWidth) {
+  @media only screen and (max-width: $mobile-max-width) {
     font-size: 2em;
+  }
+
+  .h1__icon {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    margin-bottom: -5px;
+    margin-right: 24px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      display: inline;
+      height: 36px;
+      width: 36px;
+      margin-bottom: -6px;
+      margin-right: 12px;
+    }
   }
 }
 
@@ -41,17 +62,17 @@ h2 {
   font-size: 2.25em;
   font-weight: 800;
 
-  @media only screen and (max-width: $mobileMaxWidth) {
+  @media only screen and (max-width: $mobile-max-width) {
     font-size: 1.5em;
   }
 
-  .icon {
+  .h2__icon {
     height: 32px;
     width: 32px;
     margin-right: 12px;
     margin-bottom: -3px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       height: 24px;
       width: 24px;
       margin-right: 8px;
@@ -61,13 +82,9 @@ h2 {
 }
 
 nav.breadcrumb {
-  //padding: 0.8em 1em;
-  //border: 1px solid $gray-hover;
-  //border-radius: 5px;
-  //background: $lighter-gray;
   margin-top: 16px;
 
-  @media only screen and (max-width: $mobileMaxWidth) {
+  @media only screen and (max-width: $mobile-max-width) {
     font-size: 0.875em;
   }
 
@@ -108,33 +125,13 @@ nav.breadcrumb {
   }
 }
 
-.page-header {
-  padding: 80px 0;
-}
-
-.highlight {
-  text-shadow: 5px 5px 0px $light;
-}
-
-.shadow {
-  box-shadow: 5px 5px 0px $light;
-}
-
-.small {
-  max-width: 600px;
-}
-
-.medium {
-  max-width: 680px;
-}
-
 .content {
   margin: 0 auto;
 
   section {
     margin-bottom: 80px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;
     }
   }
@@ -149,133 +146,104 @@ nav.breadcrumb {
   margin-left: -50vw;
   left: 50%;
 
-  @media only screen and (max-width: $mobileMaxWidth) {
+  @media only screen and (max-width: $mobile-max-width) {
     margin-top: 40px;
     margin-bottom: 40px;
   }
 
-  .container {
+  &__container {
     max-width: 920px;
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
 
-    strong {
-      display: block;
-      font-size: 1.25em;
-      margin-top: 8px;
-      margin-bottom: -16px;
-    }
+    h1 {
+      margin: 24px 0;
 
-    .illustration {
-      height: 240px;
-      padding-top: 32px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        height: 160px;
-        padding-top: 24px;
+      @media only screen and (max-width: $mobile-max-width) {
+        margin: 32px 0 24px 0;
       }
     }
 
-    &.light {
+    &--light {
       text-align: left;
       margin-top: 32px;
       margin-bottom: -32px;
       max-width: 760px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         margin-top: 48px;
       }
 
       h1 {
-        color: $black;
-        margin-bottom: 0;
+        color: $dark;
       }
     }
   }
 
-  h1 {
-    margin: 24px 0;
+  &__illustration {
+    height: 240px;
+    padding-top: 32px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
-      margin: 32px 0 24px 0;
-    }
-
-    .icon {
-      display: inline-block;
-      height: 48px;
-      width: 48px;
-      margin-bottom: -5px;
-      margin-right: 24px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        display: inline;
-        height: 36px;
-        width: 36px;
-        margin-bottom: -6px;
-        margin-right: 12px;
-      }
+    @media only screen and (max-width: $mobile-max-width) {
+      height: 160px;
+      padding-top: 24px;
     }
   }
 
-  .subhead {
+  &__subhead {
     max-width: 760px;
     margin: 0 auto;
     font-size: 1.25em;
     font-weight: bold;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: -16px;
       font-size: 1.125em;
     }
+  }
 
-    .icon {
-      display: inline-block;
-      height: 24px;
-      width: 24px;
-      margin-bottom: -4px;
+  &__subhead-icon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin-bottom: -4px;
+    margin-right: 8px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      display: inline;
+      height: 20px;
+      width: 20px;
+      margin-bottom: -3px;
       margin-right: 8px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        display: inline;
-        height: 20px;
-        width: 20px;
-        margin-bottom: -3px;
-        margin-right: 8px;
-      }
     }
   }
 
-  .subtitle {
+  &__subtitle {
     max-width: 760px;
     margin: 0 auto;
     font-size: 1.25em;
     font-weight: 500;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       font-weight: 500;
       font-size: 1.125em;
       margin-bottom: 16px;
     }
   }
 
-  button, .button {
-    margin: 4px 8px;
-    display: inline-block;
-  }
-}
+  &--with-breadcrumb {
+    margin-top: 64px;
+    margin-bottom: 80px;
 
-.coverWithBreadcrumb {
-  margin-top: 64px;
-  margin-bottom: 80px;
+    .cover__container {
+      max-width: 760px;
+    }
 
-  .container {
-    max-width: 760px;
-  }
-
-  @media only screen and (max-width: $mobileMaxWidth) {
-    margin-top: 40px;
-    margin-bottom: 64px;
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-top: 40px;
+      margin-bottom: 64px;
+    }
   }
 }
 
@@ -285,7 +253,7 @@ nav.breadcrumb {
   padding: 32px 48px 16px 48px;
   border-radius: 32px;
 
-  @media only screen and (max-width: $mobileMaxWidth) {
+  @media only screen and (max-width: $mobile-max-width) {
     padding: 24px 24px 8px 24px;
   }
 
@@ -294,7 +262,7 @@ nav.breadcrumb {
     font-size: 1.75em;
     padding-bottom: 4px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       font-size: 1.5em;
     }
   }

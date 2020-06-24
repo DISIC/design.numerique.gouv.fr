@@ -13,29 +13,49 @@ button, .button {
   cursor: pointer;
   transition: .1s all;
 
+  &__icon {
+    padding-left: 8px;
+  }
+
   &:hover, &:focus {
     text-decoration: none;
     border-color: black;
 
-    @media only screen and (min-width: $mobileMaxWidth+1) {
+    @media only screen and (min-width: $mobile-max-width+1) {
       background-color: $black;
       color: white;
     }
   }
 
-  &.blue {
+  &--blue {
     color: $blue;
     border-color: $blue;
 
     &:hover, &:focus {
-      @media only screen and (min-width: $mobileMaxWidth+1) {
+      @media only screen and (min-width: $mobile-max-width+1) {
         color: white;
+        border-color: $blue;
         background-color: $blue;
       }
     }
   }
 
-  .icon {
-    padding-left: 8px;
+  &--highlight {
+    box-shadow: 5px 5px 0px $light;
+  }
+
+  &--light {
+    border: none;
+    color: $blue;
+    padding: 8px 0;
+
+    &:hover {
+      background-color: white;
+      color: $blue;
+
+      .button__icon {
+        padding-left: 16px;
+      }
+    }
   }
 }

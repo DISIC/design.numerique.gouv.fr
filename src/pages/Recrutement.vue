@@ -2,7 +2,7 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
        <h1>Recrutement</h1>
 
@@ -145,7 +145,7 @@ export default {
 
       }
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 100%;
       }
 

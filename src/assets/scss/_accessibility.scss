@@ -27,7 +27,7 @@
       align-items: center;
       flex-direction: column;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 100%;
         margin-right: 0;
       }
@@ -62,7 +62,7 @@
       width: 70%;
       margin-right: 40px;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 100%;
         margin-right: 0;
       }
@@ -73,7 +73,7 @@
       margin-top: 10px;
       margin-right: 0;
 
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         display: none;
       }
     }
@@ -90,39 +90,5 @@
     display: inline-block;
     font-weight: normal;
     margin-top: 10px;
-  }
-
-  .button {
-    text-decoration: none;
-    border: 2px solid $blue;
-    background-color: white;
-    border-radius: 32px;
-    padding: 8px 24px;
-    font-weight: bold;
-    display: inline-block;
-    margin: 10px 0;
-
-    @media only screen and (max-width: $mobileMaxWidth) {
-      font-size: 0.875em;
-    }
-
-    &:hover {
-      background: $blue;
-      color: white;
-    }
-  }
-
-  .buttonLight {
-    text-decoration: none;
-    background-color: white;
-    font-weight: bold;
-    display: inline-block;
-    margin: 12px 0 0 0;
-
-    &:hover {
-      .arrow {
-        padding: 0 0 0 10px;
-      }
-    }
   }
 }

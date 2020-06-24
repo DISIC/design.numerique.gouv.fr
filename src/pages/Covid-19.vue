@@ -2,12 +2,12 @@
   <Layout>
 
     <div class="cover">
-     <div class="container">
+     <div class="cover__container">
 
        <!-- <strong>Coronavirus</strong> -->
        <h1>Coronavirus : les opportunités d'<span class="highlight">entraide</span></h1>
 
-       <p class="subtitle">Retrouvez ci-dessous notre liste d'initiatives pour s'impliquer
+       <p class="cover__subtitle">Retrouvez ci-dessous notre liste d'initiatives pour s'impliquer
           et aider dans différents domaines pendant l'épidémie de Coronavirus.</p>
 
       </div>
@@ -172,7 +172,7 @@ export default {
     vertical-align: top;
     margin: 0px 16px 80px 16px;
     width: 348px;
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       width: 92%;
       margin: 0px 0px 64px 0;
     }

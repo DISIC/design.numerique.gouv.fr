@@ -3,16 +3,16 @@
   <div>
     <button id="menu-button" type="button" aria-haspopup="true" title="Menu"
       aria-expanded="false" @click="toggle" v-click-outside="hide">
-      <span id="menu-button-text" class="text">Menu</span>
-      <font-awesome id="menu-button-icon" class="icon" :icon="['fas', 'bars']"/>
+      <span id="menu-button__text" class="menu-button__text">Menu</span>
+      <font-awesome id="menu-button__icon" class="menu-button__icon" :icon="['fas', 'bars']"/>
     </button>
     <ul id="menu" role="menu">
-      <li role="none"><g-link class="button" to="/" role="menuitem">Accueil<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/formations/" role="menuitem">Les formations<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/equipe/" role="menuitem">Notre équipe<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/recrutement/" role="menuitem">Recrutement<font-awesome class="icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/" role="menuitem">Accueil<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/formations/" role="menuitem">Les formations<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/equipe/" role="menuitem">Notre équipe<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/recrutement/" role="menuitem">Recrutement<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
     </ul>
   </div>
 
@@ -28,9 +28,9 @@
     methods: {
       toggle() {
         document.getElementById("menu").classList.toggle("show");
-        document.getElementById("menu-button-text").classList.toggle("show");
-        document.getElementById("menu-button-icon").classList.toggle("hide");
-        document.getElementById("menu-button").classList.toggle("open");
+        document.getElementById("menu-button__text").classList.toggle("show");
+        document.getElementById("menu-button__icon").classList.toggle("hide");
+        document.getElementById("menu-button").classList.toggle("menu-button--menu-opened");
         var expanded = document.getElementById("menu-button").getAttribute("aria-expanded");
         var text = "Menu";
         if (expanded == "true") {
@@ -45,11 +45,11 @@
       },
       hide() {
         document.getElementById("menu").classList.remove("show");
-        document.getElementById("menu-button").classList.remove("open");
+        document.getElementById("menu-button").classList.remove("menu-button--menu-opened");
         document.getElementById("menu-button").setAttribute("aria-expanded", false);
-        document.getElementById("menu-button-text").innerHTML = "Menu";
-        document.getElementById("menu-button-text").classList.remove("show");
-        document.getElementById("menu-button-icon").classList.remove("hide");
+        document.getElementById("menu-button__text").innerHTML = "Menu";
+        document.getElementById("menu-button__text").classList.remove("show");
+        document.getElementById("menu-button__icon").classList.remove("hide");
       }
     },
     directives: {
@@ -67,19 +67,19 @@
   button {
     height: 44px;
     transition: none;
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       width: 44px;
       padding: 8px;
       border-radius: 50%;
     }
 
-    &.open {
+    &.menu-button--menu-opened {
       position: absolute;
       top: 52px;
       right: 30px;
       border-radius: 0;
       width: 284px;
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         width: 100vw;
         top: 0;
         right: 0;
@@ -90,15 +90,15 @@
       }
     }
 
-    .text {
-      @media only screen and (max-width: $mobileMaxWidth) {
+    .menu-button__text {
+      @media only screen and (max-width: $mobile-max-width) {
         display: none;
       }
     }
 
-    .icon {
+    .menu-button__icon {
       display: none;
-      @media only screen and (max-width: $mobileMaxWidth) {
+      @media only screen and (max-width: $mobile-max-width) {
         padding: 0;
         display: inline-block;
       }
@@ -117,7 +117,7 @@
     top: 94px;
     right: 30px;
 
-    @media only screen and (max-width: $mobileMaxWidth) {
+    @media only screen and (max-width: $mobile-max-width) {
       border: none;
       top: 71px;
       right: 0px;
@@ -134,35 +134,22 @@
         border-radius: 0;
         padding: 14px 24px;
 
-        .icon {
+        .button__icon {
           display: none;
           color: $light;
         }
 
         &:hover, &:focus {
-          .icon {
-            @media only screen and (min-width: $mobileMaxWidth+1) {
+          .button__icon {
+            @media only screen and (min-width: $mobile-max-width+1) {
               display: inline-block;
             }
           }
         }
 
-        @media only screen and (max-width: $mobileMaxWidth) {
+        @media only screen and (max-width: $mobile-max-width) {
           text-align: center;
         }
-      }
-    }
-
-    .close {
-      width: 100%;
-      border: none;
-      border-radius: 0px;
-      text-align: right;
-      padding: 14px 24px;
-
-      @media only screen and (max-width: $mobileMaxWidth) {
-        padding: 32px 32px 48px 0;
-        width: 100vw;
       }
     }
   }

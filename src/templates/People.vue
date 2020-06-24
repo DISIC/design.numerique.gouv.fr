@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <div class="cover">
-     <div class="container">
-       <p class="subhead">Notre équipe</p>
+     <div class="cover__container">
+       <p class="cover__subhead">Notre équipe</p>
        <h1>{{ $page.people.firstName }} {{ $page.people.lastName }}</h1>
        <!-- <g-image :src="$page.people.photo" /> -->
      </div>

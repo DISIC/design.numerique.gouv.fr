@@ -79,9 +79,9 @@
         </h2>
         <ul class="challenge">
           <li v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <!-- <g-image :src="node.photo" quality="100" height="150" width="150" /> -->
-            <strong>{{ node.name }}</strong>
-            <p>{{ node.description }}</p>
+            <g-image :src="node.illustration" quality="100" height="150" width="150" />
+            <h4>{{ node.name }}</h4>
+            <p>{{ node.profils }}</p>
             <p>{{ node.department }}</p>
             <p>{{ node.place }}</p>
           </li>
@@ -206,9 +206,10 @@
         node {
         	id
           name
-          description
+          illustration
           department
           place
+          profils
         }
       }
     }
@@ -282,8 +283,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
-    strong {
-      margin-bottom: 4px;
+    h4 {
+      margin: 4px 0;
     }
 
     > li {

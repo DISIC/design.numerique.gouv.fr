@@ -55,7 +55,7 @@ export default {
 query Challenge ($id: ID!) {
   challenge: challenge (id: $id) {
     name
-    departement
+    department
     direction
     content
   }

@@ -23,7 +23,7 @@
           <CommandoUX class="h2__icon" aria-hidden="true"/>Appel à candidatures
         </h2>
         <p>
-          Vous êtes designer ou développeur ? Vous souhaitez œuvrer pour l'interêt général ? Vous êtes disponible pendant 4 mois à partir de septembre 2020 ? Le programme Commando UX vous proposer 8 défis à relever au sein des administrations de l'état !
+          Vous êtes designer ou développeur ? Vous souhaitez œuvrer pour l'intérêt général ? Vous êtes disponible pendant 4 mois à partir de septembre 2020 ? Le programme Commando UX vous proposer 8 défis à relever au sein des administrations de l'État !
         </p>
         <div class="key-elements">
           <div class="element">
@@ -39,14 +39,16 @@
             <p>À temps plein pendant 4 mois</p>
           </div>
           <div class="element">
-            <g-image src="~/assets/images/commandoux/top-250.svg"
-                     quality="100" height="64" width="64" aria-hidden="true"/>
+            <div>
+              <font-awesome :icon="['fas', 'flag']"/>
+            </div>
             <p>Pour améliorer les démarches de l'État</p>
           </div>
           <div class="element">
-            <g-image src="~/assets/images/commandoux/100-percent.svg"
-                     quality="100" height="64" width="64" aria-hidden="true"/>
-            <p>En œuvrant pour l'interêt général</p>
+            <div>
+              <font-awesome :icon="['fas', 'star']"/>
+            </div>
+            <p>Et œuvrer pour l'interêt général</p>
           </div>
         </div>
 
@@ -57,16 +59,16 @@
       </section>
 
       <section class="subsection">
-        <h3>Prenez part à l'amélioration concrète du quotidien des français</h3>
+        <h3>Prenez part à l'amélioration concrète du quotidien des Français</h3>
         <p>
-          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par le français, et contribuer ainsi à les rendre plus simple, plus inclusive et plus désirables. Nous avons séléctionné 8 défis à relever à partir de septembre 2020. Votre mission sera d'apporter votre expértise pour aboutir, en 4 mois, à l'amélioration concrète de la démarche.
+          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables. Nous avons sélectionné 8 défis à relever à partir de septembre 2020. Votre mission sera d'apporter votre expertise pour aboutir, en 4 mois, à l'amélioration concrète de la démarche.
         </p>
       </section>
 
       <section>
-        <h3>4 mois au cœur des administrations de l'état</h3>
+        <h3>4 mois au cœur des administrations de l'État</h3>
         <p>
-          En relevant l'un des défis, vous aurez l'occasion d'intégrer l'équipe en charge d'une des démarche administrative en ligne les plus utilisées par les français. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
+          En relevant l'un des défis, vous aurez l'occasion d'intégrer l'équipe responsable d'une des démarches administratives en ligne les plus utilisées par les Français. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
         </p>
         <p>
           Pour mener à bien votre mission, vous pourrez compter sur l’appui d’un référent au sein de l’administration d’accueil, et de 2 design managers et 1 UX researcher de la DINUM.
@@ -94,13 +96,13 @@
           <CommandoUX class="h2__icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
         </h2>
         <p>
-          Pour chaque défi, votre objectif sera de transformer rapidement le service public numériques concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apportent même du <strong>plaisir</strong> aux usagers.
+          Pour chaque défi, votre objectif sera de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
         </p>
         <p>
           Pour l'ensemble des missions, nous attendons les qualités suivantes :
         </p>
         <ul>
-          <li>Pour les designers : votre sens de l’esthétique, votre expérience (UX/UI/développement) et vos connaissance des technologies numériques</li>
+          <li>Pour les designers : votre sens de l’esthétique, votre expérience (UX/UI/développement) et vos connaissances des technologies numériques</li>
           <li>Pour les développeurs : votre expertise des technologies et des langages utilisés</li>
           <li>Votre empathie, votre capacité à vous adapter, votre niveau d’exigence et votre rapidité d’exécution</li>
           <li>Enfin, votre engouement pour l’intérêt général</li>
@@ -118,10 +120,10 @@
         </h2>
         <p><strong>Dates de la mission:</strong> du 7 septembre 2020 au 31 décembre 2020</p>
         <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> Entre 3000€ et 3500€ nets par mois, selon profil</p>
+        <p><strong>Rémunération :</strong> Entre 3000€ et 3500€ net par mois, selon profil</p>
         <p><strong>Lieu de travail :</strong> Voir le détail de chaque défi</p>
         <p><strong>Transport :</strong> À votre charge</p>
-        <p><strong>Équipement :</strong> Vous utiliserez votre propre matériel et logiciels</p>
+        <p><strong>Équipement :</strong> Vous utiliserez votre propre matériel et vos logiciels</p>
         <p><strong>Accompagnement :</strong> L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">
@@ -431,7 +433,6 @@
       }
 
       @media only screen and (max-width: $mobile-max-width) {
-        text-align: left;
         margin-bottom: 32px;
       }
     }

@@ -4,19 +4,19 @@
     <div class="cover">
      <div class="cover__container">
 
+       <CommandouxIllustration class="cover__illustration--small" aria-hidden="true"/>
+
       <h1>Défi Pôle emploi</h1>
 
       <p class="cover__subtitle">
         S'inscrire ou se réinscrire comme demendaur d'emploi à Pôle emploi
       </p>
 
-      <CommandouxIllustration class="cover__illustration" aria-hidden="true"/>
-
       </div>
     </div>
 
     <div class="content medium">
-        <section class="subsection">
+        <section>
         <h2>
           <CommandoUX class="h2__icon" aria-hidden="true"/>Éléments clé
         </h2>
@@ -78,10 +78,11 @@
             <h2>
                 <CommandoUX class="h2__icon" aria-hidden="true"/>Profils recherchés
             </h2>
+            <section class="subsection">
             <h3>Un développeur ou une développeuse</h3>
                 <p>
                     <strong>Missions</strong>
-                    <br>Un gentille petite mission bien sympa.
+                    <br>Une gentille petite mission bien sympa.
                 </p>
 
                 <p>
@@ -91,9 +92,28 @@
                         <li>Compétences</li>
                     </ul>
                 </p>
+            </section>
+
+
+            <section class="subsection">
+            <h3>Un ou une designer</h3>
+                <p>
+                    <strong>Missions</strong>
+                    <br>Une autre gentille petite mission bien sympa.
+                </p>
+
+                <p>
+                    <strong>Compétences</strong>
+                    <ul>
+                        <li>Compétence</li>
+                        <li>Compétences</li>
+                        <li>Compétences</li>
+                    </ul>
+                </p>
+            </section>
 
             <div class="cta">
-                <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Canditater</a>
+                <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Canditater à ce défi</a>
                 <p>Jusqu'au vendredi 19 juin 2020 à 23h59</p>
             </div>
         </section>
@@ -120,3 +140,71 @@
   }
 
 </script>
+
+<style scoped lang="scss">
+
+  @import "src/assets/scss/_vars.scss";
+
+  .content {
+
+    .button {
+      text-decoration: none;
+      border-color: $blue;
+      background-color: $blue;
+      color: white;
+      border-radius: 32px;
+      padding: 8px 24px;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px 0;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        font-size: 0.875em;
+      }
+
+      &:hover {
+        background: $red;
+        border-color: $red;
+      }
+    }
+
+    h3{
+      color: $blue;
+    }
+
+    a {
+      svg {
+        padding-right: 12px;
+        transition: .1s all;
+      }
+
+      &:hover {
+        svg {
+          padding-left: 8px;
+          padding-right: 4px;
+        }
+      }
+    }
+
+    .subsection {
+      margin-bottom: 40px;
+    }
+
+    .cta {
+
+      text-align: center;
+
+      > p {
+        margin: 0;
+        display: block;
+        font-size: 0.9em;
+        color: $mid-gray;
+      }
+
+      @media only screen and (max-width: $mobile-max-width) {
+        text-align: left;
+      }
+    }
+  }
+
+</style>

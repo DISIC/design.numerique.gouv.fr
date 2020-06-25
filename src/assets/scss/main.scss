@@ -189,6 +189,14 @@ nav.breadcrumb {
       height: 160px;
       padding-top: 24px;
     }
+
+    &--small{
+      height: 120px;
+
+      @media only screen and (max-width: $mobile-max-width){
+        height: 80px;
+      }
+    }
   }
 
   &__subhead {

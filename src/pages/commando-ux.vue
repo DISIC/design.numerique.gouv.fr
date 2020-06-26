@@ -118,12 +118,18 @@
         <h2>
           <CommandoUX class="h2__icon" aria-hidden="true"/>Informations pratiques
         </h2>
-        <p><strong>Dates de la mission:</strong> du 7 septembre 2020 au 31 décembre 2020</p>
+        <p><strong>Dates de la mission :</strong> du 7 septembre 2020 au 31 décembre 2020</p>
         <p><strong>Type de contrat :</strong> CDD à temps plein</p>
         <p><strong>Rémunération :</strong> Entre 3000€ et 3500€ net par mois, selon profil</p>
-        <p><strong>Lieu de travail :</strong> Voir le détail de chaque défi</p>
+        <p><strong>Lieu de travail :</strong> Voir le détail dans chaque défi</p>
         <p><strong>Transport :</strong> À votre charge</p>
-        <p><strong>Équipement :</strong> Vous utiliserez votre propre matériel et vos logiciels</p>
+        <p><strong>Conditions :</strong>
+          <ul>
+            <li>Être une personne physique (et non morale)</li>
+            <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
+            <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
+          </ul>
+        </p>
         <p><strong>Accompagnement :</strong> L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">

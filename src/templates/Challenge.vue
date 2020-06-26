@@ -26,10 +26,22 @@
           <span v-html="$page.challenge.name" />
         </p>
         <!-- tag designer et/ou developpeur a ajouter -->
+        <section>
+        <div class="cta">
+        <a
+          href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
+          target="_blank"
+          class="button"
+        >Canditater à ce défi !</a>
+        <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
+        </div>
+      </section>
       </div>
     </div>
 
     <div class="content challenge">
+
+
       <section>
         <h2>
         Éléments clé
@@ -65,7 +77,7 @@
           target="_blank"
           class="button"
         >Canditater à ce défi !</a>
-        <p>Jusqu'au vendredi 19 juin 2020 à 23h59</p>
+        <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
         </div>
       </section>
     </div>
@@ -89,8 +101,40 @@ export default {
       meta: [
         {
           name: "description",
+          content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+        },
+        {
+          property: 'og:title',
+          content: this.$page.challenge.title
+        },
+        {
+          property: 'og:description',
+          content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+        },
+          {
+          property: 'og:image',
+          content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image"
+        },
+        {
+          name: "twitter:site",
+          content: "@Design_Gouv"
+        },
+        {
+          name: "twitter:title",
           content: this.$page.challenge.name
-        }
+        },
+        {
+          name: "twitter:description",
+          content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+        },
+        {
+          name: "twitter:image",
+          content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+        },
       ]
     };
   }
@@ -111,7 +155,7 @@ query Challenge ($id: ID!) {
 }
 </page-query>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import "src/assets/scss/_vars.scss";
 
 // p{
@@ -133,8 +177,7 @@ query Challenge ($id: ID!) {
   // }
 }
 
-.content {
-  .button {
+.button {
     text-decoration: none;
     border-color: $blue;
     background-color: $blue;
@@ -155,6 +198,25 @@ query Challenge ($id: ID!) {
     }
   }
 
+  .cta {
+    text-align: center;
+    margin-top:36px;
+
+    > p {
+      margin: 0;
+      display: block;
+      font-size: 0.9em;
+      color: $mid-gray;
+    }
+
+    @media only screen and (max-width: $mobile-max-width) {
+      text-align: left;
+    }
+  }
+
+
+.content {
+  
   a {
     svg {
       padding-right: 12px;

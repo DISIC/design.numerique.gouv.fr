@@ -134,6 +134,14 @@
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">
           <li>
+            <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
+                     quality="100" height="120" width="120"
+                     alt="Photo Ugo Dessertine"/>
+            <p><strong>Faustine Demiselle</strong></p>
+            <p>Designer</p>
+            <p>Commando UX</p>
+          </li>
+          <li>
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
                      quality="100" height="120" width="120"
                      alt="Photo Ugo Dessertine"/>
@@ -478,15 +486,17 @@
 
     .team {
       padding: 0;
-      margin: 40px auto 0;
+      margin: 8px auto 0;
       display: flex;
-      justify-content: space-between;
-      max-width: 450px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      //max-width: 560px;
 
       li {
         list-style: none;
         text-align: center;
-        width: 200px;
+        width: 160px;
+        margin-top: 32px;
 
         img {
           border-radius: 50em;

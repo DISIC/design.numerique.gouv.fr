@@ -166,7 +166,7 @@
         </h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>
-          Appel à défis : administrations, <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank">soumettez votre projet</a> de l'Observatoire.
+          Appel à défis : administrations, soumettez votre projet de l'Observatoire.
         </p>
         <p>
           <strong>22 juin – 26 juin 2020</strong><br>
@@ -490,7 +490,6 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      //max-width: 560px;
 
       li {
         list-style: none;

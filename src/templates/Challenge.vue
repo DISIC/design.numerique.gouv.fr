@@ -49,7 +49,7 @@
         <p>
           <strong>Ministère bénéficiant du défi</strong>
           <br />
-          <span v-html="$page.challenge.departement" />
+          <span v-html="$page.challenge.department" />
         </p>
         <p>
           <strong>Administration bénéficiant du défi</strong>

@@ -32,7 +32,7 @@
           href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
           target="_blank"
           class="button"
-        >Canditater à ce défi !</a>
+        >Canditater à ce défi</a>
         <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
         </div>
       </section>
@@ -75,8 +75,9 @@
         <a
           href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
           target="_blank"
-          class="button"
-        >Canditater à ce défi !</a>
+          class="button">
+          Canditater à ce défi !
+        </a>
         <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
         </div>
       </section>
@@ -158,23 +159,16 @@ query Challenge ($id: ID!) {
 <style scoped lang="scss">
 @import "src/assets/scss/_vars.scss";
 
-// p{
-//   margin:0;
-// }
+.challenge {
 
-.challenge{
   h3 {
     color: $blue;
     margin-top:36px;
   }
 
-  h2{
+  h2 {
     margin-top: 54px;
   }
-
-  // h3, h4{
-  //   margin-bottom:0px;
-  // }
 }
 
 .button {
@@ -200,7 +194,7 @@ query Challenge ($id: ID!) {
 
   .cta {
     text-align: center;
-    margin-top:36px;
+    margin-top: 28px;
 
     > p {
       margin: 0;
@@ -208,15 +202,11 @@ query Challenge ($id: ID!) {
       font-size: 0.9em;
       color: $mid-gray;
     }
-
-    @media only screen and (max-width: $mobile-max-width) {
-      text-align: left;
-    }
   }
 
 
 .content {
-  
+
   a {
     svg {
       padding-right: 12px;
@@ -234,21 +224,5 @@ query Challenge ($id: ID!) {
   .subsection {
     margin-bottom: 40px;
   }
-
-  .cta {
-    text-align: center;
-
-    > p {
-      margin: 0;
-      display: block;
-      font-size: 0.9em;
-      color: $mid-gray;
-    }
-
-    @media only screen and (max-width: $mobile-max-width) {
-      text-align: left;
-    }
-  }
 }
 </style>
-

@@ -7,7 +7,7 @@
       <h1 class="highlight"><CommandoUX class="h1__icon" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
-        Designers et développeurs : venez relever le défi et améliorer l'expérience d'un des 250&nbsp;services publics numériques les plus utilisés par les Français !
+        Designers et développeurs auront 4 mois pour améliorer l'expérience de 5 à 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
       <CommandouxIllustration class="cover__illustration" aria-hidden="true"/>
@@ -20,12 +20,17 @@
       <section class="subsection">
 
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Appel à candidatures
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Appel à défis
         </h2>
         <p>
-          Vous êtes designer ou développeur ? Vous souhaitez œuvrer pour l'intérêt général ? Vous êtes disponible pendant 4 mois à partir de septembre 2020 ? Le programme Commando UX vous proposer 8 défis à relever au sein des administrations de l'État !
+          Nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
         </p>
         <div class="key-elements">
+          <div class="element">
+            <g-image src="~/assets/images/commandoux/top-250.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
+            <p>Les démarches phares de l'État</p>
+          </div>
           <div class="element">
             <div>
               <font-awesome :icon="['fas', 'user-astronaut']"/>
@@ -39,74 +44,38 @@
             <p>À temps plein pendant 4 mois</p>
           </div>
           <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'flag']"/>
-            </div>
-            <p>Pour améliorer les démarches de l'État</p>
-          </div>
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'star']"/>
-            </div>
-            <p>Et œuvrer pour l'interêt général</p>
+            <g-image src="~/assets/images/commandoux/100-percent.svg"
+                     quality="100" height="64" width="64" aria-hidden="true"/>
+            <p>Financement par la DINUM</p>
           </div>
         </div>
-
+      </section>
+      <section class="subsection">
+        <h3>Vous travaillez pour l'un des services numériques suivi dans l'Observatoire ?</h3>
+        <p>
+          Vous avez jusqu'au <strong>19 juin 2020</strong> à 23h59 pour soumettre le projet de l'Observatoire sur lequel vous travaillez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
+        </p>
         <div class="cta">
-          <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Déposez votre candidature !</a>
-          <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
+          <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" class="button">Candidatez et proposez votre défi !</a>
+          <p>Jusqu'au vendredi 19 juin 2020 à 23h59</p>
         </div>
-      </section>
 
+      </section>
       <section class="subsection">
-        <h3>Prenez part à l'amélioration concrète du quotidien des Français</h3>
+        <h3>À la clé pour vous</h3>
         <p>
-          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables. Nous avons sélectionné 8 défis à relever à partir de septembre 2020. Votre mission sera d'apporter votre expertise pour aboutir, en 4 mois, à l'amélioration concrète de la démarche.
+          Au terme des 2 semaines d'appel à défis, nous sélectionnerons les 5 à 10 projets les plus impactants pour les usagers. Nous recruterons des designers et développeurs qui auront 4 mois, de septembre 2020 à décembre 2020, pour améliorer concrètement la qualité de l'expérience vécue sur votre service numérique. 1 à 2 experts seront déployées au sein de votre équipe.
+        </p>
+        <p>
+          En fonction des défis, nous recruterons des designers, avec un appui potentiel de développeurs si vos équipes en manquent. Les développeurs devront connaître les technologies et langages utilisés sur vos services numériques. Dans tous les cas, la possibilité pour les designers de voir leurs préconisations mises en œuvre par des développeurs est une condition indispensable. Vous serez à nos côtés pour valider ces profils qui seront recrutés au sein de la direction interministérielle du numérique.
         </p>
       </section>
 
       <section>
-        <h3>4 mois au cœur des administrations de l'État</h3>
+        <h3>Combien ça coûte ?</h3>
         <p>
-          En relevant l'un des défis, vous aurez l'occasion d'intégrer l'équipe responsable d'une des démarches administratives en ligne les plus utilisées par les Français. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
+          Rien pour vous. La direction interministérielle du numérique (DINUM) prendra en charge à 100% le salaire des profils recrutés.
         </p>
-        <p>
-          Pour mener à bien votre mission, vous pourrez compter sur l’appui d’un référent au sein de l’administration d’accueil, et de 2 design managers et 1 UX researcher de la DINUM.
-        </p>
-      </section>
-
-      <section>
-        <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Les défis
-        </h2>
-        <ul class="challenge">
-          <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration"/>
-            <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.name }}</g-link></h3>
-            <p v-if="node.designer" class="challenge__profil">Designer</p>
-            <p v-if="node.developer" class="challenge__profil">Développeur</p>
-            <p class="challenge__department">{{ node.department }}</p>
-            <p class="challenge__place">{{ node.place }}</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
-        </h2>
-        <p>
-          Pour chaque défi, votre objectif sera de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
-        </p>
-        <p>
-          Pour l'ensemble des missions, nous attendons les qualités suivantes :
-        </p>
-        <ul>
-          <li>Pour les designers : votre sens de l’esthétique, votre expérience (UX/UI/développement) et vos connaissances des technologies numériques</li>
-          <li>Pour les développeurs : votre expertise des technologies et des langages utilisés</li>
-          <li>Votre empathie, votre capacité à vous adapter, votre niveau d’exigence et votre rapidité d’exécution</li>
-          <li>Enfin, votre engouement pour l’intérêt général</li>
-        </ul>
       </section>
 
       <section class="quote">
@@ -116,20 +85,53 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Informations pratiques
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
         </h2>
-        <p><strong>Dates de la mission:</strong> du 7 septembre 2020 au 31 décembre 2020</p>
-        <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> Entre 3000€ et 3500€ net par mois, selon profil</p>
-        <p><strong>Lieu de travail :</strong> Voir le détail de chaque défi</p>
-        <p><strong>Transport :</strong> À votre charge</p>
-        <p><strong>Équipement :</strong> Vous utiliserez votre propre matériel et vos logiciels</p>
-        <p><strong>Accompagnement :</strong> L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet.</p>
-        <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
+        <p>À travers ce programme, notre objectif est de mettre à votre disposition des experts qui s'attèleront à transformer rapidement vos services numériques pour les rendre plus <strong>fluides</strong>, <strong>efficaces</strong> et <strong>compréhensibles</strong>. Et qu'ils apportent même du <strong>plaisir</strong> aux usagers.</p>
+        <p>Afin d'identifier les améliorations à apporter, le Commando UX évaluera la perception actuelle du service aux usagers, les contraintes techniques ainsi que les besoins métiers.</p>
+        <p>Quelques exemples d'axes de travail que le Commando UX pourra entreprendre à vos côtés :</p>
+        <ul>
+          <li>Développer une meilleure analyse et compréhension des besoins des usagers sur votre service en exploitant vos données ou en en collectant de nouvelles (tests utilisateurs, analytics, etc)</li>
+          <li>Concevoir un parcours simplifié et agréable avec une approche « mobile first » qui démontre un accès sur mobile exemplaire</li>
+          <li>Exploiter les APIs de l'État pour réduire le nombre d'informations demandées aux usagers (principe du Dites-le-nous une fois)</li>
+          <li>Mettre en accessibilité votre service pour les personnes en situation de handicap</li>
+          <li>Clarifier et simplifier le langage pour que le service soit compréhensible pour tous</li>
+          <li>Tout mettre en œuvre pour que tous les usagers, qu'ils soient en situation de handicap, ou simplement éloignés du numérique aient un égal accès à votre service</li>
+          <li>Augmenter la désirabilité du service à travers le langage, le parcours et les visuels</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Nos critères de sélection
+        </h2>
+        <ul>
+          <li>Que vos objectifs et indicateurs de réussite soient clairement énoncés, notamment le nombre d'usagers qui seront impactés par ces améliorations</li>
+          <li>Que vous soyez impliqué dans la réussite du projet : temps consacré au défi, motivation et sponsorship hiérarchique</li>
+        </ul>
+        <p>
+          Nous vous demanderons quelques informations sur votre défi, la soumission sera rapide pour vous. La direction interministérielle du numérique (DINUM) vous accompagnera pour redéfinir le défi si besoin. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Vous êtes designer ou développeur
+        </h2>
+        <p>Vous n'avez peur de rien ? Vous vous adaptez rapidemment ? Vous êtes exigeant et efficace ? Vous souhaitez travailler sur un projet d'intérêt général à fort impact ? Et vous êtes disponible de septembre à décembre 2020 ?</p>
+        <p>
+          <strong>RDV le lundi 29 juin 2020</strong> pour candidater sur le programme Commando UX. Si vous êtes retenu, vous intégrerez l'équipe Commando UX, serez déployé dans un des défis et aurez 4 mois pour améliorer l'expérience des usagers sur le service.
+        </p>
+        <p>
+          Nous cherchons des experts extérieurs à la fonction publique, des designers (UX engineers, UX designers) et des développeurs qui s'intéressent aux besoins des usagers avant tout.
+        </p>
+        <p>
+          L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet. Questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.
+        </p>
         <ul class="team">
           <li>
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                     quality="100" height="120" width="120"
+                     quality="100" height="150" width="150"
                      alt="Photo Ugo Dessertine"/>
             <p><strong>Ugo Dessertine</strong></p>
             <p>Lead Designer</p>
@@ -137,7 +139,7 @@
           </li>
           <li>
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                     quality="100" height="120" width="120"
+                     quality="100" height="150" width="150"
                      alt="Photo Georges Bayard"/>
             <p><strong>Georges Bayard</strong></p>
             <p>Chargé de mission</p>
@@ -148,7 +150,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Les dates clés du programme
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Dates clé
         </h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>
@@ -176,25 +178,6 @@
 
   </Layout>
 </template>
-
-<page-query>
-  query {
-    allChallenge (sortBy: "title", order: ASC) {
-      edges {
-        node {
-        	id
-          name
-          slug
-          illustration
-          department
-          place
-          designer
-          developer
-        }
-      }
-    }
-  }
-</page-query>
 
 
 <script>
@@ -258,70 +241,6 @@
 
   .content {
 
-    .challenge {
-      padding: 0;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      &__item {
-        list-style: none;
-        text-align: left;
-        width: 46%;
-        margin: 24px 4px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin: 16px 0px;
-        }
-
-        h3 {
-          font-weight: 800;
-          font-size: 1.5em;
-          margin: 4px 0 16px 0;
-          color: $blue;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            font-size: 1.125em;
-            margin: 4px 0 12px 0;
-          }
-
-          a {
-            border: none;
-          }
-        }
-
-        img {
-          max-width: 120px;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            max-width: 80px;
-          }
-        }
-      }
-
-      &__profil {
-        display: inline-block;
-        padding: 4px 12px;
-        margin: 0px 12px 12px 0;
-        border-radius: 16px;
-        font-size: 0.75em;
-        font-weight: bold;
-        background-color: $gray;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 8px 8px 0;
-        }
-      }
-
-      &__department, &__place {
-
-        color: $dark-gray;
-        margin: 4px 0 0 0;
-      }
-    }
-
     .button {
       text-decoration: none;
       border-color: $blue;
@@ -359,10 +278,6 @@
 
     .subsection {
       margin-bottom: 40px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 24px;
-      }
     }
 
     .key-elements {
@@ -423,7 +338,6 @@
     .cta {
 
       text-align: center;
-      margin-bottom: 64px;
 
       > p {
         margin: 0;
@@ -433,7 +347,7 @@
       }
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 32px;
+        text-align: left;
       }
     }
 

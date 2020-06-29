@@ -121,7 +121,7 @@
         </h2>
         <p><strong>Dates de la mission :</strong> du 7 septembre 2020 au 31 décembre 2020</p>
         <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon votre profil</p>
+        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon votre niveau d'expérience</p>
         <p><strong>Lieu de travail :</strong> Voir le détail dans chaque défi</p>
         <p><strong>Conditions :</strong>
           <ul>

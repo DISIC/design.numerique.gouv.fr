@@ -21,11 +21,11 @@
           <h2>Commando UX</h2>
 
           <p>
-            <strong>Appel à défis en cours !</strong> Vous avez jusqu'au <strong>19 juin 2020</strong> pour soumettre le projet de l'Observatoire que vous portez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
+            <strong>Appel à candidature en cours !</strong> Vous avez jusqu'au <strong>17 juillet 2020</strong> pour proposer votre candidature et prendre part à l'amélioration d'un des 250 services publics numériques les plus utilisés par les Français !
           </p>
 
           <g-link to="/commando-ux/" class="button">
-            En savoir plus<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Voir les défis<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
 
       </div>

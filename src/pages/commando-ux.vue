@@ -82,9 +82,10 @@
         <ul class="challenge">
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
             <g-image class="challenge__illustration" :src="node.illustration"/>
-            <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.name }}</g-link></h3>
-            <p v-if="node.designer" class="challenge__profil">Designer</p>
-            <p v-if="node.developer" class="challenge__profil">Développeur</p>
+            <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+            <p class="challenge__name">{{ node.name }}</p>
+            <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
+            <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p>
             <p class="challenge__department">{{ node.department }}</p>
             <p class="challenge__place">{{ node.place }}</p>
           </li>
@@ -197,13 +198,14 @@
       edges {
         node {
         	id
+          title
           name
           slug
           illustration
           department
           place
-          designer
-          developer
+          profil1
+          profil2
         }
       }
     }

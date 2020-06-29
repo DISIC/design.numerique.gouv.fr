@@ -21,12 +21,12 @@
           <h2>Commando UX</h2>
 
           <p>
-            <strong>Appel à défis en cours !</strong> Vous avez jusqu'au <strong>19 juin 2020</strong> pour soumettre le projet de l'Observatoire que vous portez et pour lequel vous souhaitez drastiquement améliorer l'expérience pour les usagers.
+            Un peu de patience... L'appel à candidature pour les designers et développeurs sera ouvert dans la soirée du 29 juin ! 
           </p>
 
-          <g-link to="/commando-ux/" class="button">
+          <!-- <g-link to="/commando-ux/" class="button">
             En savoir plus<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-          </g-link>
+          </g-link> -->
 
       </div>
 

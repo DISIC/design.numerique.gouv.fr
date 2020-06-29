@@ -23,7 +23,7 @@
           <CommandoUX class="h2__icon" aria-hidden="true"/>Appel à candidatures
         </h2>
         <p>
-          Vous êtes designer ou développeur ? Vous souhaitez œuvrer pour l'intérêt général ? Vous êtes disponible pendant 4 mois à partir de septembre 2020 ? Le programme Commando UX vous proposer 8 défis à relever au sein des administrations de l'État !
+          Vous êtes designer ou développeur ? Vous souhaitez œuvrer pour l'intérêt général ? Vous êtes disponible pendant 4 mois à partir de septembre 2020 ? Le programme Commando UX vous propose 8 défis à relever au sein des administrations de l'État !
         </p>
         <div class="key-elements">
           <div class="element">
@@ -121,9 +121,8 @@
         </h2>
         <p><strong>Dates de la mission :</strong> du 7 septembre 2020 au 31 décembre 2020</p>
         <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> Entre 3000€ et 3500€ net par mois, selon profil</p>
+        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon votre profil</p>
         <p><strong>Lieu de travail :</strong> Voir le détail dans chaque défi</p>
-        <p><strong>Transport :</strong> À votre charge</p>
         <p><strong>Conditions :</strong>
           <ul>
             <li>Être une personne physique (et non morale)</li>
@@ -131,7 +130,7 @@
             <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
           </ul>
         </p>
-        <p><strong>Accompagnement :</strong> L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet.</p>
+        <p><strong>Accompagnement :</strong> L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet grâce à une équipe dédiée : 1 chercheuse UX et 2 designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">
           <li>

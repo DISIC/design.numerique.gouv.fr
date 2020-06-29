@@ -20,27 +20,20 @@
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
         <CommandouxIllustration class="cover__illustration--small" aria-hidden="true" />
-        <!-- <p class="cover__subhead"><Services class="cover__subhead-icon" aria-hidden="true"/>Commando UX</p> -->
         <h1>{{ $page.challenge.title }}</h1>
-        <p class="cover__subtitle">
-          <span v-html="$page.challenge.description" />
-        </p>
-        <!-- tag designer et/ou developpeur a ajouter -->
-        <section>
+        <p class="cover__subtitle">{{ $page.challenge.description }}</p>
         <div class="cta">
-        <a
-          href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
-          target="_blank"
-          class="button"
-        >Canditater à ce défi</a>
-        <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
+          <a
+            href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
+            target="_blank"
+            class="button">
+            Canditater à ce défi</a>
+          <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
         </div>
-      </section>
       </div>
     </div>
 
-    <div class="content challenge">
-
+    <div class="content content--challenge">
 
       <section>
         <h2>
@@ -70,8 +63,7 @@
         <div v-html="$page.challenge.content" />
       </section>
 
-      <section>
-        <div class="cta">
+      <div class="cta">
         <a
           href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
           target="_blank"
@@ -79,8 +71,8 @@
           Canditater à ce défi !
         </a>
         <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
-        </div>
-      </section>
+      </div>
+
     </div>
   </Layout>
 </template>
@@ -159,18 +151,6 @@ query Challenge ($id: ID!) {
 
 <style scoped lang="scss">
 @import "src/assets/scss/_vars.scss";
-
-.challenge {
-
-  h3 {
-    color: $blue;
-    margin-top:36px;
-  }
-
-  h2 {
-    margin-top: 54px;
-  }
-}
 
 .button {
     text-decoration: none;

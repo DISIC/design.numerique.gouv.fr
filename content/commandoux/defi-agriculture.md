@@ -1,6 +1,6 @@
 ---
 title: Défi agriculture
-description: ?
+description: Mieux comprendre les besoins des agriculteurs et adapter les démarches qui leur sont consacrées
 slug: defi-agriculture
 illustration: ./illustrations/1922797.svg
 department: Ministère de l'Agriculture et de l'Alimentation
@@ -12,21 +12,20 @@ profil2:
 ---
 
 ## Contexte
-Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite,...), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l'emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d'avoir droit. Ce défi vise l'amélioration de ce simulateur.
+Le site "Mes démarches" a été conçu en 2013 pour permettre à tous les usagers du ministère chargé de l'agriculture, professionnels et particuliers, d'accéder facilement à partir d'un point d'entrée unique à l'ensemble des éléments leur permettant de s'informer sur une démarche et de la réaliser : information réglementaire exposée de façon simple et claire, accès aux téléprocédures et aux formulaires Cerfa avec la possibilité de les déposer en ligne, explicitation du service concerné par le traitement de la demande et modalité de mise en contact direct avec celui-ci. Le site propose également toutes les ressources nécessaires pour comprendre et faciliter la démarche (notices, FAQ, guides de saisies, liens vers des articles grand public ou vers les textes juridiques concernés, etc.).
 
 ## Objectif de la mission
-- Fluidifier et simplifier la navigation de l'utilisateur en fonction de ses besoins immédiats
-- Personnaliser le parcours en fonction de la situation de l'utilisateur
-- Offrir à l'utilisateur une interface accessible pour le guider en utilisant un vocabulaire simple et compréhensible
-- Rendre le simulateur convivial pour donner envie à l'utilisateur d'aller jusqu'au bout de la simulation
-- Rendre l'expérience satisfaisante même si le résultat ne propose aucune aide
+- Mieux comprendre le besoins des usagers (agriculteurs)
+- Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés
+- Rendre le site responsive et accessible
+
 
 ## État actuel de la démarche
-Cette démarche permet aux particuliers de simuler facilement les prestations sociales auxquelles ils ont droit.
+Ce portail permet aux professionnels de l'agriculture d'accéder à de nombreuses démarches.
 - **Démarche dématérialisée :** Oui
-- **Catégorie de public concerné :** Particuliers
-- **Volumétrie de la démarche :** 503 533
-- **Lien :** https://www.mesdroitssociaux.gouv.fr/
+- **Catégorie de public concerné :** Entreprises
+- **Volumétrie de la démarche :** 860 000
+- **Lien :** http://mesdemarches.agriculture.gouv.fr
 
 ## Poste(s) à pourvoir
 ### Un designer produit

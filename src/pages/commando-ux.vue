@@ -71,7 +71,7 @@
           En relevant l'un des défis, vous aurez l'occasion d'intégrer l'équipe responsable d'une des démarches administratives en ligne les plus utilisées par les Français. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
         </p>
         <p>
-          Pour mener à bien votre mission, vous pourrez compter sur l’appui d’un référent au sein de l’administration d’accueil, et de 2 designers produit et 1 chercheuse UX de la DINUM.
+          Pour mener à bien votre mission, vous pourrez compter sur l’appui d’un référent au sein de l’administration d’accueil, et d'une chercheuse UX et 2 designers produit de la DINUM.
         </p>
       </section>
 

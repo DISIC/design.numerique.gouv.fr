@@ -1,6 +1,6 @@
 ---
 title: Défi impôts
-description: Gérer mon prélèvement à la source
+description: Offrir à tous les usagers qui souhaitent gérer leur prélèvement à la source une expérience confortable et totalement accessible.
 slug: defi-gerer-prelevement-source
 illustration: ./illustrations/1922797.svg
 department: Ministère des Finances

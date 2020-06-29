@@ -1,6 +1,6 @@
 ---
 title: Défi titre de séjour
-description: Dématérialiser la démarche de demande de titre de séjour, au sein d'un portail de demande unifié.
+description: Permettre aux étrangers de faire une demande de titre de séjour en ligne, au sein d'un portail de demande unifié.
 slug: defi-titre-de-sejour
 illustration: ./illustrations/1922797.svg
 department: Ministère de l'intérieur

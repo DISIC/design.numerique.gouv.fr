@@ -1,6 +1,6 @@
 ---
-title: Défi Pôle emploi - Renouvellement
-description: Simplifier le parcours des demandeurs d'emploi pour le renouvellement mensuel de leur situation
+title: Défi Pôle Emploi
+description: Simplifier le parcours des demandeurs d'emploi pour le renouvellement mensuel de leur situation.
 slug: defi-renouvellement-demandeur-emploi
 illustration: ./illustrations/1922797.svg
 department: Ministère du Travail
@@ -18,8 +18,7 @@ En 2019 Pôle emploi comptabilise plus d'un milliard de trop-perçus dont  77% s
 Zen a pour objectif de diminuer ce risque en améliorant l'expérience utilisateur de l'actualisation. L'expérience utilisateur devra alors être claire, et les demandeurs d'emploi autonome.
 
 ## Objectif de la mission
-L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement. Il faudra poursuivre l'étude des utilisateurs, qui n'a actuellement été faite que sur une cible précise.
-???
+L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi. Il faudra poursuivre l'étude des utilisateurs, qui n'a actuellement été faite que sur une cible précise.
 
 
 ## État actuel de la démarche

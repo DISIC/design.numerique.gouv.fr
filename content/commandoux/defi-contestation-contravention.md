@@ -1,6 +1,6 @@
 ---
 title: Défi contestation de contravention
-description: Gérer mon prélèvement à la source
+description: Pour les personnes qui souhaitent contester une contravention, augmenter la désirabilité de la voie numérique.
 slug: defi-contestation-contravention
 illustration: ./illustrations/1922797.svg
 department: Ministère de l'Intérieur

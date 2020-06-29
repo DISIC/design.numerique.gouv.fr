@@ -24,7 +24,7 @@
         <p class="cover__subtitle">{{ $page.challenge.description }}</p>
         <div class="cta">
           <a
-            href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
+            href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux"
             target="_blank"
             class="button">
             Canditater à ce défi</a>
@@ -65,7 +65,7 @@
 
       <div class="cta">
         <a
-          href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux"
+          href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux"
           target="_blank"
           class="button">
           Canditater à ce défi !

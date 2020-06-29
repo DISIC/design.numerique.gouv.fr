@@ -83,11 +83,11 @@
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
             <g-image class="challenge__illustration" :src="node.illustration"/>
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
-            <p class="challenge__name">{{ node.name }}</p>
+            <p class="challenge__description">{{ node.description }}</p>
             <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
             <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p>
-            <p class="challenge__department">{{ node.department }}</p>
-            <p class="challenge__place">{{ node.place }}</p>
+            <p class="challenge__department"><b>Ministère :</b> {{ node.department }}</p>
+            <p class="challenge__place"><b>Lieu :</b> {{ node.place }}</p>
           </li>
         </ul>
       </section>
@@ -199,7 +199,7 @@
         node {
         	id
           title
-          name
+          description
           slug
           illustration
           department
@@ -295,12 +295,12 @@
         h3 {
           font-weight: 800;
           font-size: 1.5em;
-          margin: 4px 0 16px 0;
+          margin: 4px 0 8px 0;
           color: $blue;
 
           @media only screen and (max-width: $mobile-max-width) {
             font-size: 1.125em;
-            margin: 4px 0 12px 0;
+            margin: 4px 0 px 0;
           }
 
           a {
@@ -322,7 +322,7 @@
         padding: 4px 12px;
         margin: 0px 12px 12px 0;
         border-radius: 16px;
-        font-size: 0.75em;
+        font-size: 0.825em;
         font-weight: bold;
         background-color: $gray;
 
@@ -331,9 +331,12 @@
         }
       }
 
-      &__department, &__place {
+      &__description {
+        margin: 4px 0 16px 0;
+      }
 
-        color: $dark-gray;
+      &__department, &__place {
+        font-size: 0.825em;
         margin: 4px 0 0 0;
       }
     }

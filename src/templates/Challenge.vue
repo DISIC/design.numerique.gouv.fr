@@ -23,7 +23,7 @@
         <!-- <p class="cover__subhead"><Services class="cover__subhead-icon" aria-hidden="true"/>Commando UX</p> -->
         <h1>{{ $page.challenge.title }}</h1>
         <p class="cover__subtitle">
-          <span v-html="$page.challenge.name" />
+          <span v-html="$page.challenge.description" />
         </p>
         <!-- tag designer et/ou developpeur a ajouter -->
         <section>
@@ -145,7 +145,7 @@ export default {
 <page-query>
 query Challenge ($id: ID!) {
   challenge: challenge (id: $id) {
-    name
+    description
     department
     direction
     content

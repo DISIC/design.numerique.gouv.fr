@@ -1,37 +1,40 @@
 ---
 title: Défi contestation de contravention
-description: Pour les personnes qui souhaitent contester une contravention, augmenter la désirabilité de la voie numérique.
+description: Augmenter la désirabilité de la version numérique du service permettant aux usager de contester une contravention
 slug: defi-contestation-contravention
 illustration: ./illustrations/1922797.svg
 department: Ministère de l'Intérieur
 direction: Agence nationale de traitement automatisé des infractions (ANTAI)
 place: Paris et Rennes
-poste: Un développeur ou une développeuse accessibilité
+poste: Deux designers produit
 profil1: Designer produit
-profil2:
+profil2: Designer produit
 ---
 
 ## Contexte
-La dématérialisation de la contestation d'avis de contravention et la désignation de conducteur permet de faciliter l’accès au droit et à la justice des citoyens en simplifiant davantage cette démarche. Parallèlement il s'agit aussi les coûts pour l'ANTAI (avec moins d’impressions et de traitement du retour courrier) et pour les usagers (la contestation papier nécessite actuellement un envoi recommandé avec accusé de réception).
+La démarche de « contestation d'avis de contravention et la désignation de conducteur » est réalisable en ligne et pourtant utilisée par 44% des usagers concernés. Cela implique un poids pour les usagers, mais aussi des coûts plus élevés que ce soit pour l'ANTAI (impression et de traitement du courrier) que pour les usagers (la contestation papier nécessite actuellement un envoi recommandé avec accusé de réception).
 
 ## Objectif de la mission
-L'objectif de ce défi est de rendre le parcours de la désignation et contestation plus fluide, plus accessible (en respectant le RGAA 4.0) et compréhensible par tous depuis le site institutionnel de l’ANTAI.
-Il doit permettre d'augmenter le taux de satisfaction des usagers et en conséquence le taux de recours à la voie dématérialisée.
+L'objectif de ce défi est de rendre cette démarche plus désirable, fluide, accessible et compréhensible par tous. Il doit permettre d'augmenter le taux de satisfaction des usagers et en conséquence le taux de recours à la voie numérique.
+
+Au delà d'apporter une expérience plus fluide pour les usagers, à la clé c'est plus de 11 millions d'euros qui pourraient être économisés ainsi que plus de 200 tonnes de CO2 par an.  
 
 
-## État actuel de la démarche
-- **Démarche dématérialisée :** Oui
-- **Catégorie de public concerné :** Particuliers
-- **Volumétrie de la démarche :** 7 973 138 (44% de recours à la voie dématérialisée)
+## À propos de la démarche
+- **Réalisable en ligne :** Oui
+- **Public concerné :** Particuliers
+- **Volumétrie annuelle :** 7 973 138 (seulement 44% de recours à la voie dématérialisée)
 - **Lien :** https://www.usagers.antai.gouv.fr/demarches/saisienumero?lang=fr
 
 ## Postes à pourvoir
 
-### Un ou une designer produit
-#### Missions
-
-
-#### Compétences
-- ça
-- et ça
-- Un développeur Angular
+### Deux designers produit
+- Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
+- Expertise à évaluer la facilité d'utilisation de parcours existants et proposer des recommandations réfléchies
+- Expertise en recherche utilisateur et tests d'utilisabilité
+- Bonne connaissance des technologies numériques
+- Connaissances en accessibilité numérique
+- Esthétique visuelle forte, propre et élégante
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour

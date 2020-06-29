@@ -113,16 +113,6 @@ nav.breadcrumb {
     content: "";
   }
 
-  a {
-    border-bottom: 1px solid $blue;
-
-    &:hover {
-      text-decoration: none;
-      border-color: $blue;
-    }
-
-  }
-
   & [aria-current="page"] {
     color: black;
     border: none;

@@ -6,7 +6,7 @@ illustration: ./illustrations/1922797.svg
 department: Ministère des Solidarités et de la Santé
 direction: Direction de la sécurité sociale
 place: Montauban
-poste: Un ingénieur UX et un développeur full stack
+poste: Une ingénieure ou un ingénieur UX et une développeuse ou un développeur full stack
 profil1: Ingénieur UX
 profil2: Dévelopeur full stack
 ---
@@ -15,34 +15,33 @@ profil2: Dévelopeur full stack
 Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite,...), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l'emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d'avoir droit. Ce défi vise l'amélioration de ce simulateur.
 
 ## Objectif de la mission
-- Fluidifier et simplifier la navigation de l'utilisateur en fonction de ses besoins immédiats
-- Personnaliser le parcours en fonction de la situation de l'utilisateur
+- Fluidifier et simplifier l'expérience de l'utilisateur en fonction de ses besoins immédiats
 - Offrir à l'utilisateur une interface accessible pour le guider en utilisant un vocabulaire simple et compréhensible
 - Rendre le simulateur convivial pour donner envie à l'utilisateur d'aller jusqu'au bout de la simulation
-- Rendre l'expérience satisfaisante même si le résultat ne propose aucune aide
+- Rendre l'expérience satisfaisante même si le résultat ne propose aucune prestation sociale à l'usager
 
-## État actuel de la démarche
+## À propos de la démarche
 Cette démarche permet aux particuliers de simuler facilement les prestations sociales auxquelles ils ont droit.
-- **Démarche dématérialisée :** Oui
-- **Catégorie de public concerné :** Particuliers
-- **Volumétrie de la démarche :** 503 533
+- **Réalisable en ligne :** Oui
+- **Public concerné :** Particuliers
+- **Volumétrie annuelle :** 503 533
 - **Lien :** https://www.mesdroitssociaux.gouv.fr/
 
-## Poste(s) à pourvoir
-### Un ingénieur UX
-#### Missions
-Améliorer l'expérience usager des publics les plus fragiles, les plus éloignés de l'emploi ou de l'usage du numérique.
+## Postes à pourvoir
+### Une ingénieure ou un ingénieur UX
+- Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
+- Expertise en HTML, CSS, JavaScript et plus spécifiquement Angular
+- Sens avéré de la conception web et une attention particulière aux principes fondamentaux de l'expérience utilisateur, y compris de l'accessibilité
+- Esthétique visuelle forte, propre et élégante
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour
 
-#### Compétences
-- ça
-- et ça
-- Un développeur Angular
 
-### Un développeur full stack
-#### Missions
-Améliorer l'expérience usager des publics les plus fragiles, les plus éloignés de l'emploi ou de l'usage du numérique.
-
-#### Compétences
-- ça
-- et ça
-- Un développeur Angular
+### Une développeuse ou un développeur full stack
+- Expertise en HTML, CSS, JavaScript et plus spécifiquement Angular
+- Expertise en langages back-end (lister les différents langages dans votre candidature)
+- Expertise en devops
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour

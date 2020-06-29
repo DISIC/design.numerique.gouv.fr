@@ -1,6 +1,6 @@
 ---
-title: Défi impôts
-description: Offrir à tous les usagers qui souhaitent gérer leur prélèvement à la source une expérience confortable et totalement accessible.
+title: Défi prélèvement à la source
+description: Offrir à tous les usagers qui souhaitent gérer leur prélèvement à la source une expérience confortable et totalement accessible
 slug: defi-gerer-prelevement-source
 illustration: ./illustrations/1922797.svg
 department: Ministère des Finances
@@ -12,25 +12,25 @@ profil2:
 ---
 
 ## Contexte
-Le service du prélèvement à la source est aujourd'hui l'une des démarches les plus utilisées sur Impôts.gouv.fr.
+Le service du prélèvement à la source est aujourd'hui l'une des démarches les plus utilisées sur impots.gouv.fr.
 
 ## Objectif de la mission
-Améliorer l'accessibilité de cette démarche dans le cadre du référentiel général d'accessibilité pour les administrations.
+- Rendre cette démarche 100% accessible
 
 
-## État actuel de la démarche
-- **Démarche dématérialisée :** Oui
-- **Catégorie de public concerné :** Particuliers
-- **Volumétrie de la démarche :** 8 200 000 (100% de recours à la voie dématérialisée)
+## À propos de la démarche
+- **Réalisable en ligne :** Oui
+- **Public concerné :** Particuliers
+- **Volumétrie annuelle :** 8 200 000 (100% de recours à la voie dématérialisée)
 - **Lien :** https://www.impots.gouv.fr/portail/particulier
 
-## Postes à pourvoir
+## Poste à pourvoir
 
-### Un developpeur ou une développeuse accessibilité
-#### Missions
-Accroître la satisfaction de tous et d'offrir un service modulaire adapté à chacun, accessible au plus en difficulté, simple et performant pour tous.
-
-#### Compétences
-- ça
-- et ça
-- Un développeur Angular
+### Une développeuse ou un développeur accessibilité
+- Expertise technique sur le RGAA
+- Expertise en développement web (HTML, CSS, JavaScript et frameworks front-end)
+- Expérience en réalisation d'audits d'accessibilité
+- Passionné par l'accessibilité
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour

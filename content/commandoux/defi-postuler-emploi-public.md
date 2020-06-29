@@ -1,12 +1,12 @@
 ---
 title: Défi emploi public
-description: Rendre accessible la Place de l'Emploi Public et améliorer le parcours candidat
+description: Rendre accessible et améliorer le parcours des candidat qui postulent sur la Place de l'Emploi Public
 slug: defi-postuler-emploi-public
 illustration: ./illustrations/1922797.svg
 department: Ministère de l'Action et des comptes publics
 direction: Direction Générale de l'Administration et de la Fonction Publique
 place: Paris
-poste: Un ou une designer et un développeur ou une développeuse accessibilité
+poste: Un ou une designer et une développeuse ou un développeur accessibilité
 profil1: Designer produit
 profil2: Développeur accessibilité
 ---
@@ -15,32 +15,35 @@ profil2: Développeur accessibilité
 Place de l'Emploi Public est la plateforme de publication des offres d'emploi qui vise à favoriser la mobilité des agents publics entre les 3 versants de la fonction publique et à recruter de nouveaux profils, potentiellement issus du secteur privé.
 
 ## Objectif de la mission
-Ce défi se place dans le volet "design, ergonomie et accessibilité" de l'évolution de la plateforme. Les objectifs du défi sont :
-- La refonte de l'espace candidat de la plateforme.
-- L'amélioration de l'accessibilité de la plateforme pour les personnes en situation de handicap avec, comme résultat concret, l'obtention sur le site de la déclaration RGAA.
+Les livrables du défi au 31 décembre 2020 sont :
+- Accompagnement à la refonte de l'espace candidat qui sera disponible aux nouveaux candidats
+- Accessibilité de la plateforme à 100%
 
-## État actuel de la démarche
-- **Démarche dématérialisée :** Oui
-- **Catégorie de public concerné :** Particuliers
-- **Volumétrie de la démarche :** 5 000 000 (3% de recours à la voie dématérialisée)
+
+## À propos de la démarche
+- **Réalisable en ligne :** Oui
+- **Public concerné :** Particuliers
+- **Volumétrie annuelle :** 5 000 000 (3% de recours à la voie dématérialisée)
 - **Lien :** https://www.place-emploi-public.gouv.fr/
 
 ## Postes à pourvoir
 
-### Un designer produit
-#### Missions
-Assurer la refonte de l'espace candidat. Actuellement cet espace repose sur une solution standard.
+### Une ou un designer produit
+- Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
+- Expertise à évaluer la facilité d'utilisation de parcours existants et proposer des recommandations réfléchies
+- Expertise en recherche utilisateur et tests d'utilisabilité
+- Bonne connaissance des technologies numériques
+- Connaissances en accessibilité numérique
+- Esthétique visuelle forte, propre et élégante
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour
 
-#### Compétences
-- ça
-- et ça
-- Un développeur Angular
-
-### Un developpeur ou une développeuse accessibilité
-#### Missions
-Accroître la satisfaction de tous et d'offrir un service modulaire adapté à chacun, accessible au plus en difficulté, simple et performant pour tous.
-
-#### Compétences
-- ça
-- et ça
-- Un développeur Angular
+### Une développeuse ou un développeur accessibilité
+- Expertise technique sur le RGAA
+- Expertise en développement web (HTML, CSS, JavaScript et frameworks front-end)
+- Expérience en réalisation d'audits d'accessibilité
+- Passionné par l'accessibilité
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour

@@ -1,8 +1,8 @@
 ---
 title: Défi paiement des amendes
-description: Rendre la démarche de paiement des amendes en ligne accessible et agréable à utiliser pour tous.
+description: Rendre la démarche de paiement des amendes en ligne accessible et agréable à utiliser pour tous
 slug: defi-paiement-des-amendes
-illustration: cash-register
+illustration: ./illustrations/1922797.svg
 department: Ministère de l'Action et des Comptes publics
 direction: Direction Générale des Finances Publiques
 place: Paris
@@ -17,27 +17,32 @@ Le ministère de l'Action et des Comptes publics souhaite avancer rapidement sur
 ## Objectif de la mission
 - Rendre la démarche de paiement des amendes en ligne 100% accessible
 - Sur la base des audits d'accessibilité réalisés, œuvrer pour rendre l'ensemble des 28 démarches du ministère 100% accessibles à l'horizon 2022
-- Proposer de premières actions à mettre en oeuvre dès 2021
+- Proposer de premières actions à mettre en œuvre dès 2021
 
-## État actuel de la démarche
+## À propos de la démarche
 Cette démarche permet aux particuliers de payer en ligne leurs amendes.
-- **Démarche dématérialisée :** Oui
-- **Catégorie de public concerné :** Particuliers
-- **Volumétrie de la démarche :** 18 720 381
+- **Réalisable en ligne :** Oui
+- **Public concerné :** Particuliers
+- **Volumétrie annuelle :** 18 720 381
 - **Lien :** https://www.amendes.gouv.fr
 
-## Poste(s) à pourvoir
-### Un designer produit
-- Expertise dans la conception d'interfaces web/mobile
-- Expertise à produire des wireframes de haut niveau et détaillés, des maquettes basse et haute-fidélité, des matrices de micro-interaction détaillées et des prototypes pour communiquer efficacement des idées d'interaction et de conception
-- Expertise à évaluer la facilité d'utilisation des parcours existants et proposer des recommandations réfléchies
-- Portfolio mettant en évidence de multiples projets qui démontrent des expériences de conception d'interfaces numériques utilisables et un sens fort de l'esthétique
-- Excellentes compétences en matière de résolution de problèmes et connaissance des contraintes et limitations techniques applicables à la conception de services numériques
-- Capacité à communiquer efficacement avec une équipe multidisciplinaire
-- Forte attention aux détails et rigueur
-- Engouement pour l’intérêt général
+## Postes à pourvoir
+### Une ou un designer produit
+- Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
+- Expertise à évaluer la facilité d'utilisation de parcours existants et proposer des recommandations réfléchies
+- Expertise en recherche utilisateur et tests d'utilisabilité
+- Bonne connaissance des technologies numériques
+- Connaissances en accessibilité numérique
+- Esthétique visuelle forte, propre et élégante
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour
 
-### Un développeur accessibilité
-- ça
-- et ça
-- Un développeur Angular
+### Une développeuse ou un développeur accessibilité
+- Expertise technique sur le RGAA
+- Expertise en développement web (HTML, CSS, JavaScript et frameworks front-end)
+- Expérience en réalisation d'audits d'accessibilité
+- Passionné par l'accessibilité
+- Forte capacité à résoudre les problèmes
+- Capacité à communiquer efficacement
+- Curiosité, rigueur et sens de l'humour

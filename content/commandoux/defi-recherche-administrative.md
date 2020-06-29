@@ -1,8 +1,9 @@
 ---
 title: Défi recherche administrative
 description: Rendre accessible la Place de l'Emploi Public et améliorer le parcours candidat
-slug: postuler-emploi-public
-departement: Ministère des Armées
+slug: defi-recherche-administrative
+illustration: ./illustrations/1922797.svg
+department: Ministère des Armées
 direction: Service historique de la Défense
 place: Vincennes
 poste: Un ou une designer produit
@@ -15,7 +16,7 @@ Place de l'Emploi Public est la plateforme de publication des offres d'emploi qu
 
 ## Objectif de la mission
 Ce défi se place dans le volet "design, ergonomie et accessibilité" de l'évolution de la plateforme. Les objectifs du défi sont :
-- La refonte de l'espace candidat de la plateforme. 
+- La refonte de l'espace candidat de la plateforme.
 - L'amélioration de l'accessibilité de la plateforme pour les personnes en situation de handicap avec, comme résultat concret, l'obtention sur le site de la déclaration RGAA.
 
 ## État actuel de la démarche

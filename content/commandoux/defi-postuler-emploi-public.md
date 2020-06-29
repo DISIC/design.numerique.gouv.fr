@@ -1,10 +1,11 @@
 ---
 title: Défi emploi public
 description: Rendre accessible la Place de l'Emploi Public et améliorer le parcours candidat
-slug: postuler-emploi-public
-departement: Ministère de l'Action et des comptes publics
+slug: defi-postuler-emploi-public
+illustration: ./illustrations/1922797.svg
+department: Ministère de l'Action et des comptes publics
 direction: Direction Générale de l'Administration et de la Fonction Publique
-place: Paris XIIème
+place: Paris
 poste: Un ou une designer et un développeur ou une développeuse accessibilité
 profil1: Designer produit
 profil2: Développeur accessibilité
@@ -15,7 +16,7 @@ Place de l'Emploi Public est la plateforme de publication des offres d'emploi qu
 
 ## Objectif de la mission
 Ce défi se place dans le volet "design, ergonomie et accessibilité" de l'évolution de la plateforme. Les objectifs du défi sont :
-- La refonte de l'espace candidat de la plateforme. 
+- La refonte de l'espace candidat de la plateforme.
 - L'amélioration de l'accessibilité de la plateforme pour les personnes en situation de handicap avec, comme résultat concret, l'obtention sur le site de la déclaration RGAA.
 
 ## État actuel de la démarche

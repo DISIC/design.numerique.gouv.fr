@@ -145,6 +145,7 @@ export default {
 <page-query>
 query Challenge ($id: ID!) {
   challenge: challenge (id: $id) {
+    description
     department
     direction
     content

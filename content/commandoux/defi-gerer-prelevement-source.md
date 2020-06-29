@@ -1,8 +1,9 @@
 ---
 title: Défi impôts
 description: Gérer mon prélèvement à la source
-slug: gerer-prelevement-source
-departement: Ministère des Finances
+slug: defi-gerer-prelevement-source
+illustration: ./illustrations/1922797.svg
+department: Ministère des Finances
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand
 poste: Un développeur ou une développeuse accessibilité
@@ -21,7 +22,7 @@ Améliorer l'accessibilité de cette démarche dans le cadre du référentiel g�
 - **Démarche dématérialisée :** Oui
 - **Catégorie de public concerné :** Particuliers
 - **Volumétrie de la démarche :** 8 200 000 (100% de recours à la voie dématérialisée)
-- **Lien :** https://www.impots.gouv.fr/portail/particulier 
+- **Lien :** https://www.impots.gouv.fr/portail/particulier
 
 ## Postes à pourvoir
 

@@ -1,14 +1,14 @@
 ---
-name: Renouvellement mensuel de la situation de demandeur d'emploi
 title: Défi Pôle emploi - Renouvellement
 description: Simplifier le parcours des demandeurs d'emploi pour le renouvellement mensuel de leur situation
-slug: renouvellement-demandeur-emploi
-departement: Ministère du Travail
+slug: defi-renouvellement-demandeur-emploi
+illustration: ./illustrations/1922797.svg
+department: Ministère du Travail
 direction: Pôle emploi
 place: Paris
 poste: Un ou une designer produit
-designer: oui
-developper: non
+profil1: Designer produit
+profil2:
 ---
 
 ## Contexte

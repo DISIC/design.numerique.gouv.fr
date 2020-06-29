@@ -1,8 +1,9 @@
 ---
 title: Défi contestation de contravention
 description: Gérer mon prélèvement à la source
-slug: gerer-prelevement-source
-departement: Ministère de l'Intérieur
+slug: defi-contestation-contravention
+illustration: ./illustrations/1922797.svg
+department: Ministère de l'Intérieur
 direction: Agence nationale de traitement automatisé des infractions (ANTAI)
 place: Paris et Rennes
 poste: Un développeur ou une développeuse accessibilité
@@ -22,7 +23,7 @@ Il doit permettre d'augmenter le taux de satisfaction des usagers et en conséqu
 - **Démarche dématérialisée :** Oui
 - **Catégorie de public concerné :** Particuliers
 - **Volumétrie de la démarche :** 7 973 138 (44% de recours à la voie dématérialisée)
-- **Lien :** https://www.usagers.antai.gouv.fr/demarches/saisienumero?lang=fr 
+- **Lien :** https://www.usagers.antai.gouv.fr/demarches/saisienumero?lang=fr
 
 ## Postes à pourvoir
 

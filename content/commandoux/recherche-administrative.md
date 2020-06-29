@@ -19,25 +19,15 @@ Ce défi se place dans le volet "design, ergonomie et accessibilité" de l'évol
 - L'amélioration de l'accessibilité de la plateforme pour les personnes en situation de handicap avec, comme résultat concret, l'obtention sur le site de la déclaration RGAA.
 
 ## État actuel de la démarche
-- **Démarche dématérialisée :** Oui
+- **Démarche dématérialisée :** Non
 - **Catégorie de public concerné :** Particuliers
-- **Volumétrie de la démarche :** 5 000 000 (3% de recours à la voie dématérialisée)
-- **Lien :** https://www.place-emploi-public.gouv.fr/
+- **Volumétrie de la démarche :** 150 000
 
 ## Postes à pourvoir
 
 ### Un designer produit
 #### Missions
-Assurer la refonte de l'espace candidat. Actuellement cet espace repose sur une solution standard.
 
-#### Compétences
-- ça
-- et ça
-- Un développeur Angular
-
-### Un developpeur ou une développeuse accessibilité
-#### Missions
-Accroître la satisfaction de tous et d'offrir un service modulaire adapté à chacun, accessible au plus en difficulté, simple et performant pour tous.
 
 #### Compétences
 - ça

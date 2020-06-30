@@ -6,7 +6,7 @@ illustration: ./illustrations/1922797.svg
 department: Ministère de l'Action et des Comptes publics
 direction: Direction Générale des Finances Publiques
 place: Paris
-poste: Un designer produit et un développeur accessibilité
+poste: Une ou un designer produit et une développeuse ou un développeur accessibilité
 profil1: Designer produit
 profil2: Développeur accessibilité
 ---

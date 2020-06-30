@@ -6,7 +6,7 @@ illustration: ./illustrations/1922797.svg
 department: Ministère de l'Agriculture et de l'Alimentation
 direction: Direction générale de l'alimentation
 place: Paris
-poste: Un designer produit
+poste: Une ou un designer produit
 profil1: Designer produit
 profil2:
 ---

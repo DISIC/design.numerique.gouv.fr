@@ -6,7 +6,7 @@ illustration: ./illustrations/1922797.svg
 department: Ministère de l'intérieur
 direction: Direction générale des étrangers en France
 place: Paris
-poste: Un designer produit et un développeur accessibilité
+poste: Une ou un designer produit et une développeuse ou un développeur accessibilité
 profil1: Designer produit
 profil2: Développeur accessibilité
 ---
@@ -44,7 +44,7 @@ Cette démarche permet aux étrangers d'effectuer une demande de séjour.
 ### Une développeuse ou un développeur accessibilité
 - Expertise technique sur le RGAA
 - Expertise en développement web (HTML, CSS, JavaScript et frameworks front-end)
-- Plus : Connaissances en Java, Angular, Python et PHP 
+- Plus : Connaissances en Java, Angular, Python et PHP
 - Expérience en réalisation d'audits d'accessibilité
 - Passionné par l'accessibilité
 - Forte capacité à résoudre les problèmes

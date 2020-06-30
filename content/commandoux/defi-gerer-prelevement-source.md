@@ -6,7 +6,7 @@ illustration: ./illustrations/1922797.svg
 department: Ministère des Finances
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand
-poste: Un développeur ou une développeuse accessibilité
+poste: Une développeuse ou un développeur accessibilité
 profil1: Développeur accessibilité
 profil2:
 ---

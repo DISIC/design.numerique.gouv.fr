@@ -6,7 +6,7 @@ illustration: ./illustrations/1922797.svg
 department: Ministère de l'intérieur
 direction: Délégation à la sécurité routière
 place: Paris et Charlevile-Mézières
-poste: Un designer produit
+poste: Une ou un designer produit
 profil1: Designer produit
 profil2:
 ---

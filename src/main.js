@@ -23,7 +23,11 @@ import {
   faVials,
   faBars,
   faUserAstronaut,
-  faStopwatch
+  faStopwatch,
+  faStar,
+  faFlag,
+  faBuilding,
+  faMapMarkerAlt
   } from '@fortawesome/free-solid-svg-icons'
 import {
     faFilePdf,
@@ -55,7 +59,11 @@ library.add(
   faVials,
   faBars,
   faUserAstronaut,
-  faStopwatch
+  faStopwatch,
+  faStar,
+  faFlag,
+  faBuilding,
+  faMapMarkerAlt
 )
 
 export default function (Vue, { router, head, isClient }) {

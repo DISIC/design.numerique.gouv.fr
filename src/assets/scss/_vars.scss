@@ -9,6 +9,7 @@ $lighter-gray: #F7F7F7;
 $gray: #E0E1E1;
 $gray-hover: #D4D4D5;
 $mid-gray: #A9A9AA;
+$dark-gray: #525355;
 
 $mobile-max-width: 480px;
 
@@ -22,4 +23,5 @@ $mobile-max-width: 480px;
   gray: $gray;
   gray-over: $gray-hover;
   mid-gray: $mid-gray;
+  dark-gray: $dark-gray;
 }

@@ -11,6 +11,10 @@ body {
   .highlight {
     text-shadow: 5px 5px 0px $light;
   }
+
+  .blue {
+    color: $blue;
+  }
 }
 
 a {
@@ -25,9 +29,9 @@ a {
   }
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.2;
+  line-height: 1.4;
   letter-spacing: -0.10px;
   color: $dark;
 }
@@ -109,16 +113,6 @@ nav.breadcrumb {
     content: "";
   }
 
-  a {
-    border-bottom: 1px solid $blue;
-
-    &:hover {
-      text-decoration: none;
-      border-color: $blue;
-    }
-
-  }
-
   & [aria-current="page"] {
     color: black;
     border: none;
@@ -133,6 +127,18 @@ nav.breadcrumb {
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;
+    }
+  }
+
+  &--challenge {
+
+    h3 {
+      color: $blue;
+      margin-top: 36px;
+    }
+
+    h2 {
+      margin-top: 54px;
     }
   }
 }
@@ -188,6 +194,14 @@ nav.breadcrumb {
     @media only screen and (max-width: $mobile-max-width) {
       height: 160px;
       padding-top: 24px;
+    }
+
+    &--small{
+      height: 120px;
+
+      @media only screen and (max-width: $mobile-max-width){
+        height: 80px;
+      }
     }
   }
 

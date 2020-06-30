@@ -21,12 +21,12 @@
           <h2>Commando UX</h2>
 
           <p>
-            Un peu de patience... L'appel à candidature pour les designers et développeurs sera ouvert dans la soirée du 29 juin ! 
+            <strong>Appel à candidature en cours !</strong> Vous avez jusqu'au <strong>17 juillet 2020</strong> pour proposer votre candidature et prendre part à l'amélioration d'un des 250 services publics numériques les plus utilisés par les Français !
           </p>
 
-          <!-- <g-link to="/commando-ux/" class="button">
-            En savoir plus<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-          </g-link> -->
+          <g-link to="/commando-ux/" class="button">
+            Voir les défis<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+          </g-link>
 
       </div>
 

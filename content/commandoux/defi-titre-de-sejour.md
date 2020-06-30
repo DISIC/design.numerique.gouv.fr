@@ -44,6 +44,7 @@ Cette démarche permet aux étrangers d'effectuer une demande de séjour.
 ### Une développeuse ou un développeur accessibilité
 - Expertise technique sur le RGAA
 - Expertise en développement web (HTML, CSS, JavaScript et frameworks front-end)
+- Plus : Connaissances en Java, Angular, Python et PHP 
 - Expérience en réalisation d'audits d'accessibilité
 - Passionné par l'accessibilité
 - Forte capacité à résoudre les problèmes

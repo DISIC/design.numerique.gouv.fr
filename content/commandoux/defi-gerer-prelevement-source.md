@@ -7,7 +7,7 @@ department: Ministère des Finances
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand
 poste: Un développeur ou une développeuse accessibilité
-profil1: Developper accessibilité
+profil1: Développeur accessibilité
 profil2:
 ---
 
@@ -29,6 +29,7 @@ Le service du prélèvement à la source est aujourd'hui l'une des démarches le
 ### Une développeuse ou un développeur accessibilité
 - Expertise technique sur le RGAA
 - Expertise en développement web (HTML, CSS, JavaScript et frameworks front-end)
+- Plus : connaissances en JAVA
 - Expérience en réalisation d'audits d'accessibilité
 - Passionné par l'accessibilité
 - Forte capacité à résoudre les problèmes

@@ -123,13 +123,12 @@
         <p><strong>Type de contrat :</strong> CDD à temps plein</p>
         <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon votre niveau d'expérience</p>
         <p><strong>Lieu de travail :</strong> Voir le détail dans chaque défi (options de télétravail à discuter)</p>
-        <p><strong>Conditions :</strong>
-          <ul>
-            <li>Être une personne physique (et non morale)</li>
-            <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
-            <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
-          </ul>
-        </p>
+        <p><strong>Conditions :</strong></p>
+        <ul>
+          <li>Être une personne physique (et non morale)</li>
+          <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
+          <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
+        </ul>
         <p><strong>Accompagnement :</strong> L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet grâce à une équipe dédiée : 1 chercheuse UX et 2 designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">

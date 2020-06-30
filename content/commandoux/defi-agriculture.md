@@ -1,6 +1,6 @@
 ---
 title: Défi agriculture
-description: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares.
+description: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares
 slug: defi-agriculture
 illustration: ./illustrations/1922797.svg
 department: Ministère de l'Agriculture et de l'Alimentation

@@ -37,7 +37,7 @@
 
       <section>
         <h2>
-        Éléments clé
+        Éléments clés
         </h2>
         <p>
           <strong>Ministère bénéficiant du défi</strong>

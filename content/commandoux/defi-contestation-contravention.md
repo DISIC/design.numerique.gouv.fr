@@ -2,7 +2,7 @@
 title: Défi contestation de contravention
 description: Augmenter la désirabilité de la version numérique du service permettant aux usager de contester une contravention
 slug: defi-contestation-contravention
-illustration: ./illustrations/1922797.svg
+illustration: ./illustrations/contestation-contravention.svg
 department: Ministère de l'Intérieur
 direction: Agence nationale de traitement automatisé des infractions (ANTAI)
 place: Paris et Rennes

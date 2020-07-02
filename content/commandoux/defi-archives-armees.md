@@ -2,7 +2,7 @@
 title: Défi archives des armées
 description: Permettre aux anciens combattants de consulter en ligne les archives leur permettant d'accéder à des droits
 slug: defi-recherche-administrative
-illustration: ./illustrations/1922797.svg
+illustration: ./illustrations/archives-armees.svg
 department: Ministère des Armées
 direction: Service historique de la Défense
 place: Vincennes et Pau

@@ -2,7 +2,7 @@
 title: Défi prélèvement à la source
 description: Offrir à tous les usagers qui souhaitent gérer leur prélèvement à la source une expérience confortable et totalement accessible
 slug: defi-gerer-prelevement-source
-illustration: ./illustrations/1922797.svg
+illustration: ./illustrations/gerer-prelevement-source.svg
 department: Ministère des Finances
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand

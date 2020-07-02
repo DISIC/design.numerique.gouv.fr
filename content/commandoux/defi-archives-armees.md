@@ -5,14 +5,14 @@ slug: defi-recherche-administrative
 illustration: ./illustrations/1922797.svg
 department: Ministère des Armées
 direction: Service historique de la Défense
-place: Vincennes
+place: Vincennes et Pau
 poste: Un ou une designer produit
 profil1: Designer produit
 profil2:
 ---
 
 ## Contexte
-Cette démarche permet aux anciens combattants, âgés et parfois non francophones, d'accéder à des droits : pensions, carte du combattant, etc. Elle n'est aujourd'hui pas réalisable en ligne et l'ajout de ressources UX constitue un accélérateur permettant dès l'amont d'intégrer les bonnes pratiques.
+Cette démarche permet aux appelés et aux engagés, français et étrangers, souvent âgés, d’obtenir un document administratif militaire (extrait de service, citation, diplômes) pour accéder à des droits : pension, carte du combattant, etc. Elle n'est aujourd'hui pas réalisable en ligne et l'ajout de ressources UX constitue un accélérateur permettant dès l'amont d'intégrer les bonnes pratiques.
 
 Lorsque l'usager arrive aux archives, c'est qu'il est au bout de sa course : on se doit de lui offrir un service simple, convivial, accessible et compréhensible.
 

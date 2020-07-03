@@ -3,7 +3,7 @@ title: Défi titre de séjour
 description: Permettre aux étrangers de faire une demande de titre de séjour en ligne, au sein d'un portail de demande unifié
 slug: defi-titre-de-sejour
 illustration: ./illustrations/titre-de-sejour.svg
-department: Ministère de l'intérieur
+department: Ministère de l'Intérieur
 direction: Direction générale des étrangers en France
 place: Paris
 poste: Une ou un designer produit et une développeuse ou un développeur accessibilité

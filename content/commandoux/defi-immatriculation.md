@@ -3,7 +3,7 @@ title: Défi immatriculation
 description: Améliorer l'expérience et l'accessibilité d'un ensemble de démarches liées à l'immatriculation des véhicules
 slug: defi-immatriculation
 illustration: ./illustrations/immatriculation.svg
-department: Ministère de l'intérieur
+department: Ministère de l'Intérieur
 direction: Délégation à la sécurité routière
 place: Paris et Charlevile-Mézières
 poste: Une ou un designer produit

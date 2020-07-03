@@ -4,7 +4,7 @@ description: Mieux comprendre les attentes des agriculteurs sur 2 démarches pha
 slug: defi-agriculture
 illustration: ./illustrations/agriculture.svg
 department: Ministère de l'Agriculture et de l'Alimentation
-direction: Direction générale de l'alimentation
+direction: Secrétariat général
 place: Paris
 poste: Une ou un designer produit
 profil1: Designer produit

@@ -1,6 +1,6 @@
 ---
 title: Défi contestation de contravention
-description: Augmenter la désirabilité de la version numérique du service permettant aux usager de contester une contravention
+description: Augmenter la désirabilité de la version numérique du service permettant aux usagers de contester une contravention
 slug: defi-contestation-contravention
 illustration: ./illustrations/contestation-contravention.svg
 department: Ministère de l'Intérieur

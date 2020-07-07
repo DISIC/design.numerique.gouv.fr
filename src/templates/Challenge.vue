@@ -118,7 +118,7 @@ export default {
         },
         {
           name: "twitter:title",
-          content: this.$page.challenge.name
+          content: this.$page.challenge.title
         },
         {
           name: "twitter:description",

@@ -14,4 +14,4 @@ DesignGouv rassemble les agents publics soucieux de la qualité des services num
 
 
 # Licence
-Le contenu de ce dépôt est placé sous [licence MIT](LICENSE), à l'exception du repertoire : `/src/assets/fonts/Marianne/`. 
+Le contenu de ce dépôt est placé sous [licence MIT](LICENSE), à l'exception du répertoire : `/src/assets/fonts/Marianne/`. 

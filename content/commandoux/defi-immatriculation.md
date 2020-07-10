@@ -5,7 +5,7 @@ slug: defi-immatriculation
 illustration: ./illustrations/immatriculation.svg
 department: Ministère de l'Intérieur
 direction: Délégation à la sécurité routière
-place: Paris et Charlevile-Mézières
+place: Paris et Charllevile-Mézières
 poste: Une ou un designer produit
 profil1: Designer produit
 profil2:

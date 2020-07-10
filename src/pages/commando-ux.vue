@@ -54,7 +54,7 @@
 
         <div class="cta">
           <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux" target="_blank" class="button">Déposez votre candidature !</a>
-          <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
+          <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
         </div>
       </section>
 
@@ -172,7 +172,7 @@
           Étude et sélection des défis : nous sélectionnons les 5 à 10 projets les plus impactants.
         </p>
         <p>
-          <strong>29 juin – 17 juillet 2020</strong><br>
+          <strong>29 juin – 19 juillet 2020</strong><br>
           Appel à candidatures : vous êtes designer ou développeur et ce programme vous séduit ? Candidatez !
         </p>
         <p>

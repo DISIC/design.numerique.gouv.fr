@@ -28,7 +28,7 @@
             target="_blank"
             class="button">
             Canditater à ce défi</a>
-          <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
+          <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
         </div>
       </div>
     </div>
@@ -70,7 +70,7 @@
           class="button">
           Canditater à ce défi !
         </a>
-        <p>Jusqu'au vendredi 17 juillet 2020 à 23h59</p>
+        <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
       </div>
 
     </div>

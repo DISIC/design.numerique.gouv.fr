@@ -190,46 +190,10 @@
       CommandoUX,
       CommandouxIllustration
     },
-    metaInfo: {
-      title: "Appel à défis : Commando UX - DesignGouv",
-      meta: [{
-        name: 'description',
-        content: "Designers et développeurs auront 4 mois pour améliorer l'expérience de 5 à 10 des 250 services publics numériques les plus utilisés par les Français."
-      },
-      {
-        property: 'og:title',
-        content: "Appel à défis : Commando UX - DesignGouv"
-      },
-      {
-        property: 'og:description',
-        content: "Appel à défis : Commando UX - DesignGouv"
-      },
-      {
-        property: 'og:image',
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Appel à défis : Commando UX - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Designers et développeurs auront 4 mois pour améliorer l'expérience de 5 à 10 des 250 services publics numériques les plus utilisés par les Français."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
-      },
-    ],
-    }
+    meta: [{
+      name: "robots",
+      content: "noindex"
+    }],
   }
 
 </script>

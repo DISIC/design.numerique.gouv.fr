@@ -24,7 +24,7 @@ Le service du prélèvement à la source est aujourd'hui l'une des démarches le
 - **Volumétrie annuelle :** 8 200 000 (100% de recours à la voie dématérialisée)
 - **Lien :** https://www.impots.gouv.fr/portail/particulier
 
-## Poste à pourvoir
+<!-- ## Poste à pourvoir
 
 ### Une développeuse ou un développeur accessibilité
 - Expertise technique sur le RGAA
@@ -34,4 +34,4 @@ Le service du prélèvement à la source est aujourd'hui l'une des démarches le
 - Passionné par l'accessibilité
 - Forte capacité à résoudre les problèmes
 - Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour
+- Curiosité, rigueur et sens de l'humour -->

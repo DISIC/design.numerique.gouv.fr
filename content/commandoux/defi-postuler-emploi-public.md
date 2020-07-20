@@ -26,7 +26,7 @@ Les livrables du défi au 31 décembre 2020 sont :
 - **Volumétrie annuelle :** 5 000 000 (3% de recours à la voie dématérialisée)
 - **Lien :** https://www.place-emploi-public.gouv.fr/
 
-## Postes à pourvoir
+<!-- ## Postes à pourvoir
 
 ### Une ou un designer produit
 - Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
@@ -46,4 +46,4 @@ Les livrables du défi au 31 décembre 2020 sont :
 - Passionné par l'accessibilité
 - Forte capacité à résoudre les problèmes
 - Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour
+- Curiosité, rigueur et sens de l'humour -->

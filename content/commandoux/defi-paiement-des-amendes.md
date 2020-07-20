@@ -26,7 +26,7 @@ Cette démarche permet aux particuliers de payer en ligne leurs amendes.
 - **Volumétrie annuelle :** 18 720 381
 - **Lien :** https://www.amendes.gouv.fr
 
-## Postes à pourvoir
+<!-- ## Postes à pourvoir
 ### Une ou un designer produit
 - Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
 - Expertise à évaluer la facilité d'utilisation de parcours existants et proposer des recommandations réfléchies
@@ -45,4 +45,4 @@ Cette démarche permet aux particuliers de payer en ligne leurs amendes.
 - Passionné par l'accessibilité
 - Forte capacité à résoudre les problèmes
 - Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour
+- Curiosité, rigueur et sens de l'humour -->

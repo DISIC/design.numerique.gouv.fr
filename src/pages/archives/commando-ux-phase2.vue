@@ -7,7 +7,7 @@
       <h1 class="highlight"><CommandoUX class="h1__icon" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
-        Designers et développeurs auront 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
+        Designers et développeurs : venez relever le défi et améliorer l'expérience d'un des 250&nbsp;services publics numériques les plus utilisés par les Français !
       </p>
 
       <CommandouxIllustration class="cover__illustration" aria-hidden="true"/>
@@ -20,10 +20,10 @@
       <section class="subsection">
 
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Le programme
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Appel à candidatures
         </h2>
         <p>
-          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables. Pour cela, nous recrutons 15 designers et développeurs qui auront 4 mois pour relever l'un des défis proposés par les administrations.
+          Vous êtes designer produit ou développeur ? Vous souhaitez œuvrer pour l'intérêt général ? Vous êtes disponible pendant 4 mois à partir de septembre 2020 ? Le programme Commando UX vous propose 10 défis à relever au sein des administrations de l'État !
         </p>
         <div class="key-elements">
           <div class="element">
@@ -51,15 +51,27 @@
             <p>Et œuvrer pour l'interêt général</p>
           </div>
         </div>
+
+        <div class="cta">
+          <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux" target="_blank" class="button">Déposez votre candidature !</a>
+          <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
+        </div>
+      </section>
+
+      <section class="subsection">
+        <h3>Prenez part à l'amélioration concrète du quotidien des Français</h3>
+        <p>
+          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables. Nous avons sélectionné 10 défis à relever à partir de septembre 2020. Votre mission sera d'apporter votre expertise pour aboutir, en 4 mois, à l'amélioration concrète de la démarche.
+        </p>
       </section>
 
       <section>
         <h3>4 mois au cœur des administrations de l'État</h3>
         <p>
-          En relevant l'un des défis, chaque designer et développeur aura l'occasion d'intégrer l'équipe responsable d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
+          En relevant l'un des défis, vous aurez l'occasion d'intégrer l'équipe responsable d'une des démarches administratives en ligne les plus utilisées par les Français. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
         </p>
         <p>
-          Pour mener à bien leur mission, ils pourront compter sur l’appui d’un référent au sein de l’administration d’accueil, et d'une chercheuse UX et 2 designers produit de la DINUM.
+          Pour mener à bien votre mission, vous pourrez compter sur l’appui d’un référent au sein de l’administration d’accueil, et d'une chercheuse UX et 2 designers produit de la DINUM.
         </p>
       </section>
 
@@ -85,16 +97,16 @@
           <CommandoUX class="h2__icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
         </h2>
         <p>
-          Pour chaque défi, l'objectif est de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
+          Pour chaque défi, votre objectif sera de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
         </p>
         <p>
-          Les qualités qu'apporteront les membres du Commando UX sont les suivantes :
+          Pour l'ensemble des missions, nous attendons les qualités suivantes :
         </p>
         <ul>
-          <li>Pour les designers : sens de l’esthétique, expérience et connaissances des technologies numériques</li>
-          <li>Pour les développeurs : expertise des technologies et des langages utilisés</li>
-          <li>Empathie, capacité à s'adapter, niveau d’exigence élevé et rapidité d’exécution</li>
-          <li>Enfin, engouement pour l’intérêt général</li>
+          <li>Pour les designers : votre sens de l’esthétique, votre expérience (UX/UI/développement) et vos connaissances des technologies numériques</li>
+          <li>Pour les développeurs : votre expertise des technologies et des langages utilisés</li>
+          <li>Votre empathie, votre capacité à vous adapter, votre niveau d’exigence et votre rapidité d’exécution</li>
+          <li>Enfin, votre engouement pour l’intérêt général</li>
         </ul>
       </section>
 
@@ -107,16 +119,17 @@
         <h2>
           <CommandoUX class="h2__icon" aria-hidden="true"/>Informations pratiques
         </h2>
-        <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 décembre 2020</p>
+        <p><strong>Dates de la mission :</strong> du 7 septembre 2020 au 31 décembre 2020</p>
         <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
+        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon votre niveau d'expérience</p>
+        <p><strong>Lieu de travail :</strong> Voir le détail dans chaque défi (options de télétravail à discuter)</p>
         <p><strong>Conditions :</strong></p>
         <ul>
           <li>Être une personne physique (et non morale)</li>
           <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
           <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
         </ul>
-        <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
+        <p><strong>Accompagnement :</strong> L'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) vous accompagnera tout au long du projet grâce à une équipe dédiée : 1 chercheuse UX et 2 designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">
           <li>
@@ -208,46 +221,10 @@
       CommandoUX,
       CommandouxIllustration
     },
-    metaInfo: {
-      title: "Appel à candidature : Commando UX",
-      meta: [{
-        name: 'description',
-        content: "Venez améliorer l'expérience d'un des 250 services publics numériques les plus utilisés par les Français !"
-      },
-      {
-        property: 'og:title',
-        content: "Appel à candidature : Commando UX - DesignGouv"
-      },
-      {
-        property: 'og:description',
-        content: "Appel à candidature : Commando UX - DesignGouv"
-      },
-      {
-        property: 'og:image',
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Appel à candidature : Commando UX - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Venez améliorer l'expérience d'un des 250 services publics numériques les plus utilisés par les Français !"
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
-      },
-    ],
-    }
+    meta: [{
+      name: "robots",
+      content: "noindex"
+    }],
   }
 
 </script>
@@ -270,11 +247,11 @@
         list-style: none;
         text-align: left;
         width: 46%;
-        margin: 0px 4px 48px 4px;
+        margin: 24px 4px;
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
-          margin: 0px 0px 32px 0px;
+          margin: 16px 0px;
         }
 
         h3 {
@@ -376,14 +353,14 @@
     }
 
     .key-elements {
-      margin: 48px 0;
+      margin: 48px 0 32px 0;
       display: flex;
       align-items: flex-start;
       justify-content: space-around;
       flex-wrap: wrap;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin: 32px 0;
+        margin: 32px 0 24px 0;
       }
 
       .element {

@@ -26,7 +26,7 @@ Au delà d'apporter une expérience plus fluide pour les usagers, à la clé c'e
 - **Volumétrie annuelle :** 7 973 138 (seulement 44% de recours à la voie dématérialisée)
 - **Lien :** https://www.usagers.antai.gouv.fr/demarches/saisienumero?lang=fr
 
-## Postes à pourvoir
+<!-- ## Postes à pourvoir
 
 ### Deux designers produit
 - Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
@@ -37,4 +37,4 @@ Au delà d'apporter une expérience plus fluide pour les usagers, à la clé c'e
 - Esthétique visuelle forte, propre et élégante
 - Forte capacité à résoudre les problèmes
 - Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour
+- Curiosité, rigueur et sens de l'humour -->

@@ -27,7 +27,7 @@ Cette démarche permet aux particuliers de simuler facilement les prestations so
 - **Volumétrie annuelle :** 503 533
 - **Lien :** https://www.mesdroitssociaux.gouv.fr/
 
-## Postes à pourvoir
+<!-- ## Postes à pourvoir
 ### Une ingénieure ou un ingénieur UX
 - Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
 - Expertise en HTML, CSS, JavaScript et plus spécifiquement Angular
@@ -44,4 +44,4 @@ Cette démarche permet aux particuliers de simuler facilement les prestations so
 - Expertise en devops
 - Forte capacité à résoudre les problèmes
 - Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour
+- Curiosité, rigueur et sens de l'humour -->

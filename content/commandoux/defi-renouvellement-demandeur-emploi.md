@@ -27,7 +27,7 @@ L'objectif de ce défi est de simplifier le parcours de la démarche de renouvel
 - **Volumétrie annuelle :** 6 297 380 (100% de recours à la voie dématérialisée)
 - **Lien :** https://candidat.pole-emploi.fr/inscription/preambule
 
-## Poste à pourvoir
+<!-- ## Poste à pourvoir
 
 ### Une ou un designer produit
 - Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
@@ -38,4 +38,4 @@ L'objectif de ce défi est de simplifier le parcours de la démarche de renouvel
 - Esthétique visuelle forte, propre et élégante
 - Forte capacité à résoudre les problèmes
 - Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour
+- Curiosité, rigueur et sens de l'humour -->

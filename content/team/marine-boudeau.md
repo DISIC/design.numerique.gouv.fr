@@ -5,7 +5,7 @@ photo: ./photos/marine-boudeau.jpg
 job_title: Cheffe du pôle
 sub_team:
 sub_team_link:
-twitter: https://twitter.com/marineboudeau
+twitter: marineboudeau
 e-mail :
 ---
 

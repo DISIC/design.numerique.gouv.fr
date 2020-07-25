@@ -1,9 +1,9 @@
 <template>
 
   <div class="message">
-    <h2>Rejoignez la communauté&nbsp;!</h2>
+    <h2>Suivez notre actualité&nbsp;!</h2>
 
-    <p>DesignGouv, c’est aussi une communauté pour faire vivre la culture design au sein des administrations. Nous organisons régulièrement des événements, des rencontres et des discussions. Rejoignez-nous&nbsp;!</p>
+    <p>DesignGouv, c’est aussi des événements, des rencontres et des discussions pour faire vivre la culture design au sein des administrations. Rejoignez-nous&nbsp;!</p>
 
     <a href="http://eepurl.com/gLJCsb" target="_blank" class="button">Je m'inscris à la newsletter</a>
 

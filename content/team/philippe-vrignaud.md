@@ -5,7 +5,7 @@ photo: ./photos/photo-manquante.jpg
 job_title: Chargé de mission
 sub_team: Démarches Simplifiées
 sub_team_link: https://www.demarches-simplifiees.fr/
-twitter:
+twitter: PhVrignaud
 e-mail :
 ---
 

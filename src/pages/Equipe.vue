@@ -53,9 +53,13 @@
               <g-image :src="node.photo" quality="100" height="150" width="150" />
               <h3>{{ node.firstName }} {{ node.lastName }}</h3>
               <p>{{ node.job_title }}</p>
-              <p v-if="node.sub_team_link"><g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link></p>
+              <p v-if="node.sub_team_link">
+                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+              </p>
               <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
-              <!-- <g-link :to="node.path">Read more</g-link> -->
+              <p v-if="node.twitter">
+                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+              </p>
             </li>
           </ul>
         </section>
@@ -76,6 +80,7 @@ query {
         job_title
         sub_team
         sub_team_link
+        twitter
         photo (width: 150, height: 150, quality: 100)
         path
         content

@@ -25,16 +25,16 @@
         <p>Initiez-vous facilement et gratuitement. C'est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
 
         <h3>Design</h3>
-        <p>
-          <a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Initiez-vous au Design</a>, 6 heures, gratuit.</br>
-          <a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>UX design&nbsp;: découvrez les fondamentaux</a>, 8 heures, gratuit.
-        </p>
+        <ul>
+          <li><a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Initiez-vous au Design</a>, 6 heures, gratuit.</li>
+          <li><a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>UX design&nbsp;: découvrez les fondamentaux</a>, 8 heures, gratuit.</li>
+        </ul>
 
         <h3>Accessibilité</h3>
-        <p>
-          <a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/about" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></br>
-          <a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.
-        </p>
+        <ul>
+          <li><a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/about" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></li>
+          <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
+        </ul>
 
       </section>
 
@@ -47,9 +47,9 @@
           compétences sur les sujets qui vous intéressent.</p>
 
         <h3>Qualité</h3>
-        <p>
-          <a href="https://www.opquast.com/formation/" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</br>
-        </p>
+        <ul>
+          <li><a href="https://www.opquast.com/formation/" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</li>
+        </ul>
 
       </section>
 
@@ -109,7 +109,10 @@
   @import "src/assets/scss/_vars.scss";
 
   .content {
-
+    li {
+      list-style-type: none;
+    } 
+    
     a {
       font-weight: bold;
 

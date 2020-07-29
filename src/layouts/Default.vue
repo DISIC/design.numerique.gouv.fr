@@ -1,5 +1,8 @@
 <template>
   <div>
+
+    <Skiplink />
+
     <header role="banner">
       <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
         <LogoRF class="header__logo-rf" role="img" title="Logo Républiqe Française"/>
@@ -94,6 +97,7 @@ query {
 </static-query>
 
 <script>
+import Skiplink from "~/components/Skip-link.vue"
 import Menu from "~/components/Menu.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import LogoRF from "~/assets/images/logoRF.svg"
@@ -101,6 +105,7 @@ import LogoDG from "~/assets/images/logoDG.svg"
 
 export default {
   components: {
+    Skiplink,
     Menu,
     Newsletter,
     LogoRF,

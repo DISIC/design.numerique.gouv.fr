@@ -43,11 +43,19 @@ module.exports = {
           path: './content/commandoux/*.md',
       }
     },
+    {
+        use: '@gridsome/source-filesystem',
+        options: {
+          typeName: 'Article',
+          path: './content/articles/*.md',
+      }
+    },
   ],
   templates: {
     People: '/equipe/:firstName-:lastName',
     Job: '/recrutement/:slug',
     Challenge: '/commando-ux/:slug',
+    Article: '/blog/:slug',
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch

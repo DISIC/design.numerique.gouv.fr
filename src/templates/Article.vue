@@ -10,10 +10,9 @@
           <g-link to="/blog/">Blog</g-link>
         </li>
         <li>
-          <g-link
-            to="/blog/cadre-legal"
-            aria-current="page"
-          ><span v-html="$page.article.title" /></g-link>
+          <p aria-current="page">
+            <span v-html="$page.article.title" />
+          </p>
         </li>
       </ol>
     </nav>
@@ -31,7 +30,9 @@
 
       <div v-html="$page.article.content" />
 
-      <p class="tags">Tags : <span v-html="$page.article.tags" /></p>
+      <div class="tags">
+        <g-link class="tags__item" v-for="tag in $page.article.tags.split(',')" :to="'/blog/' + tag">{{tag}}</g-link>
+      </div>
 
     </div>
   </Layout>
@@ -61,6 +62,14 @@ query Article ($id: ID!) {
 
 <style scoped lang="scss">
 
+  @import "src/assets/scss/_vars.scss";
+
+  .breadcrumb {
+    p {
+      display: inline-block;
+    }
+  }
+
   .job {
 
     h3 {
@@ -82,6 +91,27 @@ query Article ($id: ID!) {
 
   .tags {
     margin-top: 4em;
+
+    &__item {
+      display: inline-block;
+      padding: 2px 10px;
+      margin: 0px 12px 12px 0;
+      border-radius: 16px;
+      border: 2px solid $gray;
+      font-size: 0.825em;
+      font-weight: bold;
+      //background-color: $gray;
+      color: $black;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin: 0px 8px 8px 0;
+      }
+
+      &:hover {
+        border: 2px solid $blue;
+        color: $blue;
+      }
+    }
   }
 
 </style>

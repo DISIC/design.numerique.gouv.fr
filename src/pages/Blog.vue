@@ -45,18 +45,18 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Recrutement",
+    title: "Notre blog",
     meta: [{
       name: "description",
-      content: "Améliorons ensemble la qualité des services publics numériques."
+      content: "Découvrez nos derniers articles."
     },
     {
       property: "og:title",
-      content: "Recrutement - DesignGouv"
+      content: "Notre blog - DesignGouv"
     },
     {
       property: "og:description",
-      content: "Améliorons ensemble la qualité des services publics numériques."
+      content: "Découvrez nos derniers articles."
     },
     {
       property: "og:image",
@@ -72,11 +72,11 @@ export default {
     },
     {
       name: "twitter:title",
-      content: "Recrutement - DesignGouv"
+      content: "Notre blog - DesignGouv"
     },
     {
       name: "twitter:description",
-      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+      content: "Découvrez nos derniers articles."
     },
     {
       name: "twitter:image",

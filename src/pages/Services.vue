@@ -25,13 +25,13 @@
         </h2>
         <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
 
-        <strong>Qui</strong>
+        <h3>Qui</h3>
         <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
 
-        <strong>Quand</strong>
+        <h3>Quand</h3>
         <p>Dès que vous en avez besoin, nous sommes disponibles librement chaque vendredi de 10h à 12h, dans nos bureaux 20 avenue de Ségur 75007 Paris.</p>
 
-        <strong>Comment</strong>
+        <h3>Comment</h3>
         <p>Très simplement, en prenant <a href="https://calendly.com/designgouv" target="_blank">rendez-vous ici.</a></p>
 
       </section>
@@ -43,31 +43,32 @@
         </h2>
         <p>Lors d'un atelier d'un demi-journée, présentez votre service à des membres de la communauté DesignGouv (designers, chefs de projet, etc.) qui vous aideront à mener à bien votre projet. Obtenez des avis, des conseils, des idées, des retours d'expérience.</p>
 
-        <strong>Qui</strong>
+        <h3>Qui</h3>
         <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
 
-        <strong>Quand</strong>
+        <h3>Quand</h3>
         <p>Les revues de conception sont des événements que nous organisons une fois tous les deux mois. Nous annoncerons bientôt les dates des premiers événements !</p>
 
-        <strong>Comment</strong>
+        <h3>Comment</h3>
         <p>Nous lancerons bientôt les inscriptions.</p>
 
       </section>
 
       <section>
 
+
         <h2>
           <Services class="h2__icon" aria-hidden="true"/>Le commando UX
         </h2>
         <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
 
-        <strong>Qui</strong>
+        <h3>Qui</h3>
         <p>En priorité, les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Votre démarche n'en fait pas partie ? Rencontrez-nous lors de nos Bureaux ouverts !</p>
 
-        <strong>Quand</strong>
+        <h3>Quand</h3>
         <p>Nous conviendrons ensemble d'un premier rendez-vous pour discuter plus en détails de votre démarche et vous présenter un premier diagnostique rapide.</p>
 
-        <strong>Comment</strong>
+        <h3>Comment</h3>
         <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
 
       </section>

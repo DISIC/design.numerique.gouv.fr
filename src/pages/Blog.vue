@@ -2,24 +2,27 @@
   <Layout>
 
     <div class="cover">
-     <div class="cover__container">
+     <div class="cover__container cover__container--light">
 
-       <h1>Notre blog</h1>
+       <h1>Nos articles</h1>
 
       </div>
     </div>
 
     <div class="content">
 
-        <section>
-          <ul class="jobs">
-            <li v-for="{ node } in $page.allJob.edges" :key="node.id">
-              <g-link :to="node.path">
-                <h3>{{ node.title }}</h3>
-                <p>{{ node.type }}</p>
-              </g-link>
-            </li>
-          </ul>
+        <section class="articles">
+          <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
+            <g-image :src="node.illustration" quality="100" height="150" width="150" />
+            <p class="articles__date">{{ node.published_date }}</p>
+            <g-link :to="node.path">
+              <h2>{{ node.title }}</h2>
+            </g-link>
+            <p>{{ node.description }}</p>
+            <g-link :to="node.path" class="articles__link">
+              Lire l'article<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </g-link>
+          </article>
         </section>
 
     </div>
@@ -29,12 +32,15 @@
 
 <page-query>
 query {
-  allJob (sortBy: "title", order: ASC) {
+  allArticle (sortBy: "title", order: ASC) {
     edges {
       node {
       	id
         title
-        type
+        tags
+        published_date
+        illustration
+        description
         path
       }
     }
@@ -45,14 +51,14 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Notre blog",
+    title: "Blog",
     meta: [{
       name: "description",
       content: "Découvrez nos derniers articles."
     },
     {
       property: "og:title",
-      content: "Notre blog - DesignGouv"
+      content: "Blog - DesignGouv"
     },
     {
       property: "og:description",
@@ -72,7 +78,7 @@ export default {
     },
     {
       name: "twitter:title",
-      content: "Notre blog - DesignGouv"
+      content: "Blog - DesignGouv"
     },
     {
       name: "twitter:description",
@@ -89,51 +95,38 @@ export default {
 <style scoped lang="scss">
 @import "src/assets/scss/_vars.scss";
 
-  .jobs {
+  h1 {
+    font-size: 3em;
+  }
+
+  .articles {
     padding: 0;
     display: flex;
     align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
 
-    h3 {
-      margin-bottom: 4px;
+    h2 {
+      margin: 0px;
+      font-size: 1.6em;
+      padding-bottom: 12px;
+      text-decoration: none;
+      border: none;
+
+      &:hover {
+        color: $blue;
+      }
     }
 
-    > li {
+    img {
+      width: 100%;
+    }
+
+    > article {
       list-style: none;
-      text-align: center;
+      text-align: left;
       width: 48%;
-      margin: 24px 4px;
-
-      a {
-        border: 1px solid $gray-hover;
-        padding: 8px 12px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-sizing: border-box;
-
-        h3 {
-          color: black;
-        }
-
-        p {
-          color: $mid-gray;
-        }
-
-        &:hover {
-          border-color: $blue;
-
-          h3 {
-            color: $blue;
-          }
-        }
-
-      }
+      margin: 0px 4px 64px 4px;
 
       @media only screen and (max-width: $mobile-max-width) {
         width: 100%;
@@ -142,6 +135,15 @@ export default {
       p {
           margin: 0;
       }
+    }
+
+    &__date {
+      padding: 12px 0;
+    }
+
+    &__link {
+      display: inline-block;
+      margin-top: 12px;
     }
   }
 

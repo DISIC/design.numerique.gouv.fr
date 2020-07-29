@@ -1,6 +1,6 @@
 ---
-title: Article de test avec un titre plutôt assez long
-slug: article-de-test
+title: Article de test
+slug: article-de-test2
 published_date: 6 juin 2020
 tags: design
 illustration: ./illustrations/test.png

@@ -1,23 +1,22 @@
 <template>
   <div>
-
-    <header>
+    <header role="banner">
       <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
         <LogoRF class="header__logo-rf" role="img" title="Logo Républiqe Française"/>
         <LogoDG class="header__logo-dg" role="img" title="Logo DesignGouv"/>
       </g-link>
 
-      <nav>
+      <nav id="nav-main" role="navigation">
         <Menu />
       </nav>
     </header>
 
-    <main class="layout">
+    <main class="layout" id="main" role="main">
       <slot/>
       <Newsletter />
     </main>
 
-    <footer>
+    <footer role="contentinfo" >
 
       <g-link to="/" title="DesignGouv - Retour à l'accueil">
         <LogoRF class="footer__logo-rf" role="img" title="Logo République Française" />

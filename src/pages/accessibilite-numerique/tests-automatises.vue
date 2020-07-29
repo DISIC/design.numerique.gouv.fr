@@ -1,20 +1,6 @@
 <template>
   <Layout>
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/tests-automatises" aria-current="page">Les tests automatisés</g-link>
-        </li>
-      </ol>
-    </nav>
-
     <div class="cover">
      <div class="cover__container">
 

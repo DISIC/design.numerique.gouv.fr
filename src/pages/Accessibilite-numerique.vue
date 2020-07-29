@@ -1,6 +1,5 @@
 <template>
   <Layout>
-
     <div class="cover">
      <div class="cover__container">
 

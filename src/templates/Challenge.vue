@@ -1,21 +1,5 @@
 <template>
   <Layout>
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/commando-ux/">Commando UX</g-link>
-        </li>
-        <li>
-          <g-link
-            to="/accessibilite-numerique/cadre-legal"
-            aria-current="page"
-          ><span v-html="$page.challenge.title" /></g-link>
-        </li>
-      </ol>
-    </nav>
 
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">

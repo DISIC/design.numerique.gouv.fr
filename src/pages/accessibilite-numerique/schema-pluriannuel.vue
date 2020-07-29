@@ -1,20 +1,6 @@
 <template>
   <Layout>
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/schema-pluriannuel" aria-current="page">Schéma pluriannuel de mise en accessibilité</g-link>
-        </li>
-      </ol>
-    </nav>
-
     <div class="cover cover--with-breadcrumb">
      <div class="cover__container">
 

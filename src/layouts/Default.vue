@@ -15,6 +15,7 @@
     </header>
 
     <main class="layout" id="main" role="main">
+      <Breadcrumb />
       <slot/>
       <Newsletter />
     </main>
@@ -99,6 +100,7 @@ query {
 <script>
 import Skiplink from "~/components/Skip-link.vue"
 import Menu from "~/components/Menu.vue"
+import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import LogoRF from "~/assets/images/logoRF.svg"
 import LogoDG from "~/assets/images/logoDG.svg"
@@ -107,6 +109,7 @@ export default {
   components: {
     Skiplink,
     Menu,
+    Breadcrumb,
     Newsletter,
     LogoRF,
     LogoDG,

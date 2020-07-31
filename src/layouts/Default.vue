@@ -4,10 +4,12 @@
     <Skiplink />
 
     <header role="banner">
-      <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
-        <LogoRF class="header__logo-rf" role="img" title="Logo Républiqe Française"/>
-        <LogoDG class="header__logo-dg" role="img" title="Logo DesignGouv"/>
-      </g-link>
+      <div class="logo">
+        <LogoRF class="header__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité."/>
+        <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
+          <LogoDG class="header__logo-dg" role="img"/>
+        </g-link>
+      </div>
 
       <nav id="nav-main" role="navigation">
         <Menu />
@@ -23,15 +25,13 @@
 
     <footer role="contentinfo" >
 
-      <g-link to="/" title="DesignGouv - Retour à l'accueil">
-        <LogoRF class="footer__logo-rf" role="img" title="Logo République Française" />
-      </g-link>
+      <LogoRF class="footer__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité." />
 
       <div class="footer__content">
 
         <div class="footer__description">
           <g-link to="/" title="DesignGouv - Retour à l'accueil">
-            <LogoDG class="footer__logo-dg" role="img" title="Logo DesignGouv" />
+            <LogoDG class="footer__logo-dg" role="img"  />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -225,12 +225,23 @@ export default {
   }
 
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .header__logos {
       display: flex;
+      justify-content: space-between;  
+
+    .logo{
+      align-items: center;
+      display: flex;
+      
+      a::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0; 
+      }
+    }
+    .header__logos {
       justify-content: flex-start;
       align-items: center;
       border: none;

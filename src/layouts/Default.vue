@@ -14,6 +14,7 @@
       </nav>
     </header>
 
+
     <main class="layout" id="main" role="main">
       <Breadcrumb />
       <slot/>
@@ -33,8 +34,8 @@
             <LogoDG class="footer__logo-dg" role="img" title="Logo DesignGouv" />
           </g-link>
           <p>
-            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.</br>
-            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">code source</a> est disponible en licence libre.
+            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.</br>
+            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" title="code source - Nouvelle fenêtre" target="_blank">code source</a> est disponible en licence libre.
           </p>
         </div>
 
@@ -43,10 +44,10 @@
             DesignGouv
             <ul>
               <li><g-link to="/equipe/">Notre équipe</g-link></li>
-              <li><a href="https://twitter.com/design_gouv" target="_blank">
+              <li><a href="https://twitter.com/design_gouv" title="Twitter - Nouvelle fenêtre" target="_blank">
                 Twitter <font-awesome :icon="['fab', 'twitter']"/>
                 </a></li>
-              <li><a href="mailto:contact@design.numerique.gouv.fr" target="_blank">
+              <li><a href="mailto:contact@design.numerique.gouv.fr" title="Contact - Nouvelle fenêtre" target="_blank">
                   Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
               <li><g-link to="/recrutement/">Recrutement</g-link></li>
@@ -58,29 +59,29 @@
           <div>
             Autres services
             <ul>
-              <li><a href="https://observatoire.numerique.gouv.fr" target="_blank">L'observatoire du numérique</a></li>
-              <li><a href="https://demarches-simplifiees.fr" target="_blank">Demarches simplifiées</a></li>
-              <li><a href="https://franceconnect.gouv.fr" target="_blank">FranceConnect</a></li>
-              <li><a href="https://voxusagers.gouv.fr" target="_blank">Voxusagers</a></li>
+              <li><a href="https://observatoire.numerique.gouv.fr" title="L'observatoire du numérique - Nouvelle fenêtre" target="_blank">L'observatoire du numérique</a></li>
+              <li><a href="https://demarches-simplifiees.fr" title="Démarches simplifiées - Nouvelle fenêtre" target="_blank">Démarches simplifiées</a></li>
+              <li><a href="https://franceconnect.gouv.fr" title="FranceConnect - Nouvelle fenêtre" target="_blank">FranceConnect</a></li>
+              <li><a href="https://voxusagers.gouv.fr" title="Voxusagers - Nouvelle fenêtre" target="_blank">Voxusagers</a></li>
             </ul>
           </div>
           <div>
             Autres univers
             <ul>
-              <li><a href="https://etalab.gouv.fr" target="_blank">etalab.gouv.fr</a></li>
-              <li><a href="https://beta.gouv.fr" target="_blank">beta.gouv.fr</a></li>
-              <li><a href="https://data.gouv.fr" target="_blank">data.gouv.fr</a></li>
-              <li><a href="https://api.gouv.fr" target="_blank">api.gouv.fr</a></li>
+              <li><a href="https://etalab.gouv.fr" title="etalab.gouv.fr - Nouvelle fenêtre" target="_blank">etalab.gouv.fr</a></li>
+              <li><a href="https://beta.gouv.fr" title="beta.gouv.fr - Nouvelle fenêtre" target="_blank">beta.gouv.fr</a></li>
+              <li><a href="https://data.gouv.fr" title="data.gouv.fr - Nouvelle fenêtre" target="_blank">data.gouv.fr</a></li>
+              <li><a href="https://api.gouv.fr" title="api.gouv.fr - Nouvelle fenêtre" target="_blank">api.gouv.fr</a></li>
             </ul>
           </div>
         </div>
 
         <div class="footer__sites-publics">
           <span>Les sites publics :</span>
-          <a href="https://elysee.fr" target="_blank">Elysee.fr</a>
-          <a href="https://gouvernement.fr" target="_blank">gouvernement.fr</a>
-          <a href="https://www.service-public.fr" target="_blank">service-public.fr</a>
-          <a href="https://legifrance.gouv.fr" target="_blank">legifrance.gouv.fr</a>
+          <a href="https://elysee.fr" title="Élysée.fr - Nouvelle fenêtre" target="_blank">Élysée.fr</a>
+          <a href="https://gouvernement.fr" title="gouvernement.fr - Nouvelle fenêtre" target="_blank">gouvernement.fr</a>
+          <a href="https://www.service-public.fr" title="service-public.fr - Nouvelle fenêtre" target="_blank">service-public.fr</a>
+          <a href="https://legifrance.gouv.fr" title="légifrance.gouv.fr - Nouvelle fenêtre" target="_blank">légifrance.gouv.fr</a>
         </div>
       </div>
 
@@ -104,6 +105,11 @@ import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import LogoRF from "~/assets/images/logoRF.svg"
 import LogoDG from "~/assets/images/logoDG.svg"
+import Vue from 'vue';
+import VueBreadcrumbs from 'vue-2-breadcrumbs';
+//  import App from './App.vue';
+ 
+Vue.use(VueBreadcrumbs);
 
 export default {
   components: {

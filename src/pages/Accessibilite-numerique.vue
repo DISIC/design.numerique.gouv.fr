@@ -70,7 +70,7 @@
       </section>
       <section>
         <h3>Est-ce qu'il existe des financements ?</h3>
-        <p>Oui. Des <a target="_blank "href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite">financements</a> pour la mise en accessibilité de vos interfaces sont possibles via le FIPHFP.</p>
+        <p>Oui. Des <a title="financements par le FIPHFP - Nouvelle fenêtre" target="_blank" href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite">financements</a> pour la mise en accessibilité de vos interfaces sont possibles via le <abbr title="Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique">FIPHFP</abbr>.</p>
       </section>
 
         <!-- <p>Quelques outils et marchés s'offrent à vous :</p>

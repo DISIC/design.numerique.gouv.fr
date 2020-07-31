@@ -42,7 +42,7 @@
             </li>
           </ul>
           <p>
-            Le pôle design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de l’action et des comptes publics.
+            Le pôle design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de l’action et des comptes publics.
           </p>
         </section>
 

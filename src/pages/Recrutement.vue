@@ -16,7 +16,7 @@
             Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
           </p>
           <p>
-            Nous sommes rattachés à la <a href="https://numerique.gouv.fr" target="_blank">direction interministérielle du numérique</a>.
+            Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.
           </p>
         </section>
 

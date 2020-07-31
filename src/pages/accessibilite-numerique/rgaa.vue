@@ -16,7 +16,7 @@
 
         <h2>À quoi ça sert ?</h2>
         <p>
-          Le RGAA harmonise les normes internationales de l'accessibilité numériques connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" target="_blank">WCAG</a>. <strong>En France, le taux d'accessibilité d'un site est calculé en auditant ce site contre les critères du RGAA.</strong>
+          Le RGAA harmonise les normes internationales de l'accessibilité numériques connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d'accessibilité d'un site est calculé en auditant ce site contre les critères du RGAA.</strong>
         </p>
         <p>
           La méthode technique du RGAA permet de vérifier qu’une page web, tout contenu HTML, est conforme aux 50 critères de succès des niveaux A et AA de la norme internationale WCAG 2.1 qui ont été retenus dans la norme européenne de référence pour établir le niveau d’exigence légale en matière d’accessibilité numérique.
@@ -25,7 +25,7 @@
           La méthode technique du RGAA propose un cadre opérationnel de vérification de la conformité aux exigences d'accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critères. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
         </p>
 
-        <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#contenu" target="_blank" class="button">
+        <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#contenu" title="Consulter les critères du RGAA - Nouvelle fenêtre" target="_blank" class="button">
           Consulter les critères du RGAA
         </a>
       </section>
@@ -43,7 +43,7 @@
           <li>Critère de contrôle (pour le RGAA) : 106 critères de contrôle dans le RGAA 4 (vs 133 dans le RGAA 3)</li>
           <li>Critère de test (pour le RGAA) : 256 critères de test dans le RGAA 4 (vs 334 dans le RGAA 3)</li>
         </ul>
-        <p>Consulter la <a href="https://design.numerique.gouv.fr/assets/pdf/RGAA4_vs_WCAG2.1.pdf"></a>correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1. </p>
+        <p>Consulter la <a href="https://design.numerique.gouv.fr/assets/pdf/RGAA4_vs_WCAG2.1.pdf" target="_blank" title="correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1 - Nouvelle fenêtre">correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1</a>. </p>
       </section>
 
       <section>

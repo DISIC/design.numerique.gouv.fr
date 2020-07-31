@@ -32,7 +32,7 @@
           <li>Des dispositifs d’assistance et de contact : un mécanisme accessible (adresse électronique ou formulaire) pour permettre à toute personne de signaler à l’organisme concerné tout défaut d’accessibilité et à une personne handicapée de demander les informations correspondantes ou une solution alternative accessible</li>
           <li>La mention de la faculté pour la personne concernée de saisir le Défenseur des droits, en cas d’absence de réponse ou de solution, une fois les démarches effectuées via le mécanisme mentionné ci-dessus</li>
         </ul>
-        <p>Voici un <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-exemple-declaration.pdf" title="Exemple de déclaration d'accessibilité" target="_blank">exemple de déclaration d'accessibilité</a>. Il sera prochainement publié en format HTML sur ce site.</p>
+        <p>Voici un <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-exemple-declaration.pdf" title="Exemple de déclaration d'accessibilité - format pdf - nouvelle fenêtre" target="_blank">exemple de déclaration d'accessibilité</a>. Il sera prochainement publié en format HTML sur ce site.</p>
       </section>
       <section>
         <h2>Validité de la déclaration d’accessibilité</h2>

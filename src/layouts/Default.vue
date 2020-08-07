@@ -54,6 +54,7 @@
               <li><g-link to="/misc/accessibilite/">Accessibilité</g-link></li>
               <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
               <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>
+              <li><g-link to="/misc/plan-du-site/">Plan du site</g-link></li>
             </ul>
           </div>
           <div>

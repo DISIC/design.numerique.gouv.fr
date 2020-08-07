@@ -27,6 +27,10 @@ a {
     color: $red;
     border-color: $red;
   }
+  &:focus {
+    background-color: $light;
+    outline-color:$dark-gray;
+  }
 }
 
 h1, h2, h3, h4 {

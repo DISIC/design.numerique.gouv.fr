@@ -97,8 +97,20 @@ export default {
 <style scoped lang="scss">
 @import "src/assets/scss/_vars.scss";
 
+  .cover {
+    margin-bottom: 80px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-bottom: 64px;
+    }
+  }
+
   h1 {
     font-size: 3em;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      font-size: 2.5em;
+    }
   }
 
   .articles {

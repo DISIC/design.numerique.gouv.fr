@@ -33,7 +33,7 @@ h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.4;
   letter-spacing: -0.10px;
-  color: $dark;
+  color: $black;
 }
 
 h1 {
@@ -160,8 +160,13 @@ nav.breadcrumb {
   &__container {
     max-width: 920px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
 
     h1 {
       margin: 24px 0;
@@ -182,7 +187,7 @@ nav.breadcrumb {
       }
 
       h1 {
-        color: $dark;
+        color: $black;
       }
     }
   }

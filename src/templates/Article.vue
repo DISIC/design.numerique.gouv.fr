@@ -13,7 +13,7 @@
           </li>
           <li>
             <p aria-current="page">
-              <span v-html="$page.article.title" />
+              <span v-html="cropedTitle" />
             </p>
           </li>
         </ol>
@@ -51,6 +51,10 @@ export default {
   },
   created() {
     this.illustration = this.$page.article.illustration.src
+    this.cropedTitle =
+      this.$page.article.title.length > 30 ?
+      this.$page.article.title.substring(0, 28) + "..." :
+      this.$page.article.title;
   }
 }
 </script>
@@ -71,12 +75,30 @@ query Article ($id: ID!) {
 
   @import "src/assets/scss/_vars.scss";
 
+  .breadcrumb {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-top: 8px;
+    }
+
+    p {
+      display: inline-block;
+    }
+  }
+
   .cover {
-    margin-bottom: 64px;
     margin-top: 0px;
+    margin-bottom: 64px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-bottom: 48px;
+    }
 
     &__container {
-
       height: 360px;
       padding: 0;
       background-position: center;
@@ -98,7 +120,12 @@ query Article ($id: ID!) {
       line-height: 1.2;
       color: $black;
       display: inline-block;
-      margin: 8px 0 0 0 ;
+      margin: 8px 0 0 0;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        font-size: 2em;
+        margin: 0;
+      }
     }
 
     &__subtitle {
@@ -108,36 +135,6 @@ query Article ($id: ID!) {
 
   .content {
     max-width: 640px;
-  }
-
-  .breadcrumb {
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-    margin-top: 0px;
-    p {
-      display: inline-block;
-    }
-  }
-
-  .job {
-
-    h3 {
-      margin-top: 54px;
-    }
-
-    .about {
-
-      ul {
-        margin: 0;
-        padding: 0;
-
-        li {
-          list-style: none;
-        }
-      }
-    }
   }
 
   .tags {

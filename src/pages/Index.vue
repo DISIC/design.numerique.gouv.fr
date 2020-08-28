@@ -5,7 +5,7 @@
     <div class="cover">
       <div class="cover__container">
 
-        <CoverIllustration class="cover__home-illustration" aria-hidden="true"/>
+        <CoverIllustration width="0" class="cover__home-illustration" aria-hidden="true"/>
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
@@ -25,7 +25,7 @@
           </p>
 
           <g-link to="/commando-ux/" class="button">
-            Voir les défis<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Voir les défis<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
 
       </div>
@@ -33,7 +33,7 @@
       <section class="item">
 
           <div class="item__description">
-            <Design class="item__icon" aria-hidden="true"/>
+            <Design  width="0" class="item__icon" aria-hidden="true"/>
 
             <h2>Design numérique</h2>
 
@@ -48,14 +48,14 @@
             </p>
           </div>
 
-          <DesignIllustration class="item__illustration item__illustration--right" aria-hidden="true"/>
+          <DesignIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="item__description">
-          <Accessibilite class="item__icon" aria-hidden="true"/>
+          <Accessibilite  width="0" class="item__icon" aria-hidden="true"/>
 
           <h2>Accessibilité</h2>
 
@@ -64,18 +64,18 @@
           </p>
 
           <g-link to="/accessibilite-numerique/" class="button button--blue button--highlight">
-            L'accessibilité en détails<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            L'accessibilité en détails<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
-        <AccessibiliteIllustration class="item__illustration item__illustration--right" aria-hidden="true"/>
+        <AccessibiliteIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="item__description">
-          <Services class="item__icon" aria-hidden="true"/>
+          <Services  width="0" class="item__icon" aria-hidden="true"/>
 
           <h2>Besoin d'aide ?</h2>
 
@@ -84,18 +84,18 @@
           </p>
 
           <g-link to="/services/" class="button button--blue button--highlight">
-            J'ai besoin d'aide<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
-        <ServicesIllustration class="item__illustration item__illustration--right" aria-hidden="true"/>
+        <ServicesIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="item__description">
-          <Formations class="item__icon" aria-hidden="true"/>
+          <Formations  width="0" class="item__icon" aria-hidden="true"/>
 
           <h2>Les formations</h2>
 
@@ -104,11 +104,11 @@
           </p>
 
           <g-link to="/formations/" class="button button--blue button--highlight">
-            Je découvre les formations<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Je découvre les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
-        <FormationsIllustration class="item__illustration item__illustration--right" aria-hidden="true"/>
+        <FormationsIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 

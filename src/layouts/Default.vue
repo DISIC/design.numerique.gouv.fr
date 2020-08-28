@@ -1,13 +1,13 @@
 <template>
   <div>
 
-    <Skiplink />
+    <!--Skiplink /-->
 
     <header role="banner">
       <div class="logo">
-        <LogoRF class="header__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité."/>
+        <LogoRF width="120" class="header__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité."/>
         <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
-          <LogoDG class="header__logo-dg" role="img"/>
+          <LogoDG width="260"  class="header__logo-dg" role="img"/>
         </g-link>
       </div>
 
@@ -25,13 +25,13 @@
 
     <footer role="contentinfo" >
 
-      <LogoRF class="footer__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité." />
+      <LogoRF  width="120" class="footer__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité." />
 
       <div class="footer__content">
 
         <div class="footer__description">
           <g-link to="/" title="DesignGouv - Retour à l'accueil">
-            <LogoDG class="footer__logo-dg" role="img"  />
+            <LogoDG width="260" class="footer__logo-dg" role="img"  />
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -41,14 +41,14 @@
 
         <div class="footer__websites">
           <div>
-            DesignGouv
+            <p>DesignGouv</p>
             <ul>
               <li><g-link to="/equipe/">Notre équipe</g-link></li>
               <li><a href="https://twitter.com/design_gouv" title="Twitter - Nouvelle fenêtre" target="_blank">
-                Twitter <font-awesome :icon="['fab', 'twitter']"/>
+                Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
                 </a></li>
               <li><a href="mailto:contact@design.numerique.gouv.fr" title="Contact - Nouvelle fenêtre" target="_blank">
-                  Contact <font-awesome :icon="['fas', 'paper-plane']" transform="shrink-2"/>
+                  Contact <font-awesome width="0" :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
               <li><g-link to="/recrutement/">Recrutement</g-link></li>
               <li><g-link to="/misc/accessibilite/">Accessibilité</g-link></li>
@@ -58,7 +58,7 @@
             </ul>
           </div>
           <div>
-            Autres services
+            <p>Services</p>
             <ul>
               <li><a href="https://observatoire.numerique.gouv.fr" title="L'observatoire du numérique - Nouvelle fenêtre" target="_blank">L'observatoire du numérique</a></li>
               <li><a href="https://demarches-simplifiees.fr" title="Démarches simplifiées - Nouvelle fenêtre" target="_blank">Démarches simplifiées</a></li>
@@ -67,7 +67,7 @@
             </ul>
           </div>
           <div>
-            Autres univers
+            <p>Autres univers</p>
             <ul>
               <li><a href="https://etalab.gouv.fr" title="etalab.gouv.fr - Nouvelle fenêtre" target="_blank">etalab.gouv.fr</a></li>
               <li><a href="https://beta.gouv.fr" title="beta.gouv.fr - Nouvelle fenêtre" target="_blank">beta.gouv.fr</a></li>
@@ -78,11 +78,14 @@
         </div>
 
         <div class="footer__sites-publics">
-          <span>Les sites publics :</span>
-          <a href="https://elysee.fr" title="Élysée.fr - Nouvelle fenêtre" target="_blank">Élysée.fr</a>
-          <a href="https://gouvernement.fr" title="gouvernement.fr - Nouvelle fenêtre" target="_blank">gouvernement.fr</a>
-          <a href="https://www.service-public.fr" title="service-public.fr - Nouvelle fenêtre" target="_blank">service-public.fr</a>
-          <a href="https://legifrance.gouv.fr" title="légifrance.gouv.fr - Nouvelle fenêtre" target="_blank">légifrance.gouv.fr</a>
+          <div>
+          <ul>
+            <li><a href="https://elysee.fr" title="Élysée.fr - Nouvelle fenêtre" target="_blank">Élysée.fr</a></li>
+            <li><a href="https://gouvernement.fr" title="gouvernement.fr - Nouvelle fenêtre" target="_blank">gouvernement.fr</a></li>
+            <li><a href="https://www.service-public.fr" title="service-public.fr - Nouvelle fenêtre" target="_blank">service-public.fr</a></li>
+            <li><a href="https://legifrance.gouv.fr" title="légifrance.gouv.fr - Nouvelle fenêtre" target="_blank">légifrance.gouv.fr</a></li>
+          </ul>
+          </div>
         </div>
       </div>
 
@@ -233,14 +236,7 @@ export default {
       align-items: center;
       display: flex;
       
-      a::after {
-        position: absolute;
-        content: "";
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0; 
-      }
+
     }
     .header__logos {
       justify-content: flex-start;
@@ -348,6 +344,13 @@ export default {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+      ul {
+        padding: 0;
+        display: flex;  
+        li {
+          list-style-type: none;
+        }
+      }
 
       a, span {
         margin-right: 12px;

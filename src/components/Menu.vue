@@ -7,12 +7,12 @@
       <font-awesome id="menu-button__icon" class="menu-button__icon" :icon="['fas', 'bars']"/>
     </button>
     <ul id="menu">
-      <li role="none"><g-link class="button" to="/" role="menuitem">Accueil<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/formations/" role="menuitem">Les formations<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/equipe/" role="menuitem">Notre équipe<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/recrutement/" role="menuitem">Recrutement<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/" role="menuitem">Accueil<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/formations/" role="menuitem">Les formations<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/equipe/" role="menuitem">Notre équipe<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/recrutement/" role="menuitem">Recrutement<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
     </ul>
   </div>
 

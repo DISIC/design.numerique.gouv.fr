@@ -78,7 +78,7 @@ query Article ($id: ID!) {
     &__container {
 
       height: 360px;
-      max-width: 960px;
+      padding: 0;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -88,7 +88,7 @@ query Article ($id: ID!) {
     }
 
     &__text {
-      width: 680px;
+      width: 640px;
       background-color: white;
       padding: 4px 32px 0 32px;
     }
@@ -107,7 +107,7 @@ query Article ($id: ID!) {
   }
 
   .content {
-    max-width: 680px;
+    max-width: 640px;
   }
 
   .breadcrumb {

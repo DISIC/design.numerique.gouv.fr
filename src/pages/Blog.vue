@@ -13,7 +13,9 @@
 
         <section class="articles">
           <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-            <g-image :src="node.illustration"/>
+            <g-link class="articles__image" :to="node.path">
+              <g-image :src="node.illustration"/>
+            </g-link>
             <p class="articles__date">{{ node.published_date }}</p>
             <g-link :to="node.path">
               <h2>{{ node.title }}</h2>
@@ -118,9 +120,14 @@ export default {
       }
     }
 
-    img {
-      width: 100%;
-      max-height: 180px;
+    &__image {
+      border: none;
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 180px;
+      }
     }
 
     > article {

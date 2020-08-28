@@ -214,6 +214,8 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1140px;
+    margin: auto;
 
     .header__logos {
       display: flex;

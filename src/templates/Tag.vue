@@ -4,7 +4,8 @@
     <div class="cover">
      <div class="cover__container cover__container--light">
 
-       <h1>Nos articles</h1>
+       <h1>Nos articles sur le thème <span>{{ this.$route.params.id }}</span></h1>
+       <g-link to="/blog/"><font-awesome class="button__left-icon" :icon="['fas', 'arrow-left']" transform="shrink-3"/>Voir tous les articles</g-link>
 
       </div>
     </div>
@@ -33,8 +34,8 @@
 </template>
 
 <page-query>
-query {
-  allArticle (sortBy: "title", order: ASC) {
+query articlesByTags($id: String) {
+  allArticle (filter: {tags: {contains: [$id]}}, sortBy: "title", order: ASC) {
     edges {
       node {
       	id
@@ -54,40 +55,8 @@ export default {
   metaInfo: {
     title: "Blog",
     meta: [{
-      name: "description",
-      content: "Découvrez nos derniers articles."
-    },
-    {
-      property: "og:title",
-      content: "Blog - DesignGouv"
-    },
-    {
-      property: "og:description",
-      content: "Découvrez nos derniers articles."
-    },
-    {
-      property: "og:image",
-      content: "https://designgouv.fr/designGouv.png"
-    },
-    {
-      name: "twitter:card",
-      content: "summary_large_image"
-    },
-    {
-      name: "twitter:site",
-      content: "@Design_Gouv"
-    },
-    {
-      name: "twitter:title",
-      content: "Blog - DesignGouv"
-    },
-    {
-      name: "twitter:description",
-      content: "Découvrez nos derniers articles."
-    },
-    {
-      name: "twitter:image",
-      content: "https://designgouv.fr/designGouv.png"
+      name: "robots",
+      content: "noindex"
     }],
   }
 }
@@ -97,14 +66,19 @@ export default {
 @import "src/assets/scss/_vars.scss";
 
   .cover {
-    margin-bottom: 80px;
+    margin-bottom: 96px;
 
     h1 {
       font-size: 2.5em;
+      margin-bottom: 16px;
       line-height: 1.2;
 
       @media only screen and (max-width: $mobile-max-width) {
         font-size: 2em;
+      }
+
+      > span {
+        color: $blue;
       }
     }
   }

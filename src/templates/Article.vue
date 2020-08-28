@@ -35,7 +35,7 @@
       <div v-html="$page.article.content" />
 
       <div class="tags">
-        <g-link class="tags__item" v-for="(tag, id) in $page.article.tags.split(',')" :key="id" :to="'/blog/' + tag">{{tag}}</g-link>
+        <g-link class="tags__item" v-for="tag in $page.article.tags" :key="tag.id" :to="tag.path">{{tag.id}}</g-link>
       </div>
 
     </div>
@@ -63,10 +63,13 @@ export default {
 query Article ($id: ID!) {
   article: article (id: $id) {
     title
-    tags
     published_date
     illustration
     content
+    tags {
+      id
+      path
+    }
   }
 }
 </page-query>
@@ -138,7 +141,7 @@ query Article ($id: ID!) {
   }
 
   .tags {
-    margin-top: 4em;
+    margin-top: 3em;
 
     &__item {
       display: inline-block;
@@ -147,12 +150,12 @@ query Article ($id: ID!) {
       border-radius: 16px;
       border: 2px solid $gray;
       font-size: 0.825em;
-      font-weight: bold;
-      //background-color: $gray;
+      font-weight: 900;
       color: $black;
 
       @media only screen and (max-width: $mobile-max-width) {
         margin: 0px 8px 8px 0;
+        font-size: 0.825em;
       }
 
       &:hover {

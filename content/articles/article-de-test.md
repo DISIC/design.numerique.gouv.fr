@@ -3,7 +3,7 @@ title: Article de test avec un titre plutôt assez long
 slug: article-de-test
 published_date: 6 juin 2020
 tags: Design,Innovation,Art et beauté
-illustration: ./illustrations/test.png
+illustration: ./illustrations/blog.jpg
 description: Voici un article de test qui va nous permettre de structurer le blog. En un rien de temps.
 ---
 

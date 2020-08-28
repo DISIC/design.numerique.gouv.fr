@@ -1,28 +1,32 @@
 <template>
   <Layout>
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/blog/">Blog</g-link>
-        </li>
-        <li>
-          <p aria-current="page">
-            <span v-html="$page.article.title" />
-          </p>
-        </li>
-      </ol>
-    </nav>
-
     <div class="cover">
-     <div class="cover__container">
 
-       <h1 v-html="$page.article.title" />
-       <p class="cover__subtitle"><span v-html="$page.article.published_date" /></p>
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+          <li>
+            <g-link to="/">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/blog/">Blog</g-link>
+          </li>
+          <li>
+            <p aria-current="page">
+              <span v-html="$page.article.title" />
+            </p>
+          </li>
+        </ol>
+      </nav>
 
+     <div
+        class="cover__container"
+        :style="{ backgroundImage: `url(${illustration})` }">
+
+        <div class="cover__text">
+          <p class="cover__subtitle"><span v-html="$page.article.published_date" /></p>
+          <h1 v-html="$page.article.title" />
+        </div>
       </div>
     </div>
 
@@ -31,7 +35,7 @@
       <div v-html="$page.article.content" />
 
       <div class="tags">
-        <g-link class="tags__item" v-for="tag in $page.article.tags.split(',')" :to="'/blog/' + tag">{{tag}}</g-link>
+        <g-link class="tags__item" v-for="(tag, id) in $page.article.tags.split(',')" :key="id" :to="'/blog/' + tag">{{tag}}</g-link>
       </div>
 
     </div>
@@ -44,6 +48,9 @@ export default {
     return {
       title: this.$page.article.title
     }
+  },
+  created() {
+    this.illustration = this.$page.article.illustration.src
   }
 }
 </script>
@@ -64,7 +71,51 @@ query Article ($id: ID!) {
 
   @import "src/assets/scss/_vars.scss";
 
+  .cover {
+    margin-bottom: 64px;
+    margin-top: 0px;
+
+    &__container {
+
+      height: 360px;
+      max-width: 960px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    &__text {
+      width: 680px;
+      background-color: white;
+      padding: 4px 32px 0 32px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      line-height: 1.2;
+      color: $black;
+      display: inline-block;
+      margin: 8px 0 0 0 ;
+    }
+
+    &__subtitle {
+      margin-top: 8px;
+    }
+  }
+
+  .content {
+    max-width: 680px;
+  }
+
   .breadcrumb {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    margin-top: 0px;
     p {
       display: inline-block;
     }

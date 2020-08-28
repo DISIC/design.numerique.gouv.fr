@@ -3,7 +3,7 @@ title: Article de test
 slug: article-de-test4
 published_date: 6 juin 2020
 tags: design
-illustration: ./illustrations/test.png
+illustration: ./illustrations/blog.jpg
 description: Voici un article de test qui va nous permettre de structurer le blog. En un rien de temps.
 ---
 

@@ -12,21 +12,14 @@
 
     <div class="content">
 
-        <section class="articles">
-          <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-            <g-link class="articles__image" :to="node.path">
-              <g-image :src="node.illustration"/>
-            </g-link>
-            <p class="articles__date">{{ node.published_date }}</p>
-            <g-link :to="node.path">
-              <h2>{{ node.title }}</h2>
-            </g-link>
-            <p>{{ node.description }}</p>
-            <g-link :to="node.path" class="articles__link">
-              Lire l'article<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </g-link>
-          </article>
-        </section>
+      <section class="articles">
+        <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
+          <g-image :src="node.illustration" alt="Image d'illustration de l'article"/>
+          <p class="articles__date">{{ node.published_date }}</p>
+          <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
+          <p>{{ node.description }}</p>
+        </article>
+      </section>
 
     </div>
 
@@ -90,29 +83,7 @@ export default {
     justify-content: space-between;
     flex-wrap: wrap;
 
-    h2 {
-      margin: 0px;
-      font-size: 1.6em;
-      padding-bottom: 12px;
-      text-decoration: none;
-      border: none;
-
-      &:hover {
-        color: $blue;
-      }
-    }
-
-    &__image {
-      border: none;
-
-      img {
-        object-fit: cover;
-        width: 100%;
-        max-height: 180px;
-      }
-    }
-
-    > article {
+    article {
       list-style: none;
       text-align: left;
       width: 48%;
@@ -120,6 +91,36 @@ export default {
 
       @media only screen and (max-width: $mobile-max-width) {
         width: 100%;
+      }
+
+      h2 {
+        margin: 0px;
+        font-size: 1.6em;
+        padding-bottom: 12px;
+
+        a {
+          color: $black;
+          border: none;
+
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+
+      // a::after {
+      //     position: absolute;
+      //     content: "";
+      //     top: 0;
+      //     bottom: 0;
+      //     left: 0;
+      //     right: 0;
+      // }
+
+      img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 180px;
       }
 
       p {

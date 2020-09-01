@@ -7,7 +7,7 @@
       <h1 class="highlight"><CommandoUX class="h1__icon" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
-        Designers et développeurs auront 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
+        Designers et développeurs ont 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
       <CommandouxIllustration class="cover__illustration" aria-hidden="true"/>
@@ -108,14 +108,14 @@
           <CommandoUX class="h2__icon" aria-hidden="true"/>Informations pratiques
         </h2>
         <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 décembre 2020</p>
-        <p><strong>Type de contrat :</strong> CDD à temps plein</p>
+        <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
         <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
         <p><strong>Conditions :</strong></p>
         <ul>
           <li>Être une personne physique (et non morale)</li>
           <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
           <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
-        </ul>
+        </ul> -->
         <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">

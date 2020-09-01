@@ -112,7 +112,7 @@
 
       </section>
 
-      <section class="blog">
+      <!-- <section class="blog">
 
           <div class="blog__top">
             <div>
@@ -142,7 +142,7 @@
             </g-link>
           </div>
 
-      </section>
+      </section> -->
 
     </div>
 

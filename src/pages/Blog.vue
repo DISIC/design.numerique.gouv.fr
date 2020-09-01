@@ -2,9 +2,9 @@
   <Layout>
 
     <div class="cover">
-     <div class="cover__container cover__container--light">
+     <div class="cover__container">
 
-       <h1>Notre blog</h1>
+       <h1 class="highlight"><Blog class="h1__icon" aria-hidden="true"/>Notre blog</h1>
 
       </div>
     </div>
@@ -26,64 +26,73 @@
 </template>
 
 <page-query>
-query {
-  allArticle (sortBy: "publishedDate", order: DESC) {
-    edges {
-      node {
-      	id
-        title
-        publishedDate (format: "D MMMM YYYY", locale : "fr")
-        illustration
-        description
-        path
+
+  query {
+    allArticle (sortBy: "publishedDate", order: DESC) {
+      edges {
+        node {
+        	id
+          title
+          publishedDate (format: "D MMMM YYYY", locale : "fr")
+          illustration
+          description
+          path
+        }
       }
     }
   }
-}
+
 </page-query>
 
 <script>
-export default {
-  metaInfo: {
-    title: "Notre blog",
-    meta: [{
-      name: "description",
-      content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+
+  import Blog from "~/assets/images/blog.svg"
+
+  export default {
+    components: {
+      Blog,
     },
-    {
-      property: "og:title",
-      content: "Notre blog - DesignGouv"
-    },
-    {
-      property: "og:description",
-      content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
-    },
-    {
-      property: "og:image",
-      content: "https://designgouv.fr/designGouv.png"
-    },
-    {
-      name: "twitter:card",
-      content: "summary_large_image"
-    },
-    {
-      name: "twitter:site",
-      content: "@Design_Gouv"
-    },
-    {
-      name: "twitter:title",
-      content: "Notre blog - DesignGouv"
-    },
-    {
-      name: "twitter:description",
-      content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
-    },
-    {
-      name: "twitter:image",
-      content: "https://designgouv.fr/designGouv.png"
-    }],
+    metaInfo: {
+      title: "Notre blog",
+      meta: [{
+        name: "description",
+        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+      },
+      {
+        property: "og:title",
+        content: "Notre blog - DesignGouv"
+      },
+      {
+        property: "og:description",
+        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+      },
+      {
+        property: "og:image",
+        content: "https://designgouv.fr/designGouv.png"
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: "Notre blog - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+      },
+      {
+        name: "twitter:image",
+        content: "https://designgouv.fr/designGouv.png"
+      }],
+    }
   }
-}
+
 </script>
 
 <style scoped lang="scss">
@@ -94,13 +103,8 @@ export default {
   .cover {
     margin-bottom: 80px;
 
-    h1 {
-      font-size: 2.5em;
-      line-height: 1.2;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        font-size: 2em;
-      }
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-bottom: 48px;
     }
   }
 

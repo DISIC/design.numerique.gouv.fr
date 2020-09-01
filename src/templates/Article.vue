@@ -46,7 +46,43 @@
 export default {
   metaInfo () {
     return {
-      title: this.$page.article.title
+      title: this.$page.article.title,
+      meta: [{
+        name: "description",
+        content: this.$page.article.description
+      },
+      {
+        property: "og:title",
+        content: this.$page.article.title + " - DesignGouv"
+      },
+      {
+        property: "og:description",
+        content: this.$page.article.description
+      },
+      {
+        property: "og:image",
+        content: this.$page.article.illustration
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: this.$page.article.title + " - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: this.$page.article.description
+      },
+      {
+        name: "twitter:image",
+        content: this.$page.article.illustration
+      }],
     }
   },
   created() {
@@ -65,6 +101,7 @@ query Article ($id: ID!) {
     title
     publishedDate (format: "D MMMM YYYY", locale : "fr")
     illustration
+    description
     content
     tags {
       id

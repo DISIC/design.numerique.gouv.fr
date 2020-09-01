@@ -46,7 +46,7 @@ query articlesByTags($id: String) {
 <script>
 export default {
   metaInfo: {
-    title: "Blog",
+    title: "Notre blog",
     meta: [{
       name: "robots",
       content: "noindex"

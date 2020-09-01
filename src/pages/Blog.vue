@@ -45,18 +45,18 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Blog",
+    title: "Notre blog",
     meta: [{
       name: "description",
-      content: "Découvrez nos derniers articles."
+      content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
     },
     {
       property: "og:title",
-      content: "Blog - DesignGouv"
+      content: "Notre blog - DesignGouv"
     },
     {
       property: "og:description",
-      content: "Découvrez nos derniers articles."
+      content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
     },
     {
       property: "og:image",
@@ -72,11 +72,11 @@ export default {
     },
     {
       name: "twitter:title",
-      content: "Blog - DesignGouv"
+      content: "Notre blog - DesignGouv"
     },
     {
       name: "twitter:description",
-      content: "Découvrez nos derniers articles."
+      content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
     },
     {
       name: "twitter:image",

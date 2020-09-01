@@ -63,7 +63,7 @@ export default {
 
     h1 {
       font-size: 2.5em;
-      margin-bottom: 16px;
+      margin-bottom: 12px;
       line-height: 1.2;
 
       @media only screen and (max-width: $mobile-max-width) {

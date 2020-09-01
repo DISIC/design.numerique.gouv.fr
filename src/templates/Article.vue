@@ -24,7 +24,7 @@
         :style="{ backgroundImage: `url(${illustration})` }">
 
         <div class="cover__text">
-          <p class="cover__subtitle"><span v-html="$page.article.published_date" /></p>
+          <p class="cover__subtitle"><span v-html="$page.article.publishedDate" /></p>
           <h1 v-html="$page.article.title" />
         </div>
       </div>
@@ -63,7 +63,7 @@ export default {
 query Article ($id: ID!) {
   article: article (id: $id) {
     title
-    published_date
+    publishedDate (format: "D MMMM YYYY", locale : "fr")
     illustration
     content
     tags {

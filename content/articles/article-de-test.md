@@ -1,7 +1,7 @@
 ---
 title: Article de test avec un titre plutôt assez long
 slug: article-de-test
-published_date: 6 juin 2020
+publishedDate: 2020-06-12
 tags: ["Design", "Innovation", "Art de vivre à"]
 illustration: ./illustrations/blog.jpg
 description: Voici un article de test qui va nous permettre de structurer le blog. En un rien de temps.

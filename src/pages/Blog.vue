@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="cover__container cover__container--light">
 
-       <h1>Nos articles</h1>
+       <h1>Notre blog</h1>
 
       </div>
     </div>
@@ -14,7 +14,7 @@
         <section class="articles">
           <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
             <g-image :src="node.illustration" alt="Image d'illustration de l'article"/>
-            <p class="articles__date">{{ node.published_date }}</p>
+            <p class="articles__date">{{ node.publishedDate }}</p>
             <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
             <p>{{ node.description }}</p>
           </article>
@@ -27,12 +27,12 @@
 
 <page-query>
 query {
-  allArticle (sortBy: "title", order: ASC) {
+  allArticle (sortBy: "publishedDate", order: DESC) {
     edges {
       node {
       	id
         title
-        published_date
+        publishedDate (format: "D MMMM YYYY", locale : "fr")
         illustration
         description
         path

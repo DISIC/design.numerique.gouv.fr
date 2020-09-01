@@ -19,17 +19,9 @@
 
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
-        <CommandouxIllustration class="cover__illustration--small" aria-hidden="true" />
+        <g-image :src="$page.challenge.illustration" class="cover__illustration--small" aria-hidden="true"/>
         <h1>{{ $page.challenge.title }}</h1>
         <p class="cover__subtitle">{{ $page.challenge.description }}</p>
-        <!-- <div class="cta">
-          <a
-            href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux"
-            target="_blank"
-            class="button">
-            Canditater à ce défi</a>
-          <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
-        </div> -->
       </div>
     </div>
 
@@ -145,6 +137,7 @@ query Challenge ($id: ID!) {
     title
     poste
     description
+    illustration
   }
 }
 </page-query>

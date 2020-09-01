@@ -129,7 +129,7 @@
 
           <div class="articles">
             <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-              <g-image :src="node.illustration" alt="Image d'illustration de l'article"/>
+              <g-image :src="node.illustration" aria-hidden="true"/>
               <p class="articles__date">{{ node.publishedDate }}</p>
               <h3><g-link :to="node.path">{{ node.title }}</g-link></h3>
               <p>{{ node.description }}</p>

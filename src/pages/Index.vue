@@ -346,6 +346,12 @@
         margin-right: 12px;
       }
     }
+
+    &:hover, &:focus {
+      .blog__icon {
+        transform: rotate(180deg);
+      }
+    }
   }
 
   .item {

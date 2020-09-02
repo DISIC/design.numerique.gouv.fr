@@ -256,6 +256,10 @@
       padding-bottom: 80px;
     }
 
+    h1 {
+      line-height: 1.4;
+    }
+
     &__subtitle {
       padding: 34px 20%;
 

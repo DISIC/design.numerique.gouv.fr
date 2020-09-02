@@ -19,7 +19,7 @@
 
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
-        <g-image :src="$page.challenge.illustration" class="cover__illustration--custom" aria-hidden="true"/>
+        <g-image :src="$page.challenge.illustration" class="cover__illustration--small" aria-hidden="true"/>
         <h1>{{ $page.challenge.title }}</h1>
         <p class="cover__subtitle">{{ $page.challenge.description }}</p>
       </div>
@@ -181,9 +181,7 @@ query Challenge ($id: ID!) {
 
 .content {
 
-  .cover__illustration--custom {
-    //height: 200px;
-    //width: 200px;
+  .cover__illustration--small {
   }
 
   a {

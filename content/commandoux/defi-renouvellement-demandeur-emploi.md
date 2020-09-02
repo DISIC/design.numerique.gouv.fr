@@ -2,7 +2,7 @@
 title: Défi demandeurs d'emploi
 description: Simplifier le parcours des demandeurs d'emploi pour le renouvellement mensuel de leur situation
 slug: defi-renouvellement-demandeur-emploi
-illustration: ./illustrations/renouvellement-demandeur-emploi.svg
+illustration: ./illustrations/demandeur.svg
 department: Ministère du Travail
 direction: Pôle emploi
 place: Paris

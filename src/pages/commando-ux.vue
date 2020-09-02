@@ -71,8 +71,8 @@
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
             <g-image class="challenge__illustration" :src="node.illustration"/>
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
-            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
             <p class="challenge__description">{{ node.description }}</p>
+            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
             <!-- <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
             <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p> -->
             <!-- <p class="challenge__place"><font-awesome class="challenge__icon" :icon="['fas', 'map-marker-alt']"/> {{ node.place }}</p> -->
@@ -271,10 +271,20 @@
         text-align: left;
         width: 46%;
         margin: 0px 4px 48px 4px;
+        position: relative;
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
           margin: 0px 0px 32px 0px;
+        }
+
+        a::after {
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
         }
 
         h3 {
@@ -285,7 +295,7 @@
 
           @media only screen and (max-width: $mobile-max-width) {
             font-size: 1.125em;
-            margin: 4px 0 px 0;
+            margin: 4px 0 4px 0;
           }
 
           a {
@@ -295,9 +305,11 @@
 
         img {
           max-width: 100px;
+          height: 100px;
 
           @media only screen and (max-width: $mobile-max-width) {
             max-width: 80px;
+            height: 80px;
           }
         }
       }
@@ -323,7 +335,6 @@
       &__department, &__place {
         font-size: 0.825em;
         font-weight: bold;
-        margin: 0px 0 16px 0;
       }
 
       &__icon {

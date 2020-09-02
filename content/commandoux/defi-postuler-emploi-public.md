@@ -2,7 +2,7 @@
 title: Défi emploi public
 description: Rendre accessible et améliorer le parcours des candidats qui postulent sur la Place de l'Emploi Public
 slug: defi-postuler-emploi-public
-illustration: ./illustrations/postuler-emploi-public.svg
+illustration: ./illustrations/public.svg
 department: Ministère de l'Action et des comptes publics
 direction: Direction Générale de l'Administration et de la Fonction Publique
 place: Paris

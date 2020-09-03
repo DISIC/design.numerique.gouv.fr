@@ -1,0 +1,38 @@
+.problem {
+  &:before {
+    background-image: url(/assets/images/problem.svg);
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    margin-bottom: -5px;
+    content:"";
+  }
+}
+
+.goal {
+  &:before {
+    background-image: url(/assets/images/goal.svg);
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    margin-bottom: -5px;
+    content:"";
+  }
+}
+
+.commando {
+  &:before {
+    background-image: url(/assets/images/commando.svg);
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    margin-bottom: -5px;
+    content:"";
+  }
+}

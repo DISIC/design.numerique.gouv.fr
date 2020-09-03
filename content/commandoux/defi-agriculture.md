@@ -6,7 +6,10 @@ illustration: ./illustrations/agriculture.svg
 department: Ministère de l'Agriculture et de l'Alimentation
 direction: Secrétariat général
 place: Paris
-poste: Une ou un designer produit
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Designer produit
 profil2:
 ---

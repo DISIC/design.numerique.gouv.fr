@@ -6,7 +6,10 @@ illustration: ./illustrations/immatriculation.svg
 department: Ministère de l'Intérieur
 direction: Délégation à la sécurité routière
 place: Paris et Charleville-Mézières
-poste: Une ou un designer produit
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Designer produit
 profil2:
 ---

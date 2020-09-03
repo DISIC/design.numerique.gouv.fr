@@ -6,7 +6,10 @@ illustration: ./illustrations/contravention.svg
 department: Ministère de l'Intérieur
 direction: Agence nationale de traitement automatisé des infractions (ANTAI)
 place: Paris et Rennes
-poste: Deux designers produit
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Designer produit
 profil2: Designer produit
 ---

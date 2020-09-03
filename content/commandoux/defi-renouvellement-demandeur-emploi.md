@@ -6,7 +6,10 @@ illustration: ./illustrations/demandeur.svg
 department: Ministère du Travail
 direction: Pôle emploi
 place: Paris
-poste: Une ou un designer produit
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Designer produit
 profil2:
 ---

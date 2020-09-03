@@ -27,32 +27,55 @@
 
     <div class="content content--challenge">
 
-      <section>
-        <h2>
-        Éléments clés
-        </h2>
-        <p>
-          <strong>Ministère bénéficiant du défi</strong>
-          <br />
-          <span v-html="$page.challenge.department" />
-        </p>
-        <p>
-          <strong>Administration bénéficiant du défi</strong>
-          <br />
-          <span v-html="$page.challenge.direction" />
-        </p>
-        <p>
-          <strong>Localisation du défi</strong>
-          <br />
-          <span v-html="$page.challenge.place" />
-        </p>
-        <p>
-          <strong>Profils recherchés</strong>
-          <br />
-          <span v-html="$page.challenge.poste" />
-        </p>
+      <section class="procedure">
 
+        <h2>La démarche</h2>
+
+        <p class="procedure__full-title">{{ $page.challenge.fullTitle }}</p>
+        <div class="key-elements">
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'user-astronaut']"/>
+            </div>
+            <p><b>{{ $page.challenge.department }}</b> - {{ $page.challenge.direction }}</p>
+          </div>
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'stopwatch']"/>
+            </div>
+            <p><b>{{ $page.challenge.volumetry }}</b></p>
+            <p>personnes utilisent cette démarche chaque année</p>
+          </div>
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'flag']"/>
+            </div>
+            <p><b>{{ $page.challenge.ratio }}</b></p>
+            <p>de demandes se font par le service en ligne</p>
+          </div>
+        </div>
+        <p>Lien vers la démarche : <g-link :to="$page.challenge.website">{{ $page.challenge.website }}</g-link></p>
+
+      </section>
+
+      <section>
         <div v-html="$page.challenge.content" />
+      </section>
+
+      <section>
+
+        <h2 class="commando">Le commando</h2>
+
+        <ul class="team">
+          <li v-for="member in $page.challenge.team" :key="member.id">
+            <g-image :src="member.photo"
+                     quality="100" height="120" width="120"
+                     :alt="'Photo de ' + member.firstName + ' ' + member.lastName"/>
+            <p><strong>{{ member.firstName }} {{ member.lastName }}</strong></p>
+            <p>{{ member.job_title }}</p>
+          </li>
+        </ul>
+
       </section>
 
       <!-- <div class="cta">
@@ -78,7 +101,7 @@ export default {
   components: {
     Services,
     CommandoUX,
-    CommandouxIllustration
+    CommandouxIllustration,
   },
   metaInfo() {
     return {
@@ -135,17 +158,29 @@ query Challenge ($id: ID!) {
     content
     place
     title
-    poste
     description
     illustration
+    fullTitle
+    volumetry
+    ratio
+    website
+    team {
+      id
+      firstName
+      lastName
+      photo (width: 150, height: 150, quality: 100)
+      path
+      job_title
+    }
   }
 }
 </page-query>
 
 <style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
 
-.button {
+  @import "src/assets/scss/_vars.scss";
+
+  .button {
     text-decoration: none;
     border-color: $blue;
     background-color: $blue;
@@ -178,28 +213,119 @@ query Challenge ($id: ID!) {
     }
   }
 
+  .procedure {
+    //background-color: $blue;
 
-.content {
-
-  .cover__illustration--small {
-  }
-
-  a {
-    svg {
-      padding-right: 12px;
-      transition: 0.1s all;
+    h2 {
+      text-align: center;
+      font-size: 1em;
+      font-weight: normal;
     }
 
-    &:hover {
-      svg {
-        padding-left: 8px;
-        padding-right: 4px;
+    &__full-title {
+      margin: 0;
+      text-align: center;
+      font-size: 1.75em;
+      font-weight: bold;
+      color: $blue;
+    }
+  }
+
+  .team {
+    padding: 0;
+    margin: 8px auto 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    li {
+      list-style: none;
+      text-align: center;
+      width: 160px;
+      margin-top: 32px;
+
+      img {
+        border-radius: 50em;
+      }
+
+      p {
+          margin: 0;
       }
     }
   }
 
-  .subsection {
-    margin-bottom: 40px;
+  .content {
+
+    a {
+      svg {
+        padding-right: 12px;
+        transition: 0.1s all;
+      }
+
+      &:hover {
+        svg {
+          padding-left: 8px;
+          padding-right: 4px;
+        }
+      }
+    }
+
+    .subsection {
+      margin-bottom: 40px;
+    }
+
+    .key-elements {
+      margin: 32px 0 48px 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin: 32px 0;
+      }
+
+      .element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 240px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin: 0px 4px 16px 4px;
+        }
+
+        img {
+          background-color: lighten($gray-hover, 10%);
+          border-radius: 100%;
+          padding: 12px;
+        }
+
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          width: 88px;
+          height: 88px;
+          background-color: lighten($gray-hover, 10%);
+          margin-bottom: 16px;
+
+          svg {
+            font-size: 40px;
+            color: $blue;
+          }
+        }
+
+        p {
+          color: $blue;
+          margin: 0;
+          padding: 0 8px;
+        }
+      }
+    }
   }
-}
+
 </style>

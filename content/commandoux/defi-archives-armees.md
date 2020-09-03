@@ -6,7 +6,10 @@ illustration: ./illustrations/armee.svg
 department: Ministère des Armées
 direction: Service historique de la Défense
 place: Vincennes et Pau
-poste: Un ou une designer produit
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Designer produit
 profil2:
 ---

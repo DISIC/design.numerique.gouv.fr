@@ -41,6 +41,11 @@ module.exports = {
       options: {
         typeName: 'Challenge',
         path: './content/commandoux/*.md',
+        refs: {
+          team: 'People',
+          profil1: 'People',
+          profil2: 'People',
+        },
       }
     },
     {

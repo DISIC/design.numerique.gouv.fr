@@ -6,7 +6,10 @@ illustration: ./illustrations/prelevement.svg
 department: Ministère des Finances
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand
-poste: Une développeuse ou un développeur accessibilité
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Développeur accessibilité
 profil2:
 ---

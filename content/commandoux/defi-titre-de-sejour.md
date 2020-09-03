@@ -6,7 +6,10 @@ illustration: ./illustrations/titre.svg
 department: Ministère de l'Intérieur
 direction: Direction générale des étrangers en France
 place: Paris
-poste: Une ou un designer produit et une développeuse ou un développeur accessibilité
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Designer produit
 profil2: Développeur accessibilité
 ---

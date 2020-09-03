@@ -6,7 +6,10 @@ illustration: ./illustrations/public.svg
 department: Ministère de l'Action et des comptes publics
 direction: Direction Générale de l'Administration et de la Fonction Publique
 place: Paris
-poste: Une ou un designer produit et une développeuse ou un développeur accessibilité
+fullTitle: Simuler mes droits sociaux
+website: https://www.mesdroitssociaux.gouv.fr/
+volumetry: 503 533
+ratio: 100%
 profil1: Designer produit
 profil2: Développeur accessibilité
 ---

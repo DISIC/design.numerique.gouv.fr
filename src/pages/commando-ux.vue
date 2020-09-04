@@ -65,6 +65,23 @@
 
       <section>
         <h2>
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Le commando
+        </h2>
+        <ul class="team">
+          <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
+            <g-image :src="node.photo" quality="100" height="150" width="150" />
+            <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+            <p>{{ node.job_title }}</p>
+            <p v-if="node.sub_team_link">
+              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+            </p>
+            <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>
           <CommandoUX class="h2__icon" aria-hidden="true"/>Les 10 défis
         </h2>
         <ul class="challenge">
@@ -123,7 +140,7 @@
             <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
                      quality="100" height="120" width="120"
                      alt="Photo Ugo Dessertine"/>
-            <p><strong>Faustine Demiselle</strong></p>
+            <h3>Faustine Demiselle</h3>
             <p>Designer</p>
             <p>Commando UX</p>
           </li>
@@ -131,7 +148,7 @@
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
                      quality="100" height="120" width="120"
                      alt="Photo Ugo Dessertine"/>
-            <p><strong>Ugo Dessertine</strong></p>
+            <h3>Ugo Dessertine</h3>
             <p>Lead Designer</p>
             <p>Commando UX</p>
           </li>
@@ -139,7 +156,7 @@
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
                      quality="100" height="120" width="120"
                      alt="Photo Georges Bayard"/>
-            <p><strong>Georges Bayard</strong></p>
+            <h3>Georges Bayard</h3>
             <p>Chargé de mission</p>
             <p>Observatoire</p>
           </li>
@@ -178,6 +195,7 @@
 </template>
 
 <page-query>
+
   query {
     allChallenge (sortBy: "title", order: ASC) {
       edges {
@@ -192,7 +210,25 @@
         }
       }
     }
+    allPeople (sortBy: "lastName", order: ASC, filter: {group: {eq: "commando"}}) {
+      edges {
+        node {
+        	id
+          firstName
+          lastName
+          job_title
+          sub_team
+          sub_team_link
+          twitter
+          photo (width: 150, height: 150, quality: 100)
+          path
+          content
+          group
+        }
+      }
+    }
   }
+
 </page-query>
 
 
@@ -491,19 +527,28 @@
 
     .team {
       padding: 0;
-      margin: 8px auto 0;
       display: flex;
-      justify-content: space-around;
+      align-items: flex-start;
+      justify-content: space-between;
       flex-wrap: wrap;
 
-      li {
+      h3 {
+        margin: 4px 0;
+      }
+
+      > li {
         list-style: none;
         text-align: center;
-        width: 160px;
-        margin-top: 32px;
+        width: 30%;
+        margin: 24px 4px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 46%;
+        }
 
         img {
           border-radius: 50em;
+          max-width: 150px;
         }
 
         p {

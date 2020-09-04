@@ -62,7 +62,9 @@
               </p>
             </li>
           </ul>
+        </section>
 
+        <section>
           <h2>En appui</h2>
           <ul class="team">
             <li v-for="{ node } in external" :key="node.id">
@@ -78,7 +80,9 @@
               </p>
             </li>
           </ul>
+        </section>
 
+        <section>
           <h2>Le commando</h2>
           <ul class="team">
             <li v-for="{ node } in commando" :key="node.id">
@@ -102,48 +106,52 @@
 </template>
 
 <page-query>
-query {
-  allPeople (sortBy: "lastName", order: ASC) {
-    edges {
-      node {
-      	id
-        firstName
-        lastName
-        job_title
-        sub_team
-        sub_team_link
-        twitter
-        photo (width: 150, height: 150, quality: 100)
-        path
-        group
-        content
+
+  query {
+    allPeople (sortBy: "lastName", order: ASC) {
+      edges {
+        node {
+        	id
+          firstName
+          lastName
+          job_title
+          sub_team
+          sub_team_link
+          twitter
+          photo (width: 150, height: 150, quality: 100)
+          path
+          group
+          content
+        }
       }
     }
   }
-}
+
 </page-query>
 
 <script>
-export default {
-  metaInfo: {
-    title: "Équipe",
-    meta: [{
-      name: "robots",
-      content: "noindex"
-    }],
-  },
-  computed: {
-    team: function () {
-      return this.$page.allPeople.edges.filter(edge => edge.node.group === 'team')
+
+  export default {
+    metaInfo: {
+      title: "Équipe",
+      meta: [{
+        name: "robots",
+        content: "noindex"
+      }],
     },
-    external: function () {
-      return this.$page.allPeople.edges.filter(edge => edge.node.group === 'external')
-    },
-    commando: function () {
-      return this.$page.allPeople.edges.filter(edge => edge.node.group === 'commando')
-    },
+    computed: {
+      team: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'team')
+      },
+      external: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'external')
+      },
+      commando: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'commando')
+      },
+    }
   }
-}
+
 </script>
 
 <style scoped lang="scss">
@@ -157,7 +165,7 @@ export default {
     flex-wrap: wrap;
 
     h3 {
-      margin-bottom: 4px;
+      margin: 4px 0;
     }
 
     > li {

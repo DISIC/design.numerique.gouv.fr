@@ -2,7 +2,7 @@
   <div>
     <header role="banner">
       <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
-        <LogoRF class="header__logo-rf" role="img" title="Logo Républiqe Française"/>
+        <LogoRF class="header__logo-rf" role="img" title="Logo République Française"/>
         <LogoDG class="header__logo-dg" role="img" title="Logo DesignGouv"/>
       </g-link>
 
@@ -214,6 +214,8 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1140px;
+    margin: auto;
 
     .header__logos {
       display: flex;

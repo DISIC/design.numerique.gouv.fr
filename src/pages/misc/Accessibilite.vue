@@ -14,9 +14,26 @@
         <section>
           <h2>Déclaration de conformité - RGAA 4.0</h2>
           <p>
-            L'audit de conformité du site design.numerique.gouv.fr est en cours,
-            la déclaration sera publiée prochainement.
+            Le site design.numerique.gouv.fr est développé selon les recommendations du RGAA pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
           </p>
+          <h3>État de conformité</h3>
+          <p>DesignGouv est <strong>partiellement conforme</strong> avec le RGAA 4.0.</p>
+          <h3>Échantillon évalué</h3>
+          <p>L'audit a été effectué sur l'échantillon de pages suivant :</p>
+          <ul>
+            <li><a href="https://design.numerique.gouv.fr/">Accueil</a></li>
+            <li><a href="https://design.numerique.gouv.fr/mentions-legales/">Mentions légales</a></li>
+            <li><a href="https://design.numerique.gouv.fr/misc/accessibilite">Accessibilité</a></li>
+            <li><a href="https://design.numerique.gouv.fr/commando-ux/">Commando UX</a></li>
+            <li><a href="https://design.numerique.gouv.fr/equipe/">L'équipe</a></li>
+          </ul>  
+          <h3>Résultats</h3>
+          <p>Le taux de conformité au RGAA mesuré sur l’échantillon détaillé ci-dessous est de 89%.</p>
+          <ul>
+            <li>50 critères sont conformes</li>
+            <li>2 critères sont non conformes</li>
+            <li> critères ne sont pas applicables</li>            
+          </ul>
         </section>
 
         <section>
@@ -50,10 +67,10 @@
             au Défenseur des droits. Plusieurs moyens sont à votre disposition :
           </p>
           <ul>
-            <li>un <a href="https://www.defenseurdesdroits.fr/nous-contacter" target="_blank">formulaire de contact</a></li>
-            <li>la <a href="https://www.defenseurdesdroits.fr/fr/saisir/delegues" target="_blank">liste des délégués de votre région</a> avec leurs informations de contact directs</li>
+            <li>un <a href="https://www.defenseurdesdroits.fr/nous-contacter" title="formulaire de contact - nouvelle fenêtre" target="_blank">formulaire de contact</a></li>
+            <li>la <a href="https://www.defenseurdesdroits.fr/fr/saisir/delegues" title="liste des délégués de votre région - nouvelle fenêtre"  target="_blank">liste des délégués de votre région</a> avec leurs informations de contact directs</li>
             <li>un numéro de téléphone : le 09 69 39 00 00 du lundi au vendredi de 8h00 à 20h00 (coût d'un appel local)</li>
-            <li>une adresse postale dans l'<a href="https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381" target="_blank">annuaire de l'administration</a></li>
+            <li>une adresse postale dans l'<a href="https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381" title="annuaire de l'administration - nouvelle fenêtre" target="_blank">annuaire de l'administration</a></li>
           </ul>
         </section>
 

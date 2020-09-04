@@ -25,7 +25,7 @@
           </p>
 
           <g-link to="/commando-ux/" class="button">
-            Voir les défis<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Suivre leur travail<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
 
       </div>

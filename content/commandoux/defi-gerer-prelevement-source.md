@@ -6,26 +6,27 @@ illustration: ./illustrations/prelevement.svg
 department: Ministère des Finances
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand
-fullTitle: Simuler mes droits sociaux
-website: https://www.mesdroitssociaux.gouv.fr/
-volumetry: 503 533
+fullTitle: Gérer mon prélèvement à la source
+website: https://www.impots.gouv.fr/portail/particulier
+volumetry: 8 200 000
 ratio: 100%
-profil1: Développeur accessibilité
-profil2:
+team: ["yaacov-cohen"]
 ---
 
-## Contexte
+<h2 class="problem">Problématique</h2>
+
 Le service du prélèvement à la source est aujourd'hui l'une des démarches les plus utilisées sur impots.gouv.fr.
 
-## Objectif de la mission
+<h2 class="goal">Objectifs du défi</h2>
+
 - Rendre cette démarche 100% accessible
 
 
-## À propos de la démarche
+<!-- ## À propos de la démarche
 - **Réalisable en ligne :** Oui
 - **Public concerné :** Particuliers
 - **Volumétrie annuelle :** 8 200 000 (100% de recours à la voie dématérialisée)
-- **Lien :** https://www.impots.gouv.fr/portail/particulier
+- **Lien :** https://www.impots.gouv.fr/portail/particulier -->
 
 <!-- ## Poste à pourvoir
 

@@ -6,28 +6,29 @@ illustration: ./illustrations/armee.svg
 department: Ministère des Armées
 direction: Service historique de la Défense
 place: Vincennes et Pau
-fullTitle: Simuler mes droits sociaux
-website: https://www.mesdroitssociaux.gouv.fr/
-volumetry: 503 533
+fullTitle: Demande de recherche administrative (créatrice de droits)
+website:
+volumetry: 180 000
 ratio: 100%
-profil1: Designer produit
-profil2:
+team: ["jocelyn-caron"]
 ---
 
-## Contexte
+<h2 class="problem">Problématique</h2>
+
 Cette démarche permet aux appelés et aux engagés, français et étrangers, souvent âgés, d’obtenir un document administratif militaire (extrait de service, citation, diplômes) pour accéder à des droits : pension, carte du combattant, etc. Elle n'est aujourd'hui pas réalisable en ligne et l'ajout de ressources UX constitue un accélérateur permettant dès l'amont d'intégrer les bonnes pratiques.
 
 Lorsque l'usager arrive aux archives, c'est qu'il est au bout de sa course : on se doit de lui offrir un service simple, convivial, accessible et compréhensible.
 
-## Objectif de la mission
+<h2 class="goal">Objectifs du défi</h2>
+
 - Mise en ligne de la démarche
 - Créer une expérience désirable, accessible, et compréhensible en s'appuyant fortement sur des tests usager
 - Atteindre 50% de recours à la voie numérique au premier semestre 2021
 
-## À propos de la démarche
+<!-- ## À propos de la démarche
 - **Réalisable en ligne :** Non
 - **Public concerné :** Particuliers
-- **Volumétrie annuelle :** 180 000
+- **Volumétrie annuelle :** 180 000 -->
 
 <!-- ## Poste à pourvoir
 

@@ -10,7 +10,7 @@ fullTitle: Simuler mes droits sociaux
 website: https://www.mesdroitssociaux.gouv.fr/
 volumetry: 503 533
 ratio: 100%
-team: ["0027f13253aacc0b958609666e520f16", "378046fc1f0eab7b949da7aefe521100"]
+team: ["benjamin-metifeu", "simon-denier"]
 ---
 
 

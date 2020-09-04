@@ -6,31 +6,32 @@ illustration: ./illustrations/titre.svg
 department: Ministère de l'Intérieur
 direction: Direction générale des étrangers en France
 place: Paris
-fullTitle: Simuler mes droits sociaux
-website: https://www.mesdroitssociaux.gouv.fr/
-volumetry: 503 533
+fullTitle: Demande de titre de séjour
+website:
+volumetry: 750 000
 ratio: 100%
-profil1: Designer produit
-profil2: Développeur accessibilité
+team: ["pierre-brice-haurie", "ameziane-allioui"]
 ---
 
-## Contexte
+<h2 class="problem">Problématique</h2>
+
 Après une mise en service réussie du portail de validation en ligne des visas long séjour valant titre de séjour, l'ANEF (administration numérique pour les étrangers en France) mise en œuvre par la DGEF (direction générale des étrangers en France) poursuit sa proposition de démarches en ligne pour un public de plus en plus importants.
 
 Dès le mois de  septembre 2020, la demande de titre de séjour (et renouvellement) sera ouverte au public étudiants étrangers. L'instruction sera également dématérialisée, jusqu'à la production du titre de séjour.
 
 Parallèlement, la DGEF s'est associée avec son opérateur l'OFII (office français pour l"immigration et l'intégration) pour proposer aux usagers un compte usager unique. A cet égard, la cohérence et l'harmonisation de l'accès des usagers et des utilisateurs à nos services doivent être compatibles avec la stratégie numérique et la politique en faveur de l'intégration des personnes étrangères en situation de handicap. Nous souhaitons, grâce à ce défi, évaluer le respect des règles d'accessibilité et l'inclusion numérique des usagers étrangers de nos systèmes d'information.
 
-## Objectif de la mission
+<h2 class="goal">Objectifs du défi</h2>
+
 - Donner aux usagers étrangers quelle que soit leur démarche vers une entité du ministère de l'intérieur une meilleur visibilité, une ergonomie unifiée
 - Simplifier l'accès à nos procédures et service pour des usagers étrangers qui constitue un public très spécifique au sein de l'État
 - Homogénéiser les portails existants dans un souci de compréhension facilitée pour nos usagers
 
-## À propos de la démarche
+<!-- ## À propos de la démarche
 Cette démarche permet aux étrangers d'effectuer une demande de séjour.
 - **Réalisable en ligne :** Non
 - **Public concerné :** Particuliers
-- **Volumétrie annuelle :** 750 000
+- **Volumétrie annuelle :** 750 000 -->
 
 <!-- ## Postes à pourvoir
 ### Une ou un designer produit

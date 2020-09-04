@@ -29,9 +29,6 @@
 
       <section class="procedure">
 
-        <!-- <h2>La démarche</h2> -->
-
-        <!-- <p class="procedure__full-title">{{ $page.challenge.fullTitle }}</p> -->
         <div class="key-elements">
           <div class="element">
             <div>
@@ -50,12 +47,14 @@
             <div>
               <font-awesome :icon="['fas', 'desktop']"/>
             </div>
-            <p><b>{{ $page.challenge.ratio }}</b></p>
-            <p>de demandes se font par le service en ligne</p>
+            <p v-if="$page.challenge.website"><b>{{ $page.challenge.ratio }}</b></p>
+            <p v-else><b>-</b></p>
+            <p v-if="$page.challenge.website">de demandes se font par le service en ligne</p>
+            <p v-else>La démarche n'est pas encore réalisable en ligne</p>
           </div>
         </div>
         <p>Nom de la démarche : {{ $page.challenge.fullTitle }}</p>
-        <p>Lien vers la démarche : <g-link :to="$page.challenge.website">{{ $page.challenge.website }}</g-link></p>
+        <p v-if="$page.challenge.website">Lien vers la démarche : <g-link :to="$page.challenge.website">{{ $page.challenge.website }}</g-link></p>
 
       </section>
 
@@ -78,16 +77,6 @@
         </ul>
 
       </section>
-
-      <!-- <div class="cta">
-        <a
-          href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux"
-          target="_blank"
-          class="button">
-          Canditater à ce défi !
-        </a>
-        <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
-      </div> -->
 
     </div>
   </Layout>
@@ -219,26 +208,10 @@ query Challenge ($id: ID!) {
   }
 
   .procedure {
-    // background-color: $lighter-gray;
-    // padding: 32px;
     margin-bottom: 96px;
-
-    h2 {
-      text-align: center;
-      font-size: 1em;
-      font-weight: normal;
-    }
 
     p {
       margin: 4px 0;
-    }
-
-    &__full-title {
-      margin: 0;
-      text-align: center;
-      font-size: 1.75em;
-      font-weight: bold;
-      color: $blue;
     }
   }
 
@@ -252,7 +225,7 @@ query Challenge ($id: ID!) {
     li {
       list-style: none;
       text-align: center;
-      width: 160px;
+      width: 240px;
       margin-top: 32px;
 
       img {

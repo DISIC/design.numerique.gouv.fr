@@ -6,16 +6,16 @@ illustration: ./illustrations/agriculture.svg
 department: Ministère de l'Agriculture et de l'Alimentation
 direction: Secrétariat général
 place: Paris
-fullTitle: Simuler mes droits sociaux
-website: https://www.mesdroitssociaux.gouv.fr/
-volumetry: 503 533
-ratio: 100%
-profil1: Designer produit
-profil2:
+fullTitle: Site "Mes démarches" du ministère de l'Agriculture
+website: http://mesdemarches.agriculture.gouv.fr
+volumetry: 860 000
+ratio: 70%
+team: ["beatrice-le-thuc"]
 ---
 
-## Contexte
-L'acculturation en matière d'UX design dont pourrait ainsi bénéficier l'équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée "usagers".
+<h2 class="problem">Problématique</h2>
+
+L'acculturation en matière d'UX design dont pourrait bénéficier l'équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée "usagers".
 
 Ce défi est différent des autres puisque vous accompagnerez le ministère de l'Agriculture autour de deux démarches :
 
@@ -23,17 +23,18 @@ Ce défi est différent des autres puisque vous accompagnerez le ministère de l
 2. La déclaration de détention et d'emplacement de ruches, une des démarches les plus emblématiques du ministère
 
 
-## Objectif de la mission
+<h2 class="goal">Objectifs du défi</h2>
+
 - Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d'écoute, entretiens individuels et tests utilisateur)
 - Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés
 
 
-## À propos de la démarche
+<!-- ## À propos de la démarche
 Ce portail permet aux professionnels de l'agriculture d'accéder à de nombreuses démarches.
 - **Réalisable en ligne :** Oui
 - **Public concerné :** Entreprises
 - **Volumétrie annuelle :** 860 000
-- **Lien :** http://mesdemarches.agriculture.gouv.fr
+- **Lien :** http://mesdemarches.agriculture.gouv.fr -->
 
 <!-- ## Poste à pourvoir
 ### Une ou un designer produit

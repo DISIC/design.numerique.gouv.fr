@@ -49,7 +49,39 @@
         <section>
           <h2>Notre équipe</h2>
           <ul class="team">
-            <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
+            <li v-for="{ node } in team" :key="node.id">
+              <g-image :src="node.photo" quality="100" height="150" width="150" />
+              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+              <p>{{ node.job_title }}</p>
+              <p v-if="node.sub_team_link">
+                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+              </p>
+              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+              <p v-if="node.twitter">
+                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+              </p>
+            </li>
+          </ul>
+
+          <h2>Notre équipe</h2>
+          <ul class="team">
+            <li v-for="{ node } in external" :key="node.id">
+              <g-image :src="node.photo" quality="100" height="150" width="150" />
+              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+              <p>{{ node.job_title }}</p>
+              <p v-if="node.sub_team_link">
+                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+              </p>
+              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+              <p v-if="node.twitter">
+                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+              </p>
+            </li>
+          </ul>
+
+          <h2>Le commando</h2>
+          <ul class="team">
+            <li v-for="{ node } in commando" :key="node.id">
               <g-image :src="node.photo" quality="100" height="150" width="150" />
               <h3>{{ node.firstName }} {{ node.lastName }}</h3>
               <p>{{ node.job_title }}</p>
@@ -83,6 +115,7 @@ query {
         twitter
         photo (width: 150, height: 150, quality: 100)
         path
+        group
         content
       }
     }
@@ -98,6 +131,17 @@ export default {
       name: "robots",
       content: "noindex"
     }],
+  },
+  computed: {
+    team: function () {
+      return this.$page.allPeople.edges.filter(edge => edge.node.group === 'team')
+    },
+    external: function () {
+      return this.$page.allPeople.edges.filter(edge => edge.node.group === 'external')
+    },
+    commando: function () {
+      return this.$page.allPeople.edges.filter(edge => edge.node.group === 'commando')
+    },
   }
 }
 </script>

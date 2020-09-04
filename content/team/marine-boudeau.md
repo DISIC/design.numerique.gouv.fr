@@ -1,4 +1,5 @@
 ---
+id: marine-boudeau
 firstName: Marine
 lastName: Boudeau
 photo: ./photos/marine-boudeau.jpg
@@ -7,6 +8,7 @@ sub_team:
 sub_team_link:
 twitter: marineboudeau
 e-mail :
+group : team
 ---
 
 Bio à venir

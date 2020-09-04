@@ -1,4 +1,5 @@
 ---
+id: antoine-cao
 firstName: Antoine
 lastName: Cao
 photo: ./photos/photo-manquante.jpg
@@ -7,6 +8,7 @@ sub_team: Accessibilité
 sub_team_link:
 twitter:
 e-mail :
+group : team
 ---
 
 Bio à venir

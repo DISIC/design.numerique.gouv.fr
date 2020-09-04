@@ -29,31 +29,32 @@
 
       <section class="procedure">
 
-        <h2>La démarche</h2>
+        <!-- <h2>La démarche</h2> -->
 
-        <p class="procedure__full-title">{{ $page.challenge.fullTitle }}</p>
+        <!-- <p class="procedure__full-title">{{ $page.challenge.fullTitle }}</p> -->
         <div class="key-elements">
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'user-astronaut']"/>
+              <font-awesome :icon="['fas', 'university']"/>
             </div>
             <p><b>{{ $page.challenge.department }}</b> - {{ $page.challenge.direction }}</p>
           </div>
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'stopwatch']"/>
+              <font-awesome :icon="['fas', 'user-friends']"/>
             </div>
             <p><b>{{ $page.challenge.volumetry }}</b></p>
             <p>personnes utilisent cette démarche chaque année</p>
           </div>
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'flag']"/>
+              <font-awesome :icon="['fas', 'desktop']"/>
             </div>
             <p><b>{{ $page.challenge.ratio }}</b></p>
             <p>de demandes se font par le service en ligne</p>
           </div>
         </div>
+        <p>Nom de la démarche : {{ $page.challenge.fullTitle }}</p>
         <p>Lien vers la démarche : <g-link :to="$page.challenge.website">{{ $page.challenge.website }}</g-link></p>
 
       </section>
@@ -180,6 +181,10 @@ query Challenge ($id: ID!) {
 
   @import "src/assets/scss/_vars.scss";
 
+  .cover {
+    margin-bottom: 64px;
+  }
+
   .button {
     text-decoration: none;
     border-color: $blue;
@@ -214,12 +219,18 @@ query Challenge ($id: ID!) {
   }
 
   .procedure {
-    //background-color: $blue;
+    // background-color: $lighter-gray;
+    // padding: 32px;
+    margin-bottom: 96px;
 
     h2 {
       text-align: center;
       font-size: 1em;
       font-weight: normal;
+    }
+
+    p {
+      margin: 4px 0;
     }
 
     &__full-title {
@@ -275,7 +286,7 @@ query Challenge ($id: ID!) {
     }
 
     .key-elements {
-      margin: 32px 0 48px 0;
+      margin: 32px 0 64px 0;
       display: flex;
       align-items: flex-start;
       justify-content: space-around;
@@ -320,7 +331,7 @@ query Challenge ($id: ID!) {
         }
 
         p {
-          color: $blue;
+          //color: $blue;
           margin: 0;
           padding: 0 8px;
         }

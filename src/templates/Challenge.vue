@@ -173,6 +173,15 @@ query Challenge ($id: ID!) {
 
   .cover {
     margin-bottom: 64px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-top: 48px;
+      margin-bottom: 48px;
+
+      h1 {
+        margin-top: 16px;
+      }
+    }
   }
 
   .button {
@@ -210,6 +219,10 @@ query Challenge ($id: ID!) {
 
   .procedure {
     margin-bottom: 96px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-bottom: 64px;
+    }
 
     p {
       margin: 4px 0;
@@ -285,7 +298,7 @@ query Challenge ($id: ID!) {
       flex-wrap: wrap;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin: 32px 0;
+        margin: 0px 0;
       }
 
       .element {
@@ -297,7 +310,8 @@ query Challenge ($id: ID!) {
         width: 240px;
 
         @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 4px 16px 4px;
+          margin: 0px 4px 32px 4px;
+          width: 160px;
         }
 
         img {
@@ -316,6 +330,10 @@ query Challenge ($id: ID!) {
           background-color: lighten($gray-hover, 10%);
           margin-bottom: 16px;
 
+          @media only screen and (max-width: $mobile-max-width) {
+            margin-bottom: 8px;
+          }
+
           svg {
             font-size: 40px;
             color: $blue;
@@ -323,7 +341,6 @@ query Challenge ($id: ID!) {
         }
 
         p {
-          //color: $blue;
           margin: 0;
           padding: 0 8px;
         }

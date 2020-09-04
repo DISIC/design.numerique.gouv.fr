@@ -44,11 +44,11 @@
 export default {
   metaInfo () {
     return {
-      title: this.$page.people.title,
+      title: this.$page.people.firstName + ' ' + this.$page.people.lastName,
       meta: [
         {
           name: 'description',
-          content: this.$page.people.description
+          content: 'Biographie de ' + this.$page.people.firstName + ' ' + this.$page.people.lastName + ' sur DesignGouv'
         }
       ]
     }

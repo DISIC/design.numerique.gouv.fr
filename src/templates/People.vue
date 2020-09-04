@@ -19,7 +19,7 @@
      <div class="cover__container">
        <p class="cover__subhead">Notre équipe</p>
        <h1>{{ $page.people.firstName }} {{ $page.people.lastName }}</h1>
-       <g-image :src="$page.people.photo" />
+       <g-image :src="$page.people.photo" aria-hidden="true"/>
        <p>{{ $page.people.job_title }}</p>
        <p v-if="$page.people.sub_team_link">
          <g-link :to="$page.people.sub_team_link">{{ $page.people.sub_team }}</g-link>

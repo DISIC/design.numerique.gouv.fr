@@ -68,7 +68,7 @@
         </h2>
         <ul class="team">
           <li v-for="node in $page.challenge.team" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" />
+            <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
             <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
             <p>{{ node.job_title }}</p>
             <p v-if="node.twitter">

@@ -69,7 +69,7 @@
         </h2>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" />
+            <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
             <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
             <p>{{ node.job_title }}</p>
             <p v-if="node.sub_team_link">
@@ -86,7 +86,7 @@
         </h2>
         <ul class="challenge">
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration"/>
+            <g-image class="challenge__illustration" :src="node.illustration" aria-hidden="true"/>
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             <p class="challenge__description">{{ node.description }}</p>
             <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
@@ -139,7 +139,7 @@
           <li>
             <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
                      quality="100" height="120" width="120"
-                     alt="Photo Ugo Dessertine"/>
+                     alt="Faustine Demiselle"/>
             <h3>Faustine Demiselle</h3>
             <p>Designer</p>
             <p>Commando UX</p>
@@ -534,7 +534,7 @@
 
       h3 {
         margin: 4px 0;
-        
+
         a {
           color: $black;
           border: none;

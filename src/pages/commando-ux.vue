@@ -7,7 +7,7 @@
       <h1 class="highlight"><CommandoUX class="h1__icon" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
-        Designers et développeurs auront 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
+        Designers et développeurs ont 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
       <CommandouxIllustration class="cover__illustration" aria-hidden="true"/>
@@ -65,17 +65,34 @@
 
       <section>
         <h2>
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Le commando
+        </h2>
+        <ul class="team">
+          <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
+            <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
+            <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
+            <p>{{ node.job_title }}</p>
+            <p v-if="node.sub_team_link">
+              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+            </p>
+            <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>
           <CommandoUX class="h2__icon" aria-hidden="true"/>Les 10 défis
         </h2>
         <ul class="challenge">
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration"/>
+            <g-image class="challenge__illustration" :src="node.illustration" aria-hidden="true"/>
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             <p class="challenge__description">{{ node.description }}</p>
-            <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
-            <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p>
             <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
-            <p class="challenge__place"><font-awesome class="challenge__icon" :icon="['fas', 'map-marker-alt']"/> {{ node.place }}</p>
+            <!-- <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
+            <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p> -->
+            <!-- <p class="challenge__place"><font-awesome class="challenge__icon" :icon="['fas', 'map-marker-alt']"/> {{ node.place }}</p> -->
           </li>
         </ul>
       </section>
@@ -108,22 +125,22 @@
           <CommandoUX class="h2__icon" aria-hidden="true"/>Informations pratiques
         </h2>
         <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 décembre 2020</p>
-        <p><strong>Type de contrat :</strong> CDD à temps plein</p>
+        <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
         <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
         <p><strong>Conditions :</strong></p>
         <ul>
           <li>Être une personne physique (et non morale)</li>
           <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
           <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
-        </ul>
+        </ul> -->
         <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">
           <li>
             <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
                      quality="100" height="120" width="120"
-                     alt="Photo Ugo Dessertine"/>
-            <p><strong>Faustine Demiselle</strong></p>
+                     alt="Faustine Demiselle"/>
+            <h3>Faustine Demiselle</h3>
             <p>Designer</p>
             <p>Commando UX</p>
           </li>
@@ -131,7 +148,7 @@
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
                      quality="100" height="120" width="120"
                      alt="Photo Ugo Dessertine"/>
-            <p><strong>Ugo Dessertine</strong></p>
+            <h3>Ugo Dessertine</h3>
             <p>Lead Designer</p>
             <p>Commando UX</p>
           </li>
@@ -139,7 +156,7 @@
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
                      quality="100" height="120" width="120"
                      alt="Photo Georges Bayard"/>
-            <p><strong>Georges Bayard</strong></p>
+            <h3>Georges Bayard</h3>
             <p>Chargé de mission</p>
             <p>Observatoire</p>
           </li>
@@ -178,6 +195,7 @@
 </template>
 
 <page-query>
+
   query {
     allChallenge (sortBy: "title", order: ASC) {
       edges {
@@ -189,12 +207,28 @@
           illustration
           department
           place
-          profil1
-          profil2
+        }
+      }
+    }
+    allPeople (sortBy: "lastName", order: ASC, filter: {group: {eq: "commando"}}) {
+      edges {
+        node {
+        	id
+          firstName
+          lastName
+          job_title
+          sub_team
+          sub_team_link
+          twitter
+          photo (width: 150, height: 150, quality: 100)
+          path
+          content
+          group
         }
       }
     }
   }
+
 </page-query>
 
 
@@ -271,10 +305,20 @@
         text-align: left;
         width: 46%;
         margin: 0px 4px 48px 4px;
+        position: relative;
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
           margin: 0px 0px 32px 0px;
+        }
+
+        a::after {
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
         }
 
         h3 {
@@ -285,7 +329,7 @@
 
           @media only screen and (max-width: $mobile-max-width) {
             font-size: 1.125em;
-            margin: 4px 0 px 0;
+            margin: 4px 0 4px 0;
           }
 
           a {
@@ -295,9 +339,11 @@
 
         img {
           max-width: 100px;
+          height: 100px;
 
           @media only screen and (max-width: $mobile-max-width) {
             max-width: 80px;
+            height: 80px;
           }
         }
       }
@@ -321,14 +367,13 @@
       }
 
       &__department, &__place {
-        //font-size: 0.825em;
-        margin: 4px 0 0 0;
+        font-size: 0.825em;
+        font-weight: bold;
       }
 
       &__icon {
-        text-align: left;
         display: inline-block;
-        width: 24px;
+        margin-right: 4px;
       }
     }
 
@@ -482,19 +527,37 @@
 
     .team {
       padding: 0;
-      margin: 8px auto 0;
       display: flex;
-      justify-content: space-around;
+      align-items: flex-start;
+      justify-content: space-between;
       flex-wrap: wrap;
 
-      li {
+      h3 {
+        margin: 4px 0;
+
+        a {
+          color: $black;
+          border: none;
+
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+
+      > li {
         list-style: none;
         text-align: center;
-        width: 160px;
-        margin-top: 32px;
+        width: 30%;
+        margin: 24px 4px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 46%;
+        }
 
         img {
           border-radius: 50em;
+          max-width: 150px;
         }
 
         p {

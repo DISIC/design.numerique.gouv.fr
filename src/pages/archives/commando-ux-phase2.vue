@@ -202,8 +202,6 @@
           illustration
           department
           place
-          profil1
-          profil2
         }
       }
     }

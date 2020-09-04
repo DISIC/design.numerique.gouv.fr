@@ -1,0 +1,41 @@
+.problem {
+  &:before {
+    background-image: url(/assets/images/problem.svg);
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    margin-bottom: -5px;
+    content:"";
+
+    @media only screen and (max-width: $mobile-max-width) {
+      background-size: 24px 24px;
+      height: 24px;
+      width: 24px;
+      margin-right: 8px;
+      margin-bottom: -3px;
+    }
+  }
+}
+
+.goal {
+  &:before {
+    background-image: url(/assets/images/goal.svg);
+    background-size: 36px 36px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 16px;
+    margin-bottom: -5px;
+    content:"";
+
+    @media only screen and (max-width: $mobile-max-width) {
+      background-size: 24px 24px;
+      height: 24px;
+      width: 24px;
+      margin-right: 8px;
+      margin-bottom: -3px;
+    }
+  }
+}

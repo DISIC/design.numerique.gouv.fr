@@ -19,59 +19,64 @@
 
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
-        <CommandouxIllustration class="cover__illustration--small" aria-hidden="true" />
+        <g-image :src="$page.challenge.illustration" class="cover__illustration--small" aria-hidden="true"/>
         <h1>{{ $page.challenge.title }}</h1>
         <p class="cover__subtitle">{{ $page.challenge.description }}</p>
-        <!-- <div class="cta">
-          <a
-            href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux"
-            target="_blank"
-            class="button">
-            Canditater à ce défi</a>
-          <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
-        </div> -->
       </div>
     </div>
 
     <div class="content content--challenge">
 
-      <section>
-        <h2>
-        Éléments clés
-        </h2>
-        <p>
-          <strong>Ministère bénéficiant du défi</strong>
-          <br />
-          <span v-html="$page.challenge.department" />
-        </p>
-        <p>
-          <strong>Administration bénéficiant du défi</strong>
-          <br />
-          <span v-html="$page.challenge.direction" />
-        </p>
-        <p>
-          <strong>Localisation du défi</strong>
-          <br />
-          <span v-html="$page.challenge.place" />
-        </p>
-        <p>
-          <strong>Profils recherchés</strong>
-          <br />
-          <span v-html="$page.challenge.poste" />
-        </p>
+      <section class="procedure">
 
+        <div class="key-elements">
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'university']"/>
+            </div>
+            <p><b>{{ $page.challenge.department }}</b> - {{ $page.challenge.direction }}</p>
+          </div>
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'user-friends']"/>
+            </div>
+            <p><b>{{ $page.challenge.volumetry }}</b></p>
+            <p>personnes utilisent cette démarche chaque année</p>
+          </div>
+          <div class="element">
+            <div>
+              <font-awesome :icon="['fas', 'desktop']"/>
+            </div>
+            <p v-if="$page.challenge.website"><b>{{ $page.challenge.ratio }}</b></p>
+            <p v-else><b>-</b></p>
+            <p v-if="$page.challenge.website">de demandes se font par le service en ligne</p>
+            <p v-else>La démarche n'est pas encore réalisable en ligne</p>
+          </div>
+        </div>
+        <p>Nom de la démarche : {{ $page.challenge.fullTitle }}</p>
+        <p v-if="$page.challenge.website">Lien vers la démarche : <g-link :to="$page.challenge.website">{{ $page.challenge.website }}</g-link></p>
+
+      </section>
+
+      <section>
         <div v-html="$page.challenge.content" />
       </section>
 
-      <!-- <div class="cta">
-        <a
-          href="https://www.demarches-simplifiees.fr/commencer/appel-a-candidatures-commando-ux"
-          target="_blank"
-          class="button">
-          Canditater à ce défi !
-        </a>
-        <p>Jusqu'au dimanche 19 juillet 2020 à 23h59</p>
-      </div> -->
+      <section>
+        <h2>
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Le commando
+        </h2>
+        <ul class="team">
+          <li v-for="node in $page.challenge.team" :key="node.id">
+            <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
+            <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
+            <p>{{ node.job_title }}</p>
+            <p v-if="node.twitter">
+              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+            </p>
+          </li>
+        </ul>
+      </section>
 
     </div>
   </Layout>
@@ -86,7 +91,7 @@ export default {
   components: {
     Services,
     CommandoUX,
-    CommandouxIllustration
+    CommandouxIllustration,
   },
   metaInfo() {
     return {
@@ -143,16 +148,43 @@ query Challenge ($id: ID!) {
     content
     place
     title
-    poste
     description
+    illustration
+    fullTitle
+    volumetry
+    ratio
+    website
+    team {
+      id
+      firstName
+      lastName
+      photo (width: 150, height: 150, quality: 100)
+      path
+      job_title
+      twitter
+    }
   }
 }
 </page-query>
 
 <style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
 
-.button {
+  @import "src/assets/scss/_vars.scss";
+
+  .cover {
+    margin-bottom: 64px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-top: 48px;
+      margin-bottom: 48px;
+
+      h1 {
+        margin-top: 16px;
+      }
+    }
+  }
+
+  .button {
     text-decoration: none;
     border-color: $blue;
     background-color: $blue;
@@ -185,25 +217,135 @@ query Challenge ($id: ID!) {
     }
   }
 
+  .procedure {
+    margin-bottom: 96px;
 
-.content {
-
-  a {
-    svg {
-      padding-right: 12px;
-      transition: 0.1s all;
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-bottom: 64px;
     }
 
-    &:hover {
-      svg {
-        padding-left: 8px;
-        padding-right: 4px;
+    p {
+      margin: 4px 0;
+    }
+  }
+
+  .team {
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    h3 {
+      margin: 4px 0;
+
+      a {
+        color: $black;
+        border: none;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+
+    > li {
+      list-style: none;
+      text-align: center;
+      width: 30%;
+      margin: 24px 4px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        width: 46%;
+      }
+
+      img {
+        border-radius: 50em;
+        max-width: 150px;
+      }
+
+      p {
+          margin: 0;
       }
     }
   }
 
-  .subsection {
-    margin-bottom: 40px;
+  .content {
+
+    a {
+      svg {
+        padding-right: 12px;
+        transition: 0.1s all;
+      }
+
+      &:hover {
+        svg {
+          padding-left: 8px;
+          padding-right: 4px;
+        }
+      }
+    }
+
+    .subsection {
+      margin-bottom: 40px;
+    }
+
+    .key-elements {
+      margin: 32px 0 64px 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin: 0px 0;
+      }
+
+      .element {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 240px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin: 0px 4px 32px 4px;
+          width: 160px;
+        }
+
+        img {
+          background-color: lighten($gray-hover, 10%);
+          border-radius: 100%;
+          padding: 12px;
+        }
+
+        > div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+          width: 88px;
+          height: 88px;
+          background-color: lighten($gray-hover, 10%);
+          margin-bottom: 16px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            margin-bottom: 8px;
+          }
+
+          svg {
+            font-size: 40px;
+            color: $blue;
+          }
+        }
+
+        p {
+          margin: 0;
+          padding: 0 8px;
+        }
+      }
+    }
   }
-}
+
 </style>

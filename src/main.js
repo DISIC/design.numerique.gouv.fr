@@ -28,7 +28,10 @@ import {
   faStar,
   faFlag,
   faBuilding,
-  faMapMarkerAlt
+  faMapMarkerAlt,
+  faUniversity,
+  faUserFriends,
+  faDesktop,
   } from '@fortawesome/free-solid-svg-icons'
 import {
     faFilePdf,
@@ -65,7 +68,10 @@ library.add(
   faStar,
   faFlag,
   faBuilding,
-  faMapMarkerAlt
+  faMapMarkerAlt,
+  faUniversity,
+  faUserFriends,
+  faDesktop,
 )
 
 export default function (Vue, { router, head, isClient }) {

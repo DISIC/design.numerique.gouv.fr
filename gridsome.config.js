@@ -41,6 +41,11 @@ module.exports = {
       options: {
         typeName: 'Challenge',
         path: './content/commandoux/*.md',
+        refs: {
+          team: 'People',
+          profil1: 'People',
+          profil2: 'People',
+        },
       }
     },
     {
@@ -58,7 +63,7 @@ module.exports = {
     },
   ],
   templates: {
-    People: '/equipe/:firstName-:lastName',
+    People: '/equipe/:id',
     Job: '/recrutement/:slug',
     Challenge: '/commando-ux/:slug',
     Article: '/blog/:slug',

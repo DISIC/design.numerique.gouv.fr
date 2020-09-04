@@ -2,10 +2,10 @@
 id: jules-leclerc
 firstName: Jules
 lastName: Leclerc
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/jules-leclerc.png
 job_title: Designer UX
-sub_team: Commando UX
-sub_team_link: /commando-ux/
+sub_team:
+sub_team_link:
 twitter:
 e-mail :
 group : external

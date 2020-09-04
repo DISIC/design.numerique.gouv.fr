@@ -3,9 +3,9 @@ id: aurelie-thouron
 firstName: Aurélie
 lastName: Thouron
 photo: ./photos/photo-manquante.jpg
-job_title: ?
+job_title: Chargée de mission
 sub_team: Observatoire
-sub_team_link: https://observatoire.numerique.gouv.fr
+sub_team_link:
 twitter:
 e-mail :
 group : external

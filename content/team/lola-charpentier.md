@@ -2,11 +2,11 @@
 id: lola-charpentier
 firstName: Lola
 lastName: Charpentier
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/lola-charpentier.png
 job_title: Designer UI
 sub_team: Défi contestation de contravention
 sub_team_link: /commando-ux/defi-contestation-contravention
-twitter:
+twitter: CharpentierLola
 e-mail :
 group : commando
 ---

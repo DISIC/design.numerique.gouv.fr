@@ -2,11 +2,11 @@
 id: benjamin-metifeu
 firstName: Benjamin
 lastName: Metifeu
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/benjamin-metifeu.png
 job_title: Ingénieur UX
 sub_team: Défi droits sociaux
 sub_team_link: /commando-ux/defi-droits-sociaux
-twitter:
+twitter: gbmpn
 e-mail :
 group : commando
 ---

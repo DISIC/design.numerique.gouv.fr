@@ -2,7 +2,7 @@
 id: yaacov-cohen
 firstName: Yaacov
 lastName: Cohen
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/yaacov-cohen.png
 job_title: Développeur accessibilité
 sub_team: Défi prélèvement à la source
 sub_team_link: /commando-ux/defi-gerer-prelevement-source

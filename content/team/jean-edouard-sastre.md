@@ -2,11 +2,11 @@
 id: jean-edouard-sastre
 firstName: Jean-Edouard
 lastName: Sastre
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/jean-edouard-sastre.png
 job_title: Designer
 sub_team: Défi emploi public
 sub_team_link: /commando-ux/defi-postuler-emploi-public
-twitter:
+twitter: EdouardSastre
 e-mail :
 group : commando
 ---

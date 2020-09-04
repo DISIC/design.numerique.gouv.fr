@@ -2,11 +2,11 @@
 id: simon-denier
 firstName: Simon
 lastName: Denier
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/simon-denier.png
 job_title: Développeur full-stack
 sub_team: Défi droits sociaux
 sub_team_link: /commando-ux/defi-droits-sociaux
-twitter:
+twitter: simondenier
 e-mail :
 group : commando
 ---

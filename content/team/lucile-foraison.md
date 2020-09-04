@@ -2,11 +2,11 @@
 id: lucile-foraison
 firstName: Lucile
 lastName: Foraison
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/lucile-foraison.png
 job_title: Designer produit
 sub_team: Défi paiement des amendes
 sub_team_link: /commando-ux/defi-paiement-des-amendes
-twitter:
+twitter: lucileforaison
 e-mail :
 group : commando
 ---

@@ -2,7 +2,7 @@
 id: pierre-brice-haurie
 firstName: Pierre-Brice
 lastName: Haurie
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/pierre-brice-haurie.png
 job_title: Designer produit
 sub_team: Défi titre de séjour
 sub_team_link: /commando-ux/defi-titre-de-sejour

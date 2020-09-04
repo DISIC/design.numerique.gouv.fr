@@ -63,7 +63,7 @@
             </li>
           </ul>
 
-          <h2>Notre équipe</h2>
+          <h2>En appui</h2>
           <ul class="team">
             <li v-for="{ node } in external" :key="node.id">
               <g-image :src="node.photo" quality="100" height="150" width="150" />

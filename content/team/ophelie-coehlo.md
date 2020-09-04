@@ -1,11 +1,11 @@
 ---
-id: ophelie-coehlo
+id: ophelie-coelho
 firstName: Ophélie
-lastName: Coehlo
-photo: ./photos/photo-manquante.jpg
+lastName: Coelho
+photo: ./photos/ophelie-coelho.png
 job_title: Cheffe de produit
-sub_team: Commando UX
-sub_team_link: /commando-ux/
+sub_team:
+sub_team_link:
 twitter:
 e-mail :
 group : external

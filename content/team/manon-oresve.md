@@ -2,7 +2,7 @@
 id: manon-oresve
 firstName: Manon
 lastName: Oresve
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/manon-oresve.png
 job_title: Designer
 sub_team: Défi contestation de contravention
 sub_team_link: /commando-ux/defi-contestation-contravention

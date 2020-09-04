@@ -2,11 +2,11 @@
 id: ev-henke
 firstName: Ev
 lastName: Henke
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/ev-henke.png
 job_title: Designer produit
 sub_team: Défi immatriculation
 sub_team_link: /commando-ux/defi-immatriculation
-twitter:
+twitter: evStyleDesign
 e-mail :
 group : commando
 ---

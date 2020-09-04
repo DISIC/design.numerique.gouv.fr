@@ -63,7 +63,7 @@ module.exports = {
     },
   ],
   templates: {
-    People: '/equipe/:firstName-:lastName',
+    People: '/equipe/:id',
     Job: '/recrutement/:slug',
     Challenge: '/commando-ux/:slug',
     Article: '/blog/:slug',

@@ -2,11 +2,11 @@
 id: ameziane-allioui
 firstName: Ameziane
 lastName: Allioui
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/ameziane-allioui.png
 job_title: Développeur accessibilité
 sub_team: Défi titre de séjour
 sub_team_link: /commando-ux/defi-titre-de-sejour
-twitter:
+twitter: amezianeallioui
 e-mail :
 group : commando
 ---

@@ -2,11 +2,11 @@
 id: jocelyn-caron
 firstName: Jocelyn
 lastName: Caron
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/jocelyn-caron.png
 job_title: Designer
 sub_team: Défi archives des armées
 sub_team_link: /commando-ux/defi-recherche-administrative
-twitter:
+twitter: jocelyncaronfr
 e-mail :
 group : commando
 ---

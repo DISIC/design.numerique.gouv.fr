@@ -2,7 +2,7 @@
 id: bertrand-keller
 firstName: Bertrand
 lastName: Keller
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/bertrand-keller.png
 job_title: Développeur accessibilité
 sub_team: Défi paiement des amendes
 sub_team_link: /commando-ux/defi-paiement-des-amendes

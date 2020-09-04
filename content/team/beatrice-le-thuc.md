@@ -2,7 +2,7 @@
 id: beatrice-le-thuc
 firstName: Béatrice
 lastName: Le Thuc
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/beatrice-le-thuc.png
 job_title: Designer produit
 sub_team: Défi agriculture
 sub_team_link: /commando-ux/defi-agriculture

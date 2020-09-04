@@ -2,7 +2,7 @@
 id: hugo-thomas
 firstName: Hugo
 lastName: Thomas
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/hugo-thomas.png
 job_title: Designer
 sub_team: Défi demandeur d'emploi
 sub_team_link: /commando-ux/defi-renouvellement-demandeur-emploi

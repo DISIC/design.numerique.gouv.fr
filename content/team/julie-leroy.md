@@ -2,7 +2,7 @@
 id: julie-leroy
 firstName: Julie
 lastName: Leroy
-photo: ./photos/photo-manquante.jpg
+photo: ./photos/julie-leroy.png
 job_title: Développeuse accessibilité
 sub_team: Défi emploi public
 sub_team_link: /commando-ux/defi-postuler-emploi-public

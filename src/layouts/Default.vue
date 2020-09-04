@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <!--Skiplink /-->
+    <!--skipLink/-->
 
     <header role="banner">
       <div class="logo">
@@ -18,7 +18,7 @@
 
 
     <main class="layout" id="main" role="main">
-      <Breadcrumb />
+      <!--Breadcrumb /-->
       <slot/>
       <Newsletter />
     </main>
@@ -103,7 +103,7 @@ query {
 </static-query>
 
 <script>
-import Skiplink from "~/components/Skip-link.vue"
+import SkipLink from '~/components/Skip-link.vue'
 import Menu from "~/components/Menu.vue"
 import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
@@ -112,12 +112,12 @@ import LogoDG from "~/assets/images/logoDG.svg"
 import Vue from 'vue';
 import VueBreadcrumbs from 'vue-2-breadcrumbs';
 //  import App from './App.vue';
- 
+
 Vue.use(VueBreadcrumbs);
 
 export default {
   components: {
-    Skiplink,
+    SkipLink,
     Menu,
     Breadcrumb,
     Newsletter,

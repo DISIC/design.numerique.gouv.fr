@@ -4,7 +4,7 @@
       <div id="top">
           <ul class="container">
               <li><a href="#main">Aller au contenu</a></li>
-              <li><a href="#nav-main">Aller à la navigation</a></li>
+              <li><a href="#menu-button">Aller au menu</a></li>
           </ul>
       </div>
     </div>
@@ -13,9 +13,9 @@
 <script>
 
   export default {
-    name: 'Skiplink',
+    name: 'SkipLink',
     methods: {
-      skipLinks() {
+      SkipLink: function() {
         var matches = Element.prototype.matches || Element.prototype.msMatchesSelector || Element.prototype.webkitMatchesSelector;
         var closest = Element.prototype.closest;
 

@@ -70,7 +70,7 @@
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
             <g-image :src="node.photo" quality="100" height="150" width="150" />
-            <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+            <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
             <p>{{ node.job_title }}</p>
             <p v-if="node.sub_team_link">
               <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
@@ -534,6 +534,15 @@
 
       h3 {
         margin: 4px 0;
+        
+        a {
+          color: $black;
+          border: none;
+
+          &:hover {
+            color: $blue;
+          }
+        }
       }
 
       > li {

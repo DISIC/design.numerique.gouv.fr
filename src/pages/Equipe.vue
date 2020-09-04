@@ -87,7 +87,7 @@
           <ul class="team">
             <li v-for="{ node } in commando" :key="node.id">
               <g-image :src="node.photo" quality="100" height="150" width="150" />
-              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+              <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
               <p>{{ node.job_title }}</p>
               <p v-if="node.sub_team_link">
                 <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
@@ -119,7 +119,6 @@
           sub_team_link
           twitter
           photo (width: 150, height: 150, quality: 100)
-          path
           group
           content
         }
@@ -166,6 +165,15 @@
 
     h3 {
       margin: 4px 0;
+
+      a {
+        color: $black;
+        border: none;
+
+        &:hover {
+          color: $blue;
+        }
+      }
     }
 
     > li {

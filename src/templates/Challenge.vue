@@ -63,19 +63,19 @@
       </section>
 
       <section>
-
-        <h2 class="commando">Le commando</h2>
-
+        <h2>
+          <CommandoUX class="h2__icon" aria-hidden="true"/>Le commando
+        </h2>
         <ul class="team">
-          <li v-for="member in $page.challenge.team" :key="member.id">
-            <g-image :src="member.photo"
-                     quality="100" height="120" width="120"
-                     :alt="'Photo de ' + member.firstName + ' ' + member.lastName"/>
-            <p><strong>{{ member.firstName }} {{ member.lastName }}</strong></p>
-            <p>{{ member.job_title }}</p>
+          <li v-for="node in $page.challenge.team" :key="node.id">
+            <g-image :src="node.photo" quality="100" height="150" width="150" />
+            <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
+            <p>{{ node.job_title }}</p>
+            <p v-if="node.twitter">
+              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+            </p>
           </li>
         </ul>
-
       </section>
 
     </div>
@@ -161,6 +161,7 @@ query Challenge ($id: ID!) {
       photo (width: 150, height: 150, quality: 100)
       path
       job_title
+      twitter
     }
   }
 }
@@ -217,19 +218,37 @@ query Challenge ($id: ID!) {
 
   .team {
     padding: 0;
-    margin: 8px auto 0;
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
 
-    li {
+    h3 {
+      margin: 4px 0;
+
+      a {
+        color: $black;
+        border: none;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+
+    > li {
       list-style: none;
       text-align: center;
-      width: 240px;
-      margin-top: 32px;
+      width: 30%;
+      margin: 24px 4px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        width: 46%;
+      }
 
       img {
         border-radius: 50em;
+        max-width: 150px;
       }
 
       p {

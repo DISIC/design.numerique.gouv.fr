@@ -1,6 +1,6 @@
 ---
 id: ameziane-allioui
-firstName: Ameziane
+firstName: Améziane
 lastName: Allioui
 photo: ./photos/ameziane-allioui.png
 job_title: Développeur accessibilité

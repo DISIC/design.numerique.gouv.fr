@@ -103,9 +103,9 @@ query {
 </static-query>
 
 <script>
-import SkipLink from '~/components/Skip-link.vue'
+//import SkipLink from '~/components/Skip-link.vue'
 import Menu from "~/components/Menu.vue"
-import Breadcrumb from "~/components/Breadcrumb.vue"
+//import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import LogoRF from "~/assets/images/logoRF.svg"
 import LogoDG from "~/assets/images/logoDG.svg"
@@ -117,9 +117,9 @@ Vue.use(VueBreadcrumbs);
 
 export default {
   components: {
-    SkipLink,
+//    SkipLink,
     Menu,
-    Breadcrumb,
+//    Breadcrumb,
     Newsletter,
     LogoRF,
     LogoDG,

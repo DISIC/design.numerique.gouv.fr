@@ -32,7 +32,9 @@
    </div>
 
    <section class="content">
-     <h2>Biographie</h2>
+     <h2>
+       <CommandoUX class="h2__icon" aria-hidden="true"/>Biographie
+     </h2>
      <div v-html="$page.people.content" />
    </section>
 
@@ -41,7 +43,12 @@
 
 <script>
 
+import CommandoUX from "~/assets/images/services.svg";
+
 export default {
+  components: {
+    CommandoUX,
+  },
   metaInfo () {
     return {
       title: this.$page.people.firstName + ' ' + this.$page.people.lastName,
@@ -73,8 +80,10 @@ query People ($id: ID!) {
 
 <style scoped lang="scss">
 
+  @import "src/assets/scss/_vars.scss";
+
   .cover {
-    margin-bottom: 40px;
+    margin-bottom: 64px;
 
     p:not(.cover__subhead) {
       margin: 4px 0;
@@ -84,6 +93,14 @@ query People ($id: ID!) {
   img {
     border-radius: 50em;
     max-width: 150px;
+  }
+
+  h1 {
+    margin-top: 8px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-top: 24px;
+    }
   }
 
 </style>

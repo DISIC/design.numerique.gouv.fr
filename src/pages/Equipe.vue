@@ -154,7 +154,8 @@
 </script>
 
 <style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
+
+  @import "src/assets/scss/_vars.scss";
 
   .team {
     padding: 0;

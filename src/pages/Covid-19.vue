@@ -17,7 +17,7 @@
       <section id="initiatives">
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Réserve civique" src="~/assets/images/websites/rc.png"/></p>
+          <p class="logo"><g-image alt="Réserve civique" src="~/assets/images/websites/rc.png"/></p>
           <p class="name">Réserve civique</p>
           <p class="tags"><span class="tag">Site public</span><span class="tag">Généraliste</span></p>
           <p class="description">Met en relation des volontaires avec les structures publiques ou associatives qui ont besoin de renforts.</p>
@@ -25,7 +25,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Solidaires handicaps" src="~/assets/images/websites/sh.png"/></p>
+          <p class="logo"><g-image alt="Solidaires handicaps" src="~/assets/images/websites/sh.png"/></p>
           <p class="name">Solidaires handicaps</p>
           <p class="tags"><span class="tag">Site public</span><span class="tag">Handicap</span></p>
           <p class="description">Met en relation associations et bénévoles pour venir en aide aux personnes en situation de handicap.</p>
@@ -33,7 +33,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Solidarité numérique" src="~/assets/images/websites/sn.svg"/></p>
+          <p class="logo"><g-image alt="Solidarité numérique" src="~/assets/images/websites/sn.svg"/></p>
           <p class="name">Solidarité numérique</p>
           <p class="tags"><span class="tag">Soutenu par le gouvernement</span><span class="tag">Numérique</span></p>
           <p class="description">Produit des ressources pour accompagner les usagers à la réalisation des démarches en ligne essentielles, et offre une assistance téléphonique.</p>
@@ -41,7 +41,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Airbnb" src="~/assets/images/websites/airbnb.svg"/></p>
+          <p class="logo"><g-image alt="Airbnb" src="~/assets/images/websites/airbnb.svg"/></p>
           <p class="name">Appart solidaire - Airbnb</p>
           <p class="tags"><span class="tag">Soutenu par le gouvernement</span><span class="tag">Logement</span></p>
           <p class="description">Propose aux propriétaires de mettre leur logement inoccupé à disposition des soignants.</p>
@@ -49,7 +49,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Continuité pédagogique" src="~/assets/images/websites/fee.jpeg"/></p>
+          <p class="logo"><g-image alt="Continuité pédagogique" src="~/assets/images/websites/fee.jpeg"/></p>
           <p class="name">Faire École Ensemble</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Numérique et enseignement</span></p>
           <p class="description">Soutenir les communautés éducatives pendant la période de confinement et de réouverture progressive des écoles et des établissements scolaires.</p>
@@ -57,7 +57,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Réussite virale" src="~/assets/images/websites/rv.jpg"/></p>
+          <p class="logo"><g-image alt="Réussite virale" src="~/assets/images/websites/rv.jpg"/></p>
           <p class="name">Réussite virale</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Enseignement</span></p>
           <p class="description">Met en relation des volontaires avec des jeunes ayant besoin de soutien pour réussir leurs études.</p>
@@ -65,7 +65,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo En première ligne" src="~/assets/images/websites/epl.svg"/></p>
+          <p class="logo"><g-image alt="En première ligne" src="~/assets/images/websites/epl.svg"/></p>
           <p class="name">En première ligne</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Généraliste</span></p>
           <p class="description">Met en relation les personnes travaillant activement pendant l'épidémie et les personnes souhaitant les aider.</p>
@@ -73,7 +73,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Ulule" src="~/assets/images/websites/ulule.svg"/></p>
+          <p class="logo"><g-image alt="Ulule" src="~/assets/images/websites/ulule.svg"/></p>
           <p class="name">Solidarité coronavirus - Ulule</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Dons</span></p>
           <p class="description">Hébèrge de nombreuses initiatives lancées dans le cadre de l'épidémie du coronavirus et ayant besoin de dons.</p>
@@ -81,7 +81,7 @@
         </div>
 
         <div class="website">
-          <p class="logo"><g-image alt="Logo Faire mes courses" src="~/assets/images/websites/faire-mes-courses.svg"/></p>
+          <p class="logo"><g-image alt="Faire mes courses" src="~/assets/images/websites/faire-mes-courses.svg"/></p>
           <p class="name">FaireMesCourses.fr - Devenir ambassadeur ?</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Local</span></p>
           <p class="description">FaireMesCourses.fr est une initiative citoyenne, 100% solidaire et gratuite. Soutenez commerçants, artisans, restaurateurs et producteurs en achetant des produits locaux, en retrait ou livraison. Devenez ambassadeur localement en aidant vos commerces à rejoindre la plateforme.</p>

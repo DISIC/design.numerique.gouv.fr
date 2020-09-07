@@ -69,7 +69,7 @@
         </h2>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" />
+            <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
             <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
             <p>{{ node.job_title }}</p>
             <p v-if="node.sub_team_link">
@@ -86,7 +86,7 @@
         </h2>
         <ul class="challenge">
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration" focusable="false" aria-hidden="true"/>
+            <g-image class="challenge__illustration" :src="node.illustration" alt=""/>
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             <p class="challenge__description">{{ node.description }}</p>
             <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
@@ -287,7 +287,7 @@
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 

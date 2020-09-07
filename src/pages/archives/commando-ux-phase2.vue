@@ -135,7 +135,7 @@
           <li>
             <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
                      quality="100" height="120" width="120"
-                     alt="Photo Ugo Dessertine"/>
+                     alt=""/>
             <p><strong>Faustine Demiselle</strong></p>
             <p>Designer</p>
             <p>Commando UX</p>
@@ -143,7 +143,7 @@
           <li>
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
                      quality="100" height="120" width="120"
-                     alt="Photo Ugo Dessertine"/>
+                     alt=""/>
             <p><strong>Ugo Dessertine</strong></p>
             <p>Lead Designer</p>
             <p>Commando UX</p>
@@ -151,7 +151,7 @@
           <li>
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
                      quality="100" height="120" width="120"
-                     alt="Photo Georges Bayard"/>
+                     alt=""/>
             <p><strong>Georges Bayard</strong></p>
             <p>Chargé de mission</p>
             <p>Observatoire</p>

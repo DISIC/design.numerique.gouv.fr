@@ -28,7 +28,7 @@
         <div class="key-elements">
           <div class="element">
             <g-image src="~/assets/images/commandoux/top-250.svg"
-                     quality="100" height="64" width="64" focusable="false" aria-hidden="true"/>
+                     quality="100" height="64" width="64" alt="" />
             <p>Les démarches phares de l'État</p>
           </div>
           <div class="element">
@@ -45,7 +45,7 @@
           </div>
           <div class="element">
             <g-image src="~/assets/images/commandoux/100-percent.svg"
-                     quality="100" height="64" width="64" focusable="false" aria-hidden="true"/>
+                     quality="100" height="64" width="64" alt="" />
             <p>Financement par la DINUM</p>
           </div>
         </div>
@@ -132,7 +132,7 @@
           <li>
             <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
                      quality="100" height="150" width="150"
-                     alt="Photo Ugo Dessertine"/>
+                     alt=""/>
             <p><strong>Ugo Dessertine</strong></p>
             <p>Lead Designer</p>
             <p>Commando UX</p>
@@ -140,7 +140,7 @@
           <li>
             <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
                      quality="100" height="150" width="150"
-                     alt="Photo Georges Bayard"/>
+                     alt=""/>
             <p><strong>Georges Bayard</strong></p>
             <p>Chargé de mission</p>
             <p>Observatoire</p>

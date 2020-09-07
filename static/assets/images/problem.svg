@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-Defi" transform="translate(-171.000000, -1263.000000)">
+            <g id="problematique" transform="translate(171.000000, 1261.000000)">
+                <g id="01-Logos/02-Cercles/Design/-" transform="translate(0.000000, 2.000000)">
+                    <rect id="Forme" fill="#3355E3" transform="translate(15.750000, 18.834936) rotate(-330.000000) translate(-15.750000, -18.834936) " x="12.25" y="1.83493649" width="7" height="34" rx="3.5"></rect>
+                    <rect id="Forme" fill="#3355E3" transform="translate(16.500000, 22.732051) rotate(-30.000000) translate(-16.500000, -22.732051) " x="12.9999999" y="5.23205081" width="7" height="35" rx="3.5"></rect>
+                    <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,6 C12.2680135,6 6,12.2680135 6,20 C6,27.7319865 12.2680135,34 20,34 C27.7319865,34 34,27.7319865 34,20 C34,12.2680135 27.7319865,6 20,6 Z" id="Cercle" fill="#FF5638"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

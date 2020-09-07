@@ -1,4 +1,5 @@
 ---
+id: jamshid-kohandel
 firstName: Jamshid
 lastName: Kohandel
 photo: ./photos/jamshid-kohandel.jpg
@@ -7,6 +8,7 @@ sub_team: Accessibilité
 sub_team_link:
 twitter:
 e-mail :
+group : team
 ---
 
 Bio à venir

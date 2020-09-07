@@ -229,8 +229,11 @@ export default {
   }
 
   header {
-      display: flex;
-      justify-content: space-between;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
 
     .logo{
       align-items: center;

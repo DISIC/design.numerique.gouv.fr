@@ -37,17 +37,37 @@ module.exports = {
       }
     },
     {
-        use: '@gridsome/source-filesystem',
-        options: {
-          typeName: 'Challenge',
-          path: './content/commandoux/*.md',
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Challenge',
+        path: './content/commandoux/*.md',
+        refs: {
+          team: 'People',
+          profil1: 'People',
+          profil2: 'People',
+        },
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Article',
+        path: './content/articles/*.md',
+        refs: {
+          tags: {
+            typeName: 'Tag',
+            create: true
+          },
+        },
       }
     },
   ],
   templates: {
-    People: '/equipe/:firstName-:lastName',
+    People: '/equipe/:id',
     Job: '/recrutement/:slug',
     Challenge: '/commando-ux/:slug',
+    Article: '/blog/:slug',
+    Tag: '/tag/:id',
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch

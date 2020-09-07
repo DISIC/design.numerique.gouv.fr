@@ -49,9 +49,45 @@
         <section>
           <h2>Notre équipe</h2>
           <ul class="team">
-            <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
-              <g-image :src="node.photo" quality="100" height="150" width="150" />
+            <li v-for="{ node } in team" :key="node.id">
+              <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
               <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+              <p>{{ node.job_title }}</p>
+              <p v-if="node.sub_team_link">
+                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+              </p>
+              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+              <p v-if="node.twitter">
+                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>En appui</h2>
+          <ul class="team">
+            <li v-for="{ node } in external" :key="node.id">
+              <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
+              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
+              <p>{{ node.job_title }}</p>
+              <p v-if="node.sub_team_link">
+                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+              </p>
+              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+              <p v-if="node.twitter">
+                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Le commando</h2>
+          <ul class="team">
+            <li v-for="{ node } in commando" :key="node.id">
+              <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
+              <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
               <p>{{ node.job_title }}</p>
               <p v-if="node.sub_team_link">
                 <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
@@ -70,40 +106,56 @@
 </template>
 
 <page-query>
-query {
-  allPeople (sortBy: "lastName", order: ASC) {
-    edges {
-      node {
-      	id
-        firstName
-        lastName
-        job_title
-        sub_team
-        sub_team_link
-        twitter
-        photo (width: 150, height: 150, quality: 100)
-        path
-        content
+
+  query {
+    allPeople (sortBy: "lastName", order: ASC) {
+      edges {
+        node {
+        	id
+          firstName
+          lastName
+          job_title
+          sub_team
+          sub_team_link
+          twitter
+          photo (width: 150, height: 150, quality: 100)
+          group
+          content
+        }
       }
     }
   }
-}
+
 </page-query>
 
 <script>
-export default {
-  metaInfo: {
-    title: "Équipe",
-    meta: [{
-      name: "robots",
-      content: "noindex"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Équipe",
+      meta: [{
+        name: "robots",
+        content: "noindex"
+      }],
+    },
+    computed: {
+      team: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'team')
+      },
+      external: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'external')
+      },
+      commando: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'commando')
+      },
+    }
   }
-}
+
 </script>
 
 <style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
+
+  @import "src/assets/scss/_vars.scss";
 
   .team {
     padding: 0;
@@ -113,7 +165,16 @@ export default {
     flex-wrap: wrap;
 
     h3 {
-      margin-bottom: 4px;
+      margin: 4px 0;
+
+      a {
+        color: $black;
+        border: none;
+
+        &:hover {
+          color: $blue;
+        }
+      }
     }
 
     > li {

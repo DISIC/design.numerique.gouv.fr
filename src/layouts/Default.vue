@@ -51,7 +51,7 @@
                   Contact <font-awesome width="0" :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
               <li><g-link to="/recrutement/">Recrutement</g-link></li>
-              <li><g-link to="/misc/accessibilite/">Accessibilité</g-link></li>
+              <li><g-link to="/misc/accessibilite/">Accessibilité : partiellement conforme</g-link></li>
               <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
               <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>
               <li><g-link to="/misc/plan-du-site/">Plan du site</g-link></li>

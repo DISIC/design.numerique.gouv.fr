@@ -5,9 +5,9 @@
 
     <header role="banner">
       <div class="logo">
-        <LogoRF width="120" class="header__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité."/>
-        <g-link class="header__logos" to="/" title="DesignGouv - Retour à l'accueil">
-          <LogoDG width="260"  class="header__logo-dg" role="img"/>
+        <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+        <g-link class="header__logos" to="/" >
+          <img src="/assets/images/logoDG.svg"  width="260"  class="header__logo-dg" alt="DesignGouv - Retour à l'accueil"/>
         </g-link>
       </div>
 
@@ -25,13 +25,13 @@
 
     <footer role="contentinfo" >
 
-      <LogoRF  width="120" class="footer__logo-rf" role="img" alt="République Française. Liberté Égalité Fraternité." />
+      <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
 
       <div class="footer__content">
 
         <div class="footer__description">
-          <g-link to="/" title="DesignGouv - Retour à l'accueil">
-            <LogoDG width="260" class="footer__logo-dg" role="img"  />
+          <g-link to="/" >
+            <img src="/assets/images/logoDG.svg"  width="260"  class="header__logo-dg" alt="DesignGouv - Retour à l'accueil"/>
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.</br>

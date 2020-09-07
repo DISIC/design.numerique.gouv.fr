@@ -107,8 +107,6 @@ query {
 import Menu from "~/components/Menu.vue"
 //import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
-import LogoRF from "~/assets/images/logoRF.svg"
-import LogoDG from "~/assets/images/logoDG.svg"
 import Vue from 'vue';
 import VueBreadcrumbs from 'vue-2-breadcrumbs';
 //  import App from './App.vue';
@@ -121,8 +119,6 @@ export default {
     Menu,
 //    Breadcrumb,
     Newsletter,
-    LogoRF,
-    LogoDG,
   },
   props: {
     logoLarge: {

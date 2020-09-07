@@ -30,9 +30,9 @@
           <h3>Résultats</h3>
           <p>Le taux de conformité au RGAA mesuré sur l’échantillon détaillé ci-dessous est de 89%.</p>
           <ul>
-            <li>50 critères sont conformes</li>
-            <li>2 critères sont non conformes</li>
-            <li> critères ne sont pas applicables</li>            
+            <li>42 critères sont conformes</li>
+            <li>3 critères sont non conformes</li>
+            <li>61 critères ne sont pas applicables</li>            
           </ul>
         </section>
 

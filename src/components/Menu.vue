@@ -6,7 +6,7 @@
       <span id="menu-button__text" class="menu-button__text">Menu</span>
       <font-awesome id="menu-button__icon" class="menu-button__icon" :icon="['fas', 'bars']"/>
     </button>
-    <ul id="menu">
+    <ul id="menu" role="menu">
       <li role="none"><g-link class="button" to="/" role="menuitem">Accueil<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
       <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
       <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>

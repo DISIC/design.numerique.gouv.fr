@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="cover__container">
 
-       <h1 class="highlight"><Blog class="h1__icon" aria-hidden="true"/>Notre blog</h1>
+       <h1 class="highlight"><Blog class="h1__icon" focusable="false" aria-hidden="true"/>Notre blog</h1>
 
       </div>
     </div>
@@ -13,7 +13,7 @@
 
         <section class="articles">
           <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-            <g-image :src="node.illustration" aria-hidden="true"/>
+            <g-image :src="node.illustration" focusable="false" aria-hidden="true"/>
             <p class="articles__date">{{ node.publishedDate }}</p>
             <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
             <p>{{ node.description }}</p>

@@ -4,13 +4,13 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><CommandoUX class="h1__icon" aria-hidden="true"/>Commando UX</h1>
+      <h1 class="highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
         Designers et développeurs auront 4 mois pour améliorer l'expérience de 5 à 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
-      <CommandouxIllustration class="cover__illustration" aria-hidden="true"/>
+      <CommandouxIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
 
       </div>
     </div>
@@ -20,7 +20,7 @@
       <section class="subsection">
 
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Appel à défis
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Appel à défis
         </h2>
         <p>
           Nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
@@ -28,7 +28,7 @@
         <div class="key-elements">
           <div class="element">
             <g-image src="~/assets/images/commandoux/top-250.svg"
-                     quality="100" height="64" width="64" aria-hidden="true"/>
+                     quality="100" height="64" width="64" focusable="false" aria-hidden="true"/>
             <p>Les démarches phares de l'État</p>
           </div>
           <div class="element">
@@ -45,7 +45,7 @@
           </div>
           <div class="element">
             <g-image src="~/assets/images/commandoux/100-percent.svg"
-                     quality="100" height="64" width="64" aria-hidden="true"/>
+                     quality="100" height="64" width="64" focusable="false" aria-hidden="true"/>
             <p>Financement par la DINUM</p>
           </div>
         </div>
@@ -85,7 +85,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
         </h2>
         <p>À travers ce programme, notre objectif est de mettre à votre disposition des experts qui s'attèleront à transformer rapidement vos services numériques pour les rendre plus <strong>fluides</strong>, <strong>efficaces</strong> et <strong>compréhensibles</strong>. Et qu'ils apportent même du <strong>plaisir</strong> aux usagers.</p>
         <p>Afin d'identifier les améliorations à apporter, le Commando UX évaluera la perception actuelle du service aux usagers, les contraintes techniques ainsi que les besoins métiers.</p>
@@ -103,7 +103,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Nos critères de sélection
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Nos critères de sélection
         </h2>
         <ul>
           <li>Que vos objectifs et indicateurs de réussite soient clairement énoncés, notamment le nombre d'usagers qui seront impactés par ces améliorations</li>
@@ -116,7 +116,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Vous êtes designer ou développeur
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Vous êtes designer ou développeur
         </h2>
         <p>Vous n'avez peur de rien ? Vous vous adaptez rapidemment ? Vous êtes exigeant et efficace ? Vous souhaitez travailler sur un projet d'intérêt général à fort impact ? Et vous êtes disponible de septembre à décembre 2020 ?</p>
         <p>
@@ -150,7 +150,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Dates clé
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Dates clé
         </h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>

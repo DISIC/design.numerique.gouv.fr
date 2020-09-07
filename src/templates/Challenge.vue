@@ -3,7 +3,7 @@
 
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
-        <g-image :src="$page.challenge.illustration" class="cover__illustration--small" aria-hidden="true"/>
+        <g-image :src="$page.challenge.illustration" class="cover__illustration--small" alt="" focusable="false" aria-hidden="true"/>
         <h1>{{ $page.challenge.title }}</h1>
         <p class="cover__subtitle">{{ $page.challenge.description }}</p>
       </div>
@@ -48,11 +48,11 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Le commando
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando
         </h2>
         <ul class="team">
           <li v-for="node in $page.challenge.team" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
+            <g-image :src="node.photo" quality="100" height="150" width="150" alt="" focusable="false" aria-hidden="true"/>
             <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
             <p>{{ node.job_title }}</p>
             <p v-if="node.twitter">

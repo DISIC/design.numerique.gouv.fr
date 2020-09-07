@@ -4,13 +4,13 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><CommandoUX class="h1__icon" aria-hidden="true"/>Commando UX</h1>
+      <h1 class="highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
         Designers et développeurs ont 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
-      <CommandouxIllustration class="cover__illustration" aria-hidden="true"/>
+      <CommandouxIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
 
       </div>
     </div>
@@ -20,7 +20,7 @@
       <section class="subsection">
 
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Le programme
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le programme
         </h2>
         <p>
           L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables. Pour cela, nous recrutons 15 designers et développeurs qui auront 4 mois pour relever l'un des défis proposés par les administrations.
@@ -65,11 +65,11 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Le commando
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando
         </h2>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" aria-hidden="true"/>
+            <g-image :src="node.photo" quality="100" height="150" width="150" />
             <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
             <p>{{ node.job_title }}</p>
             <p v-if="node.sub_team_link">
@@ -82,11 +82,11 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Les 10 défis
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
         </h2>
         <ul class="challenge">
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration" aria-hidden="true"/>
+            <g-image class="challenge__illustration" :src="node.illustration" focusable="false" aria-hidden="true"/>
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             <p class="challenge__description">{{ node.description }}</p>
             <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
@@ -99,7 +99,7 @@
 
       <section class="subsection">
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
         </h2>
         <p>
           Pour chaque défi, l'objectif est de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
@@ -122,7 +122,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Informations pratiques
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Informations pratiques
         </h2>
         <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 décembre 2020</p>
         <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
@@ -165,7 +165,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" aria-hidden="true"/>Les dates clés du programme
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les dates clés du programme
         </h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>

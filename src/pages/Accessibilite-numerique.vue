@@ -3,7 +3,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><Accessibilite class="h1__icon" aria-hidden="true"/>Accessibilité</h1>
+      <h1 class="highlight"><Accessibilite class="h1__icon" focusable="false" aria-hidden="true"/>Accessibilité</h1>
 
       <p class="cover__subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 
@@ -26,7 +26,7 @@
           </p>
         </div>
         <div>
-          <AccessibilityIllustration class="illustration" aria-hidden="true"/>
+          <AccessibilityIllustration class="illustration" focusable="false" aria-hidden="true"/>
         </div>
       </section>
 

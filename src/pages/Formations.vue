@@ -4,13 +4,13 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><Formations class="h1__icon" aria-hidden="true"/>Les formations</h1>
+      <h1 class="highlight"><Formations class="h1__icon" focusable="false" aria-hidden="true"/>Les formations</h1>
 
       <p class="cover__subtitle">De nombreuses formations sont disponibles, certaines accessibles
         gratuitement, pour vous former personnellement ou en équipe sur les divers
         sujets liés au design, à la qualité des services numériques et à l’accessibilité.</p>
 
-      <FormationsIllustration class="cover__illustration" aria-hidden="true"/>
+      <FormationsIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
 
       </div>
     </div>
@@ -20,7 +20,7 @@
       <section>
 
         <h2>
-          <Formations class="h2__icon" aria-hidden="true"/>Initiations
+          <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Initiations
         </h2>
         <p>Initiez-vous facilement et gratuitement. C'est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
 
@@ -41,7 +41,7 @@
       <section>
 
         <h2>
-          <Formations class="h2__icon" aria-hidden="true"/>Certifications
+          <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Certifications
         </h2>
         <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
           compétences sur les sujets qui vous intéressent.</p>
@@ -56,7 +56,7 @@
       <section>
 
         <h2>
-          <Formations class="h2__icon" aria-hidden="true"/>Diplômes
+          <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Diplômes
         </h2>
         <p>Les formations diplômantes vous permettent de devenir expert ou de vous diriger vers un nouveau métier.</p>
 

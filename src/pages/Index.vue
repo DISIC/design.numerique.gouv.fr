@@ -5,7 +5,7 @@
     <div class="cover">
       <div class="cover__container">
 
-        <CoverIllustration width="0" class="cover__home-illustration" aria-hidden="true"/>
+        <CoverIllustration class="cover__home-illustration" focusable="false" aria-hidden="true"/>
 
         <h1>Concevons des services publics numériques <span class="highlight">accessibles</span>, <span class="highlight">inclusifs</span> et <span class="highlight">humains</span>.</h1>
 
@@ -25,11 +25,7 @@
           </p>
 
           <g-link to="/commando-ux/" class="button">
-<<<<<<< HEAD
-            Voir les défis<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-=======
             Suivre leur travail<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
->>>>>>> master
           </g-link>
 
       </div>
@@ -37,7 +33,7 @@
       <section class="item">
 
           <div class="item__description">
-            <Design  width="0" class="item__icon" aria-hidden="true"/>
+            <Design focusable="false" class="item__icon" aria-hidden="true"/>
 
             <h2>Design numérique</h2>
 
@@ -52,14 +48,14 @@
             </p>
           </div>
 
-          <DesignIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
+          <DesignIllustration focusable="false" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="item__description">
-          <Accessibilite  width="0" class="item__icon" aria-hidden="true"/>
+          <Accessibilite focusable="false" class="item__icon" aria-hidden="true"/>
 
           <h2>Accessibilité</h2>
 
@@ -72,14 +68,14 @@
           </g-link>
         </div>
 
-        <AccessibiliteIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
+        <AccessibiliteIllustration focusable="false" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="item__description">
-          <Services  width="0" class="item__icon" aria-hidden="true"/>
+          <Services focusable="false" class="item__icon" aria-hidden="true"/>
 
           <h2>Besoin d'aide ?</h2>
 
@@ -92,14 +88,14 @@
           </g-link>
         </div>
 
-        <ServicesIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
+        <ServicesIllustration focusable="false" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
       <section class="item">
 
         <div class="item__description">
-          <Formations  width="0" class="item__icon" aria-hidden="true"/>
+          <Formations focusable="false" class="item__icon" aria-hidden="true"/>
 
           <h2>Les formations</h2>
 
@@ -112,7 +108,7 @@
           </g-link>
         </div>
 
-        <FormationsIllustration  width="0" class="item__illustration item__illustration--right" aria-hidden="true"/>
+        <FormationsIllustration focusable="false" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
@@ -120,7 +116,7 @@
 
           <div class="blog__top">
             <div>
-              <Blog class="blog__icon" aria-hidden="true"/>
+              <Blog class="blog__icon" focusable="false" aria-hidden="true"/>
               <h2>Notre blog</h2>
             </div>
 
@@ -133,7 +129,7 @@
 
           <div class="articles">
             <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-              <g-image :src="node.illustration" aria-hidden="true"/>
+              <g-image :src="node.illustration" focusable="false" aria-hidden="true"/>
               <p class="articles__date">{{ node.publishedDate }}</p>
               <h3><g-link :to="node.path">{{ node.title }}</g-link></h3>
               <p>{{ node.description }}</p>

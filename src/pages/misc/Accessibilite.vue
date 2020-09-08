@@ -19,7 +19,7 @@
           <h3>État de conformité</h3>
           <p>DesignGouv est <strong>partiellement conforme</strong> avec le RGAA 4.0.</p>
           <h3>Échantillon évalué</h3>
-          <p>L'audit a été effectué sur l'échantillon de pages suivant :</p>
+          <p>L'audit a été effectué en septembre 2020 par nos soins sur l'échantillon suivant :</p>
           <ul>
             <li><a href="https://design.numerique.gouv.fr/">Accueil</a></li>
             <li><a href="https://design.numerique.gouv.fr/mentions-legales/">Mentions légales</a></li>
@@ -28,11 +28,13 @@
             <li><a href="https://design.numerique.gouv.fr/equipe/">L'équipe</a></li>
           </ul>  
           <h3>Résultats</h3>
-          <p>Le taux de conformité au RGAA mesuré sur l’échantillon détaillé ci-dessous est de 89%.</p>
+          <p><strong>Le taux de conformité au RGAA est de 91%.</strong></p>
+          <p>Les points à améliorer sont :</p>
           <ul>
-            <li>42 critères sont conformes</li>
-            <li>3 critères sont non conformes</li>
-            <li>61 critères ne sont pas applicables</li>            
+            <li>Ajouter des liens d'accès rapides</li>
+            <li>La cohérence entre le menu et le plan du site</li>
+            <li>Quelques anomalies de structure html</li>
+            <li>Validité du code html</li>            
           </ul>
         </section>
 

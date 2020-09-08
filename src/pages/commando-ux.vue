@@ -117,7 +117,7 @@
 
       <section class="quote">
         <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
-        <cite>— Don Norman, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</cite>
+        <cite><span lang="en">Don Norman</span>, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</cite>
       </section>
 
       <section>

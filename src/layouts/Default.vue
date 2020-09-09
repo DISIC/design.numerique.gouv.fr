@@ -108,10 +108,10 @@ import Menu from "~/components/Menu.vue"
 //import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import Vue from 'vue';
-import VueBreadcrumbs from 'vue-2-breadcrumbs';
-//  import App from './App.vue';
+// import VueBreadcrumbs from 'vue-2-breadcrumbs';
+// import App from './App.vue';
 
-Vue.use(VueBreadcrumbs);
+// Vue.use(VueBreadcrumbs);
 
 export default {
   components: {
@@ -234,7 +234,7 @@ export default {
     .logo{
       align-items: center;
       display: flex;
-      
+
 
     }
     .header__logos {
@@ -345,7 +345,7 @@ export default {
       flex-wrap: wrap;
       ul {
         padding: 0;
-        display: flex;  
+        display: flex;
         li {
           list-style-type: none;
         }

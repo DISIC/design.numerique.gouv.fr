@@ -28,25 +28,25 @@
         <div class="key-elements">
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'user-astronaut']"/>
+              <font-awesome :icon="['fas', 'user-astronaut']" height="16px"/>
             </div>
             <p>Designers et développeurs</p>
           </div>
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'stopwatch']"/>
+              <font-awesome :icon="['fas', 'stopwatch']" height="16px"/>
             </div>
             <p>À temps plein pendant 4 mois</p>
           </div>
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'flag']"/>
+              <font-awesome :icon="['fas', 'flag']" height="16px"/>
             </div>
             <p>Pour améliorer les démarches de l'État</p>
           </div>
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'star']"/>
+              <font-awesome :icon="['fas', 'star']" height="16px"/>
             </div>
             <p>Et œuvrer pour l'interêt général</p>
           </div>
@@ -89,7 +89,7 @@
             <g-image class="challenge__illustration" :src="node.illustration" alt=""/>
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             <p class="challenge__description">{{ node.description }}</p>
-            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
+            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']" height="16px"/> {{ node.department }}</p>
             <!-- <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
             <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p> -->
             <!-- <p class="challenge__place"><font-awesome class="challenge__icon" :icon="['fas', 'map-marker-alt']"/> {{ node.place }}</p> -->

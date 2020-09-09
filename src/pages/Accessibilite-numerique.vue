@@ -37,19 +37,19 @@
             <span>En bref (5 minutes chrono)</span>
           </g-link> -->
           <g-link to="/accessibilite-numerique/cadre-legal/">
-            <font-awesome :icon="['fas', 'balance-scale']"/>
+            <font-awesome :icon="['fas', 'balance-scale']" height="16px"/>
             <span>Obligations légales et sanctions</span>
           </g-link>
           <g-link to="/accessibilite-numerique/RGAA/">
-            <font-awesome :icon="['fas', 'clipboard-list']"/>
+            <font-awesome :icon="['fas', 'clipboard-list']" height="16px"/>
             <span>Le RGAA</span>
           </g-link>
           <g-link to="/accessibilite-numerique/schema-pluriannuel">
-            <font-awesome :icon="['far', 'file-alt']"/>
+            <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>Schéma pluriannuel <small>de mise en accessibilité</small></span>
           </g-link>
           <g-link to="/accessibilite-numerique/declaration-accessibilite">
-            <font-awesome :icon="['far', 'file-alt']"/>
+            <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>Déclaration d'accessibilité</span>
           </g-link>
 

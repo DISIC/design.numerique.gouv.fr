@@ -4,7 +4,7 @@
     <button id="menu-button" type="button" aria-haspopup="true" title="Menu"
       aria-expanded="false" @click="toggle" v-click-outside="hide">
       <span id="menu-button__text" class="menu-button__text">Menu</span>
-      <font-awesome id="menu-button__icon" class="menu-button__icon" :icon="['fas', 'bars']"/>
+      <font-awesome id="menu-button__icon" class="menu-button__icon" :icon="['fas', 'bars']" height="16px"/>
     </button>
     <ul id="menu" role="menu">
       <li role="none"><g-link class="button" to="/" role="menuitem">Accueil<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>

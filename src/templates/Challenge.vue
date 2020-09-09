@@ -16,20 +16,20 @@
         <div class="key-elements">
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'university']"/>
+              <font-awesome :icon="['fas', 'university']" height="16px"/>
             </div>
             <p><b>{{ $page.challenge.department }}</b> - {{ $page.challenge.direction }}</p>
           </div>
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'user-friends']"/>
+              <font-awesome :icon="['fas', 'user-friends']" height="16px"/>
             </div>
             <p><b>{{ $page.challenge.volumetry }}</b></p>
             <p>personnes utilisent cette démarche chaque année</p>
           </div>
           <div class="element">
             <div>
-              <font-awesome :icon="['fas', 'desktop']"/>
+              <font-awesome :icon="['fas', 'desktop']" height="16px"/>
             </div>
             <p v-if="$page.challenge.website"><b>{{ $page.challenge.ratio }}</b></p>
             <p v-else><b>-</b></p>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="blog-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -95,16 +95,19 @@
 
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_articles.scss";
 
-  .cover {
-    margin-bottom: 80px;
+  .blog-page {
 
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-bottom: 48px;
+    .cover {
+      margin-bottom: 80px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin-bottom: 48px;
+      }
     }
   }
 

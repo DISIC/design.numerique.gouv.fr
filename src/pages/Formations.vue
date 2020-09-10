@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="content medium">
+    <div class="content">
 
       <section>
 

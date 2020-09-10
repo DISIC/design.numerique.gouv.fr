@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <div class="content medium">
+    <div class="content">
 
       <section>
 
@@ -115,7 +115,7 @@
 @import "src/assets/scss/_vars.scss";
 
   .content {
-    
+
     strong {
       color: $blue;
     }

@@ -5,12 +5,13 @@
 
     <header role="banner">
       <div class="logo">
-        <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
-        <g-link class="header__logos" to="/" >
-          <img src="/assets/images/logoDG.svg"  width="260"  class="header__logo-dg" alt="DesignGouv - Retour à l'accueil"/>
-        </g-link>
+        <div class="block-link">
+          <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+          <g-link class="header__logos" to="/" >
+            <img src="/assets/images/logoDG.svg"  width="260"  class="header__logo-dg" alt="DesignGouv - Retour à l'accueil"/>
+          </g-link>
+        </div>
       </div>
-
       <nav id="nav-main" role="navigation">
         <Menu />
       </nav>
@@ -25,11 +26,12 @@
 
     <footer role="contentinfo" >
 
-      <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+        <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
 
       <div class="footer__content">
 
         <div class="footer__description">
+
           <g-link to="/" >
             <img src="/assets/images/logoDG.svg"  width="260"  class="header__logo-dg" alt="DesignGouv - Retour à l'accueil"/>
           </g-link>
@@ -108,10 +110,10 @@ import Menu from "~/components/Menu.vue"
 //import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import Vue from 'vue';
-import VueBreadcrumbs from 'vue-2-breadcrumbs';
+//import VueBreadcrumbs from 'vue-2-breadcrumbs';
 //  import App from './App.vue';
 
-Vue.use(VueBreadcrumbs);
+//Vue.use(VueBreadcrumbs);
 
 export default {
   components: {
@@ -233,9 +235,20 @@ export default {
 
     .logo{
       align-items: center;
-      display: flex;
-      
+      position: relative;
+      .block-link{
+        align-items: center;
+        display: flex;
 
+        a::after {
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+        right: 0;
+        }    
+      }
     }
     .header__logos {
       justify-content: flex-start;

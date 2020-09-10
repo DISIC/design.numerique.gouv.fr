@@ -125,37 +125,42 @@
   </Layout>
 </template>
 
+
 <script>
 
 import Accessibilite from "~/assets/images/accessibilite.svg"
 
-export default {
-  components: {
-    Accessibilite,
-  },
-  metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
-    meta: [{
-      name: 'description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+  export default {
+    components: {
+      Accessibilite,
     },
-    {
-      property: 'og:title',
-      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-    },
-    {
-      property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
-    }],
+    metaInfo: {
+      title: "Accessibilité numérique - DesignGouv",
+      meta: [{
+        name: 'description',
+        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      },
+      {
+        property: 'og:title',
+        content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      },
+      {
+        property: 'og:image',
+        content: "https://designgouv.fr/designGouv.png"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_accessibility.scss";
+
 </style>

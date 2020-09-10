@@ -1,6 +1,6 @@
 <template>
 
-  <div>
+  <div class="menu">
     <button id="menu-button" type="button" aria-haspopup="true" title="Menu"
       aria-expanded="false" @click="toggle" v-click-outside="hide">
       <span id="menu-button__text" class="menu-button__text">Menu</span>
@@ -55,110 +55,114 @@
     directives: {
       ClickOutside
     }
-}
+  }
 
 </script>
 
 
-<style lang="scss" scoped>
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
-  button {
-    height: 44px;
-    transition: none;
-    @media only screen and (max-width: $mobile-max-width) {
-      width: 44px;
-      padding: 8px;
-      border-radius: 50%;
-    }
+  .menu {
 
-    &.menu-button--menu-opened {
-      position: absolute;
-      top: 52px;
-      right: 30px;
-      border-radius: 0;
-      width: 284px;
+    button {
+      height: 44px;
+      transition: none;
       @media only screen and (max-width: $mobile-max-width) {
-        width: 100vw;
-        top: 0;
-        right: 0;
-        border: none;
-        height: 71px;
-        text-align: right;
-        padding-right: 27px;
+        width: 44px;
+        padding: 8px;
+        border-radius: 50%;
       }
-    }
 
-    .menu-button__text {
-      @media only screen and (max-width: $mobile-max-width) {
-        display: none;
-      }
-    }
-
-    .menu-button__icon {
-      display: none;
-      @media only screen and (max-width: $mobile-max-width) {
-        padding: 0;
-        display: inline-block;
-      }
-    }
-  }
-
-  ul {
-    display: none;
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    background-color: white;
-    border: 2px solid $black;
-    width: 280px;
-    z-index: 1;
-    top: 94px;
-    right: 30px;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      border: none;
-      top: 71px;
-      right: 0px;
-      width: 100vw;
-      height: 100vh;
-    }
-
-    li {
-      list-style-type: none;
-
-      a {
-        display: block;
-        border: none;
+      &.menu-button--menu-opened {
+        position: absolute;
+        top: 52px;
+        right: 30px;
         border-radius: 0;
-        padding: 14px 24px;
-
-        .button__icon {
-          display: none;
-          color: $light;
+        width: 284px;
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 100vw;
+          top: 0;
+          right: 0;
+          border: none;
+          height: 71px;
+          text-align: right;
+          padding-right: 27px;
         }
+      }
 
-        &:hover, &:focus {
+      .menu-button__text {
+        @media only screen and (max-width: $mobile-max-width) {
+          display: none;
+        }
+      }
+
+      .menu-button__icon {
+        display: none;
+        @media only screen and (max-width: $mobile-max-width) {
+          padding: 0;
+          display: inline-block;
+        }
+      }
+    }
+
+    ul {
+      display: none;
+      position: absolute;
+      padding: 0;
+      margin: 0;
+      background-color: white;
+      border: 2px solid $black;
+      width: 280px;
+      z-index: 1;
+      top: 94px;
+      right: 30px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        border: none;
+        top: 71px;
+        right: 0px;
+        width: 100vw;
+        height: 100vh;
+      }
+
+      li {
+        list-style-type: none;
+
+        a {
+          display: block;
+          border: none;
+          border-radius: 0;
+          padding: 14px 24px;
+
           .button__icon {
-            @media only screen and (min-width: $mobile-max-width+1) {
-              display: inline-block;
+            display: none;
+            color: $light;
+          }
+
+          &:hover, &:focus {
+            .button__icon {
+              @media only screen and (min-width: $mobile-max-width+1) {
+                display: inline-block;
+              }
             }
           }
-        }
 
-        @media only screen and (max-width: $mobile-max-width) {
-          text-align: center;
+          @media only screen and (max-width: $mobile-max-width) {
+            text-align: center;
+          }
         }
       }
     }
+
+    .show {
+      display: inline-block !important;
+    }
+
+    .hide {
+      display: none !important;
+    }
   }
 
-  .show {
-    display: inline-block !important;
-  }
-
-  .hide {
-    display: none !important;
-  }
 </style>

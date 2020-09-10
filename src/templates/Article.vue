@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="article-page">
 
     <div class="cover">
 
@@ -111,93 +111,96 @@ query Article ($id: ID!) {
 }
 </page-query>
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
-  .breadcrumb {
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
+  .article-page {
 
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-top: 8px;
-    }
-
-    p {
-      display: inline-block;
-    }
-  }
-
-  .cover {
-    margin-top: 0px;
-    margin-bottom: 64px;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-bottom: 48px;
-    }
-
-    &__container {
-      height: 360px;
-      padding: 0;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-    }
-
-    &__text {
-      width: 640px;
-      background-color: white;
-      padding: 4px 32px 0 32px;
-    }
-
-    h1 {
-      font-size: 2.5em;
-      line-height: 1.2;
-      color: $black;
-      display: inline-block;
-      margin: 8px 0 0 0;
+    .breadcrumb {
+      width: 100vw;
+      position: relative;
+      margin-left: -50vw;
+      left: 50%;
 
       @media only screen and (max-width: $mobile-max-width) {
-        font-size: 2em;
-        margin: 0;
+        margin-top: 8px;
+      }
+
+      p {
+        display: inline-block;
       }
     }
 
-    &__subtitle {
-      margin-top: 8px;
-    }
-  }
-
-  .content {
-    max-width: 640px;
-  }
-
-  .tags {
-    margin-top: 3em;
-
-    &__item {
-      display: inline-block;
-      padding: 2px 10px;
-      margin: 0px 12px 12px 0;
-      border-radius: 16px;
-      border: 2px solid $gray;
-      font-size: 0.825em;
-      font-weight: 900;
-      color: $black;
+    .cover {
+      margin-top: 0px;
+      margin-bottom: 64px;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin: 0px 8px 8px 0;
+        margin-bottom: 48px;
+      }
+
+      &__container {
+        height: 360px;
+        padding: 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      &__text {
+        width: 640px;
+        background-color: white;
+        padding: 4px 32px 0 32px;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        line-height: 1.2;
+        color: $black;
+        display: inline-block;
+        margin: 8px 0 0 0;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          font-size: 2em;
+          margin: 0;
+        }
+      }
+
+      &__subtitle {
+        margin-top: 8px;
+      }
+    }
+
+    .content {
+      max-width: 640px;
+    }
+
+    .tags {
+      margin-top: 3em;
+
+      &__item {
+        display: inline-block;
+        padding: 2px 10px;
+        margin: 0px 12px 12px 0;
+        border-radius: 16px;
+        border: 2px solid $gray;
         font-size: 0.825em;
-      }
+        font-weight: 900;
+        color: $black;
 
-      &:hover {
-        border: 2px solid $blue;
-        color: $blue;
+        @media only screen and (max-width: $mobile-max-width) {
+          margin: 0px 8px 8px 0;
+          font-size: 0.825em;
+        }
+
+        &:hover {
+          border: 2px solid $blue;
+          color: $blue;
+        }
       }
     }
   }

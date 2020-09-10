@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="sitemap-page">
 
     <div class="cover">
      <div class="cover__container cover__container--light">
@@ -38,17 +38,27 @@
   </Layout>
 </template>
 
+
 <script>
-export default {
-  metaInfo: {
-    title: "Plan du site",
-    meta: [{
-      name: "robots",
-      content: "index"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Plan du site",
+      meta: [{
+        name: "robots",
+        content: "index"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
+  .sitemap-page {
+
+
+  }
+
 </style>

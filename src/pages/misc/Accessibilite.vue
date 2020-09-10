@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="accessibility-page">
 
     <div class="cover">
      <div class="cover__container cover__container--light">
@@ -26,7 +26,7 @@
             <li><a href="https://design.numerique.gouv.fr/misc/accessibilite">Accessibilité</a></li>
             <li><a href="https://design.numerique.gouv.fr/commando-ux/">Commando UX</a></li>
             <li><a href="https://design.numerique.gouv.fr/equipe/">L'équipe</a></li>
-          </ul>  
+          </ul>
           <h3>Résultats</h3>
           <p><strong>Le taux de conformité au RGAA est de 91%.</strong></p>
           <p>Les points à améliorer sont :</p>
@@ -34,7 +34,7 @@
             <li>Ajouter des liens d'évitement (12.6, 12.7)</li>
             <li>La cohérence entre le menu et le plan du site (12.1)</li>
             <li>Quelques anomalies de structure html (9.3)</li>
-            <li>Validité du code html (8.2)</li>            
+            <li>Validité du code html (8.2)</li>
           </ul>
         </section>
 
@@ -81,17 +81,27 @@
   </Layout>
 </template>
 
+
 <script>
-export default {
-  metaInfo: {
-    title: "Accessibilité",
-    meta: [{
-      name: "robots",
-      content: "noindex"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Accessibilité",
+      meta: [{
+        name: "robots",
+        content: "noindex"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
+  .accessibility-page {
+
+
+  }
+
 </style>

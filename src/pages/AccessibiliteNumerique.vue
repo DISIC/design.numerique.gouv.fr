@@ -1,5 +1,6 @@
 <template>
-  <Layout>
+  <Layout class="digital-accessibility-page">
+    
     <div class="cover">
      <div class="cover__container">
 
@@ -107,40 +108,49 @@
   </Layout>
 </template>
 
+
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-import AccessibilityIllustration from "~/assets/images/illustration_accessibility.svg";
+  import Accessibilite from "~/assets/images/accessibilite.svg"
+  import AccessibilityIllustration from "~/assets/images/illustration_accessibility.svg";
 
-export default {
-  components: {
-    Accessibilite,
-    AccessibilityIllustration,
-  },
-  metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
-    meta: [{
-        name: 'description',
-        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-      },
-      {
-        property: 'og:title',
-        content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
-      },
-      {
-        property: 'og:description',
-        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-      },
-      {
-        property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
-      }],
+  export default {
+    components: {
+      Accessibilite,
+      AccessibilityIllustration,
+    },
+    metaInfo: {
+      title: "Accessibilité numérique - DesignGouv",
+      meta: [{
+          name: 'description',
+          content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+        },
+        {
+          property: 'og:title',
+          content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+        },
+        {
+          property: 'og:description',
+          content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+        },
+        {
+          property: 'og:image',
+          content: "https://designgouv.fr/designGouv.png"
+        }],
+      }
     }
-  }
 
 </script>
 
+
 <style scoped lang="scss">
+
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_accessibility.scss";
+
+  .digital-accessibility-page {
+
+
+  }
+
 </style>

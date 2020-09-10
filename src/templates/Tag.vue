@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="tag-page">
 
     <div class="cover">
      <div class="cover__container cover__container--light">
@@ -26,54 +26,64 @@
   </Layout>
 </template>
 
+
 <page-query>
-query articlesByTags($id: String) {
-  allArticle (filter: {tags: {contains: [$id]}}, sortBy: "publishedDate", order: DESC) {
-    edges {
-      node {
-      	id
-        title
-        publishedDate (format: "D MMMM YYYY", locale : "fr")
-        illustration
-        description
-        path
+
+  query articlesByTags($id: String) {
+    allArticle (filter: {tags: {contains: [$id]}}, sortBy: "publishedDate", order: DESC) {
+      edges {
+        node {
+        	id
+          title
+          publishedDate (format: "D MMMM YYYY", locale : "fr")
+          illustration
+          description
+          path
+        }
       }
     }
   }
-}
+
 </page-query>
 
+
 <script>
-export default {
-  metaInfo: {
-    title: "Notre blog",
-    meta: [{
-      name: "robots",
-      content: "noindex"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Notre blog",
+      meta: [{
+        name: "robots",
+        content: "noindex"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_articles.scss";
 
-  .cover {
-    margin-bottom: 96px;
+  .tag-page {
 
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 12px;
-      line-height: 1.2;
+    .cover {
+      margin-bottom: 96px;
 
-      @media only screen and (max-width: $mobile-max-width) {
-        font-size: 2em;
-      }
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 12px;
+        line-height: 1.2;
 
-      > span {
-        color: $blue;
+        @media only screen and (max-width: $mobile-max-width) {
+          font-size: 2em;
+        }
+
+        > span {
+          color: $blue;
+        }
       }
     }
   }

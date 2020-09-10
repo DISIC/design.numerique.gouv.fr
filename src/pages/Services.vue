@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="services-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -111,13 +111,12 @@
 
 </script>
 
-<style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
+<style lang="scss">
 
-  .content {
+  @import "src/assets/scss/_vars.scss";
 
-    strong {
-      color: $blue;
-    }
+  .services-page {
+
   }
+
 </style>

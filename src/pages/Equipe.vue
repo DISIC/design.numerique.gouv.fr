@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="team-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -153,47 +153,50 @@
 
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
   .team {
-    padding: 0;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    flex-wrap: wrap;
 
-    h3 {
-      margin: 4px 0;
+    .team {
+      padding: 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
 
-      a {
-        color: $black;
-        border: none;
+      h3 {
+        margin: 4px 0;
 
-        &:hover {
-          color: $blue;
+        a {
+          color: $black;
+          border: none;
+
+          &:hover {
+            color: $blue;
+          }
         }
       }
-    }
 
-    > li {
-      list-style: none;
-      text-align: center;
-      width: 30%;
-      margin: 24px 4px;
+      > li {
+        list-style: none;
+        text-align: center;
+        width: 30%;
+        margin: 24px 4px;
 
-      @media only screen and (max-width: $mobile-max-width) {
-        width: 46%;
-      }
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 46%;
+        }
 
-      img {
-        border-radius: 50em;
-        max-width: 150px;
-      }
+        img {
+          border-radius: 50em;
+          max-width: 150px;
+        }
 
-      p {
-          margin: 0;
+        p {
+            margin: 0;
+        }
       }
     }
   }

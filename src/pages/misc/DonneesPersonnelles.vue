@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="privacy-page">
 
     <div class="cover">
      <div class="cover__container cover__container--light">
@@ -41,17 +41,27 @@
   </Layout>
 </template>
 
+
 <script>
-export default {
-  metaInfo: {
-    title: "Données personnelles",
-    meta: [{
-      name: "robots",
-      content: "noindex"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Données personnelles",
+      meta: [{
+        name: "robots",
+        content: "noindex"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
+  .privacy-page {
+
+
+  }
+
 </style>

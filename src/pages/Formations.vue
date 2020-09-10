@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="formations-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -104,11 +104,12 @@
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
-  .content {
+  .formations-page {
+
     li {
       list-style-type: none;
     }

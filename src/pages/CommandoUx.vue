@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="commando-ux-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -18,7 +18,6 @@
     <div class="content">
 
       <section class="subsection">
-
         <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le programme
         </h2>
@@ -291,7 +290,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .content {
+  .commando-ux-page {
 
     .challenge {
       padding: 0;
@@ -374,27 +373,6 @@
       &__icon {
         display: inline-block;
         margin-right: 4px;
-      }
-    }
-
-    .button {
-      text-decoration: none;
-      border-color: $blue;
-      background-color: $blue;
-      color: white;
-      border-radius: 32px;
-      padding: 8px 24px;
-      font-weight: bold;
-      display: inline-block;
-      margin: 10px 0;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        font-size: 0.875em;
-      }
-
-      &:hover {
-        background: $red;
-        border-color: $red;
       }
     }
 

@@ -246,8 +246,12 @@ export default {
           top: 0;
           bottom: 0;
           left: 0;
-        right: 0;
-        }    
+          right: 0;
+        }
+        a:focus {
+          background-color: none;
+        }
+
       }
     }
     .header__logos {

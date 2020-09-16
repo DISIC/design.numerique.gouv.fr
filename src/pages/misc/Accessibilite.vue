@@ -32,11 +32,11 @@
           <h3>Échantillon évalué</h3>
           <p>L'audit a été effectué en septembre 2020 par nos soins sur l'échantillon suivant :</p>
           <ul>
-            <li><a href="https://design.numerique.gouv.fr/">Accueil</a></li>
-            <li><a href="https://design.numerique.gouv.fr/mentions-legales/">Mentions légales</a></li>
-            <li><a href="https://design.numerique.gouv.fr/misc/accessibilite">Accessibilité</a></li>
-            <li><a href="https://design.numerique.gouv.fr/commando-ux/">Commando UX</a></li>
-            <li><a href="https://design.numerique.gouv.fr/equipe/">L'équipe</a></li>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/misc/mentions-legales/">Mentions légales</a></li>
+            <li><a href="/misc/accessibilite">Accessibilité</a></li>
+            <li><a href="/commando-ux/">Commando UX</a></li>
+            <li><a href="/equipe/">Notre équipe</a></li>
           </ul>
           <h3>Résultats</h3>
           <p><strong>Le taux de conformité au RGAA est de 91%.</strong></p>

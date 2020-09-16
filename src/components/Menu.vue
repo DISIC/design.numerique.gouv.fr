@@ -41,7 +41,7 @@
           text = "Fermer";
         }
         document.getElementById("menu-button").setAttribute("aria-expanded", expanded);
-        document.getElementById("menu-button-text").innerHTML = text;
+        document.getElementById("menu-button__text").innerHTML = text;
       },
       hide() {
         document.getElementById("menu").classList.remove("show");
@@ -67,6 +67,7 @@
   button {
     height: 44px;
     transition: none;
+
     @media only screen and (max-width: $mobile-max-width) {
       width: 44px;
       padding: 8px;
@@ -74,12 +75,12 @@
     }
 
     &.menu-button--menu-opened {
-      position: absolute;
-      top: 52px;
-      right: 30px;
+      position: relative;
       border-radius: 0;
       width: 284px;
+
       @media only screen and (max-width: $mobile-max-width) {
+        position: absolute;
         width: 100vw;
         top: 0;
         right: 0;
@@ -115,7 +116,11 @@
     width: 280px;
     z-index: 1;
     top: 94px;
-    right: 30px;
+    right: calc(50% - (#{$header-max-width} / 2) + 30px);
+
+    @media only screen and (max-width: $header-max-width) {
+      right: 30px;
+    }
 
     @media only screen and (max-width: $mobile-max-width) {
       border: none;

@@ -1,10 +1,20 @@
 <template>
   <Layout>
 
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Notre équipe</span>
+        </li>
+      </ol>
+    </nav>
+
     <div class="cover">
      <div class="cover__container">
 
-       <p class="cover__subhead">À propos</p>
        <h1>Le pôle design des services numériques</h1>
 
       </div>

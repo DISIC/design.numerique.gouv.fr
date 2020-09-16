@@ -1,6 +1,18 @@
 <template>
   <Layout>
-
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/commando-ux/">Commando UX</g-link>
+        </li>
+        <li>
+          <span aria-current="page">{{ $page.challenge.title }}</span>
+        </li>
+      </ol>
+    </nav>
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
         <g-image :src="$page.challenge.illustration" class="cover__illustration--small" alt=""/>

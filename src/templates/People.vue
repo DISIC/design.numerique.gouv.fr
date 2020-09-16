@@ -7,10 +7,10 @@
           <g-link to="/">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/equipe/">Equipe</g-link>
+          <g-link to="/equipe/">Équipe</g-link>
         </li>
         <li>
-          <span>{{ $page.people.firstName }} {{ $page.people.lastName }}</span>
+          <span aria-current="page">{{ $page.people.firstName }} {{ $page.people.lastName }}</span>
         </li>
       </ol>
     </nav>

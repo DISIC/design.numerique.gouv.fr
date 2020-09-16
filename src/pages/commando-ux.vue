@@ -1,5 +1,16 @@
 <template>
   <Layout>
+    
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Commando UX</span>
+        </li>
+      </ol>
+    </nav>
 
     <div class="cover">
      <div class="cover__container">
@@ -270,11 +281,11 @@
       },
       {
         name: "twitter:title",
-        content: "Appel à candidature : Commando UX - DesignGouv"
+        content: "Commando UX - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Venez améliorer l'expérience d'un des 250 services publics numériques les plus utilisés par les Français !"
+        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
       },
       {
         name: "twitter:image",

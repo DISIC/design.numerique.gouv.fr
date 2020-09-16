@@ -157,7 +157,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .team {
+  .team-page {
 
     .team {
       padding: 0;

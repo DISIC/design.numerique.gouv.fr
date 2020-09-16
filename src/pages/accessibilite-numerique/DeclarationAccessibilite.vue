@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="accessibility-details-pages">
 
     <div class="cover cover--with-breadcrumb">
      <div class="cover__container">
@@ -95,7 +95,9 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_accessibility.scss";
+
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="accessibility-details-pages">
 
     <div class="cover cover--with-breadcrumb">
      <div class="cover__container">

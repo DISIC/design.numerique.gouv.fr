@@ -1,5 +1,5 @@
 <template>
-  <Layout class="accessibility-details-pages">
+  <Layout class="digital-accessibility-pages">
 
     <div class="cover">
      <div class="cover__container">

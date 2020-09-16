@@ -1,6 +1,6 @@
 <template>
-  <Layout class="digital-accessibility-page">
-    
+  <Layout class="digital-accessibility-pages">
+
     <div class="cover">
      <div class="cover__container">
 
@@ -143,14 +143,9 @@
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_accessibility.scss";
-
-  .digital-accessibility-page {
-
-
-  }
 
 </style>

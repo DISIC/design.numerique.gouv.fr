@@ -249,7 +249,7 @@ export default {
           right: 0;
         }
         a:focus {
-          background-color: none;
+          background-color: inherit;
         }
 
       }

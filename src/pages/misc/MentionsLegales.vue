@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="legal-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -97,17 +97,27 @@
   </Layout>
 </template>
 
+
 <script>
-export default {
-  metaInfo: {
-    title: "Mention légales",
-    meta: [{
-      name: "robots",
-      content: "noindex"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Mention légales",
+      meta: [{
+        name: "robots",
+        content: "noindex"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
+  .legal-page {
+
+
+  }
+
 </style>

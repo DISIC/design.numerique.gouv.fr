@@ -1,6 +1,5 @@
 <template>
-
-  <Layout>
+  <Layout class="index-page">
 
     <div class="cover">
       <div class="cover__container">
@@ -25,7 +24,7 @@
           </p>
 
           <g-link to="/commando-ux/" class="button">
-            Suivre leur travail<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Suivre leur travail<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16px"/>
           </g-link>
 
       </div>
@@ -147,7 +146,6 @@
     </div>
 
   </Layout>
-
 </template>
 
 
@@ -244,214 +242,217 @@
 </page-query>
 
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_articles.scss";
 
-  .cover {
-    padding-bottom: 48px;
+  .index-page {
 
-    @media only screen and (max-width: $mobile-max-width) {
-      padding-bottom: 80px;
-    }
-
-    h1 {
-      line-height: 1.4;
-    }
-
-    &__subtitle {
-      padding: 34px 20%;
+    .cover {
+      padding-bottom: 48px;
 
       @media only screen and (max-width: $mobile-max-width) {
-        padding: 0;
-        max-width: 360px;
+        padding-bottom: 80px;
+      }
+
+      h1 {
+        line-height: 1.4;
+      }
+
+      &__subtitle {
+        padding: 34px 20%;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          padding: 0;
+          max-width: 360px;
+        }
+      }
+
+      &__home-illustration {
+        position: absolute;
+        width: 86vw;
+        max-width: 1100px;
+        left: 50%;
+        bottom: 0;
+        z-index: -1;
+        margin-left: -43vw;
+
+        @media only screen and (min-width: 1280px) {
+          margin-left: -550px;
+        }
+
+        @media only screen and (max-width: $mobile-max-width) {
+          padding: 0;
+        }
       }
     }
 
-    &__home-illustration {
-      position: absolute;
-      width: 86vw;
-      max-width: 1100px;
-      left: 50%;
-      bottom: 0;
-      z-index: -1;
-      margin-left: -43vw;
-
-      @media only screen and (min-width: 1280px) {
-        margin-left: -550px;
-      }
+    .commandoux {
+      margin-bottom: 120px;
 
       @media only screen and (max-width: $mobile-max-width) {
-        padding: 0;
+        margin-bottom: 96px;
       }
     }
-  }
 
-  .commandoux {
-    margin-bottom: 120px;
+    .blog {
 
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-bottom: 96px;
+      &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: block;
+        }
+      }
+
+      &__allArticlesLinkDesktop {
+        margin-top: 8px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: none;
+        }
+      }
+
+      &__allArticlesLinkMobile {
+        display: none;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: block;
+          text-align: right;
+          margin-top: -16px;
+        }
+      }
+
+      h2 {
+        display: inline-block;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin-bottom: 40px;
+        }
+      }
+
+      &__icon {
+        display: inline-block;
+        transition: .2s all;
+        height: 36px;
+        width: 36px;
+        margin-bottom: -5px;
+        margin-right: 16px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: inline;
+          height: 32px;
+          width: 32px;
+          margin-bottom: -6px;
+          margin-right: 12px;
+        }
+      }
+
+      &:hover, &:focus {
+        .blog__icon {
+          transform: rotate(180deg);
+        }
+      }
     }
-  }
 
-  .blog {
-
-    &__top {
+    .item {
+      margin-bottom: 120px;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
       @media only screen and (max-width: $mobile-max-width) {
-        display: block;
+        margin-bottom: 96px;
+        flex-direction: column-reverse;
+        align-items: start;
       }
-    }
 
-    &__allArticlesLinkDesktop {
-      margin-top: 8px;
+      &__description {
+        display: inline-block;
+        width: 64%;
 
-      @media only screen and (max-width: $mobile-max-width) {
-        display: none;
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 100%;
+          text-align: center;
+        }
       }
-    }
 
-    &__allArticlesLinkMobile {
-      display: none;
+      &__icon {
+        display: inline-block;
+        transition: .2s all;
+        height: 36px;
+        width: 36px;
+        margin-bottom: -5px;
+        margin-right: 16px;
 
-      @media only screen and (max-width: $mobile-max-width) {
-        display: block;
-        text-align: right;
-        margin-top: -16px;
+        @media only screen and (max-width: $mobile-max-width) {
+          display: inline;
+          height: 32px;
+          width: 32px;
+          margin-bottom: -6px;
+          margin-right: 12px;
+        }
       }
-    }
 
-    h2 {
-      display: inline-block;
+      &__illustration {
+        display: inline-block;
+        height: 240px;
 
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 40px;
+        @media only screen and (max-width: $mobile-max-width) {
+          height: 160px;
+          width: 100%
+        }
+
+        &--right {
+          padding-left: 40px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            padding-left: 0px;
+            padding-bottom: 24px;
+          }
+        }
+
+        &--left {
+          padding-right: 40px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            padding-right: 0px;
+            padding-bottom: 24px;
+          }
+        }
       }
-    }
 
-    &__icon {
-      display: inline-block;
-      transition: .2s all;
-      height: 36px;
-      width: 36px;
-      margin-bottom: -5px;
-      margin-right: 16px;
+      h2 {
+        display: inline-block;
+        padding: 8px 0;
+        margin: 0;
 
-      @media only screen and (max-width: $mobile-max-width) {
-        display: inline;
-        height: 32px;
-        width: 32px;
-        margin-bottom: -6px;
-        margin-right: 12px;
+        @media only screen and (max-width: $mobile-max-width) {
+          display: inline;
+        }
       }
-    }
 
-    &:hover, &:focus {
-      .blog__icon {
-        transform: rotate(180deg);
-      }
-    }
-  }
-
-  .item {
-    margin-bottom: 120px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-bottom: 96px;
-      flex-direction: column-reverse;
-      align-items: start;
-    }
-
-    &__description {
-      display: inline-block;
-      width: 64%;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        width: 100%;
+      .button {
+        display: inline-block;
         text-align: center;
-      }
-    }
-
-    &__icon {
-      display: inline-block;
-      transition: .2s all;
-      height: 36px;
-      width: 36px;
-      margin-bottom: -5px;
-      margin-right: 16px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        display: inline;
-        height: 32px;
-        width: 32px;
-        margin-bottom: -6px;
-        margin-right: 12px;
-      }
-    }
-
-    &__illustration {
-      display: inline-block;
-      height: 240px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        height: 160px;
-        width: 100%
+        margin-top: 8px;
       }
 
-      &--right {
-        padding-left: 40px;
+      &__disabled-button {
+        font-weight: bold;
 
         @media only screen and (max-width: $mobile-max-width) {
-          padding-left: 0px;
-          padding-bottom: 24px;
+          font-size: 0.875em;
         }
       }
 
-      &--left {
-        padding-right: 40px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          padding-right: 0px;
-          padding-bottom: 24px;
+      &:hover, &:focus {
+        .item__icon {
+          transform: rotate(180deg);
         }
-      }
-    }
-
-    h2 {
-      display: inline-block;
-      padding: 8px 0;
-      margin: 0;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        display: inline;
-      }
-    }
-
-    .button {
-      display: inline-block;
-      text-align: center;
-      margin-top: 8px;
-    }
-
-    &__disabled-button {
-      font-weight: bold;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        font-size: 0.875em;
-      }
-    }
-
-    &:hover, &:focus {
-      .item__icon {
-        transform: rotate(180deg);
       }
     }
   }

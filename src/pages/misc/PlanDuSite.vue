@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="sitemap-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -49,17 +49,27 @@
   </Layout>
 </template>
 
+
 <script>
-export default {
-  metaInfo: {
-    title: "Plan du site",
-    meta: [{
-      name: "robots",
-      content: "index"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Plan du site",
+      meta: [{
+        name: "robots",
+        content: "index"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
+  .sitemap-page {
+
+
+  }
+
 </style>

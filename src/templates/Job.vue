@@ -1,6 +1,5 @@
-<!-- Leaving this here until this is reutilised -->
 <template>
-  <Layout>
+  <Layout class="job-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -44,44 +43,60 @@
   </Layout>
 </template>
 
+
 <script>
-export default {
-  metaInfo () {
-    return {
-      title: this.$page.job.title
-    }
-  }
-}
-</script>
 
-<page-query>
-query Job ($id: ID!) {
-  job: job (id: $id) {
-    published_date
-    title
-    type
-    start_date
-    length
-    path
-    content
-    contact
-  }
-}
-</page-query>
-
-<style lang="scss">
-.job {
-  h3 {
-    margin-top: 54px;
-  }
-  .about {
-    ul {
-      margin: 0;
-      padding: 0;
-      li {
-        list-style: none;
+  export default {
+    metaInfo () {
+      return {
+        title: this.$page.job.title
       }
     }
   }
-}
+
+</script>
+
+
+<page-query>
+
+  query Job ($id: ID!) {
+    job: job (id: $id) {
+      published_date
+      title
+      type
+      start_date
+      length
+      path
+      content
+      contact
+    }
+  }
+
+</page-query>
+
+
+<style lang="scss">
+
+  .job-page {
+
+    .job {
+
+      h3 {
+        margin-top: 54px;
+      }
+
+      .about {
+        
+        ul {
+          margin: 0;
+          padding: 0;
+
+          li {
+            list-style: none;
+          }
+        }
+      }
+    }
+  }
+
 </style>

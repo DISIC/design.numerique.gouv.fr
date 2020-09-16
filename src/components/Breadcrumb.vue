@@ -13,17 +13,22 @@
 
 </template>
 
+
 <script>
-export default {
-  name: 'Breadcrumb'
-}
+
+  export default {
+    name: 'Breadcrumb'
+  }
+
 </script>
 
-<style lang="scss" scoped>
+
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
   .breadcrumb  {
+
     background-color: $light;
   }
 

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="covid-19-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -105,120 +105,122 @@
 </template>
 
 <script>
-export default {
-  components: {
-  },
-  metaInfo: {
-    title: "Coronavirus : les initiatives d'entraide - DesignGouv",
-    meta: [{
-      name: 'description',
-      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
+
+  export default {
+    components: {
     },
-    {
-      property: 'og:title',
-      content: "Coronavirus : les initiatives d'entraide - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
-    },
-    {
-      property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
-    },
-    {
-      name: "twitter:card",
-      content: "summary_large_image"
-    },
-    {
-      name: "twitter:site",
-      content: "@Design_Gouv"
-    },
-    {
-      name: "twitter:title",
-      content: "Coronavirus : les initiatives d'entraide - DesignGouv"
-    },
-    {
-      name: "twitter:description",
-      content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
-    },
-    {
-      name: "twitter:image",
-      content: "https://designgouv.fr/designGouv.png"
-    },],
+    metaInfo: {
+      title: "Coronavirus : les initiatives d'entraide - DesignGouv",
+      meta: [{
+        name: 'description',
+        content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
+      },
+      {
+        property: 'og:title',
+        content: "Coronavirus : les initiatives d'entraide - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
+      },
+      {
+        property: 'og:image',
+        content: "https://designgouv.fr/designGouv.png"
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: "Coronavirus : les initiatives d'entraide - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
+      },
+      {
+        name: "twitter:image",
+        content: "https://designgouv.fr/designGouv.png"
+      },],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+
   @import "src/assets/scss/_vars.scss";
 
-  button {
-    background-color: white;
-    color: $blue;
-    margin: 0 8px;
+  .covid-19-page {
 
-    &:hover, &:focus {
-      border-color: $blue;
+    .website {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0px 16px 80px 16px;
+      width: 348px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        width: 92%;
+        margin: 0px 0px 64px 0;
+      }
+
+      p {
+        margin: 0 0 12px 0;
+      }
+
+      .logo {
+        height: 32px;
+        display: flex;
+        align-items: flex-end;
+
+        img {
+          width: auto;
+          height: auto;
+          max-height: 32px;
+          max-width: 33%;
+        }
+      }
+
+      .name {
+        font-weight: bold;
+        font-size: 1.375em;
+        line-height: 1.2;
+        margin-bottom: 4px;
+      }
+
+      .tags {
+        .tag {
+          display: inline-block;
+          font-size: 0.75em;
+          font-weight: bold;
+          background-color: $gray;
+          border-radius: 16px;
+          padding: 4px 12px;
+          margin-top: 8px;
+          margin-right: 8px;
+        }
+      }
 
       a {
-        text-decoration: none;
-      }
-    }
-  }
-
-  .website {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0px 16px 80px 16px;
-    width: 348px;
-    @media only screen and (max-width: $mobile-max-width) {
-      width: 92%;
-      margin: 0px 0px 64px 0;
-    }
-    p {
-      margin: 0 0 12px 0;
-    }
-    .logo {
-      height: 32px;
-      display: flex;
-      align-items: flex-end;
-      img {
-        width: auto;
-        height: auto;
-        max-height: 32px;
-        max-width: 33%;
-      }
-    }
-    .name {
-      font-weight: bold;
-      font-size: 1.375em;
-      line-height: 1.2;
-      margin-bottom: 4px;
-    }
-    .tags {
-      .tag {
-        display: inline-block;
-        font-size: 0.75em;
         font-weight: bold;
-        background-color: $gray;
-        border-radius: 16px;
-        padding: 4px 12px;
-        margin-top: 8px;
-        margin-right: 8px;
-      }
-    }
-    a {
-      font-weight: bold;
-      svg {
-        padding-left: 4px;
-        transition: .1s all;
-      }
-      &:hover {
+
         svg {
-          padding-left: 12px;
+          padding-left: 4px;
+          transition: .1s all;
+        }
+
+        &:hover {
+          svg {
+            padding-left: 12px;
+          }
         }
       }
     }
   }
+
 </style>

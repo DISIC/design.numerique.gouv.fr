@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="services-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -27,7 +27,7 @@
       </div>
     </div>
 
-    <div class="content medium">
+    <div class="content">
 
       <section>
 
@@ -122,13 +122,12 @@
 
 </script>
 
-<style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
+<style lang="scss">
 
-  .content {
-    
-    strong {
-      color: $blue;
-    }
+  @import "src/assets/scss/_vars.scss";
+
+  .services-page {
+
   }
+
 </style>

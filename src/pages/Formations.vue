@@ -1,6 +1,6 @@
 <template>
-  <Layout>
- 
+  <Layout class="formations-page">
+
      <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <div class="content medium">
+    <div class="content">
 
       <section>
 
@@ -37,14 +37,14 @@
 
         <h3>Design</h3>
         <ul>
-          <li><a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" title="Initiez-vous au Design - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Initiez-vous au Design</a>, 6 heures, gratuit.</li>
-          <li><a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" title="UX design : découvrez les fondamentaux - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>UX design&nbsp;: découvrez les fondamentaux</a>, 8 heures, gratuit.</li>
+          <li><a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" title="Initiez-vous au Design - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Initiez-vous au Design</a>, 6 heures, gratuit.</li>
+          <li><a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" title="UX design : découvrez les fondamentaux - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>UX design&nbsp;: découvrez les fondamentaux</a>, 8 heures, gratuit.</li>
         </ul>
 
         <h3>Accessibilité</h3>
         <ul>
-          <li><a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/about" title="L'accessibilité numérique - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></li>
-          <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
+          <li><a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/about" title="L'accessibilité numérique - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></li>
+          <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
         </ul>
 
       </section>
@@ -59,7 +59,7 @@
 
         <h3>Qualité</h3>
         <ul>
-          <li><a href="https://www.opquast.com/formation/" title="Maîtrise de la qualité en projet web - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/>Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</li>
+          <li><a href="https://www.opquast.com/formation/" title="Maîtrise de la qualité en projet web - Nouvelle fenêtre" target="_blank"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</li>
         </ul>
 
       </section>
@@ -115,15 +115,16 @@
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
-  .content {
+  .formations-page {
+
     li {
       list-style-type: none;
-    } 
-    
+    }
+
     a {
       font-weight: bold;
 

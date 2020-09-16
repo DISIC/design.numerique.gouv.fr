@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="design-page">
 
     <div class="cover">
      <div class="cover__container">
@@ -41,8 +41,12 @@
 </script>
 
 
-<style scoped lang="scss">
+<style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
+
+  .design-page {
+
+  }
 
 </style>

@@ -14,18 +14,22 @@
 
 
 <script>
-export default {
-  name: 'Newsletter'
-}
+
+  export default {
+    name: 'Newsletter'
+  }
+
 </script>
 
-<style lang="scss" scoped>
 
-.message {
-  margin-top: 80px;
+<style lang="scss">
 
-  .button {
-    margin-bottom: 0;
+  .message {
+    margin-top: 80px;
+
+    .button {
+      margin-bottom: 0;
+    }
   }
-}
+
 </style>

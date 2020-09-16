@@ -105,15 +105,15 @@ query {
 </static-query>
 
 <script>
-//import SkipLink from '~/components/Skip-link.vue'
+// import SkipLink from '~/components/Skip-link.vue'
 import Menu from "~/components/Menu.vue"
-//import Breadcrumb from "~/components/Breadcrumb.vue"
+// import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import Vue from 'vue';
-//import VueBreadcrumbs from 'vue-2-breadcrumbs';
-//  import App from './App.vue';
+// import VueBreadcrumbs from 'vue-2-breadcrumbs';
+// import App from './App.vue';
 
-//Vue.use(VueBreadcrumbs);
+// Vue.use(VueBreadcrumbs);
 
 export default {
   components: {
@@ -233,10 +233,12 @@ export default {
     max-width: 1140px;
     margin: auto;
 
-    .logo{
+    .logo {
+
       align-items: center;
       position: relative;
-      .block-link{
+
+      .block-link {
         align-items: center;
         display: flex;
 
@@ -251,7 +253,6 @@ export default {
         a:focus {
           background-color: inherit;
         }
-
       }
     }
     .header__logos {
@@ -362,7 +363,7 @@ export default {
       flex-wrap: wrap;
       ul {
         padding: 0;
-        display: flex;  
+        display: flex;
         li {
           list-style-type: none;
         }

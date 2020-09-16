@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="accessibility-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -37,14 +37,14 @@
             <li><a href="https://design.numerique.gouv.fr/misc/accessibilite">Accessibilité</a></li>
             <li><a href="https://design.numerique.gouv.fr/commando-ux/">Commando UX</a></li>
             <li><a href="https://design.numerique.gouv.fr/equipe/">L'équipe</a></li>
-          </ul>  
+          </ul>
           <h3>Résultats</h3>
           <p><strong>Le taux de conformité au RGAA est de 91%.</strong></p>
           <p>Les points à corriger sont :</p>
           <ul>
             <li>Liens d'évitement</li>
             <li>Cohérence de la navigation (accueil, menu et plan du site)</li>
-            <li>Validité et structure du code html</li>            
+            <li>Validité et structure du code html</li>
           </ul>
         </section>
 
@@ -91,17 +91,27 @@
   </Layout>
 </template>
 
+
 <script>
-export default {
-  metaInfo: {
-    title: "Accessibilité",
-    meta: [{
-      name: "robots",
-      content: "noindex"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Accessibilité",
+      meta: [{
+        name: "robots",
+        content: "noindex"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
+  .accessibility-page {
+
+
+  }
+
 </style>

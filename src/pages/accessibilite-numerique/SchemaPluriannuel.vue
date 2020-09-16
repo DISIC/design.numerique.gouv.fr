@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="digital-accessibility-pages">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -98,7 +98,9 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
+
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_accessibility.scss";
+
 </style>

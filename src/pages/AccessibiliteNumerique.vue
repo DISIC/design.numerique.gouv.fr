@@ -1,5 +1,6 @@
 <template>
-  <Layout>
+  <Layout class="digital-accessibility-pages">
+    
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
@@ -48,19 +49,19 @@
             <span>En bref (5 minutes chrono)</span>
           </g-link> -->
           <g-link to="/accessibilite-numerique/cadre-legal/">
-            <font-awesome :icon="['fas', 'balance-scale']"/>
+            <font-awesome :icon="['fas', 'balance-scale']" height="16px"/>
             <span>Obligations légales et sanctions</span>
           </g-link>
           <g-link to="/accessibilite-numerique/RGAA/">
-            <font-awesome :icon="['fas', 'clipboard-list']"/>
+            <font-awesome :icon="['fas', 'clipboard-list']" height="16px"/>
             <span>Le RGAA</span>
           </g-link>
           <g-link to="/accessibilite-numerique/schema-pluriannuel">
-            <font-awesome :icon="['far', 'file-alt']"/>
+            <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>Schéma pluriannuel <small>de mise en accessibilité</small></span>
           </g-link>
           <g-link to="/accessibilite-numerique/declaration-accessibilite">
-            <font-awesome :icon="['far', 'file-alt']"/>
+            <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>Déclaration d'accessibilité</span>
           </g-link>
 
@@ -118,40 +119,44 @@
   </Layout>
 </template>
 
+
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-import AccessibilityIllustration from "~/assets/images/illustration_accessibility.svg";
+  import Accessibilite from "~/assets/images/accessibilite.svg"
+  import AccessibilityIllustration from "~/assets/images/illustration_accessibility.svg";
 
-export default {
-  components: {
-    Accessibilite,
-    AccessibilityIllustration,
-  },
-  metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
-    meta: [{
-        name: 'description',
-        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-      },
-      {
-        property: 'og:title',
-        content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
-      },
-      {
-        property: 'og:description',
-        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-      },
-      {
-        property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
-      }],
+  export default {
+    components: {
+      Accessibilite,
+      AccessibilityIllustration,
+    },
+    metaInfo: {
+      title: "Accessibilité numérique - DesignGouv",
+      meta: [{
+          name: 'description',
+          content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+        },
+        {
+          property: 'og:title',
+          content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+        },
+        {
+          property: 'og:description',
+          content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+        },
+        {
+          property: 'og:image',
+          content: "https://designgouv.fr/designGouv.png"
+        }],
+      }
     }
-  }
 
 </script>
 
-<style scoped lang="scss">
+
+<style lang="scss">
+
   @import "src/assets/scss/_vars.scss";
   @import "src/assets/scss/_accessibility.scss";
+
 </style>

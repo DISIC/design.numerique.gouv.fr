@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="jobs-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -13,7 +13,7 @@
     </nav>
     
     <div class="cover">
-     <div class="cover__container">
+     <div class="cover__container cover__container--light">
 
        <h1>Recrutement</h1>
 
@@ -48,120 +48,130 @@
   </Layout>
 </template>
 
+
 <page-query>
-query {
-  allJob (sortBy: "title", order: ASC) {
-    edges {
-      node {
-      	id
-        title
-        type
-        path
+
+  query {
+    allJob (sortBy: "title", order: ASC) {
+      edges {
+        node {
+        	id
+          title
+          type
+          path
+        }
       }
     }
   }
-}
+
 </page-query>
 
 <script>
-export default {
-  metaInfo: {
-    title: "Recrutement",
-    meta: [{
-      name: "description",
-      content: "Améliorons ensemble la qualité des services publics numériques."
-    },
-    {
-      property: "og:title",
-      content: "Recrutement - DesignGouv"
-    },
-    {
-      property: "og:description",
-      content: "Améliorons ensemble la qualité des services publics numériques."
-    },
-    {
-      property: "og:image",
-      content: "https://designgouv.fr/designGouv.png"
-    },
-    {
-      name: "twitter:card",
-      content: "summary_large_image"
-    },
-    {
-      name: "twitter:site",
-      content: "@Design_Gouv"
-    },
-    {
-      name: "twitter:title",
-      content: "Recrutement - DesignGouv"
-    },
-    {
-      name: "twitter:description",
-      content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
-    },
-    {
-      name: "twitter:image",
-      content: "https://designgouv.fr/designGouv.png"
-    }],
+
+  export default {
+    metaInfo: {
+      title: "Recrutement",
+      meta: [{
+        name: "description",
+        content: "Améliorons ensemble la qualité des services publics numériques."
+      },
+      {
+        property: "og:title",
+        content: "Recrutement - DesignGouv"
+      },
+      {
+        property: "og:description",
+        content: "Améliorons ensemble la qualité des services publics numériques."
+      },
+      {
+        property: "og:image",
+        content: "https://designgouv.fr/designGouv.png"
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: "Recrutement - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: "Nous améliorons les services publics numériques. Rejoingnez-nous !"
+      },
+      {
+        name: "twitter:image",
+        content: "https://designgouv.fr/designGouv.png"
+      }],
+    }
   }
-}
+
 </script>
 
-<style scoped lang="scss">
-@import "src/assets/scss/_vars.scss";
 
-  .jobs {
-    padding: 0;
-    display: flex;
-    align-items: stretch;
-    justify-content: space-between;
-    flex-wrap: wrap;
+<style lang="scss">
 
-    h3 {
-      margin-bottom: 4px;
-    }
+  @import "src/assets/scss/_vars.scss";
 
-    > li {
-      list-style: none;
-      text-align: center;
-      width: 48%;
-      margin: 24px 4px;
+  .jobs-page {
 
-      a {
-        border: 1px solid $gray-hover;
-        padding: 8px 12px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-sizing: border-box;
+    .jobs {
+      padding: 0;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      flex-wrap: wrap;
 
-        h3 {
-          color: black;
+      h3 {
+        margin-bottom: 4px;
+      }
+
+      > li {
+        list-style: none;
+        text-align: center;
+        width: 48%;
+        margin: 24px 4px;
+
+        a {
+          border: 1px solid $gray-hover;
+          padding: 8px 12px 20px;
+          border-radius: 8px;
+          text-decoration: none;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          box-sizing: border-box;
+
+          h3 {
+            color: black;
+          }
+
+          p {
+            color: $mid-gray;
+          }
+
+          &:hover {
+            border-color: $blue;
+
+            h3 {
+              color: $blue;
+            }
+          }
+
+        }
+
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 100%;
         }
 
         p {
-          color: $mid-gray;
+            margin: 0;
         }
-
-        &:hover {
-          border-color: $blue;
-
-          h3 {
-            color: $blue;
-          }
-        }
-
-      }
-
-      @media only screen and (max-width: $mobile-max-width) {
-        width: 100%;
-      }
-
-      p {
-          margin: 0;
       }
     }
   }

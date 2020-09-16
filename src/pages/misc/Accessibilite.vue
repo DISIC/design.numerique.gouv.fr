@@ -29,12 +29,11 @@
           </ul>  
           <h3>Résultats</h3>
           <p><strong>Le taux de conformité au RGAA est de 91%.</strong></p>
-          <p>Les points à améliorer sont :</p>
+          <p>Les points à corriger sont :</p>
           <ul>
-            <li>Ajouter des liens d'évitement (12.6, 12.7)</li>
-            <li>La cohérence entre le menu et le plan du site (12.1)</li>
-            <li>Quelques anomalies de structure html (9.3)</li>
-            <li>Validité du code html (8.2)</li>            
+            <li>Liens d'évitement</li>
+            <li>Cohérence de la navigation (accueil, menu et plan du site)</li>
+            <li>Validité et structure du code html</li>            
           </ul>
         </section>
 

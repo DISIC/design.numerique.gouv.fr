@@ -110,10 +110,6 @@ import Menu from "~/components/Menu.vue"
 // import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import Vue from 'vue';
-// import VueBreadcrumbs from 'vue-2-breadcrumbs';
-// import App from './App.vue';
-
-// Vue.use(VueBreadcrumbs);
 
 export default {
   components: {

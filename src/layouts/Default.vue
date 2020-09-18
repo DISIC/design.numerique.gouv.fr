@@ -270,7 +270,6 @@ export default {
 
     .header__logo-dg {
       max-width: 260px;
-      width: 100%;
       padding-top: 16px;
 
       @media only screen and (max-width: $mobile-max-width) {

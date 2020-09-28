@@ -53,7 +53,7 @@
           </li>
           <li>
             <strong>Groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</strong><br>
-            Romain BRAIBANT / ao_accessibiliteweb@mc2i.fr / Tel : 06 45 51 42 39
+            Nicolas Guêtré / ao_accessibiliteweb@mc2i.fr / Tel : 01 44 43 01 00 
           </li>
           <li>
             <strong>KOENA</strong><br>

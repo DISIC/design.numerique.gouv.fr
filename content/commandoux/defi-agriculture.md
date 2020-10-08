@@ -15,17 +15,17 @@ team: ["beatrice-le-thuc"]
 
 <h2 class="problem">Problématique</h2>
 
-L'acculturation en matière d'UX design dont pourrait bénéficier l'équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée "usagers".
+L’acculturation en matière d’UX design dont pourrait bénéficier l’équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée « usagers ».
 
-Ce défi est différent des autres puisque vous accompagnerez le ministère de l'Agriculture autour de deux démarches :
+Ce défi est différent des autres puisque vous accompagnerez le ministère de l’Agriculture autour de deux démarches :
 
-1. Le site "Mes démarches" conçu en 2013 qui permet aux usagers d'accéder à l'ensemble des éléments leur permettant de s'informer sur une démarche et de la réaliser
-2. La déclaration de détention et d'emplacement de ruches, une des démarches les plus emblématiques du ministère
+1. Le site « Mes démarches » conçu en 2013 qui permet aux usagers d’accéder à l’ensemble des éléments leur permettant de s’informer sur une démarche et de la réaliser ;
+2. La déclaration de détention et d’emplacement de ruches, une des démarches les plus emblématiques du ministère.
 
 
 <h2 class="goal">Objectifs du défi</h2>
 
-- Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d'écoute, entretiens individuels et tests utilisateur)
+- Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)
 - Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés
 
 

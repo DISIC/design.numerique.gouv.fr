@@ -1,9 +1,9 @@
 ---
 title: Défi immatriculation
-description: Améliorer l'expérience et l'accessibilité d'un ensemble de démarches liées à l'immatriculation des véhicules
+description: Améliorer l’expérience et l’accessibilité d’un ensemble de démarches liées à l’immatriculation des véhicules
 slug: defi-immatriculation
 illustration: ./illustrations/immatriculation.svg
-department: Ministère de l'Intérieur
+department: Ministère de l’Intérieur
 direction: Délégation à la sécurité routière
 place: Paris et Charleville-Mézières
 fullTitle: Autres demandes concernant l’immatriculation de véhicule
@@ -15,10 +15,10 @@ team: ["ev-henke"]
 
 <h2 class="problem">Problématique</h2>
 
-La démarche « Autres demandes concernant l’immatriculation des véhicules » est peu satisfaisante pour les usagers. Selon l’Observatoire de la qualité des démarches en ligne :
--	seulement 51% des usagers qui ont répondu à l’enquête de satisfaction en fin de démarche (4 000 usagers environ) sont satisfaits par cette démarche et 34% émettent un avis négatif sur cette démarche
+La démarche « Autres demandes concernant l’immatriculation des véhicules » est peu satisfaisante pour les usagers. Selon l’Observatoire de la qualité des démarches en ligne :
+-	seulement 51 % des usagers qui ont répondu à l’enquête de satisfaction en fin de démarche (4 000 usagers environ) sont satisfaits par cette démarche et 34% émettent un avis négatif sur cette démarche
 -	un tiers de ces usagers estiment que cette démarche est difficile à réaliser
--	53% de ces usagers déclarent avoir eu besoin d’aide pour réaliser cette démarche
+-	53 % de ces usagers déclarent avoir eu besoin d’aide pour réaliser cette démarche
 
 Par ailleurs, cette démarche en ligne n’est pas suffisamment accessible. Un audit réalisé en juin 2020 par l’ANTS montre que cette démarche n’est pas accessible et conforme au RGAA.
 

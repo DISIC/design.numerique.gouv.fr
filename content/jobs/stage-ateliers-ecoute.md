@@ -1,6 +1,6 @@
 ---
 published_date: 6 juin 2020
-title: Chargé de mission ateliers d'écoute
+title: Chargé de mission ateliers d’écoute
 slug: stage-mission-ateliers-ecoute
 type: Stage
 start_date: Dès que possible
@@ -15,12 +15,12 @@ Accompagner le pôle Design des services numérique sur la mise en place et l’
 * Accompagner l’organisation des ateliers d’écoute locaux et nationaux
 * Écouter et prendre des notes
 * Rédiger le contenu de réseaux sociaux, blog, newsletter
-* Participer à l'organisation d’événements
+* Participer à l’organisation d’événements
 
-Le/la stagiaire pourra également participer aux autres activités du pôle Design des services numérique, dans le domaine de la communication et de l’animation, ou en lien avec l'[Observatoire](https://observatoire.numerique.gouv.fr) de la qualité des démarches en ligne.
+Le/la stagiaire pourra également participer aux autres activités du pôle Design des services numérique, dans le domaine de la communication et de l’animation, ou en lien avec l’[Observatoire](https://observatoire.numerique.gouv.fr) de la qualité des démarches en ligne.
 
 ### Ce que nous cherchons chez vous
-Le ou la candidate doit être intéressé par l’inclusion numérique, le design, les comportements humains, la communication et avoir un intérêt pour l'action publique. Il ou elle doit être désireux d’apprendre et de monter en compétence sur certains sujets et capable de devenir autonome au cours du stage.
+Le ou la candidate doit être intéressé par l’inclusion numérique, le design, les comportements humains, la communication et avoir un intérêt pour l’action publique. Il ou elle doit être désireux d’apprendre et de monter en compétence sur certains sujets et capable de devenir autonome au cours du stage.
 
 Et plus spécifiquement :
 

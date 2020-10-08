@@ -11,6 +11,6 @@ e-mail :
 group : commando
 ---
 
-Depuis mon enfance, j'ai toujours été intéressé pas le sujet du handicap. C'est pour cela que j'ai intégré l'équipe Tanaguru pendant trois ans, durant lesquels j'ai pu me spécialiser dans l'accessibilité web.
+Depuis mon enfance, j’ai toujours été intéressé pas le sujet du handicap. C’est pour cela que j’ai intégré l’équipe Tanaguru pendant trois ans, durant lesquels j’ai pu me spécialiser dans l’accessibilité web.
 
-Aujourd'hui, développeur et consultant dans ce domaine, c'est avec plaisir que je contribue à rendre le Web plus accessible pour tous !
+Aujourd’hui, développeur et consultant dans ce domaine, c’est avec plaisir que je contribue à rendre le Web plus accessible pour tous !

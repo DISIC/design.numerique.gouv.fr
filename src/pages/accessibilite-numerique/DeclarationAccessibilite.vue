@@ -88,10 +88,10 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
+    title: "Déclaration d‘accessibilité - DesignGouv",
     meta: [{
       name: 'description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      content: "La déclaration d’accessibilité est le résultat d’une évaluation effective de la conformité du service de communication au public en ligne à la norme de référence."
     },
     {
       property: 'og:title',

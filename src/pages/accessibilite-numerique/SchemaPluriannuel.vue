@@ -77,10 +77,10 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
+    title: "Schéma pluriannuel de mise en accessibilité - DesignGouv",
     meta: [{
       name: 'description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      content: "Le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique."
     },
     {
       property: 'og:title',

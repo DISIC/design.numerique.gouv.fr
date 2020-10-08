@@ -87,10 +87,10 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
+    title: "Le RGAA - DesignGouv",
     meta: [{
       name: 'description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      content: "Tout savoir sur le Référentiel général d'amélioration de l'accessibilité (RGAA)."
     },
     {
       property: 'og:title',

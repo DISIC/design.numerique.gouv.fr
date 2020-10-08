@@ -3,7 +3,11 @@
 
     <!--skipLink/-->
 
-    <header role="banner">
+    <header role="banner" class="rf-header">
+      <div class="rf-container">
+
+
+
       <div class="logo">
         <div class="block-link">
           <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
@@ -12,9 +16,8 @@
           </g-link>
         </div>
       </div>
-      <nav id="nav-main" role="navigation">
-        <Menu />
-      </nav>
+      <Navigation />
+      </div>
     </header>
 
 
@@ -106,7 +109,7 @@ query {
 
 <script>
 // import SkipLink from '~/components/Skip-link.vue'
-import Menu from "~/components/Menu.vue"
+import Navigation from "~/components/Navigation.vue"
 // import Breadcrumb from "~/components/Breadcrumb.vue"
 import Newsletter from "~/components/Newsletter.vue"
 import Vue from 'vue';
@@ -114,7 +117,7 @@ import Vue from 'vue';
 export default {
   components: {
 //    SkipLink,
-    Menu,
+    Navigation,
 //    Breadcrumb,
     Newsletter,
   },
@@ -222,12 +225,21 @@ export default {
     }
   }
 
+  body { background-color:none;}
+  .rf-header {
+    box-shadow: none;
+  }
+
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1140px;
     margin: auto;
+
+  .rf-header {
+    box-shadow: none;
+  }
 
     .logo {
 

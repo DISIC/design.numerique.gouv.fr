@@ -11,4 +11,4 @@ e-mail :
 group : commando
 ---
 
-Je suis intégrateur web depuis très ou trop longtemps, au choix. Je m'intéresse aux choses simples, pratiques et durables. Pour cela je promeus une logique Low-Tech que ce soit en informatique ou ailleurs.
+Je suis intégrateur web depuis très ou trop longtemps, au choix. Je m’intéresse aux choses simples, pratiques et durables. Pour cela je promeus une logique Low-Tech que ce soit en informatique ou ailleurs.

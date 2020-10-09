@@ -1,14 +1,12 @@
 <template>
   <Layout class="digital-accessibility-pages">
-    
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Accessibilité</span>
-        </li>
+    <div class="rf-container">
+
+    <nav class="rf-breadcrumb" aria-label="vous êtes ici :">
+      <button class="rf-breadcrumb__button" hidden>Voir le fil d’Ariane</button>
+      <ol class="rf-breadcrumb__list">
+        <li class="rf-breadcrumb__item"><g-link to="/">Accueil</g-link></li>
+        <li class="rf-breadcrumb__item rf-breadcrumb__item--current" aria-current="page">Accessibilité</li>
       </ol>
     </nav>
 
@@ -115,7 +113,7 @@
       </h2>
       <p>À venir</p> -->
     </div>
-
+    </div>
   </Layout>
 </template>
 

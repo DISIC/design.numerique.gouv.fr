@@ -48,7 +48,7 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  ol li::before {
+  ul li::before, ol li::before {
     display: none;
   }
   a {
@@ -207,9 +207,10 @@ export default {
       flex-wrap: wrap;
       ul {
         padding: 0;
-        display: flex;
         li {
           list-style-type: none;
+          margin-right: 3em;
+          display: inline-flex;
         }
       }
 

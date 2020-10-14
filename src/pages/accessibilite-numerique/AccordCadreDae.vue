@@ -148,10 +148,10 @@ import Accessibilite from "~/assets/images/accessibilite.svg"
       Accessibilite,
     },
     metaInfo: {
-      title: "Accessibilité numérique - DesignGouv",
+      title: "Accord cadre accompagnement et formations - DesignGouv",
       meta: [{
         name: 'description',
-        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+        content: "Découvrez l‘accord cadre DAE permettant de faire appel à des prestations d‘audit, d‘acompagnement et de formation."
       },
       {
         property: 'og:title',

@@ -129,10 +129,10 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-    title: "Accessibilité numérique - DesignGouv",
+    title: "Obligations légales et sanctions - DesignGouv",
     meta: [{
       name: 'description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      content: "Les obligations d’accessibilité des sites publics aux personnes en situation de handicap ont été introduites par l’article 47 de la loi du 11 février 2005."
     },
     {
       property: 'og:title',

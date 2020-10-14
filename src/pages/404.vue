@@ -20,7 +20,7 @@
       RideIllustration,
     },
     metaInfo: {
-      title: "Ereur 404 - DesignGouv",
+      title: "Erreur 404 - DesignGouv",
       meta: [{
           name: 'description',
           content: "Oups, cette page n'existe pas."
@@ -34,10 +34,5 @@
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-  @media only screen and (max-width: $mobile-max-width) {
-    svg {
-      width: 100%;
-    }
   
-  }
 </style>

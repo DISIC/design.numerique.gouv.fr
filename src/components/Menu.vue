@@ -11,7 +11,7 @@
       <li role="none"><g-link class="button" to="/accessibilite-numerique/" role="menuitem">Accessibilité<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
       <li role="none"><g-link class="button" to="/services/" role="menuitem">Nos services<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
       <li role="none"><g-link class="button" to="/formations/" role="menuitem">Les formations<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
-      <li role="none"><g-link class="button" to="/equipe/" role="menuitem">Notre équipe<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
+      <li role="none"><g-link class="button" to="/equipe/" role="menuitem">À propos<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
       <li role="none"><g-link class="button" to="/recrutement/" role="menuitem">Recrutement<font-awesome width="10" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></li>
     </ul>
   </div>

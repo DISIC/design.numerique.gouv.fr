@@ -23,37 +23,31 @@
     <div class="content">
 
         <section>
-          <h2>Notre mission</h2>
+          <h2>Mission</h2>
           <p>
-            Le numérique, c'est la promesse d’un accès à une multitude d’informations et de services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. C’est le cas pour de nombreux services publics numériques.
+            En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.
           </p>
           <p>
-            En partenariat avec les administrations porteuses des démarches administratives les plus utilisées par les Français, nous travaillons pour une meilleure inclusion des usagers, et pour l'amélioration de l'expérience de ces services pour tous. Nous souhaitons des services numériques qui fonctionnent et paraissent simples, réactifs, attentifs, ludiques, bienveillants et humains.
+            Le numérique, c'est la promesse d’un accès à une multitude d’informations, de culture et services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. C’est le cas pour de nombreux services publics numériques. <strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services simples, accessibles et humains.</strong>
           </p>
-          <h3>Nos objectifs</h3>
+          <p>
+            En partenariat avec les ministères porteurs des démarches administratives les plus utilisées par les Français, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie, notamment les 12M de personnes en situation de handicap. Pour ce faire, nous pilotons et suivons la qualité de cette numérisation des services à travers l'<a href="https://observatoire.numerique.gouv.fr">Observatoire</a> depuis juin 2019. Nous avons lancé en septembre 2020 le <a href="https://design.numerique.gouv.fr/commando-ux">Commando UX</a> pour déployer des designers et développeurs au sein des ministères qui concoivent ces services publics. Enfin, nous participons au développement d’une culture de design d'inclusion au sein de l’État, et à la mise en communauté de compétences de design dans les administrations.
+          </p>
+          <p>
+            Le pôle Design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité de la ministre de la transformation et de la fonction publiques <a href="https://twitter.com/AdeMontchalin">Amélie de Montchalin</a>.
+          </p>
+          <h2>Mesures de succès d'ici 2022</h2>
           <ul>
             <li>
-              Définir une stratégie globale pour l'évolution des services en ligne rendus aux usagers, tenant compte des décisions gouvernementales, des besoins des usagers, et des possibilités de mise en œuvre par les administrations.
+              Achever la numérisation de 100% des <a href="https://observatoire.numerique.gouv.fr">250 démarches administratives</a> les plus utilisées par les Français
             </li>
             <li>
-              Faire évoluer et piloter la mise en œuvre la politique de mesure des usages des services en ligne et de la satisfaction des usagers sur ces services en ligne
+              80% des démarches qui s'adressent aux particuliers, et 90% des démarches qui s'adressent aux professionnels devront obtenir une note de satisfaction supérieur à 7/10
             </li>
             <li>
-              Fournir ressources et aide aux administrations pour la mise en œuvre et l’améliorations de leurs services en ligne : référentiels, guides, outils, briques réutilisables, dispositifs d’accompagnement
-            </li>
-            <li>
-              Animer un réseau de correspondants dans les administrations
-            </li>
-            <li>
-              Participer au développement d’une culture de Design au sein de l’État, et à la mise en communauté de compétences de design dans les administrations
-            </li>
-            <li>
-              En lien avec l’Agence du Numérique, de stimuler en interministériel le développement d’actions en faveur d’une meilleure inclusion de l’ensemble des usagers dans le cadre de la transformation numérique des services publics
+              80% de ces démarches administratives devront être accessibles aux personnes en situation de handicap
             </li>
           </ul>
-          <p>
-            Le pôle design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de l’action et des comptes publics.
-          </p>
         </section>
 
         <section>

@@ -11,4 +11,4 @@ e-mail :
 group : team
 ---
 
-Bio à venir
+Bio à venir.

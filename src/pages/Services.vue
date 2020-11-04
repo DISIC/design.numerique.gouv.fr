@@ -35,8 +35,8 @@
           <Services class="h2__icon" focusable="false" aria-hidden="true"/>Accessible par Design
         </h2>
 
-        <h3>Je veux rendre accessible mes expériences numériques</h3>
-        <p>Nous avons organisé <a href="https://www.notion.so/designgouv/Je-veux-rendre-accessible-mes-interfaces-num-riques-ce1966fa48d940aca486e8bac02454bd" target="_blank">différentes idées et solutions pour vous accompagner</a> dans le grand chantier de mise en œuvre de l'accessibilité.</p>
+        <h3>Je veux rendre accessible mes sites et démarches en ligne</h3>
+        <p>Voici <a href="https://www.notion.so/designgouv/Je-veux-rendre-accessible-mes-interfaces-num-riques-ce1966fa48d940aca486e8bac02454bd" target="_blank">différentes idées et solutions pour vous accompagner</a> dans le grand chantier de mise en œuvre de l'accessibilité.</p>
 
       </section>
 

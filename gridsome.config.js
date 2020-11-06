@@ -65,7 +65,23 @@ module.exports = {
   transformers: {
     remark: {
       plugins: [
-        'remark-attr'
+        'remark-attr',
+        [
+          'gridsome-plugin-remark-container',
+          {
+            customTypes: {
+             step: {
+                keyword: 'step',
+                customBlock: true,
+                tagName: 'challenge-step',
+              },
+            },
+            useDefaultTypes: false,
+            tag: ':::',
+            icons: 'none',
+            classMaster: 'md'
+          }
+        ]
       ]
     }
   },

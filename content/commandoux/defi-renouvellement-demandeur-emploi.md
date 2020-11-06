@@ -13,16 +13,33 @@ ratio: 100%
 team: ["hugo-thomas"]
 ---
 
-<h2 class="problem">Problématique</h2>
+## Problématique {class="problem"}
 
 Chaque demandeur d'emploi doit, chaque mois, effectuer son actualisation. Cette démarche lui permet de rester inscrit à pôle emploi et, si ils ont des droits, de déclencher leur paiement.
 Si le demandeur d'emploi se trompe, indique une mauvaise information, il peut être radié, ne pas être payé ou avoir un trop-perçu.
 En 2019 Pôle emploi comptabilise plus d'un milliard de trop-perçus dont 77% sont liés à l'actualisation.
 Zen a pour objectif de diminuer ce risque en améliorant l'expérience utilisateur de l'actualisation. L'expérience utilisateur devra alors être claire, et permettre plus d'autonomie aux demandeurs d'emploi.
 
-<h2 class="goal">Objectifs du défi</h2>
+## Objectifs du défi {class="goal"}
 
 L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi. Il faudra poursuivre l'étude des besoins et blocages des demandeurs d'emploi, qui n'a actuellement été faite que sur une cible précise.
+
+## Le défi étape par étape {class="steps"}
+
+:::step
+### Étape 1
+L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi.
+:::
+
+:::step
+### Étape 2
+L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi.
+:::
+
+:::step
+### Étape 3
+L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi.
+:::
 
 
 <!-- ## À propos de la démarche

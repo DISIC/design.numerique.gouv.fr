@@ -73,7 +73,10 @@ module.exports = {
              step: {
                 keyword: 'step',
                 customBlock: true,
-                tagName: 'challenge-step',
+                tagName: 'div',
+                properties: {
+                  class: 'step'
+                }
               },
             },
             useDefaultTypes: false,

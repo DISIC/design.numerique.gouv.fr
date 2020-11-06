@@ -14,7 +14,7 @@
         </li>
       </ol>
     </nav>
-    
+
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
         <g-image :src="$page.challenge.illustration" class="cover__illustration--small" alt=""/>
@@ -204,6 +204,74 @@
         }
       }
 
+      .problem {
+        &:before {
+          background-image: url(/assets/images/problem.svg);
+          background-size: 36px 36px;
+          display: inline-block;
+          width: 36px;
+          height: 36px;
+          margin-right: 16px;
+          margin-bottom: -5px;
+          content:"";
+
+          @media only screen and (max-width: $mobile-max-width) {
+            background-size: 24px 24px;
+            height: 24px;
+            width: 24px;
+            margin-right: 8px;
+            margin-bottom: -3px;
+          }
+        }
+      }
+
+      .goal {
+        &:before {
+          background-image: url(/assets/images/goal.svg);
+          background-size: 36px 36px;
+          display: inline-block;
+          width: 36px;
+          height: 36px;
+          margin-right: 16px;
+          margin-bottom: -5px;
+          content:"";
+
+          @media only screen and (max-width: $mobile-max-width) {
+            background-size: 24px 24px;
+            height: 24px;
+            width: 24px;
+            margin-right: 8px;
+            margin-bottom: -3px;
+          }
+        }
+      }
+
+      .steps {
+        &:before {
+          background-image: url(/assets/images/goal.svg);
+          background-size: 36px 36px;
+          display: inline-block;
+          width: 36px;
+          height: 36px;
+          margin-right: 16px;
+          margin-bottom: -5px;
+          content:"";
+
+          @media only screen and (max-width: $mobile-max-width) {
+            background-size: 24px 24px;
+            height: 24px;
+            width: 24px;
+            margin-right: 8px;
+            margin-bottom: -3px;
+          }
+        }
+      }
+
+      .step {
+        display: block;
+        padding-left: 56px;
+      }
+
       .team {
         padding: 0;
         display: flex;
@@ -241,20 +309,6 @@
 
           p {
               margin: 0;
-          }
-        }
-      }
-
-      a {
-        svg {
-          padding-right: 12px;
-          transition: 0.1s all;
-        }
-
-        &:hover {
-          svg {
-            padding-left: 8px;
-            padding-right: 4px;
           }
         }
       }

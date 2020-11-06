@@ -62,6 +62,13 @@ module.exports = {
       }
     },
   ],
+  transformers: {
+    remark: {
+      plugins: [
+        'remark-attr'
+      ]
+    }
+  },
   templates: {
     People: '/equipe/:id',
     Job: '/recrutement/:slug',

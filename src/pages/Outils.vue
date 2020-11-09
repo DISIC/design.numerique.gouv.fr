@@ -15,9 +15,9 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1><Formations class="h1__icon" focusable="false" aria-hidden="true"/>Les <span  class="highlight">supers</span> outils</h1>
+      <h1>Les <span class="highlight">outils</span> de DesignGouv</h1>
 
-      <p class="cover__subtitle">De nombreuses outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... Des outils pour améliorer l'accessibilité par le design.</p>
+      <p class="cover__subtitle">De nombreuses outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
 
       <outilsIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
 
@@ -27,6 +27,7 @@
     <div class="content">
 
       <section>
+        <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouevlle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
         <h2>Tech</h2>
         <ul>
           <li>Le <a href="" target="_blank">Design system de l'État</a> est un ensemble de composants réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
@@ -59,7 +60,6 @@
 
   export default {
     components: {
-      Formations,
       outilsIllustration
     },
     metaInfo: {
@@ -91,23 +91,28 @@
   @import "src/assets/scss/_vars.scss";
 
   .outils-page {
-
-    li {
-      list-style-type: none;
-    }
-
-    a {
-      font-weight: bold;
-
-      svg {
-        padding-right: 12px;
-        transition: .1s all;
+    .content {      
+      li {
+        list-style-type: none;
+        background: url("/assets/images/goal.svg") no-repeat top left;
+        background-size: 1.5em;
+        padding-left: 2em;
+        margin: 1em 0;
       }
 
-      &:hover {
+      a {
+        font-weight: bold;
+
         svg {
-          padding-left: 8px;
-          padding-right: 4px;
+          padding-right: 12px;
+          transition: .1s all;
+        }
+
+        &:hover {
+          svg {
+            padding-left: 8px;
+            padding-right: 4px;
+          }
         }
       }
     }

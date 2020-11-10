@@ -13,11 +13,11 @@ ratio: 59%
 team: ["lucile-foraison", "bertrand-keller"]
 ---
 
-<h2 class="problem">Problématique</h2>
+## Problématique
 
 Le ministère de l'Action et des Comptes publics souhaite avancer rapidement sur la mise en accessibilité de ses démarches orienté grand public. Pour cela, il a lancé récemment des audits d'accessibilité afin d'évaluer le travail à effectuer pour 28 de ses démarches. Il souhaite relever le défi d'avoir d'ici fin 2020 établi une feuille de route jusqu’en 2022, en ayant conduit toutes les évaluations nécessaires et décrit plus précisément les premières étapes du plan, mais aussi trouver une approche pour apporter rapidement des évolutions visibles par les usagers dès début 2021.
 
-<h2 class="goal">Objectifs du défi</h2>
+## Objectifs du défi
 
 - Rendre la démarche de paiement des amendes en ligne 100% accessible
 - Sur la base des audits d'accessibilité réalisés, œuvrer pour rendre l'ensemble des 28 démarches du ministère 100% accessibles à l'horizon 2022

@@ -13,11 +13,11 @@ ratio: 44%
 team: ["manon-oresve", "lola-charpentier"]
 ---
 
-<h2 class="problem">Problématique</h2>
+## Problématique
 
 La démarche de « contestation d'avis de contravention et la désignation de conducteur » est réalisable en ligne et pourtant utilisée par 44% des usagers concernés. Cela implique un poids pour les usagers, mais aussi des coûts plus élevés que ce soit pour l'ANTAI (impression et de traitement du courrier) que pour les usagers (la contestation papier nécessite actuellement un envoi recommandé avec accusé de réception).
 
-<h2 class="goal">Objectifs du défi</h2>
+## Objectifs du défi
 
 L'objectif de ce défi est de rendre cette démarche plus désirable, fluide, accessible et compréhensible par tous. Il doit permettre d'augmenter le taux de satisfaction des usagers et en conséquence le taux de recours à la voie numérique.
 

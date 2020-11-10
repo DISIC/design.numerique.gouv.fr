@@ -204,7 +204,7 @@
         }
       }
 
-      .problem {
+      #problématique {
         &:before {
           background-image: url(/assets/images/problem.svg);
           background-size: 36px 36px;
@@ -225,7 +225,7 @@
         }
       }
 
-      .goal {
+      #objectifs-du-défi {
         &:before {
           background-image: url(/assets/images/goal.svg);
           background-size: 36px 36px;
@@ -246,7 +246,7 @@
         }
       }
 
-      .steps {
+      #le-défi-étape-par-étape {
         &:before {
           background-image: url(/assets/images/goal.svg);
           background-size: 36px 36px;

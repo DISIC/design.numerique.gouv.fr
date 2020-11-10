@@ -13,11 +13,11 @@ ratio: 3%
 team: ["julie-leroy", "jean-edouard-sastre"]
 ---
 
-<h2 class="problem">Problématique</h2>
+## Problématique
 
 Place de l'Emploi Public est la plateforme de publication des offres d'emploi qui vise à favoriser la mobilité des agents publics entre les 3 versants de la fonction publique et à recruter de nouveaux profils, potentiellement issus du secteur privé.
 
-<h2 class="goal">Objectifs du défi</h2>
+## Objectifs du défi
 
 Les livrables du défi au 31 décembre 2020 sont :
 - Accompagnement à la refonte de l'espace candidat qui sera disponible aux nouveaux candidats

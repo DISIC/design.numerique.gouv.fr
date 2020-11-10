@@ -47,7 +47,11 @@
           <li>La mention de la faculté pour la personne concernée de saisir le Défenseur des droits, en cas d’absence de réponse ou de solution, une fois les démarches effectuées via le mécanisme mentionné ci-dessus</li>
         </ul>
         <p>Voici un <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-exemple-declaration.pdf" title="Exemple de déclaration d'accessibilité - format pdf - nouvelle fenêtre" target="_blank">exemple de déclaration d'accessibilité</a>. Il sera prochainement publié en format HTML sur ce site.</p>
+        <video width="560" height="315" controls autoplay>
+          <source src="https://peertube.designersethiques.org/download/videos/71c756dd-1828-4e7c-a135-d17cb3e71d15-480.mp4" type="video/mp4">
+        </video>
       </section>
+
       <section>
         <h2>Validité de la déclaration d’accessibilité</h2>
         <p>La déclaration d’accessibilité est valide à partir de sa date de publication. Elle doit être mise à jour :</p>

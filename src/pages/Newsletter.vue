@@ -183,7 +183,7 @@
 
     .content {
 
-      width: 480px;
+      max-width: 480px;
       margin:auto;
 
       .rgpd {
@@ -205,12 +205,12 @@
       input[type=checkbox]{-webkit-appearance:checkbox;}
       input[type=radio]{-webkit-appearance:radio;}
 
-      .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
+      .mc-field-group {clear:left; position:relative; width:98%; padding-bottom:3%; min-height:50px;}
       .mc-field-group label {display:block; margin-bottom:4px;}
       .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
       .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
 
-      .indicates-required {text-align:right; font-size:12px; margin-right:4%;}
+      .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
       .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}
       .clear {clear:both;}
 

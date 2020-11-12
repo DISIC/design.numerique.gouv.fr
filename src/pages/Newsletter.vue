@@ -72,7 +72,7 @@
           </div>
         </div>
 
-        <div class="form-group input-group">
+        <div class="form-group">
           <strong>Votre expertise professionelle </strong>
           <ul>
             <li><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label for="mce-group[21901]-21901-0">Designer UX</label></li>
@@ -243,8 +243,7 @@
 
       label {
         display: inline-block;
-        padding: 4px;
-        vertical-align: top;
+        margin: 4px 0;
       }
 
       select {
@@ -284,6 +283,15 @@
         margin: 0;
         padding: 4px 0;
         list-style: none;
+      }
+
+      li {
+        display: flex;
+        margin-bottom: 4px;
+
+        label {
+          margin-left: 4px;
+        }
       }
 
       .form-group {

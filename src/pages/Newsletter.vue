@@ -39,26 +39,6 @@
         </div>
 
         <div class="form-group">
-          <label for="mce-FNAME">Votre prénom </label>
-          <input type="text" value="" name="FNAME" id="mce-FNAME">
-        </div>
-
-        <div class="form-group">
-          <label for="mce-LNAME">Votre nom </label>
-          <input type="text" value="" name="LNAME" id="mce-LNAME">
-        </div>
-
-        <div class="form-group">
-          <label for="mce-MMERGE6">Votre code postal </label>
-          <input type="text" value="" name="MMERGE6" id="mce-MMERGE6">
-        </div>
-
-        <div class="form-group">
-          <label for="mce-MMERGE5">Votre profession / titre actuel </label>
-          <input type="text" value="" name="MMERGE5" id="mce-MMERGE5">
-        </div>
-
-        <div class="form-group">
           <label for="mce-group[21897]">Vous travaillez dans... </label>
           <div class="form-group-select">
             <select name="group[21897]" id="mce-group[21897]">

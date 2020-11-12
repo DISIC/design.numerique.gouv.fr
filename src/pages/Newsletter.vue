@@ -72,7 +72,7 @@
           </div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group form-group--checkboxes">
           <strong>Votre expertise professionelle </strong>
           <ul>
             <li><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label for="mce-group[21901]-21901-0">Designer UX</label></li>
@@ -191,6 +191,8 @@
 
       .rgpd {
 
+        margin-top: 0px;
+
         &--small {
           color: $dark-gray;
           font-size: 12px;
@@ -257,6 +259,10 @@
         width: 100%;
         position: relative;
         padding: 8px;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
 
       .form-group-select {
@@ -289,15 +295,26 @@
         display: flex;
         margin-bottom: 4px;
 
+        &:hover {
+          cursor: pointer;
+        }
+
         label {
           margin-left: 4px;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
 
       .form-group {
         width: 98%;
-        padding-bottom: 3%;
-        min-height: 50px;
+        padding-bottom: 16px;
+
+        &--checkboxes {
+          margin-top: 8px;
+        }
       }
 
       .button {

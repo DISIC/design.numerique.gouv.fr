@@ -21,7 +21,7 @@
     <main class="layout" id="main" role="main">
       <!--Breadcrumb /-->
       <slot/>
-      <Newsletter />
+      <Newsletter v-if="!hideNewsletter"/>
     </main>
 
     <footer role="contentinfo" >
@@ -119,7 +119,7 @@ export default {
     Newsletter,
   },
   props: {
-    logoLarge: {
+    hideNewsletter: {
       default: false,
       type: Boolean
     },

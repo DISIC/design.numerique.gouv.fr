@@ -80,14 +80,12 @@
         </div>
 
         <div class="footer__sites-publics">
-          <div>
           <ul>
             <li><a href="https://elysee.fr" title="Élysée.fr - Nouvelle fenêtre" target="_blank">Élysée.fr</a></li>
             <li><a href="https://gouvernement.fr" title="gouvernement.fr - Nouvelle fenêtre" target="_blank">gouvernement.fr</a></li>
             <li><a href="https://www.service-public.fr" title="service-public.fr - Nouvelle fenêtre" target="_blank">service-public.fr</a></li>
             <li><a href="https://legifrance.gouv.fr" title="légifrance.gouv.fr - Nouvelle fenêtre" target="_blank">légifrance.gouv.fr</a></li>
           </ul>
-          </div>
         </div>
       </div>
 
@@ -354,12 +352,13 @@ export default {
 
     .footer__sites-publics {
       font-size: .875em;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+
       ul {
         padding: 0;
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
         li {
           list-style-type: none;
         }

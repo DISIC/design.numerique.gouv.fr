@@ -161,7 +161,8 @@
     //     var $mcj = jQuery.noConflict(true);
     //   },
     metaInfo: {
-      title: "Accessibilité",
+      title: "Newsletter",
+      description: "DesignGouv, c’est aussi des événements, des rencontres et des discussions pour faire vivre la culture design au sein des administrations. Rejoignez-nous !",
       meta: [{
         name: "robots",
         content: "noindex"

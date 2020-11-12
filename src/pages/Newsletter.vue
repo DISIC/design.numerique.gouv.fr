@@ -27,7 +27,7 @@
 
     <div class="content">
 
-      <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" name="mc-embedded-subscribe-form" target="_blank">
 
         <div class="indicates-required"><span class="asterisk">*</span> champs obligatoires</div>
 
@@ -198,7 +198,7 @@
         }
       }
 
-      #mc-embedded-subscribe {
+      .form {
         margin: 8px 0 32px 0;
       }
 

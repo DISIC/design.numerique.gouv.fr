@@ -327,18 +327,18 @@ export default {
     }
 
     .footer__description {
+      margin-top: 16px;
       max-width: 640px;
     }
 
     .footer__websites {
-      margin: 32px 0 8px 0;
+      margin: 16px 0 8px 0;
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
 
       div {
         margin-right: 48px;
-        margin-bottom: 16px;
       }
 
       ul {

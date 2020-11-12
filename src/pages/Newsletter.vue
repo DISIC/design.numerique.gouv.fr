@@ -35,7 +35,7 @@
           <label for="mce-EMAIL">
             Votre e-mail  <span class="asterisk">*</span>
           </label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+          <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
         </div>
 
         <div class="form-group">

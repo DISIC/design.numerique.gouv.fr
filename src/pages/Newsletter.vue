@@ -31,46 +31,48 @@
 
         <div class="indicates-required"><span class="asterisk">*</span> champs obligatoires</div>
 
-        <div class="mc-field-group">
+        <div class="form-group">
           <label for="mce-EMAIL">
             Votre e-mail  <span class="asterisk">*</span>
           </label>
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
         </div>
 
-        <div class="mc-field-group">
+        <div class="form-group">
           <label for="mce-FNAME">Votre prénom </label>
-          <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          <input type="text" value="" name="FNAME" id="mce-FNAME">
         </div>
 
-        <div class="mc-field-group">
+        <div class="form-group">
           <label for="mce-LNAME">Votre nom </label>
-          <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+          <input type="text" value="" name="LNAME" id="mce-LNAME">
         </div>
 
-        <div class="mc-field-group">
+        <div class="form-group">
           <label for="mce-MMERGE6">Votre code postal </label>
-          <input type="text" value="" name="MMERGE6" class="" id="mce-MMERGE6">
+          <input type="text" value="" name="MMERGE6" id="mce-MMERGE6">
         </div>
 
-        <div class="mc-field-group">
+        <div class="form-group">
           <label for="mce-MMERGE5">Votre profession / titre actuel </label>
-          <input type="text" value="" name="MMERGE5" class="" id="mce-MMERGE5">
+          <input type="text" value="" name="MMERGE5" id="mce-MMERGE5">
         </div>
 
-        <div class="mc-field-group">
+        <div class="form-group">
           <label for="mce-group[21897]">Vous travaillez dans... </label>
-          <select name="group[21897]" class="REQ_CSS" id="mce-group[21897]">
-            <option value=""></option>
-            <option value="1">La fonction publique de l'État</option>
-            <option value="2">La fonction publique des collectivités</option>
-            <option value="4">Le privé</option>
-            <option value="8">Je suis étudiant(e)</option>
-            <option value="16">Autre</option>
-          </select>
+          <div class="form-group-select">
+            <select name="group[21897]" id="mce-group[21897]">
+              <option value=""></option>
+              <option value="1">La fonction publique de l'État</option>
+              <option value="2">La fonction publique des collectivités</option>
+              <option value="4">Le privé</option>
+              <option value="8">Je suis étudiant(e)</option>
+              <option value="16">Autre</option>
+            </select>
+          </div>
         </div>
 
-        <div class="mc-field-group input-group">
+        <div class="form-group input-group">
           <strong>Votre expertise professionelle </strong>
           <ul>
             <li><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label for="mce-group[21901]-21901-0">Designer UX</label></li>
@@ -90,24 +92,24 @@
           </ul>
         </div>
 
-        <div id="mce-responses" class="clear">
+        <!-- <div id="mce-responses" class="clear">
           <div class="response" id="mce-error-response" style="display:none"></div>
           <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
+        </div> -->
+
+        <p class="rgpd">
+          Les données recueillies sur ce formulaire sont traitées par les équipes de la DINUM. Elles nous permettent de vous informer via e-mail des actualités de la communauté DesignGouv.
+        </p>
+
+        <p class="rgpd rgpd--small">
+          Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à l’adresse électronique suivante : contact@design.numerique.gouv.fr.
+        </p>
 
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c921e95d674341b87fd4fb6e6_bc185cd5f1" tabindex="-1" value=""></div>
-        <div class="clear"><input type="submit" value="Je m'inscris" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        <div class="clear"><input type="submit" value="Je m'inscris à la newsletter" title="Je m'inscris à la newsletter" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 
       </form>
-
-      <p class="rgpd">
-        Les données recueillies sur ce formulaire sont traitées par les équipes de la DINUM. Elles nous permettent de vous informer via e-mail des actualités de la communauté DesignGouv.
-      </p>
-
-      <p class="rgpd rgpd--small">
-        Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à l’adresse électronique suivante : contact@design.numerique.gouv.fr.
-      </p>
 
     </div>
 
@@ -200,25 +202,106 @@
         margin: 8px 0 32px 0;
       }
 
-      /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
-      form {display:block; position:relative; text-align:left;}
-      input {border: 2px solid $black;}
-      input[type=checkbox]{-webkit-appearance:checkbox;}
-      input[type=radio]{-webkit-appearance:radio;}
+      form {
+        display: block;
+        position: relative;
+        text-align: left;
+      }
 
-      .mc-field-group {clear:left; position:relative; width:98%; padding-bottom:3%; min-height:50px;}
-      .mc-field-group label {display:block; margin-bottom:4px;}
-      .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
-      .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+      input:not(.button) {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        border: 2px solid $black;
+        border-radius: 0;
+        width: 96%;
+        padding: 8px;
+        font-size: 12px;
+
+        &[type=checkbox] {
+
+          border: 2px solid $black;
+          padding: 1px 4px;
+          width: 24px;
+          height: 24px;
+
+          &:checked {
+            background: $black;
+
+            &:after {
+              content: "✓";
+              color: white;
+              font-weight: bold;
+              display: block;
+              font-size: 14px;
+              position: absolute;
+            }
+          }
+        }
+      }
+
+      label {
+        display: inline-block;
+        padding: 4px;
+        vertical-align: top;
+      }
+
+      select {
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        background-image: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 100%;
+        position: relative;
+        padding: 8px;
+      }
+
+      .form-group-select {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        border: 2px solid $black;
+        width: 100%;
+        overflow: hidden;
+
+        &:after {
+          z-index: -1;
+          content: "▼";
+          color: $black;
+          font-weight: bold;
+          font-size: 14px;
+          position: absolute;
+          top: 6px;
+          right: 8px;
+        }
+      }
+
+      ul {
+        margin: 0;
+        padding: 4px 0;
+        list-style: none;
+      }
+
+      .form-group {
+        width: 98%;
+        padding-bottom: 3%;
+        min-height: 50px;
+      }
+
+      .button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+      }
 
       .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
       .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}
       .clear {clear:both;}
-
-      .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
-      .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
-      .mc-field-group.input-group label {display:inline;}
-      .mc-field-group.input-group input {display:inline; width:auto; border:none;}
 
       // div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}
       // div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}

@@ -1,5 +1,5 @@
 <template>
-  <Layout class="accessibility-page">
+  <Layout class="accessibility-page" hideNewsletter>
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>

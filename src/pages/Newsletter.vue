@@ -20,12 +20,18 @@
       </div>
 
       <p class="cover__subtitle">
-        DesignGouv, c’est aussi des événements, des rencontres et des discussions pour faire vivre la culture design au sein des administrations. Rejoignez-nous !
+        DesignGouv, c’est aussi des événements et des rencontres pour faire vivre la culture design au sein des administrations.
+      </p>
+
+      <p class="cover__subtitle cover__subtitle--small">
+        Et parfois des offres d’emploi ou propositions de collaboration. C’est pourquoi nous vous proposons de partager vos compétences.
       </p>
 
     </div>
 
     <div class="content">
+
+      <p></p>
 
       <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" name="mc-embedded-subscribe-form" target="_blank">
 
@@ -52,7 +58,7 @@
           </div>
         </div>
 
-        <div class="form-group form-group--checkboxes">
+        <div class="form-group form-group__checkboxes">
           <strong>Votre expertise professionelle </strong>
           <ul>
             <li><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label for="mce-group[21901]-21901-0">Designer UX</label></li>
@@ -199,7 +205,7 @@
         border-radius: 0;
         width: 96%;
         padding: 8px;
-        font-size: 12px;
+        font-size: 14px;
 
         &[type=checkbox] {
 
@@ -239,6 +245,7 @@
         width: 100%;
         position: relative;
         padding: 8px;
+        font-size: 14px;
 
         &:hover {
           cursor: pointer;
@@ -260,7 +267,7 @@
           font-weight: bold;
           font-size: 14px;
           position: absolute;
-          top: 6px;
+          top: 8px;
           right: 8px;
         }
       }
@@ -292,7 +299,7 @@
         width: 98%;
         padding-bottom: 16px;
 
-        &--checkboxes {
+        &__checkboxes {
           margin-top: 8px;
         }
       }

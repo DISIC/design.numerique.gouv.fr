@@ -26,20 +26,22 @@ L'objectif de ce défi est de simplifier le parcours de la démarche de renouvel
 
 ## Le défi étape par étape
 
-:::step
-### Étape 1
-L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi.
+:::steps
+### Découverte de la démarche de renouvellement mensuel
+Hugo commence à travailler avec l'équipe de Pôle emploi et prend connaissance des démarches que réalisent les demandeurs d'emploi et du travail de design réalisé par la start-up d'État Zen Emploi. Le défi se focalise sur la démarche « Renouvellement mensuel de la situation de demandeur d'emploi ».
+
+
+### Échanges avec des usagers de l'actualisation par téléphone
+Environ 400 000 demandeurs d'emploi utilisent le serveur vocal du 39 49 pour actualiser leur situation. Hugo et l'équipe Pôle emploi discutent avec des usagers préférant le téléphone pour comprendre leurs attentes et contraintes dans le cadre de l'amélioration de cette démarche.
+
+
+### Observation de l'utilisation d'un nouveau parcours web
+Une refonte du parcours internet du renouvellement mensuel est en cours. Hugo se rend dans des agences Pôle emploi pour recueillir l'avis des usagers sur cette nouvelle version de la démarche. Les résultats de ces observations serviront à augmenter encore la facilité d'utilisation.
+
+### ... à suivre
+Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::
 
-:::step
-### Étape 2
-L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi.
-:::
-
-:::step
-### Étape 3
-L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi.
-:::
 
 
 <!-- ## À propos de la démarche

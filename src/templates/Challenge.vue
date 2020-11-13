@@ -99,7 +99,7 @@
         meta: [
           {
             name: "description",
-            content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+            content: this.$page.challenge.description
           },
           {
             property: 'og:title',
@@ -107,7 +107,7 @@
           },
           {
             property: 'og:description',
-            content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+            content: this.$page.challenge.description
           },
             {
             property: 'og:image',
@@ -127,7 +127,7 @@
           },
           {
             name: "twitter:description",
-            content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+            content: this.$page.challenge.description
           },
           {
             name: "twitter:image",

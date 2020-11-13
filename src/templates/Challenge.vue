@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div class="content content--challenge">
+    <div class="content">
 
       <section class="procedure">
 
@@ -192,6 +192,14 @@
 
     .content {
 
+      h2 {
+        margin-top: 54px;
+      }
+
+      h3 {
+        margin-top: 36px;
+      }
+
       .procedure {
         margin-bottom: 96px;
 
@@ -248,7 +256,7 @@
 
       #le-défi-étape-par-étape {
         &:before {
-          background-image: url(/assets/images/goal.svg);
+          background-image: url(/assets/images/steps.svg);
           background-size: 36px 36px;
           display: inline-block;
           width: 36px;
@@ -267,9 +275,43 @@
         }
       }
 
-      .step {
-        display: block;
-        padding-left: 56px;
+      .steps {
+        margin-left: 56px;
+        padding-left: 32px;
+        border-left: 4px dotted $blue;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin-left: 8px;
+          padding-left: 21px;
+        }
+
+        h3 {
+          &:before {
+            background-image: url(/assets/images/step.svg);
+            background-size: 36px 36px;
+            display: inline;
+            position: absolute;
+            margin-left: -52px;
+            margin-top: -7px;
+            width: 36px;
+            height: 36px;
+            content:"";
+
+            @media only screen and (max-width: $mobile-max-width) {
+              margin-left: -41px;
+              margin-top: -6px;
+            }
+          }
+
+          &:last-of-type {
+            &:before {
+              background-image: url(/assets/images/stepLong.svg);
+              background-size: 36px 108px;
+              width: 36px;
+              height: 108px;
+            }
+          }
+        }
       }
 
       .team {

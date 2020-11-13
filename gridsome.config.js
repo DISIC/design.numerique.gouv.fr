@@ -64,20 +64,21 @@ module.exports = {
   ],
   transformers: {
     remark: {
+      autolinkHeadings: false,
       plugins: [
         'remark-attr',
         [
           'gridsome-plugin-remark-container',
           {
             customTypes: {
-             step: {
-                keyword: 'step',
-                customBlock: true,
-                tagName: 'div',
-                properties: {
-                  class: 'step'
-                }
-              },
+              steps: {
+                 keyword: 'steps',
+                 customBlock: true,
+                 tagName: 'div',
+                 properties: {
+                   class: 'steps'
+                 }
+               },
             },
             useDefaultTypes: false,
             tag: ':::',

@@ -13,11 +13,11 @@ ratio: 100%
 team: ["yaacov-cohen"]
 ---
 
-<h2 class="problem">Problématique</h2>
+## Problématique
 
 Le service du prélèvement à la source est aujourd'hui l'une des démarches les plus utilisées sur impots.gouv.fr.
 
-<h2 class="goal">Objectifs du défi</h2>
+## Objectifs du défi
 
 - Rendre cette démarche 100% accessible
 

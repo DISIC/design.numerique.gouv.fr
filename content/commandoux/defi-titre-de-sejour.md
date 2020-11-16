@@ -13,7 +13,7 @@ ratio: 100%
 team: ["pierre-brice-haurie", "ameziane-allioui"]
 ---
 
-<h2 class="problem">Problématique</h2>
+## Problématique
 
 Après une mise en service réussie du portail de validation en ligne des visas long séjour valant titre de séjour, l'ANEF (administration numérique pour les étrangers en France) mise en œuvre par la DGEF (direction générale des étrangers en France) poursuit sa proposition de démarches en ligne pour un public de plus en plus importants.
 
@@ -21,7 +21,7 @@ Dès le mois de  septembre 2020, la demande de titre de séjour (et renouvelleme
 
 Parallèlement, la DGEF s'est associée avec son opérateur l'OFII (office français pour l"immigration et l'intégration) pour proposer aux usagers un compte usager unique. A cet égard, la cohérence et l'harmonisation de l'accès des usagers et des utilisateurs à nos services doivent être compatibles avec la stratégie numérique et la politique en faveur de l'intégration des personnes étrangères en situation de handicap. Nous souhaitons, grâce à ce défi, évaluer le respect des règles d'accessibilité et l'inclusion numérique des usagers étrangers de nos systèmes d'information.
 
-<h2 class="goal">Objectifs du défi</h2>
+## Objectifs du défi
 
 - Donner aux usagers étrangers quelle que soit leur démarche vers une entité du ministère de l'intérieur une meilleur visibilité, une ergonomie unifiée
 - Simplifier l'accès à nos procédures et service pour des usagers étrangers qui constitue un public très spécifique au sein de l'État

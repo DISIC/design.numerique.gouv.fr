@@ -292,7 +292,7 @@ export default {
     color: $black;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
 
     a {
       border: none;

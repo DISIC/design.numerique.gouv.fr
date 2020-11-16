@@ -288,27 +288,28 @@
         h3 {
           &:before {
             background-image: url(/assets/images/step.svg);
-            background-size: 36px 36px;
+            background-size: 32px 32px;
             display: inline;
             position: absolute;
-            margin-left: -52px;
-            margin-top: -7px;
-            width: 36px;
-            height: 36px;
+            margin-left: -50px;
+            margin-top: -5px;
+            width: 32px;
+            height: 32px;
             content:"";
 
             @media only screen and (max-width: $mobile-max-width) {
-              margin-left: -41px;
-              margin-top: -6px;
+              margin-left: -39px;
+              margin-top: -5px;
             }
           }
 
           &:last-of-type {
             &:before {
               background-image: url(/assets/images/stepLong.svg);
-              background-size: 36px 108px;
-              width: 36px;
+              background-size: 32px 108px;
+              width: 32px;
               height: 108px;
+              margin-top: -15px;
             }
           }
         }

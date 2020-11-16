@@ -1,5 +1,5 @@
 <template>
-  <Layout class="challenge-page">
+  <Layout class="challenge-page" hideNewsletter showServices>
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>

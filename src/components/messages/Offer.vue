@@ -3,9 +3,9 @@
   <div class="message">
     <h2>Vous avez besoin d'aide&nbsp;?</h2>
 
-    <p>Vous êtes une administration et vous souhaiter améliorer l'expérience usager (UX) et l'accessibilité d'un de vos services ? Nous pouvons vous accomagner&nbsp;!</p>
+    <p>Vous êtes une administration et vous souhaitez améliorer l'expérience usager (UX) et l'accessibilité de l'un de vos services ? Nous pouvons vous accomagner&nbsp;!</p>
 
-    <g-link class="button" to="/services" title="Je m'inscris à la newsletter - Nouvelle fenêtre">Nos offres d'accompagnement</g-link>
+    <g-link class="button" to="/services" title="Nos offres d'accompagnement">Nos offres d'accompagnement</g-link>
   </div>
 
 </template>

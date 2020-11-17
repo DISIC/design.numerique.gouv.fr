@@ -24,8 +24,8 @@ a {
   border-bottom: 1px solid rgba($blue, 0.5);
 
   &:hover {
-    color: $red;
-    border-color: $red;
+    color: $dark-red;
+    border-color: $dark-red;
   }
   &:focus {
     background-color: $light;

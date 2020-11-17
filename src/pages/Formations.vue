@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><Formations class="h1__icon" focusable="false" aria-hidden="true"/>Les formations</h1>
+      <h1 class="text-highlight"><Formations class="h1__icon" focusable="false" aria-hidden="true"/>Les formations</h1>
 
       <p class="cover__subtitle">De nombreuses formations sont disponibles, certaines accessibles
         gratuitement, pour vous former personnellement ou en équipe sur les divers

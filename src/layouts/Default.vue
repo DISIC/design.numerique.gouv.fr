@@ -22,6 +22,7 @@
       <!--Breadcrumb /-->
       <slot/>
       <Newsletter v-if="!hideNewsletter"/>
+      <Offer v-if="showServices"/>
     </main>
 
     <footer role="contentinfo" >
@@ -103,26 +104,27 @@ query {
 </static-query>
 
 <script>
-// import SkipLink from '~/components/Skip-link.vue'
-import Menu from "~/components/Menu.vue"
-// import Breadcrumb from "~/components/Breadcrumb.vue"
-import Newsletter from "~/components/Newsletter.vue"
-import Vue from 'vue';
+  import Menu from "~/components/Menu.vue"
+  import Newsletter from "~/components/messages/Newsletter.vue"
+  import Offer from "~/components/messages/Offer.vue"
 
-export default {
-  components: {
-//    SkipLink,
-    Menu,
-//    Breadcrumb,
-    Newsletter,
-  },
-  props: {
-    hideNewsletter: {
-      default: false,
-      type: Boolean
+  export default {
+    components: {
+      Menu,
+      Newsletter,
+      Offer,
     },
+    props: {
+      hideNewsletter: {
+        default: false,
+        type: Boolean
+      },
+      showServices: {
+        default: false,
+        type: Boolean
+      },
+    }
   }
-}
 </script>
 
 <style lang="scss">
@@ -292,7 +294,7 @@ export default {
     color: $black;
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: flex-start;
 
     a {
       border: none;

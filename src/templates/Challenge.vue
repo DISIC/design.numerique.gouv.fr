@@ -1,5 +1,5 @@
 <template>
-  <Layout class="challenge-page">
+  <Layout class="challenge-page" hideNewsletter showServices>
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -14,7 +14,7 @@
         </li>
       </ol>
     </nav>
-    
+
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
         <g-image :src="$page.challenge.illustration" class="cover__illustration--small" alt=""/>
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div class="content content--challenge">
+    <div class="content">
 
       <section class="procedure">
 
@@ -99,7 +99,7 @@
         meta: [
           {
             name: "description",
-            content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+            content: this.$page.challenge.description
           },
           {
             property: 'og:title',
@@ -107,7 +107,7 @@
           },
           {
             property: 'og:description',
-            content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+            content: this.$page.challenge.description
           },
             {
             property: 'og:image',
@@ -127,7 +127,7 @@
           },
           {
             name: "twitter:description",
-            content: "Vous êtes designers ou développeurs, venez améliorer en 4 mois l'expérience de ce service."
+            content: this.$page.challenge.description
           },
           {
             name: "twitter:image",
@@ -192,6 +192,14 @@
 
     .content {
 
+      h2 {
+        margin-top: 54px;
+      }
+
+      h3 {
+        margin-top: 36px;
+      }
+
       .procedure {
         margin-bottom: 96px;
 
@@ -201,6 +209,109 @@
 
         p {
           margin: 4px 0;
+        }
+      }
+
+      #problématique {
+        &:before {
+          background-image: url(/assets/images/problem.svg);
+          background-size: 36px 36px;
+          display: inline-block;
+          width: 36px;
+          height: 36px;
+          margin-right: 16px;
+          margin-bottom: -5px;
+          content:"";
+
+          @media only screen and (max-width: $mobile-max-width) {
+            background-size: 24px 24px;
+            height: 24px;
+            width: 24px;
+            margin-right: 8px;
+            margin-bottom: -3px;
+          }
+        }
+      }
+
+      #objectifs-du-défi {
+        &:before {
+          background-image: url(/assets/images/goal.svg);
+          background-size: 36px 36px;
+          display: inline-block;
+          width: 36px;
+          height: 36px;
+          margin-right: 16px;
+          margin-bottom: -5px;
+          content:"";
+
+          @media only screen and (max-width: $mobile-max-width) {
+            background-size: 24px 24px;
+            height: 24px;
+            width: 24px;
+            margin-right: 8px;
+            margin-bottom: -3px;
+          }
+        }
+      }
+
+      #le-défi-étape-par-étape {
+        &:before {
+          background-image: url(/assets/images/steps.svg);
+          background-size: 36px 36px;
+          display: inline-block;
+          width: 36px;
+          height: 36px;
+          margin-right: 16px;
+          margin-bottom: -5px;
+          content:"";
+
+          @media only screen and (max-width: $mobile-max-width) {
+            background-size: 24px 24px;
+            height: 24px;
+            width: 24px;
+            margin-right: 8px;
+            margin-bottom: -3px;
+          }
+        }
+      }
+
+      .steps {
+        margin-left: 56px;
+        padding-left: 32px;
+        border-left: 4px dotted $blue;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin-left: 8px;
+          padding-left: 21px;
+        }
+
+        h3 {
+          &:before {
+            background-image: url(/assets/images/step.svg);
+            background-size: 32px 32px;
+            display: inline;
+            position: absolute;
+            margin-left: -50px;
+            margin-top: -5px;
+            width: 32px;
+            height: 32px;
+            content:"";
+
+            @media only screen and (max-width: $mobile-max-width) {
+              margin-left: -39px;
+              margin-top: -5px;
+            }
+          }
+
+          &:last-of-type {
+            &:before {
+              background-image: url(/assets/images/stepLong.svg);
+              background-size: 32px 108px;
+              width: 32px;
+              height: 108px;
+              margin-top: -15px;
+            }
+          }
         }
       }
 
@@ -241,20 +352,6 @@
 
           p {
               margin: 0;
-          }
-        }
-      }
-
-      a {
-        svg {
-          padding-right: 12px;
-          transition: 0.1s all;
-        }
-
-        &:hover {
-          svg {
-            padding-left: 8px;
-            padding-right: 4px;
           }
         }
       }

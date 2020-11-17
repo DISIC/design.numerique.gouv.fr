@@ -13,13 +13,13 @@ ratio: 100%
 team: ["jocelyn-caron"]
 ---
 
-<h2 class="problem">Problématique</h2>
+## Problématique
 
 Cette démarche permet aux appelés et aux engagés, français et étrangers, souvent âgés, d’obtenir un document administratif militaire (extrait de service, citation, diplômes) pour accéder à des droits : pension, carte du combattant, etc. Elle n'est aujourd'hui pas réalisable en ligne et l'ajout de ressources UX constitue un accélérateur permettant dès l'amont d'intégrer les bonnes pratiques.
 
 Lorsque l'usager arrive aux archives, c'est qu'il est au bout de sa course : on se doit de lui offrir un service simple, convivial, accessible et compréhensible.
 
-<h2 class="goal">Objectifs du défi</h2>
+## Objectifs du défi
 
 - Mise en ligne de la démarche
 - Créer une expérience désirable, accessible, et compréhensible en s'appuyant fortement sur des tests usager

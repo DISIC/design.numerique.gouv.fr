@@ -62,6 +62,33 @@ module.exports = {
       }
     },
   ],
+  transformers: {
+    remark: {
+      autolinkHeadings: false,
+      plugins: [
+        'remark-attr',
+        [
+          'gridsome-plugin-remark-container',
+          {
+            customTypes: {
+              steps: {
+                 keyword: 'steps',
+                 customBlock: true,
+                 tagName: 'div',
+                 properties: {
+                   class: 'steps'
+                 }
+               },
+            },
+            useDefaultTypes: false,
+            tag: ':::',
+            icons: 'none',
+            classMaster: 'md'
+          }
+        ]
+      ]
+    }
+  },
   templates: {
     People: '/equipe/:id',
     Job: '/recrutement/:slug',

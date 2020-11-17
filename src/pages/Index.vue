@@ -436,6 +436,8 @@
         }
 
         &:hover, &:focus {
+          box-shadow: 5px 5px 0px $light;
+
           .brick__icon {
             transform: rotate(180deg);
           }

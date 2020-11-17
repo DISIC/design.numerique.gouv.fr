@@ -71,43 +71,39 @@
 
       </section>
 
-      <section class="item">
+      <section class="item-container">
 
-        <div class="item__description">
-          <Services focusable="false" class="item__icon" aria-hidden="true"/>
+        <div class="item-light item-light--left">
+          <div class="item-light__description">
+            <Services focusable="false" class="item-light__icon" aria-hidden="true"/>
 
-          <h2>Besoin d'aide ?</h2>
+            <h2>Nos services</h2>
 
-          <p>
-            Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous vous accompagnons.
-          </p>
+            <p>
+              Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous vous accompagnons.
+            </p>
 
-          <g-link to="/services/" class="button button--blue button--highlight">
-            J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-          </g-link>
+            <g-link to="/services/" class="item-light__link">
+              J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </g-link>
+          </div>
         </div>
 
-        <ServicesIllustration focusable="false" class="item__illustration item__illustration--right" aria-hidden="true"/>
+        <div class="item-light item-light--right">
+          <div class="item-light__description">
+            <Formations focusable="false" class="item-light__icon" aria-hidden="true"/>
 
-      </section>
+            <h2>Les formations</h2>
 
-      <section class="item">
+            <p>
+              De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>
+            </p>
 
-        <div class="item__description">
-          <Formations focusable="false" class="item__icon" aria-hidden="true"/>
-
-          <h2>Les formations</h2>
-
-          <p>
-            De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>
-          </p>
-
-          <g-link to="/formations/" class="button button--blue button--highlight">
-            Je découvre les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-          </g-link>
+            <g-link to="/formations/" class="item-light__link">
+              Je découvre les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </g-link>
+          </div>
         </div>
-
-        <FormationsIllustration focusable="false" class="item__illustration item__illustration--right" aria-hidden="true"/>
 
       </section>
 
@@ -354,6 +350,69 @@
       &:hover, &:focus {
         .blog__icon {
           transform: rotate(180deg);
+        }
+      }
+    }
+
+    .item-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .item-light {
+        display: inline-block;
+        flex-basis: 42%;
+        padding: 24px;
+        margin-bottom: 24px;
+        background-color: $lighter-gray;
+        border-radius: 32px;
+
+        &--right {
+          margin-left: 1%;
+        }
+
+        &--left {
+          margin-right: 1%;
+        }
+
+        h2 {
+          display: inline-block;
+          padding: 4px 0;
+          margin: 0;
+          font-size: 1.75em;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            font-size: 1.5em;
+          }
+        }
+
+        &__link {
+          margin-top: 4px;
+          float: right;
+          border: none;
+        }
+
+        &__icon {
+          display: inline-block;
+          transition: .2s all;
+          height: 28px;
+          width: 28px;
+          margin-bottom: -4px;
+          margin-right: 12px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+            height: 32px;
+            width: 32px;
+            margin-bottom: -6px;
+            margin-right: 12px;
+          }
+        }
+
+        &:hover, &:focus {
+          .item-light__icon {
+            transform: rotate(180deg);
+          }
         }
       }
     }

@@ -4,6 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/scss/main.scss'
 
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import {

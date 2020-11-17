@@ -12,6 +12,10 @@ body {
     text-shadow: 5px 5px 0px $light;
   }
 
+  .box-highlight {
+    box-shadow: 5px 5px 0px $light;
+  }
+
   .blue {
     color: $blue;
   }

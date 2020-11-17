@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
+      <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
         Designers et développeurs auront 4 mois pour améliorer l'expérience de 5 à 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.

@@ -11,7 +11,7 @@
         </li>
       </ol>
     </nav>
-    
+
     <div class="cover">
      <div class="cover__container">
 
@@ -54,11 +54,11 @@
         <p>Dès que vous en avez besoin, nous sommes disponibles librement chaque vendredi de 10h à 12h, dans nos bureaux 20 avenue de Ségur 75007 Paris.</p>
 
         <h3>Comment</h3>
-        <p>Très simplement, en prenant <a href="https://calendly.com/designgouv" title="rendez-vous ici - Nouvelle fenêtre" target="_blank">rendez-vous ici.</a></p>
+        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
 
       </section>
 
-      <section>
+      <!-- <section>
 
         <h2>
           <Services class="h2__icon" focusable="false" aria-hidden="true"/>Les revues de conception
@@ -74,7 +74,7 @@
         <h3>Comment</h3>
         <p>Nous lancerons bientôt les inscriptions.</p>
 
-      </section>
+      </section> -->
 
       <section>
 

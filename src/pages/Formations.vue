@@ -92,7 +92,7 @@
       FormationsIllustration,
     },
     metaInfo: {
-      title: "Les formations au design numérique et à l'accessibilté - DesignGouv",
+      title: "Les formations au design numérique et à l'accessibilté numérique",
       meta: [{
         name: 'description',
         content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
@@ -115,7 +115,7 @@
 </script>
 
 
-<style lang="scss">
+<style scoped lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
@@ -126,7 +126,6 @@
     }
 
     a {
-      font-weight: bold;
 
       svg {
         padding-right: 12px;

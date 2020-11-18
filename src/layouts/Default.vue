@@ -55,34 +55,7 @@ query {
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-/*
-  @font-face {
-    font-family: "Marianne";
-    font-weight: 400;
-    src: url("../assets/fonts/Marianne/Marianne-Regular.ttf") format("ttf"),
-         url("../assets/fonts/Marianne/Marianne-Regular.woff") format("woff2"),
-         url("../assets/fonts/Marianne/Marianne-Regular.woff2") format("woff");
-    font-display: fallback;
-  }
 
-  @font-face {
-    font-family: "Marianne";
-    font-weight: 700;
-    src: url("../assets/fonts/Marianne/Marianne-Bold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne/Marianne-Bold.woff") format("woff2"),
-         url("../assets/fonts/Marianne/Marianne-Bold.woff2") format("woff");
-    font-display: fallback;
-  }
-
-  @font-face {
-    font-family: "Marianne";
-    font-weight: 800;
-    src: url("../assets/fonts/Marianne/Marianne-ExtraBold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff") format("woff2"),
-         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
-    font-display: fallback;
-  }
-*/
   @font-face {
     font-family: "Inter";
     font-style: normal;
@@ -156,71 +129,6 @@ query {
     }
   }
 
-/*
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-     margin: auto;
-
-    .logo {
-
-      align-items: center;
-      position: relative;
-
-      .block-link {
-        align-items: center;
-        display: flex;
-
-        a::after {
-          position: absolute;
-          content: "";
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-        }
-        a:focus {
-          background-color: inherit;
-        }
-      }
-    }
-    .header__logos {
-      justify-content: flex-start;
-      align-items: center;
-      border: none;
-    }
-
-    .header__logo-rf {
-      flex-shrink: 0;
-      width: 121px;
-      margin: 30px 40px 0px 30px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        width: 64px;
-        margin: 12px 24px 0px 12px;
-      }
-    }
-
-    .header__logo-dg {
-      max-width: 260px;
-      padding-top: 16px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        width: 160px;
-        padding-top: 4px;
-      }
-    }
-
-    nav {
-      padding: 7px 30px 0 30px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        padding: 0px 12px;
-      }
-    }
-  }
-*/
   footer {
     padding: 20px 20px 24px 20px;
     margin-top: 120px;

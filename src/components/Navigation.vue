@@ -7,7 +7,8 @@
         <a class="rf-link" href="/design/">Design</a>
       </li>
       <li class="rf-nav__item">
-        <button class="rf-btn" aria-expanded="false" aria-controls="rf-nav-item-1" >Accessibilité</button>
+        <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
+        <!--button class="rf-btn" aria-expanded="false" aria-controls="rf-nav-item-1" >Accessibilité</button>
         <div class="rf-menu" id="rf-nav-item-1">
           <ul class="rf-menu__list">
             <li class="rf-menu__item">
@@ -26,19 +27,19 @@
               <a class="rf-link" href="/declaration-accessibilite/">Déclaration d‘accessibilite</a>
             </li>
           </ul>
-        </div>
+        </div-->
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/outils/" target="_self">Outils</a>
+        <a class="rf-link" href="/outils/">Outils</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/formations/" target="_self">Formations</a>
+        <a class="rf-link" href="/formations/">Formations</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/blog/" target="_self">Blog</a>
+        <a class="rf-link" href="/blog/">Blog</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/equipe/" target="_self">À propos</a>
+        <a class="rf-link" href="/equipe/">À propos</a>
       </li>
     </ul>
   </nav>

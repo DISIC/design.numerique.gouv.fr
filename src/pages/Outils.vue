@@ -30,21 +30,24 @@
         <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouevlle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
         <h2>Tech</h2>
         <ul>
-          <li>Le <a href="" target="_blank">Design system de l'État</a> est un ensemble de composants réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
-          <li>La <a href="http://pidila.gitlab.io/developpement/shortlist.html" target="_blank">shortlist du développeur</a> regroupe les tests et vérifications rapides à faire soi-même avant de livrer son travail.</li>
-          <li>Les <a href="" target="_blank">tests automatiques</a> a mettre en place dans l‘usine de développement.</li>
+          <li>La <a href="checklist-dev">checklist dev</a> regroupe les tests et vérifications rapides à faire soi-même avant de livrer son travail.</li>
+          <li>Le <a href="memo-dev">Mémo dev</a> regroupe sur une seule et même page les points d'attention et les liens vers les ressources adéquates.</li>
         </ul>
 
          <h2>Méthode</h2>
         <ul>
          
-          <li>La <a href="" target="_blank">Checklist Pidila</a> regroupe les critères des différents référentiels et bonnes pratiques du web.</li>
-          <li>L‘<a href="" target="_blank">évaluation rapide</a> : Avant de lancer un audit complet, il est intéressant qu'un chef de produit ou de projet puisse réaliser lui-même une évaluation rapide de la qualité au regard de la checklist Pidila d'un site ou d'une livraison de pages pour s'en faire une première idée.</li>
+          <li>La <a href="checklist-rapide">checklist rapide</a> : Avant de lancer un audit complet, il est intéressant qu'un chef de produit ou de projet puisse réaliser lui-même une évaluation rapide de la qualité au regard de la checklist Pidila d'un site ou d'une livraison de pages pour s'en faire une première idée.</li>
           <li>Les nombreux <a href="http://references.modernisation.gouv.fr/ressources#ancre2](http://references.modernisation.gouv.fr/ressources#ancre2" target="_blank">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d'accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l'insertion des personnes handicapées dans la fonction publique (FIPHFP).</li>
-          <li>L‘audit rapide permet à moindre coût d‘apprécier l‘accessibilité d‘un site et la matûtoté d‘une équipe</li>
+          <li>L‘<a href="audit-rapide">audit rapide</a> permet à moindre coût d‘apprécier l‘accessibilité d‘un site et la maturité d‘une équipe</li>
+          <li>La <a href="https://pidila.gitlab.io/checklist-pidila/" target="_blank">Checklist Pidila</a> regroupe les critères des différents référentiels et bonnes pratiques du web.</li>
         </ul>  
  
-
+        <h2>Prochainement</h2>
+        <ul>  
+          <li>Le Design system de l‘État est un ensemble de composants réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
+          <li>Des tests automatiques packagés et prêts à l‘emploi pour votre usine de développement.</li>
+        </ul>
       </section>
 
 
@@ -63,10 +66,10 @@
       outilsIllustration
     },
     metaInfo: {
-      title: "Les outils de design de l'accessibilté - DesignGouv",
+      title: "Les outils de design de l'accessibilité",
       meta: [{
         name: 'description',
-        content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+        content: "Découvrez les outils pour designer et développer des services numériques accessibles et conformes au RGAA."
       },
       {
         property: 'og:title',
@@ -93,12 +96,12 @@
   .outils-page {
     .content {      
       li {
-        list-style-type: none;
-        background: url("/assets/images/goal.svg") no-repeat top left;
-        background-size: 1.5em;
-        padding-left: 2em;
-        margin: 1em 0;
-      }
+        list-style: inside;
+
+        &.js-expandmore {
+          list-style: none;
+        }
+       }
 
       a {
         font-weight: bold;

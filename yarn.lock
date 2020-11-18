@@ -4485,7 +4485,7 @@ gridsome-plugin-remark-container@^0.1.3:
     unified "^8.4.2"
     unist-util-visit "^2.0.1"
 
-gridsome@^0.7.13:
+gridsome@^0.7.22:
   version "0.7.22"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.7.22.tgz#bca2a739e048402aff2e3caaa4bf4f8797b35a24"
   integrity sha512-zfJdm0EfPi2ZMGi5pQVKtdWjPG7nRZfvDDo9iH733nMW2f0B1EpGIRQUiQ2CZ9UkXluBeqQSLiA8r6e4yNbffw==

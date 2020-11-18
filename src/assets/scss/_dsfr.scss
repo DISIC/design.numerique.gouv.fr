@@ -334,51 +334,31 @@ template {
 
 @font-face {
   font-family: 'Marianne';
-  src: url(../fonts/Marianne-Light.woff2) format("woff2"), url(../fonts/Marianne-Light.woff) format("woff");
+  src: url(../fonts/Marianne/Marianne-Light.woff2) format("woff2"), url(../fonts/Marianne/Marianne-Light.woff) format("woff");
   font-weight: 300;
   font-style: normal; }
 
-@font-face {
-  font-family: 'Marianne';
-  src: url(../fonts/Marianne-Light_Italic.woff2) format("woff2"), url(../fonts/Marianne-Light_Italic.woff) format("woff");
-  font-weight: 300;
-  font-style: italic; }
+
 
 @font-face {
   font-family: 'Marianne';
-  src: url(../fonts/Marianne-Regular.woff2) format("woff2"), url(../fonts/Marianne-Regular.woff) format("woff");
+  src: url(../fonts/Marianne/Marianne-Regular.woff2) format("woff2"), url(../fonts/Marianne/Marianne-Regular.woff) format("woff");
   font-weight: 400;
   font-style: normal; }
 
-@font-face {
-  font-family: 'Marianne';
-  src: url(../fonts/Marianne-Regular_Italic.woff2) format("woff2"), url(../fonts/Marianne-Regular_Italic.woff) format("woff");
-  font-weight: 400;
-  font-style: italic; }
 
 @font-face {
   font-family: 'Marianne';
-  src: url(../fonts/Marianne-Bold.woff2) format("woff2"), url(../fonts/Marianne-Bold.woff) format("woff");
+  src: url(../fonts/Marianne/Marianne-Bold.woff2) format("woff2"), url(../fonts/Marianne/Marianne-Bold.woff) format("woff");
   font-weight: 700;
   font-style: normal; }
 
-@font-face {
-  font-family: 'Marianne';
-  src: url(../fonts/Marianne-Bold_Italic.woff2) format("woff2"), url(../fonts/Marianne-Bold_Italic.woff) format("woff");
-  font-weight: 700;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Spectral';
-  src: url(../fonts/Spectral-Regular.woff2) format("woff2"), url(../fonts/Spectral-Regular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Spectral';
-  src: url(../fonts/Spectral-ExtraBold.woff2) format("woff2"), url(../fonts/Spectral-ExtraBold.woff) format("woff");
-  font-weight: 900;
-  font-style: normal; }
+  @font-face {
+    font-family: 'Marianne';
+    src: url(../fonts/Marianne/Marianne-ExtraBold.woff2) format("woff2"), url(../fonts/Marianne/Marianne-ExtraBold.woff) format("woff");
+    font-weight: 800;
+    font-style: normal; }
+  
 
 .sr-only {
   position: absolute;
@@ -3302,7 +3282,7 @@ input[type="checkbox"] {
 
 .rf-header {
   width: 100%;
-  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.5rem 1rem -1rem rgba(0, 0, 0, 0.32);
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1), 0 0.5rem 1rem -1rem rgba(0, 0, 0, 0.32) !important;
   background-color: var(--w-g750);
   /*
   &__head {

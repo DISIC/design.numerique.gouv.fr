@@ -55,7 +55,7 @@ query {
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-
+/*
   @font-face {
     font-family: "Marianne";
     font-weight: 400;
@@ -82,7 +82,7 @@ query {
          url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
     font-display: fallback;
   }
-
+*/
   @font-face {
     font-family: "Inter";
     font-style: normal;
@@ -135,6 +135,9 @@ query {
          url("../assets/fonts/Inter/Inter-BoldItalic-Reduced.woff2") format("woff");
     font-display: fallback;
   }
+
+
+
   ul li::before, ol li::before {
     display: none;
   }
@@ -153,18 +156,12 @@ query {
     }
   }
 
-  body { background-color:none;}
-
-  .rf-header {
-    box-shadow: none;
-  }
-
+/*
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px;
-    margin: auto;
+     margin: auto;
 
     .logo {
 
@@ -223,7 +220,7 @@ query {
       }
     }
   }
-
+*/
   footer {
     padding: 20px 20px 24px 20px;
     margin-top: 120px;
@@ -233,10 +230,13 @@ query {
     justify-content: center;
     align-items: flex-start;
 
-    a {
-      border: none;
-    }
-
+      a {
+        box-shadow: none;
+        border: none;
+      }
+    p a {
+      text-decoration: underline;
+    }  
     @media only screen and (max-width: $mobile-max-width) {
       padding: 20px 12px 24px 12px;
       margin-top: 64px;

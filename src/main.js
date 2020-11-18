@@ -10,7 +10,7 @@ import { config, library } from '@fortawesome/fontawesome-svg-core'
 import {
   faGithub,
   faTwitter
-  } from '@fortawesome/free-brands-svg-icons'
+} from '@fortawesome/free-brands-svg-icons'
 import {
   faPaperPlane,
   faArrowDown,
@@ -33,14 +33,14 @@ import {
   faUniversity,
   faUserFriends,
   faDesktop,
-  } from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons'
 import {
-    faFilePdf,
-    faFileWord,
-    faFileAlt,
-    faFileImage,
-    faEdit
-  } from '@fortawesome/free-regular-svg-icons'
+  faFilePdf,
+  faFileWord,
+  faFileAlt,
+  faFileImage,
+  faEdit
+} from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
@@ -73,12 +73,13 @@ library.add(
   faUniversity,
   faUserFriends,
   faDesktop,
-)
-
-export default function (Vue, { router, head, isClient }) {
-  // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
-  Vue.component('font-awesome', FontAwesomeIcon)
+  )
+  
+  export default function (Vue, { router, head, isClient }) {
+    // Set default layout as a global componentÒ    
+    Vue.component('Layout', DefaultLayout)
+    Vue.component('font-awesome', FontAwesomeIcon)
+    head.script.push({ src: '/assets/js/dsfr.min.js', body: true })
 
   head.htmlAttrs = { lang: 'fr' }
 }

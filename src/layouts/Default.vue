@@ -55,40 +55,13 @@ query {
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-/*
-  @font-face {
-    font-family: "Marianne";
-    font-weight: 400;
-    src: url("../assets/fonts/Marianne/Marianne-Regular.ttf") format("ttf"),
-         url("../assets/fonts/Marianne/Marianne-Regular.woff") format("woff2"),
-         url("../assets/fonts/Marianne/Marianne-Regular.woff2") format("woff");
-    font-display: fallback;
-  }
 
-  @font-face {
-    font-family: "Marianne";
-    font-weight: 700;
-    src: url("../assets/fonts/Marianne/Marianne-Bold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne/Marianne-Bold.woff") format("woff2"),
-         url("../assets/fonts/Marianne/Marianne-Bold.woff2") format("woff");
-    font-display: fallback;
-  }
-
-  @font-face {
-    font-family: "Marianne";
-    font-weight: 800;
-    src: url("../assets/fonts/Marianne/Marianne-ExtraBold.ttf") format("ttf"),
-         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff") format("woff2"),
-         url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
-    font-display: fallback;
-  }
-*/
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    src: url("../assets/fonts/Inter/Inter-Regular-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Regular-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/Inter-Regular-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter-Regular-Reduced.woff2") format("woff");
     font-display: fallback;
   }
 
@@ -96,16 +69,16 @@ query {
     font-family: "Inter";
     font-style: italic;
     font-weight: 400;
-    src: url("../assets/fonts/Inter/Inter-Italic-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Italic-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/Inter-Italic-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter-Italic-Reduced.woff2") format("woff");
     font-display: fallback;
   }
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    src: url("../assets/fonts/Inter/Inter-Medium-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Medium-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/Inter-Medium-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter-Medium-Reduced.woff2") format("woff");
     font-display: fallback;
   }
 
@@ -113,8 +86,8 @@ query {
     font-family: "Inter";
     font-style: italic;
     font-weight: 500;
-    src: url("../assets/fonts/Inter/Inter-MediumItalic-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-MediumItalic-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/Inter-MediumItalic-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter-MediumItalic-Reduced.woff2") format("woff");
     font-display: fallback;
   }
 
@@ -122,8 +95,8 @@ query {
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    src: url("../assets/fonts/Inter/Inter-Bold-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-Bold-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/Inter-Bold-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter-Bold-Reduced.woff2") format("woff");
     font-display: fallback;
   }
 
@@ -131,12 +104,10 @@ query {
     font-family: "Inter";
     font-style: italic;
     font-weight: 700;
-    src: url("../assets/fonts/Inter/Inter-BoldItalic-Reduced.woff") format("woff2"),
-         url("../assets/fonts/Inter/Inter-BoldItalic-Reduced.woff2") format("woff");
+    src: url("../assets/fonts/Inter-BoldItalic-Reduced.woff") format("woff2"),
+         url("../assets/fonts/Inter-BoldItalic-Reduced.woff2") format("woff");
     font-display: fallback;
   }
-
-
 
   ul li::before, ol li::before {
     display: none;

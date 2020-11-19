@@ -55,7 +55,7 @@ query {
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-/*
+
   @font-face {
     font-family: "Marianne";
     font-weight: 400;
@@ -82,7 +82,7 @@ query {
          url("../assets/fonts/Marianne/Marianne-ExtraBold.woff2") format("woff");
     font-display: fallback;
   }
-*/
+
   @font-face {
     font-family: "Inter";
     font-style: normal;
@@ -147,7 +147,7 @@ query {
     box-shadow:none;
   }
   .layout {
-    max-width: 760px;
+    max-width: 820px;
     margin: 0 auto;
     padding: 0 30px;
 
@@ -171,7 +171,7 @@ query {
       }
     p a {
       text-decoration: underline;
-    }  
+    }
     @media only screen and (max-width: $mobile-max-width) {
       padding: 20px 12px 24px 12px;
       margin-top: 64px;

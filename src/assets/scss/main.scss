@@ -31,16 +31,16 @@ a {
     color: $dark-red;
     border-color: $dark-red;
   }
+
   &:focus {
     background-color: $light;
-    outline-color:$dark-gray;
+    outline-color: $dark-gray;
   }
 }
 
 h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2;
-  letter-spacing: -0.10px;
   color: $black;
 }
 

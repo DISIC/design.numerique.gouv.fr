@@ -1,13 +1,10 @@
 <template>
-
-
   <nav class="rf-nav rf-margin-top-2N" role="navigation" aria-label="Menu principal" id="header-navigation">
     <ul class="rf-nav__list">
       <li class="rf-nav__item">
         <a class="rf-link" href="/design/">Design</a>
       </li>
       <li class="rf-nav__item">
-        <!--a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a-->
         <button class="rf-btn" aria-expanded="false" aria-controls="rf-nav-item-1" >Accessibilité</button>
         <div class="rf-menu" id="rf-nav-item-1">
           <ul class="rf-menu__list">
@@ -43,10 +40,7 @@
       </li>
     </ul>
   </nav>
-
 </template>
-
-
 
 <script>
   export default {

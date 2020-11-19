@@ -4,8 +4,8 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/scss/main.scss'
 
-
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import {
   faGithub,
@@ -74,12 +74,10 @@ library.add(
   faUserFriends,
   faDesktop,
   )
-  
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ    
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
-    head.script.push({ src: '/assets/js/dsfr.min.js', body: true })
-
-  head.htmlAttrs = { lang: 'fr' }
-}
+    
+   head.htmlAttrs = { lang: 'fr' }
+  }

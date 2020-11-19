@@ -1,7 +1,7 @@
 <template>
   <Layout class="digital-accessibility-pages">
-    <div class="rf-container">
-    <nav class="breadcrumb" aria-label="vous êtes ici :">
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
@@ -115,7 +115,7 @@
       </h2>
       <p>À venir</p> -->
     </div>
-    </div>
+
   </Layout>
 </template>
 

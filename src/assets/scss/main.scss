@@ -21,23 +21,6 @@ body {
   }
 }
 
-a {
-  text-decoration: none;
-  color: $blue;
-  transition: .2s all;
-  border-bottom: 1px solid rgba($blue, 0.5);
-
-  &:hover {
-    color: $dark-red;
-    border-color: $dark-red;
-  }
-
-  &:focus {
-    background-color: $light;
-    outline-color: $dark-gray;
-  }
-}
-
 h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2;
@@ -132,6 +115,24 @@ nav.breadcrumb {
 .content {
   margin: 0 auto;
 
+  a {
+    text-decoration: none;
+    color: $blue;
+    transition: .2s all;
+    box-shadow: none;
+    .button {
+
+    }
+    &:hover {
+      color: $dark-red;
+      border-color: $dark-red;
+    }
+  
+    &:focus {
+      background-color: $light;
+      outline-color: $dark-gray;
+    }
+  }
   section {
     margin-bottom: 80px;
 
@@ -273,7 +274,9 @@ nav.breadcrumb {
   border: 2px solid $black;
   padding: 32px 48px 16px 48px;
   border-radius: 32px;
-
+  a {
+    box-shadow: none;
+  }
   @media only screen and (max-width: $mobile-max-width) {
     padding: 24px 24px 8px 24px;
   }

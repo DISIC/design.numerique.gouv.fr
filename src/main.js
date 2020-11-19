@@ -78,6 +78,6 @@ library.add(
     // Set default layout as a global componentÒ    
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
-    
-   head.htmlAttrs = { lang: 'fr' }
+    head.script.push({ src: '/assets/js/dsfr.min.js', body: false })
+    head.htmlAttrs = { lang: 'fr' }
   }

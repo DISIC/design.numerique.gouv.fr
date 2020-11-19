@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="cover__container">
 
-       <h1 class="highlight"><Blog class="h1__icon" focusable="false" aria-hidden="true"/>Notre blog</h1>
+       <h1 class="text-highlight"><Blog class="h1__icon" focusable="false" aria-hidden="true"/>Notre blog</h1>
 
       </div>
     </div>

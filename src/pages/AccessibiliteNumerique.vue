@@ -1,7 +1,7 @@
 <template>
   <Layout class="digital-accessibility-pages">
-    <div class="rf-container">
-    <nav class="breadcrumb" aria-label="vous êtes ici :">
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><Accessibilite class="h1__icon" focusable="false" aria-hidden="true"/>Accessibilité</h1>
+      <h1 class="text-highlight"><Accessibilite class="h1__icon" focusable="false" aria-hidden="true"/>Accessibilité</h1>
 
       <p class="cover__subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
 
@@ -115,7 +115,7 @@
       </h2>
       <p>À venir</p> -->
     </div>
-    </div>
+
   </Layout>
 </template>
 

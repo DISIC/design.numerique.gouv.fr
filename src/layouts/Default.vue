@@ -118,7 +118,7 @@ query {
     box-shadow:none;
   }
   .layout {
-    max-width: 760px;
+    max-width: 820px;
     margin: 0 auto;
     padding: 0 30px;
 
@@ -142,7 +142,7 @@ query {
       }
     p a {
       text-decoration: underline;
-    }  
+    }
     @media only screen and (max-width: $mobile-max-width) {
       padding: 20px 12px 24px 12px;
       margin-top: 64px;

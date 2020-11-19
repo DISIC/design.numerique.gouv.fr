@@ -17,22 +17,6 @@ body {
   }
 }
 
-.content a {
-  text-decoration: none;
-  color: $blue;
-  transition: .2s all;
-  border-bottom: 1px solid rgba($blue, 0.5);
-
-  &:hover {
-    color: $red;
-    border-color: $red;
-  }
-  &:focus {
-    background-color: $light;
-    outline-color:$dark-gray;
-  }
-}
-
 h1, h2, h3, h4 {
   line-height: 1.2;
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
@@ -127,6 +111,22 @@ nav.breadcrumb {
 .content {
   margin: 0 auto;
 
+  a {
+    text-decoration: none;
+    color: $blue;
+    transition: .2s all;
+    border-bottom: 1px solid rgba($blue, 0.5);
+    box-shadow: none;
+  
+    &:hover {
+      color: $red;
+      border-color: $red;
+    }
+    &:focus {
+      background-color: $light;
+      outline-color:$dark-gray;
+    }
+  }
   section {
     margin-bottom: 80px;
 

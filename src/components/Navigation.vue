@@ -8,7 +8,7 @@
         <a class="rf-link" href="/design/">Design</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/accessibilite-numerique//">Accessibilité</a>
+        <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
       </li>
       <!-- <li class="rf-nav__item">
         <button class="rf-btn" aria-expanded="false" aria-controls="rf-nav-item-1" >Accessibilité</button>

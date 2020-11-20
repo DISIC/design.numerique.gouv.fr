@@ -30,8 +30,7 @@
   }
 
 </script>
-<style>
-.rf-service a {
-  border: none;
-}
+
+<style lang="scss">
+
 </style>

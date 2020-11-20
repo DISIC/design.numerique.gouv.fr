@@ -234,7 +234,7 @@
   .index-page {
 
     .cover {
-      margin-top: 32px;
+      margin-top: 24px;
       padding-bottom: 48px;
 
       @media only screen and (max-width: $mobile-max-width) {
@@ -259,7 +259,7 @@
         width: 86vw;
         max-width: 1100px;
         left: 50%;
-        bottom: -8px;
+        bottom: -16px;
         z-index: -1;
         margin-left: -43vw;
 

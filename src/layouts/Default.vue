@@ -57,6 +57,15 @@ query {
   @import "src/assets/scss/_vars.scss";
 
   @font-face {
+    font-family: "Marianne";
+    font-style: normal;
+    font-weight: 800;
+    src: url("../assets/fonts/Marianne-ExtraBold.woff") format("woff2"),
+         url("../assets/fonts/Marianne-ExtraBold.woff2") format("woff");
+    font-display: fallback;
+  }
+
+  @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;

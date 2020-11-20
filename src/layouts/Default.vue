@@ -122,10 +122,10 @@ query {
     display: none;
   }
 
-
   a {
     box-shadow:none;
   }
+
   .layout {
     max-width: 820px;
     margin: 0 auto;
@@ -133,6 +133,10 @@ query {
 
     @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;
+    }
+
+    *, ::after, ::before {
+      box-sizing: unset;
     }
   }
 

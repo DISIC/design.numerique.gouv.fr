@@ -15,19 +15,7 @@
 
     <div class="content">
 
-      <div class="message commandoux">
-
-          <h2>Commando UX</h2>
-
-          <p>
-            Designers et développeurs ont 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
-          </p>
-
-          <g-link to="/commando-ux/" class="button">
-            Suivre leur travail<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16px"/>
-          </g-link>
-
-      </div>
+      <Commando class="alert"/>
 
       <section class="item">
 
@@ -145,6 +133,7 @@
 
 <script>
 
+  import Commando from "~/components/messages/Commando.vue"
   import CoverIllustration from "~/assets/images/coverIllustration.svg"
   import Design from "~/assets/images/design.svg"
   import DesignIllustration from "~/assets/images/designIllustration.svg"
@@ -158,6 +147,7 @@
 
   export default {
     components: {
+      Commando,
       CoverIllustration,
       Design,
       DesignIllustration,
@@ -282,7 +272,7 @@
       }
     }
 
-    .commandoux {
+    .alert {
       margin-bottom: 96px;
 
       @media only screen and (max-width: $mobile-max-width) {

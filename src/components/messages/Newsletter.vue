@@ -24,12 +24,4 @@
 
 <style lang="scss">
 
-  .message {
-    margin-top: 80px;
-
-    .button {
-      margin-bottom: 0;
-    }
-  }
-
 </style>

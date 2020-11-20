@@ -1,0 +1,27 @@
+main {
+  .message {
+    text-align: center;
+    border: 2px solid $black;
+    margin-top: 80px;
+    padding: 32px 48px 16px 48px;
+    border-radius: 32px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      padding: 24px 24px 8px 24px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.75em;
+      padding-bottom: 4px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        font-size: 1.5em;
+      }
+    }
+
+    .button {
+      margin: 10px 0 0 0;
+    }
+  }
+}

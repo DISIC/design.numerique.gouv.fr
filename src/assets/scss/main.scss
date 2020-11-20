@@ -112,12 +112,15 @@ nav.breadcrumb {
 .content {
   margin: 0 auto;
 
+  a {
+    position: static;
+  }
+
   a:not(button):not(.button) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;
     box-shadow: none;
-    position: static;
     border-bottom: 1px solid rgba($blue, 0.5);
 
     &:hover {

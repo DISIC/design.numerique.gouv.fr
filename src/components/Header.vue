@@ -8,9 +8,9 @@
         <div class="rf-header__navbar">
           <div class="rf-service">
             <a class="rf-service__title" href="/" title="Retour à l'accueil DesignGouv">
-              Design des services numériques
+              DesignGouv
             </a>
-            <p class="rf-service__tagline">Un service proposé par la Dinum</p>
+            <p class="rf-service__tagline">Par le pôle Design des services numériques</p>
           </div>
         </div>
       </div>
@@ -33,8 +33,38 @@
 
 <style lang="scss">
 
-  .rf-header__body {
-    margin-bottom: -0.5rem;
+  @import "src/assets/scss/_vars.scss";
+
+  .rf-header {
+    box-shadow: none !important;
+    margin: 0 0 16px 0 !important;
+
+    .rf-container__header {
+      margin: 0;
+      max-width: none;
+
+      .rf-header__body {
+        padding-bottom: 1rem !important;
+        max-width: 1080px;
+        margin: 0 auto;
+        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+
+        .rf-service {
+          margin-top: -32px;
+
+          &__title {
+            font-size: 2.125rem;
+            font-weight: 800;
+          }
+
+          &__tagline {
+            font-size: 0.775rem;
+            margin-top: -3px;
+            margin-left: 2px;
+          }
+        }
+      }
+    }
   }
 
 </style>

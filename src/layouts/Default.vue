@@ -3,6 +3,12 @@
 
     <!--skipLink/-->
 
+    <div v-show="$i18n.locale == 'en-gb' " class="if-english">
+      <g-link to="/en/about" >
+        Don't speak french? Take a quick tour of what we do
+      </g-link>
+    </div>
+
     <header role="banner">
       <div class="logo">
         <div class="block-link">
@@ -123,7 +129,7 @@ query {
         default: false,
         type: Boolean
       },
-    }
+    },
   }
 </script>
 
@@ -219,6 +225,18 @@ query {
 
     @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;
+    }
+  }
+
+  .if-english {
+    background: $light;
+    text-align: center;
+
+    a {
+      display: block;
+      border: 0;
+      font-weight: bold;
+      padding: 15px;
     }
   }
 

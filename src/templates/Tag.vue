@@ -29,7 +29,7 @@
 
 <page-query>
 
-  query articlesByTags($id: String) {
+  query articlesByTags($id: ID) {
     allArticle (filter: {tags: {contains: [$id]}}, sortBy: "publishedDate", order: DESC) {
       edges {
         node {

@@ -1,35 +1,46 @@
 ---
-published_date: 6 juin 2020
-title: Chargé de mission animation et communication
-slug: stage-mission-animation-communication
+published_date: 16 novembre 2020
+title: Chargé·e de communication graphiste
+slug: stage-communication-graphisme
 type: Stage
-start_date: Dès que possible
+start_date: Janvier 2021
 length: 6 mois
 contact: marine.boudeau@modernisation.gouv.fr
 ---
 
 ### Votre mission
-Accompagner le pôle Design des services numérique dans ses actions d’animation et de communication. Valoriser les actions des différents ministères sur la transformation numérique de l’Etat.
+La ou le stagiaire fournit un accompagnement en animation et communication et valorise les actions en faveur de la transformation numérique de l’État au sein des différents ministères.
 
 ### Vos activités
-* Rédiger le contenu de réseaux sociaux, blog, newsletter
-* Assurer une veille design (administrations and beyond)
+* Concevoir et gérer des outils et supports de communication numériques
+* Rédiger des contenus de communication (réseaux sociaux, blog, newsletter)
 * Participer à l'organisation d'événements
-* Créer des visuels graphiques (promotions événements, etc)
+* Assurer une veille sur les sujets design et service public
+* Créer des visuels graphiques
 
-Le/la stagiaire pourra également participer aux autres activités du pôle Design des services numérique.
+La ou le stagiaire pourra également participer aux autres activités du pôle Design des services numérique.
 
-### Ce que nous cherchons chez vous
-Le ou la candidate doit être intéressé par l’inclusion numérique, le design, les comportements humains, la communication et avoir un intérêt pour l'action publique. Il ou elle doit être désireux d’apprendre et de monter en compétence sur certains sujets et capable de devenir autonome au cours du stage.
+### Vos compétences
+La candidate ou le candidat doit être en cours de validation d’un diplôme de commerce reconnu par la commission des titres ou d’un diplôme universitaire dans le domaine de la communication, du graphisme ou du design.
 
-Et plus spécifiquement :
+Nous cherchons avant tout une personne enthousiaste et curieuse qui a envie d'apprendre ! Ne vous sentez pas freiné par la liste ci-dessous. 🙂
 
-* Envie de mieux comprendre les comportements humains et les usagers des services publics numériques
-* Sens aigu de l'esthétique et attention aux détails
-* Intérêt pour la communication, le marketing et le design
-* Intérêt pour la production de podcasts et de vidéos
-* Vous savez faire preuve de polyvalence, de réactivité, de méthode et de rigueur
-* Vous êtes curieux, polyvalent, et enthousiaste
-* Envie d’un stage valorisant la créativité et la prise d’initiatives
-* Etre autonome
-* Savoir travailler en équipe, avec des personnes aux profils différents
+Savoirs :
+* Maitrise des techniques et de l’environnement de la communication
+* Règles orthographiques et typographiques
+* Techniques rédactionnelles
+* Fonctionnement  des réseaux sociaux et de leurs usages
+
+Savoir-faire :
+* Concevoir et réaliser des visuels graphiques et des contenus animés audiovisuels
+* Animer une communauté
+* Proposer des actions de communication
+* Concevoir et organiser un événement
+
+Savoir-être :
+* Réactivité
+* Sens des relations humaines
+* Esprit de synthèse
+* Esprit d’équipe
+* Sens de l’innovation, créativité
+* Sens de l'esthétique

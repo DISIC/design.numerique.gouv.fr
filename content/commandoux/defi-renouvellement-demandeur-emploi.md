@@ -20,45 +20,28 @@ Si le demandeur d'emploi se trompe, indique une mauvaise information, il peut ê
 En 2019 Pôle emploi comptabilise plus d'un milliard de trop-perçus dont 77% sont liés à l'actualisation.
 Zen a pour objectif de diminuer ce risque en améliorant l'expérience utilisateur de l'actualisation. L'expérience utilisateur devra alors être claire, et permettre plus d'autonomie aux demandeurs d'emploi.
 
+
 ## Objectifs du défi
 
 L'objectif de ce défi est de simplifier le parcours de la démarche de renouvellement, notamment en s'inspirant des briques développées via la startup d'état Zen Emploi. Il faudra poursuivre l'étude des besoins et blocages des demandeurs d'emploi, qui n'a actuellement été faite que sur une cible précise.
+
 
 ## Le défi étape par étape
 
 :::steps
 ### Découverte de la démarche de renouvellement mensuel
-Hugo commence à travailler avec l'équipe de Pôle emploi et prend connaissance des démarches que réalisent les demandeurs d'emploi et du travail de design réalisé par la start-up d'État Zen Emploi. Le défi se focalise sur la démarche « Renouvellement mensuel de la situation de demandeur d'emploi ».
 
+Hugo commence à travailler avec l’équipe de Pôle emploi et prend connaissance des démarches que réalisent les demandeurs d’emploi et du travail de design réalisé par la start-up d’État Zen Emploi. Le défi se focalise sur la démarche « Actualisation mensuelle de la situation de demandeur d’emploi ».
 
-### Échanges avec des usagers de l'actualisation par téléphone
-Environ 400 000 demandeurs d'emploi utilisent le serveur vocal du 39 49 pour actualiser leur situation. Hugo et l'équipe Pôle emploi discutent avec des usagers préférant le téléphone pour comprendre leurs attentes et contraintes dans le cadre de l'amélioration de cette démarche.
+### Échanges avec des usagers de l’actualisation par téléphone
 
+Environ 480 000 demandeurs d’emploi utilisent le serveur vocal du 39 49 pour actualiser leur situation. Hugo et l’équipe Pôle emploi discutent avec des usagers préférant le téléphone pour comprendre leurs attentes et leurs besoins dans le cadre de l’amélioration de cette démarche.
 
-### Observation de l'utilisation d'un nouveau parcours web
-Une refonte du parcours internet du renouvellement mensuel est en cours. Hugo se rend dans des agences Pôle emploi pour recueillir l'avis des usagers sur cette nouvelle version de la démarche. Les résultats de ces observations serviront à augmenter encore la facilité d'utilisation.
+### Observation de l’utilisation d’un nouveau parcours web
+
+Des évolutions du parcours utilisateur d’actualisation mensuelle sont en cours. Hugo se rend dans des agences Pôle emploi pour recueillir l’avis des usagers sur ces nouvelles évolutions de la démarche. Les résultats de ces observations serviront à augmenter encore la facilité d’utilisation.
 
 ### ... à suivre
+
 Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::
-
-
-
-<!-- ## À propos de la démarche
-- **Réalisable en ligne :** Oui
-- **Public concerné :** Particuliers
-- **Volumétrie annuelle :** 6 297 380 (100% de recours à la voie dématérialisée)
-- **Lien :** https://candidat.pole-emploi.fr/inscription/preambule -->
-
-<!-- ## Poste à pourvoir
-
-### Une ou un designer produit
-- Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
-- Expertise à évaluer la facilité d'utilisation de parcours existants et proposer des recommandations réfléchies
-- Expertise en recherche utilisateur et tests d'utilisabilité
-- Bonne connaissance des technologies numériques
-- Connaissances en accessibilité numérique
-- Esthétique visuelle forte, propre et élégante
-- Forte capacité à résoudre les problèmes
-- Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour -->

@@ -45,7 +45,7 @@ Les statistiques de la CAF et de la MSA permettent à Georges et Simon de défin
 
 Après les premières études, Georges et Simon commencent à concevoir les nouveaux parcours pour les aides au logement. Avec les équipes d’iMSA, ils échangent avec des experts métier de la direction de l’habitat, de l’urbanisme et des paysages (DHUP) pour mieux saisir le fonctionnement de ces aides. Il existe une centaine d’informations à intégrer pour simuler les aides, l’enjeu est donc de rendre le système le plus efficace possible pour que l’usager accède à sa simulation avec le moins d’effort.
 
-Tandis que Georges affine les maquettes ****des parcours pour effectuer de nouveaux tests, Simon entame la mise en place de l’architecture technique visant à accueillir le nouveau simulateur.
+Tandis que Georges affine les maquettes des parcours pour effectuer de nouveaux tests, Simon entame la mise en place de l’architecture technique visant à accueillir le nouveau simulateur.
 
 ### ... à suivre
 

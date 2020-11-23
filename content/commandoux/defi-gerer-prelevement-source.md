@@ -17,25 +17,39 @@ team: ["yaacov-cohen"]
 
 Le service du prélèvement à la source est aujourd'hui l'une des démarches les plus utilisées sur impots.gouv.fr.
 
+
 ## Objectifs du défi
 
 - Rendre cette démarche 100% accessible
 
 
-<!-- ## À propos de la démarche
-- **Réalisable en ligne :** Oui
-- **Public concerné :** Particuliers
-- **Volumétrie annuelle :** 8 200 000 (100% de recours à la voie dématérialisée)
-- **Lien :** https://www.impots.gouv.fr/portail/particulier -->
+## Le défi étape par étape
 
-<!-- ## Poste à pourvoir
+:::steps
+### Découverte de la démarche « Gestion du prélèvement à la source »
 
-### Une développeuse ou un développeur accessibilité
-- Expertise technique sur le RGAA
-- Expertise en développement web (HTML, CSS, JavaScript et frameworks front-end)
-- Plus : connaissances en JAVA
-- Expérience en réalisation d'audits d'accessibilité
-- Passionné par l'accessibilité
-- Forte capacité à résoudre les problèmes
-- Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour -->
+Une équipe accueille chaleureusement Yaacov au sein de la Direction générale des Finances publiques (DGFiP) à Noisy-le-Grand. Yaacov y découvre les subtilités du service Gestion du Prélèvement à la source et de la fiscalité des particuliers, en discutant tour à tour avec : les systèmes informatiques, la maîtrise d’œuvre, la maîtrise d’ouvrage et le service numérique transverse. Il participe aussi aux réunions hebdomadaires organisées avec le prestataire qui développe le site en ligne.
+
+### État des lieux du service en ligne actuel
+
+Très vite, Yaacov s’empare des données déjà existantes sur cette démarche :
+
+- précédentes études usagers ;
+- précédents audits d’accessibilité ;
+- statistiques d’utilisation du service ;
+- **ainsi que les 8 000 commentaires d’usagers ayant laissé leur avis sur l’Observatoire de la qualité des démarches.**
+
+Il compile ses notes dans un audit complet et clos cette étape en le présentant aux équipes.
+
+### Du renfort pour lancer des tests utilisateurs
+
+Épaulé par Kheira (recherche utilisateur) et Jules (UX designer) du pôle design des services numériques, Yaacov rassemble les équipes de la DGFiP à travers un atelier collaboratif dont l’objectif est d**e préciser quels sont les différents profils usagers qui utilisent le site dédié au prélèvement à la source.** L’adjointe à la cheffe de mission Stratégie Relation aux Publics (SRP) est présente pour l’occasion. À l’issue de cet atelier, des proto-personae sont établis et une maquette est créée et utilisée lors de sessions de tests qui se sont déroulées en ligne à la fin du mois d’octobre. **6 usagers ont participé à ces tests individuels qui ont permis d’observer l’utilisation dans un contexte réaliste et d’identifier des axes d’amélioration**.
+
+### Audit de l’accessibilité
+
+En parallèle des tests utilisateurs, Yaacov réalise un audit RGAA du site du prélèvement à la source pour identifier des pistes d’améliorations pour faciliter la navigation pour les personnes en situation de handicap. 4 mois passent vite : il faut maintenant prioriser et mettre en production des améliorations d’accessibilité notables avant la fin de l’année. Yaacov a donc décidé de hiérarchiser la liste de ses recommandations en faisant ressortir des « quick-wins ». **Les autres améliorations à apporter seront ensuite progressivement intégrées avec pour objectif de rendre le site 100 % accessible. Utile :** Début novembre, il fait part de ses recommandations au prestataire avec qui il restera en étroite communication.
+
+### ... à suivre
+
+Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+:::

@@ -65,14 +65,14 @@
           <div class="brick__description">
             <Services focusable="false" class="brick__icon" aria-hidden="true"/>
 
-            <h2>Nos services</h2>
+            <h2>Outils</h2>
 
             <p>
-              Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous vous accompagnons.
+              Nous mettons à votre disposition un ensemble d'outils pour vous guider sur les sujets du <b>design</b> et de l'<b>accessibilité</b>.
             </p>
           </div>
           <g-link to="/services/" class="brick__link">
-            J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            J'accède aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -80,14 +80,29 @@
           <div class="brick__description">
             <Formations focusable="false" class="brick__icon" aria-hidden="true"/>
 
-            <h2>Les formations</h2>
+            <h2>Formations</h2>
 
             <p>
-              De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>
+              De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>.
             </p>
           </div>
           <g-link to="/formations/" class="brick__link">
             Je découvre les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+          </g-link>
+        </div>
+
+        <div class="brick brick--full">
+          <div class="brick__description">
+            <Services focusable="false" class="brick__icon" aria-hidden="true"/>
+
+            <h2>Accompagement</h2>
+
+            <p>
+              Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous sommes là pour vous accompagner !
+            </p>
+          </div>
+          <g-link to="/services/" class="brick__link">
+            J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -385,6 +400,10 @@
 
         &--left {
           margin-right: 1%;
+        }
+
+        &--full {
+          flex-basis: 100%;
         }
 
         h2 {

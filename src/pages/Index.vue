@@ -235,7 +235,7 @@
 
     .cover {
       margin-top: 32px;
-      padding-bottom: 48px;
+      padding-bottom: 24px;
 
       @media only screen and (max-width: $mobile-max-width) {
         padding-bottom: 80px;
@@ -259,7 +259,7 @@
         width: 86vw;
         max-width: 1100px;
         left: 50%;
-        bottom: 26px;
+        bottom: -8px;
         z-index: -1;
         margin-left: -43vw;
 

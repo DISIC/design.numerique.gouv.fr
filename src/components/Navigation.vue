@@ -33,6 +33,9 @@
         </div>
       </li> -->
       <li class="rf-nav__item">
+        <a class="rf-link" href="/services/">Accompagnement</a>
+      </li>
+      <li class="rf-nav__item">
         <a class="rf-link" href="/outils/">Outils</a>
       </li>
       <li class="rf-nav__item">

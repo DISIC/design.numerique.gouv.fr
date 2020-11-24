@@ -42,6 +42,8 @@
     .rf-container__header {
       margin: 0;
       max-width: none;
+      padding-right: 0.25rem;
+      padding-left: 0.25rem;
 
       .rf-header__body {
         padding-bottom: 1rem !important;
@@ -52,15 +54,33 @@
         .rf-service {
           margin-top: -32px;
 
+          @media only screen and (max-width: $mobile-max-width) {
+            margin-top: -20px;
+          }
+
           &__title {
             font-size: 2rem;
             font-weight: 800;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              font-size: 1.5rem;
+            }
           }
 
           &__tagline {
             font-size: 0.75rem;
             margin-top: -3px;
             margin-left: 2px;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              font-size: 0.75rem;
+            }
+          }
+        }
+
+        .rf-header__navbar {
+          @media only screen and (max-width: $mobile-max-width) {
+            margin-top: 0.5rem;
           }
         }
       }

@@ -244,6 +244,10 @@
 
       h1 {
         line-height: 1.4;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin-top: 16px;
+        }
       }
 
       &__subtitle {

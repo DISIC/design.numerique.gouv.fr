@@ -259,7 +259,7 @@
         width: 86vw;
         max-width: 1100px;
         left: 50%;
-        bottom: 0px;
+        bottom: 26px;
         z-index: -1;
         margin-left: -43vw;
 

@@ -234,11 +234,12 @@
   .index-page {
 
     .cover {
-      margin-top: 32px;
-      padding-bottom: 24px;
+      margin-top: 48px;
+      padding-bottom: 16px;
 
       @media only screen and (max-width: $mobile-max-width) {
-        padding-bottom: 80px;
+        margin-top: 0px;
+        padding-bottom: 56px;
       }
 
       h1 {
@@ -259,7 +260,7 @@
         width: 86vw;
         max-width: 1100px;
         left: 50%;
-        bottom: -8px;
+        bottom: -16px;
         z-index: -1;
         margin-left: -43vw;
 

@@ -78,20 +78,24 @@ h2 {
 nav.breadcrumb {
   margin-top: 16px;
 
-  @media only screen and (max-width: $mobile-max-width) {
-    font-size: 0.875em;
-  }
-
   ol {
     margin: 0;
     padding-left: 0;
     list-style: none;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      font-size: 0.875rem;
+    }
   }
 
   li {
     display: inline;
     margin: 0.25em 0 0.5em;
     padding: 0;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      font-size: 0.875rem;
+    }
   }
 
   li + li::before {

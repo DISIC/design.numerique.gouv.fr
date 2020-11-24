@@ -42,8 +42,8 @@
     .rf-container__header {
       margin: 0;
       max-width: none;
-      padding-right: 0.25rem;
-      padding-left: 0.25rem;
+      padding-right: 0rem;
+      padding-left: 0rem;
 
       .rf-header__body {
         padding-bottom: 1rem !important;

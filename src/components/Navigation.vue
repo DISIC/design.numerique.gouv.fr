@@ -65,6 +65,10 @@
     padding: 0 16px !important;
     background-color: $lighter-gray;
 
+    @media only screen and (max-width: $mobile-max-width) {
+      padding: 0 0px !important;
+    }
+
     ul {
       max-width: 800px;
       margin: 0 auto !important;

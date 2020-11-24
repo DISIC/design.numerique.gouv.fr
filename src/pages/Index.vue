@@ -63,7 +63,7 @@
 
         <div class="brick brick--left">
           <div class="brick__description">
-            <Services focusable="false" class="brick__icon" aria-hidden="true"/>
+            <Outils focusable="false" class="brick__icon" aria-hidden="true"/>
 
             <h2>Outils</h2>
 
@@ -154,10 +154,11 @@
   import DesignIllustration from "~/assets/images/designIllustration.svg"
   import Accessibilite from "~/assets/images/accessibilite.svg"
   import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg"
+  import Outils from "~/assets/images/outils.svg"
   import Services from "~/assets/images/services.svg"
-  import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
+  //import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
   import Formations from "~/assets/images/formations.svg"
-  import FormationsIllustration from "~/assets/images/formationsIllustration.svg"
+  //import FormationsIllustration from "~/assets/images/formationsIllustration.svg"
   import Blog from "~/assets/images/blog.svg"
 
   export default {
@@ -168,10 +169,11 @@
       DesignIllustration,
       Accessibilite,
       AccessibiliteIllustration,
+      Outils,
       Services,
-      ServicesIllustration,
+      //ServicesIllustration,
       Formations,
-      FormationsIllustration,
+      //FormationsIllustration,
       Blog,
     },
     metaInfo: {

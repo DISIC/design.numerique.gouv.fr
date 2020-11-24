@@ -53,12 +53,12 @@
           margin-top: -32px;
 
           &__title {
-            font-size: 2.125rem;
+            font-size: 2rem;
             font-weight: 800;
           }
 
           &__tagline {
-            font-size: 0.775rem;
+            font-size: 0.75rem;
             margin-top: -3px;
             margin-left: 2px;
           }

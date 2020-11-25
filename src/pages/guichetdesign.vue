@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight">#GuichetDesign</h1>
+      <h1 class="highlight">#guichetDesign</h1>
 
       <p class="cover__subtitle">
         Dans le cadre de FranceRelance, 32 M€ pour simplifier la relation entre les usagers et l’administration grâce au numérique.
@@ -33,11 +33,13 @@
         <h3>En attendant, vous pouvez :</h3>
         <p>
           <ul>
-            <li>Consulter la <a href="https://design.numerique.gouv.fr/assets/pdf/francerelance-guichetdesign.pdf" target="_blank">présentation du #guichetDesign</a> (webinaire du 25 novembre 2020)</li>
-            <li>Consulter les détails du <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank">#guichetDesign</a></li>
+            <li>Consulter les <a href="https://design.numerique.gouv.fr/assets/pdf/francerelance-guichetdesign.pdf" target="_blank">dispositives du #guichetDesign</a> (présentées lors du webinaire du 25 novembre 2020)</li>
+            <li>Consulter les détails du <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank">#guichetDesign</a> sur le site du Ministère de la Transformation et de la Fonction publiques. C'est ici aussi que vous pourrez candidater à partir du 4 janvier 2021 !</li>
+            <li>Consulter <a href="https://france-relance.transformation.gouv.fr/" target="_blank">l'ensemble des offres de financement</a> auxquelles vous pouvez faire appel</li>
           </ul>
         </p>
-        <h3>En bref :</h3>
+        <br>
+        <h3>Le #guichetDesign en très bref :</h3>
         <p>Vous êtes une administration ou un opérateur en charge d'une politique publique devant donner ou donnant lieu à l'une des démarches recensées dans l'<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire</a> ? Vous souhaitez atteindre les objectifs fixés par le gouvernement en matière de qualité des démarches en ligne ? Bravo !</p>
         <p>Ce guichet permettra le cofinancement à 75 % de ces projets d'amélioration, et s'effectuera :
           <ul>

@@ -72,48 +72,22 @@
         <h2>Passer à l'action</h2>
         <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design et tout au long du développement. Et surtout avoir une volonté forte de rendre vos services accessibles à tous les usagers, partagée à tous les niveaux de la hierarchie.</p>
       </section>
+
       <section>
         <h3>Je souhaite faire un état des lieux de la conformité au RGAA sur un site, établir une déclaration d’accessibilité. Comment faire ?</h3>
         <p>Si vous n'avez pas les ressources nécéssaires en interne pour le faire, faites appel à l'<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel DAE</g-link> sur de l'accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, la constitution d'un schéma pluriannuel de mise en accessiblité, etc.</p>
       </section>
+
       <section>
         <h3>J’ai un service en ligne déjà en place et qui n'est pas conforme au RGAA. Que faire ?</h3>
         <p>Sensibilisez ou formez vos designers et développeurs sur le sujet de l'accessibilité numérique, et étudiez à travers les resultats de votre audit les points à améliorer. À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d'accessibilité.</p>
       </section>
+
       <section>
         <h3>Est-ce qu'il existe des financements ?</h3>
         <p>Oui. Des <a title="financements par le FIPHFP - Nouvelle fenêtre" target="_blank" href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite">financements</a> pour la mise en accessibilité de vos interfaces sont possibles via le <abbr title="Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique">FIPHFP</abbr>.</p>
       </section>
 
-        <!-- <p>Quelques outils et marchés s'offrent à vous :</p>
-        <div class="grid-menu">
-          <g-link to="/">
-            <font-awesome :icon="['fas', 'award']"/>
-            <span>Je lance un audit d'accessibilité</span>
-          </g-link>
-          <g-link to="/">
-            <font-awesome :icon="['fas', 'graduation-cap']"/>
-            <span>Je forme mes équipes</span>
-          </g-link>
-          <g-link to="/">
-            <font-awesome :icon="['fas', 'vials']"/>
-            <span>Je teste avec de vrais utilisateurs</span>
-          </g-link>
-          <g-link to="/">
-            <font-awesome :icon="['fas', 'vials']"/>
-            <span>Et plus...</span>
-          </g-link> -->
-
-          <!-- <g-link to="/accessibilite-numerique/tests-automatises">
-            <span>Les tests automatisés</span>
-          </g-link> -->
-        <!-- </div> -->
-      </section>
-
-      <!-- <h2>
-        Guides selon votre fonction dans l'organisation
-      </h2>
-      <p>À venir</p> -->
     </div>
 
   </Layout>
@@ -170,7 +144,7 @@
       align-items: stretch;
       flex-wrap: wrap;
 
-      a {
+      .button {
         margin-right: 14px;
         width: 20.5%;
         border-radius: 16px;

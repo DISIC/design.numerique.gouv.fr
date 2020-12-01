@@ -156,9 +156,7 @@
   import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg"
   import Outils from "~/assets/images/outils.svg"
   import Services from "~/assets/images/services.svg"
-  //import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
   import Formations from "~/assets/images/formations.svg"
-  //import FormationsIllustration from "~/assets/images/formationsIllustration.svg"
   import Blog from "~/assets/images/blog.svg"
 
   export default {
@@ -171,9 +169,7 @@
       AccessibiliteIllustration,
       Outils,
       Services,
-      //ServicesIllustration,
       Formations,
-      //FormationsIllustration,
       Blog,
     },
     metaInfo: {
@@ -443,13 +439,17 @@
           }
         }
 
-        a::after {
-          position: absolute;
-          content: "";
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
+        a {
+          border-bottom: none !important;
+
+          &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
         }
 
         &:hover, &:focus {

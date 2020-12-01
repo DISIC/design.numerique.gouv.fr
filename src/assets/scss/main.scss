@@ -113,14 +113,10 @@ nav.breadcrumb {
   }
 }
 
-.content {
-  margin: 0 auto;
+a {
+  position: static;
 
-  a {
-    position: static;
-  }
-
-  a:not(button):not(.button) {
+  &:not(button):not(.button):not(.rf-service__title):not(.rf-link) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;
@@ -138,8 +134,16 @@ nav.breadcrumb {
     }
   }
 
+  &[target="_blank"]::after {
+    content: none !important;
+  }
+}
+
+.content {
+  margin: 0 auto;
+
   section {
-    margin-bottom: 80px;
+    margin-bottom: 64px;
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;

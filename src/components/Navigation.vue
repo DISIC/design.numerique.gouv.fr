@@ -4,9 +4,9 @@
       <li class="rf-nav__item">
         <a class="rf-link" href="/">Accueil</a>
       </li>
-      <li class="rf-nav__item">
+      <!-- <li class="rf-nav__item">
         <a class="rf-link" href="/design/">Design</a>
-      </li>
+      </li> -->
       <li class="rf-nav__item">
         <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
       </li>
@@ -63,19 +63,21 @@
   .rf-nav {
     box-shadow: none !important;
     padding: 0 16px !important;
-    background-color: $lighter-gray;
+    //background-color: $lighter-gray;
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
 
     @media only screen and (max-width: $mobile-max-width) {
       padding: 0 0px !important;
     }
 
     ul {
-      max-width: 800px;
+      max-width: 1080px;
       margin: 0 auto !important;
 
       .rf-link {
         padding: 1rem 1.5rem;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+        //font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
       }
     }
   }

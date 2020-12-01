@@ -1,7 +1,7 @@
 <template>
-        <footer role="contentinfo" >
+  <footer role="contentinfo" >
 
-        <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+      <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
 
       <div class="footer__content">
 
@@ -65,7 +65,6 @@
 
     </footer>
 
-
 </template>
 
 <script>
@@ -75,3 +74,96 @@
   }
 
 </script>
+
+<style lang="scss">
+
+  @import "src/assets/scss/_vars.scss";
+
+  footer {
+    padding: 20px 20px 24px 20px;
+    margin-top: 120px;
+    border-top: 6px solid $gray;
+    color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    a {
+      border-bottom: none !important;
+    }
+
+    @media only screen and (max-width: $mobile-max-width) {
+      padding: 20px 12px 24px 12px;
+      margin-top: 64px;
+      display: inline-block;
+    }
+
+    .footer__logo-rf {
+      width: 121px;
+      margin: 20px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin: 0 0 20px 0;
+      }
+    }
+
+    .footer__logo-dg {
+      width: 260px;
+      max-width: 80%;
+    }
+
+    .footer__content {
+      margin: 18px 40px 0px 40px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin: 0;
+      }
+    }
+
+    .footer__description {
+      margin-top: 16px;
+      max-width: 640px;
+    }
+
+    .footer__websites {
+      margin: 16px 0 8px 0;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      div {
+        margin-right: 48px;
+      }
+
+      ul {
+        padding: 0;
+
+        li {
+          list-style-type: none;
+        }
+      }
+    }
+
+    .footer__sites-publics {
+      margin-top: 24px;
+
+      a {
+        font-size: 0.875rem;
+      }
+
+      ul {
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        li {
+          list-style-type: none;
+          margin-right: 16px;
+          display: inline-flex;
+        }
+      }
+    }
+  }
+
+</style>

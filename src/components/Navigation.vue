@@ -57,28 +57,34 @@
       //Highlight active link in menu and set aria-current
       var currentUrl = this.$route.path;
       var activeClass = 'active';
-      var navLinks = document.querySelectorAll('nav a'); //all links inside the nav
+      var navLinks = document.querySelectorAll('.rf-nav a'); //all links inside the nav
 
       for (var i = 0, l = navLinks.length; i < l; i++) {
-        var link = navLinks[i];
-        var url = link.getAttribute('href');
+        const link = navLinks[i];
+        const url = link.getAttribute('href');
+        const span = document.createElement('span');
         if (url == "/") {
           if (currentUrl == url) {
-            if (link.classList) {
-              link.classList.add(activeClass);
-            } else {
-              link.className += ' ' + activeClass;
-            }
-            link.parentElement.setAttribute("aria-current", "page");
+            span.innerHTML = link.innerHTML;
+            span.classList.add('rf-link');
+            span.classList.add(activeClass);
+            link.parentNode.setAttribute("aria-current", "page");
+            link.parentNode.replaceChild(span, link);
           }
         }
+        else if (currentUrl == url) {
+          span.innerHTML = link.innerHTML;
+          span.classList.add('rf-link');
+          span.classList.add(activeClass);
+          link.parentNode.setAttribute("aria-current", "page");
+          link.parentNode.replaceChild(span, link);
+        }
         else if (currentUrl.includes(url)) {
-          if (link.classList) {
-            link.classList.add(activeClass);
-          } else {
-            link.className += ' ' + activeClass;
-          }
-          link.parentElement.setAttribute("aria-current", "page");
+          span.innerHTML = link.innerHTML;
+          span.classList.add('rf-link');
+          span.classList.add(activeClass);
+          link.parentNode.setAttribute("aria-current", "true");
+          link.parentNode.replaceChild(span, link);
         }
       }
     }

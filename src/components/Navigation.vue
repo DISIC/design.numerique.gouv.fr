@@ -51,7 +51,37 @@
 <script>
 
   export default {
-    name: 'Navigation'
+    name: 'Navigation',
+    mounted () {
+
+      //Highlight active link in menu and set aria-current
+      var currentUrl = this.$route.path;
+      var activeClass = 'active';
+      var navLinks = document.querySelectorAll('nav a'); //all links inside the nav
+
+      for (var i = 0, l = navLinks.length; i < l; i++) {
+        var link = navLinks[i];
+        var url = link.getAttribute('href');
+        if (url == "/") {
+          if (currentUrl == url) {
+            if (link.classList) {
+              link.classList.add(activeClass);
+            } else {
+              link.className += ' ' + activeClass;
+            }
+            link.parentElement.setAttribute("aria-current", "page");
+          }
+        }
+        else if (currentUrl.includes(url)) {
+          if (link.classList) {
+            link.classList.add(activeClass);
+          } else {
+            link.className += ' ' + activeClass;
+          }
+          link.parentElement.setAttribute("aria-current", "page");
+        }
+      }
+    }
   }
 
 </script>
@@ -63,7 +93,6 @@
   .rf-nav {
     box-shadow: none !important;
     padding: 0 16px !important;
-    //background-color: $lighter-gray;
     border-top: 1px solid $gray;
     border-bottom: 1px solid $gray;
 
@@ -76,8 +105,24 @@
       margin: 0 auto !important;
 
       .rf-link {
-        padding: 1rem 1.5rem;
-        //font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+        margin: 0 20px;
+        padding: 18px 4px;
+        font-size: 1rem;
+        -moz-osx-font-smoothing: unset !important;
+
+        &.active {
+          color: $blue;
+          box-shadow: inset 0 -2px $blue;
+        }
+
+        &:hover {
+          color: $blue;
+          --color-hover: none !important;
+
+          &:after {
+            display: none;
+          }
+        }
       }
     }
   }

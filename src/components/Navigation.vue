@@ -114,6 +114,8 @@
         margin: 0 20px;
         padding: 18px 4px;
         font-size: 1rem;
+        font-weight: normal;
+        width: auto;
         -webkit-font-smoothing: subpixel-antialiased !important;
         -moz-osx-font-smoothing: unset !important;
         --color-hover: none !important;

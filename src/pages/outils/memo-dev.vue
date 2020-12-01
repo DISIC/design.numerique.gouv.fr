@@ -19,7 +19,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1>Le <span class="highlight">Mémo dev</span> de DesignGouv</h1>
+      <h1 class="text-highlight">Mémo dev</h1>
 
       <p class="cover__subtitle">Les recommandations ci-dessous sont extraites du Guide de l'intégrateur RGAA de la DINUM. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
 
@@ -27,10 +27,10 @@
       </div>
     </div>
 
-<div class="content">
+<div class="content memo">
 
-  <h2>Memo développement</h2>
-  <p class="lead">Les recommandations ci-dessous sont extraites du {{ macro.extLink("Guide de l'intégrateur RGAA","https://disic.github.io/guide-integrateur/index.html" title=" - nouvelle fenêtre" ></a> établi par la <abbr title="Direction interministérielle des systèmes d'information et de communication de l'État">DISIC</abbr>. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
+  <h2>Le mémo développement</h2>
+  <p class="lead">Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-integrateur/index.html" target="_blank" title="guide de l’intégrateur RGAA - nouvelle fenêtre">guide de l’intégrateur RGAA</a> établi par la <abbr title="Direction interministérielle du numérique">Dinum</abbr>. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
   <h3><a target="_blank" href="https://disic.github.io/guide-integrateur/1-gabarit-general.html" title="Layout - nouvelle fenêtre" ><span lang="en">Layout</span></a></h3>
   <ul>
     <li>Déclarer un doctype valide.</li>
@@ -138,5 +138,11 @@ export default {
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
- 
+  .memo {
+    li {
+      list-style-position: inside;
+      list-style-type: disc;
+    }
+
+  }
 </style>

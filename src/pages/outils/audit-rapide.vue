@@ -19,7 +19,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1>L‘<span class="highlight">audit rapide</span> RGAA</h1>
+      <h1 class="text-highlight">Audit rapide RGAA</h1>
 
       <p class="cover__subtitle">L‘audit rapide permet d‘avoir des informations sur les problèmes relevés sur certains critères. Si il n'est pas représentatif du niveau de conformité, il donne une bonne idée de la prise en compte ou non du RGAA dans les process de développement.</p> 
       </div>

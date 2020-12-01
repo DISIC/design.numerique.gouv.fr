@@ -19,10 +19,10 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1>La <span class="highlight">Checklist dev</span> de DesignGouv</h1>
+      <h1>La <span class="text-highlight">checklist dev</span></h1>
 
       <p class="cover__subtitle">Après avoir réalisé une nouvelle fonctionnalité ou une nouvelle page, les développeurs et développeuses peuvent faire quelques tests et vérifications rapides avant de livrer leur travail pour la revue de code ou en recette.</p>
-  <p>Les points ci-dessous <strong>ne constituent pas</strong> des vérifications suffisantes pour établir que la fonctionnalité ou la page seront accessibles mais sont des tests qui devraient être systématiquement opérés avant de transmettre le code pour la revue ou la recette.</p>
+  <p>Les six points ci-dessous <strong>ne constituent pas</strong> des vérifications suffisantes pour établir que la fonctionnalité ou la page seront accessibles mais sont des tests qui devraient être systématiquement opérés avant de transmettre le code pour la revue ou la recette.</p>
 
 
       </div>
@@ -31,25 +31,22 @@
 <div class="content">
 
 <div class="quick-test">
-  <h2>Tests et explications</h2>
-    <ul class="rf-accordion-group" id="rf-accordion-group-0">
-      <li class="rf-accordion-group__item">
-        <section class="rf-accordion">
-          <h3 class="rf-accordion__title">
-            <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-1">Le title de la page est unique et pertinent</button>
-          </h3>
-          <div class="rf-accordion__body" id="rf-accordion-group-1">
-            <div class="rf-accordion__inner">
-              <h4>Comment vérifier ?</h4>
-              <p>S'assurer que le titre de chaque page (contenu de la balise <code>title</code> dans le <code>head</code>, visible en titre de l'onglet du navigateur) permet de la distinguer des autres pages et reflète bien son contenu.</p>
-              <h4>À quoi ça sert ?</h4>
-              <p>Pour les personnes aveugles, utilisateurs de lecteurs d'écran, le titre de la page est le premier élément vocalisé. Pour des utilisateurs qui naviguent avec l'historique de navigation ou la liste des onglets, il est important qu'ils puissent retrouver les pages facilement en se basant sur leur titre.</p>
-            </div>
-          </div>
-        </section>
+  <h2>Les tests et explications</h2>
+  <ul>
+    <li class="rf-accordion">
+      <h3 class="rf-accordion__title">
+        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
+      </h3>
+      <div class="rf-accordion__body" id="rf-accordion-group-1">
+        <div class="rf-accordion__inner">
+          <h4>Comment vérifier ?</h4>
+          <p>S'assurer que le titre de chaque page (contenu de la balise <code>title</code> dans le <code>head</code>, visible en titre de l'onglet du navigateur) permet de la distinguer des autres pages et reflète bien son contenu.</p>
+          <h4>À quoi ça sert ?</h4>
+          <p>Pour les personnes aveugles, utilisateurs de lecteurs d'écran, le titre de la page est le premier élément vocalisé. Pour des utilisateurs qui naviguent avec l'historique de navigation ou la liste des onglets, il est important qu'ils puissent retrouver les pages facilement en se basant sur leur titre.</p>
+        </div>
+      </div>
     </li>
-    <li class="rf-accordion-group__item">
-      <section class="rf-accordion">
+    <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-2">La balise html possède l'attribut lang avec la valeur de la langue principale</button>
       </h3>          
@@ -61,10 +58,8 @@
           <p>Déclarer la langue de traitement permettra aux outils de synthèse vocales de prononcer le contenu avec l'accent qui convient à la langue utilisée.</p>
         </div>
       </div>
-      </section>
     </li>
-    <li class="rf-accordion-group__item">
-      <section class="rf-accordion">
+    <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-3">Le code html est valide au regard de la DTD</button>
       </h3>          
@@ -85,10 +80,8 @@
           </ul>
         </div>
       </div>
-      </section>
     </li>
-    <li class="rf-accordion-group__item">
-      <section class="rf-accordion">
+    <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-4">La page est entièrement navigable et utilisable au clavier</button>
       </h3>          
@@ -102,10 +95,8 @@
           <p>Les utilisateurs qui ont des problèmes de motricité fine utilisent principalement le clavier pour se déplacer sur la page. Ils doivent pouvoir effectuer leur navigation et utiliser toutes les fonctionnalités sans devoir recourir à une souris.</p>
         </div>
       </div>
-      </section>
     </li>
-    <li class="rf-accordion-group__item">
-      <section class="rf-accordion">
+    <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-5">La sémantique des balises html est correctement utilisée</button>
       </h3>          
@@ -123,10 +114,8 @@
           <p>L'utilisation des balises sémantiques correctes permet une bonne restitution des contenus. Les cas les plus courants des détournements perturbants sont l'utilisation de liens pour des boutons ou inversement et le choix de telle ou telle balise html en fonction de sa présentation plutôt que sa sémantique.</p>
         </div>
       </div>
-      </section>
     </li>
-    <li class="rf-accordion-group__item">
-      <section class="rf-accordion">
+    <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-6">Chaque champ de formulaire est associé à son étiquette</button>
       </h3>          
@@ -170,10 +159,12 @@ export default {
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
- .content section.rf-accordion {
-   margin-bottom: 0;
- }
- :root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
-   background: none;
- }
+.rf-accordion {
+    margin-bottom: 0;
+    list-style-type: none;
+    border-bottom: none;
+  }
+  :root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
+    background: none;
+  }
 </style>

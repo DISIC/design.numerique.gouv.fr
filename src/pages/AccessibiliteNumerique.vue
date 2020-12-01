@@ -48,19 +48,19 @@
           <!-- <g-link to="/accessibilite-numerique/" class="inactive">
             <span>En bref (5 minutes chrono)</span>
           </g-link> -->
-          <g-link to="/accessibilite-numerique/cadre-legal/">
+          <g-link to="/accessibilite-numerique/cadre-legal/" class="button button--blue">
             <font-awesome :icon="['fas', 'balance-scale']" height="16px"/>
             <span>Obligations légales et sanctions</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/RGAA/">
+          <g-link to="/accessibilite-numerique/RGAA/" class="button button--blue">
             <font-awesome :icon="['fas', 'clipboard-list']" height="16px"/>
             <span>Le RGAA</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/schema-pluriannuel">
+          <g-link to="/accessibilite-numerique/schema-pluriannuel" class="button button--blue">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>Schéma pluriannuel <small>de mise en accessibilité</small></span>
           </g-link>
-          <g-link to="/accessibilite-numerique/declaration-accessibilite">
+          <g-link to="/accessibilite-numerique/declaration-accessibilite" class="button button--blue">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>Déclaration d'accessibilité</span>
           </g-link>

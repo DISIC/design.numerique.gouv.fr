@@ -1,7 +1,7 @@
 <template>
   <Layout class="accessibility-page" hideNewsletter>
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
+    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
@@ -10,12 +10,12 @@
           <span aria-current="page">Newsletter</span>
         </li>
       </ol>
-    </nav>
+    </nav> -->
 
     <div class="cover">
      <div class="cover__container">
 
-       <h1>Newsletter</h1>
+       <h1 class="text-highlight">Newsletter</h1>
 
       </div>
 

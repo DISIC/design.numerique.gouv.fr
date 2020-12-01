@@ -7,7 +7,7 @@
           <g-link to="/">Accueil</g-link>
         </li>
         <li>
-          <span aria-current="page">Les outils</span>
+          <span aria-current="page">Outils</span>
         </li>
       </ol>
     </nav>
@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1>Les <span class="highlight">outils</span> de DesignGouv</h1>
+      <h1 class="text-highlight">Outils</h1>
 
       <p class="cover__subtitle">De nombreuses outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
 
@@ -38,7 +38,7 @@
         <ul>
          
           <li>La <a href="checklist-rapide">checklist rapide</a> : Avant de lancer un audit complet, il est intéressant qu'un chef de produit ou de projet puisse réaliser lui-même une évaluation rapide de la qualité au regard de la checklist Pidila d'un site ou d'une livraison de pages pour s'en faire une première idée.</li>
-          <li>Les nombreux <a href="http://references.modernisation.gouv.fr/ressources#ancre2](http://references.modernisation.gouv.fr/ressources#ancre2" target="_blank">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d'accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l'insertion des personnes handicapées dans la fonction publique (FIPHFP).</li>
+          <li>Les nombreux <a href="https://github.com/DISIC?q=guide+RGAA" target="_blank">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d'accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l'insertion des personnes handicapées dans la fonction publique (FIPHFP).</li>
           <li>L‘<a href="audit-rapide">audit rapide</a> permet à moindre coût d‘apprécier l‘accessibilité d‘un site et la maturité d‘une équipe</li>
           <li>La <a href="https://pidila.gitlab.io/checklist-pidila/" target="_blank">Checklist Pidila</a> regroupe les critères des différents référentiels et bonnes pratiques du web.</li>
         </ul>  
@@ -97,12 +97,12 @@
     .content {      
       li {
         list-style: inside;
-
-        &.js-expandmore {
-          list-style: none;
-        }
        }
-
+      .rf-accordion {
+        margin-bottom: 0;
+        list-style-type: none;
+        border-bottom: none;
+      }
       a {
         font-weight: bold;
 

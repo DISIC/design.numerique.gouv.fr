@@ -1,5 +1,5 @@
 <template>
-  <Layout class="digital-accessibility-pages">
+  <Layout class="digital-accessibility-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -157,6 +157,80 @@
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-  @import "src/assets/scss/_accessibility.scss";
+
+  .digital-accessibility-page {
+
+    .grid-menu {
+      margin-bottom: 0;
+      margin-top: 32px;
+      list-style-type: none;
+      padding-left: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: stretch;
+      flex-wrap: wrap;
+
+      a {
+        margin-right: 14px;
+        width: 20.5%;
+        border-radius: 16px;
+        border: 2px solid $blue;
+        text-align: center;
+        padding: 12px 8px 8px 8px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: top;
+        align-items: center;
+        flex-direction: column;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 100%;
+          margin-right: 0;
+        }
+
+        svg {
+          font-size: 1.75em;
+          margin-bottom: 8px;
+        }
+      }
+    }
+
+    .intro {
+      display: flex;
+
+      > div {
+        width: 70%;
+        margin-right: 40px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 100%;
+          margin-right: 0;
+        }
+      }
+
+      > div + div {
+        width: 30%;
+        margin-top: 10px;
+        margin-right: 0;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: none;
+        }
+      }
+
+      svg {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        margin-top: 20px;
+      }
+    }
+
+    .comment {
+      display: inline-block;
+      font-weight: normal;
+      margin-top: 10px;
+    }
+  }
 
 </style>

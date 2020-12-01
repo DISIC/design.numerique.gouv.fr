@@ -15,11 +15,11 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight">Outils</h1>
+      <h1 class="text-highlight"><Outils class="h1__icon" focusable="false" aria-hidden="true"/>Les outils</h1>
 
       <p class="cover__subtitle">De nombreuses outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
 
-      <outilsIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
+      <OutilsIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
 
       </div>
     </div>
@@ -59,11 +59,13 @@
 
 <script>
 
-  import outilsIllustration from "~/assets/images/outilsIllustration.svg"
+  import Outils from "~/assets/images/outils.svg"
+  import OutilsIllustration from "~/assets/images/outilsIllustration.svg"
 
   export default {
     components: {
-      outilsIllustration
+      Outils,
+      OutilsIllustration
     },
     metaInfo: {
       title: "Les outils de design de l'accessibilité",

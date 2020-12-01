@@ -46,13 +46,12 @@
       padding-left: 0rem;
 
       .rf-header__body {
-        padding-bottom: 1rem !important;
         max-width: 1080px;
         margin: 0 auto;
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
         .rf-service {
-          margin-top: -32px;
+          margin-top: -26px;
 
           @media only screen and (max-width: $mobile-max-width) {
             margin-top: -20px;

@@ -71,7 +71,7 @@
               Nous mettons à votre disposition un ensemble d'outils pour vous guider sur les sujets du <b>design</b> et de l'<b>accessibilité</b>.
             </p>
           </div>
-          <g-link to="/services/" class="brick__link">
+          <g-link to="/outils/" class="brick__link">
             J'accède aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>

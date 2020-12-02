@@ -247,20 +247,13 @@
   .index-page {
 
     .cover {
-      margin-top: 48px;
-      padding-bottom: 16px;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin-top: 0px;
         padding-bottom: 56px;
       }
 
       h1 {
         line-height: 1.4;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin-top: 16px;
-        }
       }
 
       &__subtitle {
@@ -277,16 +270,12 @@
         width: 86vw;
         max-width: 1100px;
         left: 50%;
-        bottom: -16px;
+        bottom: -32px;
         z-index: -1;
         margin-left: -43vw;
 
         @media only screen and (min-width: 1280px) {
           margin-left: -550px;
-        }
-
-        @media only screen and (max-width: $mobile-max-width) {
-          padding: 0;
         }
       }
     }

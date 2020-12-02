@@ -334,26 +334,26 @@
         h3 {
           font-weight: 800;
           font-size: 1.5em;
-          margin: 4px 0 8px 0;
+          margin: 12px 0 8px 0;
           color: $blue;
 
           @media only screen and (max-width: $mobile-max-width) {
             font-size: 1.125em;
-            margin: 4px 0 4px 0;
+            margin: 8px 0 4px 0;
           }
 
           a {
-            border: none;
+            border: none !important;
           }
         }
 
         img {
-          max-width: 100px;
-          height: 100px;
+          max-width: 80px;
+          height: 80px;
 
           @media only screen and (max-width: $mobile-max-width) {
-            max-width: 80px;
-            height: 80px;
+            max-width: 64px;
+            height: 64px;
           }
         }
       }
@@ -465,7 +465,6 @@
     }
 
     .cta {
-
       text-align: center;
       margin-bottom: 64px;
 
@@ -521,20 +520,7 @@
       justify-content: space-between;
       flex-wrap: wrap;
 
-      h3 {
-        margin: 4px 0;
-
-        a {
-          color: $black;
-          border: none;
-
-          &:hover {
-            color: $blue;
-          }
-        }
-      }
-
-      > li {
+      li {
         list-style: none;
         text-align: center;
         width: 30%;
@@ -545,8 +531,22 @@
         }
 
         img {
+          margin: 0 auto;
           border-radius: 50em;
           max-width: 150px;
+        }
+
+        h3 {
+          margin: 4px 0;
+
+          a {
+            color: $black !important;
+            border: none !important;
+
+            &:hover {
+              color: $blue;
+            }
+          }
         }
 
         p {

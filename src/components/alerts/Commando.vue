@@ -1,6 +1,6 @@
 <template>
 
-  <div class="message">
+  <div class="alert">
 
       <h2>Commando UX</h2>
 
@@ -8,7 +8,7 @@
         Designers et développeurs ont 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
-      <g-link to="/commando-ux/" class="button">
+      <g-link to="/commando-ux/">
         Suivre leur travail<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16px"/>
       </g-link>
 

@@ -1,0 +1,43 @@
+main {
+  .alert {
+    text-align: center;
+    border: 2px solid $gray;
+    background-color: white;
+    margin: 32px 0;
+    padding: 28px 48px 20px 48px;
+    border-radius: 32px;
+    position: relative;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      padding: 24px 24px 16px 24px;
+    }
+
+    h2 {
+      margin: 0 0 16px 0;
+      font-size: 1.75em;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        font-size: 1.5em;
+        padding-top: 4px;
+        padding-bottom: 0px;
+      }
+    }
+
+    a {
+      border: none !important;
+
+      &:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+
+    &:hover, &:focus {
+      box-shadow: 5px 5px 0px $light;
+    }
+  }
+}

@@ -15,7 +15,7 @@
 
     <div class="content">
 
-      <Commando class="alert"/>
+      <Commando/>
 
       <section class="item">
 
@@ -148,7 +148,7 @@
 
 <script>
 
-  import Commando from "~/components/messages/Commando.vue"
+  import Commando from "~/components/alerts/Commando.vue"
   import CoverIllustration from "~/assets/images/coverIllustration.svg"
   import Design from "~/assets/images/design.svg"
   import DesignIllustration from "~/assets/images/designIllustration.svg"
@@ -281,7 +281,7 @@
     }
 
     .alert {
-      margin-bottom: 80px;
+      margin-bottom: 64px;
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 64px;

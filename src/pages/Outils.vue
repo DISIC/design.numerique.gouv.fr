@@ -26,30 +26,33 @@
 
     <div class="content">
 
+      <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouevlle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
+
       <section>
-        <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouevlle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
         <h2>Tech</h2>
         <ul>
           <li>La <a href="checklist-dev">checklist dev</a> regroupe les tests et vérifications rapides à faire soi-même avant de livrer son travail.</li>
           <li>Le <a href="memo-dev">Mémo dev</a> regroupe sur une seule et même page les points d'attention et les liens vers les ressources adéquates.</li>
         </ul>
+      </section>
 
-         <h2>Méthode</h2>
+      <section>
+        <h2>Méthode</h2>
         <ul>
-
           <li>La <a href="checklist-rapide">checklist rapide</a> : Avant de lancer un audit complet, il est intéressant qu'un chef de produit ou de projet puisse réaliser lui-même une évaluation rapide de la qualité au regard de la checklist Pidila d'un site ou d'une livraison de pages pour s'en faire une première idée.</li>
           <li>Les nombreux <a href="https://github.com/DISIC?q=guide+RGAA" target="_blank">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d'accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l'insertion des personnes handicapées dans la fonction publique (FIPHFP).</li>
           <li>L‘<a href="audit-rapide">audit rapide</a> permet à moindre coût d‘apprécier l‘accessibilité d‘un site et la maturité d‘une équipe</li>
           <li>La <a href="https://pidila.gitlab.io/checklist-pidila/" target="_blank">Checklist Pidila</a> regroupe les critères des différents référentiels et bonnes pratiques du web.</li>
         </ul>
+      </section>
 
+      <section>
         <h2>Prochainement</h2>
         <ul>
           <li>Le Design system de l‘État est un ensemble de composants réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
           <li>Des tests automatiques packagés et prêts à l‘emploi pour votre usine de développement.</li>
         </ul>
       </section>
-
 
     </div>
 
@@ -96,15 +99,19 @@
   @import "src/assets/scss/_vars.scss";
 
   .outils-page {
+
     .content {
+
       li {
         list-style: inside;
        }
+
       .rf-accordion {
         margin-bottom: 0;
         list-style-type: none;
         border-bottom: none;
       }
+
       a {
         font-weight: bold;
 

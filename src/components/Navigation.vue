@@ -33,7 +33,7 @@
         </div>
       </li> -->
       <li class="rf-nav__item">
-        <a class="rf-link" href="/services/">Accompagnement</a>
+        <a class="rf-link" href="/accompagnement/">Accompagnement</a>
       </li>
       <li class="rf-nav__item">
         <a class="rf-link" href="/outils/">Outils</a>

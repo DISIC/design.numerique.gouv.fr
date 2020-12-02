@@ -101,7 +101,7 @@
               Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous sommes là pour vous accompagner !
             </p>
           </div>
-          <g-link to="/services/" class="brick__link">
+          <g-link to="/accompagnement/" class="brick__link">
             J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>

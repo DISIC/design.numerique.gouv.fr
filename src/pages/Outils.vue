@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><Outils class="h1__icon" focusable="false" aria-hidden="true"/>Les outils</h1>
+      <h1 class="text-highlight"><Outils class="h1__icon" focusable="false" aria-hidden="true"/>Outils</h1>
 
       <p class="cover__subtitle">De nombreuses outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
 

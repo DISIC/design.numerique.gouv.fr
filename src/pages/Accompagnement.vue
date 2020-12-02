@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><Services class="h1__icon" focusable="false" aria-hidden="true"/>L’accompagnement</h1>
+      <h1 class="text-highlight"><Services class="h1__icon" focusable="false" aria-hidden="true"/>Accompagnement</h1>
 
       <p class="cover__subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
         questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,

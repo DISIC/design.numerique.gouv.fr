@@ -4,7 +4,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Le Design numérique</h1>
+      <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Design numérique</h1>
 
       <p class="cover__subtitle">Le design permet de rendre les services numériques plus
         simples, accessibles et agréables pour tous. Concevoir par le design, c’est

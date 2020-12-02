@@ -1,7 +1,7 @@
 <template>
   <Layout class="commando-ux-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
+    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
@@ -10,7 +10,7 @@
           <span aria-current="page">Commando UX</span>
         </li>
       </ol>
-    </nav>
+    </nav> -->
 
     <div class="cover">
      <div class="cover__container">

@@ -1,0 +1,37 @@
+nav.breadcrumb {
+  margin-top: 16px;
+
+  ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      font-size: 0.875rem;
+    }
+  }
+
+  li {
+    display: inline;
+    margin: 0.25em 0 0.5em;
+    padding: 0;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      font-size: 0.875rem;
+    }
+  }
+
+  li + li::before {
+    display: inline-block;
+    margin: 0 0.5em;
+    transform: rotate(15deg);
+    border-right: 0.1em solid $gray-hover;
+    height: 0.8em;
+    content: "";
+  }
+
+  & [aria-current="page"] {
+    color: black;
+    border: none;
+  }
+}

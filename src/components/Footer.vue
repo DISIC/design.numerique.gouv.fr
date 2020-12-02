@@ -20,14 +20,14 @@
           <div>
             <p>DesignGouv</p>
             <ul>
-              <!--li><g-link to="/equipe/">Notre équipe</g-link></li-->
+              <li><g-link to="/equipe/">Notre équipe</g-link></li>
               <li><a href="https://twitter.com/design_gouv" title="Twitter - Nouvelle fenêtre" target="_blank">
                 Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
                 </a></li>
               <li><a href="mailto:contact@design.numerique.gouv.fr" title="Contact - Nouvelle fenêtre" target="_blank">
                   Contact <font-awesome width="0" :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
-              <!--li><g-link to="/recrutement/">Recrutement</g-link></li-->
+              <li><g-link to="/recrutement/">Recrutement</g-link></li>
               <li><g-link to="/misc/accessibilite/">Accessibilité : partiellement conforme</g-link></li>
               <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
               <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>

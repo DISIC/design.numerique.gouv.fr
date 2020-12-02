@@ -26,8 +26,6 @@
 
     <div class="content">
 
-      <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouevlle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
-
       <section>
         <h2>Tech</h2>
         <ul>
@@ -53,6 +51,8 @@
           <li>Des tests automatiques packagés et prêts à l‘emploi pour votre usine de développement.</li>
         </ul>
       </section>
+
+      <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouevlle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
 
     </div>
 

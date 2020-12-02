@@ -111,7 +111,7 @@
   }
 
   &--with-breadcrumb {
-    margin-top: 64px;
+    margin-top: 48px;
     margin-bottom: 80px;
 
     .cover__container {
@@ -119,7 +119,7 @@
     }
 
     @media only screen and (max-width: $mobile-max-width) {
-      margin-top: 40px;
+      margin-top: 32px;
       margin-bottom: 64px;
     }
   }

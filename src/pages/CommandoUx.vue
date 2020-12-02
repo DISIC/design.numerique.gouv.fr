@@ -387,20 +387,6 @@
       }
     }
 
-    a {
-      svg {
-        padding-right: 12px;
-        transition: .1s all;
-      }
-
-      &:hover {
-        svg {
-          padding-left: 8px;
-          padding-right: 4px;
-        }
-      }
-    }
-
     .subsection {
       margin-bottom: 40px;
 

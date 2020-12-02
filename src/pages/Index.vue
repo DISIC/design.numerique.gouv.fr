@@ -281,7 +281,7 @@
     }
 
     .alert {
-      margin-bottom: 96px;
+      margin-bottom: 80px;
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 64px;
@@ -354,7 +354,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      margin-top: 120px;
+      margin-top: 96px;
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-top: 80px;
@@ -452,7 +452,7 @@
     }
 
     .item {
-      margin-bottom: 80px;
+      margin-bottom: 64px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -493,10 +493,10 @@
 
       &__illustration {
         display: inline-block;
-        height: 240px;
+        height: 160px;
 
         @media only screen and (max-width: $mobile-max-width) {
-          height: 160px;
+          height: 120px;
           width: 100%
         }
 

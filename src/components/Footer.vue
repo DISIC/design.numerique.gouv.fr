@@ -177,7 +177,7 @@
 
         li {
           list-style-type: none;
-          margin-right: 16px;
+          margin-right: 24px;
           display: inline-flex;
         }
       }

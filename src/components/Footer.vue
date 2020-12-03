@@ -22,17 +22,16 @@
             <p>DesignGouv</p>
             <ul>
               <li><g-link to="/equipe/">Notre équipe</g-link></li>
-              <li><a href="https://twitter.com/design_gouv" title="Twitter - Nouvelle fenêtre" target="_blank">
+              <li><g-link to="/recrutement/">Recrutement</g-link></li>
+              <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank">
                 Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
+                </a></li>
+              <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank">
+                Instagram <font-awesome  width="0" :icon="['fab', 'instagram']"/>
                 </a></li>
               <li><a href="mailto:contact@design.numerique.gouv.fr" title="Contact - Nouvelle fenêtre" target="_blank">
                   Contact <font-awesome width="0" :icon="['fas', 'paper-plane']" transform="shrink-2"/>
                   </a></li>
-              <li><g-link to="/recrutement/">Recrutement</g-link></li>
-              <li><g-link to="/misc/accessibilite/">Accessibilité : partiellement conforme</g-link></li>
-              <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
-              <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>
-              <li><g-link to="/misc/plan-du-site/">Plan du site</g-link></li>
             </ul>
           </div>
           <div>
@@ -52,6 +51,15 @@
               <li><a href="https://api.gouv.fr" title="api.gouv.fr - Nouvelle fenêtre" target="_blank">api.gouv.fr</a></li>
             </ul>
           </div>
+        </div>
+
+        <div class="footer__sites-publics">
+          <ul>
+            <li><g-link to="/misc/accessibilite/">Accessibilité : partiellement conforme</g-link></li>
+            <li><g-link to="/misc/donnees-personnelles/">Données personnelles</g-link></li>
+            <li><g-link to="/misc/mentions-legales/">Mentions légales</g-link></li>
+            <li><g-link to="/misc/plan-du-site/">Plan du site</g-link></li>
+          </ul>
         </div>
 
         <div class="footer__sites-publics">
@@ -145,7 +153,7 @@
     }
 
     .footer__websites {
-      margin: 16px 0 8px 0;
+      margin: 16px 0 32px 0;
       display: flex;
       flex-flow: row wrap;
       justify-content: space-between;
@@ -164,7 +172,7 @@
     }
 
     .footer__sites-publics {
-      margin-top: 24px;
+      margin-top: 12px;
 
       a {
         font-size: 0.875rem;

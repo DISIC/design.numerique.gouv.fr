@@ -10,7 +10,8 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import {
   faGithub,
-  faTwitter
+  faTwitter,
+  faInstagram
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faPaperPlane,
@@ -74,11 +75,12 @@ library.add(
   faUniversity,
   faUserFriends,
   faDesktop,
+  faInstagram
   )
   export default function (Vue, { router, head, isClient }) {
-    // Set default layout as a global componentÒ    
+    // Set default layout as a global componentÒ
     Vue.component('Layout', DefaultLayout)
-    Vue.component('font-awesome', FontAwesomeIcon)  
+    Vue.component('font-awesome', FontAwesomeIcon)
     head.script.push({ src: '/assets/js/all.min.js', body: false })
     head.htmlAttrs = { lang: 'fr' }
 }

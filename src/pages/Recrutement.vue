@@ -35,7 +35,7 @@
           <h2>Les offres</h2>
           <ul class="jobs">
             <li v-for="{ node } in $page.allJob.edges" :key="node.id">
-              <g-link :to="node.path" class="button">
+              <g-link :to="node.path" class="button button--blue">
                 <h3>{{ node.title }}</h3>
                 <p>{{ node.type }}</p>
               </g-link>
@@ -146,14 +146,8 @@
           }
 
           p {
-            color: $dark-gray;
+            font-weight: normal;
             margin: 0;
-          }
-
-          &:hover {
-            h3, p {
-              color: white;
-            }
           }
         }
 

@@ -242,7 +242,6 @@
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-  @import "src/assets/scss/_articles.scss";
 
   .index-page {
 

@@ -1,7 +1,7 @@
 <template>
   <footer role="contentinfo" >
 
-      <img src="/assets/images/logoRF.svg" width="120" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+      <img src="/assets/images/logoRF.svg" width="120" alt="République Française. Liberté Égalité Fraternité."/>
 
       <div class="footer__content">
 
@@ -105,15 +105,6 @@
       padding: 20px 12px 24px 12px;
       margin-top: 64px;
       display: inline-block;
-    }
-
-    .footer__logo-rf {
-      width: 121px;
-      margin: 20px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin: 0 0 20px 0;
-      }
     }
 
     .footer__dg-title {

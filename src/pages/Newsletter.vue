@@ -208,22 +208,24 @@
         font-size: 14px;
 
         &[type=checkbox] {
-
+          flex-basis: 8px;
+          height: 8px;
           border: 2px solid $black;
-          padding: 1px 4px;
-          width: 24px;
-          height: 24px;
+          position: relative;
+          opacity: inherit;
 
           &:checked {
             background: $black;
 
-            &:after {
+            &::after {
               content: "✓";
               color: white;
               font-weight: bold;
               display: block;
               font-size: 14px;
               position: absolute;
+              top: 3px;
+              left: 5.5px;
             }
           }
         }
@@ -231,7 +233,12 @@
 
       label {
         display: inline-block;
-        margin: 4px 0;
+        margin: 8px 0 4px 0;
+        padding: 0;
+
+        &::before, &::after {
+          display: none;
+        }
       }
 
       select {

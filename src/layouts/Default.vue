@@ -1,11 +1,10 @@
 <template>
   <div>
 
-    <!--skipLink/-->
+    <!--SkipLink/-->
     <Header />
 
     <main class="layout" id="main" role="main">
-      <!--Breadcrumb /-->
       <slot/>
       <Newsletter v-if="!hideNewsletter"/>
       <Offer v-if="showServices"/>

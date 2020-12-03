@@ -250,6 +250,8 @@
 
       @media only screen and (max-width: $mobile-max-width) {
         padding-bottom: 56px;
+        margin-top: 0;
+        margin-bottom: 80px;
       }
 
       h1 {
@@ -281,7 +283,7 @@
     }
 
     .alert {
-      margin-bottom: 64px;
+      margin-bottom: 80px;
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 64px;

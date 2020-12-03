@@ -11,7 +11,7 @@
         </li>
       </ol>
     </nav>
-    
+
     <div class="cover">
      <div class="cover__container cover__container--light">
 
@@ -35,7 +35,7 @@
           <h2>Les offres</h2>
           <ul class="jobs">
             <li v-for="{ node } in $page.allJob.edges" :key="node.id">
-              <g-link :to="node.path">
+              <g-link :to="node.path" class="button">
                 <h3>{{ node.title }}</h3>
                 <p>{{ node.type }}</p>
               </g-link>
@@ -126,21 +126,15 @@
       justify-content: space-between;
       flex-wrap: wrap;
 
-      h3 {
-        margin-bottom: 4px;
-      }
-
       > li {
         list-style: none;
         text-align: center;
         width: 48%;
-        margin: 24px 4px;
+        margin: 8px 4px;
 
         a {
-          border: 1px solid $gray-hover;
-          padding: 8px 12px 20px;
-          border-radius: 8px;
-          text-decoration: none;
+          padding: 8px 16px 16px;
+          border-radius: 16px;
           height: 100%;
           display: flex;
           flex-direction: column;
@@ -148,29 +142,23 @@
           box-sizing: border-box;
 
           h3 {
-            color: black;
+            margin-bottom: 8px;
           }
 
           p {
-            color: $mid-gray;
+            color: $dark-gray;
+            margin: 0;
           }
 
           &:hover {
-            border-color: $blue;
-
-            h3 {
-              color: $blue;
+            h3, p {
+              color: white;
             }
           }
-
         }
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
-        }
-
-        p {
-            margin: 0;
         }
       }
     }

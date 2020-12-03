@@ -74,6 +74,7 @@ module.exports = {
         },
         fallbackLocale: 'en-gb', // fallback language
         defaultLocale: 'fr-fr', // default language
+        rewriteDefaultLanguage: false,
         messages: {
           'en-gb': require('./src/locales/en-gb.json'), // Messages files
           'fr-fr': require('./src/locales/fr-fr.json'),

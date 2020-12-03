@@ -43,7 +43,12 @@
           <li>La <a href="https://pidila.gitlab.io/checklist-pidila/" target="_blank">Checklist Pidila</a> regroupe les critères des différents référentiels et bonnes pratiques du web.</li>
         </ul>
       </section>
-
+      <section>
+        <h2>Obligations légales</h2>
+        <ul>
+          <li>Le <a href="https://betagouv.github.io/a11y-generateur-declaration/" title="Générateur de déclaration d’accessibilité - Nouvelle fenêtre" target="_blank">générateur de déclaration d’accessibilité</a> produit par <a target="_blank" title="BetaGouv - nouvelle fenêtre" href="https://beta.gouv.fr">BetaGouv</a>.</li>
+        </ul>
+      </section>
       <section>
         <h2>Prochainement</h2>
         <ul>

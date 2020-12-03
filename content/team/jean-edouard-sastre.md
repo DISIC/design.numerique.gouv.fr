@@ -1,6 +1,6 @@
 ---
 id: jean-edouard-sastre
-firstName: Jean-Edouard
+firstName: Édouard
 lastName: Sastre
 photo: ./photos/jean-edouard-sastre.png
 job_title: Designer

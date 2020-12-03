@@ -61,6 +61,25 @@ module.exports = {
         },
       }
     },
+    {
+      use: "gridsome-plugin-i18n",
+      options: {
+        locales: [
+          'en-gb',
+          'fr-fr'
+        ],
+        pathAliases: {
+          'en-gb': 'en',
+          'fr-fr': 'fr'
+        },
+        fallbackLocale: 'en-gb', // fallback language
+        defaultLocale: 'fr-fr', // default language
+        messages: {
+          'en-gb': require('./src/locales/en-gb.json'), // Messages files
+          'fr-fr': require('./src/locales/fr-fr.json'),
+        },
+      },
+    },
   ],
   transformers: {
     remark: {

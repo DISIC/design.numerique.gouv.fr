@@ -44,8 +44,7 @@
         <ol>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
-            Renan CUISINIERE / renan.cuisiniere@alterway.fr ; gpaw-accessdae@alterway.fr / Tel : 01 41 16 83 88 / 06 98 51 29 89 / 06 08 87 17 14
-
+            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98
         </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
@@ -94,7 +93,7 @@
           </li>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
-            Renan CUISINIERE / renan.cuisiniere@alterway.fr ; gpaw-accessdae@alterway.fr / Tel : 01 41 16 83 88 / 06 98 51 29 89 / 06 08 87 17 14
+            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98
           </li>
           <li>
             <strong>TOSCA Consultants</strong><br>

@@ -17,6 +17,7 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
     "global": "^4.4.0",
+    "gridsome-plugin-i18n": "^1.6.0",
     "gridsome": "^0.7.22",
     "gridsome-plugin-matomo": "^0.1.0",
     "gridsome-plugin-remark-container": "^0.1.3",

@@ -1,7 +1,14 @@
 <template>
   <div>
-
+  
     <!--SkipLink/-->
+
+    <div v-show="$i18n.locale == 'en-gb' " class="if-english">
+      <g-link to="/en/about" >
+        Don't speak french? Take a quick tour of what we do
+      </g-link>
+    </div>
+
     <Header />
 
     <main class="layout" id="main" role="main">
@@ -47,7 +54,7 @@ query {
         default: false,
         type: Boolean
       },
-    }
+    },
   }
 </script>
 
@@ -123,6 +130,18 @@ query {
 
   a {
     box-shadow:none;
+  }
+  
+  .if-english {
+    background: $light;
+    text-align: center;
+
+    a {
+      display: block;
+      border: 0;
+      font-weight: bold;
+      padding: 15px;
+    }
   }
 
   .layout {

@@ -24,21 +24,27 @@ L'objectif de ce défi est de rendre cette démarche plus désirable, fluide, ac
 Au delà d'apporter une expérience plus fluide pour les usagers, à la clé c'est plus de 11 millions d'euros qui pourraient être économisés ainsi que plus de 200 tonnes de CO2 par an.  
 
 
-<!-- ## À propos de la démarche
-- **Réalisable en ligne :** Oui
-- **Public concerné :** Particuliers
-- **Volumétrie annuelle :** 7 973 138 (seulement 44% de recours à la voie dématérialisée)
-- **Lien :** https://www.usagers.antai.gouv.fr/demarches/saisienumero?lang=fr -->
+## Le défi étape par étape
 
-<!-- ## Postes à pourvoir
+:::steps
+### Découverte de la démarche de contestation de contravention
 
-### Deux designers produit
-- Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
-- Expertise à évaluer la facilité d'utilisation de parcours existants et proposer des recommandations réfléchies
-- Expertise en recherche utilisateur et tests d'utilisabilité
-- Bonne connaissance des technologies numériques
-- Connaissances en accessibilité numérique
-- Esthétique visuelle forte, propre et élégante
-- Forte capacité à résoudre les problèmes
-- Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour -->
+Nous débutons notre travail avec l’équipe projet de l’Agence nationale de traitement automatisé des infractions (ANTAI), en prenant connaissance des différents parcours de contestation en ligne et des éléments papier qui les accompagnent. Pour comprendre les irritants des usagers, nous lisons les données de [l’observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre"}. Ces plus de 25 000 avis constituent notre première source d’information provenant des usagers.
+
+### Rencontre avec l’ensemble de la chaîne de contravention
+
+Lors d’un déplacement au Centre National de Traitement de Rennes, nous rencontrons le prestataire qui édite, envoie puis réceptionne et traite les contraventions ; ainsi que le parquet de Rennes et des officiers du ministère public. Nous discutons également avec l’équipe de développement du site et découvrons le Centre d’appel.
+
+### Atelier de co-construction
+
+Lorsqu’ils rencontrent un problème sur le parcours de contestation, les usagers peuvent contacter des conseillers par téléphone. Nous avons donc mené un atelier collaboratif avec ces conseillers. Possédant une connaissance fine des utilisateurs, l’exercice a permis d’identifier les problèmes récurrents rencontrés sur le parcours et d’évoquer des pistes de solutions.
+
+### Réalisation d’un état des lieux
+
+Cette analyse de l’existant comprend deux éléments : l’accessibilité et la compréhension du service en ligne.
+Nous réalisons un premier audit d’accessibilité (RGAA) sur 25 critères que nous partageons avec les développeurs. Puis, nous menons des tests d’utilisabilité avec une douzaine de personnes en entretien individuel en visioconférence, où les participants manipulent une maquette du site tel qu’il est aujourd’hui. Le but est d’identifier les freins et besoins pour proposer des améliorations qui porteront sur la navigation comme sur la compréhension de la démarche et du vocabulaire employé.
+
+### ... à suivre
+
+Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+:::

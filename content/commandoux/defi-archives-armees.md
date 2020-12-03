@@ -19,26 +19,34 @@ Cette démarche permet aux appelés et aux engagés, français et étrangers, so
 
 Lorsque l'usager arrive aux archives, c'est qu'il est au bout de sa course : on se doit de lui offrir un service simple, convivial, accessible et compréhensible.
 
+
 ## Objectifs du défi
 
 - Mise en ligne de la démarche
 - Créer une expérience désirable, accessible, et compréhensible en s'appuyant fortement sur des tests usager
 - Atteindre 50% de recours à la voie numérique au premier semestre 2021
 
-<!-- ## À propos de la démarche
-- **Réalisable en ligne :** Non
-- **Public concerné :** Particuliers
-- **Volumétrie annuelle :** 180 000 -->
 
-<!-- ## Poste à pourvoir
+## Le défi étape par étape
 
-### Une ou un designer produit
-- Expertise en conception d'interfaces responsives, création de prototypes et designs pixel-perfect
-- Expertise à évaluer la facilité d'utilisation de parcours existants et proposer des recommandations réfléchies
-- Expertise en recherche utilisateur et tests d'utilisabilité
-- Bonne connaissance des technologies numériques
-- Connaissances en accessibilité numérique
-- Esthétique visuelle forte, propre et élégante
-- Forte capacité à résoudre les problèmes
-- Capacité à communiquer efficacement
-- Curiosité, rigueur et sens de l'humour -->
+:::steps
+### Prise de connaissance du terrain
+
+Jocelyn se rend dans les administrations, ce qui lui permet de comprendre le fonctionnement du Service Historique de la Défense (SHD) et du Centre des archives du personnel militaire de Pau (CAPM). Chaque année, près de 180 000 personnes envoient des requêtes papier (ou scannées, envoyées par mail) au CAPM de Pau, où elles sont traitées à la main, une par une. Les anciens militaires et leurs proches font ces demandes de documents, certains permettant d’accéder à des droits. Cette partie est alors gérée par le CAPM, si la requête concerne l’armée de terre.
+
+### Audit du site existant
+
+Le site du SHD a été refait depuis peu, dans une démarche de facilitation des archives. Les demandes de documents administratifs se font, quant à elles, toujours à la main. Jocelyn identifie alors les problèmes d’utilisation du site lors d’un audit, et commence à proposer des solutions pour intégrer à ce dernier les demandes du public militaire et de leurs proches.
+
+### Recommandations
+
+Il s’accorde ensuite avec les administrations sur ce qui pourrait être réalisé et ce qui ne peut pas l’être pour ce défi, en construisant un modèle de pensée commun. Au-delà d’intégrer le public militaire et leurs proches à la démarche, Jocelyn essaie également d’améliorer la communication entre le SHD et le CAPM. Ceci permettra d’optimiser les démarches, et d’éviter les requêtes inutiles, par exemple éviter l’envoi de demandes qui traitent de l’armée de l’air au CAPM.
+
+### Prototypes et test
+
+Dans ce cadre-là, Jocelyn imagine une solution visuelle et commence à la faire tester. Le formulaire qu’il propose oriente le demandeur au fur et à mesure des réponses renseignées pour mieux l’orienter, et surtout pour permettre au CAPM de proposer une réponse adéquate. Jocelyn teste ce formulaire avec des profils correspondants aux futurs utilisateurs, identifie les aspects à améliorer et les points positifs, et commence l’élaboration d’un nouveau prototype.
+
+### ... à suivre
+
+Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+:::

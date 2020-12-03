@@ -348,6 +348,7 @@
           img {
             border-radius: 50em;
             max-width: 150px;
+            margin: 0 auto;
           }
 
           p {

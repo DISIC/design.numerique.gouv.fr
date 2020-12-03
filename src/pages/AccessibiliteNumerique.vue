@@ -38,7 +38,7 @@
           </p>
         </div>
         <div>
-          <AccessibilityIllustration class="illustration" focusable="false" aria-hidden="true"/>
+          <AccessibiliteIllustration class="illustration" focusable="false" aria-hidden="true"/>
         </div>
       </section>
 
@@ -97,12 +97,12 @@
 <script>
 
   import Accessibilite from "~/assets/images/accessibilite.svg"
-  import AccessibilityIllustration from "~/assets/images/illustration_accessibility.svg";
+  import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg";
 
   export default {
     components: {
       Accessibilite,
-      AccessibilityIllustration,
+      AccessibiliteIllustration,
     },
     metaInfo: {
       title: "Accessibilité numérique - DesignGouv",

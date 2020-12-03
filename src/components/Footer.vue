@@ -23,15 +23,21 @@
             <ul>
               <li><g-link to="/equipe/">Notre équipe</g-link></li>
               <li><g-link to="/recrutement/">Recrutement</g-link></li>
+              <li><a href="mailto:contact@design.numerique.gouv.fr" title="Contact - Nouvelle fenêtre" target="_blank">
+                  Contact <font-awesome width="0" :icon="['fas', 'paper-plane']" transform="shrink-2"/>
+                  </a></li>
               <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank">
                 Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
                 </a></li>
               <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank">
                 Instagram <font-awesome  width="0" :icon="['fab', 'instagram']"/>
                 </a></li>
-              <li><a href="mailto:contact@design.numerique.gouv.fr" title="Contact - Nouvelle fenêtre" target="_blank">
-                  Contact <font-awesome width="0" :icon="['fas', 'paper-plane']" transform="shrink-2"/>
-                  </a></li>
+              <li><a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw" title="Youtube - Nouvelle fenêtre" target="_blank">
+                Youtube <font-awesome  width="0" :icon="['fab', 'youtube']"/>
+                </a></li>
+              <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank">
+                Linkedin <font-awesome  width="0" :icon="['fab', 'linkedin']"/>
+                </a></li>
             </ul>
           </div>
           <div>
@@ -107,7 +113,7 @@
     }
     a.footer__logo {
       box-shadow: none;
-      }  
+      }
     @media only screen and (max-width: $mobile-max-width) {
       padding: 20px 12px 24px 12px;
       margin-top: 64px;

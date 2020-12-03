@@ -11,7 +11,9 @@ import { config, library } from '@fortawesome/fontawesome-svg-core'
 import {
   faGithub,
   faTwitter,
-  faInstagram
+  faInstagram,
+  faYoutube,
+  faLinkedin
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faPaperPlane,
@@ -75,7 +77,9 @@ library.add(
   faUniversity,
   faUserFriends,
   faDesktop,
-  faInstagram
+  faInstagram,
+  faYoutube,
+  faLinkedin
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ

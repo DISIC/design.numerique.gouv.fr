@@ -81,6 +81,15 @@
           @media only screen and (max-width: $mobile-max-width) {
             margin-top: 0.5rem;
           }
+
+          //Fix menu icon positoin on Safari
+          @media not all and (min-resolution:.001dpcm) {
+            @supports (-webkit-appearance:none) {
+              .rf-btn::before {
+                padding-bottom: 32px;
+              }
+            }
+          }
         }
       }
     }

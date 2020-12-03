@@ -164,6 +164,9 @@ export default {
     list-style-type: none;
     border-bottom: none;
   }
+        .rf-accordion__title {
+        display: inline-block;
+      }
   :root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
     background: none;
   }

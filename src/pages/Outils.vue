@@ -106,7 +106,9 @@
   .outils-page {
 
     .content {
-
+      .rf-accordion__title {
+        display: inline-block;
+      }
       li {
         list-style: inside;
        }

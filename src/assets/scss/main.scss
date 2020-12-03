@@ -87,7 +87,7 @@ h3 {
 a {
   position: static;
 
-  &:not(button):not(.button):not(.rf-service__title):not(.rf-link) {
+  &:not(button):not(.button):not(.rf-service__title):not(.rf-link):not(.footer__logo) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;
@@ -102,7 +102,7 @@ a {
     &:focus {
       background-color: $light;
       outline-color: $dark-gray;
-    }
+    }    
   }
 
   &[target="_blank"]::after {

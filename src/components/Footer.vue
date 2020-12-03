@@ -7,7 +7,7 @@
 
         <div class="footer__description">
 
-          <g-link to="/" title="DesignGouv - Retour à l'accueil">
+          <g-link to="/" class="footer__logo" title="DesignGouv - Retour à l'accueil">
             <p class="footer__dg-title">DesignGouv</p>
             <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
           </g-link>
@@ -101,6 +101,13 @@
       border-bottom: none !important;
     }
 
+    .footer__description a.footer__logo {
+      display: inline-block;
+
+    }
+    a.footer__logo {
+      box-shadow: none;
+      }  
     @media only screen and (max-width: $mobile-max-width) {
       padding: 20px 12px 24px 12px;
       margin-top: 64px;

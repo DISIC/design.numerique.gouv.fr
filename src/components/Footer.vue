@@ -7,8 +7,9 @@
 
         <div class="footer__description">
 
-          <g-link to="/" >
-            <img src="/assets/images/logoDG.svg"  width="260"  class="header__logo-dg" alt="DesignGouv - Retour à l'accueil"/>
+          <g-link to="/" title="DesignGouv - Retour à l'accueil">
+            <p class="footer__dg-title">DesignGouv</p>
+            <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
           </g-link>
           <p>
             DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.</br>
@@ -107,13 +108,32 @@
       }
     }
 
-    .footer__logo-dg {
-      width: 260px;
-      max-width: 80%;
+    .footer__dg-title {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 800;
+      color: $black;
+      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        font-size: 1.5rem;
+        margin-top: 16px;
+      }
+    }
+
+    .footer__dg-tagline {
+      font-size: 0.75rem;
+      margin: -3px 0 0 2px;
+      color: $black;
+      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        font-size: 0.75rem;
+      }
     }
 
     .footer__content {
-      margin: 18px 40px 0px 40px;
+      margin: 0px 40px 0px 40px;
 
       @media only screen and (max-width: $mobile-max-width) {
         margin: 0;
@@ -121,7 +141,6 @@
     }
 
     .footer__description {
-      margin-top: 16px;
       max-width: 640px;
     }
 

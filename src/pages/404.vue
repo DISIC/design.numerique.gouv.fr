@@ -20,7 +20,7 @@
       RideIllustration,
     },
     metaInfo: {
-      title: "Erreur 404 - DesignGouv",
+      title: "Erreur 404",
       meta: [{
           name: 'description',
           content: "Oups, cette page n'existe pas."

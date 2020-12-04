@@ -31,7 +31,7 @@
       DesignIllustration,
     },
     metaInfo: {
-      title: "Design numérique - DesignGouv",
+      title: "Design numérique",
       meta: [
         { name: "description", content: "Cet espace est dédié aux agents publics soucieux de créer des services numériques accessibles pour tous." }
       ],

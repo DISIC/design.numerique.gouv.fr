@@ -110,7 +110,7 @@
     components: {
     },
     metaInfo: {
-      title: "Coronavirus : les initiatives d'entraide - DesignGouv",
+      title: "Coronavirus : les initiatives d'entraide",
       meta: [{
         name: 'description',
         content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."

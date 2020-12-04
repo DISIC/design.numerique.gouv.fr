@@ -111,7 +111,7 @@
       ServicesIllustration,
     },
     metaInfo: {
-      title: "Nos services pour améliorer vos démarches en ligne - DesignGouv",
+      title: "Nos services pour améliorer vos démarches en ligne",
       meta: [{
         name: 'description',
         content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."

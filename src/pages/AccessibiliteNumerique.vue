@@ -105,7 +105,7 @@
       AccessibiliteIllustration,
     },
     metaInfo: {
-      title: "Accessibilité numérique - DesignGouv",
+      title: "Accessibilité numérique",
       meta: [{
           name: 'description',
           content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."

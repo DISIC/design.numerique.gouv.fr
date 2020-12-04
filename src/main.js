@@ -86,5 +86,5 @@ library.add(
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr' }
-    head.script.push({ src: '/assets/js/all.min.js', body: false })
+    head.script.push({ src: '/assets/js/all.min.js', body: true })
 }

@@ -83,7 +83,7 @@ library.add(
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ
-    head.script.push({ src: '/assets/js/all.min.js', body: false })
+    head.script.push({ src: '/assets/js/all.min.js', body: true })
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr' }

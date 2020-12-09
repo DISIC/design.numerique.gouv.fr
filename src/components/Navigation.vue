@@ -10,28 +10,6 @@
       <li class="rf-nav__item">
         <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
       </li>
-      <!-- <li class="rf-nav__item">
-        <button class="rf-btn" aria-expanded="false" aria-controls="rf-nav-item-1" >Accessibilité</button>
-        <div class="rf-menu" id="rf-nav-item-1">
-          <ul class="rf-menu__list">
-            <li class="rf-menu__item">
-              <a class="rf-link" href="/accessibilite-numerique/">Accessibilité numérique</a>
-            </li>
-            <li class="rf-menu__item">
-              <a class="rf-link" href="/accessibilite-numerique/cadre-legal/">Obligations légales et sanctions</a>
-            </li>
-            <li class="rf-menu__item">
-              <a class="rf-link" href="/accessibilite-numerique/rgaa/">Le RGAA</a>
-            </li>
-            <li class="rf-menu__item">
-              <a class="rf-link" href="/accessibilite-numerique/schema-pluriannuel/">Schéma pluriannuel de mise en accessibilite</a>
-            </li>
-            <li class="rf-menu__item">
-              <a class="rf-link" href="/accessibilite-numerique/declaration-accessibilite/">Déclaration d‘accessibilite</a>
-            </li>
-          </ul>
-        </div>
-      </li> -->
       <li class="rf-nav__item">
         <a class="rf-link" href="/accompagnement/">Accompagnement</a>
       </li>

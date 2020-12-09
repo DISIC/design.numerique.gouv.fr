@@ -1,6 +1,6 @@
 <template>
   <div>
-  
+
     <!--SkipLink/-->
 
     <div v-show="$i18n.locale == 'en-gb' " class="if-english">
@@ -55,6 +55,13 @@ query {
         type: Boolean
       },
     },
+    created() {
+      let dsfr = document.createElement('script');
+      dsfr.src = "/assets/js/all.min.js";
+      dsfr.async = true;
+      dsfr.defer = true;
+      document.head.appendChild(dsfr);
+    }
   }
 </script>
 
@@ -131,7 +138,7 @@ query {
   a {
     box-shadow:none;
   }
-  
+
   .if-english {
     background: $light;
     text-align: center;

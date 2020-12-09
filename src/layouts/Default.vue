@@ -55,7 +55,7 @@ query {
         type: Boolean
       },
     },
-    created() {
+    mounted () {
       let dsfr = document.createElement('script');
       dsfr.src = "/assets/js/all.min.js";
       dsfr.async = true;

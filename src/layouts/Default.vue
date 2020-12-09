@@ -56,11 +56,18 @@ query {
       },
     },
     mounted () {
+      let src = "/assets/js/all.min.js"
+
       let dsfr = document.createElement('script');
-      dsfr.src = "/assets/js/all.min.js";
-      dsfr.async = true;
-      dsfr.defer = true;
-      document.head.appendChild(dsfr);
+      dsfr.type = "text/javascript";
+      dsfr.src = src;
+
+      let scripts = document.querySelectorAll('[src="' + src + '"]');
+      if (scripts.length > 0) {
+        scripts[0].remove();
+      }
+
+      document.body.appendChild(dsfr);
     }
   }
 </script>

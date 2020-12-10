@@ -183,7 +183,7 @@
         }
       }
 
-      > li {
+      li {
         list-style: none;
         text-align: center;
         width: 30%;
@@ -196,6 +196,7 @@
         img {
           border-radius: 50em;
           max-width: 150px;
+          margin: 0 auto;
         }
 
         p {

@@ -1,64 +1,76 @@
-button, .button {
-  text-decoration: none;
-  font-size: 1em;
-  font-weight: 700;
-  color: $black;
-  display: inline-block;
-  border: 2px solid $black;
-  background-color: white;
-  border-radius: 64px;
-
-  padding: 8px 24px;
-
-  cursor: pointer;
-  transition: .1s all;
-
-  &__icon {
-    padding-left: 8px;
-  }
-
-  &__left-icon {
-    padding-right: 8px;
-  }
-
-  &:hover, &:focus {
+main {
+  button, .button {
     text-decoration: none;
-    border-color: black;
+    font-size: 1em;
+    font-weight: 700;
+    color: $black;
+    display: inline-block;
+    border: 2px solid $black;
+    background-color: white;
+    border-radius: 64px;
+    box-shadow: none;
 
-    @media only screen and (min-width: $mobile-max-width+1) {
-      background-color: $black;
-      color: white;
+    padding: 8px 24px;
+
+    cursor: pointer;
+    transition: .1s all;
+
+    &__icon {
+      padding-left: 8px;
     }
-  }
 
-  &--blue {
-    color: $blue;
-    border-color: $blue;
+    &__left-icon {
+      padding-right: 8px;
+    }
 
     &:hover, &:focus {
+      text-decoration: none;
+      border-color: $black;
+
       @media only screen and (min-width: $mobile-max-width+1) {
+        background-color: $black;
         color: white;
-        border-color: $blue;
-        background-color: $blue;
       }
     }
-  }
 
-  &--highlight {
-    box-shadow: 5px 5px 0px $light;
-  }
-
-  &--light {
-    border: none;
-    color: $blue;
-    padding: 8px 0;
-
-    &:hover {
-      background-color: white;
+    &--blue {
       color: $blue;
+      border-color: $blue;
 
-      .button__icon {
-        padding-left: 16px;
+      h1, h2, h3, h4 {
+        color: $blue;
+      }
+
+      &:hover, &:focus {
+        @media only screen and (min-width: $mobile-max-width+1) {
+
+          color: white;
+          border-color: $blue;
+          background-color: $blue;
+
+          h1, h2, h3, h4 {
+            color: white;
+          }
+        }
+      }
+    }
+
+    &--highlight {
+      box-shadow: 5px 5px 0px $light;
+    }
+
+    &--light {
+      border: none;
+      color: $blue;
+      padding: 8px 0;
+
+      &:hover {
+        background-color: white;
+        color: $blue;
+
+        .button__icon {
+          padding-left: 16px;
+        }
       }
     }
   }

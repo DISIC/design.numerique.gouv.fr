@@ -1,7 +1,7 @@
 <template>
   <Layout class="formations-page">
 
-     <nav aria-label="Breadcrumb" class="breadcrumb">
+     <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
@@ -10,12 +10,12 @@
           <span aria-current="page">Les formations</span>
         </li>
       </ol>
-    </nav>
+    </nav> -->
 
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="highlight"><Formations class="h1__icon" focusable="false" aria-hidden="true"/>Les formations</h1>
+      <h1 class="text-highlight"><Formations class="h1__icon" focusable="false" aria-hidden="true"/>Formations</h1>
 
       <p class="cover__subtitle">De nombreuses formations sont disponibles, certaines accessibles
         gratuitement, pour vous former personnellement ou en équipe sur les divers
@@ -92,7 +92,7 @@
       FormationsIllustration,
     },
     metaInfo: {
-      title: "Les formations au design numérique et à l'accessibilté - DesignGouv",
+      title: "Les formations au design numérique et à l'accessibilté numérique",
       meta: [{
         name: 'description',
         content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
@@ -115,7 +115,7 @@
 </script>
 
 
-<style lang="scss">
+<style scoped lang="scss">
 
   @import "src/assets/scss/_vars.scss";
 
@@ -126,7 +126,6 @@
     }
 
     a {
-      font-weight: bold;
 
       svg {
         padding-right: 12px;

@@ -1,0 +1,127 @@
+.cover {
+  margin-top: 48px;
+  margin-bottom: 80px;
+  text-align: center;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 49%;
+
+  @media only screen and (max-width: $mobile-max-width) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__container {
+    max-width: 920px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    h1 {
+      margin: 16px 0;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin: 24px 0;
+      }
+    }
+
+    &--light {
+      text-align: left;
+      margin-top: 32px;
+      margin-bottom: -32px;
+      max-width: 760px;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        margin-top: 48px;
+      }
+
+      h1 {
+        color: $black;
+      }
+    }
+  }
+
+  &__illustration {
+    height: 240px;
+    padding-top: 32px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      height: 160px;
+      padding-top: 24px;
+    }
+
+    &--small {
+      height: 120px;
+      margin: 0 auto;
+
+      @media only screen and (max-width: $mobile-max-width){
+        height: 80px;
+      }
+    }
+  }
+
+  &__subhead {
+    max-width: 760px;
+    margin: 0 auto;
+    font-size: 1.25em;
+    font-weight: bold;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-bottom: -16px;
+      font-size: 1.125em;
+    }
+  }
+
+  &__subhead-icon {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin-bottom: -4px;
+    margin-right: 8px;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      display: inline;
+      height: 20px;
+      width: 20px;
+      margin-bottom: -3px;
+      margin-right: 8px;
+    }
+  }
+
+  &__subtitle {
+    max-width: 760px;
+    margin: 16px auto 0 auto;
+    padding: 0 8px;
+    font-size: 1.25em;
+    font-weight: 500;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      font-size: 1.125em;
+    }
+
+    &--small {
+      font-size: 1em;
+      font-weight: normal;
+    }
+  }
+
+  &--with-breadcrumb {
+    margin-top: 48px;
+    margin-bottom: 80px;
+
+    .cover__container {
+      max-width: 760px;
+    }
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-top: 32px;
+      margin-bottom: 64px;
+    }
+  }
+}

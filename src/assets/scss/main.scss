@@ -1,6 +1,12 @@
 @import "vars";
+
+@import "alerts";
+@import "articles";
+@import "breadcrumb";
 @import "buttons";
+@import "cover";
 @import "covid";
+@import "messages";
 
 body {
   margin: 0;
@@ -8,35 +14,18 @@ body {
   line-height: 1.5;
   color: $black;
 
-  .highlight {
+  .text-highlight {
     text-shadow: 5px 5px 0px $light;
   }
 
-  .blue {
-    color: $blue;
-  }
-}
-
-a {
-  text-decoration: none;
-  color: $blue;
-  transition: .2s all;
-  border-bottom: 1px solid rgba($blue, 0.5);
-
-  &:hover {
-    color: $red;
-    border-color: $red;
-  }
-  &:focus {
-    background-color: $light;
-    outline-color:$dark-gray;
+  .box-highlight {
+    box-shadow: 5px 5px 0px $light;
   }
 }
 
 h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2;
-  letter-spacing: -0.10px;
   color: $black;
 }
 
@@ -91,201 +80,46 @@ h2 {
   }
 }
 
-nav.breadcrumb {
-  margin-top: 16px;
-
-  @media only screen and (max-width: $mobile-max-width) {
-    font-size: 0.875em;
-  }
-
-  ol {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-  }
-
-  li {
-    display: inline;
-    margin: 0.25em 0 0.5em;
-    padding: 0;
-  }
-
-  li + li::before {
-    display: inline-block;
-    margin: 0 0.5em;
-    transform: rotate(15deg);
-    border-right: 0.1em solid $gray-hover;
-    height: 0.8em;
-    content: "";
-  }
-
-  & [aria-current="page"] {
-    color: black;
-    border: none;
-  }
+h3 {
+  font-size: 1.2em;
 }
 
+a {
+  position: static;
+
+  &:not(button):not(.button):not(.rf-service__title):not(.rf-link):not(.footer__logo) {
+    text-decoration: none;
+    color: $blue;
+    transition: .2s all;
+    box-shadow: none;
+    border-bottom: 1px solid rgba($blue, 0.5);
+
+    &:hover {
+      color: $dark-red;
+      border-color: $dark-red;
+    }
+
+    &:focus {
+      background-color: $light;
+      outline-color: $dark-gray;
+    }    
+  }
+
+  &[target="_blank"]::after {
+    content: none !important;
+  }
+}
+.rf-header .rf-nav {
+  margin:0;
+}
 .content {
   margin: 0 auto;
 
   section {
-    margin-bottom: 80px;
+    margin-bottom: 64px;
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;
     }
-  }
-}
-
-.cover {
-  margin-top: 48px;
-  margin-bottom: 80px;
-  text-align: center;
-  width: 100vw;
-  position: relative;
-  margin-left: -50vw;
-  left: 50%;
-
-  @media only screen and (max-width: $mobile-max-width) {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  &__container {
-    max-width: 920px;
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      padding-left: 16px;
-      padding-right: 16px;
-    }
-
-    h1 {
-      margin: 16px 0;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin: 32px 0 24px 0;
-      }
-    }
-
-    &--light {
-      text-align: left;
-      margin-top: 32px;
-      margin-bottom: -32px;
-      max-width: 760px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-top: 48px;
-      }
-
-      h1 {
-        color: $black;
-      }
-    }
-  }
-
-  &__illustration {
-    height: 240px;
-    padding-top: 32px;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      height: 160px;
-      padding-top: 24px;
-    }
-
-    &--small {
-      height: 120px;
-
-      @media only screen and (max-width: $mobile-max-width){
-        height: 80px;
-      }
-    }
-  }
-
-  &__subhead {
-    max-width: 760px;
-    margin: 0 auto;
-    font-size: 1.25em;
-    font-weight: bold;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-bottom: -16px;
-      font-size: 1.125em;
-    }
-  }
-
-  &__subhead-icon {
-    display: inline-block;
-    height: 24px;
-    width: 24px;
-    margin-bottom: -4px;
-    margin-right: 8px;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      display: inline;
-      height: 20px;
-      width: 20px;
-      margin-bottom: -3px;
-      margin-right: 8px;
-    }
-  }
-
-  &__subtitle {
-    max-width: 760px;
-    margin: 16px auto 0 auto;
-    padding: 0 8px;
-    font-size: 1.25em;
-    font-weight: 500;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      font-size: 1.125em;
-    }
-
-    &--small {
-      font-size: 1em;
-      font-weight: normal;
-    }
-  }
-
-  &--with-breadcrumb {
-    margin-top: 64px;
-    margin-bottom: 80px;
-
-    .cover__container {
-      max-width: 760px;
-    }
-
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-top: 40px;
-      margin-bottom: 64px;
-    }
-  }
-}
-
-.message {
-  text-align: center;
-  border: 2px solid $black;
-  padding: 32px 48px 16px 48px;
-  border-radius: 32px;
-
-  @media only screen and (max-width: $mobile-max-width) {
-    padding: 24px 24px 8px 24px;
-  }
-
-  h2 {
-    margin-top: 0;
-    font-size: 1.75em;
-    padding-bottom: 4px;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      font-size: 1.5em;
-    }
-  }
-
-  .button {
-    display: inline-block;
-    margin: 10px 0;
   }
 }

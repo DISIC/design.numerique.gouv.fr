@@ -2,14 +2,19 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
+import '~/assets/css/all.min.css'
 import '~/assets/scss/main.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 import { config, library } from '@fortawesome/fontawesome-svg-core'
 import {
   faGithub,
-  faTwitter
-  } from '@fortawesome/free-brands-svg-icons'
+  faTwitter,
+  faInstagram,
+  faYoutube,
+  faLinkedin
+} from '@fortawesome/free-brands-svg-icons'
 import {
   faPaperPlane,
   faArrowDown,
@@ -32,14 +37,14 @@ import {
   faUniversity,
   faUserFriends,
   faDesktop,
-  } from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons'
 import {
-    faFilePdf,
-    faFileWord,
-    faFileAlt,
-    faFileImage,
-    faEdit
-  } from '@fortawesome/free-regular-svg-icons'
+  faFilePdf,
+  faFileWord,
+  faFileAlt,
+  faFileImage,
+  faEdit
+} from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
 config.autoAddCss = false;
@@ -72,12 +77,14 @@ library.add(
   faUniversity,
   faUserFriends,
   faDesktop,
-)
-
-export default function (Vue, { router, head, isClient }) {
-  // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
-  Vue.component('font-awesome', FontAwesomeIcon)
-
-  head.htmlAttrs = { lang: 'fr' }
+  faInstagram,
+  faYoutube,
+  faLinkedin
+  )
+  export default function (Vue, { router, head, isClient }) {
+    // Set default layout as a global componentÒ
+    //head.script.push({ src: '/assets/js/all.min.js', body: false })
+    Vue.component('Layout', DefaultLayout)
+    Vue.component('font-awesome', FontAwesomeIcon)
+    head.htmlAttrs = { lang: 'fr' }
 }

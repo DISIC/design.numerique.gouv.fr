@@ -5,7 +5,7 @@
      <div class="cover__container">
 
        <!-- <strong>Coronavirus</strong> -->
-       <h1>Coronavirus : les opportunités d'<span class="highlight">entraide</span></h1>
+       <h1>Coronavirus : les opportunités d'<span class="text-highlight">entraide</span></h1>
 
        <p class="cover__subtitle">Retrouvez ci-dessous notre liste d'initiatives pour s'impliquer
           et aider dans différents domaines pendant l'épidémie de Coronavirus.</p>
@@ -110,7 +110,7 @@
     components: {
     },
     metaInfo: {
-      title: "Coronavirus : les initiatives d'entraide - DesignGouv",
+      title: "Coronavirus : les initiatives d'entraide",
       meta: [{
         name: 'description',
         content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-Defi" transform="translate(-95.000000, -1329.000000)">
+            <g id="problematique" transform="translate(95.000000, 1261.000000)">
+                <g id="Tools" transform="translate(0.000000, 68.000000)">
+                    <rect id="Forme" fill="#FF5638" transform="translate(20.000000, 19.999495) rotate(90.000000) translate(-20.000000, -19.999495) " x="16.5" y="10.4994949" width="7" height="19" rx="3.5"></rect>
+                    <rect id="Forme" fill="#FF5638" x="16.4999999" y="10.4994949" width="7" height="19" rx="3.5"></rect>
+                    <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,6 C12.2680135,6 6,12.2680135 6,20 C6,27.7319865 12.2680135,34 20,34 C27.7319865,34 34,27.7319865 34,20 C34,12.2680135 27.7319865,6 20,6 Z" id="Cercle" fill="#3355E3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

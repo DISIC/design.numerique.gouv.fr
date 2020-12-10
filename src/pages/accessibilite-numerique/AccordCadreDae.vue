@@ -1,6 +1,6 @@
 <template>
-  <Layout class="digital-accessibility-pages">
-    
+  <Layout>
+
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
@@ -52,7 +52,7 @@
           </li>
           <li>
             <strong>Groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</strong><br>
-            Nicolas Guêtré / ao_accessibiliteweb@mc2i.fr / Tel : 01 44 43 01 00 
+            Nicolas Guêtré / ao_accessibiliteweb@mc2i.fr / Tel : 01 44 43 01 00
           </li>
           <li>
             <strong>KOENA</strong><br>
@@ -89,7 +89,7 @@
         <ol>
           <li>
             <strong>Groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</strong><br>
-            Nicolas Guêtré / ao_accessibiliteweb@mc2i.fr / Tel : 01 44 43 01 00 
+            Nicolas Guêtré / ao_accessibiliteweb@mc2i.fr / Tel : 01 44 43 01 00
           </li>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
@@ -171,8 +171,5 @@ import Accessibilite from "~/assets/images/accessibilite.svg"
 
 
 <style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-  @import "src/assets/scss/_accessibility.scss";
 
 </style>

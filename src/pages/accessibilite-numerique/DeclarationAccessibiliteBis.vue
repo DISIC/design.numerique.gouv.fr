@@ -10,7 +10,7 @@
           <g-link to="/accessibilite-numerique/">Accessibility</g-link>
         </li>
         <li>
-          <span aria-current="page">Declaration of Accessibility</span>
+          <span aria-current="page">The Declaration of Accessibility</span>
         </li>
       </ol>
     </nav>
@@ -19,7 +19,7 @@
      <div class="cover__container">
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Declaration of Accessibility</h1>
+       <h1>The Declaration of Accessibility</h1>
 
       </div>
     </div>
@@ -85,8 +85,8 @@ export default {
   .content {
 
     ul, li, ol {
-      list-style: inside;
-      padding-left: 16px;
+      list-style: inherit;
+      margin-left: 16px;
      }
   }
 

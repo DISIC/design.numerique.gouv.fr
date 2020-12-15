@@ -23,7 +23,7 @@
     <div class="content">
 
         <section>
-          <h2>Déclaration de conformité - RGAA 4.0</h2>
+          <h2>Déclaration d’accessibilité</h2>
           <p>
             Le site design.numerique.gouv.fr est développé selon les recommendations du RGAA pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
           </p>

@@ -31,16 +31,19 @@
           <li><a href="/accessibilite-numerique/RGAA/">Le Référentiel général d'amélioration de l'accessibilité</a></li>
           <li><a href="/accessibilite-numerique/schema-pluriannuel/">Schéma pluriannuel de mise en accessibilité</a></li>
           <li><a href="/accessibilite-numerique/declaration-accessibilite/">Déclaration d'accessibilité</a></li>
+          <li><a href="/accessibilite-numerique/accord-cadre-dae">Accord-cadre interministériel</a></li>
           </ul>
-          <h2><a href="/services/">Nos services</a></h2>
-          <h2><a href="/formations/">Les formations</a></h2>
-          <h2><a href="/equipe/">Notre équipe</a></h2>
-          <h2><a href="/recrutement/">Recrutement</a></h2>
+          <h2><a href="/services/">Accompagnement</a></h2>
+          <h2><a href="/outils/">Outils</a></h2>
+          <h2><a href="/formations/">Formations</a></h2>
           <h2>Et </h2>
           <ul>
+            <li><a href="/equipe/">Notre équipe</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/recrutement/">Recrutement</a></li>
             <li><a href="/misc/accessibilite">Accessibilité</a></li>
-          <li><a href="/misc/donnees-personnelles">Données personnelles</a></li>
-          <li><a href="/misc/mentions-legales">Mentions légales</a></li>
+            <li><a href="/misc/donnees-personnelles">Données personnelles</a></li>
+            <li><a href="/misc/mentions-legales">Mentions légales</a></li>
           </ul>
         </section>
 

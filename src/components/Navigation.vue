@@ -1,5 +1,5 @@
 <template>
-  <nav class="rf-nav" role="navigation" aria-label="Menu principal" id="header-navigation">
+  <nav class="rf-nav" role="navigation" aria-label="Menu principal" id="nav">
     <ul class="rf-nav__list">
       <li class="rf-nav__item">
         <a class="rf-link" href="/">Accueil</a>

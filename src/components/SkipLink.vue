@@ -3,8 +3,11 @@
     <div class="rf-container">
         <ul class="rf-skiplinks__list">
             <li>
-                <a class="rf-link" href="#contenu">Accéder au contenu</a>
+                <a class="rf-link" href="#main">Accéder au contenu</a>
             </li>
+            <li>
+                <a class="rf-link" href="#nav">Accéder au menu</a>
+            </li> 
         </ul>
     </div>
 </div>

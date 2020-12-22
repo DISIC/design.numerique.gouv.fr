@@ -1,7 +1,7 @@
 <template>
   <div>
 
-    <!--SkipLink/-->
+    <SkipLink/>
 
     <div v-show="$i18n.locale == 'en-gb' " class="if-english">
       <g-link to="/en/about" >

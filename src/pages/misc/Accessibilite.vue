@@ -28,23 +28,16 @@
             Le site design.numerique.gouv.fr est développé selon les recommendations du référentiel général d’amélioration de l’accessibilité (RGAA) pour être accessible à tous les usagers quel que soit le matériel ou le logiciel utilisé pour naviguer sur internet.
           </p>
           <h3>État de conformité</h3>
-          <p>DesignGouv est <strong>partiellement conforme</strong> avec le RGAA 4.0.</p>
+          <p>DesignGouv est <strong>totalement conforme</strong> avec le RGAA 4.0.</p>
           <h3>Échantillon évalué</h3>
-          <p>L'audit a été effectué en septembre 2020 par nos soins sur l'échantillon suivant :</p>
+          <p>Un premier audit, effectué en septembre 2020, a permis d'identifier certaines anomalies et des axes de progressions. L'audit mené en décembre 2020 par nos soins n'a relevé aucune non-conformité sur l'échantillon suivant :</p>
           <ul>
             <li><a href="/">Accueil</a></li>
+            <li><a href="/newsletter/">Newsletter</a></li>
             <li><a href="/misc/mentions-legales/">Mentions légales</a></li>
             <li><a href="/misc/accessibilite">Accessibilité</a></li>
             <li><a href="/commando-ux/">Commando UX</a></li>
             <li><a href="/equipe/">Notre équipe</a></li>
-          </ul>
-          <h3>Résultats</h3>
-          <p><strong>Le taux de conformité au RGAA est de 91%.</strong></p>
-          <p>Les points à corriger sont :</p>
-          <ul>
-            <li>Liens d'évitement</li>
-            <li>Cohérence de la navigation (accueil, menu et plan du site)</li>
-            <li>Validité et structure du code html</li>
           </ul>
         </section>
 

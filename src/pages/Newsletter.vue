@@ -31,8 +31,6 @@
 
     <div class="content">
 
-      <p></p>
-
       <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" name="mc-embedded-subscribe-form" target="_blank">
 
         <div class="indicates-required"><span class="asterisk">*</span> champs obligatoires</div>
@@ -92,7 +90,7 @@
         </p>
 
         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c921e95d674341b87fd4fb6e6_bc185cd5f1" tabindex="-1" value=""></div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input title="les vrais gens savent" type="text" name="b_c921e95d674341b87fd4fb6e6_bc185cd5f1" tabindex="-1" value=""></div>
         <div class="clear"><input type="submit" value="Je m'inscris à la newsletter" title="Je m'inscris à la newsletter" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 
       </form>

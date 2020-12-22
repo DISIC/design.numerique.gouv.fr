@@ -46,7 +46,7 @@
           <label for="mce-group[21897]">Vous travaillez dans... </label>
           <div class="form-group-select">
             <select name="group[21897]" id="mce-group[21897]">
-              <option value=""></option>
+              <option >...</option>
               <option value="1">La fonction publique de l'État</option>
               <option value="2">La fonction publique des collectivités</option>
               <option value="4">Le privé</option>

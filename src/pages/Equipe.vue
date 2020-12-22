@@ -54,7 +54,7 @@
           <h2>Notre équipe</h2>
           <ul class="team">
             <li v-for="{ node } in team" :key="node.id">
-              <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
+              <g-image :src="node.photo" quality="100" height="150" width="150" :alt="node.firstName+' '+node.lastName" />
               <h3>{{ node.firstName }} {{ node.lastName }}</h3>
               <p>{{ node.job_title }}</p>
               <p v-if="node.sub_team_link">
@@ -72,7 +72,7 @@
           <h2>En appui</h2>
           <ul class="team">
             <li v-for="{ node } in external" :key="node.id">
-              <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
+              <g-image :src="node.photo" quality="100" height="150" width="150" :alt="node.firstName+' '+node.lastName" />
               <h3>{{ node.firstName }} {{ node.lastName }}</h3>
               <p>{{ node.job_title }}</p>
               <p v-if="node.sub_team_link">
@@ -90,7 +90,7 @@
           <h2>Le commando</h2>
           <ul class="team">
             <li v-for="{ node } in commando" :key="node.id">
-              <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
+              <g-image :src="node.photo" quality="100" height="150" width="150" :alt="node.firstName+' '+node.lastName" />
               <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
               <p>{{ node.job_title }}</p>
               <p v-if="node.sub_team_link">

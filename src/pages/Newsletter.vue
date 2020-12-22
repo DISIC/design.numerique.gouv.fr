@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-       <h1 class="text-highlight">Newsletter</h1>
+       <h1 lang="en" class="text-highlight">Newsletter</h1>
 
       </div>
 
@@ -37,7 +37,7 @@
 
         <div class="form-group">
           <label for="mce-EMAIL">
-            Votre e-mail  <span class="asterisk">*</span>
+            Votre adresse électronique <span class="asterisk">*</span>
           </label>
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
         </div>
@@ -63,16 +63,16 @@
             <li><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label for="mce-group[21901]-21901-0">Designer UX</label></li>
             <li><input type="checkbox" value="512" name="group[21901][512]" id="mce-group[21901]-21901-1"><label for="mce-group[21901]-21901-1">Designer UI</label></li>
             <li><input type="checkbox" value="2048" name="group[21901][2048]" id="mce-group[21901]-21901-2"><label for="mce-group[21901]-21901-2">Designer de services</label></li>
-            <li><input type="checkbox" value="64" name="group[21901][64]" id="mce-group[21901]-21901-3"><label for="mce-group[21901]-21901-3">Chef / cheffe de produit (product owner)</label></li>
-            <li><input type="checkbox" value="262144" name="group[21901][262144]" id="mce-group[21901]-21901-4"><label for="mce-group[21901]-21901-4">Chercheur / chercheuse utilisateur (user researcher)</label></li>
-            <li><input type="checkbox" value="1024" name="group[21901][1024]" id="mce-group[21901]-21901-5"><label for="mce-group[21901]-21901-5">Scrum master</label></li>
-            <li><input type="checkbox" value="128" name="group[21901][128]" id="mce-group[21901]-21901-6"><label for="mce-group[21901]-21901-6">Développeur / développeuse front-end</label></li>
-            <li><input type="checkbox" value="4096" name="group[21901][4096]" id="mce-group[21901]-21901-7"><label for="mce-group[21901]-21901-7">Développeur / développeuse back-end</label></li>
+            <li><input type="checkbox" value="64" name="group[21901][64]" id="mce-group[21901]-21901-3"><label for="mce-group[21901]-21901-3">Chef / cheffe de produit (<span lang="en">product owner</span>)</label></li>
+            <li><input type="checkbox" value="262144" name="group[21901][262144]" id="mce-group[21901]-21901-4"><label for="mce-group[21901]-21901-4">Chercheur / chercheuse utilisateur (<span lang="en">user researcher</span>)</label></li>
+            <li><input type="checkbox" value="1024" name="group[21901][1024]" id="mce-group[21901]-21901-5"><label for="mce-group[21901]-21901-5" lang="en">Scrum master</label></li>
+            <li><input type="checkbox" value="128" name="group[21901][128]" id="mce-group[21901]-21901-6"><label for="mce-group[21901]-21901-6">Développeur / développeuse <span lang="en">front-end</span></label></li>
+            <li><input type="checkbox" value="4096" name="group[21901][4096]" id="mce-group[21901]-21901-7"><label for="mce-group[21901]-21901-7">Développeur / développeuse <span lang="en">back-end</span></label></li>
             <li><input type="checkbox" value="8192" name="group[21901][8192]" id="mce-group[21901]-21901-8"><label for="mce-group[21901]-21901-8">Développeur / développeuse accessibilité</label></li>
             <li><input type="checkbox" value="16384" name="group[21901][16384]" id="mce-group[21901]-21901-9"><label for="mce-group[21901]-21901-9">Spécialiste en sciences comportementales</label></li>
-            <li><input type="checkbox" value="32768" name="group[21901][32768]" id="mce-group[21901]-21901-10"><label for="mce-group[21901]-21901-10">Rédacteur (UX writer)</label></li>
+            <li><input type="checkbox" value="32768" name="group[21901][32768]" id="mce-group[21901]-21901-10"><label for="mce-group[21901]-21901-10">Rédacteur (<span lang="en">UX writer</span>)</label></li>
             <li><input type="checkbox" value="65536" name="group[21901][65536]" id="mce-group[21901]-21901-11"><label for="mce-group[21901]-21901-11">Juriste</label></li>
-            <li><input type="checkbox" value="131072" name="group[21901][131072]" id="mce-group[21901]-21901-12"><label for="mce-group[21901]-21901-12">Data scientist</label></li>
+            <li><input type="checkbox" value="131072" name="group[21901][131072]" id="mce-group[21901]-21901-12"><label for="mce-group[21901]-21901-12" lang="en">Data scientist</label></li>
             <li><input type="checkbox" value="256" name="group[21901][256]" id="mce-group[21901]-21901-13"><label for="mce-group[21901]-21901-13">Autre</label></li>
           </ul>
           </fieldset>

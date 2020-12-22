@@ -47,7 +47,7 @@
           <h2>Accessibilité</h2>
 
           <p>
-            L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en <b>situation de handicap</b>.
+            L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>.
           </p>
 
           <g-link to="/accessibilite-numerique/" class="button button--blue button--highlight">
@@ -83,7 +83,7 @@
             <h2>Formations</h2>
 
             <p>
-              De nombreuses formations sont disponibles, que ce soit pour vous former <b>personnellement</b> ou en <b>équipe</b>.
+              De nombreuses formations sont disponibles, que ce soit pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>.
             </p>
           </div>
           <g-link to="/formations/" class="brick__link">
@@ -98,7 +98,7 @@
             <h2>Accompagement</h2>
 
             <p>
-              Vous avez un besoin ou des questions pour l’<b>amélioration de vos démarches</b>, nous sommes là pour vous accompagner !
+              Vous avez un besoin ou des questions pour l’<strong>amélioration de vos démarches</strong>, nous sommes là pour vous accompagner !
             </p>
           </div>
           <g-link to="/accompagnement/" class="brick__link">

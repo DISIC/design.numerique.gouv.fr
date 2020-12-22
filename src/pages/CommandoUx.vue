@@ -153,7 +153,7 @@
                      quality="100" height="120" width="120"
                      alt="Faustine Demiselle"/>
             <p><strong>Faustine Demiselle</strong></p>
-            <p>Designer</p>
+            <p lang="en">Designer</p>
             <p>Commando UX</p>
           </li>
           <li>
@@ -161,7 +161,7 @@
                      quality="100" height="120" width="120"
                      alt="Ugo Dessertine"/>
             <p><strong>Ugo Dessertine</strong></p>
-            <p>Lead Designer</p>
+            <p lang="en">Lead Designer</p>
             <p>Commando UX</p>
           </li>
           <li>

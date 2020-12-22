@@ -7,7 +7,7 @@
         </div>
         <div class="rf-header__navbar">
           <div class="rf-service">
-            <a class="rf-service__title" href="/" title="Retour à l'accueil DesignGouv">
+            <a class="rf-service__title" href="/" title="Retour à l’accueil DesignGouv">
               DesignGouv
             </a>
             <p class="rf-service__tagline">Par le pôle Design des services numériques</p>

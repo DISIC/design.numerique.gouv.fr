@@ -7,7 +7,7 @@
 
         <div class="footer__description">
 
-          <g-link to="/" class="footer__logo" title="DesignGouv - Retour à l'accueil">
+          <g-link to="/" class="footer__logo" title="DesignGouv - Retour à l’accueil">
             <p class="footer__dg-title">DesignGouv</p>
             <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
           </g-link>

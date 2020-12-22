@@ -31,19 +31,19 @@ query {
 </static-query>
 
 <script>
-  import Menu from "~/components/Menu.vue"
   import Header from "~/components/Header.vue"
   import Newsletter from "~/components/messages/Newsletter.vue"
   import Offer from "~/components/messages/Offer.vue"
   import Footer from "~/components/Footer.vue"
+  import SkipLink from "~/components/SkipLink.vue"
 
   export default {
     components: {
       Header,
-      Menu,
       Newsletter,
       Offer,
       Footer,
+      SkipLink,
     },
     props: {
       hideNewsletter: {

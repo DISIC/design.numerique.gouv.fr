@@ -36,9 +36,10 @@
         <div class="indicates-required"><span class="asterisk">*</span> champs obligatoires</div>
 
         <div class="form-group">
-          <label for="mce-EMAIL">
+          <label for="mce-EMAIL" aria-describedby="format">
             Votre adresse électronique <span class="asterisk">*</span>
           </label>
+          <p class="rf-hint-text" id="format">Au format prenom@mail.fr</p>
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
         </div>
 

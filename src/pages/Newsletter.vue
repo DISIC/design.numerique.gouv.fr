@@ -57,7 +57,8 @@
         </div>
 
         <div class="form-group form-group__checkboxes">
-          <strong>Votre expertise professionelle </strong>
+          <fieldset>
+          <legend>Votre expertise professionelle </legend>
           <ul>
             <li><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label for="mce-group[21901]-21901-0">Designer UX</label></li>
             <li><input type="checkbox" value="512" name="group[21901][512]" id="mce-group[21901]-21901-1"><label for="mce-group[21901]-21901-1">Designer UI</label></li>
@@ -74,6 +75,7 @@
             <li><input type="checkbox" value="131072" name="group[21901][131072]" id="mce-group[21901]-21901-12"><label for="mce-group[21901]-21901-12">Data scientist</label></li>
             <li><input type="checkbox" value="256" name="group[21901][256]" id="mce-group[21901]-21901-13"><label for="mce-group[21901]-21901-13">Autre</label></li>
           </ul>
+          </fieldset>
         </div>
 
         <!-- <div id="mce-responses" class="clear">
@@ -256,7 +258,12 @@
           cursor: pointer;
         }
       }
-
+      fieldset {
+        border: none;  
+        legend {
+          font-weight: bold;
+        }
+      }
       .form-group-select {
         padding: 0;
         margin: 0;

@@ -126,8 +126,10 @@
       </section>
 
       <section class="quote">
-        <blockquote>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</blockquote>
-        <cite><span lang="en">Don Norman</span>, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</cite>
+        <blockquote>
+          <p>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</p>
+          <footer><span lang="en">Don Norman</span>, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</footer>
+        </blockquote>        
       </section>
 
       <section>
@@ -467,7 +469,7 @@
     }
 
     .quote {
-      blockquote {
+      blockquote p {
         font-family: "Marianne";
         font-weight: 100;
         font-size: 1.5rem;
@@ -492,7 +494,11 @@
         }
       }
 
-      cite {
+      footer {
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: none;
         color: $black;
         text-align: left;
         font-style: normal;

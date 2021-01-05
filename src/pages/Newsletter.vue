@@ -211,6 +211,7 @@
         &[type=checkbox] {
           flex-basis: 8px;
           height: 8px;
+          width: 8px;
           border: 2px solid $black;
           position: relative;
           opacity: inherit;
@@ -234,9 +235,9 @@
 
       label {
         display: inline-block;
-        margin: 8px 0 4px 0;
+        margin: -8px 0 4px 0;
         padding: 0;
-
+vertical-align: super;
         &::before, &::after {
           display: none;
         }

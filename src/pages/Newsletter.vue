@@ -292,7 +292,6 @@
       }
 
       li {
-        display: flex;
         margin-bottom: 4px;
 
         &:hover {

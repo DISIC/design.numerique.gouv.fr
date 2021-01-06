@@ -3,10 +3,10 @@
     <div class="rf-container">
         <ul class="rf-skiplinks__list">
             <li>
-                <a class="rf-link" href="#main">Accéder au contenu</a>
+                <a class="rf-link" href="#main"  @click.stop>Accéder au contenu</a>
             </li>
             <li>
-                <a class="rf-link" href="#nav">Accéder au menu</a>
+                <a class="rf-link" href="#nav"  @click.stop>Accéder au menu</a>
             </li> 
         </ul>
     </div>

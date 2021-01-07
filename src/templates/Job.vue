@@ -24,13 +24,6 @@
       <div v-html="$page.job.content" />
 
       <div>
-        <h3>Pour candidater</h3>
-        <p>
-          Adressez votre CV (sans photographie, âge ou situation familiale) et votre e-mail de motivation à : <a href="mailto:candidatures-dinum@pm.gouv.fr">candidatures-dinum@pm.gouv.fr</a>.
-        </p>
-        <p>
-          Les services du Premier ministre sont engagés dans une politique active en faveur de la diversité, de l’égalité professionnelle et du handicap. A ce titre, le ou la candidat(e) ne doit indiquer aucune information personnelle (âge, situation de famille, photographie) sur sa candidature.
-        </p>
         <p>
           Si vous avez des questions, contactez <span v-html="$page.job.contact" />.
         </p>

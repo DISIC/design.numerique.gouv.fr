@@ -44,3 +44,8 @@ Savoir-être :
 * Esprit d’équipe
 * Sens de l’innovation, créativité
 * Sens de l'esthétique
+
+### Pour candidater
+Adressez votre CV (sans photographie, âge ou situation familiale) et votre e-mail de motivation à : candidatures-dinum@pm.gouv.fr.
+
+Les services du Premier ministre sont engagés dans une politique active en faveur de la diversité, de l’égalité professionnelle et du handicap. A ce titre, le ou la candidat(e) ne doit indiquer aucune information personnelle (âge, situation de famille, photographie) sur sa candidature.

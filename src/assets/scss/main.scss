@@ -124,6 +124,12 @@ li {
 .content {
   margin: 0 auto;
 
+  li {
+    margin-left: 16px;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
   section {
     margin-bottom: 64px;
 

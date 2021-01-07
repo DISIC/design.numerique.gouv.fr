@@ -85,6 +85,7 @@ h3 {
 }
 
 a {
+  box-shadow: none;
   position: static;
 
   &:not(button):not(.button):not(.rf-service__title):not(.rf-link):not(.footer__logo) {
@@ -102,16 +103,24 @@ a {
     &:focus {
       background-color: $light;
       outline-color: $dark-gray;
-    }    
+    }
   }
 
   &[target="_blank"]::after {
     content: none !important;
   }
 }
-.rf-header .rf-nav {
-  margin:0;
+
+li {
+  &::before {
+    display: none;
+  }
 }
+
+.rf-header .rf-nav {
+  margin: 0;
+}
+
 .content {
   margin: 0 auto;
 

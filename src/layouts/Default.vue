@@ -138,14 +138,6 @@ query {
     font-display: fallback;
   }
 
-  ul li::before, ol li::before {
-    display: none;
-  }
-
-  a {
-    box-shadow:none;
-  }
-
   .if-english {
     background: $light;
     text-align: center;

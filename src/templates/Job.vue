@@ -1,5 +1,18 @@
 <template>
   <Layout class="job-page">
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/recrutement/">Recrutement</g-link>
+        </li>
+        <li>
+          <span aria-current="page">{{ $page.job.title }}</span>
+        </li>
+      </ol>
+    </nav>
 
     <div class="cover">
      <div class="cover__container">
@@ -11,7 +24,6 @@
     </div>
     <div class="content job">
       <div class="about">
-        <h3>À propos</h3>
         <p>En partenariat avec les administrations porteuses des démarches administratives les plus utilisées par les Français, nous travaillons pour une meilleure inclusion des usagers, et pour l'amélioration de l'expérience de ces services pour tous. <g-link to="/equipe/">Faites connaissance avec notre équipe</g-link>.</p>
         <ul>
           <li><strong>Contrat : </strong><span v-html="$page.job.type" /></li>

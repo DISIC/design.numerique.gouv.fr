@@ -8,10 +8,10 @@ length: 12 mois maximum, à mi-temps
 contact: philippe.vrignaud@modernisation.gouv.fr
 ---
 
-### Rejoignez l'équipe produit de Démarches Simplifiées
+## Rejoignez l'équipe produit de Démarches Simplifiées
 Vous voulez mettre vos compétences au profit de l’amélioration du service public ? Vous souhaitez travailler dans une équipe agile, et proche de ses utilisateurs ? [Démarches simplifiées](https://www.demarches-simplifiees.fr/) recherche un ou une Designer UX Senior pour parfaire le service, afin qu’il devienne LE service de référence pour les démarches publiques en ligne !
 
-### Le produit
+## Le produit
 La direction interministérielle du numérique (DINUM), par le biais d’une startup d’État, a développé un outil visant à **faciliter la dématérialisation des démarches à faible et moyenne volumétrie** par les différentes administrations afin de fournir un service entièrement dématérialisé aux usagers.
 
 Le site [demarches-simplifiees.fr](https://www.demarches-simplifiees.fr/), lancé le 1er mars 2018, est une plateforme simple d’utilisation qui permet :
@@ -26,7 +26,7 @@ Le produit est développé en mode « agile » par une équipe intégré de 6 pe
 En savoir plus sur l’organisation de l’équipe et les modalités de travail :
 https://github.com/betagouv/demarches-simplifiees.fr/wiki
 
-### Responsabilités
+## Responsabilités
 Le/la UX Designer interviendra dans le cadre du plan d’amélioration du service aux usagers, et du programme des évolutions fonctionnelles prévues.
 
 - Proposer une méthode pour recueillir les besoins en tenant compte de la nécessaire représentativité des usagers (différents ministères, usagers, services instructeurs, etc.)
@@ -36,16 +36,16 @@ Le/la UX Designer interviendra dans le cadre du plan d’amélioration du servic
 - Définir et mettre en oeuvre les orientations UX du service
 - Construire l’architecture d’information et les parcours de navigation
 
-### Compétences
+## Compétences
 - Expertise dans le design d’interaction (UX et UI)
 - Expertise en recherche usager : mise en place et analyse
 - Expertise dans la construction d’une architecture de l’information
 - Connaissance ou appétence pour le secteur public
 - Bonus : connaissance dans les langages de développement, en particulier Ruby
 
-### Modalités
+## Modalités
 - Poste ouvert pour des indépendants et indépendantes sur une durée de 12 mois maximum, à mi-temps
 - Démarrage : dès que possible
 
-### Pour candidater
+## Pour candidater
 Adressez votre candiature à : philippe.vrignaud@modernisation.gouv.fr.

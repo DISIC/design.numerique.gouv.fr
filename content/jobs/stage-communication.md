@@ -8,10 +8,10 @@ length: 6 mois
 contact: marine.boudeau@modernisation.gouv.fr
 ---
 
-### Votre mission
+## Votre mission
 La ou le stagiaire fournit un accompagnement en animation et communication et valorise les actions en faveur de la transformation numérique de l’État au sein des différents ministères.
 
-### Vos activités
+## Vos activités
 * Concevoir et gérer des outils et supports de communication numériques
 * Rédiger des contenus de communication (réseaux sociaux, blog, newsletter)
 * Participer à l'organisation d'événements
@@ -20,7 +20,7 @@ La ou le stagiaire fournit un accompagnement en animation et communication et va
 
 La ou le stagiaire pourra également participer aux autres activités du pôle Design des services numérique.
 
-### Vos compétences
+## Vos compétences
 La candidate ou le candidat doit être en cours de validation d’un diplôme de commerce reconnu par la commission des titres ou d’un diplôme universitaire dans le domaine de la communication, du graphisme ou du design.
 
 Nous cherchons avant tout une personne enthousiaste et curieuse qui a envie d'apprendre ! Ne vous sentez pas freiné par la liste ci-dessous. 🙂
@@ -45,7 +45,7 @@ Savoir-être :
 * Sens de l’innovation, créativité
 * Sens de l'esthétique
 
-### Pour candidater
+## Pour candidater
 Adressez votre CV (sans photographie, âge ou situation familiale) et votre e-mail de motivation à : candidatures-dinum@pm.gouv.fr.
 
 Les services du Premier ministre sont engagés dans une politique active en faveur de la diversité, de l’égalité professionnelle et du handicap. A ce titre, le ou la candidat(e) ne doit indiquer aucune information personnelle (âge, situation de famille, photographie) sur sa candidature.

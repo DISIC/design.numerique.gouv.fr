@@ -85,6 +85,7 @@ h3 {
 }
 
 a {
+  box-shadow: none;
   position: static;
 
   &:not(button):not(.button):not(.rf-service__title):not(.rf-link):not(.footer__logo) {
@@ -102,18 +103,53 @@ a {
     &:focus {
       background-color: $light;
       outline-color: $dark-gray;
-    }    
+    }
   }
 
   &[target="_blank"]::after {
     content: none !important;
   }
 }
-.rf-header .rf-nav {
-  margin:0;
+
+li {
+  &::before {
+    display: none;
+  }
 }
+
+.rf-header .rf-nav {
+  margin: 0;
+}
+
 .content {
   margin: 0 auto;
+
+  ul {
+    padding-left: 20px;
+
+    > li {
+      list-style-type: disc;
+      list-style-position: outside;
+    }
+  }
+
+  ol {
+    padding-left: 32px;
+
+    > li {
+      counter-increment: item;
+      text-indent: -24px;
+
+      &::before {
+        content: counter(item) '.';
+        display: inline-block;
+        font-weight: bold;
+        text-align: right;
+        width: 16px;
+        font-size: 1rem;
+      }
+    }
+  }
 
   section {
     margin-bottom: 64px;

@@ -62,6 +62,23 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'GooseGameStep',
+        path: './content/goose/step/*.md',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'GooseGameCard',
+        path: './content/goose/card/*.md',
+        refs: {
+          step: 'GooseGameStep'
+        },
+      }
+    },
+    {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [

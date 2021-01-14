@@ -30,7 +30,7 @@
 
         <h2>À quoi ça sert ?</h2>
         <p>
-          Le RGAA harmonise les normes internationales de l'accessibilité numériques connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d'accessibilité d'un site est calculé en auditant ce site contre les critères du RGAA.</strong>
+          Le RGAA harmonise les normes internationales de l'accessibilité numériques connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
         </p>
         <p>
           La méthode technique du RGAA permet de vérifier qu’une page web, tout contenu HTML, est conforme aux 50 critères de succès des niveaux A et AA de la norme internationale WCAG 2.1 qui ont été retenus dans la norme européenne de référence pour établir le niveau d’exigence légale en matière d’accessibilité numérique.

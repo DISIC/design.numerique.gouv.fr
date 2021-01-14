@@ -64,17 +64,17 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'GooseGameStep',
+        typeName: 'GooseStep',
         path: './content/goose/step/*.md',
       }
     },
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'GooseGameCard',
+        typeName: 'GooseCard',
         path: './content/goose/card/*.md',
         refs: {
-          step: 'GooseGameStep'
+          step: 'GooseStep'
         },
       }
     },

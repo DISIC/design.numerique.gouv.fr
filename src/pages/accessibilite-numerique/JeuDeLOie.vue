@@ -34,16 +34,34 @@
             <p>{{ node.duration }}</p>
           </div>
 
-          <div v-for="{ node } in $page.allGooseCard.edges.filter(edge => edge.node.step.id === node.id)" :key="node.id" class="goose__card" :class="{ 'goose__card--top250': node.top250 }">
+          <div v-for="{ node } in $page.allGooseCard.edges.filter(edge => edge.node.step.id === node.id)"
+                :key="node.id"
+                class="goose__card"
+                :class="{ 'goose__card--top250': node.top250 }"
+                role="button"
+                v-on:click="openModal(node.id)">
             <div v-if="node.top250">
               <p>Top250</p>
               <h3>{{ node.title }}</h3>
+
+              <div :id="node.id" class="goose__modal">
+               <div class="goose__modal-content">
+                 <button class="close" v-on:click.stop="closeModal(node.id)">&times;</button>
+                 <div v-html="node.content" />
+               </div>
+             </div>
             </div>
             <div v-else>
               <!-- <g-image :src="node.illustration" focusable="false" aria-hidden="true"/> -->
               <p>{{ node.id.slice(node.id.length - 1) }}</p>
               <h3>{{ node.title }}</h3>
-              <!-- <div v-html="node.content" /> -->
+
+              <div :id="node.id" class="goose__modal">
+               <div class="goose__modal-content">
+                 <button class="close" v-on:click.stop="closeModal(node.id)">&times;</button>
+                 <div v-html="node.content" />
+               </div>
+             </div>
             </div>
           </div>
 
@@ -63,6 +81,16 @@
   export default {
     components: {
       Accessibilite,
+    },
+    methods: {
+      openModal (id) {
+        var modal = document.getElementById(id);
+        modal.style.display = "block";
+      },
+      closeModal (id) {
+        var modal = document.getElementById(id);
+        modal.style.display = "none";
+      }
     },
     metaInfo: {
       title: "Jeu de l'oie - DesignGouv",
@@ -162,6 +190,7 @@
         padding: 16px;
         flex-shrink: 0;
         width: 130px;
+        cursor: pointer;
 
         h3 {
           font-size: 1rem;
@@ -190,6 +219,31 @@
             color: $dark-gray;
           }
         }
+      }
+
+      &__modal {
+       display: none;
+       position: fixed; /* Stay in place */
+       z-index: 1; /* Sit on top */
+       left: 0;
+       top: 0;
+       width: 100%; /* Full width */
+       height: 100%; /* Full height */
+       overflow: auto; /* Enable scroll if needed */
+       background-color: rgb(0,0,0); /* Fallback color */
+       background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+
+      &__modal-content {
+       background-color: #fefefe;
+       margin: 15% auto; /* 15% from the top and centered */
+       padding: 20px;
+       border: 1px solid #888;
+       max-width: 720px; /* Could be more or less, depending on screen size */
+
+       .close {
+         float: right;
+       }
       }
     }
 

@@ -203,8 +203,9 @@
         justify-content: space-between;
 
         h2 {
-          margin: 8px;
+          margin: 12px 16px 8px 40px;
           font-size: 1.125rem;
+          display: inline-block;
         }
 
         p {
@@ -217,6 +218,7 @@
 
       &__step-id {
         display: inline-block;
+        position: absolute;
         color: $blue;
         border: 2px solid $blue;
         border-radius: 50%;
@@ -224,7 +226,7 @@
         height: 20px;
         padding: 2px;
         text-align: center;
-        margin-right: 8px;
+        margin: -4px 0 0 -36px;
       }
 
       &__card {
@@ -236,6 +238,11 @@
         flex-shrink: 0;
         width: 130px;
         cursor: pointer;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          width: 86%;
+          margin: 4px;
+        }
 
         h3 {
           font-size: 0.875rem;

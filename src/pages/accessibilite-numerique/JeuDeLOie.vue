@@ -43,9 +43,9 @@
                     role="button"
                     v-on:click="openModal(card.node.id)">
                 <div>
-                  <!-- <g-image :src="node.illustration" focusable="false" aria-hidden="true"/> -->
-                  <p v-if="card.node.top250">Top250</p>
-                  <p v-else>{{ card.node.id }}</p>
+                  <font-awesome  width="0" :icon="card.node.icon"/>
+                  <p v-if="card.node.top250" class="goose__card-id">Top250</p>
+                  <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3>{{ card.node.title }}</h3>
 
                   <div :id="card.node.id" class="goose__modal">
@@ -155,6 +155,7 @@
           title
           content
           top250
+          icon
           step {
             id
           }
@@ -264,6 +265,11 @@
             color: $dark-gray;
           }
         }
+      }
+
+      &__card-id {
+        display: inline-flex;
+        float: right;
       }
 
       &__modal {

@@ -43,7 +43,8 @@
             <div>
               <!-- <g-image :src="node.illustration" focusable="false" aria-hidden="true"/> -->
               <p v-if="card.node.top250">Top250</p>
-              <p v-else>{{ card.node.id.slice(card.node.id.length - 1) }}</p>
+              <!-- <p v-else>{{ card.node.id.slice(card.node.id.length - 1) }}</p> -->
+              <p v-else>{{ card.node.id }}</p>
               <h3>{{ card.node.title }}</h3>
 
               <div :id="card.node.id" class="goose__modal">
@@ -156,7 +157,7 @@
         background-color: $lighter-gray;
         display: flex;
         flex-wrap: wrap;
-        padding: 16px;
+        padding: 12px 16px 16px 16px;
         margin-bottom: 16px;
         border-radius: 32px;
       }
@@ -169,11 +170,11 @@
 
         h2 {
           margin: 12px;
-          font-size: 1.5rem;
+          font-size: 1.125rem;
         }
 
         p {
-          margin: 16px;
+          margin: 12px;
           font-weight: bold;
           color: $blue;
           flex-shrink: 0;
@@ -191,13 +192,14 @@
         cursor: pointer;
 
         h3 {
-          font-size: 1rem;
+          font-size: 0.875rem;
           margin: 0;
         }
 
         p {
+          font-size: 0.875rem;
           font-weight: bold;
-          margin: 0 0 16px 0;
+          margin: 0 0 12px 0;
         }
 
         &:hover {

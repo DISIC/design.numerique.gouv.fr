@@ -27,50 +27,53 @@
     <div class="content">
 
       <section class="goose">
-        <div v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
+        <ul>
+          <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
-          <div class="goose__step-title">
-            <h2>{{ step.node.id + '. ' + step.node.title }}</h2>
-            <p>{{ step.node.duration }}</p>
-          </div>
-
-          <div v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
-                :key="card.node.id"
-                class="goose__card"
-                :class="{ 'goose__card--top250': card.node.top250 }"
-                role="button"
-                v-on:click="openModal(card.node.id)">
-            <div>
-              <!-- <g-image :src="node.illustration" focusable="false" aria-hidden="true"/> -->
-              <p v-if="card.node.top250">Top250</p>
-              <!-- <p v-else>{{ card.node.id.slice(card.node.id.length - 1) }}</p> -->
-              <p v-else>{{ card.node.id }}</p>
-              <h3>{{ card.node.title }}</h3>
-
-              <div :id="card.node.id" class="goose__modal">
-                <div class="goose__modal-content">
-                  <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
-                  <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
-                  <h3>{{ card.node.title }}</h3>
-                  <div v-html="card.node.content" />
-                  <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                          name="Suivant"
-                          class="goose__previous-card"
-                          v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                    Étape précédente
-                  </button>
-                  <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                          name="Suivant"
-                          class="goose__next-card"
-                          v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
-                    Étape suivante
-                  </button>
-                </div>
-              </div>
+            <div class="goose__step-title">
+              <h2><span class="goose__step-id">{{ step.node.id }}</span>{{ step.node.title }}</h2>
+              <p>{{ step.node.duration }}</p>
             </div>
-          </div>
 
-        </div>
+            <ul>
+              <li v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
+                    :key="card.node.id"
+                    class="goose__card"
+                    :class="{ 'goose__card--top250': card.node.top250 }"
+                    role="button"
+                    v-on:click="openModal(card.node.id)">
+                <div>
+                  <!-- <g-image :src="node.illustration" focusable="false" aria-hidden="true"/> -->
+                  <p v-if="card.node.top250">Top250</p>
+                  <p v-else>{{ card.node.id }}</p>
+                  <h3>{{ card.node.title }}</h3>
+
+                  <div :id="card.node.id" class="goose__modal">
+                    <div class="goose__modal-content">
+                      <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
+                      <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
+                      <h3>{{ card.node.title }}</h3>
+                      <div v-html="card.node.content" />
+                      <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
+                              name="Suivant"
+                              class="goose__previous-card"
+                              v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
+                        Étape précédente
+                      </button>
+                      <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
+                              name="Suivant"
+                              class="goose__next-card"
+                              v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
+                        Étape suivante
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+          </li>
+        </ul>
       </section>
 
     </div>
@@ -171,13 +174,25 @@
 
     .goose {
 
+      ul {
+        padding: 0;
+        margin: 0;
+
+        > li {
+          list-style: none;
+        }
+      }
+
       &__step {
         background-color: $lighter-gray;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 12px 16px 16px 16px;
+        padding: 12px 16px;
         margin-bottom: 16px;
         border-radius: 32px;
+
+        > ul {
+          display: flex;
+          flex-wrap: wrap;
+        }
       }
 
       &__step-title {
@@ -187,16 +202,28 @@
         justify-content: space-between;
 
         h2 {
-          margin: 12px;
+          margin: 8px;
           font-size: 1.125rem;
         }
 
         p {
-          margin: 10px;
+          margin: 11px;
           font-weight: bold;
           color: $blue;
           flex-shrink: 0;
         }
+      }
+
+      &__step-id {
+        display: inline-block;
+        color: $blue;
+        border: 2px solid $blue;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 2px;
+        text-align: center;
+        margin-right: 8px;
       }
 
       &__card {
@@ -220,7 +247,7 @@
           margin: 0 0 12px 0;
         }
 
-        &:hover {
+        &:hover, &:focus {
           border-color: $blue;
           box-shadow: 5px 5px 0px $light;
 
@@ -273,7 +300,7 @@
 
         h3 {
           font-size: 2rem;
-          margin: 40px 0 40px 0;
+          margin: 40px 0 32px 0;
           color: $blue !important;
         }
 

@@ -30,7 +30,7 @@
         <div v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
           <div class="goose__step-title">
-            <h2>{{ step.node.title }}</h2>
+            <h2>{{ step.node.id + '. ' + step.node.title }}</h2>
             <p>{{ step.node.duration }}</p>
           </div>
 

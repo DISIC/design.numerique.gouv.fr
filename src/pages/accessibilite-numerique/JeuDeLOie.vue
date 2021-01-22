@@ -43,7 +43,7 @@
                     role="button"
                     v-on:click="openModal(card.node.id)">
                 <div>
-                  <font-awesome  width="0" :icon="card.node.icon"/>
+                  <font-awesome  class="goose__card-icon" :icon="card.node.icon"/>
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3>{{ card.node.title }}</h3>
@@ -232,7 +232,7 @@
         border: solid 2px $gray;
         border-radius: 16px;
         margin: 8px;
-        padding: 16px;
+        padding: 12px 16px;
         flex-shrink: 0;
         width: 130px;
         cursor: pointer;
@@ -245,16 +245,13 @@
         p {
           font-size: 0.875rem;
           font-weight: bold;
-          margin: 0 0 12px 0;
+          margin: 0 0 8px 0;
+          color: $blue;
         }
 
         &:hover, &:focus {
           border-color: $blue;
           box-shadow: 5px 5px 0px $light;
-
-          h3, p {
-            color: $black;
-          }
         }
 
         &--top250 {
@@ -267,9 +264,12 @@
         }
       }
 
-      &__card-id {
-        display: inline-flex;
+      &__card-icon {
+        font-size: 0.875rem;
         float: right;
+        color: $red;
+        margin: 3px;
+        text-align: right;
       }
 
       &__modal {

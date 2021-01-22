@@ -37,13 +37,29 @@ import {
   faUniversity,
   faUserFriends,
   faDesktop,
+  faUniversalAccess,
+  faQuestion,
+  faGavel,
+  faListUl,
+  faRoute,
+  faVial,
+  faCommentDots,
+  faFile,
+  faSearch,
+  faListOl,
+  faWrench,
+  faCheck,
+  faTasks,
+  faUserGraduate,
+  faSyncAlt,
+  faCalendarCheck
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faFilePdf,
   faFileWord,
   faFileAlt,
   faFileImage,
-  faEdit
+  faEdit,
 } from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -79,7 +95,23 @@ library.add(
   faDesktop,
   faInstagram,
   faYoutube,
-  faLinkedin
+  faLinkedin,
+  faUniversalAccess,
+  faQuestion,
+  faGavel,
+  faListUl,
+  faRoute,
+  faVial,
+  faCommentDots,
+  faFile,
+  faSearch,
+  faListOl,
+  faWrench,
+  faCheck,
+  faTasks,
+  faUserGraduate,
+  faSyncAlt,
+  faCalendarCheck
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ

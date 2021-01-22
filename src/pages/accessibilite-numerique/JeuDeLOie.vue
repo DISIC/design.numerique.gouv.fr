@@ -34,7 +34,7 @@
             <p>{{ step.node.duration }}</p>
           </div>
 
-          <div v-for="card in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
+          <div v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
                 :key="card.node.id"
                 class="goose__card"
                 :class="{ 'goose__card--top250': card.node.top250 }"
@@ -48,13 +48,25 @@
               <h3>{{ card.node.title }}</h3>
 
               <div :id="card.node.id" class="goose__modal">
-               <div class="goose__modal-content">
-                 <button class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
-                 <p class="goose__modal-subhead">{{ step.node.title }}</p>
-                 <h3>{{ card.node.title }}</h3>
-                 <div v-html="card.node.content" />
-               </div>
-             </div>
+                <div class="goose__modal-content">
+                  <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
+                  <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
+                  <h3>{{ card.node.title }}</h3>
+                  <div v-html="card.node.content" />
+                  <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
+                          name="Suivant"
+                          class="goose__previous-card"
+                          v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
+                    Étape précédente
+                  </button>
+                  <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
+                          name="Suivant"
+                          class="goose__next-card"
+                          v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
+                    Étape suivante
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -77,19 +89,25 @@
     },
     methods: {
       openModal (id) {
-        console.log("kiki");
         var modal = document.getElementById(id);
         if (modal) {
           modal.style.display = "block";
         }
       },
       closeModal (id) {
-        console.log("coucou");
         var modal = document.getElementById(id);
         if (modal) {
           modal.style.display = "none";
         }
-      }
+      },
+      previousCard (cardID, index, stepID) {
+        this.closeModal(cardID);
+        this.openModal(this.$page.allGooseCard.edges.filter(edge => edge.node.step.id === stepID)[index - 1].node.id);
+      },
+      nextCard (cardID, index, stepID) {
+        this.closeModal(cardID);
+        this.openModal(this.$page.allGooseCard.edges.filter(edge => edge.node.step.id === stepID)[index + 1].node.id);
+      },
     },
     metaInfo: {
       title: "Jeu de l'oie - DesignGouv",
@@ -174,7 +192,7 @@
         }
 
         p {
-          margin: 12px;
+          margin: 10px;
           font-weight: bold;
           color: $blue;
           flex-shrink: 0;
@@ -261,11 +279,20 @@
 
         p {
           font-weight: normal;
+          margin-bottom: 32px;
         }
 
         .goose__modal-subhead {
            font-weight: bold;
         }
+      }
+
+      &__previous-card {
+
+      }
+
+      &__next-card {
+        float: right;
       }
     }
 

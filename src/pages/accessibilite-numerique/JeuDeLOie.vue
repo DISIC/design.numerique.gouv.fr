@@ -27,39 +27,31 @@
     <div class="content">
 
       <section class="goose">
-        <div v-for="{ node } in $page.allGooseStep.edges" :key="node.id" class="goose__step">
+        <div v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
           <div class="goose__step-title">
-            <h2>{{ node.title }}</h2>
-            <p>{{ node.duration }}</p>
+            <h2>{{ step.node.title }}</h2>
+            <p>{{ step.node.duration }}</p>
           </div>
 
-          <div v-for="{ node } in $page.allGooseCard.edges.filter(edge => edge.node.step.id === node.id)"
-                :key="node.id"
+          <div v-for="card in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
+                :key="card.node.id"
                 class="goose__card"
-                :class="{ 'goose__card--top250': node.top250 }"
+                :class="{ 'goose__card--top250': card.node.top250 }"
                 role="button"
-                v-on:click="openModal(node.id)">
-            <div v-if="node.top250">
-              <p>Top250</p>
-              <h3>{{ node.title }}</h3>
-
-              <div :id="node.id" class="goose__modal">
-               <div class="goose__modal-content">
-                 <button class="close" v-on:click.stop="closeModal(node.id)">&times;</button>
-                 <div v-html="node.content" />
-               </div>
-             </div>
-            </div>
-            <div v-else>
+                v-on:click="openModal(card.node.id)">
+            <div>
               <!-- <g-image :src="node.illustration" focusable="false" aria-hidden="true"/> -->
-              <p>{{ node.id.slice(node.id.length - 1) }}</p>
-              <h3>{{ node.title }}</h3>
+              <p v-if="card.node.top250">Top250</p>
+              <p v-else>{{ card.node.id.slice(card.node.id.length - 1) }}</p>
+              <h3>{{ card.node.title }}</h3>
 
-              <div :id="node.id" class="goose__modal">
+              <div :id="card.node.id" class="goose__modal">
                <div class="goose__modal-content">
-                 <button class="close" v-on:click.stop="closeModal(node.id)">&times;</button>
-                 <div v-html="node.content" />
+                 <button class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
+                 <p class="goose__modal-subhead">{{ step.node.title }}</p>
+                 <h3>{{ card.node.title }}</h3>
+                 <div v-html="card.node.content" />
                </div>
              </div>
             </div>
@@ -84,12 +76,18 @@
     },
     methods: {
       openModal (id) {
+        console.log("kiki");
         var modal = document.getElementById(id);
-        modal.style.display = "block";
+        if (modal) {
+          modal.style.display = "block";
+        }
       },
       closeModal (id) {
+        console.log("coucou");
         var modal = document.getElementById(id);
-        modal.style.display = "none";
+        if (modal) {
+          modal.style.display = "none";
+        }
       }
     },
     metaInfo: {
@@ -222,28 +220,50 @@
       }
 
       &__modal {
-       display: none;
-       position: fixed; /* Stay in place */
-       z-index: 1; /* Sit on top */
-       left: 0;
-       top: 0;
-       width: 100%; /* Full width */
-       height: 100%; /* Full height */
-       overflow: auto; /* Enable scroll if needed */
-       background-color: rgb(0,0,0); /* Fallback color */
-       background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        display: none;
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgba($black, 0.7);
+        cursor: auto;
       }
 
       &__modal-content {
-       background-color: #fefefe;
-       margin: 15% auto; /* 15% from the top and centered */
-       padding: 20px;
-       border: 1px solid #888;
-       max-width: 720px; /* Could be more or less, depending on screen size */
+        background-color: white;
+        margin: 8% auto;
+        padding: 24px 32px 32px 32px;
+        border: 2px solid $black;
+        border-radius: 24px;
+        max-width: 720px;
 
-       .close {
-         float: right;
-       }
+        .close, .close:hover {
+          float: right;
+          border: none;
+          color: $black;
+          background-color: white;
+          font-size: 2rem;
+          margin-top: -20px;
+          margin-right: -32px;
+
+        }
+
+        h3 {
+          font-size: 2rem;
+          margin: 40px 0 40px 0;
+          color: $blue !important;
+        }
+
+        p {
+          font-weight: normal;
+        }
+
+        .goose__modal-subhead {
+           font-weight: bold;
+        }
       }
     }
 

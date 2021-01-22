@@ -253,7 +253,6 @@
           font-size: 0.875rem;
           font-weight: bold;
           margin: 0 0 8px 0;
-          color: $blue;
         }
 
         &:hover, &:focus {
@@ -269,6 +268,10 @@
             color: $dark-gray;
           }
         }
+      }
+
+      &__card-id {
+        color: $blue;
       }
 
       &__card-icon {
@@ -320,6 +323,7 @@
         p {
           font-weight: normal;
           margin-bottom: 32px;
+          font-size: 1rem;
         }
 
         .goose__modal-subhead {

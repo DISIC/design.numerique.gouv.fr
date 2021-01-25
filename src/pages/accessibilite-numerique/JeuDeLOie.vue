@@ -346,14 +346,17 @@
         .goose__modal-notice {
           display: inline-block;
           background-color: $lighter-gray;
-          padding: 2px 16px 2px 8px;
+          padding: 0px 16px 0px 0px;
           border-radius: 16px;
           margin-left: -2px;
           margin-bottom: 16px;
+          padding-bottom: 2px;
 
           svg {
-            color: $dark-gray;
+            color: $red;
             padding-right: 4px;
+            font-size: 1.75rem;
+            margin-bottom: -5px;
           }
         }
 

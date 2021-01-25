@@ -43,7 +43,7 @@
                     role="button"
                     v-on:click="openModal(card.node.id)">
                 <div>
-                  <!-- <font-awesome  class="goose__card-icon" :icon="card.node.icon"/> -->
+                  <font-awesome  class="goose__card-icon" :icon="card.node.icon"/>
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3>{{ card.node.title }}</h3>

@@ -369,6 +369,7 @@
             padding: 0;
             border: none;
             color: $blue;
+            text-align: left;
 
             &:hover, :focus {
               color: $dark-red;
@@ -378,6 +379,7 @@
 
           .goose__next-card {
             margin-left: auto;
+            text-align: right;
           }
         }
       }

@@ -52,7 +52,8 @@ import {
   faTasks,
   faUserGraduate,
   faSyncAlt,
-  faCalendarCheck
+  faCalendarCheck,
+  faInfoCircle
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faFilePdf,
@@ -111,7 +112,8 @@ library.add(
   faTasks,
   faUserGraduate,
   faSyncAlt,
-  faCalendarCheck
+  faCalendarCheck,
+  faInfoCircle
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ

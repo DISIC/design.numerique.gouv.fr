@@ -53,6 +53,10 @@
                       <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
                       <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
                       <h3>{{ card.node.title }}</h3>
+                      <p v-if="card.node.top250" class="goose__modal-notice">
+                        <font-awesome :icon="['fas', 'info-circle']"/>
+                        Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
+                      </p>
                       <div v-html="card.node.content" />
                       <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
                               name="Suivant"
@@ -267,6 +271,13 @@
           h3, p {
             color: $dark-gray;
           }
+
+          .goose__modal-content {
+
+            h3, p {
+              color: $black;
+            }
+          }
         }
       }
 
@@ -329,14 +340,28 @@
         .goose__modal-subhead {
            font-weight: bold;
         }
-      }
 
-      &__previous-card {
+        .goose__modal-notice {
+          display: inline-block;
+          background-color: $lighter-gray;
+          padding: 2px 16px 2px 8px;
+          border-radius: 16px;
+          margin-left: -1px;
+          margin-bottom: 16px;
 
-      }
+          svg {
+            color: $dark-gray;
+            padding-right: 4px;
+          }
+        }
 
-      &__next-card {
-        float: right;
+        .goose__previous-card {
+
+        }
+
+        .goose__next-card {
+          float: right;
+        }
       }
     }
 

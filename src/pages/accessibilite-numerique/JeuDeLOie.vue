@@ -58,18 +58,20 @@
                         Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
                       </p>
                       <div v-html="card.node.content" />
-                      <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                              name="Suivant"
-                              class="goose__previous-card"
-                              v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                        Étape précédente
-                      </button>
-                      <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                              name="Suivant"
-                              class="goose__next-card"
-                              v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
-                        Étape suivante
-                      </button>
+                      <div class="goose__modal-navigation">
+                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
+                                name="Suivant"
+                                class="goose__previous-card"
+                                v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
+                          ← Étape précédente
+                        </button>
+                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
+                                name="Suivant"
+                                class="goose__next-card"
+                                v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
+                          Étape suivante →
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -346,7 +348,7 @@
           background-color: $lighter-gray;
           padding: 2px 16px 2px 8px;
           border-radius: 16px;
-          margin-left: -1px;
+          margin-left: -2px;
           margin-bottom: 16px;
 
           svg {
@@ -355,12 +357,25 @@
           }
         }
 
-        .goose__previous-card {
+        .goose__modal-navigation {
+          display: flex;
+          justify-content: space-between;
 
-        }
+          .goose__previous-card, .goose__next-card {
+            margin: 0;
+            padding: 0;
+            border: none;
+            color: $blue;
 
-        .goose__next-card {
-          float: right;
+            &:hover, :focus {
+              color: $dark-red;
+              background-color: white;
+            }
+          }
+
+          .goose__next-card {
+            margin-left: auto;
+          }
         }
       }
     }

@@ -67,13 +67,8 @@
           }
 
           &__tagline {
-            font-size: 0.75rem;
             margin-top: -3px;
             margin-left: 2px;
-
-            @media only screen and (max-width: $mobile-max-width) {
-              font-size: 0.75rem;
-            }
           }
         }
 

@@ -67,7 +67,6 @@
           }
 
           &__tagline {
-            margin-top: -3px;
             margin-left: 2px;
           }
         }

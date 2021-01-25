@@ -380,6 +380,7 @@
           .goose__next-card {
             margin-left: auto;
             text-align: right;
+            padding-left: 16px;
           }
         }
       }

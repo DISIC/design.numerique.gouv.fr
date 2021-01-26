@@ -10,7 +10,7 @@
           <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
         </li>
         <li>
-          <span aria-current="page">Jeu de l'oie</span>
+          <span aria-current="page">Le jeu de l'OA</span>
         </li>
       </ol>
     </nav>
@@ -19,7 +19,8 @@
      <div class="cover__container">
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Jeu de l'oie</h1>
+       <h1>Le jeu de l'OA</h1>
+       <p class="cover__subtitle">Le jeu de l'organisation de l'accessibilité (OA) vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       </div>
     </div>

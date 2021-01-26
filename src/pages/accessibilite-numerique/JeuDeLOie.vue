@@ -10,7 +10,7 @@
           <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
         </li>
         <li>
-          <span aria-current="page">Jeu de l'oie</span>
+          <span aria-current="page">Jeu de l’OAA</span>
         </li>
       </ol>
     </nav>
@@ -18,8 +18,8 @@
    <div class="cover cover--with-breadcrumb">
      <div class="cover__container">
 
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Jeu de l'oie</h1>
+       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Organiser l’amélioration de l’accessibilité</div>
+       <h1>Jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité">OAA</abbr></h1>
 
       </div>
     </div>
@@ -47,12 +47,12 @@
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3>{{ card.node.title }}</h3>
-
+                  <!-- modale -->
                   <div :id="card.node.id" class="goose__modal">
                     <div class="goose__modal-content">
                       <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
                       <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
-                      <h3>{{ card.node.title }}</h3>
+                      <h1>{{ card.node.title }}</h1>
                       <p v-if="card.node.top250" class="goose__modal-notice">
                         <font-awesome :icon="['fas', 'info-circle']"/>
                         Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
@@ -74,6 +74,7 @@
                       </div>
                     </div>
                   </div>
+                  <!-- /modale -->
                 </div>
               </li>
             </ul>

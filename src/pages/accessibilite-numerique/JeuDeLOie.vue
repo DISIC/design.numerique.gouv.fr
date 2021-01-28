@@ -31,7 +31,7 @@
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
             <div class="goose__step-title">
-              <h2><span class="goose__step-id">{{ step.node.id }}</span>{{ step.node.title }}</h2>
+              <h2 :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span>{{ step.node.title }}</h2>
               <p>{{ step.node.duration }}</p>
             </div>
 

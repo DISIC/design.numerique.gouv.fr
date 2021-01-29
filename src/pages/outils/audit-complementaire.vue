@@ -10,7 +10,7 @@
           <g-link to="/outils/">Outils</g-link>
         </li>
         <li>
-          <span aria-current="page">Audit rapide 2</span>
+          <span aria-current="page">Audit complémentaire</span>
         </li>
       </ol>
     </nav>
@@ -19,14 +19,14 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight">Audit rapide 2 RGAA </h1>
+      <h1 class="text-highlight">Audit complémentaire RGAA </h1>
 
       <p class="cover__subtitle">Vous avez validé tous les critères de l’<a href="/outils/audit-rapide/">audit rapide</a>, vous pouvez maintenant passer à la deuxième étape et auditer votre échantillon sur les vingt cinq critères suivants.</p> 
       </div>
     </div>
     
 <div class="content">
-    <p>L’audit rapide 2 porte sur un  échantillon réduit de 3 à 5 pages et sur les 25 critères de niveau A suivants :</p>
+    <p>L’audit complémentaire porte sur un échantillon réduit de 3 à 5 pages et sur les 25 critères de niveau A suivants :</p>
     <ul>
       <li>Pour chaque image porteuse d’information ayant une alternative textuelle, cette alternative est-elle pertinente ? (Images, 1.3)</li>
       <li>Pour chaque image utilisée comme CAPTCHA, une solution d’accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?  (Images, 1.5)</li>

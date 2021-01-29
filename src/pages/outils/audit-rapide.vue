@@ -26,7 +26,7 @@
     </div>
     
 <div class="content">
-    <p>Le diagnostic rapide porte sur un  échantillon réduit de 3 à 5 pages et sur les 25 critères de niveau A suivants :</p>
+    <p>L’audit rapide porte sur un  échantillon réduit de 3 à 5 pages et sur les 25 critères de niveau A suivants :</p>
     <ul>
         <li>Chaque image porteuse d’information a-t-elle une alternative textuelle ? (Images, 1.1)</li>
         <li>Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ? (Couleurs, 3.1)</li>

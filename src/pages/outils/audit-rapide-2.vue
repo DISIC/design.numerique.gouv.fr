@@ -26,7 +26,7 @@
     </div>
     
 <div class="content">
-    <p>Le diagnostic rapide porte sur un  échantillon réduit de 3 à 5 pages et sur les 25 critères de niveau A suivants :</p>
+    <p>L’audit rapide 2 porte sur un  échantillon réduit de 3 à 5 pages et sur les 25 critères de niveau A suivants :</p>
     <ul>
       <li>Pour chaque image porteuse d’information ayant une alternative textuelle, cette alternative est-elle pertinente ? (Images, 1.3)</li>
       <li>Pour chaque image utilisée comme CAPTCHA, une solution d’accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?  (Images, 1.5)</li>

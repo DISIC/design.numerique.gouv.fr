@@ -55,7 +55,7 @@
         <li>Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ? (Navigation, 12.9)</li>
     </ul>
 <p>Le détail des critères et des tests est disponible à l’adresse suivante : <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/" target="_blank">numerique.gouv.fr/publications/rgaa-accessibilite/</a>.</p>
-<p><strong>Vous avez terminé ?</strong><br/>Passez à l’étape suivante et vérifiez les vingt-cinq critères de l’<a href="../audit-rapide-2/">audit rapide 2</a>.</p>
+<p><strong>Vous avez terminé ?</strong><br/>Passez à l’étape suivante et vérifiez les vingt-cinq critères de l’<a href="/outils/audit-rapide-2/">audit rapide 2</a>.</p>
 </div>
 
   </Layout>

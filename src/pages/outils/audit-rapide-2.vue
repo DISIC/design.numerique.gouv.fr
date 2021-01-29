@@ -21,7 +21,7 @@
 
       <h1 class="text-highlight">Audit rapide 2 RGAA </h1>
 
-      <p class="cover__subtitle">Vous avez validé tous les critères de l’<a href="../audit-rapide/">audit rapide</a>, vous pouvez maintenant passer à la deuxième étape et auditer votre échantillon sur les vingt cinq critères suivants.</p> 
+      <p class="cover__subtitle">Vous avez validé tous les critères de l’<a href="/outils/audit-rapide/">audit rapide</a>, vous pouvez maintenant passer à la deuxième étape et auditer votre échantillon sur les vingt cinq critères suivants.</p> 
       </div>
     </div>
     

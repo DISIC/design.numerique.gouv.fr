@@ -10,7 +10,7 @@
           <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
         </li>
         <li>
-          <span aria-current="page">Le jeu de l'OA</span>
+          <span aria-current="page">Le jeu de l'OAA</span>
         </li>
       </ol>
     </nav>
@@ -19,8 +19,8 @@
      <div class="cover__container">
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Le jeu de l'OA</h1>
-       <p class="cover__subtitle">Le jeu de l'organisation de l'accessibilité (OA) vous guide dans la mise en accessibilité de votre service numérique.</p>
+       <h1>Le jeu de l'<abbr title="organisation de l’amélioration de l’accessibilité">OAA</abbr></h1>
+       <p class="cover__subtitle">Le jeu de l'organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       </div>
     </div>
@@ -32,7 +32,7 @@
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
             <div class="goose__step-title">
-              <h2><span class="goose__step-id">{{ step.node.id }}</span>{{ step.node.title }}</h2>
+              <h2 :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span>{{ step.node.title }}</h2>
               <p>{{ step.node.duration }}</p>
             </div>
 
@@ -48,12 +48,12 @@
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3>{{ card.node.title }}</h3>
-
+                  <!-- modale -->
                   <div :id="card.node.id" class="goose__modal">
                     <div class="goose__modal-content">
                       <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
                       <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
-                      <h3>{{ card.node.title }}</h3>
+                      <h1>{{ card.node.title }}</h1>
                       <p v-if="card.node.top250" class="goose__modal-notice">
                         <font-awesome :icon="['fas', 'info-circle']"/>
                         Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
@@ -75,6 +75,7 @@
                       </div>
                     </div>
                   </div>
+                  <!-- /modale -->
                 </div>
               </li>
             </ul>

@@ -68,7 +68,7 @@
 export default {
 
   metaInfo: {
-    title: "Audit rapide 2",
+    title: "Audit complémentaire",
     meta: [{
       name: 'description',
       content: "La deuxième étape de l‘audit rapide RGAA pour une meilleure prise en compte de l'accessibilité numérique."

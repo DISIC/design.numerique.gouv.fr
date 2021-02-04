@@ -61,7 +61,5 @@ Ev a ensuite réalisé une nouvelle maquette des pages de la démarche qui intè
 
 À la suite de ce travail de recherche et d’amélioration ergonomique de la démarche, les équipes de l’agence nationale des titres sécurisés (ANTS) planifient les développements informatiques pour que l’expérience des usagers s’améliore concrètement dans les mois qui viennent.
 
-### ... à suivre
-
-Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+### Défi terminé le 30 décembre 2020 !
 :::

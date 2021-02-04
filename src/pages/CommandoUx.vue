@@ -18,7 +18,7 @@
       <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
-        Designers et développeurs ont 4 mois pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
+        15 designers et développeurs interviennent pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
       <CommandouxIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
@@ -33,20 +33,20 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le programme
         </h2>
         <p>
-          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables. Pour cela, nous recrutons 15 designers et développeurs qui auront 4 mois pour relever l'un des défis proposés par les administrations.
+          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables.
         </p>
         <div class="key-elements">
           <div class="element">
             <div>
               <font-awesome :icon="['fas', 'user-astronaut']"/>
             </div>
-            <p>Designers et développeurs</p>
+            <p>15 designers et développeurs</p>
           </div>
           <div class="element">
             <div>
               <font-awesome :icon="['fas', 'stopwatch']"/>
             </div>
-            <p>À temps plein pendant 4 mois</p>
+            <p>À temps plein pendant 4 à 7 mois</p>
           </div>
           <div class="element">
             <div>
@@ -64,12 +64,12 @@
       </section>
 
       <section>
-        <h3>4 mois au cœur des administrations de l'État</h3>
+        <h3>Intervenir au cœur des administrations de l'État</h3>
         <p>
           En relevant l'un des défis, chaque designer et développeur aura l'occasion d'intégrer l'équipe responsable d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
         </p>
         <p>
-          Pour mener à bien leur mission, ils pourront compter sur l’appui d’un référent au sein de l’administration d’accueil, et d'une chercheuse UX et 2 designers produit de la DINUM.
+          Pour mener à bien leur mission, ils peuvent compter sur l’appui d’un référent au sein de l’administration d’accueil, d'une chercheuse UX et 2 designers produit de la DINUM.
         </p>
       </section>
 
@@ -129,14 +129,14 @@
         <blockquote>
           <p>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</p>
           <footer><span lang="en">Don Norman</span>, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</footer>
-        </blockquote>        
+        </blockquote>
       </section>
 
       <section>
         <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Informations pratiques
         </h2>
-        <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 décembre 2020</p>
+        <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 mars 2021</p>
         <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
         <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
         <p><strong>Conditions :</strong></p>
@@ -196,7 +196,7 @@
           Recrutement Commando UX : entretiens individuels avec les designers et développeurs.
         </p>
         <p>
-          <strong>7 septembre – 31 décembre 2020</strong><br>
+          <strong>7 septembre – 31 mars 2021</strong><br>
           Commando UX en action : designers et développeurs intègrent les administrations pour relever leur défi.
         </p>
       </section>

@@ -20,7 +20,6 @@ Place de l'Emploi Public est la plateforme de publication des offres d'emploi qu
 
 ## Objectifs du défi
 
-Les livrables du défi au 31 décembre 2020 sont :
 - Accompagnement à la refonte de l'espace candidat qui sera disponible aux nouveaux candidats
 - Accessibilité de la plateforme à 100%
 

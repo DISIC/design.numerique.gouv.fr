@@ -47,7 +47,7 @@ Il s’accorde ensuite avec les administrations sur ce qui pourrait être réali
 Dans ce cadre-là, Jocelyn imagine une solution visuelle et commence à la faire tester. Le formulaire qu’il propose oriente le demandeur au fur et à mesure des réponses renseignées pour mieux l’orienter, et surtout pour permettre au CAPM de proposer une réponse adéquate. Jocelyn teste ce formulaire avec des profils correspondants aux futurs utilisateurs, identifie les aspects à améliorer et les points positifs, et commence l’élaboration d’un nouveau prototype.
 
 ### Résultats des tests et formalisation
-Suite aux tests, Jocelyn améliore le prototype et présente les résultats aux équipes du ministère et au prestataire qui travaille sur le projet. Il formalise également l'ensemble de son travail par une documentation détaillée qui servira de guide UX lors du développement de la démarche.
+Suite aux tests, Jocelyn améliore le prototype et présente les résultats aux équipes du ministère ainsi qu'au prestataire qui travaille sur le projet. Il formalise également l'ensemble de son travail par une documentation détaillée qui servira de guide UX lors du développement de la démarche.
 
 ### Développement planifié
 Le Commando touche à sa fin, avec une mission accomplie sur l'accompagnement UX en phase de conception ! Les développements sont planifiés pour mars 2021.

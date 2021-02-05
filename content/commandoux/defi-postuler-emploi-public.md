@@ -47,16 +47,17 @@ Julie prépare les modèles et instructions pour la prise en compte de l’acces
 
 Édouard teste un prototype de l’espace candidat auprès d’un **panel d’usagers** afin de recueillir leur avis, leur ressenti et leurs besoins sur un nouveau parcours.
 
-### Grand chantier Accessibilité
+### Grand chantier sur l'accessibilité
 
 Pendant ce temps, Julie a poursuivi ses recommandations pour améliorer l'accessibilité, et les a progressivement incluses dans les sprints de développement. Cela représente pas moins de 147 tickets ! En parallèle, plusieurs ateliers ont été organisés afin de sensibiliser les équipes internes à l'impératif d'accessibilité.
 
 ### Livrables UX
 
-Suite aux tests, Edouard a pu améliorer son prototype en continue. En parallèle, il a fourni tous les livrables nécessaires à la phase de développement, afin de préparer l'étape de planification et accompagner les développeurs dans la prise en main du prototype.
+Suite aux tests, Édouard a pu améliorer son prototype en continue. En parallèle, il a fourni tous les livrables nécessaires à la phase de développement, afin de préparer l'étape de planification et accompagner les développeurs dans la prise en main du prototype.
 
 ### Développement planifié
-Julie et Edouard ont été intégrés aux sprint planning de l'agence de développement. Les développements concernant les recommandations d'Accessibilité ont démarré en décembre et sont poursuivis en 2021. Julie poursuit le suivi et le tests des développements pour vérifier que tout va bien. Elle espère obtenir 100% au score d'accessibilité, et challenge les développeurs au quotidien. Les développement du prototype UX ont été planifiés au mois de mai 2021. En attendant, Edouard poursuit en janvier 2021 sa collaboration avec la DGAFP sur un accompagnement UX d'amélioration d'autres sections du portail de l'emploi public. 
+
+Julie et Édouard ont été intégrés aux *sprints planning* de l'agence de développement. Les développements concernant les recommandations d'accessibilité ont démarré en décembre et sont poursuivis en 2021. Julie continue le suivi et les tests des développements pour vérifier que tout va bien. Elle espère obtenir 100% au score d'accessibilité, et challenge les développeurs au quotidien. Les développement du prototype UX ont été planifiés pour le mois de mai 2021. En attendant, Édouard poursuit en janvier 2021 sa collaboration avec la DGAFP sur un accompagnement UX d'amélioration d'autres sections du Portail de l'emploi public.
 
 ### ... en cours de développement ;)
 

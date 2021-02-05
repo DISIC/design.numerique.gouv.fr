@@ -159,3 +159,81 @@ li {
     }
   }
 }
+
+@media print {
+
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  p:first-line,
+  div:first-line,
+  blockquote:first-line,
+  li:first-line {
+      background: transparent !important;
+      color: #000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+  }
+  a[href^="https"]:not([href*="design.numerique.gouv.fr"]):after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  header, footer, 
+  main .message, .breadcrumb, .rf-skiplinks, .if-english, .cover__subhead,
+  svg.cover__home-illustration, svg.cover__illustration, svg.illustration, svg.h1__icon, svg.h2__icon, div.illustration {
+    display: none;
+  }
+  
+  body {
+    margin: 0 auto;
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14pt;
+    color: #000000;
+    h1 {
+      font-size: 20pt;
+      color: #000000;
+    }
+    h2 {
+      font-size: 18pt;
+    }
+    h3 {
+      font-size: 16pt;
+    }
+    p {
+      font-size: 14pt;
+      .cover__subtitle { font-weight: bold;}
+    }
+    .text-highlight{
+      text-shadow: none;
+    }
+  }
+  main {
+    width: 100%;
+    padding:10pt;
+    section {
+      margin:0;
+      width:100%;
+      div {
+        width: 100%;
+      }
+      .intro:first-child {
+        width: 100%;
+      }
+    }
+  }
+  //Au cas on imprime la home ;)
+  .index-page {
+    svg.item__icon, svg.item__illustration {
+      display: none;
+    }
+    div.item__description {
+      width: 100%;
+    }
+  }
+  
+
+
+}

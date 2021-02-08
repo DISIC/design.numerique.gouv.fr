@@ -187,7 +187,7 @@
         padding: 0;
         margin: 0;
 
-        > li {
+        > li.goose__step, li.goose__card {
           list-style: none;
         }
       }
@@ -335,12 +335,21 @@
           color: $blue !important;
         }
 
-        p {
+        p, ul {
           font-weight: normal;
           margin-bottom: 32px;
           font-size: 1rem;
+          padding-left: 1em;
         }
+        
+        li {
+          list-style: disc;
+          list-style-position: inside;
 
+          &::marker {
+            color: blue;
+          }
+        }
         .goose__modal-subhead {
            font-weight: bold;
         }
@@ -365,6 +374,9 @@
         .goose__modal-navigation {
           display: flex;
           justify-content: space-between;
+          margin-top: 2em;
+          padding-top: 1em;
+          border-top: 1px solid blue;
 
           .goose__previous-card, .goose__next-card {
             margin: 0;

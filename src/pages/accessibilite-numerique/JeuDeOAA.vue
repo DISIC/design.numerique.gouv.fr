@@ -187,7 +187,7 @@
         padding: 0;
         margin: 0;
 
-        > li.goose__step, li.goose__card {
+        > li.goose__step, > li.goose__card {
           list-style: none;
         }
       }

@@ -8,7 +8,7 @@ length: 12 mois maximum, à mi-temps
 contact: philippe.vrignaud@modernisation.gouv.fr
 ---
 
-## Rejoignez l'équipe produit de Démarches Simplifiées
+### L'équipe produit de Démarches Simplifiées
 Vous voulez mettre vos compétences au profit de l’amélioration du service public ? Vous souhaitez travailler dans une équipe agile, et proche de ses utilisateurs ? [Démarches simplifiées](https://www.demarches-simplifiees.fr/) recherche un ou une Designer UX Senior pour parfaire le service, afin qu’il devienne LE service de référence pour les démarches publiques en ligne !
 
 ## Le produit

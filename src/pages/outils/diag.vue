@@ -575,7 +575,7 @@ export default {
       list-style-type: disc;
     }
   }
-  .rf-callout {
+  .outils-page .rf-callout {
     padding: 0 1rem;
     .rf-accordion__btn{
       width: 95%;

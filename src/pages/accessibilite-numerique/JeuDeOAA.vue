@@ -126,14 +126,14 @@
       },
     },
     metaInfo: {
-      title: "Jeu de l'oie - DesignGouv",
+      title: "Jeu de l'oaa - DesignGouv",
       meta: [{
         name: 'description',
-        content: ""
+        content: "Le jeu de l'organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique."
       },
       {
         property: 'og:title',
-        content: ""
+        content: "Designgouv présente son jeu de l’oaa"
       },
       {
         property: 'og:description',

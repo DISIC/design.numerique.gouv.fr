@@ -26,8 +26,13 @@
     </div>
 
     <div class="content">
-
-      <section class="goose">
+      <div class="rf-callout">
+          <p class="rf-callout__text">
+            Cette ressource est en <strong>version beta</strong> et n’est pas conforme au RGAA.<br>
+            Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr.  
+          </p>
+      </div>
+      <section class="goose rf-mt-8w">
         <ul>
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 

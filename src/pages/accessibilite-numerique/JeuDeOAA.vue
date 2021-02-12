@@ -25,6 +25,10 @@
       </div>
     </div>
 
+
+
+
+
     <div class="content">
       <div class="rf-callout">
           <p class="rf-callout__text">
@@ -49,11 +53,40 @@
                     role="button"
                     v-on:click="openModal(card.node.id)">
                 <div>
+                <button class="rf-btn" title="" aria-expanded="false" :aria-controls="card.node.id">
+                  {{ card.node.id }}
+                </button>
                   <!-- <font-awesome  class="goose__card-icon" :icon="card.node.icon"/> -->
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
-                  <p v-else class="goose__card-id">{{ card.node.id }}</p>
+                  <p v-else class="goose__card-id"></p>
                   <h3>{{ card.node.title }}</h3>
-                  <!-- modale -->
+
+                  <dialog aria-labelledby="rf-modal-title-modal-2" role="dialog" :id="card.node.id" class="rf-modal">
+                      <div class="rf-container--fluid rf-container-md">
+                          <div class="rf-grid-row rf-grid-row--center">
+                              <div class="rf-col-12 rf-col-md-6">
+                                  <div class="rf-modal__body">
+                                      <div class="rf-modal__header">
+                                          <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" target="_self">Fermer</button>
+                                      </div>
+                                      <div class="rf-modal__content">
+                                          <h1 id="rf-modal-title-modal-2" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
+                                        <p v-if="card.node.top250" class="goose__modal-notice">
+                                          <font-awesome :icon="['fas', 'info-circle']"/>
+                                          Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
+                                        </p>
+                                        <div v-html="card.node.content" />
+                                      </div>
+                                      <div class="rf-modal__footer">
+
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </dialog>
+
+                  <!-- modale 
                   <div :id="card.node.id" class="goose__modal">
                     <div class="goose__modal-content">
                       <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>

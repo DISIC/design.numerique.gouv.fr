@@ -70,15 +70,25 @@
                                           <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" target="_self">Fermer</button>
                                       </div>
                                       <div class="rf-modal__content">
-                                          <h1 id="rf-modal-title-modal-2" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
+                                        <h1 id="rf-modal-title-modal-2" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
                                         <p v-if="card.node.top250" class="goose__modal-notice">
-                                          <font-awesome :icon="['fas', 'info-circle']"/>
-                                          Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
+                                          <font-awesome :icon="['fas', 'info-circle']"/>Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
                                         </p>
                                         <div v-html="card.node.content" />
                                       </div>
                                       <div class="rf-modal__footer">
-
+                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
+                                                name="Suivant"
+                                                class="goose__previous-card"
+                                                v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
+                                          ← Étape précédente
+                                        </button>
+                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
+                                                name="Suivant"
+                                                class="goose__next-card"
+                                                v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
+                                          Étape suivante →
+                                        </button>
                                       </div>
                                   </div>
                               </div>

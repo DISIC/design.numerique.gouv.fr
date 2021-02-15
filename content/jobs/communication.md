@@ -34,8 +34,7 @@ Vous rejoignez le pôle Design des services numérique pour gérer et orchestrer
 
 ### Savoir‐faire
 - Maîtrise parfaite des réseaux sociaux
-- Excellentes qualités rédactionnelles
-- Orthographe irréprochable en français
+- Excellentes qualités rédactionnelles et orthographe irréprochable
 
 ### Savoir-être
 - Créativité sans bornes

@@ -45,23 +45,21 @@
                     :key="card.node.id"
                     class="goose__card"
                     :class="{ 'goose__card--top250': card.node.top250 }"
-                    role="button"
                     v-on:click="openModal(card.node.id)">
-                <div class="goose__card-container">
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3><button class="goose__card-id" title="" aria-expanded="false" :aria-controls="card.node.id">{{ card.node.title }}</button></h3>
 
-                  <dialog aria-labelledby="rf-modal-title-modal-2" role="dialog" :id="card.node.id" class="rf-modal">
+                  <dialog :aria-labelledby="'rf-modal-'+card.node.id" :id="card.node.id" class="rf-modal">
                       <div class="">
                           <div class="rf-grid-row rf-grid-row--center">
                               <div class="rf-col-12 rf-col-md-6">
                                   <div class="rf-modal__body">
                                       <div class="rf-modal__header">
-                                          <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" target="_self">Fermer</button>
+                                          <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id">Fermer</button>
                                       </div>
                                       <div class="rf-modal__content">
-                                        <h1 id="rf-modal-title-modal-2" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
+                                        <h1 :id="'rf-modal-'+card.node.id" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
                                         <p v-if="card.node.top250" class="goose__modal-notice">
                                           <font-awesome :icon="['fas', 'info-circle']"/>Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
                                         </p>
@@ -72,7 +70,7 @@
                           </div>
                       </div>
                   </dialog>
-                </div>
+
               </li>
             </ul>
           </li>
@@ -236,6 +234,7 @@
         padding: 12px 16px;
         flex-shrink: 0;
         width: 130px;
+        position: relative;
  
         .goose__card-id {
           border: none;
@@ -244,7 +243,6 @@
           padding: 0;
           color: black;
           background: none;
-
           &:focus, &:hover{
             color:#3355E3;
           }
@@ -258,11 +256,6 @@
             cursor: pointer;
           }
         }
-
-        .goose__card-container{
-          position: relative;
-        }
-
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 86%;

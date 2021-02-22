@@ -53,16 +53,12 @@
                     role="button"
                     v-on:click="openModal(card.node.id)">
                 <div>
-                <button class="rf-btn" title="" aria-expanded="false" :aria-controls="card.node.id">
-                  {{ card.node.id }}
-                </button>
-                  <!-- <font-awesome  class="goose__card-icon" :icon="card.node.icon"/> -->
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
-                  <p v-else class="goose__card-id"></p>
-                  <h3>{{ card.node.title }}</h3>
+                  <p v-else class="goose__card-id">{{ card.node.id }}</p>
+                  <h3><button class="goose__card-id" title="" aria-expanded="false" :aria-controls="card.node.id">{{ card.node.title }}</button></h3>
 
                   <dialog aria-labelledby="rf-modal-title-modal-2" role="dialog" :id="card.node.id" class="rf-modal">
-                      <div class="rf-container--fluid rf-container-md">
+                      <div class="">
                           <div class="rf-grid-row rf-grid-row--center">
                               <div class="rf-col-12 rf-col-md-6">
                                   <div class="rf-modal__body">

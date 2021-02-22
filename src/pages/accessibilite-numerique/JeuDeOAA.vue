@@ -24,11 +24,6 @@
 
       </div>
     </div>
-
-
-
-
-
     <div class="content">
       <div class="rf-callout">
           <p class="rf-callout__text">
@@ -136,7 +131,6 @@
       }],
     }
   }
-
 </script>
 
 
@@ -241,7 +235,20 @@
         padding: 12px 16px;
         flex-shrink: 0;
         width: 130px;
-        cursor: pointer;
+ 
+        .goose__card-id {
+          border: none;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          color: black;
+          background: none;
+          position: relative;
+
+          &:focus, &:hover{
+            color:#3355E3;
+          }
+        }
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 86%;
@@ -364,33 +371,6 @@
             padding-right: 4px;
             font-size: 1.75rem;
             margin-bottom: -5px;
-          }
-        }
-
-        .goose__modal-navigation {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 2em;
-          padding-top: 1em;
-          border-top: 1px solid blue;
-
-          .goose__previous-card, .goose__next-card {
-            margin: 0;
-            padding: 0;
-            border: none;
-            color: $blue;
-            text-align: left;
-
-            &:hover, :focus {
-              color: $dark-red;
-              background-color: white;
-            }
-          }
-
-          .goose__next-card {
-            margin-left: auto;
-            text-align: right;
-            padding-left: 16px;
           }
         }
       }

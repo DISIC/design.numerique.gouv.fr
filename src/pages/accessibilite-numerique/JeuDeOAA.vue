@@ -47,7 +47,7 @@
                     :class="{ 'goose__card--top250': card.node.top250 }"
                     role="button"
                     v-on:click="openModal(card.node.id)">
-                <div>
+                <div class="goose__card-container">
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3><button class="goose__card-id" title="" aria-expanded="false" :aria-controls="card.node.id">{{ card.node.title }}</button></h3>
@@ -243,12 +243,25 @@
           padding: 0;
           color: black;
           background: none;
-          position: relative;
 
           &:focus, &:hover{
             color:#3355E3;
           }
+          &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+          }
         }
+
+        .goose__card-container{
+          position: relative;
+        }
+
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 86%;

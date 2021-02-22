@@ -76,72 +76,24 @@
                                         </p>
                                         <div v-html="card.node.content" />
                                       </div>
-                                      <div class="rf-modal__footer">
-                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                                                name="Suivant"
-                                                class="goose__previous-card"
-                                                v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                                          ← Étape précédente
-                                        </button>
-                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                                                name="Suivant"
-                                                class="goose__next-card"
-                                                v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
-                                          Étape suivante →
-                                        </button>
-                                      </div>
                                   </div>
                               </div>
                           </div>
                       </div>
                   </dialog>
-
-                  <!-- modale 
-                  <div :id="card.node.id" class="goose__modal">
-                    <div class="goose__modal-content">
-                      <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
-                      <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
-                      <h1>{{ card.node.title }}</h1>
-                      <p v-if="card.node.top250" class="goose__modal-notice">
-                        <font-awesome :icon="['fas', 'info-circle']"/>
-                        Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
-                      </p>
-                      <div v-html="card.node.content" />
-                      <div class="goose__modal-navigation">
-                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                                name="Suivant"
-                                class="goose__previous-card"
-                                v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                          ← Étape précédente
-                        </button>
-                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                                name="Suivant"
-                                class="goose__next-card"
-                                v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
-                          Étape suivante →
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- /modale -->
                 </div>
               </li>
             </ul>
-
           </li>
         </ul>
       </section>
-
     </div>
 
   </Layout>
 </template>
 
-
 <script>
-
   import Accessibilite from "~/assets/images/accessibilite.svg"
-
   export default {
     components: {
       Accessibilite,

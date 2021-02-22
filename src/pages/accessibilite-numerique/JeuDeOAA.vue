@@ -179,6 +179,7 @@
 
         > li.goose__step, > li.goose__card {
           list-style: none;
+          box-sizing: initial;
         }
       }
 

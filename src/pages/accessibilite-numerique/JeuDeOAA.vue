@@ -27,7 +27,7 @@
     <div class="content">
       <div class="rf-callout">
           <p class="rf-callout__text">
-            Cette ressource est en <strong>version beta</strong> et n’est pas conforme au RGAA.<br>
+            Cette ressource est en <strong>version beta</strong> et n’est que partiellement conforme au RGAA.<br>
             Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr ou en <a href="https://github.com/DISIC/design.numerique.gouv.fr/issues" target="_blank" title="créant un ticket - nouvelle fenêtre">créant un ticket</a> sur le dépot.  
           </p>
       </div>
@@ -36,7 +36,7 @@
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
             <div class="goose__step-title">
-              <h2 :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span>{{ step.node.title }}</h2>
+              <h2 :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span> {{ step.node.title }}</h2>
               <p>{{ step.node.duration }}</p>
             </div>
 

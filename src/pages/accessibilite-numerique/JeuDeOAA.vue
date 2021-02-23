@@ -87,28 +87,6 @@
     components: {
       Accessibilite,
     },
-    methods: {
-      openModal (id) {
-        var modal = document.getElementById(id);
-        if (modal) {
-          modal.style.display = "block";
-        }
-      },
-      closeModal (id) {
-        var modal = document.getElementById(id);
-        if (modal) {
-          modal.style.display = "none";
-        }
-      },
-      previousCard (cardID, index, stepID) {
-        this.closeModal(cardID);
-        this.openModal(this.$page.allGooseCard.edges.filter(edge => edge.node.step.id === stepID)[index - 1].node.id);
-      },
-      nextCard (cardID, index, stepID) {
-        this.closeModal(cardID);
-        this.openModal(this.$page.allGooseCard.edges.filter(edge => edge.node.step.id === stepID)[index + 1].node.id);
-      },
-    },
     metaInfo: {
       title: "Jeu de l'oaa",
       meta: [{

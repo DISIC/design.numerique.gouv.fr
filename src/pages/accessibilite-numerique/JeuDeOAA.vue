@@ -110,7 +110,7 @@
       },
     },
     metaInfo: {
-      title: "Jeu de l'oaa - DesignGouv",
+      title: "Jeu de l'oaa",
       meta: [{
         name: 'description',
         content: "Le jeu de l'organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique."

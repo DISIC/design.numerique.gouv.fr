@@ -188,7 +188,7 @@
       },
       {
         property: "og:image",
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       },
       {
         name: "twitter:card",
@@ -208,7 +208,7 @@
       },
       {
         name: "twitter:image",
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       },
       {
         name: "google-site-verification",

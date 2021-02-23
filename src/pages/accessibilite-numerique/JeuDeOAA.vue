@@ -117,15 +117,15 @@
       },
       {
         property: 'og:title',
-        content: "Designgouv présente son jeu de l’oaa"
+        content: "DesignGouv présente son jeu de l’oaa"
       },
       {
         property: 'og:description',
-        content: ""
+        content: "Le jeu de l'organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique."
       },
       {
         property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     }
   }

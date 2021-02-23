@@ -120,7 +120,7 @@
       },
     },
     metaInfo: {
-      title: "Jeu de l'oie - DesignGouv",
+      title: "Jeu de l’oaa",
       meta: [{
         name: 'description',
         content: ""
@@ -135,7 +135,7 @@
       },
       {
         property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     }
   }

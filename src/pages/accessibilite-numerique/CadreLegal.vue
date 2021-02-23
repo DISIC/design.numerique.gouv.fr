@@ -129,7 +129,7 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-    title: "Obligations légales et sanctions - DesignGouv",
+    title: "Obligations légales et sanctions",
     meta: [{
       name: 'description',
       content: "Les obligations d’accessibilité des sites publics aux personnes en situation de handicap ont été introduites par l’article 47 de la loi du 11 février 2005."
@@ -144,7 +144,7 @@ export default {
     },
     {
       property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
+      content: "https://design.numerique.gouv.fr/designGouv.png"
     }],
   }
 }

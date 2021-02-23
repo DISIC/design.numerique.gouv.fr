@@ -51,9 +51,9 @@
                   <h3><button class="goose__card-id" title="" aria-expanded="false" :aria-controls="card.node.id">{{ card.node.title }}</button></h3>
 
                   <dialog :aria-labelledby="'rf-modal-'+card.node.id" :id="card.node.id" class="rf-modal">
-                      <div class="">
+                      <div class="rf-container">
                           <div class="rf-grid-row rf-grid-row--center">
-                              <div class="rf-col-12 rf-col-md-6">
+                              <div class="rf-col-xs-12 rf-col-sm-10 rf-col-md-8">
                                   <div class="rf-modal__body">
                                       <div class="rf-modal__header">
                                           <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id">Fermer</button>

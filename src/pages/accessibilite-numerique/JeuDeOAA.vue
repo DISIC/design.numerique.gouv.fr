@@ -46,6 +46,7 @@
                     class="goose__card"
                     :class="{ 'goose__card--top250': card.node.top250 }"
                     v-on:click="openModal(card.node.id)">
+                  <font-awesome  class="goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
                   <h3><button class="goose__card-id" title="" aria-expanded="false" :aria-controls="card.node.id">{{ card.node.title }}</button></h3>
@@ -61,7 +62,7 @@
                                       <div class="rf-modal__content">
                                         <h1 :id="'rf-modal-'+card.node.id" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
                                         <p v-if="card.node.top250" class="goose__modal-notice">
-                                          <font-awesome :icon="['fas', 'info-circle']" height="16px" width="16px" />Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
+                                          <font-awesome :icon="['fas', 'info-circle']" height="16px" width="16px" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
                                         </p>
                                         <div v-html="card.node.content" />
                                       </div>
@@ -204,6 +205,13 @@
         margin: -4px 0 0 -36px;
       }
 
+        &__card-icon {
+          font-size: 0.875rem;
+          float: right;
+          color: $red;
+          margin: 3px;
+          text-align: right;
+        }
       &__card {
         background-color: white;
         border: solid 2px $gray;

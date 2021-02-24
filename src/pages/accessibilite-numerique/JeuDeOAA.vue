@@ -221,7 +221,7 @@
         margin: 8px;
         padding: 12px 16px;
         flex-shrink: 0;
-        width: 130px;
+        width: 145px;
         position: relative;
 
         dialog {

@@ -132,25 +132,6 @@ li {
       list-style-position: outside;
     }
   }
-
-  ol {
-    padding-left: 32px;
-
-    > li {
-      counter-increment: item;
-      text-indent: -24px;
-
-      &::before {
-        content: counter(item) '.';
-        display: inline-block;
-        font-weight: bold;
-        text-align: right;
-        width: 16px;
-        font-size: 1rem;
-      }
-    }
-  }
-
   section {
     margin-bottom: 64px;
 

@@ -1,0 +1,17 @@
+.rf-header .rf-nav {
+  margin: 0;
+}
+
+.content ul > li.rf-accordion {
+  margin-bottom: 0;
+  list-style-type: none;
+  border-bottom: none;
+}
+
+.rf-accordion__title {
+  display: inline-block;
+}
+
+:root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
+  background: none;
+}

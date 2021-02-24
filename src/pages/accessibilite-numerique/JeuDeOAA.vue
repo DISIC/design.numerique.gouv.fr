@@ -250,6 +250,7 @@
           padding: 0;
           color: black;
           background: none;
+          border-radius: unset;
           &:focus, &:hover{
             color:#3355E3;
           }

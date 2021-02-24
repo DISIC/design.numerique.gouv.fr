@@ -25,6 +25,7 @@
         <section>
           <h2>Design numérique</h2>
           <p>Bientôt disponible.</p>
+          <h2><a href="/commando-ux/">Commando UX</a></h2>
           <h2><a href="/accessibilite-numerique/">Accessibilité</a></h2>
           <ul>
           <li><a href="/accessibilite-numerique/cadre-legal/">Obligations légales et sanctions</a></li>
@@ -33,7 +34,7 @@
           <li><a href="/accessibilite-numerique/declaration-accessibilite/">Déclaration d'accessibilité</a></li>
           <li><a href="/accessibilite-numerique/accord-cadre-dae">Accord-cadre interministériel</a></li>
           </ul>
-          <h2><a href="/services/">Accompagnement</a></h2>
+          <h2><a href="/services/">Accompagnement</a></h2>          
           <h2><a href="/outils/">Outils</a></h2>
           <ul>
           <li><a href="/accessibilite-numerique/jeu-de-oaa/">Organiser l’amélioration de l‘accessibilité</a></li>

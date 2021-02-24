@@ -28,7 +28,7 @@
       <div class="rf-callout">
           <p class="rf-callout__text">
             Cette ressource est en <strong>version beta</strong> et n’est que partiellement conforme au RGAA.<br>
-            Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr ou en <a href="https://github.com/DISIC/design.numerique.gouv.fr/issues" target="_blank" title="créant un ticket - nouvelle fenêtre">créant un ticket</a> sur le dépot.  
+            Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr ou en <a href="https://github.com/DISIC/design.numerique.gouv.fr/issues" target="_blank" title="créant un ticket - nouvelle fenêtre">créant un ticket</a> sur le dépot.
           </p>
       </div>
       <section class="goose rf-mt-8w">
@@ -223,22 +223,25 @@
         flex-shrink: 0;
         width: 130px;
         position: relative;
- 
+
         dialog {
 
           h2 {
             font-size: 1.5rem;
             margin: 1.5rem 0;
           }
+
           h3 {
             font-size: 1.25rem;
             margin: 1.25rem 0;
           }
+
           p {
             font-size: 1rem;
             margin: 0.5rem 0;
-            font-weight: normal
+            font-weight: normal;
           }
+
           li {
             font-size: 1rem;
             list-style-position: inside;
@@ -273,14 +276,17 @@
         }
 
         h3 {
-          font-size: 0.875rem;
-          margin: 0;
+          margin: 8px 0 0 0;
+
+          button {
+            font-size: 0.875rem;
+            font-weight: bold;
+          }
         }
 
         p {
           font-size: 0.875rem;
           font-weight: bold;
-          margin: 0 0 8px 0;
         }
 
         &:hover, &:focus {
@@ -297,7 +303,7 @@
           }
 
         }
-      
+
       }
     }
 

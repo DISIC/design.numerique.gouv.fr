@@ -24,11 +24,10 @@
 
       </div>
     </div>
-
     <div class="content">
       <div class="rf-callout">
           <p class="rf-callout__text">
-            Cette ressource est en <strong>version beta</strong> et n’est pas conforme au RGAA.<br>
+            Cette ressource est en <strong>version beta</strong> et n’est que partiellement conforme au RGAA.<br>
             Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr ou en <a href="https://github.com/DISIC/design.numerique.gouv.fr/issues" target="_blank" title="créant un ticket - nouvelle fenêtre">créant un ticket</a> sur le dépot.  
           </p>
       </div>
@@ -37,7 +36,7 @@
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
             <div class="goose__step-title">
-              <h2 :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span>{{ step.node.title }}</h2>
+              <h2 :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span> {{ step.node.title }}</h2>
               <p>{{ step.node.duration }}</p>
             </div>
 
@@ -46,106 +45,69 @@
                     :key="card.node.id"
                     class="goose__card"
                     :class="{ 'goose__card--top250': card.node.top250 }"
-                    role="button"
                     v-on:click="openModal(card.node.id)">
-                <div>
-                  <!-- <font-awesome  class="goose__card-icon" :icon="card.node.icon"/> -->
+                  <font-awesome  class="goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>
-                  <h3>{{ card.node.title }}</h3>
-                  <!-- modale -->
-                  <div :id="card.node.id" class="goose__modal">
-                    <div class="goose__modal-content">
-                      <button name="Fermer" class="close" v-on:click.stop="closeModal(card.node.id)">&times;</button>
-                      <p class="goose__modal-subhead">{{ step.node.id + '. ' + step.node.title }}</p>
-                      <h1>{{ card.node.title }}</h1>
-                      <p v-if="card.node.top250" class="goose__modal-notice">
-                        <font-awesome :icon="['fas', 'info-circle']"/>
-                        Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarche en ligne - Nouvelle fenêtre">Top250</a>
-                      </p>
-                      <div v-html="card.node.content" />
-                      <div class="goose__modal-navigation">
-                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                                name="Suivant"
-                                class="goose__previous-card"
-                                v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                          ← Étape précédente
-                        </button>
-                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                                name="Suivant"
-                                class="goose__next-card"
-                                v-on:click.stop="nextCard(card.node.id, index, step.node.id)">
-                          Étape suivante →
-                        </button>
+                  <h3><button class="goose__card-id" title="" aria-expanded="false" :aria-controls="card.node.id">{{ card.node.title }}</button></h3>
+
+                  <dialog :aria-labelledby="'rf-modal-'+card.node.id" :id="card.node.id" class="rf-modal">
+                      <div class="rf-container">
+                          <div class="rf-grid-row rf-grid-row--center">
+                              <div class="rf-col-xs-12 rf-col-sm-10 rf-col-md-8">
+                                  <div class="rf-modal__body">
+                                      <div class="rf-modal__header">
+                                          <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id">Fermer</button>
+                                      </div>
+                                      <div class="rf-modal__content">
+                                        <h1 :id="'rf-modal-'+card.node.id" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
+                                        <p v-if="card.node.top250" class="goose__modal-notice">
+                                          <font-awesome :icon="['fas', 'info-circle']" height="16px" width="16px" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
+                                        </p>
+                                        <div v-html="card.node.content" />
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
                       </div>
-                    </div>
-                  </div>
-                  <!-- /modale -->
-                </div>
+                  </dialog>
+
               </li>
             </ul>
-
           </li>
         </ul>
       </section>
-
     </div>
 
   </Layout>
 </template>
 
-
 <script>
-
   import Accessibilite from "~/assets/images/accessibilite.svg"
-
   export default {
     components: {
       Accessibilite,
     },
-    methods: {
-      openModal (id) {
-        var modal = document.getElementById(id);
-        if (modal) {
-          modal.style.display = "block";
-        }
-      },
-      closeModal (id) {
-        var modal = document.getElementById(id);
-        if (modal) {
-          modal.style.display = "none";
-        }
-      },
-      previousCard (cardID, index, stepID) {
-        this.closeModal(cardID);
-        this.openModal(this.$page.allGooseCard.edges.filter(edge => edge.node.step.id === stepID)[index - 1].node.id);
-      },
-      nextCard (cardID, index, stepID) {
-        this.closeModal(cardID);
-        this.openModal(this.$page.allGooseCard.edges.filter(edge => edge.node.step.id === stepID)[index + 1].node.id);
-      },
-    },
     metaInfo: {
-      title: "Jeu de l'oaa - DesignGouv",
+      title: "Jeu de l'oaa",
       meta: [{
         name: 'description',
         content: "Le jeu de l'organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique."
       },
       {
         property: 'og:title',
-        content: "Designgouv présente son jeu de l’oaa"
+        content: "DesignGouv présente son jeu de l’oaa"
       },
       {
         property: 'og:description',
-        content: ""
+        content: "Le jeu de l'organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique."
       },
       {
         property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     }
   }
-
 </script>
 
 
@@ -194,6 +156,7 @@
 
         > li.goose__step, > li.goose__card {
           list-style: none;
+          box-sizing: initial;
         }
       }
 
@@ -242,6 +205,13 @@
         margin: -4px 0 0 -36px;
       }
 
+        &__card-icon {
+          font-size: 0.875rem;
+          float: right;
+          color: $red;
+          margin: 3px;
+          text-align: right;
+        }
       &__card {
         background-color: white;
         border: solid 2px $gray;
@@ -250,7 +220,50 @@
         padding: 12px 16px;
         flex-shrink: 0;
         width: 130px;
-        cursor: pointer;
+        position: relative;
+ 
+        dialog {
+
+          h2 {
+            font-size: 1.5rem;
+            margin: 1.5rem 0;
+          }
+          h3 {
+            font-size: 1.25rem;
+            margin: 1.25rem 0;
+          }
+          p {
+            font-size: 1rem;
+            margin: 0.5rem 0;
+            font-weight: normal
+          }
+          li {
+            font-size: 1rem;
+            list-style-position: inside;
+          }
+        }
+
+        .goose__card-id {
+          border: none;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          color: black;
+          background: none;
+          border-radius: unset;
+          &:focus, &:hover{
+            color:#3355E3;
+          }
+          &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+          }
+        }
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 86%;
@@ -281,127 +294,8 @@
             color: $dark-gray;
           }
 
-          .goose__modal-content {
-
-            h3, p {
-              color: $black;
-            }
-          }
         }
-      }
-
-      &__card-id {
-        color: $blue;
-      }
-
-      &__card-icon {
-        font-size: 0.875rem;
-        float: right;
-        color: $red;
-        margin: 3px;
-        text-align: right;
-      }
-
-      &__modal {
-        display: none;
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgba($black, 0.7);
-        cursor: auto;
-      }
-
-      &__modal-content {
-        background-color: white;
-        margin: 8% auto;
-        padding: 24px 32px 32px 32px;
-        border: 2px solid $black;
-        border-radius: 24px;
-        max-width: 720px;
-
-        .close, .close:hover {
-          float: right;
-          border: none;
-          color: $black;
-          background-color: white;
-          font-size: 2rem;
-          margin-top: -20px;
-          margin-right: -32px;
-
-        }
-
-        h3 {
-          font-size: 2rem;
-          margin: 40px 0 32px 0;
-          color: $blue !important;
-        }
-
-        p, ul {
-          font-weight: normal;
-          margin-bottom: 32px;
-          font-size: 1rem;
-          padding-left: 1em;
-        }
-        
-        li {
-          list-style: disc;
-          list-style-position: inside;
-
-          &::marker {
-            color: blue;
-          }
-        }
-        .goose__modal-subhead {
-           font-weight: bold;
-        }
-
-        .goose__modal-notice {
-          display: inline-block;
-          background-color: $lighter-gray;
-          padding: 0px 16px 0px 0px;
-          border-radius: 16px;
-          margin-left: -2px;
-          margin-bottom: 16px;
-          padding-bottom: 2px;
-
-          svg {
-            color: $red;
-            padding-right: 4px;
-            font-size: 1.75rem;
-            margin-bottom: -5px;
-          }
-        }
-
-        .goose__modal-navigation {
-          display: flex;
-          justify-content: space-between;
-          margin-top: 2em;
-          padding-top: 1em;
-          border-top: 1px solid blue;
-
-          .goose__previous-card, .goose__next-card {
-            margin: 0;
-            padding: 0;
-            border: none;
-            color: $blue;
-            text-align: left;
-
-            &:hover, :focus {
-              color: $dark-red;
-              background-color: white;
-            }
-          }
-
-          .goose__next-card {
-            margin-left: auto;
-            text-align: right;
-            padding-left: 16px;
-          }
-        }
+      
       }
     }
 

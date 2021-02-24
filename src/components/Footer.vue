@@ -107,7 +107,7 @@
 
     .footer__description a.footer__logo {
       display: inline-block;
-
+      text-decoration: none;
     }
     a.footer__logo {
       box-shadow: none;

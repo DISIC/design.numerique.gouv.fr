@@ -107,7 +107,7 @@
       },
       {
         property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     }
   }

@@ -34,7 +34,7 @@
       <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-0">
         <h2>Comment ça marche ?</h2>
       </button>
-      <div class="rf-accordion__body" id="rf-accordion-0">
+      <div class="rf-collapse" id="rf-accordion-0">
         <div class="rf-accordion__inner">
           <p>Le diagnostic se fait sur un échantillon de pages incluant au minimum :</p> 
           <ul>
@@ -61,14 +61,24 @@
     </div>
 <div class="quick-test">
   <h2>Clarté et facilité de la navigation</h2>
-  <ul>
+  <ul class="rf-accordions-group">
     <li class="rf-accordion">
+        <h3 class="rf-accordion__title">
+          <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
+        </h3>
+        <div class="rf-collapse" id="rf-accordion-group-1">
+          <h4>Comment vérifier ?</h4>
+          <p>S'assurer que le titre de chaque page (contenu de la balise <code>title</code> dans le <code>head</code>, visible en titre de l'onglet du navigateur) permet de la distinguer des autres pages et reflète bien son contenu.</p>
+          <h4>À quoi ça sert ?</h4>
+          <p>Pour les personnes aveugles, utilisateurs de lecteurs d'écran, le titre de la page est le premier élément vocalisé. Pour des utilisateurs qui naviguent avec l'historique de navigation ou la liste des onglets, il est important qu'ils puissent retrouver les pages facilement en se basant sur leur titre.</p>
+        </div>
+    </li>    <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-11">
-          L’interface du site est optimisée pour toutes les tailles d’écran.
+          L’interface du site est optimisée pour toutes les tailles d’écran
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-11">
+      <div class="rf-collapse" id="rf-accordion-11">
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Depuis fin 2016, le trafic internet mobile a officiellement dépassé celui du trafic internet fixe dans le monde. De ce fait, il est indispensable de développer des services en ligne dont l’affichage s’adapte selon la taille de l’écran utilisé. La conception de sites web adaptatifs (responsive web design en anglais) contribue à :</p>
@@ -86,10 +96,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-12">
-          Une présentation du site et des démarches en ligne est disponible sans authentification.
+          Une présentation du site et des démarches en ligne est disponible sans authentification
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-12">
+      <div class="rf-collapse" id="rf-accordion-12">
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>L'usager, les personnes de son entourage qui sont susceptibles de l'aider, les médiateurs numériques, les guichets administratifs, etc. ont besoin d'avoir de la visibilité sur les sites et les démarches administratives (cadre juridique, délais, pièces justificatives nécessaires, traitement des dossiers, etc.) et sur les différentes modalités pour l'accomplir (en ligne, avec un formulaire, au guichet, par téléphone, etc.). </p>
@@ -102,10 +112,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-13">
-          Lorsqu’il effectue une démarche en ligne, l’usager sait à quel étape il en est et peut revenir à une étape précédente ; il peut contrôler sa saisie. 
+          Lorsqu’il effectue une démarche en ligne, l’usager sait à quel étape il en est et peut revenir à une étape précédente ; il peut contrôler sa saisie
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-13">
+      <div class="rf-collapse" id="rf-accordion-13">
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Dans sa navigation, il est indispensable que l'utilisateur puisse se repérer : il diot savoir où il est, d'où il vient et où trouver l'information dont il a besoin. Les risques d’abandon en cours de processus et d'erreurs de saisie sont ainsi limités.</p>
@@ -122,10 +132,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-14">
-          La navigation et l’utilisation du site peuvent s’effectuer entièrement au clavier.  
+          La navigation et l’utilisation du site peuvent s’effectuer entièrement au clavier
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-14">
+      <div class="rf-collapse" id="rf-accordion-14">
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>La navigation au clavier est un des critères centraux de l'accessibilité numérique. De nombreux utilisateurs, souffrant de handicap ou non, naviguent sans souris, avec les touches de leur clavier. De plus, les dispositifs qui ne reposent pas sur la souris doivent être pris en compte ; notamment, les contenus et l'utilisation des services doivent être accessibles aux utilisateurs d'aides techniques (lecteurs d'écran par exemple) qui n'utilisent que le clavier ou un périphérique plus spécifique reposant sur les mêmes mécanismes que le clavier.</p>
@@ -141,10 +151,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-15">
-          Il est possible de revenir à la page d’accueil depuis toutes les pages et de connaître la position des pages dans l’arborescence du site.    
+          Il est possible de revenir à la page d’accueil depuis toutes les pages et de connaître la position des pages dans l’arborescence du site   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-15"> 
+      <div class="rf-collapse" id="rf-accordion-15"> 
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les usagers doivent doivent pouvoir s'orienter dans un site et notamment revenir à la page d'accueil depuis n'importe quelle page, par exemple s'ils n'ont pas trouvé ce qu'ils cherchaient ou s'ils veulent chercher autre chose. Il arrive également qu'un lien ou qu'un résultat fournit par un moteur de recherche dirige directement vers une page interne du site - auquel cas l'usager aura besoin de savoir où il se trouve et éventuellement de revenir à l'accueil. Enfin, les pages d'erreur font partie du site et ne doivent pas interrompre la navigation de l'usager : elles doivent également permettre un retour à la page d'accueil.</p>
@@ -161,10 +171,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-16">
-          La charte graphique tient compte de la Marque de l’État.
+          La charte graphique tient compte de la Marque de l’État
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-16">         
+      <div class="rf-collapse" id="rf-accordion-16">         
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>La marque de l'État (www.gouvernement.fr/marque-Etat) doit être mise en œuvre, en application du principe selon lequel "Là où l’État est présent, agit, finance, sa présence doit être clairement identifiée". L'application de la marque de l'État permet l'homogénéité et la continuité dans la navigation, avec une identification permanente du service en ligne visité : l'usager peut alors naviguer en toute confiance et distinguer clairement les services proposés par l'État des prestations payantes et des arnaques en ligne.</p>
@@ -183,7 +193,7 @@
           Le contenu de chaque page est disponible à l’impression sans bloc de navigation ni aplat de couleur   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-17">             
+      <div class="rf-collapse" id="rf-accordion-17">             
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>L'impression des contenus doit se faire sous une forme appropriée au support, avec des contenus pertinents et une bonne lisibilité. Rationaliser l'utilisation des espaces et des couleurs permet d'économiser les ressources.</p>
@@ -198,14 +208,14 @@
     </li>
   </ul>
   <h2>Accessibilité du langage et de l’interface</h2>
-  <ul>
+  <ul class="rf-accordions-group">
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-21">
           Le site a fait l'objet d'un audit de conformité RGAA   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-21">       
+      <div class="rf-collapse" id="rf-accordion-21">       
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France. Depuis 2012, tous les sites publics doivent être accessibles et ainsi permettre à tous les usagers un égal accès à leurs droits. En France, le taux d'accessibilité d'un site est calculé en auditant ce site sur la base des critères du Référentiel général d'amélioration de l'accessibilité (RGAA).</p>
@@ -224,7 +234,7 @@
           Aucune information n'est véhiculée que par la couleur   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-22">    
+      <div class="rf-collapse" id="rf-accordion-22">    
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Une information véhiculée uniquement par la couleur nuit au confort de navigation (par exemple si les liens sont en bleu foncé dans du texte en noir) et exclut de fait les usagers malvoyants. À titre d’exemple, 8% des hommes et 0,5% des femmes sont atteints de daltonisme : https://twitter.com/design_gouv/status/1347607804652224512.</p>
@@ -236,10 +246,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-23">
-          Les textes et les éléments graphiques porteurs d'informations sont présentés avec un contraste suffisant par rapport à leur arrière-plan.   
+          Les textes et les éléments graphiques porteurs d'informations sont présentés avec un contraste suffisant par rapport à leur arrière-plan   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-23">           
+      <div class="rf-collapse" id="rf-accordion-23">           
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Afin de permettre une bonne lisibilité des contenus et de limiter la charge mentale lors de la consultation, le ratio de contraste entre le texte - y compris du texte sous forme d'image - et son arrière plan doit être d'au moins 4,5:1 (une taille restituée inférieure à 24px). Pour les textes agrandis (taille restituée supérieure ou égale à 24px ou caractères gras), ce ratio doit être d'au moins 3:1. Les polices avec des traits particulièrement fins ou des aspects et des caractéristiques inhabituelles qui réduisent la reconnaissance de la forme des lettres sont plus difficiles à lire, spécialement à des niveaux de contrastes bas.
@@ -257,10 +267,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-24">
-          Les images porteuses d’informations, les infographies, les vidéos et les fichiers audio ont une alternative textuelle.   
+          Les images porteuses d’informations, les infographies, les vidéos et les fichiers audio ont une alternative textuelle   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-24">           
+      <div class="rf-collapse" id="rf-accordion-24">           
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les alternatives textuelles permettent notamment aux personnes aveugles d'accéder aux contenus via un lecteur d'écran ou un clavier Braille. </p>
@@ -278,7 +288,7 @@
           La langue principal du site est bien définie  
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-25">     
+      <div class="rf-collapse" id="rf-accordion-25">     
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Pour que les aides techniques et plus particulièrement les synthèses vocales prononcent correctement le texte lu.</p>
@@ -290,10 +300,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-26">
-          Les textes sont simples et compréhensibles.   
+          Les textes sont simples et compréhensibles   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-26">     
+      <div class="rf-collapse" id="rf-accordion-26">     
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les services de l'administration et les métiers techniques ont leurs propres codes, leurs sigles, voire leur jargon ; or les démarches en ligne s'adressent à des publics divers et pour certaines au grand public. il est donc essentiel de faire relire les contenus par des personnes extérieures et de se référer à une charte éditoriale pour gérer la qualité des contenus. Un vocabulaire simple et précis mettra l'usager en confiance.</p>
@@ -316,7 +326,7 @@
           Le contenu reste lisible lorsque la taille de caractères est portée à 200% de la taille par défaut dans le navigateur   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-27">     
+      <div class="rf-collapse" id="rf-accordion-27">     
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les usagers nécessitant de grossir les caractères pour accéder au contenu d'un site ou d'une démarche ne doivent pas être ralentis ou bloqués par du texte disparaissant car hors du cadre ou caché, ou bien difficilement lisible car superposé à d'autres élément.</p>
@@ -328,14 +338,14 @@
     </li>
   </ul>
   <h2>Architecture de l’information</h2>  
-  <ul>
+  <ul class="rf-accordions-group">
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-31">
           La hiérarchie des titres est complète et cohérente   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-31">          
+      <div class="rf-collapse" id="rf-accordion-31">          
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Une hiérarchie des titres complète et cohérente dans le code - et non pas uniquement dans la mise en page - permet avant tout la navigation sur la page pour les utilisateurs aveugles ayant un lecteur d'écran ou un clavier braille: ils ont ainsi connaissance de la structuration de la page et peuvent naviguer de titre en titre sans être obligés de lire l'ensemble du contenu. Ce principe est d'ailleurs valable pour les outils bureautiques de type Document Writer ou Word ou encore PDF: il est indispensable d'utiliser les "styles" et non pas une mise en forme du texte. De manière plus générale, une bonne hiérarchisation permet une meilleure visualisation et permet l'extraction du plan de chaque page aux outils dédiés (dont ceux d’indexation, avec par conséquent un meilleur référencement). </p>
@@ -350,7 +360,7 @@
           Chaque champ de formulaire est clairement associé à son intitulé. Les champs et les formats obligatoires sont indiqués  
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-32">       
+      <div class="rf-collapse" id="rf-accordion-32">       
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>L'association - visuellement et dans le code - entre l'intitulé, le champs concerné et les informations de saisie (type de donnée demandé, format, champ obligatoire...) évite l'agacement et l'incompréhension des utilisateurs. Elle leurs permet d'identifier sans ambiguïté les champs de formulaire et la nature des informations à saisir, et ainsi de prévenir les erreurs. Elle améliore l'accessibilité en permettant l'utilisation des aides techniques (les lecteurs d'écran par exemple).</p>
@@ -372,7 +382,7 @@
           Le titre de chaque page est composée du titre de son contenu, suivi du nom du site   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-33">          
+      <div class="rf-collapse" id="rf-accordion-33">          
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Le titre de la page s'affiche dans l'onglet du navigateur. Il permet l'identification des contenus de la page dans l'onglet, dans les favoris, dans la fenêtre du navigateur ou encore par les lecteurs d'écran - c'est à ce titre un élément de l'accessibilité. Un titre pertinent améliore le référencement et la présentation dans les moteurs de recherche.</p>
@@ -388,7 +398,7 @@
           Le soulignement est réservé aux liens
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-34">          
+      <div class="rf-collapse" id="rf-accordion-34">          
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Réserver le soulignement aux liens facilite leur identification et évite à l'utilisateur des clics inutiles sur des contenus soulignés perçus comme des hyperliens.</p>
@@ -406,7 +416,7 @@
           Lorsqu’une identification est requise, il est proposé à l’usager de s'authentifier via FranceConnect   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-41">                  
+      <div class="rf-collapse" id="rf-accordion-41">                  
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>L’intégration du dispositif FranceConnect à un site permet à l'usager de s'authentifier plus facilement tout en sécurisant son identification. Il permet ainsi aux usagers d'accéder à différents services publics en ligne en s’appuyant sur des comptes vérifiés existants sans devoir créer de nouveaux comptes. Cela vise à limiter les identifiants et mots de passe.</p>
@@ -423,7 +433,7 @@
           La démarches en ligne fait l'objet d'enquêtes de satisfaction et donne accès aux résultats  
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-42">               
+      <div class="rf-collapse" id="rf-accordion-42">               
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les administrations développent et font évoluer leurs services en ligne en étant à l'écoute des attentes des usagers : tests utilisateurs, enquêtes en ligne, questionnaires de satisfaction, entretiens, focus group, analyse des statistiques, etc.</p>
@@ -439,7 +449,7 @@
           Les démarches en ligne sont référencées sur service-public.fr
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-43">               
+      <div class="rf-collapse" id="rf-accordion-43">               
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Pour l'usager, il n'est pas toujours évident de savoir si une démarche en ligne existe et si elle est utilisable dans sa situation. Le référencement sur service-public.fr est aussi une garantie que le site concerné est officiel. Par ailleurs, le référencement sur service-public.fr est une obligation relevant du Décret n°99-68 du 2 février 1999 qui indique que « Les formulaires dont l'usage est nécessaire pour accomplir une démarche auprès d'une administration ou d'un établissement public administratif de l'Etat sont tenus gratuitement à la disposition du public [...] par le site public dénommé "service-public.fr" » ; il est précisé qu'il est mis « à la disposition des usagers, sur le site "service-public.fr", la liste à jour des téléprocédures et des formulaires administratifs disponibles ».</p>
@@ -454,7 +464,7 @@
           Le site est bien référencé par les moteurs de recherche  
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-44">              
+      <div class="rf-collapse" id="rf-accordion-44">              
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>La qualité d'un site ou d'une démarche en ligne ne s'évalue pas à partir de la page d'accueil de la démarche mais bien avant. Il est nécessaire de se mettre dans les pas de l'usager et de vérifier si son parcours est fluide et s'il est informé dès le début de son parcours. Par ailleurs, un bon référencement par les moteurs de recherche diminue la probabilité que les usagers se retrouvent sur un site privé payant pour le même service.</p>
@@ -469,7 +479,7 @@
           Le pied de page présente l'ensemble des liens obligatoires  
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-45">                  
+      <div class="rf-collapse" id="rf-accordion-45">                  
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Le pied de page constitue un élément de navigation et un point de repère tout au long du site. </p>
@@ -489,7 +499,7 @@
           Le site ou la démarche en ligne propose au moins deux moyens de contact différents  
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-46">                  
+      <div class="rf-collapse" id="rf-accordion-46">                  
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Le fait de proposer au moins deux moyens de contact différents permet de favoriser les retours d’information de la part des utilisateurs, tout en évitant de mettre ce dernier en difficulté en cas d’indisponibilité ou de problèmes d’utilisation de l’un des moyens de contact.</p>
@@ -505,7 +515,7 @@
           La informations relatives aux fichiers proposés en téléchargement sont indiquées   
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-47">                  
+      <div class="rf-collapse" id="rf-accordion-47">                  
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les utilisateurs - y compris ceux en situation de handicap - doivent savoir s'il est pertinent pour eux de télécharger les fichiers et si leurs outils le leur permettent.</p>
@@ -523,10 +533,10 @@
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
         <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-48">
-          Les fichiers bureautiques téléchargeables sur le site sont proposés dans un format ouvert et sont accessibles. 
+          Les fichiers bureautiques téléchargeables sur le site sont proposés dans un format ouvert et sont accessibles
         </button>
       </h3>
-      <div class="rf-accordion__body" id="rf-accordion-48">                  
+      <div class="rf-collapse" id="rf-accordion-48">                  
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Lors de la mise en ligne de fichiers en téléchargement (traitement de texte, images, audio, vidéo, etc.) , il est nécessaire de proposer les formats ouverts afin que tout le monde puisse y avoir accès sans avoir à payer pour accéder à un format propriétaire.</p>
@@ -569,30 +579,17 @@ export default {
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
-  .content ul li.rf-accordion {
-    list-style-type: none;
-    .rf-accordion__inner ul li {
-      list-style-type: disc;
-    }
-  }
+
   .outils-page .rf-callout {
     padding: 0 1rem;
     .rf-accordion__btn{
       width: 95%;
     }
   }
-  .rf-accordion {
-    margin-bottom: 0;
-    list-style-type: none;
-    border-bottom: none;
-  }
-        .rf-accordion__title {
-        display: inline-block;
-      }
+
       .rf-accordion__inner{
         background-color:var(--g200);
+        padding:1rem 2rem;
       }
-  :root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
-    background: none;
-  }
+
 </style>

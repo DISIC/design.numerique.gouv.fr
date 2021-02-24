@@ -147,7 +147,7 @@ import Accessibilite from "~/assets/images/accessibilite.svg"
       Accessibilite,
     },
     metaInfo: {
-      title: "Accord cadre accompagnement et formations - DesignGouv",
+      title: "Accord cadre accompagnement et formations",
       meta: [{
         name: 'description',
         content: "Découvrez l‘accord cadre DAE permettant de faire appel à des prestations d‘audit, d‘acompagnement et de formation."
@@ -162,7 +162,7 @@ import Accessibilite from "~/assets/images/accessibilite.svg"
       },
       {
         property: 'og:image',
-        content: "https://designgouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     }
   }

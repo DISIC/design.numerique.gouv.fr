@@ -132,25 +132,6 @@ li {
       list-style-position: outside;
     }
   }
-
-  ol {
-    padding-left: 32px;
-
-    > li {
-      counter-increment: item;
-      text-indent: -24px;
-
-      &::before {
-        content: counter(item) '.';
-        display: inline-block;
-        font-weight: bold;
-        text-align: right;
-        width: 16px;
-        font-size: 1rem;
-      }
-    }
-  }
-
   section {
     margin-bottom: 64px;
 
@@ -158,6 +139,18 @@ li {
       margin-bottom: 48px;
     }
   }
+}
+
+.content ul > li.rf-accordion {
+  margin-bottom: 0;
+  list-style-type: none;
+  border-bottom: none;
+}
+.rf-accordion__title {
+  display: inline-block;
+}
+:root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
+  background: none;
 }
 
 @media print {

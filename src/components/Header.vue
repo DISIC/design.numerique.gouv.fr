@@ -51,12 +51,6 @@
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
         .rf-service {
-          margin-top: -26px;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            margin-top: -20px;
-          }
-
           &__title {
             font-size: 2rem;
             font-weight: 800;

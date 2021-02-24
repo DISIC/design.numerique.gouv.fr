@@ -87,7 +87,7 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-    title: "Le RGAA - DesignGouv",
+    title: "Le RGAA",
     meta: [{
       name: 'description',
       content: "Tout savoir sur le Référentiel général d'amélioration de l'accessibilité (RGAA)."
@@ -102,7 +102,7 @@ export default {
     },
     {
       property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
+      content: "https://design.numerique.gouv.fr/designGouv.png"
     }],
   }
 }

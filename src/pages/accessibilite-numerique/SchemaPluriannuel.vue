@@ -59,7 +59,7 @@
 
         <h2>Publication du schéma</h2>
         <p>Le schéma pluriannuel et le plan d’action de l’année en cours sont accessibles en ligne sur le site de l’entité. Des liens vers ces documents figurent au sein de la déclaration d’accessibilité des services de communication au public en ligne dépendant de l’entité. Ils sont publiés dans un format accessible.</p>
-        <p>Voici un <a href="https://www.iledefrance.fr/sites/default/files/medias/2019/07/20190708_schema-pluriannuel-access_public.pdf">exemple de schéma pluriannuel</a> de mise en accessibilité. Celui produit pour la région Ile de France.</p>
+        <p>Voici un <a href="https://www.numerique.gouv.fr/accessibilite/" target="_blank" title="exemple de schéma et plans pluriannuels - nouvelle fenêtre">exemple de schéma et plans pluriannuels</a> de mise en accessibilité.</p>
 
       </section>
 
@@ -77,7 +77,7 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-    title: "Schéma pluriannuel de mise en accessibilité - DesignGouv",
+    title: "Schéma pluriannuel de mise en accessibilité",
     meta: [{
       name: 'description',
       content: "Le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique."
@@ -92,7 +92,7 @@ export default {
     },
     {
       property: 'og:image',
-      content: "https://designgouv.fr/designGouv.png"
+      content: "https://design.numerique.gouv.fr/designGouv.png"
     }],
   }
 }

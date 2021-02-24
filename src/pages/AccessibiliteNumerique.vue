@@ -70,17 +70,17 @@
 
       <section>
         <h2>Passer à l'action</h2>
-        <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design et tout au long du développement. Et surtout avoir une volonté forte de rendre vos services accessibles à tous les usagers, partagée à tous les niveaux de la hierarchie.</p>
+        <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design et tout au long du développement. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
       </section>
 
       <section>
         <h3>Je souhaite faire un état des lieux de la conformité au RGAA sur un site, établir une déclaration d’accessibilité. Comment faire ?</h3>
-        <p>Si vous n'avez pas les ressources nécéssaires en interne pour le faire, faites appel à l'<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel DAE</g-link> sur de l'accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, la constitution d'un schéma pluriannuel de mise en accessiblité, etc.</p>
+        <p>Si vous n'avez pas les ressources nécessaires en interne pour le faire, faites appel à l'<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel DAE</g-link> pour de l'accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d'un schéma pluriannuel de mise en accessiblité, etc.</p>
       </section>
 
       <section>
         <h3>J’ai un service en ligne déjà en place et qui n'est pas conforme au RGAA. Que faire ?</h3>
-        <p>Sensibilisez ou formez vos designers et développeurs sur le sujet de l'accessibilité numérique, et étudiez à travers les resultats de votre audit les points à améliorer. À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d'accessibilité.</p>
+        <p><strong>Sensibilisez</strong> et <strong>formez</strong> vos designers et développeurs sur le sujet de l'accessibilité numérique, et étudiez à travers les resultats de votre audit les points à améliorer. À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d'accessibilité.</p>
       </section>
 
       <section>

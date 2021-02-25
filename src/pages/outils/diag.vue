@@ -104,7 +104,7 @@
           <h4>Pourquoi ?</h4>
           <p>L'usager, les personnes de son entourage qui sont susceptibles de l'aider, les médiateurs numériques, les guichets administratifs, etc. ont besoin d'avoir de la visibilité sur les sites et les démarches administratives (cadre juridique, délais, pièces justificatives nécessaires, traitement des dossiers, etc.) et sur les différentes modalités pour l'accomplir (en ligne, avec un formulaire, au guichet, par téléphone, etc.). </p>
           <p>Cette transparence renforcera la confiance de l'usager dans l'administration et lui permettra d'anticiper certaines décisions de sa vie quotidienne (départ à l'étranger, obtention d'une aide financière, autorisation pour démarrer une activité, etc.). De plus cela augmentera la visibilité.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Contrôler qu'il existe une page dédiée à la présentation du site et, le cas échéant, des démarches en ligne. Cette page est accessible sans authentification. Pour les démarches, l'usager est notamment informé à l'avance du déroulement, des pièces nécessaires et des temps de traitement.</p>
         </div>
       </div>
@@ -119,7 +119,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Dans sa navigation, il est indispensable que l'utilisateur puisse se repérer : il diot savoir où il est, d'où il vient et où trouver l'information dont il a besoin. Les risques d’abandon en cours de processus et d'erreurs de saisie sont ainsi limités.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur les démarches, contrôler que :</p>
           <ul>
             <li>Les différentes étapes de la démarche en ligne sont visibles à tout moment et que l’usager est informé de l'étape à laquelle il est ;</li>
@@ -139,7 +139,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>La navigation au clavier est un des critères centraux de l'accessibilité numérique. De nombreux utilisateurs, souffrant de handicap ou non, naviguent sans souris, avec les touches de leur clavier. De plus, les dispositifs qui ne reposent pas sur la souris doivent être pris en compte ; notamment, les contenus et l'utilisation des services doivent être accessibles aux utilisateurs d'aides techniques (lecteurs d'écran par exemple) qui n'utilisent que le clavier ou un périphérique plus spécifique reposant sur les mêmes mécanismes que le clavier.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, contrôler que :</p>
           <ul>
             <li>La navigation et l'utilisation peuvent s'effectuer entièrement au clavier dans un ordre prévisible.</li>
@@ -158,7 +158,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les usagers doivent doivent pouvoir s'orienter dans un site et notamment revenir à la page d'accueil depuis n'importe quelle page, par exemple s'ils n'ont pas trouvé ce qu'ils cherchaient ou s'ils veulent chercher autre chose. Il arrive également qu'un lien ou qu'un résultat fournit par un moteur de recherche dirige directement vers une page interne du site - auquel cas l'usager aura besoin de savoir où il se trouve et éventuellement de revenir à l'accueil. Enfin, les pages d'erreur font partie du site et ne doivent pas interrompre la navigation de l'usager : elles doivent également permettre un retour à la page d'accueil.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, contrôler que :</p>
           <ul>
             <li>Il est possible de revenir à la page d'accueil depuis toutes les pages, par exemple via le fil d'Ariane ou le bandeau d'entête.</li>
@@ -178,7 +178,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>La marque de l'État (www.gouvernement.fr/marque-Etat) doit être mise en œuvre, en application du principe selon lequel "Là où l’État est présent, agit, finance, sa présence doit être clairement identifiée". L'application de la marque de l'État permet l'homogénéité et la continuité dans la navigation, avec une identification permanente du service en ligne visité : l'usager peut alors naviguer en toute confiance et distinguer clairement les services proposés par l'État des prestations payantes et des arnaques en ligne.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon et sur la base de www.gouvernement.fr/marque-Etat, contrôler :</p>
           <ul>
             <li>le bloc marque https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/le-bloc-marque</li>
@@ -197,7 +197,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>L'impression des contenus doit se faire sous une forme appropriée au support, avec des contenus pertinents et une bonne lisibilité. Rationaliser l'utilisation des espaces et des couleurs permet d'économiser les ressources.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Dans le menu du navigateur, choisir l'aperçu avant impression et contrôler que</p>
           <ul>
             <li>les éléments inutiles dans une version papier ont bien disparu (notamment les menus ou autre bloc de navigation)</li>
@@ -219,7 +219,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France. Depuis 2012, tous les sites publics doivent être accessibles et ainsi permettre à tous les usagers un égal accès à leurs droits. En France, le taux d'accessibilité d'un site est calculé en auditant ce site sur la base des critères du Référentiel général d'amélioration de l'accessibilité (RGAA).</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Vérifier que :</p>
           <ol>
             <li>La page d'accueil affiche l'état de conformité: https://www.numerique.gouv.fr/publications/rgaa-accessibilite/obligations/#mention-obligatoire-sur-la-page-daccueil</li>
@@ -238,7 +238,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Une information véhiculée uniquement par la couleur nuit au confort de navigation (par exemple si les liens sont en bleu foncé dans du texte en noir) et exclut de fait les usagers malvoyants. À titre d’exemple, 8% des hommes et 0,5% des femmes sont atteints de daltonisme : https://twitter.com/design_gouv/status/1347607804652224512.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l’échantillon, contrôler qu’aucun élément n’est compréhensible qu’en fonction de sa couleur (par exemple pas de texte telle que « la saisie des champs en rouge doit être corrigée »). Les liens sont visibles autrement que par une couleur distincte et sont soulignés.</p>
         </div>
       </div>
@@ -254,7 +254,7 @@
           <h4>Pourquoi ?</h4>
           <p>Afin de permettre une bonne lisibilité des contenus et de limiter la charge mentale lors de la consultation, le ratio de contraste entre le texte - y compris du texte sous forme d'image - et son arrière plan doit être d'au moins 4,5:1 (une taille restituée inférieure à 24px). Pour les textes agrandis (taille restituée supérieure ou égale à 24px ou caractères gras), ce ratio doit être d'au moins 3:1. Les polices avec des traits particulièrement fins ou des aspects et des caractéristiques inhabituelles qui réduisent la reconnaissance de la forme des lettres sont plus difficiles à lire, spécialement à des niveaux de contrastes bas.
           Dans le cas de graphiques, le contraste entre chaque élément (courbe, bâton, part de camembert, etc.) doit être également suffisant.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, contrôler que les contrastes sont respecté à l'aide, par exemple, de l’extension de navigateur Contrast Checker (symbolisée par une roue multicolore) : </p>
           <ul>
             <li>Chrome: https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf</li>
@@ -274,7 +274,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les alternatives textuelles permettent notamment aux personnes aveugles d'accéder aux contenus via un lecteur d'écran ou un clavier Braille. </p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, contrôler que </p>
           <ul>
             <li>les vidéos sont sous-titrées et proposent une transcription et que les fichiers audio ont une transcription en alternative; le lien vers la transcription doit être adjacent au contenu vidéo ou audio</li><li>Les images porteuses d'informations - c'est-à-dire les images qui ne sont pas purement décoratives - et les infographies ont une alternative textuelle : dans le code source, rechercher <code>img</code> et vérifier que chacune de ces balises comporte un attribut <code>alt="ici le texte alternatif"</code> (À noter : si l'image est purement décorative, l'attribut alt doit être présent et vide).</li></ul>
@@ -292,7 +292,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Pour que les aides techniques et plus particulièrement les synthèses vocales prononcent correctement le texte lu.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Pour réaliser ce test, vérifier qu'il existe bien un attribut <code>lang="fr"</code> (ou <em>en</em> si c'est en anglais, <em>it</em> en italien, etc.) dans la balise <code>html</code> située au début du document, juste après la balise doctype ci-dessus évoquée. [regarder le code source]</p>
         </div>
       </div>
@@ -307,7 +307,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les services de l'administration et les métiers techniques ont leurs propres codes, leurs sigles, voire leur jargon ; or les démarches en ligne s'adressent à des publics divers et pour certaines au grand public. il est donc essentiel de faire relire les contenus par des personnes extérieures et de se référer à une charte éditoriale pour gérer la qualité des contenus. Un vocabulaire simple et précis mettra l'usager en confiance.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, estimation du testeur et de personnes extérieures aux services. Les tests ont pour objectif de répondre aux questions suivantes :</p>
           <ul>
             <li>Le langage utilisé est-il suffisamment clair ? Les phrases sont-elles simples à comprendre ?</li>
@@ -330,7 +330,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les usagers nécessitant de grossir les caractères pour accéder au contenu d'un site ou d'une démarche ne doivent pas être ralentis ou bloqués par du texte disparaissant car hors du cadre ou caché, ou bien difficilement lisible car superposé à d'autres élément.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, le contenu reste clair lorsque la taille de caractères est portée à 200% de la taille par défaut dans le navigateur. Pour effectuer ce test, choisir d'abord dans le menu Affichage du navigateur l'item Zoom texte seulement.</p> 
           <p>Pour augmenter la taille des caractères, effectuer la combinaison de touches ctrl + + six fois. Les anomalies le plus souvent rencontrées sont la disparition de texte blanc qui était sur un fond de couleur non extensible ou la page « coupée » à droite.</p>
         </div>
@@ -349,7 +349,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Une hiérarchie des titres complète et cohérente dans le code - et non pas uniquement dans la mise en page - permet avant tout la navigation sur la page pour les utilisateurs aveugles ayant un lecteur d'écran ou un clavier braille: ils ont ainsi connaissance de la structuration de la page et peuvent naviguer de titre en titre sans être obligés de lire l'ensemble du contenu. Ce principe est d'ailleurs valable pour les outils bureautiques de type Document Writer ou Word ou encore PDF: il est indispensable d'utiliser les "styles" et non pas une mise en forme du texte. De manière plus générale, une bonne hiérarchisation permet une meilleure visualisation et permet l'extraction du plan de chaque page aux outils dédiés (dont ceux d’indexation, avec par conséquent un meilleur référencement). </p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, lancer l'extension HeadingsMap (symbolisé par le pictogramme &lt;h/&gt;). Dans le panneau qui s'ouvre à gauche, s'assurer que c'est bien l'onglet Headers Structure qui est activé (et non HTML5 Outline). Vérifier qu'il y a au moins un titre de niveau 1 et que l'arbre des titres est logique et cohérent (il ne doit pas y avoir de 'trous' : un titre de niveau h2 ne doit pas être suivi d’un titre h4, h5 ou h6, par exemple).</p>
         </div>
       </div>
@@ -364,7 +364,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>L'association - visuellement et dans le code - entre l'intitulé, le champs concerné et les informations de saisie (type de donnée demandé, format, champ obligatoire...) évite l'agacement et l'incompréhension des utilisateurs. Elle leurs permet d'identifier sans ambiguïté les champs de formulaire et la nature des informations à saisir, et ainsi de prévenir les erreurs. Elle améliore l'accessibilité en permettant l'utilisation des aides techniques (les lecteurs d'écran par exemple).</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Pour tout champ de saisie, notamment dans les formulaires :</p>
           <ul>
             <li>En cliquant sur les intitulés des champs, le curseur vient bien se positionner alors dans le champ concerné.</li>
@@ -387,7 +387,7 @@
           <h4>Pourquoi ?</h4>
           <p>Le titre de la page s'affiche dans l'onglet du navigateur. Il permet l'identification des contenus de la page dans l'onglet, dans les favoris, dans la fenêtre du navigateur ou encore par les lecteurs d'écran - c'est à ce titre un élément de l'accessibilité. Un titre pertinent améliore le référencement et la présentation dans les moteurs de recherche.</p>
           <p>Il améliore la prise en compte des contenus par les moteurs de recherche et outils d’indexation.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon, le titre de chaque page est composée du titre de son contenu, suivi du nom du site. Il s'agit du titre de la fenêtre ou de l'onglet ouvert du navigateur. Vérifier que ce titre est bien constitué de deux parties, la première reprenant le titre de la page, la seconde le nom du site. En parcourant l'échantillon, vérifier qu'à chaque fois le titre est pertinent et unique.</p>
         </div>
       </div>
@@ -402,7 +402,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Réserver le soulignement aux liens facilite leur identification et évite à l'utilisateur des clics inutiles sur des contenus soulignés perçus comme des hyperliens.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Vérifier que seuls les liens sont soulignés.</p>
         </div>
       </div>
@@ -422,7 +422,7 @@
           <p>L’intégration du dispositif FranceConnect à un site permet à l'usager de s'authentifier plus facilement tout en sécurisant son identification. Il permet ainsi aux usagers d'accéder à différents services publics en ligne en s’appuyant sur des comptes vérifiés existants sans devoir créer de nouveaux comptes. Cela vise à limiter les identifiants et mots de passe.</p>
           <p>Après l’authentification, FranceConnect orchestre la circulation des données personnelles de l’usager, avec son consentement.</p>
           <p>Les administrations ayant intégré FranceConnect bénéficient entre elles de passerelles naturelles : ce mécanisme de SSO (Single Sign-On, ou authentification unique) rend les parcours usagers plus fluides.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Si identification est requise, il est proposé à l’usager de s'authentifier via FranceConnect.</p>
         </div>
       </div>
@@ -438,7 +438,7 @@
           <h4>Pourquoi ?</h4>
           <p>Les administrations développent et font évoluer leurs services en ligne en étant à l'écoute des attentes des usagers : tests utilisateurs, enquêtes en ligne, questionnaires de satisfaction, entretiens, focus group, analyse des statistiques, etc.</p>
           <p>Cependant il ne suffit pas de conduire les tests ou de mettre en place un outil de mesure statistique. Ce critère vise la publication et la communication au public des enquêtes conduites et des résultats atteints.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Les démarches en ligne font l'objet d'enquêtes de satisfaction (par exemple en proposant le bouton "Je donne mon avis" https://observatoire.numerique.gouv.fr/Aide/Donner son avis) et donnent accès aux résultats.</p>
         </div>
       </div>
@@ -453,7 +453,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Pour l'usager, il n'est pas toujours évident de savoir si une démarche en ligne existe et si elle est utilisable dans sa situation. Le référencement sur service-public.fr est aussi une garantie que le site concerné est officiel. Par ailleurs, le référencement sur service-public.fr est une obligation relevant du Décret n°99-68 du 2 février 1999 qui indique que « Les formulaires dont l'usage est nécessaire pour accomplir une démarche auprès d'une administration ou d'un établissement public administratif de l'Etat sont tenus gratuitement à la disposition du public [...] par le site public dénommé "service-public.fr" » ; il est précisé qu'il est mis « à la disposition des usagers, sur le site "service-public.fr", la liste à jour des téléprocédures et des formulaires administratifs disponibles ».</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Les démarches en ligne sont référencées sur service-public.fr</p>
         </div>
       </div>
@@ -468,7 +468,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>La qualité d'un site ou d'une démarche en ligne ne s'évalue pas à partir de la page d'accueil de la démarche mais bien avant. Il est nécessaire de se mettre dans les pas de l'usager et de vérifier si son parcours est fluide et s'il est informé dès le début de son parcours. Par ailleurs, un bon référencement par les moteurs de recherche diminue la probabilité que les usagers se retrouvent sur un site privé payant pour le même service.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Contrôler que les principaux moteurs (Google, Bing, Qwant) restituent bien le site dans les résultats lorsque l'on recherche le service (ie. pas en tapant le nom de l'institution mais le service qu'elle rend : on cherchera par exemple "Renouvellement carte grise" et non pas "ANTS") : 1/ parmi les trois premières occurrences et 2/ jamais derrière un site proposant le même service mais payant (hors sites sponsorisés dans les deux cas).</p>
         </div>
       </div>
@@ -483,7 +483,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Le pied de page constitue un élément de navigation et un point de repère tout au long du site. </p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon</p>
           <ul>
             <li>Le pied de page est présent et identique sur toutes les pages.</li>
@@ -504,7 +504,7 @@
           <h4>Pourquoi ?</h4>
           <p>Le fait de proposer au moins deux moyens de contact différents permet de favoriser les retours d’information de la part des utilisateurs, tout en évitant de mettre ce dernier en difficulté en cas d’indisponibilité ou de problèmes d’utilisation de l’un des moyens de contact.</p>
           <p>Par ailleurs, toutes les administrations (services de l’État, mairies, organismes de service public, etc.) doivent pouvoir être saisies par voie électronique (SVE) sauf exception publiée au Journal Officiel.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Vérifier que l'information "contact" permettant d'échanger avec un agent (ce qui exclut par exemple les tchat bots) est facile à trouver et qu'au moins deux alternatives existes (téléphone, mail, formulaire de contact, tchat, guichet physique local).</p>
         </div>
       </div>
@@ -519,7 +519,7 @@
         <div class="rf-accordion__inner">
           <h4>Pourquoi ?</h4>
           <p>Les utilisateurs - y compris ceux en situation de handicap - doivent savoir s'il est pertinent pour eux de télécharger les fichiers et si leurs outils le leur permettent.</p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Pour chaque fichier proposé en téléchargement :</p>
           <ul>
             <li>Le format est indiqué</li>
@@ -541,7 +541,7 @@
           <h4>Pourquoi ?</h4>
           <p>Lors de la mise en ligne de fichiers en téléchargement (traitement de texte, images, audio, vidéo, etc.) , il est nécessaire de proposer les formats ouverts afin que tout le monde puisse y avoir accès sans avoir à payer pour accéder à un format propriétaire.</p>
           <p>Découvrir les <a href="https://github.com/DISIC/guides-documents_bureautiques_accessibles" target="_blank" title="guides pour rédiger des documents bureautiques - Nouvelle fenêtre">guides pour rédiger des documents bureautiques accessibles</a></p>
-          <h4>Comment contôler ?</h4>
+          <h4>Comment contrôler ?</h4>
           <p>Sur l'échantillon :</p>
           <ul>
             <li>pour mettre à disposition des documents que le destinataire n’a pas besoin de modifier, il faut utiliser le format PDF.</li>

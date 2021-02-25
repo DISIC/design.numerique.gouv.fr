@@ -45,7 +45,7 @@
                     :key="card.node.id"
                     class="goose__card"
                     :class="{ 'goose__card--top250': card.node.top250 }">
-                  
+
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">
                     {{ card.node.id }}
@@ -62,7 +62,7 @@
                                           <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id">Fermer</button>
                                       </div>
                                       <div class="rf-modal__content">
-                                        <h1 :id="'rf-modal-'+card.node.id" class="rf-modal__title"><span class="rf-fi-arrow-right-line rf-fi--lg"></span>{{ card.node.title }}</h1>
+                                        <h1 :id="'rf-modal-'+card.node.id" class="rf-modal__title">{{ card.node.title }}</h1>
                                         <p v-if="card.node.top250" class="goose__modal-notice">
                                           <font-awesome :icon="['fas', 'info-circle']" height="16" width="16" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
                                         </p>

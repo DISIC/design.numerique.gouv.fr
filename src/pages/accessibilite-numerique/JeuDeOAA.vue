@@ -232,6 +232,10 @@
           margin-bottom: 12px;
         }
 
+        .goose__modal-notice {
+          padding-bottom: 16px;
+        }
+
         .goose__card-id {
           border: none;
           text-align: left;

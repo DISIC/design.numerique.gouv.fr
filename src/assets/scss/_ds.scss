@@ -15,3 +15,17 @@
 :root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
   background: none;
 }
+
+.rf-callout {
+  background-color: $lighter-gray !important;
+  padding: 2rem !important;
+  box-shadow: inset .25rem 0 0 0 $blue;
+}
+
+.rf-callout__text {
+  font-family: inherit !important;
+  font-size: initial !important;
+  color: initial !important;
+  line-height: 1.5 !important;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif !important;
+}

@@ -45,7 +45,6 @@
                     :key="card.node.id"
                     class="goose__card"
                     :class="{ 'goose__card--top250': card.node.top250 }"
-                    v-on:click="openModal(card.node.id)">
                   <font-awesome  class="goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
                   <p v-if="card.node.top250" class="goose__card-id">Top250</p>
                   <p v-else class="goose__card-id">{{ card.node.id }}</p>

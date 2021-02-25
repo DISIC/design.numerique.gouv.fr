@@ -230,8 +230,7 @@
           .goose__modal-icon {
             font-size: 1.5rem;
             color: $red;
-            margin-top: -16px;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
           }
         }
 

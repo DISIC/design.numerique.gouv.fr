@@ -8,6 +8,27 @@
   border-bottom: none;
 }
 
+.rf-link--close {
+  font-weight: bold;
+  color: $black;
+
+  &:before {
+    margin-top: 0.1rem;
+    font-weight: bold !important;
+    color: $black;
+  }
+
+  &:hover {
+    color: white;
+    background-color: $black;
+    background-image: none !important;
+
+    &:before {
+      color: white;
+    }
+  }
+}
+
 .rf-accordion__title {
   display: inline-block;
 }
@@ -49,12 +70,12 @@
 
   h2 {
     font-size: 1.5rem !important;
-    margin: 1.5rem 0 !important;
+    margin: 2rem 0 1.5rem 0 !important;
   }
 
   h3 {
     font-size: 1.25rem !important;
-    margin: 1.25rem 0 !important;
+    margin: 2rem 0 1.25rem 0 !important;
   }
 
   p {

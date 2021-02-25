@@ -215,6 +215,7 @@
           margin: 3px;
           text-align: right;
         }
+
       &__card {
         background-color: white;
         border: solid 2px $gray;
@@ -225,13 +226,10 @@
         width: 145px;
         position: relative;
 
-        dialog {
-
-          .goose__modal-icon {
-            font-size: 1.5rem;
-            color: $red;
-            margin-bottom: 12px;
-          }
+        .goose__modal-icon {
+          font-size: 1.5rem;
+          color: $red;
+          margin-bottom: 12px;
         }
 
         .goose__card-id {
@@ -242,9 +240,11 @@
           color: black;
           background: none;
           border-radius: unset;
+
           &:focus, &:hover{
             color:#3355E3;
           }
+
           &::before {
             content: '';
             position: absolute;
@@ -287,12 +287,9 @@
           h3, p {
             color: $dark-gray;
           }
-
         }
-
       }
     }
-
   }
 
 </style>

@@ -59,6 +59,10 @@
     @media only screen and (min-width: $mobile-max-width + 1) {
       border-radius: 16px !important;
     }
+
+    @media only screen and (max-width: $mobile-max-width) {
+      padding: 0 1rem;
+    }
   }
 
   h1, h2, h3, h4, h5, p {

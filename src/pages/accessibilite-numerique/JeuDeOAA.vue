@@ -173,6 +173,11 @@
           display: flex;
           flex-wrap: wrap;
         }
+
+        @media only screen and (max-width: $mobile-max-width) {
+          border-radius: 24px;
+          padding: 12px;
+        }
       }
 
       &__step-title {
@@ -271,6 +276,10 @@
           button {
             font-size: 0.875rem;
             font-weight: bold;
+          }
+
+          @media only screen and (max-width: $mobile-max-width) {
+            margin: 4px 0 0 0;
           }
         }
 

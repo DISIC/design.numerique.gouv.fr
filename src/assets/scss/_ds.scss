@@ -23,9 +23,25 @@
 }
 
 .rf-callout__text {
-  font-family: inherit !important;
   font-size: initial !important;
   color: initial !important;
   line-height: 1.5 !important;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.rf-modal {
+
+  background-color: rgba($dark-gray, 0.5);
+
+  &__body {
+    border-radius: 16px !important;
+  }
+
+  h1, h2, h3, h4, h5, p {
+    font-family: "Inter", "Helvetica Neue", Arial, sans-serif !important;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
 }

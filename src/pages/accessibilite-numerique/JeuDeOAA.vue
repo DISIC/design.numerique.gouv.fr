@@ -227,27 +227,6 @@
 
         dialog {
 
-          h2 {
-            font-size: 1.5rem;
-            margin: 1.5rem 0;
-          }
-
-          h3 {
-            font-size: 1.25rem;
-            margin: 1.25rem 0;
-          }
-
-          p {
-            font-size: 1rem;
-            margin: 0.5rem 0;
-            font-weight: normal;
-          }
-
-          li {
-            font-size: 1rem;
-            list-style-position: inside;
-          }
-
           .goose__modal-icon {
             font-size: 1.5rem;
             color: $red;

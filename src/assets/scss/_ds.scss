@@ -42,6 +42,28 @@
   }
 
   h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem !important;
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+    margin: 1.5rem 0 !important;
+  }
+
+  h3 {
+    font-size: 1.25rem !important;
+    margin: 1.25rem 0 !important;
+  }
+
+  p {
+    font-size: 1rem !important;
+    margin: 0.5rem 0 !important;
+    font-weight: normal !important;
+  }
+
+  li {
+    font-size: 1rem !important;
+    list-style-position: inside !important;
   }
 }

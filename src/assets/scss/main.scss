@@ -108,7 +108,7 @@ a {
   }
 
   &[target="_blank"]::after {
-    content: none !important;
+    content: "" !important;
   }
 }
 

@@ -108,6 +108,32 @@
 
       </section>
 
+      <section class="actions">
+
+        <div class="actions__title">
+          <Actions focusable="false" class="actions__title-icon" aria-hidden="true"/>
+          <h2>Nos actions</h2>
+        </div>
+
+        <div class="actions__list">
+          <div class="action">
+            <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
+            <a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank"><h3>L'observatoire de la qualité des démarche en ligne</h3></a>
+          </div>
+
+          <div class="action">
+            <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
+            <g-link to="/commando-ux/"><h3>Le Commando UX</h3></g-link>
+          </div>
+
+          <div class="action">
+            <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
+            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank"><h3>Le guichet FranceRelance</h3></a>
+          </div>
+        </div>
+
+      </section>
+
       <!-- <section class="blog">
 
           <div class="blog__top">
@@ -158,6 +184,7 @@
   import Services from "~/assets/images/services.svg"
   import Formations from "~/assets/images/formations.svg"
   import Blog from "~/assets/images/blog.svg"
+  import Actions from "~/assets/images/actions.svg"
 
   export default {
     components: {
@@ -171,6 +198,7 @@
       Services,
       Formations,
       Blog,
+      Actions,
     },
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",
@@ -289,6 +317,91 @@
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 64px;
+      }
+    }
+
+    .actions {
+      margin-bottom: 64px;
+
+      &__title {
+
+        h2 {
+          display: inline-block;
+          padding: 8px 0;
+          margin: 0 0 16px 0;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+          }
+        }
+
+        &-icon {
+          display: inline-block;
+          transition: .2s all;
+          height: 36px;
+          width: 36px;
+          margin-bottom: -5px;
+          margin-right: 16px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+            height: 32px;
+            width: 32px;
+            margin-bottom: -6px;
+            margin-right: 12px;
+          }
+        }
+      }
+
+      &__list {
+        display: flex;
+
+        .action {
+          display: flex;
+          position: relative;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          width: 33%;
+          border-radius: 32px;
+          background-color: $lighter-gray;
+          margin: 8px;
+          padding: 16px;
+
+          a {
+            border-bottom: 0px !important;
+
+            &:after {
+              position: absolute;
+              content: "";
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+            }
+
+            h3 {
+              display: inline-block;
+              width: 100%;
+              text-align: center;
+              font-size: 1rem;
+              margin: 8px 0 0 0;
+            }
+          }
+
+          &__illustration {
+            display: inline-block;
+            height: 64px;
+            width: 64px;
+            background-color: white;
+            border-radius: 50%;
+            padding: 8px;
+          }
+
+          &:hover {
+            box-shadow: 5px 5px 0px $light;
+          }
+        }
       }
     }
 
@@ -445,7 +558,7 @@
           }
         }
 
-        &:hover, &:focus {
+        &:hover {
           box-shadow: 5px 5px 0px $light;
 
           .brick__icon {

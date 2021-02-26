@@ -62,7 +62,7 @@
                                           <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>
                                       </div>
                                       <div class="rf-modal__content">
-                                        <font-awesome class="goose__modal-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
+                                        <font-awesome v-if="!card.node.top250" class="goose__modal-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
                                         <h1 :id="'rf-modal-'+card.node.id" class="rf-modal__title">{{ card.node.title }}</h1>
                                         <p v-if="card.node.top250" class="goose__modal-notice">
                                           <font-awesome :icon="['fas', 'info-circle']" height="16" width="16" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>

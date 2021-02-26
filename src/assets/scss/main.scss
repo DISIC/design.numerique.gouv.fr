@@ -5,6 +5,7 @@
 @import "breadcrumb";
 @import "buttons";
 @import "cover";
+@import "ds";
 @import "covid";
 @import "messages";
 
@@ -111,16 +112,6 @@ a {
   }
 }
 
-li {
-  &::before {
-    display: none;
-  }
-}
-
-.rf-header .rf-nav {
-  margin: 0;
-}
-
 .content {
   margin: 0 auto;
 
@@ -139,18 +130,6 @@ li {
       margin-bottom: 48px;
     }
   }
-}
-
-.content ul > li.rf-accordion {
-  margin-bottom: 0;
-  list-style-type: none;
-  border-bottom: none;
-}
-.rf-accordion__title {
-  display: inline-block;
-}
-:root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
-  background: none;
 }
 
 @media print {
@@ -174,12 +153,12 @@ li {
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
-  header, footer, 
+  header, footer,
   main .message, .breadcrumb, .rf-skiplinks, .if-english, .cover__subhead,
   svg.cover__home-illustration, svg.cover__illustration, svg.illustration, svg.h1__icon, svg.h2__icon, div.illustration {
     display: none;
   }
-  
+
   body {
     margin: 0 auto;
     font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
@@ -226,7 +205,4 @@ li {
       width: 100%;
     }
   }
-  
-
-
 }

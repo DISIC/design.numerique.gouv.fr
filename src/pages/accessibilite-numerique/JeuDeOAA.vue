@@ -69,32 +69,25 @@
                                         </p>
                                         <div v-html="card.node.content" />
                                       </div>
-                                      <div class="rf-modal__footer">
-                                        <ul class="rf-btns-group rf-btns-group--inline-lg rf-btns-group--center">
-                                          <li>
-                                            <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                                                    name="Suivant"
-                                                    class="goose__modal-navigation"
-                                                    v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                                              ← Étape précédente
-                                            </button>
-                                          </li>
-                                          <li>
-                                            <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                                                    name="Suivant"
-                                                    class="goose__modal-navigation"
-                                                    v-on:click="nextCard(card.node.id, index, step.node.id)">
-                                              Étape suivante →
-                                            </button>
-                                          </li>
-                                        </ul>
+                                      <div class="rf-modal__footer goose__modal-navigation">
+                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
+                                                name="Suivant"
+                                                class="goose__previous-card"
+                                                v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
+                                          <font-awesome  width="18px" class="button__left-icon" :icon="['fas', 'arrow-left']"/> Étape précédente
+                                        </button>
+                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
+                                                name="Suivant"
+                                                class="goose__next-card"
+                                                v-on:click="nextCard(card.node.id, index, step.node.id)">
+                                          Étape suivante <font-awesome  width="18px" class="button__icon" :icon="['fas', 'arrow-right']"/>
+                                        </button>
                                       </div>
                                   </div>
                               </div>
                           </div>
                       </div>
                   </dialog>
-
               </li>
             </ol>
           </li>
@@ -232,6 +225,10 @@
           margin: 12px 16px 8px 40px;
           font-size: 1.125rem;
           display: inline-block;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            margin: 12px 16px 12px 40px;
+          }
         }
 
         p {
@@ -329,7 +326,7 @@
           }
 
           @media only screen and (max-width: $mobile-max-width) {
-            margin: 4px 0 0 0;
+            margin: 0;
           }
         }
 
@@ -353,20 +350,35 @@
         }
 
         .goose__modal-navigation {
-          font-weight: bold;
-          color: $black;
-          font-size: 0.875rem;
-          border: none;
-          border-radius: 16px;
-          background-color: white;
-          cursor: pointer;
-          padding: 4px 12px;
+           display: flex;
+           justify-content: space-between;
 
-          &:hover {
-            color: white;
-            background-color: $black;
-          }
-        }
+           .goose__previous-card, .goose__next-card {
+             font-weight: bold;
+             color: $black;
+             font-size: 0.875rem;
+             border: none;
+             border-radius: 32px;
+             background-color: white;
+             cursor: pointer;
+             padding: 8px 12px;
+
+             &:hover {
+               color: white;
+               background-color: $black;
+             }
+
+             .button__icon, .button__left-icon {
+               width: 18px;
+             }
+           }
+
+           .goose__next-card {
+             margin-left: auto;
+             text-align: right;
+             padding-left: 16px;
+           }
+         }
 
         .rf-container {
           @media only screen and (min-width: $mobile-max-width + 1) {
@@ -378,15 +390,6 @@
           @media only screen and (min-width: $mobile-max-width + 1) {
             padding: 24px 16px;
           }
-        }
-
-        .rf-btns-group {
-          margin-bottom: 0;
-        }
-
-        .rf-btns-group--center {
-          justify-content: space-between;
-          margin-right: 0;
         }
       }
     }

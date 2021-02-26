@@ -59,30 +59,26 @@
         </div>
       </div>
     </div>
-<div class="quick-test">
-<section v-for="cat in $page.allDiagFlashCat.edges"  >
-    <h2> {{ cat.node.title }}</h2>
-    <ul class="rf-accordions-group">
-      <li  class="rf-accordion" v-for="step in $page.allDiagFlashCriterion.edges" >  
-        
-        <h3 class="rf-accordion__title">
-          <button class="rf-accordion__btn" aria-expanded="false" :aria-controls="step.node.id">
-            {{ step.node.id }}. {{ step.node.title }} 
-          </button>
-        </h3>
-        <div class="rf-collapse" :id="step.node.id">       
-          <div class="rf-accordion__inner">
-            <p style="text-align: right;" ><span style="padding:0.2em; color: white; background-color: hotpink;">{{ step.node.cat }}</span></p>
-            <div v-html="step.node.content" />
-          </div>
-        </div>
-      </li>
-    </ul>  
-</section>
-
-</div>
-</div>
-
+    <div class="quick-test">
+      <section v-for="cat in $page.allDiagFlashCat.edges"  >
+          <h2> {{ cat.node.title }}</h2>
+          <ul class="rf-accordions-group">
+            <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
+              <h3 class="rf-accordion__title">
+                <button class="rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
+                  {{ criterion.node.id }}. {{ criterion.node.title }} 
+                </button>
+              </h3>
+              <div class="rf-collapse" :id="criterion.node.id">       
+                <div class="rf-accordion__inner">
+                  <div v-html="criterion.node.content" />
+                </div>
+              </div>
+            </li>
+          </ul>  
+      </section>
+    </div>
+  </div>
   </Layout>
 </template>
 <page-query>
@@ -102,6 +98,9 @@
           id
           title
           content
+          cat {
+            id
+          }
         }
       }
     }

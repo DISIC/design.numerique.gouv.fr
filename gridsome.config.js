@@ -90,6 +90,9 @@ module.exports = {
       options: {
         typeName: 'DiagFlashCriterion',
         path: './content/diag/*.md',
+        refs: {
+          cat: 'DiagFlashCat'
+        },        
       }
     },
     {

@@ -31,7 +31,7 @@
     <p>Par conséquent, il ne s’agit que des symptômes les plus visibles qui, s’ils sont présents, permettent de s’interroger sur des problèmes plus profonds. Ainsi, si ce diagnostic ne permet de connaître ni la qualité ni l’accessibilité d’un site dans son ensemble, il constitue une première approche sur la maturité de l’équipe et sur les premières actions à engager : sensibilisation, formation, accompagnement, organisation, victoires rapides pour améliorer le site... </p>
     <p>C’est un constat partagé sur lequel construire une <strong>démarche d’amélioration</strong>.</p>
     <div class="rf-accordion rf-callout">      
-      <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-0">
+      <button class="rf-accordion__title rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-0">
         <h2>Comment ça marche ?</h2>
       </button>
       <div class="rf-collapse" id="rf-accordion-0">
@@ -64,7 +64,7 @@
   <ul class="rf-accordions-group">
     <li class="rf-accordion">
         <h3 class="rf-accordion__title">
-          <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
+          <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
         </h3>
         <div class="rf-collapse" id="rf-accordion-group-1">
           <h4>Comment vérifier ?</h4>
@@ -74,7 +74,7 @@
         </div>
     </li>    <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-11">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-11">
           L’interface du site est optimisée pour toutes les tailles d’écran
         </button>
       </h3>
@@ -95,7 +95,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-12">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-12">
           Une présentation du site et des démarches en ligne est disponible sans authentification
         </button>
       </h3>
@@ -111,7 +111,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-13">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-13">
           Lorsqu’il effectue une démarche en ligne, l’usager sait à quel étape il en est et peut revenir à une étape précédente ; il peut contrôler sa saisie
         </button>
       </h3>
@@ -131,7 +131,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-14">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-14">
           La navigation et l’utilisation du site peuvent s’effectuer entièrement au clavier
         </button>
       </h3>
@@ -150,7 +150,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-15">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-15">
           Il est possible de revenir à la page d’accueil depuis toutes les pages et de connaître la position des pages dans l’arborescence du site   
         </button>
       </h3>
@@ -170,7 +170,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-16">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-16">
           La charte graphique tient compte de la Marque de l’État
         </button>
       </h3>
@@ -189,7 +189,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-17">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-17">
           Le contenu de chaque page est disponible à l’impression sans bloc de navigation ni aplat de couleur   
         </button>
       </h3>
@@ -211,7 +211,7 @@
   <ul class="rf-accordions-group">
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-21">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-21">
           Le site a fait l'objet d'un audit de conformité RGAA   
         </button>
       </h3>
@@ -230,7 +230,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-22">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-22">
           Aucune information n'est véhiculée que par la couleur   
         </button>
       </h3>
@@ -245,7 +245,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-23">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-23">
           Les textes et les éléments graphiques porteurs d'informations sont présentés avec un contraste suffisant par rapport à leur arrière-plan   
         </button>
       </h3>
@@ -266,7 +266,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-24">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-24">
           Les images porteuses d’informations, les infographies, les vidéos et les fichiers audio ont une alternative textuelle   
         </button>
       </h3>
@@ -284,7 +284,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-25">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-25">
           La langue principal du site est bien définie  
         </button>
       </h3>
@@ -299,7 +299,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-26">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-26">
           Les textes sont simples et compréhensibles   
         </button>
       </h3>
@@ -322,7 +322,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-27">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-27">
           Le contenu reste lisible lorsque la taille de caractères est portée à 200% de la taille par défaut dans le navigateur   
         </button>
       </h3>
@@ -341,7 +341,7 @@
   <ul class="rf-accordions-group">
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-31">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-31">
           La hiérarchie des titres est complète et cohérente   
         </button>
       </h3>
@@ -356,7 +356,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-32">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-32">
           Chaque champ de formulaire est clairement associé à son intitulé. Les champs et les formats obligatoires sont indiqués  
         </button>
       </h3>
@@ -378,7 +378,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-33">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-33">
           Le titre de chaque page est composée du titre de son contenu, suivi du nom du site   
         </button>
       </h3>
@@ -394,7 +394,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-34">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-34">
           Le soulignement est réservé aux liens
         </button>
       </h3>
@@ -412,7 +412,7 @@
   <ul>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-41">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-41">
           Lorsqu’une identification est requise, il est proposé à l’usager de s'authentifier via FranceConnect   
         </button>
       </h3>
@@ -429,7 +429,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-42">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-42">
           La démarches en ligne fait l'objet d'enquêtes de satisfaction et donne accès aux résultats  
         </button>
       </h3>
@@ -445,7 +445,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-43">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-43">
           Les démarches en ligne sont référencées sur service-public.fr
         </button>
       </h3>
@@ -460,7 +460,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-44">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-44">
           Le site est bien référencé par les moteurs de recherche  
         </button>
       </h3>
@@ -475,7 +475,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-45">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-45">
           Le pied de page présente l'ensemble des liens obligatoires  
         </button>
       </h3>
@@ -495,7 +495,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-46">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-46">
           Le site ou la démarche en ligne propose au moins deux moyens de contact différents  
         </button>
       </h3>
@@ -511,7 +511,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-47">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-47">
           La informations relatives aux fichiers proposés en téléchargement sont indiquées   
         </button>
       </h3>
@@ -532,7 +532,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-48">
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-48">
           Les fichiers bureautiques téléchargeables sur le site sont proposés dans un format ouvert et sont accessibles
         </button>
       </h3>

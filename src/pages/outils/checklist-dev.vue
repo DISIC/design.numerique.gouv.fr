@@ -35,7 +35,7 @@
   <ul class="rf-accordions-group">
     <li class="rf-accordion">
         <h3 class="rf-accordion__title">
-          <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
+          <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
         </h3>
         <div class="rf-collapse" id="rf-accordion-group-1">
           <h4>Comment vérifier ?</h4>
@@ -46,7 +46,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-2">La balise html possède l'attribut lang avec la valeur de la langue principale</button>
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-2">La balise html possède l'attribut lang avec la valeur de la langue principale</button>
       </h3>          
       <div class="rf-collapse" id="rf-accordion-group-2">
           <h4>Comment vérifier ?</h4>
@@ -57,7 +57,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-3">Le code html est valide au regard de la DTD</button>
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-3">Le code html est valide au regard de la DTD</button>
       </h3>          
       <div class="rf-collapse" id="rf-accordion-group-3">
           <h4>Comment vérifier ?</h4>
@@ -77,7 +77,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-4">La page est entièrement navigable et utilisable au clavier</button>
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-4">La page est entièrement navigable et utilisable au clavier</button>
       </h3>          
       <div class="rf-collapse" id="rf-accordion-group-4">
           <h4>Comment vérifier ?</h4>
@@ -90,7 +90,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-5">La sémantique des balises html est correctement utilisée</button>
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-5">La sémantique des balises html est correctement utilisée</button>
       </h3>          
       <div class="rf-collapse" id="rf-accordion-group-5">
 
@@ -109,7 +109,7 @@
     </li>
     <li class="rf-accordion">
       <h3 class="rf-accordion__title">
-        <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-6">Chaque champ de formulaire est associé à son étiquette</button>
+        <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-6">Chaque champ de formulaire est associé à son étiquette</button>
       </h3>          
       <div class="rf-collapse" id="rf-accordion-group-6">
           <h4>Comment vérifier ?</h4>

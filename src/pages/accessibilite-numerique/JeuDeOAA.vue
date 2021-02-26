@@ -32,7 +32,7 @@
           </p>
       </div>
       <section class="goose rf-mt-8w">
-        <ul>
+        <ol>
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
             <div class="goose__step-title">
@@ -40,7 +40,7 @@
               <p>{{ step.node.duration }}</p>
             </div>
 
-            <ul>
+            <ol>
               <li v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
                     :key="card.node.id"
                     class="goose__card"
@@ -76,9 +76,9 @@
                   </dialog>
 
               </li>
-            </ul>
+            </ol>
           </li>
-        </ul>
+        </ol>
       </section>
     </div>
 
@@ -153,7 +153,7 @@
 
     .goose {
 
-      ul {
+      ol {
         padding: 0;
         margin: 0;
 
@@ -169,7 +169,7 @@
         margin-bottom: 16px;
         border-radius: 32px;
 
-        > ul {
+        > ol {
           display: flex;
           flex-wrap: wrap;
         }

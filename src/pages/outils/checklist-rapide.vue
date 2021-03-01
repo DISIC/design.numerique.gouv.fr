@@ -30,7 +30,7 @@
   <ul class="rf-accordions-group">
     <li class="rf-accordion">
         <h3 class="rf-accordion__title">
-          <button class="rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
+          <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-group-1">Le titre de la page est unique et pertinent</button>
         </h3>
         <div class="rf-collapse" id="rf-accordion-group-1">
           <h4>Comment vérifier ?</h4>

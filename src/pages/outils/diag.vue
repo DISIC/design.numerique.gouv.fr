@@ -65,7 +65,7 @@
           <ul class="rf-accordions-group">
             <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
               <h3 class="rf-accordion__title">
-                <button class="rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
+                <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" :aria-controls="criterion.node.id">
                   {{ criterion.node.id }}. {{ criterion.node.title }} 
                 </button>
               </h3>

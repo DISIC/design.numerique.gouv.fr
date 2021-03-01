@@ -54,7 +54,7 @@
       <section>
         <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Prochainement</h2>
         <ul>
-          <li>Le Design system de l‘État est un ensemble de composants réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
+          <li>Le Design system de l‘État est un ensemble de composants accessibles et réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
         </ul>
       </section>
 

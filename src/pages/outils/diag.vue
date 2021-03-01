@@ -53,7 +53,7 @@
           <p>Il saisit son appréciation dans le tableur dédié [à produire] et obtient le résultat du diagnostic.</p>
           <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
           <ul>
-            <li>HeadingsMap (symbolisé par le pictogramme <h/>)</li>
+            <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)</li>
             <li>Contrast Checker (symbolisée par une roue multicolore)</li>
           </ul>
         </div>

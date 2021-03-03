@@ -118,17 +118,23 @@
         <div class="actions__list">
           <div class="action">
             <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
-            <a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank"><h3>L'observatoire de la qualité des démarche en ligne</h3></a>
+            <h3>L'observatoire</h3>
+            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe.</p>
+            <a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">Consulter l'observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></a>
           </div>
 
           <div class="action">
             <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
-            <g-link to="/commando-ux/"><h3>Le Commando UX</h3></g-link>
+            <h3>Le Commando UX</h3>
+            <p>Une équipe de designers et développeurs pour améliorer les services publics numériques.</p>
+            <g-link to="/commando-ux/">Suivre le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
           </div>
 
           <div class="action">
-            <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
-            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank"><h3>Le guichet FranceRelance</h3></a>
+            <g-image src="~/assets/images/franceRelance.png" class="action__illustration" aria-hidden="true" />
+            <h3>Notre guichet FranceRelance</h3>
+            <p>Pour simplifier la relation entre les usagers et l'administration grâce au numérique.</p>
+            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Se rendre au guichet <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></a>
           </div>
         </div>
 
@@ -328,7 +334,7 @@
         h2 {
           display: inline-block;
           padding: 8px 0;
-          margin: 0 0 16px 0;
+          margin: 0 0 32px 0;
 
           @media only screen and (max-width: $mobile-max-width) {
             display: inline;
@@ -355,21 +361,19 @@
 
       &__list {
         display: flex;
+        flex-wrap: wrap;
 
         .action {
-          display: flex;
           position: relative;
-          flex-direction: column;
-          justify-content: space-around;
-          align-items: center;
-          width: 33%;
-          border-radius: 32px;
-          background-color: $lighter-gray;
-          margin: 8px;
-          padding: 16px;
+          flex-basis: 46%;
+          border-radius: 24px;
+          margin: 16px 2% 32px 2%;
+
+          h3 {
+            margin: 0;
+          }
 
           a {
-            border-bottom: 0px !important;
 
             &:after {
               position: absolute;
@@ -380,26 +384,28 @@
               right: 0;
             }
 
-            h3 {
-              display: inline-block;
-              width: 100%;
-              text-align: center;
-              font-size: 1rem;
-              margin: 8px 0 0 0;
+            svg {
+              margin-left: 4px;
             }
           }
 
+          p {
+            margin: 8px 0;
+          }
+
           &__illustration {
-            display: inline-block;
-            height: 64px;
-            width: 64px;
+            height: 40px;
+            width: 40px;
             background-color: white;
             border-radius: 50%;
-            padding: 8px;
+            margin-bottom: 4px;
           }
 
           &:hover {
-            box-shadow: 5px 5px 0px $light;
+            h3 {
+              color: $blue;
+              text-shadow: 5px 5px 0px $light;
+            }
           }
         }
       }

@@ -18,20 +18,14 @@
   <div class="cover">
     <div class="cover__container">
       <h1 class="text-highlight">Diagnostic flash</h1>
-      <p class="cover__subtitle">Le diagnostic flash est destiné à tout personne souhaitant avoir un premier aperçu, même très partiel, sur la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps. Il permet également de s’approprier progressivement les différentes problématiques avec des exemples concrets.</p>
+      <p class="cover__subtitle">Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
+
     </div>
   </div>
 
-  <div class="content">
-    <p>Le diagnostic flash est construit sur un ensemble de critères, qui sont autant de bonnes pratiques, de critères d’accessibilité et d’obligations pour les sites publics. Ils ont deux caractéristiques :</p>
-    <ol>
-    <li>ils sont importants</li>
-    <li>ils peuvent être contrôlés par n’importe qui</li>
-    </ol> 
-    <p>Par conséquent, il ne s’agit que des symptômes les plus visibles qui, s’ils sont présents, permettent de s’interroger sur des problèmes plus profonds. Ainsi, si ce diagnostic ne permet de connaître ni la qualité ni l’accessibilité d’un site dans son ensemble, il constitue une première approche sur la maturité de l’équipe et sur les premières actions à engager : sensibilisation, formation, accompagnement, organisation, victoires rapides pour améliorer le site... </p>
-    <p>C’est un constat partagé sur lequel construire une <strong>démarche d’amélioration</strong>.</p>
+  <div class="content"> 
     <div class="rf-accordion rf-callout">      
-      <button class="rf-accordion__title rf-accordion__btn" aria-expanded="false" aria-controls="rf-accordion-0">
+      <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right " aria-expanded="false" aria-controls="rf-accordion-0">
         <h2>Comment ça marche ?</h2>
       </button>
       <div class="rf-collapse" id="rf-accordion-0">
@@ -65,7 +59,7 @@
           <ul class="rf-accordions-group">
             <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
               <h3 class="rf-accordion__title">
-                <button class="rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" :aria-controls="criterion.node.id">
+                <button class="rf-accordion__btn--icon-right rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
                   {{ criterion.node.id }}. {{ criterion.node.title }} 
                 </button>
               </h3>

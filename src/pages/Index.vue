@@ -385,6 +385,7 @@
 
               svg {
                 margin-left: 4px;
+                transition: .2s all;
               }
             }
           }
@@ -405,6 +406,10 @@
             h3 {
               color: $blue;
               text-shadow: 5px 5px 0px $light;
+
+              svg {
+                margin-left: 12px;
+              }
             }
           }
         }

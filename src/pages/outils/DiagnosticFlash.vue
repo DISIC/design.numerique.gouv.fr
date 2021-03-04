@@ -24,7 +24,7 @@
   </div>
 
   <div class="content">
-    <div class="rf-accordion rf-callout">
+    <div class="rf-accordion rf-callout guide">
       <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-0">
         <h2 class="guide-title">Comment l'utiliser ?</h2>
       </button>
@@ -123,22 +123,21 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  .outils-page .rf-callout {
-    padding: 1rem 2rem !important;
-    margin-bottom: 4rem;
+  .outils-page{
 
-    .rf-accordion__btn{
-      //width: 95%;
+    .guide {
+      padding: 1rem 2rem !important;
+      margin-bottom: 4rem !important;
+
+      &-title {
+        margin: 0;
+      }
     }
-  }
 
-  .rf-accordion__inner {
-    background-color:var(--g200);
-    padding: 1rem 2rem;
-  }
-
-  .guide-title {
-    margin: 0;
+    .rf-accordion__inner {
+      background-color:var(--g200);
+      padding: 1rem 2rem;
+    }
   }
 
 </style>

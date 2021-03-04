@@ -113,10 +113,6 @@ export default {
     meta: [{
       name: "description",
       content: "Le diagnostic flash est destiné à tout personne souhaitant avoir un premier aperçu sur la qualité, l’accessibilité et le design d’un site."
-    },
-    {
-      name: "robots",
-      content: "noindex, nofollow"
     }
     ],
   }

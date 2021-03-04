@@ -117,13 +117,13 @@
 
         <ul class="actions__list">
           <li class="action">
-            <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
+            <Observatoire focusable="false" class="action__illustration" aria-hidden="true"/>
             <h3><a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">L'observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></a></h3>
             <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe.</p>
           </li>
 
           <li class="action">
-            <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
+            <font-awesome :icon="['fas', 'user-astronaut']"focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6"/>
             <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></h3>
             <p>Une équipe de designers et développeurs pour améliorer les services publics numériques.</p>
           </li>
@@ -188,6 +188,7 @@
   import Formations from "~/assets/images/formations.svg"
   import Blog from "~/assets/images/blog.svg"
   import Actions from "~/assets/images/actions.svg"
+  import Observatoire from "~/assets/images/observatoire.svg"
 
   export default {
     components: {
@@ -202,6 +203,7 @@
       Formations,
       Blog,
       Actions,
+      Observatoire
     },
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",
@@ -397,9 +399,10 @@
           &__illustration {
             height: 40px;
             width: 40px;
-            background-color: white;
+            background-color: $lighter-gray;
             border-radius: 50%;
             margin-bottom: 4px;
+            color: $red;
           }
 
           &:hover {

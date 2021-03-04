@@ -169,6 +169,30 @@
 
       </section> -->
 
+      <section class="team">
+
+        <div class="team__title">
+          <Equipe focusable="false" class="team__title-icon" aria-hidden="true"/>
+          <h2>Notre équipe</h2>
+        </div>
+
+        <div class="team__content">
+          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png"/>
+          <div class="team__text">
+            <p>
+              <strong>DesignGouv</strong>, c'est avant tout une équipe, diverse et heureuse de contribuer aux côtés
+              des administrations à l'amélioration du quotidien des Français !
+              Ok, il n'y a pas tout le monde sur la photo et elle date un peu,
+              alors promis on en reprend une lorsque l'on pourra se réunir ☀️.</p>
+            <p></p>
+            <g-link to="/equipe/">
+              Découvrir toute l'équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </g-link>
+          </div>
+        </div>
+
+      </section>
+
     </div>
 
   </Layout>
@@ -190,6 +214,7 @@
   import Actions from "~/assets/images/actions.svg"
   import Observatoire from "~/assets/images/observatoire.svg"
   import FranceRelance from "~/assets/images/franceRelance.svg"
+  import Equipe from "~/assets/images/equipe.svg"
 
   export default {
     components: {
@@ -205,7 +230,8 @@
       Blog,
       Actions,
       Observatoire,
-      FranceRelance
+      FranceRelance,
+      Equipe
     },
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",
@@ -324,6 +350,75 @@
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 64px;
+      }
+    }
+
+    .team {
+
+      &__title {
+        margin-bottom: 1.5rem;
+
+        h2 {
+          display: inline-block;
+          padding: 8px 0;
+          margin: 0;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+          }
+        }
+
+        &-icon {
+          display: inline-block;
+          transition: .2s all;
+          height: 36px;
+          width: 36px;
+          margin-bottom: -5px;
+          margin-right: 16px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+            height: 32px;
+            width: 32px;
+            margin-bottom: -6px;
+            margin-right: 12px;
+          }
+        }
+      }
+
+      &__content {
+        display: flex;
+        align-items: flex-start;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: initial;
+        }
+
+        .team__text {
+          padding-left: 2rem;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            padding-left: 0;
+            padding-top: 1rem;
+          }
+
+          p {
+            margin: 0 0 1rem 0;
+          }
+
+          a {
+            border-bottom: none !important;
+            text-align: right;
+          }
+        }
+
+        .team__image {
+          max-width: 240px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            max-width: 100%
+          }
+        }
       }
     }
 

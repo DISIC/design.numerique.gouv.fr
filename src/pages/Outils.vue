@@ -107,10 +107,6 @@
   .outils-page {
 
     .content {
-      
-      .rf-accordion__title {
-        display: inline-block;
-      }
 
       .rf-accordion {
         margin-bottom: 0;

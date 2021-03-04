@@ -119,19 +119,19 @@
           <li class="action">
             <Observatoire focusable="false" class="action__illustration" aria-hidden="true"/>
             <h3><a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">L'Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"/></a></h3>
-            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe 🔎</p>
+            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
           </li>
 
           <li class="action">
             <font-awesome :icon="['fas', 'user-astronaut']"focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6"/>
             <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"/></g-link></h3>
-            <p>Une équipe de designers et développeurs pour améliorer les services publics numériques 🌟</p>
+            <p>Une équipe de designers et développeurs pour améliorer les services publics numériques&nbsp;🌟</p>
           </li>
 
           <li class="action">
             <g-image src="~/assets/images/franceRelance.png" class="action__illustration" aria-hidden="true" />
             <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"/></a></h3>
-            <p>Pour simplifier la relation entre les usagers et l'administration grâce au numérique 👍</p>
+            <p>Pour simplifier la relation entre les usagers et l'administration grâce au numérique&nbsp;👍</p>
           </li>
         </ul>
 
@@ -369,6 +369,11 @@
           border-radius: 24px;
           margin: 0 3% 1.5rem 3%;
           list-style: none;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            flex-basis: 97%;
+            margin: 0 0 1rem 3%;
+          }
 
           h3 {
             margin: 0;

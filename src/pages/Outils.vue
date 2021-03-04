@@ -38,7 +38,7 @@
         <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Méthode</h2>
         <ul>
           <li>Le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l'organisation de l’amélioration de l’accessibilité (OAA)</a> vous guide dans la mise en accessibilité de votre service numérique.</li>
-          <li>Le <a href="diag">diagnostic flash</a> : Avant de lancer un audit complet, il est intéressant qu'un chef de produit ou de projet puisse réaliser lui-même une évaluation rapide de la qualité d'un site ou d'une livraison de pages pour s'en faire une première idée.</li>
+          <li>Le <a href="diag">diagnostic flash</a> permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</li>
           <li>Les nombreux <a href="https://github.com/DISIC?q=guide+RGAA" target="_blank">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d'accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l'insertion des personnes handicapées dans la fonction publique (FIPHFP).</li>
           <li>L‘<a href="audit-rapide">audit rapide</a> permet à moindre coût d‘apprécier l‘accessibilité d‘un site et la maturité d‘une équipe</li>
           <li>La <a href="https://pidila.gitlab.io/checklist-pidila/" target="_blank">Checklist Pidila</a> regroupe les critères des différents référentiels et bonnes pratiques du web.</li>

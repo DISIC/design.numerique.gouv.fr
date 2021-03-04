@@ -115,28 +115,25 @@
           <h2>Nos actions</h2>
         </div>
 
-        <div class="actions__list">
-          <div class="action">
+        <ul class="actions__list">
+          <li class="action">
             <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
-            <h3>L'observatoire</h3>
+            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">L'observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></a></h3>
             <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe.</p>
-            <a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">Consulter l'observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></a>
-          </div>
+          </li>
 
-          <div class="action">
+          <li class="action">
             <AccessibiliteIllustration focusable="false" class="action__illustration" aria-hidden="true"/>
-            <h3>Le Commando UX</h3>
+            <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link></h3>
             <p>Une équipe de designers et développeurs pour améliorer les services publics numériques.</p>
-            <g-link to="/commando-ux/">Suivre le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
-          </div>
+          </li>
 
-          <div class="action">
+          <li class="action">
             <g-image src="~/assets/images/franceRelance.png" class="action__illustration" aria-hidden="true" />
-            <h3>Notre guichet FranceRelance</h3>
+            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></a></h3>
             <p>Pour simplifier la relation entre les usagers et l'administration grâce au numérique.</p>
-            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Se rendre au guichet <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-3"/></a>
-          </div>
-        </div>
+          </li>
+        </ul>
 
       </section>
 
@@ -327,14 +324,14 @@
     }
 
     .actions {
-      margin-bottom: 64px;
 
       &__title {
+        margin-bottom: 1rem;
 
         h2 {
           display: inline-block;
           padding: 8px 0;
-          margin: 0 0 32px 0;
+          margin: 0;
 
           @media only screen and (max-width: $mobile-max-width) {
             display: inline;
@@ -362,30 +359,33 @@
       &__list {
         display: flex;
         flex-wrap: wrap;
+        padding: 0;
 
         .action {
           position: relative;
-          flex-basis: 46%;
+          flex-basis: 44%;
           border-radius: 24px;
-          margin: 16px 2% 32px 2%;
+          margin: 1rem 3%;
+          list-style: none;
 
           h3 {
             margin: 0;
-          }
 
-          a {
+            a {
+              border-bottom: none !important;
 
-            &:after {
-              position: absolute;
-              content: "";
-              top: 0;
-              bottom: 0;
-              left: 0;
-              right: 0;
-            }
+              &:after {
+                position: absolute;
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+              }
 
-            svg {
-              margin-left: 4px;
+              svg {
+                margin-left: 4px;
+              }
             }
           }
 

@@ -23,14 +23,14 @@
     </div>
   </div>
 
-  <div class="content"> 
-    <div class="rf-accordion rf-callout">      
-      <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right " aria-expanded="false" aria-controls="rf-accordion-0">
-        <h2>Comment ça marche ?</h2>
+  <div class="content">
+    <div class="rf-accordion rf-callout guide">
+      <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-0">
+        <h2 class="guide-title">Comment l’utiliser ?</h2>
       </button>
       <div class="rf-collapse" id="rf-accordion-0">
         <div class="rf-accordion__inner">
-          <p>Le diagnostic se fait sur un échantillon de pages incluant au minimum :</p> 
+          <p>Le diagnostic se fait sur un échantillon de pages incluant au minimum :</p>
           <ul>
           <li>la page d’accueil</li>
           <li>une page de formulaire si elle existe</li>
@@ -44,7 +44,9 @@
           <li> 🙁 Le critère n’est pas rempli et si, ça et là, des choses conviennent, c’est un peu par hasard;</li>
           <li> ✖ Le site ou la démarche n’est pas concerné par le critère.</li>
           </ul>
+          <!--
           <p>Il saisit son appréciation dans le tableur dédié [à produire] et obtient le résultat du diagnostic.</p>
+          -->
           <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
           <ul>
             <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)</li>
@@ -60,16 +62,16 @@
             <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
               <h3 class="rf-accordion__title">
                 <button class="rf-accordion__btn--icon-right rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
-                  {{ criterion.node.id }}. {{ criterion.node.title }} 
+                  {{ criterion.node.id }}. {{ criterion.node.title }}
                 </button>
               </h3>
-              <div class="rf-collapse" :id="criterion.node.id">       
+              <div class="rf-collapse" :id="criterion.node.id">
                 <div class="rf-accordion__inner">
                   <div v-html="criterion.node.content" />
                 </div>
               </div>
             </li>
-          </ul>  
+          </ul>
       </section>
     </div>
   </div>
@@ -85,7 +87,7 @@
           title
         }
       }
-    },    
+    },
     allDiagFlashCriterion(sort: [ { by: "id", order: ASC }]) {
       edges {
         node {
@@ -111,10 +113,6 @@ export default {
     meta: [{
       name: "description",
       content: "Le diagnostic flash est destiné à tout personne souhaitant avoir un premier aperçu sur la qualité, l’accessibilité et le design d’un site."
-    },
-    {
-      name: "robots",
-      content: "noindex, nofollow"
     }
     ],
   }
@@ -125,16 +123,21 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  .outils-page .rf-callout {
-    padding: 0 1rem;
-    .rf-accordion__btn{
-      width: 95%;
+  .outils-page{
+
+    .guide {
+      padding: 1rem 2rem !important;
+      margin-bottom: 4rem !important;
+
+      &-title {
+        margin: 0;
+      }
+    }
+
+    .rf-accordion__inner {
+      background-color:var(--g200);
+      padding: 1rem 2rem;
     }
   }
-
-      .rf-accordion__inner{
-        background-color:var(--g200);
-        padding:1rem 2rem;
-      }
 
 </style>

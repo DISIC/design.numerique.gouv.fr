@@ -172,7 +172,7 @@
       <section class="team">
 
         <div class="team__title">
-          <Equipe focusable="false" class="team__title-icon" aria-hidden="true"/>
+          <Equipe focusable="false" class="team__icon" aria-hidden="true"/>
           <h2>Notre équipe</h2>
         </div>
 
@@ -180,10 +180,11 @@
           <g-image class="team__image" src="~/assets/images/team-photos/equipe.png"/>
           <div class="team__text">
             <p>
-              <strong>DesignGouv</strong>, c'est avant tout une équipe, diverse et heureuse de contribuer aux côtés
+              <strong>DesignGouv</strong>, c'est avant tout une équipe : le pôle
+              Design des service numérique, diverse et heureuse de contribuer aux côtés
               des administrations à l'amélioration du quotidien des Français !
-              Ok, il n'y a pas tout le monde sur la photo et elle date un peu,
-              alors promis on en reprend une lorsque l'on pourra se réunir ☀️.</p>
+              Ok, il n'y a pas tout le monde sur la photo,
+              promis on en reprend une vite&nbsp;☀️.</p>
             <p></p>
             <g-link to="/equipe/">
               Découvrir toute l'équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
@@ -354,6 +355,13 @@
     }
 
     .team {
+      position: relative;
+
+      &:hover, &:focus {
+        .team__icon {
+          transform: rotate(180deg);
+        }
+      }
 
       &__title {
         margin-bottom: 1.5rem;
@@ -367,31 +375,33 @@
             display: inline;
           }
         }
+      }
 
-        &-icon {
-          display: inline-block;
-          transition: .2s all;
-          height: 36px;
-          width: 36px;
-          margin-bottom: -5px;
-          margin-right: 16px;
+      &__icon {
+        display: inline-block;
+        transition: .2s all;
+        height: 36px;
+        width: 36px;
+        margin-bottom: -5px;
+        margin-right: 16px;
 
-          @media only screen and (max-width: $mobile-max-width) {
-            display: inline;
-            height: 32px;
-            width: 32px;
-            margin-bottom: -6px;
-            margin-right: 12px;
-          }
+        @media only screen and (max-width: $mobile-max-width) {
+          display: inline;
+          height: 32px;
+          width: 32px;
+          margin-bottom: -6px;
+          margin-right: 12px;
         }
       }
 
       &__content {
         display: flex;
         align-items: flex-start;
+        margin: 0 1rem;
 
         @media only screen and (max-width: $mobile-max-width) {
           display: initial;
+          margin: 0;
         }
 
         .team__text {
@@ -409,15 +419,20 @@
           a {
             border-bottom: none !important;
             text-align: right;
+
+            &:after {
+              position: absolute;
+              content: "";
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+            }
           }
         }
 
         .team__image {
           max-width: 240px;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            max-width: 100%
-          }
         }
       }
     }
@@ -464,7 +479,7 @@
           position: relative;
           flex-basis: 44%;
           border-radius: 24px;
-          margin: 0 3% 1.5rem 3%;
+          margin: 0 4% 1.5rem 2%;
           list-style: none;
 
           @media only screen and (max-width: $mobile-max-width) {

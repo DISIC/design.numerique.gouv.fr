@@ -44,7 +44,9 @@
           <li> 🙁 Le critère n’est pas rempli et si, ça et là, des choses conviennent, c’est un peu par hasard;</li>
           <li> ✖ Le site ou la démarche n’est pas concerné par le critère.</li>
           </ul>
+          <!--
           <p>Il saisit son appréciation dans le tableur dédié [à produire] et obtient le résultat du diagnostic.</p>
+          -->
           <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
           <ul>
             <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)</li>

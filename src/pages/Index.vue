@@ -187,7 +187,7 @@
               promis on en reprend une vite&nbsp;☀️.</p>
             <p></p>
             <g-link to="/equipe/">
-              Découvrir toute l'équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              Découvrir l'équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
             </g-link>
           </div>
         </div>
@@ -401,15 +401,14 @@
 
         @media only screen and (max-width: $mobile-max-width) {
           display: initial;
-          margin: 0;
+          //margin: 0;
         }
 
         .team__text {
           padding-left: 2rem;
 
           @media only screen and (max-width: $mobile-max-width) {
-            padding-left: 0;
-            padding-top: 1rem;
+            padding: 1rem;
           }
 
           p {

@@ -1,17 +1,6 @@
 <template>
   <Layout class="jobs-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Recrutement</span>
-        </li>
-      </ol>
-    </nav>
-
     <div class="cover">
      <div class="cover__container cover__container--light">
 

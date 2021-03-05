@@ -23,7 +23,7 @@
         <a class="rf-link" href="/blog/">Blog</a>
       </li> -->
       <li class="rf-nav__item" v-if="$static.allJob.edges.length > 0">
-        <a class="rf-link" href="/recrutement/">Recrutement<span class="open-job">{{ $static.allJob.edges.length }}</span></a>
+        <a class="rf-link" href="/recrutement/">Recrutement<span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
       </li>
     </ul>
   </nav>
@@ -106,7 +106,7 @@
       padding: 0 0px !important;
     }
 
-    .open-job {
+    .open-jobs {
       font-size: 0.8rem;
       font-weight: bold;
       color: $dark-red;
@@ -116,7 +116,7 @@
       height: 1.5rem;
       text-align: center;
       margin-left: 0.375rem;
-      margin-top: 0.125rem
+      margin-top: 0.125rem;
     }
 
     ul {
@@ -141,6 +141,10 @@
 
         &:hover {
           color: $blue;
+
+          .open-jobs {
+            color: $blue;
+          }
 
           &:after {
             display: none;

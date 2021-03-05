@@ -180,8 +180,8 @@
           <g-image class="team__image" src="~/assets/images/team-photos/equipe.png"/>
           <div class="team__text">
             <p>
-              <strong>DesignGouv</strong>, c'est avant tout une équipe : le pôle
-              Design des service numérique, diverse et heureuse de contribuer aux côtés
+              DesignGouv c'est avant tout une équipe, <strong>le pôle
+              Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés
               des administrations à l'amélioration du quotidien des Français !
               Ok, il n'y a pas tout le monde sur la photo,
               promis on en reprend une vite&nbsp;☀️.</p>

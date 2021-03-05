@@ -177,7 +177,7 @@
         </div>
 
         <div class="team__content">
-          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png"/>
+          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="Photo de l'équipe DesignGouv sourir aux lèvres"/>
           <div class="team__text">
             <p>
               DesignGouv c'est avant tout une équipe, <strong>le pôle

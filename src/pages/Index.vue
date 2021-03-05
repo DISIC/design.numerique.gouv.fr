@@ -401,7 +401,6 @@
 
         @media only screen and (max-width: $mobile-max-width) {
           display: initial;
-          //margin: 0;
         }
 
         .team__text {
@@ -523,7 +522,7 @@
           }
 
           &:hover {
-            border-left: 4px solid $dark-red;
+            border-left: 4px solid $red;
 
             h3 {
               color: $blue;

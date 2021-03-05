@@ -478,13 +478,15 @@
         .action {
           position: relative;
           flex-basis: 44%;
-          border-radius: 24px;
-          margin: 0 4% 1.5rem 2%;
+          margin: 0 1.5% 1.5rem 1.5%;
+          padding-left: 2%;
+          border-left: 4px solid $blue;
           list-style: none;
 
+
           @media only screen and (max-width: $mobile-max-width) {
-            flex-basis: 97%;
-            margin: 0 0 1rem 3%;
+            flex-basis: 94%;
+            margin: 0 3% 1rem 3%;
           }
 
           h3 {
@@ -510,7 +512,7 @@
           }
 
           p {
-            margin: 8px 0;
+            margin: 8px 0 0 0;
           }
 
           &__illustration {
@@ -518,11 +520,12 @@
             width: 36px;
             background-color: $lighter-gray;
             border-radius: 50%;
-            margin-bottom: 0.25rem;
             color: $red;
           }
 
           &:hover {
+            border-left: 4px solid $dark-red;
+
             h3 {
               color: $blue;
               text-shadow: 5px 5px 0px $light;

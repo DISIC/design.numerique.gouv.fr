@@ -484,7 +484,7 @@
 
           @media only screen and (max-width: $mobile-max-width) {
             flex-basis: 94%;
-            margin: 0 3% 1rem 3%;
+            margin: 0 3% 1.5rem 3%;
           }
 
           h3 {

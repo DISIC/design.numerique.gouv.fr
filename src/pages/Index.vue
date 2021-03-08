@@ -118,7 +118,7 @@
         <ul class="actions__list">
           <li class="action">
             <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
-            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
             <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
           </li>
 

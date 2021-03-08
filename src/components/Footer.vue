@@ -3,11 +3,11 @@
   <footer role="contentinfo" >
 
     <div class="jobs-banner" v-if="$static.allJob.edges.length > 0">
-      <p class="jobs-banner__text"><font-awesome :icon="['fas', 'bullhorn']" size="lg" class="jobs-banner__icon"/> Nous recrutons ! <g-link to="/recrutement/">Voir les postes ouverts <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"/></g-link></p>
+      <p class="jobs-banner__text"><font-awesome :icon="['fas', 'bullhorn']"  aria-hidden="true" height="24px" width="24px" size="lg" class="jobs-banner__icon"/> Nous recrutons ! <g-link to="/recrutement/">Voir les postes ouverts <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></g-link></p>
     </div>
 
     <div class="footer">
-      <img src="/assets/images/logoRF.svg" width="120" alt="République Française. Liberté Égalité Fraternité."/>
+      <img src="/assets/images/logoRF.svg" width="120" height="111" alt="République Française. Liberté Égalité Fraternité."/>
 
       <div class="footer__content">
 

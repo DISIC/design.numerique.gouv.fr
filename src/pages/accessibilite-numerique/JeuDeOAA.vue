@@ -72,7 +72,7 @@
                                       </div>
                                       <div class="rf-modal__footer goose__modal-navigation">
                                         <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                                                name="Suivant"
+                                                name="Précédent"
                                                 class="goose__previous-card"
                                                 v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
                                           <font-awesome  width="18px" class="button__left-icon" :icon="['fas', 'arrow-left']"/> Étape précédente

@@ -95,7 +95,7 @@
           <div class="brick__description">
             <Services focusable="false" class="brick__icon" aria-hidden="true"/>
 
-            <h2>Accompagement</h2>
+            <h2>Accompagnement</h2>
 
             <p>
               Vous avez un besoin ou des questions pour l’<strong>amélioration de vos démarches</strong>, nous sommes là pour vous accompagner !

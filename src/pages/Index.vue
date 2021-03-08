@@ -7,7 +7,7 @@
 
         <h1>Concevons des services publics numériques <span class="text-highlight">accessibles</span>, <span class="text-highlight">inclusifs</span> et <span class="text-highlight">humains</span>.</h1>
 
-        <p class="cover__subtitle">Des idées et des outils à la disposition des agents publics pour améliorer l'expérience usager des services publics numériques.</p>
+        <p class="cover__subtitle">Des idées et des outils à la disposition des agents publics pour améliorer l’expérience usager des services publics numériques.</p>
 
         <CoverIllustration class="cover__home-illustration" focusable="false" aria-hidden="true"/>
       </div>
@@ -51,7 +51,7 @@
           </p>
 
           <g-link to="/accessibilite-numerique/" class="button button--blue button--highlight">
-            L'accessibilité en détails<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            L’accessibilité en détails<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -68,11 +68,11 @@
             <h2>Outils</h2>
 
             <p>
-              Nous mettons à votre disposition un ensemble d'outils pour vous guider sur les sujets du <b>design</b> et de l'<b>accessibilité</b>.
+              Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <b>design</b> et de l’<b>accessibilité</b>.
             </p>
           </div>
           <g-link to="/outils/" class="brick__link">
-            J'accède aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            J’accède aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -102,7 +102,7 @@
             </p>
           </div>
           <g-link to="/accompagnement/" class="brick__link">
-            J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            J’ai besoin d’aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -117,21 +117,21 @@
 
         <ul class="actions__list">
           <li class="action">
-            <Observatoire focusable="false" class="action__illustration" aria-hidden="true"/>
-            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L'observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">L'Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"/></a></h3>
+            <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
+            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarche en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
             <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
           </li>
 
           <li class="action">
-            <font-awesome :icon="['fas', 'user-astronaut']"focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6"/>
-            <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"/></g-link></h3>
+            <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
+            <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
             <p>Une équipe de designers et développeurs pour améliorer les services publics numériques&nbsp;🌟</p>
           </li>
 
           <li class="action">
-            <FranceRelance focusable="false" class="action__illustration" aria-hidden="true"/>
-            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"/></a></h3>
-            <p>Pour simplifier la relation entre les usagers et l'administration grâce au numérique&nbsp;👍</p>
+            <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
+            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <p>Pour simplifier la relation entre les usagers et l’administration grâce au numérique&nbsp;👍</p>
           </li>
         </ul>
 
@@ -177,17 +177,17 @@
         </div>
 
         <div class="team__content">
-          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="Photo de l'équipe DesignGouv sourir aux lèvres"/>
+          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
           <div class="team__text">
             <p>
-              DesignGouv c'est avant tout une équipe, <strong>le pôle
+              DesignGouv c’est avant tout une équipe, <strong>le pôle
               Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés
-              des administrations à l'amélioration du quotidien des Français !
-              Ok, il n'y a pas tout le monde sur la photo,
+              des administrations à l’amélioration du quotidien des Français !
+              Ok, il n’y a pas tout le monde sur la photo,
               promis on en reprend une vite&nbsp;☀️.</p>
             <p></p>
             <g-link to="/equipe/">
-              Découvrir l'équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
             </g-link>
           </div>
         </div>

@@ -3,7 +3,7 @@
     <div class="rf-container rf-container__header">
       <div class="rf-header__body">
         <div class="rf-header__brand">
-          <img src="/assets/images/logoRF.svg" width="96" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+          <img src="/assets/images/logoRF.svg" width="96" height="89" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
         </div>
         <div class="rf-header__navbar">
           <div class="rf-service">

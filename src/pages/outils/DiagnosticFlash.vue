@@ -138,6 +138,26 @@ export default {
       background-color:var(--g200);
       padding: 1rem 2rem;
     }
+
+    @media print {
+      .rf-collapse, .guide {
+        display: none;
+      }
+      .rf-accordion .rf-accordion__btn {
+        &::before {
+            visibility: hidden;
+        } 
+        &::after { 
+          display: inline-table;
+          content: "";
+          width: 14pt;
+          height: 14pt;
+          margin-right: 8pt;
+          border: 1pt solid #004774;
+          vertical-align: middle;
+        }
+      }
+    }
   }
 
 </style>

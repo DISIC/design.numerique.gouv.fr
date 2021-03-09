@@ -2,23 +2,20 @@
   <Layout class="jobs-page">
 
     <div class="cover">
-     <div class="cover__container cover__container--light">
+     <div class="cover__container">
 
-       <h1>Recrutement</h1>
+       <h1 class="text-highlight">Recrutement</h1>
+       <p class="cover__subtitle" >
+         Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
+       </p>
+       <p>
+         Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.
+       </p>
 
       </div>
     </div>
 
     <div class="content">
-
-        <section>
-          <p>
-            Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
-          </p>
-          <p>
-            Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.
-          </p>
-        </section>
 
         <section>
           <h2>Les offres</h2>

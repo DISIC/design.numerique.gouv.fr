@@ -60,9 +60,9 @@
           <h2> {{ cat.node.title }}</h2>
           <ul class="rf-accordions-group">
             <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
-              <h3 class="rf-accordion__title">
-                <button class="rf-accordion__btn--icon-right rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
-                  {{ criterion.node.id }}. {{ criterion.node.title }}
+              <h3 class="rf-accordion__title"><span class="numero">{{ criterion.node.id }}</span>
+                <button class=" rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
+                   {{ criterion.node.title }}
                 </button>
               </h3>
               <div class="rf-collapse" :id="criterion.node.id">
@@ -138,12 +138,21 @@ export default {
       background-color:var(--g200);
       padding: 1rem 2rem;
     }
+    .rf-accordion .rf-accordion__btn {
+      padding: 0.75rem 2rem;
+    }
+    span.numero {
+      padding:0.2em 0.4em;
+      background-color: #ffff8f;
+      position: absolute;
+    }
 
     @media print {
       .rf-collapse, .guide {
         display: none;
       }
       .rf-accordion .rf-accordion__btn {
+
         &::before {
             visibility: hidden;
         } 

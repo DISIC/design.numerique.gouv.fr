@@ -7,7 +7,7 @@
         </div>
         <div class="rf-header__navbar">
           <div class="rf-service">
-            <a class="rf-service__title" href="/" title="Retour à l’accueil DesignGouv">
+            <a class="rf-service__title text-highlight" href="/" title="Retour à l’accueil DesignGouv">
               DesignGouv
             </a>
             <p class="rf-service__tagline">Par le pôle Design des services numériques</p>
@@ -54,6 +54,7 @@
           &__title {
             font-size: 2rem;
             font-weight: 800;
+            color: $blue;
 
             @media only screen and (max-width: $mobile-max-width) {
               font-size: 1.5rem;
@@ -61,7 +62,9 @@
           }
 
           &__tagline {
-            margin-left: 2px;
+            margin-left: 0.125rem;
+            margin-top: 0.125rem;
+            font-weight: bold;
           }
         }
 

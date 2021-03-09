@@ -1,9 +1,8 @@
 main {
   .alert {
     text-align: center;
-    border: 2px solid $gray;
-    background-color: white;
-    margin: 32px 0;
+    background-color: $light-blue;
+    margin: 0;
     padding: 28px 48px 20px 48px;
     border-radius: 32px;
     position: relative;
@@ -12,9 +11,17 @@ main {
       padding: 24px 24px 16px 24px;
     }
 
+    &:hover {
+      h2 {
+        color: $red;
+      }
+    }
+
     h2 {
       margin: 0 0 16px 0;
       font-size: 1.75em;
+      color: $blue;
+      transition: .2s all;
 
       @media only screen and (max-width: $mobile-max-width) {
         font-size: 1.5em;

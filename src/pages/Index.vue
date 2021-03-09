@@ -40,7 +40,7 @@
               </p>
             </div>
 
-            <g-link to="/accessibilite-numerique/" class="item__link button button--blue button--highlight">
+            <g-link to="/accessibilite-numerique/" class="item__link button button--highlight">
               L’accessibilité en détails<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
             </g-link>
           </div>
@@ -297,7 +297,7 @@
     .team {
       position: relative;
 
-      &:hover, &:focus {
+      &:hover {
         .team__icon {
           transform: rotate(180deg);
         }
@@ -308,7 +308,7 @@
 
         h2 {
           display: inline-block;
-          padding: 8px 0;
+          padding: 0;
           margin: 0;
 
           @media only screen and (max-width: $mobile-max-width) {
@@ -334,7 +334,7 @@
       &__content {
         display: flex;
         align-items: flex-start;
-        margin: 0 1rem;
+        margin: 0;
 
         @media only screen and (max-width: $mobile-max-width) {
           display: initial;
@@ -450,7 +450,7 @@
           &__illustration {
             height: 36px;
             width: 36px;
-            background-color: $light-gray;
+            background-color: $light-red;
             border-radius: 50%;
             color: $red;
           }
@@ -544,7 +544,7 @@
         flex-shrink: 1;
         flex-basis: 49%;
         margin-bottom: 24px;
-        background-color: $light-gray;
+        background-color: $light-blue;
         border-radius: 32px;
         position: relative;
 

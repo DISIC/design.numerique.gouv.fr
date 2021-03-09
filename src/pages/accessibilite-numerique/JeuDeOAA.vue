@@ -200,7 +200,7 @@
       }
 
       &__step {
-        background-color: $light-gray;
+        background-color: $light-blue;
         padding: 12px 16px;
         margin-bottom: 16px;
         border-radius: 32px;
@@ -263,7 +263,7 @@
 
       &__card {
         background-color: white;
-        border: solid 2px $gray;
+        border: solid 2px $light;
         border-radius: 16px;
         margin: 8px;
         padding: 12px 16px;
@@ -295,7 +295,7 @@
           border-radius: unset;
 
           &:focus, &:hover{
-            color:#3355E3;
+            color: $blue;
           }
 
           &::before {
@@ -311,7 +311,7 @@
 
         &--top250 {
           border-color: white;
-          background-color: $light-gray;
+          background-color: $light-blue;
 
           h3, p {
             color: $dark-gray;

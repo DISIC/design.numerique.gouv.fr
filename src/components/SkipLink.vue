@@ -28,7 +28,7 @@
 .skip-link {
   margin: 0;
   padding:0;
-  background: $light;
+  background: $light-blue;
   color: $blue;
 
   .container {

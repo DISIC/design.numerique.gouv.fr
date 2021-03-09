@@ -1,24 +1,25 @@
 $blue: #4020A0;
+$light-blue: #F9F8FC;
+
 $red: #DE212C;
+$light-red: #FDF6F7;
+
 $light: #EBE8F5;
 
-$dark: #171819;
-$black: #27282B;
-
-$light-gray: #F9F8FC;
 $gray: #E0E1E1;
 $dark-gray: #6E7272;
+$black: #27282B;
 
 $mobile-max-width: 480px;
 $header-max-width: 1140px;
 
 :export {
   blue: $blue;
+  light-blue: $light-blue;
   red: $red;
+  light-red: $light-red;
   light: $light;
-  black: $black;
-  dark: $dark;
-  light-gray: $light-gray;
   gray: $gray;
   dark-gray: $dark-gray;
+  black: $black;
 }

@@ -24,7 +24,7 @@
           <h2>Les offres</h2>
           <ul class="jobs">
             <li v-for="{ node } in $page.allJob.edges" :key="node.id">
-              <g-link :to="node.path" class="button button--blue">
+              <g-link :to="node.path" class="button">
                 <h3>{{ node.title }}</h3>
                 <p>{{ node.type }}</p>
               </g-link>

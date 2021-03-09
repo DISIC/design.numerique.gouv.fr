@@ -119,15 +119,16 @@
   @import "src/assets/scss/_vars.scss";
 
   footer {
-    margin-top: 8rem;
+    margin-top: 6rem;
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-top: 4rem;
     }
 
     .jobs-banner {
-      background-color: $light-gray;
-      padding: 1.5rem;
+      background-color: $light-blue;
+      padding: 1rem;
+      position: relative;
 
       @media only screen and (max-width: $mobile-max-width) {
         padding: 1rem;
@@ -148,6 +149,15 @@
             display: block;
             margin-top: 0.5rem;
           }
+
+          &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
         }
       }
 
@@ -159,7 +169,7 @@
 
     .footer {
       padding: 2rem 1.25rem;
-      border-top: 6px solid $gray;
+      border-top: 1px solid $gray;
       color: $black;
       display: flex;
       justify-content: center;

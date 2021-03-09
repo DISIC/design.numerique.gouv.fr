@@ -22,9 +22,31 @@
       <!-- <li class="rf-nav__item">
         <a class="rf-link" href="/blog/">Blog</a>
       </li> -->
+      <li class="rf-nav__item" v-if="$static.allJob.edges.length > 0">
+        <a class="rf-link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
+      </li>
     </ul>
   </nav>
 </template>
+
+
+<static-query>
+
+  query {
+    allJob (sortBy: "title", order: ASC) {
+      edges {
+        node {
+        	id
+          title
+          type
+          path
+        }
+      }
+    }
+  }
+
+</static-query>
+
 
 <script>
 
@@ -76,7 +98,7 @@
 
   .rf-nav {
     box-shadow: none !important;
-    padding: 0 16px !important;
+    padding: 0 1rem !important;
     border-top: 1px solid $gray;
     border-bottom: 1px solid $gray;
 
@@ -84,13 +106,26 @@
       padding: 0 0px !important;
     }
 
+    .open-jobs {
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: $dark-red;
+      border-radius: 50%;
+      background-color: $lighter-gray;
+      width: 1.5rem;
+      height: 1.5rem;
+      text-align: center;
+      margin-left: 0.375rem;
+      margin-top: 0.125rem;
+    }
+
     ul {
       max-width: 1080px;
       margin: 0 auto !important;
 
       .rf-link {
-        margin: 0 20px;
-        padding: 18px 4px;
+        margin: 0 1.25rem;
+        padding: 0.75rem 0.25rem;
         font-size: 1rem;
         font-weight: normal;
         width: auto;
@@ -106,6 +141,10 @@
 
         &:hover {
           color: $blue;
+
+          .open-jobs {
+            color: $blue;
+          }
 
           &:after {
             display: none;

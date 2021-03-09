@@ -35,9 +35,5 @@ main {
         right: 0;
       }
     }
-
-    &:hover, &:focus {
-      box-shadow: 5px 5px 0px $light;
-    }
   }
 }

@@ -37,9 +37,6 @@
             <strong>Depuis 2012, tous les sites publics doivent être accessibles, c'est à dire 100% conformes au RGAA.</strong> Et ainsi permettre  à tous les usagers un égal accès à leurs droits.
           </p>
         </div>
-        <div>
-          <AccessibiliteIllustration class="illustration" focusable="false" aria-hidden="true"/>
-        </div>
       </section>
 
       <section>
@@ -97,12 +94,10 @@
 <script>
 
   import Accessibilite from "~/assets/images/accessibilite.svg"
-  import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg";
 
   export default {
     components: {
       Accessibilite,
-      AccessibiliteIllustration,
     },
     metaInfo: {
       title: "Accessibilité numérique",
@@ -167,43 +162,6 @@
           margin-bottom: 8px;
         }
       }
-    }
-
-    .intro {
-      display: flex;
-
-      > div {
-        width: 70%;
-        margin-right: 40px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin-right: 0;
-        }
-      }
-
-      > div + div {
-        width: 30%;
-        margin-top: 10px;
-        margin-right: 0;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          display: none;
-        }
-      }
-
-      svg {
-        width: 100%;
-        height: auto;
-        overflow: visible;
-        margin-top: 20px;
-      }
-    }
-
-    .comment {
-      display: inline-block;
-      font-weight: normal;
-      margin-top: 10px;
     }
   }
 

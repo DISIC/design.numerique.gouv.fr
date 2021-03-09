@@ -51,7 +51,7 @@
       <section class="actions">
 
         <div class="actions__title">
-          <Actions focusable="false" class="actions__icon" aria-hidden="true"/>
+          <Accompagnement focusable="false" class="actions__icon" aria-hidden="true"/>
           <h2>Nos dispositifs d'accompagnement</h2>
         </div>
 
@@ -183,10 +183,10 @@
   import Design from "~/assets/images/design.svg"
   import Accessibilite from "~/assets/images/accessibilite.svg"
   import Outils from "~/assets/images/outils.svg"
-  import Services from "~/assets/images/services.svg"
+  import Services from "~/assets/images/accompagnement.svg"
   import Formations from "~/assets/images/formations.svg"
   import Blog from "~/assets/images/blog.svg"
-  import Actions from "~/assets/images/actions.svg"
+  import Accompagnement from "~/assets/images/accompagnement.svg"
   import Observatoire from "~/assets/images/observatoire.svg"
   import FranceRelance from "~/assets/images/franceRelance.svg"
   import Equipe from "~/assets/images/equipe.svg"
@@ -200,7 +200,7 @@
       Services,
       Formations,
       Blog,
-      Actions,
+      Accompagnement,
       Observatoire,
       FranceRelance,
       Equipe

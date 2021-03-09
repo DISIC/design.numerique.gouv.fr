@@ -21,8 +21,6 @@
         15 designers et développeurs interviennent pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
-      <CommandouxIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
-
       </div>
     </div>
 
@@ -246,13 +244,11 @@
 
 <script>
 
-  import CommandoUX from "~/assets/images/services.svg"
-  import CommandouxIllustration from "~/assets/images/commandouxIllustration.svg"
+  import CommandoUX from "~/assets/images/accompagnement.svg"
 
   export default {
     components: {
       CommandoUX,
-      CommandouxIllustration
     },
     metaInfo: {
       title: "Commando UX",

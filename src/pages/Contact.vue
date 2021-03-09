@@ -35,7 +35,7 @@
               <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank">
                 Linkedin <font-awesome  width="0" :icon="['fab', 'linkedin']"/>
                 </a></li>
-           
+
         </ul>
        </section>
     </div>
@@ -45,12 +45,8 @@
 
 
 <script>
-  import OutilsIllustration from "~/assets/images/outilsIllustration.svg"
 
   export default {
-    components: {
-      OutilsIllustration
-    },
     metaInfo: {
       title: "Contact",
       meta: [{

@@ -44,7 +44,7 @@
 
 <script>
 
-  import CommandoUX from "~/assets/images/services.svg";
+  import CommandoUX from "~/assets/images/accompagnement.svg";
 
   export default {
     components: {

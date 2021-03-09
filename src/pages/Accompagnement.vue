@@ -15,14 +15,12 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><Services class="h1__icon" focusable="false" aria-hidden="true"/>Accompagnement</h1>
+      <h1 class="text-highlight"><Accompagnement class="h1__icon" focusable="false" aria-hidden="true"/>Accompagnement</h1>
 
       <p class="cover__subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
         questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,
         demander des conseils pour le développement ou l'amélioration de votre service&nbsp;?
         Nous vous aidons&nbsp;!</p>
-
-      <ServicesIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
 
       </div>
     </div>
@@ -32,7 +30,7 @@
       <section>
 
         <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Accessible par Design
+          <Accompagnement class="h2__icon" focusable="false" aria-hidden="true"/>Accessible par Design
         </h2>
 
         <h3>Je veux rendre accessible mes sites et démarches en ligne</h3>
@@ -40,10 +38,10 @@
         <p>Pour vous guider, vous pouvez utiliser le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l’organisation de l’amélioration de l‘accessibilité</a>.</p>
       </section>
 
-      <section>
+      <!-- <section>
 
         <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Les bureaux ouverts
+          <Accompagnement class="h2__icon" focusable="false" aria-hidden="true"/>Les bureaux ouverts
         </h2>
         <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
 
@@ -56,7 +54,7 @@
         <h3>Comment</h3>
         <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
 
-      </section>
+      </section> -->
 
       <!-- <section>
 
@@ -80,7 +78,7 @@
 
 
         <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Le commando UX
+          <Accompagnement class="h2__icon" focusable="false" aria-hidden="true"/>Le commando UX
         </h2>
         <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
 
@@ -102,13 +100,11 @@
 
 <script>
 
-  import Services from "~/assets/images/services.svg"
-  import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
+  import Accompagnement from "~/assets/images/accompagnement.svg"
 
   export default {
     components: {
-      Services,
-      ServicesIllustration,
+      Accompagnement,
     },
     metaInfo: {
       title: "Nos services pour améliorer vos démarches en ligne",

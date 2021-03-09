@@ -83,15 +83,11 @@
 
 <script>
 
-  import Services from "~/assets/images/services.svg";
-  import CommandoUX from "~/assets/images/services.svg";
-  import CommandouxIllustration from "~/assets/images/commandouxIllustration.svg";
+  import CommandoUX from "~/assets/images/accompagnement.svg";
 
   export default {
     components: {
-      Services,
       CommandoUX,
-      CommandouxIllustration,
     },
     metaInfo() {
       return {

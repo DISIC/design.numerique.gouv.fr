@@ -34,7 +34,7 @@
           <li><a href="/accessibilite-numerique/declaration-accessibilite/">Déclaration d'accessibilité</a></li>
           <li><a href="/accessibilite-numerique/accord-cadre-dae/">Accord-cadre interministériel</a></li>
           </ul>
-          <h2><a href="/dispositifs/">Dispositifs</a></h2>
+          <h2><a href="/accompagnement/">Accompagnement</a></h2>
           <h2><a href="/outils/">Outils</a></h2>
           <ul>
           <li><a href="/accessibilite-numerique/jeu-de-oaa/">Organiser l’amélioration de l‘accessibilité</a></li>

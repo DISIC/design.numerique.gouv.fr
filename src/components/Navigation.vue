@@ -11,7 +11,7 @@
         <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
       </li>
       <li class="rf-nav__item">
-        <a class="rf-link" href="/dispositifs/">Dispositifs</a>
+        <a class="rf-link" href="/accompagnement/">Accompagnement</a>
       </li>
       <li class="rf-nav__item">
         <a class="rf-link" href="/outils/">Outils</a>

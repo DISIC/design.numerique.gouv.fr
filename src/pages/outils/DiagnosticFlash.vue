@@ -139,7 +139,7 @@ export default {
       padding: 1rem 2rem;
     }
     .rf-accordion .rf-accordion__btn {
-      padding: 0.75rem 2rem;
+      padding: 0.75rem 0 0.75rem 3rem
     }
     span.numero {
       padding:0.2em 0.4em;

@@ -344,7 +344,7 @@
           padding-left: 2rem;
 
           @media only screen and (max-width: $mobile-max-width) {
-            padding: 1rem;
+            padding: 1rem 0;
           }
 
           p {
@@ -377,6 +377,10 @@
       &__title {
         margin-bottom: 1.5rem;
 
+        @media only screen and (max-width: $mobile-max-width) {
+          display: flex;
+        }
+
         h2 {
           display: inline-block;
           padding: 0.25rem 0;
@@ -391,6 +395,7 @@
       &__icon {
         display: inline-block;
         transition: .2s all;
+        min-width: 2rem;
         height: 2rem;
         width: 2rem;
         margin-bottom: -0.25rem;
@@ -625,6 +630,7 @@
 
       @media only screen and (max-width: $mobile-max-width) {
         align-items: start;
+        margin: 0 0 4rem 0;
       }
 
       .item {
@@ -648,7 +654,7 @@
           margin-left: 2%;
 
           @media only screen and (max-width: $mobile-max-width) {
-            margin: 0 0 3rem 0;
+            margin: 0;
           }
         }
 
@@ -661,6 +667,7 @@
 
             @media only screen and (max-width: $mobile-max-width) {
               font-size: 0.875em;
+              margin-top: 1rem;
             }
           }
 

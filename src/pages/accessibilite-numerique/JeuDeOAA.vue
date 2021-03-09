@@ -200,7 +200,7 @@
       }
 
       &__step {
-        background-color: $lighter-gray;
+        background-color: $light-gray;
         padding: 12px 16px;
         margin-bottom: 16px;
         border-radius: 32px;
@@ -311,7 +311,7 @@
 
         &--top250 {
           border-color: white;
-          background-color: $lighter-gray;
+          background-color: $light-gray;
 
           h3, p {
             color: $dark-gray;

@@ -109,9 +109,9 @@
     .open-jobs {
       font-size: 0.8rem;
       font-weight: bold;
-      color: $dark-red;
+      color: $red;
       border-radius: 50%;
-      background-color: $lighter-gray;
+      background-color: $light-gray;
       width: 1.5rem;
       height: 1.5rem;
       text-align: center;

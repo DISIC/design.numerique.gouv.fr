@@ -450,7 +450,7 @@
           &__illustration {
             height: 36px;
             width: 36px;
-            background-color: $lighter-gray;
+            background-color: $light-gray;
             border-radius: 50%;
             color: $red;
           }
@@ -545,7 +545,7 @@
         flex-shrink: 1;
         flex-basis: 49%;
         margin-bottom: 24px;
-        background-color: $lighter-gray;
+        background-color: $light-gray;
         border-radius: 32px;
         position: relative;
 

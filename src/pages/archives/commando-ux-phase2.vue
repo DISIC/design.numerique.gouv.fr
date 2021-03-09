@@ -374,7 +374,7 @@
         }
 
         img {
-          background-color: lighten($gray-hover, 10%);
+          background-color: lighten($gray, 10%);
           border-radius: 100%;
           padding: 12px;
         }
@@ -386,7 +386,7 @@
           border-radius: 100%;
           width: 88px;
           height: 88px;
-          background-color: lighten($gray-hover, 10%);
+          background-color: lighten($gray, 10%);
 
           svg {
             font-size: 40px;
@@ -414,7 +414,7 @@
         margin: 0;
         display: block;
         font-size: 0.9em;
-        color: $mid-gray;
+        color: $dark-gray;
       }
 
       @media only screen and (max-width: $mobile-max-width) {

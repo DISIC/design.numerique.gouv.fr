@@ -386,7 +386,7 @@
           }
 
           img {
-            background-color: lighten($gray-hover, 10%);
+            background-color: lighten($gray, 10%);
             border-radius: 100%;
             padding: 12px;
           }
@@ -398,7 +398,7 @@
             border-radius: 100%;
             width: 88px;
             height: 88px;
-            background-color: lighten($gray-hover, 10%);
+            background-color: lighten($gray, 10%);
             margin-bottom: 16px;
 
             @media only screen and (max-width: $mobile-max-width) {

@@ -126,7 +126,7 @@
     }
 
     .jobs-banner {
-      background-color: $lighter-gray;
+      background-color: $light-gray;
       padding: 1.5rem;
 
       @media only screen and (max-width: $mobile-max-width) {

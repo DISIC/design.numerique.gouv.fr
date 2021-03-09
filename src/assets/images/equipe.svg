@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="48" height="48" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Main-Copy" transform="translate(-987.000000, -2343.000000)">
-            <g id="Logo/Formations-Copy-7" transform="translate(1007.000000, 2363.000000) scale(1, -1) translate(-1007.000000, -2363.000000) translate(987.000000, 2343.000000)">
-                <path d="M15,20.5 C16.8225397,20.5 18.3,21.9774603 18.3,23.8 C18.3,25.6225397 16.8225397,27.1 15,27.1 C13.1774603,27.1 11.7,25.6225397 11.7,23.8 C11.7,21.9774603 13.1774603,20.5 15,20.5 Z M25,20.5 C26.8225397,20.5 28.3,21.9774603 28.3,23.8 C28.3,25.6225397 26.8225397,27.1 25,27.1 C23.1774603,27.1 21.7,25.6225397 21.7,23.8 C21.7,21.9774603 23.1774603,20.5 25,20.5 Z" id="Forme" fill="#FF5F42"></path>
-                <path d="M15.2,15.239139 C16.6067521,14.079713 18.2067522,13.5 20.0000004,13.5 C21.7932485,13.5 23.3932484,14.079713 24.8,15.239139" id="Line" stroke="#FF5F42" stroke-width="4.2" stroke-linecap="round"></path>
-                <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,6 C12.2680135,6 6,12.2680135 6,20 C6,27.7319865 12.2680135,34 20,34 C27.7319865,34 34,27.7319865 34,20 C34,12.2680135 27.7319865,6 20,6 Z" id="Cercle" fill="#3355E3"></path>
+        <g id="Main-Copy" transform="translate(-969.000000, -2319.000000)">
+            <g id="equipe" transform="translate(969.000000, 2319.000000)">
+                <circle id="Oval" fill="#EBE8F5" cx="20" cy="20" r="20"></circle>
+                <rect id="Forme" fill="#4020A0" x="5" y="16" width="19" height="8" rx="4"></rect>
             </g>
         </g>
     </g>

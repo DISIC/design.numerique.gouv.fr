@@ -142,9 +142,11 @@ export default {
       padding: 0.75rem 0 0.75rem 3rem
     }
     span.numero {
-      padding:0.2em 0.4em;
+      padding:0.25rem;
       background-color: #ffff8f;
       position: absolute;
+      width: 1.6em;
+      text-align: center;
     }
 
     @media print {

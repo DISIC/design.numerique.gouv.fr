@@ -7,7 +7,7 @@
 
         <h1>Concevons des services publics numériques <span class="text-highlight">accessibles</span>, <span class="text-highlight">inclusifs</span> et <span class="text-highlight">humains</span>.</h1>
 
-        <p class="cover__subtitle">Des idées et des outils à la disposition des agents publics pour améliorer l'expérience usager des services publics numériques.</p>
+        <p class="cover__subtitle">Des idées et des outils à la disposition des agents publics pour améliorer l’expérience usager des services publics numériques.</p>
 
         <CoverIllustration class="cover__home-illustration" focusable="false" aria-hidden="true"/>
       </div>
@@ -51,7 +51,7 @@
           </p>
 
           <g-link to="/accessibilite-numerique/" class="button button--blue button--highlight">
-            L'accessibilité en détails<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            L’accessibilité en détails<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -68,11 +68,11 @@
             <h2>Outils</h2>
 
             <p>
-              Nous mettons à votre disposition un ensemble d'outils pour vous guider sur les sujets du <b>design</b> et de l'<b>accessibilité</b>.
+              Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <b>design</b> et de l’<b>accessibilité</b>.
             </p>
           </div>
           <g-link to="/outils/" class="brick__link">
-            J'accède aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            J’accède aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -95,16 +95,45 @@
           <div class="brick__description">
             <Services focusable="false" class="brick__icon" aria-hidden="true"/>
 
-            <h2>Accompagement</h2>
+            <h2>Accompagnement</h2>
 
             <p>
               Vous avez un besoin ou des questions pour l’<strong>amélioration de vos démarches</strong>, nous sommes là pour vous accompagner !
             </p>
           </div>
           <g-link to="/accompagnement/" class="brick__link">
-            J'ai besoin d'aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            J’ai besoin d’aide<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
+
+      </section>
+
+      <section class="actions">
+
+        <div class="actions__title">
+          <Actions focusable="false" class="actions__title-icon" aria-hidden="true"/>
+          <h2>Nos actions</h2>
+        </div>
+
+        <ul class="actions__list">
+          <li class="action">
+            <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
+            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
+          </li>
+
+          <li class="action">
+            <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
+            <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
+            <p>Une équipe de designers et développeurs pour améliorer les services publics numériques&nbsp;🌟</p>
+          </li>
+
+          <li class="action">
+            <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
+            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <p>Pour simplifier la relation entre les usagers et l’administration grâce au numérique&nbsp;👍</p>
+          </li>
+        </ul>
 
       </section>
 
@@ -140,6 +169,31 @@
 
       </section> -->
 
+      <section class="team">
+
+        <div class="team__title">
+          <Equipe focusable="false" class="team__icon" aria-hidden="true"/>
+          <h2>Notre équipe</h2>
+        </div>
+
+        <div class="team__content">
+          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
+          <div class="team__text">
+            <p>
+              DesignGouv c’est avant tout une équipe, <strong>le pôle
+              Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés
+              des administrations à l’amélioration du quotidien des Français !
+              Ok, il n’y a pas tout le monde sur la photo,
+              promis on en reprend une vite&nbsp;☀️.</p>
+            <p></p>
+            <g-link to="/equipe/">
+              Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
+            </g-link>
+          </div>
+        </div>
+
+      </section>
+
     </div>
 
   </Layout>
@@ -158,6 +212,10 @@
   import Services from "~/assets/images/services.svg"
   import Formations from "~/assets/images/formations.svg"
   import Blog from "~/assets/images/blog.svg"
+  import Actions from "~/assets/images/actions.svg"
+  import Observatoire from "~/assets/images/observatoire.svg"
+  import FranceRelance from "~/assets/images/franceRelance.svg"
+  import Equipe from "~/assets/images/equipe.svg"
 
   export default {
     components: {
@@ -171,6 +229,10 @@
       Services,
       Formations,
       Blog,
+      Actions,
+      Observatoire,
+      FranceRelance,
+      Equipe
     },
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",
@@ -289,6 +351,189 @@
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 64px;
+      }
+    }
+
+    .team {
+      position: relative;
+
+      &:hover, &:focus {
+        .team__icon {
+          transform: rotate(180deg);
+        }
+      }
+
+      &__title {
+        margin-bottom: 1.5rem;
+
+        h2 {
+          display: inline-block;
+          padding: 8px 0;
+          margin: 0;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+          }
+        }
+      }
+
+      &__icon {
+        display: inline-block;
+        transition: .2s all;
+        height: 36px;
+        width: 36px;
+        margin-bottom: -5px;
+        margin-right: 16px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: inline;
+          height: 32px;
+          width: 32px;
+          margin-bottom: -6px;
+          margin-right: 12px;
+        }
+      }
+
+      &__content {
+        display: flex;
+        align-items: flex-start;
+        margin: 0 1rem;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: initial;
+        }
+
+        .team__text {
+          padding-left: 2rem;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            padding: 1rem;
+          }
+
+          p {
+            margin: 0 0 1rem 0;
+          }
+
+          a {
+            border-bottom: none !important;
+            text-align: right;
+
+            &:after {
+              position: absolute;
+              content: "";
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+            }
+          }
+        }
+
+        .team__image {
+          max-width: 240px;
+        }
+      }
+    }
+
+    .actions {
+
+      &__title {
+        margin-bottom: 1.5rem;
+
+        h2 {
+          display: inline-block;
+          padding: 8px 0;
+          margin: 0;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+          }
+        }
+
+        &-icon {
+          display: inline-block;
+          transition: .2s all;
+          height: 36px;
+          width: 36px;
+          margin-bottom: -5px;
+          margin-right: 16px;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+            height: 32px;
+            width: 32px;
+            margin-bottom: -6px;
+            margin-right: 12px;
+          }
+        }
+      }
+
+      &__list {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+
+        .action {
+          position: relative;
+          flex-basis: 44%;
+          margin: 0 1.5% 1.5rem 1.5%;
+          padding-left: 2%;
+          border-left: 4px solid $blue;
+          list-style: none;
+
+
+          @media only screen and (max-width: $mobile-max-width) {
+            flex-basis: 94%;
+            margin: 0 3% 1.5rem 3%;
+          }
+
+          h3 {
+            margin: 0;
+
+            a {
+              border-bottom: none !important;
+
+              &:after {
+                position: absolute;
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+              }
+
+              svg {
+                margin-left: 4px;
+                transition: .2s all;
+              }
+            }
+          }
+
+          p {
+            margin: 8px 0 0 0;
+          }
+
+          &__illustration {
+            height: 36px;
+            width: 36px;
+            background-color: $lighter-gray;
+            border-radius: 50%;
+            color: $red;
+          }
+
+          &:hover {
+            border-left: 4px solid $red;
+
+            h3 {
+              color: $blue;
+              text-shadow: 5px 5px 0px $light;
+
+              svg {
+                margin-left: 12px;
+              }
+            }
+          }
+        }
       }
     }
 
@@ -445,7 +690,7 @@
           }
         }
 
-        &:hover, &:focus {
+        &:hover {
           box-shadow: 5px 5px 0px $light;
 
           .brick__icon {

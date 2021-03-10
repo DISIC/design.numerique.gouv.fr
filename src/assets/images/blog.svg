@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="48" height="48" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <path d="M15.5,12 C17.4329966,12 19,13.5670034 19,15.5 L19,24.5 C19,26.4329966 17.4329966,28 15.5,28 C13.5670034,28 12,26.4329966 12,24.5 L12,15.5 C12,13.5670034 13.5670034,12 15.5,12 Z M24.5,16 C26.4329966,16 28,17.5670034 28,19.5 L28,24.5 C28,26.4329966 26.4329966,28 24.5,28 C22.5670034,28 21,26.4329966 21,24.5 L21,19.5 C21,17.5670034 22.5670034,16 24.5,16 Z" id="Forme" fill="#FF5638"></path>
-        <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,6 C12.2680135,6 6,12.2680135 6,20 C6,27.7319865 12.2680135,34 20,34 C27.7319865,34 34,27.7319865 34,20 C34,12.2680135 27.7319865,6 20,6 Z" id="Cercle" fill="#3355E3"></path>
+<svg viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Copy" transform="translate(-1046.000000, -2317.000000)">
+            <g id="blog" transform="translate(1046.000000, 2317.000000)">
+                <circle id="Cercle" fill="#79F7EA" cx="20" cy="20" r="20"></circle>
+                <rect id="Rectangle-Copy-2" fill="#0E37DD" x="14" y="14" width="12" height="12" rx="6"></rect>
+            </g>
+        </g>
+    </g>
 </svg>

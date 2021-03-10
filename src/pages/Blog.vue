@@ -108,6 +108,13 @@
         margin-bottom: 48px;
       }
     }
+
+    h2 {
+      a {
+        border-bottom: none !important;
+      }
+    }
+
   }
 
 </style>

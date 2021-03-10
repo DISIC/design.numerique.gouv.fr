@@ -113,39 +113,6 @@
       </section>
 
 
-      <!-- <section class="blog">
-
-          <div class="blog__top">
-            <div>
-              <Blog class="blog__icon" focusable="false" aria-hidden="true"/>
-              <h2>Notre blog</h2>
-            </div>
-
-            <div class="blog__allArticlesLinkDesktop">
-              <g-link to="/blog/">
-                Voir toutes nos publications<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </g-link>
-            </div>
-          </div>
-
-          <div class="articles">
-            <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-              <g-image :src="node.illustration" alt=""/>
-              <p class="articles__date">{{ node.publishedDate }}</p>
-              <h3><g-link :to="node.path">{{ node.title }}</g-link></h3>
-              <p>{{ node.description }}</p>
-            </article>
-          </div>
-
-          <div class="blog__allArticlesLinkMobile">
-            <g-link to="/blog/">
-              Voir toutes nos publications<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </g-link>
-          </div>
-
-      </section> -->
-
-
       <section class="team">
 
         <div class="team__title">
@@ -183,9 +150,7 @@
   import Design from "~/assets/images/design.svg"
   import Accessibilite from "~/assets/images/accessibilite.svg"
   import Outils from "~/assets/images/outils.svg"
-  import Services from "~/assets/images/accompagnement.svg"
   import Formations from "~/assets/images/formations.svg"
-  import Blog from "~/assets/images/blog.svg"
   import Accompagnement from "~/assets/images/accompagnement.svg"
   import Observatoire from "~/assets/images/observatoire.svg"
   import FranceRelance from "~/assets/images/franceRelance.svg"
@@ -197,9 +162,7 @@
       Design,
       Accessibilite,
       Outils,
-      Services,
       Formations,
-      Blog,
       Accompagnement,
       Observatoire,
       FranceRelance,
@@ -252,22 +215,8 @@
 
 </script>
 
-<page-query>
 
-  query {
-    allArticle (limit: 2, sortBy: "publishedDate", order: DESC) {
-      edges {
-        node {
-        	id
-          title
-          publishedDate (format: "D MMMM YYYY", locale : "fr")
-          illustration
-          description
-          path
-        }
-      }
-    }
-  }
+<page-query>
 
 </page-query>
 
@@ -471,68 +420,6 @@
               }
             }
           }
-        }
-      }
-    }
-
-    .blog {
-
-      &__top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          display: block;
-        }
-      }
-
-      &__allArticlesLinkDesktop {
-        margin-top: 8px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          display: none;
-        }
-      }
-
-      &__allArticlesLinkMobile {
-        display: none;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          display: block;
-          text-align: right;
-          margin-top: -16px;
-        }
-      }
-
-      h2 {
-        display: inline-block;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin-bottom: 40px;
-        }
-      }
-
-      &__icon {
-        display: inline-block;
-        transition: .2s all;
-        height: 36px;
-        width: 36px;
-        margin-bottom: -5px;
-        margin-right: 16px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          display: inline;
-          height: 32px;
-          width: 32px;
-          margin-bottom: -6px;
-          margin-right: 12px;
-        }
-      }
-
-      &:hover, &:focus {
-        .blog__icon {
-          transform: rotate(180deg);
         }
       }
     }

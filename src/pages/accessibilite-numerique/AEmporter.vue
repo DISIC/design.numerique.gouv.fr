@@ -26,7 +26,7 @@
     <div class="content">
       <h2>Afficher</h2>
       <ol>
-      <li>Publier en ligne une <g-link to="/outils/exemple/">déclaration d’accessibilité</g-link> indiquant en détail l’état d’accessibilité du site ou service.</li>
+      <li>Publier en ligne une <g-link to="/accessibilite-numerique/declaration-accessibilite">déclaration d’accessibilité</g-link> indiquant en détail l’état d’accessibilité du site ou service.</li>
       <li>Dès la page d’accueil et sur toutes les pages, afficher une des trois mentions suivantes :
       <ul>
         <li>Accessibilité : totalement conforme</li>

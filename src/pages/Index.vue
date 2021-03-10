@@ -549,7 +549,7 @@
         flex-shrink: 1;
         flex-basis: 49%;
         margin-bottom: 24px;
-        background-color: $light-blue;
+        background-color: $light-gray;
         border-radius: 32px;
         position: relative;
 

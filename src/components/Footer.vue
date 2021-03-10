@@ -126,7 +126,7 @@
     }
 
     .jobs-banner {
-      background-color: $light-blue;
+      background-color: $light-gray;
       padding: 1rem;
       position: relative;
 

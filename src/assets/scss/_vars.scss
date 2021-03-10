@@ -1,8 +1,6 @@
 $blue: #0F3AE6;
-$light-blue: #E7EBFC;
 
 $red: #DF1656;
-$light-red: #FEF6F8;
 
 $light: #79F7EA;
 
@@ -16,10 +14,9 @@ $header-max-width: 1140px;
 
 :export {
   blue: $blue;
-  light-gray: $light-gray;
   red: $red;
-  light-red: $light-red;
   light: $light;
+  light-gray: $light-gray;
   gray: $gray;
   dark-gray: $dark-gray;
   black: $black;

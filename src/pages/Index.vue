@@ -455,7 +455,7 @@
           &__illustration {
             height: 36px;
             width: 36px;
-            background-color: $light-red;
+            background-color: $light-gray;
             border-radius: 50%;
             color: $red;
           }

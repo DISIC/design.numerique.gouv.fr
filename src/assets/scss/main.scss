@@ -99,10 +99,15 @@ a {
 
     &:hover {
       color: $red;
-      border-color: $red;
     }
 
     &:focus {
+      background-color: $light;
+      outline-color: $blue;
+    }
+
+    &:active {    
+      color: $blue;
       background-color: $light;
       outline-color: $blue;
     }

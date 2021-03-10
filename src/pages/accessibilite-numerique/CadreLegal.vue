@@ -19,7 +19,7 @@
      <div class="cover__container">
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Obligations légales et sanctions</h1>
+       <h1 class="text-highlight">Obligations légales et sanctions</h1>
 
       </div>
     </div>

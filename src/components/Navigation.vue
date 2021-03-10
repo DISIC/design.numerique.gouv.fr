@@ -116,7 +116,6 @@
       height: 1.5rem;
       text-align: center;
       margin-left: 0.375rem;
-      margin-top: 0.125rem;
     }
 
     ul {

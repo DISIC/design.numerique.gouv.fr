@@ -14,7 +14,7 @@
         <div class="footer__description">
 
           <g-link to="/" class="footer__logo" title="DesignGouv - Retour à l’accueil">
-            <p class="footer__dg-title">DesignGouv</p>
+            <p class="footer__dg-title text-highlight">DesignGouv</p>
             <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
           </g-link>
           <p>
@@ -209,8 +209,11 @@
 
       .footer__dg-tagline {
         margin-left: 0.125rem;
-        margin-top: 0.125rem;
+        margin-top: -0.125rem;
         font-weight: bold;
+        color: var(--g700);
+        font-size: 0.875rem;
+        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
       }
 
       .footer__content {

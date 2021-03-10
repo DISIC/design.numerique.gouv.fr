@@ -263,7 +263,7 @@
 
       &__card {
         background-color: white;
-        border: solid 2px $light;
+        border: solid 2px $gray;
         border-radius: 16px;
         margin: 8px;
         padding: 12px 16px;

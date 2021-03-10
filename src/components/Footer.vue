@@ -198,7 +198,7 @@
         margin: 0;
         font-size: 2rem;
         font-weight: 800;
-        color: $black;
+        color: $blue;
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
         @media only screen and (max-width: $mobile-max-width) {
@@ -208,14 +208,9 @@
       }
 
       .footer__dg-tagline {
-        font-size: 0.75rem;
-        margin: -3px 0 0 2px;
-        color: $black;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 0.75rem;
-        }
+        margin-left: 0.125rem;
+        margin-top: 0.125rem;
+        font-weight: bold;
       }
 
       .footer__content {

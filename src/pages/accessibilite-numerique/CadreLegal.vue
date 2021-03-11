@@ -38,6 +38,9 @@
         <p>
           Depuis 2012, <strong>tous les sites publics</strong> qu’ils appartiennent aux services de l’État ou aux collectivités territoriales <strong>sont soumis à l’obligation d’accessibilité</strong>.
         </p>
+        <p>
+          De plus, depuis le 23 septembre 2019, les sites publics doivent <strong>publier une déclaration d’accessibilité</strong> et <strong>afficher leur conformité</strong> dès la page d’accueil.
+        </p>
 
       </section>
 
@@ -76,19 +79,19 @@
       </section>
 
       <section>
-        <h2>Calendrier des obligations</h2>
+        <h2>Calendrier</h2>
 
         <ul>
           <li><strong>Tous les sites</strong> du secteur public doivent être accessibles depuis le <strong>23 septembre 2020</strong></li>
-          <li><strong>23 juin 2021</strong> : toutes les applications mobiles, les progiciels et les mobiliers urbains numériques doivent être accessibles</li>
+          <li><strong>23 juin 2021</strong> : toutes les applications mobiles, les progiciels et les mobiliers urbains numériques doivent être accessibles.</li>
         </ul>
 
       </section>
 
       <section>
-        <h2>Sanctions administratives</h2>
+        <h2>Sanctions</h2>
         <p>
-          Le manquement à ces obligations déclaratives peut entraîner une sanction financière prononcée par le ministre chargé des personnes handicapées d’un montant de 20 000 euros par service en ligne.
+          Le manquement à ces obligations déclaratives peut entraîner une sanction financière prononcée par le ministre chargé des personnes handicapées d’un montant de <strong>20 000 euros par service en ligne</strong>.
         </p>
 
         <p>

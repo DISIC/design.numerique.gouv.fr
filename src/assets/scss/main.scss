@@ -17,11 +17,11 @@ body {
   color: $black;
 
   .text-highlight {
-    text-shadow: 5px 5px 0px $light;
+    text-shadow: 0.25rem 0.25rem 0px $light;
   }
 
   .box-highlight {
-    box-shadow: 5px 5px 0px $light;
+    box-shadow: 0.25rem 0.25rem 0px $light;
   }
 }
 
@@ -98,13 +98,18 @@ a {
     border-bottom: 1px solid rgba($blue, 0.5);
 
     &:hover {
-      color: $dark-red;
-      border-color: $dark-red;
+      color: $red;
     }
 
     &:focus {
       background-color: $light;
-      outline-color: $dark-gray;
+      outline-color: $blue;
+    }
+
+    &:active {
+      color: $blue;
+      background-color: $light;
+      outline-color: $blue;
     }
   }
 

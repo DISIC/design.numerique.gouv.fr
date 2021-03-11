@@ -14,7 +14,7 @@
         <div class="footer__description">
 
           <g-link to="/" class="footer__logo" title="DesignGouv - Retour à l’accueil">
-            <p class="footer__dg-title">DesignGouv</p>
+            <p class="footer__dg-title text-highlight">DesignGouv</p>
             <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
           </g-link>
           <p>
@@ -119,15 +119,16 @@
   @import "src/assets/scss/_vars.scss";
 
   footer {
-    margin-top: 8rem;
+    margin-top: 6rem;
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-top: 4rem;
     }
 
     .jobs-banner {
-      background-color: $lighter-gray;
-      padding: 1.5rem;
+      background-color: $light-gray;
+      padding: 1rem;
+      position: relative;
 
       @media only screen and (max-width: $mobile-max-width) {
         padding: 1rem;
@@ -148,6 +149,15 @@
             display: block;
             margin-top: 0.5rem;
           }
+
+          &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
         }
       }
 
@@ -159,7 +169,7 @@
 
     .footer {
       padding: 2rem 1.25rem;
-      border-top: 6px solid $gray;
+      border-top: 1px solid $gray;
       color: $black;
       display: flex;
       justify-content: center;
@@ -188,7 +198,7 @@
         margin: 0;
         font-size: 2rem;
         font-weight: 800;
-        color: $black;
+        color: $blue;
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
         @media only screen and (max-width: $mobile-max-width) {
@@ -198,14 +208,12 @@
       }
 
       .footer__dg-tagline {
-        font-size: 0.75rem;
-        margin: -3px 0 0 2px;
-        color: $black;
+        margin-left: 0.125rem;
+        margin-top: -0.125rem;
+        font-weight: bold;
+        color: var(--g700);
+        font-size: 0.875rem;
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 0.75rem;
-        }
       }
 
       .footer__content {

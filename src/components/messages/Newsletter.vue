@@ -1,6 +1,6 @@
 <template>
 
-  <div class="message rf-mt-8w">
+  <div class="message">
     <h2>Suivez notre actualité&nbsp;!</h2>
 
     <p>DesignGouv, c’est aussi des événements, des rencontres et des discussions pour faire vivre la culture design au sein des administrations. Rejoignez-nous&nbsp;!</p>

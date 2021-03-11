@@ -3,10 +3,10 @@
     <div class="rf-container">
         <ul class="rf-skiplinks__list">
             <li>
-                <a class="rf-link" href="#main"  @click.stop>Accéder au contenu</a>
+                <a class="rf-link" href="#main"  @click.stop>Contenu</a>
             </li>
             <li>
-                <a class="rf-link" href="#nav"  @click.stop>Accéder au menu</a>
+                <a class="rf-link" href="#nav"  @click.stop>Menu</a>
             </li> 
         </ul>
     </div>
@@ -28,7 +28,7 @@
 .skip-link {
   margin: 0;
   padding:0;
-  background: $light;
+  background: $light-gray;
   color: $blue;
 
   .container {

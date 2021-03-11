@@ -11,8 +11,6 @@
         mettre en œuvre des solutions centrées sur les usagers, tout en s’appuyant
         sur de bonnes pratiques reconnues.</p>
 
-      <DesignIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
-
       </div>
     </div>
 
@@ -23,12 +21,10 @@
 <script>
 
   import Design from "~/assets/images/design.svg"
-  import DesignIllustration from "~/assets/images/designIllustration.svg"
 
   export default {
     components: {
       Design,
-      DesignIllustration,
     },
     metaInfo: {
       title: "Design numérique",

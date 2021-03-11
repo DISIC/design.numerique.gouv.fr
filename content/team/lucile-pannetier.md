@@ -8,7 +8,7 @@ sub_team:
 sub_team_link:
 twitter:
 e-mail :
-group : team
+group :
 ---
 
 Bio à venir

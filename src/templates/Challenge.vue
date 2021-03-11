@@ -83,15 +83,11 @@
 
 <script>
 
-  import Services from "~/assets/images/services.svg";
-  import CommandoUX from "~/assets/images/services.svg";
-  import CommandouxIllustration from "~/assets/images/commandouxIllustration.svg";
+  import CommandoUX from "~/assets/images/accompagnement.svg";
 
   export default {
     components: {
-      Services,
       CommandoUX,
-      CommandouxIllustration,
     },
     metaInfo() {
       return {
@@ -386,7 +382,7 @@
           }
 
           img {
-            background-color: lighten($gray-hover, 10%);
+            background-color: lighten($gray, 10%);
             border-radius: 100%;
             padding: 12px;
           }
@@ -398,7 +394,7 @@
             border-radius: 100%;
             width: 88px;
             height: 88px;
-            background-color: lighten($gray-hover, 10%);
+            background-color: lighten($gray, 10%);
             margin-bottom: 16px;
 
             @media only screen and (max-width: $mobile-max-width) {

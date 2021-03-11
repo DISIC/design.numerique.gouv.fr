@@ -48,7 +48,7 @@
             <p>Services</p>
             <ul>
               <li><a href="https://observatoire.numerique.gouv.fr" title="L'observatoire du numérique - Nouvelle fenêtre" target="_blank">L'observatoire du numérique</a></li>
-              <li><a href="https://demarches-simplifiees.fr" title="Démarches simplifiées - Nouvelle fenêtre" target="_blank">Démarches simplifiées</a></li>
+              <li><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Notre guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance</a></li>
             </ul>
           </div>
           <div>

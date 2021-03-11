@@ -5,7 +5,6 @@
       <div class="cover__container">
         <h1>Concevons des services publics numériques <span class="text-highlight">accessibles</span>, <span class="text-highlight">inclusifs</span> et <span class="text-highlight">humains</span>.</h1>
         <p class="cover__subtitle">Des idées et des outils à la disposition des agents publics pour améliorer l’expérience usager des services publics numériques.</p>
-
       </div>
     </div>
 
@@ -20,9 +19,7 @@
               <Design focusable="false" class="item__icon" aria-hidden="true"/>
               <h2>Design</h2>
               <p>
-                Rendre les services numériques
-                plus <strong>simples</strong>, <strong>accessibles</strong>
-                et <strong>agréables</strong> pour les usagers.
+                Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.
               </p>
             </div>
 
@@ -52,7 +49,7 @@
 
         <div class="actions__title">
           <Accompagnement focusable="false" class="actions__icon" aria-hidden="true"/>
-          <h2>Nos dispositifs d'accompagnement</h2>
+          <h2>Nos dispositifs d’accompagnement</h2>
         </div>
 
         <ul class="actions__list">
@@ -87,7 +84,7 @@
             <h2>Outils</h2>
 
             <p>
-              Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <b>design</b> et de l’<b>accessibilité</b>.
+              Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <strong>design</strong> et de l’<strong>accessibilité</strong>.
             </p>
           </div>
           <g-link to="/outils/" class="brick__link">
@@ -123,13 +120,8 @@
         <div class="team__content">
           <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
           <div class="team__text">
-            <p>
-              DesignGouv c’est avant tout une équipe, <strong>le pôle
-              Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés
-              des administrations à l’amélioration du quotidien des Français !
-              Ok, il n’y a pas tout le monde sur la photo,
-              promis on en reprend une vite&nbsp;☀️.</p>
-            <p></p>
+            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français !
+              Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️.</p>
             <g-link to="/equipe/">
               Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
             </g-link>
@@ -214,11 +206,6 @@
   }
 
 </script>
-
-
-<page-query>
-
-</page-query>
 
 
 <style lang="scss">

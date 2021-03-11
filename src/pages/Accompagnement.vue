@@ -40,7 +40,7 @@
         <p>Les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>.</p>
 
         <h3>Comment</h3>
-        <p>Rendez-vous sur <g-link to="/commado-ux/">notre page dédié au Commando UX</g-link>.</p>
+        <p>Rendez-vous sur <g-link to="/commando-ux/">notre page dédiée au Commando UX</g-link>.</p>
 
       </section>
 
@@ -57,39 +57,24 @@
         <p>Les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>.</p>
 
         <h3>Comment</h3>
-        <p>Retrouvez toutes les informations sur <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank">notre guichet</a>.</p>
+        <p>Retrouvez toutes les informations sur <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="la page de notre guichet FranceRelance - Nouvelle fenêtre">la page de notre guichet FranceRelance</a>.</p>
 
-      </section>
-
-      <section class="action">
-
-        <div class="action__title">
-          <Accompagnement class="action__icon" focusable="false" aria-hidden="true" height="16" width="16"/>
-          <h2>Accessible par Design</h2>
-        </div>
-
-        <h3>Je veux rendre accessible mes sites et démarches en ligne</h3>
-        <p>Voici <a href="https://www.notion.so/designgouv/Je-veux-rendre-accessible-mes-interfaces-num-riques-ce1966fa48d940aca486e8bac02454bd" target="_blank">différentes idées et solutions pour vous accompagner</a> dans le grand chantier de mise en œuvre de l'accessibilité.</p>
-        <p>Pour vous guider, vous pouvez utiliser le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l’organisation de l’amélioration de l‘accessibilité</a>.</p>
       </section>
 
       <section class="action">
 
         <div class="action__title">
           <Observatoire focusable="false" class="action__icon" aria-hidden="true" height="16px" width="16px"/>
-          <h2>L'Observatoire de la qualité des démarches en ligne</h2>
+          <h2>L'Observatoire</h2>
         </div>
 
-        <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
+        <p>Suivez la qualité de vos démarches en ligne et récoltez les avis de vos usagers grâce au <a href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" target="_blank" title="bouton Je donne mon avis - Nouvelle fenêtre">bouton <i>Je donne mon avis</i></a>.</p>
 
         <h3>Qui</h3>
-        <p>En priorité, les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Votre démarche n'en fait pas partie ? Rencontrez-nous lors de nos Bureaux ouverts !</p>
-
-        <h3>Quand</h3>
-        <p>Nous conviendrons ensemble d'un premier rendez-vous pour discuter plus en détails de votre démarche et vous présenter un premier diagnostique rapide.</p>
+        <p>Tous les services publics numériques, avec un focus particulier sur les 250 démarches les plus utilisées.</p>
 
         <h3>Comment</h3>
-        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
+        <p>En vous rendant sur <a href="https://observatoire.numerique.gouv.fr/observatoire/" title="le site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">le site de l'Observatoire de la qualité des démarches en ligne</a>.</p>
 
       </section>
 
@@ -111,21 +96,41 @@
       Observatoire
     },
     metaInfo: {
-      title: "Nos services pour améliorer vos démarches en ligne",
+      title: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques",
       meta: [{
         name: 'description',
-        content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+        content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
       },
       {
         property: 'og:title',
-        content: "Nos services pour améliorer vos démarches en ligne - DesignGouv"
+        content: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+        content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
       },
       {
         property: 'og:image',
+        content: "https://design.numerique.gouv.fr/designGouv.png"
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
+      },
+      {
+        name: "twitter:image",
         content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     }
@@ -143,7 +148,7 @@
 
       .action {
         &__title {
-          margin-bottom: 1.5rem;
+          margin-bottom: 1rem;
           display: flex;
 
           @media only screen and (max-width: $mobile-max-width) {
@@ -163,9 +168,8 @@
 
         &__icon {
           display: inline-block;
-          height: 2.5rem;
-          width: 2.5rem;
-          margin-bottom: -1rem;
+          height: 2.75rem;
+          width: 2.75rem;
           margin-right: 1rem;
           color: $red;
           background-color: $light-gray;
@@ -173,7 +177,8 @@
 
           @media only screen and (max-width: $mobile-max-width) {
             display: inline;
-            margin-bottom: -6px;
+            height: 2.25rem;
+            width: 2.25rem;
           }
         }
 

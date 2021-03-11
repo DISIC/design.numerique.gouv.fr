@@ -48,7 +48,7 @@
             <p>Services</p>
             <ul>
               <li><a href="https://observatoire.numerique.gouv.fr" title="L’observatoire du numérique - Nouvelle fenêtre" target="_blank">L’Observatoire du numérique</a></li>
-              <li><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Notre guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance</a></li>
+              <li><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Notre guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance</a></li>
             </ul>
           </div>
           <div>

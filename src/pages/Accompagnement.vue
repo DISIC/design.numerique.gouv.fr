@@ -48,7 +48,7 @@
 
         <div class="action__title">
           <FranceRelance focusable="false" class="action__icon" aria-hidden="true" height="16" width="16"/>
-          <h2>Notre guichet FranceRelance</h2>
+          <h2>Notre guichet France Relance</h2>
         </div>
 
         <p>Obtenez un financement ou des ressources pour concrétiser un projet d'améliorer de la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
@@ -57,7 +57,7 @@
         <p>Les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>.</p>
 
         <h3>Comment</h3>
-        <p>Retrouvez toutes les informations sur <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="la page de notre guichet FranceRelance - Nouvelle fenêtre">la page de notre guichet FranceRelance</a>.</p>
+        <p>Retrouvez toutes les informations sur <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="la page de notre guichet France Relance - Nouvelle fenêtre">la page de notre guichet France Relance</a>.</p>
 
       </section>
 

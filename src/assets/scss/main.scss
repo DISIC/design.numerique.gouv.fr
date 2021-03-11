@@ -17,11 +17,11 @@ body {
   color: $black;
 
   .text-highlight {
-    text-shadow: 5px 5px 0px $light;
+    text-shadow: 0.25rem 0.25rem 0px $light;
   }
 
   .box-highlight {
-    box-shadow: 5px 5px 0px $light;
+    box-shadow: 0.25rem 0.25rem 0px $light;
   }
 }
 
@@ -106,7 +106,7 @@ a {
       outline-color: $blue;
     }
 
-    &:active {    
+    &:active {
       color: $blue;
       background-color: $light;
       outline-color: $blue;

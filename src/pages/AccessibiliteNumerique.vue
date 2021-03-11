@@ -47,22 +47,46 @@
         </div>
       </section>
 
+      <div class="rf-grid-row rf-grid-row--center">
+        <div class="rf-callout rf-col-lg-8 rf-mt-8w rf-mb-8w">
+          <h4 class="rf-callout__title">A11É ?</h4>
+          <p class="rf-callout__text"><strong>A11É</strong> est une abbréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
+        </div>
+      </div>
+      
       <section>
         <h2>Passer à l’action</h2>
         <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
 
-        <h3>Je souhaite faire un état des lieux de la conformité au RGAA sur un site</h3>
-        <p></p>
+        <h3>Je souhaite faire un état des lieux</h3>
+        <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> et sollicitez un expert pour effectuer un <strong>diagnostic rapide</strong>, des <strong>audits</strong> complets ou un <strong>accompagnement</strong> de vos équipes.</p>
         
         <h3>Je souhaite établir une déclaration d’accessibilité</h3>
-        <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessiblité, etc.</p>
+        <p>C’est très simple. Vous pouvez utiliser le <g-link to="/outils/exemple/">modèle de déclaration</g-link>.</p>
 
-        <h3>J’ai un service en ligne déjà en place et qui n’est pas conforme au RGAA. Que faire ?</h3>
-        <p><strong>Sensibilisez</strong> et <strong>formez</strong> vos designers et développeurs sur le sujet de l’accessibilité numérique, et étudiez à travers les resultats de votre audit les points à améliorer. À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
+        <h3>Je souhaite former mes équipes</h3>
+        <p>Vous pouvez utiliser l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> pour <strong>former et sensibiliser</strong> vos équipes.</p> 
+        <p>Le lot 2 prévoit des prestations de sensibilisation et de formations spécifiques :</p>
+        <ul>
+          <li>conception et développement</li>
+          <li>ergonome</li>
+          <li>rédaction de contenus éditoriaux accessibles</li>
+          <li>auditeur RGAA</li>
+        </ul>
+
+        <h3>Dans tous les cas</h3>
+        <p><strong>Sensibilisez</strong> et <strong>formez</strong> les décideurs et décideuses, <span lang="en">designers</span>, développeurs et développeuses, <span lang="en">product owner</span>, cheffes et chefs de projets sur le sujet de l’accessibilité numérique.</p>
+        <p>Intégrez la conformité au RGAA dans vos process.</p>
+        <p>À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
       </section>
 
 
 
+      <section>
+        <h2>À emporter</h2>
+        <p><g-link to="/accessibilite-numerique/a-emporter">Un mémo</g-link> pour savoir ce qu‘il faut faire, comment le faire et avec quels moyens.
+        </p>
+      </section>
 
 
   </Layout>

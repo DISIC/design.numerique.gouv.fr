@@ -139,7 +139,7 @@ query {
   }
 
   .if-english {
-    background: $light;
+    background: $light-gray;
     text-align: center;
 
     a {

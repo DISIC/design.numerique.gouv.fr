@@ -1,21 +1,17 @@
 <template>
   <Layout class="jobs-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Recrutement</span>
-        </li>
-      </ol>
-    </nav>
-
     <div class="cover">
-     <div class="cover__container cover__container--light">
+     <div class="cover__container">
 
-       <h1>Recrutement</h1>
+       <h1 class="text-highlight">Recrutement</h1>
+       <p class="cover__jobs">Nombre de postes ouverts : <span>{{ $page.allJob.edges.length }}</span></p>
+       <p class="cover__subtitle" >
+         Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
+       </p>
+       <p>
+         Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.
+       </p>
 
       </div>
     </div>
@@ -23,19 +19,10 @@
     <div class="content">
 
         <section>
-          <p>
-            Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
-          </p>
-          <p>
-            Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.
-          </p>
-        </section>
-
-        <section>
           <h2>Les offres</h2>
           <ul class="jobs">
             <li v-for="{ node } in $page.allJob.edges" :key="node.id">
-              <g-link :to="node.path" class="button button--blue">
+              <g-link :to="node.path" class="button">
                 <h3>{{ node.title }}</h3>
                 <p>{{ node.type }}</p>
               </g-link>
@@ -118,6 +105,20 @@
   @import "src/assets/scss/_vars.scss";
 
   .jobs-page {
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .cover__jobs {
+      display: inline-block;
+      font-weight: bold;
+      color: $red;
+      background-color: $light-gray;
+      border-radius: 1rem;
+      padding: 0.25rem 1rem;
+      margin: 0 0 1rem 0;
+    }
 
     .jobs {
       padding: 0;

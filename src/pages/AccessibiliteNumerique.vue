@@ -25,6 +25,7 @@
       <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre  à tous les usagers un égal accès à leurs droits.</p>
     </div>
 
+
       <section>
         <h2>Comprendre</h2>
         <div class="grid-menu">
@@ -32,15 +33,15 @@
             <font-awesome :icon="['fas', 'balance-scale']" height="16px"/>
             <span>Obligations légales et sanctions</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/RGAA/" class="button button--blue">
+          <g-link to="/accessibilite-numerique/RGAA/" class="button">
             <font-awesome :icon="['fas', 'clipboard-list']" height="16px"/>
             <span>RGAA</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/schema-pluriannuel" class="button button--blue">
+          <g-link to="/accessibilite-numerique/schema-pluriannuel" class="button">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>schéma pluriannuel</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/declaration-accessibilite" class="button button--blue">
+          <g-link to="/accessibilite-numerique/declaration-accessibilite" class="button">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
             <span>Déclaration d’accessibilité</span>
           </g-link>
@@ -96,18 +97,16 @@
 <script>
 
   import Accessibilite from "~/assets/images/accessibilite.svg"
-  import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg";
 
   export default {
     components: {
       Accessibilite,
-      AccessibiliteIllustration,
     },
     metaInfo: {
       title: "Accessibilité numérique",
       meta: [{
           name: 'description',
-          content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+          content: "L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap."
         },
         {
           property: 'og:title',
@@ -166,43 +165,6 @@
           margin-bottom: 8px;
         }
       }
-    }
-
-    .intro {
-      display: flex;
-
-      > div {
-        width: 70%;
-        margin-right: 40px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin-right: 0;
-        }
-      }
-
-      > div + div {
-        width: 30%;
-        margin-top: 10px;
-        margin-right: 0;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          display: none;
-        }
-      }
-
-      svg {
-        width: 100%;
-        height: auto;
-        overflow: visible;
-        margin-top: 20px;
-      }
-    }
-
-    .comment {
-      display: inline-block;
-      font-weight: normal;
-      margin-top: 10px;
     }
   }
 

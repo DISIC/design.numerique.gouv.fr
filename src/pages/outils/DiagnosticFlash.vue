@@ -60,9 +60,9 @@
           <h2> {{ cat.node.title }}</h2>
           <ul class="rf-accordions-group">
             <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
-              <h3 class="rf-accordion__title">
-                <button class="rf-accordion__btn--icon-right rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
-                  {{ criterion.node.id }}. {{ criterion.node.title }}
+              <h3 class="rf-accordion__title"><span class="numero">{{ criterion.node.id }}</span>
+                <button class=" rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
+                   {{ criterion.node.title }}
                 </button>
               </h3>
               <div class="rf-collapse" :id="criterion.node.id">
@@ -137,6 +137,37 @@ export default {
     .rf-accordion__inner {
       background-color:var(--g200);
       padding: 1rem 2rem;
+    }
+    .rf-accordion .rf-accordion__btn {
+      padding: 0.75rem 0 0.75rem 3rem
+    }
+    span.numero {
+      padding:0.25rem;
+      background-color: #ffff8f;
+      position: absolute;
+      width: 1.6em;
+      text-align: center;
+    }
+
+    @media print {
+      .rf-collapse, .guide {
+        display: none;
+      }
+      .rf-accordion .rf-accordion__btn {
+
+        &::before {
+            visibility: hidden;
+        } 
+        &::after { 
+          display: inline-table;
+          content: "";
+          width: 14pt;
+          height: 14pt;
+          margin-right: 8pt;
+          border: 1pt solid #004774;
+          vertical-align: middle;
+        }
+      }
     }
   }
 

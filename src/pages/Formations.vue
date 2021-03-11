@@ -21,8 +21,6 @@
         gratuitement, pour vous former personnellement ou en équipe sur les divers
         sujets liés au design, à la qualité des services numériques et à l’accessibilité.</p>
 
-      <FormationsIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
-
       </div>
     </div>
 
@@ -89,12 +87,10 @@
 <script>
 
   import Formations from "~/assets/images/formations.svg"
-  import FormationsIllustration from "~/assets/images/formationsIllustration.svg"
 
   export default {
     components: {
       Formations,
-      FormationsIllustration,
     },
     metaInfo: {
       title: "Les formations au design numérique et à l'accessibilté numérique",

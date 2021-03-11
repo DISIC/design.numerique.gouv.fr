@@ -39,7 +39,7 @@
           </g-link>
           <g-link to="/accessibilite-numerique/schema-pluriannuel" class="button">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
-            <span>schéma pluriannuel</span>
+            <span>Schéma pluriannuel</span>
           </g-link>
           <g-link to="/accessibilite-numerique/declaration-accessibilite" class="button">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>

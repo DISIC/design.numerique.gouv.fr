@@ -45,6 +45,7 @@
       </section>
       <section>
         <h2>La 4ème version du RGAA</h2>
+        <p>La version en vigueur du RGAA est la 4.1 et a été publiée le 16 février 2021.</p>
         <p>
           La 4e version du RGAA ne reprend que la partie obligatoire des normes harmonisées correspondant au niveaux A et AA de WCAG. Les recommandations relevant du niveau AAA de WCAG seront reprises dans un document à caractère non réglementaire (publication courant 2020).
         </p>
@@ -53,7 +54,7 @@
         </p>
         <h3>Clarification sur les critères</h3>
         <ul>
-          <li>Critère à succès (pour les WCAG), niveaux A et AA : 50 critères à succés</li>
+          <li>Critère à succès (pour les WCAG), niveaux A et AA : 50 critères à succès</li>
           <li>Critère de contrôle (pour le RGAA) : 106 critères de contrôle dans le RGAA 4 (vs 133 dans le RGAA 3)</li>
           <li>Critère de test (pour le RGAA) : 256 critères de test dans le RGAA 4 (vs 334 dans le RGAA 3)</li>
         </ul>
@@ -70,7 +71,7 @@
       <section>
         <h2>Application mobiles, progiciels et mobilier urbain numérique</h2>
         <p>
-          La méthode technique du RGAA 4.0 ne couvre pas les applications mobiles natives, les progiciels et le mobilier urbain numérique pour lesquels il sera nécessaire de vérifier directement la mise en œuvre de la norme de référence EN 301-549 V2.1.2.
+          La méthode technique du RGAA 4.1 ne couvre pas les applications mobiles natives, les progiciels et le mobilier urbain numérique pour lesquels il sera nécessaire de vérifier directement la mise en œuvre de la norme de référence EN 301-549 V2.1.2.
         </p>
       </section>
     </div>

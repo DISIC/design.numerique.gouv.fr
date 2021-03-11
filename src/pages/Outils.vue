@@ -17,7 +17,7 @@
 
       <h1 class="text-highlight"><Outils class="h1__icon" focusable="false" aria-hidden="true"/>Outils</h1>
 
-      <p class="cover__subtitle">De nombreuses outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
+      <p class="cover__subtitle">De nombreux outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
 
       <OutilsIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
 

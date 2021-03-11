@@ -33,10 +33,10 @@
         </h2>
 
         <p>
-          Les obligations d’accessibilité des sites publics aux personnes en situation de handicap ont été introduites par l’article 47 de la loi du 11 février 2005. Ces obligations ont été précisées par le décret du 14 mai 2009 prévoyant un délai de 2 ans pour les services de l’État et de 3 ans pour les collectivités territoriales.
+          Les obligations d’accessibilité des sites publics aux personnes en situation de handicap ont été introduites par l’<strong>article 47 de la loi du 11 février 2005</strong>. Ces obligations ont été précisées par le décret du 14 mai 2009 prévoyant un délai de 2 ans pour les services de l’État et de 3 ans pour les collectivités territoriales.
         </p>
         <p>
-          <strong>Depuis 2012, tous les sites publics qu’ils appartiennent aux services de l’État ou aux collectivités territoriales sont soumis à l’obligation d’accessibilité.</strong>
+          Depuis 2012, <strong>tous les sites publics</strong> qu’ils appartiennent aux services de l’État ou aux collectivités territoriales <strong>sont soumis à l’obligation d’accessibilité</strong>.
         </p>
 
       </section>
@@ -50,24 +50,24 @@
         <p>
           L’obligation d’accessibilité s’étend aux sites intranet, extranet, ainsi qu’aux applications mobiles, progiciels et mobiliers urbains numériques (ex : les distributeurs de titres de transport).
         </p>
-        <h3>Pour chaque site ou service vous devrez :</h3>
+        <h3>Pour chaque site ou service, vous devez :</h3>
         <ul>
-          <li>Publier en ligne une <strong><g-link to="/accessibilite-numerique/declaration-accessibilite">déclaration d’accessibilité</g-link></strong> indiquant en détail l’état d’accessibilité du site ou service</li>
-          <li>Afficher dès la page d’accueil <strong>l’état d’accessibilité</strong> du site ou service. Il vous faudra pour cela connaître son taux d'accessibilité (<a href="https://www.monparcourshandicap.gouv.fr/" title="exemple - nouvelle fenêtre" target="_blank">exemple</a>). Si le taux :
+          <li>Publier en ligne une <strong><g-link to="/accessibilite-numerique/declaration-accessibilite">déclaration d’accessibilité</g-link></strong> indiquant l’état d’accessibilité du site ou service.</li>
+          <li>Afficher sur toutes les pages <strong>le taux de conformité au RGAA</strong> du site ou service :
             <ul>
-              <li>est égal à 100% (bravo !), vous afficherez « Accessibilité : totalement conforme »</li>
-              <li>est supérieur à 50%, vous afficherez « Accessibilité : partiellement conforme »</li>
-              <li>est inférieur à 50%, vous afficherez « Accessibilité : non conforme »</li>
+              <li>« <strong>Accessibilité : totalement conforme</strong> » si le taux est égal à 100% (bravo !)</li>
+              <li>« <strong>Accessibilité : partiellement conforme</strong> » si le taux est supérieur à 50%</li>
+              <li>« <strong>Accessibilité : non conforme</strong> » si le taux est inférieur à 50% ou inconnu</li>
             </ul>
           Cette mention peut être cliquable et conduire vers la page Accessibilité ou vers la déclaration d’accessibilité.
           </li>
+          <li>
+            Permettre aux usagers de faire part de leurs difficultés, et de saisir le Défenseur des droits en cas de non-réponse du responsable du site.
+          </li>
         </ul>
-        <p>
-          Les usagers doivent pouvoir faire part de leurs difficultés, et saisir le Défenseur des droits en cas de non-réponse du responsable du site.
-        </p>
 
 
-        <h3>Pour votre entité vous devrez :</h3>
+        <h3>Pour votre entité vous devez :</h3>
         <p>
           Produire et publier un <strong><g-link to="/accessibilite-numerique/schema-pluriannuel">schéma pluriannuel de mise en accessibilité</g-link></strong> sur 3 ans, décliné en plan annuel détaillant les actions prévues pour évoluer vers une accessibilité complète.
         </p>
@@ -79,8 +79,7 @@
         <h2>Calendrier des obligations</h2>
 
         <ul>
-          <li><strong>23 septembre 2019</strong> : tous les sites du secteur public créés après le 23 septembre 2018 (date d’entrée en vigueur de la directive européenne) doivent être accessibles</li>
-          <li><strong>23 septembre 2020</strong> : les sites du secteur public créés avant le 23 septembre 2018 doivent être accessibles</li>
+          <li><strong>Tous les sites</strong> du secteur public doivent être accessibles depuis le <strong>23 septembre 2020</strong></li>
           <li><strong>23 juin 2021</strong> : toutes les applications mobiles, les progiciels et les mobiliers urbains numériques doivent être accessibles</li>
         </ul>
 

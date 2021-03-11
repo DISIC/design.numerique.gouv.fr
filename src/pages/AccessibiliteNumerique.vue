@@ -51,7 +51,10 @@
         <h2>Passer à l’action</h2>
         <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
 
-        <h3>Je souhaite faire un état des lieux de la conformité au RGAA sur un site, établir une déclaration d’accessibilité. Comment faire ?</h3>
+        <h3>Je souhaite faire un état des lieux de la conformité au RGAA sur un site</h3>
+        <p></p>
+        
+        <h3>Je souhaite établir une déclaration d’accessibilité</h3>
         <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessiblité, etc.</p>
 
         <h3>J’ai un service en ligne déjà en place et qui n’est pas conforme au RGAA. Que faire ?</h3>

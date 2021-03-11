@@ -235,14 +235,6 @@
       }
     }
 
-    h2 {
-      font-size: 2rem;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        font-size: 1.5rem;
-      }
-    }
-
     .team {
       position: relative;
 

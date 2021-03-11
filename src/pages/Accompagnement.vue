@@ -30,6 +30,39 @@
       <section>
 
         <h2>
+          <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="h2__icon" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>Le Commando UX
+        </h2>
+        <p>Faites intervenir une équipe d'experts pour améliorer la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
+
+        <h3>Qui</h3>
+        <p>Les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Votre démarche n'en fait pas partie ? Rencontrez-nous lors de nos Bureaux ouverts !</p>
+
+        <h3>Comment</h3>
+        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
+
+      </section>
+
+      <section>
+
+        <h2>
+          <FranceRelance focusable="false" class="h2__icon" aria-hidden="true" height="16" width="16"/> Notre guichet FranceRelance
+        </h2>
+        <p>Faites intervenir une équipe d'experts pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
+
+        <h3>Qui</h3>
+        <p>En priorité, les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Votre démarche n'en fait pas partie ? Rencontrez-nous lors de nos Bureaux ouverts !</p>
+
+        <h3>Quand</h3>
+        <p>Nous conviendrons ensemble d'un premier rendez-vous pour discuter plus en détails de votre démarche et vous présenter un premier diagnostique rapide.</p>
+
+        <h3>Comment</h3>
+        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
+
+      </section>
+
+      <section>
+
+        <h2>
           <Accompagnement class="h2__icon" focusable="false" aria-hidden="true"/>Accessible par Design
         </h2>
 
@@ -38,44 +71,7 @@
         <p>Pour vous guider, vous pouvez utiliser le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l’organisation de l’amélioration de l‘accessibilité</a>.</p>
       </section>
 
-      <!-- <section>
-
-        <h2>
-          <Accompagnement class="h2__icon" focusable="false" aria-hidden="true"/>Les bureaux ouverts
-        </h2>
-        <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
-
-        <h3>Qui</h3>
-        <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
-
-        <h3>Quand</h3>
-        <p>Dès que vous en avez besoin, nous sommes disponibles librement chaque vendredi de 10h à 12h, dans nos bureaux 20 avenue de Ségur 75007 Paris.</p>
-
-        <h3>Comment</h3>
-        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
-
-      </section> -->
-
-      <!-- <section>
-
-        <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Les revues de conception
-        </h2>
-        <p>Lors d'un atelier d'un demi-journée, présentez votre service à des membres de la communauté DesignGouv (designers, chefs de projet, etc.) qui vous aideront à mener à bien votre projet. Obtenez des avis, des conseils, des idées, des retours d'expérience.</p>
-
-        <h3>Qui</h3>
-        <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
-
-        <h3>Quand</h3>
-        <p>Les revues de conception sont des événements que nous organisons une fois tous les deux mois. Nous annoncerons bientôt les dates des premiers événements !</p>
-
-        <h3>Comment</h3>
-        <p>Nous lancerons bientôt les inscriptions.</p>
-
-      </section> -->
-
       <section>
-
 
         <h2>
           <Accompagnement class="h2__icon" focusable="false" aria-hidden="true"/>Le commando UX
@@ -101,10 +97,12 @@
 <script>
 
   import Accompagnement from "~/assets/images/accompagnement.svg"
+  import FranceRelance from "~/assets/images/franceRelance.svg"
 
   export default {
     components: {
       Accompagnement,
+      FranceRelance
     },
     metaInfo: {
       title: "Nos services pour améliorer vos démarches en ligne",
@@ -134,6 +132,26 @@
   @import "src/assets/scss/_vars.scss";
 
   .services-page {
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    .h2__icon {
+      height: 42px;
+      width: 42px;
+      background-color: $light-gray;
+      border-radius: 50%;
+      color: $red;
+    }
+
+    h3 {
+      margin-bottom: 0rem;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
 
   }
 

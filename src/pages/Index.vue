@@ -54,12 +54,6 @@
 
         <ul class="actions__list">
           <li class="action">
-            <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
-            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
-            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
-          </li>
-
-          <li class="action">
             <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
             <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
             <p>Une équipe de designers et développeurs pour améliorer les services publics numériques&nbsp;🌟</p>
@@ -69,6 +63,12 @@
             <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
             <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet FranceRelance - Nouvelle fenêtre" target="_blank">Notre guichet FranceRelance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
             <p>Pour simplifier la relation entre les usagers et l’administration grâce au numérique&nbsp;👍</p>
+          </li>
+
+          <li class="action">
+            <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
+            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
           </li>
         </ul>
 

@@ -19,7 +19,7 @@
      <div class="cover__container">
 
         <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-        <h1>Le Référentiel général d'amélioration de l'accessibilité (RGAA)</h1>
+        <h1>Le Référentiel général d’amélioration de l’accessibilité (RGAA)</h1>
 
       </div>
     </div>
@@ -30,13 +30,11 @@
 
         <h2>À quoi ça sert ?</h2>
         <p>
-          Le RGAA harmonise les normes internationales de l'accessibilité numériques connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
+          Le RGAA harmonise les normes internationales de l’accessibilité numériques connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
         </p>
         <p>
-          La méthode technique du RGAA permet de vérifier qu’une page web, tout contenu HTML, est conforme aux 50 critères de succès des niveaux A et AA de la norme internationale WCAG 2.1 qui ont été retenus dans la norme européenne de référence pour établir le niveau d’exigence légale en matière d’accessibilité numérique.
-        </p>
-        <p>
-          La méthode technique du RGAA propose un cadre opérationnel de vérification de la conformité aux exigences d'accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critères. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
+          Le RGAA est une méthode technique.<br>
+          Le RGAA propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critères. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
         </p>
 
         <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#contenu" title="Consulter les critères du RGAA - Nouvelle fenêtre" target="_blank" class="button">
@@ -47,18 +45,10 @@
         <h2>La 4ème version du RGAA</h2>
         <p>La version en vigueur du RGAA est la 4.1 et a été publiée le 16 février 2021.</p>
         <p>
-          La 4e version du RGAA ne reprend que la partie obligatoire des normes harmonisées correspondant au niveaux A et AA de WCAG. Les recommandations relevant du niveau AAA de WCAG seront reprises dans un document à caractère non réglementaire (publication courant 2020).
+          Le RGAA 4 fait disparaître la distinction entre niveau A et AA qui n’est plus justifiée puisque toutes ces règles sont obligatoires. 
         </p>
-        <p>
-          Le RGAA 4 fait disparaître aussi la distinction entre niveau A et AA qui n’est plus justifiée puisque toutes ces règles sont obligatoires. Il y ajoute des critères de test permettant de vérifier leur bonne application.
-        </p>
-        <h3>Clarification sur les critères</h3>
-        <ul>
-          <li>Critère à succès (pour les WCAG), niveaux A et AA : 50 critères à succès</li>
-          <li>Critère de contrôle (pour le RGAA) : 106 critères de contrôle dans le RGAA 4 (vs 133 dans le RGAA 3)</li>
-          <li>Critère de test (pour le RGAA) : 256 critères de test dans le RGAA 4 (vs 334 dans le RGAA 3)</li>
-        </ul>
-        <p>Consulter la <a href="https://design.numerique.gouv.fr/assets/pdf/RGAA4_vs_WCAG2.1.pdf" target="_blank" title="correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1 - Nouvelle fenêtre">correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1</a>. </p>
+
+        <!--p>Consulter la <a href="https://design.numerique.gouv.fr/assets/pdf/RGAA4_vs_WCAG2.1.pdf" target="_blank" title="correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1 - Nouvelle fenêtre">correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1</a>. </p-->
       </section>
 
       <section>

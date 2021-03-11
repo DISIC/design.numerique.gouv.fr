@@ -30,19 +30,19 @@
         <div class="grid-menu">
           <g-link to="/accessibilite-numerique/cadre-legal/" class="button button--blue">
             <font-awesome :icon="['fas', 'balance-scale']" height="16px"/>
-            <span>Les Obligations légales et sanctions</span>
+            <span>Obligations légales et sanctions</span>
           </g-link>
           <g-link to="/accessibilite-numerique/RGAA/" class="button button--blue">
             <font-awesome :icon="['fas', 'clipboard-list']" height="16px"/>
-            <span>Le RGAA</span>
+            <span>RGAA</span>
           </g-link>
           <g-link to="/accessibilite-numerique/schema-pluriannuel" class="button button--blue">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
-            <span>Le schéma pluriannuel</span>
+            <span>schéma pluriannuel</span>
           </g-link>
           <g-link to="/accessibilite-numerique/declaration-accessibilite" class="button button--blue">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
-            <span>La déclaration d’accessibilité</span>
+            <span>Déclaration d’accessibilité</span>
           </g-link>
         </div>
       </section>

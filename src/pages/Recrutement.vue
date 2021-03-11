@@ -5,6 +5,7 @@
      <div class="cover__container">
 
        <h1 class="text-highlight">Recrutement</h1>
+       <p class="cover__jobs">Nombre de postes ouverts : <span>{{ $page.allJob.edges.length }}</span></p>
        <p class="cover__subtitle" >
          Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
        </p>
@@ -104,6 +105,20 @@
   @import "src/assets/scss/_vars.scss";
 
   .jobs-page {
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    .cover__jobs {
+      display: inline-block;
+      font-weight: bold;
+      color: $red;
+      background-color: $light-gray;
+      border-radius: 1rem;
+      padding: 0.25rem 1rem;
+      margin: 0 0 1rem 0;
+    }
 
     .jobs {
       padding: 0;

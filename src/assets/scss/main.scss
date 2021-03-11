@@ -99,6 +99,7 @@ a {
 
     &:hover {
       color: $red;
+      border-bottom: 1px solid rgba($red, 0.5);
     }
 
     &:focus {

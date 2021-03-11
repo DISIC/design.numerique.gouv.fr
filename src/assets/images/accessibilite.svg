@@ -3,7 +3,7 @@
     <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Main-Copy" transform="translate(-900.000000, -2319.000000)">
             <g id="accessibilite" transform="translate(900.000000, 2319.000000)">
-                <circle id="Cercle" fill="#82F7E4" cx="20" cy="20" r="20"></circle>
+                <circle id="Cercle" fill="#79F7EA" cx="20" cy="20" r="20"></circle>
                 <path d="M20,21 C22.7614237,21 25,23.2385763 25,26 C25,28.7614237 22.7614237,31 20,31 C17.2385763,31 15,28.7614237 15,26 C15,23.2385763 17.2385763,21 20,21 Z M20,9 C22.7614237,9 25,11.2385763 25,14 C25,16.7614237 22.7614237,19 20,19 C17.2385763,19 15,16.7614237 15,14 C15,11.2385763 17.2385763,9 20,9 Z" id="Forme" fill="#0F3AE6" transform="translate(20.000000, 20.000000) rotate(-45.000000) translate(-20.000000, -20.000000) "></path>
             </g>
         </g>

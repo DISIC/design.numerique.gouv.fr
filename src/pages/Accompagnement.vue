@@ -31,7 +31,7 @@
 
         <div class="action__title">
           <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__icon" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
-          <h2>Le Commando UX</h2>
+          <h2><g-link to="/commando-ux/">Le Commando UX</g-link></h2>
         </div>
 
         <p>Faites intervenir nos experts pour améliorer la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
@@ -48,7 +48,7 @@
 
         <div class="action__title">
           <FranceRelance focusable="false" class="action__icon" aria-hidden="true" height="16" width="16"/>
-          <h2>Notre guichet France Relance</h2>
+          <h2><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance</a></h2>
         </div>
 
         <p>Obtenez un financement ou des ressources pour concrétiser un projet d'améliorer de la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
@@ -65,7 +65,7 @@
 
         <div class="action__title">
           <Observatoire focusable="false" class="action__icon" aria-hidden="true" height="16px" width="16px"/>
-          <h2>L'Observatoire</h2>
+          <h2><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L'Observatoire</a></h2>
         </div>
 
         <p>Suivez la qualité de vos démarches en ligne et récoltez les avis de vos usagers grâce au <a href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" target="_blank" title="bouton Je donne mon avis - Nouvelle fenêtre">bouton <i>Je donne mon avis</i></a>.</p>
@@ -163,6 +163,10 @@
             @media only screen and (max-width: $mobile-max-width) {
               display: inline;
             }
+          }
+
+          a {
+            border-bottom: none !important;
           }
         }
 

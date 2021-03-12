@@ -5,7 +5,7 @@
 
     <p>Vous êtes une administration et vous souhaitez améliorer l’expérience usager (UX) et l’accessibilité de l’un de vos services ? Nous pouvons vous accompagner&nbsp;!</p>
 
-    <g-link class="button" to="/accompagnement/" >Nos dispositifs d’accompagnement</g-link>
+    <g-link class="button" to="/accompagnement/" >Voir nos accompagnements</g-link>
   </div>
 
 </template>

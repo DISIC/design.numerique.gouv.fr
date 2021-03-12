@@ -3,12 +3,12 @@ main {
     text-align: center;
     background-color: $light-gray;
     margin: 0;
-    padding: 28px 48px 20px 48px;
-    border-radius: 32px;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
     position: relative;
 
     @media only screen and (max-width: $mobile-max-width) {
-      padding: 24px 24px 16px 24px;
+      padding: 1.5rem;
     }
 
     &:hover {
@@ -18,15 +18,13 @@ main {
     }
 
     h2 {
-      margin: 0 0 16px 0;
+      margin: 0;
       font-size: 1.75em;
       color: $blue;
       transition: .2s all;
 
       @media only screen and (max-width: $mobile-max-width) {
         font-size: 1.5em;
-        padding-top: 4px;
-        padding-bottom: 0px;
       }
     }
 

@@ -261,7 +261,7 @@ vertical-align: super;
         }
       }
       fieldset {
-        border: none;  
+        border: none;
         legend {
           font-weight: bold;
         }
@@ -325,7 +325,7 @@ vertical-align: super;
       }
 
       .indicates-required {text-align:right; font-size:11px; margin-right:4%;}
-      .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}
+      .asterisk {color: $red; font-size:150%; font-weight:normal; position:relative; top:5px;}
       .clear {clear:both;}
 
       // div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%; margin: 0 5%; clear: both;}

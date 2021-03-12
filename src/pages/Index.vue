@@ -88,7 +88,7 @@
             </p>
           </div>
           <g-link to="/outils/" class="brick__link">
-            J’accède aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Accéder aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -103,7 +103,7 @@
             </p>
           </div>
           <g-link to="/formations/" class="brick__link">
-            Je découvre les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Voir les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 

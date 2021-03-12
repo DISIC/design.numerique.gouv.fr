@@ -24,7 +24,7 @@
             </div>
 
             <p class="item__link item__link--disabled">
-              Bientôt disponible !
+              À venir.
             </p>
           </div>
 
@@ -56,13 +56,13 @@
           <li class="action">
             <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
             <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
-            <p>Une équipe de designers et développeurs pour améliorer les services publics numériques&nbsp;🌟</p>
+            <p>Une équipe de designers et développeurs pour améliorer les démarches en ligne&nbsp;🌟</p>
           </li>
 
           <li class="action">
             <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
             <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
-            <p>Pour simplifier la relation entre les usagers et l’administration grâce au numérique&nbsp;👍</p>
+            <p>Destiné aux administrations pour financer la simplification de leurs démarches en ligne&nbsp;👍</p>
           </li>
 
           <li class="action">
@@ -120,8 +120,8 @@
         <div class="team__content">
           <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
           <div class="team__text">
-            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français !
-              Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️.</p>
+            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français.
+              Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️</p>
             <g-link to="/equipe/">
               Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
             </g-link>

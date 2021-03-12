@@ -19,8 +19,6 @@
 
       <p class="cover__subtitle">De nombreux outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
 
-      <OutilsIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
-
       </div>
     </div>
 
@@ -69,12 +67,10 @@
 <script>
 
   import Outils from "~/assets/images/outils.svg"
-  import OutilsIllustration from "~/assets/images/outilsIllustration.svg"
 
   export default {
     components: {
       Outils,
-      OutilsIllustration
     },
     metaInfo: {
       title: "Les outils de design de l'accessibilité",

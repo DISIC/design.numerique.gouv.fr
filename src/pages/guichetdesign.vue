@@ -18,7 +18,7 @@
       <h1 class="highlight">#guichetDesign</h1>
 
       <p class="cover__subtitle">
-        Dans le cadre de FranceRelance, 32 M€ pour simplifier la relation entre les usagers et l’administration grâce au numérique.
+        Dans le cadre de France Relance, 32 M€ pour simplifier la relation entre les usagers et l’administration grâce au numérique.
       </p>
 
       </div>
@@ -59,7 +59,7 @@
 
   export default {
     metaInfo: {
-      title: "GuichetDesign FranceRelance",
+      title: "GuichetDesign France Relance",
       meta: [{
         name: 'description',
         content: "32M€ pour améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"

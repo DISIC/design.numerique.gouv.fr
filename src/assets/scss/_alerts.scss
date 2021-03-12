@@ -1,25 +1,30 @@
 main {
   .alert {
     text-align: center;
-    border: 2px solid $gray;
-    background-color: white;
-    margin: 32px 0;
-    padding: 28px 48px 20px 48px;
-    border-radius: 32px;
+    background-color: $light-gray;
+    margin: 0;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
     position: relative;
 
     @media only screen and (max-width: $mobile-max-width) {
-      padding: 24px 24px 16px 24px;
+      padding: 1.5rem;
+    }
+
+    &:hover {
+      h2 {
+        color: $red;
+      }
     }
 
     h2 {
-      margin: 0 0 16px 0;
+      margin: 0;
       font-size: 1.75em;
+      color: $blue;
+      transition: .2s all;
 
       @media only screen and (max-width: $mobile-max-width) {
         font-size: 1.5em;
-        padding-top: 4px;
-        padding-bottom: 0px;
       }
     }
 
@@ -34,10 +39,6 @@ main {
         left: 0;
         right: 0;
       }
-    }
-
-    &:hover, &:focus {
-      box-shadow: 5px 5px 0px $light;
     }
   }
 }

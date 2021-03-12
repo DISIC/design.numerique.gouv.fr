@@ -15,83 +15,66 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><Services class="h1__icon" focusable="false" aria-hidden="true"/>Accompagnement</h1>
+      <h1 class="text-highlight"><Accompagnement class="h1__icon" focusable="false" aria-hidden="true"/>Nos dispositifs d'accompagnement</h1>
 
       <p class="cover__subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
         questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,
         demander des conseils pour le développement ou l'amélioration de votre service&nbsp;?
         Nous vous aidons&nbsp;!</p>
 
-      <ServicesIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
-
       </div>
     </div>
 
     <div class="content">
 
-      <section>
+      <section class="action">
 
-        <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Accessible par Design
-        </h2>
+        <div class="action__title">
+          <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__icon" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
+          <h2><g-link to="/commando-ux/">Le Commando UX</g-link></h2>
+        </div>
 
-        <h3>Je veux rendre accessible mes sites et démarches en ligne</h3>
-        <p>Voici <a href="https://www.notion.so/designgouv/Je-veux-rendre-accessible-mes-interfaces-num-riques-ce1966fa48d940aca486e8bac02454bd" target="_blank">différentes idées et solutions pour vous accompagner</a> dans le grand chantier de mise en œuvre de l'accessibilité.</p>
-        <p>Pour vous guider, vous pouvez utiliser le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l’organisation de l’amélioration de l‘accessibilité</a>.</p>
-      </section>
-
-      <section>
-
-        <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Les bureaux ouverts
-        </h2>
-        <p>Rencontrez librement un designer qui prendra du temps pour répondre à vos questions, vous informer, vous donner des retours.</p>
+        <p>Faites intervenir nos experts pour améliorer la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
 
         <h3>Qui</h3>
-        <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
-
-        <h3>Quand</h3>
-        <p>Dès que vous en avez besoin, nous sommes disponibles librement chaque vendredi de 10h à 12h, dans nos bureaux 20 avenue de Ségur 75007 Paris.</p>
+        <p>Les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>.</p>
 
         <h3>Comment</h3>
-        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
+        <p>Rendez-vous sur <g-link to="/commando-ux/">notre page dédiée au Commando UX</g-link>.</p>
 
       </section>
 
-      <!-- <section>
+      <section class="action">
 
-        <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Les revues de conception
-        </h2>
-        <p>Lors d'un atelier d'un demi-journée, présentez votre service à des membres de la communauté DesignGouv (designers, chefs de projet, etc.) qui vous aideront à mener à bien votre projet. Obtenez des avis, des conseils, des idées, des retours d'expérience.</p>
+        <div class="action__title">
+          <FranceRelance focusable="false" class="action__icon" aria-hidden="true" height="16" width="16"/>
+          <h2><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance</a></h2>
+        </div>
 
-        <h3>Qui</h3>
-        <p>Qui que vous soyez, du moment que vous êtes un acteur public et que vous menez un projet numérique.</p>
-
-        <h3>Quand</h3>
-        <p>Les revues de conception sont des événements que nous organisons une fois tous les deux mois. Nous annoncerons bientôt les dates des premiers événements !</p>
-
-        <h3>Comment</h3>
-        <p>Nous lancerons bientôt les inscriptions.</p>
-
-      </section> -->
-
-      <section>
-
-
-        <h2>
-          <Services class="h2__icon" focusable="false" aria-hidden="true"/>Le commando UX
-        </h2>
-        <p>Faites intervenir notre équipe pour vous aider à améliorer vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
+        <p>Obtenez un financement ou des ressources pour concrétiser un projet d'améliorer de la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
 
         <h3>Qui</h3>
-        <p>En priorité, les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Votre démarche n'en fait pas partie ? Rencontrez-nous lors de nos Bureaux ouverts !</p>
-
-        <h3>Quand</h3>
-        <p>Nous conviendrons ensemble d'un premier rendez-vous pour discuter plus en détails de votre démarche et vous présenter un premier diagnostique rapide.</p>
+        <p>Les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>.</p>
 
         <h3>Comment</h3>
-        <p>En nous contactant via e-mail <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a>.</p>
+        <p>Retrouvez toutes les informations sur <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="la page de notre guichet France Relance - Nouvelle fenêtre">la page de notre guichet France Relance</a>.</p>
+
+      </section>
+
+      <section class="action">
+
+        <div class="action__title">
+          <Observatoire focusable="false" class="action__icon" aria-hidden="true" height="16px" width="16px"/>
+          <h2><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L'Observatoire</a></h2>
+        </div>
+
+        <p>Suivez la qualité de vos démarches en ligne et récoltez les avis de vos usagers grâce au <a href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" target="_blank" title="bouton Je donne mon avis - Nouvelle fenêtre">bouton <i>Je donne mon avis</i></a>.</p>
+
+        <h3>Qui</h3>
+        <p>Tous les services publics numériques, avec un focus particulier sur les 250 démarches les plus utilisées.</p>
+
+        <h3>Comment</h3>
+        <p>En vous rendant sur <a href="https://observatoire.numerique.gouv.fr/observatoire/" title="le site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">le site de l'Observatoire de la qualité des démarches en ligne</a>.</p>
 
       </section>
 
@@ -102,30 +85,52 @@
 
 <script>
 
-  import Services from "~/assets/images/services.svg"
-  import ServicesIllustration from "~/assets/images/servicesIllustration.svg"
+  import Accompagnement from "~/assets/images/accompagnement.svg"
+  import FranceRelance from "~/assets/images/franceRelance.svg"
+  import Observatoire from "~/assets/images/observatoire.svg"
 
   export default {
     components: {
-      Services,
-      ServicesIllustration,
+      Accompagnement,
+      FranceRelance,
+      Observatoire
     },
     metaInfo: {
-      title: "Nos services pour améliorer vos démarches en ligne",
+      title: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques",
       meta: [{
         name: 'description',
-        content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+        content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
       },
       {
         property: 'og:title',
-        content: "Nos services pour améliorer vos démarches en ligne - DesignGouv"
+        content: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Découvrez les services que nous proposons pour accompagner l'amélioration des démarches en lignes."
+        content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
       },
       {
         property: 'og:image',
+        content: "https://design.numerique.gouv.fr/designGouv.png"
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
+      },
+      {
+        name: "twitter:image",
         content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     }
@@ -139,6 +144,57 @@
 
   .services-page {
 
+    .content {
+
+      .action {
+        &__title {
+          margin-bottom: 1rem;
+          display: flex;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: flex;
+          }
+
+          h2 {
+            display: inline;
+            padding: 0.25rem 0;
+            margin: 0;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              display: inline;
+            }
+          }
+
+          a {
+            border-bottom: none !important;
+          }
+        }
+
+        &__icon {
+          display: inline-block;
+          height: 2.75rem;
+          width: 2.75rem;
+          margin-right: 1rem;
+          color: $red;
+          background-color: $light-gray;
+          border-radius: 50%;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            display: inline;
+            height: 2.25rem;
+            width: 2.25rem;
+          }
+        }
+
+        h3 {
+          margin-bottom: 0rem;
+        }
+
+        p {
+          margin: 0.5rem 0;
+        }
+      }
+    }
   }
 
 </style>

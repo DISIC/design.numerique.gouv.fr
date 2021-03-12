@@ -13,82 +13,82 @@
     </nav> -->
 
     <div class="cover">
-     <div class="cover__container">
-
-      <h1 class="text-highlight"><Accessibilite class="h1__icon" focusable="false" aria-hidden="true"/>Accessibilité numérique</h1>
-
-      <p class="cover__subtitle">L'accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
-
+      <div class="cover__container">
+        <h1 class="text-highlight"><Accessibilite class="h1__icon" focusable="false" aria-hidden="true"/>Accessibilité numérique</h1>
+        <p class="cover__subtitle">L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
       </div>
-
     </div>
 
     <div class="content">
+      <p>En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.</p>
+      <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que designers &amp; developers soient formés à ces enjeux.</p>
+      <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre  à tous les usagers un égal accès à leurs droits.</p>
+    </div>
 
-      <section class="intro">
-        <div>
-          <p>
-            En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.
-          </p>
-          <p>
-            Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que les designers et développeurs soient formés à ces enjeux.
-          </p>
-          <p>
-            <strong>Depuis 2012, tous les sites publics doivent être accessibles, c'est à dire 100% conformes au RGAA.</strong> Et ainsi permettre  à tous les usagers un égal accès à leurs droits.
-          </p>
-        </div>
-        <div>
-          <AccessibiliteIllustration class="illustration" focusable="false" aria-hidden="true"/>
-        </div>
-      </section>
 
       <section>
-        <h2>Comprendre le cadre légal</h2>
+        <h2>Comprendre</h2>
         <div class="grid-menu">
-          <!-- <g-link to="/accessibilite-numerique/" class="inactive">
-            <span>En bref (5 minutes chrono)</span>
-          </g-link> -->
           <g-link to="/accessibilite-numerique/cadre-legal/" class="button button--blue">
             <font-awesome :icon="['fas', 'balance-scale']" height="16px"/>
             <span>Obligations légales et sanctions</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/RGAA/" class="button button--blue">
+          <g-link to="/accessibilite-numerique/RGAA/" class="button">
             <font-awesome :icon="['fas', 'clipboard-list']" height="16px"/>
-            <span>Le RGAA</span>
+            <span>RGAA</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/schema-pluriannuel" class="button button--blue">
+          <g-link to="/accessibilite-numerique/schema-pluriannuel" class="button">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
-            <span>Schéma pluriannuel <small>de mise en accessibilité</small></span>
+            <span>Schéma pluriannuel</span>
           </g-link>
-          <g-link to="/accessibilite-numerique/declaration-accessibilite" class="button button--blue">
+          <g-link to="/accessibilite-numerique/declaration-accessibilite" class="button">
             <font-awesome :icon="['far', 'file-alt']" height="16px"/>
-            <span>Déclaration d'accessibilité</span>
+            <span>Déclaration d’accessibilité</span>
           </g-link>
-
         </div>
       </section>
 
+      <div class="rf-grid-row rf-grid-row--center">
+        <div class="rf-callout rf-col-lg-8 rf-mt-8w rf-mb-8w">
+          <h4 class="rf-callout__title">A11É ?</h4>
+          <p class="rf-callout__text"><strong>A11É</strong> est une abbréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
+        </div>
+      </div>
+      
       <section>
-        <h2>Passer à l'action</h2>
-        <p>Pour atteindre un taux d'accessibilité à 100 %, rien de plus simple. Il faudra former vos équipes, intégrer l'accessibilité dès la phase de design et tout au long du développement. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
+        <h2>Passer à l’action</h2>
+        <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
+
+        <h3>Je souhaite faire un état des lieux</h3>
+        <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> et sollicitez un expert pour effectuer un <strong>diagnostic rapide</strong>, des <strong>audits</strong> complets ou un <strong>accompagnement</strong> de vos équipes.</p>
+        
+        <h3>Je souhaite établir une déclaration d’accessibilité</h3>
+        <p>C’est très simple. Vous pouvez utiliser le <g-link to="/outils/exemple/">modèle de déclaration</g-link>.</p>
+
+        <h3>Je souhaite former mes équipes</h3>
+        <p>Vous pouvez utiliser l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> pour <strong>former et sensibiliser</strong> vos équipes.</p> 
+        <p>Le lot 2 prévoit des prestations de sensibilisation et de formations spécifiques :</p>
+        <ul>
+          <li>conception et développement</li>
+          <li>ergonome</li>
+          <li>rédaction de contenus éditoriaux accessibles</li>
+          <li>auditeur RGAA</li>
+        </ul>
+
+        <h3>Dans tous les cas</h3>
+        <p><strong>Sensibilisez</strong> et <strong>formez</strong> les décideurs et décideuses, <span lang="en">designers</span>, développeurs et développeuses, <span lang="en">product owner</span>, cheffes et chefs de projets sur le sujet de l’accessibilité numérique.</p>
+        <p>Intégrez la conformité au RGAA dans vos process.</p>
+        <p>À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
       </section>
 
-      <section>
-        <h3>Je souhaite faire un état des lieux de la conformité au RGAA sur un site, établir une déclaration d’accessibilité. Comment faire ?</h3>
-        <p>Si vous n'avez pas les ressources nécessaires en interne pour le faire, faites appel à l'<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel DAE</g-link> pour de l'accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d'un schéma pluriannuel de mise en accessiblité, etc.</p>
-      </section>
+
 
       <section>
-        <h3>J’ai un service en ligne déjà en place et qui n'est pas conforme au RGAA. Que faire ?</h3>
-        <p><strong>Sensibilisez</strong> et <strong>formez</strong> vos designers et développeurs sur le sujet de l'accessibilité numérique, et étudiez à travers les resultats de votre audit les points à améliorer. À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d'accessibilité.</p>
+        <h2>À emporter</h2>
+        <p><g-link to="/accessibilite-numerique/a-emporter">Un mémo</g-link> pour savoir ce qu‘il faut faire, comment le faire et avec quels moyens.
+        </p>
       </section>
 
-      <section>
-        <h3>Est-ce qu'il existe des financements ?</h3>
-        <p>Oui. Des <a title="financements par le FIPHFP - Nouvelle fenêtre" target="_blank" href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite">financements</a> pour la mise en accessibilité de vos interfaces sont possibles via le <abbr title="Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique">FIPHFP</abbr>.</p>
-      </section>
-
-    </div>
 
   </Layout>
 </template>
@@ -97,22 +97,20 @@
 <script>
 
   import Accessibilite from "~/assets/images/accessibilite.svg"
-  import AccessibiliteIllustration from "~/assets/images/accessibiliteIllustration.svg";
 
   export default {
     components: {
       Accessibilite,
-      AccessibiliteIllustration,
     },
     metaInfo: {
       title: "Accessibilité numérique",
       meta: [{
           name: 'description',
-          content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+          content: "L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap."
         },
         {
           property: 'og:title',
-          content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+          content: "Les outils pour le design numérique et l’accessibilité - DesignGouv"
         },
         {
           property: 'og:description',
@@ -167,43 +165,6 @@
           margin-bottom: 8px;
         }
       }
-    }
-
-    .intro {
-      display: flex;
-
-      > div {
-        width: 70%;
-        margin-right: 40px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin-right: 0;
-        }
-      }
-
-      > div + div {
-        width: 30%;
-        margin-top: 10px;
-        margin-right: 0;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          display: none;
-        }
-      }
-
-      svg {
-        width: 100%;
-        height: auto;
-        overflow: visible;
-        margin-top: 20px;
-      }
-    }
-
-    .comment {
-      display: inline-block;
-      font-weight: normal;
-      margin-top: 10px;
     }
   }
 

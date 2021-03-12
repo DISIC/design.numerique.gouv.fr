@@ -8,7 +8,7 @@ sub_team: Démarches Simplifiées
 sub_team_link: https://www.demarches-simplifiees.fr/
 twitter: PhVrignaud
 e-mail :
-group : team
+group :
 ---
 
 Bio à venir

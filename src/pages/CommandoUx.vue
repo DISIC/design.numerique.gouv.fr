@@ -21,8 +21,6 @@
         15 designers et développeurs interviennent pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
       </p>
 
-      <CommandouxIllustration class="cover__illustration" focusable="false" aria-hidden="true"/>
-
       </div>
     </div>
 
@@ -246,13 +244,11 @@
 
 <script>
 
-  import CommandoUX from "~/assets/images/services.svg"
-  import CommandouxIllustration from "~/assets/images/commandouxIllustration.svg"
+  import CommandoUX from "~/assets/images/accompagnement.svg"
 
   export default {
     components: {
       CommandoUX,
-      CommandouxIllustration
     },
     metaInfo: {
       title: "Commando UX",
@@ -421,7 +417,7 @@
         }
 
         img {
-          background-color: lighten($gray-hover, 10%);
+          background-color: lighten($gray, 10%);
           border-radius: 100%;
           padding: 12px;
         }
@@ -433,7 +429,7 @@
           border-radius: 100%;
           width: 88px;
           height: 88px;
-          background-color: lighten($gray-hover, 10%);
+          background-color: lighten($gray, 10%);
 
           svg {
             font-size: 40px;
@@ -460,7 +456,7 @@
         margin: 0;
         display: block;
         font-size: 0.9em;
-        color: $mid-gray;
+        color: $dark-gray;
       }
 
       @media only screen and (max-width: $mobile-max-width) {

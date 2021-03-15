@@ -4,20 +4,16 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Design numérique</h1>
+      <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
 
       <p class="cover__subtitle">Le design permet de rendre les services numériques plus
-        simples, accessibles et agréables pour tous. Concevoir par le design, c’est
-        mettre en œuvre des solutions centrées sur les usagers, tout en s’appuyant
-        sur de bonnes pratiques reconnues.</p>
+        simples, accessibles et agréables pour tous.</p>
 
       </div>
     </div>
 
     <div class="content">
       <section>
-        <p>Pour vous aider dans la conception de vos service publics numérique, décourvrez le Bureau du Design !</p>
-        <g-link to="/design/bureau-du-design/" class="button">Se rendre au bureau<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-3"  aria-hidden="true" height="16px" width="16px"/></g-link>
       </section>
     </div>
 

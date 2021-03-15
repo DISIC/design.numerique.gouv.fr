@@ -110,7 +110,7 @@ a {
     &:active {
       color: $blue;
       background-color: $light;
-      outline-color: $blue;
+      border-bottom: 1px solid rgba($blue, 0.5);
     }
   }
 

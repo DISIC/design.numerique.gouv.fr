@@ -10,7 +10,7 @@
           <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
         </li>
         <li>
-          <span aria-current="page">Le jeu de l'OAA</span>
+          <span aria-current="page">Le jeu de l’OAA</span>
         </li>
       </ol>
     </nav>
@@ -19,8 +19,8 @@
      <div class="cover__container">
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Le jeu de l'<abbr title="organisation de l’amélioration de l’accessibilité">OAA</abbr></h1>
-       <p class="cover__subtitle">Le jeu de l'organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
+       <h1>Le jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité">OAA</abbr></h1>
+       <p class="cover__subtitle">Le jeu de l’organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       </div>
     </div>

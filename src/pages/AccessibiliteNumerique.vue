@@ -75,7 +75,8 @@
           <li>auditeur RGAA</li>
         </ul>
 
-        <h3>Dans tous les cas</h3>
+        <h3>Dans tous les cas, utilisez le <g-link to="/accessibilite-numerique/jeu-de-oaa">jeu de l’<abbr title="organisation de l’amélioration de l’accessiblité">oaa</abbr></g-link>.</h3>
+
         <p><strong>Sensibilisez</strong> et <strong>formez</strong> les décideurs et décideuses, <span lang="en">designers</span>, développeurs et développeuses, <span lang="en">product owner</span>, cheffes et chefs de projets sur le sujet de l’accessibilité numérique.</p>
         <p>Intégrez la conformité au RGAA dans vos process.</p>
         <p>À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>

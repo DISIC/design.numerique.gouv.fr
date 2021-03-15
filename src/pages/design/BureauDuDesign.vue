@@ -13,8 +13,9 @@
     </div>
 
     <div class="content">
-      <section>
-      </section>
+
+      <Bureau/>
+
     </div>
 
   </Layout>
@@ -24,13 +25,15 @@
 <script>
 
   import Design from "~/assets/images/design.svg"
+  import Bureau from "~/components/Bureau.vue"
 
   export default {
     components: {
       Design,
+      Bureau,
     },
     metaInfo: {
-      title: "Design numérique",
+      title: "Le bureau du Design",
       meta: [
         { name: "description", content: "Cet espace est dédié aux agents publics soucieux de créer des services numériques accessibles pour tous." }
       ],

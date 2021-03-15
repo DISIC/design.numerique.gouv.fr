@@ -9,18 +9,19 @@ main {
     border-radius: 4rem;
     box-shadow: none;
     background-color: rgba(white, 0);
-
     padding: 0.375rem 1.5rem;
 
     cursor: pointer;
-    transition: .1s all;
+    transition: .2s all;
 
-    &__icon {
+    &__right-icon {
       padding-left: 0.5rem;
+      transition: .2s all;
     }
 
     &__left-icon {
       padding-right: 0.5rem;
+      transition: .2s all;
     }
 
     h1, h2, h3, h4 {

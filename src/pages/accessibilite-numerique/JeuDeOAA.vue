@@ -81,7 +81,7 @@
                                                 name="Suivant"
                                                 class="goose__next-card"
                                                 v-on:click="nextCard(card.node.id, index, step.node.id)">
-                                          Étape suivante <font-awesome  width="18px" class="button__icon" :icon="['fas', 'arrow-right']"/>
+                                          Étape suivante <font-awesome  width="18px" class="button__right-icon" :icon="['fas', 'arrow-right']"/>
                                         </button>
                                       </div>
                                   </div>
@@ -370,7 +370,7 @@
                background-color: $black;
              }
 
-             .button__icon, .button__left-icon {
+             .button__right-icon, .button__left-icon {
                width: 18px;
              }
            }

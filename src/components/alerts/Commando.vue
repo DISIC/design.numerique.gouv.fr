@@ -9,7 +9,7 @@
       </p>
 
       <g-link to="/commando-ux/">
-        Suivre leur travail<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
+        Suivre leur travail<font-awesome aria-hidden="true" class="button__right-icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
       </g-link>
 
   </div>

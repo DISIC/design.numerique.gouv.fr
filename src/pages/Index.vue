@@ -38,7 +38,7 @@
             </div>
 
             <g-link to="/accessibilite-numerique/" class="item__link button button--highlight">
-              L’accessibilité en détails<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              L’accessibilité en détails<font-awesome width="0" class="button__right-icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
             </g-link>
           </div>
 
@@ -55,19 +55,19 @@
         <ul class="actions__list">
           <li class="action">
             <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
-            <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
+            <h3><g-link to="/commando-ux/">Le Commando UX<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
             <p>Une équipe de designers et développeurs pour améliorer les démarches en ligne&nbsp;🌟</p>
           </li>
 
           <li class="action">
             <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
-            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
             <p>Destiné aux administrations pour financer la simplification de leurs démarches en ligne&nbsp;👍</p>
           </li>
 
           <li class="action">
             <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
-            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
             <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
           </li>
         </ul>
@@ -88,7 +88,7 @@
             </p>
           </div>
           <g-link to="/outils/" class="brick__link">
-            Accéder aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Accéder aux outils<font-awesome  width="0" class="button__right-icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -103,7 +103,7 @@
             </p>
           </div>
           <g-link to="/formations/" class="brick__link">
-            Voir les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            Voir les formations<font-awesome  width="0" class="button__right-icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
           </g-link>
         </div>
 
@@ -123,7 +123,7 @@
             <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français.
               Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️</p>
             <g-link to="/equipe/">
-              Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
+              Découvrir l’équipe et notre mission<font-awesome class="button__right-icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
             </g-link>
           </div>
         </div>
@@ -368,11 +368,6 @@
                 left: 0;
                 right: 0;
               }
-
-              svg {
-                margin-left: 4px;
-                transition: .2s all;
-              }
             }
           }
 
@@ -394,8 +389,8 @@
             h3 {
               color: $blue;
 
-              svg {
-                margin-left: 12px;
+              .button__right-icon {
+                margin-left: 0.5rem;
               }
             }
           }

@@ -6,8 +6,9 @@
 
       <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
 
-      <p class="cover__subtitle">Le design permet de rendre les services numériques plus
-        simples, accessibles et agréables pour tous.</p>
+      <p class="cover__subtitle">
+        Le bureau du design vous guide dans la réalisation de services publics numériques simples, accessibles et agréables pour tous.
+      </p>
 
       </div>
     </div>

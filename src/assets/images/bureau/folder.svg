@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="46px" viewBox="0 0 56 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-998.000000, -237.000000)" fill="#FFFFFF" stroke-width="2">
+            <g id="folder" transform="translate(999.000000, 238.000000)">
+                <path d="M5,12 L53,12 C53.5522847,12 54,12.4477153 54,13 L54,44 L54,44 L4,44 L4,13 C4,12.4477153 4.44771525,12 5,12 Z" id="Rectangle-Copy-670" stroke="#FFFFFF"></path>
+                <path d="M1,8 L49,8 C49.5522847,8 50,8.44771525 50,9 L50,40 L50,40 L0,40 L0,9 C-6.76353751e-17,8.44771525 0.44771525,8 1,8 Z" id="Rectangle" stroke="#272729"></path>
+                <path d="M6.56619038,2.84217094e-14 L19.8338096,2.84217094e-14 C20.1850725,2.62210687e-14 20.5105793,0.184298834 20.6913025,0.485504245 L25.2,8 L25.2,8 L1.2,8 L5.70869745,0.485504245 C5.8894207,0.184298834 6.21492753,2.87982195e-14 6.56619038,2.84217094e-14 Z" id="Rectangle-Copy-664" stroke="#272729"></path>
+            </g>
+        </g>
+    </g>
+</svg>

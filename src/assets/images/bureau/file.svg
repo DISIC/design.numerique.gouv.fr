@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="46px" viewBox="0 0 38 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1061.000000, -237.000000)">
+            <g id="file" transform="translate(1062.000000, 238.000000)">
+                <polygon id="Rectangle-Copy-675" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" points="4 4 27.0283845 4 36 13 36 44 4 44"></polygon>
+                <polygon id="Rectangle" stroke="#272729" stroke-width="2" fill="#FFFFFF" points="0 0 23.0283845 0 32 9 32 40 0 40"></polygon>
+                <path d="M23.370029,0.342725446 L31.6598783,8.65880218 C31.7378597,8.7370303 31.7376597,8.86366314 31.6594315,8.94164454 C31.6219426,8.97901526 31.5711676,9 31.5182337,9 L23.0283845,9 L23.0283845,9 L23.0283845,0.483923266 C23.0283845,0.373466314 23.1179276,0.283923263 23.2283845,0.283923263 C23.2815373,0.283923263 23.3325038,0.305081449 23.370029,0.342725446 Z" id="Triangle" stroke="#272729" stroke-width="2" fill="#FFFFFF"></path>
+                <rect id="Rectangle" fill="#272729" x="7" y="29" width="10" height="2"></rect>
+                <rect id="Rectangle-Copy-667" fill="#272729" x="7" y="23" width="16" height="2"></rect>
+                <rect id="Rectangle-Copy-668" fill="#272729" x="7" y="17" width="16" height="2"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,10 C14.4771525,10 10,14.4771525 10,20 C10,25.5228475 14.4771525,30 20,30 C25.5228475,30 30,25.5228475 30,20 C30,14.4771525 25.5228475,10 20,10 Z" id="path-1"></path>
+    </defs>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1165.000000, -237.000000)">
+            <g id="support" transform="translate(1166.000000, 238.000000)">
+                <path d="M24,4 C35.045695,4 44,12.954305 44,24 C44,35.045695 35.045695,44 24,44 C12.954305,44 4,35.045695 4,24 C4,12.954305 12.954305,4 24,4 Z M24,14 C18.4771525,14 14,18.4771525 14,24 C14,29.5228475 18.4771525,34 24,34 C29.5228475,34 34,29.5228475 34,24 C34,18.4771525 29.5228475,14 24,14 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M20,0 C31.045695,0 40,8.954305 40,20 C40,31.045695 31.045695,40 20,40 C8.954305,40 0,31.045695 0,20 C0,8.954305 8.954305,0 20,0 Z M20,10 C14.4771525,10 10,14.4771525 10,20 C10,25.5228475 14.4771525,30 20,30 C25.5228475,30 30,25.5228475 30,20 C30,14.4771525 25.5228475,10 20,10 Z" id="Combined-Shape-Copy" stroke="#272729" stroke-width="2" fill="#FFFFFF"></path>
+                <g id="Combined-Shape">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M0,0 L40,40 M0,40 L40,0" stroke="#272729" stroke-width="2" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

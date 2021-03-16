@@ -23,11 +23,11 @@
       </div>
       <div class="design-office__bottom">
         <div class="">
-          <h3><g-image src="~/assets/images/bureau/photo.png" class="design-office__element-icon" width="64px" alt="Emmanuel Macron souriant"/> <span>Image.bmp</span></h3>
+          <p><g-image src="~/assets/images/bureau/macron.png" class="design-office__element-image" width="64px" alt="Emmanuel Macron souriant"/><span>Image.bmp</span></p>
         </div>
         <div class="">
           <h3><Slack class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Slack</span></h3>
-          <h3><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Accompagnement</span></h3>
+          <h3><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><g-link to="/accompagnement/">Accompagnement</g-link></h3>
         </div>
       </div>
     </div>
@@ -47,6 +47,7 @@
   import Folder from "~/assets/images/bureau/folder.svg"
   import File from "~/assets/images/bureau/file.svg"
   import Slack from "~/assets/images/bureau/slack.svg"
+  import Support from "~/assets/images/bureau/support.svg"
 
   export default {
     name: 'Bureau',
@@ -54,7 +55,8 @@
       Design,
       Folder,
       File,
-      Slack
+      Slack,
+      Support
     },
   }
 
@@ -117,18 +119,29 @@
         flex-direction: row;
         align-items: flex-end;;
 
-        h3 {
+        h3, p {
           margin: 1rem 2rem;
           display: flex;
           flex-direction: column;
           align-items: center;
+          position: relative;
 
-          span {
+          span, a {
             font-size: 0.875rem;
             margin-top: 0.25rem;
             padding: 0.125rem 0.5rem;
             background-color: white;
             font-weight: bold;
+            border-bottom: none !important;
+
+            &:after {
+              position: absolute;
+              content: "";
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+            }
           }
         }
       }
@@ -141,6 +154,11 @@
     }
 
     &__element-icon {
+      display: block;
+      margin-right: -0.25rem;
+    }
+
+    &__element-image {
       display: block;
     }
   }

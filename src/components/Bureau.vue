@@ -2,7 +2,7 @@
   <div class="design-office">
 
     <div class="design-office__header">
-      <h2><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h2>
+      <h1><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
       <p class="design-office__date" v-html="(new Date()).toLocaleDateString('fr-FR', {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric'}).replace(' à ', ' ')"></p>
     </div>
 
@@ -13,7 +13,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h3><File class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi</button></h3>
+            <h2><File class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi</button></h2>
 
             <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
                 <div class="rf-container">
@@ -54,13 +54,13 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h3><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Avant</span></h3>
+            <h2><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Avant</span></h2>
           </div>
           <div class="design-office__element">
-            <h3><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Pendant</span></h3>
+            <h2><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Pendant</span></h2>
           </div>
           <div class="design-office__element">
-            <h3><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Après</span></h3>
+            <h2><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Après</span></h2>
           </div>
         </div>
       </div>
@@ -138,11 +138,12 @@
       justify-content: space-between;
       align-items: center;
 
-      h2 {
+      h1 {
         margin: 0;
         padding: 0.5rem 0.25rem 0.5rem 0.75rem;
         font-size: 1rem;
         font-weight: bold;
+        color: $black;
       }
     }
 
@@ -183,7 +184,7 @@
 
     &__element {
 
-      h3, p {
+      h2, p {
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
         margin: 1rem 2rem;
         display: flex;

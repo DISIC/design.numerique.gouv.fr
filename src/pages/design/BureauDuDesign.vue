@@ -1,7 +1,21 @@
 <template>
   <Layout class="design-page">
 
-    <div class="cover">
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/design/">Design</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Le bureau du design</span>
+        </li>
+      </ol>
+    </nav>
+
+    <!-- <div class="cover">
      <div class="cover__container">
 
       <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
@@ -11,7 +25,7 @@
       </p>
 
       </div>
-    </div>
+    </div> -->
 
     <div class="content">
 
@@ -50,6 +64,9 @@
 
   .design-page {
 
+    .breadcrumb {
+      margin-bottom: 2rem;
+    }
   }
 
 </style>

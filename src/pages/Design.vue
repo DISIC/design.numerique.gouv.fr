@@ -16,7 +16,7 @@
 
     <div class="content">
       <section>
-        <p>Pour vous aider dans la conception de vos service publics numérique, décourvrez le Bureau du Design !</p>
+        <p>Pour vous aider dans la conception de vos services publics numériques, découvrez le Bureau du Design !</p>
         <g-link to="/design/bureau-du-design/" class="button">Se rendre au bureau<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-3"  aria-hidden="true" height="16px" width="16px"/></g-link>
       </section>
     </div>

@@ -1,5 +1,9 @@
 nav.breadcrumb {
-  margin-top: 32px;
+  margin-top: 2rem;
+
+  @media only screen and (max-width: $mobile-max-width) {
+    margin-top: 1rem;
+  }
 
   ol {
     margin: 0;

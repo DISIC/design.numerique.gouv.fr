@@ -2,7 +2,7 @@
   <div class="design-office">
 
     <div class="design-office__header">
-      <h2><Design class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h2>
+      <h2><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h2>
       <p class="design-office__date" v-html="(new Date()).toLocaleDateString('fr-FR', {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric'}).replace(' à ', ' ')"></p>
     </div>
 
@@ -13,7 +13,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <p><File class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi</button></p>
+            <h3><File class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi</button></h3>
 
             <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
                 <div class="rf-container">
@@ -70,7 +70,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <p><g-image src="~/assets/images/bureau/macron.png" class="design-office__element-image" width="64px" alt="Emmanuel Macron souriant"/><span>Image.bmp</span></p>
+            <p><g-image src="~/assets/images/bureau/photo.png" class="design-office__element-image" width="64px" alt="Emmanuel Macron souriant"/><span>Image.bmp</span></p>
           </div>
         </div>
 
@@ -99,6 +99,7 @@
 <script>
 
   import Design from "~/assets/images/design.svg"
+  import BureauSVG from "~/assets/images/bureau/bureau.svg"
   import Folder from "~/assets/images/bureau/folder.svg"
   import File from "~/assets/images/bureau/file.svg"
   import Slack from "~/assets/images/bureau/slack.svg"
@@ -108,6 +109,7 @@
     name: 'Bureau',
     components: {
       Design,
+      BureauSVG,
       Folder,
       File,
       Slack,
@@ -123,14 +125,18 @@
 
   .design-office {
     width: 100%;
-    background-color: $light-gray;
-    border: 0.125rem solid $gray;
-    border-radius: 0.5rem;
+    border: 0.125rem solid $black;
+    //border-radius: 0.5rem;
+    //background-color: $light-gray;
+    background-color: #fff;
+    background-image: linear-gradient(45deg, $black 25%, transparent 25%, transparent 75%, $black 75%), linear-gradient(45deg, $black 25%, transparent 25%, transparent 75%, $black 75%);
+    background-size: 4px 4px;
+    background-position: 0 0, 2px 2px;
 
     &__header {
       background-color: white;
-      border-bottom: 0.125rem solid $gray;
-      border-radius: 0.5rem 0.5rem 0 0;
+      border-bottom: 0.125rem solid $black;
+      //border-radius: 0.5rem 0.5rem 0 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -147,13 +153,13 @@
       width: 1.25rem;
       height: 1.25rem;
       margin-right: 0.5rem;
-      margin-bottom: -0.25rem;
+      margin-bottom: -0.3125rem;
     }
 
     &__date {
       margin: 0 0.75rem;
       font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-      color: $dark-gray;
+      color: $black;
       font-size: 0.875rem;
     }
 
@@ -226,7 +232,7 @@
 
       &-icon {
         display: block;
-        margin-right: -0.25rem;
+        //margin-right: -0.25rem;
       }
 
       &-image {
@@ -245,7 +251,7 @@
       &__body {
         background-color: $light-gray;
         border: 0.125rem solid $black;
-        box-shadow: 0.25rem 0.25rem 0 $dark-gray;
+        box-shadow: 0.5rem 0.5rem 0 $black;
         padding: 0;
       }
 

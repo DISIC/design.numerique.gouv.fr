@@ -38,8 +38,10 @@
         </div>
 
         <div class="design-office__container">
-          <div class="design-office__element">
-            <p><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Actualité</span></p>
+          <div class="design-office__event" id="event">
+            <Calendar class="design-office__event-icon" focusable="false" aria-hidden="true" v-on:click="hideEvent"/>
+            <Close class="design-office__event-close" focusable="false" aria-hidden="true"/>
+            <a href="#" class="design-office__event-title">Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.</a>
           </div>
         </div>
 
@@ -187,6 +189,8 @@
   import Contact from "~/assets/images/bureau/contact.svg"
   import Support from "~/assets/images/bureau/support.svg"
   import Photo from "~/assets/images/bureau/photo.svg"
+  import Calendar from "~/assets/images/bureau/calendar.svg"
+  import Close from "~/assets/images/bureau/close.svg"
 
   export default {
     name: 'Bureau',
@@ -199,8 +203,16 @@
       Readme,
       Contact,
       Support,
-      Photo
+      Photo,
+      Calendar,
+      Close
     },
+    methods: {
+      hideEvent () {
+        console.log('coucou');
+        document.getElementById('event').style.display = "none";
+      }
+    }
   }
 
 </script>
@@ -328,6 +340,83 @@
       dialog {
         transition: 0s all;
       }
+    }
+
+    &__event {
+      max-width: 20rem;
+      margin: 1rem;
+      padding: 0.5rem;
+      background-color: white;
+      border: 2px solid $black;
+      box-shadow: 0.25rem 0.25rem 0 white;
+      font-size: 0.875rem;
+      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+
+      &-icon {
+        margin-bottom: 0.25rem;
+      }
+
+      &-close {
+        z-index: 1000;
+        position: absolute;
+        right: 0.25rem;
+        top: 0.25rem;
+        background-color: $light;
+
+        &:hover {
+          .stroke {
+            fill: $black !important;
+          }
+          .back {
+            fill: white !important;
+          }
+        }
+      }
+
+      &-title {
+        margin: 0;
+        font-weight: bold;
+        color: $black !important;
+        border-bottom: none !important;
+        transition: 0s all !important;
+
+        &:after {
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+      }
+
+      &:hover, &:focus, &:active {
+        cursor: pointer;
+        background-color: $black !important;
+        border: 2px solid white;
+        box-shadow: 0.25rem 0.25rem 0 $black;
+
+        .design-office__event-title {
+          color: white !important;
+          background-color: $black !important;
+        }
+
+        .design-office__event-icon, .design-office__event-close {
+          .back {
+            fill: $black;
+          }
+          .stroke {
+            fill: white;
+          }
+        }
+      }
+    }
+
+    &__top {
+      align-items: flex-start;
     }
 
     &__middle {

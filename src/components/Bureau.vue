@@ -13,7 +13,27 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <p><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Aperçu.bmp</span></p>
+            <h2><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h2>
+
+            <dialog aria-labelledby="rf-modal-readme" id="photo" class="rf-modal">
+                <div class="rf-container">
+                    <div class="rf-grid-row rf-grid-row--center">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                            <div class="rf-modal__body">
+                                <div class="rf-modal__header">
+                                    <h1 id="rf-modal-readme" class="rf-modal__title">Aperçu.bmp</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="photo">Fermer</button>
+                                </div>
+                                <div class="rf-modal__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
           </div>
         </div>
 
@@ -30,13 +50,73 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>En amont</span></h2>
+            <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h2>
+
+            <dialog aria-labelledby="rf-modal-readme" id="folderA" class="rf-modal">
+                <div class="rf-container">
+                    <div class="rf-grid-row rf-grid-row--center">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                            <div class="rf-modal__body">
+                                <div class="rf-modal__header">
+                                    <h1 id="rf-modal-readme" class="rf-modal__title">En amont</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderA">Fermer</button>
+                                </div>
+                                <div class="rf-modal__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
           </div>
           <div class="design-office__element">
-            <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>En continue</span></h2>
+            <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h2>
+
+            <dialog aria-labelledby="rf-modal-readme" id="folderB" class="rf-modal">
+                <div class="rf-container">
+                    <div class="rf-grid-row rf-grid-row--center">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                            <div class="rf-modal__body">
+                                <div class="rf-modal__header">
+                                    <h1 id="rf-modal-readme" class="rf-modal__title">En continue</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderB">Fermer</button>
+                                </div>
+                                <div class="rf-modal__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
           </div>
           <div class="design-office__element">
-            <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>En parallèle</span></h2>
+            <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h2>
+
+            <dialog aria-labelledby="rf-modal-readme" id="folderC" class="rf-modal">
+                <div class="rf-container">
+                    <div class="rf-grid-row rf-grid-row--center">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                            <div class="rf-modal__body">
+                                <div class="rf-modal__header">
+                                    <h1 id="rf-modal-readme" class="rf-modal__title">En parallèle</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderC">Fermer</button>
+                                </div>
+                                <div class="rf-modal__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
           </div>
         </div>
       </div>
@@ -76,7 +156,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <p><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Contact</span></p>
+            <p><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><g-link to="/contact/">Contact</g-link></p>
           </div>
           <div class="design-office__element">
             <p><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><g-link to="/accompagnement/">Accompagnement</g-link></p>
@@ -243,6 +323,10 @@
 
       &-icon {
         display: block;
+      }
+
+      dialog {
+        transition: 0s all;
       }
     }
 

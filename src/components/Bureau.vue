@@ -15,13 +15,13 @@
           <div class="design-office__element">
             <h2><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h2>
 
-            <dialog aria-labelledby="rf-modal-readme" id="photo" class="rf-modal">
+            <dialog aria-labelledby="rf-modal-photo" id="photo" class="rf-modal">
                 <div class="rf-container">
                     <div class="rf-grid-row rf-grid-row--center">
                         <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
-                                    <h1 id="rf-modal-readme" class="rf-modal__title">Aperçu.bmp</h1>
+                                    <h1 id="rf-modal-photo" class="rf-modal__title">Aperçu.bmp</h1>
                                     <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="photo">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">
@@ -52,13 +52,13 @@
           <div class="design-office__element">
             <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h2>
 
-            <dialog aria-labelledby="rf-modal-readme" id="folderA" class="rf-modal">
+            <dialog aria-labelledby="rf-modal-folderA" id="folderA" class="rf-modal">
                 <div class="rf-container">
                     <div class="rf-grid-row rf-grid-row--center">
                         <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
-                                    <h1 id="rf-modal-readme" class="rf-modal__title">En amont</h1>
+                                    <h1 id="rf-modal-folderA" class="rf-modal__title">En amont</h1>
                                     <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderA">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">
@@ -75,13 +75,13 @@
           <div class="design-office__element">
             <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h2>
 
-            <dialog aria-labelledby="rf-modal-readme" id="folderB" class="rf-modal">
+            <dialog aria-labelledby="rf-modal-folderB" id="folderB" class="rf-modal">
                 <div class="rf-container">
                     <div class="rf-grid-row rf-grid-row--center">
                         <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
-                                    <h1 id="rf-modal-readme" class="rf-modal__title">En continue</h1>
+                                    <h1 id="rf-modal-folderB" class="rf-modal__title">En continue</h1>
                                     <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderB">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">
@@ -98,13 +98,13 @@
           <div class="design-office__element">
             <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h2>
 
-            <dialog aria-labelledby="rf-modal-readme" id="folderC" class="rf-modal">
+            <dialog aria-labelledby="rf-modal-folderC" id="folderC" class="rf-modal">
                 <div class="rf-container">
                     <div class="rf-grid-row rf-grid-row--center">
                         <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
-                                    <h1 id="rf-modal-readme" class="rf-modal__title">En parallèle</h1>
+                                    <h1 id="rf-modal-folderC" class="rf-modal__title">En parallèle</h1>
                                     <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderC">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">

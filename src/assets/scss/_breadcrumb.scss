@@ -21,6 +21,11 @@ nav.breadcrumb {
     }
   }
 
+  a {
+    color: $dark-gray !important;
+    border-bottom: 1px solid rgba($dark-gray, 0.5) !important;
+  }
+
   li + li::before {
     display: inline-block;
     margin: 0 0.5em;

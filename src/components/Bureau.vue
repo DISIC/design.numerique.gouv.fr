@@ -178,8 +178,6 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      //flex-wrap: wrap;
-      //overflow:hidden;
     }
 
     &__container {
@@ -262,6 +260,7 @@
         box-shadow: 0.5rem 0.5rem 0 $black;
         padding: 0;
         background-color: white;
+        overflow: visible;
       }
 
       &__header {
@@ -289,7 +288,14 @@
       }
 
       &__content {
-        margin: 1rem !important;
+        margin: 0;
+        padding: 0.5rem 1rem 2rem 1rem !important;
+        height: 54vh;
+        overflow: scroll !important;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          height: 80vh;
+        }
       }
     }
   }

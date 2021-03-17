@@ -21,7 +21,7 @@
           <p class="name">Réserve civique</p>
           <p class="tags"><span class="tag">Site public</span><span class="tag">Généraliste</span></p>
           <p class="description">Met en relation des volontaires avec les structures publiques ou associatives qui ont besoin de renforts.</p>
-          <a href="https://jeveuxaider.gouv.fr" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://jeveuxaider.gouv.fr" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -29,7 +29,7 @@
           <p class="name">Solidaires handicaps</p>
           <p class="tags"><span class="tag">Site public</span><span class="tag">Handicap</span></p>
           <p class="description">Met en relation associations et bénévoles pour venir en aide aux personnes en situation de handicap.</p>
-          <a href="https://solidaires-handicaps.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://solidaires-handicaps.fr/" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -37,7 +37,7 @@
           <p class="name">Solidarité numérique</p>
           <p class="tags"><span class="tag">Soutenu par le gouvernement</span><span class="tag">Numérique</span></p>
           <p class="description">Produit des ressources pour accompagner les usagers à la réalisation des démarches en ligne essentielles, et offre une assistance téléphonique.</p>
-          <a href="http://solidarite-numerique.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="http://solidarite-numerique.fr/" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -45,7 +45,7 @@
           <p class="name">Appart solidaire - Airbnb</p>
           <p class="tags"><span class="tag">Soutenu par le gouvernement</span><span class="tag">Logement</span></p>
           <p class="description">Propose aux propriétaires de mettre leur logement inoccupé à disposition des soignants.</p>
-          <a href="https://www.airbnb.fr/d/solidarite-medicale" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://www.airbnb.fr/d/solidarite-medicale" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -53,7 +53,7 @@
           <p class="name">Faire École Ensemble</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Numérique et enseignement</span></p>
           <p class="description">Soutenir les communautés éducatives pendant la période de confinement et de réouverture progressive des écoles et des établissements scolaires.</p>
-          <a href="https://wiki.faire-ecole.org/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://wiki.faire-ecole.org/" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -61,7 +61,7 @@
           <p class="name">Réussite virale</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Enseignement</span></p>
           <p class="description">Met en relation des volontaires avec des jeunes ayant besoin de soutien pour réussir leurs études.</p>
-          <a href="https://reussitevirale.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://reussitevirale.fr/" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -69,7 +69,7 @@
           <p class="name">En première ligne</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Généraliste</span></p>
           <p class="description">Met en relation les personnes travaillant activement pendant l'épidémie et les personnes souhaitant les aider.</p>
-          <a href="https://enpremiereligne.fr/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://enpremiereligne.fr/" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -77,7 +77,7 @@
           <p class="name">Solidarité coronavirus - Ulule</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Dons</span></p>
           <p class="description">Hébèrge de nombreuses initiatives lancées dans le cadre de l'épidémie du coronavirus et ayant besoin de dons.</p>
-          <a href="https://fr.ulule.com/channels/solidarite-coronavirus/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://fr.ulule.com/channels/solidarite-coronavirus/" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -85,7 +85,7 @@
           <p class="name">FaireMesCourses.fr - Devenir ambassadeur ?</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Local</span></p>
           <p class="description">FaireMesCourses.fr est une initiative citoyenne, 100% solidaire et gratuite. Soutenez commerçants, artisans, restaurateurs et producteurs en achetant des produits locaux, en retrait ou livraison. Devenez ambassadeur localement en aidant vos commerces à rejoindre la plateforme.</p>
-          <a href="https://fairemescourses.fr" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://fairemescourses.fr" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
         <div class="website">
@@ -93,10 +93,10 @@
           <p class="name">Développeurs / datascientistes - Comment aider ?</p>
           <p class="tags"><span class="tag">Initiative citoyenne</span><span class="tag">Code</span></p>
           <p class="description">Bastien Guerry a listé dans un article les initiatives adressées aux développeurs et datascientistes.</p>
-          <a href="https://bzg.fr/covid19-developpeurs-datascientistes-comment-aider/" target="_blank">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
+          <a href="https://bzg.fr/covid19-developpeurs-datascientistes-comment-aider/" target="_blank" rel="noreferrer noopener">Accéder au site <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2"/></a>
         </div>
 
-        <p><i>Vous souhaitez ajouter une initiative ? <a href="mailto:contact@design.numerique.gouv.fr" target="_blank">Contactez-nous</a> ou contribuez sur notre <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">github</a> !</i></p>
+        <p><i>Vous souhaitez ajouter une initiative ? <a href="mailto:contact@design.numerique.gouv.fr" target="_blank" rel="noreferrer noopener">Contactez-nous</a> ou contribuez sur notre <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank" rel="noreferrer noopener">github</a> !</i></p>
 
       </section>
     </div>

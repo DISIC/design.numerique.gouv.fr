@@ -59,7 +59,7 @@
         <section>
           <h2>Code source du site</h2>
           <p>
-            Le code source du site est <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank">disponible sur Github</a>.
+            Le code source du site est <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank" rel="noreferrer noopener">disponible sur Github</a>.
           </p>
         </section>
 

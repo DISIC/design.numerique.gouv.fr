@@ -18,8 +18,8 @@
             <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
           </g-link>
           <p>
-            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a>.</br>
-            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" title="code source - Nouvelle fenêtre" target="_blank">code source</a> est disponible en licence libre.
+            DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</br>
+            Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" title="code source - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">code source</a> est disponible en licence libre.
           </p>
         </div>
 
@@ -30,16 +30,16 @@
               <li><g-link to="/equipe/">Notre équipe</g-link></li>
               <li><g-link to="/recrutement/">Recrutement</g-link></li>
               <li><g-link to="/contact/">Contact</g-link></li>
-              <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank">
+              <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
                 </a></li>
-              <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank">
+              <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Instagram <font-awesome  width="0" :icon="['fab', 'instagram']"/>
                 </a></li>
-              <li><a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw" title="Youtube - Nouvelle fenêtre" target="_blank">
+              <li><a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw" title="Youtube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Youtube <font-awesome  width="0" :icon="['fab', 'youtube']"/>
                 </a></li>
-              <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank">
+              <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Linkedin <font-awesome  width="0" :icon="['fab', 'linkedin']"/>
                 </a></li>
             </ul>
@@ -47,18 +47,18 @@
           <div>
             <p>Services</p>
             <ul>
-              <li><a href="https://observatoire.numerique.gouv.fr" title="L’observatoire du numérique - Nouvelle fenêtre" target="_blank">L’Observatoire du numérique</a></li>
-              <li><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Notre guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance</a></li>
+              <li><a href="https://observatoire.numerique.gouv.fr" title="L’observatoire du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’Observatoire du numérique</a></li>
+              <li><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Notre guichet France Relance - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Notre guichet France Relance</a></li>
             </ul>
           </div>
           <div>
             <p>Autres univers</p>
             <ul>
-              <li><a href="https://franceconnect.gouv.fr" title="FranceConnect - Nouvelle fenêtre" target="_blank">FranceConnect</a></li>
-              <li><a href="https://etalab.gouv.fr" title="etalab.gouv.fr - Nouvelle fenêtre" target="_blank">etalab.gouv.fr</a></li>
-              <li><a href="https://beta.gouv.fr" title="beta.gouv.fr - Nouvelle fenêtre" target="_blank">beta.gouv.fr</a></li>
-              <li><a href="https://data.gouv.fr" title="data.gouv.fr - Nouvelle fenêtre" target="_blank">data.gouv.fr</a></li>
-              <li><a href="https://api.gouv.fr" title="api.gouv.fr - Nouvelle fenêtre" target="_blank">api.gouv.fr</a></li>
+              <li><a href="https://franceconnect.gouv.fr" title="FranceConnect - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">FranceConnect</a></li>
+              <li><a href="https://etalab.gouv.fr" title="etalab.gouv.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">etalab.gouv.fr</a></li>
+              <li><a href="https://beta.gouv.fr" title="beta.gouv.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">beta.gouv.fr</a></li>
+              <li><a href="https://data.gouv.fr" title="data.gouv.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">data.gouv.fr</a></li>
+              <li><a href="https://api.gouv.fr" title="api.gouv.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">api.gouv.fr</a></li>
             </ul>
           </div>
         </div>
@@ -74,10 +74,10 @@
 
         <div class="footer__sites-publics">
            <ul>
-            <li><a href="https://elysee.fr" title="Élysée.fr - Nouvelle fenêtre" target="_blank">Élysée.fr</a></li>
-            <li><a href="https://gouvernement.fr" title="gouvernement.fr - Nouvelle fenêtre" target="_blank">gouvernement.fr</a></li>
-            <li><a href="https://www.service-public.fr" title="service-public.fr - Nouvelle fenêtre" target="_blank">service-public.fr</a></li>
-            <li><a href="https://legifrance.gouv.fr" title="légifrance.gouv.fr - Nouvelle fenêtre" target="_blank">légifrance.gouv.fr</a></li>
+            <li><a href="https://elysee.fr" title="Élysée.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Élysée.fr</a></li>
+            <li><a href="https://gouvernement.fr" title="gouvernement.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">gouvernement.fr</a></li>
+            <li><a href="https://www.service-public.fr" title="service-public.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">service-public.fr</a></li>
+            <li><a href="https://legifrance.gouv.fr" title="légifrance.gouv.fr - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">légifrance.gouv.fr</a></li>
           </ul>
         </div>
       </div>

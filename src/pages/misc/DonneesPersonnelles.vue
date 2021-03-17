@@ -38,7 +38,7 @@
           </p>
           <p>
             Nous sommes ainsi en conformité avec la
-            <a href="https://www.cnil.fr/fr/solutions-pour-les-cookies-de-mesure-daudience" target="_blank">
+            <a href="https://www.cnil.fr/fr/solutions-pour-les-cookies-de-mesure-daudience" target="_blank" rel="noreferrer noopener">
               réglementation « Cookies » de la CNIL
             </a>
             et exemptés d’autorisation préalable. C’est pour cela que vous

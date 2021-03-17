@@ -18,7 +18,7 @@
             <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
                 <div class="rf-container">
                     <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-xs-12 rf-col-sm-10 rf-col-md-6">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
                                     <h1 id="rf-modal-readme" class="rf-modal__title">Lisez-moi </h1>
@@ -232,7 +232,6 @@
 
       &-icon {
         display: block;
-        //margin-right: -0.25rem;
       }
 
       &-image {
@@ -264,12 +263,13 @@
 
         button {
           border-radius: 0;
+          margin-right: 0.125rem;
         }
       }
 
       &__title {
         font-size: 1rem !important;
-        margin: 0 !important;
+        margin: 0.5rem 0 !important;
         padding-left: 1rem;
       }
 

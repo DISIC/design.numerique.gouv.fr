@@ -228,6 +228,28 @@
             background-color: $light;
           }
         }
+
+        &:hover {
+          svg {
+            .stroke {
+              fill: $red;
+            }
+          }
+        }
+
+        &:active {
+          svg {
+            .back {
+              fill: $light;
+            }
+            .middle {
+              fill: $light;
+            }
+            .stroke {
+              fill: $blue;
+            }
+          }
+        }
       }
 
       &-icon {

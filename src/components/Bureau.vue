@@ -68,7 +68,7 @@
 
       <div class="design-office__bottom">
 
-        <div class="design-office__container">
+        <div class="design-office__container design-office__joke">
           <div class="design-office__element">
             <p><g-image src="~/assets/images/bureau/photo.png" class="design-office__element-image" width="64px" alt="Emmanuel Macron souriant"/><span>Image.bmp</span></p>
           </div>
@@ -126,24 +126,21 @@
   .design-office {
     width: 100%;
     border: 0.125rem solid $black;
-    //border-radius: 0.5rem;
-    //background-color: $light-gray;
     background-color: #fff;
     background-image: linear-gradient(45deg, $black 25%, transparent 25%, transparent 75%, $black 75%), linear-gradient(45deg, $black 25%, transparent 25%, transparent 75%, $black 75%);
-    background-size: 4px 4px;
-    background-position: 0 0, 2px 2px;
+    background-size: 0.25rem 0.25rem;
+    background-position: 0 0, 0.125rem 0.125rem;
 
     &__header {
       background-color: white;
       border-bottom: 0.125rem solid $black;
-      //border-radius: 0.5rem 0.5rem 0 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
       h2 {
         margin: 0;
-        padding: 0.5rem 0.75rem;
+        padding: 0.5rem 0.25rem 0.5rem 0.75rem;
         font-size: 1rem;
         font-weight: bold;
       }
@@ -174,12 +171,14 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      //flex-wrap: wrap;
+      //overflow:hidden;
     }
 
     &__container {
       display: flex;
       flex-direction: row;
-      align-items: flex-end;;
+      align-items: flex-end;
     }
 
     &__element {
@@ -191,6 +190,10 @@
         flex-direction: column;
         align-items: center;
         position: relative;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin: 1rem;
+        }
 
         span, a, button {
           font-size: 0.875rem;
@@ -217,47 +220,6 @@
             background-color: $black !important;
           }
         }
-
-        // button {
-        //   color: $blue;
-        //
-        //   &:hover {
-        //     color: $red;
-        //     cursor: pointer;
-        //   }
-        //
-        //   &:focus {
-        //     background-color: $light;
-        //     outline-color: $blue;
-        //   }
-        //
-        //   &:active {
-        //     color: $blue;
-        //     background-color: $light;
-        //   }
-        // }
-
-        // &:hover {
-        //   svg {
-        //     .stroke {
-        //       fill: $red;
-        //     }
-        //   }
-        // }
-        //
-        // &:active {
-        //   svg {
-        //     .back {
-        //       fill: $light;
-        //     }
-        //     .middle {
-        //       fill: $light;
-        //     }
-        //     .stroke {
-        //       fill: $blue;
-        //     }
-        //   }
-        // }
 
         &:hover, &:focus, &:active {
           svg {
@@ -325,6 +287,12 @@
 
       &__content {
         margin: 1rem !important;
+      }
+    }
+
+    &__joke {
+      @media only screen and (max-width: 535px) {
+        display: none;
       }
     }
   }

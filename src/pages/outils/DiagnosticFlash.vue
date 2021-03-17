@@ -45,7 +45,7 @@
           <li> ✖ Le site ou la démarche n’est pas concerné par le critère.</li>
           </ul>
           
-          <p>Le résultat peut être saisi dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié - nouvelle fenêtre" target="_blank">le tableur dédié</a> qui délivre une note.</p>
+          <p>Le résultat peut être saisi dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié (format ods - 43Ko) - nouvelle fenêtre" target="_blank">le tableur dédié (format ods - 43Ko)</a> qui délivre une note.</p>
 
           <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
           <ul>

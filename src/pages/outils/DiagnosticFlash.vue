@@ -49,8 +49,20 @@
           -->
           <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
           <ul>
-            <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)</li>
-            <li>Contrast Checker (symbolisée par une roue multicolore)</li>
+            <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)
+              <ul>
+                <li><a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
+                <li><a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
+                <li><a href="https://microsoftedge.microsoft.com/addons/detail/headingsmap/bokekiiaddinealohkmhjcgfanndmcgo"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
+              </ul>
+            </li>
+            <li>Contrast Checker (symbolisée par une roue multicolore)
+              <ul>
+                <li><a href="https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
+                <li><a href="https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
+                <li><a href="https://microsoftedge.microsoft.com/addons/detail/wcag-color-contrast-check/idahaggnlnekelhgplklhfpchbfdmkjp"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -143,7 +155,7 @@ export default {
     }
     span.numero {
       padding:0.25rem;
-      background-color: #ffff8f;
+      background-color: $light;
       position: absolute;
       width: 1.6em;
       text-align: center;

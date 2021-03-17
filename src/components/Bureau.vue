@@ -196,6 +196,7 @@
           font-size: 0.875rem;
           margin-top: 0.25rem;
           padding: 0.125rem 0.5rem;
+          color: $black !important;
           background-color: white;
           font-weight: bold;
           border: none !important;
@@ -209,45 +210,65 @@
             left: 0;
             right: 0;
           }
-        }
 
-        button {
-          color: $blue;
-
-          &:hover {
-            color: $red;
+          &:hover:not(span), &:focus:not(span), &:active:not(span) {
             cursor: pointer;
-          }
-
-          &:focus {
-            background-color: $light;
-            outline-color: $blue;
-          }
-
-          &:active {
-            color: $blue;
-            background-color: $light;
+            color: white !important;
+            background-color: $black !important;
           }
         }
 
-        &:hover {
-          svg {
-            .stroke {
-              fill: $red;
-            }
-          }
-        }
+        // button {
+        //   color: $blue;
+        //
+        //   &:hover {
+        //     color: $red;
+        //     cursor: pointer;
+        //   }
+        //
+        //   &:focus {
+        //     background-color: $light;
+        //     outline-color: $blue;
+        //   }
+        //
+        //   &:active {
+        //     color: $blue;
+        //     background-color: $light;
+        //   }
+        // }
 
-        &:active {
+        // &:hover {
+        //   svg {
+        //     .stroke {
+        //       fill: $red;
+        //     }
+        //   }
+        // }
+        //
+        // &:active {
+        //   svg {
+        //     .back {
+        //       fill: $light;
+        //     }
+        //     .middle {
+        //       fill: $light;
+        //     }
+        //     .stroke {
+        //       fill: $blue;
+        //     }
+        //   }
+        // }
+
+        &:hover, &:focus, &:active {
           svg {
             .back {
-              fill: $light;
+              fill: $black;
             }
             .middle {
-              fill: $light;
+              fill: $black;
             }
             .stroke {
-              fill: $blue;
+              fill: white;
             }
           }
         }
@@ -299,6 +320,7 @@
         font-size: 1rem !important;
         margin: 0.5rem 0 !important;
         padding-left: 1rem;
+        color: $black;
       }
 
       &__content {

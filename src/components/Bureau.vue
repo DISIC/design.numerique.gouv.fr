@@ -13,7 +13,40 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h2><File class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi</button></h2>
+            <p><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Aperçu.bmp</span></p>
+          </div>
+        </div>
+
+        <div class="design-office__container">
+          <div class="design-office__element">
+            <p><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Actualité</span></p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="design-office__middle">
+
+        <div class="design-office__container">
+          <div class="design-office__element">
+            <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>En amont</span></h2>
+          </div>
+          <div class="design-office__element">
+            <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>En continue</span></h2>
+          </div>
+          <div class="design-office__element">
+            <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>En parallèle</span></h2>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="design-office__bottom">
+
+        <div class="design-office__container">
+          <div class="design-office__element">
+            <h2><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h2>
 
             <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
                 <div class="rf-container">
@@ -21,7 +54,7 @@
                         <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
-                                    <h1 id="rf-modal-readme" class="rf-modal__title">Lisez-moi </h1>
+                                    <h1 id="rf-modal-readme" class="rf-modal__title">Lisez-moi.txt</h1>
                                     <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="readme">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">
@@ -43,40 +76,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <p><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Actualité</span></p>
-          </div>
-        </div>
-
-      </div>
-
-
-      <div class="design-office__middle">
-
-        <div class="design-office__container">
-          <div class="design-office__element">
-            <h2><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Avant</span></h2>
-          </div>
-          <div class="design-office__element">
-            <h2><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Pendant</span></h2>
-          </div>
-          <div class="design-office__element">
-            <h2><Folder class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Après</span></h2>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="design-office__bottom">
-
-        <div class="design-office__container design-office__joke">
-          <div class="design-office__element">
-            <p><g-image src="~/assets/images/bureau/photo.png" class="design-office__element-image" width="64px" alt="Emmanuel Macron souriant"/><span>Image.bmp</span></p>
-          </div>
-        </div>
-
-        <div class="design-office__container">
-          <div class="design-office__element">
-            <p><Slack class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Slack</span></p>
+            <p><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><span>Contact</span></p>
           </div>
           <div class="design-office__element">
             <p><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><g-link to="/accompagnement/">Accompagnement</g-link></p>
@@ -100,20 +100,26 @@
 
   import Design from "~/assets/images/design.svg"
   import BureauSVG from "~/assets/images/bureau/bureau.svg"
-  import Folder from "~/assets/images/bureau/folder.svg"
-  import File from "~/assets/images/bureau/file.svg"
-  import Slack from "~/assets/images/bureau/slack.svg"
+  import FolderA from "~/assets/images/bureau/folderA.svg"
+  import FolderB from "~/assets/images/bureau/folderB.svg"
+  import FolderC from "~/assets/images/bureau/folderC.svg"
+  import Readme from "~/assets/images/bureau/readme.svg"
+  import Contact from "~/assets/images/bureau/contact.svg"
   import Support from "~/assets/images/bureau/support.svg"
+  import Photo from "~/assets/images/bureau/photo.svg"
 
   export default {
     name: 'Bureau',
     components: {
       Design,
       BureauSVG,
-      Folder,
-      File,
-      Slack,
-      Support
+      FolderA,
+      FolderB,
+      FolderC,
+      Readme,
+      Contact,
+      Support,
+      Photo
     },
   }
 
@@ -186,7 +192,7 @@
 
       h2, p {
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-        margin: 1rem 2rem;
+        margin: 1rem 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -240,10 +246,6 @@
       &-icon {
         display: block;
       }
-
-      &-image {
-        display: block;
-      }
     }
 
     &__middle {
@@ -288,12 +290,6 @@
 
       &__content {
         margin: 1rem !important;
-      }
-    }
-
-    &__joke {
-      @media only screen and (max-width: 535px) {
-        display: none;
       }
     }
   }

@@ -274,6 +274,7 @@
         border: 0.125rem solid $black;
         box-shadow: 0.5rem 0.5rem 0 $black;
         padding: 0;
+        background-color: white;
       }
 
       &__header {
@@ -286,6 +287,10 @@
         button {
           border-radius: 0;
           margin-right: 0.125rem;
+
+          &:active {
+            background-image: none;
+          }
         }
       }
 

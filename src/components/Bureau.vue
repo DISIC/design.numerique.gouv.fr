@@ -199,6 +199,7 @@
           background-color: white;
           font-weight: bold;
           border: none !important;
+          transition: 0s all !important;
 
           &:after {
             position: absolute;

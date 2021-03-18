@@ -39,9 +39,11 @@
 
         <div class="design-office__container">
           <div class="design-office__event" id="event">
-            <Calendar class="design-office__event-icon" focusable="false" aria-hidden="true" v-on:click="hideEvent"/>
-            <Close class="design-office__event-close" focusable="false" aria-hidden="true"/>
-            <a href="#" class="design-office__event-title">Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.</a>
+            <Calendar class="design-office__event-icon" focusable="false" aria-hidden="true"/>
+            <Close class="design-office__event-close" focusable="false" aria-hidden="true" v-on:click="hideEvent"/>
+            <a href="https://t.co/LnlaUSgcUi?amp=1" target="_blank" title="Inscrivez-vous à notre évènement L'État centré usager ? Oui c'est possible ! les 6, 7 et 8 avril - Nouvelle fenêtre" class="design-office__event-title">
+              Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.
+            </a>
           </div>
         </div>
 
@@ -209,7 +211,6 @@
     },
     methods: {
       hideEvent () {
-        console.log('coucou');
         document.getElementById('event').style.display = "none";
       }
     }
@@ -344,7 +345,7 @@
 
     &__event {
       max-width: 20rem;
-      margin: 1rem;
+      margin: 0.5rem;
       padding: 0.5rem;
       background-color: white;
       border: 2px solid $black;
@@ -383,6 +384,12 @@
         border-bottom: none !important;
         transition: 0s all !important;
 
+        &:hover, &:focus, &:active {
+          cursor: pointer;
+          color: white !important;
+          background-color: $black !important;
+        }
+
         &:after {
           position: absolute;
           content: "";
@@ -401,7 +408,6 @@
 
         .design-office__event-title {
           color: white !important;
-          background-color: $black !important;
         }
 
         .design-office__event-icon, .design-office__event-close {

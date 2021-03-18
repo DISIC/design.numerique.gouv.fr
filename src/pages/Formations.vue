@@ -41,7 +41,7 @@
 
         <h3>Accessibilité</h3>
         <ul>
-          <!--li><a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+self_paced/about" title="L'accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>L'accessibilité numérique</a>, 15 heures, gratuit.</a></li-->
+          <li><a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+archive_ouvert/courseware/3d7180f8d1974e7a8b8650dd9c05c238/2a97190d9d474426972507e9f151a213/" title="L'accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>L'accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est accessible en mode « Archivé ouvert » : il n'y a donc pas de forum sur ce cours, pas d'animation ni de suivi de l’équipe pédagogique, et aucune attestation de suivi ou de certificat ne sera délivrée. .</a></li>
           <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
         </ul>
 

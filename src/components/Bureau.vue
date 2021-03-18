@@ -289,7 +289,7 @@
         position: relative;
 
         @media only screen and (max-width: $mobile-max-width) {
-          margin: 1rem;
+          margin: 1rem 0.25rem;
         }
 
         span, a, button {

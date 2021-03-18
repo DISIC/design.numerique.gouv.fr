@@ -13,7 +13,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element design-office__readme">
-            <h3><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h3>
+            <h2><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h2>
 
             <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
                 <div class="rf-container">
@@ -42,10 +42,10 @@
         </div>
 
         <div class="design-office__container">
-          <div class="design-office__event" id="event">
+          <div class="design-office__event" id="event-message">
             <Calendar class="design-office__event-icon" focusable="false" aria-hidden="true"/>
             <Close class="design-office__event-close" focusable="false" aria-hidden="true" v-on:click="hideEvent"/>
-            <h3><button aria-expanded="false" aria-controls="event">Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.</button></h3>
+            <h2><button aria-expanded="false" aria-controls="event">Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.</button></h2>
 
             <dialog aria-labelledby="rf-modal-event" id="event" class="rf-modal">
                 <div class="rf-container">
@@ -76,7 +76,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h3><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h3>
+            <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h2>
 
             <dialog aria-labelledby="rf-modal-folderA" id="folderA" class="rf-modal">
                 <div class="rf-container">
@@ -99,7 +99,7 @@
             </dialog>
           </div>
           <div class="design-office__element">
-            <h3><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h3>
+            <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h2>
 
             <dialog aria-labelledby="rf-modal-folderB" id="folderB" class="rf-modal">
                 <div class="rf-container">
@@ -122,7 +122,7 @@
             </dialog>
           </div>
           <div class="design-office__element">
-            <h3><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h3>
+            <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h2>
 
             <dialog aria-labelledby="rf-modal-folderC" id="folderC" class="rf-modal">
                 <div class="rf-container">
@@ -152,7 +152,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h3><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h3>
+            <h2><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h2>
 
             <dialog aria-labelledby="rf-modal-photo" id="photo" class="rf-modal">
                 <div class="rf-container">
@@ -178,7 +178,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h3><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="contact">Contact</button></h3>
+            <h2><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="contact">Contact</button></h2>
 
             <dialog aria-labelledby="rf-modal-contact" id="contact" class="rf-modal">
                 <div class="rf-container">
@@ -201,7 +201,7 @@
             </dialog>
           </div>
           <div class="design-office__element">
-            <h3><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="accompagnement">Accompagnement</button></h3>
+            <h2><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="accompagnement">Accompagnement</button></h2>
 
             <dialog aria-labelledby="rf-modal-accompagnement" id="accompagnement" class="rf-modal">
                 <div class="rf-container">
@@ -269,7 +269,7 @@
     },
     methods: {
       hideEvent () {
-        document.getElementById('event').style.display = "none";
+        document.getElementById('event-message').style.display = "none";
       }
     }
   }
@@ -344,7 +344,7 @@
       div {
         margin: 0 auto;
 
-        h3, p {
+        h2, p {
           @media only screen and (max-width: $mobile-max-width) {
             margin: 1rem 0.5rem;
           }
@@ -365,7 +365,7 @@
 
     &__element {
 
-      h3, p {
+      h2, p {
         margin: 1rem 1.25rem;
         display: flex;
         flex-direction: column;
@@ -379,7 +379,7 @@
         button {
           font-size: 0.875rem;
           margin-top: 0.25rem;
-          padding: 0.125rem 0.5rem;
+          padding: 0.125rem 0.375rem;
           line-height: 1.5;
           color: $black !important;
           background-color: white;
@@ -441,7 +441,7 @@
       flex-direction: column;
       position: relative;
 
-      h3 {
+      h2 {
         margin: 0;
 
         button {
@@ -483,6 +483,7 @@
         right: 0.25rem;
         top: 0.25rem;
         background-color: $light;
+        cursor: pointer;
 
         &:hover {
           .stroke {
@@ -499,7 +500,7 @@
         border: 2px solid white;
         box-shadow: 0.25rem 0.25rem 0 $black;
 
-        h3 {
+        h2 {
           button {
             color: white !important;
             background-color: $black !important;

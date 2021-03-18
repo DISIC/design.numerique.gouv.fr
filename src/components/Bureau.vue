@@ -12,21 +12,24 @@
       <div class="design-office__top">
 
         <div class="design-office__container">
-          <div class="design-office__element">
-            <h2><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h2>
+          <div class="design-office__element design-office__readme">
+            <h2><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h2>
 
-            <dialog aria-labelledby="rf-modal-photo" id="photo" class="rf-modal">
+            <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
                 <div class="rf-container">
                     <div class="rf-grid-row rf-grid-row--center">
                         <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
-                                    <h1 id="rf-modal-photo" class="rf-modal__title">Aperçu.bmp</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="photo">Fermer</button>
+                                    <h1 id="rf-modal-readme" class="rf-modal__title">Lisez-moi.txt</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="readme">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">
                                   <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                  <p>
+                                    Nam mauris urna, tincidunt a libero ac, pharetra congue tellus. Vestibulum mauris ligula, vehicula non libero quis, eleifend aliquet eros. Pellentesque facilisis eros sit amet ligula egestas accumsan. Vivamus a mollis magna. Aliquam dapibus urna ac sodales dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut elit est, rhoncus in sodales in, mollis vitae orci. Phasellus vel justo varius, egestas nibh sed, malesuada massa. Nunc elit sem, venenatis a lorem in, rutrum tempor leo. Duis hendrerit ipsum a leo porta volutpat. Curabitur at malesuada nibh.
                                   </p>
                                 </div>
                             </div>
@@ -34,6 +37,7 @@
                     </div>
                 </div>
             </dialog>
+
           </div>
         </div>
 
@@ -130,23 +134,20 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h2><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h2>
+            <h2><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h2>
 
-            <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
+            <dialog aria-labelledby="rf-modal-photo" id="photo" class="rf-modal">
                 <div class="rf-container">
                     <div class="rf-grid-row rf-grid-row--center">
                         <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                             <div class="rf-modal__body">
                                 <div class="rf-modal__header">
-                                    <h1 id="rf-modal-readme" class="rf-modal__title">Lisez-moi.txt</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="readme">Fermer</button>
+                                    <h1 id="rf-modal-photo" class="rf-modal__title">Aperçu.bmp</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="photo">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">
                                   <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                  <p>
-                                    Nam mauris urna, tincidunt a libero ac, pharetra congue tellus. Vestibulum mauris ligula, vehicula non libero quis, eleifend aliquet eros. Pellentesque facilisis eros sit amet ligula egestas accumsan. Vivamus a mollis magna. Aliquam dapibus urna ac sodales dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut elit est, rhoncus in sodales in, mollis vitae orci. Phasellus vel justo varius, egestas nibh sed, malesuada massa. Nunc elit sem, venenatis a lorem in, rutrum tempor leo. Duis hendrerit ipsum a leo porta volutpat. Curabitur at malesuada nibh.
                                   </p>
                                 </div>
                             </div>
@@ -154,7 +155,6 @@
                     </div>
                 </div>
             </dialog>
-
           </div>
         </div>
 
@@ -423,11 +423,22 @@
 
     &__top {
       align-items: flex-start;
+
+      .design-office__readme {
+        min-width: 8rem;
+      }
     }
 
     &__middle {
+      margin: 1rem 0;
       div {
         margin: 0 auto;
+
+        h2, p {
+          @media only screen and (max-width: $mobile-max-width) {
+            margin: 1rem 0.5rem;
+          }
+        }
       }
     }
 

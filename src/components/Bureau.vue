@@ -2,7 +2,7 @@
   <div class="design-office">
 
     <div class="design-office__header">
-      <h1><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
+      <p class="design-office__title"><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</p>
       <p class="design-office__date" v-html="(new Date()).toLocaleDateString('fr-FR', {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric'}).replace(' à ', ' ')"></p>
     </div>
 
@@ -13,7 +13,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element design-office__readme">
-            <h2><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h2>
+            <h3><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h3>
 
             <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
                 <div class="rf-container">
@@ -45,9 +45,27 @@
           <div class="design-office__event" id="event">
             <Calendar class="design-office__event-icon" focusable="false" aria-hidden="true"/>
             <Close class="design-office__event-close" focusable="false" aria-hidden="true" v-on:click="hideEvent"/>
-            <a href="https://t.co/LnlaUSgcUi?amp=1" target="_blank" title="Inscrivez-vous à notre évènement L'État centré usager ? Oui c'est possible ! les 6, 7 et 8 avril - Nouvelle fenêtre" class="design-office__event-title">
-              Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.
-            </a>
+            <h3><button aria-expanded="false" aria-controls="event">Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.</button></h3>
+
+            <dialog aria-labelledby="rf-modal-event" id="event" class="rf-modal">
+                <div class="rf-container">
+                    <div class="rf-grid-row rf-grid-row--center">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                            <div class="rf-modal__body">
+                                <div class="rf-modal__header">
+                                    <h1 id="rf-modal-event" class="rf-modal__title">Évènement</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="event">Fermer</button>
+                                </div>
+                                <div class="rf-modal__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
           </div>
         </div>
 
@@ -58,7 +76,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h2>
+            <h3><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h3>
 
             <dialog aria-labelledby="rf-modal-folderA" id="folderA" class="rf-modal">
                 <div class="rf-container">
@@ -81,7 +99,7 @@
             </dialog>
           </div>
           <div class="design-office__element">
-            <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h2>
+            <h3><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h3>
 
             <dialog aria-labelledby="rf-modal-folderB" id="folderB" class="rf-modal">
                 <div class="rf-container">
@@ -104,7 +122,7 @@
             </dialog>
           </div>
           <div class="design-office__element">
-            <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h2>
+            <h3><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h3>
 
             <dialog aria-labelledby="rf-modal-folderC" id="folderC" class="rf-modal">
                 <div class="rf-container">
@@ -134,7 +152,7 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h2><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h2>
+            <h3><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h3>
 
             <dialog aria-labelledby="rf-modal-photo" id="photo" class="rf-modal">
                 <div class="rf-container">
@@ -160,10 +178,50 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <p><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><g-link to="/contact/">Contact</g-link></p>
+            <h3><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="contact">Contact</button></h3>
+
+            <dialog aria-labelledby="rf-modal-contact" id="contact" class="rf-modal">
+                <div class="rf-container">
+                    <div class="rf-grid-row rf-grid-row--center">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                            <div class="rf-modal__body">
+                                <div class="rf-modal__header">
+                                    <h1 id="rf-modal-contact" class="rf-modal__title">Contact</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="contact">Fermer</button>
+                                </div>
+                                <div class="rf-modal__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
           </div>
           <div class="design-office__element">
-            <p><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><g-link to="/accompagnement/">Accompagnement</g-link></p>
+            <h3><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="accompagnement">Accompagnement</button></h3>
+
+            <dialog aria-labelledby="rf-modal-accompagnement" id="accompagnement" class="rf-modal">
+                <div class="rf-container">
+                    <div class="rf-grid-row rf-grid-row--center">
+                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                            <div class="rf-modal__body">
+                                <div class="rf-modal__header">
+                                    <h1 id="rf-modal-accompagnement" class="rf-modal__title">Accompagnement</h1>
+                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="accompagnement">Fermer</button>
+                                </div>
+                                <div class="rf-modal__content">
+                                  <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </dialog>
           </div>
         </div>
 
@@ -235,14 +293,15 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
 
-      h1 {
-        margin: 0;
-        padding: 0.5rem 0.25rem 0.5rem 0.75rem;
-        font-size: 1rem;
-        font-weight: bold;
-        color: $black;
-      }
+    &__title {
+      margin: 0;
+      padding: 0.325rem 0.25rem 0.325rem 0.75rem;
+      font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+      font-size: 1rem;
+      font-weight: bold;
+      color: $black;
     }
 
     &__title-icon {
@@ -272,6 +331,32 @@
       justify-content: space-between;
     }
 
+    &__top {
+      align-items: flex-start;
+
+      .design-office__readme {
+        min-width: 8rem;
+      }
+    }
+
+    &__middle {
+      margin: 1rem 0;
+      div {
+        margin: 0 auto;
+
+        h3, p {
+          @media only screen and (max-width: $mobile-max-width) {
+            margin: 1rem 0.5rem;
+          }
+        }
+      }
+    }
+
+    &__bottom {
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+
     &__container {
       display: flex;
       flex-direction: row;
@@ -280,8 +365,7 @@
 
     &__element {
 
-      h2, p {
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+      h3, p {
         margin: 1rem 1.25rem;
         display: flex;
         flex-direction: column;
@@ -292,7 +376,7 @@
           margin: 1rem 0.25rem;
         }
 
-        span, a, button {
+        button {
           font-size: 0.875rem;
           margin-top: 0.25rem;
           padding: 0.125rem 0.5rem;
@@ -302,6 +386,7 @@
           font-weight: bold;
           border: none !important;
           transition: 0s all !important;
+          font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
           &:after {
             position: absolute;
@@ -312,7 +397,7 @@
             right: 0;
           }
 
-          &:hover:not(span), &:focus:not(span), &:active:not(span) {
+          &:hover, &:focus, &:active {
             cursor: pointer;
             color: white !important;
             background-color: $black !important;
@@ -356,6 +441,38 @@
       flex-direction: column;
       position: relative;
 
+      h3 {
+        margin: 0;
+
+        button {
+          font-size: 0.875rem;
+          margin: 0;
+          padding: 0;
+          text-align: left;
+          font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+          color: $black !important;
+          background-color: white;
+          font-weight: bold;
+          border: none !important;
+          transition: 0s all !important;
+
+          &:hover, &:focus, &:active {
+            cursor: pointer;
+            color: white !important;
+            background-color: $black !important;
+          }
+
+          &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+        }
+      }
+
       &-icon {
         margin-bottom: 0.25rem;
       }
@@ -377,37 +494,16 @@
         }
       }
 
-      &-title {
-        margin: 0;
-        font-weight: bold;
-        color: $black !important;
-        border-bottom: none !important;
-        transition: 0s all !important;
-
-        &:hover, &:focus, &:active {
-          cursor: pointer;
-          color: white !important;
-          background-color: $black !important;
-        }
-
-        &:after {
-          position: absolute;
-          content: "";
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-        }
-      }
-
       &:hover, &:focus, &:active {
-        cursor: pointer;
         background-color: $black !important;
         border: 2px solid white;
         box-shadow: 0.25rem 0.25rem 0 $black;
 
-        .design-office__event-title {
-          color: white !important;
+        h3 {
+          button {
+            color: white !important;
+            background-color: $black !important;
+          }
         }
 
         .design-office__event-icon, .design-office__event-close {
@@ -419,32 +515,6 @@
           }
         }
       }
-    }
-
-    &__top {
-      align-items: flex-start;
-
-      .design-office__readme {
-        min-width: 8rem;
-      }
-    }
-
-    &__middle {
-      margin: 1rem 0;
-      div {
-        margin: 0 auto;
-
-        h2, p {
-          @media only screen and (max-width: $mobile-max-width) {
-            margin: 1rem 0.5rem;
-          }
-        }
-      }
-    }
-
-    &__bottom {
-      flex-wrap: wrap;
-      align-items: flex-end;
     }
 
     .rf-modal {

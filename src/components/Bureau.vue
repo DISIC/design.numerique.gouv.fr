@@ -477,7 +477,7 @@
 
       &__content {
         margin: 0;
-        padding: 0.5rem 1rem 2rem 1rem !important;
+        padding: 0.5rem 1rem !important;
         max-height: 54vh;
         overflow: scroll !important;
 

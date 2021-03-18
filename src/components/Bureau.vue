@@ -282,7 +282,7 @@
 
       h2, p {
         font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-        margin: 1rem 1.5rem;
+        margin: 1rem 1.25rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -296,6 +296,7 @@
           font-size: 0.875rem;
           margin-top: 0.25rem;
           padding: 0.125rem 0.5rem;
+          line-height: 1.5;
           color: $black !important;
           background-color: white;
           font-weight: bold;
@@ -432,6 +433,7 @@
 
     &__bottom {
       flex-wrap: wrap;
+      align-items: flex-end;
     }
 
     .rf-modal {
@@ -443,6 +445,10 @@
         padding: 0;
         background-color: white;
         overflow: visible;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          box-shadow: 0.5rem -0.5rem 0 $black;
+        }
       }
 
       &__header {
@@ -476,7 +482,7 @@
         overflow: scroll !important;
 
         @media only screen and (max-width: $mobile-max-width) {
-          height: 80vh;
+          height: 72vh;
         }
       }
     }

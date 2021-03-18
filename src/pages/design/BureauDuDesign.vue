@@ -15,17 +15,17 @@
       </ol>
     </nav>
 
-    <!-- <div class="cover">
+    <div class="cover">
      <div class="cover__container">
 
       <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
 
       <p class="cover__subtitle">
-        Le bureau du design vous guide dans la réalisation de services publics numériques simples, accessibles et agréables pour tous.
+        Naviguez dans le bureau du Design et laissez-vous guider afin de réaliser des services publics numériques simples, accessibles et agréables pour tous.
       </p>
 
       </div>
-    </div> -->
+    </div>
 
     <div class="content">
 

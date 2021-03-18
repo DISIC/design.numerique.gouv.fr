@@ -478,11 +478,11 @@
       &__content {
         margin: 0;
         padding: 0.5rem 1rem 2rem 1rem !important;
-        height: 54vh;
+        max-height: 54vh;
         overflow: scroll !important;
 
         @media only screen and (max-width: $mobile-max-width) {
-          height: 72vh;
+          max-height: 72vh;
         }
       }
     }

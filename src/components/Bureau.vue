@@ -223,7 +223,6 @@
   @import "src/assets/scss/_vars.scss";
 
   .design-office {
-    width: 100%;
     border: 0.125rem solid $black;
     background-color: #fff;
     background-image: linear-gradient(45deg, $black 25%, transparent 25%, transparent 75%, $black 75%), linear-gradient(45deg, $black 25%, transparent 25%, transparent 75%, $black 75%);
@@ -264,7 +263,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 26rem;
+      min-height: 26rem;
     }
 
     &__top, &__middle, &__bottom {
@@ -429,6 +428,10 @@
       div {
         margin: 0 auto;
       }
+    }
+
+    &__bottom {
+      flex-wrap: wrap;
     }
 
     .rf-modal {

@@ -64,6 +64,13 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        typeName: 'Action',
+        path: './content/actions/*.md',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         typeName: 'GooseStep',
         path: './content/goose/steps/*.md',
       }
@@ -92,7 +99,7 @@ module.exports = {
         path: './content/diag/*.md',
         refs: {
           cat: 'DiagFlashCat'
-        },        
+        },
       }
     },
     {

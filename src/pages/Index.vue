@@ -53,22 +53,11 @@
         </div>
 
         <ul class="actions__list">
-          <li class="action">
-            <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
-            <h3><g-link to="/commando-ux/">Le Commando UX<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
-            <p>Une équipe de designers et développeurs pour améliorer les démarches en ligne&nbsp;🌟</p>
-          </li>
-
-          <li class="action">
-            <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
-            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
-            <p>Destiné aux administrations pour financer la simplification de leurs démarches en ligne&nbsp;👍</p>
-          </li>
-
-          <li class="action">
-            <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
-            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
-            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
+          <li v-for="{ node } in $page.allAction.edges" :key="node.id" class="action">
+            <g-image :src="node.icon" class="action__illustration" focusable="false" aria-hidden="true"/>
+            <h3 v-if="node.link.includes('http')"><a :href="node.link" :title="node.title + ' - Nouvelle fenêtre'" target="_blank">{{ node.title }}<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <h3 v-else><g-link :to="node.link">{{ node.title }}<font-awesome :icon="['fas', 'arrow-right']" class="button__right-icon" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></g-link></h3>
+            <p>{{ node.description }}</p>
           </li>
         </ul>
 
@@ -134,6 +123,25 @@
 
   </Layout>
 </template>
+
+<page-query>
+
+  query {
+    allAction (sortBy: "rank", order: ASC) {
+      edges {
+        node {
+          id
+          title
+          icon
+          description
+          link
+          rank
+        }
+      }
+    }
+  }
+
+</page-query>
 
 
 <script>
@@ -378,9 +386,6 @@
           &__illustration {
             height: 36px;
             width: 36px;
-            background-color: $light-gray;
-            border-radius: 50%;
-            color: $red;
           }
 
           &:hover {

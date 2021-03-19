@@ -152,8 +152,6 @@
   import Outils from "~/assets/images/outils.svg"
   import Formations from "~/assets/images/formations.svg"
   import Accompagnement from "~/assets/images/accompagnement.svg"
-  import Observatoire from "~/assets/images/observatoire.svg"
-  import FranceRelance from "~/assets/images/franceRelance.svg"
   import Equipe from "~/assets/images/equipe.svg"
 
   export default {
@@ -164,8 +162,6 @@
       Outils,
       Formations,
       Accompagnement,
-      Observatoire,
-      FranceRelance,
       Equipe
     },
     metaInfo: {

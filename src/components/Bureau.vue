@@ -74,8 +74,8 @@
 
       <div class="design-office__middle">
 
-        <div class="design-office__container">
-          <div class="design-office__element">
+        <ol class="design-office__container">
+          <li class="design-office__element">
             <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h2>
 
             <dialog aria-labelledby="rf-modal-folderA" id="folderA" class="rf-modal">
@@ -97,8 +97,8 @@
                     </div>
                 </div>
             </dialog>
-          </div>
-          <div class="design-office__element">
+          </li>
+          <li class="design-office__element">
             <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h2>
 
             <dialog aria-labelledby="rf-modal-folderB" id="folderB" class="rf-modal">
@@ -120,8 +120,8 @@
                     </div>
                 </div>
             </dialog>
-          </div>
-          <div class="design-office__element">
+          </li>
+          <li class="design-office__element">
             <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h2>
 
             <dialog aria-labelledby="rf-modal-folderC" id="folderC" class="rf-modal">
@@ -143,8 +143,8 @@
                     </div>
                 </div>
             </dialog>
-          </div>
-        </div>
+          </li>
+        </ol>
       </div>
 
 
@@ -213,9 +213,12 @@
                                     <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="accompagnement">Fermer</button>
                                 </div>
                                 <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
+                                  <ul>
+                                    <li v-for="{ node } in $static.allAction.edges" :key="node.id" class="design-office__inner-element">
+                                      <h2 v-if="node.link.includes('http')"><g-image :src="node.icon.src.replace('.svg', '-retro.svg')" class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/><a :href="node.link" :title="node.title + ' - Nouvelle fenêtre'" target="_blank">{{ node.title }}</a></h2>
+                                      <h2 v-else><g-image :src="node.icon.src.replace('.svg', '-retro.svg')" class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/><g-link :to="node.link">{{ node.title }}</g-link></h2>
+                                    </li>
+                                  </ul>
                                 </div>
                             </div>
                         </div>
@@ -234,6 +237,21 @@
 
 
 <static-query>
+
+  query {
+    allAction (sortBy: "rank", order: ASC) {
+      edges {
+        node {
+          id
+          title
+          icon
+          description
+          link
+          rank
+        }
+      }
+    }
+  }
 
 </static-query>
 
@@ -341,8 +359,13 @@
 
     &__middle {
       margin: 1rem 0;
-      div {
+      ol {
         margin: 0 auto;
+        padding: 0;
+
+        li {
+          list-style: none;
+        }
 
         h2, p {
           @media only screen and (max-width: $mobile-max-width) {
@@ -363,7 +386,8 @@
       align-items: flex-end;
     }
 
-    &__element {
+    &__element, &__inner-element {
+      list-style: none !important;
 
       h2, p {
         margin: 1rem 1.25rem;
@@ -376,7 +400,7 @@
           margin: 1rem 0.25rem;
         }
 
-        button {
+        button, a {
           font-size: 0.875rem;
           margin-top: 0.25rem;
           padding: 0.125rem 0.375rem;
@@ -405,7 +429,7 @@
         }
 
         &:hover, &:focus, &:active {
-          svg {
+          svg, img {
             .back {
               fill: $black;
             }
@@ -519,6 +543,13 @@
     }
 
     .rf-modal {
+      ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+      }
 
       &__body {
         background-color: $light-gray;

@@ -61,13 +61,13 @@
 
           <li class="action">
             <FranceRelance focusable="false" class="action__illustration" aria-hidden="true" height="16" width="16"/>
-            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank">Notre guichet France Relance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <h3><a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Notre guichet France Relance <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
             <p>Destiné aux administrations pour financer la simplification de leurs démarches en ligne&nbsp;👍</p>
           </li>
 
           <li class="action">
             <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
-            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
+            <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
             <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
           </li>
         </ul>

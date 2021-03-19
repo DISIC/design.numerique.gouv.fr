@@ -34,7 +34,7 @@
             Working with all ministers responsible for digital public services, our goal is that most French people can use these services on their own, and especially the 12 million people with handicap. In order to do so, we pilot and track the quality of this digitalisation on the <a href="https://observatoire.numerique.gouv.fr">Observatory</a> since june 2019. We launched in september 2020 the <a href="https://design.numerique.gouv.fr/commando-ux">UX Commando</a> to deploy designers et développeurs amongst ministers who build these public services. Finally, we participate to the development of a culture of design and inclusion within the administration.
           </p>
           <p>
-            The team works under the <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank">direction interministérielle du numérique</a> and for the Minister of the Transformation and the Public Workforce <a href="https://twitter.com/AdeMontchalin">Amélie de Montchalin</a>.
+            The team works under the <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> and for the Minister of the Transformation and the Public Workforce <a href="https://twitter.com/AdeMontchalin">Amélie de Montchalin</a>.
           </p>
           <h2>Success metrics by 2022</h2>
           <ul>

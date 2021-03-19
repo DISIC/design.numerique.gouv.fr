@@ -44,13 +44,25 @@
           <li> 🙁 Le critère n’est pas rempli et si, ça et là, des choses conviennent, c’est un peu par hasard;</li>
           <li> ✖ Le site ou la démarche n’est pas concerné par le critère.</li>
           </ul>
-          <!--
-          <p>Il saisit son appréciation dans le tableur dédié [à produire] et obtient le résultat du diagnostic.</p>
-          -->
+          
+          <p>Le résultat peut être saisi dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié (format ods - 43Ko) - nouvelle fenêtre" target="_blank"  rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</p>
+
           <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
           <ul>
-            <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)</li>
-            <li>Contrast Checker (symbolisée par une roue multicolore)</li>
+            <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)
+              <ul>
+                <li><a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
+                <li><a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
+                <li><a href="https://microsoftedge.microsoft.com/addons/detail/headingsmap/bokekiiaddinealohkmhjcgfanndmcgo"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
+              </ul>
+            </li>
+            <li>Contrast Checker (symbolisée par une roue multicolore)
+              <ul>
+                <li><a href="https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
+                <li><a href="https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
+                <li><a href="https://microsoftedge.microsoft.com/addons/detail/wcag-color-contrast-check/idahaggnlnekelhgplklhfpchbfdmkjp"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
@@ -143,7 +155,7 @@ export default {
     }
     span.numero {
       padding:0.25rem;
-      background-color: #ffff8f;
+      background-color: $light;
       position: absolute;
       width: 1.6em;
       text-align: center;

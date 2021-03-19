@@ -7,7 +7,7 @@
 
     <g-link class="button" to="/newsletter">Recevoir notre <span lang="en">newsletter</span></g-link>
 
-    <p class="subbutton">Sur Twitter : <a href="https://twitter.com/design_gouv" title="Twitter DesignGouv - Nouvelle fenêtre" target="_blank">@design_gouv</a></p>
+    <p class="subbutton">Sur Twitter : <a href="https://twitter.com/design_gouv" title="Twitter DesignGouv - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">@design_gouv</a></p>
   </div>
 
 </template>

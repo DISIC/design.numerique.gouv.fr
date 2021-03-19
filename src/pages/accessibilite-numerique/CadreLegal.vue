@@ -75,7 +75,7 @@
           Produire et publier un <strong><g-link to="/accessibilite-numerique/schema-pluriannuel">schéma pluriannuel de mise en accessibilité</g-link></strong> sur 3 ans, décliné en plan annuel détaillant les actions prévues pour évoluer vers une accessibilité complète.
         </p>
 
-        <p>Consulter le <a href="https://beta.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" title="décret n° 2019-768 du 24 juillet 2019 - Nouvelle fenêtre" target="_blank">décret n° 2019-768 du 24 juillet 2019</a> relatif à l'accessibilité aux personnes handicapées des services de communication au public en ligne.</p>
+        <p>Consulter le <a href="https://beta.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" title="décret n° 2019-768 du 24 juillet 2019 - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">décret n° 2019-768 du 24 juillet 2019</a> relatif à l'accessibilité aux personnes handicapées des services de communication au public en ligne.</p>
       </section>
 
       <section>
@@ -105,7 +105,7 @@
         </h2>
 
         <p>
-          La norme européenne pour l'accès aux produits et services TIC (<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" title="EN-301549 - format pdf - Nouvelle fenêtre" target="_blank">EN-301549</a>) a été mise à jour en 2018 pour inclure les nouveaux critères internationaux sur l'accessibilité (<a href="https://www.w3.org/TR/WCAG21/" title="WCAG 2.1 - Nouvelle fenêtre" target="_blank" ><abbr lang="en" title="web content accessibilty guidelines">WCAG 2.1</abbr></a>), à travers la directive européenne 2016/2102 relative à l'accessibilité des sites internet et des applications mobiles des organismes du secteur public.
+          La norme européenne pour l'accès aux produits et services TIC (<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" title="EN-301549 - format pdf - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">EN-301549</a>) a été mise à jour en 2018 pour inclure les nouveaux critères internationaux sur l'accessibilité (<a href="https://www.w3.org/TR/WCAG21/" title="WCAG 2.1 - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener" ><abbr lang="en" title="web content accessibilty guidelines">WCAG 2.1</abbr></a>), à travers la directive européenne 2016/2102 relative à l'accessibilité des sites internet et des applications mobiles des organismes du secteur public.
         </p>
 
         <p>La transposition de cette directive (2016/2102) européenne a été achevée par :</p>

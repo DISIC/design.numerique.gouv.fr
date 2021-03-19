@@ -21,7 +21,7 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Appel à défis
         </h2>
         <p>
-          Nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
+          Nous lançons un nouveau programme. Un appel à défis qui s’adresse exclusivement aux agents publics de l'État porteurs d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" target="_blank" rel="noreferrer noopener">Observatoire de la qualité des démarches en ligne</a>. Faites intervenir designers et développeurs pour améliorer l’expérience usager de l’un de vos services numériques de septembre à décembre 2020.
         </p>
         <div class="key-elements">
           <div class="element">
@@ -152,7 +152,7 @@
         </h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>
-          Appel à défis : administrations, <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank">soumettez votre projet</a> de l'Observatoire.
+          Appel à défis : administrations, <a href="https://www.demarches-simplifiees.fr/commencer/appel-a-defis-commando-ux" target="_blank" rel="noreferrer noopener">soumettez votre projet</a> de l'Observatoire.
         </p>
         <p>
           <strong>22 juin – 26 juin 2020</strong><br>

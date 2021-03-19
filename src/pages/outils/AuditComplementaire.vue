@@ -54,7 +54,7 @@
       <li>Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ? (Consultation, 13.7)</li>
       <li>Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur ? (Consultation, 13.8)</li>
   </ul>
-  <p>Le détail des critères et des tests est disponible à l’adresse suivante : <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/" target="_blank">numerique.gouv.fr/publications/rgaa-accessibilite/</a>.</p>
+  <p>Le détail des critères et des tests est disponible à l’adresse suivante : <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/" target="_blank" rel="noreferrer noopener">numerique.gouv.fr/publications/rgaa-accessibilite/</a>.</p>
 
 </div>
 

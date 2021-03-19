@@ -64,7 +64,7 @@
       <section>
         <h3>Intervenir au cœur des administrations de l'État</h3>
         <p>
-          En relevant l'un des défis, chaque designer et développeur aura l'occasion d'intégrer l'équipe responsable d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank">Observatoire de la qualité des démarches en ligne</a>. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
+          En relevant l'un des défis, chaque designer et développeur aura l'occasion d'intégrer l'équipe responsable d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Observatoire de la qualité des démarches en ligne</a>. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
         </p>
         <p>
           Pour mener à bien leur mission, ils peuvent compter sur l’appui d’un référent au sein de l’administration d’accueil, d'une chercheuse UX et 2 designers produit de la DINUM.

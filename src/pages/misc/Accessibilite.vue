@@ -72,10 +72,10 @@
             au Défenseur des droits. Plusieurs moyens sont à votre disposition :
           </p>
           <ul>
-            <li>un <a href="https://www.defenseurdesdroits.fr/nous-contacter" title="formulaire de contact - nouvelle fenêtre" target="_blank">formulaire de contact</a></li>
-            <li>la <a href="https://www.defenseurdesdroits.fr/fr/saisir/delegues" title="liste des délégués de votre région - nouvelle fenêtre"  target="_blank">liste des délégués de votre région</a> avec leurs informations de contact directs</li>
+            <li>un <a href="https://www.defenseurdesdroits.fr/nous-contacter" title="formulaire de contact - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">formulaire de contact</a></li>
+            <li>la <a href="https://www.defenseurdesdroits.fr/fr/saisir/delegues" title="liste des délégués de votre région - nouvelle fenêtre"  target="_blank" rel="noreferrer noopener">liste des délégués de votre région</a> avec leurs informations de contact directs</li>
             <li>un numéro de téléphone : le 09 69 39 00 00 du lundi au vendredi de 8h00 à 20h00 (coût d'un appel local)</li>
-            <li>une adresse postale dans l'<a href="https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381" title="annuaire de l'administration - nouvelle fenêtre" target="_blank">annuaire de l'administration</a></li>
+            <li>une adresse postale dans l'<a href="https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381" title="annuaire de l'administration - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">annuaire de l'administration</a></li>
           </ul>
         </section>
 

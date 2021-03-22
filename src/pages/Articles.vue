@@ -1,10 +1,10 @@
 <template>
-  <Layout class="blog-page">
+  <Layout class="articles-page">
 
     <div class="cover">
      <div class="cover__container">
 
-       <h1 class="text-highlight"><Blog class="h1__icon" focusable="false" aria-hidden="true"/>Notre blog</h1>
+       <h1 class="text-highlight"><Blog class="h1__icon" focusable="false" aria-hidden="true"/>Articles</h1>
 
       </div>
     </div>
@@ -53,14 +53,14 @@
       Blog,
     },
     metaInfo: {
-      title: "Notre blog",
+      title: "Articles",
       meta: [{
         name: "description",
         content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
       },
       {
         property: "og:title",
-        content: "Notre blog - DesignGouv"
+        content: "Articles - DesignGouv"
       },
       {
         property: "og:description",
@@ -80,7 +80,7 @@
       },
       {
         name: "twitter:title",
-        content: "Notre blog - DesignGouv"
+        content: "Articles - DesignGouv"
       },
       {
         name: "twitter:description",
@@ -99,7 +99,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .blog-page {
+  .articles-page {
 
     .cover {
       margin-bottom: 80px;
@@ -107,6 +107,7 @@
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 48px;
       }
+
     }
 
     h2 {

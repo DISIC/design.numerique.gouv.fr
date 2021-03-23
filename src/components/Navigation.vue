@@ -19,9 +19,9 @@
       <li class="rf-nav__item">
         <a class="rf-link" href="/formations/">Formations</a>
       </li>
-      <!-- <li class="rf-nav__item">
-        <a class="rf-link" href="/blog/">Blog</a>
-      </li> -->
+      <li class="rf-nav__item">
+        <a class="rf-link" href="/articles/">Articles</a>
+      </li>
       <li class="rf-nav__item" v-if="$static.allJob.edges.length > 0">
         <a class="rf-link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
       </li>

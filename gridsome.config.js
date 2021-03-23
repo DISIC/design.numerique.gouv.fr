@@ -92,7 +92,7 @@ module.exports = {
         path: './content/diag/*.md',
         refs: {
           cat: 'DiagFlashCat'
-        },        
+        },
       }
     },
     {
@@ -147,7 +147,7 @@ module.exports = {
     People: '/equipe/:id',
     Job: '/recrutement/:slug',
     Challenge: '/commando-ux/:slug',
-    Article: '/blog/:slug',
+    Article: '/articles/:slug',
     Tag: '/tag/:id',
   },
   prefetch: {

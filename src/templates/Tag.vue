@@ -5,7 +5,7 @@
      <div class="cover__container cover__container--light">
 
        <h1>Nos publications sur le thème <span>{{ this.$route.params.id }}</span></h1>
-       <g-link to="/blog/"><font-awesome class="button__left-icon" :icon="['fas', 'arrow-left']" transform="shrink-3"/>Voir toutes nos publications</g-link>
+       <g-link to="/articles/"><font-awesome class="button__left-icon" :icon="['fas', 'arrow-left']" transform="shrink-3"/>Voir toutes nos publications</g-link>
 
       </div>
     </div>
@@ -51,7 +51,7 @@
 
   export default {
     metaInfo: {
-      title: "Notre blog",
+      title: "Articles",
       meta: [{
         name: "robots",
         content: "noindex"

@@ -12,16 +12,16 @@ description: Événement en ligne les 6, 7 et 8 avril 2021
 
 ## 3 soirées à ne pas manquer.
 **Les 6, 7 et 8 avril, venez échanger avec nous à partir de 18h.**
-Cet événement est ouvert à tous et sera diffusé en direct sur [notre chaine YouTube](https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw) en 100% accessible (langue des signes française et transcription).
+Cet événement est ouvert à tous et sera diffusé en direct sur [notre chaine YouTube](https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw){title="notre chaine YouTube - nouvelle fenêtre"} en 100% accessible (langue des signes française et transcription).
 
-[Inscriptions](https://framaforms.org/letat-centre-usager-oui-cest-possible-1613408477){: .button .item__link button .button--highlight }
+[Inscriptions](https://framaforms.org/letat-centre-usager-oui-cest-possible-1613408477){: .button .item__link button .button--highlight title="inscriptions - nouvelle fenêtre"}
 
 Vous recevrez un e-mail de rappel avant l'événement.  
 
 ## Mardi 6 avril : « Répondre à des besoins concrets : le design centré usagers »
 
 ### 18h00
-Introduction par [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna), directeur interministériel du numérique.
+Introduction par [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
 
 ### 18h15
 Retour sur le Commando qui a travaillé sur la démarche [Contestation de contravention](/commando-ux/defi-contestation-contravention), suivi par un échange avec le public.
@@ -36,7 +36,7 @@ Autour de cette table virtuelle :
 
 ![Kheira Belkacem](./illustrations/2021-03-21-evenement/kheira-belkacem.jpeg)
 
-**[Kheira Belkacem](https://www.linkedin.com/in/kbelkacem)**<br>
+**[Kheira Belkacem](https://www.linkedin.com/in/kbelkacem){title="Kheira Belkacem sur linkedin - nouvelle fenêtre"}**<br>
 Experte en recherche utilisateur à la direction interministérielle du numérique (DINUM)
 
 </div>
@@ -44,7 +44,7 @@ Experte en recherche utilisateur à la direction interministérielle du numériq
 
 ![Louis Beziau](./illustrations/2021-03-21-evenement/louis-beziau.jpg)
 
-**[Louis Beziau](https://www.linkedin.com/in/louisbeziau/)**<br>
+**[Louis Beziau](https://www.linkedin.com/in/louisbeziau/){title="Louis Beziau sur linkedin - nouvelle fenêtre"}**<br>
 Designer chez Les Sismo
 
 </div>
@@ -52,7 +52,7 @@ Designer chez Les Sismo
 
 ![Alexandre Gardette](./illustrations/2021-03-21-evenement/alexandre-gardette.jpeg)
 
-**[Alexandre Gardette](https://www.linkedin.com/in/alexandre-gardette-a1309235/)**<br>
+**[Alexandre Gardette](https://www.linkedin.com/in/alexandre-gardette-a1309235/){title="Alexandre Gardette sur linkedin - nouvelle fenêtre"}**<br>
 Chef de la Mission France Recouvrement
 
 </div>
@@ -60,7 +60,7 @@ Chef de la Mission France Recouvrement
 
 ![Camille Rozier](./illustrations/2021-03-21-evenement/camille-rozier.jpeg)
 
-**[Camille Rozier](https://fr.linkedin.com/in/camille-rozier-phd-489aa033)**<br>
+**[Camille Rozier](https://fr.linkedin.com/in/camille-rozier-phd-489aa033){title="Camille Rozier sur linkedin - nouvelle fenêtre"}**<br>
 Docteure en sciences comportementales à la direction interministérielle de la transformation publique (DITP)
 
 </div>
@@ -84,7 +84,7 @@ Autour de cette table virtuelle :
 
 ![Gwenaëlle Brochoire](./illustrations/2021-03-21-evenement/gwenaelle-brochoire.jpg)
 
-**[Gwenaëlle Brochoire](https://www.linkedin.com/in/gwenaellebrochoire/)**<br>
+**[Gwenaëlle Brochoire](https://www.linkedin.com/in/gwenaellebrochoire/){title="Gwenaëlle Brochoire sur linkedin - nouvelle fenêtre"}**<br>
 Inclusive service designer et co-fondatrice de Oocity
 
 </div>
@@ -92,7 +92,7 @@ Inclusive service designer et co-fondatrice de Oocity
 
 ![Géraldine Da Silva](./illustrations/2021-03-21-evenement/geraldine-da-sylva.jpeg)
 
-**[Géraldine Da Silva](https://www.linkedin.com/in/gdasylva/)**<br>
+**[Géraldine Da Silva](https://www.linkedin.com/in/gdasylva/){title="Géraldine Da Silva sur linkedin - nouvelle fenêtre"}**<br>
 Cheffe de produit Service-Public.fr à la direction de l'information légale et administrative (DILA)
 
 </div>
@@ -100,7 +100,7 @@ Cheffe de produit Service-Public.fr à la direction de l'information légale et 
 
 ![Fernando Pinto da Silva](./illustrations/2021-03-21-evenement/fernando-pinto-da-silva.jpeg)
 
-**[Fernando Pinto da Silva](https://www.linkedin.com/in/fpintodasilva)**<br>
+**[Fernando Pinto da Silva](https://www.linkedin.com/in/fpintodasilva){title="Fernando Pinto da Silva sur linkedin - nouvelle fenêtre"}**<br>
 Chargé de mission stratégie numérique, Fédération des Aveugles et Amblyopes de France
 
 </div>
@@ -108,7 +108,7 @@ Chargé de mission stratégie numérique, Fédération des Aveugles et Amblyopes
 
 ![Mehdi Serdidi](./illustrations/2021-03-21-evenement/mehdi-serdidi.jpeg)
 
-**[Mehdi Serdidi](https://www.linkedin.com/in/mehdi-serdidi-553b16a5/)**<br>
+**[Mehdi Serdidi](https://www.linkedin.com/in/mehdi-serdidi-553b16a5/){title="Mehdi Serdidi sur linkedin - nouvelle fenêtre"}**<br>
 Directeur de l'association ASTS
 
 </div>
@@ -132,7 +132,7 @@ Autour de cette table virtuelle :
 
 ![Geoffrey Arthaud](./illustrations/2021-03-21-evenement/geoffrey-arthaud.jpeg)
 
-**[Geoffrey Arthaud](https://www.linkedin.com/in/geoffreyarthaud/)**<br>
+**[Geoffrey Arthaud](https://www.linkedin.com/in/geoffreyarthaud/){title="Geoffrey Arthaud sur linkedin - nouvelle fenêtre"}**<br>
 Responsable des pratiques Agiles au Service du Numérique du Ministère de la Transition Écologique
 
 </div>
@@ -140,7 +140,7 @@ Responsable des pratiques Agiles au Service du Numérique du Ministère de la Tr
 
 ![Hela Ghariani](./illustrations/2021-03-21-evenement/hela-ghariani.jpeg)
 
-**[Hela Ghariani](https://www.linkedin.com/in/hela-ghariani-10208566/)**<br>
+**[Hela Ghariani](https://www.linkedin.com/in/hela-ghariani-10208566/){title="Hela Ghariani sur linkedin - nouvelle fenêtre"}**<br>
 Directrice de projets à la délégation du numérique en santé
 
 </div>
@@ -148,7 +148,7 @@ Directrice de projets à la délégation du numérique en santé
 
 ![Apolline Le Gall](./illustrations/2021-03-21-evenement/apolline-le-gall.jpeg)
 
-**[Apolline Le Gall](https://www.linkedin.com/in/gwenaellebrochoire/)**<br>
+**[Apolline Le Gall](https://www.linkedin.com/in/apolline-le-gall/){title="Apolline Le Gall sur linkedin - nouvelle fenêtre"}**<br>
 Chercheuse, co-Fondatrice de l'agence Où sont les Dragons
 
 </div>
@@ -156,7 +156,7 @@ Chercheuse, co-Fondatrice de l'agence Où sont les Dragons
 
 ![Stephane Vincent](./illustrations/2021-03-21-evenement/stephane-vincent.jpeg)
 
-**[Stephane Vincent](https://www.linkedin.com/in/svincent/)**<br>
+**[Stephane Vincent](https://www.linkedin.com/in/svincent/){title="Stephane Vincent sur linkedin - nouvelle fenêtre"}**<br>
 Cofondateur de la 27e Région
 
 </div>

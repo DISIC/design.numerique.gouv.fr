@@ -9,7 +9,7 @@
             <g-link to="/">Accueil</g-link>
           </li>
           <li>
-            <g-link to="/blog/">Blog</g-link>
+            <g-link to="/articles/">Articles</g-link>
           </li>
           <li>
             <p aria-current="page">
@@ -177,6 +177,27 @@ query Article ($id: ID!) {
 
     .content {
       max-width: 640px;
+
+      .guests { /* special pour l'evenement */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        flex-basis: auto;
+        text-align: center;
+
+        > div {
+          width: 48%;
+        }
+
+      }
+
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
     }
 
     .tags {

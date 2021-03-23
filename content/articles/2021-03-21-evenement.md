@@ -42,7 +42,7 @@ Experte en recherche utilisateur à la direction interministérielle du numériq
 </div>
 <div>
 
-![Louis Beziau](./illustrations/2021-03-21-evenement/louis-beziau.jpg)
+![Louis Beziau](./illustrations/2021-03-21-evenement/louis-beziau.jpeg)
 
 **[Louis Beziau](https://www.linkedin.com/in/louisbeziau/){title="Louis Beziau sur linkedin - nouvelle fenêtre"}**<br>
 Designer chez Les Sismo
@@ -82,7 +82,7 @@ Autour de cette table virtuelle :
 <div class="guests">
 <div>
 
-![Gwenaëlle Brochoire](./illustrations/2021-03-21-evenement/gwenaelle-brochoire.jpg)
+![Gwenaëlle Brochoire](./illustrations/2021-03-21-evenement/gwenaelle-brochoire.jpeg)
 
 **[Gwenaëlle Brochoire](https://www.linkedin.com/in/gwenaellebrochoire/){title="Gwenaëlle Brochoire sur linkedin - nouvelle fenêtre"}**<br>
 Inclusive service designer et co-fondatrice de Oocity

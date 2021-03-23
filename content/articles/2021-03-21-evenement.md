@@ -3,7 +3,7 @@ title: L'État centré usager ? Oui c'est possible.
 slug: 2021-03-21-evenement-design
 publishedDate: 2021-03-21
 tags: ["", ""]
-illustration: ./illustrations/article-1.jpg
+illustration: ./illustrations/2021-03-21-evenement-design.jpg
 description: Événement en ligne les 6, 7 et 8 avril 2021
 ---
 

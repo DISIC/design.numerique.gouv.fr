@@ -13,7 +13,7 @@
 
         <section class="articles">
           <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-            <g-image :src="node.illustration" focusable="false" aria-hidden="true"/>
+            <g-image :src="node.illustration" focusable="false" alt="" aria-hidden="true"/>
             <p class="articles__date">{{ node.publishedDate }}</p>
             <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
             <p>{{ node.description }}</p>

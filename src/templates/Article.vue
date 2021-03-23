@@ -61,7 +61,7 @@ export default {
       },
       {
         property: "og:image",
-        content: this.$page.article.illustration.src.replace('/assets/static/content/', '/static/assets/')
+        content: "https://infallible-pare-212c26.netlify.app" + this.$page.article.illustration.src
       },
       {
         name: "twitter:card",
@@ -81,7 +81,7 @@ export default {
       },
       {
         name: "twitter:image",
-        content: this.$page.article.illustration.src.replace('/assets/static/content/', '/static/assets/')
+        content: "https://infallible-pare-212c26.netlify.app" + this.$page.article.illustration.src
       }],
     }
   },

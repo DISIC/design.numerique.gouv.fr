@@ -114,7 +114,7 @@ Directeur de l'association ASTS
 </div>
 </div>
 
-## Jeudi 8 avril : « Des services pour tous accessibles & inclusifs »
+## Jeudi 8 avril : « Une gouvernance centrée sur les usagers »
 
 ### 18h00
 À venir

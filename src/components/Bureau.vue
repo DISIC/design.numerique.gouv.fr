@@ -216,7 +216,11 @@
                                   <ul>
                                     <li v-for="{ node } in $static.allAction.edges" :key="node.id" class="design-office__inner-element">
                                       <h2 v-if="node.link.includes('http')"><g-image :src="node.icon.src.replace('.svg', '-retro.svg')" class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/><a :href="node.link" :title="node.title + ' - Nouvelle fenêtre'" target="_blank">{{ node.title }}</a></h2>
-                                      <h2 v-else><g-image :src="node.icon.src.replace('.svg', '-retro.svg')" class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/><g-link :to="node.link">{{ node.title }}</g-link></h2>
+                                      <h2 v-else>
+                                        <g-image :src="node.icon.src.replace('.svg', '-retro.svg')" class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/>
+                                        <g-image :src="node.icon.src" class="design-office__inner-element-hover-icon" focusable="false" aria-hidden="true"/>
+                                        <g-link :to="node.link">{{ node.title }}</g-link>
+                                      </h2>
                                     </li>
                                   </ul>
                                 </div>
@@ -449,6 +453,27 @@
 
       dialog {
         transition: 0s all;
+      }
+    }
+
+    &__inner-element {
+
+      h2 {
+        .design-office__inner-element-icon {
+          display: inline-block;
+        }
+        .design-office__inner-element-hover-icon {
+          display: none;
+        }
+
+        &:hover, &:focus, &:active {
+          .design-office__inner-element-icon {
+            display: none;
+          }
+          .design-office__inner-element-hover-icon {
+            display: inline-block;
+          }
+        }
       }
     }
 

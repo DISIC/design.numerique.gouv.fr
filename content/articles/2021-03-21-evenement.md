@@ -52,7 +52,7 @@ Experte en recherche utilisateur anciennement à la direction interministériell
 ![Louis Beziau](./illustrations/2021-03-21-evenement/louis-beziau.jpeg)
 
 **[Louis Beziau](https://www.linkedin.com/in/louisbeziau/){title="Louis Beziau sur linkedin - nouvelle fenêtre"}**<br>
-Designer chez Les Sismo
+Designer et co-directeur du studio de design Les Sismo
 
 </div>
 <div>

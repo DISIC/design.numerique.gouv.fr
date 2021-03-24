@@ -4,7 +4,7 @@
     <div class="cover">
       <div class="cover__container">
         <h1>Concevons des services publics numériques <span class="text-highlight">accessibles</span>, <span class="text-highlight">inclusifs</span> et <span class="text-highlight">humains</span>.</h1>
-        <p class="cover__subtitle">Des idées et des outils à la disposition des agents publics pour améliorer l’expérience usager des services publics numériques.</p>
+        <p class="cover__subtitle">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
       </div>
     </div>
 

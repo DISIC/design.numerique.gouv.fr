@@ -2,14 +2,14 @@
 
   <div class="alert">
 
-      <h2>Commando UX</h2>
+      <h2>Événement les 6, 7 et 8 avril</h2>
 
       <p>
-        15 designers et développeurs interviennent pour améliorer l’expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
+        À l’occasion de la clôture de la saison 1 du Commando UX, rejoignez-nous pour échanger autour de la recherche usager, l'inclusion et l'accessibilité, et l'art de gouverner.
       </p>
 
-      <g-link to="/commando-ux/">
-        Suivre leur travail<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
+      <g-link to="/articles/2021-03-21-evenement-design/">
+        Inscriptions<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
       </g-link>
 
   </div>

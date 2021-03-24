@@ -15,7 +15,7 @@
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><Accompagnement class="h1__icon" focusable="false" aria-hidden="true"/>Nos dispositifs d'accompagnement</h1>
+      <h1 class="text-highlight"><Accompagnement class="h1__icon" focusable="false" aria-hidden="true"/>Nos offres d'accompagnement</h1>
 
       <p class="cover__subtitle">Vous avez des besoins en design&nbsp;? Vous vous posez des
         questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours,
@@ -96,14 +96,14 @@
       Observatoire
     },
     metaInfo: {
-      title: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques",
+      title: "Nos offres d'accompagnement pour l'amélioration des services publics numériques",
       meta: [{
         name: 'description',
         content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
       },
       {
         property: 'og:title',
-        content: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
+        content: "Nos offres d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
       },
       {
         property: 'og:description',
@@ -123,7 +123,7 @@
       },
       {
         name: "twitter:title",
-        content: "Nos dispositifs d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
+        content: "Nos offres d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
       },
       {
         name: "twitter:description",

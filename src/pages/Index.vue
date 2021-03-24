@@ -49,7 +49,7 @@
 
         <div class="actions__title">
           <Accompagnement focusable="false" class="actions__icon" aria-hidden="true"/>
-          <h2>Nos dispositifs d’accompagnement</h2>
+          <h2>Nos offres d’accompagnement</h2>
         </div>
 
         <ul class="actions__list">

@@ -1,5 +1,5 @@
 ---
-title: L'État centré usager ? Oui c'est possible.
+title: L'État centré usager* ? Oui c'est possible
 slug: 2021-03-21-evenement-design
 publishedDate: 2021-03-21
 tags: ["", ""]
@@ -7,25 +7,32 @@ illustration: ./illustrations/2021-03-21-evenement-design.jpg
 description: Événement en ligne les 6, 7 et 8 avril 2021
 ---
 
-À l’occasion de la clôture de la saison 2020 du [Commando UX](/commando-ux), l’équipe Design des services numériques de la direction interministérielle du numérique (DINUM) organise un événement pour rendre compte des travaux menés par cette première promotion, et animer 3 regards croisés autour des enjeux du design numérique au sein de l'État.
+En septembre 2020, nous avons lancé le [Commando UX](/commando-ux){title="Commando UX"} : 15 designers, développeuses et développeurs recrutés au sein de notre équipe et déployés pendant 7 mois dans les administrations pour améliorer l'expérience utilisateur et l'accessibilité numérique de 10 des [250 démarches administratives les plus utilisées](https://observatoire.numerique.gouv.fr){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} par les Français.
 
+À l’occasion de la clôture de la saison 1 du Commando UX, l’équipe Design des services numériques de la direction interministérielle du numérique (DINUM) organise un événement sur trois soirées et trois thématiques : la recherche utilisateur, l'inclusion et l'accessibilité, et l'art de gouverner.
+
+_*_ Le titre de cet événement s'inspire d'un terme de design : le « design centré utilisateur », soit prendre en compte les besoins des utilisateurs à chaque étape du processus de développement d'un produit ou service. Ce titre, c'est un défi lancé à nos administrations car dans le domaine du numérique, l'État a encore beaucoup de chemin à parcourir pour produire des services compréhensibles, utilisables et souhaitables.
 
 ## 3 soirées à ne pas manquer.
 **Les 6, 7 et 8 avril, venez échanger avec nous à partir de 18h.**
-Cet événement est ouvert à tous et sera diffusé en direct sur [notre chaine YouTube](https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw){title="notre chaine YouTube - nouvelle fenêtre"} en 100% accessible (langue des signes française et transcription).
+Cet événement est ouvert à toutes et tous et sera diffusé en direct sur [notre chaîne YouTube](https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw){title="notre chaine YouTube - nouvelle fenêtre"} en 100% accessible (langue des signes française et transcription).
 
 [Inscriptions](https://framaforms.org/letat-centre-usager-oui-cest-possible-1613408477){: .button .item__link button .button--highlight title="inscriptions - nouvelle fenêtre"}
 
-Vous recevrez un e-mail de rappel avant l'événement.  
+Vous recevrez un e-mail de rappel avant l'événement.
 
-## Mardi 6 avril : « Répondre à des besoins concrets : le design centré usagers »
+Chaque soir, nous aborderons une thématique nouvelle : vous assisterez au témoignage d’un Commando UX 2020 suivi d’une table ronde virtuelle en présence de nos intervenants.
+
+
+## Mardi 6 avril : « Répondre à des besoins concrets »
+
+Lors de cette première soirée, nous découvrirons l'importance d'aller à la rencontre des usagers, de les écouter, de les comprendre. La recherche utilisateur, c'est nécéssaire pour s'assurer de la pertinence d'un service, pour simplifier ce service et ses fonctionnalités à l'essentiel, et pour mieux fédérer vos équipes et donner du sens à leur mission (en bonus, cela vous permettra aussi de réduire les coûts d'un projet).
 
 ### 18h00
-Introduction par [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
+Ouverture de l'événement par [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
 
-### 18h15
-Retour sur le Commando qui a travaillé sur la démarche [Contestation de contravention](/commando-ux/defi-contestation-contravention), suivi par un échange avec le public.
-Avec [Lola Charpentier](/equipe/lola-charpentier/), [Manon Oresve](/equipe/manon-oresve/) et [Lucile Foraison](/equipe/lucile-foraison/).
+### 18h10
+Retour sur le Commando [Contestation de contravention](/commando-ux/defi-contestation-contravention) avec [Lola Charpentier](/equipe/lola-charpentier/), [Manon Oresve](/equipe/manon-oresve/) et [Lucile Foraison](/equipe/lucile-foraison/).
 
 ### 18h30
 Table ronde animée par [Ugo Dessertine](/equipe/ugo-dessertine), lead designer au sein du pôle design des services numériques.
@@ -37,7 +44,7 @@ Autour de cette table virtuelle :
 ![Kheira Belkacem](./illustrations/2021-03-21-evenement/kheira-belkacem.jpeg)
 
 **[Kheira Belkacem](https://www.linkedin.com/in/kbelkacem){title="Kheira Belkacem sur linkedin - nouvelle fenêtre"}**<br>
-Experte en recherche utilisateur à la direction interministérielle du numérique (DINUM)
+Experte en recherche utilisateur anciennement à la direction interministérielle du numérique (DINUM)
 
 </div>
 <div>
@@ -68,12 +75,13 @@ Docteure en sciences comportementales à la direction interministérielle de la 
 
 ## Mercredi 7 avril : « Des services pour tous accessibles & inclusifs »
 
-### 18h00
-À venir
+Nous sommes toutes et tous différents derrière nos écrans. Que nous soyons en situation de handicap, très à l'aise avec le numérique, que nous le détestions, que nous ayons accès à un ordinateur, ou pas, que nous ne comprenions rien au langage administratif (coucou tout le monde 👋), il y a une chose qui nous réuni : c'est que nous devons tous avoir un accès égal à nos services publics. Une même facilité d'intéraction avec ces services.
 
-### 18h15
-Retour sur le Commando qui a travaillé sur la démarche [Place de l'emploi public](/commando-ux/defi-postuler-emploi-public), suivi par un échange avec le public.
-Avec [Julie Leroy](/equipe/julie-leroy/) et [Édouard Sastre](/equipe/edouard-sastre/).
+### 18h00
+Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.
+
+### 18h10
+Retour sur le Commando [Place de l'emploi public](/commando-ux/defi-postuler-emploi-public) avec [Julie Leroy](/equipe/julie-leroy/) et [Édouard Sastre](/equipe/edouard-sastre/).
 
 ### 18h30
 Table ronde animée par [Anthony Brunelli](/equipe/anthony-brunelli), chargé de mission au sein du pôle design des services numériques.
@@ -85,7 +93,7 @@ Autour de cette table virtuelle :
 ![Gwenaëlle Brochoire](./illustrations/2021-03-21-evenement/gwenaelle-brochoire.jpeg)
 
 **[Gwenaëlle Brochoire](https://www.linkedin.com/in/gwenaellebrochoire/){title="Gwenaëlle Brochoire sur linkedin - nouvelle fenêtre"}**<br>
-Inclusive service designer et co-fondatrice de Oocity
+Designer de service inclusive et co-fondatrice de Oocity
 
 </div>
 <div>
@@ -114,14 +122,15 @@ Directeur de l'association ASTS
 </div>
 </div>
 
-## Jeudi 8 avril : « Une gouvernance centrée sur les usagers »
+## Jeudi 8 avril : « L'art de gouverner : un moyen essentiel de maîtriser la qualité et la durabilité des services »
+
+Nous devons produire des services maintenables, désirables, compréhensible, sémantiques, accessibles, réactifs, respectueux de la vie privée. En somme des services qui donnent confiance et qui font confiance. Et pour y parvenir, ces mêmes valeurs doivent exister dans les méthodes de management au sein des administrations.
 
 ### 18h00
-À venir
+Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.
 
-### 18h15
-Retour sur le Commando qui a travaillé sur la démarche [Titre de séjour](/commando-ux/defi-titre-de-sejour), suivi par un échange avec le public.
-Avec [Pierre-Brice Haurie](/equipe/pierre-brice-haurie/) et [Améziane Allioui](/equipe/ameziane-allioui/).
+### 18h10
+Retour sur le Commando [Titre de séjour](/commando-ux/defi-titre-de-sejour) avec [Pierre-Brice Haurie](/equipe/pierre-brice-haurie/) et [Améziane Allioui](/equipe/ameziane-allioui/).
 
 ### 18h30
 Table ronde animée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.

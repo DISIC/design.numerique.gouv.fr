@@ -7,13 +7,13 @@ illustration: ./illustrations/2021-03-21-evenement-design.jpg
 description: Événement en ligne les 6, 7 et 8 avril 2021
 ---
 
-En septembre 2020, nous avons lancé le [Commando UX](/commando-ux){title="Commando UX"} : 15 designers, développeuses et développeurs recrutés au sein de notre équipe et déployés pendant 7 mois dans les administrations pour améliorer l'expérience utilisateur et l'accessibilité numérique de 10 des [250 démarches administratives les plus utilisées](https://observatoire.numerique.gouv.fr){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} par les Français.
+En septembre 2020, nous avons lancé le [Commando UX](/commando-ux){title="Commando UX"} : 15 designers, développeuses et développeurs recrutés au sein de notre équipe et déployés pendant 7 mois dans les administrations. Leur objectif : améliorer l'expérience utilisateur et l'accessibilité numérique de 10 des [250 démarches administratives les plus utilisées](https://observatoire.numerique.gouv.fr){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} par les Français.
 
 À l’occasion de la clôture de la saison 1 du Commando UX, l’équipe Design des services numériques de la direction interministérielle du numérique (DINUM) organise un événement sur trois soirées et trois thématiques : la recherche utilisateur, l'inclusion et l'accessibilité, et l'art de gouverner.
 
 _*_ Le titre de cet événement s'inspire d'un terme de design : le « design centré utilisateur », soit prendre en compte les besoins des utilisateurs à chaque étape du processus de développement d'un produit ou service. Ce titre, c'est un défi lancé à nos administrations car dans le domaine du numérique, l'État a encore beaucoup de chemin à parcourir pour produire des services compréhensibles, utilisables et souhaitables.
 
-## 3 soirées à ne pas manquer.
+## 3 soirées à ne pas manquer
 **Les 6, 7 et 8 avril, venez échanger avec nous à partir de 18h.**
 Cet événement est ouvert à toutes et tous et sera diffusé en direct sur [notre chaîne YouTube](https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw){title="notre chaine YouTube - nouvelle fenêtre"} en 100% accessible (langue des signes française et transcription).
 

@@ -178,6 +178,10 @@ query Article ($id: ID!) {
     .content {
       max-width: 640px;
 
+      h2 {
+        margin-top: 1.5em;
+      }
+
       .guests { /* special pour l'evenement */
         display: flex;
         flex-direction: row;

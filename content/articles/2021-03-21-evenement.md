@@ -26,7 +26,7 @@ Chaque soir, nous aborderons une thématique nouvelle : vous assisterez au témo
 
 ## Mardi 6 avril : « Répondre à des besoins concrets »
 
-Lors de cette première soirée, nous découvrirons l'importance d'aller à la rencontre des usagers, de les écouter, de les comprendre. La recherche utilisateur, c'est nécéssaire pour s'assurer de la pertinence d'un service, pour simplifier ce service et ses fonctionnalités à l'essentiel, et pour mieux fédérer vos équipes et donner du sens à leur mission (en bonus, cela vous permettra aussi de réduire les coûts d'un projet).
+Lors de cette première soirée, nous découvrirons l'importance d'aller à la rencontre des usagers, de les écouter, de les comprendre. Nous aborderons les principes et méthodes de la recherche usager, indispensable à tout projet pour s'assurer de la pertinence d'un service, pour simplifier ce service et ses fonctionnalités à l'essentiel, et pour mieux fédérer vos équipes et donner du sens à leur mission (en bonus, cela vous permettra aussi de réduire les coûts d'un projet).
 
 ### 18h00
 Ouverture de l'événement par [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
@@ -73,9 +73,9 @@ Docteure en sciences comportementales à la direction interministérielle de la 
 </div>
 </div>
 
-## Mercredi 7 avril : « Des services pour tous accessibles & inclusifs »
+## Mercredi 7 avril : « Des services pour toutes et tous, accessibles & inclusifs »
 
-Nous sommes toutes et tous différents derrière nos écrans. Que nous soyons en situation de handicap, très à l'aise avec le numérique, que nous le détestions, que nous ayons accès à un ordinateur, ou pas, que nous ne comprenions rien au langage administratif (coucou tout le monde 👋), il y a une chose qui nous réuni : c'est que nous devons tous avoir un accès égal à nos services publics. Une même facilité d'intéraction avec ces services.
+Nous sommes toutes et tous différents derrière nos écrans. Que nous soyons en situation de handicap, très à l'aise avec le numérique, que nous le détestions, que nous ayons accès à un ordinateur, ou pas, que nous ne comprenions rien au langage administratif (coucou tout le monde 👋), il y a une chose qui nous réunit : c'est que nous devons tous avoir un accès égal à nos services publics. Une même facilité d'intéraction avec ces services.
 
 ### 18h00
 Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.
@@ -122,9 +122,9 @@ Directeur de l'association ASTS
 </div>
 </div>
 
-## Jeudi 8 avril : « L'art de gouverner : un moyen essentiel de maîtriser la qualité et la durabilité des services »
+## Jeudi 8 avril : « L'art de gouverner : un moyen essentiel pour maîtriser la qualité et la durabilité des services »
 
-Nous devons produire des services maintenables, désirables, compréhensible, sémantiques, accessibles, réactifs, respectueux de la vie privée. En somme des services qui donnent confiance et qui font confiance. Et pour y parvenir, ces mêmes valeurs doivent exister dans les méthodes de management au sein des administrations.
+Nous devons produire des services maintenables, désirables, compréhensibles, sémantiques, accessibles, réactifs, respectueux de la vie privée. En somme des services qui donnent confiance et qui font confiance. Et pour y parvenir, ces mêmes valeurs doivent exister dans les méthodes de management au sein des administrations.
 
 ### 18h00
 Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.

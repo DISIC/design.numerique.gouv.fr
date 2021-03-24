@@ -11,4 +11,5 @@ e-mail :
 group : team
 ---
 
-Bio à venir
+Couteau suisse.   
+Passionnée.

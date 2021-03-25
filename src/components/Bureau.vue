@@ -304,7 +304,6 @@
     created ()  {
       for(let i = 0; i < this.$static.allAction.edges.length; i++) {
         let componentName = this.$static.allAction.edges[i].node.id;
-        console.log(componentName, i);
         this.$options.components[componentName] = () => import("~/assets/images/actions/" + this.$static.allAction.edges[i].node.id + "-retro.svg");
       }
     }

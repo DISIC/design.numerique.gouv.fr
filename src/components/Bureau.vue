@@ -71,7 +71,6 @@
                           <div class="design-office__inner-element-container">
                             <g-link to="/articles/2021-03-21-evenement-design/"class="design-office__inner-element-action">
                               Programme et inscriptions
-                              <Arrow class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/>
                             </g-link>
                           </div>
                         </div>
@@ -306,7 +305,6 @@
   import Trash from "~/assets/images/bureau/trash.svg"
   import Calendar from "~/assets/images/bureau/calendar.svg"
   import Close from "~/assets/images/bureau/close.svg"
-  import Arrow from "~/assets/images/bureau/arrow.svg"
 
   export default {
     name: 'Bureau',
@@ -322,7 +320,6 @@
       Trash,
       Calendar,
       Close,
-      Arrow
     },
     data () {
       return {
@@ -579,18 +576,15 @@
       }
 
       .design-office__inner-element-container {
-        margin: -0.5rem 0.5rem 0.5rem 0.5rem;
+        margin: -0.5rem 1rem 1rem 1rem;
         flex-direction: row;
 
         .design-office__inner-element-action {
           display: flex;
           flex-direction: row;
-          padding: 0.375rem 0.5rem;
+          padding: 0.3125rem 0.5rem;
           margin: 0;
-
-          .design-office__inner-element-icon {
-            margin: 0.125rem 0 0 0.5rem;
-          }
+          border: 2px solid black !important;
         }
       }
 

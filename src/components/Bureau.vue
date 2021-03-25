@@ -13,29 +13,32 @@
 
         <div class="design-office__container">
           <div class="design-office__element design-office__readme">
-            <h2><Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button></h2>
+            <h2 class="design-office__element-container">
+              <Readme class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="readme">Lisez-moi.txt</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-readme" id="readme" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-readme" class="rf-modal__title">Lisez-moi.txt</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="readme">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                  <p>
-                                    Nam mauris urna, tincidunt a libero ac, pharetra congue tellus. Vestibulum mauris ligula, vehicula non libero quis, eleifend aliquet eros. Pellentesque facilisis eros sit amet ligula egestas accumsan. Vivamus a mollis magna. Aliquam dapibus urna ac sodales dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut elit est, rhoncus in sodales in, mollis vitae orci. Phasellus vel justo varius, egestas nibh sed, malesuada massa. Nunc elit sem, venenatis a lorem in, rutrum tempor leo. Duis hendrerit ipsum a leo porta volutpat. Curabitur at malesuada nibh.
-                                  </p>
-                                </div>
-                            </div>
-                        </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-readme" class="rf-modal__title">Lisez-moi.txt</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="readme">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                        <p>
+                          Nam mauris urna, tincidunt a libero ac, pharetra congue tellus. Vestibulum mauris ligula, vehicula non libero quis, eleifend aliquet eros. Pellentesque facilisis eros sit amet ligula egestas accumsan. Vivamus a mollis magna. Aliquam dapibus urna ac sodales dapibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut elit est, rhoncus in sodales in, mollis vitae orci. Phasellus vel justo varius, egestas nibh sed, malesuada massa. Nunc elit sem, venenatis a lorem in, rutrum tempor leo. Duis hendrerit ipsum a leo porta volutpat. Curabitur at malesuada nibh.
+                        </p>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
 
           </div>
@@ -45,26 +48,38 @@
           <div class="design-office__event" id="event-message">
             <Calendar class="design-office__event-icon" focusable="false" aria-hidden="true"/>
             <Close class="design-office__event-close" focusable="false" aria-hidden="true" v-on:click="hideEvent"/>
-            <h2><button aria-expanded="false" aria-controls="event">Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible !</i> les 6, 7 et 8 avril.</button></h2>
+            <h2 class="design-office__event-title">
+              <button class="design-office__event-action" aria-expanded="false" aria-controls="event">Inscrivez-vous à notre évènement <i>L'État centré usager ? Oui c'est possible.</i> les 6, 7 et 8 avril.</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-event" id="event" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-event" class="rf-modal__title">Évènement</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="event">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                </div>
-                            </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-event" class="rf-modal__title">Évènement les 6, 7 et 8 avril</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="event">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <p>
+                          À l’occasion de la clôture de la saison 1 du Commando UX, rejoignez-nous pour échanger autour de la recherche usager, l'inclusion et l'accessibilité, et l'art de gouverner.
+                        </p>
+                      </div>
+                      <div class="rf-modal__footer">
+                        <div class="design-office__inner-element">
+                          <div class="design-office__inner-element-container">
+                            <g-link to="/articles/2021-03-21-evenement-design/"class="design-office__inner-element-action">
+                              Programme et inscriptions
+                              <Arrow class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/>
+                            </g-link>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
           </div>
         </div>
@@ -76,72 +91,81 @@
 
         <ol class="design-office__container">
           <li class="design-office__element">
-            <h2><FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderA">En amont</button></h2>
+            <h2 class="design-office__element-container">
+              <FolderA class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="folderA">En amont</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-folderA" id="folderA" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-folderA" class="rf-modal__title">En amont</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderA">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                </div>
-                            </div>
-                        </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-folderA" class="rf-modal__title">En amont</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderA">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
           </li>
           <li class="design-office__element">
-            <h2><FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderB">En continue</button></h2>
+            <h2 class="design-office__element-container">
+              <FolderB class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="folderB">En continue</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-folderB" id="folderB" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-folderB" class="rf-modal__title">En continue</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderB">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                </div>
-                            </div>
-                        </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-folderB" class="rf-modal__title">En continue</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderB">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
           </li>
           <li class="design-office__element">
-            <h2><FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="folderC">En parallèle</button></h2>
+            <h2 class="design-office__element-container">
+              <FolderC class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="folderC">En parallèle</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-folderC" id="folderC" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-folderC" class="rf-modal__title">En parallèle</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderC">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                </div>
-                            </div>
-                        </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-folderC" class="rf-modal__title">En parallèle</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="folderC">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
           </li>
         </ol>
@@ -152,84 +176,93 @@
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h2><Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="photo">Aperçu.bmp</button></h2>
+            <h2 class="design-office__element-container">
+              <Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="photo">Aperçu.bmp</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-photo" id="photo" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-photo" class="rf-modal__title">Aperçu.bmp</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="photo">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                </div>
-                            </div>
-                        </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-photo" class="rf-modal__title">Aperçu.bmp</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="photo">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
           </div>
         </div>
 
         <div class="design-office__container">
           <div class="design-office__element">
-            <h2><Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="contact">Contact</button></h2>
+            <h2 class="design-office__element-container">
+              <Contact class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="contact">Contact</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-contact" id="contact" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-contact" class="rf-modal__title">Contact</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="contact">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                  </p>
-                                </div>
-                            </div>
-                        </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-contact" class="rf-modal__title">Contact</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="contact">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum hendrerit, dolor pulvinar feugiat aliquam, risus mi venenatis magna, id ornare quam quam vitae sapien. Donec sed lorem condimentum, semper mauris eu, dictum velit. Etiam ac magna euismod, malesuada sapien a, aliquam risus. Proin viverra malesuada cursus. Nulla viverra congue leo, vel semper diam pretium sit amet. Curabitur laoreet, urna eu semper volutpat, ligula metus auctor mauris, non convallis eros nunc eget ipsum. Nulla facilisi. Suspendisse potenti. Maecenas luctus lectus ac sapien facilisis scelerisque. In mi massa, ultrices nec interdum a, porttitor ac augue. Donec quis placerat elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        </p>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
           </div>
           <div class="design-office__element">
-            <h2><Support class="design-office__element-icon" focusable="false" aria-hidden="true"/><button aria-expanded="false" aria-controls="accompagnement">Accompagnement</button></h2>
+            <h2 class="design-office__element-container">
+              <Support class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="accompagnement">Accompagnement</button>
+            </h2>
 
             <dialog aria-labelledby="rf-modal-accompagnement" id="accompagnement" class="rf-modal">
-                <div class="rf-container">
-                    <div class="rf-grid-row rf-grid-row--center">
-                        <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
-                            <div class="rf-modal__body">
-                                <div class="rf-modal__header">
-                                    <h1 id="rf-modal-accompagnement" class="rf-modal__title">Accompagnement</h1>
-                                    <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="accompagnement">Fermer</button>
-                                </div>
-                                <div class="rf-modal__content">
-                                  <ul>
-                                    <li v-for="{ node } in $static.allAction.edges" :key="node.id" class="design-office__inner-element">
-                                      <h2 v-if="node.link.includes('http')">
-                                        <component :is="node.id"></component>
-                                        <a :href="node.link" :title="node.title + ' - Nouvelle fenêtre'" target="_blank">{{ node.title }}</a>
-                                      </h2>
-                                      <h2 v-else>
-                                        <component :is="node.id"></component>
-                                        <g-link :to="node.link">{{ node.title }}</g-link>
-                                      </h2>
-                                    </li>
-                                  </ul>
-                                </div>
-                            </div>
-                        </div>
+              <div class="rf-container">
+                <div class="rf-grid-row rf-grid-row--center">
+                  <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
+                    <div class="rf-modal__body">
+                      <div class="rf-modal__header">
+                        <h1 id="rf-modal-accompagnement" class="rf-modal__title">Accompagnement</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="accompagnement">Fermer</button>
+                      </div>
+                      <div class="rf-modal__content">
+                        <ul>
+                          <li v-for="{ node } in $static.allAction.edges" :key="node.id" class="design-office__inner-element">
+                            <h2 v-if="node.link.includes('http')" class="design-office__inner-element-container">
+                              <component :is="node.id" class="design-office__inner-element-icon"></component>
+                              <a :href="node.link" :title="node.title + ' - Nouvelle fenêtre'" target="_blank" class="design-office__inner-element-action">{{ node.title }}</a>
+                            </h2>
+                            <h2 v-else class="design-office__inner-element-container">
+                              <component :is="node.id" class="design-office__inner-element-icon"></component>
+                              <g-link :to="node.link" class="design-office__inner-element-action">{{ node.title }}</g-link>
+                            </h2>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </dialog>
           </div>
         </div>
@@ -275,6 +308,7 @@
   import Photo from "~/assets/images/bureau/photo.svg"
   import Calendar from "~/assets/images/bureau/calendar.svg"
   import Close from "~/assets/images/bureau/close.svg"
+  import Arrow from "~/assets/images/bureau/arrow.svg"
 
   export default {
     name: 'Bureau',
@@ -289,7 +323,8 @@
       Support,
       Photo,
       Calendar,
-      Close
+      Close,
+      Arrow
     },
     data () {
       return {
@@ -376,6 +411,7 @@
 
     &__middle {
       margin: 1rem 0;
+
       ol {
         margin: 0 auto;
         padding: 0;
@@ -384,7 +420,7 @@
           list-style: none;
         }
 
-        h2, p {
+        .design-office__container {
           @media only screen and (max-width: $mobile-max-width) {
             margin: 1rem 0.5rem;
           }
@@ -406,7 +442,7 @@
     &__element, &__inner-element {
       list-style: none !important;
 
-      h2, p {
+      &-container {
         margin: 1rem 1.25rem;
         display: flex;
         flex-direction: column;
@@ -417,36 +453,48 @@
           margin: 1rem 0.25rem;
         }
 
-        button, a {
-          font-size: 0.875rem;
-          margin-top: 0.25rem;
-          padding: 0.125rem 0.375rem;
-          line-height: 1.5;
-          color: $black !important;
-          background-color: white;
-          font-weight: bold;
-          border: none !important;
-          transition: 0s all !important;
-          font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-
-          &:after {
-            position: absolute;
-            content: "";
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
+        &:hover, &:focus, &:active {
+          .design-office__element-icon, .design-office__inner-element-icon {
+            .back {
+              fill: $black;
+            }
+            .middle {
+              fill: $black;
+            }
+            .stroke {
+              fill: white;
+            }
           }
+        }
+      }
 
-          &:hover, &:focus, &:active {
-            cursor: pointer;
-            color: white !important;
-            background-color: $black !important;
-          }
+      &-action {
+        font-size: 0.875rem;
+        margin-top: 0.25rem;
+        padding: 0.125rem 0.375rem;
+        line-height: 1.5;
+        color: $black !important;
+        background-color: white;
+        font-weight: bold;
+        border: none !important;
+        transition: 0s all !important;
+        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+
+        &:after {
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
         }
 
         &:hover, &:focus, &:active {
-          svg, img {
+          cursor: pointer;
+          color: white !important;
+          background-color: $black !important;
+
+          .design-office__element-icon, .design-office__inner-element-icon {
             .back {
               fill: $black;
             }
@@ -463,31 +511,6 @@
       &-icon {
         display: block;
       }
-
-      dialog {
-        transition: 0s all;
-      }
-    }
-
-    &__inner-element {
-
-      h2 {
-        .design-office__inner-element-icon {
-          display: inline-block;
-        }
-        .design-office__inner-element-hover-icon {
-          display: none;
-        }
-
-        &:hover, &:focus, &:active {
-          .design-office__inner-element-icon {
-            display: none;
-          }
-          .design-office__inner-element-hover-icon {
-            display: inline-block;
-          }
-        }
-      }
     }
 
     &__event {
@@ -503,35 +526,35 @@
       flex-direction: column;
       position: relative;
 
-      h2 {
+      &-title {
         margin: 0;
+      }
 
-        button {
-          font-size: 0.875rem;
-          margin: 0;
-          padding: 0;
-          text-align: left;
-          font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-          color: $black !important;
-          background-color: white;
-          font-weight: bold;
-          border: none !important;
-          transition: 0s all !important;
+      &-action {
+        font-size: 0.875rem;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+        color: $black !important;
+        background-color: white;
+        font-weight: bold;
+        border: none !important;
+        transition: 0s all !important;
 
-          &:hover, &:focus, &:active {
-            cursor: pointer;
-            color: white !important;
-            background-color: $black !important;
-          }
+        &:hover, &:focus, &:active {
+          cursor: pointer;
+          color: white !important;
+          background-color: $black !important;
+        }
 
-          &:after {
-            position: absolute;
-            content: "";
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-          }
+        &:after {
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
         }
       }
 
@@ -557,13 +580,29 @@
         }
       }
 
+      .design-office__inner-element-container {
+        margin: -0.5rem 0.5rem 0.5rem 0.5rem;
+        flex-direction: row;
+
+        .design-office__inner-element-action {
+          display: flex;
+          flex-direction: row;
+          padding: 0.375rem 0.5rem;
+          margin: 0;
+
+          .design-office__inner-element-icon {
+            margin: 0.125rem 0 0 0.5rem;
+          }
+        }
+      }
+
       &:hover, &:focus, &:active {
         background-color: $black !important;
         border: 2px solid white;
         box-shadow: 0.25rem 0.25rem 0 $black;
 
-        h2 {
-          button {
+        .design-office__event-title {
+          .design-office__event-action {
             color: white !important;
             background-color: $black !important;
           }
@@ -581,6 +620,8 @@
     }
 
     .rf-modal {
+      transition: 0s all;
+
       ul {
         margin: 0;
         padding: 0;
@@ -609,7 +650,7 @@
         display: flex;
         justify-content: space-between;
 
-        button {
+        .rf-link--close {
           border-radius: 0;
           margin-right: 0.125rem;
 
@@ -635,6 +676,12 @@
         @media only screen and (max-width: $mobile-max-width) {
           max-height: 72vh;
         }
+      }
+
+      &__footer {
+        margin: 0;
+        padding: 0;
+        justify-content: flex-end;
       }
     }
   }

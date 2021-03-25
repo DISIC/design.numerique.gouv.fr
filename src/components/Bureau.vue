@@ -215,10 +215,12 @@
                                 <div class="rf-modal__content">
                                   <ul>
                                     <li v-for="{ node } in $static.allAction.edges" :key="node.id" class="design-office__inner-element">
-                                      <h2 v-if="node.link.includes('http')"><g-image :src="node.icon.src.replace('.svg', '-retro.svg')" class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/><a :href="node.link" :title="node.title + ' - Nouvelle fenêtre'" target="_blank">{{ node.title }}</a></h2>
+                                      <h2 v-if="node.link.includes('http')">
+                                        <component :is="node.id"></component>
+                                        <a :href="node.link" :title="node.title + ' - Nouvelle fenêtre'" target="_blank">{{ node.title }}</a>
+                                      </h2>
                                       <h2 v-else>
-                                        <g-image :src="node.icon.src.replace('.svg', '-retro.svg')" class="design-office__inner-element-icon" focusable="false" aria-hidden="true"/>
-                                        <g-image :src="node.icon.src" class="design-office__inner-element-hover-icon" focusable="false" aria-hidden="true"/>
+                                        <component :is="node.id"></component>
                                         <g-link :to="node.link">{{ node.title }}</g-link>
                                       </h2>
                                     </li>
@@ -289,9 +291,21 @@
       Calendar,
       Close
     },
+    data () {
+      return {
+        actionPosition: 0,
+      }
+    },
     methods: {
       hideEvent () {
         document.getElementById('event-message').style.display = "none";
+      },
+    },
+    created ()  {
+      for(let i = 0; i < this.$static.allAction.edges.length; i++) {
+        let componentName = this.$static.allAction.edges[i].node.id;
+        console.log(componentName, i);
+        this.$options.components[componentName] = () => import("~/assets/images/actions/" + this.$static.allAction.edges[i].node.id + "-retro.svg");
       }
     }
   }

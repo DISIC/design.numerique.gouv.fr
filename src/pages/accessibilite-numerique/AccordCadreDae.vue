@@ -44,7 +44,7 @@
         <ol>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
-            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98
+            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98. <a href="https://rgaa-dae.a11y.fr/" target="_blank" title="Détail des prestations proposées - Nouvelle fenêtre">Détail des prestations proposées</a> 
         </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>

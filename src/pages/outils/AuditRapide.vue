@@ -71,7 +71,19 @@ export default {
     title: "Audit rapide",
     meta: [{
       name: 'description',
-      content: "L‘audit rapide RGAA pour une meilleure prise en compte de l'accessibilité numérique."
+      content: "L‘audit rapide RGAA : la première étape pour une meilleure prise en compte de l'accessibilité numérique."
+    },
+    {
+      property: 'og:title',
+      content: "Audit rapide - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "L‘audit rapide RGAA : la première étape pour une meilleure prise en compte de l'accessibilité numérique."
+    },
+    {
+      property: 'og:image',
+      content: "https://design.numerique.gouv.fr/designGouv.png"
     }],
   }
 }

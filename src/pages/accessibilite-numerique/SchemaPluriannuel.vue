@@ -84,11 +84,11 @@ export default {
     },
     {
       property: 'og:title',
-      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+      content: "Le Schéma pluriannuel de mise en accessibilité - DesignGouv"
     },
     {
       property: 'og:description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      content: "Le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique."
     },
     {
       property: 'og:image',

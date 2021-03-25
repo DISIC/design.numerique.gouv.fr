@@ -85,11 +85,11 @@ export default {
     },
     {
       property: 'og:title',
-      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+      content: "Le RGAA - DesignGouv"
     },
     {
       property: 'og:description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      content: "Tout savoir sur le Référentiel général d'amélioration de l'accessibilité."
     },
     {
       property: 'og:image',

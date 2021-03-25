@@ -86,11 +86,11 @@
       },
       {
         property: 'og:title',
-        content: "Les formations au design numérique et à l'accessibilté - DesignGouv"
+        content: "Les outils de design de l'accessibilité - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+        content: "Découvrez les outils pour designer et développer des services numériques accessibles et conformes au RGAA."
       },
       {
         property: 'og:image',

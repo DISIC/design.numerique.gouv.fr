@@ -262,7 +262,7 @@
       },
       {
         property: 'og:description',
-        content: "Commando UX - DesignGouv"
+        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
       },
       {
         property: 'og:image',

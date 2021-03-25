@@ -145,11 +145,11 @@ export default {
     },
     {
       property: 'og:title',
-      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+      content: "Exemple de déclaration d‘accessibilité - DesignGouv"
     },
     {
       property: 'og:description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      content: "La déclaration d’accessibilité est le résultat d’une évaluation effective de la conformité du service de communication au public en ligne à la norme de référence."
     },
     {
       property: 'og:image',

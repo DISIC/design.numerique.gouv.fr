@@ -1,7 +1,7 @@
 ---
 id: guichet
 title: Notre guichet France Relance
-icon: ./icons/france-relance.svg
+icon: ../../src/assets/images/actions/guichet.svg
 description: Destiné aux administrations pour financer la simplification de leurs démarches en ligne 👍
 link: https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch
 rank: 20

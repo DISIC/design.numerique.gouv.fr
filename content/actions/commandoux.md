@@ -1,7 +1,7 @@
 ---
 id: commandoux
 title: Le commando UX
-icon: ./icons/commandoux.svg
+icon: ../../src/assets/images/actions/commandoux.svg
 description: Une équipe de designers et développeurs pour améliorer les démarches en ligne 🌟
 link: /commando-ux/
 rank: 10

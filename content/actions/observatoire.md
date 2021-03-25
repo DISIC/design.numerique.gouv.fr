@@ -1,7 +1,7 @@
 ---
 id: observatoire
 title: L'Observatoire
-icon: ./icons/observatoire.svg
+icon: ../../src/assets/images/actions/observatoire.svg
 description: Les 250 démarches administratives les plus utilisées par les Français passées à la loupe 🔎
 link: https://observatoire.numerique.gouv.fr/
 rank: 30

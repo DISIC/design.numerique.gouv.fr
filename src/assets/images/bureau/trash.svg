@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="46px" viewBox="0 0 38 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1409.000000, -304.000000)">
+            <g id="trash" transform="translate(1409.000000, 304.000000)">
+                <polygon class="back" fill="#FFFFFF" points="6 8 14 8 14 6 16 6 16 4 26 4 26 6 28 6 28 8 36 8 36 10 38 10 38 16 36 16 36 44 34 44 34 46 8 46 8 44 6 44 6 16 4 16 4 10 6 10"></polygon>
+                <polygon class="middle" fill="#FFFFFF" points="2 4 10 4 10 2 12 2 12 0 22 0 22 2 24 2 24 4 32 4 32 6 34 6 34 12 32 12 32 40 30 40 30 42 4 42 4 40 2 40 2 12 0 12 0 6 2 6"></polygon>
+                <path d="M30,40 L30,42 L4,42 L4,40 L30,40 Z M32,12 L32,40 L30,40 L30,14 L4,14 L4,40 L2,40 L2,12 L32,12 Z M11,17 L11,37 L9,37 L9,17 L11,17 Z M18,17 L18,37 L16,37 L16,17 L18,17 Z M25,17 L25,37 L23,37 L23,17 L25,17 Z M2,6 L2,12 L0,12 L0,6 L2,6 Z M34,6 L34,12 L32,12 L32,6 L34,6 Z M22,2 L24,2 L24,4 L32,4 L32,6 L2,6 L2,4 L22,4 L22,2 Z M12,2 L12,4 L10,4 L10,2 L12,2 Z M22,0 L22,2 L12,2 L12,0 L22,0 Z" class="stroke" fill="#272729"></path>
+            </g>
+        </g>
+    </g>
+</svg>

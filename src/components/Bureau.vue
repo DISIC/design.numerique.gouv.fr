@@ -177,18 +177,18 @@
         <div class="design-office__container">
           <div class="design-office__element">
             <h2 class="design-office__element-container">
-              <Photo class="design-office__element-icon" focusable="false" aria-hidden="true"/>
-              <button class="design-office__element-action" aria-expanded="false" aria-controls="photo">Aperçu.bmp</button>
+              <Trash class="design-office__element-icon" focusable="false" aria-hidden="true"/>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="trash">Poubelle</button>
             </h2>
 
-            <dialog aria-labelledby="rf-modal-photo" id="photo" class="rf-modal">
+            <dialog aria-labelledby="rf-modal-trash" id="trash" class="rf-modal">
               <div class="rf-container">
                 <div class="rf-grid-row rf-grid-row--center">
                   <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                     <div class="rf-modal__body">
                       <div class="rf-modal__header">
-                        <h1 id="rf-modal-photo" class="rf-modal__title">Aperçu.bmp</h1>
-                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="photo">Fermer</button>
+                        <h1 id="rf-modal-trash" class="rf-modal__title">Poubelle</h1>
+                        <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="trash">Fermer</button>
                       </div>
                       <div class="rf-modal__content">
                         <p>
@@ -303,7 +303,7 @@
   import Readme from "~/assets/images/bureau/readme.svg"
   import Contact from "~/assets/images/bureau/contact.svg"
   import Support from "~/assets/images/bureau/support.svg"
-  import Photo from "~/assets/images/bureau/photo.svg"
+  import Trash from "~/assets/images/bureau/trash.svg"
   import Calendar from "~/assets/images/bureau/calendar.svg"
   import Close from "~/assets/images/bureau/close.svg"
   import Arrow from "~/assets/images/bureau/arrow.svg"
@@ -319,7 +319,7 @@
       Readme,
       Contact,
       Support,
-      Photo,
+      Trash,
       Calendar,
       Close,
       Arrow

@@ -124,9 +124,20 @@ export default {
     title: "Diagnostic flash",
     meta: [{
       name: "description",
-      content: "Le diagnostic flash est destiné à tout personne souhaitant avoir un premier aperçu sur la qualité, l’accessibilité et le design d’un site."
-    }
-    ],
+      content: "Le diagnostic flash est destiné à toute personne souhaitant avoir un premier aperçu sur la qualité, l’accessibilité et le design d’un site."
+    },
+    {
+      property: 'og:title',
+      content: "Diagnostic flash - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "Le diagnostic flash est destiné à toute personne souhaitant avoir un premier aperçu sur la qualité, l’accessibilité et le design d’un site."
+    },
+    {
+      property: 'og:image',
+      content: "https://design.numerique.gouv.fr/designGouv.png"
+    }],
   }
 }
 </script>

@@ -93,18 +93,18 @@
       Formations,
     },
     metaInfo: {
-      title: "Les formations au design numérique et à l'accessibilté numérique",
+      title: "Les formations",
       meta: [{
         name: 'description',
-        content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+        content: "Découvrez les formations liées au design, à la qualité des services numériques, à l’accessibilité et à l’éco-conception."
       },
       {
         property: 'og:title',
-        content: "Les formations au design numérique et à l'accessibilté - DesignGouv"
+        content: "Les formations - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Découvrez les formations liées au design, à la qualité des services numériques et à l’accessibilité."
+        content: "Découvrez les formations liées au design, à la qualité des services numériques, à l’accessibilité et à l’éco-conception."
       },
       {
         property: 'og:image',

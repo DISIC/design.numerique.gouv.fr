@@ -111,11 +111,11 @@
         },
         {
           property: 'og:title',
-          content: "Les outils pour le design numérique et l’accessibilité - DesignGouv"
+          content: "Accessibilité numérique - DesignGouv"
         },
         {
           property: 'og:description',
-          content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+          content: "L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap."
         },
         {
           property: 'og:image',

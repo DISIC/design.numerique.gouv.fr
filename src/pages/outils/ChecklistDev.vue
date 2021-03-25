@@ -141,6 +141,18 @@ export default {
     meta: [{
       name: 'description',
       content: "La checklist du développeur et de la développeuse web pour une meilleure prise en compte de l'accessibilité numérique (RGAA)."
+    },
+    {
+      property: 'og:title',
+      content: "Checklist dev - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "La checklist du développeur et de la développeuse web pour une meilleure prise en compte de l'accessibilité numérique (RGAA)."
+    },
+    {
+      property: 'og:image',
+      content: "https://design.numerique.gouv.fr/designGouv.png"
     }],
   }
 }

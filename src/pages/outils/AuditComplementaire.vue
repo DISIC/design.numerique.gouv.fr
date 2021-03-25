@@ -72,6 +72,18 @@ export default {
     meta: [{
       name: 'description',
       content: "La deuxième étape de l‘audit rapide RGAA pour une meilleure prise en compte de l'accessibilité numérique."
+    },
+    {
+      property: 'og:title',
+      content: "Audit complémentaire - DesignGouv"
+    },
+    {
+      property: 'og:description',
+      content: "La deuxième étape de l‘audit rapide RGAA pour une meilleure prise en compte de l'accessibilité numérique."
+    },
+    {
+      property: 'og:image',
+      content: "https://design.numerique.gouv.fr/designGouv.png"
     }],
   }
 }

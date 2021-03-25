@@ -576,7 +576,7 @@
       }
 
       .design-office__inner-element-container {
-        margin: -0.5rem 1rem 1rem 1rem;
+        margin: 0 1rem 1rem 1rem;
         flex-direction: row;
 
         .design-office__inner-element-action {

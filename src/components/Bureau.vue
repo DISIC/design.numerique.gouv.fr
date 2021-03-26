@@ -177,7 +177,7 @@
           <div class="design-office__element">
             <h2 class="design-office__element-container">
               <Trash class="design-office__element-icon" focusable="false" aria-hidden="true"/>
-              <button class="design-office__element-action" aria-expanded="false" aria-controls="trash">Poubelle</button>
+              <button class="design-office__element-action" aria-expanded="false" aria-controls="trash">Corbeille</button>
             </h2>
 
             <dialog aria-labelledby="rf-modal-trash" id="trash" class="rf-modal">
@@ -186,7 +186,7 @@
                   <div class="rf-col-sm-10 rf-col-md-8 rf-col-lg-6">
                     <div class="rf-modal__body">
                       <div class="rf-modal__header">
-                        <h1 id="rf-modal-trash" class="rf-modal__title">Poubelle</h1>
+                        <h1 id="rf-modal-trash" class="rf-modal__title">Corbeille</h1>
                         <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" aria-controls="trash">Fermer</button>
                       </div>
                       <div class="rf-modal__content">

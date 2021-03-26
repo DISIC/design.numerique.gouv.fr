@@ -322,19 +322,25 @@
       Close,
     },
     created() {
-      window.addEventListener("resize", this.resizeBureau);
+      if (process.isClient) {
+        window.addEventListener("resize", this.resizeBureau);
+      }
       for(let i = 0; i < this.$static.allAction.edges.length; i++) {
         let componentName = this.$static.allAction.edges[i].node.id;
         this.$options.components[componentName] = () => import("~/assets/images/actions/" + this.$static.allAction.edges[i].node.id + "-retro.svg");
       }
     },
     destroyed() {
-      window.removeEventListener("resize", this.resizeBureau);
+      if (process.isClient) {
+        window.removeEventListener("resize", this.resizeBureau);
+      }
     },
     methods: {
       resizeBureau(e) {
-        let vh = window.innerHeight * 0.01;
-        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        if (process.isClient) {
+          let vh = window.innerHeight * 0.01;
+          document.documentElement.style.setProperty('--vh', `${vh}px`);
+        }
       },
       hideEvent () {
         document.getElementById('event-message').style.display = "none";

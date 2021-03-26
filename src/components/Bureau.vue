@@ -522,6 +522,10 @@
       flex-direction: column;
       position: relative;
 
+      @media only screen and (max-width: $mobile-max-width) {
+        margin-bottom: -1.375rem;
+      }
+
       &-title {
         margin: 0;
       }
@@ -556,6 +560,10 @@
 
       &-icon {
         margin-bottom: 0.25rem;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin-bottom: 0;
+        }
       }
 
       &-close {

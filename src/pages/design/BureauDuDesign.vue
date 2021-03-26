@@ -21,7 +21,7 @@
       <h1 class="text-highlight"><Design class="h1__icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
 
       <p class="cover__subtitle">
-        Naviguez dans le bureau du Design et laissez-vous guider afin de réaliser des services publics numériques simples, accessibles et agréables pour tous.
+        Naviguez dans le bureau du Design et laissez-vous guider afin de réaliser des services publics numériques simples, accessibles et agréables pour tous<span v-on:click="easterEgg">.</span>
       </p>
 
       </div>
@@ -46,6 +46,11 @@
     components: {
       Design,
       Bureau,
+    },
+    methods: {
+      easterEgg () {
+        this.$router.push('/design/bureau-du-design-fs/');
+      }
     },
     metaInfo: {
       title: "Le bureau du Design",

@@ -321,22 +321,25 @@
       Calendar,
       Close,
     },
-    data () {
-      return {
-        actionPosition: 0,
-      }
-    },
-    methods: {
-      hideEvent () {
-        document.getElementById('event-message').style.display = "none";
-      },
-    },
-    created ()  {
+    created() {
+      window.addEventListener("resize", this.resizeBureau);
       for(let i = 0; i < this.$static.allAction.edges.length; i++) {
         let componentName = this.$static.allAction.edges[i].node.id;
         this.$options.components[componentName] = () => import("~/assets/images/actions/" + this.$static.allAction.edges[i].node.id + "-retro.svg");
       }
-    }
+    },
+    destroyed() {
+      window.removeEventListener("resize", this.resizeBureau);
+    },
+    methods: {
+      resizeBureau(e) {
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      },
+      hideEvent () {
+        document.getElementById('event-message').style.display = "none";
+      },
+    },
   }
 
 </script>
@@ -358,11 +361,15 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+
+      @media only screen and (max-width: $mobile-max-width) {
+        padding-top: 0.125rem;
+      }
     }
 
     &__title {
       margin: 0;
-      padding: 0.325rem 0.25rem 0.325rem 0.75rem;
+      padding: 0.325rem 0rem 0.325rem 0.75rem;
       font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
       font-size: 1rem;
       font-weight: bold;
@@ -414,12 +421,6 @@
         li {
           list-style: none;
         }
-
-        .design-office__container {
-          @media only screen and (max-width: $mobile-max-width) {
-            margin: 1rem 0.5rem;
-          }
-        }
       }
     }
 
@@ -438,14 +439,14 @@
       list-style: none !important;
 
       &-container {
-        margin: 1rem 1.25rem;
+        margin: 1rem 1.5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
 
         @media only screen and (max-width: $mobile-max-width) {
-          margin: 1rem 0.25rem;
+          margin: 1rem 0.5rem;
         }
 
         &:hover, &:focus, &:active {
@@ -674,6 +675,19 @@
         margin: 0;
         padding: 0;
         justify-content: flex-end;
+      }
+    }
+
+    &--fs {
+      width: calc(100vw - 4px);
+      //height: calc(100vh - 4px);
+      height: calc(var(--vh, 1vh) * 100 - 4px);
+      position: fixed;
+      top: 0;
+      left: 0;
+
+      .design-office__content {
+        height: calc(100% - 34.4px);
       }
     }
   }

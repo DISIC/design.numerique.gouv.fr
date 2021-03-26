@@ -1,5 +1,5 @@
 <template>
-  <Layout class="design-page">
+  <Layout class="design-office-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -62,11 +62,8 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .design-page {
+  .design-office-page {
 
-    .breadcrumb {
-      margin-bottom: 2rem;
-    }
   }
 
 </style>

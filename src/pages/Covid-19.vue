@@ -4,8 +4,8 @@
     <div class="cover">
      <div class="cover__container">
 
-       <!-- <strong>Coronavirus</strong> -->
-       <h1>Coronavirus : les opportunités d'<span class="text-highlight">entraide</span></h1>
+        
+       <h1><em class="archive">Archive</em> Coronavirus : les opportunités d'<span class="text-highlight">entraide</span></h1>
 
        <p class="cover__subtitle">Retrouvez ci-dessous notre liste d'initiatives pour s'impliquer
           et aider dans différents domaines pendant l'épidémie de Coronavirus.</p>
@@ -116,6 +116,10 @@
         content: "Retrouvez ici les initiatives d'entraide mises en place pour faire face à l'épidemie de coronavirus."
       },
       {
+        name: 'robots',
+        content: "noindex"
+      },
+      {
         property: 'og:title',
         content: "Coronavirus : les initiatives d'entraide - DesignGouv"
       },
@@ -158,6 +162,12 @@
 
   .covid-19-page {
 
+    em.archive {
+      background-color:  #0e37dd ;
+      padding: 0 0.4em;
+      color: #fff;
+      border-radius: 0.12em;
+    }
     .website {
       display: inline-block;
       vertical-align: top;

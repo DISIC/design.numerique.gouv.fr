@@ -2,7 +2,8 @@
   <div class="design-office">
 
     <div class="design-office__header">
-      <p class="design-office__title"><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</p>
+      <h1 v-if="isFullscreen" class="design-office__title"><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</h1>
+      <p v-else class="design-office__title"><BureauSVG class="design-office__title-icon" focusable="false" aria-hidden="true"/>Le bureau du Design</p>
       <p class="design-office__date" v-html="(new Date()).toLocaleDateString('fr-FR', {weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric'}).replace(' à ', ' ')"></p>
     </div>
 
@@ -320,6 +321,12 @@
       Trash,
       Calendar,
       Close,
+    },
+    props: {
+      isFullscreen: {
+        default: false,
+        type: Boolean
+      },
     },
     created() {
       if (process.isClient) {

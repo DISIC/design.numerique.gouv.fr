@@ -1,7 +1,6 @@
 <template>
   <Layout class="design-office-page">
-      <h1>Le bureau du Design</h1>
-      <Bureau class="design-office--fs"/>
+      <Bureau class="design-office--fs" isFullscreen/>
   </Layout>
 </template>
 

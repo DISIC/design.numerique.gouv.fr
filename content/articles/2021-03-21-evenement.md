@@ -112,14 +112,6 @@ Cheffe de produit Service-Public.fr à la direction de l'information légale et 
 Chargé de mission stratégie numérique, Fédération des Aveugles et Amblyopes de France
 
 </div>
-<div>
-
-![Mehdi Serdidi](./illustrations/2021-03-21-evenement/mehdi-serdidi.jpeg)
-
-**[Mehdi Serdidi](https://www.linkedin.com/in/mehdi-serdidi-553b16a5/){title="Mehdi Serdidi sur linkedin - nouvelle fenêtre"}**<br>
-Directeur de l'association ASTS
-
-</div>
 </div>
 
 ## Jeudi 8 avril : « L'art de gouverner : un moyen essentiel pour maîtriser la qualité et la durabilité des services »

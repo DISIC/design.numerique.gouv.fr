@@ -29,7 +29,7 @@ Chaque soir, nous aborderons une thématique nouvelle : vous assisterez au témo
 Lors de cette première soirée, nous découvrirons l'importance d'aller à la rencontre des usagers, de les écouter, de les comprendre. Nous aborderons les principes et méthodes de la recherche usager, indispensable à tout projet pour s'assurer de la pertinence d'un service, pour simplifier ce service et ses fonctionnalités à l'essentiel, et pour mieux fédérer vos équipes et donner du sens à leur mission (en bonus, cela vous permettra aussi de réduire les coûts d'un projet).
 
 ### 18h00
-Ouverture de l'événement par [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
+Ouverture de l'événement par [Amélie de Montchalin](https://twitter.com/ademontchalin){title="Amélie de Montchalin sur Twitter - nouvelle fenêtre"}, Ministre de la Transformation et de la Fonction publiques et [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
 
 ### 18h10
 Retour sur le Commando [Contestation de contravention](/commando-ux/defi-contestation-contravention) avec [Lola Charpentier](/equipe/lola-charpentier/), [Manon Oresve](/equipe/manon-oresve/) et [Lucile Foraison](/equipe/lucile-foraison/).

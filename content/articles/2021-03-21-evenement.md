@@ -155,9 +155,9 @@ Chercheuse, co-Fondatrice de l'agence Où sont les Dragons
 </div>
 <div>
 
-![Stephane Vincent](./illustrations/2021-03-21-evenement/stephane-vincent.jpeg)
+![Stéphane Vincent](./illustrations/2021-03-21-evenement/stephane-vincent.jpeg)
 
-**[Stephane Vincent](https://www.linkedin.com/in/svincent/){title="Stephane Vincent sur linkedin - nouvelle fenêtre"}**<br>
+**[Stéphane Vincent](https://www.linkedin.com/in/svincent/){title="Stéphane Vincent sur linkedin - nouvelle fenêtre"}**<br>
 Cofondateur de la 27e Région
 
 </div>

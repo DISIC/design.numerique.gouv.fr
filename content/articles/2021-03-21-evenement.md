@@ -98,9 +98,9 @@ Designer de service inclusive et co-fondatrice de Oocity
 </div>
 <div>
 
-![Géraldine Da Silva](./illustrations/2021-03-21-evenement/geraldine-da-sylva.jpeg)
+![Géraldine Da Sylva](./illustrations/2021-03-21-evenement/geraldine-da-sylva.jpeg)
 
-**[Géraldine Da Silva](https://www.linkedin.com/in/gdasylva/){title="Géraldine Da Silva sur linkedin - nouvelle fenêtre"}**<br>
+**[Géraldine Da Sylva](https://www.linkedin.com/in/gdasylva/){title="Géraldine Da Sylva sur linkedin - nouvelle fenêtre"}**<br>
 Cheffe de produit Service-Public.fr à la direction de l'information légale et administrative (DILA)
 
 </div>

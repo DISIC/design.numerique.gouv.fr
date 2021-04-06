@@ -111,8 +111,8 @@
         </ul>
 
         <h2>Voies de recours</h2>
-        <p>Cette procédure est à utiliser dans le cas suivant.</p>
-        <p>Vous avez signalé au responsable du site internet un défaut d’accessibilité qui vous empêche d’accéder à un contenu ou à un des services du portail et vous n’avez pas obtenu de réponse satisfaisante.</p>
+        <p>Si vous constatez un défaut d’accessibilité vous empêchant d’accéder à un contenu ou une fonctionnalité du site, que vous nous le signalez et que vous ne parvenez pas à obtenir une réponse de notre part, vous êtes en droit de faire parvenir vos doléances ou une demande de saisine au Défenseur des droits.</p>
+        <p>Plusieurs moyens sont à votre disposition :</p>
         <ul>
           <li><a href="https://formulaire.defenseurdesdroits.fr">Écrire un message au Défenseur des droits</a></li>
           <li><a href="https://www.defenseurdesdroits.fr/saisir/delegues">Contacter le délégué du Défenseur des droits dans votre région</a></li>

@@ -30,11 +30,10 @@
 
         <h2>À quoi ça sert ?</h2>
         <p>
-          Le RGAA harmonise les normes internationales de l’accessibilité numériques connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
+          Le RGAA permet de contrôler l’accessibilité d’un site et de ses contenus suivant les normes internationales de l’accessibilité numérique connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
         </p>
         <p>
-          Le RGAA est une méthode technique.<br>
-          Le RGAA propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critères. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
+          Le RGAA définit une méthode technique et propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critères. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
         </p>
 
         <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#contenu" title="Consulter les critères du RGAA - Nouvelle fenêtre" target="_blank" class="button">
@@ -43,7 +42,7 @@
       </section>
       <section>
         <h2>La 4ème version du RGAA</h2>
-        <p>La version en vigueur du RGAA est la 4.1 et a été publiée le 16 février 2021.</p>
+        <p>La version en vigueur du RGAA est la 4.1 et a été publiée le 18 février 2021.</p>
         <p>
           Le RGAA 4 fait disparaître la distinction entre niveau A et AA qui n’est plus justifiée puisque toutes ces règles sont obligatoires. 
         </p>

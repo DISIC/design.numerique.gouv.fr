@@ -29,6 +29,8 @@ Chaque soir, nous aborderons une thématique nouvelle : vous assisterez au témo
 
 Lors de cette première soirée, nous découvrirons l'importance d'aller à la rencontre des usagers, de les écouter, de les comprendre. Nous aborderons les principes et méthodes de la recherche usager, indispensable à tout projet pour s'assurer de la pertinence d'un service, pour simplifier ce service et ses fonctionnalités à l'essentiel, et pour mieux fédérer vos équipes et donner du sens à leur mission (en bonus, cela vous permettra aussi de réduire les coûts d'un projet).
 
+**[Revoir l’événement « Répondre à des besoins concrets »](https://www.youtube.com/watch?v=6hsc_hCOhVo&list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo&index=3{title="Revoir l’événement Répondre à des besoins concrets - nouvelle fenêtre"}**
+
 ### 18h00
 Ouverture de l'événement par [Amélie de Montchalin](https://twitter.com/ademontchalin){title="Amélie de Montchalin sur Twitter - nouvelle fenêtre"}, Ministre de la Transformation et de la Fonction publiques et [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
 
@@ -77,6 +79,8 @@ Docteure en sciences comportementales à la direction interministérielle de la 
 ## Mercredi 7 avril : « Des services pour toutes et tous, accessibles & inclusifs »
 
 Nous sommes toutes et tous différents derrière nos écrans. Que nous soyons en situation de handicap, très à l'aise avec le numérique, que nous le détestions, que nous ayons accès à un ordinateur, ou pas, que nous ne comprenions rien au langage administratif (coucou tout le monde 👋), il y a une chose qui nous réunit : c'est que nous devons tous avoir un accès égal à nos services publics. Une même facilité d'intéraction avec ces services.
+
+**[Revoir l’événement « Des services pour toutes et tous, accessibles & inclusifs »](https://www.youtube.com/watch?v=uL476FeyUH4&list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo&index=4){title="Revoir l’événement Des services pour toutes et tous, accessibles & inclusifs - nouvelle fenêtre"}**
 
 ### 18h00
 Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.

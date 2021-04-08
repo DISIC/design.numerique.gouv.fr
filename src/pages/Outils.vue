@@ -56,9 +56,9 @@
         <p>La demande de test doit être adressée par mail à <strong>jamshid.kohandel@modernisation.gouv.fr</strong>.</p> 
       </section>
       <section>
-        <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Prochainement</h2>
+        <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Le système de design de l'État</h2>
         <ul>
-          <li>Le Design system de l‘État est un ensemble de composants accessibles et réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
+          <li>Le <a href="https://systeme-de-design.gouv.fr/" title="système de design de l‘État - nouvelle fenêtre" target="_blank">système de design de l‘État</a> est un ensemble de composants accessibles et réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
         </ul>
       </section>
 

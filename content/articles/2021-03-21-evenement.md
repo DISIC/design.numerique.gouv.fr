@@ -23,6 +23,7 @@ Vous recevrez un e-mail de rappel avant l'événement.
 
 Chaque soir, nous aborderons une thématique nouvelle : vous assisterez au témoignage d’un Commando UX 2020 suivi d’une table ronde virtuelle en présence de nos intervenants.
 
+**Vous pouvez revivre ces événements sur [notre chaîne Youtube](https://www.youtube.com/playlist?list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo){title="notre chaine YouTube - nouvelle fenêtre"}**
 
 ## Mardi 6 avril : « Répondre à des besoins concrets »
 

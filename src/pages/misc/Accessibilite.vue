@@ -79,11 +79,3 @@
 </script>
 
 
-<style lang="scss">
-
-  .accessibility-page {
-
-
-  }
-
-</style>

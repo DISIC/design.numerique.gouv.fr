@@ -13,17 +13,12 @@ En septembre 2020, nous avons lancé le [Commando UX](/commando-ux){title="Comma
 
 _*_ Le titre de cet événement s'inspire d'un terme de design : le « design centré utilisateur », soit prendre en compte les besoins des utilisateurs à chaque étape du processus de développement d'un produit ou service. Ce titre, c'est un défi lancé à nos administrations car dans le domaine du numérique, l'État a encore beaucoup de chemin à parcourir pour produire des services compréhensibles, utilisables et souhaitables.
 
-## 3 soirées à ne pas manquer
-**Les 6, 7 et 8 avril, venez échanger avec nous à partir de 18h.**
-Cet événement est ouvert à toutes et tous et sera diffusé en direct sur [notre chaîne YouTube](https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw){title="notre chaine YouTube - nouvelle fenêtre"} en 100% accessible (langue des signes française et transcription).
+## 3 soirées à revivre
 
-[Inscriptions](https://framaforms.org/letat-centre-usager-oui-cest-possible-1613408477){: .button .item__link button .button--highlight title="inscriptions - nouvelle fenêtre"}
+**Vous pouvez revivre ces moments sur [notre chaîne Youtube](https://www.youtube.com/playlist?list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo){title="notre chaine YouTube - nouvelle fenêtre"}**
 
-Vous recevrez un e-mail de rappel avant l'événement.
+Le témoignage d’un Commando UX 2020 suivi d’une table ronde virtuelle sur une nouvelle thématique chaque soir.
 
-Chaque soir, nous aborderons une thématique nouvelle : vous assisterez au témoignage d’un Commando UX 2020 suivi d’une table ronde virtuelle en présence de nos intervenants.
-
-**Vous pouvez revivre ces événements sur [notre chaîne Youtube](https://www.youtube.com/playlist?list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo){title="notre chaine YouTube - nouvelle fenêtre"}**
 
 ## Mardi 6 avril : « Répondre à des besoins concrets »
 
@@ -119,9 +114,11 @@ Chargé de mission stratégie numérique, Fédération des Aveugles et Amblyopes
 </div>
 </div>
 
-## Jeudi 8 avril : « L'art de gouverner : un moyen essentiel pour maîtriser la qualité et la durabilité des services »
+## Jeudi 8 avril : « L’art de gouverner : un moyen essentiel pour maîtriser la qualité et la durabilité des services »
 
 Nous devons produire des services maintenables, désirables, compréhensibles, sémantiques, accessibles, réactifs, respectueux de la vie privée. En somme des services qui donnent confiance et qui font confiance. Et pour y parvenir, ces mêmes valeurs doivent exister dans les méthodes de management au sein des administrations.
+
+**[Revoir l’événement « L’art de gouverner »](https://www.youtube.com/watch?v=Sm26uzOqFys&list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo&index=5){title="Revoir l’art de gouverner - nouvelle fenêtre"}**
 
 ### 18h00
 Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.

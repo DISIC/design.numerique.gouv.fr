@@ -10,6 +10,7 @@ description: Le système de design
 Le système de design (ou <span lang="en">design system</span>) est un ensemble de composants prêts à l’emploi, accessibles et ergonomiques, guidé par des standards et une gouvernance, pour développer des sites et applications.
 
 
+Depuis plus d’un an et demi, le Service d’Information du Gouvernement (SIG) construit cet outil avec l’aide de nombreux développeurs et designers de la sphère publique.
 
 ## Les objectifs du Système de Design
 

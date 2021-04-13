@@ -4,7 +4,7 @@ slug: 2021-04-12-design-system
 publishedDate: 2021-04-12
 tags: ["", ""]
 illustration: ./illustrations/2021-04-12-design-system.jpg
-description: Le système de design
+description: Développer vos sites et applications en utilisant des composants prêts à l’emploi, accessibles et ergonomiques
 ---
 
 Le système de design (ou <span lang="en">design system</span>) est un ensemble de composants prêts à l’emploi, accessibles et ergonomiques, guidé par des standards et une gouvernance, pour développer des sites et applications.

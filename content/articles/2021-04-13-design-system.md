@@ -1,9 +1,9 @@
 ---
 title: Le système de design de l’État
-slug: 2021-04-12-design-system
-publishedDate: 2021-04-12
+slug: 2021-04-13-design-system
+publishedDate: 2021-04-13
 tags: ["", ""]
-illustration: ./illustrations/2021-04-12-design-system.jpg
+illustration: ./illustrations/2021-04-13-design-system.jpg
 description: Développer vos sites et applications en utilisant des composants prêts à l’emploi, accessibles et ergonomiques
 ---
 

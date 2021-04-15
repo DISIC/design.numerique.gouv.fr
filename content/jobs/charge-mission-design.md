@@ -2,7 +2,7 @@
 published_date: 12 avril 2021
 title: Chargée ou chargé de mission design des services numériques
 slug: charge-mission-design
-type: CDD
+type: Emploi ouvert aux titulaires et/ou aux contractuels (CDD 3 ans)
 start_date: 3 mai 2021
 length: 3 ans
 contact: marine.boudeau@modernisation.gouv.fr

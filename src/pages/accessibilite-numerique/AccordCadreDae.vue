@@ -36,7 +36,7 @@
       </section>
 
       <section>
-        <h2>Lot 1 : accompagnement et audit</h2>
+        <h2 id="lot-1">Lot 1 : accompagnement et audit</h2>
         <p>Le lot 1 concerne les prestations d'accompagnement et d'audit des services de communication au public en ligne de l'Etat et des établissements publics dans le cadre de la mise en conformité avec les exigences en matière d’accessibilité (RGAA ou ses documents annexes).</p>
       </section>
       <section>
@@ -81,7 +81,7 @@
         </ul>
       </section>
       <section>
-        <h2>Lot 2 : formations</h2>
+        <h2 id="lot-2">Lot 2 : formations</h2>
         <p>Le lot 2 concerne les prestations de formation relatives au RGAA et l'accessibilité numérique à destination de l'Etat et des établissements publics.</p>
       </section>
       <section>

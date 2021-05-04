@@ -21,7 +21,7 @@
 
       <h1 class="text-highlight">Audit rapide RGAA</h1>
 
-      <p class="cover__subtitle">Vingt cinq critères du RGAA <strong>absolument essentiels</strong>. L’évaluation de ces critères nécessite une bonne connaissance du RGAA. Si vous n’avez pas d’expert dans votre équipe, <a href="./accessibilite-numerique/accord-cadre-dae">vous pouvez faire appel à un prestataire</a>.<br/>Si le résultat de cet audit rapide n’est pas représentatif du niveau de conformité, il donne une bonne idée de la prise en compte ou non du RGAA dans les process de développement.</p>
+      <p class="cover__subtitle">Vingt cinq critères du RGAA <strong>absolument essentiels</strong>. L’évaluation de ces critères nécessite une bonne connaissance du RGAA. Si vous n’avez pas d’expert dans votre équipe, <a href="./accessibilite-numerique/accord-cadre-dae#lot-1">vous pouvez faire appel à un prestataire</a>.<br/>Si le résultat de cet audit rapide n’est pas représentatif du niveau de conformité, il donne une bonne idée de la prise en compte ou non du RGAA dans les process de développement.</p>
       </div>
     </div>
     

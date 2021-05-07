@@ -75,7 +75,7 @@
           Produire et publier un <strong><g-link to="/accessibilite-numerique/schema-pluriannuel">schéma pluriannuel de mise en accessibilité</g-link></strong> sur 3 ans, décliné en plan annuel détaillant les actions prévues pour évoluer vers une accessibilité complète.
         </p>
 
-        <p>Consulter le <a href="https://beta.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" title="décret n° 2019-768 du 24 juillet 2019 - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">décret n° 2019-768 du 24 juillet 2019</a> relatif à l'accessibilité aux personnes handicapées des services de communication au public en ligne.</p>
+        <p>Consulter le <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" title="décret n° 2019-768 du 24 juillet 2019 - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">décret n° 2019-768 du 24 juillet 2019</a> relatif à l'accessibilité aux personnes handicapées des services de communication au public en ligne.</p>
       </section>
 
       <section>

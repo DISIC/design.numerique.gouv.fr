@@ -8,7 +8,7 @@ sub_team: Défi droits sociaux
 sub_team_link: /commando-ux/defi-droits-sociaux
 twitter: simondenier
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Après quelques pas académiques dans le génie logiciel, je suis devenu développeur full-stack en 2011. Depuis j'ai touché à de nombreux aspects du développement web, de l'interface mobile à l’architecture Cloud Native, en passant par des applications web pour livres photos ou imprimantes 3D.

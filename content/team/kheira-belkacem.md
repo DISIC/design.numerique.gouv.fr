@@ -3,12 +3,12 @@ id: kheira-belkacem
 firstName: Kheira
 lastName: Belkacem
 photo: ./photos/kheira-belkacem.png
-job_title: Chercheuse UX
+job_title: Chargée de recherche utilisateur
 sub_team:
 sub_team_link:
 twitter:
 e-mail :
-group : 
+group : ["commando"]
 ---
 
 Bio à venir

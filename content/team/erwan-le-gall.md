@@ -8,7 +8,7 @@ sub_team: Accessibilité
 sub_team_link:
 twitter:
 e-mail :
-group : team
+group : ["team"]
 ---
 
 Bio à venir

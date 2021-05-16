@@ -155,6 +155,10 @@
     }
   }
 
+  // allPeople (sortBy: "lastName", order: ASC, filter: {group: {contains: "commando"}}) {
+  //   edges {
+  //     node {
+
 </script>
 
 <style lang="scss">

@@ -8,7 +8,7 @@ sub_team:
 sub_team_link:
 twitter: marineboudeau
 e-mail :
-group : team
+group : ["team"]
 ---
 
 Couteau suisse.   

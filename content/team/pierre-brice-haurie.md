@@ -8,7 +8,7 @@ sub_team: Défi titre de séjour
 sub_team_link: /commando-ux/defi-titre-de-sejour
 twitter:
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Designer fraîchement diplômé, j’ai pu rejoindre différentes équipes produits à côté de ma scolarité, notamment chez Stuart delivery et Deezer, ce qui m’a permis ensuite de participer à la création du premier design system de Docaposte l’année dernière. J’ai également fait un tour en agence de branding à Montréal entretemps.

@@ -8,7 +8,7 @@ sub_team: Défi demandeur d'emploi
 sub_team_link: /commando-ux/defi-renouvellement-demandeur-emploi
 twitter:
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Interaction designer, je suis originaire et j’ai été formé à Nantes.

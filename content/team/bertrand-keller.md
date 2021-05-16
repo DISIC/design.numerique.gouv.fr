@@ -8,7 +8,7 @@ sub_team: Défi paiement des amendes
 sub_team_link: /commando-ux/defi-paiement-des-amendes
 twitter:
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Je suis intégrateur web depuis très ou trop longtemps, au choix. Je m'intéresse aux choses simples, pratiques et durables. Pour cela je promeus une logique Low-Tech que ce soit en informatique ou ailleurs.

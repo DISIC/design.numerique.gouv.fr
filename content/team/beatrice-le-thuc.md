@@ -8,7 +8,7 @@ sub_team: Défi agriculture
 sub_team_link: /commando-ux/defi-agriculture
 twitter:
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Après des études de langues étrangères, je m’oriente presque par hasard, vers le web design. Ma première expérience en alternance me permettra alors d’apprendre les bases du design et de l’UX. 

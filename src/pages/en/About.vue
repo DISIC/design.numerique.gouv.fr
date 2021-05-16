@@ -144,7 +144,7 @@
     },
     computed: {
       team: function () {
-        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'team')
+        return this.$page.allPeople.edges.filter(edge => edge.node.lastName === 'team')
       },
       external: function () {
         return this.$page.allPeople.edges.filter(edge => edge.node.group === 'external')

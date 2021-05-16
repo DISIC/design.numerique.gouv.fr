@@ -8,7 +8,7 @@ sub_team: Défi paiement des amendes
 sub_team_link: /commando-ux/defi-paiement-des-amendes
 twitter: lucileforaison
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 UI designer freelance depuis 2016 entre agences, startups, particuliers à Paris, Lyon, Montréal. Les challenges rythment mon quotidien, le numérique lui, est mon terrain de jeu !

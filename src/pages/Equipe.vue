@@ -126,10 +126,10 @@
     },
     computed: {
       team: function () {
-        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'team')
+        return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('team'))
       },
       external: function () {
-        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'external')
+        return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('external'))
       },
     }
   }

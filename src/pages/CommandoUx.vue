@@ -68,14 +68,12 @@
           Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021.
         </p>
         <ul class="team">
-          <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
-            <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
-            <p>{{ node.job_title }}</p>
-            <p v-if="node.sub_team_link">
-              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
-            </p>
-            <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+          <li v-for="{ node } in $page.allPeople.edges" :key="node.id" class="team-member">
+            <g-image class="team-member__photo" :src="node.photo" quality="100" height="150" width="150" alt="" />
+            <div class="team-member__description">
+              <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
+              <p>{{ node.job_title }}</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -122,13 +120,8 @@
           firstName
           lastName
           job_title
-          sub_team
-          sub_team_link
-          twitter
           photo (width: 150, height: 150, quality: 100)
           path
-          content
-          group
         }
       }
     }
@@ -348,37 +341,54 @@
       justify-content: space-between;
       flex-wrap: wrap;
 
-      li {
+      &-member {
         list-style: none;
-        text-align: center;
-        width: 30%;
-        margin: 24px 4px;
+        width: 48%;
+        margin: 0.75rem 0.25rem;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
 
         @media only screen and (max-width: $mobile-max-width) {
-          width: 46%;
+          width: 100%;
+          margin: 0.75rem 0;
         }
 
-        img {
-          margin: 0 auto;
+        &__photo {
+          margin: 0 1rem 0 0;
           border-radius: 50em;
-          max-width: 150px;
+          width: 3rem;
+          height: 3rem;
         }
 
-        h3 {
-          margin: 4px 0;
+        &__description {
+          text-align: left;
 
-          a {
-            color: $black !important;
-            border: none !important;
+          h3 {
+            margin: 0;
 
-            &:hover {
-              color: $blue;
+            a {
+              color: $black !important;
+              border: none !important;
+
+              &:hover {
+                color: $red !important;
+              }
+
+              &::after {
+                position: absolute;
+                content: "";
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+              }
             }
           }
-        }
 
-        p {
-            margin: 0;
+          p {
+              margin: 0;
+          }
         }
       }
     }

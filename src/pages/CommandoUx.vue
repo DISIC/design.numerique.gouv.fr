@@ -80,14 +80,20 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les missions
         </h2>
-        <ul class="challenge">
-          <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration" alt=""/>
-            <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
-            <p class="challenge__description">{{ node.description }}</p>
-            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
+        <ul class="challenges">
+          <li class="challenge" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
+            <!-- <g-image class="challenge__illustration" :src="node.illustration" alt=""/> -->
+            <div class="">
+              <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" />
+              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+            </div>
+            <p v-if="node.status=='past'" class="goose__modal-notice">Terminé</p>
+            <p v-if="node.status=='present'" class="goose__modal-notice">En cours</p>
+            <p v-if="node.status=='futur'" class="goose__modal-notice">À venir</p>
+            <!-- <p class="challenge__description">{{ node.description }}</p> -->
+            <!-- <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p> -->
           </li>
         </ul>
       </section>
@@ -105,11 +111,9 @@
         node {
         	id
           title
-          description
           slug
           illustration
-          department
-          place
+          status
         }
       }
     }
@@ -189,57 +193,63 @@
 
   .commando-ux-page {
 
-    .challenge {
+    .challenges {
       padding: 0;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
 
-      &__item {
+      .challenge {
         list-style: none;
         text-align: left;
-        width: 46%;
-        margin: 0px 4px 48px 4px;
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 1rem;
         position: relative;
+        display: flex;
+        border: 2px solid $gray;
+        border-radius: 1rem;
+        align-items: center;
+        justify-content: space-between;
 
         @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin: 0px 0px 32px 0px;
+          //margin: 0px 0px 32px 0px;
         }
 
-        a::after {
-          position: absolute;
-          content: "";
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-        }
-
-        h3 {
-          font-weight: 800;
-          font-size: 1.5em;
-          margin: 12px 0 8px 0;
-          color: $blue;
+        &__name {
+          font-weight: 700;
+          font-size: 1rem;
+          margin: 0 0.5rem;
 
           @media only screen and (max-width: $mobile-max-width) {
-            font-size: 1.125em;
-            margin: 8px 0 4px 0;
+            //margin: 8px 0 4px 0;
           }
 
           a {
             border: none !important;
+            color: $black !important;
+          }
+
+          a::after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
           }
         }
 
-        img {
-          max-width: 80px;
-          height: 80px;
+        &__illustration {
+          max-width: 2rem;
+          max-height: 2rem;
+          margin: 0 0.5rem 0 0;
+          color: $red;
 
           @media only screen and (max-width: $mobile-max-width) {
-            max-width: 64px;
-            height: 64px;
+            //max-width: 64px;
+            //height: 64px;
           }
         }
       }

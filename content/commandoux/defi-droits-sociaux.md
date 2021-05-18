@@ -2,7 +2,7 @@
 title: Défi droits sociaux
 description: Pour les citoyens souhaitant simuler leurs droits sociaux, faciliter leur parcours afin que non pas 50% mais tous les usagers parviennent à effectuer cette démarche
 slug: defi-droits-sociaux
-illustration: ./illustrations/droits.svg
+illustration: ['fas', 'gavel']
 department: Ministère des Solidarités et de la Santé
 direction: Direction de la sécurité sociale
 place: Montauban

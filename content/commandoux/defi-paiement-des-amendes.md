@@ -2,7 +2,7 @@
 title: Défi paiement des amendes
 description: Rendre la démarche de paiement des amendes en ligne accessible et agréable à utiliser pour tous
 slug: defi-paiement-des-amendes
-illustration: ./illustrations/amendes.svg
+illustration: ['fas', 'gavel']
 department: Ministère de l'Économie, des Finances et de la Relance
 direction: Direction Générale des Finances Publiques
 place: Paris

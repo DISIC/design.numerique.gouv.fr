@@ -2,7 +2,7 @@
 title: Défi agriculture
 description: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares
 slug: defi-agriculture
-illustration: ./illustrations/agriculture.svg
+illustration: ['fas', 'gavel']
 department: Ministère de l'Agriculture et de l'Alimentation
 direction: Secrétariat général
 place: Paris
@@ -11,6 +11,7 @@ website: http://mesdemarches.agriculture.gouv.fr
 volumetry: 860 000
 ratio: 70%
 team: ["beatrice-le-thuc"]
+status: past
 ---
 
 ## Problématique

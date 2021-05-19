@@ -11,6 +11,9 @@ website: https://www.mesdroitssociaux.gouv.fr/
 volumetry: 503 533
 ratio: 100%
 team: ["benjamin-metifeu", "simon-denier"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique

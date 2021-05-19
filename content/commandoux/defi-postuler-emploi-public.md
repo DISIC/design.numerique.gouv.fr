@@ -11,6 +11,9 @@ website: https://www.place-emploi-public.gouv.fr/
 volumetry: 5 000 000
 ratio: 3%
 team: ["julie-leroy", "jean-edouard-sastre"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique

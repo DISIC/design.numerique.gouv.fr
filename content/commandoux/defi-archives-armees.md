@@ -12,6 +12,8 @@ volumetry: 180 000
 ratio: 100%
 team: ["jocelyn-caron"]
 status: present
+startDate: 2020-10-09
+finishDate:
 ---
 
 ## Problématique

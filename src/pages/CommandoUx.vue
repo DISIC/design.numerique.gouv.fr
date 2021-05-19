@@ -113,7 +113,7 @@
             </div>
             <div class="challenge__right">
               <g-image v-for="member in node.team" :key="member.id" class="challenge__team-member" :src="member.photo" alt="" />
-              <p class="challenge__status challenge__status--past">Réussie</p>
+              <p class="challenge__status challenge__status--past">Accomplie</p>
             </div>
           </li>
 
@@ -243,12 +243,12 @@
         list-style: none;
         text-align: left;
         width: 100%;
-        margin: 0.5rem 0;
+        margin: 0 0 0.5rem 0;
         padding: 0.5rem 1rem;
         position: relative;
         display: flex;
-        border: 2px solid $gray;
-        border-radius: 0.5rem;
+        border: 2px solid white;
+        border-bottom: 2px solid $gray;
         align-items: center;
         justify-content: space-between;
 
@@ -257,6 +257,8 @@
         }
 
         &:hover {
+          border: 2px solid $gray;
+          border-radius: 0.5rem;
           border-color: $blue;
           box-shadow: 5px 5px 0px $light;
         }
@@ -306,7 +308,7 @@
 
         &__status {
           text-align: center;
-          width: 3.75rem;
+          width: 4.5rem;
           border: solid 2px $gray;
           border-radius: 0.25rem;
           background-color: $gray;
@@ -316,15 +318,15 @@
           padding: 0.125rem 0.75rem;
 
           &--futur {
-            border-color: $light;
-            color: $blue;
+            border-color: $gray;
+            color: $black;
             background-color: white;
           }
 
           &--past {
-            border-color: $light;
-            background-color: $light;
-            color: $blue;
+            border-color: $light-gray;
+            color: $black;
+            background-color: $light-gray;
           }
 
           &--present {

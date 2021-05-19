@@ -1,5 +1,5 @@
 <template>
-  <Layout class="commando-ux-page">
+  <Layout class="administrations-page">
 
     <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -304,7 +304,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .commando-ux-page {
+  .administrations-page {
 
     .challenge {
       padding: 0;

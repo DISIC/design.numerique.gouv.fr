@@ -11,6 +11,9 @@ website: https://www.impots.gouv.fr/portail/particulier
 volumetry: 8 200 000
 ratio: 100%
 team: ["yaacov-cohen"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique

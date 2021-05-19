@@ -11,6 +11,9 @@ website: https://candidat.pole-emploi.fr/inscription/preambule
 volumetry: 6 297 380
 ratio: 100%
 team: ["hugo-thomas"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique

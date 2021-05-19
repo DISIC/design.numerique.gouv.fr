@@ -12,6 +12,8 @@ volumetry: 860 000
 ratio: 70%
 team: ["beatrice-le-thuc"]
 status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique

@@ -11,6 +11,9 @@ website: https://www.amendes.gouv.fr
 volumetry: 18 720 381
 ratio: 59%
 team: ["lucile-foraison", "bertrand-keller"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique

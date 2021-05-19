@@ -31,7 +31,7 @@
 
           <div class="item item--left">
             <div class="item__content">
-              <font-awesome :icon="['fas', 'university']" class="item__icon"/>
+              <font-awesome :icon="['fas', 'university']" class="item__icon" width="16" height="16" aria-hidden="true" />
               <h3>Administrations de l'État</h3>
               <p>
                 Vous êtes en charge de l'une des démarches recensées dans l'Observatoire et vous souhaitez accueillir un Commando UX.
@@ -45,7 +45,7 @@
 
           <div class="item item--right">
             <div class="item__content">
-              <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon"/>
+              <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
               <h3>Expert·e·s du numérique</h3>
               <p>
                 Vous êtes chef·fe de produit agile, designer, développeur·euse, chercheur·euse utilisateur, rédacteur·rice UX et vous souhaitez vous impliquer.
@@ -62,14 +62,14 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando actuel
         </h2>
         <p>
           Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021.
         </p>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id" class="team-member">
-            <g-image class="team-member__photo" :src="node.photo" quality="100" height="150" width="150" alt="" />
+            <g-image class="team-member__photo" :src="node.photo" alt="" />
             <div class="team-member__description">
               <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
               <p>{{ node.job_title }}</p>
@@ -83,18 +83,40 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les missions
         </h2>
         <ul class="challenges">
-          <li class="challenge" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <!-- <g-image class="challenge__illustration" :src="node.illustration" alt=""/> -->
-            <div class="">
+
+          <li v-for="{ node } in futurChallenges" :key="node.id" class="challenge">
+            <div class="challenge__left">
               <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" />
               <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
-            <p v-if="node.status=='past'" class="goose__modal-notice">Terminé</p>
-            <p v-if="node.status=='present'" class="goose__modal-notice">En cours</p>
-            <p v-if="node.status=='futur'" class="goose__modal-notice">À venir</p>
-            <!-- <p class="challenge__description">{{ node.description }}</p> -->
-            <!-- <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p> -->
+            <div class="challenge__right">
+              <g-image v-for="member in node.team" :key="member.id" class="challenge__team-member" :src="member.photo" alt="" />
+              <p class="challenge__status challenge__status--futur">À venir</p>
+            </div>
           </li>
+
+          <li v-for="{ node } in presentChallenges" :key="node.id" class="challenge">
+            <div class="challenge__left">
+              <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" />
+              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+            </div>
+            <div class="challenge__right">
+              <g-image v-for="member in node.team" :key="member.id" class="challenge__team-member" :src="member.photo" alt="" />
+              <p class="challenge__status challenge__status--present">En cours</p>
+            </div>
+          </li>
+
+          <li v-for="{ node } in pastChallenges" :key="node.id" class="challenge">
+            <div class="challenge__left">
+              <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" />
+              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+            </div>
+            <div class="challenge__right">
+              <g-image v-for="member in node.team" :key="member.id" class="challenge__team-member" :src="member.photo" alt="" />
+              <p class="challenge__status challenge__status--past">Réussie</p>
+            </div>
+          </li>
+
         </ul>
       </section>
 
@@ -114,6 +136,12 @@
           slug
           illustration
           status
+          team {
+            id
+            firstName
+            lastName
+            photo (width: 64, height: 64, quality: 100)
+          }
         }
       }
     }
@@ -124,7 +152,7 @@
           firstName
           lastName
           job_title
-          photo (width: 150, height: 150, quality: 100)
+          photo (width: 64, height: 64, quality: 100)
           path
         }
       }
@@ -141,6 +169,17 @@
   export default {
     components: {
       CommandoUX,
+    },
+    computed: {
+      pastChallenges: function () {
+        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'past')
+      },
+      presentChallenges: function () {
+        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'present')
+      },
+      futurChallenges: function () {
+        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'futur')
+      },
     },
     metaInfo: {
       title: "Commando UX",
@@ -205,16 +244,21 @@
         text-align: left;
         width: 100%;
         margin: 0.5rem 0;
-        padding: 1rem;
+        padding: 0.5rem 1rem;
         position: relative;
         display: flex;
         border: 2px solid $gray;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
         align-items: center;
         justify-content: space-between;
 
         @media only screen and (max-width: $mobile-max-width) {
           //margin: 0px 0px 32px 0px;
+        }
+
+        &:hover {
+          border-color: $blue;
+          box-shadow: 5px 5px 0px $light;
         }
 
         &__name {
@@ -251,6 +295,55 @@
             //max-width: 64px;
             //height: 64px;
           }
+        }
+
+        &__team-member {
+          border-radius: 50%;
+          width: 2rem;
+          height: 2rem;
+          margin: 0 0.25rem;
+        }
+
+        &__status {
+          text-align: center;
+          width: 4rem;
+          border: solid 2px $gray;
+          border-radius: 0.25rem;
+          background-color: $gray;
+          margin: 0 0 0 1rem;
+          font-size: 0.875rem;
+          font-weight: 500;
+          padding: 0.125rem 0.75rem;
+
+          &--futur {
+            border-color: $light;
+            color: $blue;
+            background-color: white;
+          }
+
+          &--past {
+            border-color: $light;
+            background-color: $light;
+            color: $blue;
+          }
+
+          &--present {
+            border-color: $blue;
+            background-color: white;
+            color: $blue;
+          }
+        }
+
+        &__left {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+        }
+
+        &__right {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
         }
       }
 
@@ -366,7 +459,7 @@
 
         &__photo {
           margin: 0 1rem 0 0;
-          border-radius: 50em;
+          border-radius: 50%;
           width: 3rem;
           height: 3rem;
         }

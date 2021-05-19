@@ -12,6 +12,8 @@ volumetry: 7 973 138
 ratio: 44%
 team: ["manon-oresve", "lola-charpentier"]
 status: futur
+startDate: 2020-11-09
+finishDate:
 ---
 
 ## Problématique

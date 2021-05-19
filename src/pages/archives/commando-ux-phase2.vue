@@ -79,7 +79,7 @@
         </h2>
         <ul class="challenge">
           <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration" alt="" />
+            <!-- <g-image class="challenge__illustration" :src="node.illustration" alt="" /> -->
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             <p class="challenge__description">{{ node.description }}</p>
             <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>

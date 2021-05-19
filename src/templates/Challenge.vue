@@ -17,7 +17,7 @@
 
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
-        <g-image :src="$page.challenge.illustration" class="cover__illustration--small" alt=""/>
+        <!-- <g-image :src="$page.challenge.illustration" class="cover__illustration--small" alt=""/> -->
         <h1>{{ $page.challenge.title }}</h1>
         <p class="cover__subtitle">{{ $page.challenge.description }}</p>
       </div>

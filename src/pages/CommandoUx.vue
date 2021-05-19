@@ -299,8 +299,8 @@
 
         &__team-member {
           border-radius: 50%;
-          width: 2rem;
-          height: 2rem;
+          width: 1.875rem;
+          height: 1.875rem;
           margin: 0 0.25rem;
         }
 

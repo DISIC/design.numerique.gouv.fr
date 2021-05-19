@@ -306,7 +306,7 @@
 
         &__status {
           text-align: center;
-          width: 4rem;
+          width: 3.75rem;
           border: solid 2px $gray;
           border-radius: 0.25rem;
           background-color: $gray;

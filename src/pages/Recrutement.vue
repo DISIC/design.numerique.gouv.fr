@@ -44,6 +44,9 @@
       edges {
         node {
         	id
+          title
+          path
+          type
         }
       }
     }

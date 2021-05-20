@@ -18,7 +18,7 @@
 
     <div class="content">
 
-        <section>
+        <section v-if="$page.allJob.edges.length > 0">
           <h2>Les offres</h2>
           <ul class="jobs">
             <li v-for="{ node } in $page.allJob.edges" :key="node.id">
@@ -29,6 +29,7 @@
             </li>
           </ul>
         </section>
+        <p v-else>Nous n’avons pas d’offre pour le moment.</p>
 
     </div>
 

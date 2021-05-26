@@ -14,8 +14,8 @@
       </div>
     </div>
 
-<!--     <div class="content">
-
+<!--    
+      <div class="content">
         <section v-if="$page.allJob.edges.length > 0">
           <h2>Les offres</h2>
           <ul class="jobs">
@@ -28,9 +28,8 @@
           </ul>
         </section>
         <p v-else>Nous n’avons pas d’offre pour le moment.</p>
-
-    </div> -->
-
+      </div> 
+ -->
   </Layout>
 </template>
 <!--

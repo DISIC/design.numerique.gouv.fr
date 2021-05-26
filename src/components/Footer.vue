@@ -103,16 +103,12 @@
       edges {
         node {
         	id
-          title
-          type
-          path
         }
       }
     }
   }
 
 </static-query>
-
 
 <style lang="scss">
 

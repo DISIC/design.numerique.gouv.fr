@@ -1,42 +1,38 @@
 <template>
   <Layout class="jobs-page">
-
     <div class="cover">
-     <div class="cover__container">
-
-       <h1 class="text-highlight">Recrutement</h1>
-       <p class="cover__jobs"   v-if="$page.allJob.edges.length > 0">Nombre de postes ouverts : <span>{{ $page.allJob.edges.length }}</span></p>
-       <p class="cover__subtitle" >
-         Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.
-       </p>
-       <p>
-         Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.
-       </p>
-
+      <div class="cover__container">
+        <h1 class="text-highlight">Recrutement</h1>
+<!--      
+        <p class="cover__jobs">Nombre de postes ouverts : <span>{{ $page.allJob.edges.length }}</span></p>
+ -->
+        <p class="cover__subtitle" >Nous n’avons pas d’offre pour le moment.</p>
+<!--
+        <p class="cover__subtitle" >Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
+        <p>Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</p>
+-->
       </div>
     </div>
 
-    <div class="content">
-      <section v-if="$page.allJob.edges.length > 0">
-        <h2>Les offres</h2>
-        <ul class="jobs">
-          <li v-for="{ node } in $page.allJob.edges" :key="node.id">
-            <g-link :to="node.path" class="button">
-              <h3>{{ node.title }}</h3>
-              <p>{{ node.type }}</p>
-            </g-link>
-          </li>
-        </ul>
-      </section>
-      <p v-else><strong>Pas d’offre pour le moment</strong>, restez informé en vous inscrivant à notre <span lang="en">newsletter</span>.</p>
-
-    </div>
-
-
+<!--    
+      <div class="content">
+        <section v-if="$page.allJob.edges.length > 0">
+          <h2>Les offres</h2>
+          <ul class="jobs">
+            <li v-for="{ node } in $page.allJob.edges" :key="node.id">
+              <g-link :to="node.path" class="button">
+                <h3>{{ node.title }}</h3>
+                <p>{{ node.type }}</p>
+              </g-link>
+            </li>
+          </ul>
+        </section>
+        <p v-else>Nous n’avons pas d’offre pour le moment.</p>
+      </div> 
+ -->
   </Layout>
 </template>
-
-
+<!--
 <page-query>
 
   query {
@@ -45,14 +41,15 @@
         node {
         	id
           title
-          type
           path
+          type
         }
       }
     }
   }
 
-</page-query>
+</page-query> 
+-->
 
 <script>
 

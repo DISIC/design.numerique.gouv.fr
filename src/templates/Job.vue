@@ -1,5 +1,5 @@
 <template>
-  <Layout class="job-page">
+  <Layout class="job-page" >
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
@@ -60,7 +60,7 @@
   </Layout>
 </template>
 
-
+<!--
 <script>
 
   export default {
@@ -72,7 +72,6 @@
   }
 
 </script>
-
 
 <page-query>
 
@@ -90,7 +89,7 @@
   }
 
 </page-query>
-
+-->
 
 <style lang="scss">
 

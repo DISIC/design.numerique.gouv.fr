@@ -1,31 +1,33 @@
 <template>
-  <nav class="rf-nav" role="navigation" aria-label="Menu principal">
-    <ul id="nav" class="rf-nav__list">
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/">Accueil</a>
-      </li>
-      <!-- <li class="rf-nav__item">
-        <a class="rf-link" href="/design/">Design</a>
-      </li> -->
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/accessibilite-numerique/">Accessibilité</a>
-      </li>
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/accompagnement/">Nos offres</a>
-      </li>
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/outils/">Outils</a>
-      </li>
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/formations/">Formations</a>
-      </li>
-      <li class="rf-nav__item">
-        <a class="rf-link" href="/articles/">Articles</a>
-      </li>
-      <li class="rf-nav__item" v-if="$static.allJob.edges.length > 0">
-        <a class="rf-link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
-      </li>
-    </ul>
+  <nav class="fr-nav" role="navigation" aria-label="Menu principal">
+    <div class="fr-container">
+      <ul id="nav" class="fr-nav__list">
+        <li class="fr-nav__item">
+          <a class="fr-link" href="/">Accueil</a>
+        </li>
+        <!-- <li class="fr-nav__item">
+          <a class="fr-link" href="/design/">Design</a>
+        </li> -->
+        <li class="fr-nav__item">
+          <a class="fr-link" href="/accessibilite-numerique/">Accessibilité</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-link" href="/accompagnement/">Nos offres</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-link" href="/outils/">Outils</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-link" href="/formations/">Formations</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-link" href="/articles/">Articles</a>
+        </li>
+        <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
+          <a class="fr-link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </template>
 
@@ -54,7 +56,7 @@
       //Highlight active link in menu and set aria-current
       var currentUrl = this.$route.path;
       var activeClass = 'active';
-      var navLinks = document.querySelectorAll('.rf-nav a'); //all links inside the nav
+      var navLinks = document.querySelectorAll('.fr-nav a'); //all links inside the nav
 
       for (var i = 0, l = navLinks.length; i < l; i++) {
         const link = navLinks[i];
@@ -63,7 +65,7 @@
         if (url == "/") {
           if (currentUrl == url) {
             span.innerHTML = link.innerHTML;
-            span.classList.add('rf-link');
+            span.classList.add('fr-link');
             span.classList.add(activeClass);
             link.parentNode.setAttribute("aria-current", "page");
             link.parentNode.replaceChild(span, link);
@@ -71,14 +73,14 @@
         }
         else if (currentUrl == url) {
           span.innerHTML = link.innerHTML;
-          span.classList.add('rf-link');
+          span.classList.add('fr-link');
           span.classList.add(activeClass);
           link.parentNode.setAttribute("aria-current", "page");
           link.parentNode.replaceChild(span, link);
         }
         else if (currentUrl.includes(url)) {
           span.innerHTML = link.innerHTML;
-          span.classList.add('rf-link');
+          span.classList.add('fr-link');
           span.classList.add(activeClass);
           link.parentNode.setAttribute("aria-current", "true");
           link.parentNode.replaceChild(span, link);
@@ -93,7 +95,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .rf-nav {
+  .fr-nav {
     box-shadow: none !important;
     padding: 0 1rem !important;
     border-top: 1px solid $gray;
@@ -119,12 +121,14 @@
       max-width: 1080px;
       margin: 0 auto !important;
 
-      .rf-link {
+      .fr-link {
         margin: 0 1.25rem;
         padding: 0.75rem 0.25rem;
         font-size: 1rem;
         font-weight: normal;
+        border-radius: initial;
         width: auto;
+        color: black;
         -webkit-font-smoothing: subpixel-antialiased !important;
         -moz-osx-font-smoothing: unset !important;
         --color-hover: none !important;

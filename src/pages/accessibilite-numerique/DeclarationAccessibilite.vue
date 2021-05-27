@@ -1,16 +1,16 @@
 <template>
   <Layout>
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
+          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
         </li>
         <li>
-          <span aria-current="page">Déclaration d'accessibilité</span>
+          <span aria-current="page">Déclaration d’accessibilité</span>
         </li>
       </ol>
     </nav>
@@ -19,7 +19,7 @@
      <div class="cover__container">
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Déclaration d'accessibilité</h1>
+       <h1>Déclaration d’accessibilité</h1>
 
       </div>
     </div>
@@ -29,7 +29,7 @@
       <section>
 
         <h2>
-          Contenu de la déclaration d'accessibilité
+          Contenu de la déclaration d’accessibilité
         </h2>
         <p>La déclaration d’accessibilité est le résultat d’une évaluation effective de la conformité du service de communication au public en ligne à la norme de référence.</p>
 

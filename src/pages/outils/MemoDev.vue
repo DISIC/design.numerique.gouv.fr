@@ -1,13 +1,13 @@
 <template>
   <Layout class="outils-page">
 
-     <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/outils/">Outils</g-link>
+          <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
         </li>
         <li>
           <span aria-current="page">Mémo dev</span>

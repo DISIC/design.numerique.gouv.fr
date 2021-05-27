@@ -1,16 +1,16 @@
 <template>
   <Layout class="goose-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
+          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
         </li>
         <li>
-          <span aria-current="page">Le jeu de l’OAA</span>
+          <span aria-current="page">Jeu de l’OAA</span>
         </li>
       </ol>
     </nav>

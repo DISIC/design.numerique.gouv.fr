@@ -1,23 +1,23 @@
 <template>
   <Layout class="outils-page">
 
-  <nav aria-label="Breadcrumb" class="breadcrumb">
-    <ol>
-      <li>
-        <g-link to="/">Accueil</g-link>
-      </li>
-      <li>
-        <g-link to="/outils/">Outils</g-link>
-      </li>
-      <li>
-        <span aria-current="page">Diagnostic flash</span>
-      </li>
-    </ol>
-  </nav>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
+        <li>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Diagnostic flash</span>
+        </li>
+      </ol>
+    </nav>
 
   <div class="cover">
     <div class="cover__container">
-      <h1 class="text-highlight">Diagnostic flash</h1>
+      <h1 class="text-highlight"></h1>
       <p class="cover__subtitle">Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
 
     </div>

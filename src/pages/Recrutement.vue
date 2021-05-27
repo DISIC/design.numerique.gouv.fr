@@ -1,5 +1,15 @@
 <template>
   <Layout class="jobs-page">
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
+        <li>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Recrutement</span>
+        </li>
+      </ol>
+    </nav>
     <div class="cover">
       <div class="cover__container">
         <h1 class="text-highlight">Recrutement</h1>

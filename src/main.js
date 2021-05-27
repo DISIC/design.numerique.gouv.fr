@@ -2,7 +2,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
-import '~/assets/css/all.min.css'
+import '~/assets/css/dsfr.min.css'
 import '~/assets/scss/main.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -119,7 +119,6 @@ library.add(
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ
-    //head.script.push({ src: '/assets/js/all.min.js', body: false })
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr' }

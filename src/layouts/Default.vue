@@ -158,9 +158,9 @@ query {
   }
 
   .layout {
-    max-width: 820px;
+    max-width: 52rem;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0;
 
     @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;

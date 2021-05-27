@@ -49,7 +49,7 @@
 
       .fr-header__body {
         margin: 0 auto;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+        //font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
         .fr-header {
           &__service-title {
@@ -63,6 +63,7 @@
           }
 
           &__service-tagline {
+            font-size: 0.875rem;
             margin-left: 0.125rem;
             margin-top: 0.125rem;
             font-weight: bold;

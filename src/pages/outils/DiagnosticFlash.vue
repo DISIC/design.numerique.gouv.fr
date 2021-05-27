@@ -24,12 +24,12 @@
   </div>
 
   <div class="content">
-    <div class="rf-accordion rf-callout guide">
-      <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-0">
+    <div class="fr-accordion fr-callout guide">
+      <button class="fr-accordion__title fr-accordion__btn fr-accordion__btn--icon-right" aria-expanded="false" aria-controls="fr-accordion-0">
         <h2 class="guide-title">Comment l’utiliser ?</h2>
       </button>
-      <div class="rf-collapse" id="rf-accordion-0">
-        <div class="rf-accordion__inner">
+      <div class="fr-collapse" id="fr-accordion-0">
+        <div class="fr-accordion__inner">
           <p>Le diagnostic se fait sur un échantillon de pages incluant au minimum :</p>
           <ul>
           <li>la page d’accueil</li>
@@ -70,15 +70,15 @@
     <div class="quick-test">
       <section v-for="cat in $page.allDiagFlashCat.edges"  >
           <h2> {{ cat.node.title }}</h2>
-          <ul class="rf-accordions-group">
-            <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
-              <h3 class="rf-accordion__title"><span class="numero">{{ criterion.node.id }}</span>
-                <button class=" rf-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
+          <ul class="fr-accordions-group">
+            <li  class="fr-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
+              <h3 class="fr-accordion__title"><span class="numero">{{ criterion.node.id }}</span>
+                <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
                    {{ criterion.node.title }}
                 </button>
               </h3>
-              <div class="rf-collapse" :id="criterion.node.id">
-                <div class="rf-accordion__inner">
+              <div class="fr-collapse" :id="criterion.node.id">
+                <div class="fr-accordion__inner">
                   <div v-html="criterion.node.content" />
                 </div>
               </div>
@@ -157,11 +157,11 @@ export default {
       }
     }
 
-    .rf-accordion__inner {
+    .fr-accordion__inner {
       background-color:var(--g200);
       padding: 1rem 2rem;
     }
-    .rf-accordion .rf-accordion__btn {
+    .fr-accordion .fr-accordion__btn {
       padding: 0.75rem 0 0.75rem 3rem
     }
     span.numero {
@@ -173,10 +173,10 @@ export default {
     }
 
     @media print {
-      .rf-collapse, .guide {
+      .fr-collapse, .guide {
         display: none;
       }
-      .rf-accordion .rf-accordion__btn {
+      .fr-accordion .fr-accordion__btn {
 
         &::before {
             visibility: hidden;

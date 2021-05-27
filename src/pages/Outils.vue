@@ -110,7 +110,7 @@
 
     .content {
 
-      .rf-accordion {
+      .fr-accordion {
         margin-bottom: 0;
         list-style-type: none;
         border-bottom: none;

@@ -20,7 +20,7 @@
         content: " (" attr(title) ")";
     }
     header, footer,
-    main .message, .breadcrumb, .rf-skiplinks, .if-english, .cover__subhead,
+    main .message, .breadcrumb, .fr-skiplinks, .if-english, .cover__subhead,
     svg.cover__home-illustration, svg.cover__illustration, svg.illustration, svg.h1__icon, svg.h2__icon, div.illustration {
         display: none;
     }
@@ -67,7 +67,7 @@
             .intro:first-child {
                 width: 100%;
             }
-            button.rf-accordion__btn {
+            button.fr-accordion__btn {
                 border: none;
                 font-size: 16pt;
                 text-align: left;

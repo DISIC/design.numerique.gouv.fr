@@ -1,12 +1,12 @@
 <template>
-<div class="rf-skiplinks">
-    <div class="rf-container">
-        <ul class="rf-skiplinks__list">
+<div class="fr-skiplinks">
+    <div class="fr-container">
+        <ul class="fr-skiplinks__list">
             <li>
-                <a class="rf-link" href="#main"  @click.stop>Contenu</a>
+                <a class="fr-link" href="#main"  @click.stop>Contenu</a>
             </li>
             <li>
-                <a class="rf-link" href="#nav"  @click.stop>Menu</a>
+                <a class="fr-link" href="#nav"  @click.stop>Menu</a>
             </li> 
         </ul>
     </div>

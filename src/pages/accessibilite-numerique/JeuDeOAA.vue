@@ -18,19 +18,24 @@
    <div class="cover cover--with-breadcrumb">
      <div class="cover__container">
 
+
+
+
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Le jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité">OAA</abbr></h1>
+       <h1>Le jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité" class="text-highlight">OAA</abbr></h1>
        <p class="cover__subtitle">Le jeu de l’organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       </div>
     </div>
     <div class="content">
+      <!--
       <div class="fr-callout">
           <p class="fr-callout__text">
             Cette ressource est en <strong>version beta</strong> et n’est que partiellement conforme au RGAA.<br>
             Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr ou en <a href="https://github.com/DISIC/design.numerique.gouv.fr/issues" target="_blank" rel="noreferrer noopener" title="créant un ticket - nouvelle fenêtre">créant un ticket</a> sur le dépot.
           </p>
       </div>
+      -->
       <section class="goose fr-mt-8w">
         <ol>
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
@@ -51,8 +56,7 @@
                     {{ card.node.id }}
                     <font-awesome  class="goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
                   </p>
-                  <h3><button class="goose__card-title" title="" aria-expanded="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'">{{ card.node.title }}</button></h3>
-
+                  <h3><button class="goose__card-title"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'">{{ card.node.title }}</button></h3>
                   <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal">
                       <div class="fr-container">
                           <div class="fr-grid-row fr-grid-row--center">
@@ -196,6 +200,9 @@
         > li.goose__step, > li.goose__card {
           list-style: none;
           box-sizing: initial;
+          &::before {
+            content: none;
+          }
         }
       }
 

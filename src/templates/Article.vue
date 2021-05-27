@@ -1,24 +1,21 @@
 <template>
   <Layout class="article-page">
 
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
+        <li>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+        </li>
+          <li>
+            <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
+          </li>
+        <li>
+          <span aria-current="page" v-html="cropedTitle" />
+        </li>
+      </ol>
+    </nav>
+
     <div class="cover">
-
-      <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol>
-          <li>
-            <g-link to="/">Accueil</g-link>
-          </li>
-          <li>
-            <g-link to="/articles/">Articles</g-link>
-          </li>
-          <li>
-            <p aria-current="page">
-              <span v-html="cropedTitle" />
-            </p>
-          </li>
-        </ol>
-      </nav>
-
      <div
         class="cover__container"
         :style="{ backgroundImage: `url(${illustration})` }">
@@ -117,12 +114,11 @@ query Article ($id: ID!) {
 
   .article-page {
 
-    .breadcrumb {
-      width: 100vw;
-      position: relative;
-      margin-left: -50vw;
-      left: 50%;
-
+    .fr-breadcrumb {
+      text-align: center;
+      margin-top: 2rem;
+      margin-bottom: 0;
+      
       @media only screen and (max-width: $mobile-max-width) {
         margin-top: 8px;
       }

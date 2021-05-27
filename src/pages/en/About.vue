@@ -1,10 +1,10 @@
 <template>
   <Layout class="team-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Home</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Home</g-link>
         </li>
         <li>
           <span aria-current="page">About</span>

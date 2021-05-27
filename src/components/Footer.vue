@@ -116,6 +116,11 @@
 
   footer {
     margin-top: 6rem;
+    ul>li { padding: 0;
+      &:before {
+        content:none;
+      }
+    }
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-top: 4rem;
@@ -205,7 +210,7 @@
 
       .footer__dg-tagline {
         margin-left: 0.125rem;
-        margin-top: -0.125rem;
+        margin-top: 0.5rem;
         font-weight: bold;
         color: var(--g700);
         font-size: 0.875rem;

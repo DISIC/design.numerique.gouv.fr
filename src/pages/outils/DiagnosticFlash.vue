@@ -23,7 +23,7 @@
   </div>
 
   <div class="content">
-    <section class="rf-mb-8w">
+    <section class="fr-mb-8w">
     <h2>Comment l’utiliser ?</h2>
     <p>Le <strong>diagnostic flash</strong> se fait sur une ou plusieurs pages en une à deux heures. Deux solutions sont proposées :</p>
     <ul>
@@ -34,15 +34,15 @@
     <div class="quick-test">
       <section :class="'cat'+cat.node.id" v-for="cat in $page.allDiagFlashCat.edges"  >
           <h2> {{ cat.node.title }}</h2>
-          <ul class="rf-accordions-group">
-            <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
-              <h3 :id="criterion.node.id" class="rf-accordion__title"><span class="numero">{{ criterion.node.id }}</span>
-                <button class=" rf-accordion__btn" aria-expanded="false" :aria-controls="'critere-'+criterion.node.id">
+          <ul class="fr-accordions-group">
+            <li  class="fr-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
+              <h3 class="fr-accordion__title"><span class="numero">{{ criterion.node.id }}</span>
+                <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
                    {{ criterion.node.title }}
                 </button>
               </h3>
-              <div class="rf-collapse" :id="'critere-'+criterion.node.id">
-                <div class="rf-accordion__inner">
+              <div class="fr-collapse" :id="criterion.node.id">
+                <div class="fr-accordion__inner">
                   <div v-html="criterion.node.content" />
                 </div>
               </div>
@@ -140,11 +140,11 @@ export default {
       }
     }
 
-    .rf-accordion__inner {
-      background-color:#F4F4F6;
+    .fr-accordion__inner {
+      background-color:var(--g200);
       padding: 1rem 2rem;
     }
-    .rf-accordion .rf-accordion__btn {
+    .fr-accordion .fr-accordion__btn {
       padding: 0.75rem 0 0.75rem 3rem
     }
     span.numero {
@@ -156,11 +156,11 @@ export default {
     }
 
     @media print {
-      .rf-collapse, .guide {
+      .fr-collapse, .guide {
         display: none;
       }
-      .rf-accordion .rf-accordion__btn {
-        padding: 0 0.75rem;
+      .fr-accordion .fr-accordion__btn {
+
         &::before {
             visibility: hidden;
         } 

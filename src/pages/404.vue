@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="rf-container">
+    <div class="fr-container">
       <div class="cover">
         <div class="cover__container">
         <h1>Oups, <span class="text-highlight">cette page n'existe pas</span></h1>

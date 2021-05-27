@@ -25,15 +25,13 @@
       </div>
     </div>
     <div class="content">
-<!--
-      <div class="rf-callout">
-          <p class="rf-callout__text">
+      <div class="fr-callout">
+          <p class="fr-callout__text">
             Cette ressource est en <strong>version beta</strong> et n’est que partiellement conforme au RGAA.<br>
             Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr ou en <a href="https://github.com/DISIC/design.numerique.gouv.fr/issues" target="_blank" rel="noreferrer noopener" title="créant un ticket - nouvelle fenêtre">créant un ticket</a> sur le dépot.
           </p>
       </div>
- -->
-      <section class="goose rf-mt-8w">
+      <section class="goose fr-mt-8w">
         <ol>
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
@@ -55,24 +53,24 @@
                   </p>
                   <h3><button class="goose__card-title" title="" aria-expanded="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'">{{ card.node.title }}</button></h3>
 
-                  <dialog :aria-labelledby="'rf-modal-'+card.node.id" :id="card.node.id" class="rf-modal">
-                      <div class="rf-container">
-                          <div class="rf-grid-row rf-grid-row--center">
-                              <div class="rf-col-xs-12 rf-col-sm-10 rf-col-md-8">
-                                  <div class="rf-modal__body">
-                                      <div class="rf-modal__header">
-                                          <button class="rf-link--close rf-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>
+                  <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal">
+                      <div class="fr-container">
+                          <div class="fr-grid-row fr-grid-row--center">
+                              <div class="fr-col-xs-12 fr-col-sm-10 fr-col-md-8">
+                                  <div class="fr-modal__body">
+                                      <div class="fr-modal__header">
+                                          <button class="fr-link--close fr-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>
                                       </div>
-                                      <div class="rf-modal__content">
+                                      <div class="fr-modal__content">
                                         <p v-if="card.node.top250" class="goose__modal-icon">Top250</p>
                                         <font-awesome v-else class="goose__modal-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
-                                        <h1 :id="'rf-modal-'+card.node.id" class="rf-modal__title">{{ card.node.title }}</h1>
+                                        <h1 :id="'fr-modal-'+card.node.id" class="fr-modal__title">{{ card.node.title }}</h1>
                                         <p v-if="card.node.top250" class="goose__modal-notice">
                                           <font-awesome :icon="['fas', 'info-circle']" height="16" width="16" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
                                         </p>
                                         <div v-html="card.node.content" />
                                       </div>
-                                      <div class="rf-modal__footer goose__modal-navigation">
+                                      <div class="fr-modal__footer goose__modal-navigation">
                                         <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
                                                 name="Précédent"
                                                 class="goose__previous-card"
@@ -384,13 +382,13 @@
            }
          }
 
-        .rf-container {
+        .fr-container {
           @media only screen and (min-width: $mobile-max-width + 1) {
             margin-bottom: 112px;
           }
         }
 
-        .rf-modal__footer {
+        .fr-modal__footer {
           padding: 16px;
 
           @media only screen and (max-width: $mobile-max-width) {

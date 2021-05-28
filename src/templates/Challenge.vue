@@ -52,10 +52,10 @@
           <p class="mission-detail__name">Impact :</p>
           <p class="mission-detail__content">{{ $page.challenge.volumetry }} citoyens par an</p>
         </div>
-        <div class="mission-detail">
+        <div v-if="$page.challenge.budget" class="mission-detail">
           <font-awesome :icon="['fas', 'search']" height="16px" class="mission-detail__icon"/>
           <p class="mission-detail__name">Budget :</p>
-          <p class="mission-detail__content">{{ $page.challenge.volumetry }} €</p>
+          <p class="mission-detail__content">{{ $page.challenge.budget }} €</p>
         </div>
         <div class="mission-detail">
           <font-awesome :icon="['fas', 'calendar-check']" height="16px" class="mission-detail__icon"/>
@@ -159,6 +159,7 @@
       content
       title
       status
+      budget
       procedures {
         name
         url

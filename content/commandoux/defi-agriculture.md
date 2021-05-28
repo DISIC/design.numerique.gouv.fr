@@ -11,6 +11,7 @@ procedures: [
   ]
 volumetry: 860 000
 ratio: 70%
+budget: 200 000
 team: ['beatrice-le-thuc']
 goals: [
     {name: 'Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)', done: true},

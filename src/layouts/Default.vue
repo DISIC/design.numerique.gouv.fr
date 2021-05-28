@@ -60,21 +60,11 @@ query {
       let dsfr = document.createElement('script');
       dsfr.type = "module";
       dsfr.src = src;
-
-/*       let srcnomodule = "/assets/js/dsfr.nomodule.min.js";
-      let dsfrnomodule = document.createElement('script');
-      dsfrnomodule.noModule = true;
-      dsfrnomodule.type = "text/javascript";
-      dsfrnomodule.src = srcnomodule; */
-
       let scripts = document.querySelectorAll('[src="' + src + '"]');
-      //scripts = scripts + document.querySelectorAll('[src="' + srcnomodule + '"]');
       if (scripts.length > 0) {
         scripts[0].remove();
       }
-      //document.body.appendChild(dsfrnomodule);
       document.body.appendChild(dsfr);
-
     }
   }
 </script>

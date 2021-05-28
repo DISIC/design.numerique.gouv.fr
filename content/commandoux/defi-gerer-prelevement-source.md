@@ -1,13 +1,14 @@
 ---
-title: Défi prélèvement à la source
-description: Offrir à tous les usagers qui souhaitent gérer leur prélèvement à la source une expérience confortable et totalement accessible
+title: Améliorer l’interface de gestion du prélèvement à la source
+description: Défi prélèvement à la source
 slug: defi-gerer-prelevement-source
 illustration: ['fas', 'gavel']
-department: Ministère de l'Économie, des Finances et de la Relance
+department: Ministère de l’Économie, des Finances et de la Relance
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand
-fullTitle: Gérer mon prélèvement à la source
-website: https://www.impots.gouv.fr/portail/particulier
+procedures: [
+    {name: 'Gérer mon prélèvement à la source', url: 'https://www.impots.gouv.fr/portail/particulier'},
+  ]
 volumetry: 8 200 000
 ratio: 100%
 team: ["yaacov-cohen"]
@@ -18,7 +19,7 @@ finishDate:
 
 ## Problématique
 
-Le service du prélèvement à la source est aujourd'hui l'une des démarches les plus utilisées sur impots.gouv.fr.
+Le service du prélèvement à la source est aujourd’hui l’une des démarches les plus utilisées sur impots.gouv.fr.
 
 
 ## Objectifs du défi

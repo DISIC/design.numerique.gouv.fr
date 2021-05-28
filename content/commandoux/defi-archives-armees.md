@@ -1,13 +1,14 @@
 ---
-title: Défi archives des armées
-description: Permettre aux anciens combattants de consulter en ligne les archives leur permettant d'accéder à des droits
+title: Dématérialiser la consultation des archive pour les anciens combattants
+description: Défi archives des armées
 slug: defi-recherche-administrative
 illustration: ['fas', 'gavel']
 department: Ministère des Armées
 direction: Service historique de la Défense
 place: Vincennes et Pau
-fullTitle: Demande de recherche administrative (créatrice de droits)
-website:
+procedures: [
+    {name: 'Demande de recherche administrative (créatrice de droits)', url: ''},
+  ]
 volumetry: 180 000
 ratio: 100%
 team: ["jocelyn-caron"]
@@ -18,15 +19,15 @@ finishDate:
 
 ## Problématique
 
-Cette démarche permet aux appelés et aux engagés, français et étrangers, souvent âgés, d’obtenir un document administratif militaire (extrait de service, citation, diplômes) pour accéder à des droits : pension, carte du combattant, etc. Elle n'est aujourd'hui pas réalisable en ligne et l'ajout de ressources UX constitue un accélérateur permettant dès l'amont d'intégrer les bonnes pratiques.
+Cette démarche permet aux appelés et aux engagés, français et étrangers, souvent âgés, d’obtenir un document administratif militaire (extrait de service, citation, diplômes) pour accéder à des droits : pension, carte du combattant, etc. Elle n’est aujourd’hui pas réalisable en ligne et l’ajout de ressources UX constitue un accélérateur permettant dès l’amont d’intégrer les bonnes pratiques.
 
-Lorsque l'usager arrive aux archives, c'est qu'il est au bout de sa course : on se doit de lui offrir un service simple, convivial, accessible et compréhensible.
+Lorsque l’usager arrive aux archives, c’est qu’il est au bout de sa course : on se doit de lui offrir un service simple, convivial, accessible et compréhensible.
 
 
 ## Objectifs du défi
 
 - Mise en ligne de la démarche
-- Créer une expérience désirable, accessible, et compréhensible en s'appuyant fortement sur des tests usager
+- Créer une expérience désirable, accessible, et compréhensible en s’appuyant fortement sur des tests usager
 - Atteindre 50% de recours à la voie numérique au premier semestre 2021
 
 
@@ -50,10 +51,10 @@ Il s’accorde ensuite avec les administrations sur ce qui pourrait être réali
 Dans ce cadre-là, Jocelyn imagine une solution visuelle et commence à la faire tester. Le formulaire qu’il propose oriente le demandeur au fur et à mesure des réponses renseignées pour mieux l’orienter, et surtout pour permettre au CAPM de proposer une réponse adéquate. Jocelyn teste ce formulaire avec des profils correspondants aux futurs utilisateurs, identifie les aspects à améliorer et les points positifs, et commence l’élaboration d’un nouveau prototype.
 
 ### Résultats des tests et formalisation
-Suite aux tests, Jocelyn améliore le prototype et présente les résultats aux équipes du ministère ainsi qu'au prestataire qui travaille sur le projet. Il formalise également l'ensemble de son travail par une documentation détaillée qui servira de guide UX lors du développement de la démarche.
+Suite aux tests, Jocelyn améliore le prototype et présente les résultats aux équipes du ministère ainsi qu’au prestataire qui travaille sur le projet. Il formalise également l’ensemble de son travail par une documentation détaillée qui servira de guide UX lors du développement de la démarche.
 
 ### Développement planifié
-Le Commando touche à sa fin, avec une mission accomplie sur l'accompagnement UX en phase de conception ! Les développements sont planifiés pour mars 2021.
+Le Commando touche à sa fin, avec une mission accomplie sur l’accompagnement UX en phase de conception ! Les développements sont planifiés pour mars 2021.
 
 
 ### ... en cours de développement ;)

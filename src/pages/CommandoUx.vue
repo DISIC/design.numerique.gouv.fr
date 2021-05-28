@@ -86,33 +86,39 @@
 
           <li v-for="{ node } in futurChallenges" :key="node.id" class="challenge">
             <div class="challenge__left">
-              <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" />
+              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
               <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="challenge__right">
-              <g-image v-for="member in node.team" :key="member.id" class="challenge__team-member" :src="member.photo" alt="" />
+              <ul class="challenge__team">
+                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+              </ul>
               <p class="challenge__status challenge__status--futur">À venir</p>
             </div>
           </li>
 
           <li v-for="{ node } in presentChallenges" :key="node.id" class="challenge">
             <div class="challenge__left">
-              <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" />
+              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
               <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="challenge__right">
-              <g-image v-for="member in node.team" :key="member.id" class="challenge__team-member" :src="member.photo" alt="" />
+              <ul class="challenge__team">
+                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+              </ul>
               <p class="challenge__status challenge__status--present">En cours</p>
             </div>
           </li>
 
           <li v-for="{ node } in pastChallenges" :key="node.id" class="challenge">
             <div class="challenge__left">
-              <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" />
+              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
               <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="challenge__right">
-              <g-image v-for="member in node.team" :key="member.id" class="challenge__team-member" :src="member.photo" alt="" />
+              <ul class="challenge__team">
+                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+              </ul>
               <p class="challenge__status challenge__status--past">Accomplie</p>
             </div>
           </li>
@@ -253,7 +259,8 @@
         justify-content: space-between;
 
         @media only screen and (max-width: $mobile-max-width) {
-          //margin: 0px 0px 32px 0px;
+          flex-wrap: wrap;
+          padding: 0.5rem 0;
         }
 
         &:hover {
@@ -263,14 +270,34 @@
           box-shadow: 5px 5px 0px $light;
         }
 
-        &__name {
-          font-weight: 700;
-          font-size: 1rem;
-          margin: 0 0.5rem;
+        &__left {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
 
           @media only screen and (max-width: $mobile-max-width) {
-            //margin: 8px 0 4px 0;
+            width: 100%;
           }
+        }
+
+        &__right {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          flex-direction: row;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            width: 100%;
+            margin-top: 0.75rem;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+          }
+        }
+
+        &__name {
+          font-weight: normal;
+          font-size: 1rem;
+          margin: 0 1rem 0 0;
 
           a {
             border: none !important;
@@ -288,22 +315,25 @@
         }
 
         &__illustration {
-          max-width: 2rem;
-          max-height: 2rem;
-          margin: 0 0.5rem 0 0;
+          width: 1rem;
+          height: 1rem;
           color: $red;
+        }
 
-          @media only screen and (max-width: $mobile-max-width) {
-            //max-width: 64px;
-            //height: 64px;
+        &__team {
+          display: flex;
+
+          li {
+            list-style: none;
           }
         }
 
         &__team-member {
+          list-style: none;
           border-radius: 50%;
           width: 1.875rem;
           height: 1.875rem;
-          margin: 0 0.25rem;
+          margin: 0 0.25rem -0.5rem 0.25rem;
         }
 
         &__status {
@@ -316,6 +346,10 @@
           font-size: 0.875rem;
           font-weight: 500;
           padding: 0.125rem 0.75rem;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            margin: 0;
+          }
 
           &--futur {
             border-color: $gray;
@@ -334,18 +368,6 @@
             background-color: white;
             color: $blue;
           }
-        }
-
-        &__left {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-        }
-
-        &__right {
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
         }
       }
 

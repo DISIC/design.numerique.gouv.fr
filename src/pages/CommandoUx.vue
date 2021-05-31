@@ -38,9 +38,9 @@
               </p>
             </div>
 
-            <g-link to="/accessibilite-numerique/" class="item__link button button--highlight">
+            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidatez - Nouvelle fenêtre" class="item__link button button--highlight">
               Candidatez<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </g-link>
+            </a>
           </div>
 
           <div class="item item--right">
@@ -52,9 +52,9 @@
               </p>
             </div>
 
-            <g-link to="/accessibilite-numerique/" class="item__link button button--highlight">
+            <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" title="Partagez votre intérêt - Nouvelle fenêtre" class="item__link button button--highlight">
               Partagez votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </g-link>
+            </a>
           </div>
 
       </section>

@@ -17,7 +17,7 @@
 
       <section class="subsection">
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>C'est reparti !
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Des expert·e·s au sein des administrations
         </h2>
         <p>
           Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l'aventure : déployer des expert·e·s du numériques au sein des administrations pour rendre <strong>plus accessibles et plus compréhensibles</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.

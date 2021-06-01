@@ -108,15 +108,15 @@
         meta: [
           {
             name: "description",
-            content: this.$page.challenge.description
+            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
           },
           {
             property: 'og:title',
-            content: this.$page.challenge.title
+            content: this.$page.challenge.title + " - DesignGouv"
           },
           {
             property: 'og:description',
-            content: this.$page.challenge.description
+            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
           },
             {
             property: 'og:image',
@@ -132,11 +132,11 @@
           },
           {
             name: "twitter:title",
-            content: this.$page.challenge.title
+            content: this.$page.challenge.title + " - DesignGouv"
           },
           {
             name: "twitter:description",
-            content: this.$page.challenge.description
+            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
           },
           {
             name: "twitter:image",

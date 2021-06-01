@@ -191,7 +191,7 @@
       title: "Commando UX",
       meta: [{
         name: 'description',
-        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
+        content: "Une équipe d'expert·e·s mobilisée pour améliorer l'expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         property: 'og:title',
@@ -199,7 +199,7 @@
       },
       {
         property: 'og:description',
-        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
+        content: "Une équipe d'expert·e·s mobilisée pour améliorer l'expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         property: 'og:image',
@@ -219,7 +219,7 @@
       },
       {
         name: "twitter:description",
-        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
+        content: "Une équipe d'expert·e·s mobilisée pour améliorer l'expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         name: "twitter:image",

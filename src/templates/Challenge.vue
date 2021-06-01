@@ -26,14 +26,14 @@
 
       <section class="mission">
         <div class="mission-detail">
-          <font-awesome :icon="['fas', 'route']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px"/></p>
           <p class="mission-detail__name">Statut :</p>
           <p v-if="$page.challenge.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
           <p v-else-if="$page.challenge.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
           <p v-else-if="$page.challenge.status == 'past'" class="mission-detail__status mission-detail__status--past">Accomplie</p>
         </div>
         <div class="mission-detail">
-          <font-awesome :icon="['fas', 'desktop']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'desktop']" height="16px"/></p>
           <p class="mission-detail__name">Démarche :</p>
           <ul class="mission-detail__content mission-detail__content--procedures">
             <li v-for="procedure in $page.challenge.procedures">
@@ -48,22 +48,22 @@
           <p class="mission-detail__content">{{ $page.challenge.department }} - {{ $page.challenge.direction }}</p>
         </div> -->
         <div v-if="$page.challenge.budget" class="mission-detail">
-          <font-awesome :icon="['fas', 'search']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'euro-sign']" height="16px"/></p>
           <p class="mission-detail__name">Budget :</p>
           <p class="mission-detail__content">{{ $page.challenge.budget }} €</p>
         </div>
         <div class="mission-detail">
-          <font-awesome :icon="['fas', 'user-friends']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px"/></p>
           <p class="mission-detail__name">Impact :</p>
           <p class="mission-detail__content">{{ $page.challenge.volumetry }} citoyens par an</p>
         </div>
         <div class="mission-detail">
-          <font-awesome :icon="['fas', 'calendar-check']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'calendar-check']" height="16px"/></p>
           <p class="mission-detail__name">Date de début :</p>
           <p class="mission-detail__content">{{ $page.challenge.startDate }}</p>
         </div>
         <div class="mission-detail mission-detail--team">
-          <font-awesome :icon="['fas', 'user-astronaut']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px"/></p>
           <p class="mission-detail__name">Commando :</p>
           <ul class="mission-detail__content mission-detail__content--team">
             <li v-for="member in $page.challenge.team" :key="member.id" class="team-member">
@@ -73,7 +73,7 @@
           </ul>
         </div>
         <div v-if="$page.challenge.goals.length" class="mission-detail mission-detail--goals">
-          <font-awesome :icon="['fas', 'tasks']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></p>
           <p class="mission-detail__name">Objectifs :</p>
           <ol class="mission-detail__content mission-detail__content--goals">
             <li v-for="goal in $page.challenge.goals" class="goal">
@@ -237,12 +237,13 @@
 
           &__icon {
             background-color: $light-gray;
-            border-radius: 100%;
-            padding: 0.5rem;
-            margin-right: 0.5rem;
-            width: 1rem;
-            height: 1rem;
+            border-radius: 50%;
+            padding: 0.25rem;
+            margin: 0 0.5rem 0 0;
+            width: 1.5rem;
+            height: 1.5rem;
             color: $red;
+            text-align: center;
           }
 
           &__name {

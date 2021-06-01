@@ -264,10 +264,12 @@
         }
 
         &:hover {
-          border: 2px solid $gray;
-          border-radius: 0.5rem;
-          border-color: $blue;
-          box-shadow: 5px 5px 0px $light;
+          @media only screen and (min-width: $mobile-max-width + 1) {
+            border: 2px solid $gray;
+            border-radius: 0.5rem;
+            border-color: $blue;
+            box-shadow: 5px 5px 0px $light;
+          }
         }
 
         &__left {

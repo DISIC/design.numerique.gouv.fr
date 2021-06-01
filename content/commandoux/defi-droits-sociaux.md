@@ -1,29 +1,33 @@
 ---
-title: Défi droits sociaux
-description: Pour les citoyens souhaitant simuler leurs droits sociaux, faciliter leur parcours afin que non pas 50% mais tous les usagers parviennent à effectuer cette démarche
+title: Faciliter l’usage du simulateur de droits sociaux
+description: Défi droits sociaux
 slug: defi-droits-sociaux
-illustration: ./illustrations/droits.svg
+illustration: ['fas', 'gavel']
 department: Ministère des Solidarités et de la Santé
 direction: Direction de la sécurité sociale
 place: Montauban
-fullTitle: Simuler mes droits sociaux
-website: https://www.mesdroitssociaux.gouv.fr/
+procedures: [
+    {name: 'Simuler mes droits sociaux', url: 'https://www.mesdroitssociaux.gouv.fr/'},
+  ]
 volumetry: 503 533
 ratio: 100%
 team: ["benjamin-metifeu", "simon-denier"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique
 
-Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite,...), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l'emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d'avoir droit. Ce défi vise l'amélioration de ce simulateur.
+Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite,...), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l’emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d’avoir droit. Ce défi vise l’amélioration de ce simulateur.
 
 
 ## Objectifs du défi
 
-- Fluidifier et simplifier l'expérience de l'utilisateur en fonction de ses besoins immédiats
-- Offrir à l'utilisateur une interface accessible pour le guider en utilisant un vocabulaire simple et compréhensible
-- Rendre le simulateur convivial pour donner envie à l'utilisateur d'aller jusqu'au bout de la simulation
-- Rendre l'expérience satisfaisante même si le résultat ne propose aucune prestation sociale à l'usager
+- Fluidifier et simplifier l’expérience de l’utilisateur en fonction de ses besoins immédiats
+- Offrir à l’utilisateur une interface accessible pour le guider en utilisant un vocabulaire simple et compréhensible
+- Rendre le simulateur convivial pour donner envie à l’utilisateur d’aller jusqu’au bout de la simulation
+- Rendre l’expérience satisfaisante même si le résultat ne propose aucune prestation sociale à l’usager
 
 
 ## Le défi étape par étape

@@ -1,27 +1,31 @@
 ---
-title: Défi paiement des amendes
-description: Rendre la démarche de paiement des amendes en ligne accessible et agréable à utiliser pour tous
+title: Rendre la démarche de paiement des amendes en ligne accessible
+description: Défi paiement des amendes
 slug: defi-paiement-des-amendes
-illustration: ./illustrations/amendes.svg
-department: Ministère de l'Économie, des Finances et de la Relance
+illustration: ['fas', 'gavel']
+department: Ministère de l’Économie, des Finances et de la Relance
 direction: Direction Générale des Finances Publiques
 place: Paris
-fullTitle: Paiement amendes
-website: https://www.amendes.gouv.fr
+procedures: [
+    {name: 'Paiement des amendes', url: 'https://www.amendes.gouv.fr'},
+  ]
 volumetry: 18 720 381
 ratio: 59%
 team: ["lucile-foraison", "bertrand-keller"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique
 
-Le ministère de l'Action et des Comptes publics souhaite avancer rapidement sur la mise en accessibilité de ses démarches orienté grand public. Pour cela, il a lancé récemment des audits d'accessibilité afin d'évaluer le travail à effectuer pour 28 de ses démarches. Il souhaite relever le défi d'avoir d'ici fin 2020 établi une feuille de route jusqu’en 2022, en ayant conduit toutes les évaluations nécessaires et décrit plus précisément les premières étapes du plan, mais aussi trouver une approche pour apporter rapidement des évolutions visibles par les usagers dès début 2021.
+Le ministère de l’Action et des Comptes publics souhaite avancer rapidement sur la mise en accessibilité de ses démarches orienté grand public. Pour cela, il a lancé récemment des audits d’accessibilité afin d’évaluer le travail à effectuer pour 28 de ses démarches. Il souhaite relever le défi d’avoir d’ici fin 2020 établi une feuille de route jusqu’en 2022, en ayant conduit toutes les évaluations nécessaires et décrit plus précisément les premières étapes du plan, mais aussi trouver une approche pour apporter rapidement des évolutions visibles par les usagers dès début 2021.
 
 
 ## Objectifs du défi
 
 - Rendre la démarche de paiement des amendes en ligne 100% accessible
-- Sur la base des audits d'accessibilité réalisés, œuvrer pour rendre l'ensemble des 28 démarches du ministère 100% accessibles à l'horizon 2022
+- Sur la base des audits d’accessibilité réalisés, œuvrer pour rendre l’ensemble des 28 démarches du ministère 100% accessibles à l’horizon 2022
 - Proposer de premières actions à mettre en œuvre dès 2021
 
 

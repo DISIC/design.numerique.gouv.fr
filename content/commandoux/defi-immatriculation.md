@@ -1,16 +1,20 @@
 ---
-title: Défi immatriculation
-description: Améliorer l'expérience et l'accessibilité d'un ensemble de démarches liées à l'immatriculation des véhicules
+title: Améliorer plusieurs démarches liées à l’immatriculation des véhicules
+description: Défi immatriculation
 slug: defi-immatriculation
-illustration: ./illustrations/immatriculation.svg
-department: Ministère de l'Intérieur
+illustration: ['fas', 'gavel']
+department: Ministère de l’Intérieur
 direction: Délégation à la sécurité routière
 place: Paris et Charleville-Mézières
-fullTitle: Autres demandes concernant l’immatriculation de véhicule
-website: https://immatriculation.ants.gouv.fr/
+procedures: [
+    {name: 'Autres demandes concernant l’immatriculation de véhicule', url: 'https://immatriculation.ants.gouv.fr/'},
+  ]
 volumetry: 10 724 465
 ratio: 100%
 team: ["ev-henke"]
+status: past
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique
@@ -25,7 +29,7 @@ Par ailleurs, cette démarche en ligne n’est pas suffisamment accessible. Un a
 
 ## Objectifs du défi
 
--	L'amélioration durable et visible de la satisfaction des usagers, en termes de taux de satisfaction
+-	L’amélioration durable et visible de la satisfaction des usagers, en termes de taux de satisfaction
 -	La réduction des itérations entre les services instructeurs et les usagers sur cette démarche et une réduction des appels sur cette démarche
 -	La mise en conformité au RGAA : prendre en considération les usagers dans leur grande diversité en développant l’accès au numérique au plus grand nombre
 
@@ -43,7 +47,7 @@ En parallèle, Ev a mené une analyse statistique des usages en s’appuyant sur
 
 ### Conclusions du travail d’analyse et de recherche
 
-Pour des démarches simples d'immatriculation, les usagers rencontrent généralement peu de problèmes, même si l’on constate que l’interface pourrait être simplifiée et modernisée. Pour des demandes d’immatriculation plus spécifiques ou complexes, les usagers rencontrent des problèmes plus sévères. Après la fermeture des guichets de préfectures en 2017, une part des usagers éprouve des difficultés à réaliser leurs démarches en ligne. Les délais sont souvent perçus comme trop longs, les usagers ont des difficultés à trouver de l’aide en cas de blocage, le langage du site est parfois trop technique. Par ailleurs, les démarches sont insuffisamment adaptées aux supports mobiles alors qu’ils sont une source de visite importante.
+Pour des démarches simples d’immatriculation, les usagers rencontrent généralement peu de problèmes, même si l’on constate que l’interface pourrait être simplifiée et modernisée. Pour des demandes d’immatriculation plus spécifiques ou complexes, les usagers rencontrent des problèmes plus sévères. Après la fermeture des guichets de préfectures en 2017, une part des usagers éprouve des difficultés à réaliser leurs démarches en ligne. Les délais sont souvent perçus comme trop longs, les usagers ont des difficultés à trouver de l’aide en cas de blocage, le langage du site est parfois trop technique. Par ailleurs, les démarches sont insuffisamment adaptées aux supports mobiles alors qu’ils sont une source de visite importante.
 
 ### Évaluation ergonomique
 

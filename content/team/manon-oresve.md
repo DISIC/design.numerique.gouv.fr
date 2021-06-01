@@ -8,7 +8,7 @@ sub_team: Défi contestation de contravention
 sub_team_link: /commando-ux/defi-contestation-contravention
 twitter:
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Bretonne expatriée à Paris depuis 5 ans, je viens de terminer mes études en design et communication avec la volonté de travailler pour l'intérêt général.

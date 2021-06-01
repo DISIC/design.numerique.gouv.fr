@@ -1,5 +1,5 @@
 <template>
-  <Layout class="challenge-page" hideNewsletter showServices>
+  <Layout class="mission-page" hideNewsletter showServices>
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
@@ -17,63 +17,76 @@
 
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
-        <g-image :src="$page.challenge.illustration" class="cover__illustration--small" alt=""/>
+        <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
         <h1>{{ $page.challenge.title }}</h1>
-        <p class="cover__subtitle">{{ $page.challenge.description }}</p>
       </div>
     </div>
 
     <div class="content">
 
-      <section class="procedure">
-
-        <div class="key-elements">
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'university']" height="16px"/>
-            </div>
-            <p><b>{{ $page.challenge.department }}</b> - {{ $page.challenge.direction }}</p>
-          </div>
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'user-friends']" height="16px"/>
-            </div>
-            <p><b>{{ $page.challenge.volumetry }}</b></p>
-            <p>personnes utilisent cette démarche chaque année</p>
-          </div>
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'desktop']" height="16px"/>
-            </div>
-            <p v-if="$page.challenge.website"><b>{{ $page.challenge.ratio }}</b></p>
-            <p v-else><b>-</b></p>
-            <p v-if="$page.challenge.website">de demandes se font par le service en ligne</p>
-            <p v-else>La démarche n'est pas encore réalisable en ligne</p>
-          </div>
+      <section class="mission">
+        <div class="mission-detail">
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px"/></p>
+          <p class="mission-detail__name">Statut :</p>
+          <p v-if="$page.challenge.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
+          <p v-else-if="$page.challenge.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
+          <p v-else-if="$page.challenge.status == 'past'" class="mission-detail__status mission-detail__status--past">Accomplie</p>
         </div>
-        <p>Nom de la démarche : {{ $page.challenge.fullTitle }}</p>
-        <p v-if="$page.challenge.website">Lien vers la démarche : <g-link :to="$page.challenge.website">{{ $page.challenge.website }}</g-link></p>
-
+        <div class="mission-detail">
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'desktop']" height="16px"/></p>
+          <p class="mission-detail__name">Démarche :</p>
+          <ul class="mission-detail__content mission-detail__content--procedures">
+            <li v-for="procedure in $page.challenge.procedures">
+              <span v-if="procedure.url"><a :href="procedure.url" :title="procedure.name + ' - Nouvelle fenêtre'" target="_blank">{{ procedure.name }}</a></span>
+              <span v-else>{{ procedure.name }}</span>
+            </li>
+          </ul>
+        </div>
+        <!-- <div class="mission-detail">
+          <font-awesome :icon="['fas', 'university']" height="16px" class="mission-detail__icon"/>
+          <p class="mission-detail__name">Administration :</p>
+          <p class="mission-detail__content">{{ $page.challenge.department }} - {{ $page.challenge.direction }}</p>
+        </div> -->
+        <div v-if="$page.challenge.budget" class="mission-detail">
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'euro-sign']" height="16px"/></p>
+          <p class="mission-detail__name">Budget :</p>
+          <p class="mission-detail__content">{{ $page.challenge.budget }} €</p>
+        </div>
+        <div class="mission-detail">
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px"/></p>
+          <p class="mission-detail__name">Impact :</p>
+          <p class="mission-detail__content">{{ $page.challenge.volumetry }} citoyens par an</p>
+        </div>
+        <div class="mission-detail">
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'calendar-check']" height="16px"/></p>
+          <p class="mission-detail__name">Date de début :</p>
+          <p class="mission-detail__content">{{ $page.challenge.startDate }}</p>
+        </div>
+        <div class="mission-detail mission-detail--team">
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px"/></p>
+          <p class="mission-detail__name">Commando :</p>
+          <ul class="mission-detail__content mission-detail__content--team">
+            <li v-for="member in $page.challenge.team" :key="member.id" class="team-member">
+              <g-image :src="member.photo" class="team-member__photo" alt="" />
+              <p class="team-member__description"><g-link :to="'/equipe/' + member.id">{{ member.firstName }} {{ member.lastName }}</g-link> - {{ member.job_title }}</p>
+            </li>
+          </ul>
+        </div>
+        <div v-if="$page.challenge.goals.length" class="mission-detail mission-detail--goals">
+          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></p>
+          <p class="mission-detail__name">Objectifs :</p>
+          <ol class="mission-detail__content mission-detail__content--goals">
+            <li v-for="goal in $page.challenge.goals" class="goal">
+              <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Fait :" />
+              <font-awesome v-else="goal.done" class="goal__status" :icon="['fas', 'check']" width="16" height="16" title="À faire :" />
+              <span class="goal__name">{{ goal.name }}</span>
+            </li>
+          </ol>
+        </div>
       </section>
 
       <section>
         <div v-html="$page.challenge.content" />
-      </section>
-
-      <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando
-        </h2>
-        <ul class="team">
-          <li v-for="node in $page.challenge.team" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
-            <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
-            <p>{{ node.job_title }}</p>
-            <p v-if="node.twitter">
-              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-            </p>
-          </li>
-        </ul>
       </section>
 
     </div>
@@ -95,15 +108,15 @@
         meta: [
           {
             name: "description",
-            content: this.$page.challenge.description
+            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
           },
           {
             property: 'og:title',
-            content: this.$page.challenge.title
+            content: this.$page.challenge.title + " - DesignGouv"
           },
           {
             property: 'og:description',
-            content: this.$page.challenge.description
+            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
           },
             {
             property: 'og:image',
@@ -119,11 +132,11 @@
           },
           {
             name: "twitter:title",
-            content: this.$page.challenge.title
+            content: this.$page.challenge.title + " - DesignGouv"
           },
           {
             name: "twitter:description",
-            content: this.$page.challenge.description
+            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
           },
           {
             name: "twitter:image",
@@ -141,26 +154,29 @@
 
   query Challenge ($id: ID!) {
     challenge: challenge (id: $id) {
-      description
       department
       direction
       content
-      place
       title
-      description
-      illustration
-      fullTitle
+      status
+      budget
+      procedures {
+        name
+        url
+      }
+      goals {
+        name
+        done
+      }
       volumetry
-      ratio
-      website
+      startDate (format: "D MMMM YYYY", locale : "fr")
       team {
         id
         firstName
         lastName
-        photo (width: 150, height: 150, quality: 100)
+        photo (width: 64, height: 64, quality: 100)
         path
         job_title
-        twitter
       }
     }
   }
@@ -171,102 +187,179 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .challenge-page {
+  .mission-page {
 
     .cover {
-      margin-bottom: 64px;
+      margin-bottom: 4rem;
+
+      h1 {
+        font-size: 2.5rem;
+      }
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin-top: 48px;
-        margin-bottom: 48px;
+        margin-bottom: 3rem;
 
         h1 {
-          margin-top: 16px;
+          font-size: 2rem;
         }
       }
     }
 
     .content {
 
+      max-width: 36rem;
+      margin: 0 auto;
+
       h2 {
-        margin-top: 54px;
+        margin-top: 3rem;
       }
 
       h3 {
-        margin-top: 36px;
+        margin-top: 2rem;
       }
 
-      .procedure {
-        margin-bottom: 96px;
+      .mission {
+        margin-bottom: 4rem;
 
-        @media only screen and (max-width: $mobile-max-width) {
-          margin-bottom: 64px;
-        }
-
-        p {
-          margin: 4px 0;
-        }
-      }
-
-      #problématique {
-        &:before {
-          background-image: url(/assets/images/problem.svg);
-          background-size: 36px 36px;
-          display: inline-block;
-          width: 36px;
-          height: 36px;
-          margin-right: 16px;
-          margin-bottom: -5px;
-          content:"";
+        .mission-detail {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          margin-bottom: 0.5rem;
 
           @media only screen and (max-width: $mobile-max-width) {
-            background-size: 24px 24px;
-            height: 24px;
-            width: 24px;
-            margin-right: 8px;
-            margin-bottom: -3px;
+            flex-wrap: wrap;
           }
-        }
-      }
 
-      #objectifs-du-défi {
-        &:before {
-          background-image: url(/assets/images/goal.svg);
-          background-size: 36px 36px;
-          display: inline-block;
-          width: 36px;
-          height: 36px;
-          margin-right: 16px;
-          margin-bottom: -5px;
-          content:"";
-
-          @media only screen and (max-width: $mobile-max-width) {
-            background-size: 24px 24px;
-            height: 24px;
-            width: 24px;
-            margin-right: 8px;
-            margin-bottom: -3px;
+          &--team, &--goals {
+            flex-wrap: wrap;
           }
-        }
-      }
 
-      #le-défi-étape-par-étape {
-        &:before {
-          background-image: url(/assets/images/steps.svg);
-          background-size: 36px 36px;
-          display: inline-block;
-          width: 36px;
-          height: 36px;
-          margin-right: 16px;
-          margin-bottom: -5px;
-          content:"";
+          &__icon {
+            background-color: $light-gray;
+            border-radius: 50%;
+            padding: 0.25rem;
+            margin: 0 0.5rem 0 0;
+            width: 1.5rem;
+            height: 1.5rem;
+            color: $red;
+            text-align: center;
+          }
 
-          @media only screen and (max-width: $mobile-max-width) {
-            background-size: 24px 24px;
-            height: 24px;
-            width: 24px;
-            margin-right: 8px;
-            margin-bottom: -3px;
+          &__name {
+            flex-shrink: 0;
+            margin: 0.25rem 0.5rem 0 0;
+            font-weight: bold;
+          }
+
+          &__content {
+            margin: 0.25rem 0 0 0;
+
+            &--procedures {
+              padding: 0;
+
+              @media only screen and (max-width: $mobile-max-width) {
+                margin: 0 0 0 2.5rem;
+              }
+
+              li {
+                list-style: none;
+              }
+            }
+
+            &--team {
+              margin: 0.5rem 0 0 2.5rem;
+              padding: 0;
+              flex-basis: 100%;
+
+              @media only screen and (max-width: $mobile-max-width) {
+                margin-top: 0.25rem;
+              }
+
+              .team-member {
+                display: flex;
+                list-style: none;
+                margin: 0 0 0.5rem 0;
+
+                &__photo {
+                  border-radius: 50%;
+                  width: 1.625rem;
+                  height: 1.625rem;
+                  margin-right: 0.75rem;
+                }
+
+                &__description {
+                    font-weight: normal;
+                    margin: 0.075rem 0 0 0;
+                }
+              }
+            }
+
+            &--goals {
+              margin: 0.75rem 0 0 2.5rem;
+              padding: 0;
+              flex-basis: 100%;
+
+              li {
+                list-style: none;
+              }
+
+              .goal {
+                display: flex;
+                align-items: center;
+                margin-bottom: 0.5rem;
+
+                &__status {
+                  margin-right: 0.75rem;
+                  font-size: 1rem;
+                  border: 2px solid $gray;
+                  height: 0.675rem;
+                  width: 0.675rem;
+                  padding: 0.25rem;
+                  border-radius: 50%;
+                  color: white;
+
+                  &--ok {
+                    color: $blue;
+                    border-color: $blue;
+                  }
+                }
+
+                &__name {
+                  font-weight: normal;
+                }
+              }
+            }
+          }
+
+          &__status {
+            text-align: center;
+            width: 4.5rem;
+            border: solid 2px $gray;
+            border-radius: 0.25rem;
+            background-color: $gray;
+            margin: 0;
+            font-size: 0.875rem;
+            font-weight: 500;
+            padding: 0.125rem 0.75rem;
+
+            &--futur {
+              border-color: $gray;
+              color: $black;
+              background-color: white;
+            }
+
+            &--past {
+              border-color: $light-gray;
+              color: $black;
+              background-color: $light-gray;
+            }
+
+            &--present {
+              border-color: $blue;
+              background-color: white;
+              color: $blue;
+            }
           }
         }
       }
@@ -307,109 +400,6 @@
               height: 108px;
               margin-top: -15px;
             }
-          }
-        }
-      }
-
-      .team {
-        padding: 0;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
-        h3 {
-          margin: 4px 0;
-
-          a {
-            color: $black;
-            border: none;
-
-            &:hover {
-              color: $blue;
-            }
-          }
-        }
-
-        > li {
-          list-style: none;
-          text-align: center;
-          width: 30%;
-          margin: 24px 4px;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            width: 46%;
-          }
-
-          img {
-            border-radius: 50em;
-            max-width: 150px;
-            margin: 0 auto;
-          }
-
-          p {
-              margin: 0;
-          }
-        }
-      }
-
-      .subsection {
-        margin-bottom: 40px;
-      }
-
-      .key-elements {
-        margin: 32px 0 64px 0;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-around;
-        flex-wrap: wrap;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 0;
-        }
-
-        .element {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          width: 240px;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            margin: 0px 4px 32px 4px;
-            width: 160px;
-          }
-
-          img {
-            background-color: lighten($gray, 10%);
-            border-radius: 100%;
-            padding: 12px;
-          }
-
-          > div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 100%;
-            width: 88px;
-            height: 88px;
-            background-color: lighten($gray, 10%);
-            margin-bottom: 16px;
-
-            @media only screen and (max-width: $mobile-max-width) {
-              margin-bottom: 8px;
-            }
-
-            svg {
-              font-size: 40px;
-              color: $blue;
-            }
-          }
-
-          p {
-            margin: 0;
-            padding: 0 8px;
           }
         }
       }

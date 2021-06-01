@@ -8,7 +8,7 @@ sub_team: FranceConnect
 sub_team_link: https://franceconnect.gouv.fr
 twitter: BeaugrandMaxime
 e-mail :
-group : team
+group : ["team"]
 ---
 
 Bio à venir

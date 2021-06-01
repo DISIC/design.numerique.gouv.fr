@@ -1,32 +1,41 @@
 ---
-title: Défi agriculture
-description: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares
+title: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares
+description: Défi agriculture
 slug: defi-agriculture
-illustration: ./illustrations/agriculture.svg
-department: Ministère de l'Agriculture et de l'Alimentation
+illustration: ['fas', 'gavel']
+department: Ministère de l’Agriculture et de l’Alimentation
 direction: Secrétariat général
 place: Paris
-fullTitle: Site "Mes démarches" du ministère de l'Agriculture
-website: http://mesdemarches.agriculture.gouv.fr
+procedures: [
+    {name: 'Site "Mes démarches" du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
+  ]
 volumetry: 860 000
 ratio: 70%
-team: ["beatrice-le-thuc"]
+budget: 200 000
+team: ['beatrice-le-thuc']
+goals: [
+    {name: 'Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)', done: true},
+    {name: 'Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés', done: false},
+  ]
+status: present
+startDate: 2020-07-09
+finishDate:
 ---
 
 ## Problématique
 
-L'acculturation en matière d'UX design dont pourrait bénéficier l'équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée "usagers".
+L’acculturation en matière d’UX design dont pourrait bénéficier l’équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée "usagers".
 
-Ce défi est différent des autres puisque vous accompagnerez le ministère de l'Agriculture autour de deux démarches :
+Ce défi est différent des autres puisque vous accompagnerez le ministère de l’Agriculture autour de deux démarches :
 
-1. Le site "Mes démarches" conçu en 2013 qui permet aux usagers d'accéder à l'ensemble des éléments leur permettant de s'informer sur une démarche et de la réaliser
-2. La déclaration de détention et d'emplacement de ruches, une des démarches les plus emblématiques du ministère
+1. Le site "Mes démarches" conçu en 2013 qui permet aux usagers d’accéder à l’ensemble des éléments leur permettant de s’informer sur une démarche et de la réaliser
+2. La déclaration de détention et d’emplacement de ruches, une des démarches les plus emblématiques du ministère
 
 
-## Objectifs du défi
+<!-- ## Objectifs du défi
 
-- Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d'écoute, entretiens individuels et tests utilisateur)
-- Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés
+- Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)
+- Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés -->
 
 
 ## Le défi étape par étape

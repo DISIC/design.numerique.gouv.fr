@@ -9,7 +9,7 @@ place: Montauban
 procedures: [
     {name: 'Simuler mes droits sociaux', url: 'https://www.mesdroitssociaux.gouv.fr/'},
   ]
-volumetry: 503 533
+volumetry: 503 533
 ratio: 100%
 team: ["benjamin-metifeu", "simon-denier"]
 status: past
@@ -19,7 +19,7 @@ finishDate:
 
 ## Problématique
 
-Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite,...), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l’emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d’avoir droit. Ce défi vise l’amélioration de ce simulateur.
+Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite,…), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l’emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d’avoir droit. Ce défi vise l’amélioration de ce simulateur.
 
 
 ## Objectifs du défi
@@ -47,11 +47,11 @@ Les statistiques de la CAF et de la MSA permettent à Georges et Simon de défin
 
 ### Conception du nouveau simulateur
 
-Après les premières études, Georges et Simon commencent à concevoir les nouveaux parcours pour les aides au logement. Avec les équipes d’iMSA, ils échangent avec des experts métier de la direction de l’habitat, de l’urbanisme et des paysages (DHUP) pour mieux saisir le fonctionnement de ces aides. Il existe une centaine d’informations à intégrer pour simuler les aides, l’enjeu est donc de rendre le système le plus efficace possible pour que l’usager accède à sa simulation avec le moins d’effort.
+Après les premières études, Georges et Simon commencent à concevoir les nouveaux parcours pour les aides au logement. Avec les équipes d’iMSA, ils échangent avec des experts métiers de la direction de l’habitat, de l’urbanisme et des paysages (DHUP) pour mieux saisir le fonctionnement de ces aides. Il existe une centaine d’informations à intégrer pour simuler les aides, l’enjeu est donc de rendre le système le plus efficace possible pour que l’usager accède à sa simulation avec le moins d’effort.
 
 Tandis que Georges affine les maquettes des parcours pour effectuer de nouveaux tests, Simon entame la mise en place de l’architecture technique visant à accueillir le nouveau simulateur.
 
-### ... à suivre
+### … à suivre
 
 Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::

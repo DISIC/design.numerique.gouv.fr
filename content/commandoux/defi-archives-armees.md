@@ -1,5 +1,5 @@
 ---
-title: Dématérialiser la consultation des archive pour les anciens combattants
+title: Dématérialiser la consultation des archives pour les anciens combattants
 description: Défi archives des armées
 slug: defi-recherche-administrative
 illustration: ['fas', 'gavel']
@@ -9,7 +9,7 @@ place: Vincennes et Pau
 procedures: [
     {name: 'Demande de recherche administrative (créatrice de droits)', url: ''},
   ]
-volumetry: 180 000
+volumetry: 180 000
 ratio: 100%
 team: ["jocelyn-caron"]
 status: present
@@ -57,6 +57,6 @@ Suite aux tests, Jocelyn améliore le prototype et présente les résultats aux 
 Le Commando touche à sa fin, avec une mission accomplie sur l’accompagnement UX en phase de conception ! Les développements sont planifiés pour mars 2021.
 
 
-### ... en cours de développement ;)
+### … en cours de développement ;)
 
 :::

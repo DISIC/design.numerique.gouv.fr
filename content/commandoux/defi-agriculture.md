@@ -7,11 +7,11 @@ department: Ministère de l’Agriculture et de l’Alimentation
 direction: Secrétariat général
 place: Paris
 procedures: [
-    {name: 'Site "Mes démarches" du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
+    {name: 'Site “Mes démarches” du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
   ]
-volumetry: 860 000
+volumetry: 860 000
 ratio: 70%
-budget: 200 000
+budget: 200 000
 team: ['beatrice-le-thuc']
 goals: [
     {name: 'Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)', done: true},
@@ -24,11 +24,11 @@ finishDate:
 
 ## Problématique
 
-L’acculturation en matière d’UX design dont pourrait bénéficier l’équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée "usagers".
+L’acculturation en matière d’UX design dont pourrait bénéficier l’équipe en charge du développement des démarches du ministère permettrait un saut qualitatif dans le service offert, premier pas vers une relecture générale de nos politiques publiques résolument orientée “usagers”.
 
 Ce défi est différent des autres puisque vous accompagnerez le ministère de l’Agriculture autour de deux démarches :
 
-1. Le site "Mes démarches" conçu en 2013 qui permet aux usagers d’accéder à l’ensemble des éléments leur permettant de s’informer sur une démarche et de la réaliser
+1. Le site “Mes démarches” conçu en 2013 qui permet aux usagers d’accéder à l’ensemble des éléments leur permettant de s’informer sur une démarche et de la réaliser
 2. La déclaration de détention et d’emplacement de ruches, une des démarches les plus emblématiques du ministère
 
 
@@ -51,11 +51,11 @@ Grâce aux différents outils de statistiques disponibles sur ces démarches, de
 
 20% des usagers consultent le site sur leur mobile, ce qui confirme la nécessité d’adapter les démarches à toutes les tailles d’écran.
 
-D’un point de vue plus qualitatif, **les près de 2 000 avis des usagers recueillis à travers le bouton « Je donne mon avis » (Observatoire de la qualité des démarches en ligne)** ont été analysés et ont déjà permis de pointer certains axes d’améliorations auprès des équipes du Ministère de l’Agriculture.
+D’un point de vue plus qualitatif, **les près de 2 000 avis des usagers recueillis à travers le bouton “Je donne mon avis” (Observatoire de la qualité des démarches en ligne)** ont été analysés et ont déjà permis de pointer certains axes d’améliorations auprès des équipes du Ministère de l’Agriculture.
 
 ### Entretiens avec les usagers
 
-Des **entretiens individuels** avec des **agriculteurs** et des **apiculteurs** sont en cours. Les profils qui s’en dégagent sont déjà très disparates, mais il est encore trop tôt pour pouvoir définir les différents personae.
+Des **entretiens individuels** avec des **agriculteurs** et des **apiculteurs** sont en cours. Les profils qui s’en dégagent sont déjà très disparates, mais il est encore trop tôt pour pouvoir définir les différents personæ.
 
 **Lors de ces entretiens, les équipes du ministère de l’Agriculture ont pu observer des usagers pendant qu’ils effectuaient leur démarche, ce qui permet de les sensibiliser à une approche de design centré sur les usagers (UX).**
 
@@ -69,7 +69,7 @@ Sur la déclaration de ruches, Béatrice va pouvoir proposer des optimisations d
 
 En parallèle et en lien direct avec son audit UX**,** elle pourra fournir de premières recommandations.
 
-### ... à suivre
+### … à suivre
 
 Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::

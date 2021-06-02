@@ -9,7 +9,7 @@ place: Paris et Charleville-Mézières
 procedures: [
     {name: 'Autres demandes concernant l’immatriculation de véhicule', url: 'https://immatriculation.ants.gouv.fr/'},
   ]
-volumetry: 10 724 465
+volumetry: 10 724 465
 ratio: 100%
 team: ["ev-henke"]
 status: past
@@ -19,8 +19,8 @@ finishDate:
 
 ## Problématique
 
-La démarche « Autres demandes concernant l’immatriculation des véhicules » est peu satisfaisante pour les usagers. Selon l’Observatoire de la qualité des démarches en ligne :
--	seulement 51% des usagers qui ont répondu à l’enquête de satisfaction en fin de démarche (4 000 usagers environ) sont satisfaits par cette démarche et 34% émettent un avis négatif sur cette démarche
+La démarche “Autres demandes concernant l’immatriculation des véhicules” est peu satisfaisante pour les usagers. Selon l’Observatoire de la qualité des démarches en ligne :
+-	seulement 51% des usagers qui ont répondu à l’enquête de satisfaction en fin de démarche (4 000 usagers environ) sont satisfaits par cette démarche et 34% émettent un avis négatif sur cette démarche
 -	un tiers de ces usagers estiment que cette démarche est difficile à réaliser
 -	53% de ces usagers déclarent avoir eu besoin d’aide pour réaliser cette démarche
 

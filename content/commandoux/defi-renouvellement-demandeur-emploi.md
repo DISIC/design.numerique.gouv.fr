@@ -9,7 +9,7 @@ place: Paris
 procedures: [
     {name: 'Renouvellement mensuel de la situation de demandeur d’emploi (pôle emploi)', url: 'https://candidat.pole-emploi.fr/inscription/preambule'},
   ]
-volumetry: 6 297 380
+volumetry: 6 297 380
 ratio: 100%
 team: ["hugo-thomas"]
 status: past
@@ -19,7 +19,7 @@ finishDate:
 
 ## Problématique
 
-Chaque demandeur d’emploi doit, chaque mois, effectuer son actualisation. Cette démarche lui permet de rester inscrit à pôle emploi et, si ils ont des droits, de déclencher leur paiement.
+Chaque demandeur d’emploi doit, chaque mois, effectuer son actualisation. Cette démarche lui permet de rester inscrit à pôle emploi et, s’il a des droits, de déclencher leurs paiements.
 Si le demandeur d’emploi se trompe, indique une mauvaise information, il peut être radié, ne pas être payé ou avoir un trop-perçu.
 En 2019 Pôle emploi comptabilise plus d’un milliard de trop-perçus dont 77% sont liés à l’actualisation.
 Zen a pour objectif de diminuer ce risque en améliorant l’expérience utilisateur de l’actualisation. L’expérience utilisateur devra alors être claire, et permettre plus d’autonomie aux demandeurs d’emploi.
@@ -45,7 +45,7 @@ Environ 480 000 demandeurs d’emploi utilisent le serveur vocal du 39 49 pour 
 
 Des évolutions du parcours utilisateur d’actualisation mensuelle sont en cours. Hugo se rend dans des agences Pôle emploi pour recueillir l’avis des usagers sur ces nouvelles évolutions de la démarche. Les résultats de ces observations serviront à augmenter encore la facilité d’utilisation.
 
-### ... à suivre
+### … à suivre
 
 Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::

@@ -9,7 +9,7 @@ place: Paris et Rennes
 procedures: [
     {name: 'Contestation d’avis de contravention et désignation de conducteur (infractions relevées par radars ou Pve)', url: 'https://www.usagers.antai.gouv.fr/demarches/saisienumero'},
   ]
-volumetry: 7 973 138
+volumetry: 7 973 138
 ratio: 44%
 team: ["manon-oresve", "lola-charpentier"]
 status: futur
@@ -25,7 +25,7 @@ La démarche de « contestation d’avis de contravention et la désignation de 
 
 L’objectif de ce défi est de rendre cette démarche plus désirable, fluide, accessible et compréhensible par tous. Il doit permettre d’augmenter le taux de satisfaction des usagers et en conséquence le taux de recours à la voie numérique.
 
-Au delà d’apporter une expérience plus fluide pour les usagers, à la clé c’est plus de 11 millions d’euros qui pourraient être économisés ainsi que plus de 200 tonnes de CO2 par an.  
+Au-delà d’apporter une expérience plus fluide pour les usagers, à la clé c’est plus de 11 millions d’euros qui pourraient être économisés ainsi que plus de 200 tonnes de CO2 par an.  
 
 
 ## Le défi étape par étape
@@ -48,7 +48,7 @@ Lorsqu’ils rencontrent un problème sur le parcours de contestation, les usage
 Cette analyse de l’existant comprend deux éléments : l’accessibilité et la compréhension du service en ligne.
 Nous réalisons un premier audit d’accessibilité (RGAA) sur 25 critères que nous partageons avec les développeurs. Puis, nous menons des tests d’utilisabilité avec une douzaine de personnes en entretien individuel en visioconférence, où les participants manipulent une maquette du site tel qu’il est aujourd’hui. Le but est d’identifier les freins et besoins pour proposer des améliorations qui porteront sur la navigation comme sur la compréhension de la démarche et du vocabulaire employé.
 
-### ... à suivre
+### … à suivre
 
 Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::

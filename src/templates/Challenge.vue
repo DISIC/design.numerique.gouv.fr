@@ -68,7 +68,7 @@
           <ul class="mission-detail__content mission-detail__content--team">
             <li v-for="member in $page.challenge.team" :key="member.id" class="team-member">
               <g-image :src="member.photo" class="team-member__photo" alt="" />
-              <p class="team-member__description"><g-link :to="'/equipe/' + member.id">{{ member.firstName }} {{ member.lastName }}</g-link> - {{ member.job_title }}</p>
+              <p class="team-member__description"><g-link :to="'/equipe/' + member.id">{{ member.firstName }} {{ member.lastName }}</g-link> — {{ member.job_title }}</p>
             </li>
           </ul>
         </div>

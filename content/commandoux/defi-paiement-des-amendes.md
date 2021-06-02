@@ -9,7 +9,7 @@ place: Paris
 procedures: [
     {name: 'Paiement des amendes', url: 'https://www.amendes.gouv.fr'},
   ]
-volumetry: 18 720 381
+volumetry: 18 720 381
 ratio: 59%
 team: ["lucile-foraison", "bertrand-keller"]
 status: past
@@ -50,7 +50,7 @@ Une fois la compréhension du paiement acquise avec les dizaines de cas possible
 
 Les retours usagers ainsi que les recommandations d’ergonomie et d’accessibilité sont sur le point d’être partagés et discutés avec les deux ministères concernés par la démarche.
 
-### ... à suivre
+### … à suivre
 
 Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::

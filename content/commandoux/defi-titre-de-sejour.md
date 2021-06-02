@@ -9,7 +9,7 @@ place: Paris
 procedures: [
     {name: 'Demande de titre de séjour', url: ''},
   ]
-volumetry: 750 000
+volumetry: 750 000
 ratio: 100%
 team: ["pierre-brice-haurie", "ameziane-allioui"]
 status: past
@@ -23,12 +23,12 @@ Après une mise en service réussie du portail de validation en ligne des visas 
 
 Dès le mois de  septembre 2020, la demande de titre de séjour (et renouvellement) sera ouverte au public étudiants étrangers. L’instruction sera également dématérialisée, jusqu’à la production du titre de séjour.
 
-Parallèlement, la DGEF s’est associée avec son opérateur l’OFII (office français pour l"immigration et l’intégration) pour proposer aux usagers un compte usager unique. A cet égard, la cohérence et l’harmonisation de l’accès des usagers et des utilisateurs à nos services doivent être compatibles avec la stratégie numérique et la politique en faveur de l’intégration des personnes étrangères en situation de handicap. Nous souhaitons, grâce à ce défi, évaluer le respect des règles d’accessibilité et l’inclusion numérique des usagers étrangers de nos systèmes d’information.
+Parallèlement, la DGEF s’est associée avec son opérateur l’OFII (office français pour l’immigration et l’intégration) pour proposer aux usagers un compte usager unique. À cet égard, la cohérence et l’harmonisation de l’accès des usagers et des utilisateurs à nos services doivent être compatibles avec la stratégie numérique et la politique en faveur de l’intégration des personnes étrangères en situation de handicap. Nous souhaitons, grâce à ce défi, évaluer le respect des règles d’accessibilité et l’inclusion numérique des usagers étrangers de nos systèmes d’information.
 
 
 ## Objectifs du défi
 
-- Donner aux usagers étrangers quelle que soit leur démarche vers une entité du ministère de l’intérieur une meilleur visibilité, une ergonomie unifiée
+- Donner aux usagers étrangers quelle que soit leur démarche vers une entité du ministère de l’intérieur une meilleure visibilité, une ergonomie unifiée
 - Simplifier l’accès à nos procédures et service pour des usagers étrangers qui constitue un public très spécifique au sein de l’État
 - Homogénéiser les portails existants dans un souci de compréhension facilitée pour nos usagers
 
@@ -58,7 +58,7 @@ L’enjeu pour Pierre-Brice a été de traiter des points bloquants relevés au 
 
 Améziane a effectué un audit d’accessibilité pour évaluer le niveau de conformité légal de la démarche. Celui-ci a permis de relever les principaux freins à son utilisation, notamment par les personnes non-voyantes et malvoyantes. Ces résultats ont été présentés à la DGEF et à l’ensemble des équipes travaillant sur la plateforme.
 
-### ... à suivre
+### … à suivre
 
 Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
 :::

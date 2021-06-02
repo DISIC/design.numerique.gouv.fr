@@ -55,7 +55,7 @@
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px"/></span>
           <p class="mission-detail__name">Impact :</p>
-          <p class="mission-detail__content">{{ $page.challenge.volumetry }} citoyens par an</p>
+          <p class="mission-detail__content">{{ $page.challenge.volumetry }} démarches effectuées par an</p>
         </div>
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'calendar-check']" height="16px"/></span>

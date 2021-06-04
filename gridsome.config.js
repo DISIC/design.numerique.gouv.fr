@@ -40,7 +40,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Mission',
-        path: './content/commandoux/*.md',
+        path: './content/commandoux/**/*.md',
         refs: {
           team: 'People',
           profil1: 'People',

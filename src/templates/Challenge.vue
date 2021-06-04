@@ -55,7 +55,7 @@
         <div class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px"/></p>
           <p class="mission-detail__name">Impact :</p>
-          <p class="mission-detail__content">{{ $page.challenge.volumetry }} citoyens par an</p>
+          <p class="mission-detail__content">{{ $page.challenge.impact }}</p>
         </div>
         <div class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'calendar-check']" height="16px"/></p>
@@ -168,7 +168,7 @@
         name
         done
       }
-      volumetry
+      impact
       startDate (format: "D MMMM YYYY", locale : "fr")
       team {
         id

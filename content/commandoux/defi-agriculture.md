@@ -9,8 +9,7 @@ place: Paris
 procedures: [
     {name: 'Site "Mes démarches" du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
   ]
-volumetry: 860 000
-ratio: 70%
+impact: 860 000 citoyens par an
 budget: 200 000
 team: ['beatrice-le-thuc']
 goals: [
@@ -19,7 +18,7 @@ goals: [
   ]
 status: present
 startDate: 2020-07-09
-finishDate:
+endDate:
 ---
 
 ## Problématique

@@ -2,7 +2,6 @@
 title: Dématérialiser la consultation des archive pour les anciens combattants
 description: Défi archives des armées
 slug: defi-recherche-administrative
-illustration: ['fas', 'gavel']
 department: Ministère des Armées
 direction: Service historique de la Défense
 place: Vincennes et Pau

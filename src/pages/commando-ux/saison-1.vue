@@ -1,20 +1,6 @@
 <template>
   <Layout class="saison-1-page">
 
-    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/commando-ux/">Commando UX</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Commando UX Saison 1</span>
-        </li>
-      </ol>
-    </nav> -->
-
     <div class="cover">
      <div class="cover__container">
 

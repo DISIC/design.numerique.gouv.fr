@@ -2,7 +2,6 @@
 title: Simplifier le renouvellement mensuel des demandeurs d’emploi
 description: Défi demandeurs d’emploi
 slug: defi-renouvellement-demandeur-emploi
-illustration: ['fas', 'gavel']
 department: Ministère du Travail
 direction: Pôle emploi
 place: Paris

@@ -2,7 +2,6 @@
 title: Rendre accessible et améliorer la Place de l’Emploi Public
 description: Défi emploi public
 slug: defi-postuler-emploi-public
-illustration: ['fas', 'gavel']
 department: Ministère de la Transformation et de la Fonction publiques
 direction: Direction Générale de l’Administration et de la Fonction Publique
 place: Paris

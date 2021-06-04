@@ -2,7 +2,6 @@
 title: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares
 description: Défi agriculture
 slug: defi-agriculture
-illustration: ['fas', 'gavel']
 department: Ministère de l’Agriculture et de l’Alimentation
 direction: Secrétariat général
 place: Paris

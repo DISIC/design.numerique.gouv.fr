@@ -2,7 +2,6 @@
 title: Simplifier la demande de titre de séjour en ligne
 description: Défi titre de séjour
 slug: defi-titre-de-sejour
-illustration: ['fas', 'gavel']
 department: Ministère de l’Intérieur
 direction: Direction générale des étrangers en France
 place: Paris

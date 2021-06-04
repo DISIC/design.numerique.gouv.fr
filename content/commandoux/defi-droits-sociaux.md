@@ -2,7 +2,6 @@
 title: Faciliter l’usage du simulateur de droits sociaux
 description: Défi droits sociaux
 slug: defi-droits-sociaux
-illustration: ['fas', 'gavel']
 department: Ministère des Solidarités et de la Santé
 direction: Direction de la sécurité sociale
 place: Montauban

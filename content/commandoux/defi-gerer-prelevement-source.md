@@ -2,7 +2,6 @@
 title: Améliorer l’interface de gestion du prélèvement à la source
 description: Défi prélèvement à la source
 slug: defi-gerer-prelevement-source
-illustration: ['fas', 'gavel']
 department: Ministère de l’Économie, des Finances et de la Relance
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand

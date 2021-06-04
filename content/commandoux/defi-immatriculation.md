@@ -2,7 +2,6 @@
 title: Améliorer plusieurs démarches liées à l’immatriculation des véhicules
 description: Défi immatriculation
 slug: defi-immatriculation
-illustration: ['fas', 'gavel']
 department: Ministère de l’Intérieur
 direction: Délégation à la sécurité routière
 place: Paris et Charleville-Mézières

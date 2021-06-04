@@ -98,15 +98,11 @@
         <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
         </h2>
-        <ul class="challenge">
-          <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <!-- <g-image class="challenge__illustration" :src="node.illustration" alt=""/> -->
+        <ul class="mission">
+          <li class="mission__item" v-for="{ node } in $page.allMission.edges" :key="node.id">
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
-            <p class="challenge__description">{{ node.description }}</p>
-            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
-            <!-- <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
-            <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p> -->
-            <!-- <p class="challenge__place"><font-awesome class="challenge__icon" :icon="['fas', 'map-marker-alt']"/> {{ node.place }}</p> -->
+            <p class="mission__description">{{ node.description }}</p>
+            <p class="mission__department"><font-awesome class="mission__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
           </li>
         </ul>
       </section>
@@ -213,16 +209,14 @@
 <page-query>
 
   query {
-    allChallenge (sortBy: "title", order: ASC) {
+    allMission (sortBy: "title", order: ASC) {
       edges {
         node {
         	id
           title
           description
           slug
-          illustration
           department
-          place
         }
       }
     }
@@ -307,7 +301,7 @@
 
   .saison-1-page {
 
-    .challenge {
+    .mission {
       padding: 0;
       display: flex;
       align-items: flex-start;

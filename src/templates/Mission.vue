@@ -10,7 +10,7 @@
           <g-link to="/commando-ux/">Commando UX</g-link>
         </li>
         <li>
-          <span aria-current="page">{{ $page.challenge.title }}</span>
+          <span aria-current="page">{{ $page.mission.title }}</span>
         </li>
       </ol>
     </nav>
@@ -18,7 +18,7 @@
     <div class="cover cover--with-breadcrumb">
       <div class="cover__container">
         <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
-        <h1>{{ $page.challenge.title }}</h1>
+        <h1>{{ $page.mission.title }}</h1>
       </div>
     </div>
 
@@ -28,15 +28,15 @@
         <div class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px"/></p>
           <p class="mission-detail__name">Statut :</p>
-          <p v-if="$page.challenge.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
-          <p v-else-if="$page.challenge.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
-          <p v-else-if="$page.challenge.status == 'past'" class="mission-detail__status mission-detail__status--past">Accomplie</p>
+          <p v-if="$page.mission.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
+          <p v-else-if="$page.mission.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
+          <p v-else-if="$page.mission.status == 'past'" class="mission-detail__status mission-detail__status--past">Accomplie</p>
         </div>
         <div class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'desktop']" height="16px"/></p>
           <p class="mission-detail__name">Démarche :</p>
           <ul class="mission-detail__content mission-detail__content--procedures">
-            <li v-for="procedure in $page.challenge.procedures">
+            <li v-for="procedure in $page.mission.procedures">
               <span v-if="procedure.url"><a :href="procedure.url" :title="procedure.name + ' - Nouvelle fenêtre'" target="_blank">{{ procedure.name }}</a></span>
               <span v-else>{{ procedure.name }}</span>
             </li>
@@ -45,38 +45,38 @@
         <!-- <div class="mission-detail">
           <font-awesome :icon="['fas', 'university']" height="16px" class="mission-detail__icon"/>
           <p class="mission-detail__name">Administration :</p>
-          <p class="mission-detail__content">{{ $page.challenge.department }} - {{ $page.challenge.direction }}</p>
+          <p class="mission-detail__content">{{ $page.mission.department }} - {{ $page.mission.direction }}</p>
         </div> -->
-        <div v-if="$page.challenge.budget" class="mission-detail">
+        <div v-if="$page.mission.budget" class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'euro-sign']" height="16px"/></p>
           <p class="mission-detail__name">Budget :</p>
-          <p class="mission-detail__content">{{ $page.challenge.budget }} €</p>
+          <p class="mission-detail__content">{{ $page.mission.budget }} €</p>
         </div>
         <div class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px"/></p>
           <p class="mission-detail__name">Impact :</p>
-          <p class="mission-detail__content">{{ $page.challenge.impact }}</p>
+          <p class="mission-detail__content">{{ $page.mission.impact }}</p>
         </div>
         <div class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'calendar-check']" height="16px"/></p>
           <p class="mission-detail__name">Date de début :</p>
-          <p class="mission-detail__content">{{ $page.challenge.startDate }}</p>
+          <p class="mission-detail__content">{{ $page.mission.startDate }}</p>
         </div>
         <div class="mission-detail mission-detail--team">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px"/></p>
           <p class="mission-detail__name">Commando :</p>
           <ul class="mission-detail__content mission-detail__content--team">
-            <li v-for="member in $page.challenge.team" :key="member.id" class="team-member">
+            <li v-for="member in $page.mission.team" :key="member.id" class="team-member">
               <g-image :src="member.photo" class="team-member__photo" alt="" />
               <p class="team-member__description"><g-link :to="'/equipe/' + member.id">{{ member.firstName }} {{ member.lastName }}</g-link> - {{ member.job_title }}</p>
             </li>
           </ul>
         </div>
-        <div v-if="$page.challenge.goals.length" class="mission-detail mission-detail--goals">
+        <div v-if="$page.mission.goals.length" class="mission-detail mission-detail--goals">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></p>
           <p class="mission-detail__name">Objectifs :</p>
           <ol class="mission-detail__content mission-detail__content--goals">
-            <li v-for="goal in $page.challenge.goals" class="goal">
+            <li v-for="goal in $page.mission.goals" class="goal">
               <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Fait :" />
               <font-awesome v-else="goal.done" class="goal__status" :icon="['fas', 'check']" width="16" height="16" title="À faire :" />
               <span class="goal__name">{{ goal.name }}</span>
@@ -86,7 +86,7 @@
       </section>
 
       <section>
-        <div v-html="$page.challenge.content" />
+        <div v-html="$page.mission.content" />
       </section>
 
     </div>
@@ -104,7 +104,7 @@
     },
     metaInfo() {
       return {
-        title: this.$page.challenge.title,
+        title: this.$page.mission.title,
         meta: [
           {
             name: "description",
@@ -112,7 +112,7 @@
           },
           {
             property: 'og:title',
-            content: this.$page.challenge.title + " - DesignGouv"
+            content: this.$page.mission.title + " - DesignGouv"
           },
           {
             property: 'og:description',
@@ -132,7 +132,7 @@
           },
           {
             name: "twitter:title",
-            content: this.$page.challenge.title + " - DesignGouv"
+            content: this.$page.mission.title + " - DesignGouv"
           },
           {
             name: "twitter:description",
@@ -152,8 +152,8 @@
 
 <page-query>
 
-  query Challenge ($id: ID!) {
-    challenge: challenge (id: $id) {
+  query Mission ($id: ID!) {
+    mission: mission (id: $id) {
       department
       direction
       content

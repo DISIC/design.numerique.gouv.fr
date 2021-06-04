@@ -39,7 +39,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Challenge',
+        typeName: 'Mission',
         path: './content/commandoux/*.md',
         refs: {
           team: 'People',
@@ -146,7 +146,7 @@ module.exports = {
   templates: {
     People: '/equipe/:id',
     Job: '/recrutement/:slug',
-    Challenge: '/commando-ux/:slug',
+    Mission: '/commando-ux/:slug',
     Article: '/articles/:slug',
     Tag: '/tag/:id',
   },

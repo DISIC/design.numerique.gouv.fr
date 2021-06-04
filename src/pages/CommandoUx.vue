@@ -82,44 +82,41 @@
         <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les missions
         </h2>
-        <ul class="challenges">
+        <ul class="missions">
 
-          <li v-for="{ node } in futurChallenges" :key="node.id" class="challenge">
-            <div class="challenge__left">
-              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
-              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+          <li v-for="{ node } in futurMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
-            <div class="challenge__right">
-              <ul class="challenge__team">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="challenge__status challenge__status--futur">À venir</p>
+              <p class="mission__status mission__status--futur">À venir</p>
             </div>
           </li>
 
-          <li v-for="{ node } in presentChallenges" :key="node.id" class="challenge">
-            <div class="challenge__left">
-              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
-              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+          <li v-for="{ node } in presentMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
-            <div class="challenge__right">
-              <ul class="challenge__team">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="challenge__status challenge__status--present">En cours</p>
+              <p class="mission__status mission__status--present">En cours</p>
             </div>
           </li>
 
-          <li v-for="{ node } in pastChallenges" :key="node.id" class="challenge">
-            <div class="challenge__left">
-              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
-              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+          <li v-for="{ node } in pastMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
-            <div class="challenge__right">
-              <ul class="challenge__team">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="challenge__status challenge__status--past">Accomplie</p>
+              <p class="mission__status mission__status--past">Accomplie</p>
             </div>
           </li>
 
@@ -134,7 +131,7 @@
 <page-query>
 
   query {
-    allChallenge (sortBy: "title", order: ASC) {
+    allMission (sortBy: "title", order: ASC) {
       edges {
         node {
         	id
@@ -177,14 +174,14 @@
       CommandoUX,
     },
     computed: {
-      pastChallenges: function () {
-        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'past')
+      pastMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'past')
       },
-      presentChallenges: function () {
-        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'present')
+      presentMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'present')
       },
-      futurChallenges: function () {
-        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'futur')
+      futurMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'futur')
       },
     },
     metaInfo: {
@@ -238,14 +235,14 @@
 
   .commando-ux-page {
 
-    .challenges {
+    .missions {
       padding: 0;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
 
-      .challenge {
+      .mission {
         list-style: none;
         text-align: left;
         width: 100%;

@@ -137,7 +137,6 @@
         	id
           title
           slug
-          illustration
           status
           team {
             id

@@ -1,7 +1,7 @@
 ---
 title: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares
 description: Défi agriculture
-slug: defi-agriculture
+slug: mission
 illustration: ['fas', 'gavel']
 department: Ministère de l’Agriculture et de l’Alimentation
 direction: Secrétariat général
@@ -17,8 +17,8 @@ goals: [
     {name: 'Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés', done: false},
   ]
 status: present
-startDate: 2020-07-09
-endDate: 2021-31-03
+startDate:
+endDate:
 ---
 
 ## Problématique

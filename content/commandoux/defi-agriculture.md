@@ -8,7 +8,7 @@ place: Paris
 procedures: [
     {name: 'Site "Mes démarches" du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
   ]
-impact: 860 000 citoyens par an
+impact: 860 000 demandes par an
 team: ['beatrice-le-thuc']
 status: past
 startDate: 2020-09-07

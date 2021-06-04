@@ -1,11 +1,25 @@
 <template>
   <Layout class="saison-1-page">
 
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li>
+          <g-link to="/">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/commando-ux/">Commando UX</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Saison 1</span>
+        </li>
+      </ol>
+    </nav>
+
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX saison 1</h1>
-
+      <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
+      <h1 class="text-highlight">Commando UX saison 1</h1>
       <p class="cover__subtitle">
         Afin d’accélérer les améliorations concrètes pour les usagers dans leurs démarches, la DINUM a lancé en septembre 2020 le Commando UX.
       </p>
@@ -203,7 +217,7 @@
           description
           slug
           department
-          endDate
+          startDate
         }
       }
     }
@@ -239,18 +253,18 @@
     },
     computed: {
       firstSeason: function () {
-        return this.$page.allMission.edges.filter(mission => mission.node.endDate ? (new Date(mission.node.endDate)).getTime() < (new Date('2021-01-04')).getTime() : false )
+        return this.$page.allMission.edges.filter(mission => mission.node.startDate ? (new Date(mission.node.startDate)).getTime() == (new Date('2020-09-07')).getTime() : false)
       },
     },
     metaInfo: {
-      title: "Commando UX",
+      title: "Commando UX saison 1",
       meta: [{
         name: 'description',
         content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
       },
       {
         property: 'og:title',
-        content: "Commando UX - DesignGouv"
+        content: "Commando UX saison 1 - DesignGouv"
       },
       {
         property: 'og:description',
@@ -270,7 +284,7 @@
       },
       {
         name: "twitter:title",
-        content: "Commando UX - DesignGouv"
+        content: "Commando UX saison 1 - DesignGouv"
       },
       {
         name: "twitter:description",

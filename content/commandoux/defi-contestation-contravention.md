@@ -2,7 +2,6 @@
 title: Simplifier l’usage de la contestation de contravention en ligne
 description: Défi contestation de contravention
 slug: defi-contestation-contravention
-illustration: ['fas', 'gavel']
 department: Ministère de l’Intérieur
 direction: Agence nationale de traitement automatisé des infractions (ANTAI)
 place: Paris et Rennes
@@ -12,8 +11,8 @@ procedures: [
 impact: 7 973 138 demandes par an
 team: ["manon-oresve", "lola-charpentier"]
 status: past
-startDate: 2020-11-09
-endDate: 2021-31-03
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

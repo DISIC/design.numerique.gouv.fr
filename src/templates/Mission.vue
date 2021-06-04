@@ -82,11 +82,11 @@
         </div>
         <div v-if="$page.mission.goals.length" class="mission-detail mission-detail--goals">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></span>
-          <p class="mission-detail__name">Objectifs :</p>
+          <p class="mission-detail__name">Résultats attendus :</p>
           <ol class="mission-detail__content mission-detail__content--goals">
             <li v-for="goal in $page.mission.goals" class="goal">
-              <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Fait :" />
-              <font-awesome v-else="goal.done" class="goal__status" :icon="['fas', 'check']" width="16" height="16" title="À faire :" />
+              <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Atteint :" />
+              <font-awesome v-else="goal.done" class="goal__status" :icon="['fas', 'check']" width="16" height="16" title="Pas encore atteint :" />
               <span class="goal__name">{{ goal.name }}</span>
             </li>
           </ol>

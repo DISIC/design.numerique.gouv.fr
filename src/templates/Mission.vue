@@ -52,6 +52,17 @@
           <p class="mission-detail__name">Impact :</p>
           <p class="mission-detail__content">{{ $page.mission.impact }}</p>
         </div>
+        <div v-if="$page.mission.goals.length" class="mission-detail mission-detail--goals">
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></span>
+          <p class="mission-detail__name">Résultats attendus :</p>
+          <ol class="mission-detail__content mission-detail__content--goals">
+            <li v-for="goal in $page.mission.goals" class="goal">
+              <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Atteint :" />
+              <font-awesome v-else="goal.done" class="goal__status" :icon="['fas', 'check']" width="16" height="16" title="Pas encore atteint :" />
+              <span class="goal__name">{{ goal.name }}</span>
+            </li>
+          </ol>
+        </div>
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-alt']" height="16px"/></span>
           <p class="mission-detail__name">Date de début :</p>
@@ -61,6 +72,14 @@
           <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-check']" height="16px"/></span>
           <p class="mission-detail__name">Date de fin :</p>
           <p class="mission-detail__content">{{ $page.mission.endDate }}</p>
+        </div>
+        <div v-if="$page.mission.jobs.length" class="mission-detail">
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'map-marker-alt']" height="16px"/></span>
+          <p class="mission-detail__name">Lieu :</p>
+          <p class="mission-detail__content">
+            <span v-if="$page.mission.direction">{{ $page.mission.department }} - {{ $page.mission.direction }} - {{ $page.mission.place }}</span>
+            <span v-else>{{ $page.mission.department }} - {{ $page.mission.place }}</span>
+          </p>
         </div>
         <div v-if="$page.mission.team.length" class="mission-detail mission-detail--team">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px"/></span>
@@ -72,24 +91,15 @@
             </li>
           </ul>
         </div>
-        <div v-else class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'map-marker-alt']" height="16px"/></span>
-          <p class="mission-detail__name">Lieu :</p>
-          <p class="mission-detail__content">
-            <span v-if="$page.mission.direction">{{ $page.mission.department }} - {{ $page.mission.direction }} - {{ $page.mission.place }}</span>
-            <span v-else>{{ $page.mission.department }} - {{ $page.mission.place }}</span>
-          </p>
-        </div>
-        <div v-if="$page.mission.goals.length" class="mission-detail mission-detail--goals">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></span>
-          <p class="mission-detail__name">Résultats attendus :</p>
-          <ol class="mission-detail__content mission-detail__content--goals">
-            <li v-for="goal in $page.mission.goals" class="goal">
-              <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Atteint :" />
-              <font-awesome v-else="goal.done" class="goal__status" :icon="['fas', 'check']" width="16" height="16" title="Pas encore atteint :" />
-              <span class="goal__name">{{ goal.name }}</span>
+        <div v-if="$page.mission.jobs.length" class="mission-detail mission-detail--job">
+          <span class="mission-detail__icon"><font-awesome :icon="['far', 'hand-paper']" height="16px"/></span>
+          <p class="mission-detail__name">Postes à pourvoir :</p>
+          <ul class="mission-detail__content mission-detail__content--job">
+            <li v-for="job in $page.mission.jobs" :key="job.id" class="team-member">
+              <span class="job__count">{{ job.count }}</span>
+              <span class="job__title">{{ job.title }}</span>
             </li>
-          </ol>
+          </ul>
         </div>
       </section>
 
@@ -162,24 +172,23 @@
 
   query Mission ($id: ID!) {
     mission: mission (id: $id) {
-      department
-      direction
-      place
-      content
       title
       status
-      budget
       procedures {
         name
         url
       }
-      goals {
-        name
-        done
-      }
+      budget
       impact
       startDate (format: "D MMMM YYYY", locale : "fr")
       endDate (format: "D MMMM YYYY", locale : "fr")
+      department
+      direction
+      place
+      jobs {
+        title
+        count
+      }
       team {
         id
         firstName
@@ -188,6 +197,11 @@
         path
         job_title
       }
+      goals {
+        name
+        done
+      }
+      content
     }
   }
 
@@ -241,7 +255,7 @@
             flex-wrap: wrap;
           }
 
-          &--team, &--goals {
+          &--team, &--job, &--goals {
             flex-wrap: wrap;
           }
 
@@ -278,7 +292,7 @@
               }
             }
 
-            &--team {
+            &--team, &--job {
               margin: 0.5rem 0 0 2.5rem;
               padding: 0;
               flex-basis: 100%;
@@ -287,7 +301,7 @@
                 margin-top: 0.25rem;
               }
 
-              .team-member {
+              .team-member, .job {
                 display: flex;
                 list-style: none;
                 margin: 0 0 0.5rem 0;
@@ -299,7 +313,20 @@
                   margin-right: 0.75rem;
                 }
 
-                &__description {
+                &__count {
+                  color: $blue;
+                  font-size: 0.875rem;
+                  font-weight: bold;
+                  background-color: $light-gray;
+                  text-align: center;
+                  border-radius: 50%;
+                  width: 1.375rem;
+                  height: 1.375rem;
+                  padding: 0.125rem;
+                  margin: 0 0.5rem 0 0;
+                }
+
+                &__description, &__title {
                     font-weight: normal;
                     margin: 0.075rem 0 0 0;
                 }

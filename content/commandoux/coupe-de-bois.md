@@ -9,7 +9,9 @@ procedures: [
   ]
 impact: 50 000 demandes par an
 budget: 90 000
-jobs: ['Designer UX/UI']
+jobs: [
+  {title: 'Designer UX/UI', count: 1},
+  ]
 team:
 goals: [
     {name: 'Intégration du bouton Je Donne Mon Avis (septembre 2021)', done: false},

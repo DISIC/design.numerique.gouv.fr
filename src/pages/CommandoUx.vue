@@ -39,7 +39,7 @@
             </div>
 
             <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidatez - Nouvelle fenêtre" class="item__link button button--highlight">
-              Candidatez<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              Candidater<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
             </a>
           </div>
 
@@ -53,7 +53,7 @@
             </div>
 
             <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" title="Partagez votre intérêt - Nouvelle fenêtre" class="item__link button button--highlight">
-              Partagez votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
             </a>
           </div>
 

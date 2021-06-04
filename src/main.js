@@ -52,7 +52,6 @@ import {
   faTasks,
   faUserGraduate,
   faSyncAlt,
-  faCalendarCheck,
   faInfoCircle,
   faBullhorn,
   faEuroSign,
@@ -63,6 +62,8 @@ import {
   faFileAlt,
   faFileImage,
   faEdit,
+  faCalendarAlt,
+  faCalendarCheck,
 } from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -114,6 +115,7 @@ library.add(
   faTasks,
   faUserGraduate,
   faSyncAlt,
+  faCalendarAlt,
   faCalendarCheck,
   faInfoCircle,
   faBullhorn,

@@ -42,11 +42,6 @@
             </li>
           </ul>
         </div>
-        <!-- <div class="mission-detail">
-          <font-awesome :icon="['fas', 'university']" height="16px" class="mission-detail__icon"/>
-          <p class="mission-detail__name">Administration :</p>
-          <p class="mission-detail__content">{{ $page.mission.department }} - {{ $page.mission.direction }}</p>
-        </div> -->
         <div v-if="$page.mission.budget" class="mission-detail">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'euro-sign']" height="16px"/></p>
           <p class="mission-detail__name">Budget :</p>
@@ -58,9 +53,14 @@
           <p class="mission-detail__content">{{ $page.mission.impact }}</p>
         </div>
         <div class="mission-detail">
-          <p class="mission-detail__icon"><font-awesome :icon="['fas', 'calendar-check']" height="16px"/></p>
+          <p class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-alt']" height="16px"/></p>
           <p class="mission-detail__name">Date de début :</p>
           <p class="mission-detail__content">{{ $page.mission.startDate }}</p>
+        </div>
+        <div v-if="$page.mission.endDate" class="mission-detail">
+          <p class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-check']" height="16px"/></p>
+          <p class="mission-detail__name">Date de fin :</p>
+          <p class="mission-detail__content">{{ $page.mission.endDate }}</p>
         </div>
         <div class="mission-detail mission-detail--team">
           <p class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px"/></p>
@@ -170,6 +170,7 @@
       }
       impact
       startDate (format: "D MMMM YYYY", locale : "fr")
+      endDate (format: "D MMMM YYYY", locale : "fr")
       team {
         id
         firstName

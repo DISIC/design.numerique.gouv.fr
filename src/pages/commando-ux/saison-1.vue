@@ -99,7 +99,7 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
         </h2>
         <ul class="mission">
-          <li class="mission__item" v-for="{ node } in $page.allMission.edges" :key="node.id">
+          <li class="mission__item" v-for="{ node } in firstSeason" :key="node.id">
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             <p class="mission__description">{{ node.description }}</p>
             <p class="mission__department"><font-awesome class="mission__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
@@ -217,6 +217,7 @@
           description
           slug
           department
+          endDate
         }
       }
     }
@@ -249,6 +250,11 @@
   export default {
     components: {
       CommandoUX,
+    },
+    computed: {
+      firstSeason: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.endDate ? (new Date(mission.node.endDate)).getTime() < (new Date('2021-01-04')).getTime() : false )
+      },
     },
     metaInfo: {
       title: "Commando UX",

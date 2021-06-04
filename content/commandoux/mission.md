@@ -10,10 +10,15 @@ procedures: [
     {name: 'Site "Mes démarches" du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
   ]
 impact: 860 000 citoyens par an
+budget: 200 000
 team: ['beatrice-le-thuc']
-status: past
-startDate: 2020-09-07
-endDate: 2021-03-31
+goals: [
+    {name: 'Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)', done: true},
+    {name: 'Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés', done: false},
+  ]
+status: present
+startDate: 2020-07-09
+endDate: 2021-31-03
 ---
 
 ## Problématique
@@ -26,10 +31,10 @@ Ce défi est différent des autres puisque vous accompagnerez le ministère de l
 2. La déclaration de détention et d’emplacement de ruches, une des démarches les plus emblématiques du ministère
 
 
-## Objectifs du défi
+<!-- ## Objectifs du défi
 
 - Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)
-- Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés
+- Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés -->
 
 
 ## Le défi étape par étape

@@ -11,9 +11,9 @@ procedures: [
   ]
 impact: 7 973 138 demandes par an
 team: ["manon-oresve", "lola-charpentier"]
-status: futur
+status: past
 startDate: 2020-11-09
-endDate:
+endDate: 2021-31-03
 ---
 
 ## Problématique

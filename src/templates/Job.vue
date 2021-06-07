@@ -60,7 +60,7 @@
   </Layout>
 </template>
 
-<!--
+
 <script>
 
   export default {
@@ -89,7 +89,7 @@
   }
 
 </page-query>
--->
+
 
 <style lang="scss">
 

@@ -26,14 +26,14 @@
 
       <section class="mission">
         <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Statut :</p>
           <p v-if="$page.mission.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
           <p v-else-if="$page.mission.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
           <p v-else-if="$page.mission.status == 'past'" class="mission-detail__status mission-detail__status--past">Accomplie</p>
         </div>
         <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'desktop']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'desktop']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Démarche :</p>
           <ul class="mission-detail__content mission-detail__content--procedures">
             <li v-for="procedure in $page.mission.procedures">
@@ -43,17 +43,17 @@
           </ul>
         </div>
         <div v-if="$page.mission.budget" class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'euro-sign']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'euro-sign']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Budget :</p>
           <p class="mission-detail__content">{{ $page.mission.budget }} €</p>
         </div>
         <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Impact :</p>
           <p class="mission-detail__content">{{ $page.mission.impact }}</p>
         </div>
         <div v-if="$page.mission.goals.length" class="mission-detail mission-detail--goals">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Résultats attendus :</p>
           <ol class="mission-detail__content mission-detail__content--goals">
             <li v-for="goal in $page.mission.goals" class="goal">
@@ -64,17 +64,17 @@
           </ol>
         </div>
         <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-alt']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-alt']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Date de début :</p>
           <p class="mission-detail__content">{{ $page.mission.startDate }}</p>
         </div>
         <div v-if="$page.mission.endDate" class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-check']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-check']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Date de fin :</p>
           <p class="mission-detail__content">{{ $page.mission.endDate }}</p>
         </div>
         <div v-if="$page.mission.jobs.length" class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'map-marker-alt']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'map-marker-alt']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Lieu :</p>
           <p class="mission-detail__content">
             <span v-if="$page.mission.direction">{{ $page.mission.department }} - {{ $page.mission.direction }} - {{ $page.mission.place }}</span>
@@ -82,7 +82,7 @@
           </p>
         </div>
         <div v-if="$page.mission.team.length" class="mission-detail mission-detail--team">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Commando :</p>
           <ul class="mission-detail__content mission-detail__content--team">
             <li v-for="member in $page.mission.team" :key="member.id" class="team-member">
@@ -92,7 +92,7 @@
           </ul>
         </div>
         <div v-if="$page.mission.jobs.length" class="mission-detail mission-detail--job">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-plus']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-plus']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Postes à pourvoir :</p>
           <ul class="mission-detail__content mission-detail__content--job">
             <li v-for="job in $page.mission.jobs" :key="job.id" class="team-member">

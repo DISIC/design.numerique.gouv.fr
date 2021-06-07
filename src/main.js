@@ -55,6 +55,7 @@ import {
   faInfoCircle,
   faBullhorn,
   faEuroSign,
+  faUserPlus
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faFilePdf,
@@ -64,7 +65,6 @@ import {
   faEdit,
   faCalendarAlt,
   faCalendarCheck,
-  faHandPaper,
 } from '@fortawesome/free-regular-svg-icons'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -121,7 +121,7 @@ library.add(
   faInfoCircle,
   faBullhorn,
   faEuroSign,
-  faHandPaper
+  faUserPlus
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ

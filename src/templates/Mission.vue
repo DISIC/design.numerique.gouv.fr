@@ -92,7 +92,7 @@
           </ul>
         </div>
         <div v-if="$page.mission.jobs.length" class="mission-detail mission-detail--job">
-          <span class="mission-detail__icon"><font-awesome :icon="['far', 'hand-paper']" height="16px"/></span>
+          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-plus']" height="16px"/></span>
           <p class="mission-detail__name">Postes à pourvoir :</p>
           <ul class="mission-detail__content mission-detail__content--job">
             <li v-for="job in $page.mission.jobs" :key="job.id" class="team-member">

@@ -90,7 +90,7 @@
             </div>
             <div class="mission__right">
               <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="mission__open-jobs"><font-awesome :icon="['far', 'hand-paper']" height="16px"/></span></li>
+                <li v-if="node.jobs.length" ><span class="mission__open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px"/></span></li>
                 <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
               <p class="mission__status mission__status--futur">À venir</p>
@@ -327,12 +327,12 @@
           text-align: center;
           background-color: $light-gray;
           border-radius: 50%;
-          padding: 0 0.3rem 0.5rem 0.2rem;
-          font-size: 1.25rem;
+          padding: 0.2rem 0.6rem 0.8rem 0.4rem;
+          font-size: 1rem;
           margin: 0 0.25rem 0 0;
-          width: 1.4rem;
-          height: 1.4rem;
-          color: $blue;
+          width: 0.9rem;
+          height: 0.9rem;
+          color: $red;
           flex-shrink: 0;
         }
 

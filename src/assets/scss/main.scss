@@ -137,5 +137,9 @@ a {
     @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;
     }
+
+    .section__subtitle {
+      margin: -0.5rem 0 2rem 0;
+    }
   }
 }

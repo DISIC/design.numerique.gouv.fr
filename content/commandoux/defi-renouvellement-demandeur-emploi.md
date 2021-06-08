@@ -12,6 +12,9 @@ procedures: [
 volumetry: 6 297 380
 ratio: 100%
 team: ["hugo-thomas"]
+goals: [
+    {name: 'Améliorer la note de satisfaction : 7,6/10', done: true},
+  ]
 status: past
 startDate: 2020-07-09
 finishDate:
@@ -45,7 +48,7 @@ Environ 480 000 demandeurs d’emploi utilisent le serveur vocal du 39 49 pour 
 
 Des évolutions du parcours utilisateur d’actualisation mensuelle sont en cours. Hugo se rend dans des agences Pôle emploi pour recueillir l’avis des usagers sur ces nouvelles évolutions de la démarche. Les résultats de ces observations serviront à augmenter encore la facilité d’utilisation.
 
-### … à suivre
+### Défi terminé le 30 mars 2021
 
-Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+
 :::

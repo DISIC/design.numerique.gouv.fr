@@ -12,6 +12,9 @@ procedures: [
 volumetry: 750 000
 ratio: 100%
 team: ["pierre-brice-haurie", "ameziane-allioui"]
+goals: [
+    {name: 'Rendre la démarceh accessible. Maintenant : 60%', done: false},
+  ]
 status: past
 startDate: 2020-07-09
 finishDate:

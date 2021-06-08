@@ -51,7 +51,7 @@ Après les premières études, Georges et Simon commencent à concevoir les nouv
 
 Tandis que Georges affine les maquettes des parcours pour effectuer de nouveaux tests, Simon entame la mise en place de l’architecture technique visant à accueillir le nouveau simulateur.
 
-### … à suivre
+### Mise en production effectuée en mai 2021
 
-Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+
 :::

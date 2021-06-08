@@ -62,10 +62,10 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando actuel
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando saison 2
         </h2>
         <p>
-          Ce Commando fonctionnant en continu, nous avons déjà des experts en place sur différents projets et démarches depuis mai 2021.
+          Ce nouveau Commando UX fonctionne en continu. Nous avons déjà des experts en place sur différents projets et démarches depuis mai 2021.
         </p>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id" class="team-member">
@@ -80,7 +80,7 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les missions
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les interventions
         </h2>
         <ul class="challenges">
 
@@ -119,7 +119,7 @@
               <ul class="challenge__team">
                 <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="challenge__status challenge__status--past">Accomplie</p>
+              <p class="challenge__status challenge__status--past">Terminée</p>
             </div>
           </li>
 

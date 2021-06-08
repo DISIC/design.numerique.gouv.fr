@@ -12,6 +12,9 @@ procedures: [
 volumetry: 5 000 000
 ratio: 3%
 team: ["julie-leroy", "jean-edouard-sastre"]
+goals: [
+    {name: 'Rendre la démarche 100% accessible', done: true},
+  ]
 status: past
 startDate: 2020-07-09
 finishDate:
@@ -63,6 +66,6 @@ Suite aux tests, Édouard a pu améliorer son prototype en continue. En parallè
 
 Julie et Édouard ont été intégrés aux sessions de planification des phases de développement. Les développements concernant les recommandations d’accessibilité ont démarré en décembre et sont poursuivis en 2021. Julie continue le suivi et les tests des développements pour vérifier que tout va bien. Elle espère obtenir 100% au score d’accessibilité, et challenge les développeurs au quotidien. Les développements du prototype UX ont été planifiés pour le mois de mai 2021. En attendant, Édouard poursuit en janvier 2021 sa collaboration avec la DGAFP sur un accompagnement UX d’amélioration d’autres sections du Portail de l’emploi public.
 
-### … en cours de développement ;)
+### Défi terminé le 30 mars 2021
 
 :::

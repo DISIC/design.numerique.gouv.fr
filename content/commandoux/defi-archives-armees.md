@@ -12,7 +12,12 @@ procedures: [
 volumetry: 180 000
 ratio: 100%
 team: ["jocelyn-caron"]
-status: present
+goals: [
+    {name: 'Mise en ligne de la démarche attendue en juin 2021', done: false},
+    {name: 'Créer une expérience désirable, accessible, et compréhensible en s’appuyant fortement sur des tests usager : attente des résultats en juin 2021', done: false},
+    {name: 'Atteindre 50% de recours à la voie numérique au premier semestre 2021 : attente des résultats en juin 2021', done: false},
+  ]
+status: past
 startDate: 2020-10-09
 finishDate:
 ---
@@ -22,13 +27,6 @@ finishDate:
 Cette démarche permet aux appelés et aux engagés, français et étrangers, souvent âgés, d’obtenir un document administratif militaire (extrait de service, citation, diplômes) pour accéder à des droits : pension, carte du combattant, etc. Elle n’est aujourd’hui pas réalisable en ligne et l’ajout de ressources UX constitue un accélérateur permettant dès l’amont d’intégrer les bonnes pratiques.
 
 Lorsque l’usager arrive aux archives, c’est qu’il est au bout de sa course : on se doit de lui offrir un service simple, convivial, accessible et compréhensible.
-
-
-## Objectifs du défi
-
-- Mise en ligne de la démarche
-- Créer une expérience désirable, accessible, et compréhensible en s’appuyant fortement sur des tests usager
-- Atteindre 50% de recours à la voie numérique au premier semestre 2021
 
 
 ## Le défi étape par étape
@@ -57,6 +55,6 @@ Suite aux tests, Jocelyn améliore le prototype et présente les résultats aux 
 Le Commando touche à sa fin, avec une mission accomplie sur l’accompagnement UX en phase de conception ! Les développements sont planifiés pour mars 2021.
 
 
-### … en cours de développement ;)
+### déploiement prévu en juin 2021 🏁
 
 :::

@@ -1,5 +1,5 @@
 ---
-title: Faciliter l’usage du simulateur de droits sociaux
+title: Simulateur de droits sociaux
 description: Défi droits sociaux
 slug: defi-droits-sociaux
 illustration: ['fas', 'gavel']

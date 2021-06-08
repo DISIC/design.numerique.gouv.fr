@@ -1,5 +1,5 @@
 ---
-title: Améliorer l’interface de gestion du prélèvement à la source
+title: Gestion du prélèvement à la source
 description: Défi prélèvement à la source
 slug: defi-gerer-prelevement-source
 illustration: ['fas', 'gavel']

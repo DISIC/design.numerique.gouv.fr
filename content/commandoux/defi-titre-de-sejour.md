@@ -1,5 +1,5 @@
 ---
-title: Simplifier la demande de titre de séjour en ligne
+title: Demande de titre de séjour
 description: Défi titre de séjour
 slug: defi-titre-de-sejour
 illustration: ['fas', 'gavel']

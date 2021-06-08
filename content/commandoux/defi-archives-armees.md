@@ -1,5 +1,5 @@
 ---
-title: Dématérialiser la consultation des archives pour les anciens combattants
+title: Consultation des archives pour les anciens combattants
 description: Défi archives des armées
 slug: defi-recherche-administrative
 illustration: ['fas', 'gavel']

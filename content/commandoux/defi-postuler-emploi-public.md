@@ -1,5 +1,5 @@
 ---
-title: Rendre accessible et améliorer la Place de l’Emploi Public
+title: Place de l’Emploi Public
 description: Défi emploi public
 slug: defi-postuler-emploi-public
 illustration: ['fas', 'gavel']

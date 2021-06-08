@@ -1,5 +1,5 @@
 ---
-title: Améliorer plusieurs démarches liées à l’immatriculation des véhicules
+title: Plusieurs démarches liées à l’immatriculation des véhicules
 description: Défi immatriculation
 slug: defi-immatriculation
 illustration: ['fas', 'gavel']

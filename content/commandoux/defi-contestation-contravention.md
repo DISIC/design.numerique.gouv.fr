@@ -1,5 +1,5 @@
 ---
-title: Simplifier l’usage de la contestation de contravention en ligne
+title: Contestation de contravention
 description: Défi contestation de contravention
 slug: defi-contestation-contravention
 illustration: ['fas', 'gavel']

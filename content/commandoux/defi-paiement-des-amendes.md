@@ -1,5 +1,5 @@
 ---
-title: Rendre la démarche de paiement des amendes en ligne accessible
+title: Paiement des amendes
 description: Défi paiement des amendes
 slug: defi-paiement-des-amendes
 illustration: ['fas', 'gavel']

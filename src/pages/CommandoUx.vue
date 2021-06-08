@@ -7,11 +7,7 @@
       <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
-<<<<<<< HEAD
-        Une équipe d’expert·e·s mobilisée pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.
-=======
         Une équipe d’experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.
->>>>>>> 4742d6dcf0b5846b236358a5543d0aa6aa58996f
       </p>
 
       </div>
@@ -21,17 +17,10 @@
 
       <section class="subsection">
         <h2>
-<<<<<<< HEAD
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Des expert·e·s au sein des administrations
-        </h2>
-        <p>
-          Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l’aventure : déployer des expert·e·s du numérique au sein des administrations pour rendre <strong>plus accessibles et plus compréhensibles</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
-=======
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Des experts au sein des administrations
         </h2>
         <p>
           Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l’aventure : déployer des experts du numérique au sein des administrations pour rendre <strong>plus accessibles et plus compréhensibles</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
->>>>>>> 4742d6dcf0b5846b236358a5543d0aa6aa58996f
         </p>
         <p>
           L’immersion de chaque Commando revêt un double bénéfice : livrer des améliorations concrètes tout en diffusant des pratiques innovantes au sein des administrations d’accueil.
@@ -57,15 +46,9 @@
           <div class="item item--right">
             <div class="item__content">
               <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
-<<<<<<< HEAD
-              <h3>Expert·e·s du numérique</h3>
-              <p>
-                Vous êtes chef·fe de produit agile, designer, développeur·euse, chercheur·euse utilisateur, rédacteur·rice UX et vous souhaitez vous impliquer.
-=======
               <h3>Experts expérience utilisateur</h3>
               <p>
                 Vous êtes spécialisé en produit, design (UI/UX), dev front, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
->>>>>>> 4742d6dcf0b5846b236358a5543d0aa6aa58996f
               </p>
             </div>
 

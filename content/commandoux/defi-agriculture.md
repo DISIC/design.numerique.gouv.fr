@@ -6,6 +6,7 @@ illustration: ['fas', 'gavel']
 department: Ministère de l’Agriculture et de l’Alimentation
 direction: Secrétariat général
 place: Paris
+budget: XX
 procedures: [
     {name: 'Site “Mes démarches” du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
   ]

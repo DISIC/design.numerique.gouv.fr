@@ -13,7 +13,7 @@ volumetry: 18 720 381
 ratio: 59%
 team: ["lucile-foraison", "bertrand-keller"]
 goals: [
-    {name: 'Rendre la démarche 100% accessible : aujourd'hui accessible à 60%', done: true},
+    {name: 'Rendre la démarche 100% accessible : maintenant accessible à 60%', done: true},
   ]
 status: past
 startDate: 2020-07-09

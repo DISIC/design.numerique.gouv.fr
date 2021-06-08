@@ -12,6 +12,9 @@ procedures: [
 volumetry: 18 720 381
 ratio: 59%
 team: ["lucile-foraison", "bertrand-keller"]
+goals: [
+    {name: 'Rendre la démarche 100% accessible : aujourd'hui accessible à 60%', done: true},
+  ]
 status: past
 startDate: 2020-07-09
 finishDate:
@@ -50,7 +53,8 @@ Une fois la compréhension du paiement acquise avec les dizaines de cas possible
 
 Les retours usagers ainsi que les recommandations d’ergonomie et d’accessibilité sont sur le point d’être partagés et discutés avec les deux ministères concernés par la démarche.
 
-### … à suivre
+### Défi terminé le 30 mars 2021 (mais les déploiements sont toujours en cours)
 
-Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+Bertrand a rejoint les équipes du ministère depuis le 1er avril 2021.
+
 :::

@@ -1,5 +1,5 @@
 ---
-title: Mieux comprendre les attentes des agriculteurs sur 2 démarches phares
+title: Améliorer l’expérience des agriculteurs sur 2 démarches phares
 description: Défi agriculture
 slug: defi-agriculture
 illustration: ['fas', 'gavel']
@@ -11,13 +11,13 @@ procedures: [
   ]
 volumetry: 860 000
 ratio: 70%
-budget: 200 000
 team: ['beatrice-le-thuc']
 goals: [
     {name: 'Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)', done: true},
-    {name: 'Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés', done: false},
+    {name: 'Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés : 13 recommandations en cours de mise en production par Efalia / 6tzen', done: true},
+    {name: 'Amélioration de la note de satisfaction : 9/10', done: true},
   ]
-status: present
+status: past
 startDate: 2020-07-09
 finishDate:
 ---
@@ -65,11 +65,10 @@ Grâce à l’analyse de l’existant, Béatrice a pu lister les éléments des 
 
 ### Recommandations et tests
 
-Sur la déclaration de ruches, Béatrice va pouvoir proposer des optimisations de parcours de l’existant, sur des environnements de tests, en vue de les confronter prochainement à de vrais usagers, des apiculteurs.
+Sur la déclaration de ruches, Béatrice a pu proposer des optimisations de parcours de l’existant, sur des environnements de tests, en vue de les confronter prochainement à de vrais usagers, des apiculteurs. Ces optimisations sont en cours d'implémentation par l'éditeur Efalia/6tzen.
 
-En parallèle et en lien direct avec son audit UX**,** elle pourra fournir de premières recommandations.
 
-### … à suivre
+### Terminé 🏁
 
-Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+
 :::

@@ -27,10 +27,10 @@
       <section class="mission">
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px"/></span>
-          <p class="mission-detail__name">Statut :</p>
+          <p class="mission-detail__name">Statut de l'intervention :</p>
           <p v-if="$page.challenge.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
           <p v-else-if="$page.challenge.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
-          <p v-else-if="$page.challenge.status == 'past'" class="mission-detail__status mission-detail__status--past">Accomplie</p>
+          <p v-else-if="$page.challenge.status == 'past'" class="mission-detail__status mission-detail__status--past">Terminée</p>
         </div>
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'desktop']" height="16px"/></span>
@@ -54,7 +54,7 @@
         </div>
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px"/></span>
-          <p class="mission-detail__name">Impact :</p>
+          <p class="mission-detail__name">Usage :</p>
           <p class="mission-detail__content">{{ $page.challenge.volumetry }} démarches effectuées par an</p>
         </div>
         <div class="mission-detail">
@@ -74,7 +74,7 @@
         </div>
         <div v-if="$page.challenge.goals.length" class="mission-detail mission-detail--goals">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px"/></span>
-          <p class="mission-detail__name">Objectifs :</p>
+          <p class="mission-detail__name">Impacts :</p>
           <ol class="mission-detail__content mission-detail__content--goals">
             <li v-for="goal in $page.challenge.goals" class="goal">
               <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Fait :" />

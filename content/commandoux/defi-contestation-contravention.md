@@ -12,7 +12,10 @@ procedures: [
 volumetry: 7 973 138
 ratio: 44%
 team: ["manon-oresve", "lola-charpentier"]
-status: futur
+goals: [
+    {name: 'Mise en ligne des améliorations attendue en mai 2021', done: false},
+  ]
+status: past
 startDate: 2020-11-09
 finishDate:
 ---
@@ -48,7 +51,7 @@ Lorsqu’ils rencontrent un problème sur le parcours de contestation, les usage
 Cette analyse de l’existant comprend deux éléments : l’accessibilité et la compréhension du service en ligne.
 Nous réalisons un premier audit d’accessibilité (RGAA) sur 25 critères que nous partageons avec les développeurs. Puis, nous menons des tests d’utilisabilité avec une douzaine de personnes en entretien individuel en visioconférence, où les participants manipulent une maquette du site tel qu’il est aujourd’hui. Le but est d’identifier les freins et besoins pour proposer des améliorations qui porteront sur la navigation comme sur la compréhension de la démarche et du vocabulaire employé.
 
-### … à suivre
+### Mise en ligne des améliorations en mai 2021 🏁
 
-Ce défi est toujours en cours, retrouvez bientôt les nouvelles étapes !
+
 :::

@@ -8,7 +8,7 @@ place: Paris
 procedures: [
     {name: 'Postuler à un emploi public', url: 'https://www.place-emploi-public.gouv.fr/'},
   ]
-impact: 5 000 000 demandes par an
+impact: 5 000 000 demandes par an
 team: ["julie-leroy", "jean-edouard-sastre"]
 goals: [
     {name: 'Rendre la démarche 100% accessible', done: true},

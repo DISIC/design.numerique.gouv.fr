@@ -15,7 +15,7 @@ goals: [
     {name: 'Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés : 13 recommandations en cours de mise en production par Efalia / 6tzen', done: true},
     {name: 'Amélioration de la note de satisfaction : 9/10', done: true},
   ]
-impact: 860 000 demandes par an
+impact: 860 000 demandes par an
 status: past
 startDate: 2020-09-07
 endDate: 2021-03-31
@@ -64,7 +64,7 @@ Grâce à l’analyse de l’existant, Béatrice a pu lister les éléments des 
 
 ### Recommandations et tests
 
-Sur la déclaration de ruches, Béatrice a pu proposer des optimisations de parcours de l’existant, sur des environnements de tests, en vue de les confronter prochainement à de vrais usagers, des apiculteurs. Ces optimisations sont en cours d'implémentation par l'éditeur Efalia/6tzen.
+Sur la déclaration de ruches, Béatrice a pu proposer des optimisations de parcours de l’existant, sur des environnements de tests, en vue de les confronter prochainement à de vrais usagers, des apiculteurs. Ces optimisations sont en cours d’implémentation par l’éditeur Efalia/6tzen.
 
 
 ### Terminé 🏁

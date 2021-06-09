@@ -12,7 +12,7 @@ team: ["manon-oresve", "lola-charpentier"]
 goals: [
     {name: 'Mise en ligne des améliorations attendue en mai 2021', done: false},
   ]
-impact: 7 973 138 demandes par an
+impact: 7 973 138 demandes par an
 status: past
 startDate: 2020-09-07
 endDate: 2021-03-31
@@ -20,7 +20,7 @@ endDate: 2021-03-31
 
 ## Problématique
 
-La démarche de « contestation d’avis de contravention et la désignation de conducteur » est réalisable en ligne et pourtant utilisée par 44% des usagers concernés. Cela implique un poids pour les usagers, mais aussi des coûts plus élevés que ce soit pour l’ANTAI (impression et de traitement du courrier) que pour les usagers (la contestation papier nécessite actuellement un envoi recommandé avec accusé de réception).
+La démarche de « contestation d’avis de contravention et la désignation de conducteur » est réalisable en ligne et pourtant utilisée par 44% des usagers concernés. Cela implique un poids pour les usagers, mais aussi des coûts plus élevés que ce soit pour l’ANTAI (impression et de traitement du courrier) que pour les usagers (la contestation papier nécessite actuellement un envoi recommandé avec accusé de réception).
 
 ## Objectifs du défi
 
@@ -40,7 +40,7 @@ Nous débutons notre travail avec l’équipe projet de l’Agence nationale de 
 
 Lors d’un déplacement au Centre National de Traitement de Rennes, nous rencontrons le prestataire qui édite, envoie puis réceptionne et traite les contraventions ; ainsi que le parquet de Rennes et des officiers du ministère public. Nous discutons également avec l’équipe de développement du site et découvrons le Centre d’appel.
 
-### Atelier de co-construction
+### Atelier de coconstruction
 
 Lorsqu’ils rencontrent un problème sur le parcours de contestation, les usagers peuvent contacter des conseillers par téléphone. Nous avons donc mené un atelier collaboratif avec ces conseillers. Possédant une connaissance fine des utilisateurs, l’exercice a permis d’identifier les problèmes récurrents rencontrés sur le parcours et d’évoquer des pistes de solutions.
 

@@ -8,7 +8,7 @@ place: Paris
 procedures: [
     {name: 'Renouvellement mensuel de la situation de demandeur d’emploi (pôle emploi)', url: 'https://candidat.pole-emploi.fr/inscription/preambule'},
   ]
-impact: 6 297 380 demandes par an
+impact: 6 297 380 demandes par an
 team: ["hugo-thomas"]
 goals: [
     {name: 'Améliorer la note de satisfaction : 7,6/10', done: true},

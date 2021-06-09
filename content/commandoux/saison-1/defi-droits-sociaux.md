@@ -8,7 +8,7 @@ place: Montauban
 procedures: [
     {name: 'Simuler mes droits sociaux', url: 'https://www.mesdroitssociaux.gouv.fr/'},
   ]
-impact: 503 533 demandes par an
+impact: 503 533 demandes par an
 team: ["benjamin-metifeu", "simon-denier"]
 status: past
 startDate: 2020-09-07
@@ -17,7 +17,7 @@ endDate: 2021-03-31
 
 ## Problématique
 
-Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite,…), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l’emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d’avoir droit. Ce défi vise l’amélioration de ce simulateur.
+Ce portail offre un accès centralisé et personnalisé aux espaces personnels développés par les organismes sociaux (Caf, Assurance maladie, Assurance retraite…), via une présentation synthétique des droits actuellement ouverts, en matière de santé, retraite, famille, logement, solidarités et autour de l’emploi. Il propose également un simulateur multi-prestations permettant de connaître les prestations sociales auxquelles vous êtes susceptible d’avoir droit. Ce défi vise l’amélioration de ce simulateur.
 
 
 ## Objectifs du défi

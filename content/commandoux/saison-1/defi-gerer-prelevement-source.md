@@ -8,7 +8,7 @@ place: Paris et Noisy-le-Grand
 procedures: [
     {name: 'Gérer mon prélèvement à la source', url: 'https://www.impots.gouv.fr/portail/particulier'},
   ]
-impact: 8 200 000 demandes par an
+impact: 8 200 000 demandes par an
 team: ["yaacov-cohen"]
 status: past
 startDate: 2020-09-07

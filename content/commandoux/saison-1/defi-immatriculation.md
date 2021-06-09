@@ -8,7 +8,7 @@ place: Paris et Charleville-Mézières
 procedures: [
     {name: 'Autres demandes concernant l’immatriculation de véhicule', url: 'https://immatriculation.ants.gouv.fr/'},
   ]
-impact: 10 724 465 demandes par an
+impact: 10 724 465 demandes par an
 team: ["ev-henke"]
 status: past
 startDate: 2020-09-07

@@ -27,7 +27,7 @@
       <section class="mission">
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Statut de l'intervention :</p>
+          <p class="mission-detail__name">Statut de l’intervention :</p>
           <p v-if="$page.mission.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
           <p v-else-if="$page.mission.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
           <p v-else-if="$page.mission.status == 'past'" class="mission-detail__status mission-detail__status--past">Terminée</p>
@@ -77,8 +77,8 @@
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'map-marker-alt']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Lieu :</p>
           <p class="mission-detail__content">
-            <span v-if="$page.mission.direction">{{ $page.mission.department }} - {{ $page.mission.direction }} - {{ $page.mission.place }}</span>
-            <span v-else>{{ $page.mission.department }} - {{ $page.mission.place }}</span>
+            <span v-if="$page.mission.direction">{{ $page.mission.department }} — {{ $page.mission.direction }} — {{ $page.mission.place }}</span>
+            <span v-else>{{ $page.mission.department }} — {{ $page.mission.place }}</span>
           </p>
         </div>
         <div v-if="$page.mission.team.length" class="mission-detail mission-detail--team">

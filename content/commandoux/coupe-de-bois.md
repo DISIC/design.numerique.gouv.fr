@@ -3,12 +3,12 @@ title: Enrichir et rendre accessible la démarche de demande de coupe de bois
 slug: coupe-de-bois
 department: Ministère de l’Agriculture et de l’Alimentation
 direction:
-place: Paris et Auzeville-Tolosane
+place: Paris et Auzeville—Tolosane
 procedures: [
     {name: 'Demande d’autorisation administrative de coupe de bois', url: 'https://agriculture-portail.6tzen.fr/default/requests/Cerfa12530/'},
   ]
-impact: 50 000 demandes par an
-budget: 90 000
+impact: 50 000 demandes par an
+budget: 90 000
 jobs: [
   {title: 'Designer UX/UI', count: 1},
   ]

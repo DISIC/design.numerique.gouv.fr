@@ -8,7 +8,7 @@ place: Paris
 procedures: [
     {name: 'Paiement des amendes', url: 'https://www.amendes.gouv.fr'},
   ]
-impact: 18 720 381 demandes par an
+impact: 18 720 381 demandes par an
 team: ["lucile-foraison", "bertrand-keller"]
 goals: [
     {name: 'Rendre la démarche 100% accessible : maintenant accessible à 60%', done: true},

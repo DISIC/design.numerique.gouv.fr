@@ -318,7 +318,10 @@
 
             @media only screen and (max-width: $mobile-max-width) {
               display: inline;
-              margin-bottom: -6px;
+              margin-bottom: -0.5rem;
+              height: 1rem;
+              width: 1rem;
+              margin-right: 0.5rem;
             }
           }
 

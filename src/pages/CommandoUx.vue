@@ -124,7 +124,7 @@
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
                 <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="mission__status mission__status--past">Accomplie</p>
+              <p class="mission__status mission__status--past">Terminée</p>
             </div>
           </li>
 

@@ -16,7 +16,6 @@ goals: [
     {name: 'Amélioration de la note de satisfaction : 9/10', done: true},
   ]
 impact: 860 000 demandes par an
-team: ['beatrice-le-thuc']
 status: past
 startDate: 2020-09-07
 endDate: 2021-03-31

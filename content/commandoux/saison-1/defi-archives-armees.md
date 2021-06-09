@@ -14,7 +14,6 @@ goals: [
     {name: 'Créer une expérience désirable, accessible, et compréhensible en s’appuyant fortement sur des tests usager : attente des résultats en juin 2021', done: false},
     {name: 'Atteindre 50% de recours à la voie numérique au premier semestre 2021 : attente des résultats en juin 2021', done: false},
   ]
-=======
 impact: 180 000 demandes par an
 status: past
 startDate: 2020-09-07

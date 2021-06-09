@@ -598,6 +598,7 @@
 
         &__description {
           text-align: left;
+          padding-top: 0.125rem;
 
           h3 {
             margin: 0;

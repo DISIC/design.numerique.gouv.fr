@@ -48,7 +48,7 @@
             <div class="item item--right">
               <div class="item__content">
                 <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
-                <h3>Experts « expérience utilisateur »</h3>
+                <h3>Experts «&nbsp;expérience utilisateur&nbsp;»</h3>
                 <p>
                   Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
                 </p>

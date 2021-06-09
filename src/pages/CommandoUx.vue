@@ -23,7 +23,7 @@
             Des experts au sein des administrations
           </h2>
           <p>
-            Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l'aventure : déployer des experts du numériques au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
+            Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l’aventure : déployer des experts du numériques au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
           </p>
           <p>
             L’immersion de chaque Commando revêt un double bénéfice : livrer des améliorations concrètes tout en diffusant des pratiques innovantes au sein des administrations d’accueil.
@@ -34,13 +34,13 @@
             <div class="item item--left">
               <div class="item__content">
                 <font-awesome :icon="['fas', 'university']" class="item__icon" width="16" height="16" aria-hidden="true" />
-                <h3>Administrations de l'État</h3>
+                <h3>Administrations de l’État</h3>
                 <p>
-                  Vous êtes en charge de l'une des démarches recensées dans l'Observatoire et vous souhaitez accueillir un Commando UX.
+                  Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
                 </p>
               </div>
 
-              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidatez - Nouvelle fenêtre" class="item__link button button--highlight">
+              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="item__link button button--highlight">
                 Candidater<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
               </a>
             </div>
@@ -54,7 +54,7 @@
                 </p>
               </div>
 
-              <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" title="Partagez votre intérêt - Nouvelle fenêtre" class="item__link button button--highlight">
+              <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" title="Partager votre intérêt - Nouvelle fenêtre" class="item__link button button--highlight">
                 Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
               </a>
             </div>
@@ -84,7 +84,7 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les interventions
         </h2>
         <p class="section__subtitle">
-          L'icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
+          L’icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
         </p>
 
         <ul class="missions">

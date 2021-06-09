@@ -84,7 +84,7 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les interventions
         </h2>
         <p class="section__subtitle">
-          L'icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les missions pour lesquelles nous recherchons des experts.
+          L'icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
         </p>
 
         <ul class="missions">

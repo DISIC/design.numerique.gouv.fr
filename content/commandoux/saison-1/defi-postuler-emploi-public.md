@@ -1,23 +1,21 @@
 ---
 title: Place de l’Emploi Public
 description: Défi emploi public
-slug: defi-postuler-emploi-public-suite
-illustration: ['fas', 'gavel']
+slug: defi-postuler-emploi-public
 department: Ministère de la Transformation et de la Fonction publiques
 direction: Direction Générale de l’Administration et de la Fonction Publique
 place: Paris
 procedures: [
     {name: 'Postuler à un emploi public', url: 'https://www.place-emploi-public.gouv.fr/'},
   ]
-volumetry: 5 000 000
-ratio: 3%
+impact: 5 000 000 demandes par an
 team: ["julie-leroy", "jean-edouard-sastre"]
 goals: [
     {name: 'Rendre la démarche 100% accessible', done: true},
   ]
 status: past
-startDate: 2020-07-09
-finishDate:
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

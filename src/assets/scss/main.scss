@@ -15,7 +15,7 @@ body {
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
   color: $black;
-  background-color: $white;
+  background-color: white;
 
   .text-highlight {
     text-shadow: 0.25rem 0.25rem 0px $light;
@@ -136,6 +136,10 @@ a {
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;
+    }
+
+    .section__subtitle {
+      margin: -0.5rem 0 2rem 0;
     }
   }
 }

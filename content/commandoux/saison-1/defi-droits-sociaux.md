@@ -2,19 +2,17 @@
 title: Simulateur de droits sociaux
 description: Défi droits sociaux
 slug: defi-droits-sociaux
-illustration: ['fas', 'gavel']
 department: Ministère des Solidarités et de la Santé
 direction: Direction de la sécurité sociale
 place: Montauban
 procedures: [
     {name: 'Simuler mes droits sociaux', url: 'https://www.mesdroitssociaux.gouv.fr/'},
   ]
-volumetry: 503 533
-ratio: 100%
+impact: 503 533 demandes par an
 team: ["benjamin-metifeu", "simon-denier"]
 status: past
-startDate: 2020-07-09
-finishDate:
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

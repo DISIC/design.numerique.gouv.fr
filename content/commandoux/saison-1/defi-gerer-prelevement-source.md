@@ -2,19 +2,17 @@
 title: Gestion du prélèvement à la source
 description: Défi prélèvement à la source
 slug: defi-gerer-prelevement-source
-illustration: ['fas', 'gavel']
 department: Ministère de l’Économie, des Finances et de la Relance
 direction: Direction Générale des Finances Publiques
 place: Paris et Noisy-le-Grand
 procedures: [
     {name: 'Gérer mon prélèvement à la source', url: 'https://www.impots.gouv.fr/portail/particulier'},
   ]
-volumetry: 8 200 000
-ratio: 100%
+impact: 8 200 000 demandes par an
 team: ["yaacov-cohen"]
 status: past
-startDate: 2020-07-09
-finishDate:
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

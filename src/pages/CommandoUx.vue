@@ -15,57 +15,58 @@
 
     <div class="content">
 
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Des experts au sein des administrations
-        </h2>
-        <p>
-          Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l’aventure : déployer des experts du numérique au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
-        </p>
-        <p>
-          L’immersion de chaque Commando revêt un double bénéfice : livrer des améliorations concrètes tout en diffusant des pratiques innovantes au sein des administrations d’accueil.
-        </p>
-      </section>
+      <section class="description">
 
-      <section class="items">
+        <div class="description__content">
+          <h2>
+            <!-- <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/> -->
+            Des experts au sein des administrations
+          </h2>
+          <p>
+            Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l'aventure : déployer des expert·e·s du numériques au sein des administrations pour rendre <strong>plus accessibles et plus compréhensibles</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
+          </p>
+          <p>
+            L'immersion de chaque Commando revêt un double bénéfice : livrer des améliorations concrètes tout en diffusant des pratiques innovantes au sein des administrations d'accueil.
+          </p>
+        </div>
 
-          <div class="item item--left">
-            <div class="item__content">
-              <font-awesome :icon="['fas', 'university']" class="item__icon" width="16" height="16" aria-hidden="true" />
-              <h3>Administrations de l’État</h3>
-              <p>
-                Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
-              </p>
+        <div class="description__actions">
+            <div class="item item--left">
+              <div class="item__content">
+                <font-awesome :icon="['fas', 'university']" class="item__icon" width="16" height="16" aria-hidden="true" />
+                <h3>Administrations de l'État</h3>
+                <p>
+                  Vous êtes en charge de l'une des démarches recensées dans l'Observatoire et vous souhaitez accueillir un Commando UX.
+                </p>
+              </div>
+
+              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidatez - Nouvelle fenêtre" class="item__link button button--highlight">
+                Candidater<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              </a>
             </div>
 
-            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidatez - Nouvelle fenêtre" class="item__link button button--highlight">
-              Candidatez<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </a>
-          </div>
+            <div class="item item--right">
+              <div class="item__content">
+                <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
+                <h3>Expert·e·s du numérique</h3>
+                <p>
+                  Vous êtes chef·fe de produit agile, designer, développeur·euse, chercheur·euse utilisateur, rédacteur·rice UX et vous souhaitez vous impliquer.
+                </p>
+              </div>
 
-          <div class="item item--right">
-            <div class="item__content">
-              <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
-              <h3>Experts « expérience utilisateur »</h3>
-              <p>
-                Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
-              </p>
+              <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" title="Partagez votre intérêt - Nouvelle fenêtre" class="item__link button button--highlight">
+                Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              </a>
             </div>
-
-            <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" title="Partagez votre intérêt - Nouvelle fenêtre" class="item__link button button--highlight">
-              Partagez votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-            </a>
-          </div>
-
+        </div>
       </section>
-
 
       <section>
         <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando saison 2
         </h2>
-        <p>
-          Ce nouveau Commando UX fonctionne en continu. Des experts interviennent déjà sur différents projets et démarches depuis mai 2021.
+        <p class="section__subtitle">
+          Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021.
         </p>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id" class="team-member">
@@ -82,44 +83,48 @@
         <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les interventions
         </h2>
-        <ul class="challenges">
+        <p class="section__subtitle">
+          Les missions pour lesquelles nous recherchons des experts sont indiquées par l'icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span>.
+        </p>
 
-          <li v-for="{ node } in futurChallenges" :key="node.id" class="challenge">
-            <div class="challenge__left">
-              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
-              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+        <ul class="missions">
+
+          <li v-for="{ node } in futurMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
-            <div class="challenge__right">
-              <ul class="challenge__team">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="challenge__status challenge__status--futur">À venir</p>
+              <p class="mission__status mission__status--futur">À venir</p>
             </div>
           </li>
 
-          <li v-for="{ node } in presentChallenges" :key="node.id" class="challenge">
-            <div class="challenge__left">
-              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
-              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+          <li v-for="{ node } in presentMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
-            <div class="challenge__right">
-              <ul class="challenge__team">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="challenge__status challenge__status--present">En cours</p>
+              <p class="mission__status mission__status--present">En cours</p>
             </div>
           </li>
 
-          <li v-for="{ node } in pastChallenges" :key="node.id" class="challenge">
-            <div class="challenge__left">
-              <!-- <font-awesome  class="challenge__illustration" :icon="node.illustration" width="16" height="16" aria-hidden="true" /> -->
-              <h3 class="challenge__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+          <li v-for="{ node } in pastMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
-            <div class="challenge__right">
-              <ul class="challenge__team">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="challenge__team-member" :src="member.photo" alt="" /></li>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
               </ul>
-              <p class="challenge__status challenge__status--past">Terminée</p>
+              <p class="mission__status mission__status--past">Accomplie</p>
             </div>
           </li>
 
@@ -134,19 +139,21 @@
 <page-query>
 
   query {
-    allChallenge (sortBy: "title", order: ASC) {
+    allMission (sortBy: "title", order: ASC) {
       edges {
         node {
         	id
           title
           slug
-          illustration
           status
           team {
             id
             firstName
             lastName
             photo (width: 64, height: 64, quality: 100)
+          }
+          jobs {
+            count
           }
         }
       }
@@ -177,14 +184,14 @@
       CommandoUX,
     },
     computed: {
-      pastChallenges: function () {
-        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'past')
+      pastMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'past')
       },
-      presentChallenges: function () {
-        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'present')
+      presentMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'present')
       },
-      futurChallenges: function () {
-        return this.$page.allChallenge.edges.filter(challenge => challenge.node.status == 'futur')
+      futurMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'futur')
       },
     },
     metaInfo: {
@@ -238,14 +245,118 @@
 
   .commando-ux-page {
 
-    .challenges {
+    .description {
+
+      &__content {
+        background-color: $light-gray;
+        padding: 0.5rem 2rem 1rem 2rem;
+        border-left: 4px solid $blue;
+        margin-bottom: 3rem;
+      }
+
+      &__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 5rem;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          align-items: start;
+          margin: 0 0 4rem 0;
+        }
+
+        .item {
+          position: relative;
+          flex-basis: 48%;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            flex-basis: 100%;
+            flex-grow: 1;
+          }
+
+          &--left {
+            margin-right: 2%;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              margin: 0 0 3rem 0;
+            }
+          }
+
+          &--right {
+            margin-left: 2%;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              margin: 0;
+            }
+          }
+
+          &__link {
+            margin-top: 0.5rem;
+
+            &::after {
+              position: absolute;
+              content: "";
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+            }
+          }
+
+          &__icon {
+            display: inline-block;
+            background: $light-gray;
+            color: $blue;
+            border-radius: 50%;
+            padding: 10px;
+            transition: .2s all;
+            height: 1.5rem;
+            width: 1.5rem;
+            margin-bottom: -0.8rem;
+            margin-right: 0.75rem;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              display: inline;
+              margin-bottom: -6px;
+            }
+          }
+
+          h3 {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+
+    .open-jobs {
+      display: inline-block;
+      text-align: center;
+      background-color: $light-gray;
+      border-radius: 50%;
+      padding: 0.2rem 0.6rem 0.8rem 0.4rem;
+      font-size: 1rem;
+      margin: 0 0.25rem 0 0;
+      width: 0.9rem;
+      height: 0.9rem;
+      color: $red;
+      flex-shrink: 0;
+    }
+
+    .missions {
       padding: 0;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
 
-      .challenge {
+      .mission {
         list-style: none;
         text-align: left;
         width: 100%;
@@ -402,14 +513,6 @@
       }
     }
 
-    .subsection {
-      margin-bottom: 40px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 24px;
-      }
-    }
-
     .cta {
       text-align: center;
       margin-bottom: 64px;
@@ -521,87 +624,6 @@
         }
       }
     }
-
-    .items {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      flex-wrap: wrap;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        align-items: start;
-        margin: 0 0 4rem 0;
-      }
-
-      .item {
-        position: relative;
-        flex-basis: 48%;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          flex-basis: 100%;
-          flex-grow: 1;
-        }
-
-        &--left {
-          margin-right: 2%;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            margin: 0 0 3rem 0;
-          }
-        }
-
-        &--right {
-          margin-left: 2%;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            margin: 0;
-          }
-        }
-
-        &__link {
-          margin-top: 0.5rem;
-
-          &::after {
-            position: absolute;
-            content: "";
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-          }
-        }
-
-        &__icon {
-          display: inline-block;
-          background: $light-gray;
-          color: $blue;
-          border-radius: 50%;
-          padding: 10px;
-          transition: .2s all;
-          height: 1.5rem;
-          width: 1.5rem;
-          margin-bottom: -0.8rem;
-          margin-right: 0.75rem;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            display: inline;
-            margin-bottom: -6px;
-          }
-        }
-
-        h3 {
-          display: inline-block;
-          padding: 0;
-          margin: 0;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            display: inline;
-          }
-        }
-
-      }
-    }
-
   }
 
 </style>

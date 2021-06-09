@@ -2,7 +2,6 @@
 title: Améliorer l’expérience des agriculteurs sur 2 démarches phares
 description: Défi agriculture
 slug: defi-agriculture
-illustration: ['fas', 'gavel']
 department: Ministère de l’Agriculture et de l’Alimentation
 direction: Secrétariat général
 place: Paris
@@ -10,17 +9,17 @@ budget:
 procedures: [
     {name: 'Site “Mes démarches” du ministère de l’Agriculture', url: 'http://mesdemarches.agriculture.gouv.fr'},
   ]
-volumetry: 860 000
-ratio: 70%
 team: ['beatrice-le-thuc']
 goals: [
     {name: 'Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)', done: true},
     {name: 'Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés : 13 recommandations en cours de mise en production par Efalia / 6tzen', done: true},
     {name: 'Amélioration de la note de satisfaction : 9/10', done: true},
   ]
+impact: 860 000 demandes par an
+team: ['beatrice-le-thuc']
 status: past
-startDate: 2020-07-09
-finishDate: 2021-31-03
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique
@@ -33,10 +32,10 @@ Ce défi est différent des autres puisque vous accompagnerez le ministère de l
 2. La déclaration de détention et d’emplacement de ruches, une des démarches les plus emblématiques du ministère
 
 
-<!-- ## Objectifs du défi
+## Objectifs du défi
 
 - Mieux comprendre les besoins des agriculteurs dans le cadre de ces démarches (ateliers d’écoute, entretiens individuels et tests utilisateur)
-- Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés -->
+- Proposer de nouveaux parcours pour adapter les démarches aux besoins identifiés
 
 
 ## Le défi étape par étape

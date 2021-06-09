@@ -2,22 +2,20 @@
 title: Contestation de contravention
 description: Défi contestation de contravention
 slug: defi-contestation-contravention
-illustration: ['fas', 'gavel']
 department: Ministère de l’Intérieur
 direction: Agence nationale de traitement automatisé des infractions (ANTAI)
 place: Paris et Rennes
 procedures: [
     {name: 'Contestation d’avis de contravention et désignation de conducteur (infractions relevées par radars ou Pve)', url: 'https://www.usagers.antai.gouv.fr/demarches/saisienumero'},
   ]
-volumetry: 7 973 138
-ratio: 44%
 team: ["manon-oresve", "lola-charpentier"]
 goals: [
     {name: 'Mise en ligne des améliorations attendue en mai 2021', done: false},
   ]
+impact: 7 973 138 demandes par an
 status: past
-startDate: 2020-11-09
-finishDate:
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

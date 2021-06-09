@@ -2,22 +2,20 @@
 title: Demande de titre de séjour
 description: Défi titre de séjour
 slug: defi-titre-de-sejour
-illustration: ['fas', 'gavel']
 department: Ministère de l’Intérieur
 direction: Direction générale des étrangers en France
 place: Paris
 procedures: [
     {name: 'Demande de titre de séjour', url: ''},
   ]
-volumetry: 750 000
-ratio: 100%
+impact: 750 000 demandes par an
 team: ["pierre-brice-haurie", "ameziane-allioui"]
 goals: [
     {name: 'Rendre la démarche accessible. Maintenant : 60%', done: false},
   ]
 status: past
-startDate: 2020-07-09
-finishDate:
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

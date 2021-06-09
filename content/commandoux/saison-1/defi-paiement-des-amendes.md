@@ -2,22 +2,20 @@
 title: Paiement des amendes
 description: Défi paiement des amendes
 slug: defi-paiement-des-amendes
-illustration: ['fas', 'gavel']
 department: Ministère de l’Économie, des Finances et de la Relance
 direction: Direction Générale des Finances Publiques
 place: Paris
 procedures: [
     {name: 'Paiement des amendes', url: 'https://www.amendes.gouv.fr'},
   ]
-volumetry: 18 720 381
-ratio: 59%
+impact: 18 720 381 demandes par an
 team: ["lucile-foraison", "bertrand-keller"]
 goals: [
     {name: 'Rendre la démarche 100% accessible : maintenant accessible à 60%', done: true},
   ]
 status: past
-startDate: 2020-07-09
-finishDate:
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

@@ -1,7 +1,7 @@
 <template>
   <Layout class="saison-1-page">
 
-    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
+    <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li>
           <g-link to="/">Accueil</g-link>
@@ -10,16 +10,16 @@
           <g-link to="/commando-ux/">Commando UX</g-link>
         </li>
         <li>
-          <span aria-current="page">Commando UX Saison 1</span>
+          <span aria-current="page">Saison 1</span>
         </li>
       </ol>
-    </nav> -->
+    </nav>
 
     <div class="cover">
      <div class="cover__container">
 
-      <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX saison 1</h1>
-
+      <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
+      <h1 class="text-highlight">Commando UX saison 1</h1>
       <p class="cover__subtitle">
         Afin d’accélérer les améliorations concrètes pour les usagers dans leurs démarches, la DINUM a lancé en septembre 2020 le Commando UX.
       </p>
@@ -98,15 +98,11 @@
         <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
         </h2>
-        <ul class="challenge">
-          <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <!-- <g-image class="challenge__illustration" :src="node.illustration" alt=""/> -->
+        <ul class="mission">
+          <li class="mission__item" v-for="{ node } in firstSeason" :key="node.id">
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
-            <p class="challenge__description">{{ node.description }}</p>
-            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
-            <!-- <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
-            <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p> -->
-            <!-- <p class="challenge__place"><font-awesome class="challenge__icon" :icon="['fas', 'map-marker-alt']"/> {{ node.place }}</p> -->
+            <p class="mission__description">{{ node.description }}</p>
+            <p class="mission__department"><font-awesome class="mission__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
           </li>
         </ul>
       </section>
@@ -213,16 +209,15 @@
 <page-query>
 
   query {
-    allChallenge (sortBy: "title", order: ASC) {
+    allMission (sortBy: "title", order: ASC) {
       edges {
         node {
         	id
           title
           description
           slug
-          illustration
           department
-          place
+          startDate
         }
       }
     }
@@ -256,15 +251,20 @@
     components: {
       CommandoUX,
     },
+    computed: {
+      firstSeason: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.startDate ? (new Date(mission.node.startDate)).getTime() == (new Date('2020-09-07')).getTime() : false)
+      },
+    },
     metaInfo: {
-      title: "Commando UX",
+      title: "Commando UX saison 1",
       meta: [{
         name: 'description',
         content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
       },
       {
         property: 'og:title',
-        content: "Commando UX - DesignGouv"
+        content: "Commando UX saison 1 - DesignGouv"
       },
       {
         property: 'og:description',
@@ -284,7 +284,7 @@
       },
       {
         name: "twitter:title",
-        content: "Commando UX - DesignGouv"
+        content: "Commando UX saison 1 - DesignGouv"
       },
       {
         name: "twitter:description",
@@ -307,7 +307,7 @@
 
   .saison-1-page {
 
-    .challenge {
+    .mission {
       padding: 0;
       display: flex;
       align-items: flex-start;

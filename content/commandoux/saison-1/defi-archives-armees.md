@@ -2,24 +2,23 @@
 title: Consultation des archives pour les anciens combattants
 description: Défi archives des armées
 slug: defi-recherche-administrative
-illustration: ['fas', 'gavel']
 department: Ministère des Armées
 direction: Service historique de la Défense
 place: Vincennes et Pau
 procedures: [
     {name: 'Demande de recherche administrative (créatrice de droits)', url: ''},
   ]
-volumetry: 180 000
-ratio: 100%
 team: ["jocelyn-caron"]
 goals: [
     {name: 'Mise en ligne de la démarche attendue en juin 2021', done: false},
     {name: 'Créer une expérience désirable, accessible, et compréhensible en s’appuyant fortement sur des tests usager : attente des résultats en juin 2021', done: false},
     {name: 'Atteindre 50% de recours à la voie numérique au premier semestre 2021 : attente des résultats en juin 2021', done: false},
   ]
+=======
+impact: 180 000 demandes par an
 status: past
-startDate: 2020-10-09
-finishDate:
+startDate: 2020-09-07
+endDate: 2021-03-31
 ---
 
 ## Problématique

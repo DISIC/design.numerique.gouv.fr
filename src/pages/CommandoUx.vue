@@ -70,10 +70,10 @@
         </p>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id" class="team-member">
-            <g-image class="team-member__photo" :src="node.photo" alt="" />
+            <g-image class="team-member__photo" :src="node.ghostPhoto" alt="" />
             <div class="team-member__description">
-              <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
-              <p>{{ node.job_title }}</p>
+              <h3>{{ node.ghostName }}</h3>
+              <!-- <p>{{ node.job_title }}</p> -->
             </div>
           </li>
         </ul>
@@ -96,7 +96,7 @@
             <div class="mission__right">
               <ul class="mission__team">
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" alt="" /></li>
               </ul>
               <p class="mission__status mission__status--futur">À venir</p>
             </div>
@@ -109,7 +109,7 @@
             <div class="mission__right">
               <ul class="mission__team">
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" alt="" /></li>
               </ul>
               <p class="mission__status mission__status--present">En cours</p>
             </div>
@@ -151,6 +151,8 @@
             firstName
             lastName
             photo (width: 64, height: 64, quality: 100)
+            ghostName
+            ghostPhoto (width: 64, height: 64, quality: 100)
           }
           jobs {
             count
@@ -162,11 +164,8 @@
       edges {
         node {
         	id
-          firstName
-          lastName
-          job_title
-          photo (width: 64, height: 64, quality: 100)
-          path
+          ghostName
+          ghostPhoto (width: 64, height: 64, quality: 100)
         }
       }
     }
@@ -570,6 +569,7 @@
     }
 
     .team {
+      margin-top: -1rem;
       padding: 0;
       display: flex;
       align-items: flex-start;
@@ -579,21 +579,21 @@
       &-member {
         list-style: none;
         width: 48%;
-        margin: 0.75rem 0.25rem;
+        margin: 0.75rem 0;
         display: flex;
         justify-content: flex-start;
-        position: relative;
+        align-items: center;
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
-          margin: 0.75rem 0;
+          margin: 0.5rem 0;
         }
 
         &__photo {
           margin: 0 1rem 0 0;
           border-radius: 50%;
-          width: 3rem;
-          height: 3rem;
+          width: 2rem;
+          height: 2rem;
         }
 
         &__description {
@@ -602,28 +602,11 @@
 
           h3 {
             margin: 0;
+            font-size: 1.125rem;
 
-            a {
-              color: $black !important;
-              border: none !important;
-
-              &:hover {
-                color: $red !important;
-              }
-
-              &::after {
-                position: absolute;
-                content: "";
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-              }
+            @media only screen and (max-width: $mobile-max-width) {
+              font-size: 1rem;
             }
-          }
-
-          p {
-              margin: 0;
           }
         }
       }

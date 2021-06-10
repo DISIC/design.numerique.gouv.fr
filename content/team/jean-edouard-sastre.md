@@ -4,6 +4,8 @@ firstName: Édouard
 lastName: Sastre
 photo: ./photos/jean-edouard-sastre.png
 job_title: Designer
+ghostName: Un designer
+ghostPhoto: ./photos/jean-edouard-sastre-ghost.png
 sub_team: Défi emploi public
 sub_team_link: /commando-ux/defi-postuler-emploi-public
 twitter: EdouardSastre

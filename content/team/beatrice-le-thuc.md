@@ -2,7 +2,9 @@
 id: beatrice-le-thuc
 firstName: Béatrice
 lastName: Le Thuc
+ghostName: Une designer produit aux cheveux bruns
 photo: ./photos/beatrice-le-thuc.png
+ghostPhoto: ./photos/beatrice-le-thuc-ghost.png
 job_title: Designer produit
 sub_team: Défi agriculture
 sub_team_link: /commando-ux/defi-agriculture

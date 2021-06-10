@@ -12,7 +12,7 @@ budget: 90 000
 jobs: [
   {title: 'Designer UX/UI', count: 1},
   ]
-team: ['beatrice-le-thuc']
+team:
 goals: [
     {name: 'Intégration du bouton Je Donne Mon Avis (septembre 2021)', done: false},
     {name: 'Mise en accessibilité (septembre 2021)', done: false},

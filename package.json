@@ -16,6 +16,7 @@
     "@gridsome/plugin-sitemap": "^0.2.3",
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.0",
+    "airtable": "^0.11.1",
     "global": "^4.4.0",
     "gridsome": "^0.7.22",
     "gridsome-plugin-i18n": "^1.6.0",

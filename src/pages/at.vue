@@ -34,31 +34,31 @@
                             </legend>
                             <div class="rf-fieldset__content">
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="expertise-1" name="expertise">
+                                    <input type="checkbox" id="expertise-1" name="designUx">
                                     <label class="rf-label" for="expertise-1">Design UX</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="expertise-2" name="expertise">
+                                    <input type="checkbox" id="expertise-2" name="designUi">
                                     <label class="rf-label" for="expertise-2">Design UI</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="expertise-3" name="expertise">
+                                    <input type="checkbox" id="expertise-3" name="designService">
                                     <label class="rf-label" for="expertise-3">Design de services</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="expertise-4" name="expertise">
+                                    <input type="checkbox" id="expertise-4" name="devA11y">
                                     <label class="rf-label" for="expertise-4">Développement accessibilité</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="expertise-5" name="expertise">
+                                    <input type="checkbox" id="expertise-5" name="resercheU">
                                     <label class="rf-label" for="expertise-5">Recherche usagers (« User researcher »)</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="expertise-6" name="expertise">
+                                    <input type="checkbox" id="expertise-6" name="sciencesComportementales">
                                     <label class="rf-label" for="expertise-6">Sciences comportementales</label>
                                 </div> 
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="checkboxes-7" name="expertise">
+                                    <input type="checkbox" id="checkboxes-7" name="redactionUx">
                                     <label class="rf-label" for="checkboxes-7">Rédaction UX ("UX writer")</label>
                                 </div>
                             </div>
@@ -108,23 +108,23 @@
                             </legend>
                             <div class="rf-fieldset__content">
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="duree-1" name="durE">
-                                    <label class="rf-label" for="duree-1">Ponctuel</label>
+                                    <input type="checkbox" id="duree-1" name="ponctuel">
+                                    <label class="rf-label" for="duree-1">ponctuelle</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="duree-2" name="durE">
-                                    <label class="rf-label" for="duree-2">Moins de 3 mois</label>
+                                    <input type="checkbox" id="duree-2" name="troisMois">
+                                    <label class="rf-label" for="duree-2">3 mois</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="duree-3" name="durE">
+                                    <input type="checkbox" id="duree-3" name="troisMoisUnAn">
                                     <label class="rf-label" for="duree-3">De 3 mois à 1 an</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="duree-4" name="durE">
+                                    <input type="checkbox" id="duree-4" name="unAn">
                                     <label class="rf-label" for="duree-4">Plus d’1 an</label>
                                 </div>
                                 <div class="rf-checkbox-group">
-                                    <input type="checkbox" id="duree-5" name="durE">
+                                    <input type="checkbox" id="duree-5" name="jnsp">
                                     <label class="rf-label" for="duree-5">Je ne sais pas</label>
                                 </div>
                             </div>
@@ -142,6 +142,7 @@
                         <label class="rf-label" for="autresInfos">D’autres informations que vous souhaitez partager ?</label>
                         <textarea class="rf-input" type="text" id="autresInfos" name="plus"></textarea>
                     </div>
+                    
                     <button class="rf-btn button" type="button" @click="addCandidat">Partager votre intérêt</button>
                 </form>
                 </div>

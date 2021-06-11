@@ -438,16 +438,6 @@
               margin-top: -5px;
             }
           }
-
-          &:last-of-type {
-            &:before {
-              background-image: url(/assets/images/stepLong.svg);
-              background-size: 32px 108px;
-              width: 32px;
-              height: 108px;
-              margin-top: -15px;
-            }
-          }
         }
       }
     }

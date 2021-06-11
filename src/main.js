@@ -55,7 +55,11 @@ import {
   faInfoCircle,
   faBullhorn,
   faEuroSign,
-  faUserPlus
+  faUserPlus,
+  faComments,
+  faCode,
+  faPencilRuler,
+  faEllipsisH
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faFilePdf,
@@ -121,7 +125,11 @@ library.add(
   faInfoCircle,
   faBullhorn,
   faEuroSign,
-  faUserPlus
+  faUserPlus,
+  faComments,
+  faCode,
+  faPencilRuler,
+  faEllipsisH
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ

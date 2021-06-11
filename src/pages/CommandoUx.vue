@@ -66,15 +66,24 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando saison 2
         </h2>
         <p class="section__subtitle">
-          Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021.
+          Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
         </p>
         <ul class="team">
-          <li v-for="{ node } in $page.allPeople.edges" :key="node.id" class="team-member">
-            <g-image class="team-member__photo" :src="node.ghostPhoto" alt="" />
-            <div class="team-member__description">
-              <h3>{{ node.ghostName }}</h3>
-              <!-- <p>{{ node.job_title }}</p> -->
-            </div>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">Une chargée de recherche utilisateur</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">Un design UX/UI</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">Une développeuse accessibilité</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'ellipsis-h']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description team-member__description--light">Et bientôt d'autres experts pour accompagner les administrations</h3>
           </li>
         </ul>
       </section>
@@ -570,43 +579,59 @@
 
     .team {
       margin-top: -1rem;
-      padding: 0;
+      padding: 0 0 0 2rem;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
 
+      @media only screen and (max-width: $mobile-max-width) {
+        padding: 0;
+      }
+
       &-member {
         list-style: none;
-        width: 48%;
-        margin: 0.75rem 0;
+        width: 100%;
+        margin: 0.5rem 0;
         display: flex;
         justify-content: flex-start;
         align-items: center;
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
-          margin: 0.5rem 0;
+          margin: 0.25rem 0;
         }
 
         &__photo {
-          margin: 0 1rem 0 0;
+          background-color: $light-gray;
           border-radius: 50%;
+          padding: 0.5rem 0.25rem 0rem 0.25rem;
+          margin: 0 0.75rem 0 0;
           width: 2rem;
           height: 2rem;
+          color: $red;
+          text-align: center;
+          flex-shrink: 0;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            padding: 0.25rem;
+            margin: 0 0.75rem 0 0;
+            width: 1.5rem;
+            height: 1.5rem;
+          }
         }
 
         &__description {
           text-align: left;
-          padding-top: 0.125rem;
+          margin: 0;
+          font-size: 1.125rem;
 
-          h3 {
-            margin: 0;
-            font-size: 1.125rem;
+          @media only screen and (max-width: $mobile-max-width) {
+            font-size: 1rem;
+          }
 
-            @media only screen and (max-width: $mobile-max-width) {
-              font-size: 1rem;
-            }
+          &--light {
+            font-weight: normal;
           }
         }
       }

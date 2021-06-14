@@ -4,6 +4,8 @@ firstName: Béatrice
 lastName: Le Thuc
 photo: ./photos/beatrice-le-thuc.png
 job_title: Designer produit
+ghostName: Une designer produit
+ghostPhoto: ./photos/beatrice-le-thuc-ghost.png
 sub_team: Défi agriculture
 sub_team_link: /commando-ux/defi-agriculture
 twitter:

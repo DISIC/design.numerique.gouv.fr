@@ -84,10 +84,16 @@
         <div v-if="$page.mission.team.length" class="mission-detail mission-detail--team">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true"/></span>
           <p class="mission-detail__name">Commando :</p>
-          <ul class="mission-detail__content mission-detail__content--team">
+          <ul v-if="$page.mission.startDate == '7 septembre 2020'" class="mission-detail__content mission-detail__content--team">
             <li v-for="member in $page.mission.team" :key="member.id" class="team-member">
               <g-image :src="member.photo" class="team-member__photo" alt="" />
-              <p class="team-member__description"><g-link :to="'/equipe/' + member.id">{{ member.firstName }} {{ member.lastName }}</g-link> — {{ member.job_title }}</p>
+              <p class="team-member__description">{{ member.firstName }} {{ member.lastName }} - {{ member.job_title }}</p>
+            </li>
+          </ul>
+          <ul v-else class="mission-detail__content mission-detail__content--team">
+            <li v-for="member in $page.mission.team" :key="member.id" class="team-member">
+              <g-image :src="member.ghostPhoto" class="team-member__photo" alt="" />
+              <p class="team-member__description">{{ member.ghostName }}</p>
             </li>
           </ul>
         </div>
@@ -195,9 +201,10 @@
         id
         firstName
         lastName
-        photo (width: 64, height: 64, quality: 100)
-        path
+        photo (width: 52, height: 52, quality: 100)
         job_title
+        ghostName
+        ghostPhoto (width: 52, height: 52, quality: 100)
       }
       goals {
         name
@@ -429,16 +436,6 @@
             @media only screen and (max-width: $mobile-max-width) {
               margin-left: -39px;
               margin-top: -5px;
-            }
-          }
-
-          &:last-of-type {
-            &:before {
-              background-image: url(/assets/images/stepLong.svg);
-              background-size: 32px 108px;
-              width: 32px;
-              height: 108px;
-              margin-top: -15px;
             }
           }
         }

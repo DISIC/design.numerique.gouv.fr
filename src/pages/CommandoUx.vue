@@ -66,15 +66,24 @@
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando saison 2
         </h2>
         <p class="section__subtitle">
-          Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021.
+          Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
         </p>
         <ul class="team">
-          <li v-for="{ node } in $page.allPeople.edges" :key="node.id" class="team-member">
-            <g-image class="team-member__photo" :src="node.photo" alt="" />
-            <div class="team-member__description">
-              <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
-              <p>{{ node.job_title }}</p>
-            </div>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">2 chargées de recherche utilisateur</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">2 designers UX/UI</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">1 développeuse accessibilité</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'ellipsis-h']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description team-member__description--light">Et bientôt d'autres experts pour accompagner les administrations</h3>
           </li>
         </ul>
       </section>
@@ -96,7 +105,7 @@
             <div class="mission__right">
               <ul class="mission__team">
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
               <p class="mission__status mission__status--futur">À venir</p>
             </div>
@@ -109,7 +118,7 @@
             <div class="mission__right">
               <ul class="mission__team">
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
               <p class="mission__status mission__status--present">En cours</p>
             </div>
@@ -122,7 +131,7 @@
             <div class="mission__right">
               <ul class="mission__team">
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" alt="" /></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
               <p class="mission__status mission__status--past">Terminée</p>
             </div>
@@ -151,22 +160,11 @@
             firstName
             lastName
             photo (width: 64, height: 64, quality: 100)
+            ghostPhoto (width: 64, height: 64, quality: 100)
           }
           jobs {
             count
           }
-        }
-      }
-    }
-    allPeople (sortBy: "lastName", order: ASC, filter: {group: {contains: "commando"}}) {
-      edges {
-        node {
-        	id
-          firstName
-          lastName
-          job_title
-          photo (width: 64, height: 64, quality: 100)
-          path
         }
       }
     }
@@ -198,7 +196,7 @@
       title: "Commando UX",
       meta: [{
         name: 'description',
-        content: "Une équipe d’expert·e·s mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
+        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         property: 'og:title',
@@ -206,7 +204,7 @@
       },
       {
         property: 'og:description',
-        content: "Une équipe d’expert·e·s mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
+        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         property: 'og:image',
@@ -226,7 +224,7 @@
       },
       {
         name: "twitter:description",
-        content: "Une équipe d’expert·e·s mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
+        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         name: "twitter:image",
@@ -570,60 +568,60 @@
     }
 
     .team {
-      padding: 0;
+      margin-top: -1rem;
+      padding: 0 0 0 2rem;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
 
+      @media only screen and (max-width: $mobile-max-width) {
+        padding: 0;
+      }
+
       &-member {
         list-style: none;
-        width: 48%;
-        margin: 0.75rem 0.25rem;
+        width: 100%;
+        margin: 0.5rem 0;
         display: flex;
         justify-content: flex-start;
-        position: relative;
+        align-items: center;
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
-          margin: 0.75rem 0;
+          margin: 0.25rem 0;
         }
 
         &__photo {
-          margin: 0 1rem 0 0;
+          background-color: $light-gray;
           border-radius: 50%;
-          width: 3rem;
-          height: 3rem;
+          padding: 0.5rem 0.25rem 0rem 0.25rem;
+          margin: 0 0.75rem 0 0;
+          width: 2rem;
+          height: 2rem;
+          color: $red;
+          text-align: center;
+          flex-shrink: 0;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            padding: 0.25rem;
+            margin: 0 0.75rem 0 0;
+            width: 1.5rem;
+            height: 1.5rem;
+          }
         }
 
         &__description {
           text-align: left;
-          padding-top: 0.125rem;
+          margin: 0;
+          font-size: 1.125rem;
 
-          h3 {
-            margin: 0;
-
-            a {
-              color: $black !important;
-              border: none !important;
-
-              &:hover {
-                color: $red !important;
-              }
-
-              &::after {
-                position: absolute;
-                content: "";
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-              }
-            }
+          @media only screen and (max-width: $mobile-max-width) {
+            font-size: 1rem;
           }
 
-          p {
-              margin: 0;
+          &--light {
+            font-weight: normal;
           }
         }
       }

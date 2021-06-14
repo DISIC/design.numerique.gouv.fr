@@ -157,24 +157,12 @@
           status
           team {
             id
-            firstName
-            lastName
             photo (width: 64, height: 64, quality: 100)
-            ghostName
             ghostPhoto (width: 64, height: 64, quality: 100)
           }
           jobs {
             count
           }
-        }
-      }
-    }
-    allPeople (sortBy: "lastName", order: ASC, filter: {group: {contains: "commando"}}) {
-      edges {
-        node {
-        	id
-          ghostName
-          ghostPhoto (width: 64, height: 64, quality: 100)
         }
       }
     }

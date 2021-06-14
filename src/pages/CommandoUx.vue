@@ -105,7 +105,7 @@
             <div class="mission__right">
               <ul class="mission__team">
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.firstName+' '+member.lastName" /></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
               </ul>
               <p class="mission__status mission__status--futur">À venir</p>
             </div>
@@ -118,7 +118,7 @@
             <div class="mission__right">
               <ul class="mission__team">
                 <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.firstName+' '+member.lastName" /></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
               </ul>
               <p class="mission__status mission__status--present">En cours</p>
             </div>
@@ -159,6 +159,7 @@
             id
             firstName
             lastName
+            ghostName
             photo (width: 64, height: 64, quality: 100)
             ghostPhoto (width: 64, height: 64, quality: 100)
           }

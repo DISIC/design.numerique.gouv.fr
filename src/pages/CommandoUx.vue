@@ -71,11 +71,11 @@
         <ul class="team">
           <li class="team-member">
             <span class="team-member__photo"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">Une chargée de recherche utilisateur</h3>
+            <h3 class="team-member__description">Deux chargées de recherche utilisateur</h3>
           </li>
           <li class="team-member">
             <span class="team-member__photo"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">Un design UX/UI</h3>
+            <h3 class="team-member__description">Deux designers UX/UI</h3>
           </li>
           <li class="team-member">
             <span class="team-member__photo"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>

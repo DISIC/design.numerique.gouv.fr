@@ -43,11 +43,11 @@
                 </div>
                 <div class="rf-input-group">
                     <label class="rf-label" for="tel">Votre téléphone</label>
-                    <input class="rf-input" type="tel" id="tel" v-model="form.phone" required>
+                    <input class="rf-input" type="tel" id="tel" v-model="form.phone">
                 </div>
                 <div class="rf-input-group">
                     <label class="rf-label" for="commune">Dans quelle commune habitez-vous ?</label>
-                    <input class="rf-input" type="text" id="commune" v-model="form.city" required>
+                    <input class="rf-input" type="text" id="commune" v-model="form.city">
                 </div>
                 <div class="rf-form-group">
                     <fieldset class="rf-fieldset">
@@ -120,7 +120,11 @@
                     </fieldset>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="profil">Les liens présentant votre profil</label>
+                    <label class="rf-label" for="delai">Lien vers votre CV</label>
+                    <input class="rf-input" type="url" id="delai" v-model="form.cv" required>
+                </div>
+                <div class="rf-input-group">
+                    <label class="rf-label" for="profil">D'autres liens présentant votre profil</label>
                     <textarea class="rf-input" type="text" id="profil" v-model="form.profil"></textarea>
                 </div>
                 <div class="rf-form-group">
@@ -157,19 +161,15 @@
                     <input class="rf-input" type="text" id="delai" v-model="form.delay" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="cv">Votre CV</label>
-                    <input class="rf-input" type="file" id="cv" @change="attachFiles">
-                </div>
-                <div class="rf-input-group">
                     <label class="rf-label" for="autresInfos">D’autres informations que vous souhaitez partager ?</label>
                     <textarea class="rf-input" type="text" id="autresInfos" v-model="form.more"></textarea>
                 </div>
 
-                <p class="cover__subtitle">
+                <p class="rgpd">
                   Nous utiliserons les informations recueillies ci-dessous pour vous contacter si nous identifions des opportunités qui pourraient vous intéresser.
                 </p>
 
-                <p class="cover__subtitle">
+                <p class="rgpd rgpd--small">
                   Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
                 </p>
 
@@ -207,22 +207,12 @@
           profil: '',
           duration: [],
           delay: '',
-          cv: [],
+          cv: '',
           more: '',
         }
       }
     },
     methods: {
-      attachFiles(event) {
-        console.log(event.target.files);
-        // const jsftp = require("jsftp");
-        // const Ftp = new jsftp({
-        //   host: process.env.GRDISOME_FTP_HOST,
-        //   port: 21,
-        //   user: process.env.GRIDSOME_FTP_USER,
-        //   pass: process.env.GRIDSOME_FTP_PASS,
-        // });
-      },
       async addCandidate() {
         var Airtable = await require('airtable');
         var base = await new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE);
@@ -270,6 +260,19 @@
     .cover {
       h1 {
         font-size: 3rem;
+      }
+    }
+
+    .content {
+      .rgpd {
+
+        margin-top: 0px;
+
+        &--small {
+          color: $dark-gray;
+          font-size: 12px;
+          margin-bottom: 32px;
+        }
       }
     }
   }

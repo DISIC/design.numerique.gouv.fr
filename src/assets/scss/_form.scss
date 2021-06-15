@@ -9,12 +9,12 @@
   }
 
   .rgpd {
-    margin-top: 0px;
+    margin-top: 0;
 
     &--small {
       color: $dark-gray;
-      font-size: 12px;
-      margin-bottom: 32px;
+      font-size: 0.75rem;
+      margin-bottom: 2rem;
     }
   }
 }

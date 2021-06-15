@@ -29,16 +29,17 @@
     <div class="rf-mt-8w rf-grid-row rf-grid-row--gutters rf-grid-row--center">
         <div class="rf-col-8">
             <form v-on:submit.prevent="addCandidate">
+              <p class=""><small>Les champs signalés par un astérisque <strong class="required">*</strong> sont obligatoires.</small></p>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="prenom">Votre prénom</label>
+                    <label class="rf-label" for="prenom">Votre prénom <span class="required" title="Ce champ est requis.">*</span></label>
                     <input class="rf-input" type="text" id="prenom" v-model="form.firstName" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="nom">Votre nom</label>
+                    <label class="rf-label" for="nom">Votre nom <span class="required" title="Ce champ est requis.">*</span></label>
                     <input class="rf-input" type="text" id="nom" v-model="form.lastName" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="email">Votre adresse e-mail</label>
+                    <label class="rf-label" for="email">Votre adresse e-mail <span class="form-required" title="Ce champ est requis.">*</span></label>
                     <input class="rf-input" type="email" id="mail" v-model="form.email" required>
                 </div>
                 <div class="rf-input-group">
@@ -93,7 +94,7 @@
                 <div class="rf-form-group">
                     <fieldset class="rf-fieldset">
                         <legend class="rf-fieldset__legend rf-text--regular" id='radio-legend'>
-                            Votre expérience professionnelle dans ces domaines d’expertise
+                            Votre expérience professionnelle dans ces domaines d’expertise  <span class="required" title="Ce champ est requis.">*</span>
                         </legend>
                         <div class="rf-fieldset__content">
                             <div class="rf-radio-group">
@@ -120,7 +121,7 @@
                     </fieldset>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="delai">Lien vers votre CV</label>
+                    <label class="rf-label" for="delai">Lien vers votre CV  <span class="required" title="Ce champ est requis.">*</span></label>
                     <input class="rf-input" type="url" id="delai" v-model="form.cv" required>
                 </div>
                 <div class="rf-input-group">
@@ -157,7 +158,7 @@
                     </fieldset>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="delai">Quel est le délai minimum pour vous prévenir avant le début d’une intervention ?</label>
+                    <label class="rf-label" for="delai">Quel est le délai minimum pour vous prévenir avant le début d’une intervention ? <span class="required" title="Ce champ est requis.">*</span></label>
                     <input class="rf-input" type="text" id="delai" v-model="form.delay" required>
                 </div>
                 <div class="rf-input-group">
@@ -264,6 +265,9 @@
     }
 
     .content {
+      .required {
+        color: $red;
+      }
       .rgpd {
 
         margin-top: 0px;

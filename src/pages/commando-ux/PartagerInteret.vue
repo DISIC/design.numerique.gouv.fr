@@ -40,7 +40,7 @@
                 </div>
                 <div class="rf-input-group">
                     <label class="rf-label" for="email">Votre adresse e-mail <span class="required" title="Ce champ est requis.">*</span></label>
-                    <input class="rf-input" type="email" id="mail" v-model="form.email" required>
+                    <input class="rf-input" type="text" id="mail" v-model="form.email" required>
                 </div>
                 <div class="rf-input-group">
                     <label class="rf-label" for="tel">Votre téléphone</label>
@@ -174,7 +174,7 @@
                   Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
                 </p>
 
-                <button class="rf-btn button" type="submit">Partager votre intérêt</button>
+                <button class="button" type="submit">Partager votre intérêt</button>
             </form>
             </div>
             </div>

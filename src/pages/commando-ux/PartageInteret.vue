@@ -28,7 +28,7 @@
   <div class="content rf-container">
     <div class="rf-grid-row rf-grid-row--gutters rf-grid-row--center">
         <div class="rf-col-12 rf-col-md-8">
-            <form v-on:submit.prevent="addCandidate">
+            <form class="form" v-on:submit.prevent="addCandidate">
               <p class="message-required"><small>Les champs signalés par un astérisque <strong class="required">*</strong> sont obligatoires.</small></p>
                 <div class="rf-input-group">
                     <label class="rf-label" for="prenom">Votre prénom <span class="required" title="Ce champ est requis.">*</span></label>
@@ -264,25 +264,6 @@
 
         @media only screen and (max-width: $mobile-max-width) {
           font-size: 1.5rem;
-        }
-      }
-    }
-
-    .content {
-      .message-required {
-        text-align: right;
-      }
-      .required {
-        color: $red;
-      }
-      .rgpd {
-
-        margin-top: 0px;
-
-        &--small {
-          color: $dark-gray;
-          font-size: 12px;
-          margin-bottom: 32px;
         }
       }
     }

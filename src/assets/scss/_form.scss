@@ -1,0 +1,20 @@
+.form {
+
+  .message-required {
+    text-align: right;
+  }
+
+  .required {
+    color: $red;
+  }
+
+  .rgpd {
+    margin-top: 0px;
+
+    &--small {
+      color: $dark-gray;
+      font-size: 12px;
+      margin-bottom: 32px;
+    }
+  }
+}

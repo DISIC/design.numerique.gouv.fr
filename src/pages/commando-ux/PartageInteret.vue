@@ -192,7 +192,7 @@
       CommandoUX,
     },
     metaInfo: {
-        title: "Air Table connection",
+        title: "Partagez votre intérêt pour le Commando UX",
     },
     data () {
       return {

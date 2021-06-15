@@ -39,8 +39,8 @@
                     <input class="rf-input" type="text" id="nom" v-model="form.lastName" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="email">Votre adresse e-mail <span class="required" title="Ce champ est requis.">*</span></label>
-                    <input class="rf-input" type="text" id="mail" v-model="form.email" required>
+                    <label class="rf-label" for="email">Votre adresse e-mail <span class="required" title="Ce champ est requis.">*</span> <span class="rf-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
+                    <input class="rf-input" type="email" id="email" v-model="form.email" required>
                 </div>
                 <div class="rf-input-group">
                     <label class="rf-label" for="tel">Votre téléphone</label>
@@ -121,7 +121,7 @@
                     </fieldset>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="delai">Lien vers votre CV <span class="required" title="Ce champ est requis.">*</span></label>
+                    <label class="rf-label" for="delai">Lien vers votre CV <span class="required" title="Ce champ est requis.">*</span>  <span class="rf-hint-text">Le lien vers votre CV doit débuter par http:// ou https://</span></label>
                     <input class="rf-input" type="url" id="delai" v-model="form.cv" required>
                 </div>
                 <div class="rf-input-group">

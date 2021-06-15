@@ -73,16 +73,16 @@
                                 <label class="rf-label" for="expertise-4">Développement accessibilité</label>
                             </div>
                             <div class="rf-checkbox-group">
-                                <input type="checkbox" id="expertise-5" value="Recherche utilisateur (User research)" v-model="form.skills">
-                                <label class="rf-label" for="expertise-5">Recherche utilisateur (User research)</label>
+                                <input type="checkbox" id="expertise-5" value="Recherche utilisateur" v-model="form.skills">
+                                <label class="rf-label" for="expertise-5">Recherche utilisateur («&nbsp;User research&nbsp;»)</label>
                             </div>
                             <div class="rf-checkbox-group">
                                 <input type="checkbox" id="expertise-6" value="Sciences comportementales" v-model="form.skills">
                                 <label class="rf-label" for="expertise-6">Sciences comportementales</label>
                             </div>
                             <div class="rf-checkbox-group">
-                                <input type="checkbox" id="checkboxes-7" value="Rédaction UX (UX writing)" v-model="form.skills">
-                                <label class="rf-label" for="checkboxes-7">Rédaction UX (UX writing)</label>
+                                <input type="checkbox" id="checkboxes-7" value="Rédaction UX" v-model="form.skills">
+                                <label class="rf-label" for="checkboxes-7">Rédaction UX («&nbsp;UX writing&nbsp;»)</label>
                             </div>
                         </div>
                     </fieldset>
@@ -192,7 +192,43 @@
       CommandoUX,
     },
     metaInfo: {
-        title: "Partagez votre intérêt pour le Commando UX",
+      title: "Partager votre intérêt pour le Commando UX",
+      meta: [{
+        name: 'description',
+        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+      },
+      {
+        property: 'og:title',
+        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+      },
+      {
+        property: 'og:image',
+        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+      },
+      {
+        name: "twitter:image",
+        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+      }],
     },
     data () {
       return {

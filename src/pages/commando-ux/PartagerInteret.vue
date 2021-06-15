@@ -174,7 +174,7 @@
                   Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
                 </p>
 
-                <button class="button" type="submit">Partager votre intérêt</button>
+                <button class="button" id="submit" type="submit">Partager votre intérêt</button>
             </form>
             </div>
             </div>
@@ -251,6 +251,7 @@
     },
     methods: {
       addCandidate() {
+        document.getElementById('submit').disabled = true;
         var Airtable = require('airtable');
         var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE);
         base('Candidats').create([

@@ -37,6 +37,13 @@ main {
       }
     }
 
+    &:disabled, &[disabled] {
+      color: $dark-gray;
+      border-color: $dark-gray;
+      background-color: white;
+      cursor: not-allowed;
+    }
+
     &--highlight {
       box-shadow: 0.25rem 0.25rem 0 $light;
     }

@@ -74,7 +74,7 @@
                             </div>
                             <div class="rf-checkbox-group">
                                 <input type="checkbox" id="expertise-5" value="Recherche utilisateur" v-model="form.skills">
-                                <label class="rf-label" for="expertise-5">Recherche utilisateur (User research)</label>
+                                <label class="rf-label" for="expertise-5">Recherche utilisateur</label>
                             </div>
                             <div class="rf-checkbox-group">
                                 <input type="checkbox" id="expertise-6" value="Sciences comportementales" v-model="form.skills">
@@ -82,7 +82,7 @@
                             </div>
                             <div class="rf-checkbox-group">
                                 <input type="checkbox" id="checkboxes-7" value="Rédaction UX" v-model="form.skills">
-                                <label class="rf-label" for="checkboxes-7">Rédaction UX (UX writing)</label>
+                                <label class="rf-label" for="checkboxes-7">Rédaction UX</label>
                             </div>
                         </div>
                     </fieldset>

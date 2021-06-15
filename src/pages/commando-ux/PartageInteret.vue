@@ -18,7 +18,7 @@
   <div class="cover">
       <div class="cover__container">
         <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
-        <h1>Experts de l'expérience utilisateur : vous souhaitez vous impliquer ? Partagez votre intérêt !</h1>
+        <h1>Experts de l'expérience utilisateur : vous souhaitez vous impliquer&nbsp;? Partagez votre intérêt&nbsp;!</h1>
         <p class="cover__subtitle">
           Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.
         </p>
@@ -26,8 +26,8 @@
   </div>
 
   <div class="content rf-container">
-    <div class="rf-mt-8w rf-grid-row rf-grid-row--gutters rf-grid-row--center">
-        <div class="rf-col-8">
+    <div class="rf-grid-row rf-grid-row--gutters rf-grid-row--center">
+        <div class="rf-col-12 rf-col-md-8">
             <form v-on:submit.prevent="addCandidate">
               <p class=""><small>Les champs signalés par un astérisque <strong class="required">*</strong> sont obligatoires.</small></p>
                 <div class="rf-input-group">
@@ -47,7 +47,7 @@
                     <input class="rf-input" type="tel" id="tel" v-model="form.phone">
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="commune">Dans quelle commune habitez-vous ?</label>
+                    <label class="rf-label" for="commune">Dans quelle commune habitez-vous&nbsp;?</label>
                     <input class="rf-input" type="text" id="commune" v-model="form.city">
                 </div>
                 <div class="rf-form-group">
@@ -158,11 +158,11 @@
                     </fieldset>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="delai">Quel est le délai minimum pour vous prévenir avant le début d’une intervention ? <span class="required" title="Ce champ est requis.">*</span></label>
+                    <label class="rf-label" for="delai">Quel est le délai minimum pour vous prévenir avant le début d’une intervention ? <span class="required" title="Ce champ est requis.">*</span></label>
                     <input class="rf-input" type="text" id="delai" v-model="form.delay" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="autresInfos">D’autres informations que vous souhaitez partager ?</label>
+                    <label class="rf-label" for="autresInfos">D’autres informations que vous souhaitez partager&nbsp;?</label>
                     <textarea class="rf-input" type="text" id="autresInfos" v-model="form.more"></textarea>
                 </div>
 
@@ -261,6 +261,10 @@
     .cover {
       h1 {
         font-size: 3rem;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          font-size: 1.5rem;
+        }
       }
     }
 

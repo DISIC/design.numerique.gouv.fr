@@ -167,7 +167,7 @@
                 </div>
 
                 <p class="rgpd">
-                  Nous utiliserons les informations recueillies ci-dessous pour vous contacter si nous identifions des opportunités qui pourraient vous intéresser.
+                  Nous utiliserons les informations recueillies ci-dessus pour vous contacter si nous identifions des opportunités qui pourraient vous intéresser.
                 </p>
 
                 <p class="rgpd rgpd--small">

@@ -89,7 +89,7 @@
                 </div>
                 <div class="rf-input-group">
                     <label class="rf-label" for="autres-competences">Vos autres compétences</label>
-                    <input class="rf-input" type="text" id="vos-autres-competences" v-model="form.otherSkills">
+                    <input class="rf-input" type="text" id="autres-competences" v-model="form.otherSkills">
                 </div>
                 <div class="rf-form-group">
                     <fieldset class="rf-fieldset">
@@ -121,12 +121,12 @@
                     </fieldset>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="delai">Le lien vers votre CV <span class="required" title="Ce champ est requis.">*</span> <span class="rf-hint-text">Le lien vers votre CV doit débuter par http:// ou https://</span></label>
-                    <input class="rf-input" type="url" id="delai" v-model="form.cv" required>
+                    <label class="rf-label" for="CV">Le lien vers votre CV <span class="required" title="Ce champ est requis.">*</span> <span class="rf-hint-text">Le lien vers votre CV doit débuter par http:// ou https://</span></label>
+                    <input class="rf-input" type="url" id="CV" v-model="form.cv" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="profil">Le lien vers votre portfolio (ou votre site) <span class="rf-hint-text">Le lien vers votre portfolio (ou votre site) doit débuter par http:// ou https://</span></label>
-                    <input class="rf-input" type="url" id="profil" v-model="form.portfolio"></input>
+                    <label class="rf-label" for="portfolio">Le lien vers votre portfolio (ou votre site) <span class="rf-hint-text">Le lien vers votre portfolio (ou votre site) doit débuter par http:// ou https://</span></label>
+                    <input class="rf-input" type="url" id="portfolio" v-model="form.portfolio"></input>
                 </div>
                 <div class="rf-form-group">
                     <fieldset class="rf-fieldset">
@@ -162,8 +162,8 @@
                     <input class="rf-input" type="text" id="delai" v-model="form.delay" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="autresInfos">D’autres informations que vous souhaitez partager&nbsp;?</label>
-                    <textarea class="rf-input" type="text" id="autresInfos" v-model="form.more"></textarea>
+                    <label class="rf-label" for="autres-infos">D’autres informations que vous souhaitez partager&nbsp;?</label>
+                    <textarea class="rf-input" type="text" id="autres-infos" v-model="form.more"></textarea>
                 </div>
 
                 <p class="rgpd">

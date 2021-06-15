@@ -250,9 +250,9 @@
       }
     },
     methods: {
-      async addCandidate() {
-        var Airtable = await require('airtable');
-        var base = await new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE);
+      addCandidate() {
+        var Airtable = require('airtable');
+        var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE);
         base('Candidats').create([
         {
           "fields": {

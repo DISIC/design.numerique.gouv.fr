@@ -271,19 +271,17 @@
             "Plus": this.form.more
           }
         },
-
       ], function(err, records) {
         if (err) {
           console.error(err);
+          window.location.href = "../formulaire/erreur/";
           return;
+        } else {
+          window.location.href = "../formulaire/succes/";
         }
-        records.forEach(function (record) {
-          console.log(record.getId());
-        });
       });
-      }
-    },
-
+    }
+  },
 }
 </script>
 

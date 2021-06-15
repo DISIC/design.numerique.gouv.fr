@@ -121,12 +121,12 @@
                     </fieldset>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="delai">Lien vers votre CV <span class="required" title="Ce champ est requis.">*</span>  <span class="rf-hint-text">Le lien vers votre CV doit débuter par http:// ou https://</span></label>
+                    <label class="rf-label" for="delai">Le lien vers votre CV <span class="required" title="Ce champ est requis.">*</span> <span class="rf-hint-text">Le lien vers votre CV doit débuter par http:// ou https://</span></label>
                     <input class="rf-input" type="url" id="delai" v-model="form.cv" required>
                 </div>
                 <div class="rf-input-group">
-                    <label class="rf-label" for="profil">D'autres liens présentant votre profil</label>
-                    <textarea class="rf-input" type="text" id="profil" v-model="form.profil"></textarea>
+                    <label class="rf-label" for="profil">Le lien vers votre portfolio (ou votre site) <span class="rf-hint-text">Le lien vers votre portfolio (ou votre site) doit débuter par http:// ou https://</span></label>
+                    <input class="rf-input" type="url" id="profil" v-model="form.portfolio"></input>
                 </div>
                 <div class="rf-form-group">
                     <fieldset class="rf-fieldset">
@@ -265,7 +265,7 @@
             "Expertise": this.form.skills,
             "Autres compétences": this.form.otherSkills,
             "Expérience": this.form.experience,
-            "Profil": this.form.profil,
+            "Portfolio": this.form.portfolio,
             "Durée": this.form.duration,
             "Délai": this.form.delay,
             "CV": this.form.cv,

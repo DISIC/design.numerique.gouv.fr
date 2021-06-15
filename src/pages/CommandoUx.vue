@@ -19,7 +19,6 @@
 
         <div class="description__content">
           <h2>
-            <!-- <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/> -->
             Des experts au sein des administrations
           </h2>
           <p>

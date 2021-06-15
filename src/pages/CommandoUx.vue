@@ -53,9 +53,9 @@
                 </p>
               </div>
 
-              <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" title="Partager votre intérêt - Nouvelle fenêtre" class="item__link button button--highlight">
+              <g-link to="/commando-ux/partager-interet/" class="item__link button button--highlight">
                 Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </a>
+              </g-link>
             </div>
         </div>
       </section>

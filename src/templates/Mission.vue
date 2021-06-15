@@ -97,9 +97,9 @@
           <ul class="mission-detail__content mission-detail__content--job">
             <li v-for="job in $page.mission.jobs" :key="job.id" class="team-member">
               <span class="job__count">{{ job.count }}</span>
-              <a href="https://airtable.com/shrJCzhOxWgwXZTZ4" target="_blank" :title="job.title + ' - Partagez votre intérêt - Nouvelle fenêtre'" class="job__title">
+              <g-link to="/commando-ux/partager-interet/" class="job__title">
                 {{ job.title }}
-              </a>
+              </g-link>
             </li>
           </ul>
         </div>

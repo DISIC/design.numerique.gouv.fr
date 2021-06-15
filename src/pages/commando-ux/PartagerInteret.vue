@@ -273,11 +273,11 @@
         },
       ], function(err, records) {
         if (err) {
+          window.location.href = "/formulaire/erreur/";
           console.error(err);
-          window.location.href = "../formulaire/erreur/";
           return;
         } else {
-          window.location.href = "../formulaire/succes/";
+          window.location.href = "/formulaire/succes/";
         }
       });
     }

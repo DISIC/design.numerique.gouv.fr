@@ -83,7 +83,7 @@
         </div>
         <div v-if="$page.mission.team.length" class="mission-detail mission-detail--team">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Commando :</p>
+          <p class="mission-detail__name">Commando déployé :</p>
           <ul v-if="$page.mission.startDate == '7 septembre 2020'" class="mission-detail__content mission-detail__content--team">
             <li v-for="member in $page.mission.team" :key="member.id" class="team-member">
               <g-image :src="member.photo" class="team-member__photo" alt="" />

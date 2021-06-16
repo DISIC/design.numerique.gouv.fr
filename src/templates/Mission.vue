@@ -134,7 +134,7 @@
         meta: [
           {
             name: "description",
-            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
+            content: "Une équipe d'experts du Commando UX est mobilisée sur cette mission"
           },
           {
             property: 'og:title',
@@ -142,7 +142,7 @@
           },
           {
             property: 'og:description',
-            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
+            content: "Une équipe d'experts du Commando UX est mobilisée sur cette mission"
           },
             {
             property: 'og:image',
@@ -162,7 +162,7 @@
           },
           {
             name: "twitter:description",
-            content: "Une équipe d'expert·e·s du Commando UX est mobilisée sur cette mission"
+            content: "Une équipe d'experts du Commando UX est mobilisée sur cette mission"
           },
           {
             name: "twitter:image",

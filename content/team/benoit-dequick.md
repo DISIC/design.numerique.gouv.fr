@@ -8,7 +8,7 @@ sub_team: Design et accessibilité
 sub_team_link:
 twitter: bedqck
 e-mail :
-group : team
+group : ["team"]
 ---
 
 Bio à venir

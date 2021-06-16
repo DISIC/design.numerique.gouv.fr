@@ -86,24 +86,6 @@
           </ul>
         </section>
 
-        <section>
-          <h2>Le commando</h2>
-          <ul class="team">
-            <li v-for="{ node } in commando" :key="node.id">
-              <g-image :src="node.photo" quality="100" height="150" width="150" :alt="node.firstName+' '+node.lastName" />
-              <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
-              <p>{{ node.job_title }}</p>
-              <p v-if="node.sub_team_link">
-                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
-              </p>
-              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
-              <p v-if="node.twitter">
-                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-              </p>
-            </li>
-          </ul>
-        </section>
-
     </div>
 
   </Layout>
@@ -144,13 +126,10 @@
     },
     computed: {
       team: function () {
-        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'team')
+        return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('team'))
       },
       external: function () {
-        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'external')
-      },
-      commando: function () {
-        return this.$page.allPeople.edges.filter(edge => edge.node.group === 'commando')
+        return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('external'))
       },
     }
   }

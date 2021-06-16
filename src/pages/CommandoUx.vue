@@ -1,24 +1,13 @@
 <template>
   <Layout class="commando-ux-page">
 
-    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Commando UX</span>
-        </li>
-      </ol>
-    </nav> -->
-
     <div class="cover">
      <div class="cover__container">
 
       <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
 
       <p class="cover__subtitle">
-        15 designers et développeurs interviennent pour améliorer l'expérience de 10 des 250&nbsp;services publics numériques les plus utilisés par les Français.
+        Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.
       </p>
 
       </div>
@@ -26,177 +15,128 @@
 
     <div class="content">
 
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le programme
-        </h2>
-        <p>
-          L'objectif du Commando UX est ambitieux : améliorer les démarches les plus utilisées par les Français, et contribuer ainsi à les rendre plus simples, plus inclusives et plus désirables.
-        </p>
-        <div class="key-elements">
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'user-astronaut']"/>
+      <section class="description">
+
+        <div class="description__content">
+          <h2>
+            Des experts au sein des administrations
+          </h2>
+          <p>
+            Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l’aventure : déployer des experts du numérique au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
+          </p>
+          <p>
+            L’immersion de chaque Commando revêt un double bénéfice : livrer des améliorations concrètes tout en diffusant des pratiques innovantes au sein des administrations d’accueil.
+          </p>
+        </div>
+
+        <div class="description__actions">
+            <div class="item item--left">
+              <div class="item__content">
+                <font-awesome :icon="['fas', 'university']" class="item__icon" width="16" height="16" aria-hidden="true" />
+                <h3>Administrations de l’État</h3>
+                <p>
+                  Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
+                </p>
+              </div>
+
+              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="item__link button button--highlight">
+                Candidater<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              </a>
             </div>
-            <p>15 designers et développeurs</p>
-          </div>
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'stopwatch']"/>
+
+            <div class="item item--right">
+              <div class="item__content">
+                <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
+                <h3>Experts «&nbsp;expérience utilisateur&nbsp;»</h3>
+                <p>
+                  Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
+                </p>
+              </div>
+
+              <g-link to="/commando-ux/partager-interet/" class="item__link button button--highlight">
+                Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              </g-link>
             </div>
-            <p>À temps plein pendant 4 à 7 mois</p>
-          </div>
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'flag']"/>
-            </div>
-            <p>Pour améliorer les démarches de l'État</p>
-          </div>
-          <div class="element">
-            <div>
-              <font-awesome :icon="['fas', 'star']"/>
-            </div>
-            <p>Et œuvrer pour l'interêt général</p>
-          </div>
         </div>
       </section>
 
       <section>
-        <h3>Intervenir au cœur des administrations de l'État</h3>
-        <p>
-          En relevant l'un des défis, chaque designer et développeur aura l'occasion d'intégrer l'équipe responsable d'une des 250 démarches de l’<a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Observatoire de la qualité des démarches en ligne</a>. L'immersion revêt un double objectif : livrer une solution viable et comportant des améliorations tangibles pour les usagers, tout en diffusant des pratiques innovantes au sein des services concernés.
-        </p>
-        <p>
-          Pour mener à bien leur mission, ils peuvent compter sur l’appui d’un référent au sein de l’administration d’accueil, d'une chercheuse UX et 2 designers produit de la DINUM.
-        </p>
-      </section>
-
-      <section>
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando saison 2
         </h2>
+        <p class="section__subtitle">
+          Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
+        </p>
         <ul class="team">
-          <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
-            <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
-            <h3><g-link :to="'/equipe/' + node.id">{{ node.firstName }} {{ node.lastName }}</g-link></h3>
-            <p>{{ node.job_title }}</p>
-            <p v-if="node.sub_team_link">
-              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
-            </p>
-            <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">2 chargées de recherche utilisateur</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">2 designers UX/UI</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description">1 développeuse accessibilité</h3>
+          </li>
+          <li class="team-member">
+            <span class="team-member__photo"><font-awesome :icon="['fas', 'ellipsis-h']" height="16px" aria-hidden="true"/></span>
+            <h3 class="team-member__description team-member__description--light">Et bientôt d'autres experts pour accompagner les administrations</h3>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
+          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les interventions
         </h2>
-        <ul class="challenge">
-          <li class="challenge__item" v-for="{ node } in $page.allChallenge.edges" :key="node.id">
-            <g-image class="challenge__illustration" :src="node.illustration" alt=""/>
-            <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
-            <p class="challenge__description">{{ node.description }}</p>
-            <p class="challenge__department"><font-awesome class="challenge__icon" :icon="['fas', 'building']"/> {{ node.department }}</p>
-            <!-- <p v-if="node.profil1" class="challenge__profil">{{ node.profil1 }}</p>
-            <p v-if="node.profil2" class="challenge__profil">{{ node.profil2 }}</p> -->
-            <!-- <p class="challenge__place"><font-awesome class="challenge__icon" :icon="['fas', 'map-marker-alt']"/> {{ node.place }}</p> -->
+        <p class="section__subtitle">
+          L’icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
+        </p>
+
+        <ul class="missions">
+
+          <li v-for="{ node } in futurMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+            </div>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              </ul>
+              <p class="mission__status mission__status--futur">À venir</p>
+            </div>
           </li>
+
+          <li v-for="{ node } in presentMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+            </div>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              </ul>
+              <p class="mission__status mission__status--present">En cours</p>
+            </div>
+          </li>
+
+          <li v-for="{ node } in pastMissions" :key="node.id" class="mission">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+            </div>
+            <div class="mission__right">
+              <ul class="mission__team">
+                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
+              </ul>
+              <p class="mission__status mission__status--past">Terminée</p>
+            </div>
+          </li>
+
         </ul>
-      </section>
-
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
-        </h2>
-        <p>
-          Pour chaque défi, l'objectif est de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
-        </p>
-        <p>
-          Les qualités qu'apporteront les membres du Commando UX sont les suivantes :
-        </p>
-        <ul>
-          <li>Pour les designers : sens de l’esthétique, expérience et connaissances des technologies numériques</li>
-          <li>Pour les développeurs : expertise des technologies et des langages utilisés</li>
-          <li>Empathie, capacité à s'adapter, niveau d’exigence élevé et rapidité d’exécution</li>
-          <li>Enfin, engouement pour l’intérêt général</li>
-        </ul>
-      </section>
-
-      <section class="quote">
-        <blockquote>
-          <p>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</p>
-          <footer><span lang="en">Don Norman</span>, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</footer>
-        </blockquote>
-      </section>
-
-      <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Informations pratiques
-        </h2>
-        <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 mars 2021</p>
-        <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
-        <p><strong>Conditions :</strong></p>
-        <ul>
-          <li>Être une personne physique (et non morale)</li>
-          <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
-          <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
-        </ul> -->
-        <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
-        <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
-        <ul class="team">
-          <li>
-            <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Faustine Demiselle"/>
-            <p><strong>Faustine Demiselle</strong></p>
-            <p lang="en">Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Ugo Dessertine"/>
-            <p><strong>Ugo Dessertine</strong></p>
-            <p lang="en">Lead Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Georges Bayard"/>
-            <p><strong>Georges Bayard</strong></p>
-            <p>Chargé de mission</p>
-            <p>Observatoire</p>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les dates clés du programme
-        </h2>
-        <p>
-          <strong>8 juin – 19 juin 2020</strong><br>
-          Appel à défis : administrations, soumettez votre projet de l'Observatoire.
-        </p>
-        <p>
-          <strong>22 juin – 26 juin 2020</strong><br>
-          Étude et sélection des défis : nous sélectionnons les 5 à 10 projets les plus impactants.
-        </p>
-        <p>
-          <strong>29 juin – 19 juillet 2020</strong><br>
-          Appel à candidatures : vous êtes designer ou développeur et ce programme vous séduit ? Candidatez !
-        </p>
-        <p>
-          <strong>20 juillet – 31 juillet 2020</strong><br>
-          Recrutement Commando UX : entretiens individuels avec les designers et développeurs.
-        </p>
-        <p>
-          <strong>7 septembre – 31 mars 2021</strong><br>
-          Commando UX en action : designers et développeurs intègrent les administrations pour relever leur défi.
-        </p>
       </section>
 
     </div>
@@ -207,33 +147,24 @@
 <page-query>
 
   query {
-    allChallenge (sortBy: "title", order: ASC) {
+    allMission (sortBy: "title", order: ASC) {
       edges {
         node {
         	id
           title
-          description
           slug
-          illustration
-          department
-          place
-        }
-      }
-    }
-    allPeople (sortBy: "lastName", order: ASC, filter: {group: {eq: "commando"}}) {
-      edges {
-        node {
-        	id
-          firstName
-          lastName
-          job_title
-          sub_team
-          sub_team_link
-          twitter
-          photo (width: 150, height: 150, quality: 100)
-          path
-          content
-          group
+          status
+          team {
+            id
+            firstName
+            lastName
+            ghostName
+            photo (width: 64, height: 64, quality: 100)
+            ghostPhoto (width: 64, height: 64, quality: 100)
+          }
+          jobs {
+            count
+          }
         }
       }
     }
@@ -250,11 +181,22 @@
     components: {
       CommandoUX,
     },
+    computed: {
+      pastMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'past')
+      },
+      presentMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'present')
+      },
+      futurMissions: function () {
+        return this.$page.allMission.edges.filter(mission => mission.node.status == 'futur')
+      },
+    },
     metaInfo: {
       title: "Commando UX",
       meta: [{
         name: 'description',
-        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
+        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         property: 'og:title',
@@ -262,7 +204,7 @@
       },
       {
         property: 'og:description',
-        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
+        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         property: 'og:image',
@@ -282,7 +224,7 @@
       },
       {
         name: "twitter:description",
-        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
+        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
       },
       {
         name: "twitter:image",
@@ -301,57 +243,244 @@
 
   .commando-ux-page {
 
-    .challenge {
+    .description {
+
+      &__content {
+        background-color: $light-gray;
+        padding: 0.5rem 2rem 1rem 2rem;
+        border-left: 4px solid $blue;
+        margin-bottom: 3rem;
+      }
+
+      &__actions {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-bottom: 5rem;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          align-items: start;
+          margin: 0 0 4rem 0;
+        }
+
+        .item {
+          position: relative;
+          flex-basis: 48%;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            flex-basis: 100%;
+            flex-grow: 1;
+          }
+
+          &--left {
+            margin-right: 2%;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              margin: 0 0 3rem 0;
+            }
+          }
+
+          &--right {
+            margin-left: 2%;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              margin: 0;
+            }
+          }
+
+          &__link {
+            margin-top: 0.5rem;
+
+            &::after {
+              position: absolute;
+              content: "";
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+            }
+          }
+
+          &__icon {
+            display: inline-block;
+            background: $light-gray;
+            color: $blue;
+            border-radius: 50%;
+            padding: 10px;
+            transition: .2s all;
+            height: 1.5rem;
+            width: 1.5rem;
+            margin-bottom: -0.8rem;
+            margin-right: 0.75rem;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              display: inline;
+              margin-bottom: -0.5rem;
+              height: 1rem;
+              width: 1rem;
+              margin-right: 0.5rem;
+            }
+          }
+
+          h3 {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+
+            @media only screen and (max-width: $mobile-max-width) {
+              display: inline;
+            }
+          }
+        }
+      }
+    }
+
+    .open-jobs {
+      display: inline-block;
+      text-align: center;
+      background-color: $light-gray;
+      border-radius: 50%;
+      padding: 0.2rem 0.6rem 0.8rem 0.4rem;
+      font-size: 1rem;
+      margin: 0 0.25rem 0 0;
+      width: 0.9rem;
+      height: 0.9rem;
+      color: $red;
+      flex-shrink: 0;
+    }
+
+    .missions {
       padding: 0;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
 
-      &__item {
+      .mission {
         list-style: none;
         text-align: left;
-        width: 46%;
-        margin: 0px 4px 48px 4px;
+        width: 100%;
+        margin: 0 0 0.5rem 0;
+        padding: 0.5rem 1rem;
         position: relative;
+        display: flex;
+        border: 2px solid white;
+        border-bottom: 2px solid $gray;
+        align-items: center;
+        justify-content: space-between;
 
         @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin: 0px 0px 32px 0px;
+          flex-wrap: wrap;
+          padding: 0.5rem 0;
         }
 
-        a::after {
-          position: absolute;
-          content: "";
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
+        &:hover {
+          @media only screen and (min-width: $mobile-max-width + 1) {
+            border: 2px solid $gray;
+            border-radius: 0.5rem;
+            border-color: $blue;
+            box-shadow: 5px 5px 0px $light;
+          }
         }
 
-        h3 {
-          font-weight: 800;
-          font-size: 1.5em;
-          margin: 12px 0 8px 0;
-          color: $blue;
+        &__left {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
 
           @media only screen and (max-width: $mobile-max-width) {
-            font-size: 1.125em;
-            margin: 8px 0 4px 0;
+            width: 100%;
           }
+        }
+
+        &__right {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          flex-direction: row;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            width: 100%;
+            margin-top: 0.75rem;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+          }
+        }
+
+        &__name {
+          font-weight: normal;
+          font-size: 1rem;
+          margin: 0 1rem 0 0;
 
           a {
             border: none !important;
+            color: $black !important;
+          }
+
+          a::after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
           }
         }
 
-        img {
-          max-width: 80px;
-          height: 80px;
+        &__illustration {
+          width: 1rem;
+          height: 1rem;
+          color: $red;
+        }
+
+        &__team {
+          display: flex;
+
+          li {
+            list-style: none;
+          }
+        }
+
+        &__team-member {
+          list-style: none;
+          border-radius: 50%;
+          width: 1.875rem;
+          height: 1.875rem;
+          margin: 0 0.25rem -0.5rem 0.25rem;
+        }
+
+        &__status {
+          text-align: center;
+          width: 4.5rem;
+          border: solid 2px $gray;
+          border-radius: 0.25rem;
+          background-color: $gray;
+          margin: 0 0 0 1rem;
+          font-size: 0.875rem;
+          font-weight: 500;
+          padding: 0.125rem 0.75rem;
 
           @media only screen and (max-width: $mobile-max-width) {
-            max-width: 64px;
-            height: 64px;
+            margin: 0;
+          }
+
+          &--futur {
+            border-color: $gray;
+            color: $black;
+            background-color: white;
+          }
+
+          &--past {
+            border-color: $light-gray;
+            color: $black;
+            background-color: $light-gray;
+          }
+
+          &--present {
+            border-color: $blue;
+            background-color: white;
+            color: $blue;
           }
         }
       }
@@ -382,69 +511,6 @@
       &__icon {
         display: inline-block;
         margin-right: 4px;
-      }
-    }
-
-    .subsection {
-      margin-bottom: 40px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 24px;
-      }
-    }
-
-    .key-elements {
-      margin: 48px 0;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-around;
-      flex-wrap: wrap;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin: 32px 0;
-      }
-
-      .element {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 160px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 4px 16px 4px;
-        }
-
-        img {
-          background-color: lighten($gray, 10%);
-          border-radius: 100%;
-          padding: 12px;
-        }
-
-        > div {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border-radius: 100%;
-          width: 88px;
-          height: 88px;
-          background-color: lighten($gray, 10%);
-
-          svg {
-            font-size: 40px;
-            color: $blue;
-          }
-        }
-
-        p {
-          font-size: 0.875em;
-          color: $blue;
-          margin: 0;
-          font-weight: 500;
-          border-radius: 8px;
-          padding: 4px 8px;
-        }
       }
     }
 
@@ -502,43 +568,61 @@
     }
 
     .team {
-      padding: 0;
+      margin-top: -1rem;
+      padding: 0 0 0 2rem;
       display: flex;
       align-items: flex-start;
       justify-content: space-between;
       flex-wrap: wrap;
 
-      li {
+      @media only screen and (max-width: $mobile-max-width) {
+        padding: 0;
+      }
+
+      &-member {
         list-style: none;
-        text-align: center;
-        width: 30%;
-        margin: 24px 4px;
+        width: 100%;
+        margin: 0.5rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
 
         @media only screen and (max-width: $mobile-max-width) {
-          width: 46%;
+          width: 100%;
+          margin: 0.25rem 0;
         }
 
-        img {
-          margin: 0 auto;
-          border-radius: 50em;
-          max-width: 150px;
-        }
+        &__photo {
+          background-color: $light-gray;
+          border-radius: 50%;
+          padding: 0.5rem 0.25rem 0rem 0.25rem;
+          margin: 0 0.75rem 0 0;
+          width: 2rem;
+          height: 2rem;
+          color: $red;
+          text-align: center;
+          flex-shrink: 0;
 
-        h3 {
-          margin: 4px 0;
-
-          a {
-            color: $black !important;
-            border: none !important;
-
-            &:hover {
-              color: $blue;
-            }
+          @media only screen and (max-width: $mobile-max-width) {
+            padding: 0.25rem;
+            margin: 0 0.75rem 0 0;
+            width: 1.5rem;
+            height: 1.5rem;
           }
         }
 
-        p {
-            margin: 0;
+        &__description {
+          text-align: left;
+          margin: 0;
+          font-size: 1.125rem;
+
+          @media only screen and (max-width: $mobile-max-width) {
+            font-size: 1rem;
+          }
+
+          &--light {
+            font-weight: normal;
+          }
         }
       }
     }

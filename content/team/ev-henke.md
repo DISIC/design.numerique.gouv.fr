@@ -8,7 +8,7 @@ sub_team: Défi immatriculation
 sub_team_link: /commando-ux/defi-immatriculation
 twitter: evStyleDesign
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Je suis designer freelance, travaillant dans le numérique depuis plus de 10 ans. J'ai vécu et travaillé dans plusieurs pays d’Europe, où j'ai collaboré avec des agences et de grands entreprises de l’IoT, de la mobilité et des médias. J’ai aussi accompagné de nombreuses start-ups à grandir.

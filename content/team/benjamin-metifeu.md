@@ -8,7 +8,7 @@ sub_team: Défi droits sociaux
 sub_team_link: /commando-ux/defi-droits-sociaux
 twitter: gbmpn
 e-mail :
-group : commando
+group : ["commando-1"]
 ---
 
 Designer et développeur depuis 2014 avec un focus sur l’expérience utilisateur, le design interactif et l’identité visuelle.

@@ -3,7 +3,7 @@
 
   <div class="cover">
       <div class="cover__container">
-        <h1>Merci&nbsp;! Votre demande a bien été prise en compte</h1>
+        <h1>Merci. Votre demande a bien été transmise à nos services. Cordialement. </h1>
         <g-link to="/" class="button">Retourner à l'accueil</g-link>
       </div>
   </div>

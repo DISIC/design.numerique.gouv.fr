@@ -4,7 +4,7 @@
     <div class="cover">
       <div class="cover__container">
         <h1>Concevons des services publics numériques <span class="text-highlight">accessibles</span>, <span class="text-highlight">inclusifs</span> et <span class="text-highlight">humains</span>.</h1>
-        <p class="cover__subtitle">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
+        <p class="cover__subtitle">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
       </div>
     </div>
 
@@ -56,7 +56,7 @@
           <li class="action">
             <font-awesome :icon="['fas', 'user-astronaut']" focusable="false" class="action__illustration" aria-hidden="true" transform="shrink-6" height="16px" width="16px"/>
             <h3><g-link to="/commando-ux/">Le Commando UX <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4"  aria-hidden="true" height="16px" width="16px"/></g-link></h3>
-            <p>Une équipe de designers et développeurs pour améliorer les démarches en ligne&nbsp;🌟</p>
+            <p>Une équipe de designers, développeurs et développeuses pour améliorer les démarches en ligne&nbsp;🌟</p>
           </li>
 
           <li class="action">
@@ -68,7 +68,7 @@
           <li class="action">
             <Observatoire focusable="false" class="action__illustration" aria-hidden="true" height="16px" width="16px"/>
             <h3><a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’Observatoire <font-awesome :icon="['fas', 'arrow-right']" transform="shrink-4" aria-hidden="true" height="16px" width="16px"/></a></h3>
-            <p>Les 250 démarches administratives les plus utilisées par les Français passées à la loupe&nbsp;🔎</p>
+            <p>Les 250 démarches administratives les plus utilisées par les Français et les Françaises passées à la loupe&nbsp;🔎</p>
           </li>
         </ul>
 
@@ -120,7 +120,7 @@
         <div class="team__content">
           <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
           <div class="team__text">
-            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des service numérique</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français.
+            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises.
               Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️</p>
             <g-link to="/equipe/">
               Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>

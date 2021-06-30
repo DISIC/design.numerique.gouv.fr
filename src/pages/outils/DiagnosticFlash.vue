@@ -166,7 +166,7 @@ export default {
         display: none;
       }
       .rf-accordion .rf-accordion__btn {
-
+        padding: 0 0.75rem;
         &::before {
             visibility: hidden;
         } 

@@ -19,7 +19,6 @@
     <div class="cover__container">
       <h1 class="text-highlight">Diagnostic flash</h1>
       <p class="cover__subtitle">Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
-
     </div>
   </div>
 
@@ -30,39 +29,10 @@
       </button>
       <div class="rf-collapse" id="rf-accordion-0">
         <div class="rf-accordion__inner">
-          <p>Le diagnostic se fait sur un échantillon de pages incluant au minimum :</p>
+          <p>Le <strong>diagnostic flash</strong> se fait sur une ou plusieurs pages. Plus cet échantillon de page est représentatif, meilleur est le diagnostic.<br>Deux solutions sont proposées :</p>
           <ul>
-          <li>la page d’accueil</li>
-          <li>une page de formulaire si elle existe</li>
-          <li>une page avec des fichiers en téléchargement si elle existe</li>
-          <li>une page de contenu, la plus riche possible (préférer la présence d’images, d’infographies, de vidéos, de titres et sous-titres plutôt qu’une page de texte seul)</li>
-          </ul>
-          <p>Pour chaque critère et sur la base de son échantillon, le testeur décide si :</p>
-          <ul>
-          <li> 🤩 Le critère est parfaitement rempli;</li>
-          <li> 😐 Le critère n’est pas totalement rempli, mais dans l’ensemble il est plutôt respecté même s’il reste quelques aspects à corriger;</li>
-          <li> 🙁 Le critère n’est pas rempli et si, ça et là, des choses conviennent, c’est un peu par hasard;</li>
-          <li> ✖ Le site ou la démarche n’est pas concerné par le critère.</li>
-          </ul>
-          
-          <p>Le résultat peut être saisi dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié (format ods - 43Ko) - nouvelle fenêtre" target="_blank"  rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</p>
-
-          <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
-          <ul>
-            <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)
-              <ul>
-                <li><a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
-                <li><a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
-                <li><a href="https://microsoftedge.microsoft.com/addons/detail/headingsmap/bokekiiaddinealohkmhjcgfanndmcgo"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
-              </ul>
-            </li>
-            <li>Contrast Checker (symbolisée par une roue multicolore)
-              <ul>
-                <li><a href="https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
-                <li><a href="https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
-                <li><a href="https://microsoftedge.microsoft.com/addons/detail/wcag-color-contrast-check/idahaggnlnekelhgplklhfpchbfdmkjp"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
-              </ul>
-            </li>
+            <li>Imprimer cette page qui devient une checklist et tient sur une feuille A4 recto verso.</li>
+            <li>Saisir le résultat dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié (format ods - 43Ko) - nouvelle fenêtre" target="_blank"  rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</li>
           </ul>
         </div>
       </div>
@@ -85,6 +55,25 @@
             </li>
           </ul>
       </section>
+    </div>
+  <div class="content">
+    <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
+    <ul>
+      <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)
+        <ul>
+          <li><a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
+          <li><a href="https://addons.mozilla.org/fr/firefox/addon/headingsmap/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
+          <li><a href="https://microsoftedge.microsoft.com/addons/detail/headingsmap/bokekiiaddinealohkmhjcgfanndmcgo"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
+        </ul>
+      </li>
+      <li>Contrast Checker (symbolisée par une roue multicolore)
+        <ul>
+          <li><a href="https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf" target="_blank" title="Extension pour Chrome - nouvelle fenêtre">Extension pour Chrome</a></li>
+          <li><a href="https://addons.mozilla.org/en-US/firefox/addon/wcag-contrast-checker/" target="_blank" title="Extension pour Firefox - nouvelle fenêtre">Extension pour Firefox</a></li>
+          <li><a href="https://microsoftedge.microsoft.com/addons/detail/wcag-color-contrast-check/idahaggnlnekelhgplklhfpchbfdmkjp"  target="_blank" title="Extension pour Edge - nouvelle fenêtre">Extension pour Edge</a></li>
+        </ul>
+      </li>
+    </ul>
     </div>
   </div>
   </Layout>
@@ -158,7 +147,7 @@ export default {
     }
 
     .rf-accordion__inner {
-      background-color:var(--g200);
+      background-color:#F4F4F6;
       padding: 1rem 2rem;
     }
     .rf-accordion .rf-accordion__btn {

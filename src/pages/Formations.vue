@@ -69,6 +69,7 @@
         <ul>
           <li><a href="https://www.opquast.com/formation/" title="Maîtrise de la qualité en projet web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Maîtrise de la qualité en projet web</a>, 14 heures, 250€ HT.</li>
         </ul>
+        <p>Si votre organisme propose une formation certifiante et souhaite être référencé sur notre site, vous pouvez <a href="https://github.com/DISIC/design.numerique.gouv.fr/pulls" title="proposer une PR - nouvelle fenêtre"  target="_blank" rel="noreferrer noopener">proposer une <abbr lang="en" title="pull request">PR</abbr></a> ou nous contacter en utilisant l’adresse électronique contact@design.numerique.gouv.fr.</p>
 
       </section>
 

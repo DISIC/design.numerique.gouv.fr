@@ -15,7 +15,7 @@
     </ol>
   </nav>
 
-  <div class="cover">
+  <div class="cover web-only">
     <div class="cover__container">
       <h1 class="text-highlight">Diagnostic flash</h1>
       <p class="cover__subtitle">Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
@@ -38,7 +38,7 @@
       </div>
     </div>
     <div class="quick-test">
-      <section v-for="cat in $page.allDiagFlashCat.edges"  >
+      <section :class="'cat'+cat.node.id" v-for="cat in $page.allDiagFlashCat.edges"  >
           <h2> {{ cat.node.title }}</h2>
           <ul class="rf-accordions-group">
             <li  class="rf-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
@@ -56,7 +56,7 @@
           </ul>
       </section>
     </div>
-  <div class="content">
+  <div class="content web-only">
     <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
     <ul>
       <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)
@@ -166,7 +166,7 @@ export default {
         display: none;
       }
       .rf-accordion .rf-accordion__btn {
-
+        padding: 0 0.75rem;
         &::before {
             visibility: hidden;
         } 

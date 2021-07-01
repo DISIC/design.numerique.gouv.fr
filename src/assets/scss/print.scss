@@ -21,7 +21,8 @@
     }
     header, footer,
     main .message, .breadcrumb, .rf-skiplinks, .if-english, .cover__subhead,
-    svg.cover__home-illustration, svg.cover__illustration, svg.illustration, svg.h1__icon, svg.h2__icon, div.illustration {
+    svg.cover__home-illustration, svg.cover__illustration, svg.illustration, svg.h1__icon, svg.h2__icon, div.illustration,
+    .web-only {
         display: none;
     }
     
@@ -69,10 +70,18 @@
             }
             button.rf-accordion__btn {
                 border: none;
-                font-size: 16pt;
                 text-align: left;
             }
         }
+    }
+    .quick-test {
+        font-size: 14pt;
+        .numero {
+            display: none;
+        }
+        section.cat2  {
+            page-break-after: always;
+        }    
     }
     //Au cas on imprime la home ;)
     .index-page {

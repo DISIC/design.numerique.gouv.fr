@@ -59,6 +59,11 @@
         </h2>
         <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
           compétences sur les sujets qui vous intéressent.</p>
+          
+        <h3>Accessibilité numérique</h3>
+        <ul>
+        <li><a href="https://formations.access42.net/?p=877" title="Développer des sites web accessibles - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Développer des sites web accessibles</a>, 9 heures. 225€ HT (hors coût de la formation) ; gratuité de la certification possible selon certaines conditions.</li>
+        </ul>
 
         <h3>Qualité</h3>
         <ul>

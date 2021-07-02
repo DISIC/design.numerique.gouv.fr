@@ -43,7 +43,7 @@
         <div class="rf-tile rf-enlarge-link rf-tile--horizontal">
             <div class="rf-tile__body">
                 <h4 class="rf-tile__title">
-                    <a class="rf-tile__link" href>Designer</a>
+                    <a class="rf-tile__link" href="designer/">Designer</a>
                 </h4>
                 <p class="rf-tile__desc">Vous concevez un parcours ou une interface en prenant en compte <strong>tous les usagers</strong>.</p>
             </div>

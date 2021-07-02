@@ -34,7 +34,7 @@
       <p>La loi de 2005 pour l'égalité des droits et des chances, la loi pour une république numérique de 2016, le référentiel général d’amélioration de l’accessibilité (RGAA) : les dispositifs règlementaires sont applicables à tous.</p>
 
       <h2>Désigner un ou une référente accessibilité</h2>
-      <p>La direction doit nommer un membre de l’encadrement de l’organisme en tant que « référent accessibilité ». Cette personne doit avoir la responsabilité et l’autorité en particulier pour :</p>
+      <p>La direction doit nommer un membre de l’encadrement de l’organisme en tant que « référent accessibilité ». Cette personne doit avoir la responsabilité et l’autorité en particulier pour :</p>
       <ul>
         <li>assurer que les processus nécessaires à la prise en compte de l’accessibilité sont établis, mis en œuvre et entretenus ;</li>
         <li>rendre compte à la direction du niveau d’accessibilité et de tout besoin d’amélioration ;</li>
@@ -48,7 +48,9 @@
       <p>Les designers, développeurs et développeuses<strong></strong> doivent être formées.</p>
       <p>Vous pouvez même former un expert RGAA pour internaliser les tâches d’audit et d’acompagnement.</p>
       <h3>Organiser</h3>
-      <p>S’assurer que chaque étape du projet, chaque process, chaque interventions prenne en compte l’accessibilité.</p>
+      <p>S’assurer que chaque étape du projet, chaque process, chaque intervention prennent en compte l’accessibilité.</p>
+      <h3>Vérifier</h3>
+      <p>S’assurer que les livraisons de code ont bien été auditées et sont bien conformes au RGAA.</p>
 
       <h2>Se faire accompagner</h2>
       <p>La présence d’un expert en accessibilité numérique dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les process, faire des revues de code, etc.</p>

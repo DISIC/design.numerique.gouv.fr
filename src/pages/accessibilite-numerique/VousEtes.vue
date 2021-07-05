@@ -1,0 +1,130 @@
+<template>
+  <Layout class="vous-etes-page">
+
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol>
+          <li>
+            <g-link to="/">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
+          </li>
+          <li aria-current="page">Vous êtes</li>
+        </ol>
+    </nav>
+
+    <div class="cover">
+      <div class="cover__container">
+        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
+        <h1 class="text-highlight">Vous êtes</h1>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="rf-grid-row rf-grid-row--gutters">
+        <div class="rf-col-4" v-for="{ node } in $page.allRole.edges" :key="node.id">
+            <div class="rf-tile rf-enlarge-link rf-tile--horizontal">
+                <div class="rf-tile__body">
+                    <h2 class="rf-tile__title">
+                      <g-link  class="rf-tile__link" :to="node.path">
+                        {{ node.title }}
+                      </g-link>
+                    </h2>
+        
+                    <p class="rf-tile__desc">{{ node.description }}</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </Layout>
+</template>
+
+<page-query>
+
+  query {
+    allRole (sortBy: "title", order: DESC) {
+      edges {
+        node {
+        	id
+          title
+          description
+          path
+        }
+      }
+    }
+  }
+
+</page-query>
+
+<script>
+
+import Accessibilite from "~/assets/images/accessibilite.svg"
+
+export default {
+  components: {
+    Accessibilite,
+  },
+  metaInfo: {
+      title: "Votre rôle",
+      meta: [{
+        name: "description",
+        content: "Découvrez votre rôle pour la mise en oeuvre de l'accessibilité numérique."
+      },
+      {
+        property: "og:title",
+        content: "Articles - DesignGouv"
+      },
+      {
+        property: "og:description",
+        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+      },
+      {
+        property: "og:image",
+        content: "https://design.numerique.gouv.fr/designGouv.png"
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image"
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv"
+      },
+      {
+        name: "twitter:title",
+        content: "Articles - DesignGouv"
+      },
+      {
+        name: "twitter:description",
+        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+      },
+      {
+        name: "twitter:image",
+        content: "https://design.numerique.gouv.fr/designGouv.png"
+      }],
+    }
+  }
+
+</script>
+
+<style lang="scss">
+
+  @import "src/assets/scss/_vars.scss";
+
+  .vous-etes-page {
+
+
+
+    h2 {
+      &.rf-tile__title {
+        margin:0 auto;
+      }
+      a {
+        border-bottom: none !important;
+      }
+    }
+
+  }
+
+</style>

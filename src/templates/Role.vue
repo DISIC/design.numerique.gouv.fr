@@ -1,7 +1,6 @@
 <template>
-  <Layout class="role-page">
+  <Layout class="vous-etes-page">
 
-    <div class="cover">
 
       <nav aria-label="Breadcrumb" class="breadcrumb">
         <ol>
@@ -9,19 +8,22 @@
             <g-link to="/">Accueil</g-link>
           </li>
           <li>
-            <g-link to="/articles/">Vous êtes</g-link>
+            <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/vous-etes/">Vous êtes</g-link>
           </li>
           <li aria-current="page" v-html="$page.role.title" />
         </ol>
       </nav>
 
+
+    <div class="cover cover--with-breadcrumb">
      <div class="cover__container">
-        <div class="cover__text">
-          <h1 v-html="$page.role.title" />
-        </div>
+       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Vous êtes</div>
+       <h1 class="text-highlight" v-html="$page.role.title" />
       </div>
     </div>
-
     <div class="content">
       <div v-html="$page.role.content" />
     </div>
@@ -29,7 +31,13 @@
 </template>
 
 <script>
+
+import Accessibilite from "~/assets/images/accessibilite.svg"
+
 export default {
+  components: {
+    Accessibilite,
+  },
   metaInfo () {
     return {
       title: this.$page.role.title,

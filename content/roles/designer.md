@@ -15,6 +15,26 @@ La loi de 2005 pour l’égalité des droits et des chances, la loi pour une ré
 ### Faire des tests
 Intégrer des personnes en situations de handicap dans vos tests usagers et vos personæ.
 
+## Premier livrables
+
+### Conception (UX/ergo)
+
+* formats originaux (axure ou autre…) et format jpg
+* document d’accompagnement : description des principes mis en œuvre et cinématique parcours utilisateur
+
+### Graphisme
+
+* Le premier livrable doit impérativement contenir un styleguide/planche graphique :
+* pour un nouveau projet : header, footer, menu, typo courante, listes, liens, hx, palette, formulaires, messages, composants fréquents/récurrents … commenté dans les marges (voir encadré)
+* pour un complément de projet : planche avec les nouveaux éléments/ les nouveaux composants commenté dans les marges
+* Éléments graphiques : au format originel (svg, photoshop) et png ou jpg ; s’il s’agit d’icônes, privilégier le format svg
+* Fontes : fichiers des éventuelles webfontes
+* Pages : formats originaux (photoshop…) + jpg des pages.
+* Déclinaisons mobile / tablette
+* Document d'accompagnement si besoin.
+
+Nous précisons en outre que la taille de base des caractères pour le texte courant doit être de 14px sur mobile et de 16px sur tablette et desktop.
+
 ## UX
 
 ### Images

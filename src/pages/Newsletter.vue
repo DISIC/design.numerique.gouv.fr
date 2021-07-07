@@ -1,16 +1,16 @@
 <template>
   <Layout class="newsletter-page" hideNewsletter>
 
-    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
           <span aria-current="page">Newsletter</span>
         </li>
       </ol>
-    </nav> -->
+    </nav>
 
     <div class="cover">
      <div class="cover__container">
@@ -39,7 +39,7 @@
           <label for="mce-EMAIL" aria-describedby="format">
             Votre adresse électronique <span class="asterisk">*</span>
           </label>
-          <p class="rf-hint-text" id="format">Au format prenom@mail.fr</p>
+          <p class="fr-hint-text" id="format">Au format prenom@mail.fr</p>
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
         </div>
 

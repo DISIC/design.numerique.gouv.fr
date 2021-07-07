@@ -2,12 +2,11 @@
 
 @import "alerts";
 @import "articles";
-@import "breadcrumb";
+//@import "breadcrumb";
 @import "buttons";
 @import "cover";
-@import "ds";
-@import "covid";
-@import "form";
+//@import "ds";
+//@import "covid";
 @import "messages";
 @import "print";
 
@@ -26,7 +25,9 @@ body {
     box-shadow: 0.25rem 0.25rem 0px $light;
   }
 }
-
+.fr-container {
+  max-width: 68rem;
+}
 h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2;
@@ -92,7 +93,7 @@ a {
   box-shadow: none;
   position: static;
 
-  &:not(button):not(.button):not(.rf-service__title):not(.rf-link):not(.footer__logo) {
+  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-link):not(.footer__logo) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;
@@ -120,7 +121,9 @@ a {
     content: "" !important;
   }
 }
-
+.fr-breadcrumb {
+  margin: 2rem 0;
+}
 .content {
   margin: 0 auto;
 
@@ -128,12 +131,15 @@ a {
     padding-left: 20px;
 
     > li {
-      list-style-type: disc;
-      list-style-position: outside;
+      list-style-type: none;
     }
   }
   section {
     margin-bottom: 64px;
+
+      ul>li:before {
+          content:none;
+        }
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;

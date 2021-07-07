@@ -56,17 +56,14 @@ query {
       },
     },
     mounted () {
-      let src = "/assets/js/all.min.js"
-
+      let src = "/assets/js/dsfr.module.min.js";
       let dsfr = document.createElement('script');
-      dsfr.type = "text/javascript";
+      dsfr.type = "module";
       dsfr.src = src;
-
       let scripts = document.querySelectorAll('[src="' + src + '"]');
       if (scripts.length > 0) {
         scripts[0].remove();
       }
-
       document.body.appendChild(dsfr);
     }
   }
@@ -151,9 +148,9 @@ query {
   }
 
   .layout {
-    max-width: 820px;
+    max-width: 52rem;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0;
 
     @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;

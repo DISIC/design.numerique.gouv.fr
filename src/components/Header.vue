@@ -1,22 +1,30 @@
 <template>
-  <header role="banner" class="rf-header">
-    <div class="rf-container rf-container__header">
-      <div class="rf-header__body">
-        <div class="rf-header__brand">
-          <img src="/assets/images/logoRF.svg" width="96" height="89" class="header__logo-rf" alt="République Française. Liberté Égalité Fraternité."/>
+
+<header role="banner" class="fr-header">
+    <div class="fr-header__body">
+        <div class="fr-container">
+            <div class="fr-header__body-row">
+                <div class="fr-header__brand fr-enlarge-link">
+                    <div class="fr-header__brand-top">
+                        <div class="fr-header__logo">
+                            <p class="fr-logo">
+                                République
+                                <br>Française
+                            </p>
+                        </div>
+                    </div>
+                    <div class="fr-header__service">
+                        <a href="/" title="Retour à l’accueil DesignGouv"  class="fr-header__service-title  text-highlight">DesignGouv
+                        </a>
+                        <p class="fr-header__service-tagline">Par le pôle Design des services numériques</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="rf-header__navbar">
-          <div class="rf-service">
-            <a class="rf-service__title text-highlight" href="/" title="Retour à l’accueil DesignGouv">
-              DesignGouv
-            </a>
-            <p class="rf-service__tagline">Par le pôle Design des services numériques</p>
-          </div>
-        </div>
-      </div>
-      <Navigation />
     </div>
-  </header>
+    <Navigation />
+</header>
+
 </template>
 
 <script>
@@ -35,23 +43,16 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .rf-header {
+  .fr-header {
     box-shadow: none !important;
     margin: 0 0 16px 0 !important;
 
-    .rf-container__header {
-      margin: 0;
-      max-width: none;
-      padding-right: 0rem;
-      padding-left: 0rem;
-
-      .rf-header__body {
-        max-width: 1080px;
+      .fr-header__body {
         margin: 0 auto;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+        //font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
 
-        .rf-service {
-          &__title {
+        .fr-header {
+          &__service-title {
             font-size: 2rem;
             font-weight: 800;
             color: $blue;
@@ -61,14 +62,15 @@
             }
           }
 
-          &__tagline {
+          &__service-tagline {
+            font-size: 0.875rem;
             margin-left: 0.125rem;
             margin-top: 0.125rem;
             font-weight: bold;
           }
         }
 
-        .rf-header__navbar {
+        .fr-header__navbar {
           @media only screen and (max-width: $mobile-max-width) {
             margin-top: 0.5rem;
           }
@@ -76,14 +78,13 @@
           //Fix menu icon positoin on Safari
           @media not all and (min-resolution:.001dpcm) {
             @supports (-webkit-appearance:none) {
-              .rf-btn::before {
+              .fr-btn::before {
                 padding-bottom: 32px;
               }
             }
           }
         }
       }
-    }
   }
 
 </style>

@@ -258,7 +258,7 @@
 
       &__content {
         background-color: $light-gray;
-        padding: 0.5rem 2rem 1rem 2rem;
+        padding: 2rem 2rem 1rem;
         border-left: 4px solid $blue;
         margin-bottom: 3rem;
       }
@@ -324,6 +324,7 @@
             width: 1.5rem;
             margin-bottom: -0.8rem;
             margin-right: 0.75rem;
+            box-sizing: content-box;
 
             @media only screen and (max-width: $mobile-max-width) {
               display: inline;
@@ -598,6 +599,10 @@
         justify-content: flex-start;
         align-items: center;
 
+        &:before {
+          content: "";
+        }
+
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
           margin: 0.25rem 0;
@@ -613,6 +618,10 @@
           color: $red;
           text-align: center;
           flex-shrink: 0;
+
+          svg {
+            vertical-align: top;
+          }
 
           @media only screen and (max-width: $mobile-max-width) {
             padding: 0.25rem;

@@ -258,6 +258,7 @@
         padding: 2px;
         text-align: center;
         margin: -4px 0 0 -36px;
+        box-sizing: content-box;
       }
 
         &__card-icon {

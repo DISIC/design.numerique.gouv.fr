@@ -290,6 +290,7 @@
 
         &-id {
           margin: 0;
+          font-weight: bold;
         }
 
         &-title {
@@ -340,7 +341,6 @@
 
         p {
           font-size: 0.875rem;
-          font-weight: bold;
         }
 
         .goose__modal-icon {

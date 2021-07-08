@@ -15,7 +15,7 @@
       </ol>
     </nav>
 
-    <div class="cover cover--with-breadcrumb">
+    <div class="cover">
      <div class="cover__container">
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>

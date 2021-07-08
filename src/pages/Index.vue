@@ -348,6 +348,10 @@
           border-left: 4px solid $blue;
           list-style: none;
 
+          &:before {
+            content: none;
+          }
+
 
           @media only screen and (max-width: $mobile-max-width) {
             flex-basis: 94%;

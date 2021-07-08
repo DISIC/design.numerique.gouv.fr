@@ -132,21 +132,23 @@ export default {
   .outils-page{
 
     .guide {
-      padding: 1rem 2rem !important;
       margin-bottom: 4rem !important;
-
+      padding: 1rem 3rem;
+      
       &-title {
         margin: 0;
       }
+    }
+
+    .fr-accordion__btn:hover {
+      background-image: none !important;
     }
 
     .fr-accordion__inner {
       background-color:var(--g200);
       padding: 1rem 2rem;
     }
-    .fr-accordion .fr-accordion__btn {
-      padding: 0.75rem 0 0.75rem 3rem
-    }
+
     span.numero {
       padding:0.25rem;
       background-color: $light;

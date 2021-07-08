@@ -123,6 +123,10 @@
         border-bottom: none;
       }
 
+      .fr-accordion__btn {
+        padding: .75rem 0 .75rem 3rem; 
+      }
+
       a {
         font-weight: bold;
 

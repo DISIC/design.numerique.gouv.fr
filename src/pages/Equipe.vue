@@ -168,6 +168,10 @@
         width: 30%;
         margin: 24px 4px;
 
+        &:before {
+          content: none;
+        }
+
         @media only screen and (max-width: $mobile-max-width) {
           width: 46%;
         }

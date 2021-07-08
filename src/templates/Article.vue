@@ -117,7 +117,7 @@ query Article ($id: ID!) {
     .fr-breadcrumb {
       text-align: center;
       margin-top: 2rem;
-      margin-bottom: 0;
+      margin-bottom: 1.5rem;
       
       @media only screen and (max-width: $mobile-max-width) {
         margin-top: 8px;
@@ -173,6 +173,7 @@ query Article ($id: ID!) {
 
     .content {
       max-width: 640px;
+      padding: 0 2rem;
 
       h2 {
         margin-top: 1.5em;

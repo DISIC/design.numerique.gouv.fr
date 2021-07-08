@@ -12,8 +12,6 @@
 
 body {
   margin: 0;
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.5;
   color: $black;
   background-color: white;
 
@@ -89,11 +87,15 @@ h3 {
   font-size: 1.2em;
 }
 
+p {
+  margin: revert;
+}
+
 a {
   box-shadow: none;
   position: static;
 
-  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-link):not(.footer__logo) {
+  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-nav__link):not(.footer__logo) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;

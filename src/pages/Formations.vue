@@ -128,23 +128,28 @@
 
   .formations-page {
 
-    li {
-      list-style-type: none;
-    }
+    .content {
 
-    a {
-
-      svg {
-        padding-right: 12px;
-        transition: .1s all;
+      li {
+        list-style-type: none;
       }
 
-      &:hover {
+      a {
+        box-sizing: initial;
+        
         svg {
-          padding-left: 8px;
-          padding-right: 4px;
+          padding-right: 12px;
+          transition: .1s all;
+        }
+
+        &:hover {
+          svg {
+            padding-left: 8px;
+            padding-right: 4px;
+          }
         }
       }
+
     }
   }
 

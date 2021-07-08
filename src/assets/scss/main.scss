@@ -140,19 +140,8 @@ a {
 .content {
   margin: 0 auto;
 
-  ul {
-    padding-left: 20px;
-
-    > li {
-      list-style-type: none;
-    }
-  }
   section {
     margin-bottom: 64px;
-
-      ul>li:before {
-          content:none;
-        }
 
     @media only screen and (max-width: $mobile-max-width) {
       margin-bottom: 48px;

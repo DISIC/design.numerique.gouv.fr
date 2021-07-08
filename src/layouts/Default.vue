@@ -150,7 +150,8 @@ query {
   .layout {
     max-width: 52rem;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 30px;
+    box-sizing: content-box;
 
     @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;

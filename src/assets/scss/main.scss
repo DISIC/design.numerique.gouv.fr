@@ -10,6 +10,10 @@
 @import "messages";
 @import "print";
 
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   color: $black;
@@ -23,9 +27,11 @@ body {
     box-shadow: 0.25rem 0.25rem 0px $light;
   }
 }
+
 .fr-container {
   max-width: 68rem;
 }
+
 h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2;

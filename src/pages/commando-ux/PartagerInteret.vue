@@ -15,7 +15,7 @@
     </ol>
   </nav>
 
-  <div class="cover cover--with-breadcrumb">
+  <div class="cover">
       <div class="cover__container">
         <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
         <h1>Experts de l'expérience utilisateur : vous souhaitez vous impliquer&nbsp;? Partagez votre intérêt&nbsp;!</h1>

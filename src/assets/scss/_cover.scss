@@ -113,17 +113,14 @@
     }
   }
 
-  &--with-breadcrumb {
-    margin-top: 48px;
-    margin-bottom: 80px;
+  // &--with-breadcrumb {
+  //   .cover__container {
+  //     max-width: 760px;
+  //   }
 
-    .cover__container {
-      max-width: 760px;
-    }
-
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-top: 32px;
-      margin-bottom: 64px;
-    }
-  }
+  //   @media only screen and (max-width: $mobile-max-width) {
+  //     margin-top: 32px;
+  //     margin-bottom: 64px;
+  //   }
+  // }
 }

@@ -283,12 +283,6 @@
             border-bottom: none !important;
             text-align: right;
 
-            svg {
-              font-size: 1.6rem;
-              vertical-align: middle;
-              margin-top: -0.1rem;
-            }
-
             &:after {
               position: absolute;
               content: "";
@@ -479,12 +473,6 @@
 
         a {
           border-bottom: none !important;
-
-          svg {
-            font-size: 1.6rem;
-            vertical-align: middle;
-            margin-top: -0.1rem;
-          }
 
           &:after {
             position: absolute;

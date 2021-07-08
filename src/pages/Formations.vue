@@ -129,11 +129,15 @@
 
       li {
         list-style-type: none;
+
+        &:before {
+          content: none;
+        }
       }
 
       a {
         box-sizing: initial;
-        
+
         svg {
           padding-right: 12px;
           transition: .1s all;

@@ -1,33 +1,31 @@
 <template>
   <nav class="fr-nav" role="navigation" aria-label="Menu principal">
-    <div class="fr-container">
-      <ul id="nav" class="fr-nav__list">
-        <li class="fr-nav__item">
-          <a class="fr-link" href="/">Accueil</a>
-        </li>
-        <!-- <li class="fr-nav__item">
-          <a class="fr-link" href="/design/">Design</a>
-        </li> -->
-        <li class="fr-nav__item">
-          <a class="fr-link" href="/accessibilite-numerique/">Accessibilité</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-link" href="/accompagnement/">Nos offres</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-link" href="/outils/">Outils</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-link" href="/formations/">Formations</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-link" href="/articles/">Articles</a>
-        </li>
-        <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
-          <a class="fr-link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
-        </li>
-      </ul>
-    </div>
+    <ul id="nav" class="fr-nav__list">
+      <li class="fr-nav__item">
+        <a class="fr-nav__link" href="/">Accueil</a>
+      </li>
+      <!-- <li class="fr-nav__item">
+        <a class="fr-nav__link" href="/design/">Design</a>
+      </li> -->
+      <li class="fr-nav__item">
+        <a class="fr-nav__link" href="/accessibilite-numerique/">Accessibilité</a>
+      </li>
+      <li class="fr-nav__item">
+        <a class="fr-nav__link" href="/accompagnement/">Nos offres</a>
+      </li>
+      <li class="fr-nav__item">
+        <a class="fr-nav__link" href="/outils/">Outils</a>
+      </li>
+      <li class="fr-nav__item">
+        <a class="fr-nav__link" href="/formations/">Formations</a>
+      </li>
+      <li class="fr-nav__item">
+        <a class="fr-nav__link" href="/articles/">Articles</a>
+      </li>
+      <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
+        <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
+      </li>
+    </ul>
   </nav>
 </template>
 
@@ -65,7 +63,7 @@
         if (url == "/") {
           if (currentUrl == url) {
             span.innerHTML = link.innerHTML;
-            span.classList.add('fr-link');
+            span.classList.add('fr-nav__link');
             span.classList.add(activeClass);
             link.parentNode.setAttribute("aria-current", "page");
             link.parentNode.replaceChild(span, link);
@@ -73,14 +71,14 @@
         }
         else if (currentUrl == url) {
           span.innerHTML = link.innerHTML;
-          span.classList.add('fr-link');
+          span.classList.add('fr-nav__link');
           span.classList.add(activeClass);
           link.parentNode.setAttribute("aria-current", "page");
           link.parentNode.replaceChild(span, link);
         }
         else if (currentUrl.includes(url)) {
           span.innerHTML = link.innerHTML;
-          span.classList.add('fr-link');
+          span.classList.add('fr-nav__link');
           span.classList.add(activeClass);
           link.parentNode.setAttribute("aria-current", "true");
           link.parentNode.replaceChild(span, link);
@@ -121,7 +119,7 @@
       max-width: 1080px;
       margin: 0 auto !important;
 
-      .fr-link {
+      .fr-nav__link {
         margin: 0 1.25rem;
         padding: 0.75rem 0.25rem;
         font-size: 1rem;
@@ -133,10 +131,11 @@
         -moz-osx-font-smoothing: unset !important;
         --color-hover: none !important;
         --color-active: none !important;
+        line-height: 2em;
 
         &.active {
           color: $blue;
-          box-shadow: inset 0 -2px $blue;
+          border-bottom: solid 2px $blue;
         }
 
         &:hover {

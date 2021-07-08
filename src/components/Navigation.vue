@@ -1,31 +1,33 @@
 <template>
   <nav class="fr-nav" role="navigation" aria-label="Menu principal">
-    <ul id="nav" class="fr-nav__list">
-      <li class="fr-nav__item">
-        <a class="fr-nav__link" href="/">Accueil</a>
-      </li>
-      <!-- <li class="fr-nav__item">
-        <a class="fr-nav__link" href="/design/">Design</a>
-      </li> -->
-      <li class="fr-nav__item">
-        <a class="fr-nav__link" href="/accessibilite-numerique/">Accessibilité</a>
-      </li>
-      <li class="fr-nav__item">
-        <a class="fr-nav__link" href="/accompagnement/">Nos offres</a>
-      </li>
-      <li class="fr-nav__item">
-        <a class="fr-nav__link" href="/outils/">Outils</a>
-      </li>
-      <li class="fr-nav__item">
-        <a class="fr-nav__link" href="/formations/">Formations</a>
-      </li>
-      <li class="fr-nav__item">
-        <a class="fr-nav__link" href="/articles/">Articles</a>
-      </li>
-      <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
-        <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
-      </li>
-    </ul>
+    <div class="fr-container">
+      <ul id="nav" class="fr-nav__list">
+        <li class="fr-nav__item">
+          <a class="fr-nav__link" href="/">Accueil</a>
+        </li>
+        <!-- <li class="fr-nav__item">
+          <a class="fr-nav__link" href="/design/">Design</a>
+        </li> -->
+        <li class="fr-nav__item">
+          <a class="fr-nav__link" href="/accessibilite-numerique/">Accessibilité</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-nav__link" href="/accompagnement/">Nos offres</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-nav__link" href="/outils/">Outils</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-nav__link" href="/formations/">Formations</a>
+        </li>
+        <li class="fr-nav__item">
+          <a class="fr-nav__link" href="/articles/">Articles</a>
+        </li>
+        <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
+          <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
+        </li>
+      </ul>
+    </div>
   </nav>
 </template>
 
@@ -116,8 +118,8 @@
     }
 
     ul {
-      max-width: 1080px;
-      margin: 0 auto !important;
+      // max-width: 1080px;
+      // margin: 0 auto !important;
 
       .fr-nav__link {
         margin: 0 1.25rem;

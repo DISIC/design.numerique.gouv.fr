@@ -159,4 +159,11 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
+  .outils-page {
+    .fr-accordion__btn {
+      padding: .75rem 0 .75rem 3rem;
+      box-sizing: border-box;
+    }
+  } 
+
 </style>

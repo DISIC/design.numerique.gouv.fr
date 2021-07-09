@@ -7,12 +7,9 @@
 @import "cover";
 //@import "ds";
 //@import "covid";
+@import "form";
 @import "messages";
 @import "print";
-
-*, ::after, ::before {
-  box-sizing: border-box;
-}
 
 body {
   margin: 0;
@@ -26,6 +23,10 @@ body {
   .box-highlight {
     box-shadow: 0.25rem 0.25rem 0px $light;
   }
+}
+
+[class*=" fr-"], [class^="fr-"] {
+  box-sizing: border-box;
 }
 
 .fr-container {
@@ -94,7 +95,7 @@ h3 {
 }
 
 p {
-  margin: revert;
+  margin-top: revert;
 }
 
 a {
@@ -129,6 +130,7 @@ a {
     content: "" !important;
   }
 }
+
 .fr-breadcrumb {
   margin: 2rem 0;
 }

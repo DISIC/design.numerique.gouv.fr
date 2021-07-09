@@ -157,7 +157,7 @@ query {
       padding: 0 12px;
     }
 
-    ::after, ::before {
+    *, ::after, ::before {
       box-sizing: unset;
     }
   }

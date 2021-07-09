@@ -2,12 +2,12 @@
   <Layout class="mission-page" hideNewsletter showServices>
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/commando-ux/">Commando UX</g-link>
+          <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
         </li>
         <li>
           <span aria-current="page">{{ $page.mission.title }}</span>
@@ -15,7 +15,7 @@
       </ol>
     </nav>
 
-    <div class="cover cover--with-breadcrumb">
+    <div class="cover">
       <div class="cover__container">
         <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
         <h1>{{ $page.mission.title }}</h1>

@@ -289,6 +289,12 @@
           &__content {
             margin: 0.25rem 0 0 0;
 
+            li {
+              &:before {
+                content: none;
+              }
+            }
+
             &--procedures {
               padding: 0;
 

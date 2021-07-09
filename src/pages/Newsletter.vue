@@ -269,6 +269,12 @@ vertical-align: super;
 
         &__checkboxes {
           margin-top: 8px;
+
+          li {
+            &:before {
+              content: none;
+            }
+          }
         }
       }
 

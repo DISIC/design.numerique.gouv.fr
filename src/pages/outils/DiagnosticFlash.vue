@@ -152,7 +152,7 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  .outils-page{
+  .outils-page {
 
     .guide {
       margin-bottom: 4rem !important;
@@ -163,8 +163,13 @@ export default {
       }
     }
 
-    .fr-accordion__btn:hover {
-      background-image: none !important;
+    .fr-accordion__btn {
+      padding: .75rem 0 .75rem 3rem;
+      box-sizing: border-box;
+
+      &:hover {
+        background-image: none !important;
+      }
     }
 
     .fr-accordion__inner {
@@ -178,6 +183,7 @@ export default {
       position: absolute;
       width: 1.6em;
       text-align: center;
+      box-sizing: content-box;
     }
 
     @media print {
@@ -187,7 +193,7 @@ export default {
       .fr-accordion .fr-accordion__btn {
 
         &::before {
-            visibility: hidden;
+          visibility: hidden;
         } 
         &::after { 
           display: inline-table;

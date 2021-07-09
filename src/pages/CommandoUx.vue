@@ -382,6 +382,10 @@
         align-items: center;
         justify-content: space-between;
 
+        &:before {
+          content: none;
+        }
+
         @media only screen and (max-width: $mobile-max-width) {
           flex-wrap: wrap;
           padding: 0.5rem 0;
@@ -451,6 +455,10 @@
 
           li {
             list-style: none;
+
+            &:before {
+              content: none;
+            }
           }
         }
 
@@ -618,10 +626,6 @@
           color: $red;
           text-align: center;
           flex-shrink: 0;
-
-          svg {
-            vertical-align: top;
-          }
 
           @media only screen and (max-width: $mobile-max-width) {
             padding: 0.25rem;

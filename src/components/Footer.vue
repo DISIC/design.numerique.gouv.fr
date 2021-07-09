@@ -177,6 +177,10 @@
       align-items: flex-start;
       flex-wrap: wrap;
 
+      p {
+        margin-bottom: 0;
+      }
+
       a {
         border-bottom: none !important;
       }

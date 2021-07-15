@@ -99,7 +99,7 @@ h3 {
 p {
   margin-top: revert;
 }
-
+    
 a {
   box-shadow: none;
   position: static;
@@ -159,5 +159,21 @@ a {
     .section__subtitle {
       margin: -0.5rem 0 2rem 0;
     }
+  }
+  ul.fr-accordions-group {
+    list-style-type: none;
+  }
+  ol, ul {
+    list-style-position: outside;
+    list-style-type: disc;
+  
+    & > li::before {
+      display: auto;
+      content: none;
+      font-size: auto;
+  }  
+  }
+  ol, ol > li, ul, ul > li {
+    margin-left: 0.5rem;
   }
 }

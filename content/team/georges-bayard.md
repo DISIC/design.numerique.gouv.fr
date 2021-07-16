@@ -8,7 +8,7 @@ sub_team: Observatoire
 sub_team_link: https://observatoire.numerique.gouv.fr
 twitter: BayardGeorges
 e-mail :
-group : ["team"]
+group : 
 ---
 
 Bio à venir

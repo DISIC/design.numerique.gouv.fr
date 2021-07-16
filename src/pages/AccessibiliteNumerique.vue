@@ -63,7 +63,7 @@
         <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> et sollicitez un expert pour effectuer un <strong>diagnostic rapide</strong>, des <strong>audits</strong> complets ou un <strong>accompagnement</strong> de vos équipes.</p>
         
         <h3>Je souhaite établir une déclaration d’accessibilité</h3>
-        <p>C’est très simple. Vous pouvez utiliser le <g-link to="/outils/exemple/">modèle de déclaration</g-link>.</p>
+        <p>C’est très simple. Vous pouvez utiliser le <g-link to="/outils/exemple-declaration-accessibilite/">modèle de déclaration</g-link>.</p>
 
         <h3>Je souhaite former mes équipes</h3>
         <p>Vous pouvez utiliser l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> pour <strong>former et sensibiliser</strong> vos équipes.</p> 

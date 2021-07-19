@@ -1,6 +1,7 @@
 ---
 title: Référent ou référente
 slug: referent
+cat: Organiser
 description: Vous mettez en place les actions nécessaires au suivi du schéma pluriannuel
 ---
 

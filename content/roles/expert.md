@@ -1,6 +1,7 @@
 ---
 title: Expert ou experte 
 slug: expert
+cat: Organiser
 description: Vous sensibilisez, formez, accompagnez les équipes et auditez les sites et applications web
 ---
 

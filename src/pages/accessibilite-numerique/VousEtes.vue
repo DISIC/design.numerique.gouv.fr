@@ -30,8 +30,8 @@
                         {{ node.title }}
                       </g-link>
                     </h2>
-        
                     <p class="rf-tile__desc">{{ node.description }}</p>
+                    <!-- <p class="rf-tag">{{ node.cat }}</p> -->
                 </div>
             </div>
         </div>
@@ -43,11 +43,12 @@
 <page-query>
 
   query {
-    allRole (sortBy: "title", order: DESC) {
+    allRole (sortBy: "cat", order: DESC) {
       edges {
         node {
         	id
           title
+          cat
           description
           path
         }
@@ -113,9 +114,6 @@ export default {
   @import "src/assets/scss/_vars.scss";
 
   .vous-etes-page {
-
-
-
     h2 {
       &.rf-tile__title {
         margin:0 auto;
@@ -124,7 +122,5 @@ export default {
         border-bottom: none !important;
       }
     }
-
   }
-
 </style>

@@ -1,39 +1,38 @@
 <template>
-  <nav class="fr-nav" role="navigation" aria-label="Menu principal">
+  <div class="fr-header__menu fr-modal" id="modal-833" aria-labelledby="fr-btn-menu-mobile">
     <div class="fr-container">
-      <ul id="nav" class="fr-nav__list">
-        <li class="fr-nav__item">
-          <a class="fr-nav__link" href="/">Accueil</a>
-        </li>
-        <!-- <li class="fr-nav__item">
-          <a class="fr-nav__link" href="/design/">Design</a>
-        </li> -->
-        <li class="fr-nav__item">
-          <a class="fr-nav__link" href="/accessibilite-numerique/">Accessibilité</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-nav__link" href="/accompagnement/">Nos offres</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-nav__link" href="/outils/">Outils</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-nav__link" href="/formations/">Formations</a>
-        </li>
-        <li class="fr-nav__item">
-          <a class="fr-nav__link" href="/articles/">Articles</a>
-        </li>
-        <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
-          <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
-        </li>
-      </ul>
+      <button class="fr-link--close fr-link" aria-controls="modal-833">Fermer</button>
+      <div class="fr-header__menu-links"></div>
+      <nav class="fr-nav" id="navigation-832" role="navigation" aria-label="Menu principal">
+        <ul id="nav" class="fr-nav__list">
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/">Accueil</a>
+          </li>
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/accessibilite-numerique/">Accessibilité</a>
+          </li>
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/accompagnement/">Nos offres</a>
+          </li>
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/outils/">Outils</a>
+          </li>
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/formations/">Formations</a>
+          </li>
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/articles/">Articles</a>
+          </li>
+          <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
+            <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
+          </li>
+        </ul>
+      </nav>
     </div>
-  </nav>
+  </div>
 </template>
 
-
 <static-query>
-
   query {
     allJob (sortBy: "title", order: ASC) {
       edges {
@@ -43,16 +42,12 @@
       }
     }
   }
-
 </static-query>
 
-
 <script>
-
   export default {
     name: 'Navigation',
     mounted () {
-
       //Highlight active link in menu and set aria-current
       var currentUrl = this.$route.path;
       var activeClass = 'active';
@@ -88,14 +83,13 @@
       }
     }
   }
-
 </script>
 
 <style lang="scss">
-
+  
   @import "src/assets/scss/_vars.scss";
 
-  .fr-nav {
+  .fr-header .fr-header__menu {
     box-shadow: none !important;
     padding: 0 1rem !important;
     border-top: 1px solid $gray;
@@ -118,9 +112,6 @@
     }
 
     ul {
-      // max-width: 1080px;
-      // margin: 0 auto !important;
-
       .fr-nav__link {
         margin: 0 1.25rem;
         padding: 0.75rem 0.25rem;
@@ -154,5 +145,4 @@
       }
     }
   }
-
 </style>

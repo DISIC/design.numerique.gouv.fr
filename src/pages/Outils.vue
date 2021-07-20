@@ -28,7 +28,8 @@
         <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Tech</h2>
         <ul>
           <li>La <a href="checklist-dev">checklist dev</a> regroupe les tests et vérifications rapides à faire soi-même avant de livrer son travail.</li>
-          <li>Le <a href="memo-dev">Mémo dev</a> regroupe sur une seule et même page les points d'attention et les liens vers les ressources adéquates.</li>
+          <li>Le <a href="memo-dev">mémo dev</a> regroupe sur une seule et même page les points d'attention pour <strong>les développeurs et les développeuses front</strong> ainsi que les liens vers les ressources adéquates.</li>
+          <li>Le <a href="memo-design">mémo design</a> regroupe sur une seule et même page les points d'attention pour <strong>les designers</strong> ainsi que les liens vers les ressources adéquates.</li>
         </ul>
       </section>
 

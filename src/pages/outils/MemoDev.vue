@@ -29,7 +29,7 @@
 
 <div class="content memo">
 
-  <h2>Le mémo développement</h2>
+  <h2>Le mémo « dev »</h2>
 
   <h3><a target="_blank" href="https://disic.github.io/guide-integrateur/1-gabarit-general.html" title="Layout - nouvelle fenêtre" ><span lang="en">Layout</span></a></h3>
   <ul>

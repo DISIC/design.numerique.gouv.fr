@@ -94,7 +94,7 @@
     <li>Définir une alternative conforme et pertinente lorsqu'elle est porteuse d'information.</li>
     <li>Éviter le plus possibles les images textes</li>
   </ul>
-  <h3><a target="_blank" href="https://disic.github.io/guide-integrateur/10-infos-forme-couleur.html" title="Informations par la forme et la couleur - nouvelle fenêtre" >Informations par la forme et la couleu</a></h3>
+  <h3><a target="_blank" href="https://disic.github.io/guide-integrateur/10-infos-forme-couleur.html" title="Informations par la forme et la couleur - nouvelle fenêtre" >Informations par la forme et la couleur</a></h3>
   <ul>
     <li>Ne pas donner d'informations uniquement par la couleur.</li>
     <li>Ne pas donner d'informations uniquement par la forme.</li>

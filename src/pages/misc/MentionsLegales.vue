@@ -72,7 +72,7 @@
           <p>
             Sauf mention de propriété intellectuelle détenue par des tiers (notamment
             un crédit sur certaines images), les contenus de ce site sont proposés
-            sous <a href="https://github.com/DISIC/design.numerique.gouv.fr/LICENSE.md#licence-ouverte-20open-licence-20" target="_blank" rel="noreferrer noopener">licence ouverte 2.0</a>.
+            sous <a href="https://github.com/DISIC/design.numerique.gouv.fr/blob/master/LICENSE.md#licence-ouverte-20open-licence-20" target="_blank" rel="noreferrer noopener">licence ouverte 2.0</a>.
           </p>
           <p>
             La mise en place de liens vers nos contenus et documents est cependant

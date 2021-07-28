@@ -6,8 +6,8 @@ Les contenus rédactionnels sont publiés sous [licence Ouverte 2.0](#licence-ou
 
 La marque d'État est à usage exclusif des acteurs de la sphère
 étatique. En particulier, la typographie Marianne© est protégée par
-le droit d'auteur. Lire (les explications)[https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/la-typographie] sur le site de la marque
-d'État.
+le droit d'auteur. [Lire les explications sur le site de la marque
+d'État.](https://www.gouvernement.fr/charte/charte-graphique-les-fondamentaux/la-typographie)
 
 ## LICENCE MIT
 

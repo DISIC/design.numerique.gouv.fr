@@ -30,6 +30,7 @@ main {
 
     a {
       border: none !important;
+      box-shadow: none;
 
       &:after {
         position: absolute;

@@ -95,7 +95,6 @@ h2 {
 h3 {
   font-size: 1.2em;
 }
-
 p {
   margin-top: revert;
 }
@@ -104,11 +103,10 @@ a {
   box-shadow: none;
   position: static;
 
-  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-nav__link):not(.fr-footer__bottom-link):not(.fr-link) {
+  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-nav__link):not(.fr-footer__bottom-link):not(.fr-link):not(.brick__link) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;
-    box-shadow: none;
     border-bottom: 1px solid rgba($blue, 0.5);
 
     &:hover {
@@ -117,7 +115,6 @@ a {
     }
 
     &:focus {
-      background-color: $light;
       outline-color: $blue;
     }
 
@@ -126,10 +123,6 @@ a {
       background-color: $light;
       outline-color: $blue;
     }
-  }
-
-  &[target="_blank"]::after {
-    content: "" !important;
   }
 }
 

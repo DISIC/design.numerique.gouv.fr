@@ -104,7 +104,7 @@ a {
   box-shadow: none;
   position: static;
 
-  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-nav__link):not(.footer__logo) {
+  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-nav__link):not(.fr-footer__bottom-link):not(.fr-link) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;

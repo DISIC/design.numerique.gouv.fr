@@ -13,10 +13,9 @@
 
     <main class="layout" id="main" role="main">
       <slot/>
-      <Newsletter v-if="!hideNewsletter"/>
       <Offer v-if="showServices"/>
     </main>
-
+    <NewsletterReseauxSociaux />
     <Footer />
 
   </div>
@@ -32,7 +31,7 @@ query {
 
 <script>
   import Header from "~/components/Header.vue"
-  import Newsletter from "~/components/messages/Newsletter.vue"
+  import NewsletterReseauxSociaux from "~/components/NewsletterReseauxSociaux.vue"
   import Offer from "~/components/messages/Offer.vue"
   import Footer from "~/components/Footer.vue"
   import SkipLink from "~/components/SkipLink.vue"
@@ -40,16 +39,12 @@ query {
   export default {
     components: {
       Header,
-      Newsletter,
+      NewsletterReseauxSociaux,
       Offer,
       Footer,
       SkipLink,
     },
     props: {
-      hideNewsletter: {
-        default: false,
-        type: Boolean
-      },
       showServices: {
         default: false,
         type: Boolean

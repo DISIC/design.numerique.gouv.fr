@@ -127,10 +127,6 @@
 
     .content {
 
-      ul {
-        padding-left: 20px;
-      }
-
       li {
         list-style-type: none;
 

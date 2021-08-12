@@ -161,7 +161,7 @@ export default {
 
   .outils-page {
     .fr-accordion__btn {
-      padding: .75rem 0 .75rem 3rem;
+      padding: .25rem;
       box-sizing: border-box;
     }
   } 

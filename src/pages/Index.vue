@@ -473,6 +473,7 @@
 
         a {
           border-bottom: none !important;
+          box-shadow: none;
 
           &:after {
             position: absolute;

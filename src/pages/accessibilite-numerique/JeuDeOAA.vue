@@ -37,7 +37,7 @@
       </div>
       -->
       <section class="goose fr-mt-8w">
-        <ol>
+        <ul>
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
 
             <div class="goose__step-title">
@@ -45,7 +45,7 @@
               <p>{{ step.node.duration }}</p>
             </div>
 
-            <ol>
+            <ul>
               <li v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
                     :key="card.node.id"
                     class="goose__card"
@@ -94,9 +94,9 @@
                       </div>
                   </dialog>
               </li>
-            </ol>
+            </ul>
           </li>
-        </ol>
+        </ul>
       </section>
     </div>
 
@@ -193,7 +193,7 @@
 
     .goose {
 
-      ol {
+      ul {
         padding: 0;
         margin: 0;
 
@@ -212,7 +212,7 @@
         margin-bottom: 16px;
         border-radius: 32px;
 
-        > ol {
+        > ul {
           display: flex;
           flex-wrap: wrap;
         }
@@ -257,8 +257,9 @@
         height: 20px;
         padding: 2px;
         text-align: center;
-        margin: -4px 0 0 -36px;
+        margin: 5px 0 0 -36px;
         box-sizing: content-box;
+        line-height: 1.2rem;
       }
 
         &__card-icon {
@@ -343,7 +344,16 @@
         p {
           font-size: 0.875rem;
         }
-
+        h1 { 
+            font-size: 2em;
+            color: $blue;
+        }
+        h2 { 
+            font-size: 1.6em;
+        }
+        h3 { 
+            font-size: 1.25em;
+        }
         .goose__modal-icon {
           font-size: 1.5rem !important;
           font-weight: bold !important;

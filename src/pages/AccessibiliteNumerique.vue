@@ -23,7 +23,6 @@
       <p>En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.</p>
       <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que les développeurs, développeuses et designers soient mieux formés.</p>
       <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre à tous les usagers un égal accès à leurs droits.</p>
-    </div>
 
 
       <section>
@@ -90,6 +89,7 @@
         </p>
       </section>
 
+    </div>
 
   </Layout>
 </template>

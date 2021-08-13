@@ -1,5 +1,5 @@
 ---
-title:  Le RGAA s’applique aux applications mobiles
+title: Les applications mobiles sont maintenant concernées par le RGAA
 slug: 2021-06-23-rgaa-mobile
 publishedDate: 2021-06-23
 tags: ["", ""]

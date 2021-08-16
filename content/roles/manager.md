@@ -34,6 +34,6 @@ S’assurer que les livraisons de code ont bien été auditées et sont bien con
 
 ## Se faire accompagner
 
-La présence d’un expert en accessibilité numérique dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les process, faire des revues de code, etc.
+La présence d’[un ou une experte en accessibilité numérique](../expert/) dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les process, faire des revues de code, etc.
 
 Si vous n’avez pas les ressources nécessaires en interne pour le faire, [faites appel à l’accord-cadre interministériel DAE](../../accord-cadre-dae/) pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessibilité, etc.

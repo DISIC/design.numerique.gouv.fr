@@ -3,6 +3,7 @@ title: Référent ou référente
 slug: referent
 cat: Organiser
 description: Vous mettez en place les actions nécessaires au suivi du schéma pluriannuel
+focus:
 ---
 
 Le référent ou la référente est la personne qui va concrétiser la **volonté de la direction** de concevoir et développer des sites et applications web accessibles. 

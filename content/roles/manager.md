@@ -3,6 +3,7 @@ title: Décideur ou décideuse
 slug: manager
 cat: Organiser
 description: Vous décidez que l’accessibilité est essentielle
+focus:
 ---
 
 ## Prendre consience

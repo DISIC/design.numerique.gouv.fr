@@ -3,6 +3,7 @@ title: Expert ou experte
 slug: expert
 cat: Organiser
 description: Vous sensibilisez, formez, accompagnez les équipes et auditez les sites et applications web
+focus:
 ---
 
 Le rôle d’expert ou experte en accessibilité numérique est avant tout d’**accompagner** les équipes opérationnelles. Son rôle **n’est pas** de faire un audit en fin de projet.

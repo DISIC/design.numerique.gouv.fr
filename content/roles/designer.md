@@ -3,6 +3,7 @@ title: Designer
 slug: designer
 cat: Mettre en oeuvre
 description: Vous concevez un parcours ou une interface en prenant en compte tous les usagers
+focus:
 ---
 
 

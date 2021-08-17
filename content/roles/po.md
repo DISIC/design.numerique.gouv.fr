@@ -3,6 +3,7 @@ title: Responsable de projet et de produit
 slug: po
 cat: Mettre en oeuvre
 description: Vous assurez la bonne prise en compte à chaque étape de l’accessibilité
+focus: La qualité d’un site web et sa conformité au RGAA se joue dès la conception d’un projet.
 ---
 
 **La qualité d’un site web et sa conformité au RGAA se joue dès la conception d’un projet.**

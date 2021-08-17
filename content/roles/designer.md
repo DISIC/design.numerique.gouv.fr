@@ -11,7 +11,6 @@ focus:
 
 * Prendre en compte tous les utilisateurs et tous les contextes d’utilisation
 
-
 ## Vos actions
 
 * Utiliser le [système de design de l’État](https://gouvfr.atlassian.net/wiki/spaces/DB/pages/222331452/Designers), disponible au format sketch et figma.

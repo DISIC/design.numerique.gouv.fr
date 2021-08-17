@@ -3,7 +3,7 @@ title: Décideur ou décideuse
 slug: manager
 cat: Organiser
 description: Vous décidez que l’accessibilité est essentielle
-focus:
+focus: 
 ---
 
 ## Votre rôle
@@ -13,20 +13,12 @@ focus:
 
 ## Vos actions
 
-### Désigner [un ou une référente accessibilité](../referent/)
-
-### Former les équipes
-
-* Toutes les personnes doivent être sensibilisées.
-* Les designers, développeurs et développeuses doivent être formées.
-* Vous pouvez même former un expert ou une experte RGAA pour internaliser les tâches d’audit et d’accompagnement.
-
-### S’assurer que chaque étape du projet, chaque process, chaque intervention prend en compte l’accessibilité.
-
-### Vérifier que les livraisons de code ont bien été auditées et sont bien conformes au RGAA.
+* Désigner [un ou une référente accessibilité](../referent/)
+* Former les équipes 
+* S’assurer que chaque étape du projet, chaque process, chaque intervention prend en compte l’accessibilité.
 
 ## Vos outils
 
+* Le [jeu de l’oaa](../../jeu-de-oaa/) vous guide dans la mise en accessibilité de vos services numériques
 * La présence d’[un ou une experte en accessibilité numérique](../expert/) dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les process, faire des revues de code, etc.
 * Si vous n’avez pas les ressources nécessaires en interne pour le faire, [faites appel à l’accord-cadre interministériel DAE](../../accord-cadre-dae/) pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessibilité, etc.
-* Le jeu de l’oaa et toutes les autres ressources de DesignGouv

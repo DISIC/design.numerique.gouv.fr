@@ -20,10 +20,8 @@ focus: <strong>Attention aux outils de tests automatiques !</strong><br> Ils ne
 
 ## Vos outils
 
-
-Le code HTML doit être [valide au regard du W3C](https://validator.w3.org/) et être conforme au <!doctype>.
-
-* [68 critères de la checklist PiDila](https://pidila.gitlab.io/checklist-pidila/?Profil=Int%C3%A9gration&Profil=D%C3%A9veloppement&R%C3%A9f%C3%A9rentiel=RGAA){68 critères de la checklist PiDila - nouvelle fenêtre}
-* Le [mémo dev](/outils/memo-dev) regroupe l’essentiel des recommendations
+* Le [validateur HTML du W3C](https://validator.w3.org/)
+* Les [68 critères de la checklist PiDila](https://pidila.gitlab.io/checklist-pidila/?Profil=Int%C3%A9gration&Profil=D%C3%A9veloppement&R%C3%A9f%C3%A9rentiel=RGAA){68 critères de la checklist PiDila - nouvelle fenêtre}
+* Le [mémo dev](/outils/memo-dev) regroupe l’essentiel des recommandations
 * Le [diagnostic flash](/outils/diagnostic-flash) permet d’estimer de manière partielle et rapide la qualité et l’accessibilité d’un site
 * Le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}

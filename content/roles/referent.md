@@ -1,19 +1,22 @@
 ---
-title: Référent ou référente
+title: Référent ou référente accessibilité numérique
 slug: referent
 cat: Organiser
 description: Vous mettez en place les actions nécessaires au suivi du schéma pluriannuel
 focus:
 ---
 
-Le référent ou la référente est la personne qui va concrétiser la **volonté de la direction** de concevoir et développer des sites et applications web accessibles. 
+## Votre rôle
 
-Son outil principal est le [**schéma pluriannuel de mise en accessibilité**](../../schema-pluriannuel). 
+Concrétiser la **volonté de la direction** de concevoir et développer des sites et applications web accessibles en vous appuyant sur le [**schéma pluriannuel de mise en accessibilité**](../../schema-pluriannuel). 
 
 
-## Établir un schéma pluriannuel de mise en accessibilité
+## Vos actions
 
-Faire un **état des lieux** des sites et applications web et décliner le schéma en **plans d’actions annuels**.
+### Établir un schéma pluriannuel de mise en accessibilité
+
+* Faire un **état des lieux** des sites et applications web
+* Décliner le schéma en **plans d’actions annuels**
 
 ### Planifier
 
@@ -32,8 +35,8 @@ Faire un **état des lieux** des sites et applications web et décliner le sché
 * Clauses de marché publics
 * ...
 
-## Se faire accompagner
+## Vos outils
 
-Si vous n’avez pas les ressources nécessaires en interne pour le faire, [faites appel à l’accord-cadre interministériel DAE](../../accord-cadre-dae/) pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessibilité, etc.
+[L’accord-cadre interministériel DAE](../../accord-cadre-dae/) pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessibilité, etc.
 
-
+Formation gratuite en ligne, diagnostic flash, déclaration d’accessibilité, ...

@@ -6,35 +6,27 @@ description: Vous décidez que l’accessibilité est essentielle
 focus:
 ---
 
-## Prendre consience
+## Votre rôle
 
-### Du handicap
+* Assurer l’égalité d’accès des citoyens et agents aux informations, démarches et outils numériques
+* Appliquer les dispositifs réglementaires concernant tous les projets numériques : la loi de 2005 pour l’égalité des droits et des chances, la loi pour une république numérique de 2016, le référentiel général d’amélioration de l’accessibilité (RGAA). 
 
-15 à 20% de la population est en situation de handicap, vous êtes à peu près sûr que certains de « vos » utilisateurs peuvent rencontrer des difficultés.
-
-### De la législation
-La loi de 2005 pour l’égalité des droits et des chances, la loi pour une république numérique de 2016, le référentiel général d’amélioration de l’accessibilité (RGAA) : les dispositifs règlementaires sont applicables à tous les projets numériques.
-
-## Décider et exiger la conformité
+## Vos actions
 
 ### Désigner [un ou une référente accessibilité](../referent/)
 
-### Former ses équipes
+### Former les équipes
 
 * Toutes les personnes doivent être sensibilisées.
 * Les designers, développeurs et développeuses doivent être formées.
-* Vous pouvez même former un expert RGAA pour internaliser les tâches d’audit et d’accompagnement.
+* Vous pouvez même former un expert ou une experte RGAA pour internaliser les tâches d’audit et d’accompagnement.
 
-### Organiser
+### S’assurer que chaque étape du projet, chaque process, chaque intervention prend en compte l’accessibilité.
 
-S’assurer que chaque étape du projet, chaque process, chaque intervention prend en compte l’accessibilité.
+### Vérifier que les livraisons de code ont bien été auditées et sont bien conformes au RGAA.
 
-### Vérifier
+## Vos outils
 
-S’assurer que les livraisons de code ont bien été auditées et sont bien conformes au RGAA.
-
-## Se faire accompagner
-
-La présence d’[un ou une experte en accessibilité numérique](../expert/) dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les process, faire des revues de code, etc.
-
-Si vous n’avez pas les ressources nécessaires en interne pour le faire, [faites appel à l’accord-cadre interministériel DAE](../../accord-cadre-dae/) pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessibilité, etc.
+* La présence d’[un ou une experte en accessibilité numérique](../expert/) dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les process, faire des revues de code, etc.
+* Si vous n’avez pas les ressources nécessaires en interne pour le faire, [faites appel à l’accord-cadre interministériel DAE](../../accord-cadre-dae/) pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessibilité, etc.
+* Le jeu de l’oaa et toutes les autres ressources de DesignGouv

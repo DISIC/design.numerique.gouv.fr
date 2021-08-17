@@ -1,26 +1,25 @@
 ---
-title: Expert ou experte 
+title: Expert ou experte accessibilité numérique
 slug: expert
 cat: Organiser
 description: Vous sensibilisez, formez, accompagnez les équipes et auditez les sites et applications web
 focus:
 ---
 
-Le rôle d’expert ou experte en accessibilité numérique est avant tout d’**accompagner** les équipes opérationnelles. Son rôle **n’est pas** de faire un audit en fin de projet.
+## Votre rôle
 
-## En amont d’un projet
+* **Sensibiliser** tout le monde au handicap et à l’accessibilité numérique.
+* **Accompagner** les équipes opérationnelles.
 
-La phase de préparation est essentielle, il faut évaluer dès l’initialisation du projet la capacité des équipes à prendre en charge l’accessibilité, au moins pour les métiers impliqués dans la conception, développement et la rédaction. 
+## Vos actions 
 
-### S’assurer de la compétence des équipes
+### En amont d’un projet
 
-Les designers UX et les designers UI, les intégrateurs, les développeurs et les producteurs de contenus vont être particulièrement concernés par l’accessibilité. Il est donc nécessaire de s’assurer qu’ils ont les compétences suffisantes. Dans le cas inverse, il est indispensable d’y remédier par des actions de sensibilisation et de formation.
+* Évaluer dès l’initialisation du projet la capacité des équipes à prendre en charge l’accessibilité, au moins pour les métiers impliqués dans la conception, le développement et la rédaction.
+* S’assurer de la compétence des équipes : Les designers UX et les designers UI, les intégrateurs, les développeurs et les producteurs de contenus vont être particulièrement concernés par l’accessibilité. Il est donc nécessaire de s’assurer qu’ils ont les compétences suffisantes. Dans le cas inverse, il est indispensable d’y remédier par des actions de sensibilisation et de formation. 
+* S’assurer des choix technologiques : ils peuvent avoir également un impact important sur la prise en charge de l’accessibilité. Il peut s’agir du choix d’un CMS, d’un framework de développement, d’une plate-forme de diffusion vidéo, d’un lecteur multimédia, etc. 
 
-### S’assurer des choix technologiques
-
-Les choix technologiques peuvent avoir également un impact important sur la prise en charge de l’accessibilité. Il peut s’agir du choix d’un CMS, d’un framework de développement, d’une plate-forme de diffusion vidéo, d’un lecteur multimédia, etc.
-
-## Pendant un projet
+### Pendant un projet
 
 * **Sensibiliser** ou **former** les intervenants ou intervenantes du projet
 * Le cadrage de chaque fonctionnalité prend en compte l’accessibilité numérique
@@ -29,6 +28,13 @@ Les choix technologiques peuvent avoir également un impact important sur la pri
 * Organiser des tests pour des utilisateurs en situations de handicap
 * Rédiger, publier et mettre à jour la [déclaration d’accessibilité](/outils/exemple-declaration-acessibilite/).
 
-L’expert ou experte doit être **disponible** auprès des équipes et les **accompagner** pour monter en compétences, partager les bonnes ou moins bonnes expériences, résoudre les anomalies, etc.
+### En continu
 
+* Être **disponible** auprès des équipes
+* Les **accompagner** pour monter en compétences, partager les bonnes ou moins bonnes expériences, résoudre les anomalies, etc.
 
+## Vos outils
+
+* La revue de maquette avec les designers
+* La revue de code avec les équipes de développement
+* La recette RGAA de chaque nouvelle fonctionnalité

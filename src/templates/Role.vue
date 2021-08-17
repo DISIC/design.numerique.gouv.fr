@@ -1,23 +1,13 @@
 <template>
   <Layout class="vous-etes-page">
-
-
-      <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol>
-          <li>
-            <g-link to="/">Accueil</g-link>
-          </li>
-          <li>
-            <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
-          </li>
-          <li>
-            <g-link to="/accessibilite-numerique/vous-etes/">Vous êtes</g-link>
-          </li>
-          <li aria-current="page" v-html="$page.role.title" />
-        </ol>
-      </nav>
-
-
+    <nav aria-label="Breadcrumb" class="breadcrumb">
+      <ol>
+        <li><g-link to="/">Accueil</g-link></li>
+        <li><g-link to="/accessibilite-numerique/">Accessibilité</g-link></li>
+        <li><g-link to="/accessibilite-numerique/vous-etes/">Vous êtes</g-link></li>
+        <li aria-current="page" v-html="$page.role.title" />
+      </ol>
+    </nav>
     <div class="cover cover--with-breadcrumb">
      <div class="cover__container">
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Vous êtes</div>
@@ -27,11 +17,9 @@
     <div class="content">
       <div v-html="$page.role.content" />
     </div>
-      <div class="rf-callout rf-mt-8w" v-if="$page.role.focus.length > 0">
-        <p class="rf-callout__text" v-html="$page.role.focus" />
-      </div>
-    
-
+    <div class="rf-callout rf-mt-8w" v-if="$page.role.focus.length > 0">
+      <p class="rf-callout__text" v-html="$page.role.focus" />
+    </div>
   </Layout>
 </template>
 

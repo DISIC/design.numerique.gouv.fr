@@ -27,6 +27,11 @@
     <div class="content">
       <div v-html="$page.role.content" />
     </div>
+      <div class="rf-callout rf-mt-8w" v-if="$page.role.focus.length > 0">
+        <p class="rf-callout__text" v-html="$page.role.focus" />
+      </div>
+    
+
   </Layout>
 </template>
 
@@ -63,6 +68,7 @@ query Role ($id: ID!) {
   role: role (id: $id) {
     title
     description
+    focus
     content
   }
 }

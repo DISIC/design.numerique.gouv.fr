@@ -22,7 +22,7 @@
 
     <div class="content">
       <div class="rf-grid-row rf-grid-row--gutters">
-        <div class="rf-col-4" v-for="{ node } in $page.allRole.edges" :key="node.id">
+        <div class="rf-col-12 rf-col-sm-6 rf-col-lg-4" v-for="{ node } in $page.allRole.edges" :key="node.id">
             <div class="rf-tile rf-enlarge-link rf-tile--horizontal">
                 <div class="rf-tile__body">
                     <h2 class="rf-tile__title">
@@ -31,7 +31,7 @@
                       </g-link>
                     </h2>
                     <p class="rf-tile__desc">{{ node.description }}</p>
-                    <!-- <p class="rf-tag">{{ node.cat }}</p> -->
+                    <!-- p class="rf-tag">{{ node.cat }}</p -->
                 </div>
             </div>
         </div>

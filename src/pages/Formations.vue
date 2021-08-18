@@ -31,7 +31,7 @@
         <h2>
           <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Initiations
         </h2>
-        <p>Initiez-vous facilement et gratuitement. C'est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
+        <p>Initiez-vous facilement et gratuitement. C’est une bonne manière de découvrir rapidement un nouveau domaine&nbsp;!</p>
 
         <h3>Design</h3>
         <ul>
@@ -41,7 +41,7 @@
 
         <h3>Accessibilité</h3>
         <ul>
-          <li><a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+archive_ouvert/about" title="L'accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>L'accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est disponible en mode « Archivé ouvert » et nécessite une inscription.</a></li>
+          <li><a href="https://www.fun-mooc.fr/courses/course-v1:inria+41012+archive_ouvert/about" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>L’accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est disponible en mode « Archivé ouvert » et nécessite une inscription.</a></li>
           <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
         </ul>
 
@@ -57,23 +57,20 @@
         <h2>
           <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Certifications
         </h2>
-        <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
-          compétences sur les sujets qui vous intéressent.</p>
-          
         <h3>Accessibilité numérique</h3>
         <ul>
-        <li><a href="https://formations.access42.net/?p=877" title="Développer des sites web accessibles - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Développer des sites web accessibles</a>, 9 heures. payant.</li>
+        <li><a href="https://formations.access42.net/?p=877" title="Développer des sites web accessibles - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Développer des sites web accessibles</a>, 9 heures, payant.</li>
         </ul>
 
         <h3>Qualité</h3>
         <ul>
-          <li><a href="https://www.opquast.com/formation/" title="Maîtrise de la qualité en projet web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Maîtrise de la qualité en projet web</a>, 14 heures, payant.</li>
+          <li><a href="https://www.opquast.com/certification/" title="Maîtrise de la qualité en projet web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Maîtrise de la qualité en projet web</a>, 14 heures, payant.</li>
         </ul>
         <p>Si votre organisme propose une formation certifiante et souhaite être référencé sur notre site, vous pouvez <a href="https://github.com/DISIC/design.numerique.gouv.fr/pulls" title="proposer une PR - nouvelle fenêtre"  target="_blank" rel="noreferrer noopener">proposer une <abbr lang="en" title="pull request">PR</abbr></a> ou nous contacter en utilisant l’adresse électronique contact@design.numerique.gouv.fr.</p>
 
       </section>
 
-      <section>
+      <!--section>
 
         <h2>
           <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Diplômes
@@ -82,7 +79,7 @@
 
         <h3>Bientôt disponible</h3>
 
-      </section>
+      </section-->
 
     </div>
 

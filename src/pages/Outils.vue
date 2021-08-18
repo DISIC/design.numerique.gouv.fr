@@ -17,7 +17,7 @@
 
       <h1 class="text-highlight"><Outils class="h1__icon" focusable="false" aria-hidden="true"/>Outils</h1>
 
-      <p class="cover__subtitle">De nombreux outils sont déjà disponibles, certains en cours de développement, d'autres à imaginer... <br>Des outils pour améliorer l'accessibilité par le design.</p>
+      <p class="cover__subtitle">De nombreux outils sont déjà disponibles, certains en cours de développement, d’autres à imaginer… <br>Des outils pour améliorer l’accessibilité par le design.</p>
 
       </div>
     </div>
@@ -28,17 +28,17 @@
         <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Tech</h2>
         <ul>
           <li>La <a href="checklist-dev">checklist dev</a> regroupe les tests et vérifications rapides à faire soi-même avant de livrer son travail.</li>
-          <li>Le <a href="memo-dev">Mémo dev</a> regroupe sur une seule et même page les points d'attention et les liens vers les ressources adéquates.</li>
+          <li>Le <a href="memo-dev">Mémo dev</a> regroupe sur une seule et même page les points d’attention et les liens vers les ressources adéquates.</li>
         </ul>
       </section>
 
       <section>
         <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Méthode</h2>
         <ul>
-          <li>Le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l'organisation de l’amélioration de l’accessibilité (OAA)</a> vous guide dans la mise en accessibilité de votre service numérique.</li>
+          <li>Le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l’organisation de l’amélioration de l’accessibilité (OAA)</a> vous guide dans la mise en accessibilité de votre service numérique.</li>
           <li>Le <a href="diagnostic-flash">diagnostic flash</a> permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</li>
-          <li>Les nombreux <a href="https://github.com/DISIC?q=guide+RGAA" target="_blank" rel="noreferrer noopener">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d'accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l'insertion des personnes handicapées dans la fonction publique (FIPHFP).</li>
-          <li>L‘<a href="audit-rapide">audit rapide</a> permet à moindre coût d‘apprécier l‘accessibilité d‘un site et la maturité d‘une équipe</li>
+          <li>Les nombreux <a href="https://github.com/DISIC?q=guide+RGAA" target="_blank" rel="noreferrer noopener">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d’accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l’insertion des personnes handicapées dans la fonction publique (FIPHFP).</li>
+          <li>L’<a href="audit-rapide">audit rapide</a> permet à moindre coût d’apprécier l’accessibilité d’un site et la maturité d’une équipe</li>
           <li>La <a href="https://pidila.gitlab.io/checklist-pidila/" target="_blank" rel="noreferrer noopener">Checklist Pidila</a> regroupe les critères des différents référentiels et bonnes pratiques du web.</li>
         </ul>
       </section>
@@ -56,13 +56,13 @@
         <p>La demande de test doit être adressée par mail à <strong>jamshid.kohandel@modernisation.gouv.fr</strong>.</p> 
       </section>
       <section>
-        <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Le système de design de l'État</h2>
+        <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Le système de design de l’État</h2>
         <p>Le <a href="https://systeme-de-design.gouv.fr/" title="système de design de l‘État - nouvelle fenêtre" target="_blank">système de design de l’État</a> assure une cohérence graphique et une meilleure expérience utilisateur sur les sites et applications web de l’État.</p>
         <p>Il propose :</p>
         <ul>
           <li>les éléments de base : couleurs, typographies, grilles et icônes ;</li>
           <li>une librairie de composants disponible au format Sketch et Figma ;</li>
-          <li>un ensemble de composants HTML/CSS **conformes au <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr>** ;</li>
+          <li>un ensemble de composants HTML/CSS <strong>conformes au <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr></strong> ;</li>
           <li>une communauté active de designers et de développeurs.</li>
         </ul>
       </section>
@@ -84,14 +84,14 @@
       Outils,
     },
     metaInfo: {
-      title: "Les outils de design de l'accessibilité",
+      title: "Les outils de design de l’accessibilité",
       meta: [{
         name: 'description',
         content: "Découvrez les outils pour designer et développer des services numériques accessibles et conformes au RGAA."
       },
       {
         property: 'og:title',
-        content: "Les outils de design de l'accessibilité - DesignGouv"
+        content: "Les outils de design de l’accessibilité - DesignGouv"
       },
       {
         property: 'og:description',

@@ -57,13 +57,18 @@
       </section>
       <section>
         <h2><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Le système de design de l'État</h2>
+        <p>Le <a href="https://systeme-de-design.gouv.fr/" title="système de design de l‘État - nouvelle fenêtre" target="_blank">système de design de l’État</a> assure une cohérence graphique et une meilleure expérience utilisateur sur les sites et applications web de l’État.</p>
+        <p>Il propose :</p>
         <ul>
-          <li>Le <a href="https://systeme-de-design.gouv.fr/" title="système de design de l‘État - nouvelle fenêtre" target="_blank">système de design de l‘État</a> est un ensemble de composants accessibles et réutilisables, guidé par des standards et une gouvernance, pouvant être assemblés pour construire plusieurs sites internet.</li>
+          <li>les éléments de base : couleurs, typographies, grilles et icônes ;</li>
+          <li>une librairie de composants disponible au format Sketch et Figma ;</li>
+          <li>un ensemble de composants HTML/CSS **conformes au <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr>** ;</li>
+          <li>une communauté active de designers et de développeurs.</li>
         </ul>
       </section>
 
-      <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouevlle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
-
+  
+      <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouvelle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
     </div>
 
   </Layout>

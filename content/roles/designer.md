@@ -19,6 +19,6 @@ focus:
 ## Vos outils
 
 * [22 critères de la checklist PiDila](https://pidila.gitlab.io/checklist-pidila/?Profil=Conception&Profil=Graphisme&R%C3%A9f%C3%A9rentiel=RGAA){22 critères de la checklist PiDila - nouvelle fenêtre}
-* Le [mémo design](/outils/memo-design) regroupe l’essentiel des recommendations
+* Le [mémo design](/outils/memo-design) regroupe l’essentiel des recommandations
 * Le [diagnostic flash](/outils/diagnostic-flash) permet d’estimer de manière partielle et rapide la qualité et l’accessibilité d’un site
 * Le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}

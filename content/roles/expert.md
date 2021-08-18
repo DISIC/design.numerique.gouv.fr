@@ -22,9 +22,9 @@ focus:
 ### Pendant un projet
 
 * **Sensibiliser** ou **former** chaque intervenant et intervenante du projet
-* S‘assurer que chaque fonctionnalité prend en compte l’accessibilité numérique
+* S’assurer que chaque fonctionnalité prend en compte l’accessibilité numérique
 * Des validations « RGAA » sont faites à **chaque étape** du projet
-* Qualifier les livrables, produire de la documentation, des guides de recommendations ou des cahiers de recette
+* Qualifier les livrables, produire de la documentation, des guides de recommandations ou des cahiers de recette
 * Organiser des tests avec des utilisateurs en situations de handicap
 * Rédiger, publier et mettre à jour la [déclaration d’accessibilité](/outils/exemple-declaration-acessibilite/).
 

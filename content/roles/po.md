@@ -23,7 +23,7 @@ focus: La qualité d’un site web et sa conformité au RGAA se joue dès la con
 * UX/UI : valider les pistes, anticiper les problèmes
 * DEV Front-end : modéliser les composants et vérifier leur conformité
 * DEV Back-end : valider en conditions réelles et faire des tests avec des personnes en situation de handicap
-* Éditoriale : Impliquer les équipes rédactionnelles et s'assurer des outils mis à leur disposition
+* Éditoriale : Impliquer les équipes rédactionnelles et s’assurer des outils mis à leur disposition
 
 ## Vos outils
 

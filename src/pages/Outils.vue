@@ -17,7 +17,7 @@
 
       <h1 class="text-highlight"><Outils class="h1__icon" focusable="false" aria-hidden="true"/>Outils</h1>
 
-      <p class="cover__subtitle">Une sélection d’outils « faits maison » pour vous accompagner dans l’amélioration de l’accessibilité et du design de vos sites et applications web.</p>
+      <p class="cover__subtitle">Une sélection d’outils faits maison pour vous accompagner dans l’amélioration de l’accessibilité et du design de vos sites et applications web.</p>
 
       </div>
     </div>

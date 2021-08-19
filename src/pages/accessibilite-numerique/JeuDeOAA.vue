@@ -342,17 +342,19 @@
         }
 
         p {
-          font-size: 0.875rem;
+          margin: 0.5rem 0;
         }
         h1 { 
             font-size: 2em;
             color: $blue;
+            line-height: 1.2em;
         }
         h2 { 
-            font-size: 1.6em;
+            font-size: 1.5em;
         }
         h3 { 
             font-size: 1.25em;
+            margin: 2rem auto 1.25rem;
         }
         .goose__modal-icon {
           font-size: 1.5rem !important;

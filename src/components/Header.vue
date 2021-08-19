@@ -46,6 +46,9 @@
   .fr-header {
     box-shadow: none !important;
     margin: 0 0 16px 0 !important;
+      .fr-header__logo .fr-logo {
+        font-size: 1rem;
+      }
 
     .fr-header__body {
       margin: 0 auto;

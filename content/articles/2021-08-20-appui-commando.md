@@ -10,7 +10,7 @@ description: L'équipe DSN met à votre disposition designers et experts accessi
 ## Soyez l'une des 5 équipes qui bénéficiera de notre appui !
 ### Manifestez votre intérêt avant le vendredi 10 septembre
 
-Si vous êtes responsable d'une démarche suivi dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
+Si vous êtes responsable d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
 
 Si votre couleur préférée est le vert, que l'orange et le rouge vous donnent de l'urticaire, surtout quand ils sont associés à des critères de l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} ;
 

@@ -4,7 +4,7 @@ slug: 2021-08-20-appui-commando
 publishedDate: 2021-08-20
 tags: ["", ""]
 illustration: ./illustrations/2021-08-20-chat-handicape.jpg
-description: Un ensemble de composants réutilisables pouvant être assemblés pour créer des sites internet accessibles et ergonomiques.
+description: Offre gratuite et limitée
 ---
 
 

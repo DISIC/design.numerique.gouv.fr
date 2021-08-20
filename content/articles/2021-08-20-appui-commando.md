@@ -7,7 +7,8 @@ illustration: ./illustrations/2021-08-20-chat-handicape.jpg
 description: L'équipe DSN met à votre disposition designers et experts accessibilité
 ---
 
-## Soyez l'une des 5 équipe qui bénéficiera de notre appui !
+## Soyez l'une des 5 équipes qui bénéficiera de notre appui !
+### Manifestez votre intérêt avant le vendredi 10 septembre
 
 Si vous êtes responsable d'une démarche suivi dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
 

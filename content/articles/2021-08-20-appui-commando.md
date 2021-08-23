@@ -1,10 +1,10 @@
 ---
-title:  Offre gratuite pour 5 administrations chanceuses !
+title:  Renforcez votre équipe pendant une courte durée !
 slug: 2021-08-20-appui-commando
 publishedDate: 2021-08-20
 tags: ["", ""]
 illustration: ./illustrations/2021-08-20-chat-handicape.jpg
-description: L'équipe DSN met à votre disposition designers et experts accessibilité
+description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
 
 ## Soyez l'une des 5 équipes qui bénéficiera de notre appui !
@@ -20,7 +20,7 @@ Surtout, si vous voulez que votre démarche réponde aux besoins de tous les usa
 
 Alors la Direction interministérielle du numérique (Dinum) a une offre qui va vous combler :
 
-La Dinum met à votre disposition – ça veut dire que vous ne payez rien et que vous n'avez pas à gérer les aspects administratifs, on sait ce que c'est – des designers et des experts en accessibilités pour améliorer votre démarche et passer l'audit RGAA (Référentiel général d'amélioration de l'accessibilité).
+La Dinum met à votre disposition – ça veut dire que vous ne payez rien et que vous n'avez pas à gérer les aspects administratifs, on sait ce que c'est – des designers et des experts en recherche utilisateur et en accessibilité pour améliorer votre démarche et passer l'audit RGAA (Référentiel général d'amélioration de l'accessibilité).
 
 On ne vous demande ni banderoles ni slogans mais il faut quand même manifester :
 
@@ -30,3 +30,18 @@ On ne vous demande ni banderoles ni slogans mais il faut quand même manifester 
 - votre intérêt **avant le vendredi 10 septembre** par e-mail : commando@design.numerique.gouv.fr !
 
 En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pas les inconvénients, les blocages et les problèmes potentiels, il n'y en a pas : 😊.
+
+### D'autres l'ont fait avant vous, et ils disent : 
+- « Vous avez une organisation au top, et on sera ravi de poursuivre l'aventure en 2021. »
+- « L’obligation de résultat et de délai est très bien. »
+- « Un apport réellement bénéfique et opérationnel y compris pour une équipe déjà en place ou déjà sensibilisée à l’Ux et l’accessibilité. »
+- « Le niveau d’expertise du commando a eu un effet « déclic » dans une équipe projet (MOA) qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
+
+
+### Concrètemement ça se passe comment ? 
+
+1. Vous nous écrivez à commando@design.numerique.gouv.fr
+2. Nous nous rencontrons pour definir le type de ressources donc vous pourrez beneficier, et nous nous fixons ensemble quelques objectifs
+3. Le commando démarre les travaux avec vous
+
+Vous hésitez ? Vous avez des questions ? Écrivez-nous à commando@design.numerique.gouv.fr. 

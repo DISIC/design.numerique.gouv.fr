@@ -39,7 +39,7 @@ En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pa
 - Design de tout ou partie du parcours de votre démarche en ligne (ou des petites évolutions)
 - Simplification du langage
 
-Un autre besoin ? Demandez-nous !✈️
+Un autre besoin ? Demandez-nous !
 
 ### D'autres l'ont fait avant vous, et nous ont dit :  
 - « Vous avez une organisation au top, et on sera ravi de poursuivre l'aventure en 2021. »

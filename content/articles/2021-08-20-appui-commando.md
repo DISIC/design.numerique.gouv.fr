@@ -3,7 +3,7 @@ title:  Mobilisez nos experts pendant une courte durée !
 slug: 2021-08-20-appui-commando
 publishedDate: 2021-08-20
 tags: ["", ""]
-illustration: ./illustrations/2021-08-24-tandem.jpeg
+illustration: ./illustrations/2021-08-24-tandem.jpg
 description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
 

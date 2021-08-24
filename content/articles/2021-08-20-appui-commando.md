@@ -7,8 +7,8 @@ illustration: ./illustrations/2021-08-24-tandem.jpg
 description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
 
-## Soyez l'une des 5 équipes qui bénéficiera de notre accompagnement !
-### Manifestez votre intérêt avant le vendredi 10 septembre
+## Soyez l'une des équipes qui bénéficiera de notre accompagnement !
+### N'attendez pas, écrivez-nous avant le vendredi 10 septembre
 
 Si vous êtes responsable d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
 
@@ -40,7 +40,7 @@ En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pa
 
 Si vous ne voyez pas un service listé, demandez-nous. 🧑‍✈️
 
-### D'autres l'ont fait avant vous : 
+### D'autres l'ont fait avant vous, et nous ont dit :  
 - « Vous avez une organisation au top, et on sera ravi de poursuivre l'aventure en 2021. »
 - « Un apport réellement bénéfique et opérationnel y compris pour une équipe déjà en place ou déjà sensibilisée à l’UX et l’accessibilité. »
 - « Le niveau d’expertise du commando a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »

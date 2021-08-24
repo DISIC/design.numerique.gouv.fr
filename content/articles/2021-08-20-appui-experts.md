@@ -1,6 +1,6 @@
 ---
 title:  Mobilisez nos experts ! (gratuit et sans engagement - enfin presque)
-slug: 2021-08-20-appui-commando
+slug: 2021-08-20-appui-experts
 publishedDate: 2021-08-20
 tags: ["", ""]
 illustration: ./illustrations/2021-08-24-tandem.jpg

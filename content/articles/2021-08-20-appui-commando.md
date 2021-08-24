@@ -7,7 +7,7 @@ illustration: ./illustrations/2021-08-24-tandem.jpg
 description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
 
-## Soyez l'une des 5 équipes qui bénéficiera de notre appui !
+## Soyez l'une des 5 équipes qui bénéficiera de notre accompagnement !
 ### Manifestez votre intérêt avant le vendredi 10 septembre
 
 Si vous êtes responsable d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
@@ -27,9 +27,18 @@ On ne vous demande ni banderoles ni slogans mais il faut quand même manifester 
 - de la volonté !
 - de la motivation !
 - de l'ouverture aux propositions !
-- votre intérêt **avant le vendredi 10 septembre** par e-mail : commando@design.numerique.gouv.fr !
+- votre besoin **avant le vendredi 10 septembre** par e-mail : experts@design.numerique.gouv.fr !
 
 En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pas les inconvénients, les blocages et les problèmes potentiels, il n'y en a pas 😊.
+
+### Quelques exemples des services offerts par nos experts
+- Identification de « quick wins » (améliorations rapides)
+- Audit d'accessibilité
+- Audit « Dites-le-nous une fois »
+- Recherche utilisateur avec vos usagers, comme par exemple des tests d'utilisabilité (recrutement des usagers, rédaction des déroulés, analyse)
+- Design de parcours de démarche en ligne, ou d'une partie
+
+Si vous ne voyez pas un service listé, demandez-nous. 🧑‍✈️
 
 ### D'autres l'ont fait avant vous : 
 - « Vous avez une organisation au top, et on sera ravi de poursuivre l'aventure en 2021. »
@@ -39,8 +48,8 @@ En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pa
 
 ### Concrètement, ça se passe comment ? 
 
-1. Vous nous écrivez à commando@design.numerique.gouv.fr **d'ici le 10 septembre** en exprimant très succintement la ou les démarches administratives concernées
+1. Vous nous écrivez à experts@design.numerique.gouv.fr **d'ici le 10 septembre** en exprimant la ou les démarches administratives concernées
 2. Nous nous rencontrons pour définir le type de ressources donc vous pourrez bénéficier, et nous nous fixons ensemble quelques objectifs
-3. Le commando démarre les travaux avec vous
+3. Les experts démarrent les travaux avec vous
 
-Vous hésitez ? Vous avez des questions ? Écrivez-nous à commando@design.numerique.gouv.fr. 
+Vous hésitez ? Vous avez des questions ? Écrivez-nous à experts@design.numerique.gouv.fr. 

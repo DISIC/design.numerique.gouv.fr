@@ -44,7 +44,7 @@ Un autre besoin ? Demandez-nous !
 ### D'autres l'ont fait avant vous, et nous ont dit :  
 - « Vous avez une organisation au top, et on sera ravi de poursuivre l'aventure en 2021. »
 - « Un apport réellement bénéfique et opérationnel y compris pour une équipe déjà en place ou déjà sensibilisée à l’UX et l’accessibilité. »
-- « Le niveau d’expertise du a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
+- « Le niveau d’expertise du Commando a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
 
 
 ### Concrètement, ça se passe comment ? 

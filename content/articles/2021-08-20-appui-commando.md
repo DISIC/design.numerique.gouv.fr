@@ -1,5 +1,5 @@
 ---
-title:  Mobilisez nos experts pendant une courte durée !
+title:  Mobilisez nos experts ! (gratuit et sans engagement - enfin presque)
 slug: 2021-08-20-appui-commando
 publishedDate: 2021-08-20
 tags: ["", ""]

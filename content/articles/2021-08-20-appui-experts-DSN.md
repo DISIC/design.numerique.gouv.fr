@@ -32,24 +32,25 @@ On ne vous demande ni banderoles ni slogans mais il faut quand même manifester 
 En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pas les inconvénients, les blocages et les problèmes potentiels, il n'y en a pas 😊.
 
 ### Quelques exemples des services offerts par nos experts
-- Identification de « quick wins » (améliorations rapides)
+- Identification de « quick wins » (améliorations rapides) sur tous les sujets
 - Audit d'accessibilité
-- Audit « Dites-le-nous une fois »
+- Audit « Dites-le-nous une fois » (on vous aide à identifier les APIs qui peuvent vous aider à simplifier la démarche)
 - Recherche utilisateur avec vos usagers, comme par exemple des tests d'utilisabilité (recrutement des usagers, rédaction des déroulés, analyse)
-- Design de parcours de démarche en ligne, ou d'une partie
+- Design de tout ou partie du parcours de votre démarche en ligne (ou des petites évolutions)
+- Simplification du langage
 
-Si vous ne voyez pas un service listé, demandez-nous. 🧑‍✈️
+Un autre besoin ? Demandez-nous !✈️
 
 ### D'autres l'ont fait avant vous, et nous ont dit :  
 - « Vous avez une organisation au top, et on sera ravi de poursuivre l'aventure en 2021. »
 - « Un apport réellement bénéfique et opérationnel y compris pour une équipe déjà en place ou déjà sensibilisée à l’UX et l’accessibilité. »
-- « Le niveau d’expertise du commando a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
+- « Le niveau d’expertise du a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
 
 
 ### Concrètement, ça se passe comment ? 
 
-1. Vous nous écrivez à experts@design.numerique.gouv.fr **d'ici le 10 septembre** en exprimant la ou les démarches administratives concernées
-2. Nous nous rencontrons pour définir le type de ressources donc vous pourrez bénéficier, et nous nous fixons ensemble quelques objectifs
+1. Vous nous écrivez à experts@design.numerique.gouv.fr **d'ici le 10 septembre** en indiquant la ou les démarches administratives concernées
+2. Nous nous rencontrons pour définir le type de ressources donc vous pourrez bénéficier et nous fixons ensemble les objectifs
 3. Les experts démarrent les travaux avec vous
 
 Vous hésitez ? Vous avez des questions ? Écrivez-nous à experts@design.numerique.gouv.fr. 

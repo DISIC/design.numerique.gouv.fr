@@ -50,7 +50,7 @@ Un autre besoin ? Demandez-nous !
 ### Concrètement, ça se passe comment ? 
 
 1. Vous nous écrivez à experts@design.numerique.gouv.fr **d'ici le 10 septembre** en indiquant la ou les démarches administratives concernées
-2. Nous nous rencontrons pour définir le type de ressources donc vous pourrez bénéficier et nous fixons ensemble les objectifs
+2. Nous nous rencontrons pour définir le type de ressources dont vous pourrez bénéficier et nous fixons ensemble les objectifs
 3. Les experts démarrent les travaux avec vous
 
 Vous hésitez ? Vous avez des questions ? Écrivez-nous à experts@design.numerique.gouv.fr. 

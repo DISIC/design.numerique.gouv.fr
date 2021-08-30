@@ -8,33 +8,34 @@ focus:
 
 ## Votre rôle
 
-* **Sensibiliser** tout le monde au handicap et à l’accessibilité numérique.
-* **Accompagner** les équipes opérationnelles.
+* **sensibiliser** toute l’équipe projet au handicap et à l’accessibilité numérique ;
+* **accompagner** les équipes opérationnelles : sensibilisation, formation, présence à toutes les étapes du projet.
 
 ## Vos actions 
 
 ### En amont d’un projet
 
-* Évaluer dès l’initialisation du projet la capacité des équipes à prendre en charge l’accessibilité, au moins pour les métiers impliqués dans la conception, le développement et la rédaction.
-* S’assurer de la compétence des équipes : Les designers UX et les designers UI, les intégrateurs, les développeurs et les producteurs de contenus vont être particulièrement concernés par l’accessibilité. Il est donc nécessaire de s’assurer qu’ils ont les compétences suffisantes. Dans le cas inverse, il est indispensable d’y remédier par des actions de sensibilisation et de formation. 
-* S’assurer des choix technologiques : ils peuvent avoir également un impact important sur la prise en charge de l’accessibilité. Il peut s’agir du choix d’un CMS, d’un framework de développement, d’une plate-forme de diffusion vidéo, d’un lecteur multimédia, etc. 
+* évaluer dès l’initialisation du projet la capacité des équipes à prendre en charge l’accessibilité ;
+* s’assurer de la compétence des équipes : designers <abbr title="User experience" lang="en">UX</abbr> et <abbr title="User interface" lang="en">UI</abbr>, intégrateurs et intégratrices, développeurs et développeuses, producteurs et productrices de contenus vont être particulièrement concernés par l’accessibilité. Il est donc nécessaire de s’assurer qu’elles ou ils ont les compétences suffisantes. Dans le cas contraire, il est indispensable d’y remédier par des actions de sensibilisation et de formation ;
+* s’assurer des choix technologiques : ils peuvent avoir également un impact important sur la prise en charge de l’accessibilité. Il peut s’agir du choix d’un <abbr title="Système de gestion de contenu">CMS</abbr>, d’un framework de développement, d’une plate-forme de diffusion vidéo, d’un lecteur multimédia, etc. 
 
 ### Pendant un projet
 
-* **Sensibiliser** ou **former** chaque intervenant et intervenante du projet
-* S’assurer que chaque fonctionnalité prend en compte l’accessibilité numérique
-* Des validations « RGAA » sont faites à **chaque étape** du projet
-* Qualifier les livrables, produire de la documentation, des guides de recommandations ou des cahiers de recette
-* Organiser des tests avec des utilisateurs en situations de handicap
-* Rédiger, publier et mettre à jour la [déclaration d’accessibilité](/outils/exemple-declaration-acessibilite/).
+* **sensibiliser** ou **former** chaque intervenant et intervenante du projet ;
+* s’assurer que chaque fonctionnalité prend en compte l’accessibilité numérique ;
+* des validations <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> sont faites à **chaque étape** du projet ;
+* qualifier les livrables, produire de la documentation, des guides de recommandations ou des cahiers de recette ;
+* organiser des tests avec des utilisateurs en situations de handicap ;
+* rédiger, publier et mettre à jour la [déclaration d’accessibilité](/outils/exemple-declaration-acessibilite/).
 
 ### En continu
 
-* Être **disponible** auprès des équipes
-* Les **accompagner** pour monter en compétences, partager les bonnes ou moins bonnes expériences, résoudre les anomalies, etc.
+* être **disponible** auprès des équipes ;
+* les **accompagner** pour monter en compétences, partager les bonnes ou moins bonnes expériences, résoudre les anomalies, etc.
 
 ## Vos outils
 
-* La revue de maquette avec les designers
-* La revue de code avec les équipes de développement
-* La recette RGAA de chaque nouvelle fonctionnalité
+* le [jeu de l’Organisation de l’amélioration de l’accessibilité](../../jeu-de-oaa/)  ;
+* la revue de maquette avec les designers ;
+* la revue de code avec les équipes de développement ;
+* la recette <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> de chaque nouvelle fonctionnalité

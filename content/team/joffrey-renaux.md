@@ -8,7 +8,7 @@ sub_team: Observatoire
 sub_team_link:
 twitter:
 e-mail :
-group : ["external"]
+group : ["team"]
 ---
 
 Bio à venir

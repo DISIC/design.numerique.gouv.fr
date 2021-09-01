@@ -71,15 +71,15 @@ export default {
       title: "Les rôles clés",
       meta: [{
         name: "description",
-        content: "Découvrez votre rôle pour la mise en oeuvre de l'accessibilité numérique."
+        content: "Découvrez votre rôle pour la mise en oeuvre de l’accessibilité numérique."
       },
       {
         property: "og:title",
-        content: "Articles - DesignGouv"
+        content: "Les rôles clés - DesignGouv"
       },
       {
         property: "og:description",
-        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+        content: "Découvrez votre rôle pour la mise en oeuvre de l’accessibilité numérique"
       },
       {
         property: "og:image",
@@ -95,11 +95,11 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Articles - DesignGouv"
+        content: "Les rôles clés - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
+        content: "Découvrez votre rôle pour la mise en oeuvre de l'accessibilité numérique."
       },
       {
         name: "twitter:image",

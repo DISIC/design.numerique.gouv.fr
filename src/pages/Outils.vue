@@ -36,7 +36,7 @@
         <h2 id="methode"><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Méthode</h2>
         <ul>
           <li>le <a href="/accessibilite-numerique/jeu-de-oaa/">jeu de l’organisation de l’amélioration de l’accessibilité (OAA)</a> vous guide dans la mise en accessibilité de votre service numérique ;</li>
-          <li>les <a href="/accessibilite-numerique/vous-etes/">fiches métiers</a> décrivent votre rôle, vos actions et vos outils ;</li>
+          <li>les <a href="/accessibilite-numerique/roles-cles/">fiches métiers</a> décrivent votre rôle, vos actions et vos outils ;</li>
           <li>le <a href="diagnostic-flash">diagnostic flash</a> permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps ;</li>
           <li>les nombreux <a href="https://github.com/DISIC?q=guide+RGAA" target="_blank" rel="noreferrer noopener">Guides méthodologiques RGAA </a> : Plus de 40 ressources et outils autour du référentiel général d’accessibilité pour les administrations (RGAA 3) ont été réalisés par la direction interministérielle du numérique (DINUM) avec le soutien du fonds pour l’insertion des personnes handicapées dans la fonction publique (FIPHFP) ;</li>
           <li>l‘<a href="audit-rapide">audit rapide</a> permet à moindre coût d‘apprécier l‘accessibilité d‘un site et la maturité d‘une équipe ;</li>

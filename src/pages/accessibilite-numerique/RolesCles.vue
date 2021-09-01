@@ -1,5 +1,5 @@
 <template>
-  <Layout class="vous-etes-page">
+  <Layout class="roles-cles-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
         <ol>
@@ -9,14 +9,15 @@
           <li>
             <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
           </li>
-          <li aria-current="page">Vous êtes</li>
+          <li aria-current="page">Rôles clés</li>
         </ol>
     </nav>
 
     <div class="cover">
       <div class="cover__container">
         <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-        <h1 class="text-highlight">Vous êtes</h1>
+        <h1>Les <span  class="text-highlight">rôles clés</span></h1>
+        <p class="cover__subtitle">Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
       </div>
     </div>
 
@@ -67,7 +68,7 @@ export default {
     Accessibilite,
   },
   metaInfo: {
-      title: "Votre rôle",
+      title: "Les rôles clés",
       meta: [{
         name: "description",
         content: "Découvrez votre rôle pour la mise en oeuvre de l'accessibilité numérique."
@@ -113,7 +114,7 @@ export default {
 
   @import "src/assets/scss/_vars.scss";
 
-  .vous-etes-page {
+  .roles-cles-page {
     h2 {
       &.rf-tile__title {
         margin:0 auto;

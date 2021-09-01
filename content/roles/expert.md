@@ -1,5 +1,5 @@
 ---
-title: Expert ou experte accessibilité numérique
+title: Expert ou experte
 slug: expert
 cat: Organiser
 description: Vous sensibilisez, formez, accompagnez les équipes et auditez les sites et applications web
@@ -26,7 +26,7 @@ focus:
 * des validations <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> sont faites à **chaque étape** du projet ;
 * qualifier les livrables, produire de la documentation, des guides de recommandations ou des cahiers de recette ;
 * organiser des tests avec des utilisateurs en situations de handicap ;
-* rédiger, publier et mettre à jour la [déclaration d’accessibilité](/outils/exemple-declaration-acessibilite/).
+* rédiger, publier et mettre à jour la [déclaration d’accessibilité](/outils/exemple-declaration-accessibilite/).
 
 ### En continu
 

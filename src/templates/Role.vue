@@ -1,10 +1,10 @@
 <template>
-  <Layout class="vous-etes-page">
+  <Layout class="roles-cles-page">
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol>
         <li><g-link to="/">Accueil</g-link></li>
         <li><g-link to="/accessibilite-numerique/">Accessibilité</g-link></li>
-        <li><g-link to="/accessibilite-numerique/vous-etes/">Vous êtes</g-link></li>
+        <li><g-link to="/accessibilite-numerique/roles-cles/">Rôles clés</g-link></li>
         <li aria-current="page" v-html="$page.role.title" />
       </ol>
     </nav>

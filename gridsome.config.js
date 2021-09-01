@@ -153,7 +153,7 @@ module.exports = {
     Job: '/recrutement/:slug',
     Mission: '/commando-ux/:slug',
     Article: '/articles/:slug',
-    Role: '/accessibilite-numerique/vous-etes/:slug',
+    Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/tag/:id',
   },
   prefetch: {

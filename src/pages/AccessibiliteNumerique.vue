@@ -21,8 +21,8 @@
 
     <div class="content">
       <p>En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.</p>
-      <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que designers &amp; developers soient formés à ces enjeux.</p>
-      <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre  à tous les usagers un égal accès à leurs droits.</p>
+      <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que les développeurs, développeuses et designers soient mieux formés.</p>
+      <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre à tous les usagers un égal accès à leurs droits.</p>
     </div>
 
 
@@ -66,7 +66,7 @@
         <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> et sollicitez un expert pour effectuer un <strong>diagnostic rapide</strong>, des <strong>audits</strong> complets ou un <strong>accompagnement</strong> de vos équipes.</p>
         
         <h3>Je souhaite établir une déclaration d’accessibilité</h3>
-        <p>C’est très simple. Vous pouvez utiliser le <g-link to="/outils/exemple/">modèle de déclaration</g-link>.</p>
+        <p>C’est très simple. Vous pouvez utiliser le <g-link to="/outils/exemple-declaration-accessibilite/">modèle de déclaration</g-link>.</p>
 
         <h3>Je souhaite former mes équipes</h3>
         <p>Vous pouvez utiliser l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> pour <strong>former et sensibiliser</strong> vos équipes.</p> 

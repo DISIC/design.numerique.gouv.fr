@@ -23,20 +23,14 @@
   </div>
 
   <div class="content">
-    <div class="rf-accordion rf-callout guide">
-      <button class="rf-accordion__title rf-accordion__btn rf-accordion__btn--icon-right" aria-expanded="false" aria-controls="rf-accordion-0">
-        <h2 class="guide-title">Comment l’utiliser ?</h2>
-      </button>
-      <div class="rf-collapse" id="rf-accordion-0">
-        <div class="rf-accordion__inner">
-          <p>Le <strong>diagnostic flash</strong> se fait sur une ou plusieurs pages. Plus cet échantillon de page est représentatif, meilleur est le diagnostic.<br>Deux solutions sont proposées :</p>
-          <ul>
-            <li>Imprimer cette page qui devient une checklist et tient sur une feuille A4 recto verso.</li>
-            <li>Saisir le résultat dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié (format ods - 43Ko) - nouvelle fenêtre" target="_blank"  rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <section class="rf-mb-8w">
+    <h2>Comment l’utiliser ?</h2>
+    <p>Le <strong>diagnostic flash</strong> se fait sur une ou plusieurs pages en une à deux heures. Deux solutions sont proposées :</p>
+    <ul>
+      <li>Imprimer cette page qui devient une check-list et tient sur une feuille A4 recto verso.</li>
+      <li>Saisir le résultat dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur (format ods - 43Ko) - À télécharger" target="_blank" download rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</li>
+    </ul>
+    </section>
     <div class="quick-test">
       <section :class="'cat'+cat.node.id" v-for="cat in $page.allDiagFlashCat.edges"  >
           <h2> {{ cat.node.title }}</h2>

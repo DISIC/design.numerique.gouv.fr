@@ -21,7 +21,7 @@
 
       <h1 class="text-highlight">Mémo dev</h1>
 
-      <p class="cover__subtitle">Les recommandations ci-dessous sont extraites du Guide de l'intégrateur RGAA de la DINUM. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
+      <p class="cover__subtitle">Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-integrateur/index.html" target="_blank" title="guide de l’intégrateur RGAA - nouvelle fenêtre">guide de l'intégrateur RGAA</a> de la <abbr title="Direction interministérielle du numérique">Dinum</abbr>. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
 
 
       </div>
@@ -29,8 +29,8 @@
 
 <div class="content memo">
 
-  <h2>Le mémo développement</h2>
-  <p class="lead">Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-integrateur/index.html" target="_blank" title="guide de l’intégrateur RGAA - nouvelle fenêtre">guide de l’intégrateur RGAA</a> établi par la <abbr title="Direction interministérielle du numérique">Dinum</abbr>. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
+  <h2>Le mémo « dev »</h2>
+
   <h3><a target="_blank" href="https://disic.github.io/guide-integrateur/1-gabarit-general.html" title="Layout - nouvelle fenêtre" ><span lang="en">Layout</span></a></h3>
   <ul>
     <li>Déclarer un doctype valide.</li>

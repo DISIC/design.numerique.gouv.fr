@@ -59,6 +59,9 @@
         <h2>Passer à l’action</h2>
         <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
 
+        <h3>Qui doit faire quoi ?</h3>
+        <p>Les <g-link to="/accessibilite-numerique/roles-cles/">fiches métiers</g-link> décrivent votre rôle, vos actions et vos outils.</p>
+
         <h3>Je souhaite faire un état des lieux</h3>
         <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> et sollicitez un expert pour effectuer un <strong>diagnostic rapide</strong>, des <strong>audits</strong> complets ou un <strong>accompagnement</strong> de vos équipes.</p>
         

@@ -28,7 +28,7 @@ En fonction de l’évolution de priorités fixées à la DINUM, elle ou il peut
 ## Profil recherché
 
 ### Savoirs
-- Connaissance des bonnes pratiques de design d’interfaces numériques et de l’accessibilité numérique ;
+- Connaissance des bonnes pratiques de design d’interfaces numériques et de l’accessibilité numérique.
 
 ### Savoir‐faire
 - 5 ans d’expérience minimum dans le design d’expériences (web/mobile) UX et UI ;
@@ -41,12 +41,12 @@ En fonction de l’évolution de priorités fixées à la DINUM, elle ou il peut
 ### Savoir-être
 - Créativité, aisance relationnelle ;
 - Sens du service et de la facilitation ;
-- Sens de lƒÌécoute, de l’analyse et de l’observation ;
+- Sens de l’écoute, de l’analyse et de l’observation ;
 - Forte capacité de conviction et de pédagogie ;
 - Rigueur et sens de l’organisation ;
 - Volonté d’amélioration du service public et du fonctionnement de l’État.
 
 ## Pour nous rejoindre
-Adressez votre CV + lettre de motivation courte mais efficace à <strong>marine.boudeau@modernisation.gouv.fr</strong>. 
+Pour vos questions relatives à cette offre, écrivez à <a href="mailto:marine.boudeau@modernisation.gouv.fr">marine.boudeau@modernisation.gouv.fr</a>
 
-
+Envoyez votre candidature à <a href="mailto:candidatures-dinum@pm.gouv.fr?subject=2021-536479%20-%20Designer%20UX%20/%20UI%20H/F">candidatures-dinum@pm.gouv.fr</a> en précisant <em>2021-536479 - Designer UX / UI H/F</em>  dans l‘objet.

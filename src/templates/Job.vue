@@ -63,9 +63,45 @@
   export default {
     metaInfo () {
       return {
-        title: this.$page.job.title
+        title: this.$page.job.title + " - " + this.$page.job.type + " - " + this.$page.job.length,
+        meta: [{
+          name: "description",
+          content: "Rejoignez notre équipe et participez à l'amélioration des services publics numériques !"
+        },
+        {
+          property: "og:title",
+          content: this.$page.job.title + " - " + this.$page.job.type + " - " + this.$page.job.length + " - DesignGouv"
+        },
+        {
+          property: "og:description",
+          content: "Rejoignez notre équipe et participez à l'amélioration des services publics numériques !"
+        },
+        {
+          property: "og:image",
+          content: "https://design.numerique.gouv.fr/designGouv.png"
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image"
+        },
+        {
+          name: "twitter:site",
+          content: "@Design_Gouv"
+        },
+        {
+          name: "twitter:title",
+          content: this.$page.job.title + " - " + this.$page.job.type + " - " + this.$page.job.length + " - DesignGouv"
+        },
+        {
+          name: "twitter:description",
+          content: "Rejoignez notre équipe et participez à l'amélioration des services publics numériques !"
+        },
+        {
+          name: "twitter:image",
+          content: "https://design.numerique.gouv.fr/designGouv.png"
+        }],
       }
-    }
+    },
   }
 
 </script>

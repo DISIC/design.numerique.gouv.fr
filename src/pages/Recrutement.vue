@@ -13,11 +13,9 @@
 -->
       </div>
     </div>
-
-<!--    
+ 
       <div class="content">
-        <section v-if="$page.allJob.edges.length > 0">
-          <h2>Les offres</h2>
+           <h2>Les offres</h2>
           <ul class="jobs">
             <li v-for="{ node } in $page.allJob.edges" :key="node.id">
               <g-link :to="node.path" class="button">
@@ -26,13 +24,10 @@
               </g-link>
             </li>
           </ul>
-        </section>
-        <p v-else>Nous n’avons pas d’offre pour le moment.</p>
       </div> 
- -->
   </Layout>
 </template>
-<!--
+
 <page-query>
 
   query {
@@ -49,7 +44,6 @@
   }
 
 </page-query> 
--->
 
 <script>
 

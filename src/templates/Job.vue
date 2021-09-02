@@ -39,17 +39,14 @@
         <p>Rejoindre la <abbr title="direction interministérielle du numérique">DINUM</abbr>, c’est prendre part à un collectif de près de 200 agents réunis autour d’une même ambition : créer, grâce au numérique, le service public de demain.</p>
 
         <h3>Pôle design des services numériques</h3>
-        <p>Au sein de la <abbr title="direction interministérielle du numérique">DINUM</abbr>, le pôle Design des services numériques pilote, en partenariat avec les ministères, l'<a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener">Observatoire de la qualité des démarches en ligne</a> - qui suit la qualité de la dématérialisation des 250 démarches administratives les plus utilisées par les Français - pour les rendre plus fluides, efficaces, inclusives et compréhensibles.</p>
-        <p>Le pôle promeut une culture du design au sein de l’État, notamment grâce au <g-link to="/commando-ux/">Commando UX</g-link> et à l'animation d'une communauté de compétences en design au sein des administrations, dans une volonté de placer l'inclusion et l'expérience de l'usager au cœur de la conception des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
+        <p>Au sein de la <abbr title="direction interministérielle du numérique">DINUM</abbr>, le pôle Design des services numériques pilote, en partenariat avec les ministères, l’<a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener">Observatoire de la qualité des démarches en ligne</a> - qui suit la qualité de la dématérialisation des 250 démarches administratives les plus utilisées par les Français - pour les rendre plus fluides, efficaces, inclusives et compréhensibles.</p>
+        <p>Le pôle promeut une culture du design au sein de l’État, notamment grâce au <g-link to="/commando-ux/">Commando UX</g-link> et à l’animation d’une communauté de compétences en design au sein des administrations, dans une volonté de placer l’inclusion et l’expérience de l’usager au cœur de la conception des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
 
       </div>
 
       <div class="details" v-html="$page.job.content" />
 
       <div>
-        <p>
-          Si vous avez des questions, contactez <span v-html="$page.job.contact" />.
-        </p>
         <p>
           Cette offre a été publiée le <span v-html="$page.job.published_date" />.
         </p>
@@ -60,7 +57,7 @@
   </Layout>
 </template>
 
-<!--
+
 <script>
 
   export default {
@@ -89,7 +86,7 @@
   }
 
 </page-query>
--->
+
 
 <style lang="scss">
 

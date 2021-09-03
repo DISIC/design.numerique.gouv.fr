@@ -47,7 +47,7 @@
       <section>
         <h2 id="declaration"><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Obligations légales</h2>
         <ul>
-          <li>un <a href="/outils/exemple/">exemple de déclaration d’accessibilité</a> prêt à remplir ;</li>
+          <li>un <a href="/outils/exemple-declaration-accessibilite/">exemple de déclaration d’accessibilité</a> prêt à remplir ;</li>
           <li>le <a href="https://betagouv.github.io/a11y-generateur-declaration/" title="Générateur de déclaration d’accessibilité - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">générateur de déclaration d’accessibilité</a> produit par <a target="_blank" title="BetaGouv - nouvelle fenêtre" href="https://beta.gouv.fr">BetaGouv</a>.</li>
         </ul>
       </section>

@@ -3,7 +3,7 @@ published_date: 2 septembre 2021
 title: Designer UX / UI
 slug: designer
 type: CDD
-start_date: 3 septembre 2021
+start_date: 13 septembre 2021
 length: 3 ans
 contact: marine.boudeau@modernisation.gouv.fr
 ---

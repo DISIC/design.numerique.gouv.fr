@@ -19,7 +19,7 @@
         <h3>Tout savoir sur la bicyclette</h3>
         <p>Une bicyclette, ou un vélo (abréviation du mot vélocipède), est un véhicule terrestre à propulsion humaine entrant dans la catégorie des cycles et composé de deux roues alignées, qui lui donnent son nom. La force motrice est fournie par son conducteur (appelé « cycliste »), en position le plus souvent assise, par l’intermédiaire de deux pédales entraînant la roue arrière par une chaîne à rouleaux.</p>
         <p>La roue avant est directrice et assure l’équilibre. Son orientation est commandée par un guidon. Le cycliste a souvent les deux mains en contact avec le guidon afin de contrôler la trajectoire, le freinage ainsi que le passage des vitesses.</p>
-        <p>La <a style="border-bottom: none" class="lien" href="#">bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
+        <p>La <a style="border-bottom: none" class="lien" href="https://fr.wikipedia.org/wiki/Bicyclette" target="blank" >bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
         <p><!-- balise utilisée à des fins de  présentation --></p>
         <p><!-- balise utilisée à des fins de  présentation --></p>
       </section>

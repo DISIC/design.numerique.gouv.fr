@@ -20,7 +20,7 @@
         <h2>Tout savoir sur la bicyclette</h2>
         <p>Une bicyclette, ou un vélo (abréviation du mot vélocipède), est un véhicule terrestre à propulsion humaine entrant dans la catégorie des cycles et composé de deux roues alignées, qui lui donnent son nom. La force motrice est fournie par son conducteur (appelé « cycliste »), en position le plus souvent assise, par l’intermédiaire de deux pédales entraînant la roue arrière par une chaîne à rouleaux.</p>
         <p>La roue avant est directrice et assure l’équilibre. Son orientation est commandée par un guidon. Le cycliste a souvent les deux mains en contact avec le guidon afin de contrôler la trajectoire, le freinage ainsi que le passage des vitesses.</p>
-        <p>La <a href="#">bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
+        <p>La <a href="https://fr.wikipedia.org/wiki/Bicyclette" target="blank" title="bicyclette - nouvelle fenêtre">bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
         </div>
       </section>
       <img src="/assets/images/bike.png" style="width:100%" class="" alt=""  />
@@ -82,7 +82,7 @@
             <div class="form-group rf-mt-4w">
               <label class="rf-label" for="like">Vous aimez ...
                <span class="rf-hint-text">Pour recevoir des contenus qui vous correspondent ;)</span></label>
-                <select name="" class="rf-input"  for="like">
+                <select name="" class="rf-input"  id="like">
                   <option value="1">les fruits et les légumes</option>
                   <option value="2">les ballades à bicyclette</option>
                   <option value="3">les voyages à vélo</option>

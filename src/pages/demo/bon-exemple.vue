@@ -33,7 +33,7 @@
         </div>
       </section>
       <section class="rf-grid-row rf-grid-row--center">
-        <h2>Tous avoir sur notre organisation</h2>
+        <h2>Mieux se connaître</h2>
         <div class="rf-col-md-8 rf-col-sm-12">
           <form action="#" method="post" rel="noreferrer noopener">
             <fieldset><legend><h3>Inscrivez-vous à notre lettre d’information</h3></legend>
@@ -50,7 +50,8 @@
             </div>
 
             <div class="form-group rf-mt-4w">
-              <label class="rf-label" for="like">Vous aimez ...</label>
+              <label class="rf-label" for="like">Vous aimez ...
+               <span class="rf-hint-text">Pour recevoir des contenus qui vous correspondent ;)</span></label>
                 <select name="" class="rf-input"  for="like">
                   <option value="1">les fruits et les légumes</option>
                   <option value="2">les ballades à bicyclette</option>

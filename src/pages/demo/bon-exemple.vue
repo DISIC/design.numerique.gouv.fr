@@ -23,6 +23,36 @@
         <p>La <a href="#">bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
         </div>
       </section>
+      <img src="/assets/images/bike.png" style="width:100%" class="" alt=""  />
+      <section class="rf-accordion">
+          <div class="rf-accordion__title rf-content-media__transcription">
+            <a class="rf-link rf-accordion__btn" aria-expanded="false" aria-controls="accordion-bike">Voir la description de l’image</a>
+          </div>  
+          <div class="rf-collapse" id="accordion-bike">
+              <h3>L’anatomie d’une bicyclette</h3>
+              <p>Voici la liste des principaux composants d’une bicyclette :</p>
+              <ul>
+                <li>jantes</li>
+                <li>rayons</li>
+                <li>moyeux</li>
+                <li>attaches rapides</li>
+                <li>cocottes de frein</li>
+                <li>cables de frein</li>
+                <li>potence</li>
+                <li>cintre</li>
+                <li>bouchons de cintre</li>
+                <li>ruban de cintre</li>
+                <li>fourche</li>
+                <li>cadre</li>
+                <li>selle</li>
+                <li>tige de selle</li>
+                <li>étriers de frein</li>
+                <li>cables de frein</li>
+                <li>dérailleur avant</li>
+                <li>...</li>
+              </ul>  
+          </div>
+      </section>      
       <section class="rf-grid-row rf-grid-row--center">
         <div class="rf-col-12">
           <h2>Tout savoir sur le RGAA</h2>

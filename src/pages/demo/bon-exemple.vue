@@ -138,6 +138,9 @@
       text-decoration: none;
     }
   }
+    h3 {
+    color: black;
+  }
   .jaune {
     background-color: yellow;
   }
@@ -146,13 +149,3 @@
   }
 </style>
 
-<!--
-Les anomalies sont les suivantes :
-* title non pertinent
-* largeur fixe : scroll horizontal en mobile
-* l'information ne doit pas passer que par la couleur : lien non souligné, input jaune
-* hierarchie des titres
-* libellé des liens non explicite (lien externe, fichier à télécharger)
-* libellé du bouton non explicite : à quoi sert le formulaire ?
-
--->

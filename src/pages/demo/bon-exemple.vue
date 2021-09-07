@@ -4,12 +4,12 @@
     <div class="cover">
      <div class="cover__container">
 
-       <h1>Cette page regroupe <span class="text-highlight">quelques bons exemples</span></h1>
+       <h1 class="text-highlight">Erreurs corrigées !</h1>
 
       </div>
 
       <p class="cover__subtitle">
-        Plusieurs anomalies sont présentes dans cette page. Sauras-tu les retrouver ?
+        Cette page est la version corrigée de la page <a href="./mauvais-exemple/">Trouve les erreurs !</a>.
       </p>
 
     </div>
@@ -114,8 +114,8 @@
 
   export default {
     metaInfo: {
-      title: "Page d’exemple de bonnes pratiques",
-      description: "Cette page web regroupe plusieurs bons pratiques.",
+      title: "Page de bons exemples",
+      description: "Cette page web ne contient pas d’erreur d4accessibilité.",
       meta: [{
         name: "robots",
         content: "noindex"

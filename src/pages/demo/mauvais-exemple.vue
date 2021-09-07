@@ -4,12 +4,12 @@
     <div class="cover">
      <div class="cover__container">
 
-       <h1>Cette page regroupe <span class="text-highlight">quelques mauvais exemples</span></h1>
+       <h1 class="text-highlight">Trouve les erreurs !</h1>
 
       </div>
 
       <p class="cover__subtitle">
-        Plusieurs anomalies sont présentes dans cette page. Sauras-tu les retrouver ?
+        Cette page a été créée avec des erreurs - volontaires, c’est un exercice - de design et d’accessibilité. Sauras-tu les retrouver ? <br>(pour t’aider, tu peux utiliser le <a href="/outils/diagnostic-flash/">diagnostic flash</a>)
       </p>
 
     </div>

@@ -1,3 +1,4 @@
 /accessibilite-numerique/solutions https://www.notion.so/designgouv/Je-veux-rendre-accessible-mes-exp-riences-num-riques-ce1966fa48d940aca486e8bac02454bd
 /services /accompagnement/
 /fish https://ows-185-21-194-29.cloudgouv-eu-west-1.compute.outscale.com/
+/audits/:administration/*  https://dsn-audits-:administration.netlify.app/:splat 200

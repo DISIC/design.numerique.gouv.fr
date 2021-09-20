@@ -5,6 +5,7 @@
 //@import "breadcrumb";
 @import "buttons";
 @import "cover";
+@import "dsfr";
 @import "form";
 @import "messages";
 @import "print";
@@ -25,15 +26,7 @@ body {
   }
 }
 
-[class*=" fr-"], [class^="fr-"] {
-  box-sizing: border-box;
-}
-
-.fr-container {
-  max-width: 68rem;
-}
-
-h1, h2, h3, h4, .fr-header__service, .fr-nav, .fr-footer__brand {
+h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.2;
 }
@@ -65,9 +58,7 @@ h1 {
     }
   }
 }
-p.cover__subtitle {
-  line-height: 1.5em;
-}
+
 h2 {
   font-size: 2em;
   font-weight: 800;
@@ -94,6 +85,7 @@ h2 {
 p {
   margin: 1rem 0;
 }
+
 a {
   box-shadow: none;
   position: static;
@@ -121,19 +113,6 @@ a {
   }
 }
 
-.fr-breadcrumb {
-  margin: 2rem 0;
-}
-.fr-callout {
-  padding: 2rem;
-  box-shadow: inset .25rem 0 0 0 $blue;
-}
-
-.fr-callout__text {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
 .content {
   margin: 0 auto;
 
@@ -148,19 +127,18 @@ a {
       margin: -0.5rem 0 2rem 0;
     }
   }
-  ul.fr-accordions-group {
-    list-style-type: none;
-  }
+
   ol, ul {
     list-style-position: outside;
     list-style-type: disc;
-  
+
     & > li::before {
       display: auto;
       content: none;
       font-size: auto;
-  }  
+    }
   }
+
   ol, ol > li, ul, ul > li {
     margin-left: 0.5rem;
   }

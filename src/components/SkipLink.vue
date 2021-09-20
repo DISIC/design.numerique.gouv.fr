@@ -7,7 +7,7 @@
             </li>
             <li>
                 <a class="fr-link" href="#nav"  @click.stop>Menu</a>
-            </li> 
+            </li>
         </ul>
     </div>
 </div>
@@ -25,37 +25,34 @@
 
   @import "src/assets/scss/_vars.scss";
 
-.skip-link {
-  margin: 0;
-  padding:0;
-  background: $light-gray;
-  color: $blue;
-
-  .container {
-    position: relative;
-    &.skip-link-focus {
-      height: 2em;
-    }
-  }
-
-  ul {
+  .skip-link {
     margin: 0;
-    padding: 0;
-  }
-
-  li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    padding: 0;
+    padding:0;
+    background: $light-gray;
     color: $blue;
-    text-decoration: none;
-  }
+
+    .container {
+      position: relative;
+      &.skip-link-focus {
+        height: 2em;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
 
     a {
+      padding: 0;
+      color: $blue;
+      text-decoration: none;
       position: absolute;
       left: -7000px;
       z-index: 1000;
@@ -66,7 +63,6 @@
         left:0;
       }
     }
-
-}
+  }
 
 </style>

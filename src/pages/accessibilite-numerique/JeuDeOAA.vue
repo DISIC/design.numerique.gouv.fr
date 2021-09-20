@@ -257,7 +257,7 @@
         height: 20px;
         padding: 2px;
         text-align: center;
-        margin: 5px 0 0 -36px;
+        margin: -2px 0 0 -36px;
         box-sizing: content-box;
         line-height: 1.2rem;
       }
@@ -330,6 +330,7 @@
 
         h3 {
           margin: 8px 0 0 0;
+          line-height: 1;
 
           button {
             font-size: 0.875rem;
@@ -341,21 +342,29 @@
           }
         }
 
-        p {
-          margin: 0.5rem 0;
+        .fr-modal__body {
+
+          p {
+            margin: 0.5rem 0;
+          }
+
+          h1 {
+              font-size: 2em;
+              color: $blue;
+              line-height: 1.2;
+              margin-bottom: 2rem;
+          }
+
+          h2 {
+              font-size: 1.5em;
+          }
+
+          h3 {
+              font-size: 1.25em;
+              margin: 2rem auto 1.25rem;
+          }
         }
-        h1 { 
-            font-size: 2em;
-            color: $blue;
-            line-height: 1.2em;
-        }
-        h2 { 
-            font-size: 1.5em;
-        }
-        h3 { 
-            font-size: 1.25em;
-            margin: 2rem auto 1.25rem;
-        }
+
         .goose__modal-icon {
           font-size: 1.5rem !important;
           font-weight: bold !important;

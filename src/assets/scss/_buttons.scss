@@ -1,5 +1,4 @@
-main {
-  .button {
+.button {
     text-decoration: none;
     font-size: 1em;
     font-weight: bold;
@@ -17,8 +16,8 @@ main {
 
     &__icon {
       padding-left: 0.5rem;
-      font-size: 1.6rem;
-      vertical-align: -0.45rem;
+      font-size: 1.6rem !important;
+      vertical-align: -0.45rem !important;
       box-sizing: border-box;
     }
 
@@ -51,4 +50,3 @@ main {
       box-shadow: 0.25rem 0.25rem 0 $light;
     }
   }
-}

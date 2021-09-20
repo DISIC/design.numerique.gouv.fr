@@ -90,17 +90,17 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  footer {
-    ul>li { padding: 0;
+  .fr-footer {
+
+    border-color: $blue;
+
+    ul > li {
+      padding: 0;
+
       &:before {
         content:none;
       }
     }
-
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-top: 4rem;
-    }
-
 
     .footer {
 

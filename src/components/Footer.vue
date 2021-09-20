@@ -30,7 +30,7 @@
                         <a class="fr-footer__content-link" href="https://data.gouv.fr">data.gouv.fr</a>
                     </li>
                 </ul>
-            </div> 
+            </div>
         </div>
        <div class="fr-footer__bottom">
             <ul class="fr-footer__bottom-list">
@@ -104,7 +104,7 @@
 
     .footer {
 
-      a {
+      .fr-footer__brand-link, .fr-footer__content-link {
         border-bottom: none !important;
       }
 

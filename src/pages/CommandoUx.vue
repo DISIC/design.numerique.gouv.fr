@@ -370,11 +370,11 @@
       flex-wrap: wrap;
 
       .mission {
-        list-style: none;
+        //list-style: none;
         text-align: left;
         width: 100%;
         margin: 0 0 0.5rem 0;
-        padding: 0.5rem 1rem;
+        padding: 0rem 1rem;
         position: relative;
         display: flex;
         border: 2px solid white;
@@ -602,7 +602,7 @@
       &-member {
         list-style: none;
         width: 100%;
-        margin: 0.5rem 0;
+        margin: 0.25rem 0;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -638,11 +638,7 @@
         &__description {
           text-align: left;
           margin: 0;
-          font-size: 1.125rem;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            font-size: 1rem;
-          }
+          font-size: 1rem;
 
           &--light {
             font-weight: normal;

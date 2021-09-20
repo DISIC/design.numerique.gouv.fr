@@ -55,7 +55,7 @@
         <h2 id="tests"><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Tests usagers en situation de handicap</h2>
         <h3>Mode d’utilisation du groupe d’utilisateurs handicapés</h3>
         <p>La DINUM a créé un groupe d’utilisateurs handicapés pour tester l’accessibilité des sites et applications mobiles publics. Il inclut actuellement une trentaine d’utilisateurs, majoritairement handicapés visuels : non-voyants et mal voyants, une dizaine de personnes handicapées cognitives et quelques personnes handicapées mobiles. Mais il a vocation à accueillir un plus grand nombre d’internautes handicapés appartenant à toutes les catégories de personnes handicapées. Ces utilisateurs ne sont pas des experts en accessibilité, mais ont pour point commun d’avoir l’habitude de naviguer sur internet et de posséder à titre professionnel ou personnel les matériels et logiciels nécessaires à cette fin. Les tests ainsi effectués ne remplacent ni ceux réalisés à l’aide des logiciels de test, ni ceux réalisés par des professionnels experts en accessibilité. Ils  peuvent avoir, néanmoins, une grande utilité pour montrer le degré d’efficacité des publics concernés sur les sites et applications testés, d’une façon concrète, sans nécessairement se référer au taux de conformité à déterminer aux normes en vigueur.</p>
-        <p>La demande de test doit être adressée par mail à <strong>jamshid.kohandel@modernisation.gouv.fr</strong>.</p> 
+        <p>La demande de test doit être adressée par mail à <strong>jamshid.kohandel@modernisation.gouv.fr</strong>.</p>
       </section>
       <section>
         <h2 id="dsfr"><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Le système de design de l’État</h2>
@@ -116,12 +116,6 @@
   .outils-page {
 
     .content {
-
-      .fr-accordion {
-        margin-bottom: 0;
-        list-style-type: none;
-        border-bottom: none;
-      }
 
       a {
         font-weight: bold;

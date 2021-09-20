@@ -1,0 +1,32 @@
+[class*=" fr-"], [class^="fr-"] {
+  box-sizing: border-box;
+}
+
+.fr-header__service, .fr-nav, .fr-footer__brand {
+  font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.fr-container {
+  max-width: 68rem;
+}
+
+.fr-breadcrumb {
+  margin: 2rem 0;
+}
+
+.fr-callout {
+  padding: 2rem;
+  box-shadow: inset .25rem 0 0 0 $blue;
+}
+
+.fr-callout__text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.content {
+  ul.fr-accordions-group {
+    list-style-type: none;
+  }
+}

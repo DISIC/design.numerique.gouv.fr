@@ -88,7 +88,7 @@
 
   .fr-footer {
 
-    border-color: $blue;
+    border-color: $blue !important;
 
     ul > li {
       padding: 0;

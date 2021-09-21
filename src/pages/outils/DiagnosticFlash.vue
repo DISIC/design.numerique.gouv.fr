@@ -23,7 +23,6 @@
   </div>
 
   <div class="content">
-<<<<<<< HEAD
     <section class="fr-mb-8w">
     <h2>Comment l’utiliser ?</h2>
     <p>Le <strong>diagnostic flash</strong> se fait sur une ou plusieurs pages en une à deux heures. Deux solutions sont proposées :</p>
@@ -32,39 +31,6 @@
       <li>Saisir le résultat dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur (format ods - 43Ko) - À télécharger" target="_blank" download rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</li>
     </ul>
     </section>
-=======
-    <div class="fr-accordion fr-callout guide">
-      <button class="fr-accordion__title fr-accordion__btn fr-accordion__btn--icon-right" aria-expanded="false" aria-controls="fr-accordion-0">
-        <h2 class="guide-title">Comment l’utiliser ?</h2>
-      </button>
-      <div class="fr-collapse" id="fr-accordion-0">
-        <div class="fr-accordion__inner">
-          <p>Le diagnostic se fait sur un échantillon de pages incluant au minimum :</p>
-          <ul>
-          <li>la page d’accueil</li>
-          <li>une page de formulaire si elle existe</li>
-          <li>une page avec des fichiers en téléchargement si elle existe</li>
-          <li>une page de contenu, la plus riche possible (préférer la présence d’images, d’infographies, de vidéos, de titres et sous-titres plutôt qu’une page de texte seul)</li>
-          </ul>
-          <p>Pour chaque critère et sur la base de son échantillon, le testeur décide si :</p>
-          <ul>
-          <li> 🤩 Le critère est parfaitement rempli;</li>
-          <li> 😐 Le critère n’est pas totalement rempli, mais dans l’ensemble il est plutôt respecté même s’il reste quelques aspects à corriger;</li>
-          <li> 🙁 Le critère n’est pas rempli et si, ça et là, des choses conviennent, c’est un peu par hasard;</li>
-          <li> ✖ Le site ou la démarche n’est pas concerné par le critère.</li>
-          </ul>
-          
-          <p>Le résultat peut être saisi dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié (format ods - 43Ko) - nouvelle fenêtre" target="_blank"  rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</p>
-
-          <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
-          <ul>
-            <li>Imprimer cette page qui devient une checklist et tient sur une feuille A4 recto verso.</li>
-            <li>Saisir le résultat dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur dédié (format ods - 43Ko) - nouvelle fenêtre" target="_blank"  rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
->>>>>>> 43b97862f48f0a39099463faad285fa4e9136072
     <div class="quick-test">
       <section :class="'cat'+cat.node.id" v-for="cat in $page.allDiagFlashCat.edges"  >
           <h2> {{ cat.node.title }}</h2>

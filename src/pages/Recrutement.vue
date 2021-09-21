@@ -15,8 +15,8 @@
         <h1 class="text-highlight">Recrutement</h1>
 <!--      
         <p class="cover__jobs">Nombre de postes ouverts : <span>{{ $page.allJob.edges.length }}</span></p>
- -->
         <p class="cover__subtitle" >Nous n’avons pas d’offre pour le moment.</p>
+ -->
 <!--
         <p class="cover__subtitle" >Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
         <p>Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</p>

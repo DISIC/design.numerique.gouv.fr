@@ -280,6 +280,8 @@
           }
 
           a {
+            border: none !important;
+            
             &:after {
               position: absolute;
               content: "";
@@ -359,6 +361,8 @@
             margin: 0;
 
             a {
+              border: none !important;
+
               &:after {
                 position: absolute;
                 content: "";

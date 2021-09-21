@@ -281,7 +281,7 @@
 
           a {
             border: none !important;
-            
+
             &:after {
               position: absolute;
               content: "";
@@ -453,7 +453,7 @@
         &__link {
           margin: 4px 24px 24px 24px;
           text-align: right;
-          //border: none;
+          border: none !important;
         }
 
         &__icon {

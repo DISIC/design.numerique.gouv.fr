@@ -53,10 +53,6 @@
                   <g-link class="fr-footer__bottom-link"  to="/misc/donnees-personnelles/">Données personnelles et cookies</g-link>
                 </li>
             </ul>
-            <div class="fr-footer__bottom-copy">
-                <p>Sauf mention contraire, tous les textes de ce site sont sous <a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a>
-                </p>
-            </div>
         </div>
     </div>
 </footer>

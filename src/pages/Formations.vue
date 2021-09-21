@@ -57,12 +57,6 @@
         <h2>
           <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Certifications
         </h2>
-<<<<<<< HEAD
-=======
-        <p>Avec les formations certifiantes, vous pouvez acquérir rapidement des
-          compétences sur les sujets qui vous intéressent.</p>
-
->>>>>>> cd107e2... Tweak titles
         <h3>Accessibilité numérique</h3>
         <ul>
         <li><a href="https://formations.access42.net/?p=877" title="Développer des sites web accessibles - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Développer des sites web accessibles</a>, 9 heures, payant.</li>

@@ -105,10 +105,11 @@
       color: $red;
       background-color: $light-gray;
       border-radius: 50%;
-      width: 1.5rem;
-      height: 1.5rem;
+      width: 1.75rem;
+      height: 1.75rem;
       text-align: center;
       margin-left: 0.375rem;
+      display: inline-block;
     }
 
     ul {

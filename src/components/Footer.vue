@@ -92,10 +92,6 @@
 
     ul > li {
       padding: 0;
-
-      &:before {
-        content:none;
-      }
     }
 
     .footer {

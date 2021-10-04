@@ -46,9 +46,9 @@
       <section>
         <h2 id="audit"><Outils class="h2__icon" focusable="false" aria-hidden="true"/>Audit</h2>
         <ul>
-          <li>L’<strong>assistant RGAA</strong> facilite la réalisation d’audit en mettant à disposition les critères et tests du RGAA 4.1 directement dans le navigateur. Disponible sur <a href="https://addons.mozilla.org/fr/firefox/addon/assistant-rgaa/" target="_blank" title="assistant RGAA pour firefox">firefox</a> et <a href="https://addons.mozilla.org/fr/firefox/addon/assistant-rgaa/" target="_blank" title="assistant RGAA pour chrome">chrome</a> ;</li>
-          <li>Le <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4.1.modele-de-grille-d-audit.ods" download>modèle de grille d’audit (format ODS – 233 Ko)</a> ;</li>
-          <li>Le <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-modele-rapport-audit.odt" download>modèle de rapport d’audit (format ODT – 51 Ko)</a> ;</li>
+          <li>L’<strong>assistant RGAA</strong> facilite la réalisation d’audit en mettant à disposition les critères et tests du RGAA 4.1 directement dans le navigateur. Disponible sur <a href="https://addons.mozilla.org/fr/firefox/addon/assistant-rgaa/" target="_blank" title="assistant RGAA pour firefox - nouvelle fenêtre">firefox</a> et <a href="https://addons.mozilla.org/fr/firefox/addon/assistant-rgaa/" target="_blank" title="assistant RGAA pour chrome - nouvelle fenêtre">chrome</a> ;</li>
+          <li>Le <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4.1.modele-de-grille-d-audit.ods" title="Télécharger le modèle de grille d’audit (format ODS – 233 Ko)" download>modèle de grille d’audit (format ODS – 233 Ko)</a> ;</li>
+          <li>Le <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-modele-rapport-audit.odt" title="Télécharger le modèle de rapport d’audit (format ODT – 51 Ko)" download>modèle de rapport d’audit (format ODT – 51 Ko)</a> ;</li>
         </ul>
       </section>
       <section>

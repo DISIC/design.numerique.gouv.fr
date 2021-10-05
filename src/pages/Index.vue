@@ -1,8 +1,8 @@
 <template>
   <Layout class="index-page">
 
-    <div class="cover">
-      <div class="cover__container">
+    <div class="cover cover--home">
+      <div class="cover__container cover__container--home">
         <h1>Concevons des services publics numériques <span class="text-highlight">accessibles</span>, <span class="text-highlight">inclusifs</span> et <span class="text-highlight">humains</span>.</h1>
         <p class="cover__subtitle">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
       </div>
@@ -280,8 +280,7 @@
           }
 
           a {
-            border-bottom: none !important;
-            text-align: right;
+            border: none !important;
 
             &:after {
               position: absolute;
@@ -348,6 +347,10 @@
           border-left: 4px solid $blue;
           list-style: none;
 
+          &:before {
+            content: none;
+          }
+
 
           @media only screen and (max-width: $mobile-max-width) {
             flex-basis: 94%;
@@ -358,7 +361,7 @@
             margin: 0;
 
             a {
-              border-bottom: none !important;
+              border: none !important;
 
               &:after {
                 position: absolute;
@@ -450,7 +453,7 @@
         &__link {
           margin: 4px 24px 24px 24px;
           text-align: right;
-          border: none;
+          border: none !important;
         }
 
         &__icon {
@@ -468,8 +471,6 @@
         }
 
         a {
-          border-bottom: none !important;
-
           &:after {
             position: absolute;
             content: "";

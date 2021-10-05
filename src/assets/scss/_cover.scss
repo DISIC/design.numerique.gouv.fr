@@ -1,6 +1,6 @@
 .cover {
-  margin-top: 48px;
-  margin-bottom: 80px;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
   text-align: center;
   width: 100vw;
   position: relative;
@@ -8,37 +8,51 @@
   left: 49%;
 
   @media only screen and (max-width: $mobile-max-width) {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  &--home {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+
+    @media only screen and (max-width: $mobile-max-width) {
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
   }
 
   &__container {
-    max-width: 920px;
+    max-width: 52rem;
     margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     @media only screen and (max-width: $mobile-max-width) {
-      padding-left: 16px;
-      padding-right: 16px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    &--home {
+      max-width: 58rem;
     }
 
     h1 {
-      margin: 16px 0;
+      margin: 1rem 0;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin: 24px 0;
+        margin: 1.5rem 0;
       }
     }
 
     &--light {
       text-align: left;
-      margin-top: 32px;
-      margin-bottom: -32px;
-      max-width: 820px;
+      margin-top: 2rem;
+      margin-bottom: -2rem;
+      padding: 0;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin-top: 48px;
+        margin-top: 3rem;
       }
 
       h1 {
@@ -47,25 +61,25 @@
     }
   }
 
-  &__illustration {
-    height: 240px;
-    padding-top: 32px;
-    display: none;
-
-    @media only screen and (max-width: $mobile-max-width) {
-      height: 160px;
-      padding-top: 24px;
-    }
-
-    &--small {
-      height: 120px;
-      margin: 0 auto;
-
-      @media only screen and (max-width: $mobile-max-width){
-        height: 80px;
-      }
-    }
-  }
+  // &__illustration {
+  //   height: 240px;
+  //   padding-top: 32px;
+  //   display: none;
+  //
+  //   @media only screen and (max-width: $mobile-max-width) {
+  //     height: 160px;
+  //     padding-top: 24px;
+  //   }
+  //
+  //   &--small {
+  //     height: 120px;
+  //     margin: 0 auto;
+  //
+  //     @media only screen and (max-width: $mobile-max-width){
+  //       height: 80px;
+  //     }
+  //   }
+  // }
 
   &__subhead {
     max-width: 760px;
@@ -101,6 +115,7 @@
     padding: 0 8px;
     font-size: 1.25em;
     font-weight: 500;
+    line-height: 1.5em;
 
     @media only screen and (max-width: $mobile-max-width) {
       font-size: 1.125em;
@@ -109,20 +124,6 @@
     &--small {
       font-size: 1em;
       font-weight: normal;
-    }
-  }
-
-  &--with-breadcrumb {
-    margin-top: 48px;
-    margin-bottom: 80px;
-
-    .cover__container {
-      max-width: 760px;
-    }
-
-    @media only screen and (max-width: $mobile-max-width) {
-      margin-top: 32px;
-      margin-bottom: 64px;
     }
   }
 }

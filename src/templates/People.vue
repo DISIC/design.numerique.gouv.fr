@@ -1,13 +1,13 @@
 <template>
   <Layout class="people-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+     <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/equipe/">Équipe</g-link>
+          <g-link to="/equipe/" class="fr-breadcrumb__link">Équipe</g-link>
         </li>
         <li>
           <span aria-current="page">{{ $page.people.firstName }} {{ $page.people.lastName }}</span>

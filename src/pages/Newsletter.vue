@@ -1,16 +1,16 @@
 <template>
   <Layout class="newsletter-page" hideNewsletter>
 
-    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
           <span aria-current="page">Newsletter</span>
         </li>
       </ol>
-    </nav> -->
+    </nav>
 
     <div class="cover">
      <div class="cover__container">
@@ -31,7 +31,7 @@
 
     <div class="content">
 
-      <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" name="mc-embedded-subscribe-form" target="_blank" rel="noreferrer noopener">
+      <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" name="mc-embedded-subscribe-form" rel="noreferrer noopener">
 
         <div class="indicates-required"><span class="asterisk">*</span> champs obligatoires</div>
 
@@ -39,7 +39,7 @@
           <label for="mce-EMAIL" aria-describedby="format">
             Votre adresse électronique <span class="asterisk">*</span>
           </label>
-          <p class="rf-hint-text" id="format">Au format prenom@mail.fr</p>
+          <p class="fr-hint-text" id="format">Au format prenom@mail.fr</p>
           <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" required>
         </div>
 
@@ -269,6 +269,12 @@ vertical-align: super;
 
         &__checkboxes {
           margin-top: 8px;
+
+          li {
+            &:before {
+              content: none;
+            }
+          }
         }
       }
 

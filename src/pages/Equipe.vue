@@ -1,13 +1,13 @@
 <template>
   <Layout class="team-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <span aria-current="page">Notre équipe</span>
+          <span aria-current="page">Équipe</span>
         </li>
       </ol>
     </nav>
@@ -167,6 +167,10 @@
         text-align: center;
         width: 30%;
         margin: 24px 4px;
+
+        &:before {
+          content: none;
+        }
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 46%;

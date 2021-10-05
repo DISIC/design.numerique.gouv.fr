@@ -1,14 +1,14 @@
-.rf-header .rf-nav {
+.fr-header .fr-nav {
   margin: 0;
 }
 
-.content ul > li.rf-accordion {
+.content ul > li.fr-accordion {
   margin-bottom: 0;
   list-style-type: none;
   border-bottom: none;
 }
 
-.rf-link--close {
+.fr-link--close {
   font-weight: bold;
   color: $black;
 
@@ -29,24 +29,24 @@
   }
 }
 
-:root:not([data-theme=dark]) .rf-accordion .rf-accordion__btn, .rf-accordion .rf-accordion__btn:hover {
+:root:not([data-theme=dark]) .fr-accordion .fr-accordion__btn, .fr-accordion .fr-accordion__btn:hover {
   background: none;
 }
 
-.rf-callout {
+.fr-callout {
   background-color: $light-gray !important;
   padding: 2rem !important;
   box-shadow: inset .25rem 0 0 0 $blue;
 }
 
-.rf-callout__text {
+.fr-callout__text {
   font-size: initial !important;
   color: initial !important;
   line-height: 1.5 !important;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif !important;
 }
 
-.rf-modal {
+.fr-modal {
 
   background-color: rgba($dark-gray, 0.5);
 

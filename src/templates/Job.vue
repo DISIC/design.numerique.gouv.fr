@@ -1,12 +1,12 @@
 <template>
   <Layout class="job-page" >
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/recrutement/">Recrutement</g-link>
+          <g-link to="/recrutement/" class="fr-breadcrumb__link">Recrutement</g-link>
         </li>
         <li>
           <span aria-current="page">{{ $page.job.title }}</span>

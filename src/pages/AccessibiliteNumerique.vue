@@ -1,16 +1,16 @@
 <template>
   <Layout class="digital-accessibility-page">
 
-    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
           <span aria-current="page">Accessibilité</span>
         </li>
       </ol>
-    </nav> -->
+    </nav>
 
     <div class="cover">
       <div class="cover__container">
@@ -23,7 +23,6 @@
       <p>En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.</p>
       <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que les développeurs, développeuses et designers soient mieux formés.</p>
       <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre à tous les usagers un égal accès à leurs droits.</p>
-    </div>
 
 
       <section>
@@ -48,10 +47,10 @@
         </div>
       </section>
 
-      <div class="rf-grid-row rf-grid-row--center">
-        <div class="rf-callout rf-col-lg-8 rf-mt-8w rf-mb-8w">
-          <h3 class="rf-callout__title">A11É ?</h3>
-          <p class="rf-callout__text"><strong>A11É</strong> est une abbréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
+      <div class="fr-grid-row fr-grid-row--center">
+        <div class="fr-callout fr-col-lg-8 fr-mt-8w fr-mb-8w">
+          <h3 class="fr-callout__title">A11É ?</h3>
+          <p class="fr-callout__text"><strong>A11É</strong> est une abbréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
         </div>
       </div>
       
@@ -93,6 +92,7 @@
         </p>
       </section>
 
+    </div>
 
   </Layout>
 </template>

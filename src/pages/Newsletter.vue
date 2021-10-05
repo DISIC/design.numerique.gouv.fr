@@ -151,7 +151,9 @@
         position: relative;
         text-align: left;
       }
-
+      .button {
+        border: 0.125rem solid #0E37DD;
+      }
       input:not(.button) {
         -webkit-appearance: none;
         -moz-appearance: none;

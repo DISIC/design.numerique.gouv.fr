@@ -116,11 +116,14 @@ export default {
   .roles-cles-page {
     h2 {
       &.fr-tile__title {
-        margin:0 auto;
+        //margin:0 auto;
       }
       a {
         border-bottom: none !important;
       }
     }
+    .fr-tile--horizontal {
+      align-items: flex-start;
+    }  
   }
 </style>

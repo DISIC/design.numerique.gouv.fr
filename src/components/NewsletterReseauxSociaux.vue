@@ -1,5 +1,5 @@
 <template>
-    <div class="fr-mt-8w fr-follow">
+    <div class="fr-mt-8w fr-mt-md-12w fr-follow">
         <div class="fr-container">
             <div class="fr-grid-row">
                 <div class="fr-col-12 fr-col-md-8">

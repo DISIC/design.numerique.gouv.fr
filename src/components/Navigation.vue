@@ -107,9 +107,10 @@
       border-radius: 50%;
       width: 1.75rem;
       height: 1.75rem;
-      text-align: center;
       margin-left: 0.375rem;
-      display: inline-block;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
     }
 
     ul {

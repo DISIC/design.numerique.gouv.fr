@@ -17,7 +17,7 @@
 
   <div class="cover web-only">
     <div class="cover__container">
-      <h1 class="text-highlight"></h1>
+      <h1 class="text-highlight">Diagnostic flash</h1>
       <p class="cover__subtitle">Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
     </div>
   </div>

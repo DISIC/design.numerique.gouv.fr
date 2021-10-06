@@ -50,13 +50,13 @@
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-col-lg-8 fr-mt-8w fr-mb-8w">
           <h3 class="fr-callout__title">A11É ?</h3>
-          <p class="fr-callout__text"><strong>A11É</strong> est une abbréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
+          <p class="fr-callout__text"><strong>A11É</strong> est une abréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
         </div>
       </div>
       
       <section>
         <h2>Passer à l’action</h2>
-        <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
+        <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hiérarchie.</p>
 
         <h3>Qui doit faire quoi ?</h3>
         <p>Les <g-link to="/accessibilite-numerique/roles-cles/">fiches métiers</g-link> décrivent votre rôle, vos actions et vos outils.</p>
@@ -81,7 +81,7 @@
 
         <p><strong>Sensibilisez</strong> et <strong>formez</strong> les décideurs et décideuses, <span lang="en">designers</span>, développeurs et développeuses, <span lang="en">product owner</span>, cheffes et chefs de projets sur le sujet de l’accessibilité numérique.</p>
         <p>Intégrez la conformité au RGAA dans vos process.</p>
-        <p>À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
+        <p>À chaque déploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
       </section>
 
 

@@ -140,7 +140,7 @@ export default {
       }
     }
 
-    .fr-accordion__btn {
+    .fr-accordion .fr-accordion__btn {
       padding: .75rem 0 .75rem 3rem;
       box-sizing: border-box;
 

@@ -22,3 +22,10 @@ L’Assistant RGAA apporte une assistance à la réalisation des audits d’acce
 
 Quand un test est sélectionné, tous les éléments à tester de la page affichée sont mis en avant pour faciliter leur identification par l’inspecteur réalisant l’audit d’accessibilité. _Par exemple, pour un test concernant des images, toutes les images de la page sont mises en avant avec leurs attributs associés. Ce qui permet d’identifier rapidement celles qui n’ont pas d’alternative textuelle._
 
+## Télécharger l’assistant RGAA
+<div>
+<ul class="download">
+<li><a class="fr-btn button" target="_blank" title="Assistant RGAA pour firefox - nouvelle fenêtre" href="https://addons.mozilla.org/fr/firefox/addon/assistant-rgaa/" >Assistant RGAA pour firefox</a></li>
+<li><a class="fr-btn button" target="_blank" title="Assistant RGAA pour chrome - nouvelle fenêtre" href="https://chrome.google.com/webstore/detail/assistant-rgaa/cgpmofepeeiaaljkcclfldhaalfpcand?hl=fr" >Assistant RGAA pour chrome</a></li>
+</ul>
+</div>

@@ -143,4 +143,12 @@ a {
       margin: -0.5rem 0 2rem 0;
     }
   }
+  .download {
+    padding: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0.5rem 2rem;
+    }
+  }
 }

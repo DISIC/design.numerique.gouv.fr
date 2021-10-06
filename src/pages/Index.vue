@@ -133,7 +133,7 @@
           </div>
 
           <div class="blog__allArticlesLinkMobile">
-            <g-link to="/blog/">
+            <g-link to="/articles/">
               Voir tous nos articles<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
             </g-link>
           </div>

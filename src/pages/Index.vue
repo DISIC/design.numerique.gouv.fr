@@ -109,6 +109,37 @@
 
       </section>
 
+      <section class="blog">
+
+          <div class="blog__top">
+            <div>
+              <Blog class="blog__icon" focusable="false" aria-hidden="true"/>
+              <h2>Nos articles</h2>
+            </div>
+            <div class="blog__allArticlesLinkDesktop">
+              <g-link to="/articles/">
+                Voir tous nos articles<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              </g-link>
+            </div>
+          </div>
+
+          <div class="articles">
+            <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
+              <g-image :src="node.illustration" alt=""/>
+              <p class="articles__date">{{ node.publishedDate }}</p>
+              <h3><g-link :to="node.path">{{ node.title }}</g-link></h3>
+              <p>{{ node.description }}</p>
+            </article>
+          </div>
+
+          <div class="blog__allArticlesLinkMobile">
+            <g-link to="/blog/">
+              Voir tous nos articles<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+            </g-link>
+          </div>
+
+      </section>
+
 
       <section class="team">
 
@@ -147,6 +178,7 @@
   import Observatoire from "~/assets/images/observatoire.svg"
   import FranceRelance from "~/assets/images/franceRelance.svg"
   import Equipe from "~/assets/images/equipe.svg"
+  import Blog from "~/assets/images/articles.svg"
 
   export default {
     components: {
@@ -158,7 +190,8 @@
       Accompagnement,
       Observatoire,
       FranceRelance,
-      Equipe
+      Equipe,
+      Blog
     },
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",
@@ -208,6 +241,26 @@
 </script>
 
 
+<page-query>
+
+  query {
+    allArticle (limit: 2, sortBy: "publishedDate", order: DESC) {
+      edges {
+        node {
+        	id
+          title
+          publishedDate (format: "D MMMM YYYY", locale : "fr")
+          illustration
+          description
+          path
+        }
+      }
+    }
+  }
+
+</page-query>
+
+
 <style lang="scss">
 
   @import "src/assets/scss/_vars.scss";
@@ -219,6 +272,86 @@
 
       @media only screen and (max-width: $mobile-max-width) {
         margin-bottom: 64px;
+      }
+    }
+
+    .blog {
+
+      a {
+        border-bottom: none !important;
+      }
+
+      article {
+        margin-bottom: 2rem;
+      }
+
+      &__top {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media only screen and (max-width: $mobile-max-width) {
+          display: block;
+        }
+      }
+
+      &__allArticlesLinkDesktop {
+        margin-top: 8px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: none;
+        }
+
+        a {
+          &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
+        }
+      }
+
+      &__allArticlesLinkMobile {
+        display: none;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: block;
+          text-align: right;
+        }
+      }
+
+      h2 {
+        display: inline-block;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          margin-bottom: 40px;
+        }
+      }
+
+      &__icon {
+        display: inline-block;
+        transition: .2s all;
+        height: 36px;
+        width: 36px;
+        margin-bottom: -5px;
+        margin-right: 16px;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          display: inline;
+          height: 32px;
+          width: 32px;
+          margin-bottom: -6px;
+          margin-right: 12px;
+        }
+      }
+
+      &:hover, &:focus {
+        .blog__icon {
+          transform: rotate(180deg);
+        }
       }
     }
 

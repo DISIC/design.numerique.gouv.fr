@@ -57,7 +57,7 @@
 
 <script>
 
-  import Blog from "~/assets/images/blog.svg"
+  import Blog from "~/assets/images/articles.svg"
 
   export default {
     components: {
@@ -113,10 +113,10 @@
   .articles-page {
 
     .cover {
-      margin-bottom: 80px;
+      margin-bottom: 4rem;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 48px;
+        margin-bottom: 3rem;
       }
 
     }

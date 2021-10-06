@@ -113,10 +113,10 @@
   .articles-page {
 
     .cover {
-      margin-bottom: 80px;
+      margin-bottom: 4rem;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 48px;
+        margin-bottom: 3rem;
       }
 
     }

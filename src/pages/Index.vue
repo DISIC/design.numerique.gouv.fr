@@ -149,10 +149,9 @@
         </div>
 
         <div class="team__content">
-          <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
+          <g-image class="team__image" src="~/assets/images/team-photos/equipe.jpg" alt="L’équipe DesignGouv, sourire aux lèvres" width="480" height="320" quality="50"/>
           <div class="team__text">
-            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises.
-              Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️</p>
+            <p>DesignGouv c’est avant tout une équipe&nbsp;☀️, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises.</p>
             <g-link to="/equipe/">
               Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/>
             </g-link>

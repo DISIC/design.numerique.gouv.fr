@@ -1,16 +1,16 @@
 <template>
   <Layout class="digital-accessibility-page">
 
-    <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
           <span aria-current="page">Accessibilité</span>
         </li>
       </ol>
-    </nav> -->
+    </nav>
 
     <div class="cover">
       <div class="cover__container">
@@ -23,7 +23,6 @@
       <p>En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.</p>
       <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que les développeurs, développeuses et designers soient mieux formés.</p>
       <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre à tous les usagers un égal accès à leurs droits.</p>
-    </div>
 
 
       <section>
@@ -48,16 +47,16 @@
         </div>
       </section>
 
-      <div class="rf-grid-row rf-grid-row--center">
-        <div class="rf-callout rf-col-lg-8 rf-mt-8w rf-mb-8w">
-          <h3 class="rf-callout__title">A11É ?</h3>
-          <p class="rf-callout__text"><strong>A11É</strong> est une abbréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
+      <div class="fr-grid-row fr-grid-row--center">
+        <div class="fr-callout fr-col-lg-8 fr-mt-8w fr-mb-8w">
+          <h3 class="fr-callout__title">A11É ?</h3>
+          <p class="fr-callout__text"><strong>A11É</strong> est une abréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
         </div>
       </div>
       
       <section>
         <h2>Passer à l’action</h2>
-        <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hierarchie.</p>
+        <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hiérarchie.</p>
 
         <h3>Qui doit faire quoi ?</h3>
         <p>Les <g-link to="/accessibilite-numerique/roles-cles/">fiches métiers</g-link> décrivent votre rôle, vos actions et vos outils.</p>
@@ -82,7 +81,7 @@
 
         <p><strong>Sensibilisez</strong> et <strong>formez</strong> les décideurs et décideuses, <span lang="en">designers</span>, développeurs et développeuses, <span lang="en">product owner</span>, cheffes et chefs de projets sur le sujet de l’accessibilité numérique.</p>
         <p>Intégrez la conformité au RGAA dans vos process.</p>
-        <p>À chaque deploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
+        <p>À chaque déploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
       </section>
 
 
@@ -93,6 +92,7 @@
         </p>
       </section>
 
+    </div>
 
   </Layout>
 </template>

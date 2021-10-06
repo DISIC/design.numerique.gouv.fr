@@ -1,16 +1,15 @@
 <template>
   <Layout class="roles-cles-page">
-
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol>
-          <li>
-            <g-link to="/">Accueil</g-link>
-          </li>
-          <li>
-            <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
-          </li>
-          <li aria-current="page">Rôles clés</li>
-        </ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
+        <li>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/accessibilite-numerique/"  class="fr-breadcrumb__link">Accessibilité</g-link>
+        </li>
+        <li aria-current="page">Rôles clés</li>
+      </ol>
     </nav>
 
     <div class="cover">
@@ -22,17 +21,17 @@
     </div>
 
     <div class="content">
-      <div class="rf-grid-row rf-grid-row--gutters">
-        <div class="rf-col-12 rf-col-sm-6 rf-col-lg-4" v-for="{ node } in $page.allRole.edges" :key="node.id">
-            <div class="rf-tile rf-enlarge-link rf-tile--horizontal">
-                <div class="rf-tile__body">
-                    <h2 class="rf-tile__title">
-                      <g-link  class="rf-tile__link" :to="node.path">
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-12 fr-col-sm-6 fr-col-lg-4" v-for="{ node } in $page.allRole.edges" :key="node.id">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <g-link  class="fr-tile__link" :to="node.path">
                         {{ node.title }}
                       </g-link>
                     </h2>
-                    <p class="rf-tile__desc">{{ node.description }}</p>
-                    <!-- p class="rf-tag">{{ node.cat }}</p -->
+                    <p class="fr-tile__desc">{{ node.description }}</p>
+                    <!-- p class="fr-tag">{{ node.cat }}</p -->
                 </div>
             </div>
         </div>
@@ -116,12 +115,15 @@ export default {
 
   .roles-cles-page {
     h2 {
-      &.rf-tile__title {
-        margin:0 auto;
+      &.fr-tile__title {
+        //margin:0 auto;
       }
       a {
         border-bottom: none !important;
       }
     }
+    .fr-tile--horizontal {
+      align-items: flex-start;
+    }  
   }
 </style>

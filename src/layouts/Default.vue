@@ -13,10 +13,9 @@
 
     <main class="layout" id="main" role="main">
       <slot/>
-      <Newsletter v-if="!hideNewsletter"/>
       <Offer v-if="showServices"/>
     </main>
-
+    <NewsletterReseauxSociaux />
     <Footer />
 
   </div>
@@ -32,7 +31,7 @@ query {
 
 <script>
   import Header from "~/components/Header.vue"
-  import Newsletter from "~/components/messages/Newsletter.vue"
+  import NewsletterReseauxSociaux from "~/components/NewsletterReseauxSociaux.vue"
   import Offer from "~/components/messages/Offer.vue"
   import Footer from "~/components/Footer.vue"
   import SkipLink from "~/components/SkipLink.vue"
@@ -40,33 +39,26 @@ query {
   export default {
     components: {
       Header,
-      Newsletter,
+      NewsletterReseauxSociaux,
       Offer,
       Footer,
       SkipLink,
     },
     props: {
-      hideNewsletter: {
-        default: false,
-        type: Boolean
-      },
       showServices: {
         default: false,
         type: Boolean
       },
     },
     mounted () {
-      let src = "/assets/js/all.min.js"
-
+      let src = "/assets/js/dsfr.module.min.js";
       let dsfr = document.createElement('script');
-      dsfr.type = "text/javascript";
+      dsfr.type = "module";
       dsfr.src = src;
-
       let scripts = document.querySelectorAll('[src="' + src + '"]');
       if (scripts.length > 0) {
         scripts[0].remove();
       }
-
       document.body.appendChild(dsfr);
     }
   }
@@ -151,9 +143,10 @@ query {
   }
 
   .layout {
-    max-width: 820px;
+    max-width: 52rem;
     margin: 0 auto;
     padding: 0 30px;
+    box-sizing: content-box;
 
     @media only screen and (max-width: $mobile-max-width) {
       padding: 0 12px;

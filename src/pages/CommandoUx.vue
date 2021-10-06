@@ -1,6 +1,17 @@
 <template>
   <Layout class="commando-ux-page">
 
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
+        <li>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Commando UX</span>
+        </li>
+      </ol>
+    </nav>
+
     <div class="cover">
      <div class="cover__container">
 
@@ -247,7 +258,7 @@
 
       &__content {
         background-color: $light-gray;
-        padding: 0.5rem 2rem 1rem 2rem;
+        padding: 2rem 2rem 1rem;
         border-left: 4px solid $blue;
         margin-bottom: 3rem;
       }
@@ -313,6 +324,7 @@
             width: 1.5rem;
             margin-bottom: -0.8rem;
             margin-right: 0.75rem;
+            box-sizing: content-box;
 
             @media only screen and (max-width: $mobile-max-width) {
               display: inline;
@@ -358,17 +370,21 @@
       flex-wrap: wrap;
 
       .mission {
-        list-style: none;
+        //list-style: none;
         text-align: left;
         width: 100%;
         margin: 0 0 0.5rem 0;
-        padding: 0.5rem 1rem;
+        padding: 0rem 1rem;
         position: relative;
         display: flex;
         border: 2px solid white;
         border-bottom: 2px solid $gray;
         align-items: center;
         justify-content: space-between;
+
+        &:before {
+          content: none;
+        }
 
         @media only screen and (max-width: $mobile-max-width) {
           flex-wrap: wrap;
@@ -439,6 +455,10 @@
 
           li {
             list-style: none;
+
+            &:before {
+              content: none;
+            }
           }
         }
 
@@ -582,10 +602,14 @@
       &-member {
         list-style: none;
         width: 100%;
-        margin: 0.5rem 0;
+        margin: 0.25rem 0;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+
+        &:before {
+          content: "";
+        }
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
@@ -614,11 +638,7 @@
         &__description {
           text-align: left;
           margin: 0;
-          font-size: 1.125rem;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            font-size: 1rem;
-          }
+          font-size: 1rem;
 
           &--light {
             font-weight: normal;

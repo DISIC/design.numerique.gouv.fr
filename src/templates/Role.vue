@@ -1,13 +1,22 @@
 <template>
   <Layout class="roles-cles-page">
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li><g-link to="/">Accueil</g-link></li>
-        <li><g-link to="/accessibilite-numerique/">Accessibilité</g-link></li>
-        <li><g-link to="/accessibilite-numerique/roles-cles/">Rôles clés</g-link></li>
+
+
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
+        <li>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+        </li>
+        <li>
+          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+        </li>
+        <li>
+          <g-link to="/accessibilite-numerique/roles-cles/" class="fr-breadcrumb__link">Rôles clés</g-link>
+        </li>
         <li aria-current="page" v-html="$page.role.title" />
       </ol>
     </nav>
+
     <div class="cover cover--with-breadcrumb">
      <div class="cover__container">
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Vous êtes</div>

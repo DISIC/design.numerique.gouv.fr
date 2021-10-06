@@ -1,16 +1,16 @@
 <template>
   <Layout class="formations-page">
 
-     <!-- <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <span aria-current="page">Les formations</span>
+          <span aria-current="page">Formations</span>
         </li>
       </ol>
-    </nav> -->
+    </nav>
 
     <div class="cover">
      <div class="cover__container">
@@ -125,23 +125,37 @@
 
   .formations-page {
 
-    li {
-      list-style-type: none;
-    }
+    .content {
 
-    a {
-
-      svg {
-        padding-right: 12px;
-        transition: .1s all;
+      ul {
+        margin-bottom: 1rem;
+        margin-top: -0.5rem;
       }
 
-      &:hover {
-        svg {
-          padding-left: 8px;
-          padding-right: 4px;
+      li {
+        list-style-type: none;
+
+        &:before {
+          content: none;
         }
       }
+
+      a {
+        box-sizing: initial;
+
+        svg {
+          padding-right: 12px;
+          transition: .1s all;
+        }
+
+        &:hover {
+          svg {
+            padding-left: 8px;
+            padding-right: 4px;
+          }
+        }
+      }
+
     }
   }
 

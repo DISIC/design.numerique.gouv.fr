@@ -2,19 +2,18 @@
 
 @import "alerts";
 @import "articles";
-@import "breadcrumb";
+//@import "breadcrumb";
 @import "buttons";
 @import "cover";
-@import "ds";
-@import "covid";
+@import "dsfr";
 @import "form";
 @import "messages";
 @import "print";
 
 body {
-  margin: 0;
   font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
+  margin: 0;
   color: $black;
   background-color: white;
 
@@ -29,14 +28,13 @@ body {
 
 h1, h2, h3, h4 {
   font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.2;
-  color: $black;
 }
 
 h1 {
   font-size: 3.5em;
   font-weight: 800;
   color: $blue;
+  line-height: 1.2;
 
   @media only screen and (max-width: $mobile-max-width) {
     font-size: 2em;
@@ -64,7 +62,8 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: 800;
-
+  line-height: 1.2;
+  margin: 1rem 0;
   @media only screen and (max-width: $mobile-max-width) {
     font-size: 1.5em;
   }
@@ -86,17 +85,25 @@ h2 {
 
 h3 {
   font-size: 1.2em;
+  margin: 1rem 0;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+p {
+  margin: 1rem 0;
 }
 
 a {
   box-shadow: none;
   position: static;
 
-  &:not(button):not(.button):not(.rf-service__title):not(.rf-link):not(.footer__logo) {
+  &:not(button):not(.button):not(.fr-header__service-title):not(.fr-nav__link):not(.fr-footer__bottom-link):not(.fr-link) {
     text-decoration: none;
     color: $blue;
     transition: .2s all;
-    box-shadow: none;
     border-bottom: 1px solid rgba($blue, 0.5);
 
     &:hover {
@@ -105,7 +112,6 @@ a {
     }
 
     &:focus {
-      background-color: $light;
       outline-color: $blue;
     }
 
@@ -115,23 +121,11 @@ a {
       outline-color: $blue;
     }
   }
-
-  &[target="_blank"]::after {
-    content: "" !important;
-  }
 }
 
 .content {
   margin: 0 auto;
 
-  ul {
-    padding-left: 20px;
-
-    > li {
-      list-style-type: disc;
-      list-style-position: outside;
-    }
-  }
   section {
     margin-bottom: 64px;
 
@@ -143,6 +137,21 @@ a {
       margin: -0.5rem 0 2rem 0;
     }
   }
+  ol, ul {
+    list-style-position: outside;
+    list-style-type: disc;
+
+    & > li::before {
+      display: auto;
+      content: none;
+      font-size: auto;
+    }
+  }
+
+  ol, ol > li, ul, ul > li {
+    margin-left: 0.5rem;
+  }
+
   .download {
     padding: 0;
     text-align: center;
@@ -151,4 +160,5 @@ a {
       margin: 0.5rem 2rem;
     }
   }
+
 }

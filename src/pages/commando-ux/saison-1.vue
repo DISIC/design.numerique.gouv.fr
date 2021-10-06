@@ -2,12 +2,12 @@
   <Layout class="saison-1-page">
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
-          <g-link to="/commando-ux/">Commando UX</g-link>
+          <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
         </li>
         <li>
           <span aria-current="page">Saison 1</span>
@@ -321,6 +321,10 @@
         margin: 0px 4px 48px 4px;
         position: relative;
 
+        &:before {
+          content: none;
+        }
+
         @media only screen and (max-width: $mobile-max-width) {
           width: 100%;
           margin: 0px 0px 32px 0px;
@@ -519,6 +523,10 @@
         text-align: center;
         width: 30%;
         margin: 24px 4px;
+
+        &:before {
+          content: none;
+        }
 
         @media only screen and (max-width: $mobile-max-width) {
           width: 46%;

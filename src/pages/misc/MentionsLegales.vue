@@ -1,10 +1,10 @@
 <template>
   <Layout class="legal-page">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
         <li>
-          <g-link to="/">Accueil</g-link>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
         </li>
         <li>
           <span aria-current="page">Mentions légales</span>
@@ -25,7 +25,7 @@
         <section>
           <h2>Éditeur</h2>
           <p>
-            Ce site est édité par l'équipe Design des services numériques, au sein de la direction interministérielle
+            Ce site est édité par l’équipe Design des services numériques, au sein de la direction interministérielle
             du numérique, un service du Premier ministre.
           </p>
           <p>
@@ -51,8 +51,8 @@
         <section>
           <h2>Conception et gestion du site</h2>
           <p>
-            Ce site est conçu et développé par l'équipe Design des services numériques. De nouvelles
-            fonctionnalités sont ajoutées en continue.
+            Ce site est conçu et développé par l’équipe Design des services numériques. De nouvelles
+            fonctionnalités sont ajoutées en continu.
           </p>
         </section>
 
@@ -87,7 +87,7 @@
             Netlify Inc.</br>
             2325 3rd Street, Suite 215</br>
             San Francisco, California 94107</br>
-            États-Unis d'Amérique</br>
+            États-Unis d’Amérique</br>
             +1 844-899-7312</br>
           </p>
         </section>

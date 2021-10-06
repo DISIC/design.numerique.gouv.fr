@@ -1,6 +1,17 @@
 <template>
   <Layout class="articles-page">
 
+    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+      <ol class="fr-breadcrumb__list">
+        <li>
+          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+        </li>
+        <li>
+          <span aria-current="page">Articles</span>
+        </li>
+      </ol>
+    </nav>
+
     <div class="cover">
      <div class="cover__container">
 
@@ -46,7 +57,7 @@
 
 <script>
 
-  import Blog from "~/assets/images/blog.svg"
+  import Blog from "~/assets/images/articles.svg"
 
   export default {
     components: {
@@ -102,10 +113,10 @@
   .articles-page {
 
     .cover {
-      margin-bottom: 80px;
+      margin-bottom: 4rem;
 
       @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 48px;
+        margin-bottom: 3rem;
       }
 
     }

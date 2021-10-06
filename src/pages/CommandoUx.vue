@@ -170,8 +170,8 @@
             firstName
             lastName
             ghostName
-            photo (width: 64, height: 64, quality: 100)
-            ghostPhoto (width: 64, height: 64, quality: 100)
+            photo (width: 64, height: 64, quality: 50)
+            ghostPhoto (width: 64, height: 64, quality: 50)
           }
           jobs {
             count

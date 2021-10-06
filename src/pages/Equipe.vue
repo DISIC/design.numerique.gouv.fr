@@ -104,7 +104,7 @@
           sub_team
           sub_team_link
           twitter
-          photo (width: 150, height: 150, quality: 100)
+          photo (width: 300, height: 300, quality: 50)
           group
           content
         }

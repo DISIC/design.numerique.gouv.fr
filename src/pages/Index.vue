@@ -286,6 +286,7 @@
       }
 
       &__top {
+        position: relative;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -299,6 +300,17 @@
 
         @media only screen and (max-width: $mobile-max-width) {
           display: none;
+        }
+
+        a {
+          &:after {
+            position: absolute;
+            content: "";
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+          }
         }
       }
 

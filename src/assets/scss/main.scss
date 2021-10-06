@@ -137,7 +137,6 @@ a {
       margin: -0.5rem 0 2rem 0;
     }
   }
-
   ol, ul {
     list-style-position: outside;
     list-style-type: disc;
@@ -152,4 +151,14 @@ a {
   ol, ol > li, ul, ul > li {
     margin-left: 0.5rem;
   }
+
+  .download {
+    padding: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0.5rem 2rem;
+    }
+  }
+
 }

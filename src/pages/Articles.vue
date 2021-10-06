@@ -57,7 +57,7 @@
 
 <script>
 
-  import Blog from "~/assets/images/blog.svg"
+  import Blog from "~/assets/images/articles.svg"
 
   export default {
     components: {

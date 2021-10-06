@@ -441,7 +441,7 @@
 
             @media only screen and (max-width: $mobile-max-width) {
               margin-left: -39px;
-              margin-top: -5px;
+              margin-top: 0px;
             }
           }
         }

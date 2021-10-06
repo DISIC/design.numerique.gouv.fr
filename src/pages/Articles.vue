@@ -45,7 +45,7 @@
         	id
           title
           publishedDate (format: "D MMMM YYYY", locale : "fr")
-          illustration
+          illustration (width: 400, height: 156, quality: 50)
           description
           path
         }

@@ -7,7 +7,7 @@
         <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
       </li>
       <li>
-        <g-link to="/formations/" class="fr-breadcrumb__link">Formation</g-link>
+        <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
         <span aria-current="page">Formation accessibilité</span>
@@ -17,7 +17,7 @@
 
   <div class="cover">
       <div class="cover__container">
-        <!-- <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div> -->
+        <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
         <h1>Formation accessibilité</h1>
         <p class="cover__subtitle">
           Pourquoi et comment bien prendre en compte les situations de handicap.
@@ -57,18 +57,18 @@
 
           <h3>Inscription</h3>
           <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
-          <form class="form" v-on:submit.prevent="addCandidate">
+          <form class="form" v-on:submit.prevent="addParticipant">
               <div class="fr-input-group">
                   <label class="fr-label" for="email">Votre adresse e-mail<span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
                   <input class="fr-input" type="email" id="email" v-model="form.email" required>
               </div>
               <div class="fr-input-group">
-                  <label class="fr-label" for="commune">Votre organisme</label>
-                  <input class="fr-input" type="text" id="commune" v-model="form.organisme" required>
+                  <label class="fr-label" for="organisme">Votre organisme</label>
+                  <input class="fr-input" type="text" id="organisme" v-model="form.organisme" required>
               </div>
 
               <p class="rgpd">
-                Les données recueillies sur ce formulaire sont traitées par les équipes de la Dinum. Elles nous permettent de vous informer via e-mail des nouvelles liées à cet événement.
+                Les données recueillies sur ce formulaire sont traitées par les équipes de la DINUM. Elles nous permettent de vous informer via e-mail des nouvelles liées à cet événement.
               </p>
 
               <p class="rgpd rgpd--small">
@@ -86,29 +86,29 @@
 
 
 <script>
-  import CommandoUX from "~/assets/images/accompagnement.svg"
+  import Formations from "~/assets/images/formations.svg"
 
   export default {
     components: {
-      CommandoUX,
+      Formations,
     },
     metaInfo: {
-      title: "Partager votre intérêt pour le Commando UX",
+      title: "Formation accessibilité",
       meta: [{
         name: 'description',
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
       },
       {
         property: 'og:title',
-        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+        content: "Formation accessibilité - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       },
       {
         name: "twitter:card",
@@ -120,57 +120,39 @@
       },
       {
         name: "twitter:title",
-        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+        content: "Formation accessibilité - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     },
     data () {
       return {
         form: {
           email: '',
-          firstName: '',
-          lastName: '',
-          phone: '',
-          city: '',
-          skills: [],
-          otherSkills: '',
-          experience: '',
-          profil: '',
-          duration: [],
-          delay: '',
-          cv: '',
-          more: '',
+          organisme: '',
+          formation: 'Accessibilité',
+          session: '2021-11-18'
         }
       }
     },
     methods: {
-      addCandidate() {
+      addParticipant() {
         document.getElementById('submit').disabled = true;
         var Airtable = require('airtable');
-        var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE);
-        base('Candidats').create([
+        var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_COURSE_BASE);
+        base('Inscriptions').create([
         {
           "fields": {
-            "Email": this.form.email,
-            "Prénom": this.form.firstName,
-            "Nom": this.form.lastName,
-            "Téléphone": this.form.phone,
-            "Commune": this.form.city,
-            "Expertise": this.form.skills,
-            "Autres compétences": this.form.otherSkills,
-            "Expérience": this.form.experience,
-            "Portfolio": this.form.portfolio,
-            "Durée": this.form.duration,
-            "Délai": this.form.delay,
-            "CV": this.form.cv,
-            "Plus": this.form.more
+            "E-mail": this.form.email,
+            "Organisme": this.form.organisme,
+            "Formation": this.form.formation,
+            "Session": this.form.session,
           }
         },
       ], function(err, records) {
@@ -194,15 +176,6 @@
 
   .formation-design-page {
 
-    .cover {
-      h1 {
-        font-size: 3rem;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 1.5rem;
-        }
-      }
-    }
   }
 
 </style>

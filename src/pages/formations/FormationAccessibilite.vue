@@ -29,7 +29,7 @@
     <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
           <h2>Jeudi 18 novembre de 10h à 12h</h2>
-          <p>En <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="visio sur la chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur la chaîne YouTube</a> du pôle <a href="https://design.numerique.gouv.fr/" target="_blank" title="design des services numériques - Nouvelle fenêtre">design des services numériques</a> de la direction interministérielle du numérique (DINUM)</p>
+          <p>En <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
 
           <h3>Objectifs</h3>
           <ul>

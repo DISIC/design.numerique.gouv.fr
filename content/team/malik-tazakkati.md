@@ -8,7 +8,7 @@ sub_team: France Relance
 sub_team_link: 
 twitter:
 e-mail :
-group : ["external"]
+group :
 ---
 
 Bio à venir

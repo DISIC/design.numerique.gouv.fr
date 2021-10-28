@@ -20,7 +20,7 @@
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
         <h1>Formation à l'accessibilité</h1>
         <p class="cover__subtitle">
-          Pourquoi et comment bien prendre en compte les personnes en situations de handicap dans la conception de services publiques numériques.
+          Pourquoi et comment bien prendre en compte les personnes en situation de handicap dans la conception de services publiques numériques.
         </p>
       </div>
   </div>

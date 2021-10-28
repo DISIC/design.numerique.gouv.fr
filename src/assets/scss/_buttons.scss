@@ -46,6 +46,17 @@
       cursor: not-allowed;
     }
 
+    &--strong {
+      color: white;
+      background-color: $blue;
+
+      &:hover, &:focus {
+        color: $blue;
+        border-color: $blue;
+        background-color: white;
+      }
+    }
+
     &--highlight {
       box-shadow: 0.25rem 0.25rem 0 $light;
     }

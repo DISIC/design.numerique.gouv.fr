@@ -10,7 +10,7 @@
         <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
-        <span aria-current="page">Formation accessibilité</span>
+        <span aria-current="page">Formation à la recherche utilisateur</span>
       </li>
     </ol>
   </nav>
@@ -18,9 +18,9 @@
   <div class="cover">
       <div class="cover__container">
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation accessibilité</h1>
+        <h1>Formation à la recherche utilisateur</h1>
         <p class="cover__subtitle">
-          Pourquoi et comment bien prendre en compte les situations de handicap.
+          Importance et mise en place.
         </p>
       </div>
   </div>
@@ -28,14 +28,14 @@
   <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
-          <h2>Jeudi 18 novembre de 10h à 12h</h2>
+          <h2>Jeudi 9 décembre 10h à 12h</h2>
           <p>En <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
 
           <h3>Objectifs</h3>
           <ul>
-            <li>S'approprier les concepts de l'accessibilité d'un point de vue historique et juridique</li>
-            <li>Connaître les obligations, identifier les rôles et responsabilités</li>
-            <li>S'organiser et disposer d'une boîte à outils</li>
+            <li>Connaître l'importance et l'utilité de la recherche utilisateur dans la conception et développement de services numériques</li>
+            <li>Se poser les bonnes questions</li>
+            <li>Savoir où trouver les bons interlocuteurs</li>
           </ul>
 
           <h3>Public concerné</h3>
@@ -43,16 +43,13 @@
 
           <h3>Programme</h3>
           <ul>
-            <li>Immersion</li>
-            <li>Un peu d'histoire</li>
-            <li>Démonstration</li>
-            <li>Définition et dispositif légal</li>
-            <li>Prévalence du handicap</li>
-            <li>Le Référentiel général d'amélioration de l'accessibilité (RGAA)</li>
-            <li>Méthodes et outils</li>
+            <li>Qu'est-ce que la recherche utilisateur ?</li>
+            <li>Pourquoi faire de la recherche utilisateur ?</li>
+            <li>Quand et comment faire de la recherche utilisateur ?</li>
+            <li>Les outils à votre disposition</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-design/">design</g-link> et <g-link to="/formations/formation-recherche-utilisateur/">recherche usager</g-link> (formulaires distincts).</p>
+          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-design/">design</g-link> et <g-link to="/formations/formation-accessibilite/">accessibilité</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>
@@ -93,21 +90,21 @@
       Formations,
     },
     metaInfo: {
-      title: "Formation accessibilité",
+      title: "Formation à la recherche utilisateur",
       meta: [{
-        name: 'description',
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        name: "description",
+        content: "Importance et mise en place"
       },
       {
-        property: 'og:title',
-        content: "Formation accessibilité - DesignGouv"
+        property: "og:title",
+        content: "Formation à la recherche utilisateur - DesignGouv"
       },
       {
-        property: 'og:description',
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        property: "og:description",
+        content: "Importance et mise en place"
       },
       {
-        property: 'og:image',
+        property: "og:image",
         content: "https://design.numerique.gouv.fr/designGouv.png"
       },
       {
@@ -120,11 +117,11 @@
       },
       {
         name: "twitter:title",
-        content: "Formation accessibilité - DesignGouv"
+        content: "Formation à la recherche utilisateur - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        content: "Importance et mise en place"
       },
       {
         name: "twitter:image",
@@ -136,8 +133,8 @@
         form: {
           email: '',
           organisme: '',
-          formation: 'Accessibilité',
-          session: '2021-11-18'
+          formation: 'Recherche',
+          session: '2021-12-09'
         }
       }
     },

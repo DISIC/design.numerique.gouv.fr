@@ -78,7 +78,7 @@
                 Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
               </p>
 
-              <button class="button" id="submit" type="submit">S'inscrire</button>
+              <button class="button button--strong" id="submit" type="submit">S'inscrire</button>
           </form>
         </div>
       </div>

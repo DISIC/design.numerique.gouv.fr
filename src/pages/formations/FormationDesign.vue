@@ -96,21 +96,21 @@
       Formations,
     },
     metaInfo: {
-      title: "Formation accessibilité",
+      title: "Formation au design",
       meta: [{
-        name: 'description',
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        name: "description",
+        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre"
       },
       {
-        property: 'og:title',
-        content: "Formation accessibilité - DesignGouv"
+        property: "og:title",
+        content: "Formation au design - DesignGouv"
       },
       {
-        property: 'og:description',
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        property: "og:description",
+        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre"
       },
       {
-        property: 'og:image',
+        property: "og:image",
         content: "https://design.numerique.gouv.fr/designGouv.png"
       },
       {
@@ -123,11 +123,11 @@
       },
       {
         name: "twitter:title",
-        content: "Formation accessibilité - DesignGouv"
+        content: "Formation au design - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre"
       },
       {
         name: "twitter:image",

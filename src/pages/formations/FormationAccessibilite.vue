@@ -93,21 +93,21 @@
       Formations,
     },
     metaInfo: {
-      title: "Formation accessibilité",
+      title: "Formation à l'accessibilité",
       meta: [{
-        name: 'description',
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        name: "description",
+        content: "Pourquoi et comment bien prendre en compte les situations de handicap"
       },
       {
-        property: 'og:title',
-        content: "Formation accessibilité - DesignGouv"
+        property: "og:title",
+        content: "Formation à l'accessibilité - DesignGouv"
       },
       {
-        property: 'og:description',
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        property: "og:description",
+        content: "Pourquoi et comment bien prendre en compte les situations de handicap"
       },
       {
-        property: 'og:image',
+        property: "og:image",
         content: "https://design.numerique.gouv.fr/designGouv.png"
       },
       {
@@ -120,11 +120,11 @@
       },
       {
         name: "twitter:title",
-        content: "Formation accessibilité - DesignGouv"
+        content: "Formation à l'accessibilité - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap."
+        content: "Pourquoi et comment bien prendre en compte les situations de handicap"
       },
       {
         name: "twitter:image",

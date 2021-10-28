@@ -20,7 +20,7 @@
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
         <h1>Formation à l'accessibilité</h1>
         <p class="cover__subtitle">
-          Pourquoi et comment bien prendre en compte les personnes en situations de handicap.
+          Pourquoi et comment bien prendre en compte les personnes en situations de handicap dans la conception de services publiques numériques.
         </p>
       </div>
   </div>
@@ -52,7 +52,7 @@
             <li>Méthodes et outils</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-design/">design</g-link> et <g-link to="/formations/formation-recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
+          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/design/">design</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>
@@ -96,7 +96,7 @@
       title: "Formation à l'accessibilité",
       meta: [{
         name: "description",
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap"
+        content: "Pourquoi et comment bien prendre en compte les personnes en situations de handicap dans la conception de services publiques numériques"
       },
       {
         property: "og:title",
@@ -104,7 +104,7 @@
       },
       {
         property: "og:description",
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap"
+        content: "Pourquoi et comment bien prendre en compte les personnes en situations de handicap dans la conception de services publiques numériques"
       },
       {
         property: "og:image",
@@ -124,7 +124,7 @@
       },
       {
         name: "twitter:description",
-        content: "Pourquoi et comment bien prendre en compte les situations de handicap"
+        content: "Pourquoi et comment bien prendre en compte les personnes en situations de handicap dans la conception de services publiques numériques"
       },
       {
         name: "twitter:image",

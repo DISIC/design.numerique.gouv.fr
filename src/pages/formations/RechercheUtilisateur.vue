@@ -20,7 +20,7 @@
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
         <h1>Formation à la recherche utilisateur</h1>
         <p class="cover__subtitle">
-          Importance et mise en place.
+          Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !
         </p>
       </div>
   </div>
@@ -49,7 +49,7 @@
             <li>Les outils à votre disposition</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-design/">design</g-link> et <g-link to="/formations/formation-accessibilite/">accessibilité</g-link> (formulaires distincts).</p>
+          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/design/">design</g-link> et <g-link to="/formations/accessibilite/">accessibilité</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>
@@ -93,7 +93,7 @@
       title: "Formation à la recherche utilisateur",
       meta: [{
         name: "description",
-        content: "Importance et mise en place"
+        content: "Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !"
       },
       {
         property: "og:title",
@@ -101,7 +101,7 @@
       },
       {
         property: "og:description",
-        content: "Importance et mise en place"
+        content: "Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !"
       },
       {
         property: "og:image",
@@ -121,7 +121,7 @@
       },
       {
         name: "twitter:description",
-        content: "Importance et mise en place"
+        content: "Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !"
       },
       {
         name: "twitter:image",

@@ -38,6 +38,11 @@
     .cover {
       &__container {
         max-width: 48rem;
+        padding-top: 2rem;
+
+        @media only screen and (max-width: $mobile-max-width) {
+          padding-top: 0;
+        }
 
         h1 {
           color: $red;

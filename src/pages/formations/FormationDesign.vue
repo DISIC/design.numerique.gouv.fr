@@ -55,7 +55,7 @@
             <li>Les interlocuteurs et outils pour la mise en œuvre</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-accessibilite/">accessibilité</g-link> et <g-link to="/formations/formation-recherche-utilisateur/">recherche usager</g-link> (formulaires distincts).</p>
+          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-accessibilite/">accessibilité</g-link> et <g-link to="/formations/formation-recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>

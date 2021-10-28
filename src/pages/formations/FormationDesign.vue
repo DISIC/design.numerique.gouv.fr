@@ -26,7 +26,7 @@
   </div>
 
   <div class="content fr-container">
-    <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+    <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
           <h2>Mardi 30 novembre de 10h à 12h</h2>
           <p>En <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>

@@ -10,7 +10,7 @@
         <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
-        <span aria-current="page">Formation accessibilité</span>
+        <span aria-current="page">Formation au design</span>
       </li>
     </ol>
   </nav>
@@ -18,9 +18,9 @@
   <div class="cover">
       <div class="cover__container">
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation accessibilité</h1>
+        <h1>Formation au design</h1>
         <p class="cover__subtitle">
-          Pourquoi et comment bien prendre en compte les situations de handicap.
+          Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre.
         </p>
       </div>
   </div>
@@ -28,14 +28,16 @@
   <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
-          <h2>Jeudi 18 novembre de 10h à 12h</h2>
+          <h2>Mardi 30 novembre de 10h à 12h</h2>
           <p>En <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
 
           <h3>Objectifs</h3>
           <ul>
-            <li>S'approprier les concepts de l'accessibilité d'un point de vue historique et juridique</li>
-            <li>Connaître les obligations, identifier les rôles et responsabilités</li>
-            <li>S'organiser et disposer d'une boîte à outils</li>
+            <li>Connaitre les principes fondamentaux et les définitions</li>
+            <li>Découvrir les bénéfices de cette approche</li>
+            <li>Mettre en œuvre les méthodes dans la conception et l'amélioration des démarches administratives numériques</li>
+            <li>Identifier les rôles et responsabilités</li>
+            <li>Disposer d'une boite à outils et d'un carnet de contacts</li>
           </ul>
 
           <h3>Public concerné</h3>
@@ -43,16 +45,17 @@
 
           <h3>Programme</h3>
           <ul>
-            <li>Immersion</li>
-            <li>Un peu d'histoire</li>
-            <li>Démonstration</li>
-            <li>Définition et dispositif légal</li>
-            <li>Prévalence du handicap</li>
-            <li>Le Référentiel général d'amélioration de l'accessibilité (RGAA)</li>
-            <li>Méthodes et outils</li>
+            <li>Qu'est-ce que le design centré usager ? Objectifs, principes et définitions</li>
+            <li>Les résultats de sa mise en œuvre</li>
+            <li>Comment intégrer le design dans la conception des démarches numériques ?</li>
+            <li>La recherche utilisateur</li>
+            <li>Utiliser le système de design de l'État</li>
+            <li>L'accessibilité et le design</li>
+            <li>Quels rôles et quelle organisation</li>
+            <li>Les interlocuteurs et outils pour la mise en œuvre</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-design/">design</g-link> et <g-link to="/formations/formation-recherche-utilisateur/">recherche usager</g-link> (formulaires distincts).</p>
+          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/formation-accessibilite/">accessibilité</g-link> et <g-link to="/formations/formation-recherche-utilisateur/">recherche usager</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>
@@ -136,8 +139,8 @@
         form: {
           email: '',
           organisme: '',
-          formation: 'Accessibilité',
-          session: '2021-11-18'
+          formation: 'Design',
+          session: '2021-11-30'
         }
       }
     },

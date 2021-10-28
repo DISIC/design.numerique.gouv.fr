@@ -10,7 +10,7 @@
         <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
-        <span aria-current="page">Formation accessibilité</span>
+        <span aria-current="page">Formation à l'accessibilité</span>
       </li>
     </ol>
   </nav>
@@ -18,7 +18,7 @@
   <div class="cover">
       <div class="cover__container">
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation accessibilité</h1>
+        <h1>Formation à l'accessibilité</h1>
         <p class="cover__subtitle">
           Pourquoi et comment bien prendre en compte les situations de handicap.
         </p>

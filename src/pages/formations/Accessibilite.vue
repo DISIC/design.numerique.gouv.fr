@@ -20,7 +20,7 @@
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
         <h1>Formation à l'accessibilité</h1>
         <p class="cover__subtitle">
-          Pourquoi et comment bien prendre en compte les situations de handicap.
+          Pourquoi et comment bien prendre en compte les personnes en situations de handicap.
         </p>
       </div>
   </div>

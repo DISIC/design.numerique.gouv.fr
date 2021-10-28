@@ -1,5 +1,5 @@
 <template>
-<Layout class="formation-design-page" hideNewsletter>
+<Layout class="formation-accessibilite-page" hideNewsletter>
 
   <nav aria-label="Breadcrumb" class="fr-breadcrumb">
     <ol class="fr-breadcrumb__list">
@@ -174,7 +174,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .formation-design-page {
+  .formation-accessibilite-page {
 
   }
 

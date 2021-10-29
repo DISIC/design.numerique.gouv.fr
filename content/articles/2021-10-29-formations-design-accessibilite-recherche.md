@@ -29,7 +29,7 @@ Importance et mise en place de la recherche utilisateur.
 
 ***
 Ces formations auront lieu en direct sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie).  
-Si vous n'êtes pas disponible à ces dates, ces formations seront disponibles en en différé sur notre chaine YouTube.  
+Si vous n'êtes pas disponible à ces dates, ces formations seront disponibles en différé sur notre chaine YouTube.  
 
 Elles s’adressent à toutes les personnes qui travaillent sur des services publics en ligne. Promis, en les suivant, vous saurez quoi faire, comment et pourquoi !
 

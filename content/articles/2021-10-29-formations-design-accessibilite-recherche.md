@@ -12,19 +12,19 @@ Le numérique doit avant tout nous permettre d’améliorer la relation entre le
 Pour que les administrations se posent les bonnes questions aux bons moments, pour qu'elles prennent les bonnes décisions avec les bonnes méthodes et les bons outils, pour qu'elles travaillent avec les bons interlocuteurs, nous vous proposons trois formations gratuites indispensables :
 
 ## Formation accessibilité
-**Jeudi 18 novembre de 10h à 12h**
-Pourquoi et comment bien prendre en compte les personnes en situation de handicap.
-[En savoir plus](https://design.numerique.gouv.fr/formations/accessibilite/){title="Formation accessibilité"}
+**Jeudi 18 novembre de 10h à 12h**  
+Pourquoi et comment bien prendre en compte les personnes en situation de handicap.  
+[En savoir plus](/formations/accessibilite/){title="Formation accessibilité"}
 
 ## Formation design
-**Mardi 30 novembre de 10h à 12h**
-Connaître les principes du design centré utilisateur (UX) et les moyens de leur mise en œuvre.
-[En savoir plus](https://design.numerique.gouv.fr/formations/design/){title="Formation design"}
+**Mardi 30 novembre de 10h à 12h**  
+Connaître les principes du design centré utilisateur (UX) et les moyens de leur mise en œuvre.  
+[En savoir plus](/formations/design/){title="Formation design"}
 
 ## Formation recherche utilisateur
-**Jeudi 9 décembre de 10h à 12h**
-Importance et mise en place de la recherche utilisateur.
-[En savoir plus](https://design.numerique.gouv.fr/formations/recherche-utilisateur/){title="Formation recherche utilisateur"}
+**Jeudi 9 décembre de 10h à 12h**  
+Importance et mise en place de la recherche utilisateur.  
+[En savoir plus](/formations/recherche-utilisateur/){title="Formation recherche utilisateur"}
 
 Ces formations auront lieu en direct (et en différé si vous n'êtes pas disponible) sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie).
 

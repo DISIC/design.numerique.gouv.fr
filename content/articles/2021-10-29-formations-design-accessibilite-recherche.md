@@ -1,5 +1,5 @@
 ---
-title: Retrouvons-nous lors de ces 3 formations en ligne
+title: Musclez vos connaissances en design, accessibilité et recherche utilisateur
 slug: 2021-10-29-formations-design-accessibilite-recherche
 publishedDate: 2021-10-29
 tags: ["", ""]

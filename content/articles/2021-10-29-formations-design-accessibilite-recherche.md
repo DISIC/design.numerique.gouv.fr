@@ -26,7 +26,10 @@ Connaître les principes du design centré utilisateur (UX) et les moyens de leu
 Importance et mise en place de la recherche utilisateur.  
 [En savoir plus](/formations/recherche-utilisateur/){title="Formation recherche utilisateur"}
 
-Ces formations auront lieu en direct (et en différé si vous n'êtes pas disponible) sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie).
+
+<br/>
+Ces formations auront lieu en direct sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie).  
+Si vous n'êtes pas disponible à ces dates, ces formations seront disponibles en en différé sur notre chaine YouTube.  
 
 Elles s’adressent à toutes les personnes qui travaillent sur des services publics en ligne. Promis, en les suivant, vous saurez quoi faire, comment et pourquoi !
 

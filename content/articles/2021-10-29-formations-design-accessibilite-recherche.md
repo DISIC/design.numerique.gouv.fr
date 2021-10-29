@@ -27,7 +27,7 @@ Importance et mise en place de la recherche utilisateur.
 [En savoir plus](/formations/recherche-utilisateur/){title="Formation recherche utilisateur"}
 
 
-<br/>
+<br>
 Ces formations auront lieu en direct sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie).  
 Si vous n'êtes pas disponible à ces dates, ces formations seront disponibles en en différé sur notre chaine YouTube.  
 

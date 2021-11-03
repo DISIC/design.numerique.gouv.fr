@@ -12,17 +12,16 @@ contact: marine.boudeau@modernisation.gouv.fr
 ## Descriptif du poste
 
 ### Mission
-Vous rejoignez le pôle Design des services numérique pour animer la communication sur tous les réseaux sociaux, et valoriser les actions autour de la transformation numérique de l’État. Vous paticipez au développement d’une culture de design d'inclusion au sein de l’État, et à la montée compétence des administrations sur nos sujets.
+Vous rejoignez le pôle Design des services numérique pour animer la communication sur tous les réseaux sociaux, et valoriser les actions autour de la transformation numérique de l’État. Vous paticipez au développement d’une culture de design centré sur les besoins des citoyens au sein de l’État, et à la montée compétence des administrations sur nos sujets (design, recherche utilisateur, accessibilité numérique).  
 
 
 ### Activités principales
-- Assurer la création, la diffusion et l'optimisation des messages en fonction de la plateforme (réseaux sociaux, blog, newsletter)
-- Accroître et engager les différentes communautés
-- Mesurer les actions menées et proposer des axes d’amélioration
-- Veille (design, fonction publique, etc)
+- Assurer la création, la diffusion et l'optimisation des messages en fonction des plateformes (réseaux sociaux, blog, newsletter)
+- Engager et accroître les différentes communautés (équipes chargées de piloter les services publics numériques, designers, développeurs, etc)
+- Créer des visuels et supports (réseaux sociaux, newsletter, .pptx)
 - Participer à l'organisation d'événements
-- Accompagner l’équipe dans sa pratique des réseaux sociaux
-- Compétences en design graphique
+- Veille (design, fonction publique, etc)
+- Mesurer les actions menées et proposer des axes d’amélioration
 - Bonus : réaliser des vidéos et interviews
 - Bonus : intérêt au développement de stratégies de communication
 
@@ -37,11 +36,13 @@ Vous rejoignez le pôle Design des services numérique pour animer la communicat
 ### Savoir‐faire
 - Maîtrise parfaite des réseaux sociaux
 - Excellentes qualités rédactionnelles et orthographe irréprochable
+- Compétences en design graphique
 - À l'aise avec le numérique
 
 ### Savoir-être
 - Intérêt pour nos sujets
 - Créativité sans bornes
+- Force de proposition
 - Sens de l'humour
 - Sens de l'esthétique
 

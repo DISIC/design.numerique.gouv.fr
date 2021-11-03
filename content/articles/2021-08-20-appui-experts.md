@@ -8,7 +8,7 @@ description: L'équipe DSN met à votre disposition designers, et experts en rec
 ---
 
 ## Soyez l'une des équipes qui bénéficiera de notre accompagnement !
-### N'attendez pas, écrivez-nous avant le vendredi 10 septembre
+### N'attendez pas, écrivez-nous
 
 Si vous êtes responsable d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
 
@@ -27,7 +27,7 @@ On ne vous demande ni banderoles ni slogans mais il faut quand même manifester 
 - de la volonté !
 - de la motivation !
 - de l'ouverture aux propositions !
-- votre besoin **avant le vendredi 10 septembre** par e-mail : experts@design.numerique.gouv.fr !
+- votre besoin par e-mail : experts@design.numerique.gouv.fr !
 
 En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pas les inconvénients, les blocages et les problèmes potentiels, il n'y en a pas 😊.
 
@@ -49,7 +49,7 @@ Un autre besoin ? Demandez-nous !
 
 ### Concrètement, ça se passe comment ? 
 
-1. Vous nous écrivez à experts@design.numerique.gouv.fr **d'ici le 10 septembre** en indiquant la ou les démarches administratives concernées
+1. Vous nous écrivez à experts@design.numerique.gouv.fr en indiquant la ou les démarches administratives concernées
 2. Nous nous rencontrons pour définir le type de ressources dont vous pourrez bénéficier et nous fixons ensemble les objectifs
 3. Les experts démarrent les travaux avec vous
 

@@ -12,7 +12,7 @@ contact: marine.boudeau@modernisation.gouv.fr
 ## Descriptif du poste
 
 ### Mission
-Vous rejoignez le pôle Design des services numériques pour animer la communication sur nos différents réseaux. Vous paticipez au développement d’une culture de design centrée sur les besoins des citoyens au sein de l’État, et à la montée compétence des administrations sur nos sujets (design, recherche utilisateur, accessibilité numérique).  
+Vous rejoignez le pôle Design des services numériques pour animer la communication sur nos différents réseaux. Vous participez au développement d’une culture de design centrée sur les besoins des citoyens au sein de l’État, et à la montée compétence des administrations sur nos sujets (design, recherche utilisateur, accessibilité numérique).  
 
 
 ### Activités principales

@@ -10,5 +10,3 @@ twitter: mazalaiguev
 e-mail :
 group : ["team"]
 ---
-
-Bio à venir

@@ -8,7 +8,7 @@
       </p>
 
       <g-link to="/articles/2021-10-29-formations-design-accessibilite-recherche/">
-        Informations et inscriptions<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
+        Infos et inscriptions à nos formations<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
       </g-link>
 
   </div>

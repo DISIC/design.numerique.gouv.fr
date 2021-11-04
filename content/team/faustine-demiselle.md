@@ -10,5 +10,3 @@ twitter:
 e-mail :
 group :
 ---
-
-Bio à venir

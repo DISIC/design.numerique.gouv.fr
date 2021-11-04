@@ -10,5 +10,3 @@ twitter: bedqck
 e-mail :
 group : ["team"]
 ---
-
-Bio à venir

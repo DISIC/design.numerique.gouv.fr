@@ -12,5 +12,3 @@ twitter:
 e-mail :
 group : ["external"]
 ---
-
-Bio à venir

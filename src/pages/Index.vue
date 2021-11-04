@@ -10,7 +10,7 @@
 
     <div class="content">
 
-      <Commando/>
+      <Formation/>
 
       <section class="items">
 
@@ -169,7 +169,7 @@
 
 <script>
 
-  import Commando from "~/components/alerts/Commando.vue"
+  import Formation from "~/components/alerts/Formation.vue"
   import Design from "~/assets/images/design.svg"
   import Accessibilite from "~/assets/images/accessibilite.svg"
   import Outils from "~/assets/images/outils.svg"
@@ -182,7 +182,7 @@
 
   export default {
     components: {
-      Commando,
+      Formation,
       Design,
       Accessibilite,
       Outils,

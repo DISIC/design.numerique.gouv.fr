@@ -1,6 +1,6 @@
 ---
 title:  Framadate,  notre première contribution au logiciel libre
-slug: 2021-11-05-test
+slug: 2021-11-05-Framadate-notre-premiere-contribution-au-logiciel-libre
 publishedDate: 2021-11-05
 tags: ["logiciel libre", "open source"]
 illustration: ./illustrations/2021-11-05-framadate-lancement.jpg
@@ -11,7 +11,7 @@ description: Contribuer concrètement au logiciel libre par le design et l'acces
 
 En plus de son activité habituelle, **le pôle Design des services numériques (DSN) a lancé une initiative dédiée au logiciel libre**.
 
-Le pôle DSN souhaite ainsi poursuivre la mission déjà engagée lors de projets plus anciens, tel que le [Socle interministériel du logiciel libre](https://sill.etalab.gouv.fr), en complétant les actions de la DINUM par une contribution concrète à un outil régulièrement utilisé dans les administrations. Ainsi, l'équipe apporte une expertise dans le domaine du **design et de l'accessibilité**, deux versants pour lesquels les acteurs du logiciel libre disposent souvent de peu de ressources. Cette initiative ne pourrait pas être possible sans le soutien financier du [FIPHFP](http://www.fiphfp.fr/). 
+Le pôle DSN souhaite ainsi poursuivre la mission déjà engagée lors de projets plus anciens, tel que le [Socle interministériel du logiciel libre](https://sill.etalab.gouv.fr), en complétant les actions de la DINUM par une contribution concrète à un outil régulièrement utilisé dans les administrations. Ainsi, l'équipe apporte une expertise dans le domaine du **design et de l'accessibilité**, deux versants pour lesquels les acteurs du logiciel libre disposent souvent de peu de ressources. Cette initiative ne pourrait pas être possible sans le soutien financier du [FIPHFP](http://www.fiphfp.fr/).
 
 Le premier logiciel libre à bénéficier de cette initiative est l'outil [Framadate](https://framadate.org) de [Framasoft](https://framasoft.org/) ! Après des échanges avec les membres de l'association et un audit de l'outil, nous avons pu définir deux grands axes d'amélioration : le parcours utilisateur sur mobile et l'optimisation de l'accessibilité.
 

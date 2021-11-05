@@ -118,7 +118,7 @@ query Article ($id: ID!) {
       text-align: center;
       margin-top: 2rem;
       margin-bottom: 1.5rem;
-      
+
       @media only screen and (max-width: $mobile-max-width) {
         margin-top: 8px;
       }
@@ -195,9 +195,16 @@ query Article ($id: ID!) {
       }
 
       img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
+        max-width: 100%;
+        text-align: center;
+      }
+
+      img[alt='Logo Framadate'] {
+        width: 200px;
+      }
+
+      img[alt='Demo Framadate'] {
+        width: 200px;
       }
     }
 

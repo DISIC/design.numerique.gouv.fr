@@ -17,7 +17,7 @@ Le premier logiciel libre à bénéficier de cette initiative est l'outil [Frama
 
 ### Nouvelle identité
 
-A cette occasion, nous avons travaillé sur une nouvelle identité graphique, ainsi qu'un nouveau logo :
+À cette occasion, nous avons travaillé sur une nouvelle identité graphique, ainsi qu'un nouveau logo :
 
 <div style="text-align:center">
 

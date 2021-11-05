@@ -33,7 +33,7 @@
 
         <h3>Accessibilité</h3>
         <ul>
-          <li><g-link to="/formations/accessibilite/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Formation initiale à l'accessbilité numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
+          <li><g-link to="/formations/accessibilite/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Formation initiale à l’accessibilité numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
         </ul>
 
         <h3>Design</h3>

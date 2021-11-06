@@ -10,7 +10,7 @@
         <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
-        <span aria-current="page">Formation à l'accessibilité</span>
+        <span aria-current="page">Formation à l’accessibilité</span>
       </li>
     </ol>
   </nav>
@@ -18,7 +18,7 @@
   <div class="cover">
       <div class="cover__container">
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation à l'accessibilité</h1>
+        <h1>Formation à l’accessibilité</h1>
         <p class="cover__subtitle">
           Pourquoi et comment bien prendre en compte les personnes en situation de handicap dans la conception de services publiques numériques.
         </p>
@@ -33,9 +33,9 @@
 
           <h3>Objectifs</h3>
           <ul>
-            <li>S'approprier les concepts de l'accessibilité d'un point de vue historique et juridique</li>
+            <li>S’approprier les concepts de l’accessibilité d’un point de vue historique et juridique</li>
             <li>Connaître les obligations, identifier les rôles et responsabilités</li>
-            <li>S'organiser et disposer d'une boîte à outils</li>
+            <li>S’organiser et disposer d’une boîte à outils</li>
           </ul>
 
           <h3>Public concerné</h3>
@@ -44,19 +44,19 @@
           <h3>Programme</h3>
           <ul>
             <li>Immersion</li>
-            <li>Un peu d'histoire</li>
+            <li>Un peu d’histoire</li>
             <li>Démonstration</li>
             <li>Définition et dispositif légal</li>
             <li>Prévalence du handicap</li>
-            <li>Le Référentiel général d'amélioration de l'accessibilité (RGAA)</li>
+            <li>Le référentiel général d’amélioration de l’accessibilité (RGAA)</li>
             <li>Méthodes et outils</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/design/">design</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
+          <p>N’oubliez pas, nous proposons deux autres formations : <g-link to="/formations/design/">design</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>
-          <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
+          <p>Pour que nous puissions vous communiquer d’éventuelles précisions et que nous sachions qui se trouvera de l’autre côté de l’écran, vous pouvez nous envoyer ce formulaire.</p>
           <form class="form" v-on:submit.prevent="addParticipant">
               <div class="fr-input-group">
                   <label class="fr-label" for="email">Votre adresse e-mail<span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
@@ -75,7 +75,7 @@
                 Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
               </p>
 
-              <button class="button button--strong" id="submit" type="submit">S'inscrire</button>
+              <button class="button button--strong" id="submit" type="submit">S’inscrire</button>
           </form>
         </div>
       </div>

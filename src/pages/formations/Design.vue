@@ -20,7 +20,7 @@
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
         <h1>Formation au design</h1>
         <p class="cover__subtitle">
-          Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publiques numériques.
+          Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques.
         </p>
       </div>
   </div>
@@ -99,7 +99,7 @@
       title: "Formation au design",
       meta: [{
         name: "description",
-        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publiques numériques"
+        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques"
       },
       {
         property: "og:title",
@@ -107,7 +107,7 @@
       },
       {
         property: "og:description",
-        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publiques numériques"
+        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques"
       },
       {
         property: "og:image",
@@ -127,7 +127,7 @@
       },
       {
         name: "twitter:description",
-        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publiques numériques"
+        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques"
       },
       {
         name: "twitter:image",

@@ -85,7 +85,7 @@
       <section>
         <h2 id="lot-2">Lot 2 : formations</h2>
         <p>Le lot 2 concerne les prestations de formation relatives au RGAA et l'accessibilité numérique à destination de l'Etat et des établissements publics.</p>
-        <p>Validité : jusqu’au 30 octobre 2021, <strong>il n’est donc plus possible de commander ce lot<strong></p>
+        <p>Validité : jusqu’au 30 octobre 2021, <strong>il n’est donc plus possible de commander ce lot</strong></p>
       </section>
       <section>
         <h3>Les prestataires</h3>

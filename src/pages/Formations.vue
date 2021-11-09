@@ -29,23 +29,28 @@
         <h2>
           <Formations class="h2__icon" focusable="false" aria-hidden="true"/>Nos formations
         </h2>
-        <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons trois formations gratuites indispensables&nbsp;:</p>
+        <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons quatre formations gratuites indispensables&nbsp;:</p>
 
         <h3>Accessibilité</h3>
         <ul>
-          <li><g-link to="/formations/accessibilite/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Formation initiale à l’accessibilité numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
+          <li><g-link to="/formations/accessibilite/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true" />Formation initiale à l’accessibilité numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
         </ul>
 
         <h3>Design</h3>
         <ul>
-          <li><g-link to="/formations/design/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Formation initiale au design numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
+          <li><g-link to="/formations/design/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale au design numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
         </ul>
 
         <h3>Recherche utilisateur</h3>
         <ul>
-          <li><g-link to="/formations/recherche-utilisateur/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px"/>Formation initiale à la recherche utilisateur</g-link>, 2 heures, gratuit, niveau débutant.</li>
+          <li><g-link to="/formations/recherche-utilisateur/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à la recherche utilisateur</g-link>, 2 heures, gratuit, niveau débutant.</li>
+        </ul>
+        <h3>Écoconception</h3>
+        <ul>
+          <li><g-link to="/formations/ecoconception/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à l’écoconception</g-link>, 2 heures, gratuit, niveau débutant.</li>
         </ul>
       </section>
+
 
       <section>
 

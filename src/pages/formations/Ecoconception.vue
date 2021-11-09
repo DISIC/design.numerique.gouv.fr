@@ -33,9 +33,8 @@
 
           <h3>Objectifs</h3>
           <ul>
-            <li>Connaître les impacts environnementaux du numérique</li>
-            <li>Mettre en œuvre le référentiel général d’écoconception de service numérique</li>
-            <li>Savoir mesurer</li>
+            <li>Connaître et mesurer les impacts environnementaux du numérique</li>
+            <li>Mettre en œuvre le référentiel général d’écoconception de services numériques</li>
           </ul>
 
           <h3>Public concerné</h3>
@@ -46,10 +45,10 @@
             <li>Les impacts environnementaux du numérique</li>
             <li>La mission Green Tech – numérique écoresponsable</li>
             <li>L’analyse du cycle de vie</li>
-            <li>Pourquoi l’écoconception de service numérique ? Pour qui ?</li>
-            <li>Mettre en œuvre le référentiel d’écoconception de service numérique</li>
-            <li>Les outils libres et open source dédié à la mesure</li>
-            <li>Système de design de l’État</li>
+            <li>Pourquoi l’écoconception de services numériques ? Pour qui ?</li>
+            <li>La mise en œuvre du référentiel d’écoconception de service numérique</li>
+            <li>Les outils libres et open source dédiés à la mesure</li>
+            <li>Le système de design de l’État</li>
             <li>Les clés à retenir</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>

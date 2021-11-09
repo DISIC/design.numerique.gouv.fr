@@ -38,3 +38,7 @@ Si vous n'êtes pas disponible à ces dates, ces formations seront disponibles e
 Elles s’adressent à toutes les personnes qui travaillent sur des services publics en ligne. Promis, en les suivant, vous saurez quoi faire, comment et pourquoi !
 
 **C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !**
+
+***
+
+[mis à jour le 9 novembre 2021 : ajout de la formation écoconception]

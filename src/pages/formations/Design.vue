@@ -47,15 +47,15 @@
           <ul>
             <li>Qu'est-ce que le design centré usager ? Objectifs, principes et définitions</li>
             <li>Les résultats de sa mise en œuvre</li>
-            <li>Comment intégrer le design dans la conception des démarches numériques ?</li>
+            <li>Comment intégrer le design dans la conception des démarches numériques ?</li>
             <li>La recherche utilisateur</li>
             <li>Utiliser le système de design de l'État</li>
             <li>L'accessibilité et le design</li>
             <li>Quels rôles et quelle organisation</li>
             <li>Les interlocuteurs et outils pour la mise en œuvre</li>
           </ul>
-          <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
+          <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
+          <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/accessibilite/">accessibilité</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>

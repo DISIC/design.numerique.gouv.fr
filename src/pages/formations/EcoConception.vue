@@ -10,7 +10,7 @@
         <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
-        <span aria-current="page">Formation  l’éco-conception</span>
+        <span aria-current="page">Formation à l’écoconception</span>
       </li>
     </ol>
   </nav>
@@ -18,9 +18,9 @@
   <div class="cover">
       <div class="cover__container">
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation à l’éco-conception</h1>
+        <h1>Formation à l’écoconception</h1>
         <p class="cover__subtitle">
-          Pourquoi et comment bien faire des services publics numériques.
+          Pourquoi et comment écoconcevoir des services publics numériques.
         </p>
       </div>
   </div>
@@ -33,26 +33,27 @@
 
           <h3>Objectifs</h3>
           <ul>
-            <li>S'approprier les concepts de l’éco-conception</li>
-            <li>Connaître les obligations, identifier les rôles et responsabilités</li>
-            <li>S'organiser et disposer d'une boîte à outils</li>
+            <li>Connaître les impacts environnementaux du numérique</li>
+            <li>Mettre en œuvre le référentiel général d’écoconception de service numérique</li>
+            <li>Savoir mesurer</li>
           </ul>
 
           <h3>Public concerné</h3>
-          <p>Agents de la fonction publique ou prestataires impliqués dans la conception des démarches administratives numériques.</p>
+          <p>Agents de la fonction publique ou prestataires impliqués dans la conception des services numériques publics.</p>
 
           <h3>Programme</h3>
           <ul>
-            <li>Immersion</li>
-            <li>Un peu d'histoire</li>
-            <li>Démonstration</li>
-            <li>Définition et dispositif légal</li>
-            <li>Prévalence du handicap</li>
-            <li>Le Référentiel général d’éco-conception</li>
-            <li>Méthodes et outils</li>
+            <li>Les impacts environnementaux du numérique</li>
+            <li>La mission Green Tech – numérique écoresponsable</li>
+            <li>L’analyse du cycle de vie</li>
+            <li>Pourquoi l’écoconception de service numérique ? Pour qui ?</li>
+            <li>Mettre en œuvre le référentiel d’écoconception de service numérique</li>
+            <li>Les outils libres et open source dédié à la mesure</li>
+            <li>Système de design de l’État</li>
+            <li>Les clés à retenir</li>
           </ul>
-          <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons deux autres formations : <g-link to="/formations/design/">design</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
+          <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
+          <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>
@@ -93,14 +94,14 @@
       Formations,
     },
     metaInfo: {
-      title: "Formation à l’éco-conception",
+      title: "Formation à l’écoconception",
       meta: [{
         name: "description",
         content: ""
       },
       {
         property: "og:title",
-        content: "Formation à l’éco-conception - DesignGouv"
+        content: "Formation à l’écoconception - DesignGouv"
       },
       {
         property: "og:description",
@@ -120,7 +121,7 @@
       },
       {
         name: "twitter:title",
-        content: "Formation à l’éco-conception - DesignGouv"
+        content: "Formation à l’écoconception - DesignGouv"
       },
       {
         name: "twitter:description",

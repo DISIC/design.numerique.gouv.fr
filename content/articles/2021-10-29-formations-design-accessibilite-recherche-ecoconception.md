@@ -1,15 +1,15 @@
 ---
-title: Musclez vos connaissances en design, accessibilité et recherche utilisateur
-slug: 2021-10-29-formations-design-accessibilite-recherche
+title: Musclez vos connaissances en design, accessibilité, recherche utilisateur et écoconception
+slug: 2021-10-29-formations-design-accessibilite-recherche-ecoconception
 publishedDate: 2021-10-29
 tags: ["", ""]
 illustration: ./illustrations/2021-10-29-formations.png
-description: Formations accessibilité, design et recherche utilisateur dans la conception de services publics numériques
+description: Formations accessibilité, design, recherche utilisateur et écoconception de services publics numériques
 ---
 
 Le numérique doit avant tout nous permettre d’améliorer la relation entre les citoyens et l’administration, à travers des services simples, accessibles et humains. Ces services doivent s’adresser à toutes et tous, quels que soient nos particularités et nos usages.
 
-Pour que les administrations se posent les bonnes questions aux bons moments, pour qu'elles prennent les bonnes décisions avec les bonnes méthodes et les bons outils, pour qu'elles travaillent avec les bons interlocuteurs, nous vous proposons trois formations gratuites indispensables :
+Pour que les administrations se posent les bonnes questions aux bons moments, pour qu'elles prennent les bonnes décisions avec les bonnes méthodes et les bons outils, pour qu'elles travaillent avec les bons interlocuteurs, nous vous proposons quatre formations gratuites indispensables :
 
 ## Formation accessibilité
 **Jeudi 18 novembre de 10h à 12h**  
@@ -26,6 +26,10 @@ Connaître les principes du design centré utilisateur (UX) et les moyens de leu
 Importance et mise en place de la recherche utilisateur.  
 [En savoir plus](/formations/recherche-utilisateur/){title="Formation recherche utilisateur"}
 
+## Formation écoconception
+**Jeudi 16 décembre de 10h à 12h**  
+Pourquoi et comment écoconcevoir des services publics numériques.  
+[En savoir plus](/formations/ecoconception/){title="Formation écoconception"}
 
 ***
 Ces formations auront lieu en direct sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie).  

@@ -137,7 +137,7 @@
         form: {
           email: '',
           organisme: '',
-          formation: 'Ecoconception',
+          formation: 'Écoconception',
           session: '2021-12-16'
         }
       }

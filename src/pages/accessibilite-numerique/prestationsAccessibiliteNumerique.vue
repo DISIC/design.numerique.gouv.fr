@@ -50,7 +50,73 @@
       <section>        
         <h2>Quel est le coût d’un audit accessibilité d’un site web ?</h2>
         <p>Cela dépend du niveau de complexité du site (nombre de pages différentes, types de composants mis en œuvre, technologies,etc.</p>
-        <p>En PJ, un relevé des prix moyens des anciennes unités d’œuvre par niveau de complexité et arrondies à la centaine d’euros (prix en euros HT).</p>
+
+        <div class="fr-table fr-table--no-scroll">
+          <table>
+              <caption>Prix moyens des anciennes unités d’œuvre par niveau de complexité et arrondies à la centaine d’euros (prix en euros HT)</caption>
+              <thead>
+                  <tr>
+                      <th scope="col">Service de la prestation</th>
+                      <th scope="col">Niveau de complexité du site</th>
+                      <th scope="col">Prix moyen</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td rowspan="3">Accompagnement</td>
+                      <td>simple</td>
+                      <td>2 200</td>
+                  </tr>
+                  <tr>
+                      <td>moyen</td>
+                      <td>4 200</td>
+                  </tr>
+                  <tr>
+                      <td>complexe</td>
+                      <td>6 900</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="3">Diagnostic rapide</td>
+                      <td>simple</td>
+                      <td>1 900</td>
+                  </tr>
+                  <tr>
+                      <td>moyen</td>
+                      <td>2 900</td>
+                  </tr>
+                  <tr>
+                      <td>complexe</td>
+                      <td>4 300</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="3">Audit initial</td>
+                      <td>simple</td>
+                      <td>2 800</td>
+                  </tr>
+                  <tr>
+                      <td>moyen</td>
+                      <td>3 800</td>
+                  </tr>
+                  <tr>
+                      <td>complexe</td>
+                      <td>4 900</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="3">Audit de contôle</td>
+                      <td>simple</td>
+                      <td>2 100</td>
+                  </tr>
+                  <tr>
+                      <td>moyen</td>
+                      <td>3 100</td>
+                  </tr>
+                  <tr>
+                      <td>complexe</td>
+                      <td>4 200</td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
         <p>On peut constater qu’il est possible de commander des audits pour plusieurs sites (et de l’accompagnement) en restant inférieur à 40 K€, donc sans aucune procédure (il suffit de demander au moins 2 devis à des acteurs différents).</p>
       </section>
       <section>

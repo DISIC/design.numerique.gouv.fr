@@ -28,8 +28,8 @@
   <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
-          <h2>Rediffusion</h2>
-          <p>La formation a eu lieu en direct le jeudi 18 novembre. Vous pouvez revivre la formation <a href="https://www.youtube.com/watch?v=_5zIrh-LDto&t=2456s" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
+          <h2>Revivez la formation en vidéo</h2>
+          <p>La formation a eu lieu en direct le jeudi 18 novembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=_5zIrh-LDto&t=2456s" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
 
           <h3>Objectifs</h3>
           <ul>

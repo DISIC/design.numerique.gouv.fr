@@ -39,7 +39,7 @@
       <section>
         <h2 id="lot-1">Lot 1 : accompagnement et audit</h2>
         <p>Le lot 1 concerne les prestations d'accompagnement et d'audit des services de communication au public en ligne de l'Etat et des établissements publics dans le cadre de la mise en conformité avec les exigences en matière d’accessibilité (RGAA ou ses documents annexes).</p>
-        <p>Validité : envoi du bon de commande via Chorus avant le <strong>20 novembre 2021</strong></p>
+        <p>Validité : jusqu’au 20 novembre 2021, <strong>il n’est donc plus possible de commander ce lot</strong></p>
       </section>
       <section>
         <h3>Les prestataires</h3>

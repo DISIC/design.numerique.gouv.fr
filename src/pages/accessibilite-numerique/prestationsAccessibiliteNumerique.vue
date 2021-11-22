@@ -47,6 +47,14 @@
         <p>Au sein des marchés à procédure adaptée (Mapa) , il existe un seuil intermédiaire de 90 000 €HT qui n’influe que sur la publicité et pas sur la procédure.</p>
         <p>En dessous de ce seuil, l’acheteur choisit librement les critères de publicité (exemple : profil d’acheteur, BOAMP, presse spécialisée, presse régionale, etc.).</p>
       </section>
+
+      <div class="fr-grid-row fr-grid-row--center">
+        <div class="fr-callout fr-col-lg-10 fr-mt-2w fr-mb-8w">
+          <h3 class="fr-callout__title">Le <abbr title="Fonds pour l’Insertion des Personnes Handicapées dans la Fonction Publique">FIPHFP</abbr> peut vous aider</h3>
+          <p class="fr-callout__text">Le FIPHFP peut apporter une aide financière sur les prestations de formations des agents de la fonction publique.<br>
+      Retrouvez les informations du <a href="http://www.fiphfp.fr/Espace-employeur/Interventions-du-FIPHFP" target="_blank" title="financement accessibilité numérique - nouvelle fenêtre">financement accessibilité numérique</a>.</p>
+        </div>
+      </div>
       <section>        
         <h2>Quel est le coût d’un audit accessibilité d’un site web ?</h2>
         <p>Cela dépend du niveau de complexité du site (nombre de pages différentes, types de composants mis en œuvre, technologies,etc.</p>

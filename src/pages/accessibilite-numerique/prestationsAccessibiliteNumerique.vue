@@ -57,7 +57,7 @@
       </div>
       <section>        
         <h2>Quel est le coût d’un audit accessibilité d’un site web ?</h2>
-        <p>Cela dépend du niveau de complexité du site (nombre de pages différentes, types de composants mis en œuvre, technologies,etc.</p>
+        <p>Cela dépend du niveau de complexité du site (exemples : nombre de pages différentes, types de composants mis en œuvre, technologies,etc.).</p>
 
         <div class="fr-table fr-table--no-scroll">
           <table>
@@ -128,7 +128,7 @@
         <p>On peut constater qu’il est possible de commander des audits pour plusieurs sites (et de l’accompagnement) en restant inférieur à 40 K€, donc sans aucune procédure (il suffit de demander au moins 2 devis à des acteurs différents).</p>
       </section>
       <section>
-        <p>Pour rappel, le précédent marché contenait deux lots : « accompagnement et audit » et « formations ».</p>
+        <p>Pour rappel, le précédent accord-cadre contenait deux lots : « accompagnement et audit » et « formations ».</p>
         <h2 id="lot-1">Lot 1 : accompagnement et audit</h2>
         <p>Le lot 1 concerne les prestations d’accompagnement et d’audit des services de communication au public en ligne de l’Etat et des établissements publics dans le cadre de la mise en conformité avec les exigences en matière d’accessibilité (RGAA ou ses documents annexes).</p>
         <h3>Les prestations d’accompagnement</h3>

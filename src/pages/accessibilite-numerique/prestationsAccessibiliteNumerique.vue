@@ -62,7 +62,7 @@
       <section>
         <p>Pour rappel, le précédent accord-cadre contenait deux lots : « accompagnement et audit » et « formations ».</p>
         <h2 id="lot-1">Lot 1 : accompagnement et audit</h2>
-        <p>Le lot 1 concerne les prestations d’accompagnement et d’audit des services de communication au public en ligne de l’Etat et des établissements publics dans le cadre de la mise en conformité avec les exigences en matière d’accessibilité (RGAA ou ses documents annexes).</p>
+        <p>Le lot 1 concerne les prestations d’accompagnement et d’audit des services de communication au public en ligne de l’État et des établissements publics dans le cadre de la mise en conformité avec les exigences en matière d’accessibilité (RGAA ou ses documents annexes).</p>
         <h3>Les prestations d’accompagnement</h3>
         <ul>
           <li><strong>Schéma pluriannuel</strong> : Accompagnement pour la mise en œuvre et le suivi du schéma pluriannuel de mise en accessibilité des services de communication au public en ligne</li>
@@ -80,7 +80,7 @@
           <li><strong>Audit accompagné</strong> d’un service de communication au public en ligne</li>
         </ul>
         <h2 id="lot-2">Lot 2 : formations</h2>
-        <p>Le lot 2 concerne les prestations de formation relatives au RGAA et l’accessibilité numérique à destination de l’Etat et des établissements publics.</p>
+        <p>Le lot 2 concerne les prestations de formation relatives au RGAA et l’accessibilité numérique à destination de l’État et des établissements publics.</p>
         <h3>Les prestations de formation</h3>
         <ul>
           <li>Sensibilisation</li>

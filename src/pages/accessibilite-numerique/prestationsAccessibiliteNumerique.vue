@@ -27,35 +27,43 @@
       <section>
         <h2>Les dispositions règlementaires</h2>
         <p>Les services souhaitant acheter une prestation d’audit, d’accompagnement en accessibilité numérique peuvent s’appuyer sur plusieurs dispositions règlementaires de la commande publique. (<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F32049" target="_blank" title="les procédures de marchés publics - nouvelle fenêtre">Les procédures de marchés publics</a>).</p>
-        <h3>Montant inférieur à 40 000 €HT (soit 39 999,99 € HT)</h3>
-        <p>L’acheteur peut passer un marché sans publicité ni mise en concurrence préalables pour répondre à un besoin dont la valeur estimée est inférieure à 40 000 euros hors taxes ou pour les lots dont le montant est inférieur à 40 000 euros hors taxes et qui remplissent la condition prévue au b du 2° de l’article R. 2123-1.</p>
+        <h3>Montant inférieur à 40 000 € HT (soit 39 999,99 € HT)</h3>
+        <p>L’acheteur peut passer un marché sans publicité ni mise en concurrence préalables pour répondre à un besoin dont la valeur estimée est inférieure à 40 000 euros hors taxes ou pour les lots dont le montant est inférieur à 40 000 € HT et qui remplissent la condition prévue au b du 2° de l’article R. 2123-1.</p>
         <p>L’acheteur veille à choisir une offre pertinente, à faire une bonne utilisation des deniers publics et à ne pas contracter systématiquement avec un même opérateur économique lorsqu’il existe une pluralité d’offres susceptibles de répondre au besoin.</p>
         <p>Conformément à l’article 4 du décret n° 2019-1344 du 12 décembre 2019, les présentes dispositions entrent en vigueur le 1er janvier 2020.</p>
-        <h3>Montant inférieur à 80 000 €HT (soit 79 999,99 € HT)</h3>
+        <h3>Montant inférieur à 80 000 € HT (soit 79 999,99 € HT)</h3>
         <p>L’acheteur peut recourir à une procédure adaptée pour passer :</p>
         <ol>
           <li>Un marché dont la valeur estimée hors taxes du besoin est inférieure aux seuils européens mentionnés dans un avis qui figure en annexe du présent code ;</li>
           <li>Un lot d’un marché alloti dont le montant total est égal ou supérieur aux seuils de procédure formalisée et qui remplit les deux conditions suivantes :
             <ul>
             <li>La valeur estimée de chaque lot concerné est inférieure à 80 000 euros hors taxes pour des fournitures ou des services ou à 1 million d’euros hors taxes pour des travaux ;</li>
-            <li>Le montant cumulé de ces lots n’excède pas 20 % de la valeur totale estimée de tous les lots ;</li>
+            <li>Le montant cumulé de ces lots n’excède pas 20 % de la valeur totale estimée de tous les lots ;</li>
             </ul>
           </li>
           <li>Un marché ayant pour objet des services sociaux et autres services spécifiques, dont la liste figure dans un avis annexé au présent code, quelle que soit la valeur estimée du besoin.</li>
           </ol>
-        <h3>Montant inférieur à 90 000 €HT (soit 89 999,99 € HT)</h3>
-        <p>Au sein des marchés à procédure adaptée (Mapa) , il existe un seuil intermédiaire de 90 000 €HT qui n’influe que sur la publicité et pas sur la procédure.</p>
+        <h3>Montant inférieur à 90 000 € HT (soit 89 999,99 € HT)</h3>
+        <p>Au sein des marchés à procédure adaptée (Mapa) , il existe un seuil intermédiaire de 90 000 € HT qui n’influe que sur la publicité et pas sur la procédure.</p>
         <p>En dessous de ce seuil, l’acheteur choisit librement les critères de publicité (exemple : profil d’acheteur, BOAMP, presse spécialisée, presse régionale, etc.).</p>
       </section>
       <section>
         <h3>Quel est le coût d’un audit ?</h3>
-        <p>Le coût d’un audit de conformité au RGAA dépend du niveau de complexité du site (exemples : nombre de pages différentes, types de composants mis en œuvre, technologies, etc.).<br/>Il est compris entre 2 000 et 5 000 euros.</p>
+        <p>Le coût d’un audit de conformité au RGAA dépend du niveau de complexité du site (exemples : nombre de pages différentes, types de composants mis en œuvre, technologies, etc.).<br/>Il est compris entre 2 000 et 5 000 € HT.</p>
+        <h3>Quel est le coût d’une formation ?</h3>
+        <p>Il existe plusieurs types de formation à l’accessibilité numérique dont le contenu et la durée diffèrent selon le public cible et les objectifs :</p>
+        <ul>  
+          <li>Une sensibilisation à l‘accessibilisation dure entre deux heures et une demie journée ;</li>
+          <li>Une formation « gestion de projet web accessible » dure entre un et trois jours ;</li>
+          <li>Une formation « développer un site web accessible » dure au minimum trois jours ;</li>
+          <li>Une formation « auditeur ou auditrice RGAA » dure environ cinq jours.</li>
+        </ul>
       </section>
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-col-lg-10 fr-mt-2w fr-mb-8w">
           <h3 class="fr-callout__title">Le <abbr title="Fonds pour l’Insertion des Personnes Handicapées dans la Fonction Publique">FIPHFP</abbr> peut vous aider</h3>
-          <p class="fr-callout__text">Le FIPHFP peut apporter une aide financière sur les prestations de <strong>formations des agents de la fonction publique</strong>.<br>
-      Retrouvez les informations du <a href="http://www.fiphfp.fr/Espace-employeur/Interventions-du-FIPHFP" target="_blank" title="financement accessibilité numérique - nouvelle fenêtre">financement accessibilité numérique</a>.</p>
+          <p class="fr-callout__text">Le FIPHFP peut apporter une aide financière sur les prestations d’audit, d’accompagnement et de <strong>formation des agents de la fonction publique</strong>.<br>
+          Retrouvez les informations du <a href="http://www.fiphfp.fr/Espace-employeur/Interventions-du-FIPHFP" target="_blank" title="financement accessibilité numérique - nouvelle fenêtre">financement accessibilité numérique</a>.</p>
         </div>
       </div>
 

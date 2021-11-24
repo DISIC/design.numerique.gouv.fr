@@ -42,7 +42,7 @@
       <h2>Se faire aider</h2>
       <p>Le <g-link to="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="guichet France Relance - nouvelle fenêtre">guichet France Relance</g-link> vous permet de financer l’amélioration de la qualité de vos démarches.</p>       
       <p>Vous pouvez également bénéficier de <a href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite" title="financement - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">financement</a> de la part du <abbr title="Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique">FIPHFP</abbr> pour la <strong>formation</strong> de vos agents ou la <strong>mise en accessibilité</strong> de vos interfaces.</p>
-      <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel DAE</g-link> pour de l’<strong>accompagnement</strong> et de la <strong>formation</strong>. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessiblité, etc.</p>
+      <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à un <g-link to="/accessibilite-numerique/prestations-accessibilite-numerique">prestataire</g-link> pour de l’<strong>accompagnement</strong>, de la <strong>formation</strong>, des <strong>audits</strong> RGAA, des tests avec des utilisateurs en situation de handicap, la constitution d’un schéma pluriannuel de mise en accessiblité, etc.</p>
     </div>
 
   </Layout>

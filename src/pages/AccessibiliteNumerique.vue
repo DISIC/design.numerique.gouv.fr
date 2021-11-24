@@ -62,20 +62,13 @@
         <p>Les <g-link to="/accessibilite-numerique/roles-cles/">fiches métiers</g-link> décrivent votre rôle, vos actions et vos outils.</p>
 
         <h3>Je souhaite faire un état des lieux</h3>
-        <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> et sollicitez un expert pour effectuer un <strong>diagnostic rapide</strong>, des <strong>audits</strong> complets ou un <strong>accompagnement</strong> de vos équipes.</p>
+        <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à un <g-link to="/accessibilite-numerique/prestations-accessibilite-numerique">prestataire</g-link> et sollicitez un ou une experte pour effectuer un <strong>diagnostic rapide</strong>, des <strong>audits</strong> complets ou <strong>accompagner vos équipes</strong>.</p>
         
         <h3>Je souhaite établir une déclaration d’accessibilité</h3>
         <p>C’est très simple. Vous pouvez utiliser le <g-link to="/outils/exemple-declaration-accessibilite/">modèle de déclaration</g-link>.</p>
 
         <h3>Je souhaite former mes équipes</h3>
-        <p>Vous pouvez utiliser l’<g-link to="/accessibilite-numerique/accord-cadre-dae">accord-cadre interministériel <abbr title="direction des achats de l’État">DAE</abbr></g-link> pour <strong>former et sensibiliser</strong> vos équipes.</p> 
-        <p>Le lot 2 prévoit des prestations de sensibilisation et de formations spécifiques :</p>
-        <ul>
-          <li>conception et développement</li>
-          <li>ergonome</li>
-          <li>rédaction de contenus éditoriaux accessibles</li>
-          <li>auditeur RGAA</li>
-        </ul>
+        <p>Vous pouvez faire appel à des <g-link to="/accessibilite-numerique/prestations-accessibilite-numerique">prestataires</g-link> pour <strong>former et sensibiliser</strong> vos équipes.<br>Le <abbr title="Fonds pour l’Insertion des Personnes Handicapées dans la Fonction Publique">FIPHFP</abbr> peut vous aider à financer la formation des agents publics.</p>
 
         <h3>Dans tous les cas, utilisez le <g-link to="/accessibilite-numerique/jeu-de-oaa">jeu de l’<abbr title="organisation de l’amélioration de l’accessiblité">oaa</abbr></g-link>.</h3>
 

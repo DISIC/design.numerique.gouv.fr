@@ -33,8 +33,7 @@
           <li>Les Ministères à part le MEN et le MESRI</li>
           <li>25 Etablissements Publics</li>
         </ul>
-        <p><a href="/accessibilite-numerique/beneficiaires/">Voir la liste détaillée des bénéficiaires</a> de cet accord-cadre.</p>
-      </section>
+       </section>
 
       <section>
         <h2 id="lot-1">Lot 1 : accompagnement et audit</h2>

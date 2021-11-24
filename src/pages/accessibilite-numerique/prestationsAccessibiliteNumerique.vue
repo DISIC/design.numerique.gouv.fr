@@ -19,7 +19,7 @@
 
        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
        <h1>Prestations <span class="text-highlight">accessibilité numérique</span></h1>
-        <p>L’Accord cadre accompagnement et formations de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2022, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
+        <p>L’accord cadre accompagnement et formations de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2022, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
       </div>
     </div>
 
@@ -47,86 +47,18 @@
         <p>Au sein des marchés à procédure adaptée (Mapa) , il existe un seuil intermédiaire de 90 000 €HT qui n’influe que sur la publicité et pas sur la procédure.</p>
         <p>En dessous de ce seuil, l’acheteur choisit librement les critères de publicité (exemple : profil d’acheteur, BOAMP, presse spécialisée, presse régionale, etc.).</p>
       </section>
-
+      <section>
+        <h3>Quel est le coût d’un audit ?</h3>
+        <p>Le coût d’un audit de conformité au RGAA dépend du niveau de complexité du site (exemples : nombre de pages différentes, types de composants mis en œuvre, technologies, etc.).<br/>Il est compris entre 2 000 et 5 000 euros.</p>
+      </section>
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-col-lg-10 fr-mt-2w fr-mb-8w">
           <h3 class="fr-callout__title">Le <abbr title="Fonds pour l’Insertion des Personnes Handicapées dans la Fonction Publique">FIPHFP</abbr> peut vous aider</h3>
-          <p class="fr-callout__text">Le FIPHFP peut apporter une aide financière sur les prestations de formations des agents de la fonction publique.<br>
+          <p class="fr-callout__text">Le FIPHFP peut apporter une aide financière sur les prestations de <strong>formations des agents de la fonction publique</strong>.<br>
       Retrouvez les informations du <a href="http://www.fiphfp.fr/Espace-employeur/Interventions-du-FIPHFP" target="_blank" title="financement accessibilité numérique - nouvelle fenêtre">financement accessibilité numérique</a>.</p>
         </div>
       </div>
-      <section>        
-        <h2>Quel est le coût d’un audit accessibilité d’un site web ?</h2>
-        <p>Cela dépend du niveau de complexité du site (exemples : nombre de pages différentes, types de composants mis en œuvre, technologies,etc.).</p>
 
-        <div class="fr-table fr-table--no-scroll">
-          <table>
-              <caption>Prix moyens des anciennes unités d’œuvre par niveau de complexité et arrondies à la centaine d’euros (prix en euros HT)</caption>
-              <thead>
-                  <tr>
-                      <th scope="col">Service de la prestation</th>
-                      <th scope="col">Niveau de complexité du site</th>
-                      <th scope="col">Prix moyen</th>
-                  </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                      <td rowspan="3">Accompagnement</td>
-                      <td>simple</td>
-                      <td>2 200</td>
-                  </tr>
-                  <tr>
-                      <td>moyen</td>
-                      <td>4 200</td>
-                  </tr>
-                  <tr>
-                      <td>complexe</td>
-                      <td>6 900</td>
-                  </tr>
-                  <tr>
-                      <td rowspan="3">Diagnostic rapide</td>
-                      <td>simple</td>
-                      <td>1 900</td>
-                  </tr>
-                  <tr>
-                      <td>moyen</td>
-                      <td>2 900</td>
-                  </tr>
-                  <tr>
-                      <td>complexe</td>
-                      <td>4 300</td>
-                  </tr>
-                  <tr>
-                      <td rowspan="3">Audit initial</td>
-                      <td>simple</td>
-                      <td>2 800</td>
-                  </tr>
-                  <tr>
-                      <td>moyen</td>
-                      <td>3 800</td>
-                  </tr>
-                  <tr>
-                      <td>complexe</td>
-                      <td>4 900</td>
-                  </tr>
-                  <tr>
-                      <td rowspan="3">Audit de contôle</td>
-                      <td>simple</td>
-                      <td>2 100</td>
-                  </tr>
-                  <tr>
-                      <td>moyen</td>
-                      <td>3 100</td>
-                  </tr>
-                  <tr>
-                      <td>complexe</td>
-                      <td>4 200</td>
-                  </tr>
-              </tbody>
-          </table>
-        </div>
-        <p>On peut constater qu’il est possible de commander des audits pour plusieurs sites (et de l’accompagnement) en restant inférieur à 40 K€, donc sans aucune procédure (il suffit de demander au moins 2 devis à des acteurs différents).</p>
-      </section>
       <section>
         <p>Pour rappel, le précédent accord-cadre contenait deux lots : « accompagnement et audit » et « formations ».</p>
         <h2 id="lot-1">Lot 1 : accompagnement et audit</h2>

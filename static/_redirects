@@ -3,3 +3,4 @@
 /fish https://ows-185-21-194-29.cloudgouv-eu-west-1.compute.outscale.com/
 /audits/:administration/*  https://dsn-audits-:administration.netlify.app/:splat 200
 /articles/2021-10-29-formations-design-accessibilite-recherche /articles/2021-10-29-formations-design-accessibilite-recherche-ecoconception/
+/accessibilite-numerique/accord-cadre-dae   /accessibilite-numerique/prestations-accessibilite-numerique/

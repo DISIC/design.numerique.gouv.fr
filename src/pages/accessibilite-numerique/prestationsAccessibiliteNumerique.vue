@@ -44,7 +44,7 @@
           <li>Un marché ayant pour objet des services sociaux et autres services spécifiques, dont la liste figure dans un avis annexé au présent code, quelle que soit la valeur estimée du besoin.</li>
           </ol>
         <h3>Montant inférieur à 90 000 € HT (soit 89 999,99 € HT)</h3>
-        <p>Au sein des marchés à procédure adaptée (Mapa) , il existe un seuil intermédiaire de 90 000 € HT qui n’influe que sur la publicité et pas sur la procédure.</p>
+        <p>Au sein des marchés à procédure adaptée (Mapa), il existe un seuil intermédiaire de 90 000 € HT qui n’influe que sur la publicité et pas sur la procédure.</p>
         <p>En dessous de ce seuil, l’acheteur choisit librement les critères de publicité (exemple : profil d’acheteur, BOAMP, presse spécialisée, presse régionale, etc.).</p>
       </section>
       <section>
@@ -53,7 +53,7 @@
         <h3>Quel est le coût d’une formation ?</h3>
         <p>Il existe plusieurs types de formation à l’accessibilité numérique dont le contenu et la durée diffèrent selon le public cible et les objectifs :</p>
         <ul>  
-          <li>Une sensibilisation à l‘accessibilisation dure entre deux heures et une demie journée ;</li>
+          <li>Une sensibilisation à l’accessibilité dure entre deux heures et une demi-journée ;</li>
           <li>Une formation « gestion de projet web accessible » dure entre un et trois jours ;</li>
           <li>Une formation « développer un site web accessible » dure au minimum trois jours ;</li>
           <li>Une formation « auditeur ou auditrice RGAA » dure environ cinq jours.</li>

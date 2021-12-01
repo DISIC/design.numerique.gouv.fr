@@ -11,7 +11,7 @@ contact: marine.boudeau@modernisation.gouv.fr
 ## Descriptif du poste
 
 ### Mission
-Vous assurez l’évaluation des démarches de l’observatoire de la qualité des démarches en ligne ([observatoire.numerique.gouv.fr](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}) dans la mise en œuvre du principe de « dites-le nous une fois » et conseillez les administrations pour qu’elles puissent améliorer cet indicateur.
+Vous assurez l’évaluation des démarches de l’[observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} dans la mise en œuvre du principe de « dites-le nous une fois » et conseillez les administrations pour qu’elles puissent améliorer cet indicateur.
 
 ### Activités principales
 -	Conseiller les porteurs des démarches sur l’utilisation des API (ou tout autre moyen) pour simplifier les démarches recensées au sein de l’Observatoire
@@ -40,7 +40,7 @@ En fonction de l’évolution des priorités fixées, le ou la chargée de proje
 
 ### Savoir-être
 -	Esprit d’analyse et de synthèse
--	Travailler en équipe, faire preuve de de diplomatie, d’esprit d’initiative et de qualités relationnelles
+-	Travailler en équipe, faire preuve de diplomatie, d’esprit d’initiative et de qualités relationnelles
 -	Réactivité et efficacité
 -	Rigueur et sens de l’organisation
 -	Aisance relationnelle et sens des relations humaines
@@ -49,4 +49,4 @@ En fonction de l’évolution des priorités fixées, le ou la chargée de proje
 
 
 ## Pour candidater
-Adressez votre CV + lettre de motivation **courte mais efficace** à <a href="mailto:candidatures‐DINUM@pm.gouv.fr">candidatures‐DINUM@pm.gouv.fr</a>, avec en sujet de votre e-mail « OBS-02 ».
+Adressez votre CV + lettre de motivation **courte mais efficace** à candidatures‐DINUM@pm.gouv.fr, avec en sujet de votre e-mail « OBS-02 ».

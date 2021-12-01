@@ -13,7 +13,7 @@
     <div class="cover">
       <div class="cover__container">
         <h1 class="text-highlight">Recrutement</h1>
-<!--      
+<!--
         <p class="cover__jobs">Nombre de postes ouverts : <span>{{ $page.allJob.edges.length }}</span></p>
         <p class="cover__subtitle" >Nous n’avons pas d’offre pour le moment.</p>
  -->
@@ -23,7 +23,7 @@
 -->
       </div>
     </div>
- 
+
       <div class="content">
            <h2>Les offres</h2>
           <ul class="jobs">
@@ -34,7 +34,7 @@
               </g-link>
             </li>
           </ul>
-      </div> 
+      </div>
   </Layout>
 </template>
 
@@ -53,7 +53,7 @@
     }
   }
 
-</page-query> 
+</page-query>
 
 <script>
 
@@ -74,7 +74,7 @@
       },
       {
         property: "og:image",
-        content: "https://design.numerique.gouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/assets/images/rejoindre-equipe.png"
       },
       {
         name: "twitter:card",
@@ -94,7 +94,7 @@
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/assets/images/rejoindre-equipe.png"
       }],
     }
   }

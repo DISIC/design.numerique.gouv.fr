@@ -1,5 +1,5 @@
 <template>
-<Layout class="formation-design-page" hideNewsletter>
+<Layout class="formation-ecoconception-page" hideNewsletter>
 
   <nav aria-label="Breadcrumb" class="fr-breadcrumb">
     <ol class="fr-breadcrumb__list">
@@ -10,7 +10,7 @@
         <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
-        <span aria-current="page">Formation au design</span>
+        <span aria-current="page">Formation à l’écoconception</span>
       </li>
     </ol>
   </nav>
@@ -18,9 +18,9 @@
   <div class="cover">
       <div class="cover__container">
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation au design</h1>
+        <h1>Formation à l’écoconception</h1>
         <p class="cover__subtitle">
-          Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques.
+          Pourquoi et comment écoconcevoir des services publics numériques.
         </p>
       </div>
   </div>
@@ -28,34 +28,31 @@
   <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
-          <h2>Mardi 30 novembre de 10h à 12h</h2>
+          <h2>Jeudi 16 décembre de 10h à 12h</h2>
           <p>En <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
 
           <h3>Objectifs</h3>
           <ul>
-            <li>Connaitre les principes fondamentaux et les définitions</li>
-            <li>Découvrir les bénéfices de cette approche</li>
-            <li>Mettre en œuvre les méthodes dans la conception et l'amélioration des démarches administratives numériques</li>
-            <li>Identifier les rôles et responsabilités</li>
-            <li>Disposer d'une boite à outils et d'un carnet de contacts</li>
+            <li>Connaître et mesurer les impacts environnementaux du numérique</li>
+            <li>Mettre en œuvre le référentiel général d’écoconception de services numériques</li>
           </ul>
 
           <h3>Public concerné</h3>
-          <p>Agents de la fonction publique ou prestataires impliqués dans la conception des démarches administratives numériques.</p>
+          <p>Agents de la fonction publique ou prestataires impliqués dans la conception des services numériques publics.</p>
 
           <h3>Programme</h3>
           <ul>
-            <li>Qu'est-ce que le design centré usager ? Objectifs, principes et définitions</li>
-            <li>Les résultats de sa mise en œuvre</li>
-            <li>Comment intégrer le design dans la conception des démarches numériques ?</li>
-            <li>La recherche utilisateur</li>
-            <li>Utiliser le système de design de l'État</li>
-            <li>L'accessibilité et le design</li>
-            <li>Quels rôles et quelle organisation</li>
-            <li>Les interlocuteurs et outils pour la mise en œuvre</li>
+            <li>Les impacts environnementaux du numérique</li>
+            <li>La mission Green Tech – numérique écoresponsable</li>
+            <li>L’analyse du cycle de vie</li>
+            <li>Pourquoi l’écoconception de services numériques ? Pour qui ?</li>
+            <li>La mise en œuvre du référentiel d’écoconception de service numérique</li>
+            <li>Les outils libres et open source dédiés à la mesure</li>
+            <li>Le système de design de l’État</li>
+            <li>Les clés à retenir</li>
           </ul>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/accessibilite/">accessibilité</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link> (formulaires distincts).</p>
+          <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
 
 
           <h3>Inscription</h3>
@@ -96,18 +93,18 @@
       Formations,
     },
     metaInfo: {
-      title: "Formation au design",
+      title: "Formation à l’écoconception",
       meta: [{
         name: "description",
-        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques"
+        content: ""
       },
       {
         property: "og:title",
-        content: "Formation au design - DesignGouv"
+        content: "Formation à l’écoconception - DesignGouv"
       },
       {
         property: "og:description",
-        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques"
+        content: ""
       },
       {
         property: "og:image",
@@ -123,11 +120,11 @@
       },
       {
         name: "twitter:title",
-        content: "Formation au design - DesignGouv"
+        content: "Formation à l’écoconception - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques"
+        content: ""
       },
       {
         name: "twitter:image",
@@ -139,8 +136,8 @@
         form: {
           email: '',
           organisme: '',
-          formation: 'Design',
-          session: '2021-11-30'
+          formation: 'Écoconception',
+          session: '2021-12-16'
         }
       }
     },
@@ -177,7 +174,7 @@
 
   @import "src/assets/scss/_vars.scss";
 
-  .formation-design-page {
+  .formation-ecoconception-page {
 
   }
 

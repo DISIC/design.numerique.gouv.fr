@@ -2,7 +2,7 @@
 published_date: 18 novembre 2021
 title: Développeur ou développeuse accessibilité numérique
 slug: developpeur-developpeuse-accessibilite
-type: Indépendant ou CDD
+type: Indépendant
 start_date: Selon besoins
 length: Variable
 contact: marine.boudeau@modernisation.gouv.fr

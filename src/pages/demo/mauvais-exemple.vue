@@ -24,8 +24,8 @@
         <p><!-- balise utilisée à des fins de  présentation --></p>
       </section>
         <img src="/assets/images/bike.png" style="width:100%"  alt="L’anatomie d’une bicyclette"  />
-      <section class="rf-grid-row rf-grid-row--center">
-        <div class="rf-col-12">
+      <section class="fr-grid-row fr-grid-row--center">
+        <div class="fr-col-12">
           <h3>Tout savoir sur le RGAA</h3>
           <div class="fr-content-media__img">
             <img src="/assets/images/seguRgaaNuit.jpg" class="fr-responsive-img" alt="" style="width:100%" />
@@ -33,25 +33,25 @@
         <p>Si vraiment l’accessibilité numérique vous intéresse, vous pouvez tout à fait télécharger le rgaa <a style="border-bottom: none" tabindex="3" class="lien" href="https://www.numerique.gouv.fr/uploads/rgaa/RGAA-v4.1.pdf">ici</a> ou le voir en ligne <a style="border-bottom: none" tabindex="2" class="lien" href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/">là</a>.</p>
         </div>
       </section>
-      <section class="rf-grid-row rf-grid-row--center">
-        <div class="rf-col-8">
+      <section class="fr-grid-row fr-grid-row--center">
+        <div class="fr-col-8">
           <form action="#" method="post" rel="noreferrer noopener">
             <fieldset><legend><h4>Mieux se connaître</h4></legend>
             <p class="indicates-required">Les champs en jaune sont obligatoires</p>
 
-            <div class="form-group rf-mt-4w">
-              <label class="rf-label" for="mail">Votre adresse électronique</label>
-              <input tabindex="-1"class="rf-input jaune" type="text" id="mail" name="text-input-text" required >
+            <div class="form-group fr-mt-4w">
+              <label class="fr-label">Votre adresse électronique</label>
+              <input tabindex="-1"class="fr-input jaune" type="text" id="mail" name="text-input-text" required >
             </div>
 
-            <div class="form-group rf-mt-4w">
-              <label class="rf-label" for="pseudo">Votre pseudo</label>
-              <input class="rf-input" type="text" id="pseudo" name="text-input-text" >
+            <div class="form-group fr-mt-4w">
+              <label class="fr-label" for="pseudo">Votre pseudo</label>
+              <input class="fr-input" type="text" id="pseudo" name="text-input-text" >
             </div>
 
-            <div class="form-group rf-mt-4w">
-              <label class="rf-label" for="like">Vous aimez ...</label>
-                <select name="" class="rf-input"  for="like">
+            <div class="form-group fr-mt-4w">
+              <label class="fr-label" for="like">Vous aimez ...</label>
+                <select name="" class="fr-input"  >
                   <option value="1">les fruits et les légumes</option>
                   <option value="2">les ballades à bicyclette</option>
                   <option value="3">les voyages à vélo</option>
@@ -61,8 +61,8 @@
             </div>
 
 
-            <div class="form-group rf-mt-4w">
-              <input class="rf-btn" type="submit" id="pseudo" name="valider" value="Valider" />
+            <div class="form-group fr-mt-4w">
+              <input class="fr-btn" type="submit" id="pseudo" name="valider" value="Valider" />
             </div>
 
             <p class="rgpd rgpd--small">

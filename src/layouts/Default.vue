@@ -12,13 +12,9 @@
     <Header />
 
     <main class="layout" id="main" role="main">
-      <div class="fr-container">
-        <div class="fr-grid-row">
-          <div class="fr-col">
-            <slot/>
-            <Offer v-if="showServices"/>
-          </div>
-        </div>
+      <div class="fr-container fr-mt-md-6w fr-mt-2w">
+        <slot/>
+        <Offer v-if="showServices"/>
       </div>
     </main>
     <NewsletterReseauxSociaux />

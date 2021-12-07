@@ -88,34 +88,3 @@
 
 </page-query>
 
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .people-page {
-
-    .cover {
-      margin-bottom: 64px;
-
-      p:not(.cover__subhead) {
-        margin: 4px 0;
-      }
-
-      &__image {
-        border-radius: 50em;
-        max-width: 150px;
-        margin: 0 auto;
-      }
-    }
-
-    h1 {
-      margin-top: 8px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-top: 24px;
-      }
-    }
-  }
-
-</style>

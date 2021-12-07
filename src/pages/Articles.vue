@@ -105,28 +105,3 @@
   }
 
 </script>
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .articles-page {
-
-    .cover {
-      margin-bottom: 4rem;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 3rem;
-      }
-
-    }
-
-    h2 {
-      a {
-        border-bottom: none !important;
-      }
-    }
-
-  }
-
-</style>

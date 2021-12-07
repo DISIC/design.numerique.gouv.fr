@@ -66,13 +66,3 @@
   }
 
 </script>
-
-
-<style lang="scss">
-
-  .privacy-page {
-
-
-  }
-
-</style>

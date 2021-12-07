@@ -285,23 +285,3 @@
   },
 }
 </script>
-
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .partage-interet-page {
-
-    .cover {
-      h1 {
-        font-size: 3rem;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 1.5rem;
-        }
-      }
-    }
-  }
-
-</style>

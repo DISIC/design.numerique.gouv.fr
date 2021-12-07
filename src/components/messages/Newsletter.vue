@@ -21,9 +21,3 @@
 
 </script>
 
-
-<style lang="scss">
-.content .form-group ul > li {
-  list-style: none;
-}
-</style>

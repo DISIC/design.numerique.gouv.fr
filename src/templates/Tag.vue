@@ -61,31 +61,3 @@
 
 </script>
 
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-  @import "src/assets/scss/_articles.scss";
-
-  .tag-page {
-
-    .cover {
-      margin-bottom: 96px;
-
-      h1 {
-        font-size: 2.5em;
-        margin-bottom: 12px;
-        line-height: 1.2;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 2em;
-        }
-
-        > span {
-          color: $blue;
-        }
-      }
-    }
-  }
-
-</style>

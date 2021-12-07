@@ -170,8 +170,3 @@ import Accessibilite from "~/assets/images/accessibilite.svg"
   }
 
 </script>
-
-
-<style lang="scss">
-
-</style>

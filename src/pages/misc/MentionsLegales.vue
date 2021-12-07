@@ -111,13 +111,3 @@
   }
 
 </script>
-
-
-<style lang="scss">
-
-  .legal-page {
-
-
-  }
-
-</style>

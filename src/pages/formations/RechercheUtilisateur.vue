@@ -165,14 +165,3 @@
   },
 }
 </script>
-
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .formation-recherche-page {
-
-  }
-
-</style>

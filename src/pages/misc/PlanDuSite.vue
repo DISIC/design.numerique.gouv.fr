@@ -76,13 +76,3 @@
   }
 
 </script>
-
-
-<style lang="scss">
-
-  .sitemap-page {
-
-
-  }
-
-</style>

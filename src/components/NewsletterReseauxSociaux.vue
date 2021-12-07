@@ -44,22 +44,3 @@
     name: 'NewsletterResauxSociaux'
   }
 </script>
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .fr-follow {
-    margin-top: 6rem !important;
-    background-color: $light-gray !important;
-
-    .fr-grid-row > :not(:first-child) {
-      box-shadow: -1px 0 0 0 rgba($blue, 0.5);
-    }
-
-    .fr-link {
-      color: $blue;
-    }
-  }
-
-</style>

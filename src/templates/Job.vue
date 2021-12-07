@@ -121,37 +121,3 @@
 
 </page-query>
 
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .job-page {
-
-    .job {
-
-      p + h3,
-      div > h3 {
-        margin-top: 2em;
-        color: $blue;
-      }
-
-      h2 + h3 {
-        margin-top: 1em;
-      }
-
-      .about {
-
-        ul {
-          margin: 0;
-          padding: 0;
-
-          li {
-            list-style: none;
-          }
-        }
-      }
-    }
-  }
-
-</style>

@@ -169,13 +169,3 @@
 }
 </script>
 
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .formation-ecoconception-page {
-
-  }
-
-</style>

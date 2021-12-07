@@ -108,22 +108,3 @@ export default {
   }
 
 </script>
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .roles-cles-page {
-    h2 {
-      &.fr-tile__title {
-        //margin:0 auto;
-      }
-      a {
-        border-bottom: none !important;
-      }
-    }
-    .fr-tile--horizontal {
-      align-items: flex-start;
-    }  
-  }
-</style>

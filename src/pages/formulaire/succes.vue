@@ -26,27 +26,3 @@
   }
 </script>
 
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .succes-page {
-    .cover {
-      &__container {
-        max-width: 40rem;
-        padding-top: 2rem;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          padding-top: 0;
-        }
-
-        .button {
-          margin-top: 2rem;
-        }
-      }
-    }
-  }
-
-
-</style>

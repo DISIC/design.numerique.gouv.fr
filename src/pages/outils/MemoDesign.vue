@@ -125,14 +125,3 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-  .memo {
-    li {
-      list-style-position: inside;
-      list-style-type: disc;
-    }
-
-  }
-</style>

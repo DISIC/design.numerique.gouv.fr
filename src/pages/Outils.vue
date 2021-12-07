@@ -114,32 +114,3 @@
   }
 
 </script>
-
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .outils-page {
-
-    .content {
-
-      a {
-        font-weight: bold;
-
-        svg {
-          padding-right: 12px;
-          transition: .1s all;
-        }
-
-        &:hover {
-          svg {
-            padding-left: 8px;
-            padding-right: 4px;
-          }
-        }
-      }
-    }
-  }
-
-</style>

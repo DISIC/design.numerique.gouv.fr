@@ -15,10 +15,10 @@ Rejoindre les équipes du ministère de la Mer afin de numériser et de rendre a
 
 ### Activités principales
 - Rendre réalisable en ligne la démarche de « Délivrance d'un titre ou diplôme de formation professionnelle maritime » (avec une première mise en production en février 2022) en reprenant les travaux effectués en 2021
-- Langages : React.js + JAVA
-- Bonus : développer accessible et conforme au RGAA (dans le cas contraire, on vous aidera à monter en compétence)
+- Langages : JAVA / Springboot + React.js
+- Développer accessible et conforme au RGAA (dans le cas contraire, on vous aidera à monter en compétence sur le sujet)
 
-Vous formerez un binôme.
+Vous formerez un binôme avec un designer.
 
 ## Pour proposer votre profil
 Partagez votre intérêt via ce formulaire : https://design.numerique.gouv.fr/commando-ux/partager-interet.

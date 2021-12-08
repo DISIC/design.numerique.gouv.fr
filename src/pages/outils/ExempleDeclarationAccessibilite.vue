@@ -15,14 +15,8 @@
       </ol>
     </nav>
 
-    <div class="cover cover--with-breadcrumb">
-      <div class="cover__container">
-        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-        <h1>Exemple de <span class="text-highlight">déclaration d’accessibilité</span></h1>        
-      </div>
-    </div>
-
     <div class="content">
+      <h1>Exemple de déclaration d’accessibilité</h1>        
 
       <section>
         <p><span class="tofill">Nom de l’entité</span> s’engage à rendre ses sites internet, intranet, extranet et ses progiciels accessibles (et ses applications mobiles et mobilier urbain numérique) conformément à l’article 47 de la loi n°2005-102 du 11 février 2005.</p>
@@ -129,12 +123,7 @@
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
 export default {
-  components: {
-    Accessibilite,
-  },
   metaInfo: {
     title: "Exemple de déclaration d‘accessibilité",
     meta: [{

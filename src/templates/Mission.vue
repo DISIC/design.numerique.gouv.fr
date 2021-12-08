@@ -1,5 +1,5 @@
 <template>
-  <Layout class="mission-page" hideNewsletter showServices>
+  <Layout hideNewsletter showServices>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -15,15 +15,8 @@
       </ol>
     </nav>
 
-    <div class="cover">
-      <div class="cover__container">
-        <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
-        <h1>{{ $page.mission.title }}</h1>
-      </div>
-    </div>
-
     <div class="content">
-
+      <h1>{{ $page.mission.title }}</h1>
       <section class="mission">
         <div class="mission-detail">
           <span class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px" aria-hidden="true"/></span>
@@ -121,13 +114,7 @@
 
 
 <script>
-
-  import CommandoUX from "~/assets/images/accompagnement.svg";
-
   export default {
-    components: {
-      CommandoUX,
-    },
     metaInfo() {
       return {
         title: this.$page.mission.title,

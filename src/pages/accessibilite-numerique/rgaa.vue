@@ -14,20 +14,9 @@
         </li>
       </ol>
     </nav>
-
-    <div class="cover">
-     <div class="cover__container">
-
-        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-        <h1>Le Référentiel général d’amélioration de l’accessibilité (RGAA)</h1>
-
-      </div>
-    </div>
-
     <div class="content">
-
+      <h1>Le Référentiel général d’amélioration de l’accessibilité (RGAA)</h1>
       <section>
-
         <h2>À quoi ça sert ?</h2>
         <p>
           Le RGAA permet de contrôler l’accessibilité d’un site et de ses contenus suivant les normes internationales de l’accessibilité numérique connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
@@ -70,12 +59,7 @@
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
 export default {
-  components: {
-    Accessibilite,
-  },
   metaInfo: {
     title: "Le RGAA",
     meta: [{

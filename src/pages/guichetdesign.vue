@@ -1,5 +1,5 @@
 <template>
-  <Layout class="commando-ux-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -12,21 +12,12 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-      <h1 class="highlight">#guichetDesign</h1>
-
-      <p class="cover__subtitle">
-        Dans le cadre de France Relance, 32 M€ pour simplifier la relation entre les usagers et l’administration grâce au numérique.
-      </p>
-
-      </div>
-    </div>
-
     <div class="content">
+      <h1>#guichetDesign</h1>
+      <p>Dans le cadre de France Relance, 32 M€ pour simplifier la relation entre les usagers et l’administration grâce au numérique.</p>
 
-      <section class="subsection">
+
+      <section>
         <h2>
           Candidatures ouvertes le 4 janvier 2021 !
         </h2>

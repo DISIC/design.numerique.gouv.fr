@@ -1,5 +1,5 @@
 <template>
-  <Layout class="legal-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -12,15 +12,10 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container cover__container--light">
+    <div class="content">
 
        <h1>Mentions légales</h1>
 
-      </div>
-    </div>
-
-    <div class="content">
 
         <section>
           <h2>Éditeur</h2>

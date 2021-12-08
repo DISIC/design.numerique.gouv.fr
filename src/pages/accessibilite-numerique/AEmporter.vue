@@ -15,15 +15,8 @@
       </ol>
     </nav>
 
-    <div class="cover">
-      <div class="cover__container">
-        <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-
-        <h1 class="text-highlight">À emporter</h1>
-      </div>  
-    </div>
-
     <div class="content">
+      <h1>À emporter</h1>
       <h2>Afficher</h2>
       <ol>
       <li>Publier en ligne une <g-link to="/accessibilite-numerique/declaration-accessibilite">déclaration d’accessibilité</g-link> indiquant en détail l’état d’accessibilité du site ou service.</li>
@@ -50,12 +43,7 @@
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
 export default {
-  components: {
-    Accessibilite,
-  },
   metaInfo: {
     title: "RGAA à emporter",
     meta: [{

@@ -1,7 +1,7 @@
 <template>
-<Layout class="outils-page">
+<Layout>
 
-<nav aria-label="Breadcrumb" class="breadcrumb">
+<nav aria-label="Breadcrumb" class="fr-breadcrumb">
   <ol  class="fr-breadcrumb__list">
     <li>
       <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
@@ -15,13 +15,10 @@
   </ol>
 </nav>
 
-<div class="cover">
-  <div class="cover__container">
-    <h1 class="text-highlight">Mémo design</h1>
-    <p class="cover__subtitle">Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-concepteur/index.html" target="_blank" title="guide du concepteur RGAA - nouvelle fenêtre">guide du concepteur RGAA</a> de la DINUM. Ce guide propose des fiches pour chaque thématique avec des conseils de design, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
-  </div>
-</div>
-<div class="content memo">
+<div class="content">
+    <h1>Mémo design</h1>
+    <p>Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-concepteur/index.html" target="_blank" title="guide du concepteur RGAA - nouvelle fenêtre">guide du concepteur RGAA</a> de la DINUM. Ce guide propose des fiches pour chaque thématique avec des conseils de design, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
+
 
   <h2>Le mémo design</h2>
 

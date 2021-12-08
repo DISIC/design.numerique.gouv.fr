@@ -1,5 +1,5 @@
 <template>
-  <Layout class="outils-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -15,17 +15,10 @@
       </ol>
     </nav>
 
+    <div class="content">
+      <h1>Audit rapide RGAA</h1>
+      <p>Vingt cinq critères du RGAA <strong>absolument essentiels</strong>. L’évaluation de ces critères nécessite une bonne connaissance du RGAA. Si vous n’avez pas d’expert dans votre équipe, <a href="/accessibilite-numerique/accord-cadre-dae#lot-1">vous pouvez faire appel à un prestataire</a>.<br/>Si le résultat de cet audit rapide n’est pas représentatif du niveau de conformité, il donne une bonne idée de la prise en compte ou non du RGAA dans les process de développement.</p>
 
-    <div class="cover">
-     <div class="cover__container">
-
-      <h1 class="text-highlight">Audit rapide RGAA</h1>
-
-      <p class="cover__subtitle">Vingt cinq critères du RGAA <strong>absolument essentiels</strong>. L’évaluation de ces critères nécessite une bonne connaissance du RGAA. Si vous n’avez pas d’expert dans votre équipe, <a href="/accessibilite-numerique/accord-cadre-dae#lot-1">vous pouvez faire appel à un prestataire</a>.<br/>Si le résultat de cet audit rapide n’est pas représentatif du niveau de conformité, il donne une bonne idée de la prise en compte ou non du RGAA dans les process de développement.</p>
-      </div>
-    </div>
-    
-<div class="content">
     <p>L’audit rapide porte sur un  échantillon réduit de 3 à 5 pages et sur les 25 critères (<abbr lang="en" title="web content accessilibity guidelines">WCAG</abbr> niveau A) suivants :</p>
     <ul>
         <li>Chaque image porteuse d’information a-t-elle une alternative textuelle ? (Images, 1.1)</li>

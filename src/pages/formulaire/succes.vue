@@ -1,11 +1,11 @@
 <template>
-<Layout class="succes-page">
+<Layout>
 
-  <div class="cover">
-      <div class="cover__container">
+
+  <div class="content">
         <h1>Merci. Votre demande a bien été transmise à nos services. Cordialement. </h1>
         <g-link to="/" class="button">Retourner à l'accueil</g-link>
-      </div>
+
   </div>
 
 </Layout>
@@ -13,7 +13,6 @@
 
 
 <script>
-  import CommandoUX from "~/assets/images/accompagnement.svg"
 
   export default {
     metaInfo: {

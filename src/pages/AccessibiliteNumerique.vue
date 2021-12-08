@@ -1,5 +1,5 @@
 <template>
-  <Layout class="digital-accessibility-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -11,58 +11,54 @@
         </li>
       </ol>
     </nav>
-
-    <h1>Accessibilité numérique</h1>
-    <p>L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
-
-
     <div class="content">
+      <h1>Accessibilité numérique</h1>
+      <p>L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
       <p>En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.</p>
       <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que les développeurs, développeuses et designers soient mieux formés.</p>
       <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre à tous les usagers un égal accès à leurs droits.</p>
 
-  <section class="fr-mt-4w">
-  <h2>Comprendre</h2>
-  <div class="fr-grid-row fr-grid-row--gutters">
-    <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-        <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-            <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                    <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-tile__link" href>Obligations légales et sanctions</g-link>
-                </h3>
+      <section class="fr-mt-4w">
+      <h2>Comprendre</h2>
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                <div class="fr-tile__body">
+                    <h3 class="fr-tile__title">
+                        <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-tile__link" href>Obligations légales et sanctions</g-link>
+                    </h3>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-        <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-            <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                    <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link" href>RGAA</g-link>
-                </h3>
+        <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                <div class="fr-tile__body">
+                    <h3 class="fr-tile__title">
+                        <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link" href>RGAA</g-link>
+                    </h3>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-        <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-            <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                    <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-tile__link" href>Schéma pluriannuel</g-link>
-                </h3>
+        <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                <div class="fr-tile__body">
+                    <h3 class="fr-tile__title">
+                        <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-tile__link" href>Schéma pluriannuel</g-link>
+                    </h3>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-        <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-            <div class="fr-tile__body">
-                <h3 class=" fr-tile__title">
-                    <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-tile__link" href>Déclaration d’accessibilité</g-link>
-                </h3>
+        <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                <div class="fr-tile__body">
+                    <h3 class=" fr-tile__title">
+                        <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-tile__link" href>Déclaration d’accessibilité</g-link>
+                    </h3>
+                </div>
             </div>
         </div>
-    </div>
-  </div>
-  </section>
-
+      </div>
+      </section>
 
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-callout--purple-glycine  fr-col-lg-8 fr-mt-8w fr-mb-8w">
@@ -70,7 +66,6 @@
           <p class="fr-callout__text"><strong>A11É</strong> est une abréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
         </div>
       </div>
-      
       <section>
         <h2>Passer à l’action</h2>
         <p>Pour atteindre un taux de conformité de 100 %, rien de plus simple : il faut former vos équipes, intégrer l’accessibilité dès la phase de design et tout au long de la vie du projet. Et surtout <strong>avoir une volonté forte de rendre vos services accessibles à tous les usagers</strong>, partagée à tous les niveaux de la hiérarchie.</p>
@@ -93,17 +88,12 @@
         <p>Intégrez la conformité au RGAA dans vos process.</p>
         <p>À chaque déploiement de nouvelles fonctionnalités, assurez-vous que vous maintenez bien votre niveau d’accessibilité.</p>
       </section>
-
-
-
       <section>
         <h2>À emporter</h2>
         <p><g-link to="/accessibilite-numerique/a-emporter">Un mémo</g-link> pour savoir ce qu‘il faut faire, comment le faire et avec quels moyens.
         </p>
       </section>
-
     </div>
-
   </Layout>
 </template>
 

@@ -14,16 +14,8 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Accord cadre accompagnement et formations</h1>
-
-      </div>
-    </div>
-
     <div class="content">
+       <h1>Accord cadre accompagnement et formations</h1>
 
       <section>
         <h2>Qui peut bénéficier de cet accord ?</h2>
@@ -142,12 +134,7 @@
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
   export default {
-    components: {
-      Accessibilite,
-    },
     metaInfo: {
       title: "Accord cadre accompagnement et formations",
       meta: [{

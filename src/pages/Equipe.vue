@@ -1,5 +1,5 @@
 <template>
-  <Layout class="team-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -12,45 +12,23 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-       <h1>Le pôle design des services numériques</h1>
-
-      </div>
-    </div>
-
     <div class="content">
+      <h1>Le pôle design des services numériques</h1>
+      <section>
+        <h2>Mission</h2>
+        <p>En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.</p>
+        <p>Le numérique, c'est la promesse d’un accès à une multitude d’informations, de culture et services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. C’est le cas pour de nombreux services publics numériques. <strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services simples, accessibles et humains.</strong></p>
+        <p>En partenariat avec les ministères porteurs des démarches administratives les plus utilisées par les Français, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie, notamment les 12M de personnes en situation de handicap. Pour ce faire, nous pilotons et suivons la qualité de cette numérisation des services à travers l'<a href="https://observatoire.numerique.gouv.fr">Observatoire</a> depuis juin 2019. Nous avons lancé en septembre 2020 le <a href="https://design.numerique.gouv.fr/commando-ux">Commando UX</a> pour déployer des designers et développeurs au sein des ministères qui concoivent ces services publics. Enfin, nous participons au développement d’une culture de design d'inclusion au sein de l’État, et à la mise en communauté de compétences de design dans les administrations.</p>
+        <p>Le pôle Design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité de la ministre de la transformation et de la fonction publiques <a href="https://twitter.com/AdeMontchalin">Amélie de Montchalin</a>.</p>
+        <h2>Mesures de succès d'ici 2022</h2>
+        <ul>
+          <li>Achever la numérisation de 100% des <a href="https://observatoire.numerique.gouv.fr">250 démarches administratives</a> les plus utilisées par les Français</li>
+          <li>80% des démarches qui s'adressent aux particuliers, et 90% des démarches qui s'adressent aux professionnels devront obtenir une note de satisfaction supérieur à 7/10</li>
+          <li>80% de ces démarches administratives devront être accessibles aux personnes en situation de handicap</li>
+        </ul>
+      </section>
 
-        <section>
-          <h2>Mission</h2>
-          <p>
-            En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.
-          </p>
-          <p>
-            Le numérique, c'est la promesse d’un accès à une multitude d’informations, de culture et services pour tous, et partout. Néanmoins, en France notamment, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l'audience qu’ils servent. C’est le cas pour de nombreux services publics numériques. <strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services simples, accessibles et humains.</strong>
-          </p>
-          <p>
-            En partenariat avec les ministères porteurs des démarches administratives les plus utilisées par les Français, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie, notamment les 12M de personnes en situation de handicap. Pour ce faire, nous pilotons et suivons la qualité de cette numérisation des services à travers l'<a href="https://observatoire.numerique.gouv.fr">Observatoire</a> depuis juin 2019. Nous avons lancé en septembre 2020 le <a href="https://design.numerique.gouv.fr/commando-ux">Commando UX</a> pour déployer des designers et développeurs au sein des ministères qui concoivent ces services publics. Enfin, nous participons au développement d’une culture de design d'inclusion au sein de l’État, et à la mise en communauté de compétences de design dans les administrations.
-          </p>
-          <p>
-            Le pôle Design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité de la ministre de la transformation et de la fonction publiques <a href="https://twitter.com/AdeMontchalin">Amélie de Montchalin</a>.
-          </p>
-          <h2>Mesures de succès d'ici 2022</h2>
-          <ul>
-            <li>
-              Achever la numérisation de 100% des <a href="https://observatoire.numerique.gouv.fr">250 démarches administratives</a> les plus utilisées par les Français
-            </li>
-            <li>
-              80% des démarches qui s'adressent aux particuliers, et 90% des démarches qui s'adressent aux professionnels devront obtenir une note de satisfaction supérieur à 7/10
-            </li>
-            <li>
-              80% de ces démarches administratives devront être accessibles aux personnes en situation de handicap
-            </li>
-          </ul>
-        </section>
-
-        <section>
+      <section>
           <h2>Notre équipe</h2>
           <ul class="team">
             <li v-for="{ node } in team" :key="node.id">

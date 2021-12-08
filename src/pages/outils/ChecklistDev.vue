@@ -1,5 +1,5 @@
 <template>
-  <Layout class="outils-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -17,19 +17,13 @@
 
 
 
-    <div class="cover">
-     <div class="cover__container">
-
-      <h1><span class="text-highlight">Checklist dev</span></h1>
-
-      <p class="cover__subtitle">Après avoir réalisé une nouvelle fonctionnalité ou une nouvelle page, les développeurs et développeuses peuvent faire quelques tests et vérifications rapides avant de livrer leur travail pour la revue de code ou en recette.</p>
-  <p>Les six points ci-dessous <strong>ne constituent pas</strong> des vérifications suffisantes pour établir que la fonctionnalité ou la page seront accessibles mais sont des tests qui devraient être systématiquement opérés avant de transmettre le code pour la revue ou la recette.</p>
-
-
-      </div>
-    </div>
-
     <div class="content">
+
+      <h1>Checklist dev</h1>
+
+      <p>Après avoir réalisé une nouvelle fonctionnalité ou une nouvelle page, les développeurs et développeuses peuvent faire quelques tests et vérifications rapides avant de livrer leur travail pour la revue de code ou en recette.</p>
+      <p>Les six points ci-dessous <strong>ne constituent pas</strong> des vérifications suffisantes pour établir que la fonctionnalité ou la page seront accessibles mais sont des tests qui devraient être systématiquement opérés avant de transmettre le code pour la revue ou la recette.</p>
+
       <div class="quick-test">
         <h2>Les tests et explications</h2>
         <ul class="fr-accordions-group">

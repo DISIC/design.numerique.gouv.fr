@@ -1,5 +1,5 @@
 <template>
-  <Layout class="saison-1-page">
+  <Layout>
 
     <nav aria-label="Breadcrumb" class="breadcrumb">
       <ol class="fr-breadcrumb__list">
@@ -15,24 +15,14 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-      <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
-      <h1 class="text-highlight">Commando UX saison 1</h1>
-      <p class="cover__subtitle">
+    <div class="content">
+      <h1>Commando UX saison 1</h1>
+      <p>
         Afin d’accélérer les améliorations concrètes pour les usagers dans leurs démarches, la DINUM a lancé en septembre 2020 le Commando UX.
       </p>
 
-      </div>
-    </div>
-
-    <div class="content">
-
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le programme
-        </h2>
+      <section>
+        <h2>Le programme</h2>
         <p>
           Cette première édition s’est appuyée sur le recrutement par la DINUM de 15 designers et développeurs, pour une période de 4 à 7 mois, placés au sein des ministères au plus près de 10 démarches du Top 250.
         </p>
@@ -78,9 +68,7 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando
-        </h2>
+        <h2>Le commando</h2>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
             <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
@@ -95,9 +83,7 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
-        </h2>
+        <h2>Les 10 défis</h2>
         <ul class="mission">
           <li class="mission__item" v-for="{ node } in firstSeason" :key="node.id">
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
@@ -107,10 +93,8 @@
         </ul>
       </section>
 
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
-        </h2>
+      <section>
+        <h2>Simplicité, inclusivité et désirabilité</h2>
         <p>
           Pour chaque défi, l'objectif est de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
         </p>
@@ -125,7 +109,7 @@
         </ul>
       </section>
 
-      <section class="quote">
+      <section>
         <blockquote>
           <p>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</p>
           <footer><span lang="en">Don Norman</span>, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</footer>
@@ -133,18 +117,8 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Informations pratiques
-        </h2>
+        <h2>Informations pratiques</h2>
         <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 mars 2021</p>
-        <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
-        <p><strong>Conditions :</strong></p>
-        <ul>
-          <li>Être une personne physique (et non morale)</li>
-          <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
-          <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
-        </ul> -->
         <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
         <ul class="team">
@@ -176,9 +150,7 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les dates clés du programme
-        </h2>
+        <h2>Les dates clés du programme</h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>
           Appel à défis : administrations, soumettez votre projet de l'Observatoire.
@@ -245,12 +217,7 @@
 
 <script>
 
-  import CommandoUX from "~/assets/images/accompagnement.svg"
-
   export default {
-    components: {
-      CommandoUX,
-    },
     computed: {
       firstSeason: function () {
         return this.$page.allMission.edges.filter(mission => mission.node.startDate ? (new Date(mission.node.startDate)).getTime() == (new Date('2020-09-07')).getTime() : false)

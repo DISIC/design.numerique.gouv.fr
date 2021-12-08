@@ -1,5 +1,5 @@
 <template>
-  <Layout class="outils-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -14,20 +14,9 @@
         </li>
       </ol>
     </nav>
-
-
-    <div class="cover">
-     <div class="cover__container">
-
-      <h1 class="text-highlight">Mémo dev</h1>
-
-      <p class="cover__subtitle">Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-integrateur/index.html" target="_blank" title="guide de l’intégrateur RGAA - nouvelle fenêtre">guide de l'intégrateur RGAA</a> de la <abbr title="Direction interministérielle du numérique">Dinum</abbr>. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
-
-
-      </div>
-    </div>
-
-<div class="content memo">
+  <div class="content">
+      <h1>Mémo dev</h1>
+      <p>Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-integrateur/index.html" target="_blank" title="guide de l’intégrateur RGAA - nouvelle fenêtre">guide de l'intégrateur RGAA</a> de la <abbr title="Direction interministérielle du numérique">Dinum</abbr>. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
 
   <h2>Le mémo « dev »</h2>
 

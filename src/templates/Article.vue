@@ -1,5 +1,5 @@
 <template>
-  <Layout class="article-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -15,25 +15,14 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div
-        class="cover__container"
-        :style="{ backgroundImage: `url(${illustration})` }">
-
-        <div class="cover__text">
-          <p class="cover__subtitle"><span v-html="$page.article.publishedDate" /></p>
-          <h1 v-html="$page.article.title" />
-        </div>
-      </div>
-    </div>
-
     <div class="content">
-
+      <p v-html="$page.article.publishedDate" />
+      <h1 v-html="$page.article.title" />
       <div v-html="$page.article.content" />
 
-      <div class="tags">
+      <p class="tags">
         <g-link class="tags__item" v-for="tag in $page.article.tags" :key="tag.id" :to="tag.path">{{tag.id}}</g-link>
-      </div>
+      </p>
 
     </div>
   </Layout>

@@ -1,5 +1,5 @@
 <template>
-  <Layout class="job-page" >
+  <Layout>
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
         <li>
@@ -14,17 +14,9 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-       <p class="cover__subhead">Recrutement</p>
-       <h1 v-html="$page.job.title" />
-
-      </div>
-    </div>
-    <div class="content job">
-      <div class="about">
-        <h2>Informations générales</h2>
+    <div class="content">
+      <h1 v-html="$page.job.title" />
+      <h2>Informations générales</h2>
         <ul>
           <li><strong>Contrat : </strong><span v-html="$page.job.type" /></li>
           <li><strong>Durée : </strong><span v-html="$page.job.length" /></li>
@@ -40,18 +32,10 @@
         <h3>Pôle design des services numériques</h3>
         <p>Le pôle Design des services numériques (<abbr title="Design des services numériques">DSN</abbr>) pilote l’<a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener">Observatoire de la qualité des démarches en ligne</a>. Il promeut une culture du design au sein de l’État dans une volonté de placer l’inclusion et l’expérience de l’usager au cœur de la conception des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
 
-      </div>
-
-      <div class="details" v-html="$page.job.content" />
-
-      <div>
-        <p>
-          Cette offre a été publiée le <span v-html="$page.job.published_date" />.
-        </p>
-      </div>
-
-
-    </div>
+    
+      <div v-html="$page.job.content" />
+      <p>Cette offre a été publiée le <span v-html="$page.job.published_date" />.</p>
+     </div>
   </Layout>
 </template>
 

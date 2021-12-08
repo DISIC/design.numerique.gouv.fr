@@ -1,5 +1,5 @@
 <template>
-  <Layout class="commando-ux-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -12,19 +12,9 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-      <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
-
-      <p class="cover__subtitle">
-        Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.
-      </p>
-
-      </div>
-    </div>
-
     <div class="content">
+      <h1>Commando UX</h1>
+      <p>Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
 
       <section class="description">
 
@@ -43,7 +33,6 @@
         <div class="description__actions">
             <div class="item item--left">
               <div class="item__content">
-                <font-awesome :icon="['fas', 'university']" class="item__icon" width="16" height="16" aria-hidden="true" />
                 <h3>Administrations de l’État</h3>
                 <p>
                   Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
@@ -72,9 +61,7 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando saison 2
-        </h2>
+        <h2>Le commando saison 2</h2>
         <p class="section__subtitle">
           Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
         </p>
@@ -99,9 +86,7 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les interventions
-        </h2>
+        <h2>Les interventions</h2>
         <p class="section__subtitle">
           L’icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
         </p>
@@ -185,13 +170,7 @@
 
 
 <script>
-
-  import CommandoUX from "~/assets/images/accompagnement.svg"
-
   export default {
-    components: {
-      CommandoUX,
-    },
     computed: {
       pastMissions: function () {
         return this.$page.allMission.edges.filter(mission => mission.node.status == 'past')

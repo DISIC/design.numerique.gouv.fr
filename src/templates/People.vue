@@ -1,5 +1,5 @@
 <template>
-  <Layout class="people-page">
+  <Layout>
 
      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
      <ol class="fr-breadcrumb__list">
@@ -15,9 +15,7 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-       <p class="cover__subhead">Notre équipe</p>
+    <div class="content">
        <h1>{{ $page.people.firstName }} {{ $page.people.lastName }}</h1>
        <g-image class="cover__image" :src="$page.people.photo" alt="" />
        <p>{{ $page.people.job_title }}</p>
@@ -28,29 +26,19 @@
        <p v-if="$page.people.twitter">
          <g-link :to=" 'https://twitter.com/' + $page.people.twitter">@{{ $page.people.twitter }}</g-link>
        </p>
-     </div>
-   </div>
-
-   <section class="content">
-     <h2>
-       <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Biographie
-     </h2>
-     <div v-if="$page.people.content == '\n'">Bio à venir.</div>
-     <div v-else v-html="$page.people.content" />
-   </section>
+    <section>
+      <h2>Biographie</h2>
+      <div v-if="$page.people.content == '\n'">Bio à venir.</div>
+      <div v-else v-html="$page.people.content" />
+    </section>
+  </div>
 
   </Layout>
 </template>
 
 
 <script>
-
-  import CommandoUX from "~/assets/images/accompagnement.svg";
-
   export default {
-    components: {
-      CommandoUX,
-    },
     metaInfo () {
       return {
         title: this.$page.people.firstName + ' ' + this.$page.people.lastName,

@@ -127,7 +127,6 @@
 </script>
 
 <style lang="scss">
-  @import "src/assets/scss/_vars.scss";
   
   section.fixed-width {
     width: 36em;  

@@ -13,17 +13,9 @@
         </li>
       </ol>
     </nav>
-
-    <div class="cover">
-     <div class="cover__container">
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Prestations <span class="text-highlight">accessibilité numérique</span></h1>
-        <p>L’accord cadre accompagnement et formations de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2022, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
-      </div>
-    </div>
-
     <div class="content">
+      <h1>Prestations accessibilité numérique</h1>
+      <p>L’accord cadre accompagnement et formations de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2022, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
       <section>
         <h2>Les dispositions règlementaires</h2>
         <p>Les services souhaitant acheter une prestation d’audit, d’accompagnement en accessibilité numérique peuvent s’appuyer sur plusieurs dispositions règlementaires de la commande publique. (<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F32049" target="_blank" title="les procédures de marchés publics - nouvelle fenêtre">Les procédures de marchés publics</a>).</p>
@@ -105,13 +97,7 @@
 
 
 <script>
-
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
   export default {
-    components: {
-      Accessibilite,
-    },
     metaInfo: {
       title: "Prestations accessibilité numérique",
       meta: [{

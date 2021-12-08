@@ -1,5 +1,5 @@
 <template>
-  <Layout class="articles-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -11,28 +11,17 @@
         </li>
       </ol>
     </nav>
-
-    <div class="cover">
-     <div class="cover__container">
-
-       <h1 class="text-highlight"><Blog class="h1__icon" focusable="false" aria-hidden="true"/>Articles</h1>
-
-      </div>
-    </div>
-
     <div class="content">
-
-        <section class="articles">
-          <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-            <g-image :src="node.illustration" focusable="false" alt="" aria-hidden="true"/>
-            <p class="articles__date">{{ node.publishedDate }}</p>
-            <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
-            <p>{{ node.description }}</p>
-          </article>
-        </section>
-
+      <h1>Articles</h1>
+      <section class="articles">
+        <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
+          <g-image :src="node.illustration" focusable="false" alt="" aria-hidden="true"/>
+          <p class="articles__date">{{ node.publishedDate }}</p>
+          <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
+          <p>{{ node.description }}</p>
+        </article>
+      </section>
     </div>
-
   </Layout>
 </template>
 
@@ -56,13 +45,7 @@
 </page-query>
 
 <script>
-
-  import Blog from "~/assets/images/articles.svg"
-
   export default {
-    components: {
-      Blog,
-    },
     metaInfo: {
       title: "Articles",
       meta: [{

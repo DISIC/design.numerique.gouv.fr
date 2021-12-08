@@ -1,14 +1,13 @@
 <template>
-<Layout class="error-page">
+<Layout>
 
-  <div class="cover">
-      <div class="cover__container">
+  <div class="content">
         <h1>Oups, il y a eu une erreur lors du traitement de votre demande</h1>
-        <p class="cover__subtitle">
+        <p>
           Merci de réessayer
         </p>
         <a href="javascript:history.back()" class="button">Retourner au formulaire</a>
-      </div>
+
   </div>
 
 </Layout>
@@ -16,7 +15,6 @@
 
 
 <script>
-  import CommandoUX from "~/assets/images/accompagnement.svg"
 
   export default {
     metaInfo: {

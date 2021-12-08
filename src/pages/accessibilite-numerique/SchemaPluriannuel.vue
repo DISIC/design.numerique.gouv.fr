@@ -14,23 +14,10 @@
         </li>
       </ol>
     </nav>
-
-    <div class="cover">
-     <div class="cover__container">
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Schéma pluriannuel de mise en accessibilité</h1>
-
-      </div>
-    </div>
-
     <div class="content">
-
+      <h1>Schéma pluriannuel de mise en accessibilité</h1>
       <section>
-
-        <h2>
-          Contenu du schéma
-        </h2>
+        <h2>Contenu du schéma</h2>
 
         <p>
           En application du III de l’article 47 précité, le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique.
@@ -70,12 +57,7 @@
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
 export default {
-  components: {
-    Accessibilite,
-  },
   metaInfo: {
     title: "Schéma pluriannuel de mise en accessibilité",
     meta: [{

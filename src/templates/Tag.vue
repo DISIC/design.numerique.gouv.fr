@@ -1,16 +1,8 @@
 <template>
-  <Layout class="tag-page">
-
-    <div class="cover">
-     <div class="cover__container cover__container--light">
-
-       <h1>Nos publications sur le thème <span>{{ this.$route.params.id }}</span></h1>
-       <g-link to="/articles/"><font-awesome class="button__left-icon" :icon="['fas', 'arrow-left']" transform="shrink-3"/>Voir toutes nos publications</g-link>
-
-      </div>
-    </div>
-
+  <Layout>
     <div class="content">
+       <h1>Nos publications sur le thème <span>{{ this.$route.params.id }}</span></h1>
+       <g-link to="/articles/">Voir toutes nos publications</g-link>
 
       <section class="articles">
         <article v-for="{ node } in $page.allArticle.edges" :key="node.id">

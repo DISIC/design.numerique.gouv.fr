@@ -1,5 +1,5 @@
 <template>
-  <Layout class="contact-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -12,32 +12,26 @@
       </ol>
     </nav>
 
-    <div class="cover">
-      <div class="cover__container cover__container--light">
-        <h1>Contact</h1>
-      </div>
-    </div>
-
     <div class="content">
+      <h1>Contact</h1>
       <section>
         <p>Vous pouvez nous contacter en utilisant l’adresse électronique <strong>contact@design.numerique.gouv.fr</strong>.</p>
         <p>Vous pouvez également nous suivre sur les réseaux sociaux suivants :</p>
         <ul>
-              <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
+          <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
                 </a></li>
-              <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
+          <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Instagram <font-awesome  width="0" :icon="['fab', 'instagram']"/>
                 </a></li>
-              <li><a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw" title="Youtube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
+          <li><a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw" title="Youtube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Youtube <font-awesome  width="0" :icon="['fab', 'youtube']"/>
                 </a></li>
-              <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
+          <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Linkedin <font-awesome  width="0" :icon="['fab', 'linkedin']"/>
                 </a></li>
-
         </ul>
-       </section>
+      </section>
     </div>
 
   </Layout>

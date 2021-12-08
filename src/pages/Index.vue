@@ -1,5 +1,5 @@
 <template>
-<Layout class="index-page">
+<Layout>
 <h1>Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
 <p>Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
 <div class="content">
@@ -79,28 +79,10 @@
 
 <script>
   import Formation from "~/components/alerts/Formation.vue"
-  import Design from "~/assets/images/design.svg"
-  import Accessibilite from "~/assets/images/accessibilite.svg"
-  import Outils from "~/assets/images/outils.svg"
-  import Formations from "~/assets/images/formations.svg"
-  import Accompagnement from "~/assets/images/accompagnement.svg"
-  import Observatoire from "~/assets/images/observatoire.svg"
-  import FranceRelance from "~/assets/images/franceRelance.svg"
-  import Equipe from "~/assets/images/equipe.svg"
-  import Blog from "~/assets/images/articles.svg"
 
   export default {
     components: {
       Formation,
-      Design,
-      Accessibilite,
-      Outils,
-      Formations,
-      Accompagnement,
-      Observatoire,
-      FranceRelance,
-      Equipe,
-      Blog
     },
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",

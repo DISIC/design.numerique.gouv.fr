@@ -1,5 +1,5 @@
 <template>
-  <Layout class="roles-cles-page">
+  <Layout>
 
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
@@ -17,29 +17,19 @@
       </ol>
     </nav>
 
-    <div class="cover cover--with-breadcrumb">
-     <div class="cover__container">
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Vous êtes</div>
-       <h1 class="text-highlight" v-html="$page.role.title" />
-      </div>
-    </div>
     <div class="content">
+       <h1 v-html="$page.role.title" />
       <div v-html="$page.role.content" />
-    </div>
-    <div class="rf-callout rf-mt-8w" v-if="$page.role.focus.length > 0">
-      <p class="rf-callout__text" v-html="$page.role.focus" />
+      <div class="fr-callout fr-mt-8w" v-if="$page.role.focus.length > 0">
+        <p class="fr-callout__text" v-html="$page.role.focus" />
+      </div>
     </div>
   </Layout>
 </template>
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
 export default {
-  components: {
-    Accessibilite,
-  },
   metaInfo () {
     return {
       title: this.$page.role.title,

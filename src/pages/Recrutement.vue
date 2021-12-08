@@ -1,5 +1,5 @@
 <template>
-  <Layout class="jobs-page">
+  <Layout>
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
         <li>
@@ -10,31 +10,20 @@
         </li>
       </ol>
     </nav>
-    <div class="cover">
-      <div class="cover__container">
-        <h1 class="text-highlight">Recrutement</h1>
-<!--
-        <p class="cover__jobs">Nombre de postes ouverts : <span>{{ $page.allJob.edges.length }}</span></p>
-        <p class="cover__subtitle" >Nous n’avons pas d’offre pour le moment.</p>
- -->
+    <div class="content">
+      <h1>Recrutement</h1>
+      <p>Nombre de postes ouverts : <strong>{{ $page.allJob.edges.length }}</strong></p>
 <!--
         <p class="cover__subtitle" >Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
         <p>Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</p>
 -->
+      <div v-for="{ node } in $page.allJob.edges" :key="node.id">
+        <g-link :to="node.path" class="button">
+          <h2>{{ node.title }}</h2>
+          <p>{{ node.type }}</p>
+        </g-link>
       </div>
     </div>
-
-      <div class="content">
-           <h2>Les offres</h2>
-          <ul class="jobs">
-            <li v-for="{ node } in $page.allJob.edges" :key="node.id">
-              <g-link :to="node.path" class="button">
-                <h3>{{ node.title }}</h3>
-                <p>{{ node.type }}</p>
-              </g-link>
-            </li>
-          </ul>
-      </div>
   </Layout>
 </template>
 

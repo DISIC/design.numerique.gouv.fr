@@ -1,5 +1,5 @@
 <template>
-  <Layout class="accessibility-page">
+  <Layout>
 
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
@@ -13,15 +13,11 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container cover__container--light">
 
-       <h1>Accessibilité</h1>
-
-      </div>
-    </div>
 
     <div class="content">
+       <h1>Accessibilité</h1>
+
 
         <section>
           <h2>Déclaration d’accessibilité</h2>

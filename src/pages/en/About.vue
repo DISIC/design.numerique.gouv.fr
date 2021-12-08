@@ -1,5 +1,5 @@
 <template>
-  <Layout class="team-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -12,16 +12,8 @@
       </ol>
     </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-       <h1>Design of digital services team</h1>
-
-      </div>
-    </div>
-
     <div class="content">
-
+       <h1>Design of digital services team</h1>
         <section>
           <h2>Mission</h2>
           <p>

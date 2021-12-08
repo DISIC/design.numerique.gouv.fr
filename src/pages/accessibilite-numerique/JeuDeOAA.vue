@@ -1,5 +1,5 @@
 <template>
-  <Layout class="goose-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -14,28 +14,10 @@
         </li>
       </ol>
     </nav>
-
-   <div class="cover">
-     <div class="cover__container">
-
-
-
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Le jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité" class="text-highlight">OAA</abbr></h1>
-       <p class="cover__subtitle">Le jeu de l’organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
-
-      </div>
-    </div>
     <div class="content">
-      <!--
-      <div class="fr-callout">
-          <p class="fr-callout__text">
-            Cette ressource est en <strong>version beta</strong> et n’est que partiellement conforme au RGAA.<br>
-            Votre avis est précieux : aidez-nous à l’améliorer en partageant vos idées et suggestions en nous écrivant à l’adresse contact@design.numerique.gouv.fr ou en <a href="https://github.com/DISIC/design.numerique.gouv.fr/issues" target="_blank" rel="noreferrer noopener" title="créant un ticket - nouvelle fenêtre">créant un ticket</a> sur le dépot.
-          </p>
-      </div>
-      -->
+       <h1>Le jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité" >OAA</abbr></h1>
+       <p>Le jeu de l’organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
+
       <section class="goose fr-mt-8w">
         <ul>
           <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
@@ -104,11 +86,7 @@
 </template>
 
 <script>
-  import Accessibilite from "~/assets/images/accessibilite.svg"
   export default {
-    components: {
-      Accessibilite,
-    },
     methods: {
       openModal (id) {
         var button = document.getElementById(id + '__open-button');

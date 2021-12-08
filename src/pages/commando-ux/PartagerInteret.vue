@@ -1,5 +1,5 @@
 <template>
-<Layout class="partage-interet-page" hideNewsletter>
+<Layout hideNewsletter>
 
   <nav aria-label="Breadcrumb" class="fr-breadcrumb">
     <ol class="fr-breadcrumb__list">
@@ -15,17 +15,12 @@
     </ol>
   </nav>
 
-  <div class="cover">
-      <div class="cover__container">
-        <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
+  <div class="content">
         <h1>Experts de l'expérience utilisateur : vous souhaitez vous impliquer&nbsp;? Partagez votre intérêt&nbsp;!</h1>
-        <p class="cover__subtitle">
+        <p>
           Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.
         </p>
-      </div>
-  </div>
 
-  <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
             <form class="form" v-on:submit.prevent="addCandidate">
@@ -174,7 +169,7 @@
                   Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
                 </p>
 
-                <button class="button" id="submit" type="submit">Partager votre intérêt</button>
+                <button class="fr-btn" id="submit" type="submit">Partager votre intérêt</button>
             </form>
             </div>
             </div>
@@ -185,12 +180,8 @@
 
 
 <script>
-  import CommandoUX from "~/assets/images/accompagnement.svg"
 
   export default {
-    components: {
-      CommandoUX,
-    },
     metaInfo: {
       title: "Partager votre intérêt pour le Commando UX",
       meta: [{

@@ -1,5 +1,5 @@
 <template>
-  <Layout class="outils-page">
+  <Layout>
 
     <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
       <ol class="fr-breadcrumb__list">
@@ -15,15 +15,11 @@
       </ol>
     </nav>
 
-  <div class="cover web-only">
-    <div class="cover__container">
-      <h1 class="text-highlight">Diagnostic flash</h1>
-      <p class="cover__subtitle">Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
-    </div>
-  </div>
-
   <div class="content">
-    <section class="fr-mb-8w">
+      <h1>Diagnostic flash</h1>
+      <p>Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
+
+    <section>
     <h2>Comment l’utiliser ?</h2>
     <p>Le <strong>diagnostic flash</strong> se fait sur une ou plusieurs pages en une à deux heures. Deux solutions sont proposées :</p>
     <ul>
@@ -50,7 +46,7 @@
           </ul>
       </section>
     </div>
-  <div class="content web-only">
+  <div class="fr-mt-8w">
     <p><em>Nota bene</em> : le diagnostic flash nécessite l’installation de deux extensions de navigateur - très utiles de manière générale 🙂 :</p>
     <ul>
       <li>HeadingsMap (symbolisée par le pictogramme <strong>[h/]</strong>)

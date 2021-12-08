@@ -14,20 +14,9 @@
         </li>
       </ol>
     </nav>
-
-    <div class="cover">
-     <div class="cover__container">
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Déclaration d’accessibilité</h1>
-
-      </div>
-    </div>
-
     <div class="content">
-
+      <h1>Déclaration d’accessibilité</h1>
       <section>
-
         <h2>
           Contenu de la déclaration d’accessibilité
         </h2>
@@ -81,12 +70,7 @@
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
 export default {
-  components: {
-    Accessibilite,
-  },
   metaInfo: {
     title: "Déclaration d‘accessibilité",
     meta: [{

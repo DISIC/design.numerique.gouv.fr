@@ -14,17 +14,9 @@
         </li>
       </ol>
     </nav>
-
-    <div class="cover">
-     <div class="cover__container">
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1 class="text-highlight">Obligations légales et sanctions</h1>
-
-      </div>
-    </div>
-
     <div class="content">
+       <h1>Obligations légales et sanctions</h1>
+
 
       <section>
 
@@ -124,12 +116,7 @@
 
 <script>
 
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
 export default {
-  components: {
-    Accessibilite,
-  },
   metaInfo: {
     title: "Obligations légales et sanctions",
     meta: [{

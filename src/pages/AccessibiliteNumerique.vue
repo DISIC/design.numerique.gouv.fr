@@ -100,12 +100,7 @@
 
 <script>
 
-  import Accessibilite from "~/assets/images/accessibilite.svg"
-
   export default {
-    components: {
-      Accessibilite,
-    },
     metaInfo: {
       title: "Accessibilité numérique",
       meta: [{

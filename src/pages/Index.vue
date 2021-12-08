@@ -1,8 +1,8 @@
 <template>
 <Layout>
-<h1>Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
-<p>Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
-<div class="content">
+<div class="content fr-mt-md-4w fr-mt-2w">
+  <h1>Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
+  <p>Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
   <Formation/>
   <section class="fr-mt-4w">
     <div class="fr-grid-row fr-grid-row--gutters">

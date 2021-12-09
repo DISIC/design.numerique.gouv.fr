@@ -9,7 +9,7 @@
                             <p class="fr-text--sm fr-follow__desc">DesignGouv, c’est aussi des événements, des rencontres et des discussions pour faire vivre la culture design au sein des administrations. Rejoignez-nous !</p>
                         </div>
                         <div>
-                            <a class="button" href="/newsletter">
+                            <a class="fr-btn" href="/newsletter">
                                 S’abonner
                             </a>
                         </div>

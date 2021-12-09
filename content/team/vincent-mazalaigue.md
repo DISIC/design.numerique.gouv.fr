@@ -8,5 +8,5 @@ sub_team: Dites-le nous une fois
 sub_team_link: https://observatoire.numerique.gouv.fr/
 twitter: mazalaiguev
 e-mail :
-group : ["team"]
+group :
 ---

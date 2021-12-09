@@ -24,7 +24,7 @@
             <a class="fr-nav__link" href="/articles/">Articles</a>
           </li>
           <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
-            <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="open-jobs">{{ $static.allJob.edges.length }}</span></a>
+            <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="job">{{ $static.allJob.edges.length }}</span></a>
           </li>
         </ul>
       </nav>
@@ -84,3 +84,21 @@
     }
   }
 </script>
+
+<style lang="scss">
+  
+
+    .job {
+      font-size: 0.8rem;
+      font-weight: bold;
+      color: var(--border-default-purple-glycine);
+      border:0.2em solid  var(--border-default-purple-glycine);
+      border-radius: 50%;
+      width: 1.75rem;
+      height: 1.75rem;
+      margin-left: 0.255rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+</style>

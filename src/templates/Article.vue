@@ -19,11 +19,6 @@
       <p v-html="$page.article.publishedDate" />
       <h1 v-html="$page.article.title" />
       <div v-html="$page.article.content" />
-
-      <p class="tags">
-        <g-link class="tags__item" v-for="tag in $page.article.tags" :key="tag.id" :to="tag.path">{{tag.id}}</g-link>
-      </p>
-
     </div>
   </Layout>
 </template>

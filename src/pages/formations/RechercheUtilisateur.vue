@@ -16,7 +16,7 @@
   </nav>
   <div class="content">
     <h1>Formation à la recherche utilisateur</h1>
-    <p>Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !</p>
+    <p class="fr-text--lead">Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !</p>
     <h2>Revivez la formation en vidéo</h2>
     <p>La formation a eu lieu en direct le 9 décembre. Vous pouvez la revivre <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
     <h3>Objectifs</h3>

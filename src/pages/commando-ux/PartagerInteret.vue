@@ -17,7 +17,7 @@
 
   <div class="content">
         <h1>Experts de l'expérience utilisateur : vous souhaitez vous impliquer&nbsp;? Partagez votre intérêt&nbsp;!</h1>
-        <p>
+        <p class="fr-text--lead">
           Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.
         </p>
 

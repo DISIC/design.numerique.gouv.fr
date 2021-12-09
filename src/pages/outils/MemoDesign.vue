@@ -17,7 +17,7 @@
 
 <div class="content">
     <h1>Mémo design</h1>
-    <p>Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-concepteur/index.html" target="_blank" title="guide du concepteur RGAA - nouvelle fenêtre">guide du concepteur RGAA</a> de la DINUM. Ce guide propose des fiches pour chaque thématique avec des conseils de design, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
+    <p class="fr-text--lead">Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-concepteur/index.html" target="_blank" title="guide du concepteur RGAA - nouvelle fenêtre">guide du concepteur RGAA</a> de la DINUM. Ce guide propose des fiches pour chaque thématique avec des conseils de design, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
 
 
   <h2>Le mémo design</h2>

@@ -16,7 +16,7 @@
   </nav>
   <div class="content">
     <h1>Formation à l’accessibilité</h1>
-    <p>Pourquoi et comment bien prendre en compte les personnes en situation de handicap dans la conception de services publics numériques.</p>
+    <p class="fr-text--lead">Pourquoi et comment bien prendre en compte les personnes en situation de handicap dans la conception de services publics numériques.</p>
     <h2>Revivez la formation en vidéo</h2>
     <p>La formation a eu lieu en direct le jeudi 18 novembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=_5zIrh-LDto&t=2456s" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
 

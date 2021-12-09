@@ -16,7 +16,7 @@
     </nav>
     <div class="content">
        <h1>Le jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité" >OAA</abbr></h1>
-       <p>Le jeu de l’organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
+       <p class="fr-text--lead">Le jeu de l’organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       <section class="goose fr-mt-8w">
         <ul>

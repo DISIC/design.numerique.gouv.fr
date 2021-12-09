@@ -19,7 +19,7 @@
 <div class="content">
       <h1>Audit complémentaire RGAA </h1>
 
-      <p>Vous avez validé tous les critères de l’<a href="/outils/audit-rapide/">audit rapide</a>, vous pouvez maintenant passer à la deuxième étape et auditer votre échantillon sur les vingt cinq critères suivants.</p> 
+      <p class="fr-text--lead">Vous avez validé tous les critères de l’<a href="/outils/audit-rapide/">audit rapide</a>, vous pouvez maintenant passer à la deuxième étape et auditer votre échantillon sur les vingt cinq critères suivants.</p> 
 
     <p>L’audit complémentaire porte sur un échantillon réduit de 3 à 5 pages et sur les 25 critères de niveau A suivants :</p>
     <ul>

@@ -14,7 +14,7 @@
 
     <div class="content">
       <h1>Commando UX</h1>
-      <p>Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
+      <p class="fr-text--lead">Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
 
       <section class="description">
 

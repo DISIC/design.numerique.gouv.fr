@@ -14,7 +14,7 @@
 
     <div class="content">
       <h1 lang="en">Newsletter</h1>
-      <p>DesignGouv, c’est aussi des événements et des rencontres pour faire vivre la culture design au sein des administrations.</p>
+      <p class="fr-text--lead">DesignGouv, c’est aussi des événements et des rencontres pour faire vivre la culture design au sein des administrations.</p>
       <p>Et parfois des offres d’emploi ou propositions de collaboration. C’est pourquoi nous vous proposons de partager vos compétences.</p>
 
       <form action="https://gouv.us5.list-manage.com/subscribe/post?u=c921e95d674341b87fd4fb6e6&amp;id=bc185cd5f1" method="post" name="mc-embedded-subscribe-form" rel="noreferrer noopener">

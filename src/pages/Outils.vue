@@ -14,7 +14,7 @@
 
     <div class="content">
       <h1>Outils</h1>
-      <p>Une sélection d’outils faits maison pour vous accompagner dans l’amélioration de l’accessibilité et du design de vos sites et applications web.</p>
+      <p class="fr-text--lead">Une sélection d’outils faits maison pour vous accompagner dans l’amélioration de l’accessibilité et du design de vos sites et applications web.</p>
       <section>
         <h2 id="tech">Tech</h2>
         <ul>

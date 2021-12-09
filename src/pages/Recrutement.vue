@@ -17,11 +17,17 @@
         <p class="cover__subtitle" >Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
         <p>Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</p>
 -->
-      <div v-for="{ node } in $page.allJob.edges" :key="node.id">
-        <g-link :to="node.path" class="button">
-          <h2>{{ node.title }}</h2>
-          <p>{{ node.type }}</p>
-        </g-link>
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-md-6 fr-col-12"  v-for="{ node } in $page.allJob.edges" :key="node.id">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                        <g-link  :to="node.path" class="fr-tile__link">{{ node.title }}</g-link>
+                    </h2>
+                    <p class="fr-tile__desc">{{ node.type }}</p>
+                </div>
+            </div>
+        </div>
       </div>
     </div>
   </Layout>

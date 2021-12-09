@@ -14,7 +14,7 @@
 
     <div class="content">
       <h1>Formations</h1>
-      <p>Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites.</p>
+      <p class="fr-text--lead">Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites.</p>
       <section>
 
         <h2>

@@ -17,7 +17,7 @@
 
   <div class="content">
         <h1>Formation à l’écoconception</h1>
-        <p>Pourquoi et comment écoconcevoir des services publics numériques.</p>
+        <p class="fr-text--lead">Pourquoi et comment écoconcevoir des services publics numériques.</p>
 
 
     <h2>Revivez la formation en vidéo</h2>

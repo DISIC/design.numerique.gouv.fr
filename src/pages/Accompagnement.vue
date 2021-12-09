@@ -14,7 +14,7 @@
 
     <div class="content">
       <h1>Nos offres d'accompagnement</h1>
-      <p>Vous avez des besoins en design&nbsp;? Vous vous posez des questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours, demander des conseils pour le développement ou l'amélioration de votre service&nbsp;? Nous vous aidons&nbsp;!</p>
+      <p class="fr-text--lead">Vous avez des besoins en design&nbsp;? Vous vous posez des questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours, demander des conseils pour le développement ou l'amélioration de votre service&nbsp;? Nous vous aidons&nbsp;!</p>
       <section>
         <h2>Le Commando UX</h2>
         <p>Faites intervenir nos experts pour améliorer la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>

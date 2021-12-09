@@ -17,7 +17,7 @@
 
   <div class="content">
       <h1>Diagnostic flash</h1>
-      <p>Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
+      <p class="fr-text--lead">Le diagnostic flash permet d’estimer de manière partielle la qualité, l’accessibilité et le design d’un site ou d’une démarche en ligne d’une administration publique, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
 
     <section>
     <h2>Comment l’utiliser ?</h2>

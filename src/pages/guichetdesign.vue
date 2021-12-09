@@ -14,7 +14,7 @@
 
     <div class="content">
       <h1>#guichetDesign</h1>
-      <p>Dans le cadre de France Relance, 32 M€ pour simplifier la relation entre les usagers et l’administration grâce au numérique.</p>
+      <p class="fr-text--lead">Dans le cadre de France Relance, 32 M€ pour simplifier la relation entre les usagers et l’administration grâce au numérique.</p>
 
 
       <section>

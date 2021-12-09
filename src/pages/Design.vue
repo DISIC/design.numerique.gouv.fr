@@ -3,7 +3,7 @@
 
     <div class="content">
       <h1>Design numérique</h1>
-      <p>Le design permet de rendre les services numériques plus simples, accessibles et agréables pour tous. Concevoir par le design, c’est mettre en œuvre des solutions centrées sur les usagers, tout en s’appuyant sur de bonnes pratiques reconnues.</p>
+      <p class="fr-text--lead">Le design permet de rendre les services numériques plus simples, accessibles et agréables pour tous. Concevoir par le design, c’est mettre en œuvre des solutions centrées sur les usagers, tout en s’appuyant sur de bonnes pratiques reconnues.</p>
     </div>
 
   </Layout>

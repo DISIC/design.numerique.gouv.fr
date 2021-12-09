@@ -17,7 +17,7 @@
 
     <div class="content">
       <h1>Commando UX saison 1</h1>
-      <p>
+      <p class="fr-text--lead">
         Afin d’accélérer les améliorations concrètes pour les usagers dans leurs démarches, la DINUM a lancé en septembre 2020 le Commando UX.
       </p>
 

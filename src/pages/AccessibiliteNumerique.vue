@@ -13,7 +13,7 @@
     </nav>
     <div class="content">
       <h1>Accessibilité numérique</h1>
-      <p>L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
+      <p class="fr-text--lead">L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
       <p>En France, les produits et services numériques sont souvent conçus sans prendre le temps de comprendre l’audience qu’ils servent, notamment les personnes en situation de handicap soit 12 millions de personnes en France.</p>
       <p>Les services non accessibles sont le fruit de parcours trop complexes et de lignes de code qui ne suivent pas les bonnes pratiques de développement web. Il est essentiel que les développeurs, développeuses et designers soient mieux formés.</p>
       <p><strong>Depuis 2012, tous les sites publics doivent être accessibles et conformes à l’ensemble des critères du <abbr title="référentiel général d’amélioration de l’accessibilité">RGAA</abbr>.</strong> Et ainsi permettre à tous les usagers un égal accès à leurs droits.</p>
@@ -25,7 +25,7 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
                 <div class="fr-tile__body">
                     <h3 class="fr-tile__title">
-                        <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-tile__link" href>Obligations légales et sanctions</g-link>
+                        <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-tile__link">Obligations légales et sanctions</g-link>
                     </h3>
                 </div>
             </div>
@@ -34,7 +34,7 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
                 <div class="fr-tile__body">
                     <h3 class="fr-tile__title">
-                        <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link" href>RGAA</g-link>
+                        <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link">RGAA</g-link>
                     </h3>
                 </div>
             </div>
@@ -43,7 +43,7 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
                 <div class="fr-tile__body">
                     <h3 class="fr-tile__title">
-                        <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-tile__link" href>Schéma pluriannuel</g-link>
+                        <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-tile__link">Schéma pluriannuel</g-link>
                     </h3>
                 </div>
             </div>
@@ -52,7 +52,7 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
                 <div class="fr-tile__body">
                     <h3 class=" fr-tile__title">
-                        <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-tile__link" href>Déclaration d’accessibilité</g-link>
+                        <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-tile__link">Déclaration d’accessibilité</g-link>
                     </h3>
                 </div>
             </div>

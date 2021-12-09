@@ -13,7 +13,7 @@
     </nav>
     <div class="content">
       <h1>Les rôles clés</span></h1>
-      <p>Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
+      <p class="fr-text--lead">Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
 
       <div class="fr-grid-row fr-grid-row--gutters">
         <div class="fr-col-12 fr-col-sm-6 fr-col-lg-4" v-for="{ node } in $page.allRole.edges" :key="node.id">

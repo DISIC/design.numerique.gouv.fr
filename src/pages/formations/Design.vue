@@ -17,7 +17,7 @@
 
   <div class="content">
     <h1>Formation au design</h1>
-    <p>Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques.</p>
+    <p class="fr-text--lead">Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques.</p>
 
     <h2>Revivez la formation en vidéo</h2>
     <p>La formation a eu lieu en direct le 30 novembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>

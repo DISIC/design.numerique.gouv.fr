@@ -3,7 +3,6 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/css/dsfr.min.css'
-import '~/assets/scss/main.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -136,4 +135,4 @@ library.add(
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr' }
-}
+  }

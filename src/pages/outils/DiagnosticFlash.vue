@@ -121,3 +121,18 @@ export default {
 }
 </script>
 
+<style lang="scss">
+    .fr-accordion .fr-accordion__btn {
+      padding: .75rem 0.5rem .75rem 3rem;
+    }
+    span.numero {
+      padding:0.25rem;
+      background-color: var(--border-default-purple-glycine);
+      color: white;
+      position: absolute;
+      width: 1.6em;
+      text-align: center;
+      box-sizing: content-box;
+    }
+
+</style>

@@ -14,7 +14,7 @@
     <main class="layout" id="main" role="main">
       <div class="fr-container fr-mt-md-2w">
         <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
-          <div class="fr-col-md-8 fr-col">
+          <div class="fr-col-xs-12 fr-col-sm-10 fr-col-md-8">
             <slot/>
             <Offer v-if="showServices"/>
           </div>

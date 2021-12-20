@@ -11,7 +11,7 @@
                 <p class="fr-text--lead dg-text-center">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
               </div>
             </div>
-            <Formation/>
+            <Message/>
           </div>
         </div>
       </section>
@@ -121,11 +121,11 @@
 </template>
 
 <script>
-  import Formation from "~/components/alerts/Formation.vue"
+  import Message from "~/components/Message.vue"
 
   export default {
     components: {
-      Formation,
+      Message,
     },
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",

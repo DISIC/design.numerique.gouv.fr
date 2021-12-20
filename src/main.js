@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/css/dsfr.min.css'
+import '~/assets/scss/styles.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 

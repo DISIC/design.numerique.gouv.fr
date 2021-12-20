@@ -24,7 +24,7 @@
             <a class="fr-nav__link" href="/articles/">Articles</a>
           </li>
           <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
-            <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="job">{{ $static.allJob.edges.length }}</span></a>
+            <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="job">{{ $static.allJob.edges.length }} offres</span></a>
           </li>
         </ul>
       </nav>
@@ -75,13 +75,12 @@
 
     .job {
       font-size: 0.8rem;
-      font-weight: bold;
-      color: var(--border-default-purple-glycine);
-      border:0.2em solid  var(--border-default-purple-glycine);
-      border-radius: 50%;
-      width: 1.75rem;
-      height: 1.75rem;
-      margin-left: 0.255rem;
+      //font-weight: bold;
+      color: var(--text-action-high-pink-macaron);
+      background-color: var(--background-action-low-pink-macaron);
+      border-radius: 1rem;
+      padding: 0 0.75rem;
+      margin-left: 0.25rem;
       display: inline-flex;
       justify-content: center;
       align-items: center;

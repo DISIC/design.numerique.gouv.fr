@@ -89,17 +89,37 @@
         </div>
       </section>
 
-      <section class="fr-mt-4w">
-        <div class="fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-12 fr-col-sm-6">
-            <h2>Outils</h2>
-            <p>Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <strong>design</strong> et de l’<strong>accessibilité</strong>.</p>
-            <g-link to="/outils/" >Accéder aux outils<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
-          </div>
-          <div class="fr-col-12 fr-col-sm-6">
-            <h2>Formations</h2>
-            <p>De nombreuses formations sont disponibles, que ce soit pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>.</p>
-            <g-link to="/formations/" >Voir les formations<font-awesome  width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/></g-link>
+      <section class="dg-block fr-mt-8w">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-lg-10 fr-my-8w">
+            <div class="fr-grid-row fr-grid-row--gutters">
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <g-link class="fr-tile__link fr-text--lg" to="/outils/">Outils</g-link>
+                    </h2>
+                    <p class="fr-tile__desc">Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <strong>design</strong> et de l’<strong>accessibilité</strong>.</p>
+                  </div>
+                  <div class="fr-tile__img dg-picto">
+                    <img svg-inline src="../assets/images/outils-picto.svg" class="fr-responsive-img" aria-hidden="true">
+                  </div>
+                </div>
+              </div>
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <g-link class="fr-tile__link fr-text--lg" to="/formations/">Formations</g-link>
+                    </h2>
+                    <p class="fr-tile__desc">De nombreuses formations sont disponibles, que ce soit pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>. </p>
+                  </div>
+                  <div class="fr-tile__img dg-picto">
+                    <img svg-inline src="../assets/images/formation-picto.svg" class="fr-responsive-img" aria-hidden="true">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

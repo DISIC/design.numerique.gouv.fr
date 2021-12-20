@@ -201,10 +201,10 @@
         id
         firstName
         lastName
-        photo (width: 52, height: 52, quality: 100)
+        photo (width: 52, height: 52, quality: 50)
         job_title
         ghostName
-        ghostPhoto (width: 52, height: 52, quality: 100)
+        ghostPhoto (width: 52, height: 52, quality: 50)
       }
       goals {
         name
@@ -434,14 +434,14 @@
             display: inline;
             position: absolute;
             margin-left: -50px;
-            margin-top: -5px;
+            margin-top: 2px;
             width: 32px;
             height: 32px;
             content:"";
 
             @media only screen and (max-width: $mobile-max-width) {
               margin-left: -39px;
-              margin-top: -5px;
+              margin-top: 0px;
             }
           }
         }

@@ -1,17 +1,14 @@
-/covid-19/*
-  Cache-Control: public, max-age=3600
-
 /assets/css/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=31536000
 
 /assets/js/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=31536000
 
 /assets/img/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=31536000
 
 /assets/fonts/*
-  Cache-Control: public, max-age=604800
+  Cache-Control: public, max-age=31536000
 
 /assets/static/*
   Cache-Control: public, max-age=604800

@@ -134,49 +134,6 @@
 
       <section>
         <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Informations pratiques
-        </h2>
-        <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 mars 2021</p>
-        <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
-        <p><strong>Conditions :</strong></p>
-        <ul>
-          <li>Être une personne physique (et non morale)</li>
-          <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
-          <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
-        </ul> -->
-        <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
-        <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
-        <ul class="team">
-          <li>
-            <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Faustine Demiselle"/>
-            <p><strong>Faustine Demiselle</strong></p>
-            <p lang="en">Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Ugo Dessertine"/>
-            <p><strong>Ugo Dessertine</strong></p>
-            <p lang="en">Lead Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Georges Bayard"/>
-            <p><strong>Georges Bayard</strong></p>
-            <p>Chargé de mission</p>
-            <p>Observatoire</p>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>
           <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les dates clés du programme
         </h2>
         <p>
@@ -185,7 +142,7 @@
         </p>
         <p>
           <strong>22 juin – 26 juin 2020</strong><br>
-          Étude et sélection des défis : nous sélectionnons les 5 à 10 projets les plus impactants.
+          Étude et sélection des défis : nous sélectionnons les 10 projets les plus impactants.
         </p>
         <p>
           <strong>29 juin – 19 juillet 2020</strong><br>
@@ -352,16 +309,6 @@
 
           a {
             border: none !important;
-          }
-        }
-
-        img {
-          max-width: 80px;
-          height: 80px;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            max-width: 64px;
-            height: 64px;
           }
         }
       }

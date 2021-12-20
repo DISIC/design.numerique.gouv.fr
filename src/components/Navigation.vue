@@ -52,33 +52,19 @@
       var currentUrl = this.$route.path;
       var activeClass = 'active';
       var navLinks = document.querySelectorAll('.fr-nav a'); //all links inside the nav
-
       for (var i = 0, l = navLinks.length; i < l; i++) {
         const link = navLinks[i];
         const url = link.getAttribute('href');
-        const span = document.createElement('span');
         if (url == "/") {
           if (currentUrl == url) {
-            span.innerHTML = link.innerHTML;
-            span.classList.add('fr-nav__link');
-            span.classList.add(activeClass);
-            link.parentNode.setAttribute("aria-current", "page");
-            link.parentNode.replaceChild(span, link);
+            link.setAttribute("aria-current", "page");
           }
         }
         else if (currentUrl == url) {
-          span.innerHTML = link.innerHTML;
-          span.classList.add('fr-nav__link');
-          span.classList.add(activeClass);
-          link.parentNode.setAttribute("aria-current", "page");
-          link.parentNode.replaceChild(span, link);
+          link.setAttribute("aria-current", "page");
         }
         else if (currentUrl.includes(url)) {
-          span.innerHTML = link.innerHTML;
-          span.classList.add('fr-nav__link');
-          span.classList.add(activeClass);
-          link.parentNode.setAttribute("aria-current", "true");
-          link.parentNode.replaceChild(span, link);
+          link.setAttribute("aria-current", "true");
         }
       }
     }
@@ -86,7 +72,6 @@
 </script>
 
 <style lang="scss">
-  
 
     .job {
       font-size: 0.8rem;
@@ -101,4 +86,5 @@
       justify-content: center;
       align-items: center;
     }
+
 </style>

@@ -39,11 +39,3 @@
     }
   }
 </script>
-
-<style lang="scss" scoped>
-
-  .site-name {
-    font-weight: 800;
-  }
-
-</style>

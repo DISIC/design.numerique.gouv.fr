@@ -30,6 +30,10 @@ html {
     left: 50%;
     //background: linear-gradient(270deg, #FEF7DA 20%, #FEF4F3 80%);
     background: conic-gradient(from 90deg, #FEF7DA, #FEF4F3, #FEF7DA);
+
+    &-inner {
+      background: linear-gradient(180deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.00) 80%, #FFFFFF 100%);
+    }
   }
 
   &-badge {

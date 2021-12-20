@@ -160,10 +160,17 @@ module.exports = {
     mask: '^$', // example - disable all prefetch
   },
   chainWebpack: config => {
+    // Load SVGs as components
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
     svgRule
       .use('vue-svg-loader')
       .loader('vue-svg-loader')
+    // Load SVGs inline
+    config.module
+      .rule("vue")
+      .use("vue-svg-inline-loader")
+      .loader("vue-svg-inline-loader")
+      .options({ /* ... */ });
   },
 }

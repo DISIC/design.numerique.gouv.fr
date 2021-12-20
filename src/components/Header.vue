@@ -16,9 +16,10 @@
                 </button>
               </div>
             </div>
-            <div class="fr-header__service">
-              <a href="/" title="Retour à l’accueil DesignGouv"  class="fr-header__service-title  text-highlight">DesignGouv</a>
-              <p class="fr-header__service-tagline">Par le pôle Design des services numériques</p>
+            <div class="fr-header__operator">
+              <g-link to="/" title="DesignGouv, par le pôle design des services numériques - Retour à l'accueil">
+                <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" aria-hidden="true" />
+              </g-link>
             </div>
           </div>
         </div>
@@ -38,3 +39,11 @@
     }
   }
 </script>
+
+<style lang="scss" scoped>
+
+  .site-name {
+    font-weight: 800;
+  }
+
+</style>

@@ -31,7 +31,7 @@
                     <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
                   </div>
                   <div class="fr-tile__img dg-picto">
-                    <img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" alt="">
+                    <img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">
                   </div>
                 </div>
               </div>
@@ -44,7 +44,7 @@
                     <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>. </p>
                   </div>
                   <div class="fr-tile__img dg-picto">
-                    <img svg-inline src="../assets/images/accessibilite-picto.svg" class="fr-responsive-img" alt="">
+                    <img svg-inline src="../assets/images/accessibilite-picto.svg" class="fr-responsive-img" aria-hidden="true">
                   </div>
                 </div>
               </div>

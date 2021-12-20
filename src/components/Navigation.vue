@@ -9,6 +9,9 @@
             <a class="fr-nav__link" href="/">Accueil</a>
           </li>
           <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/design-numerique/">Design</a>
+          </li>
+          <li class="fr-nav__item">
             <a class="fr-nav__link" href="/accessibilite-numerique/">Accessibilité</a>
           </li>
           <li class="fr-nav__item">

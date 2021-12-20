@@ -6,4 +6,19 @@
       text-align: center;
     }
   }
+
+  &-cover {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    background-image: linear-gradient(270deg, #FEF7DA 20%, #FEF4F3 80%);
+  }
+}
+
+.fr {
+
+  &-header {
+    z-index: 1;
+  }
 }

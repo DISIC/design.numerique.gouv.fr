@@ -1,14 +1,20 @@
 <template>
   <Layout>
-    <div class="content fr-mt-md-4w fr-mt-2w">
+    <div class="content">
 
-      <h1 class="fr-display-sm dg-text--center">Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
-      <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
-          <div class="fr-col-lg-10">
-            <p class="fr-text--lead dg-text--center">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
+      <section class="dg-cover">
+        <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+          <div class="fr-col-xl-10 fr-mt-6w">
+            <h1 class="fr-display-sm dg-text--center">Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
+            <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+              <div class="fr-col-lg-10">
+                <p class="fr-text--lead dg-text--center">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
+              </div>
+            </div>
+            <Formation/>
           </div>
         </div>
-      <Formation/>
+      </section>
 
       <section class="fr-mt-4w">
           <div class="fr-grid-row fr-grid-row--gutters">

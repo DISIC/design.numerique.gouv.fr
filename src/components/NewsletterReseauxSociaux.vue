@@ -29,7 +29,7 @@
                                 <a class="fr-link--linkedin fr-link" title="linkedin - ouvre une nouvelle fenêtre" href="https://www.linkedin.com/company/designgouv" target="_blank">linkedin</a>
                             </li>
                             <li>
-                                <a class="fr-link--youtube fr-link" title="youtube - ouvre une nouvelle fenêtre" href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw" target="_blank">youtube</a>
+                                <a class="fr-link--youtube fr-link" title="youtube - ouvre une nouvelle fenêtre" href="https://www.youtube.com/c/DesignGouv" target="_blank">youtube</a>
                             </li>
                         </ul>
                     </div>

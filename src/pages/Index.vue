@@ -12,31 +12,45 @@
                   <p class="fr-text--lead dg-text-center fr-mb-5w">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
                 </div>
               </div>
-              <Message class="fr-px-2w"/>
+              <Message/>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="fr-mt-4w">
-          <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-sm-6">
-                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                    <div class="fr-tile__body">
-                        <h2>Design</h2>
-                        <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
-                    </div>
+      <section class="dg-block fr-mt-8w">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-lg-10 fr-my-8w">
+            <div class="fr-grid-row fr-grid-row--gutters">
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <g-link class="fr-tile__link fr-text--lg" to="/design-numerique/">Le design</g-link>
+                    </h2>
+                    <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
+                  </div>
+                  <div class="fr-tile__img dg-picto">
+                    <img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" alt="">
+                  </div>
                 </div>
-            </div>
-            <div class="fr-col-sm-6">
-                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                    <div class="fr-tile__body">
-                        <h2><a href="/accessibilite-numerique/" class="fr-tile__link">Accessibilité</a></h2>
-                        <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>.</p>
-                    </div>
+              </div>
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <g-link class="fr-tile__link fr-text--lg" to="/accessibilite-numerique/">L'accessibilité</g-link>
+                    </h2>
+                    <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>. </p>
+                  </div>
+                  <div class="fr-tile__img dg-picto">
+                    <img svg-inline src="../assets/images/accessibilite-picto.svg" class="fr-responsive-img" alt="">
+                  </div>
                 </div>
+              </div>
             </div>
           </div>
+        </div>
       </section>
 
       <section class="fr-mt-4w">

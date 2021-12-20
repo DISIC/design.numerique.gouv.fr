@@ -36,6 +36,16 @@ html {
     }
   }
 
+  &-block {
+    background: conic-gradient(from 180deg, #FEF7DA, #FEF4F3, #FEF7DA);
+  }
+
+  &-picto {
+    background: conic-gradient(from 135deg, #FCEEAC, #FEE9E6, #FCEEAC);
+    border-radius: 50%;
+    transition: 0.2s all;
+  }
+
   &-badge {
     font-size: 0.8rem;
     color: var(--text-action-high-pink-macaron);
@@ -51,5 +61,15 @@ html {
 
   &-header {
     z-index: 1;
+  }
+
+  &-tile {
+
+    &:hover {
+
+      .dg-picto {
+        transform: rotate(180deg);
+      }
+    }
   }
 }

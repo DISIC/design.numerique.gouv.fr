@@ -35,7 +35,8 @@
      <h2>
        <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Biographie
      </h2>
-     <div v-html="$page.people.content" />
+     <div v-if="$page.people.content == '\n'">Bio à venir.</div>
+     <div v-else v-html="$page.people.content" />
    </section>
 
   </Layout>
@@ -57,6 +58,10 @@
           {
             name: 'description',
             content: 'Biographie de ' + this.$page.people.firstName + ' ' + this.$page.people.lastName + ' sur DesignGouv'
+          },
+          {
+            name: "robots",
+            content: this.$page.people.content == "\n" ? "no index" : "index"
           }
         ]
       }

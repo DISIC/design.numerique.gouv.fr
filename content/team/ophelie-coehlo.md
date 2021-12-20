@@ -13,4 +13,4 @@ e-mail :
 group : ["external"]
 ---
 
-Bio à venir
+Ophélie Coelho est cheffe de produit et chargée de recherche utilisateur. À la Direction interministérielle du numérique (DINUM) depuis 2019, elle a participé à plusieurs projets au LabIA (Etalab) et au pôle Design des services numériques (Département Performance des services numériques).

@@ -64,7 +64,7 @@
                     <h2 class="fr-tile__title">
                       <g-link class="fr-tile__link fr-text--lg" to="/accompagnement/">Les experts</g-link>
                     </h2>
-                    <p class="fr-tile__desc">Nos experts pour vous accompagner 🌟</p>
+                    <p class="fr-tile__desc">Nos experts pour vous accompagner au quotidien 🌟</p>
                   </div>
                   <div class="fr-tile__img">
                     <img svg-inline src="../assets/images/experts.svg" class="fr-responsive-img" aria-hidden="true">

@@ -56,57 +56,60 @@
       <section class="fr-mt-8w">
         <div class="fr-grid-row fr-grid-row--center">
           <div class="fr-col-lg-10">
-            <h2>Nos offres</h2>
-            <div class="fr-grid-row fr-grid-row--gutters">
-              <div class="fr-col-sm-6">
-                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                  <div class="fr-tile__body">
-                    <h2 class="fr-tile__title">
-                      <g-link class="fr-tile__link fr-text--lg" to="/accompagnement/">Les experts</g-link>
-                    </h2>
-                    <p class="fr-tile__desc">Nos experts pour vous accompagner au quotidien 🌟</p>
-                  </div>
-                  <div class="fr-tile__img">
-                    <img svg-inline src="../assets/images/experts.svg" class="fr-responsive-img" aria-hidden="true">
-                  </div>
-                </div>
-              </div>
-              <div class="fr-col-sm-6">
-                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                  <div class="fr-tile__body">
-                    <h2 class="fr-tile__title">
-                      <g-link class="fr-tile__link fr-text--lg" to="/commando-ux/">Le Commando UX</g-link>
-                    </h2>
-                    <p class="fr-tile__desc">Des designers déployés au sein de votre équipe 👍 </p>
-                  </div>
-                  <div class="fr-tile__img">
-                    <img svg-inline src="../assets/images/commando.svg" class="fr-responsive-img" aria-hidden="true">
+            <div class="offer">
+              <h2 class="offer_title">Nos offres</h2>
+              <g-link class="fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right offer__link" to="/accompagnement/"yo="#">Voire toutes nos offres</g-link>
+              <div class="fr-grid-row fr-grid-row--gutters offer__blocks">
+                <div class="fr-col-sm-6">
+                  <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                    <div class="fr-tile__body">
+                      <h2 class="fr-tile__title">
+                        <g-link class="fr-tile__link fr-text--lg" to="/accompagnement/">Les experts</g-link>
+                      </h2>
+                      <p class="fr-tile__desc">Nos experts pour vous accompagner au quotidien 🌟</p>
+                    </div>
+                    <div class="fr-tile__img">
+                      <img svg-inline src="../assets/images/experts.svg" class="fr-responsive-img" aria-hidden="true">
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="fr-col-sm-6">
-                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                  <div class="fr-tile__body">
-                    <h2 class="fr-tile__title">
-                      <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvel onglet" target="_blank">Je donne mon avis</a>
-                    </h2>
-                    <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬  </p>
-                  </div>
-                  <div class="fr-tile__img">
-                    <img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
+                <div class="fr-col-sm-6">
+                  <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                    <div class="fr-tile__body">
+                      <h2 class="fr-tile__title">
+                        <g-link class="fr-tile__link fr-text--lg" to="/commando-ux/">Le Commando UX</g-link>
+                      </h2>
+                      <p class="fr-tile__desc">Des designers déployés au sein de votre équipe 👍 </p>
+                    </div>
+                    <div class="fr-tile__img">
+                      <img svg-inline src="../assets/images/commando.svg" class="fr-responsive-img" aria-hidden="true">
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="fr-col-sm-6">
-                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                  <div class="fr-tile__body">
-                    <h2 class="fr-tile__title">
-                      <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvel onglet" target="_blank">L'Observatoire</a>
-                    </h2>
-                    <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎 </p>
+                <div class="fr-col-sm-6">
+                  <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                    <div class="fr-tile__body">
+                      <h2 class="fr-tile__title">
+                        <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvel onglet" target="_blank">Je donne mon avis</a>
+                      </h2>
+                      <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬  </p>
+                    </div>
+                    <div class="fr-tile__img">
+                      <img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
+                    </div>
                   </div>
-                  <div class="fr-tile__img">
-                    <img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
+                </div>
+                <div class="fr-col-sm-6">
+                  <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                    <div class="fr-tile__body">
+                      <h2 class="fr-tile__title">
+                        <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvel onglet" target="_blank">L'Observatoire</a>
+                      </h2>
+                      <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎 </p>
+                    </div>
+                    <div class="fr-tile__img">
+                      <img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -172,7 +175,7 @@
 
       <section class="fr-mt-4w">
         <h2>Notre équipe</h2>
-        <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres"/>
+        <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres" width="200"/>
         <div>
           <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises.<br>Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️</p>
           <g-link to="/equipe/">Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/></g-link>
@@ -255,3 +258,31 @@
   }
 
 </page-query>
+
+<style lang="scss" scoped>
+
+  .offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    &__title {
+      order: 1;
+    }
+
+    &__link {
+      order: 2;
+      @media only screen and (max-width: 576px) {
+        order: 4;
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+
+    &__blocks {
+      order: 3;
+    }
+  }
+
+</style>

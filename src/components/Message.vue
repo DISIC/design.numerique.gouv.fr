@@ -1,6 +1,6 @@
 <template>
   <div class="fr-grid-row fr-grid-row--center fr-mx-2w">
-    <div class="dg-message dg-text-center fr-col-lg-10 fr-py-3w fr-px-4w">
+    <div class="dg-message dg-text-center fr-col-lg-8 fr-py-3w fr-px-4w">
       <p class="dg-badge"><span class="dg-flip-h">📢</span> Nouveau</p>
       <h2 class="fr-h4 fr-mt-1w fr-mb-1w">Lancement de notre programme de formations !</h2>
       <p class="fr-mb-2w">

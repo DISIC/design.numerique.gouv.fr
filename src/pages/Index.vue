@@ -53,36 +53,62 @@
         </div>
       </section>
 
-      <section class="fr-mt-4w">
-        <h2>Nos offres d’accompagnement</h2>
-        <div class="fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-sm-6">
-            <div class="fr-card fr-enlarge-link" >
-              <div class="fr-card__body">
-                  <h3 class="fr-card__title">
-                    <a href="/commando-ux/" class="fr-card__link">Le Commando UX</a>
-                  </h3>
-                  <p class="fr-card__desc">Une équipe de designers, développeurs et développeuses pour améliorer les démarches en ligne&nbsp;🌟</p>
+      <section class="fr-mt-8w">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-lg-10">
+            <h2>Nos offres</h2>
+            <div class="fr-grid-row fr-grid-row--gutters">
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <g-link class="fr-tile__link fr-text--lg" to="/accompagnement/">Les experts</g-link>
+                    </h2>
+                    <p class="fr-tile__desc">Nos experts pour vous accompagner 🌟</p>
+                  </div>
+                  <div class="fr-tile__img">
+                    <img svg-inline src="../assets/images/experts.svg" class="fr-responsive-img" aria-hidden="true">
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="fr-col-sm-6">
-            <div class="fr-card fr-enlarge-link" >
-              <div class="fr-card__body">
-                  <h3 class="fr-card__title">
-                    <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="Le guichet France Relance - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener" class="fr-card__link">Notre guichet France Relance</a>
-                  </h3>
-                  <p class="fr-card__desc">Destiné aux administrations pour financer la simplification de leurs démarches en ligne&nbsp;👍</p>
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <g-link class="fr-tile__link fr-text--lg" to="/commando-ux/">Le Commando UX</g-link>
+                    </h2>
+                    <p class="fr-tile__desc">Des designers déployés au sein de votre équipe 👍 </p>
+                  </div>
+                  <div class="fr-tile__img">
+                    <img svg-inline src="../assets/images/commando.svg" class="fr-responsive-img" aria-hidden="true">
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="fr-col-sm-6">
-            <div class="fr-card fr-enlarge-link" >
-              <div class="fr-card__body">
-                  <h3 class="fr-card__title">
-                    <a href="https://observatoire.numerique.gouv.fr/" title="L’observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener" class="fr-card__link">L’Observatoire</a>
-                  </h3>
-                  <p class="fr-card__desc">Les 250 démarches administratives les plus utilisées par les Français et les Françaises passées à la loupe&nbsp;🔎</p>
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvel onglet" target="_blank">Je donne mon avis</a>
+                    </h2>
+                    <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬  </p>
+                  </div>
+                  <div class="fr-tile__img">
+                    <img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
+                  </div>
+                </div>
+              </div>
+              <div class="fr-col-sm-6">
+                <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+                  <div class="fr-tile__body">
+                    <h2 class="fr-tile__title">
+                      <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvel onglet" target="_blank">L'Observatoire</a>
+                    </h2>
+                    <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎 </p>
+                  </div>
+                  <div class="fr-tile__img">
+                    <img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
+                  </div>
+                </div>
               </div>
             </div>
           </div>

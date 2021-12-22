@@ -58,7 +58,7 @@
           <div class="fr-col-lg-10">
             <div class="offer">
               <h2 class="offer_title">Nos offres</h2>
-              <g-link class="fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right offer__link" to="/accompagnement/"yo="#">Voire toutes nos offres</g-link>
+              <g-link class="fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right offer__link" to="/accompagnement/">Voir toutes nos offres</g-link>
               <div class="fr-grid-row fr-grid-row--gutters offer__blocks">
                 <div class="fr-col-sm-6">
                   <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
@@ -153,32 +153,45 @@
         </div>
       </section>
 
-      <section class="fr-mt-4w">
-        <h2>Nos articles</h2>
-          <div class="fr-grid-row fr-grid-row--gutters">
-            <div class="fr-col-12 fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
-              <div class="fr-card fr-enlarge-link" >
-                <div class="fr-card__body">
-                    <h2 class="fr-card__title">
-                      <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
-                    </h2>
-                    <p class="fr-card__desc">{{ node.description }}.</p>
-                    <p class="fr-card__detail">{{ node.publishedDate }}</p>
-                </div>
-                <div class="fr-card__img">
-                    <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
+      <section class="fr-mt-8w">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-lg-10">
+            <div class="offer">
+              <h2 class="offer_title">Nos articles</h2>
+              <g-link class="fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right offer__link" to="/articles/">Voir tous nos articles</g-link>
+              <div class="fr-grid-row fr-grid-row--gutters offer__blocks">
+                <div class="fr-col-12 fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
+                  <div class="fr-card fr-enlarge-link" >
+                    <div class="fr-card__body">
+                        <h2 class="fr-card__title">
+                          <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
+                        </h2>
+                        <p class="fr-card__desc">{{ node.description }}.</p>
+                        <p class="fr-card__detail">{{ node.publishedDate }}</p>
+                    </div>
+                    <div class="fr-card__img">
+                        <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </section>
 
-      <section class="fr-mt-4w">
-        <h2>Notre équipe</h2>
-        <g-image class="team__image" src="~/assets/images/team-photos/equipe.png" alt="L’équipe DesignGouv sourire aux lèvres" width="200"/>
-        <div>
-          <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises.<br>Ok, il n’y a pas tout le monde sur la photo, promis on en reprend une vite&nbsp;☀️</p>
-          <g-link to="/equipe/">Découvrir l’équipe et notre mission<font-awesome class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" aria-hidden="true" height="16px" width="16px"/></g-link>
+      <section class="fr-mt-8w">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-lg-10">
+            <h2>Notre équipe</h2>
+            <div class="team">
+              <g-image class="team__image" src="~/assets/images/team-photos/equipe-designgouv.jpg" alt="L’équipe DesignGouv sourire aux lèvres"/>
+              <div class="team__description">
+                <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises ☀️.</p>
+                <g-link to="/equipe/" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">Découvrir l’équipe et notre mission</g-link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -282,6 +295,34 @@
 
     &__blocks {
       order: 3;
+    }
+  }
+
+  .team {
+    display: flex;
+    align-items: flex-start;
+
+    @media only screen and (max-width: 768px) {
+      flex-wrap: wrap;
+
+      &__image {
+        padding-left: 0.75rem;
+      }
+
+      &__description {
+        margin-top: 1rem;
+      }
+    }
+
+    &__image {
+      max-width: 260px;
+      margin-right: 1rem;
+      object-fit: contain;
+    }
+
+    &__description > p {
+      padding-left: 0.75rem;
+      margin-bottom: 1rem;
     }
   }
 

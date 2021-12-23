@@ -2,7 +2,7 @@
 title:  Le système de design de l’État
 slug: 2021-08-13-design-system
 publishedDate: 2021-08-13
-tags: ["système de design de l'État", "design", "accessibilité"]
+tags: ["système de design", "design", "accessibilité"]
 illustration: ./illustrations/2021-08-13-design-system.png
 description: Un ensemble de composants réutilisables pouvant être assemblés pour créer des sites internet accessibles et ergonomiques.
 ---

@@ -11,12 +11,12 @@
               <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
             </li>
             <li>
-              <span aria-current="page" v-html="this.$route.params.id.charAt(0).toUpperCase() + this.$route.params.id.slice(1) + ' : tous nos articles'" />
+              <span aria-current="page" v-html="this.$route.params.id + ' : tous nos articles'" />
             </li>
           </ol>
         </nav>
 
-        <h1 class="fr-mb-1w">{{ this.$route.params.id.charAt(0).toUpperCase() + this.$route.params.id.slice(1) }} : tous nos articles</span></h1>
+        <h1 class="fr-mb-1w">{{ this.$route.params.id }} : tous nos articles</span></h1>
         <g-link class="fr-link fr-fi-arrow-left-line fr-link--icon-left fr-mb-4w" to="/articles/">Voir toutes nos publications</g-link>
 
         <section class="fr-grid-row fr-grid-row--gutters">

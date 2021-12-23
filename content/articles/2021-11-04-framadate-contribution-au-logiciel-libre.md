@@ -7,7 +7,7 @@ illustration: ./illustrations/2021-11-05-framadate-lancement.jpg
 description: Contribuer concrètement au logiciel libre par le design et l'accessibilité au travers du projet Framadate.
 ---
 
-## Contribuer concrètement au logiciel libre par le design et l'accessibilité
+## Contribuer concrètement au logiciel libre par le design et l'accessibilité ajshdbjabhsd
 
 En plus de son activité habituelle, **le pôle Design des services numériques (DSN) a lancé une initiative dédiée au logiciel libre**.
 

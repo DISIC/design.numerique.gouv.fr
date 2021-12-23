@@ -1,7 +1,7 @@
 <template>
   <div class="fr-grid-row fr-grid-row--center fr-mx-2w">
     <div class="dg-message dg-text-center fr-col-lg-8 fr-py-3w fr-px-4w">
-      <p class="dg-badge"><span class="dg-flip-h">📢</span> Nouveau</p>
+      <p class="dg-badge">⚡️ NOUVEAU</p>
       <h2 class="fr-h4 fr-mt-1w fr-mb-1w">Lancement de notre programme de formations !</h2>
       <p class="fr-mb-2w">
         Nous lançons <strong>quatre formations gratuites</strong> en ligne, sur les sujets indispensables à la conception de services publics numériques : <strong>accessibilité</strong>, <strong>design</strong>, <strong>recherche utilisateur</strong> et <strong>écoconception</strong>.<br>

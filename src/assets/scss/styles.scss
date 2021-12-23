@@ -61,12 +61,14 @@ html {
   }
 
   &-tile {
-
     &:hover {
-
       .dg-picto {
         transform: rotate(180deg);
       }
     }
+  }
+
+  &-tag {
+
   }
 }

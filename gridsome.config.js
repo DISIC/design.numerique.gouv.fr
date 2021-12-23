@@ -154,7 +154,7 @@ module.exports = {
     Mission: '/commando-ux/:slug',
     Article: '/articles/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
-    Tag: '/tag/:id',
+    Tag: '/articles/tag/:id',
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch

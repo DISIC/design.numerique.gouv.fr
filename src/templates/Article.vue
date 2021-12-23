@@ -1,24 +1,45 @@
 <template>
   <Layout>
+    <div class="fr-grid-row fr-grid-row--center">
+      <div class="fr-col-md-10">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-          <li>
-            <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
-          </li>
-        <li>
-          <span aria-current="page" v-html="cropedTitle" />
-        </li>
-      </ol>
-    </nav>
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-lg-10">
+            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+              <ol class="fr-breadcrumb__list">
+                <li>
+                  <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+                </li>
+                  <li>
+                    <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
+                  </li>
+                <li>
+                  <span aria-current="page" v-html="this.cropedTitle" />
+                </li>
+              </ol>
+            </nav>
 
-    <div class="content">
-      <p v-html="$page.article.publishedDate" />
-      <h1 v-html="$page.article.title" />
-      <div v-html="$page.article.content" />
+            <h1 v-html="$page.article.title" />
+
+            <ul v-if="$page.article.tags.length" class="fr-tags-group">
+              <li v-for="tag in $page.article.tags" :key="tag.id">
+                <g-link class="fr-tag  fr-tag--sm fr-tag--pink-macaron fr-mr-2w" target="_self" :to="tag.path">{{ tag.id.charAt(0).toUpperCase() + tag.id.slice(1) }}</g-link>
+              </li>
+            </ul>
+
+            <p class="fr-text fr-text--sm">Date de publication : {{ $page.article.publishedDate }}</p>
+          </div>
+        </div>
+
+        <g-image class="fr-responsive-img fr-mb-4w" :src="$page.article.illustration" alt=""/>
+
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-lg-10">
+            <div v-html="$page.article.content" />
+          </div>
+        </div>
+
+      </div>
     </div>
   </Layout>
 </template>
@@ -67,10 +88,9 @@ export default {
     }
   },
   created() {
-    this.illustration = this.$page.article.illustration.src
     this.cropedTitle =
-      this.$page.article.title.length > 30 ?
-      this.$page.article.title.substring(0, 28) + "..." :
+      this.$page.article.title.length > 48 ?
+      this.$page.article.title.substring(0, 46) + "..." :
       this.$page.article.title;
   }
 }
@@ -81,7 +101,7 @@ query Article ($id: ID!) {
   article: article (id: $id) {
     title
     publishedDate (format: "D MMMM YYYY", locale : "fr")
-    illustration
+    illustration (quality: 50)
     description
     content
     tags {

@@ -9,9 +9,8 @@
                     république
                     <br>française
                 </p>
-                <g-link to="/" class="fr-footer__brand-link footer__logo" title="DesignGouv - Retour à l’accueil">
-                  <p class="footer__dg-title text-highlight">DesignGouv</p>
-                  <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
+                <g-link class="fr-footer__brand-link" to="/" title="DesignGouv, par le pôle design des services numériques - Retour à l'accueil">
+                    <img svg-inline class="fr-footer__logo" src="../assets/images/logoBasline.svg" aria-hidden="true">
                 </g-link>
             </div>
             <div class="fr-footer__content ">

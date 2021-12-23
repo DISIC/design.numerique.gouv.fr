@@ -11,13 +11,13 @@
               <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
             </li>
             <li>
-              <span aria-current="page" v-html="this.tag + ' : tous nos articles'" />
+              <span aria-current="page" v-html="this.tag + ' : nos articles'" />
             </li>
           </ol>
         </nav>
 
-        <h1 class="fr-mb-1w">{{ this.tag }} : tous nos articles</span></h1>
-        <g-link class="fr-link fr-fi-arrow-left-line fr-link--icon-left fr-mb-4w" to="/articles/">Voir toutes nos publications</g-link>
+        <h1 class="fr-mb-1w">{{ this.tag }} : nos articles</span></h1>
+        <g-link class="fr-link fr-fi-arrow-left-line fr-link--icon-left fr-mb-4w" to="/articles/">Voir tous nos articles</g-link>
 
         <section class="fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-sm-6" v-for="article in $page.tag.belongsTo.edges" :key="article.node.id">
@@ -81,7 +81,7 @@
     },
     metaInfo () {
       return {
-        title: this.tag + " : tous nos articles",
+        title: this.tag + " : nos articles",
         meta: [{
           name: "robots",
           content: "noindex"

@@ -23,7 +23,7 @@
 
             <ul v-if="$page.article.tags.length" class="fr-tags-group">
               <li v-for="tag in $page.article.tags" :key="tag.id">
-                <g-link class="fr-tag  fr-tag--sm fr-tag--pink-macaron fr-mr-2w" target="_self" :to="tag.path">{{ tag.id.charAt(0).toUpperCase() + tag.id.slice(1) }}</g-link>
+                <g-link class="fr-tag  fr-tag--sm fr-tag--pink-macaron fr-mr-1w" target="_self" :to="tag.path">{{ tag.id.charAt(0).toUpperCase() + tag.id.slice(1) }}</g-link>
               </li>
             </ul>
 

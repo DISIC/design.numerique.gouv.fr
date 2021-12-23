@@ -1,5 +1,5 @@
 ---
-title:  Framadate,  notre première contribution au logiciel libre
+title:  Framadate, notre première contribution au logiciel libre
 slug: 2021-11-05-Framadate-notre-premiere-contribution-au-logiciel-libre
 publishedDate: 2021-11-05
 tags: ["logiciel libre", "open source"]

@@ -2,7 +2,7 @@
 title:  Mobilisez nos experts ! (gratuit et sans engagement - enfin presque)
 slug: 2021-08-20-appui-experts
 publishedDate: 2021-08-20
-tags: ["", ""]
+tags: ["accompagnement", "design", "accessibilité"]
 illustration: ./illustrations/2021-08-24-tandem.jpg
 description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
@@ -47,10 +47,10 @@ Un autre besoin ? Demandez-nous !
 - « Le niveau d’expertise du Commando a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
 
 
-### Concrètement, ça se passe comment ? 
+### Concrètement, ça se passe comment ?
 
 1. Vous nous écrivez à experts@design.numerique.gouv.fr en indiquant la ou les démarches administratives concernées
 2. Nous nous rencontrons pour définir le type de ressources dont vous pourrez bénéficier et nous fixons ensemble les objectifs
 3. Les experts démarrent les travaux avec vous
 
-Vous hésitez ? Vous avez des questions ? Écrivez-nous à experts@design.numerique.gouv.fr. 
+Vous hésitez ? Vous avez des questions ? Écrivez-nous à experts@design.numerique.gouv.fr.

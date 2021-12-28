@@ -1,7 +1,7 @@
 ---
 title: Rédacteur ou rédactrice
 slug: editor
-cat: Mettre en oeuvre
+cat: 7
 description: Vous produisez des contenus numériques et consultables en ligne
 focus:
 ---

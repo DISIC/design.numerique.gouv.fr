@@ -1,5 +1,5 @@
 ---
-title: Rédacteur ou rédatrice
+title: Rédacteur ou rédactrice
 slug: editor
 cat: Mettre en oeuvre
 description: Vous produisez des contenus numériques et consultables en ligne
@@ -16,8 +16,8 @@ focus:
 * Se former à la conception et à la rédaction de contenus web accessibles et conformes au RGAA ;
 * Faire appel à un ou une experte accessibilité, un ou une développeuse en cas de publication de contenu complexe (infographie, vidéo, podcast, tableaux, etc.)
 * Utiliser les fonctionnalités proposées par le CMS pour générer du code sémantique et conforme ;
-* Rendre les documents à télécharger (quelque soit le format : pdf, doc, etc.), eux aussi, accessibles ;
-* Expliciter les abbréviations et les mots complexes, structurer l’information avec des titres, des paragraphes, des listes à puces, décrire les images, libeller explicitement les liens, etc.
+* Rendre les documents à télécharger (quel que soit le format : pdf, doc, etc.), eux aussi, accessibles ;
+* Expliciter les abréviations et les mots complexes, structurer l’information avec des titres, des paragraphes, des listes à puces, décrire les images, libeller explicitement les liens, etc.
 
 
 ## Vos outils

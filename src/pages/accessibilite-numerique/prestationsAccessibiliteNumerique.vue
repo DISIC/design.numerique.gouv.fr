@@ -26,13 +26,13 @@
       <section>
         <h2>Les commandes hors marché restent possibles</h2>
         <p>En fonction du montant de la commande, le processus n’est pas le même.</p>
-        <h3>Montant inférieur à 40 000 € <abbr title="hors taxe">HT</abbr></h3>
+        <h3>Montant inférieur à 40 000 € <abbr title="hors taxes">HT</abbr></h3>
         <ul>
           <li>Vous sélectionnez librement <strong>au moins deux</strong> prestataires ;</li>
           <li>vous leur soumettez <strong>votre besoin</strong> par écrit ou par oral ;</li>
           <li>vous <strong>négociez et choisissez</strong> celui qui vous convient le mieux.</li>
         </ul>
-        <h3>Montant inférieur à 80 000 € <abbr title="hors taxe">HT</abbr></h3>
+        <h3>Montant inférieur à 80 000 € <abbr title="hors taxes">HT</abbr></h3>
         <ul>
           <li>Vous <strong>publiez votre besoin</strong> dans la presse spécialisée ou locale ;</li>
           <li>vous <strong>sélectionnez la meilleure réponse</strong> des offres reçues.</li>
@@ -63,24 +63,24 @@
       <section>
         <h2 id="dispositions-reglementaires">Le détail des dispositions règlementaires</h2>
         <p>Les services souhaitant acheter une prestation d’audit, d’accompagnement en accessibilité numérique peuvent s’appuyer sur plusieurs dispositions règlementaires de la commande publique. (<a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F32049" target="_blank" title="les procédures de marchés publics - nouvelle fenêtre">Les procédures de marchés publics</a>).</p>
-        <h3>Montant inférieur à 40 000 € HT (soit 39 999,99 € HT)</h3>
-        <p>L’acheteur peut passer un marché sans publicité ni mise en concurrence préalables pour répondre à un besoin dont la valeur estimée est inférieure à 40 000 euros hors taxes ou pour les lots dont le montant est inférieur à 40 000 € HT et qui remplissent la condition prévue au b du 2° de l’article R. 2123-1.</p>
+        <h3>Montant inférieur à 40 000 € <abbr title="hors taxes">HT</abbr> (soit 39 999,99 € <abbr title="hors taxes">HT</abbr>)</h3>
+        <p>L’acheteur peut passer un marché sans publicité ni mise en concurrence préalables pour répondre à un besoin dont la valeur estimée est inférieure à 40 000 € <abbr title="hors taxes">HT</abbr> ou pour les lots dont le montant est inférieur à 40 000 € <abbr title="hors taxes">HT</abbr> et qui remplissent la condition prévue au b du 2° de l’article R. 2123-1.</p>
         <p>L’acheteur veille à choisir une offre pertinente, à faire une bonne utilisation des deniers publics et à ne pas contracter systématiquement avec un même opérateur économique lorsqu’il existe une pluralité d’offres susceptibles de répondre au besoin.</p>
         <p>Conformément à l’article 4 du décret n° 2019-1344 du 12 décembre 2019, les présentes dispositions entrent en vigueur le 1er janvier 2020.</p>
-        <h3>Montant inférieur à 80 000 € HT (soit 79 999,99 € HT)</h3>
+        <h3>Montant inférieur à 80 000 € <abbr title="hors taxes">HT</abbr> (soit 79 999,99 € <abbr title="hors taxes">HT</abbr>)</h3>
         <p>L’acheteur peut recourir à une procédure adaptée pour passer :</p>
         <ol>
           <li>Un marché dont la valeur estimée hors taxes du besoin est inférieure aux seuils européens mentionnés dans un avis qui figure en annexe du présent code ;</li>
           <li>Un lot d’un marché alloti dont le montant total est égal ou supérieur aux seuils de procédure formalisée et qui remplit les deux conditions suivantes :
             <ul>
-            <li>La valeur estimée de chaque lot concerné est inférieure à 80 000 euros hors taxes pour des fournitures ou des services ou à 1 million d’euros hors taxes pour des travaux ;</li>
-            <li>Le montant cumulé de ces lots n’excède pas 20 % de la valeur totale estimée de tous les lots ;</li>
+            <li>La valeur estimée de chaque lot concerné est inférieure à 80 000 € <abbr title="hors taxes">HT</abbr> pour des fournitures ou des services ou à 1 million d’euros hors taxes pour des travaux ;</li>
+            <li>Le montant cumulé de ces lots n’excède pas 20 % de la valeur totale estimée de tous les lots.</li>
             </ul>
           </li>
           <li>Un marché ayant pour objet des services sociaux et autres services spécifiques, dont la liste figure dans un avis annexé au présent code, quelle que soit la valeur estimée du besoin.</li>
           </ol>
-        <h3>Montant inférieur à 90 000 € HT (soit 89 999,99 € HT)</h3>
-        <p>Au sein des marchés à procédure adaptée (Mapa), il existe un seuil intermédiaire de 90 000 € HT qui n’influe que sur la publicité et pas sur la procédure.</p>
+        <h3>Montant inférieur à 90 000 € <abbr title="hors taxes">HT</abbr> (soit 89 999,99 € <abbr title="hors taxes">HT</abbr>)</h3>
+        <p>Au sein des marchés à procédure adaptée (Mapa), il existe un seuil intermédiaire de 90 000 € <abbr title="hors taxes">HT</abbr> qui n’influe que sur la publicité et pas sur la procédure.</p>
         <p>En dessous de ce seuil, l’acheteur choisit librement les critères de publicité (exemple : profil d’acheteur, BOAMP, presse spécialisée, presse régionale, etc.).</p>
       </section>
 

@@ -1,5 +1,5 @@
 ---
-title: 2022, nous voilà !
+title: Bonne année 2022 !
 slug: 2022-01-03-bonne-annee
 publishedDate: 2022-01-03
 tags: 

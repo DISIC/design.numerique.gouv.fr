@@ -10,16 +10,16 @@
         <g-link to="/commando-ux/" class="fr-breadcrumb__link">Accessibilité</g-link>
       </li>
       <li>
-        <span aria-current="page">Partager votre intérêt</span>
+        <span aria-current="page">Nouveau marché public accessibilité numérique et design inclusif</span>
       </li>
     </ol>
   </nav>
 
   <div class="cover">
       <div class="cover__container">
-        <h1>Lancement du nouveau marché accessibilité numérique et design inclusif</h1>
+        <h1>Nouveau marché public accessibilité numérique et design inclusif</h1>
         <p class="cover__subtitle">
-          La direction des achats de l'État (DAE) va prochainement lancer un nouveau marché. Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement.
+          La direction des achats de l'État (DAE) va prochainement lancer un nouveau marché public. Il s'adressera aux entreprise/agence qui se spécialisent sur les sujets d'accessibilité, de design et de développement de services numériques inclusifs.
         </p>
       </div>
   </div>
@@ -27,6 +27,7 @@
   <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
+          <p class="fr-text--lg"><strong>Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement&nbsp;:</strong></p>
             <form class="form" v-on:submit.prevent="addCandidate">
               <p class="message-required"><small>Tous les champs sont obligatoires</small></p>
                 <div class="fr-input-group">
@@ -56,16 +57,20 @@
                 <div class="fr-form-group">
                     <fieldset class="fr-fieldset">
                         <legend class="fr-fieldset__legend fr-text--regular" id='expertise-legend'>
-                            Vos secteurs d'expertise
+                            Vos secteurs d'expertise :
                         </legend>
                         <div class="fr-fieldset__content">
                             <div class="fr-checkbox-group">
                                 <input type="checkbox" id="sector-1" value="rec4MVKJY25cOHeuY" v-model="form.sectors">
-                                <label class="fr-label" for="sector-1">Accessibilité numérique</label>
+                                <label class="fr-label" for="sector-1">Accessibilité numérique
+                                  <span class="fr-hint-text">Audit d’accessibilité d’un service numérique&nbsp;; Accompagnement pour la mise en œuvre et le suivi du schéma pluriannuel de mise en accessibilité&nbsp;; Accessibilité du code, des documents, des médias&nbsp;; Développement d’un service numérique accessible</span>
+                                </label>
                             </div>
                             <div class="fr-checkbox-group">
                                 <input type="checkbox" id="sector-2" value="recY6yShtCJCQ2LwM" v-model="form.sectors">
-                                <label class="fr-label" for="sector-2">Design inclusif</label>
+                                <label class="fr-label" for="sector-2">Design inclusif
+                                  <span class="fr-hint-text">Recherche utilisateur (accompagnement relatif à la recherche et aux tests auprès des usagers)&nbsp;; Design de services numériques inclusifs (conception de l’expérience utilisateur inclusive d’un service numérique) </span>
+                                </label>
                             </div>
                         </div>
                     </fieldset>
@@ -90,25 +95,23 @@
 
 
 <script>
-  import CommandoUX from "~/assets/images/accompagnement.svg"
 
   export default {
     components: {
-      CommandoUX,
     },
     metaInfo: {
-      title: "Lancement du nouveau marché accessibilité numérique et design inclusif",
+      title: "Nouveau marché public accessibilité numérique et design inclusif",
       meta: [{
         name: 'description',
-        content: "Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement."
+        content: "Vous êtes acteur de l'accessibiité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
       },
       {
         property: 'og:title',
-        content: "Lancement du nouveau marché accessibilité numérique et design inclusif - DesignGouv"
+        content: "Nouveau marché public accessibilité numérique et design inclusif - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement."
+        content: "Vous êtes acteur de l'accessibiité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
       },
       {
         property: 'og:image',
@@ -124,11 +127,11 @@
       },
       {
         name: "twitter:title",
-        content: "Lancement du nouveau marché accessibilité numérique et design inclusif - DesignGouv"
+        content: "Nouveau marché public accessibilité numérique et design inclusif - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement."
+        content: "Vous êtes acteur de l'accessibiité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
       },
       {
         name: "twitter:image",

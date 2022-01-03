@@ -19,7 +19,7 @@
       <div class="cover__container">
         <h1>Nouveau marché public accessibilité numérique et design inclusif</h1>
         <p class="cover__subtitle">
-          La direction des achats de l'État (DAE) va prochainement lancer un nouveau marché public. Il s'adressera aux entreprise/agence qui se spécialisent sur les sujets d'accessibilité, de design et de développement de services numériques inclusifs.
+          La direction des achats de l'État (DAE) va lancer un nouveau marché public. Celui-ci s'adressera aux entreprises/agences expertes de l'accessibilité, du design et/ou du développement de services numériques inclusifs.
         </p>
       </div>
   </div>
@@ -27,7 +27,7 @@
   <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
-          <p class="fr-text--lg"><strong>Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement&nbsp;:</strong></p>
+          <p class="fr-text--lg"><strong>Renseignez vos coordonnées pour être prévenu dès son lancement&nbsp;:</strong></p>
             <form class="form" v-on:submit.prevent="addCandidate">
               <p class="message-required"><small>Tous les champs sont obligatoires</small></p>
                 <div class="fr-input-group">
@@ -63,13 +63,13 @@
                             <div class="fr-checkbox-group">
                                 <input type="checkbox" id="sector-1" value="rec4MVKJY25cOHeuY" v-model="form.sectors">
                                 <label class="fr-label" for="sector-1">Accessibilité numérique
-                                  <span class="fr-hint-text">Audit d’accessibilité d’un service numérique&nbsp;; Accompagnement pour la mise en œuvre et le suivi du schéma pluriannuel de mise en accessibilité&nbsp;; Accessibilité du code, des documents, des médias&nbsp;; Développement d’un service numérique accessible</span>
+                                  <span class="fr-hint-text">Audit d’accessibilité d’un service numérique&nbsp;; accompagnement pour la mise en œuvre et le suivi du schéma pluriannuel de mise en accessibilité&nbsp;; accessibilité du code, des documents, des médias&nbsp;; développement d’un service numérique accessible</span>
                                 </label>
                             </div>
                             <div class="fr-checkbox-group">
                                 <input type="checkbox" id="sector-2" value="recY6yShtCJCQ2LwM" v-model="form.sectors">
                                 <label class="fr-label" for="sector-2">Design inclusif
-                                  <span class="fr-hint-text">Recherche utilisateur (accompagnement relatif à la recherche et aux tests auprès des usagers)&nbsp;; Design de services numériques inclusifs (conception de l’expérience utilisateur inclusive d’un service numérique) </span>
+                                  <span class="fr-hint-text">Recherche utilisateur (accompagnement relatif à la recherche et aux tests auprès des usagers)&nbsp;; design de services numériques inclusifs (conception de l’expérience utilisateur inclusive d’un service numérique) </span>
                                 </label>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                 </div>
 
                 <p class="rgpd">
-                  Nous utiliserons les informations recueillies ci-dessus pour vous contacter lors du lancement du marché.
+                  Nous utiliserons les informations recueillies ci-dessus pour vous contacter lors du lancement de ce nouveau marché.
                 </p>
 
                 <p class="rgpd rgpd--small">

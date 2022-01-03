@@ -19,7 +19,7 @@
       <div class="cover__container">
         <h1>Lancement du nouveau marché accessibilité numérique et design inclusif</h1>
         <p class="cover__subtitle">
-          La direction des achats de l'État (DAE) va prochainement lancer un nouveau marché. Vous êtes acteur de l'accessibiité numérique et / ou du design inclsif ? Rensignez vos coordonnées ci-dessous pour être prévenu de son lancement.
+          La direction des achats de l'État (DAE) va prochainement lancer un nouveau marché. Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement.
         </p>
       </div>
   </div>
@@ -38,7 +38,7 @@
                     <input class="fr-input fr-col-sm-6" type="number" id="siret" v-model="form.siret" required>
                 </div>
                 <div class="fr-input-group">
-                    <label class="fr-label" for="website">Le site de votre entreprise <span class="fr-hint-text">Le site doit être au format http://nomdevotresite.fr</span></label>
+                    <label class="fr-label" for="website">Le site de votre entreprise <span class="fr-hint-text">Le site doit être au format https://nomdevotresite.fr</span></label>
                     <input class="fr-input" type="url" id="website" v-model="form.website" required>
                 </div>
                 <div class="fr-input-group">
@@ -56,7 +56,7 @@
                 <div class="fr-form-group">
                     <fieldset class="fr-fieldset">
                         <legend class="fr-fieldset__legend fr-text--regular" id='expertise-legend'>
-                            Vos expertises
+                            Vos secteurs d'expertise
                         </legend>
                         <div class="fr-fieldset__content">
                             <div class="fr-checkbox-group">
@@ -97,22 +97,22 @@
       CommandoUX,
     },
     metaInfo: {
-      title: "Partager votre intérêt pour le Commando UX",
+      title: "Lancement du nouveau marché accessibilité numérique et design inclusif",
       meta: [{
         name: 'description',
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement."
       },
       {
         property: 'og:title',
-        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+        content: "Lancement du nouveau marché accessibilité numérique et design inclusif - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement."
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       },
       {
         name: "twitter:card",
@@ -124,15 +124,15 @@
       },
       {
         name: "twitter:title",
-        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+        content: "Lancement du nouveau marché accessibilité numérique et design inclusif - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
+        content: "Vous êtes acteur de l'accessibiité numérique et / ou du design inclusif ? Renseignez vos coordonnées ci-dessous pour être prévenu dès son lancement."
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
+        content: "https://design.numerique.gouv.fr/designGouv.png"
       }],
     },
     data () {

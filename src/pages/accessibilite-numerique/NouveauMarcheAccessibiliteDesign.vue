@@ -31,7 +31,7 @@
             <form class="form" v-on:submit.prevent="addCandidate">
               <p class="message-required"><small>Tous les champs sont obligatoires</small></p>
                 <div class="fr-input-group">
-                    <label class="fr-label" for="company">La dénomination sociale de votre entreprise</label>
+                    <label class="fr-label" for="company">La raison sociale de votre entreprise</label>
                     <input class="fr-input" type="text" id="company" v-model="form.company" required>
                 </div>
                 <div class="fr-input-group">

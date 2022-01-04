@@ -19,7 +19,7 @@
       <div class="cover__container">
         <h1>Nouveau marché public accessibilité numérique et design inclusif</h1>
         <p class="cover__subtitle">
-          La direction des achats de l'État (DAE) va lancer un nouveau marché public. Celui-ci s'adressera aux entreprises/agences expertes de l'accessibilité, du design et/ou du développement de services numériques inclusifs.
+          La direction des achats de l'État (DAE) lance un nouveau marché public au 2ème trimestre 2022. Celui-ci s'adressera aux entreprises/agences expertes de l'accessibilité, du design et/ou du développement de services numériques inclusifs.
         </p>
       </div>
   </div>
@@ -84,7 +84,7 @@
                   Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
                 </p>
 
-                <button class="button" id="submit" type="submit">Envoyer</button>
+                <button class="button" id="submit" type="submit">Partager mes informations</button>
             </form>
             </div>
             </div>

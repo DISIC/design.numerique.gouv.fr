@@ -107,7 +107,7 @@
       title: "Nouveau marché public accessibilité numérique et design inclusif",
       meta: [{
         name: 'description',
-        content: "Vous êtes acteur de l'accessibiité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
+        content: "Vous êtes acteur de l'accessibilité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
       },
       {
         property: 'og:title',
@@ -115,7 +115,7 @@
       },
       {
         property: 'og:description',
-        content: "Vous êtes acteur de l'accessibiité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
+        content: "Vous êtes acteur de l'accessibilité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
       },
       {
         property: 'og:image',
@@ -135,7 +135,7 @@
       },
       {
         name: "twitter:description",
-        content: "Vous êtes acteur de l'accessibiité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
+        content: "Vous êtes acteur de l'accessibilité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
       },
       {
         name: "twitter:image",

@@ -36,7 +36,7 @@
                 </div>
                 <div class="fr-input-group">
                     <label class="fr-label" for="siret">Le numéro de SIRET de votre entreprise <span class="fr-hint-text">Par exemple : 13002526500013</span></label>
-                    <input class="fr-input fr-col-sm-6" type="number" id="siret" v-model="form.siret" required>
+                    <input class="fr-input fr-col-sm-6" type="text" id="siret" v-model="form.siret" required>
                 </div>
                 <div class="fr-input-group">
                     <label class="fr-label" for="website">Le site de votre entreprise <span class="fr-hint-text">Au format https://nomdevotresite.fr</span></label>
@@ -165,7 +165,7 @@
         {
           "fields": {
             "Entreprise ou groupement": this.form.company,
-            "SIRET": parseInt(this.form.siret),
+            "SIRET": this.form.siret,
             "Nom": this.form.lastName,
             "Prénom": this.form.firstName,
             "E-mail": this.form.email,

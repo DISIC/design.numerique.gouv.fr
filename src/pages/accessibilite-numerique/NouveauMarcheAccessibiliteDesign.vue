@@ -39,7 +39,7 @@
                     <input class="fr-input fr-col-sm-6" type="number" id="siret" v-model="form.siret" required>
                 </div>
                 <div class="fr-input-group">
-                    <label class="fr-label" for="website">Le site de votre entreprise <span class="fr-hint-text">Le site doit être au format https://nomdevotresite.fr</span></label>
+                    <label class="fr-label" for="website">Le site de votre entreprise <span class="fr-hint-text">Au format https://nomdevotresite.fr</span></label>
                     <input class="fr-input" type="url" id="website" v-model="form.website" required>
                 </div>
                 <div class="fr-input-group">
@@ -51,8 +51,12 @@
                     <input class="fr-input" type="text" id="lastName" v-model="form.lastName" required>
                 </div>
                 <div class="fr-input-group">
-                    <label class="fr-label" for="email">Votre adresse e-mail <span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
+                    <label class="fr-label" for="email">Votre adresse e-mail <span class="fr-hint-text">Au format prenom@mail.fr</span></label>
                     <input class="fr-input" type="email" id="email" v-model="form.email" required>
+                </div>
+                <div class="fr-input-group">
+                    <label class="fr-label" for="phone">Votre numéro de téléphone <span class="fr-hint-text">Par exemple : 01 02 03 04 05</span></label>
+                    <input class="fr-input" type="text" id="phone" v-model="form.phone" required>
                 </div>
                 <div class="fr-form-group">
                     <fieldset class="fr-fieldset">
@@ -144,6 +148,7 @@
           email: '',
           firstName: '',
           lastName: '',
+          phone: '',
           company: '',
           siret: '',
           website: '',
@@ -165,7 +170,8 @@
             "Prénom": this.form.firstName,
             "E-mail": this.form.email,
             "Périmètre Expertise": this.form.sectors,
-            "Site": this.form.website
+            "Site": this.form.website,
+            "Téléphone": this.form.phone
           }
         },
       ], function(err, records) {

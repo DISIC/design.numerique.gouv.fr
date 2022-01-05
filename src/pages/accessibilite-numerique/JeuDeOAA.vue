@@ -20,25 +20,25 @@
 
       <section class="goose fr-mt-8w">
         <ul>
-          <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step">
+          <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step fr-mb-2w fr-p-2w">
 
-            <div class="goose__step-title">
-              <h2 :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span> {{ step.node.title }}</h2>
+            <div class="goose__step-title fr-mt-1w">
+              <h2 class="fr-h6" :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span> {{ step.node.title }}</h2>
               <p>{{ step.node.duration }}</p>
             </div>
 
             <ul>
               <li v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
                     :key="card.node.id"
-                    class="goose__card"
+                    class="goose__card fr-mr-2w fr-mb-2w fr-p-2w"
                     :class="{ 'goose__card--top250': card.node.top250 }">
 
-                  <p v-if="card.node.top250" class="goose__card-id">Top250</p>
-                  <p v-else class="goose__card-id">
+                  <p v-if="card.node.top250" class="goose__card-id fr-mb-2w">Top250</p>
+                  <p v-else class="goose__card-id fr-mb-2w">
                     {{ card.node.id }}
                     <font-awesome  class="goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
                   </p>
-                  <h3><button class="goose__card-title"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'">{{ card.node.title }}</button></h3>
+                  <h3 class="fr-mb-1w"><button class="goose__card-title fr-text"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong>{{ card.node.title }}</strong></button></h3>
                   <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal">
                       <div class="fr-container">
                           <div class="fr-grid-row fr-grid-row--center">
@@ -162,3 +162,180 @@
 
 </page-query>
 
+
+<style scoped lang="scss">
+
+  .goose {
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      > li.goose__step, > li.goose__card {
+        list-style: none;
+        box-sizing: initial;
+        &::before {
+          content: none;
+        }
+      }
+    }
+
+    &__step {
+      background-color: var(--background-alt-grey);
+
+      > ul {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    &__step-title {
+      flex-shrink: 0;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      h2 {
+        display: inline-block;
+      }
+
+      p {
+        color: blue;
+        flex-shrink: 0;
+      }
+    }
+
+    &__step-id {
+      display: inline-block;
+      color: blue;
+      border: 2px solid blue;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      padding: 2px;
+      text-align: center;
+      line-height: 1.2rem;
+    }
+
+    &__card {
+      background-color: var(--background-default-grey);
+      border: 1px solid var(--border-default-grey);
+      flex-shrink: 0;
+      width: 12rem;
+      position: relative;
+
+      @media only screen and (max-width: 576px) {
+        width: 86%;
+      }
+
+      &:hover, &:focus {
+        border-color: blue;
+        box-shadow: 5px 5px 0px blue;
+      }
+
+      &-title {
+        text-align: left;
+        font-size: 1rem;
+
+        &:focus, &:hover{
+          color: blue;
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          cursor: pointer;
+        }
+      }
+
+      &-icon {
+        float: right;
+        color: red;
+        text-align: right;
+      }
+
+      &--top250 {
+        border-color: white;
+        background-color: var(--background-alt-grey);
+
+        .goose__step-id {
+          color: var(--text-mention-grey);
+        }
+      }
+
+      .fr-modal__body {
+
+        p {
+          margin: 0.5rem 0;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: blue;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.25em;
+            margin: 2rem auto 1.25rem;
+        }
+      }
+
+      .goose__modal-icon {
+        font-size: 1.5rem !important;
+        font-weight: bold !important;
+        color: red !important;
+        margin-bottom: 12px !important;
+      }
+
+      .goose__modal-notice {
+        padding-bottom: 16px;
+
+        svg {
+          margin-right: 4px;
+        }
+      }
+
+      .goose__modal-navigation {
+        display: flex;
+        justify-content: space-between;
+
+        .goose__previous-card, .goose__next-card {
+          font-weight: bold;
+          color: black;
+          font-size: 0.875rem;
+          border: none;
+          border-radius: 32px;
+          background-color: white;
+          cursor: pointer;
+          padding: 8px 12px;
+
+          &:hover {
+            color: white;
+            background-color: black;
+          }
+
+          .button__icon, .button__left-icon {
+            width: 18px;
+          }
+        }
+
+        .goose__next-card {
+          margin-left: auto;
+          text-align: right;
+          padding-left: 16px;
+        }
+      }
+    }
+  }
+
+</style>

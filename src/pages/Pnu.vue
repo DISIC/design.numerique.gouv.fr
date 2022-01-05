@@ -14,38 +14,26 @@
 
     <div class="cover">
      <div class="cover__container">
-
        <h1 class="text-highlight">Portail numérique unique</h1>
-
       </div>
     </div>
 
     <div class="content">
       <div class="fr-grid-row fr-grid-row--gutters">
-        <div :id="'tile-'+node.order" class="fr-col-xs-12 fr-col-sm-6 fr-col-md-4" v-for="{ node } in $page.allPnu.edges" :key="node.id">
-          <!--
-        <div v-if="node.order > 0 && node.order < 10" class="fr-col-xs-12 fr-col-sm-6 fr-col-md-4"  v-for="{ node } in $page.allPnu.edges" :key="node.id">
-        <div v-if="node.order == 0 || node.order == 10" class="fr-col-12"  v-for="{ node } in $page.allPnu.edges" :key="node.id">
-          -->
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
-                  <g-link  class="fr-tile__link" :to="node.path">
-                    {{ node.title }}
-                  </g-link>
-                </h2>
-                <p class="fr-tile__desc">{{ node.description }}</p>
-              </div>
+        <div v-for="{ node } in $page.allPnu.edges" :key="node.id" class="fr-col-12" :class="{ 'fr-col-xs-12 fr-col-sm-6 fr-col-md-4': node.order > 0 && node.order < 10 }">
+          <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+            <div class="fr-tile__body">
+              <h2 class="fr-tile__title">
+                <g-link  class="fr-tile__link" :to="node.path">
+                  {{ node.title }}
+                </g-link>
+              </h2>
+              <p class="fr-tile__desc">{{ node.description }}</p>
             </div>
-          
-         </div>
-     
-        
+          </div>  
+        </div>
       </div>
     </div>
-
- 
-
   </Layout>
 </template>
 
@@ -112,11 +100,4 @@
   }
 
 </script>
-<style lang="scss">
-#tile-0, #tile-10 {
-  flex: 0 0 100%;
-  width: 100%;
-  max-width: 100%;
-}
-</style>>
 

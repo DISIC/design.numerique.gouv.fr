@@ -1,6 +1,6 @@
 ---
 title:  Lancement du podcast « Appuyez sur la touche étoile »
-slug: 2022-01-04-lancement-podcast-appuyez-sur-la-touche-etoile
+slug: 2022-01-05-lancement-podcast-appuyez-sur-la-touche-etoile
 publishedDate: 2022-01-05
 tags: ["podcast"]
 illustration: ./illustrations/2022-01-04-podcast-appuyez-sur-la-touche-etoile.png

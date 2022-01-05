@@ -49,7 +49,7 @@ Vous pouvez utiliser le **flux RSS** du podcast pour l'ajouter sur un autre lect
     <p>Henry [00:00:53] De toute façon, personne peut m'aider. Moi, j'avais juste besoin d'entendre une voix familière et amicale parce que je suis en train de craquer Sylvia. C'est ça qui se passe.</p>
     <p>Voix off [00:01:00] « Appuyez sur la touche étoile » est un podcast de la Direction interministérielle du numérique, produit par Louis Creative. À bientôt.</p>
   </div>
-</div></section>
+</section>
 
 ## Concevoir des services plus inclusifs
 

@@ -17,7 +17,7 @@ Les services en ligne, s’ils ne sont pas pensés et conçus pour toutes et tou
 
 Ces fictions nous rappellent combien nous sommes toutes et tous différents dans nos usages et nos pratiques du numérique. C’est pourquoi il est essentiel de produire des services simples adaptés à la diversité des usagers et conformes aux standards du web et de l’accessibilité numérique.
 
-<br>
+<br/>
 
 ### La bande-annonce, déjà disponible :
 Sélectionnez votre lecteur de podcast préféré pour la découvrir :

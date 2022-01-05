@@ -43,7 +43,7 @@
 <page-query>
 
   query {
-    allRole (sortBy: "cat", order: DESC) {
+    allRole (sortBy: "cat", order: ASC) {
       edges {
         node {
         	id

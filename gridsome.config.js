@@ -4,6 +4,18 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+// Load variables for all vue-files
+const path = require('path')
+function addStyleResource (rule) {
+  rule.use('style-resource')
+    .loader('style-resources-loader')
+    .options({
+      patterns: [
+        path.resolve(__dirname, './src/assets/scss/_vars.scss'),
+      ],
+    })
+}
+
 module.exports = {
   siteName: 'DesignGouv',
   siteUrl: 'https://design.numerique.gouv.fr/',
@@ -160,6 +172,11 @@ module.exports = {
     mask: '^$', // example - disable all prefetch
   },
   chainWebpack: config => {
+    // Load variables for all vue-files
+    const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
+    types.forEach(type => {
+      addStyleResource(config.module.rule('scss').oneOf(type))
+    })
     // Load SVGs as components
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()

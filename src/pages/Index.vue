@@ -5,7 +5,7 @@
       <section class="dg-cover">
         <div class="dg-cover-inner">
           <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
-            <div class="fr-col-xl-10 fr-mt-6w">
+            <div class="fr-col-xl-10 fr-mt-6w dg-cover-container">
               <h1 class="fr-display-sm dg-text-center fr-px-6w">Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
               <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-px-4w">
                 <div class="fr-col-lg-10">

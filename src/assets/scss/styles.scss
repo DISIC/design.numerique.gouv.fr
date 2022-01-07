@@ -30,6 +30,10 @@ html {
     &-inner {
       background: linear-gradient(180deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.00) 80%, #FFFFFF 100%);
     }
+
+    &-container {
+      max-width: 1200px;
+    }
   }
 
   &-block {

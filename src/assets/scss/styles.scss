@@ -1,3 +1,5 @@
+@import "vars";
+
 html {
     overflow-x: hidden;
     overflow-y: scroll;
@@ -32,7 +34,7 @@ html {
     }
 
     &-container {
-      max-width: 1200px;
+      max-width: $xl-point;
     }
   }
 
@@ -69,7 +71,7 @@ html {
 
     &__link {
       order: 2;
-      @media only screen and (max-width: 576px) {
+      @media only screen and (max-width: $sm-point) {
         order: 4;
         width: 100%;
         margin-top: 1rem;

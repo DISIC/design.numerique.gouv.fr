@@ -272,7 +272,7 @@
       margin-bottom: 1rem;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: $md-point) {
       flex-wrap: wrap;
 
       &__image {

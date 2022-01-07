@@ -14,67 +14,68 @@
         </li>
       </ol>
     </nav>
+
     <div class="content">
        <h1>Le jeu de l’<abbr title="organisation de l’amélioration de l’accessibilité" >OAA</abbr></h1>
        <p class="fr-text--lead">Le jeu de l’organisation de l’amélioration de l’accessibilité (OAA) vous guide dans la mise en accessibilité de votre service numérique.</p>
 
-      <section class="goose fr-mt-8w">
+      <section class="dg-goose fr-mt-8w">
         <ul>
-          <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="goose__step fr-mb-2w fr-p-2w">
+          <li v-for="step in $page.allGooseStep.edges" :key="step.node.id" class="dg-goose__step fr-mb-2w fr-p-2w">
 
-            <div class="goose__step-title fr-mt-1w">
-              <h2 class="fr-h6" :id="'step-'+step.node.id"><span class="goose__step-id">{{ step.node.id }}</span> {{ step.node.title }}</h2>
+            <div class="dg-goose__step-title fr-mt-1w">
+              <h2 class="fr-h6" :id="'step-'+step.node.id"><span class="dg-goose__step-id">{{ step.node.id }}</span> {{ step.node.title }}</h2>
               <p>{{ step.node.duration }}</p>
             </div>
 
             <ul>
               <li v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
                     :key="card.node.id"
-                    class="goose__card fr-mr-2w fr-mb-2w fr-p-2w"
-                    :class="{ 'goose__card--top250': card.node.top250 }">
+                    class="dg-goose__card fr-mr-2w fr-mb-2w fr-p-2w"
+                    :class="{ 'dg-goose__card--top250': card.node.top250 }">
 
-                  <p v-if="card.node.top250" class="goose__card-id fr-mb-2w">Top250</p>
-                  <p v-else class="goose__card-id fr-mb-2w">
-                    {{ card.node.id }}
-                    <font-awesome  class="goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
-                  </p>
-                  <h3 class="fr-mb-1w"><button class="goose__card-title fr-text"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong>{{ card.node.title }}</strong></button></h3>
-                  <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal">
-                      <div class="fr-container">
-                          <div class="fr-grid-row fr-grid-row--center">
-                              <div class="fr-col-xs-12 fr-col-sm-10 fr-col-md-8">
-                                  <div class="fr-modal__body">
-                                      <div class="fr-modal__header">
-                                          <button class="fr-link--close fr-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>
-                                      </div>
-                                      <div class="fr-modal__content">
-                                        <p v-if="card.node.top250" class="goose__modal-icon">Top250</p>
-                                        <font-awesome v-else class="goose__modal-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
-                                        <h1 :id="'fr-modal-'+card.node.id" class="fr-modal__title">{{ card.node.title }}</h1>
-                                        <p v-if="card.node.top250" class="goose__modal-notice">
-                                          <font-awesome :icon="['fas', 'info-circle']" height="16" width="16" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
-                                        </p>
-                                        <div v-html="card.node.content" />
-                                      </div>
-                                      <div class="fr-modal__footer goose__modal-navigation">
-                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                                                name="Précédent"
-                                                class="goose__previous-card"
-                                                v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                                          <font-awesome  width="18px" class="button__left-icon" :icon="['fas', 'arrow-left']"/> Étape précédente
-                                        </button>
-                                        <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                                                name="Suivant"
-                                                class="goose__next-card"
-                                                v-on:click="nextCard(card.node.id, index, step.node.id)">
-                                          Étape suivante <font-awesome  width="18px" class="button__icon" :icon="['fas', 'arrow-right']"/>
-                                        </button>
-                                      </div>
-                                  </div>
-                              </div>
+                <p v-if="card.node.top250" class="dg-goose__card-id fr-mb-2w">Top250</p>
+                <p v-else class="dg-goose__card-id fr-mb-2w">
+                  {{ card.node.id }}
+                  <font-awesome  class="dg-goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
+                </p>
+                <h3 class="fr-mb-1w"><button class="dg-goose__card-title fr-text"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong>{{ card.node.title }}</strong></button></h3>
+                <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal">
+                  <div class="fr-container">
+                    <div class="fr-grid-row fr-grid-row--center">
+                      <div class="fr-col-xs-12 fr-col-sm-10 fr-col-md-8">
+                        <div class="fr-modal__body">
+                          <div class="fr-modal__header">
+                              <button class="fr-link--close fr-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>
                           </div>
+                          <div class="fr-modal__content">
+                            <p v-if="card.node.top250" class="dg-goose__modal-icon">Top250</p>
+                            <font-awesome v-else class="dg-goose__modal-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
+                            <h1 :id="'fr-modal-'+card.node.id" class="fr-modal__title">{{ card.node.title }}</h1>
+                            <p v-if="card.node.top250" class="dg-goose__modal-notice">
+                              <font-awesome :icon="['fas', 'info-circle']" height="16" width="16" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
+                            </p>
+                            <div v-html="card.node.content" />
+                          </div>
+                          <div class="fr-modal__footer dg-goose__modal-navigation">
+                            <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
+                                    name="Précédent"
+                                    class="dg-goose__previous-card"
+                                    v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
+                              <font-awesome  width="18px" class="button__left-icon" :icon="['fas', 'arrow-left']"/> Étape précédente
+                            </button>
+                            <button v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
+                                    name="Suivant"
+                                    class="dg-goose__next-card"
+                                    v-on:click="nextCard(card.node.id, index, step.node.id)">
+                              Étape suivante <font-awesome  width="18px" class="button__icon" :icon="['fas', 'arrow-right']"/>
+                            </button>
+                          </div>
+                        </div>
                       </div>
-                  </dialog>
+                    </div>
+                  </div>
+                </dialog>
               </li>
             </ul>
           </li>
@@ -165,13 +166,13 @@
 
 <style scoped lang="scss">
 
-  .goose {
+  .dg-goose {
 
     ul {
       padding: 0;
       margin: 0;
 
-      > li.goose__step, > li.goose__card {
+      > li.dg-goose__step, > li.dg-goose__card {
         list-style: none;
         box-sizing: initial;
         &::before {
@@ -262,7 +263,7 @@
         border-color: white;
         background-color: var(--background-alt-grey);
 
-        .goose__step-id {
+        .dg-goose__step-id {
           color: var(--text-mention-grey);
         }
       }
@@ -290,14 +291,14 @@
         }
       }
 
-      .goose__modal-icon {
+      .dg-goose__modal-icon {
         font-size: 1.5rem !important;
         font-weight: bold !important;
         color: red !important;
         margin-bottom: 12px !important;
       }
 
-      .goose__modal-notice {
+      .dg-goose__modal-notice {
         padding-bottom: 16px;
 
         svg {
@@ -305,11 +306,11 @@
         }
       }
 
-      .goose__modal-navigation {
+      .dg-goose__modal-navigation {
         display: flex;
         justify-content: space-between;
 
-        .goose__previous-card, .goose__next-card {
+        .dg-goose__previous-card, .dg-goose__next-card {
           font-weight: bold;
           color: black;
           font-size: 0.875rem;
@@ -329,7 +330,7 @@
           }
         }
 
-        .goose__next-card {
+        .dg-goose__next-card {
           margin-left: auto;
           text-align: right;
           padding-left: 16px;

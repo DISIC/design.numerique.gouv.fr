@@ -56,6 +56,30 @@ html {
     margin: 0 0.5rem;
     display: inline;
   }
+
+  &-section-with-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    &__title {
+      order: 1;
+    }
+
+    &__link {
+      order: 2;
+      @media only screen and (max-width: 576px) {
+        order: 4;
+        width: 100%;
+        margin-top: 1rem;
+      }
+    }
+
+    &__blocks {
+      order: 3;
+    }
+  }
 }
 
 .fr {

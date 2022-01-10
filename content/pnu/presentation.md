@@ -4,13 +4,17 @@ description: Nullam condimentum sem a tellus lobortis iaculis. Nulla cursus maxi
 order: 0
 ---
 
-## Titre de niveau 2
+Les informations sur cette page ne concernent que le Pilier II du Portail numérique unique (PNU). Ne sont traités ici ni le pilier I (pages d'information), suivi par la Direction de l'information légale et adminisatrative (Dila), ni le Pilier III (service d'assistance), suivi par la Direction interministérielle de la transformation publique (DITP).
 
-Sed et purus finibus mauris bibendum pulvinar. Vivamus quis nunc ultricies, lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+## Ce que dit le règlement
 
-Aliquam viverra accumsan massa, nec vehicula felis imperdiet ac. Vestibulum nec diam finibus, semper nulla ac, molestie orci. Cras tincidunt neque at volutpat elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent consectetur non risus et dignissim. Vivamus ultrices at sapien id varius. Sed fringilla turpis ac purus viverra, id viverra purus imperdiet. Proin congue nunc ac enim cursus dignissim. Proin tristique erat non venenatis faucibus. Integer tempor dapibus sapien, non porta mi euismod nec. Ut ac bibendum arcu.
+> Le portail donne accès [à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne [...] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur. *[Règlement européen établissant un portail numérique unique]*
+> 
 
-Donec posuere eleifend lacus, eget malesuada nibh. Fusce lacinia quam nibh, ac vulputate mi commodo viverra. Nunc in venenatis massa, id pharetra ante. Quisque tristique elementum dapibus. Nunc pellentesque lectus et erat rhoncus, et vehicula odio ultricies. In dictum fermentum mauris, eu mollis eros fermentum vitae. Nulla vestibulum ipsum sed arcu tincidunt, in laoreet eros placerat. Morbi ac luctus mauris. Integer vitae orci efficitur, efficitur urna id, gravida augue. Donec volutpat risus ut finibus sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum sem a tellus lobortis iaculis. Nulla cursus maximus egestas. Proin vehicula ullamcorper ipsum, eu mollis ante sodales nec.
+> On entend par «utilisateur»: un citoyen de l’Union, une personne physique résidant dans un État membre ou une personne morale ayant son siège statutaire dans un État membre [...]. *[Règlement européen établissant un portail numérique unique]*
+> 
+
+Les procédures concernées sont celles listées dans l'[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du règlement. Le périmètre des procédure est détaillé dans le document (en anglais):
 
 ## Titre de niveau 2
 

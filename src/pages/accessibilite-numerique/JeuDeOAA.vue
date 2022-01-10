@@ -47,19 +47,19 @@
                     <div class="fr-col-xs-12 fr-col-sm-10 fr-col-md-8">
                       <div class="fr-modal__body">
                         <div class="fr-modal__header">
-                            <button class="fr-link--close fr-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>
+                            <button class="dg-goose__modal-close fr-link--close fr-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>
                         </div>
                         <div class="fr-modal__content">
                           <h1 :id="'fr-modal-'+card.node.id" class="fr-modal__title">{{ card.node.title }}</h1>
                           <p v-if="card.node.top250">
-                            <font-awesome :icon="['fas', 'info-circle']" height="16" width="16" aria-hidden="true" /> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
+                            <span class="fr-fi-information-line" aria-hidden="true"></span> Cette étape concerne uniquement les démarches du <a href="https://observatoire.numerique.gouv.fr/" target="_blank" rel="noreferrer noopener" title="Site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre">Top250</a>
                           </p>
                           <div v-html="card.node.content" />
                         </div>
                         <div class="fr-modal__footer">
-                          <ul class="fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-sm fr-btns-group--icon-right fr-btns-group--sm">
+                          <ul class="dg-goose__modal-footer fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-sm fr-btns-group--icon-right fr-btns-group--sm">
                             <li>
-                                <button class="fr-btn fr-fi-arrow-right-line"
+                                <button class="dg-goose__modal-action fr-btn fr-fi-arrow-right-line"
                                         v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
                                         name="Suivant"
                                         v-on:click="nextCard(card.node.id, index, step.node.id)">
@@ -67,7 +67,7 @@
                                 </button>
                             </li>
                             <li>
-                                <button class="fr-btn fr-btn--secondary fr-fi-arrow-left-line"
+                                <button class="dg-goose__modal-action fr-btn fr-btn--secondary fr-fi-arrow-left-line"
                                         v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
                                         name="Précédent"
                                         v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
@@ -273,6 +273,23 @@
       &--top250 {
         border-color: var(--background-default-grey);
         background-color: var(--background-alt-grey);
+      }
+    }
+
+    &__modal {
+      &-close {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      &-footer {
+        justify-content: space-between !important;
+      }
+
+      &-action {
+        @media only screen and (min-width: $sm-point) {
+          margin: 0 !important;
+        }
       }
     }
   }

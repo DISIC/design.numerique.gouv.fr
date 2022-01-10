@@ -2,7 +2,7 @@
   <Layout>
 
     <section class="dg-cover">
-      <div class="dg-cover__inner fr-grid-row fr-grid-row--center">
+      <div class="dg-cover__inner fr-grid-row fr-grid-row--center fr-px-2w">
         <div class="dg-cover__container fr-col-xl-10 fr-mt-6w">
           <h1 class="fr-display-sm dg-text-center">Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
           <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
@@ -15,7 +15,7 @@
       </div>
     </section>
 
-    <section class="dg-block fr-grid-row fr-grid-row--center fr-mt-8w">
+    <section class="dg-block fr-grid-row fr-grid-row--center fr-mt-8w fr-px-2w">
       <div class="fr-col-lg-10 fr-my-8w">
         <div class="fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-sm-6">
@@ -48,7 +48,7 @@
       </div>
     </section>
 
-    <section class="fr-grid-row fr-grid-row--center fr-mt-8w">
+    <section class="fr-grid-row fr-grid-row--center fr-mt-8w fr-px-2w">
       <div class="dg-section-with-link fr-col-lg-10">
         <h2 class="dg-section-with-link_title">Nos offres</h2>
         <g-link class="dg-section-with-link__link fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link>
@@ -109,7 +109,7 @@
       </div>
     </section>
 
-    <section class="dg-block fr-grid-row fr-grid-row--center fr-mt-8w">
+    <section class="dg-block fr-grid-row fr-grid-row--center fr-mt-8w fr-px-2w">
       <div class="fr-col-lg-10 fr-my-8w">
         <div class="fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-sm-6">
@@ -142,7 +142,7 @@
       </div>
     </section>
 
-    <section class="fr-grid-row fr-grid-row--center fr-mt-8w">
+    <section class="fr-grid-row fr-grid-row--center fr-mt-8w fr-px-2w">
       <div class="dg-section-with-link fr-col-lg-10">
         <h2 class="dg-section-with-link_title">Nos articles</h2>
         <g-link class="dg-section-with-link__link fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right" to="/articles/">Voir tous nos articles</g-link>
@@ -165,7 +165,7 @@
       </div>
     </section>
 
-    <section class="fr-grid-row fr-grid-row--center fr-mt-8w">
+    <section class="fr-grid-row fr-grid-row--center fr-mt-8w fr-px-2w">
       <div class="fr-col-lg-10">
         <h2>Notre équipe</h2>
         <div class="dg-team">

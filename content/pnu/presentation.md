@@ -8,7 +8,7 @@ Les informations sur cette page ne concernent que le Pilier II du Portail numér
 
 ## Ce que dit le règlement
 
-<figure class="fr-quote fr-quote--column">
+<figure class="fr-quote">
     <blockquote>
         <p>« Le portail donne accès [à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne [...] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur.» </p>
     </blockquote> 

@@ -12,7 +12,7 @@
     <Header />
 
     <main class="layout" id="main" role="main">
-      <div class="fr-container fr-mt-1w">
+      <div class="fr-container fr-container--fluid fr-mt-1w">
         <div class="fr-grid-row fr-grid-row--center">
           <div class="fr-col-xl-10">
             <slot/>

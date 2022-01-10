@@ -39,7 +39,7 @@
                 {{ card.node.id }}
                 <font-awesome  class="dg-goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
               </p>
-              <h3 class="fr-mb-1w"><button class="dg-goose__card-title fr-text"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong>{{ card.node.title }}</strong></button></h3>
+              <h3 class="fr-mb-1w"><button class="dg-goose__card-title fr-text"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong class="fr-text fr-text--sm">{{ card.node.title }}</strong></button></h3>
 
               <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal" role="dialog">
                 <div class="fr-container fr-container--fluid fr-container-md">
@@ -234,7 +234,7 @@
 
       &:hover, &:focus {
         border-color: var(--artwork-minor-red-marianne);
-        box-shadow: 5px 5px 0px var(--artwork-decorative-red-marianne);
+        box-shadow: 5px 5px 0px var(--artwork-minor-red-marianne);
       }
 
       &-id {

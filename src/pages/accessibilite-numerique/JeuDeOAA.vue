@@ -67,7 +67,7 @@
                                 </button>
                             </li>
                             <li>
-                                <button class="dg-goose__modal-action fr-btn fr-btn--secondary fr-fi-arrow-left-line"
+                                <button class="dg-goose__modal-action dg-goose__modal-action--left fr-btn fr-btn--secondary fr-fi-arrow-left-line"
                                         v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
                                         name="Précédent"
                                         v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
@@ -289,6 +289,14 @@
       &-action {
         @media only screen and (min-width: $sm-point) {
           margin: 0 !important;
+        }
+
+        &--left {
+          flex-direction: row !important;
+
+          &:before {
+            margin: 0 0.5rem 0 -0.25rem !important;
+          }
         }
       }
     }

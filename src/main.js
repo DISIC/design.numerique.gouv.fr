@@ -135,5 +135,5 @@ library.add(
     // Set default layout as a global componentÒ
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
-    head.htmlAttrs = { lang: 'fr' }
+    head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }
   }

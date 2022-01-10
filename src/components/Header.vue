@@ -22,6 +22,15 @@
               </g-link>
             </div>
           </div>
+          <div class="fr-header__tools">
+            <div class="fr-header__tools-links">
+                <ul class="fr-links-group">
+                    <li>
+                        <button class="fr-link fr-fi-theme-fill fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d'affichage</button>
+                    </li>
+                </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -8,29 +8,35 @@ Les informations sur cette page ne concernent que le Pilier II du Portail numér
 
 ## Ce que dit le règlement
 
-> Le portail donne accès [à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne [...] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur. *[Règlement européen établissant un portail numérique unique]*
+> Le portail donne accès [à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne [...] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur. *Règlement européen établissant un portail numérique unique*
 > 
 
-> On entend par «utilisateur»: un citoyen de l’Union, une personne physique résidant dans un État membre ou une personne morale ayant son siège statutaire dans un État membre [...]. *[Règlement européen établissant un portail numérique unique]*
+> On entend par « utilisateur »: un citoyen de l’Union, une personne physique résidant dans un État membre ou une personne morale ayant son siège statutaire dans un État membre [...]. *Règlement européen établissant un portail numérique unique*
 > 
 
 Les procédures concernées sont celles listées dans l'[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du règlement. Le périmètre des procédure est détaillé dans le document (en anglais):
+[Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
 
-## Titre de niveau 2
+<aside>
+❓ Le Pilier II couvre aussi, dans le cadre des Procédures de l'Annexe II, l'OOP (Once Only Principle), relatif à l'authentification et au [Dites-le nous une fois](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1). Il s'agit d'un sujet très technique dont l'Acte d'exécution est encore en cours de discussion ; par ailleurs, il est porté par d'autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
 
-### Titre de niveau 3
+</aside>
 
-Quisque ultrices nec felis et pretium. Phasellus volutpat ultricies sem nec faucibus. Vestibulum varius auctor eros, sit amet mattis sapien dapibus a. Quisque sollicitudin euismod nisi in accumsan. Mauris vel nisl at magna porta tincidunt vitae et lorem. Aenean pellentesque pulvinar augue id ullamcorper. Cras eget velit nisi. Phasellus ac finibus arcu. Nulla non massa vel odio sodales congue. Integer vel nisi iaculis, semper quam quis, lobortis ante. Praesent vehicula velit a lorem consectetur, ac accumsan lacus vulputate. Suspendisse libero erat, viverra nec justo vel, fermentum consequat sapien.
+## Comment nous l'appliquons
 
-### Titre de niveau 3
+Par souci d'optimisation des ressources (limitées) et de cohérence avec nos autres missions, la décision a été prise de suivre les démarches françaises concernées via l'[Observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr/).
 
-Etiam ut arcu nisl. In nulla nisi, blandit sit amet dolor at, auctor auctor elit. Cras id elit accumsan, semper ex blandit, gravida tellus. Integer eu pharetra elit. Phasellus nunc purus, pellentesque vestibulum hendrerit ut, bibendum sit amet turpis. Vestibulum eu quam nisl. Suspendisse ac eros dapibus, bibendum tortor sed, lobortis erat.
+Cette approche suppose:
 
-## Titre de niveau 2
+* d'établir un lien entre les démarches de l'Observatoire et les Procédures du PNU, sachant qu'une Procédure PNU peut ne pas exister en France, ou bien que plusieurs démarches de l'Observatoire puissent concerner une même Procédure PNU.
+* d'identifier les démarches concernées mais qui ne sont pas suivies dans le cadre de l'Observatoire et prendre une décision les concernant (par exemple, les intégrer dans l'Observatoire).
 
-Sed et purus finibus mauris bibendum pulvinar :
-* Vivamus quis nunc ultricies ;
-* lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat ;
-* pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+<aside>
+❓ Par exemple, la [démarche](https://www.cleiss.fr/docs/textes/883-04/t2.html) concernant la Procédure PNU "Demander à établir quelle est la législation applicable conformément au titre II du règlement (CE) no 883/2004 du Parlement européen et du Conseil" (détermination de la Législation Sociale Applicable) n'est pas suivi dans l'Observatoire (et n'est [pas dématérialisée](https://www.cleiss.fr/pdf/form_dla.pdf)).
 
-In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+</aside>
+
+Ce travail ne peut être effectué que par chacun des Ministères.
+
+Le lien entre Procédures PNU et Démarches Observatoire a été fait sur AirTable (et demande à être complétée et validée par les Ministères; ils peuvent accéder à une [vue "Référent" qui permet le contrôle](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF)). Le suivi par Démarche concernée fait l'objet d'une vue dédiée ("[Vue PNU](https://airtable.com/appQEhagAVjFbQgUy/tblZBbUVBRh33yy7g/viwAmfeLrCSAo4tbl?blocks=hide)") dans AirTable.
+

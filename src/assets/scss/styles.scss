@@ -20,14 +20,14 @@ html {
     margin-top: -0.5rem;
     margin-left: -50vw;
     left: 50%;
-    background: conic-gradient(from 90deg, #FEF7DA, #FEF4F3, #FEF7DA);
+    background: conic-gradient(from 90deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
 
     &--linear {
-      background: linear-gradient(270deg, #FEF7DA 20%, #FEF4F3 80%);
+      background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
     }
 
     &__inner {
-      background: linear-gradient(180deg, rgba(255,255,255,0.00) 0%, rgba(255,255,255,0.00) 80%, #FFFFFF 100%);
+      background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 80%, var(--background-default-grey) 100%);
     }
 
     &__container {
@@ -38,11 +38,11 @@ html {
   }
 
   &-block {
-    background: conic-gradient(from 180deg, #FEF7DA, #FEF4F3, #FEF7DA);
+    background: conic-gradient(from 180deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
   }
 
   &-picto {
-    background: conic-gradient(from 135deg, #FCEEAC, #FEE9E6, #FCEEAC);
+    background: conic-gradient(from 135deg, var(--green-tilleul-verveine-950-100), var(--pink-macaron-950-100), var(--green-tilleul-verveine-950-100));
     border-radius: 50%;
     transition: 0.2s all;
   }

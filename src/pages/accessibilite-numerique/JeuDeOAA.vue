@@ -2,7 +2,7 @@
   <Layout>
 
     <section class="dg-cover dg-cover--linear fr-grid-row fr-grid-row--center fr-mb-6w fr-px-2w">
-      <div class="dg-cover__container fr-col-lg-10 fr-col-xl-8 fr-mb-1w">
+      <div class="dg-cover__container fr-mb-1w">
         <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
           <ol class="fr-breadcrumb__list">
             <li>

@@ -31,7 +31,11 @@ html {
     }
 
     &__container {
-      max-width: $lg-point;
+      max-width: $cover-width;
+
+      &--large {
+        max-width: $cover-large-width;
+      }
     }
   }
 

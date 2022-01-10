@@ -23,7 +23,7 @@ Les informations sur cette page ne concernent que le Pilier II du Portail numér
 Les procédures concernées sont celles listées dans l'[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du règlement. Le périmètre des procédure est détaillé dans le document (en anglais):
 [Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
 
-<div class="fr-callout fr-fi-information-line">
+<div class="fr-callout">
     <p class="fr-callout__text">
    ❓ Le Pilier II couvre aussi, dans le cadre des Procédures de l'Annexe II, l'OOP (Once Only Principle), relatif à l'authentification et au [Dites-le nous une fois](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1). Il s'agit d'un sujet très technique dont l'Acte d'exécution est encore en cours de discussion ; par ailleurs, il est porté par d'autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
     </p>

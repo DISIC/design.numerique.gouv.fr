@@ -1,32 +1,24 @@
 ---
 title: Logo
-description: Sed et purus finibus mauris bibendum pulvinar
+description: Le logo « Your Europe » doit figurer sur les démarches concernées par le PNU.
 order: 9
 ---
 
-## Titre de niveau 2
+<figure class="fr-quote">
+	<blockquote>
+		<p>« Article 22.2 of the SDGR requires the Member States to include the Your Europe logo on national portals as a marker of quality referring to a set of criteria in the regulation. The quality criteria ensure the information on rules, procedures, assistance and problem-solving services are held to a certain standard. It is with this in mind that the Your Europe logo should become a recognisable image for the user. The logo should be visible and readable and contain a click-through hyperlink to the Your Europe general homepage (https://europa.eu/youreurope/index.htm#en). »</p>
+	</blockquote>
+	<figcaption>
+		<p class=“fr-quote__source”>SDG - Links on National Webpages Guidelines</p>
+	</figcaption>
+</figure>
 
-Sed et purus finibus mauris bibendum pulvinar. Vivamus quis nunc ultricies, lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
-Aliquam viverra accumsan massa, nec vehicula felis imperdiet ac. Vestibulum nec diam finibus, semper nulla ac, molestie orci. Cras tincidunt neque at volutpat elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent consectetur non risus et dignissim. Vivamus ultrices at sapien id varius. Sed fringilla turpis ac purus viverra, id viverra purus imperdiet. Proin congue nunc ac enim cursus dignissim. Proin tristique erat non venenatis faucibus. Integer tempor dapibus sapien, non porta mi euismod nec. Ut ac bibendum arcu.
+*L'article 22.2 du Règlement instaurant le PNU exige des États membres qu'ils fassent figurer le logo « Your Europe » (« L'Europe est à vous ») sur les portails nationaux en tant que marqueur de qualité faisant référence à une série de critères énoncés dans le règlement. Les critères de qualité garantissent que les informations sur les règles, les procédures, les services d'assistance et de résolution des problèmes répondent à une certaine norme. C'est dans cette optique que le logo « Your Europe » doit devenir une image reconnaissable pour l'utilisateur. Le logo doit être visible et lisible et contenir un hyperlien cliquable vers la page d'accueil générale de L'Europe est à vous (https://europa.eu/youreurope/index.htm#en).*
 
-Donec posuere eleifend lacus, eget malesuada nibh. Fusce lacinia quam nibh, ac vulputate mi commodo viverra. Nunc in venenatis massa, id pharetra ante. Quisque tristique elementum dapibus. Nunc pellentesque lectus et erat rhoncus, et vehicula odio ultricies. In dictum fermentum mauris, eu mollis eros fermentum vitae. Nulla vestibulum ipsum sed arcu tincidunt, in laoreet eros placerat. Morbi ac luctus mauris. Integer vitae orci efficitur, efficitur urna id, gravida augue. Donec volutpat risus ut finibus sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum sem a tellus lobortis iaculis. Nulla cursus maximus egestas. Proin vehicula ullamcorper ipsum, eu mollis ante sodales nec.
+Documentation :
 
-## Titre de niveau 2
+*[SDG - Links on National Webpages Guidelines.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849062/SDG.-.Links.on.National.Webpages.Guidelines.pdf)
 
-### Titre de niveau 3
-
-Quisque ultrices nec felis et pretium. Phasellus volutpat ultricies sem nec faucibus. Vestibulum varius auctor eros, sit amet mattis sapien dapibus a. Quisque sollicitudin euismod nisi in accumsan. Mauris vel nisl at magna porta tincidunt vitae et lorem. Aenean pellentesque pulvinar augue id ullamcorper. Cras eget velit nisi. Phasellus ac finibus arcu. Nulla non massa vel odio sodales congue. Integer vel nisi iaculis, semper quam quis, lobortis ante. Praesent vehicula velit a lorem consectetur, ac accumsan lacus vulputate. Suspendisse libero erat, viverra nec justo vel, fermentum consequat sapien.
-
-### Titre de niveau 3
-
-Etiam ut arcu nisl. In nulla nisi, blandit sit amet dolor at, auctor auctor elit. Cras id elit accumsan, semper ex blandit, gravida tellus. Integer eu pharetra elit. Phasellus nunc purus, pellentesque vestibulum hendrerit ut, bibendum sit amet turpis. Vestibulum eu quam nisl. Suspendisse ac eros dapibus, bibendum tortor sed, lobortis erat.
-
-## Titre de niveau 2
-
-Sed et purus finibus mauris bibendum pulvinar :
-* Vivamus quis nunc ultricies ;
-* lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat ;
-* pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+*[SDG - Visual Guidelines for the logo.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849065/SDG.-.Visual.Guidelines.for.the.logo.pdf)

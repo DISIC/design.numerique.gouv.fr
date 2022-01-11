@@ -19,6 +19,5 @@ Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
 Documentation :
 
-*[SDG - Links on National Webpages Guidelines.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849062/SDG.-.Links.on.National.Webpages.Guidelines.pdf)
-
-*[SDG - Visual Guidelines for the logo.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849065/SDG.-.Visual.Guidelines.for.the.logo.pdf)
+* [SDG - Links on National Webpages Guidelines.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849062/SDG.-.Links.on.National.Webpages.Guidelines.pdf)
+* [SDG - Visual Guidelines for the logo.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849065/SDG.-.Visual.Guidelines.for.the.logo.pdf)

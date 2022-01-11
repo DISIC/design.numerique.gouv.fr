@@ -4,13 +4,11 @@ description: Proin tristique erat non venenatis faucibus. Ut ac bibendum arcu
 order: 4
 ---
 
-## Qualité des informations sur la procédure
+## Qualité des informations sur les démarches
 
 <figure class="fr-quote">
 	<blockquote>
-		<p>« Qualité des informations sur les procédures
-
-1.   Aux fins de se conformer à l’article 4, les États membres et la Commission veillent à ce que, avant que les utilisateurs ne doivent s’identifier pour entamer la procédure, ceux-ci aient accès à des explications suffisamment exhaustives, claires et conviviales sur les éléments suivants, selon le cas, des procédures visées à l’article 2, paragraphe 2, point b):
+		<p>« [...] les États membres et la Commission veillent à ce que, avant que les utilisateurs ne doivent s’identifier pour entamer la procédure, ceux-ci aient accès à des explications suffisamment exhaustives, claires et conviviales sur les éléments suivants [...] :
 
 a)	les étapes pertinentes de la procédure à effectuer par l’utilisateur, y compris toute exception, en vertu de l’article 6, paragraphe 3, à l’obligation faite aux États membres de proposer la procédure intégralement en ligne;
 
@@ -35,6 +33,8 @@ i)	toute autre langue dans laquelle la procédure peut être accomplie.
 		<p class=“fr-quote__source”>Règlement européen établissant un portail numérique unique</p>
 	</figcaption>
 </figure>
+
+## Traduction des instructions
 
 Ces informations doivent être traduites en anglais (le Règlement évoque la possibilité de consulter les instructions dans "une langue officielle de l’Union largement comprise par le plus grand nombre possible d’utilisateurs transfrontières").
 

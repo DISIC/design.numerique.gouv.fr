@@ -15,4 +15,8 @@ order: 8
 
 Les statistiques doivent être communiquées à la Commission, qui fournit des solutions techniques. D'autres choix peuvent être faits, charge alors aux États membres de communiquer les résultats au bon format à la Commission.
 
-La documentation technique fournie par la Commission est disponible à l'adresse suivante : [https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?pageId=421888704](https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?pageId=421888704)
+<div class="fr-callout">
+	<p class="fr-callout__text">
+		La documentation technique fournie par la Commission est à joindre par la Dinum - travail en cours.
+	</p>
+</div>

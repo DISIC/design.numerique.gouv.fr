@@ -1,45 +1,39 @@
 <template>
   <Layout>
-    <div class="fr-grid-row fr-grid-row--center">
-      <div class="fr-col-md-10">
+    <div class="dg-content">
 
-        <div class="fr-grid-row fr-grid-row--center">
-          <div class="fr-col-lg-10">
-            <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-              <ol class="fr-breadcrumb__list">
-                <li>
-                  <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-                </li>
-                  <li>
-                    <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
-                  </li>
-                <li>
-                  <span aria-current="page" v-html="this.cropedTitle" />
-                </li>
-              </ol>
-            </nav>
-
-            <h1 v-html="$page.article.title" />
-
-            <ul v-if="$page.article.tags.length" class="fr-tags-group">
-              <li v-for="tag in $page.article.tags" :key="tag.id">
-                <g-link class="fr-tag  fr-tag--sm fr-tag--pink-macaron fr-mr-1w" target="_self" :to="tag.path">{{ tag.id.charAt(0).toUpperCase() + tag.id.slice(1) }}</g-link>
+      <div class="dg-content dg-content--xs">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+              <li>
+                <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
               </li>
-            </ul>
+            <li>
+              <span aria-current="page" v-html="this.cropedTitle" />
+            </li>
+          </ol>
+        </nav>
 
-            <p class="fr-text fr-text--sm">Date de publication : {{ $page.article.publishedDate }}</p>
-          </div>
-        </div>
+        <h1 v-html="$page.article.title" />
 
-        <g-image class="fr-responsive-img fr-mb-4w" :src="$page.article.illustration" alt=""/>
+        <ul v-if="$page.article.tags.length" class="fr-tags-group">
+          <li v-for="tag in $page.article.tags" :key="tag.id">
+            <g-link class="fr-tag  fr-tag--sm fr-tag--pink-macaron fr-mr-1w" target="_self" :to="tag.path">{{ tag.id.charAt(0).toUpperCase() + tag.id.slice(1) }}</g-link>
+          </li>
+        </ul>
 
-        <div class="fr-grid-row fr-grid-row--center">
-          <div class="fr-col-lg-10">
-            <div v-html="$page.article.content" />
-          </div>
-        </div>
-
+        <p class="fr-text fr-text--sm">Date de publication : {{ $page.article.publishedDate }}</p>
       </div>
+
+      <g-image class="fr-responsive-img fr-mb-4w" :src="$page.article.illustration" alt=""/>
+
+      <div class="dg-content dg-content--xs">
+          <div v-html="$page.article.content" />
+      </div>
+
     </div>
   </Layout>
 </template>

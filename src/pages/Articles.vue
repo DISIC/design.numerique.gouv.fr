@@ -1,7 +1,6 @@
 <template>
   <Layout>
-    <div class="fr-grid-row fr-grid-row--center">
-      <div class="fr-col-md-10">
+    <div class="dg-content">
 
         <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
           <ol class="fr-breadcrumb__list">
@@ -33,7 +32,6 @@
           </div>
         </section>
 
-      </div>
     </div>
   </Layout>
 </template>

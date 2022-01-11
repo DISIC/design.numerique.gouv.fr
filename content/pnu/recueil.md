@@ -1,6 +1,6 @@
 ---
 title: Recueil des avis utilisateurs
-description: Dans le cadre de l'Observatoire, le recueil des avis des utilisateurs se fait par le bouton et le formulaire "Je donne mon avis"
+description: Dans le cadre de l'Observatoire, le recueil des avis des utilisateurs se fait par le bouton et le formulaire « Je donne mon avis ».
 order: 2
 ---
 

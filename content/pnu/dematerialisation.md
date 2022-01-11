@@ -1,32 +1,32 @@
 ---
 title: Dématérialisation
-description: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tempor vestibulum orci vel mattis
+description: Le Règlement indique que « Chaque État membre veille à ce que les utilisateurs puissent accéder à toutes les procédures énumérées à l’annexe II et les accomplir intégralement en ligne. »
 order: 1
 ---
 
-## Titre de niveau 2
+Le Règlement précise notamment que le « résultat » des procédures doit lui aussi être dématérialisé. Plus spécifique, il indique que les procédures sont considérées comme étant intégralement en ligne lorsque :
 
-Sed et purus finibus mauris bibendum pulvinar. Vivamus quis nunc ultricies, lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+* l’identification des utilisateurs, la fourniture d’informations et de justificatifs, la signature et la validation définitive peuvent être effectuées par voie électronique à distance, en permettant aux utilisateurs de respecter de façon simple et structurée les exigences de la procédure ;
 
-Aliquam viverra accumsan massa, nec vehicula felis imperdiet ac. Vestibulum nec diam finibus, semper nulla ac, molestie orci. Cras tincidunt neque at volutpat elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent consectetur non risus et dignissim. Vivamus ultrices at sapien id varius. Sed fringilla turpis ac purus viverra, id viverra purus imperdiet. Proin congue nunc ac enim cursus dignissim. Proin tristique erat non venenatis faucibus. Integer tempor dapibus sapien, non porta mi euismod nec. Ut ac bibendum arcu.
+* les utilisateurs reçoivent un accusé de réception automatique, à moins que le résultat de la procédure soit communiqué immédiatement ;
 
-Donec posuere eleifend lacus, eget malesuada nibh. Fusce lacinia quam nibh, ac vulputate mi commodo viverra. Nunc in venenatis massa, id pharetra ante. Quisque tristique elementum dapibus. Nunc pellentesque lectus et erat rhoncus, et vehicula odio ultricies. In dictum fermentum mauris, eu mollis eros fermentum vitae. Nulla vestibulum ipsum sed arcu tincidunt, in laoreet eros placerat. Morbi ac luctus mauris. Integer vitae orci efficitur, efficitur urna id, gravida augue. Donec volutpat risus ut finibus sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum sem a tellus lobortis iaculis. Nulla cursus maximus egestas. Proin vehicula ullamcorper ipsum, eu mollis ante sodales nec.
+* le résultat de la procédure est communiqué par voie électronique ou, lorsque c’est nécessaire pour respecter le droit de l’Union ou le droit national, communiqué par des moyens physiques ; et
 
-## Titre de niveau 2
+* les utilisateurs reçoivent une notification électronique d’achèvement de la procédure.
 
-### Titre de niveau 3
+En d'autres termes (anglais) :
 
-Quisque ultrices nec felis et pretium. Phasellus volutpat ultricies sem nec faucibus. Vestibulum varius auctor eros, sit amet mattis sapien dapibus a. Quisque sollicitudin euismod nisi in accumsan. Mauris vel nisl at magna porta tincidunt vitae et lorem. Aenean pellentesque pulvinar augue id ullamcorper. Cras eget velit nisi. Phasellus ac finibus arcu. Nulla non massa vel odio sodales congue. Integer vel nisi iaculis, semper quam quis, lobortis ante. Praesent vehicula velit a lorem consectetur, ac accumsan lacus vulputate. Suspendisse libero erat, viverra nec justo vel, fermentum consequat sapien.
+<figure class="fr-quote">
+	<blockquote>
+		<p>« In many procedures only the first steps are digitalised: users can fill in an application form online and submit it to the relevant authorities. However, the output of the procedure is still delivered only by physical means. Sometimes, the national users can receive the output in an electronic form provided that they are registered and are using the specific delivery system. Such system is however not available for cross-border users. [...] the cross-border users must be able to receive the output of the procedure in electronic format in all cases where this is also possible for non-cross border users. The electronic delivery can be followed by a physical delivery if the national or Union law so requires. »</p>
+	</blockquote>
+	<figcaption>
+		<p class=“fr-quote__source”>Guideline on cross-border access to online procedure</p>
+	</figcaption>
+</figure>
 
-### Titre de niveau 3
+Suggestion de traduction (à partir de la proposition de www.DeepL.com/Translator) : 
+Dans de nombreuses procédures, seules les premières étapes sont numérisées : les utilisateurs peuvent remplir un formulaire de demande en ligne et le soumettre aux autorités compétentes. Toutefois, les résultats de la procédure restent toujours envoyés par des moyens physiques. Parfois, les utilisateurs nationaux peuvent recevoir les résultats sous forme électronique à condition d'être enregistrés et d'utiliser un système d'envoi spécifique. Ce système n'est cependant pas disponible pour les utilisateurs transfrontaliers. [...] Les utilisateurs transfrontaliers doivent pouvoir recevoir les résultats de la procédure sous forme électronique dans tous les cas où cela est également possible pour les utilisateurs non transfrontaliers. La livraison électronique peut être suivie d'une livraison physique si le droit national ou de l'Union l'exige.
 
-Etiam ut arcu nisl. In nulla nisi, blandit sit amet dolor at, auctor auctor elit. Cras id elit accumsan, semper ex blandit, gravida tellus. Integer eu pharetra elit. Phasellus nunc purus, pellentesque vestibulum hendrerit ut, bibendum sit amet turpis. Vestibulum eu quam nisl. Suspendisse ac eros dapibus, bibendum tortor sed, lobortis erat.
-
-## Titre de niveau 2
-
-Sed et purus finibus mauris bibendum pulvinar :
-* Vivamus quis nunc ultricies ;
-* lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat ;
-* pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+Cf. Guideline on cross-border access to online procedure p. 20 :
+[Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7846230/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)

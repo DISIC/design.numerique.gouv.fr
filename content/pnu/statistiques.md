@@ -1,6 +1,6 @@
 ---
 title: Statistiques
-description: Les statistiques de consultations de la démarche doivent être communiquées à la Commission.
+description: Les statistiques de consultations de la démarche doivent être communiquées à la Commission européenne.
 order: 8
 ---
 

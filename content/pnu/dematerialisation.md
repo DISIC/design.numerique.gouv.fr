@@ -25,7 +25,7 @@ En d'autres termes (anglais) :
 	</figcaption>
 </figure>
 
-Suggestion de traduction (à partir de la proposition de www.DeepL.com/Translator) : 
+Suggestion de traduction (à partir de la proposition de Deepl.com) : 
 
 *Dans de nombreuses procédures, seules les premières étapes sont numérisées : les utilisateurs peuvent remplir un formulaire de demande en ligne et le soumettre aux autorités compétentes. Toutefois, les résultats de la procédure restent toujours envoyés par des moyens physiques. Parfois, les utilisateurs nationaux peuvent recevoir les résultats sous forme électronique à condition d'être enregistrés et d'utiliser un système d'envoi spécifique. Ce système n'est cependant pas disponible pour les utilisateurs transfrontaliers. [...] Les utilisateurs transfrontaliers doivent pouvoir recevoir les résultats de la procédure sous forme électronique dans tous les cas où cela est également possible pour les utilisateurs non transfrontaliers. La livraison électronique peut être suivie d'une livraison physique si le droit national ou de l'Union l'exige.*
 

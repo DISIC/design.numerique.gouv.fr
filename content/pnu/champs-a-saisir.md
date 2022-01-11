@@ -42,3 +42,6 @@ Cas particulier : les copies des pièces d'identité qui sont acceptés pour les
 Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
 *Le Règlement instaurant le PNU prévoit que lorsque les autorités compétentes sont tenues, en vertu du droit national ou des pratiques administratives applicables, à accepter des copies numérisées de preuves d'identité non électroniques, telles que les cartes d'identité ou les passeports, ces autorités doivent également accepter ces copies numérisées de la part des utilisateurs transfrontaliers.*
+
+Cf. Guideline on cross-border access to online procedure p. 12 et p. 17 : 
+[Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7848984/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)

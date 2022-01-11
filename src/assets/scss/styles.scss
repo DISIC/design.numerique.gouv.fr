@@ -44,6 +44,11 @@ html {
         max-width: $sm-width;
       }
     }
+
+    &__title {
+      display: flex;
+      align-items: center;
+    }
   }
 
   &-content {
@@ -72,9 +77,21 @@ html {
   }
 
   &-picto {
+    display: inline-block;
     background: conic-gradient(from 135deg, var(--green-tilleul-verveine-950-100), var(--pink-macaron-950-100), var(--green-tilleul-verveine-950-100));
     border-radius: 50%;
     transition: 0.2s all;
+    width: 5rem;
+    height: 5rem;
+
+    &--sm {
+      width: 3rem;
+      height: 3rem;
+    }
+
+    &:hover {
+      transform: rotate(180deg);
+    }
   }
 
   &-badge {

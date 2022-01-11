@@ -1,6 +1,6 @@
 ---
 title: Dématérialisation
-description: Le Règlement indique que « Chaque État membre veille à ce que les utilisateurs puissent accéder à toutes les procédures énumérées à l’annexe II et les accomplir intégralement en ligne. »
+description: Les utilisateurs doivent pouvoir accéder à toutes les démarches concernées par le PNU et les accomplir intégralement en ligne.
 order: 1
 ---
 

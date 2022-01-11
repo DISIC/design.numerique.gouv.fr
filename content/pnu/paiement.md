@@ -15,4 +15,4 @@ Les démarches en ligne qui nécessite un paiement doivent prévoir des solution
 	</figcaption>
 </figure>
 
-Cf. Guideline on cross-border access to online procedure p. 19 :[Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7848965/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)
+Cf. Guideline on cross-border access to online procedure p. 19 : [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7848965/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)

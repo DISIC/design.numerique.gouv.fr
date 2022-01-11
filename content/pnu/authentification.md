@@ -1,6 +1,6 @@
 ---
 title: Authentification
-description: Les démarches pour les particuliers devront proposer une authentification avec FranceConnect+, celle pour les entreprises avec ProConnect. Ces projets étant récents, la Dinum est en attente d'informations sur ces sujets.
+description: Les démarches pour les particuliers devront proposer une authentification avec FranceConnect+, celles pour les entreprises avec ProConnect. Ces projets étant récents, la Dinum est en attente d'informations.
 order: 5
 ---
 

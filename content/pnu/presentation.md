@@ -1,6 +1,6 @@
 ---
 title: Présentation
-description: Nullam condimentum sem a tellus lobortis iaculis. Nulla cursus maximus egestas. Proin vehicula ullamcorper ipsum, eu mollis ante sodales nec
+description: La Direction interministérielle du numérique (Dinum) suit, dans le cadre du Portail numérique unique (PNU) européen, la dématérialisation des procédures citées à l'[Annexe II du réglement](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1). Ce suivi se fait en lien avec l'[Observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr/), les correspondances effectuées sur la base des retours des Ministères sont disponibles par [procédures de l'annexe II](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF) et par [démarches concernées de l'Observatoire](https://airtable.com/appQEhagAVjFbQgUy/tblZBbUVBRh33yy7g/viwAmfeLrCSAo4tbl?blocks=hide). Toute modification est à communiquer à votre correspondant Observatoire.
 order: 0
 ---
 
@@ -22,7 +22,7 @@ Les procédures concernées sont celles listées dans l'[Annexe II](https://eur-
 
 <div class="fr-callout">
     <p class="fr-callout__text">
-   ❓ Le Pilier II couvre aussi, dans le cadre des Procédures de l'Annexe II, l'OOP (Once Only Principle), relatif à l'authentification et au Dites-le nous une fois. Il s'agit d'un sujet très technique dont l'Acte d'exécution est encore en cours de discussion ; par ailleurs, il est porté par d'autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
+Le Pilier II couvre aussi, dans le cadre des Procédures de l'Annexe II, l'OOP (Once Only Principle), relatif à l'authentification et au Dites-le nous une fois. Il s'agit d'un sujet très technique dont l'Acte d'exécution est encore en cours de discussion ; par ailleurs, il est porté par d'autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
     </p>
 </div> 
 
@@ -37,7 +37,7 @@ Cette approche suppose:
 
 <div class="fr-callout">
     <p class="fr-callout__text">
-❓ Par exemple, la [démarche](https://www.cleiss.fr/docs/textes/883-04/t2.html) concernant la Procédure PNU "Demander à établir quelle est la législation applicable conformément au titre II du règlement (CE) no 883/2004 du Parlement européen et du Conseil" (détermination de la Législation Sociale Applicable) n'est pas suivi dans l'Observatoire (et n'est [pas dématérialisée](https://www.cleiss.fr/pdf/form_dla.pdf)).
+Par exemple, la [démarche](https://www.cleiss.fr/docs/textes/883-04/t2.html) concernant la Procédure PNU "Demander à établir quelle est la législation applicable conformément au titre II du règlement (CE) no 883/2004 du Parlement européen et du Conseil" (détermination de la Législation Sociale Applicable) n'est pas suivi dans l'Observatoire (et n'est [pas dématérialisée](https://www.cleiss.fr/pdf/form_dla.pdf)).
    </p>
 </div> 
 

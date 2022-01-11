@@ -4,29 +4,52 @@ description: Proin tristique erat non venenatis faucibus. Ut ac bibendum arcu
 order: 4
 ---
 
-## Titre de niveau 2
+## Qualité des informations sur la procédure
 
-Sed et purus finibus mauris bibendum pulvinar. Vivamus quis nunc ultricies, lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+<figure class="fr-quote">
+	<blockquote>
+		<p>« Qualité des informations sur les procédures
 
-Aliquam viverra accumsan massa, nec vehicula felis imperdiet ac. Vestibulum nec diam finibus, semper nulla ac, molestie orci. Cras tincidunt neque at volutpat elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent consectetur non risus et dignissim. Vivamus ultrices at sapien id varius. Sed fringilla turpis ac purus viverra, id viverra purus imperdiet. Proin congue nunc ac enim cursus dignissim. Proin tristique erat non venenatis faucibus. Integer tempor dapibus sapien, non porta mi euismod nec. Ut ac bibendum arcu.
+1.   Aux fins de se conformer à l’article 4, les États membres et la Commission veillent à ce que, avant que les utilisateurs ne doivent s’identifier pour entamer la procédure, ceux-ci aient accès à des explications suffisamment exhaustives, claires et conviviales sur les éléments suivants, selon le cas, des procédures visées à l’article 2, paragraphe 2, point b):
 
-Donec posuere eleifend lacus, eget malesuada nibh. Fusce lacinia quam nibh, ac vulputate mi commodo viverra. Nunc in venenatis massa, id pharetra ante. Quisque tristique elementum dapibus. Nunc pellentesque lectus et erat rhoncus, et vehicula odio ultricies. In dictum fermentum mauris, eu mollis eros fermentum vitae. Nulla vestibulum ipsum sed arcu tincidunt, in laoreet eros placerat. Morbi ac luctus mauris. Integer vitae orci efficitur, efficitur urna id, gravida augue. Donec volutpat risus ut finibus sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum sem a tellus lobortis iaculis. Nulla cursus maximus egestas. Proin vehicula ullamcorper ipsum, eu mollis ante sodales nec.
+a)	les étapes pertinentes de la procédure à effectuer par l’utilisateur, y compris toute exception, en vertu de l’article 6, paragraphe 3, à l’obligation faite aux États membres de proposer la procédure intégralement en ligne;
 
-## Titre de niveau 2
+b)	le nom de l’autorité compétente responsable de la procédure, y compris ses coordonnées;
 
-### Titre de niveau 3
+c)	les moyens d’authentification, d’identification et de signature qui peuvent être employés pour accomplir la procédure;
 
-Quisque ultrices nec felis et pretium. Phasellus volutpat ultricies sem nec faucibus. Vestibulum varius auctor eros, sit amet mattis sapien dapibus a. Quisque sollicitudin euismod nisi in accumsan. Mauris vel nisl at magna porta tincidunt vitae et lorem. Aenean pellentesque pulvinar augue id ullamcorper. Cras eget velit nisi. Phasellus ac finibus arcu. Nulla non massa vel odio sodales congue. Integer vel nisi iaculis, semper quam quis, lobortis ante. Praesent vehicula velit a lorem consectetur, ac accumsan lacus vulputate. Suspendisse libero erat, viverra nec justo vel, fermentum consequat sapien.
+d)	le type et le format des justificatifs à soumettre;
 
-### Titre de niveau 3
+e)	les voies de recours généralement disponibles en cas de différend avec les autorités compétentes;
 
-Etiam ut arcu nisl. In nulla nisi, blandit sit amet dolor at, auctor auctor elit. Cras id elit accumsan, semper ex blandit, gravida tellus. Integer eu pharetra elit. Phasellus nunc purus, pellentesque vestibulum hendrerit ut, bibendum sit amet turpis. Vestibulum eu quam nisl. Suspendisse ac eros dapibus, bibendum tortor sed, lobortis erat.
+f)	les frais à acquitter et les modes de paiement en ligne;
 
-## Titre de niveau 2
+g)	tout délai que doit respecter l’utilisateur ou l’autorité compétente et, si aucun délai n’est prévu, le délai moyen, estimé ou indicatif dont l’autorité compétente a besoin pour achever la procédure;
 
-Sed et purus finibus mauris bibendum pulvinar :
-* Vivamus quis nunc ultricies ;
-* lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat ;
-* pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+h)	en cas d’absence de réponse de l’autorité compétente, toute règle applicable ou les conséquences légales qui en résultent pour les utilisateurs, y compris les arrangements applicables en matière d’approbation tacite ou de silence de l’administration;
 
-In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+i)	toute autre langue dans laquelle la procédure peut être accomplie.
+ »</p>
+	</blockquote>
+	<figcaption>
+		<p class=“fr-quote__source”>Règlement européen établissant un portail numérique unique</p>
+	</figcaption>
+</figure>
+
+Ces informations doivent être traduites en anglais (le Règlement évoque la possibilité de consulter les instructions dans "une langue officielle de l’Union largement comprise par le plus grand nombre possible d’utilisateurs transfrontières").
+
+Le fait que les informations nécessaires à l'accomplissement de la démarche soient traduites dispense la démarche elle-même de l'être :
+
+<figure class="fr-quote">
+	<blockquote>
+		<p>« The SDGR requires that the explanations on how to fill in the procedure form are provided in English. The SDGR does not require that the procedure can be carried out in English. It is not expected that users provide their input in English nor that the decision will be issued in English. »</p>
+	</blockquote>
+	<figcaption>
+		<p class=“fr-quote__source”>Guideline on cross-border access to online procedure</p>
+	</figcaption>
+</figure>
+
+Suggestion de traduction (à partir de la proposition de Deepl.com) :
+
+*Le Règlement européen établissant un portail numérique unique exige que les explications sur la manière de remplir le formulaire d'une procédure soient fournies en anglais. Le Règlement n'exige pas que la procédure puisse être exécutée en anglais. Il n'est pas prévu que les utilisateurs fournissent leurs données en anglais ni que la décision soit rendue en anglais.*
+

@@ -1,6 +1,6 @@
 ---
 title: Accessibilité
-description: Le Règlement européen, comme la législation française, impose que les démarches en ligne soient accessibles. Le suivi de cet aspect est déjà effectué dans le cadre de l'Observatoire.
+description: Les démarches concernées par le PNU doivent respecter les règles d'accessibilité.
 order: 3
 ---
 
@@ -13,4 +13,4 @@ order: 3
 	</figcaption>
 </figure>
 
-Cet aspect sera suivi comme il l'est actuellement pour l'ensemble des démarches recensées dans l'Observatoire.
+Cet aspect sera suivi de la même manière qu'il l'est actuellement pour l'ensemble des démarches recensées dans l'Observatoire.

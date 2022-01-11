@@ -1,6 +1,6 @@
 ---
 title: Informations sur la démarche
-description: Proin tristique erat non venenatis faucibus. Ut ac bibendum arcu
+description: Les utilisateurs doivent disposer, en français et anglais, des informations relatives à la démarches, en amont de toute identification.
 order: 4
 ---
 

@@ -53,3 +53,5 @@ Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
 *Le Règlement européen établissant un portail numérique unique exige que les explications sur la manière de remplir le formulaire d'une procédure soient fournies en anglais. Le Règlement n'exige pas que la procédure puisse être exécutée en anglais. Il n'est pas prévu que les utilisateurs fournissent leurs données en anglais ni que la décision soit rendue en anglais.*
 
+Cf. Guideline on cross-border access to online procedure p. 10 : [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7848994/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)
+

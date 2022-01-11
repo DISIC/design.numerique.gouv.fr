@@ -1,32 +1,44 @@
 ---
 title: Champs à saisir
-description: Proin congue nunc ac enim cursus dignissim
+description: Les champs à saisir et des pièces d'identité à joindre doivent être pensés pour tous les citoyens européens de façon à ce qui est permis aux citoyens français soit permis de la même manière à tous les citoyens de l'Union européenne.
 order: 6
 ---
 
-## Titre de niveau 2
+<figure class="fr-quote">
+	<blockquote>
+		<p>« Les utilisateurs transfrontières ont la possibilité de soumettre les informations requises, y compris lorsque leur structure diffère de celle d’informations analogues dans l’État membre concerné »</p>
+	</blockquote>
+	<figcaption>
+		<p class=“fr-quote__source”>Règlement européen établissant un portail numérique unique</p>
+	</figcaption>
+</figure>
 
-Sed et purus finibus mauris bibendum pulvinar. Vivamus quis nunc ultricies, lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+Les démarches en ligne doivent être pensées pour tous les utilisateurs européens: champs adaptés, alphabets européens acceptés (en pratique, les caractères spéciaux UTF8), pièces justificatives dématérialisées pour tous. En effet :
 
-Aliquam viverra accumsan massa, nec vehicula felis imperdiet ac. Vestibulum nec diam finibus, semper nulla ac, molestie orci. Cras tincidunt neque at volutpat elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent consectetur non risus et dignissim. Vivamus ultrices at sapien id varius. Sed fringilla turpis ac purus viverra, id viverra purus imperdiet. Proin congue nunc ac enim cursus dignissim. Proin tristique erat non venenatis faucibus. Integer tempor dapibus sapien, non porta mi euismod nec. Ut ac bibendum arcu.
+<figure class="fr-quote">
+	<blockquote>
+		<p>« The structure of basic information required in administrative procedures such as an address, a postcode, a telephone number, a social security number, a national identification number varies from one Member State to another. The specific way in which such information is provided in a given Member State is often reflected in the formats the data is accepted in within the national procedures. [...] Across Europe, three different alphabets are used: Latin, Cyrillic and Greek and each has a different character set. Even within the Latin alphabet, additional characters or special signs are added. »</p>
+	</blockquote>
+	<figcaption>
+		<p class=“fr-quote__source”>Guideline on cross-border access to online procedure</p>
+	</figcaption>
+</figure>
 
-Donec posuere eleifend lacus, eget malesuada nibh. Fusce lacinia quam nibh, ac vulputate mi commodo viverra. Nunc in venenatis massa, id pharetra ante. Quisque tristique elementum dapibus. Nunc pellentesque lectus et erat rhoncus, et vehicula odio ultricies. In dictum fermentum mauris, eu mollis eros fermentum vitae. Nulla vestibulum ipsum sed arcu tincidunt, in laoreet eros placerat. Morbi ac luctus mauris. Integer vitae orci efficitur, efficitur urna id, gravida augue. Donec volutpat risus ut finibus sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam condimentum sem a tellus lobortis iaculis. Nulla cursus maximus egestas. Proin vehicula ullamcorper ipsum, eu mollis ante sodales nec.
+Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
-## Titre de niveau 2
+*La structure des informations de base requises dans les procédures administratives, telles qu'une adresse, un code postal, un numéro de téléphone, un numéro de sécurité sociale, un numéro d'identification national, varie d'un État membre à l'autre. La manière spécifique dont ces informations sont fournies dans un État membre donné se reflète souvent dans les formats dans lesquels les données sont acceptées dans le cadre des procédures nationales. [...] Dans toute l'Europe, trois alphabets différents sont utilisés : le latin, le cyrillique et le grec, et chacun possède un jeu de caractères différent. Même au sein de l'alphabet latin, des caractères supplémentaires ou des signes spéciaux sont ajoutés.*
 
-### Titre de niveau 3
+Cas particulier : les copies des pièces d'identité qui sont acceptés pour les citoyens français doivent également l'être pour l'ensemble des citoyens de l'Union européenne :
 
-Quisque ultrices nec felis et pretium. Phasellus volutpat ultricies sem nec faucibus. Vestibulum varius auctor eros, sit amet mattis sapien dapibus a. Quisque sollicitudin euismod nisi in accumsan. Mauris vel nisl at magna porta tincidunt vitae et lorem. Aenean pellentesque pulvinar augue id ullamcorper. Cras eget velit nisi. Phasellus ac finibus arcu. Nulla non massa vel odio sodales congue. Integer vel nisi iaculis, semper quam quis, lobortis ante. Praesent vehicula velit a lorem consectetur, ac accumsan lacus vulputate. Suspendisse libero erat, viverra nec justo vel, fermentum consequat sapien.
+<figure class="fr-quote">
+	<blockquote>
+		<p>« The SDGR provides that where competent authorities are allowed, under applicable national law or administrative practices, to accept digitalised copies of non-electronic evidence of identity, such as identity cards or passports, those authorities shall also accept such digitalised copies from cross-border users. »</p>
+	</blockquote>
+	<figcaption>
+		<p class=“fr-quote__source”>Guideline on cross-border access to online procedure</p>
+	</figcaption>
+</figure>
 
-### Titre de niveau 3
+Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
-Etiam ut arcu nisl. In nulla nisi, blandit sit amet dolor at, auctor auctor elit. Cras id elit accumsan, semper ex blandit, gravida tellus. Integer eu pharetra elit. Phasellus nunc purus, pellentesque vestibulum hendrerit ut, bibendum sit amet turpis. Vestibulum eu quam nisl. Suspendisse ac eros dapibus, bibendum tortor sed, lobortis erat.
-
-## Titre de niveau 2
-
-Sed et purus finibus mauris bibendum pulvinar :
-* Vivamus quis nunc ultricies ;
-* lacinia ipsum et, sollicitudin tellus. Aliquam erat volutpat ;
-* pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-In tempor vestibulum orci vel mattis. Cras nec purus congue, sagittis purus at, pellentesque nisl. Curabitur eu tempus risus. Aenean risus dui, aliquet iaculis elementum non, ullamcorper ut turpis. Cras ultricies mauris nibh, molestie malesuada velit fringilla suscipit.
+*Le Règlement instaurant le PNU prévoit que lorsque les autorités compétentes sont tenues, en vertu du droit national ou des pratiques administratives applicables, à accepter des copies numérisées de preuves d'identité non électroniques, telles que les cartes d'identité ou les passeports, ces autorités doivent également accepter ces copies numérisées de la part des utilisateurs transfrontaliers.*

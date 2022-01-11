@@ -1,6 +1,6 @@
 ---
 title: Champs à saisir
-description: Les champs à saisir et des pièces d'identité à joindre doivent être pensés pour tous les citoyens européens de façon à ce qui est permis aux citoyens français soit permis de la même manière à tous les citoyens de l'Union européenne.
+description: Les champs à saisir et les pièces d'identité à joindre doivent être pensés pour que tous les citoyens européens puissent effectuer les démarches de la même manière.
 order: 6
 ---
 

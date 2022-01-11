@@ -1,20 +1,24 @@
 <template>
   <Layout>
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Outils</span>
-        </li>
-      </ol>
-    </nav>
+    <section class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Outils</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/outils-picto.svg" aria-hidden="true">Outils</h1>
+        <p class="fr-text--lead">Une sélection d’outils faits maison pour vous accompagner dans l’amélioration de l’accessibilité et du design de vos sites et applications web.</p>
+      </div>
+    </section>
 
-    <div class="content">
-      <h1>Outils</h1>
-      <p class="fr-text--lead">Une sélection d’outils faits maison pour vous accompagner dans l’amélioration de l’accessibilité et du design de vos sites et applications web.</p>
+    <div class="dg-content fr-px-2w">
       <section>
         <h2 id="tech">Tech</h2>
         <ul>
@@ -67,7 +71,7 @@
         </ul>
       </section>
 
-  
+
       <p>Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes idées, <a target="_blank" title="Créer une demande sur le dépôt de notre site - nouvelle fenêtre" href="https://github.com/DISIC/design.numerique.gouv.fr/issues">en créant une <em>issue</em> sur le dépôt de notre site</a>.</p>
     </div>
 

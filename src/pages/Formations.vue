@@ -1,25 +1,26 @@
 <template>
   <Layout>
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Formations</span>
-        </li>
-      </ol>
-    </nav>
+    <section class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Formations</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/formation-picto.svg" aria-hidden="true">Formations</h1>
+        <p class="fr-text--lead">Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites.</p>
+      </div>
+    </section>
 
-    <div class="content">
-      <h1>Formations</h1>
-      <p class="fr-text--lead">Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites.</p>
+    <section class="dg-content fr-px-2w">
       <section>
-
-        <h2>
-          Nos formations
-        </h2>
+        <h2>Nos formations</h2>
         <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons quatre formations gratuites indispensables&nbsp;:</p>
 
         <h3>Accessibilité</h3>
@@ -42,12 +43,8 @@
         </ul>
       </section>
 
-
       <section>
-
-        <h2>
-          Autres initiations
-        </h2>
+        <h2>Autres initiations</h2>
 
         <h3>Accessibilité</h3>
         <ul>
@@ -69,10 +66,8 @@
       </section>
 
       <section>
+        <h2>Certifications</h2>
 
-        <h2>
-          Certifications
-        </h2>
         <h3>Accessibilité</h3>
         <ul>
         <li><a href="https://formations.access42.net/?p=877" title="Développer des sites web accessibles - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Développer des sites web accessibles</a>, 9 heures, payant.</li>
@@ -83,11 +78,8 @@
           <li><a href="https://www.opquast.com/certification/" title="Maîtrise de la qualité en projet web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Maîtrise de la qualité en projet web</a>, 14 heures, payant.</li>
         </ul>
         <p>Si votre organisme propose une formation certifiante et souhaite être référencé sur notre site, vous pouvez <a href="https://github.com/DISIC/design.numerique.gouv.fr/pulls" title="proposer une PR - nouvelle fenêtre"  target="_blank" rel="noreferrer noopener">proposer une <abbr lang="en" title="pull request">PR</abbr></a> ou nous contacter en utilisant l’adresse électronique contact@design.numerique.gouv.fr.</p>
-
       </section>
-
-
-    </div>
+    </section>
 
   </Layout>
 </template>
@@ -138,4 +130,3 @@
   }
 
 </script>
-

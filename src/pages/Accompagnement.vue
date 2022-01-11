@@ -1,20 +1,24 @@
 <template>
   <Layout>
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Nos offres</span>
-        </li>
-      </ol>
-    </nav>
+    <section class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Nos offres d'accompagnement</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/accessibilite-picto.svg" aria-hidden="true">Nos offres d'accompagnement</h1>
+        <p class="fr-text--lead">Vous avez des besoins en design&nbsp;? Vous vous posez des questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours, demander des conseils pour le développement ou l'amélioration de votre service&nbsp;? Nous vous aidons&nbsp;!</p>
+      </div>
+    </section>
 
-    <div class="content">
-      <h1>Nos offres d'accompagnement</h1>
-      <p class="fr-text--lead">Vous avez des besoins en design&nbsp;? Vous vous posez des questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours, demander des conseils pour le développement ou l'amélioration de votre service&nbsp;? Nous vous aidons&nbsp;!</p>
+    <section class="dg-content fr-px-2w">
       <section>
         <h2>Le Commando UX</h2>
         <p>Faites intervenir nos experts pour améliorer la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
@@ -39,7 +43,7 @@
         <h3>Comment</h3>
         <p>En vous rendant sur <a href="https://observatoire.numerique.gouv.fr/observatoire/" title="le site de l'Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">le site de l'Observatoire de la qualité des démarches en ligne</a>.</p>
       </section>
-    </div>
+    </section>
 
   </Layout>
 </template>

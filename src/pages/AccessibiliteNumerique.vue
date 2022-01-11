@@ -29,7 +29,7 @@
         <h2>Comprendre</h2>
         <div class="fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+              <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
                       <h3 class="fr-tile__title">
                           <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-tile__link">Obligations légales et sanctions</g-link>
@@ -38,7 +38,7 @@
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+              <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
                       <h3 class="fr-tile__title">
                           <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link">RGAA</g-link>
@@ -47,7 +47,7 @@
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+              <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
                       <h3 class="fr-tile__title">
                           <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-tile__link">Schéma pluriannuel</g-link>
@@ -56,7 +56,7 @@
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+              <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
                       <h3 class=" fr-tile__title">
                           <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-tile__link">Déclaration d’accessibilité</g-link>

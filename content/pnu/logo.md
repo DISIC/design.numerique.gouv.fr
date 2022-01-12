@@ -15,6 +15,6 @@ Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
 Documentation :
 
-* [Article 22 « Nom, logo et label de qualité » du Réglement](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e2193-1-1)
+* [Article 22 « Nom, logo et label de qualité » du Règlement](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e2193-1-1)
 * [SDG - Links on National Webpages Guidelines.pdf (anglais)](https://github.com/DISIC/design.numerique.gouv.fr/files/7849062/SDG.-.Links.on.National.Webpages.Guidelines.pdf)
 * [SDG - Visual Guidelines for the logo.pdf (anglais)](https://github.com/DISIC/design.numerique.gouv.fr/files/7849065/SDG.-.Visual.Guidelines.for.the.logo.pdf)

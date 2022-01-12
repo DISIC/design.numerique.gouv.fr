@@ -28,6 +28,11 @@ https://ec.europa.eu/growth/single-digital-gateway-requirements_en
 
 ## Documents techniques (et en anglais) de la Commission 
 
+[SDG_APIs Technical Specifications.07.07.2021.v2.2.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856412/SDG_APIs.Technical.Specifications.07.07.2021.v2.2.docx)
+
+[API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856415/API.URLs.08.07.2021.v2.3.docx)
+
+
 <div class="fr-highlight">
 	<p>  compléter par la Dinum.
 	</p>

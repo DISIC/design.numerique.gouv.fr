@@ -20,7 +20,7 @@ Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
 *La structure des informations de base requises dans les procédures administratives, telles qu'une adresse, un code postal, un numéro de téléphone, un numéro de sécurité sociale, un numéro d'identification national, varie d'un État membre à l'autre. La manière spécifique dont ces informations sont fournies dans un État membre donné se reflète souvent dans les formats dans lesquels les données sont acceptées dans le cadre des procédures nationales. [...] Dans toute l'Europe, trois alphabets différents sont utilisés : le latin, le cyrillique et le grec, et chacun possède un jeu de caractères différent. Même au sein de l'alphabet latin, des caractères supplémentaires ou des signes spéciaux sont ajoutés.*
 
-Cas particulier : les copies des pièces d'identité qui sont acceptés pour les citoyens français doivent également l'être pour l'ensemble des citoyens de l'Union européenne :
+Par ailleurs, les copies des pièces d'identité qui sont acceptés pour les citoyens français doivent également l'être pour l'ensemble des citoyens de l'Union européenne :
 
 <div class="fr-callout"> 
 <p class="fr-callout__title">Ce que dit la documentation</p> 

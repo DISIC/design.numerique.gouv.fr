@@ -4,6 +4,14 @@ description: Toutes les ressources disponibles et indispensables
 order: 10
 ---
 
+
+## Procédures PNU et Démarches Observatoire 
+
+Le lien entre les procédures PNU et les Démarches de l'Observatoire a été fait dans deux tableaux (qui doivent être complétés et validés par les Ministères) :
+
+* Une [vue par Procédures définies par le Règlement](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF)
+* Une [vue par Démarches de l'Observatoire](https://airtable.com/shrFh9LF94qois3sm).
+
 ## Règlement établissant un portail numérique unique
 
 Lien avec l'ancre sur la partie centrée sur le Pilier II (celui qui nous concerne ici) : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1695-1-1
@@ -20,8 +28,7 @@ https://ec.europa.eu/growth/single-digital-gateway-requirements_en
 
 ## Documents techniques (et en anglais) de la Commission 
 
-<div class="fr-callout">
-	<p class="fr-callout__text">
-		À compléter par la Dinum.
+<div class="fr-highlight">
+	<p>  compléter par la Dinum.
 	</p>
 </div>

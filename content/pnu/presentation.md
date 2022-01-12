@@ -4,7 +4,7 @@ description: La Direction interministérielle du numérique (Dinum) suit, dans l
 order: 0
 ---
 
-Les informations sur cette page ne concernent que le Pilier II du Portail numérique unique (PNU). Ne sont traités ici ni le pilier I (pages d'information), suivi par la Direction de l'information légale et adminisatrative (Dila), ni le Pilier III (service d'assistance), suivi par la Direction interministérielle de la transformation publique (DITP).
+Le [Règlement (UE) 2018/1724 du Parlement européen et du Conseil du 2 octobre 2018 établissant un portail numérique unique (PNU)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e33-1-1) a pour objectif de diriger les citoyens et entreprises vers des informations fiables et de qualité sur les règles, les droits et les procédures nationales et européennes qui s’appliquent à eux lorsqu’ils souhaitent exercer leurs droits dans le cadre du marché unique, ainsi que vers les sites où ils peuvent effectuer ces procédures en lignes. Ce portail viendra enrichir [le portail « Your Europe »](https://europa.eu/youreurope/index_fr.htm), déjà disponible.
 
 <div class="fr-callout">
 	<p class="fr-callout__title">Ce que dit le Règlement</p>
@@ -12,6 +12,12 @@ Les informations sur cette page ne concernent que le Pilier II du Portail numér
 		Le portail donne accès [à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne [...] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur. [...] On entend par « utilisateur » : un citoyen de l’Union, une personne physique résidant dans un État membre ou une personne morale ayant son siège statutaire dans un État membre.
 	</p>
 </div>
+
+La Commission a mis en ligne une [vidéo synthétique de présentation du PNU](https://www.youtube.com/watch?v=Znkoz0-P3sc&feature=youtu.be) (la vidéo est en anglais mais il est possible de faire apparaître le sous-titrage en français).
+
+Les informations traitées ici ne concernent que le Pilier II du PNU, qui demande que utilisateurs du portail « Your Europe » aient accès à 21 procédures, choisies pour leur importance, d’ici décembre 2023. Ces procédures devront être entièrement accessibles et réalisables en ligne par des utilisateurs transfrontalisers. 
+
+Il ne sera question ici ni du pilier I (pages d'information), suivi par la Direction de l'information légale et adminisatrative (Dila), ni du Pilier III (service d'assistance), suivi par la Direction interministérielle de la transformation publique (DITP).
 
 Les procédures concernées sont celles listées dans l'[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédure est détaillé dans le document (en anglais):
 [Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
@@ -37,6 +43,6 @@ Ce travail ne peut être effectué que par chacun des Ministères.
 
 Le lien entre Procédures PNU et Démarches Observatoire a été fait dans deux tableaux (et demande à être complétée et validée par les Ministères) :
 
-* Une [vue par Procédure définie par le Règlement](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF)
-* Une [vue par Démarche de l'Observatoire](https://airtable.com/shrFh9LF94qois3sm).
+* Une [vue par Procédures définies par le Règlement](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF)
+* Une [vue par Démarches de l'Observatoire](https://airtable.com/shrFh9LF94qois3sm).
 

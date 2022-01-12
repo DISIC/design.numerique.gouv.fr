@@ -4,26 +4,25 @@ description: Les utilisateurs doivent pouvoir accéder à toutes les démarches 
 order: 1
 ---
 
-Le Règlement précise notamment que le « résultat » des procédures doit lui aussi être dématérialisé. Plus spécifique, il indique que les procédures sont considérées comme étant intégralement en ligne lorsque :
+<div class="fr-callout"> 
+<p class="fr-callout__title">Ce que dit le Règlement</p> 
+<p class="fr-callout__text">Les procédures [...] sont considérées comme étant intégralement en ligne lorsque :
 
-* l’identification des utilisateurs, la fourniture d’informations et de justificatifs, la signature et la validation définitive peuvent être effectuées par voie électronique à distance, en permettant aux utilisateurs de respecter de façon simple et structurée les exigences de la procédure ;
+a) l’identification des utilisateurs, la fourniture d’informations et de justificatifs, la signature et la validation définitive peuvent être effectuées par voie électronique à distance, par l’intermédiaire d’une chaîne de services qui permet aux utilisateurs de respecter de façon simple et structurée les exigences de la procédure ;
 
-* les utilisateurs reçoivent un accusé de réception automatique, à moins que le résultat de la procédure soit communiqué immédiatement ;
+b) les utilisateurs reçoivent un accusé de réception automatique, à moins que le résultat de la procédure soit communiqué immédiatement ;
 
-* le résultat de la procédure est communiqué par voie électronique ou, lorsque c’est nécessaire pour respecter le droit de l’Union ou le droit national, communiqué par des moyens physiques ; et
+c) le résultat de la procédure est communiqué par voie électronique ou, lorsque c’est nécessaire pour respecter le droit applicable de l’Union ou le droit national, communiqué par des moyens physiques ; et
 
-* les utilisateurs reçoivent une notification électronique d’achèvement de la procédure.
+d) les utilisateurs reçoivent une notification électronique d’achèvement de la procédure.</p> 
+</div> 
 
 En d'autres termes (anglais) :
 
-<figure class="fr-quote">
-	<blockquote>
-		<p>« In many procedures only the first steps are digitalised: users can fill in an application form online and submit it to the relevant authorities. However, the output of the procedure is still delivered only by physical means. Sometimes, the national users can receive the output in an electronic form provided that they are registered and are using the specific delivery system. Such system is however not available for cross-border users. [...] the cross-border users must be able to receive the output of the procedure in electronic format in all cases where this is also possible for non-cross border users. The electronic delivery can be followed by a physical delivery if the national or Union law so requires. »</p>
-	</blockquote>
-	<figcaption>
-		<p class=“fr-quote__source”>Guideline on cross-border access to online procedure</p>
-	</figcaption>
-</figure>
+<div class="fr-callout"> 
+<p class="fr-callout__title">Ce que dit la documentation</p> 
+<p class="fr-callout__text">In many procedures only the first steps are digitalised: users can fill in an application form online and submit it to the relevant authorities. However, the output of the procedure is still delivered only by physical means. Sometimes, the national users can receive the output in an electronic form provided that they are registered and are using the specific delivery system. Such system is however not available for cross-border users. [...] the cross-border users must be able to receive the output of the procedure in electronic format in all cases where this is also possible for non-cross border users. The electronic delivery can be followed by a physical delivery if the national or Union law so requires. (Guideline on cross-border access to online procedure)</p> 
+</div> 
 
 Suggestion de traduction (à partir de la proposition de Deepl.com) : 
 

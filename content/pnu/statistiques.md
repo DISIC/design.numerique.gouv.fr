@@ -14,7 +14,10 @@ order: 8
 
 Les statistiques doivent être communiquées à la Commission, qui fournit des solutions techniques. D'autres choix peuvent être faits, charge alors aux États membres de communiquer les résultats au bon format à la Commission.
 
-<div class="fr-highlight">
-	<p>La documentation technique fournie par la Commission est à joindre par la Dinum - travail en cours.
-	</p>
-</div>
+Documentation technique fournie par la Commission (en anglais) :
+
+[SDG_APIs Technical Specifications.07.07.2021.v2.2.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856425/SDG_APIs.Technical.Specifications.07.07.2021.v2.2.docx)
+
+[API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856427/API.URLs.08.07.2021.v2.3.docx)
+
+La Commission met régulièrement à jour une [page en accès libre rassemblant l'ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu'il convient de consulter pour obtenir l'exhaustivité des informations.

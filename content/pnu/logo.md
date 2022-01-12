@@ -4,14 +4,10 @@ description: Le logo « Your Europe » doit figurer sur les démarches concerné
 order: 9
 ---
 
-<figure class="fr-quote">
-	<blockquote>
-		<p>« Article 22.2 of the SDGR requires the Member States to include the Your Europe logo on national portals as a marker of quality referring to a set of criteria in the regulation. The quality criteria ensure the information on rules, procedures, assistance and problem-solving services are held to a certain standard. It is with this in mind that the Your Europe logo should become a recognisable image for the user. The logo should be visible and readable and contain a click-through hyperlink to the Your Europe general homepage (https://europa.eu/youreurope/index.htm#en). »</p>
-	</blockquote>
-	<figcaption>
-		<p class=“fr-quote__source”>SDG - Links on National Webpages Guidelines</p>
-	</figcaption>
-</figure>
+<div class="fr-callout"> 
+<p class="fr-callout__title">Ce que dit la documentation</p> 
+<p class="fr-callout__text">Article 22.2 of the SDGR requires the Member States to include the Your Europe logo on national portals as a marker of quality referring to a set of criteria in the regulation. The quality criteria ensure the information on rules, procedures, assistance and problem-solving services are held to a certain standard. It is with this in mind that the Your Europe logo should become a recognisable image for the user. The logo should be visible and readable and contain a click-through hyperlink to the Your Europe general homepage (https://europa.eu/youreurope/index.htm#en).(SDG - Links on National Webpages Guidelines)</p> 
+</div>
 
 Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
@@ -19,5 +15,6 @@ Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
 Documentation :
 
+* [Article 22 « Nom, logo et label de qualité » du Réglement](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e2193-1-1)
 * [SDG - Links on National Webpages Guidelines.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849062/SDG.-.Links.on.National.Webpages.Guidelines.pdf)
 * [SDG - Visual Guidelines for the logo.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849065/SDG.-.Visual.Guidelines.for.the.logo.pdf)

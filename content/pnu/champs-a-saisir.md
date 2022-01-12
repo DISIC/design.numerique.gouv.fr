@@ -4,25 +4,17 @@ description: Les champs à saisir et les pièces d'identité à joindre doivent 
 order: 6
 ---
 
-<figure class="fr-quote">
-	<blockquote>
-		<p>« Les utilisateurs transfrontières ont la possibilité de soumettre les informations requises, y compris lorsque leur structure diffère de celle d’informations analogues dans l’État membre concerné »</p>
-	</blockquote>
-	<figcaption>
-		<p class=“fr-quote__source”>Règlement européen établissant un portail numérique unique</p>
-	</figcaption>
-</figure>
+<div class="fr-callout"> 
+<p class="fr-callout__title">Ce que dit le Règlement</p> 
+<p class="fr-callout__text">Les utilisateurs transfrontières ont la possibilité de soumettre les informations requises, y compris lorsque leur structure diffère de celle d’informations analogues dans l’État membre concerné.</p> 
+</div>
 
 Les démarches en ligne doivent être pensées pour tous les utilisateurs européens: champs adaptés, alphabets européens acceptés (en pratique, les caractères spéciaux UTF8), pièces justificatives dématérialisées pour tous. En effet :
 
-<figure class="fr-quote">
-	<blockquote>
-		<p>« The structure of basic information required in administrative procedures such as an address, a postcode, a telephone number, a social security number, a national identification number varies from one Member State to another. The specific way in which such information is provided in a given Member State is often reflected in the formats the data is accepted in within the national procedures. [...] Across Europe, three different alphabets are used: Latin, Cyrillic and Greek and each has a different character set. Even within the Latin alphabet, additional characters or special signs are added. »</p>
-	</blockquote>
-	<figcaption>
-		<p class=“fr-quote__source”>Guideline on cross-border access to online procedure</p>
-	</figcaption>
-</figure>
+<div class="fr-callout"> 
+<p class="fr-callout__title">Ce que dit la documentation</p> 
+<p class="fr-callout__text">The structure of basic information required in administrative procedures such as an address, a postcode, a telephone number, a social security number, a national identification number varies from one Member State to another. The specific way in which such information is provided in a given Member State is often reflected in the formats the data is accepted in within the national procedures. [...] Across Europe, three different alphabets are used: Latin, Cyrillic and Greek and each has a different character set. Even within the Latin alphabet, additional characters or special signs are added. (Guideline on cross-border access to online procedure)</p> 
+</div> 
 
 Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
@@ -30,14 +22,10 @@ Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
 Cas particulier : les copies des pièces d'identité qui sont acceptés pour les citoyens français doivent également l'être pour l'ensemble des citoyens de l'Union européenne :
 
-<figure class="fr-quote">
-	<blockquote>
-		<p>« The SDGR provides that where competent authorities are allowed, under applicable national law or administrative practices, to accept digitalised copies of non-electronic evidence of identity, such as identity cards or passports, those authorities shall also accept such digitalised copies from cross-border users. »</p>
-	</blockquote>
-	<figcaption>
-		<p class=“fr-quote__source”>Guideline on cross-border access to online procedure</p>
-	</figcaption>
-</figure>
+<div class="fr-callout"> 
+<p class="fr-callout__title">Ce que dit la documentation</p> 
+<p class="fr-callout__text">The SDGR provides that where competent authorities are allowed, under applicable national law or administrative practices, to accept digitalised copies of non-electronic evidence of identity, such as identity cards or passports, those authorities shall also accept such digitalised copies from cross-border users. (Guideline on cross-border access to online procedure)</p> 
+</div> 
 
 Suggestion de traduction (à partir de la proposition de Deepl.com) :
 

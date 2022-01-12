@@ -7,13 +7,13 @@ order: 0
 Les informations sur cette page ne concernent que le Pilier II du Portail numérique unique (PNU). Ne sont traités ici ni le pilier I (pages d'information), suivi par la Direction de l'information légale et adminisatrative (Dila), ni le Pilier III (service d'assistance), suivi par la Direction interministérielle de la transformation publique (DITP).
 
 <div class="fr-callout">
-	<p class="fr-callout__title">Ce que dit le réglement</p>
+	<p class="fr-callout__title">Ce que dit le Règlement</p>
 	<p class="fr-callout__text">
 		Le portail donne accès [à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne [...] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur. [...] On entend par « utilisateur » : un citoyen de l’Union, une personne physique résidant dans un État membre ou une personne morale ayant son siège statutaire dans un État membre.
 	</p>
 </div>
 
-Les procédures concernées sont celles listées dans l'[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du règlement. Le périmètre des procédure est détaillé dans le document (en anglais):
+Les procédures concernées sont celles listées dans l'[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédure est détaillé dans le document (en anglais):
 [Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
 
 <div class="fr-highlight">

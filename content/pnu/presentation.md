@@ -38,5 +38,5 @@ Ce travail ne peut être effectué que par chacun des Ministères.
 Le lien entre Procédures PNU et Démarches Observatoire a été fait dans deux tableaux (et demande à être complétée et validée par les Ministères) :
 
 * Une [vue par Procédure définie par le Règlement](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF)
-* Une [Vue par Démarche de l'Observatoire](https://airtable.com/shrFh9LF94qois3sm).
+* Une [vue par Démarche de l'Observatoire](https://airtable.com/shrFh9LF94qois3sm).
 

@@ -40,3 +40,4 @@ Le lien entre Procédures PNU et Démarches Observatoire a été fait dans deux 
 * Une [vue par Procédures définies par le Règlement](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF)
 * Une [vue par Démarches de l'Observatoire](https://airtable.com/shrFh9LF94qois3sm).
 
+La Commission met régulièrement à jour une [page en accès libre rassemblant l'ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu'il convient de consulter pour obtenir l'exhaustivité des informations.

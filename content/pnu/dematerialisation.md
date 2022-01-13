@@ -6,18 +6,16 @@ order: 1
 
 <div class="fr-callout"> 
 <p class="fr-callout__title">Ce que dit le Règlement</p> 
-<p class="fr-callout__text">Les procédures [...] sont considérées comme étant intégralement en ligne lorsque :
-
-a) l’identification des utilisateurs, la fourniture d’informations et de justificatifs, la signature et la validation définitive peuvent être effectuées par voie électronique à distance, par l’intermédiaire d’une chaîne de services qui permet aux utilisateurs de respecter de façon simple et structurée les exigences de la procédure ;
-
-b) les utilisateurs reçoivent un accusé de réception automatique, à moins que le résultat de la procédure soit communiqué immédiatement ;
-
-c) le résultat de la procédure est communiqué par voie électronique ou, lorsque c’est nécessaire pour respecter le droit applicable de l’Union ou le droit national, communiqué par des moyens physiques ; et
-
-d) les utilisateurs reçoivent une notification électronique d’achèvement de la procédure.</p> 
+<p class="fr-callout__text">Les procédures [...] sont considérées comme étant intégralement en ligne lorsque :</p>
+<ol>
+<li>l’identification des utilisateurs, la fourniture d’informations et de justificatifs, la signature et la validation définitive peuvent être effectuées par voie électronique à distance, par l’intermédiaire d’une chaîne de services qui permet aux utilisateurs de respecter de façon simple et structurée les exigences de la procédure ;</li>
+<li>les utilisateurs reçoivent un accusé de réception automatique, à moins que le résultat de la procédure soit communiqué immédiatement ;</li>
+<li>le résultat de la procédure est communiqué par voie électronique ou, lorsque c’est nécessaire pour respecter le droit applicable de l’Union ou le droit national, communiqué par des moyens physiques ; et</li>
+<li>les utilisateurs reçoivent une notification électronique d’achèvement de la procédure.</li>
+ </ol>  
 </div> 
 
-En d'autres termes (anglais) :
+En d’autres termes (anglais) :
 
 <div class="fr-callout"> 
 <p class="fr-callout__title">Ce que dit la documentation</p> 
@@ -26,7 +24,7 @@ En d'autres termes (anglais) :
 
 Suggestion de traduction (à partir de la proposition de Deepl.com) : 
 
-*Dans de nombreuses procédures, seules les premières étapes sont numérisées : les utilisateurs peuvent remplir un formulaire de demande en ligne et le soumettre aux autorités compétentes. Toutefois, les résultats de la procédure restent toujours envoyés par des moyens physiques. Parfois, les utilisateurs nationaux peuvent recevoir les résultats sous forme électronique à condition d'être enregistrés et d'utiliser un système d'envoi spécifique. Ce système n'est cependant pas disponible pour les utilisateurs transfrontaliers. [...] Les utilisateurs transfrontaliers doivent pouvoir recevoir les résultats de la procédure sous forme électronique dans tous les cas où cela est également possible pour les utilisateurs non transfrontaliers. L'envoi électronique peut être suivie d'un envoi physique si le droit national ou de l'Union l'exige.*
+*Dans de nombreuses procédures, seules les premières étapes sont numérisées : les utilisateurs peuvent remplir un formulaire de demande en ligne et le soumettre aux autorités compétentes. Toutefois, les résultats de la procédure restent toujours envoyés par des moyens physiques. Parfois, les utilisateurs nationaux peuvent recevoir les résultats sous forme électronique à condition d’être enregistrés et d’utiliser un système d’envoi spécifique. Ce système n’est cependant pas disponible pour les utilisateurs transfrontaliers. [...] Les utilisateurs transfrontaliers doivent pouvoir recevoir les résultats de la procédure sous forme électronique dans tous les cas où cela est également possible pour les utilisateurs non transfrontaliers. L’envoi électronique peut être suivi d’un envoi physique si le droit national ou de l’Union l’exige.*
 
 Cf. Guideline on cross-border access to online procedure p. 20 :
 [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7846230/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)

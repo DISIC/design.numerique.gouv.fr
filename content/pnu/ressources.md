@@ -1,6 +1,6 @@
 ---
 title: Ressources
-description: Toutes les ressources disponibles et indispensables
+description: Ressources disponibles et indispensables
 order: 10
 ---
 

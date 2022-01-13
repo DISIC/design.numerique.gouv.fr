@@ -16,7 +16,7 @@ données relatives à la facilité d’utilisation, à la repérabilité et à l
 Les statistiques doivent être communiquées à la Commission, qui fournit des solutions techniques. D’autres choix peuvent être faits, charge alors aux États membres de communiquer les résultats au bon format à la Commission.
 
 Documentation technique fournie par la Commission (en anglais) :
-* [SDG_APIs Technical Specifications.07.07.2021.v2.2.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856425/SDG_APIs.Technical.Specifications.07.07.2021.v2.2.docx){lang="en"}{title="SDG_APIs Technical Specifications.07.07.2021.v2.2.docx - new window"}
-* [API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856427/API.URLs.08.07.2021.v2.3.docx){lang="en"}{title="API URLs 08.07.2021.v2.3.docx - new window"}
+* [SDG_APIs Technical Specifications.07.07.2021.v2.2.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856425/SDG_APIs.Technical.Specifications.07.07.2021.v2.2.docx){lang="en"}
+* [API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856427/API.URLs.08.07.2021.v2.3.docx){lang="en"}
 
 La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.

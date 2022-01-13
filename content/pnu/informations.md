@@ -1,6 +1,6 @@
 ---
 title: Informations sur la démarche
-description: Les utilisateurs doivent disposer, en français et en anglais, des informations relatives à la démarches, en amont de toute identification.
+description: Les utilisateurs doivent disposer, en français et en anglais, des informations relatives à la démarche, en amont de toute identification.
 order: 4
 ---
 

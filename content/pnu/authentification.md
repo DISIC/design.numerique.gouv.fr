@@ -9,13 +9,13 @@ order: 5
 <p class="fr-callout__text">Dans tous les cas où cela est possible également pour les utilisateurs non transfrontières, les utilisateurs transfrontières sont en mesure de s’identifier et de s’authentifier, de signer ou de sceller des documents électroniquement.</p> 
 </div> 
 
-Ce sujet est complexe, d'autant plus qu'il est en lien avec Once Only Principle dont l'acte d’exécution est en cours d'élaboration. Concrètement, les démarches nécessitant une authentification devront proposer:
+Ce sujet est complexe, d’autant plus qu’il est en lien avec Once Only Principle dont l’acte d’exécution est en cours d’élaboration. Concrètement, les démarches nécessitant une authentification devront proposer:
 
-* [FranceConnect+](https://franceconnect.gouv.fr/france-connect-plus) (équivalent distinct de [FranceConnect](https://franceconnect.gouv.fr/) qui permet l'authentification des citoyens des pays de l'Union Européenne) qui devra être capable de reconnaître les identités numériques des différents pays ;
+* [FranceConnect+](https://franceconnect.gouv.fr/france-connect-plus) (équivalent distinct de [FranceConnect](https://franceconnect.gouv.fr/) qui permet l’authentification des citoyens des pays de l’Union Européenne) qui devra être capable de reconnaître les identités numériques des différents pays ;
 * ProConnect pour les personnes morales ;
 * Ou prévoir une alternative pour les utilisateurs transfrontaliers.
 
 <div class="fr-highlight">
-	<p>Les projets FranceConnect+ (porté par la Dinum) et ProConnect (porté par le Ministère des finances) étant récents, la Dinum va se renseigner pour connaître leur état d'avancement. Cette page sera mise en jour en fonction des informations obtenues.
+	<p>Les projets FranceConnect+ (porté par la Dinum) et ProConnect (porté par le Ministère des finances) étant récents, la Dinum va se renseigner pour connaître leur état d’avancement. Cette page sera mise en jour en fonction des informations obtenues.
 	</p>
 </div>

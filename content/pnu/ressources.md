@@ -18,6 +18,8 @@ Lien avec l'ancre sur la partie centrée sur le Pilier II (celui qui nous concer
 
 Lien avec l'ancre sur la partie centrée sur le « Dites-le nous une fois » : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1
 
+## Documents en accès libre (et en anglais) de la Commission
+
 La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.
 
 [Explanatory document on scope of Annex II procedures_Sept 2020-1(1).pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849089/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020-1.1.pdf)

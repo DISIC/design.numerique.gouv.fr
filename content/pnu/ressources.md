@@ -34,6 +34,6 @@ https://ec.europa.eu/growth/single-digital-gateway-requirements_en
 
 
 <div class="fr-highlight">
-	<p>  compléter par la Dinum.
+	<p>  A compléter par la Dinum.
 	</p>
 </div>

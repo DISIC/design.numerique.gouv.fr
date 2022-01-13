@@ -11,7 +11,7 @@ order: 9
 
 Suggestion de traduction (à partir de la proposition de Deepl.com) :
 
-*L'article 22.2 du Règlement établissant le PNU exige des États membres qu'ils fassent figurer le logo « Your Europe » (« L'Europe est à vous ») sur les portails nationaux en tant que marqueur de qualité faisant référence à une série de critères énoncés dans le règlement. Les critères de qualité garantissent que les informations sur les règles, les procédures, les services d'assistance et de résolution des problèmes répondent à une certaine norme. C'est dans cette optique que le logo « Your Europe » doit devenir une image reconnaissable pour l'utilisateur. Le logo doit être visible et lisible et contenir un hyperlien cliquable vers la page d'accueil générale de L'Europe est à vous (https://europa.eu/youreurope/index.htm#en).*
+*L'article 22.2 du Règlement établissant le PNU exige des États membres qu'ils fassent figurer le logo « Your Europe » (« L'Europe est à vous ») sur les portails nationaux en tant que marqueur de qualité faisant référence à une série de critères énoncés dans le règlement. Les critères de qualité garantissent que les informations sur les règles, les procédures, les services d'assistance et de résolution des problèmes répondent à une certaine norme. C'est dans cette optique que le logo « Your Europe » doit devenir une image reconnaissable pour l'utilisateur. Le logo doit être visible et lisible et contenir un hyperlien cliquable vers la page d'accueil générale de « L'Europe est à vous » (https://europa.eu/youreurope/index.htm#en).*
 
 Documentation :
 

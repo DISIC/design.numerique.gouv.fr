@@ -1,5 +1,5 @@
 ---
-published_date: 15 novembre 2021
+published_date: 13 janvier 2022
 title: Appui au suivi de l’observatoire
 slug: appui-suivi-observatoire
 type: Indépendant

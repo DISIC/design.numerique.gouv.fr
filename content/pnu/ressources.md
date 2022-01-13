@@ -33,8 +33,3 @@ La Commission met régulièrement à jour une [page en accès libre rassemblant 
 ## FranceConnect+
 
 Il est possible de consulter la [documentation concernant FranceConnect+ sur son GitHub](https://github.com/france-connect/Documentation-FranceConnect-Plus). Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page « Partenaires »](https://franceconnect.gouv.fr/partenaires) du site via une page d'éligibilité.
-
-<div class="fr-highlight">
-	<p>  A compléter par la Dinum.
-	</p>
-</div>

@@ -18,9 +18,7 @@ Lien avec l'ancre sur la partie centrée sur le Pilier II (celui qui nous concer
 
 Lien avec l'ancre sur la partie centrée sur le « Dites-le nous une fois » : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1
 
-## Documents en accès libre (et en anglais) de la Commission 
-
-https://ec.europa.eu/growth/single-digital-gateway-requirements_en
+La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.
 
 [Explanatory document on scope of Annex II procedures_Sept 2020-1(1).pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849089/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020-1.1.pdf)
 
@@ -32,6 +30,9 @@ https://ec.europa.eu/growth/single-digital-gateway-requirements_en
 
 [API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856415/API.URLs.08.07.2021.v2.3.docx)
 
+## FranceConnect+
+
+Il est possible de consulter la [documentation concernant FranceConnect+ sur son GitHub](https://github.com/france-connect/Documentation-FranceConnect-Plus). Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page « Partenaires »](https://franceconnect.gouv.fr/partenaires) du site via une page d'éligibilité.
 
 <div class="fr-highlight">
 	<p>  A compléter par la Dinum.

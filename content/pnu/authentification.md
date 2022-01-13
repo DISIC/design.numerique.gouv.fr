@@ -11,7 +11,7 @@ order: 5
 
 Ce sujet est complexe, d’autant plus qu’il est en lien avec Once Only Principle dont l’acte d’exécution est en cours d’élaboration. Concrètement, les démarches nécessitant une authentification devront proposer :
 
-* [FranceConnect+](https://franceconnect.gouv.fr/france-connect-plus) (équivalent distinct de [FranceConnect](https://franceconnect.gouv.fr/) qui permet l’authentification des citoyens des pays de l’Union Européenne) qui devra être capable de reconnaître les identités numériques des différents pays ;
+* [FranceConnect+](https://franceconnect.gouv.fr/france-connect-plus) (équivalent distinct de [FranceConnect](https://franceconnect.gouv.fr/) qui permet l’authentification des citoyens des pays de l’Union européenne) qui devra être capable de reconnaître les identités numériques des différents pays ;
 * ProConnect pour les personnes morales ;
 * Ou prévoir une alternative pour les utilisateurs transfrontaliers.
 

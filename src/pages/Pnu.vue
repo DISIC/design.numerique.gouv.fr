@@ -65,6 +65,10 @@
         content: "Découvrez le portail numérique unique"
       },
       {
+        name: "robots",
+        content: "noindex, nofollow"
+      },
+      {
         property: "og:title",
         content: "Portail numérique unique - DesignGouv"
       },

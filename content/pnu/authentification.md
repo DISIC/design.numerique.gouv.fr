@@ -15,7 +15,7 @@ Ce sujet est complexe, d’autant plus qu’il est en lien avec Once Only Princi
 * ProConnect pour les personnes morales ;
 * Ou prévoir une alternative pour les utilisateurs transfrontaliers.
 
-Il est possible de consulter la [documentation concernant FranceConnect+ sur son GitHub](https://github.com/france-connect/Documentation-FranceConnect-Plus). Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page "Partenaires"](https://franceconnect.gouv.fr/partenaires) du site via une page d'égibilité. Le cas échéant, il est également possible de contacter la responsable Relations partenaires FranceConnect à la Direction interministérielle du numérique (Dinum) : Mme Stéphane Mavel, stephane.mavel(a)modernisation.gouv.fr.
+Il est possible de consulter la [documentation concernant FranceConnect+ sur son GitHub](https://github.com/france-connect/Documentation-FranceConnect-Plus). Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page « Partenaires »](https://franceconnect.gouv.fr/partenaires) du site via une page d'égibilité. Le cas échéant, il est également possible de contacter la responsable Relations partenaires FranceConnect à la Direction interministérielle du numérique (Dinum) : Mme Stéphane Mavel, stephane.mavel(a)modernisation.gouv.fr.
 
 <div class="fr-highlight">
 	<p>Le projet ProConnect (porté par le Ministère des finances) étant récent, la Dinum va se renseigner pour connaître son état d’avancement. Cette page sera mise en jour en fonction des informations obtenues.

@@ -16,7 +16,7 @@ Le lien entre les procédures PNU et les Démarches de l'Observatoire a été fa
 
 Lien avec l'ancre sur la partie centrée sur le Pilier II (celui qui nous concerne ici) : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1695-1-1
 
-Lien avec l'ancre sur la partie centrée sur le Dites-le nous une fois : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1
+Lien avec l'ancre sur la partie centrée sur le « Dites-le nous une fois » : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1
 
 ## Documents en accès libre (et en anglais) de la Commission 
 

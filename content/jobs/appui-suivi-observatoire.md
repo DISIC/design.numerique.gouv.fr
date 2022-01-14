@@ -17,7 +17,7 @@ Appuyer le pôle au suivi de l’[Observatoire de la qualité des démarches en 
 - Travailler au quotidien avec les correspondants ministériels pour suivre l'avancement et la planification des travaux d’amélioration des démarches administratives en ligne
 - Contribuer à la publication des éditions trimestrielles de l’[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} (notes, synthèses, etc)
 - Favoriser le déploiement du bouton « Je donne mon avis », et le *verdissement* de tous les indicateurs de l'Observatoire 
-- Tester les démarches sur les critères les plus complexes ou les moins objectivable
+- Tester les démarches sur les critères les plus complexes ou les moins objectivables
 
 ## Profil recherché
 

@@ -36,6 +36,9 @@ export default {
         content: this.$page.pnu.description
       },
       {
+        name: "robots",
+        content: "noindex, nofollow"
+      },      {
         property: "og:title",
         content: this.$page.pnu.title + " - Portail numérique unique - DesignGouv"
       },

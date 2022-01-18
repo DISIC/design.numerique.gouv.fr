@@ -1,6 +1,6 @@
 ---
 published_date: 13 janvier 2022
-title: Chef ou cheffe de projet : appui au suivi de l’observatoire
+title: Chef ou cheffe de projet, appui au suivi de l’observatoire
 slug: appui-suivi-observatoire
 type: Indépendant
 start_date: Dès que possible

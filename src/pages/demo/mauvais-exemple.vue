@@ -72,7 +72,7 @@
           </form>
         </div>
       </section>  
-
+      <p>Vous avez terminé ?<br>Combien d’erreurs avez-vous trouvé ?</p><p>Rendez-vous sur une page sans erreur : <a href="../bon-exemple/">bon exemple</a>.</p>
     </div>
 
   </Layout>

@@ -9,7 +9,7 @@
       </div>
 
       <p class="cover__subtitle">
-        Cette page est la version corrigée de la page <a href="./mauvais-exemple/">Trouve les erreurs</a>.
+        Cette page est la version corrigée de la page <a href="../mauvais-exemple/">Trouve les erreurs</a>.
       </p>
 
     </div>

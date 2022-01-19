@@ -49,6 +49,10 @@
         <ul>
           <li><g-link to="/formations/ecoconception/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à l’écoconception</g-link>, 2 heures, gratuit, niveau débutant.</li>
         </ul>
+        <h3>Rédaction UX</h3>
+        <ul>
+          <li><g-link to="/formations/redaction-ux/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à la rédaction UX</g-link>, 2 heures, gratuit, niveau débutant.</li>
+        </ul>
       </section>
 
 

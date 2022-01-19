@@ -28,34 +28,32 @@
   <div class="content fr-container">
     <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12 fr-col-md-8">
-          <h2>Jeudi 16 décembre de 10h à 12h</h2>
-          <p>En <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
+          <h2>Jeudi 17 février de 10h à 12h</h2>
+          <p>En <a href="https://www.youtube.com/c/DesignGouv" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
 
           <h3>Objectifs</h3>
           <ul>
-            <li>Connaître et mesurer les impacts environnementaux du numérique</li>
-            <li>Mettre en œuvre le référentiel général d’écoconception de services numériques</li>
+            <li>Proposer une information adaptée aux usagers</li>
+            <li>Prendre en compte la façon dont l’information est traitée</li>
+            <li>Connaître les principes de simplification</li>
+            <li>Appliquer une méthodologie de simplification centrée usager</li>
           </ul>
 
           <h3>Public concerné</h3>
           <p>Agents de la fonction publique ou prestataires impliqués dans la conception des services numériques publics.</p>
 
           <h3>Programme</h3>
-          <ul>
-            <li>Les impacts environnementaux du numérique</li>
-            <li>La mission Green Tech – numérique écoresponsable</li>
-            <li>L’analyse du cycle de vie</li>
-            <li>Pourquoi l’écoconception de services numériques ? Pour qui ?</li>
-            <li>La mise en œuvre du référentiel d’écoconception de service numérique</li>
-            <li>Les outils libres et open source dédiés à la mesure</li>
-            <li>Le système de design de l’État</li>
-            <li>Les clés à retenir</li>
-          </ul>
+          <ol>
+            <li>Enjeux de simplification de l’information</li>
+            <li>Comment le cerveau traite l’information</li>
+            <li>Principes de conception d’une information adaptée</li>
+            <li>Méthodologie de simplification centrée usager</li>
+            <li>Conclusion</li>
+          </ol>
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> (formulaires distincts).</p>
+          <p>N'oubliez pas, nous proposons quatres autres formations à (re)visionner : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
 
-
-          <h3>Inscription</h3>
+          <h2>Inscription</h2>
           <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
           <form class="form" v-on:submit.prevent="addParticipant">
               <div class="fr-input-group">

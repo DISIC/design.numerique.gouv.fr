@@ -2,13 +2,13 @@
 
   <div class="alert">
 
-      <h2>Nouveau programme de formations !</h2>
+      <h2>Nouvelle formation !</h2>
       <p>
-        Nous lançons <strong>quatre formations gratuites</strong> en ligne, sur les sujets indispensables à la conception de services publics numériques : <strong>accessibilité</strong>, <strong>design</strong>, <strong>recherche utilisateur</strong> et <strong>écoconception</strong>.
+        Nous lançons <strong>une nouvelle formation</strong> en ligne, sur la <strong>simplification de l'information à destination des usagers</strong> le jeudi 17 février prochain 🌼.
       </p>
 
-      <g-link to="/articles/2021-10-29-formations-design-accessibilite-recherche-ecoconception/">
-        Infos et <span lang="en">replay</span> de nos formations<font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
+      <g-link to="/formations/simplification-information/">
+        Infos et inscription <font-awesome aria-hidden="true" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3" height="16" width="16"/>
       </g-link>
 
   </div>

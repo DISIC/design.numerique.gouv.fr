@@ -51,7 +51,7 @@
         </ul>
         <h3>Simplification de l'information</h3>
         <ul>
-          <li><g-link to="/formations/redaction-ux/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à la simplification de l'information</g-link>, 2 heures, gratuit, niveau débutant.</li>
+          <li><g-link to="/formations/simplification-information/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à la simplification de l'information</g-link>, 2 heures, gratuit, niveau débutant.</li>
         </ul>
       </section>
 

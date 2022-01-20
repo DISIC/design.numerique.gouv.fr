@@ -1,5 +1,5 @@
 ---
-title: "Musclez vos connaissances, la suite : Simplifier l’information aux usagers"
+title: "Formation : Simplifier l’information à destination des usagers"
 slug: 2022-01-20-formation-simplification-information
 publishedDate: 2022-01-20
 tags: ["design", "simplification de l'information"]

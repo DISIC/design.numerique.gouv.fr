@@ -10,7 +10,7 @@
         <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
       </li>
       <li>
-        <span aria-current="page">Formation à la simplification de l'information</span>
+        <span aria-current="page">Formation Simplification de l'information aux usagers</span>
       </li>
     </ol>
   </nav>
@@ -18,7 +18,7 @@
   <div class="cover">
       <div class="cover__container">
         <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation à la simplification de l'information</h1>
+        <h1>Formation Simplification de l'information aux usagers</h1>
         <p class="cover__subtitle">
           Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau.
         </p>
@@ -90,14 +90,14 @@
       Formations,
     },
     metaInfo: {
-      title: "Formation à la simplification de l'information",
+      title: "Formation Simplification de l'information aux usagers",
       meta: [{
         name: "description",
         content: "Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau."
       },
       {
         property: "og:title",
-        content: "Formation à la simplification de l'information - DesignGouv"
+        content: "Formation Simplification de l'information aux usagers - DesignGouv"
       },
       {
         property: "og:description",
@@ -117,7 +117,7 @@
       },
       {
         name: "twitter:title",
-        content: "Formation à la simplification de l'information - DesignGouv"
+        content: "Formation Simplification de l'information aux usagers - DesignGouv"
       },
       {
         name: "twitter:description",

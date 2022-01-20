@@ -4,7 +4,7 @@
 
       <h2>Nouvelle formation !</h2>
       <p>
-        Nous lançons <strong>une nouvelle formation</strong> en ligne, sur la <strong>simplification de l'information à destination des usagers</strong>.
+        Nous lançons <strong>une nouvelle formation</strong> en ligne, sur la <strong>simplification de l'information à destination des usagers</strong> le jeudi 17 février prochain 🌼.
       </p>
 
       <g-link to="/formations/simplification-information/">

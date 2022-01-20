@@ -55,6 +55,7 @@
 
           <h2>Inscription</h2>
           <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
+           <p class="fr-text--xs">Tous les champs du formulaire sont obligatoires.</p>
           <form class="form" v-on:submit.prevent="addParticipant">
               <div class="fr-input-group">
                   <label class="fr-label" for="email">Votre adresse e-mail<span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>

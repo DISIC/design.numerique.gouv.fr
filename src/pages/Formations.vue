@@ -33,7 +33,7 @@
 
         <h3>Simplification de l'information</h3>
         <ul>
-          <li><g-link to="/formations/simplification-information/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à la simplification de l'information</g-link>, 2 heures, gratuit, niveau débutant. <strong>En direct le jeudi 17 février !</strong></li>
+          <li><g-link to="/formations/simplification-information/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à la simplification de l'information</g-link>, 2 heures, gratuit, niveau débutant.<br><strong>En direct le jeudi 17 février !</strong></li>
         </ul>
 
         <h3>Accessibilité</h3>

@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="dg-content fr-px-2w fr-mt-4w">
+    <div class="dg-content fr-px-2w fr-pt-4w">
       <h1>Oups, cette page n'existe pas</h1>
       <p>Vous pouvez <a href="/">retourner à l'accueil</a>, consulter le <a href="/misc/plan-du-site/">plan du site</a> ou aller faire un tour de vélo ;)</p><br />
       <RideIllustration class="illustration" focusable="false" aria-hidden="true"/>

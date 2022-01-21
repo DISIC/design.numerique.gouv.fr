@@ -1,20 +1,10 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w fr-pt-4w">
 
-    <div class="cover">
-     <div class="cover__container">
+      <h1>Trouve les erreurs !</h1>
+      <p>Cette page a été créée avec des erreurs - volontaires, c’est un exercice - de design et d’accessibilité. Sauras-tu les retrouver ? <br>(pour t’aider, tu peux utiliser le <a href="/outils/diagnostic-flash/">diagnostic flash</a>)</p>
 
-       <h1 class="text-highlight">Trouve les erreurs !</h1>
-
-      </div>
-
-      <p class="cover__subtitle">
-        Cette page a été créée avec des erreurs - volontaires, c’est un exercice - de design et d’accessibilité. Sauras-tu les retrouver ? <br>(pour t’aider, tu peux utiliser le <a href="/outils/diagnostic-flash/">diagnostic flash</a>)
-      </p>
-
-    </div>
-
-    <div class="content">
       <section class="fixed-width">
         <h3>Tout savoir sur la bicyclette</h3>
         <p>Une bicyclette, ou un vélo (abréviation du mot vélocipède), est un véhicule terrestre à propulsion humaine entrant dans la catégorie des cycles et composé de deux roues alignées, qui lui donnent son nom. La force motrice est fournie par son conducteur (appelé « cycliste »), en position le plus souvent assise, par l’intermédiaire de deux pédales entraînant la roue arrière par une chaîne à rouleaux.</p>
@@ -23,7 +13,7 @@
         <p><!-- balise utilisée à des fins de  présentation --></p>
         <p><!-- balise utilisée à des fins de  présentation --></p>
       </section>
-        <img src="/assets/images/bike.png" style="width:100%"  alt="L’anatomie d’une bicyclette"  />
+      <img src="/assets/images/bike.png" style="width:100%"  alt="L’anatomie d’une bicyclette"  />
       <section class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12">
           <h3>Tout savoir sur le RGAA</h3>
@@ -71,10 +61,9 @@
             </fieldset>
           </form>
         </div>
-      </section>  
+      </section>
 
     </div>
-
   </Layout>
 </template>
 
@@ -95,9 +84,9 @@
 </script>
 
 <style lang="scss">
-  
+
   section.fixed-width {
-    width: 36em;  
+    width: 36em;
     text-align: justify;
     margin: auto;
 

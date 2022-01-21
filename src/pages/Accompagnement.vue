@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/accessibilite-picto.svg" aria-hidden="true">Nos offres d'accompagnement</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Nos offres d'accompagnement</h1>
         <p class="fr-text--lead">Vous avez des besoins en design&nbsp;? Vous vous posez des questions sur les sujets d'accessibilité&nbsp;? Vous souhaitez obtenir des retours, demander des conseils pour le développement ou l'amélioration de votre service&nbsp;? Nous vous aidons&nbsp;!</p>
       </div>
     </section>

@@ -106,6 +106,26 @@ html {
     }
   }
 
+  &-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+
+    &-member {
+      text-align: center;
+      margin-bottom: 2rem;
+      list-style: none;
+
+      &__photo {
+        width: 6rem;
+        border-radius: 50%;
+      }
+
+      &__name, &__title, &__team, &__twitter  {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+
   &-badge {
     font-size: 0.6875rem;
     font-weight: bold;

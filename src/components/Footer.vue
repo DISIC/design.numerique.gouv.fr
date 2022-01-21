@@ -37,9 +37,6 @@
                   <g-link class="fr-footer__bottom-link" to="/contact/">Contact</g-link>
                 </li>
                 <li class="fr-footer__bottom-item">
-                  <g-link class="fr-footer__bottom-link" to="/equipe/">Notre équipe</g-link>
-                </li>
-                <li class="fr-footer__bottom-item">
                   <g-link class="fr-footer__bottom-link" to="/misc/plan-du-site/">Plan du site</g-link>
                 </li>
                 <li class="fr-footer__bottom-item">
@@ -51,9 +48,9 @@
                 <li class="fr-footer__bottom-item">
                   <g-link class="fr-footer__bottom-link"  to="/misc/donnees-personnelles/">Données personnelles et cookies</g-link>
                 </li>
-                <li class="fr-footer__bottom-item">
+                <!-- <li class="fr-footer__bottom-item">
                   <button class="fr-footer__bottom-link fr-fi-theme-fill fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d'affichage</button>
-                </li>
+                </li> -->
             </ul>
             <div class="fr-footer__bottom-copy">
                 <p>Sauf mention contraire, tous les contenus de ce site sont sous <a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a>

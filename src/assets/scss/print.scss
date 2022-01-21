@@ -19,7 +19,7 @@
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-    header, footer,
+    header, footer, .fr-follow, 
     main .message, .breadcrumb, .fr-skiplinks, .if-english, .cover__subhead,
     svg.cover__home-illustration, svg.cover__illustration, svg.illustration, svg.h1__icon, svg.h2__icon, div.illustration {
         display: none;

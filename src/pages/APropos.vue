@@ -1,19 +1,20 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Équipe</span>
-        </li>
-      </ol>
-    </nav>
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <span aria-current="page">À propos</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="content">
       <h1>Le pôle design des services numériques</h1>
+
       <section>
         <h2>Mission</h2>
         <p>En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.</p>
@@ -29,48 +30,47 @@
       </section>
 
       <section>
-          <h2>Notre équipe</h2>
-          <ul class="team">
-            <li v-for="{ node } in team" :key="node.id">
-              <g-image :src="node.photo" quality="100" height="150" width="150" :alt="node.firstName+' '+node.lastName" />
-              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
-              <p>{{ node.job_title }}</p>
-              <p v-if="node.sub_team_link">
-                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
-              </p>
-              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
-              <p v-if="node.twitter">
-                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-              </p>
-            </li>
-          </ul>
-        </section>
+        <h2>Notre équipe</h2>
+        <ul class="dg-team">
+          <li v-for="{ node } in team" :key="node.id" class="dg-team-member">
+            <g-image class="dg-team-member__photo fr-responsive-img" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
+            <h3 class="dg-team-member__name fr-h6">{{ node.firstName }} {{ node.lastName }}</h3>
+            <p class="dg-team-member__title">{{ node.job_title }}</p>
+            <p v-if="node.sub_team_link" class="dg-team-member__team">
+              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+            </p>
+            <p v-else-if="node.sub_team" class="dg-team-member__team">{{ node.sub_team }}</p>
+            <p v-if="node.twitter" class="dg-team-member__twitter">
+              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+            </p>
+          </li>
+        </ul>
+      </section>
 
-        <section>
-          <h2>En appui</h2>
-          <ul class="team">
-            <li v-for="{ node } in external" :key="node.id">
-              <g-image :src="node.photo" quality="100" height="150" width="150" :alt="node.firstName+' '+node.lastName" />
-              <h3>{{ node.firstName }} {{ node.lastName }}</h3>
-              <p>{{ node.job_title }}</p>
-              <p v-if="node.sub_team_link">
-                <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
-              </p>
-              <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
-              <p v-if="node.twitter">
-                <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-              </p>
-            </li>
-          </ul>
-        </section>
+      <section>
+        <h2>En appui</h2>
+        <ul class="dg-team">
+          <li v-for="{ node } in external" :key="node.id" class="dg-team-member">
+            <g-image class="dg-team-member__photo fr-responsive-img" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
+            <h3 class="dg-team-member__name fr-h6">{{ node.firstName }} {{ node.lastName }}</h3>
+            <p class="dg-team-member__title">{{ node.job_title }}</p>
+            <p v-if="node.sub_team_link" class="dg-team-member__team">
+              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+            </p>
+            <p v-else-if="node.sub_team" class="dg-team-member__team">{{ node.sub_team }}</p>
+            <p v-if="node.twitter" class="dg-team-member__twitter">
+              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+            </p>
+          </li>
+        </ul>
+      </section>
 
     </div>
-
   </Layout>
 </template>
 
-<page-query>
 
+<page-query>
   query {
     allPeople (sortBy: "lastName", order: ASC) {
       edges {
@@ -82,18 +82,17 @@
           sub_team
           sub_team_link
           twitter
-          photo (width: 150, height: 150, quality: 100)
+          photo (width: 96, height: 96, quality: 100)
           group
           content
         }
       }
     }
   }
-
 </page-query>
 
-<script>
 
+<script>
   export default {
     metaInfo: {
       title: "Équipe",
@@ -111,5 +110,4 @@
       },
     }
   }
-
 </script>

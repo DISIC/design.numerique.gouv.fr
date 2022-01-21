@@ -17,7 +17,7 @@ Vos contributions sont les bienvenues !
 
 ## Les process de mise à jour de DesignGouv
 
-### Je modifie du contenu en md
+### Je modifie du contenu en <span lang="en">Markdown</span>
 
 Exemples :
 * Je suis M et je publie une offre d’emploi
@@ -32,6 +32,7 @@ https://github.com/DISIC/design.numerique.gouv.fr/tree/master/content
 Exemples :
 * Je suis U et j’enrichie la rubrique Design
 * Je suis B et je veux mettre à jour le DSFR
+
 La méthode est la suivante :
 * Je créé une branche MA-FONC depuis master.
 * Je travaille sur ma branche en faisant attention de faire des commits atomiques bien commentés
@@ -48,6 +49,7 @@ Exemples :
 * Je suis U et je modifie la couleur du focus sur les boutons
 * Je suis B et je veux mettre à jour le DSFR
 * Je suis M et je veux ajouter une personne à l’équipe
+
 La méthode est la suivante :
 * Je travaille sur develop en faisant attention de faire des commits atomiques bien commentés
 * Une fois les tests unitaires effectués, je propose une PR sur master à revoir par une personne de l’équipe (B, M ou U)

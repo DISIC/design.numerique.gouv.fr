@@ -72,7 +72,7 @@
           </form>
         </div>
       </section>  
-      <p>Vous avez terminé ?<br>Combien d’erreurs avez-vous trouvé ?</p><p>Vous pouvez télécharger le <a href="/assets/doc/diagnostic-flash-exercice.ods" download>diagnostic flash complété et corrigé (fichier ods - 44 Ko)</a> et vous rendre sur une <a href="./bon-exemple/">page sans erreur</a>.</p>
+      <p>Vous avez terminé ?<br>Combien d’erreurs avez-vous trouvé ?</p><p>Vous pouvez télécharger le <a href="/assets/doc/diagnostic-flash-exercice.ods" download>diagnostic flash complété et corrigé (fichier ods - 44 Ko)</a> et vous rendre sur une <a href="../bon-exemple/">page sans erreur</a>.</p>
     </div>
 
   </Layout>

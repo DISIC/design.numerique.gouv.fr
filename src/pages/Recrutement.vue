@@ -20,14 +20,14 @@
 
       <div class="fr-grid-row fr-grid-row--gutters">
         <div class="fr-col-md-6 fr-col-12"  v-for="{ node } in $page.allJob.edges" :key="node.id">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                <div class="fr-tile__body">
-                    <h2 class="fr-tile__title">
-                        <g-link  :to="node.path" class="fr-tile__link">{{ node.title }}</g-link>
-                    </h2>
-                    <p class="fr-tile__desc">{{ node.type }}</p>
-                </div>
+          <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+            <div class="fr-tile__body">
+              <h2 class="fr-tile__title">
+                <g-link  :to="node.path" class="fr-tile__link">{{ node.title }}</g-link>
+              </h2>
+              <p class="fr-tile__desc">{{ node.type }}</p>
             </div>
+          </div>
         </div>
       </div>
 
@@ -35,8 +35,8 @@
   </Layout>
 </template>
 
-<page-query>
 
+<page-query>
   query {
     allJob (sortBy: "title", order: ASC) {
       edges {
@@ -49,11 +49,10 @@
       }
     }
   }
-
 </page-query>
 
-<script>
 
+<script>
   export default {
     metaInfo: {
       title: "Recrutement",
@@ -95,5 +94,4 @@
       }],
     }
   }
-
 </script>

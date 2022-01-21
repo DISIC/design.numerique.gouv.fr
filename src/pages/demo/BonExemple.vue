@@ -101,7 +101,6 @@
 
 
 <script>
-
   export default {
     metaInfo: {
       title: "Page de bons exemples",
@@ -112,10 +111,10 @@
       }],
     }
   }
-
 </script>
 
-<style lang="scss">
+
+<style scoped lang="scss">
 
   section.fixed-width {
     width: 36em;
@@ -127,13 +126,17 @@
       text-decoration: none;
     }
   }
-    h3 {
+
+  h3 {
     color: black;
   }
+
   .jaune {
     background-color: yellow;
   }
+  
   .indicates-required {
     text-align: right;
   }
+
 </style>

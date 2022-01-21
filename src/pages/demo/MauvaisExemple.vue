@@ -69,7 +69,6 @@
 
 
 <script>
-
   export default {
     metaInfo: {
       title: "Test",
@@ -80,10 +79,10 @@
       }],
     }
   }
-
 </script>
 
-<style lang="scss">
+
+<style scoped lang="scss">
 
   section.fixed-width {
     width: 36em;
@@ -95,15 +94,19 @@
       text-decoration: none;
     }
   }
+
   h3 {
     color: chartreuse;
   }
+
   .jaune {
     background-color: yellow;
   }
+  
   .indicates-required {
     text-align: right;
   }
+
 </style>
 
 <!--

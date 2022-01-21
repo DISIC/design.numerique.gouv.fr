@@ -20,6 +20,10 @@ html {
     &-blue {
       color: var(--text-title-blue-france);
     }
+
+    &-break {
+      word-break: break-word;
+    }
   }
 
   &-cover {

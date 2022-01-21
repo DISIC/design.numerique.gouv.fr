@@ -1,22 +1,22 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Exemple de déclaration d’accessibilité</span>
-        </li>
-      </ol>
-    </nav>
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Exemple de déclaration d’accessibilité</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="content">
-      <h1>Exemple de déclaration d’accessibilité</h1>        
+      <h1>Exemple de déclaration d’accessibilité</h1>
 
       <section>
         <p><span class="tofill">Nom de l’entité</span> s’engage à rendre ses sites internet, intranet, extranet et ses progiciels accessibles (et ses applications mobiles et mobilier urbain numérique) conformément à l’article 47 de la loi n°2005-102 du 11 février 2005.</p>
@@ -53,7 +53,7 @@
         <ul>
           <li>Ex. : Les archives des comptes rendus des séances du conseil municipal jusqu’en 2010 sont au format PDF image. Il est cependant possible d’en demander un exemplaire texte par courriel</li>
           <li><span class="tofill">...</span></li>
-        </ul>  
+        </ul>
         <h3><span class="tofill">Contenus non soumis à l’obligation d’accessibilité</span></h3>
         <ul>
         <li>Ex. : Cartes de l’Institut géographique national associées à l’annuaire</li>
@@ -76,7 +76,7 @@
           <li>Firefox et NVDA</li>
           <li>Safari et VoiceOver</li>
           <li><span class="tofill">...</span></li>
-        </ul> 
+        </ul>
 
         <h3>Outils pour évaluer l’accessibilité</h3>
         <ul>
@@ -117,7 +117,6 @@
       </section>
 
     </div>
-
   </Layout>
 </template>
 

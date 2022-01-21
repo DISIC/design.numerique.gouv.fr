@@ -12,6 +12,14 @@ html {
     &-center {
       text-align: center;
     }
+
+    &-red {
+      color: var(--text-title-red-marianne);
+    }
+
+    &-blue {
+      color: var(--text-title-blue-france);
+    }
   }
 
   &-cover {

@@ -1,21 +1,23 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
-        </li>
-        <li>
-          <span aria-current="page">RGAA</span>
-        </li>
-      </ol>
-    </nav>
-    <div class="content">
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+          </li>
+          <li>
+            <span aria-current="page">RGAA</span>
+          </li>
+        </ol>
+      </nav>
+
       <h1>Le Référentiel général d’amélioration de l’accessibilité (RGAA)</h1>
+
       <section>
         <h2>À quoi ça sert ?</h2>
         <p>
@@ -29,11 +31,12 @@
           Consulter les critères du RGAA
         </a>
       </section>
+
       <section>
         <h2>La 4ème version du RGAA</h2>
         <p>La version en vigueur du RGAA est la 4.1 et a été publiée le 18 février 2021.</p>
         <p>
-          Le RGAA 4 fait disparaître la distinction entre niveau A et AA qui n’est plus justifiée puisque toutes ces règles sont obligatoires. 
+          Le RGAA 4 fait disparaître la distinction entre niveau A et AA qui n’est plus justifiée puisque toutes ces règles sont obligatoires.
         </p>
 
         <!--p>Consulter la <a href="https://design.numerique.gouv.fr/assets/pdf/RGAA4_vs_WCAG2.1.pdf" target="_blank" title="correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1 - Nouvelle fenêtre">correspondance des critères de contrôle du RGAA 4 vs critères à succès des WCAG 2.1</a>. </p-->
@@ -52,32 +55,32 @@
           La méthode technique du RGAA 4.1 ne couvre pas les applications mobiles natives, les progiciels et le mobilier urbain numérique pour lesquels il sera nécessaire de vérifier directement la mise en œuvre de la norme de référence EN 301-549 V2.1.2.
         </p>
       </section>
-    </div>
 
+    </div>
   </Layout>
 </template>
 
-<script>
 
-export default {
-  metaInfo: {
-    title: "Le RGAA",
-    meta: [{
-      name: 'description',
-      content: "Tout savoir sur le Référentiel général d'amélioration de l'accessibilité (RGAA)."
-    },
-    {
-      property: 'og:title',
-      content: "Le RGAA - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Tout savoir sur le Référentiel général d'amélioration de l'accessibilité."
-    },
-    {
-      property: 'og:image',
-      content: "https://design.numerique.gouv.fr/designGouv.png"
-    }],
+<script>
+  export default {
+    metaInfo: {
+      title: "Le RGAA",
+      meta: [{
+        name: 'description',
+        content: "Tout savoir sur le Référentiel général d'amélioration de l'accessibilité (RGAA)."
+      },
+      {
+        property: 'og:title',
+        content: "Le RGAA - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Tout savoir sur le Référentiel général d'amélioration de l'accessibilité."
+      },
+      {
+        property: 'og:image',
+        content: "https://design.numerique.gouv.fr/designGouv.png"
+      }],
+    }
   }
-}
 </script>

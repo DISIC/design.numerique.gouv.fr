@@ -1,18 +1,18 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Contact</span>
-        </li>
-      </ol>
-    </nav>
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Contact</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="content">
       <h1>Contact</h1>
       <section>
         <p>Vous pouvez nous contacter en utilisant l’adresse électronique <strong>contact@design.numerique.gouv.fr</strong>.</p>
@@ -32,14 +32,13 @@
                 </a></li>
         </ul>
       </section>
-    </div>
 
+    </div>
   </Layout>
 </template>
 
 
 <script>
-
   export default {
     metaInfo: {
       title: "Contact",
@@ -61,5 +60,4 @@
       }],
     }
   }
-
 </script>

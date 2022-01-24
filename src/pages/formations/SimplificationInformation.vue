@@ -51,7 +51,7 @@
             <li>Conclusion</li>
           </ol>
 
-          <h3>Votre formatrice</h3>
+          <h3>Formatrice</h3>
           <div class="person">
             <g-image src="~/assets/images/team-photos/camille-rozier.jpg" width="120" alt="" class="person__photo"/>
             <p class="person__description">

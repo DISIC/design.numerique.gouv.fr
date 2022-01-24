@@ -39,8 +39,8 @@
                 </p>
               </div>
 
-              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="item__link button button--highlight">
-                Candidater<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="fr-btn item__link">
+                Candidater<font-awesome width="0" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
               </a>
             </div>
 
@@ -53,8 +53,8 @@
                 </p>
               </div>
 
-              <g-link to="/commando-ux/partager-interet/" class="item__link button button--highlight">
-                Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
+              <g-link to="/commando-ux/partager-interet/" class="item__link fr-btn">
+                Partager votre intérêt<font-awesome width="0" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
               </g-link>
             </div>
         </div>

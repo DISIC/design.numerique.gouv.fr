@@ -25,7 +25,7 @@ Quand un test est sélectionné, tous les éléments à tester de la page affich
 ## Télécharger l’assistant RGAA
 <div>
 <ul class="download">
-<li><a class="fr-btn button" target="_blank" title="Assistant RGAA pour firefox - nouvelle fenêtre" href="https://addons.mozilla.org/fr/firefox/addon/assistant-rgaa/" >Assistant RGAA pour firefox</a></li>
-<li><a class="fr-btn button" target="_blank" title="Assistant RGAA pour chrome - nouvelle fenêtre" href="https://chrome.google.com/webstore/detail/assistant-rgaa/cgpmofepeeiaaljkcclfldhaalfpcand?hl=fr" >Assistant RGAA pour chrome</a></li>
+<li><a class="fr-btn" target="_blank" title="Assistant RGAA pour firefox - nouvelle fenêtre" href="https://addons.mozilla.org/fr/firefox/addon/assistant-rgaa/" >Assistant RGAA pour firefox</a></li>
+<li><a class="fr-btn" target="_blank" title="Assistant RGAA pour chrome - nouvelle fenêtre" href="https://chrome.google.com/webstore/detail/assistant-rgaa/cgpmofepeeiaaljkcclfldhaalfpcand?hl=fr" >Assistant RGAA pour chrome</a></li>
 </ul>
 </div>

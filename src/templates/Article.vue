@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="dg-content">
+    <div class="dg-content fr-px-2w">
 
       <div class="dg-content dg-content--xs">
         <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">

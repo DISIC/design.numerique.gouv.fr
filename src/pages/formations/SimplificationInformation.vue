@@ -50,12 +50,23 @@
             <li>Méthodologie de simplification centrée usager</li>
             <li>Conclusion</li>
           </ol>
+
+          <h3>Formatrice</h3>
+          <div class="person">
+            <g-image src="~/assets/images/team-photos/camille-rozier.jpg" width="120" alt="" class="person__photo"/>
+            <p class="person__description">
+              <strong class="person__name">Camille Rozier</strong><br>
+              Cheffe de projet simplification & sciences comportementales à la Direction interministérielle de la transformation publique (DITP)
+            </p>
+          </div>
+
+
           <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
           <p>N'oubliez pas, nous proposons quatre autres formations à (re)visionner : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
 
           <h2>Inscription</h2>
           <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
-           <p class="fr-text--xs">Tous les champs du formulaire sont obligatoires.</p>
+          <p class="fr-text--xs">Tous les champs du formulaire sont obligatoires.</p>
           <form class="form" v-on:submit.prevent="addParticipant">
               <div class="fr-input-group">
                   <label class="fr-label" for="email">Votre adresse e-mail<span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
@@ -166,3 +177,30 @@
   },
 }
 </script>
+
+
+<style scoped lang="scss">
+
+  @import "src/assets/scss/_vars.scss";
+
+  .person {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    &__photo {
+      height: 7rem;
+      width: 7rem;
+      border-radius: 50%;
+      margin-right: 2rem;
+      flex-basis: auto;
+    }
+
+    &__description {
+      flex-basis: 20rem;
+      margin: 0.5rem 0;
+    }
+  }
+
+</style>

@@ -51,12 +51,12 @@
             <li>Conclusion</li>
           </ol>
 
-          <h3>Formatrice</h3>
+          <h3>Votre formatrice</h3>
           <div class="person">
             <g-image src="~/assets/images/team-photos/camille-rozier.jpg" width="120" alt="" class="person__photo"/>
             <p class="person__description">
               <strong class="person__name">Camille Rozier</strong><br>
-              Cheffe de projet simplification & sciences comportementales à la Direction interministérielle de la transformation publique (DITP)
+              Cheffe de projet simplification et sciences comportementales à la Direction interministérielle de la transformation publique (DITP)
             </p>
           </div>
 

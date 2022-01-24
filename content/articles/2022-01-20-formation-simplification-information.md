@@ -16,7 +16,7 @@ Pour que les administrations se posent les bonnes questions aux bons moments, po
 
 Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau.
 
-Cette formation sera animée par **Camille Rozier**, cheffe de projet simplification & sciences comportementales à la Direction interministérielle de la transformation publique (DITP).
+Cette formation sera animée par **Camille Rozier**, cheffe de projet simplification et sciences comportementales à la Direction interministérielle de la transformation publique (DITP).
 
 Elle aura lieu en direct sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie). Si vous n'êtes pas disponible à cette date, cette formation sera disponible en différé sur notre chaine YouTube.
 

@@ -31,7 +31,7 @@
           <ul>
             <li v-for="(card, index) in $page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)"
                   :key="card.node.id"
-                  class="dg-goose__card fr-mr-2w fr-mb-1w fr-pt-2w fr-px-2w fr-pb-1w"
+                  class="dg-goose__card fr-mr-1w fr-mb-1w fr-pt-2w fr-px-2w fr-pb-1w"
                   :class="{ 'dg-goose__card--top250': card.node.top250 }">
 
               <p v-if="card.node.top250" class="dg-goose__card-id fr-mb-1w">Top250</p>
@@ -39,7 +39,7 @@
                 {{ card.node.id }}
                 <font-awesome  class="dg-goose__card-icon" :icon="card.node.icon" width="16" height="16" aria-hidden="true" />
               </p>
-              <h3 class="fr-mb-1w"><button class="dg-goose__card-title fr-text"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong class="fr-text fr-text--sm">{{ card.node.title }}</strong></button></h3>
+              <h3 class="fr-mb-1w"><button class="dg-goose__card-title"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong>{{ card.node.title }}</strong></button></h3>
 
               <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal" role="dialog">
                 <div class="fr-container fr-container--fluid fr-container-md">
@@ -59,20 +59,20 @@
                         <div class="fr-modal__footer">
                           <ul class="dg-goose__modal-footer fr-btns-group fr-btns-group--right fr-btns-group--inline-reverse fr-btns-group--inline-sm fr-btns-group--icon-right fr-btns-group--sm">
                             <li>
-                                <button class="dg-goose__modal-action fr-btn fr-fi-arrow-right-line"
-                                        v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
-                                        name="Suivant"
-                                        v-on:click="nextCard(card.node.id, index, step.node.id)">
-                                    Étape suivante
-                                </button>
+                              <button class="dg-goose__modal-action fr-btn fr-fi-arrow-right-line"
+                                      v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index + 1]"
+                                      name="Suivant"
+                                      v-on:click="nextCard(card.node.id, index, step.node.id)">
+                                  Étape suivante
+                              </button>
                             </li>
                             <li>
-                                <button class="dg-goose__modal-action dg-goose__modal-action--left fr-btn fr-btn--secondary fr-fi-arrow-left-line"
-                                        v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
-                                        name="Précédent"
-                                        v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
-                                    Étape précédente
-                                </button>
+                              <button class="dg-goose__modal-action dg-goose__modal-action--left fr-btn fr-btn--secondary fr-fi-arrow-left-line"
+                                      v-if="$page.allGooseCard.edges.filter(edge => edge.node.step.id === step.node.id)[index - 1]"
+                                      name="Précédent"
+                                      v-on:click.stop="previousCard(card.node.id, index, step.node.id)">
+                                  Étape précédente
+                              </button>
                             </li>
                           </ul>
                         </div>
@@ -225,7 +225,7 @@
       background-color: var(--background-default-grey);
       border: 1px solid var(--border-default-grey);
       flex-shrink: 0;
-      width: 10rem;
+      width: 9.875rem;
       position: relative;
 
       @media only screen and (max-width: $sm-point) {

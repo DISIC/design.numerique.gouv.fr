@@ -86,6 +86,10 @@ export default {
       this.$page.article.title.length > 48 ?
       this.$page.article.title.substring(0, 46) + "..." :
       this.$page.article.title;
+  },
+  mounted() {
+    var images = document.getElementsByTagName('img');
+    images.forEach(image => image.classList.add('fr-responsive-img'));
   }
 }
 </script>

@@ -13,12 +13,8 @@
 
     <main id="main" role="main">
       <div class="fr-container fr-container--fluid">
-        <div class="fr-grid-row fr-grid-row--center">
-          <div class="fr-col-xl-10">
-            <slot/>
-            <Offer v-if="showServices"/>
-          </div>
-        </div>
+        <slot/>
+        <Offer v-if="showServices"/>
       </div>
     </main>
 

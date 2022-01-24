@@ -1,20 +1,24 @@
 <template>
   <Layout>
+
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">À propos</span>
+            </li>
+          </ol>
+        </nav>
+        <h1>Le pôle design des services numériques</h1>
+      </div>
+    </div>
+
+
     <div class="dg-content fr-px-2w">
-
-      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-        <ol class="fr-breadcrumb__list">
-          <li>
-            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-          </li>
-          <li>
-            <span aria-current="page">À propos</span>
-          </li>
-        </ol>
-      </nav>
-
-      <h1>Le pôle design des services numériques</h1>
-
       <section>
         <h2>Mission</h2>
         <p>En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.</p>

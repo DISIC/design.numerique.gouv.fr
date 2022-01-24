@@ -78,7 +78,7 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
-                  <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvel onglet" target="_blank">Je donne mon avis</a>
+                  <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
                 </h2>
                 <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬  </p>
               </div>
@@ -91,7 +91,7 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
-                  <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvel onglet" target="_blank">L'Observatoire</a>
+                  <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L'Observatoire</a>
                 </h2>
                 <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎 </p>
               </div>

@@ -1,7 +1,7 @@
 <template>
   <Layout>
 
-    <section class="dg-cover">
+    <div class="dg-cover">
       <div class="dg-cover__inner">
         <div class="dg-cover__container dg-cover__container--lg fr-mt-6w">
           <h1 class="fr-display-sm dg-text-center">Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
@@ -9,10 +9,10 @@
           <Message/>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="dg-content dg-content--lg">
-      <section class="dg-block dg-content dg-content--lg fr-mt-8w fr-px-2w fr-py-6w">
+    <div class="dg-content dg-content--lg">
+      <section class="dg-block fr-mt-8w fr-px-2w fr-py-6w">
         <div class="dg-content fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
@@ -168,7 +168,7 @@
           </div>
         </div>
       </section>
-    </section>
+    </div>
 
   </Layout>
 </template>

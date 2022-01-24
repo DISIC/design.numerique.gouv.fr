@@ -1,39 +1,43 @@
 <template>
   <Layout>
+
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Contact</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title">Contact</h1>
+        <p class="fr-text--lead">Vous pouvez nous contacter en utilisant l’adresse électronique <strong>contact@design.numerique.gouv.fr</strong>.</p>
+      </div>
+    </div>
+
     <div class="dg-content fr-px-2w">
-
-      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-        <ol class="fr-breadcrumb__list">
-          <li>
-            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-          </li>
-          <li>
-            <span aria-current="page">Contact</span>
-          </li>
-        </ol>
-      </nav>
-
-      <h1>Contact</h1>
       <section>
-        <p>Vous pouvez nous contacter en utilisant l’adresse électronique <strong>contact@design.numerique.gouv.fr</strong>.</p>
         <p>Vous pouvez également nous suivre sur les réseaux sociaux suivants :</p>
         <ul>
           <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
-                Twitter <font-awesome  width="0" :icon="['fab', 'twitter']"/>
+                Twitter <span class="fr-fi-twitter-fill" aria-hidden="true"></span>
                 </a></li>
           <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
-                Instagram <font-awesome  width="0" :icon="['fab', 'instagram']"/>
+                Instagram <span class="fr-fi-instagram-fill" aria-hidden="true"></span>
                 </a></li>
           <li><a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw" title="Youtube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
-                Youtube <font-awesome  width="0" :icon="['fab', 'youtube']"/>
+                Youtube <span class="fr-fi-youtube-fill" aria-hidden="true"></span>
                 </a></li>
           <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
-                Linkedin <font-awesome  width="0" :icon="['fab', 'linkedin']"/>
+                Linkedin <span class="fr-fi-linkedin-box-fill" aria-hidden="true"></span>
                 </a></li>
         </ul>
       </section>
-
     </div>
+
   </Layout>
 </template>
 

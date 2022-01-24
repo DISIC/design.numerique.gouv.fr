@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1>Le pôle design des services numériques</h1>
+        <h1 class="dg-cover__title">Le pôle design des services numériques</h1>
       </div>
     </div>
 

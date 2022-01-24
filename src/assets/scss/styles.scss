@@ -1,8 +1,7 @@
 @import "vars";
 
 html {
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-x: auto;
 }
 
 .dg {
@@ -39,7 +38,7 @@ html {
 
     &__inner {
       padding: 0.1rem;
-      background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 80%, var(--background-default-grey) 100%);
+      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 80%, var(--background-default-grey) 100%);
     }
 
     &__container {
@@ -173,9 +172,5 @@ html {
         transform: rotate(180deg);
       }
     }
-  }
-
-  &-tag {
-
   }
 }

@@ -30,14 +30,24 @@ html {
     position: relative;
     margin-left: -50vw;
     left: 50%;
+
     background: conic-gradient(from 90deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
+    @media (prefers-color-scheme: dark) {
+      background: var(--background-alt-grey);
+    }
 
     &--linear {
       background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
+      @media (prefers-color-scheme: dark) {
+        background: var(--background-alt-grey);
+      }
     }
 
     &__inner {
       background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 80%, var(--background-default-grey) 100%);
+      @media (prefers-color-scheme: dark) {
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 80%, var(--background-default-grey) 100%);
+      }
     }
 
     &__container {
@@ -83,6 +93,9 @@ html {
 
   &-block {
     background: conic-gradient(from 180deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
+    @media (prefers-color-scheme: dark) {
+      background: var(--background-alt-grey);
+    }
   }
 
   &-picto {

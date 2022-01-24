@@ -212,7 +212,7 @@
 
     &__step-id {
       display: inline-block;
-      border: 2px solid var(--text-title-grey);
+      border: 2px solid var(--text-default-grey);
       border-radius: 50%;
       width: 20px;
       height: 20px;
@@ -239,13 +239,13 @@
 
       &-id {
         font-weight: bold;
-        color: var(--text-title-grey);
       }
 
       &-title {
         padding: 0;
         text-align: left;
         font-size: 0.875rem;
+        color: var(--text-default-grey);
 
         &:focus, &:hover{
           background: none;

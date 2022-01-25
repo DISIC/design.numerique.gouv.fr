@@ -1,24 +1,27 @@
 <template>
   <Layout>
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Commando UX</span>
-        </li>
-      </ol>
-    </nav>
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Commando UX</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Commando UX</h1>
+        <p class="fr-text--lead">Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
+      </div>
+    </div>
 
-    <div class="content">
-      <h1>Commando UX</h1>
-      <p class="fr-text--lead">Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
+    <div class="dg-content fr-px-2w">
 
-      <section class="description">
-
-        <div class="description__content">
+      <section>
+        <div>
           <h2>
             Des experts au sein des administrations
           </h2>
@@ -30,57 +33,64 @@
           </p>
         </div>
 
-        <div class="description__actions">
-            <div class="item item--left">
-              <div class="item__content">
-                <h3>Administrations de l’État</h3>
-                <p>
-                  Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
-                </p>
+        <div class="fr-grid-row fr-grid-row--gutters fr-my-6w">
+          <div class="fr-col-sm-6 fr-mb-2w">
+            <div>
+              <div class="dg-text-with-icon fr-mb-2w">
+                <span class="dg-icon dg-icon--sm fr-mr-2w">
+                  <font-awesome :icon="['fas', 'university']" height="16px" aria-hidden="true" />
+                </span>
+                <h3 class="fr-h4">Administrations de l’État</h3>
               </div>
-
-              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="fr-btn item__link">
-                Candidater<font-awesome width="0" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </a>
+              <p>
+                Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
+              </p>
             </div>
+            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+              Candidater
+            </a>
+          </div>
 
-            <div class="item item--right">
-              <div class="item__content">
-                <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
-                <h3>Experts «&nbsp;expérience utilisateur&nbsp;»</h3>
-                <p>
-                  Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
-                </p>
+          <div class="fr-col-sm-6">
+            <div>
+              <div class="dg-text-with-icon fr-mb-2w">
+                <div class="dg-icon dg-icon--sm fr-mr-2w">
+                  <font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true" />
+                </div>
+                <h3 class="fr-h4">Experts expérience utilisateur</h3>
               </div>
-
-              <g-link to="/commando-ux/partager-interet/" class="item__link fr-btn">
-                Partager votre intérêt<font-awesome width="0" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </g-link>
+              <p>
+                Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
+              </p>
             </div>
+            <g-link to="/commando-ux/partager-interet/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+              Partager votre intérêt
+            </g-link>
+          </div>
         </div>
       </section>
 
-      <section>
+      <section class="fr-mb-4w">
         <h2>Le commando saison 2</h2>
         <p class="section__subtitle">
           Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
         </p>
         <ul class="team">
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">2 chargées de recherche utilisateur</h3>
+          <li class="dg-text-with-icon fr-mb-1w">
+            <span class="dg-icon dg-icon--xs fr-mr-3v"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des chargées de recherche utilisateur</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">2 designers UX/UI</h3>
+          <li class="dg-text-with-icon fr-mb-1w">
+            <span class="dg-icon dg-icon--xs fr-mr-3v"><font-awesome :icon="['fas', 'project-diagram']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des expertes et experts produits</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">1 développeuse accessibilité</h3>
+          <li class="dg-text-with-icon fr-mb-1w">
+            <span class="dg-icon dg-icon--xs fr-mr-3v"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des designers UX/UI</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'ellipsis-h']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description team-member__description--light">Et bientôt d'autres experts pour accompagner les administrations</h3>
+          <li class="dg-text-with-icon fr-mb-1w">
+            <span class="dg-icon dg-icon--xs fr-mr-3v"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des développeuses et développeurs accessibilité</h3>
           </li>
         </ul>
       </section>

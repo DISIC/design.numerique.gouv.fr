@@ -23,6 +23,16 @@ html {
     &-break {
       word-break: break-word;
     }
+
+    &-with-icon {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+      }
+    }
   }
 
   &-cover {
@@ -113,6 +123,31 @@ html {
 
     &:hover {
       transform: rotate(180deg);
+    }
+  }
+
+  &-icon {
+    color: var(--text-label-pink-macaron);
+    background-color: var(--background-contrast-pink-macaron);
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    &--sm {
+      width: 3.5rem;
+      height: 3.5rem;
+      font-size: 1.5rem;
+    }
+
+    &--xs {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1rem;
     }
   }
 

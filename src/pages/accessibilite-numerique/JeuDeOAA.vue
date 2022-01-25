@@ -44,7 +44,7 @@
               <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal" role="dialog">
                 <div class="fr-container fr-container--fluid fr-container-md">
                   <div class="fr-grid-row fr-grid-row--center">
-                    <div class="fr-col-xs-12 fr-col-sm-10 fr-col-md-8">
+                    <div class="fr-col-12fr-col-md-8">
                       <div class="fr-modal__body">
                         <div class="fr-modal__header">
                             <button class="dg-goose__modal-close fr-link--close fr-link" title="Fermer la fenêtre modale" :aria-controls="card.node.id" :id="card.node.id + '__close-button'">Fermer</button>

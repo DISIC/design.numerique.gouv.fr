@@ -136,17 +136,6 @@ html {
     }
   }
 
-  &-badge {
-    font-size: 0.6875rem;
-    font-weight: bold;
-    color: var(--text-action-high-pink-macaron);
-    background-color: var(--background-action-low-pink-macaron);
-    border-radius: 0.25rem;
-    padding: 0.125rem 0.5rem;
-    margin: 0 0.5rem;
-    display: inline;
-  }
-
   &-section-with-link {
     display: flex;
     justify-content: space-between;

@@ -70,8 +70,8 @@
         </div>
       </section>
 
-      <section class="fr-mb-4w">
-        <h2>Le commando saison 2</h2>
+      <section class="fr-mb-6w">
+        <h2>Le commando saison&nbsp;2</h2>
         <p class="section__subtitle">
           Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
         </p>
@@ -97,48 +97,49 @@
 
       <section>
         <h2>Les interventions</h2>
-        <p class="section__subtitle">
-          L’icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
-        </p>
 
         <ul class="missions">
 
-          <li v-for="{ node } in futurMissions" :key="node.id" class="mission">
+          <p class="section__subtitle">
+            L’icône <span class="mission__team-member mission__team-member--open"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
+          </p>
+
+          <li v-for="{ node } in futurMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-1w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              <ul class="mission__team fr-pt-md-1v">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--futur">À venir</p>
+              <p class="fr-badge fr-badge--pink-macaron fr-ml-md-2w">À venir</p>
             </div>
           </li>
 
-          <li v-for="{ node } in presentMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in presentMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              <ul class="mission__team fr-pt-md-1w">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--present">En cours</p>
+              <p class="fr-badge fr-badge--green-tilleul-verveine fr-ml-md-2w">En cours</p>
             </div>
           </li>
 
-          <li v-for="{ node } in pastMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in pastMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
+              <ul class="mission__team fr-pt-md-1w">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--past">Terminée</p>
+              <p class="fr-badge fr-badge--grey fr-ml-md-2w">Terminee</p>
             </div>
           </li>
 
@@ -233,5 +234,116 @@
     ],
     }
   }
-
 </script>
+
+<style lang="scss" scoped>
+
+  .missions {
+    padding: 0;
+
+    .mission {
+      text-align: left;
+      width: 100%;
+      position: relative;
+      display: flex;
+      border: 1px solid white;
+      border-top: 1px solid var(--border-default-grey);
+      align-items: center;
+      justify-content: space-between;
+      min-height: 3rem;
+      margin-top: -1px;
+
+      @media only screen and (max-width: $md-point) {
+        flex-wrap: wrap;
+      }
+
+      &:hover {
+        @media only screen and (min-width: $md-point + 1) {
+          background-color: var(--background-alt-green-tilleul-verveine);
+          border: 1px solid var(--border-default-green-tilleul-verveine);
+          border-top: 1px solid var(--border-default-green-tilleul-verveine);
+          z-index: 1;
+        }
+      }
+
+      &__left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        @media only screen and (max-width: $md-point) {
+          width: 100%;
+        }
+      }
+
+      &__right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+
+        @media only screen and (max-width: $md-point) {
+          width: 100%;
+          margin-top: 0.25rem;
+          margin-bottom: 0.75rem;
+          justify-content: space-between;
+          flex-direction: row-reverse;
+        }
+      }
+
+      &__name {
+        font-size: 1rem;
+        margin-bottom: 0;
+        line-height: 1.5;
+
+        a {
+          box-shadow: none;
+        }
+
+        a::after {
+          position: absolute;
+          content: "";
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+        }
+      }
+
+      &__team {
+        display: flex;
+        margin: 0;
+
+        li {
+          list-style: none;
+
+          &:before {
+            content: none;
+          }
+        }
+      }
+
+      &__team-member {
+        border-radius: 50%;
+        width: 1.875rem;
+        height: 1.875rem;
+        margin-top: -0.25rem;
+        margin-bottom: -0.391rem;
+
+        @media only screen and (max-width: $md-point) {
+          margin-top: 0.25rem;
+        }
+
+        &--open {
+          display: inline-block;
+          text-align: center;
+          color: var(--text-label-pink-macaron);
+          background-color: var(--background-contrast-pink-macaron);;
+          padding: 0.2rem 0.6rem 0.8rem 0.4rem;
+          font-size: 1rem;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+</style>

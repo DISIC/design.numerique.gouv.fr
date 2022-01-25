@@ -157,9 +157,9 @@
 
       <section class="dg-content fr-mt-8w fr-px-2w">
         <h2>Notre équipe</h2>
-        <div class="dg-team">
-          <g-image class="dg-team__image" src="~/assets/images/team-photos/equipe-designgouv.jpg" alt="L’équipe DesignGouv sourire aux lèvres"/>
-          <div class="dg-team__description">
+        <div class="team">
+          <g-image class="team__image" src="~/assets/images/team-photos/equipe-designgouv.jpg" alt="L’équipe DesignGouv sourire aux lèvres"/>
+          <div class="team__description">
             <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises ☀️.</p>
             <g-link to="/a-propos/" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">Découvrir l’équipe et notre mission</g-link>
           </div>
@@ -247,7 +247,7 @@
 
 <style lang="scss" scoped>
 
-  .dg-team {
+  .team {
     display: flex;
     align-items: flex-start;
 

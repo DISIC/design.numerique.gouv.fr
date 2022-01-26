@@ -16,7 +16,8 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title">{{ $page.mission.title }}</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">{{ $page.mission.title }}</h1>
+        <p class="fr-text--lead">Cette mission est menée dans le cadre de notre accompagnement <g-link to="/commando-ux/">Commando UX</g-link>.</p>
       </div>
     </div>
 

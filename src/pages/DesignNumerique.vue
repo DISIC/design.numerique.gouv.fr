@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/design-picto.svg" aria-hidden="true">Design numérique</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/design-picto.svg" aria-hidden="true">Design numérique</h1>
         <p class="fr-text--lead">Le design permet de rendre les services numériques plus
           simples, accessibles et agréables pour tous. Concevoir par le design, c’est
           mettre en œuvre des solutions centrées sur les usagers, tout en s’appuyant

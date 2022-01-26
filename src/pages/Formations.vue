@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/formation-picto.svg" aria-hidden="true">Formations</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/formation-picto.svg" aria-hidden="true">Formations</h1>
         <p class="fr-text--lead">Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites.</p>
       </div>
     </section>

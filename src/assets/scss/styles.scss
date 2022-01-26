@@ -12,6 +12,10 @@ html {
       text-align: center;
     }
 
+    &-bold {
+      font-weight: bold;
+    }
+
     &-red {
       color: var(--text-title-red-marianne);
     }
@@ -116,24 +120,30 @@ html {
     background-color: var(--background-contrast-green-tilleul-verveine);
     background: conic-gradient(from 135deg, var(--green-tilleul-verveine-950-100), var(--pink-macaron-950-100), var(--green-tilleul-verveine-950-100));
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    font-size: 1.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.25rem;
     flex-shrink: 0;
     display: inline-flex;
     justify-content: center;
     align-items: center;
 
-    &--sm {
-      width: 3.5rem;
-      height: 3.5rem;
-      font-size: 1.25rem;
+    &--lg {
+      width: 5rem;
+      height: 5rem;
+      font-size: 1.5rem;
     }
 
-    &--xs {
+    &--sm {
       width: 2.5rem;
       height: 2.5rem;
       font-size: 1rem;
+    }
+
+    &--xs {
+      width: 1.75rem;
+      height: 1.75rem;
+      font-size: 0.875rem;
     }
 
     &--rotate {
@@ -142,6 +152,12 @@ html {
       &:hover {
         transform: rotate(180deg);
       }
+    }
+
+    &--pink {
+      color: var(--text-label-pink-macaron);
+      background-color: var(--background-contrast-pink-macaron);
+      background: var(--background-contrast-pink-macaron);
     }
   }
 

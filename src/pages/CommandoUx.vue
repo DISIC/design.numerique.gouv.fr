@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Commando UX</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Commando UX</h1>
         <p class="fr-text--lead">Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
       </div>
     </div>
@@ -36,7 +36,7 @@
         <div class="fr-grid-row fr-grid-row--gutters fr-my-6w">
           <div class="fr-col-sm-6 fr-mb-2w">
             <div class="dg-text-with-picto fr-mb-2w">
-              <span class="dg-picto dg-picto--sm fr-mr-2w">
+              <span class="dg-picto fr-mr-2w">
                 <font-awesome :icon="['fas', 'university']" height="16px" aria-hidden="true" />
               </span>
               <h3 class="fr-h4">Administrations de l’État</h3>
@@ -51,7 +51,7 @@
 
           <div class="fr-col-sm-6">
             <div class="dg-text-with-picto fr-mb-2w">
-              <span class="dg-picto dg-picto--sm fr-mr-2w">
+              <span class="dg-picto fr-mr-2w">
                 <font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true" />
               </span>
               <h3 class="fr-h4">Experts expérience utilisateur</h3>
@@ -73,19 +73,19 @@
         </p>
         <ul class="team">
           <li class="dg-text-with-picto fr-mb-1w">
-            <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
             <h3 class="fr-h6">Des chargées de recherche utilisateur</h3>
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
-            <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'project-diagram']" height="16px" aria-hidden="true"/></span>
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'project-diagram']" height="16px" aria-hidden="true"/></span>
             <h3 class="fr-h6">Des expertes et experts produits</h3>
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
-            <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
             <h3 class="fr-h6">Des designers UX/UI</h3>
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
-            <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
             <h3 class="fr-h6">Des développeuses et développeurs accessibilité</h3>
           </li>
         </ul>

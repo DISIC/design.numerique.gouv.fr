@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/accessibilite-picto.svg" aria-hidden="true">Accessibilité numérique</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/accessibilite-picto.svg" aria-hidden="true">Accessibilité numérique</h1>
         <p class="fr-text--lead">L’accessibilité numérique consiste à rendre les services en ligne accessibles aux personnes en situation de handicap.</p>
       </div>
     </section>

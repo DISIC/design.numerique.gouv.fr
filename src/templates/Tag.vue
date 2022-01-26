@@ -16,7 +16,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/article-picto.svg" aria-hidden="true">{{ this.tag }} : nos articles</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/article-picto.svg" aria-hidden="true">{{ this.tag }} : nos articles</h1>
         <g-link class="fr-link fr-fi-arrow-left-line fr-link--icon-left fr-mt-1w fr-mb-2w" to="/articles/">Voir tous nos articles</g-link>
       </div>
     </section>

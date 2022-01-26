@@ -236,109 +236,109 @@
 
   .missions {
     padding: 0;
+  }
 
-    .mission {
-      text-align: left;
-      width: 100%;
-      position: relative;
+  .mission {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    display: flex;
+    border: 1px solid white;
+    border-top: 1px solid var(--border-default-grey);
+    align-items: center;
+    justify-content: space-between;
+    min-height: 3rem;
+    margin-top: -1px;
+
+    @media only screen and (max-width: $md-point) {
+      flex-wrap: wrap;
+    }
+
+    &:hover {
+      @media only screen and (min-width: $md-point + 1) {
+        background-color: var(--background-alt-green-tilleul-verveine);
+        border: 1px solid var(--border-default-green-tilleul-verveine);
+        border-top: 1px solid var(--border-default-green-tilleul-verveine);
+        z-index: 1;
+      }
+    }
+
+    &__left {
       display: flex;
-      border: 1px solid white;
-      border-top: 1px solid var(--border-default-grey);
+      justify-content: flex-start;
       align-items: center;
-      justify-content: space-between;
-      min-height: 3rem;
-      margin-top: -1px;
 
       @media only screen and (max-width: $md-point) {
-        flex-wrap: wrap;
+        width: 100%;
+      }
+    }
+
+    &__right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+
+      @media only screen and (max-width: $md-point) {
+        width: 100%;
+        margin-top: 0.25rem;
+        margin-bottom: 0.75rem;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+      }
+    }
+
+    &__name {
+      font-size: 1rem;
+      margin-bottom: 0;
+      line-height: 1.5;
+
+      a {
+        box-shadow: none;
       }
 
-      &:hover {
-        @media only screen and (min-width: $md-point + 1) {
-          background-color: var(--background-alt-green-tilleul-verveine);
-          border: 1px solid var(--border-default-green-tilleul-verveine);
-          border-top: 1px solid var(--border-default-green-tilleul-verveine);
-          z-index: 1;
+      a::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+
+    &__team {
+      display: flex;
+      margin: 0;
+
+      li {
+        list-style: none;
+
+        &:before {
+          content: none;
         }
       }
+    }
 
-      &__left {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+    &__team-member {
+      border-radius: 50%;
+      width: 1.875rem;
+      height: 1.875rem;
+      margin-top: -0.25rem;
+      margin-bottom: -0.391rem;
 
-        @media only screen and (max-width: $md-point) {
-          width: 100%;
-        }
+      @media only screen and (max-width: $md-point) {
+        margin-top: 0.25rem;
       }
 
-      &__right {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        flex-direction: row;
-
-        @media only screen and (max-width: $md-point) {
-          width: 100%;
-          margin-top: 0.25rem;
-          margin-bottom: 0.75rem;
-          justify-content: space-between;
-          flex-direction: row-reverse;
-        }
-      }
-
-      &__name {
+      &--open {
+        display: inline-block;
+        text-align: center;
+        color: var(--text-label-pink-macaron);
+        background-color: var(--background-contrast-pink-macaron);;
+        padding: 0.2rem 0.6rem 0.8rem 0.4rem;
         font-size: 1rem;
-        margin-bottom: 0;
-        line-height: 1.5;
-
-        a {
-          box-shadow: none;
-        }
-
-        a::after {
-          position: absolute;
-          content: "";
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-        }
-      }
-
-      &__team {
-        display: flex;
-        margin: 0;
-
-        li {
-          list-style: none;
-
-          &:before {
-            content: none;
-          }
-        }
-      }
-
-      &__team-member {
-        border-radius: 50%;
-        width: 1.875rem;
-        height: 1.875rem;
-        margin-top: -0.25rem;
-        margin-bottom: -0.391rem;
-
-        @media only screen and (max-width: $md-point) {
-          margin-top: 0.25rem;
-        }
-
-        &--open {
-          display: inline-block;
-          text-align: center;
-          color: var(--text-label-pink-macaron);
-          background-color: var(--background-contrast-pink-macaron);;
-          padding: 0.2rem 0.6rem 0.8rem 0.4rem;
-          font-size: 1rem;
-          flex-shrink: 0;
-        }
+        flex-shrink: 0;
       }
     }
   }

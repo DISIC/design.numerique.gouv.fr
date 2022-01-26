@@ -83,7 +83,11 @@ html {
 
     &__title {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+
+      .dg-picto {
+        margin-top: -0.25rem;
+      }
     }
   }
 
@@ -128,16 +132,34 @@ html {
     justify-content: center;
     align-items: center;
 
+    @media only screen and (max-width: $sm-point) {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1rem;
+    }
+
     &--lg {
       width: 5rem;
       height: 5rem;
       font-size: 1.5rem;
+
+      @media only screen and (max-width: $sm-point) {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.25rem;
+      }
     }
 
     &--sm {
       width: 2.5rem;
       height: 2.5rem;
       font-size: 1rem;
+
+      @media only screen and (max-width: $sm-point) {
+        width: 1.75rem;
+        height: 1.75rem;
+        font-size: 0.875rem;
+      }
     }
 
     &--xs {

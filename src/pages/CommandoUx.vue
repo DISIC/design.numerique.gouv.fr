@@ -243,7 +243,7 @@
     width: 100%;
     position: relative;
     display: flex;
-    border: 1px solid white;
+    border: 1px solid var(--background-default-grey);
     border-top: 1px solid var(--border-default-grey);
     align-items: center;
     justify-content: space-between;

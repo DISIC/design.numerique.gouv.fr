@@ -279,34 +279,4 @@
       }
     }
   }
-
-  .steps {
-    margin-left: 56px;
-    padding-left: 32px;
-    border-left: 4px dotted blue;
-
-    @media only screen and (max-width: $sm-point) {
-      margin-left: 8px;
-      padding-left: 21px;
-    }
-
-    h3 {
-      &:before {
-        background-image: url(/assets/images/step.svg);
-        background-size: 32px 32px;
-        display: inline;
-        position: absolute;
-        margin-left: -50px;
-        margin-top: 2px;
-        width: 32px;
-        height: 32px;
-        content:"";
-
-        @media only screen and (max-width: $sm-point) {
-          margin-left: -39px;
-          margin-top: 0px;
-        }
-      }
-    }
-  }
 </style>

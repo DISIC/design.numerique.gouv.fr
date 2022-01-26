@@ -226,6 +226,35 @@ html {
       order: 3;
     }
   }
+
+  &-steps {
+    margin-left: 2rem;
+    padding-left: 2rem;
+    border-left: 4px dotted var(--border-default-pink-macaron);
+
+    @media only screen and (max-width: $sm-point) {
+      margin-left: 0.5rem;
+      padding-left: 1.3125rem;
+    }
+
+    h3 {
+      &:before {
+        background-image: url(/assets/images/step.svg);
+        display: inline;
+        position: absolute;
+        margin-left: -3.125rem;
+        margin-top: 0.125rem;
+        width: 2rem;
+        height: 2rem;
+        content:"";
+
+        @media only screen and (max-width: $sm-point) {
+          margin-left: -2.4375rem;
+          margin-top: 0;
+        }
+      }
+    }
+  }
 }
 
 .fr {

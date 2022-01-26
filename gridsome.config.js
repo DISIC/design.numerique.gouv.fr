@@ -147,7 +147,7 @@ module.exports = {
                  customBlock: true,
                  tagName: 'div',
                  properties: {
-                   class: 'steps'
+                   class: 'dg-steps'
                  }
                },
             },

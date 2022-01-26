@@ -33,7 +33,7 @@
           </p>
         </div>
 
-        <div class="fr-grid-row fr-grid-row--gutters fr-my-6w">
+        <div class="fr-grid-row fr-grid-row--gutters fr-my-4w">
           <div class="fr-col-sm-6 fr-mb-2w">
             <div class="dg-text-with-picto fr-mb-2w">
               <span class="dg-picto fr-mr-2w">
@@ -41,7 +41,7 @@
               </span>
               <h3 class="fr-h4">Administrations de l’État</h3>
             </div>
-            <p>
+            <p class="fr-mb-2w">
               Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
             </p>
             <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
@@ -54,9 +54,9 @@
               <span class="dg-picto fr-mr-2w">
                 <font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true" />
               </span>
-              <h3 class="fr-h4">Experts expérience utilisateur</h3>
+              <h3 class="fr-h4">Experts du numérique</h3>
             </div>
-            <p>
+            <p class="fr-mb-2w">
               Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
             </p>
             <g-link to="/commando-ux/partager-interet/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">

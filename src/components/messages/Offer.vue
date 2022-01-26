@@ -6,7 +6,7 @@
       <p class="fr-callout__text">
         Vous êtes une administration et vous souhaitez améliorer l’expérience usager (UX) et l’accessibilité de l’un de vos services ? Nous pouvons vous accompagner&nbsp;!
       </p>
-      <g-link class="fr-btn" to="/accompagnement/" >Voir nos accompagnements</g-link>
+      <g-link class="fr-btn fr-btn--secondary" to="/accompagnement/" >Voir nos accompagnements</g-link>
     </div>
   </div>
 

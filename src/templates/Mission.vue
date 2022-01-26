@@ -207,11 +207,6 @@
       flex-wrap: wrap;
     }
 
-    // &__content {
-    //   display: flex;
-    //   flex-wrap: wrap;
-    // }
-
     &__name {
       flex-shrink: 0;
       margin: 0;
@@ -271,7 +266,7 @@
             width: 1.75rem;
             font-size: 0.875rem;
             border-radius: 50%;
-            color: white;
+            color: var(--background-default-grey);
             flex-shrink: 0;
 
             &--ok {

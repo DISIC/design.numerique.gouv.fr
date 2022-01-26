@@ -41,14 +41,17 @@ html {
     margin-left: -50vw;
     left: 50%;
 
+    background-color: var(--background-alt-pink-macaron);
     background: conic-gradient(from 90deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
     @media (prefers-color-scheme: dark) {
       background: var(--background-alt-grey);
     }
 
     &--linear {
+      background-color: var(--background-alt-pink-macaron);
       background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
       @media (prefers-color-scheme: dark) {
+        background-color: var(--background-alt-grey);
         background: var(--background-alt-grey);
       }
     }
@@ -102,6 +105,7 @@ html {
   }
 
   &-block {
+    background-color: var(--background-alt-pink-macaron);
     background: conic-gradient(from 180deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
     @media (prefers-color-scheme: dark) {
       background: var(--background-alt-grey);
@@ -109,6 +113,7 @@ html {
   }
 
   &-picto {
+    background-color: var(--background-contrast-green-tilleul-verveine);
     background: conic-gradient(from 135deg, var(--green-tilleul-verveine-950-100), var(--pink-macaron-950-100), var(--green-tilleul-verveine-950-100));
     border-radius: 50%;
     width: 5rem;

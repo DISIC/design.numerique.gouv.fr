@@ -27,7 +27,7 @@
             <a class="fr-nav__link" href="/articles/">Articles</a>
           </li>
           <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
-            <a class="fr-nav__link" href="/recrutement/">Recrutement <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">{{ $static.allJob.edges.length }} offres</p></a>
+            <a class="fr-nav__link" href="/recrutement/">Recrutement <span class="fr-badge fr-badge--sm fr-badge--pink-macaron">{{ $static.allJob.edges.length }} offres</span></a>
           </li>
         </ul>
       </nav>

@@ -24,7 +24,7 @@ html {
       word-break: break-word;
     }
 
-    &-with-icon {
+    &-with-picto {
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -109,30 +109,11 @@ html {
   }
 
   &-picto {
-    display: inline-block;
     background: conic-gradient(from 135deg, var(--green-tilleul-verveine-950-100), var(--pink-macaron-950-100), var(--green-tilleul-verveine-950-100));
     border-radius: 50%;
-    transition: 0.2s all;
     width: 5rem;
     height: 5rem;
-
-    &--sm {
-      width: 3.5rem;
-      height: 3.5rem;
-    }
-
-    &:hover {
-      transform: rotate(180deg);
-    }
-  }
-
-  &-icon {
-    color: var(--text-label-pink-macaron);
-    background-color: var(--background-contrast-pink-macaron);
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     flex-shrink: 0;
     display: inline-flex;
     justify-content: center;
@@ -141,13 +122,21 @@ html {
     &--sm {
       width: 3.5rem;
       height: 3.5rem;
-      font-size: 1.5rem;
+      font-size: 1.25rem;
     }
 
     &--xs {
       width: 2.5rem;
       height: 2.5rem;
       font-size: 1rem;
+    }
+
+    &--rotate {
+      transition: 0.2s all;
+
+      &:hover {
+        transform: rotate(180deg);
+      }
     }
   }
 

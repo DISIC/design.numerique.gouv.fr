@@ -23,7 +23,7 @@
                 </h2>
                 <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
               </div>
-              <div class="fr-tile__img dg-picto">
+              <div class="fr-tile__img dg-picto dg-picto--rotate">
                 <img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>
@@ -36,7 +36,7 @@
                 </h2>
                 <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>. </p>
               </div>
-              <div class="fr-tile__img dg-picto">
+              <div class="fr-tile__img dg-picto dg-picto--rotate">
                 <img svg-inline src="../assets/images/accessibilite-picto.svg" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>
@@ -113,7 +113,7 @@
                 </h2>
                 <p class="fr-tile__desc">Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <strong>design</strong> et de l’<strong>accessibilité</strong>.</p>
               </div>
-              <div class="fr-tile__img dg-picto">
+              <div class="fr-tile__img dg-picto dg-picto--rotate">
                 <img svg-inline src="../assets/images/outils-picto.svg" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>
@@ -126,7 +126,7 @@
                 </h2>
                 <p class="fr-tile__desc">De nombreuses formations sont disponibles, que ce soit pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>. </p>
               </div>
-              <div class="fr-tile__img dg-picto">
+              <div class="fr-tile__img dg-picto dg-picto--rotate">
                 <img svg-inline src="../assets/images/formation-picto.svg" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>

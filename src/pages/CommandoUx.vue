@@ -135,7 +135,7 @@
                 <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
                 <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="fr-badge fr-badge--grey fr-ml-md-2w">Terminee</p>
+              <p class="fr-badge fr-badge--grey fr-ml-md-2w">Terminée</p>
             </div>
           </li>
 

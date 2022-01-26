@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title">Le pôle design des services numériques</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/recrutement-picto.svg" aria-hidden="true">Le pôle design des services numériques</h1>
         <p class="fr-text--lead">Le pôle design des service numérique fait partie de la <a href="https://www.numerique.gouv.fr/dinum/" target="_blank" title="direction interministérielle du numérique - Nouvelle fenêtre">direction interministérielle du numérique</a>.</p>
       </div>
     </div>

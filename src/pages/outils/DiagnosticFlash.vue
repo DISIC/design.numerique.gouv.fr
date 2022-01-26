@@ -132,7 +132,7 @@ export default {
     span.numero {
       padding:0.25rem;
       background-color: var(--border-default-purple-glycine);
-      color: white;
+      color: var(--background-default-grey);
       position: absolute;
       width: 1.6em;
       text-align: center;

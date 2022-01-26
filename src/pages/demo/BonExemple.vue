@@ -127,14 +127,10 @@
     }
   }
 
-  h3 {
-    color: black;
-  }
-
   .jaune {
     background-color: yellow;
   }
-  
+
   .indicates-required {
     text-align: right;
   }

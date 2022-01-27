@@ -4,13 +4,13 @@
 <footer class="fr-footer" role="contentinfo" id="footer">
     <div class="fr-container">
         <div class="footer fr-footer__body fr-footer__body--operator">
-            <div class="fr-footer__brand fr-enlarge-link">
+            <div class="fr-footer__brand">
                 <p class="fr-logo" title="république française">
                     république
                     <br>française
                 </p>
-                <g-link class="fr-footer__brand-link" to="/" title="DesignGouv, par le pôle design des services numériques - Retour à l'accueil">
-                    <img svg-inline class="fr-footer__logo" src="../assets/images/logoBasline.svg" aria-hidden="true">
+                <g-link class="fr-footer__brand-link" to="/">
+                  <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" role="img" aria-labelledby="Accueil - DesignGouv, par le pôle design des services numériques"/>
                 </g-link>
             </div>
             <div class="fr-footer__content ">

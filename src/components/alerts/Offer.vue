@@ -1,6 +1,6 @@
 <template>
 
-  <div class="dg-content fr-px-2w">
+  <div class="dg-content fr-px-2w fr-mt-6w">
     <div class="fr-callout fr-callout--pink-macaron fr-fi-information-line">
       <h2 class="fr-callout__title">Vous avez besoin d’aide&nbsp;?</h2>
       <p class="fr-callout__text">

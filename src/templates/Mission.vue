@@ -101,7 +101,7 @@
         </ul>
       </div>
 
-      <div class=" dg-content dg-content--xs fr-my-6w" v-html="$page.mission.content" />
+      <div class=" dg-content dg-content--xs fr-mt-6w" v-html="$page.mission.content" />
 
     </div>
 

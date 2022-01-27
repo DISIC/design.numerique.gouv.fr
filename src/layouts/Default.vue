@@ -36,7 +36,7 @@ query {
 <script>
   import Header from "~/components/Header.vue"
   import NewsletterReseauxSociaux from "~/components/NewsletterReseauxSociaux.vue"
-  import Offer from "~/components/messages/Offer.vue"
+  import Offer from "~/components/alerts/Offer.vue"
   import Footer from "~/components/Footer.vue"
   import SkipLink from "~/components/SkipLink.vue"
 

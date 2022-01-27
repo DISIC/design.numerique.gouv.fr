@@ -1,23 +1,27 @@
 <template>
   <Layout>
-    <div class="dg-content fr-px-2w">
 
-      <nav aria-label="Breadcrumb" class="fr-breadcrumb">
-        <ol class="fr-breadcrumb__list">
-          <li>
-            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-          </li>
-          <li>
-            <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
-          </li>
-          <li>
-            <span aria-current="page">Formation à la recherche utilisateur</span>
-          </li>
-        </ol>
-      </nav>
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav aria-label="Breadcrumb" class="fr-breadcrumb">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Formation à la recherche utilisateur</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title">Formation à la recherche utilisateur</h1>
+        <p class="fr-text--lead">Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !</p>
+      </div>
+    </div>
 
-      <h1>Formation à la recherche utilisateur</h1>
-      <p class="fr-text--lead">Pour éviter que les usagers et citoyens soient perdus dans vos services publics en ligne, lancez les recherches !</p>
+    <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
       <h2>Revivez la formation en vidéo</h2>
       <p>La formation a eu lieu en direct le 9 décembre. Vous pouvez la revivre <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
       <h3>Objectifs</h3>
@@ -39,8 +43,8 @@
       </ul>
       <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
       <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link> (formulaires distincts).</p>
-
     </div>
+
   </Layout>
 </template>
 

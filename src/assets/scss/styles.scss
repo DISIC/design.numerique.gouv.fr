@@ -87,6 +87,10 @@ html {
 
       .dg-picto {
         margin-top: -0.25rem;
+
+        @media only screen and (max-width: $sm-point) {
+          margin-top: 0;
+        }
       }
     }
   }

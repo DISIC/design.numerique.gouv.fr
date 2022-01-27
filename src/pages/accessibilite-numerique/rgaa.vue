@@ -36,7 +36,7 @@
       </section>
 
       <section>
-        <h2>La 4ème version du RGAA</h2>
+        <h2>La 4<sup>e</sup> version du RGAA</h2>
         <p>La version en vigueur du RGAA est la 4.1 et a été publiée le 18 février 2021.</p>
         <p>
           Le RGAA 4 fait disparaître la distinction entre niveau A et AA qui n’est plus justifiée puisque toutes ces règles sont obligatoires.
@@ -53,7 +53,7 @@
       </section>
 
       <section>
-        <h2>Application mobiles, progiciels et mobilier urbain numérique</h2>
+        <h2>Applications mobiles, progiciels et mobilier urbain numérique</h2>
         <p>
           La méthode technique du RGAA 4.1 ne couvre pas les applications mobiles natives, les progiciels et le mobilier urbain numérique pour lesquels il sera nécessaire de vérifier directement la mise en œuvre de la norme de référence EN 301-549 V2.1.2.
         </p>

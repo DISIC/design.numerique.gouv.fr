@@ -23,6 +23,11 @@
         <h2>Nos formations</h2>
         <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons quatre formations gratuites indispensables&nbsp;:</p>
 
+        <h3>Simplification de l'information</h3>
+        <ul>
+          <li><g-link to="/formations/simplification-information/"><font-awesome :icon="['fas', 'arrow-right']" transform="shrink-2" height="16px" aria-hidden="true"/>Formation initiale à la simplification de l'information</g-link>, 2 heures, gratuit, niveau débutant.<br><strong>En direct le jeudi 17 février !</strong></li>
+        </ul>
+
         <h3>Accessibilité</h3>
         <ul>
           <li><g-link to="/formations/accessibilite/">Formation initiale à l’accessibilité numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
@@ -37,6 +42,7 @@
         <ul>
           <li><g-link to="/formations/recherche-utilisateur/">Formation initiale à la recherche utilisateur</g-link>, 2 heures, gratuit, niveau débutant.</li>
         </ul>
+
         <h3>Écoconception</h3>
         <ul>
           <li><g-link to="/formations/ecoconception/">Formation initiale à l’écoconception</g-link>, 2 heures, gratuit, niveau débutant.</li>

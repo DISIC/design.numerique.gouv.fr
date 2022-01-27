@@ -81,6 +81,13 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        typeName: 'Pnu',
+        path: './content/pnu/*.md',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         typeName: 'GooseStep',
         path: './content/goose/steps/*.md',
       }
@@ -165,6 +172,7 @@ module.exports = {
     Job: '/recrutement/:slug',
     Mission: '/commando-ux/:slug',
     Article: '/articles/:slug',
+    Pnu: '/pnu/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
   },

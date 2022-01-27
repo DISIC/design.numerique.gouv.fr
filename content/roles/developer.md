@@ -1,7 +1,7 @@
 ---
 title: Développeur ou développeuse
 slug: developer
-cat: Mettre en oeuvre
+cat: 6
 description: Vous utilisez ou développez des composants d’interfaces accessibles et conformes au RGAA
 focus: <strong>Attention aux outils de tests automatiques !</strong><br> Ils ne couvrent qu’une petite partie des tests RGAA et ne peuvent pas détecter les anomalies relevant de la pertinence ou du contexte.
 ---

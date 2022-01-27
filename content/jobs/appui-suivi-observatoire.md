@@ -1,23 +1,23 @@
 ---
-published_date: 15 novembre 2021
-title: Appui au pilotage de l’observatoire de la qualité des démarches en ligne
-slug: appui-pilotage-observatoire
+published_date: 13 janvier 2022
+title: Chef ou cheffe de projet, appui au suivi de l’observatoire
+slug: appui-suivi-observatoire
 type: Indépendant
 start_date: Dès que possible
-length: 3-6 mois
+length: 3-6 mois (renouvelable)
 contact: marine.boudeau@modernisation.gouv.fr
 ---
 
 ## Descriptif du poste
 
 ### Mission
-Appuyer le pôle au pilotage de l’[Observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}, dans un objectif d’amélioration de ses indicateurs. 
+Appuyer le pôle au suivi de l’[Observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}, dans un objectif d’amélioration de ses indicateurs. 
 
 ### Activités principales
-- Travailler au quotidien avec les correspondants ministériels pour piloter l'avancement et la planification des travaux d’amélioration des démarches administratives en ligne
+- Travailler au quotidien avec les correspondants ministériels pour suivre l'avancement et la planification des travaux d’amélioration des démarches administratives en ligne
 - Contribuer à la publication des éditions trimestrielles de l’[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} (notes, synthèses, etc)
 - Favoriser le déploiement du bouton « Je donne mon avis », et le *verdissement* de tous les indicateurs de l'Observatoire 
-- Tester les démarches sur les critères les plus complexes ou les moins objectivable
+- Tester les démarches sur les critères les plus complexes ou les moins objectivables
 
 ## Profil recherché
 
@@ -38,7 +38,6 @@ Appuyer le pôle au pilotage de l’[Observatoire de la qualité des démarches 
 - Intérêt pour nos sujets
 - Réactivité
 -	Aisance relationnelle et sens des relations humaines
--	Bonus : une bonne mémoire ✨
 
 
 ## Pour nous rejoindre

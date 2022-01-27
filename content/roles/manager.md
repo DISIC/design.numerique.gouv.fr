@@ -1,7 +1,7 @@
 ---
 title: Décideur ou décideuse
 slug: manager
-cat: Organiser
+cat: 1
 description: Vous décidez que l’accessibilité est essentielle
 focus: 
 ---

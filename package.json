@@ -26,7 +26,7 @@
     "vue-click-outside": "^1.0.7"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "sass": "^1.49.0",
     "sass-loader": "^8.0.0",
     "style-resources-loader": "^1.2.1",
     "vue-svg-loader": "^0.16.0",

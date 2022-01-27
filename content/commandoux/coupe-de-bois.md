@@ -16,7 +16,7 @@ goals: [
     {name: 'Mise en accessibilité (septembre 2021)', done: true},
     {name: 'Amélioration de la qualité de la démarche (septembre 2021)', done: true},
   ]
-status: futur
+status: past
 startDate: 2021-06-01
 endDate: 2021-12-31
 ---

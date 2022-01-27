@@ -19,7 +19,7 @@ goals: [
     {name: 'Intégration France Connect / Dites-le nous une fois (2021/2022)', done: true},
     {name: 'Amélioration de l’accessibilité du contact (T4 2021)', done: true},
   ]
-status: present
+status: past
 startDate: 2021-04-15
 endDate: 2021-12-31
 ---

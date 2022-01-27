@@ -45,11 +45,10 @@
 
 
 <page-query>
-
   query Tag ($id: ID!) {
     tag: tag (id: $id) {
       title
-      belongsTo {
+      belongsTo (sortBy: "publishedDate", order: DESC) {
         totalCount
         edges {
           node {
@@ -65,12 +64,10 @@
       }
     }
   }
-
 </page-query>
 
 
 <script>
-
   export default {
     data () {
       return {
@@ -90,5 +87,4 @@
       }
     }
   }
-
 </script>

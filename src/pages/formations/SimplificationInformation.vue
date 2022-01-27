@@ -16,6 +16,7 @@
             </li>
           </ol>
         </nav>
+        <p class="fr-badge fr-badge--new fr-mb-2w">En direct le 17 février</p>
         <h1 class="dg-cover__title">Formation Simplification de l'information aux usagers</h1>
         <p class="fr-text--lead">Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau.</p>
       </div>

@@ -252,7 +252,8 @@
     align-items: flex-start;
 
     &__image {
-      max-width: 260px;
+      width: 260px;
+      max-width: 100%;
       margin-right: 1rem;
     }
 

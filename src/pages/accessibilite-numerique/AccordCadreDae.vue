@@ -92,7 +92,7 @@
           </li>
           <li>
             <strong>TOSCA Consultants</strong><br>
-            Marc MAISONNEUVE  <span class="dg-text-break">marc.maisonneuve@toscaconsultants.fr</span> / 01 42 36 01 57 et Philipe LENEPVEU / <span class="dg-text-break">philippe.lenepveu@toscaconsultants.fr</span> / 06 11 24 63 92
+            Marc MAISONNEUVE  marc.maisonneuve@toscaconsultants.fr / 01 42 36 01 57 et Philipe LENEPVEU / philippe.lenepveu@toscaconsultants.fr / 06 11 24 63 92
           </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>

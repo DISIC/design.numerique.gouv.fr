@@ -37,7 +37,7 @@
        <section>
          <h2>Retour d’information et contact</h2>
          <p>La DINUM s’engage à prendre les moyens nécessaires afin de donner accès, dans un délai raisonnable, aux informations et fonctionnalités recherchées par la personne handicapée, que le contenu fasse l’objet d’une dérogation ou non.</p>
-         <p>La DINUM invite les personnes qui rencontreraient des difficultés à la contacter par courriel à <span class="dg-text-break">communication.dinum@modernisation.gouv.fr</span> afin qu’une assistance puisse être apportée (alternative accessible, information et contenu donnés sous une autre forme).</p>
+         <p>La DINUM invite les personnes qui rencontreraient des difficultés à la contacter par courriel à communication.dinum@modernisation.gouv.fr afin qu’une assistance puisse être apportée (alternative accessible, information et contenu donnés sous une autre forme).</p>
        </section>
 
        <section>

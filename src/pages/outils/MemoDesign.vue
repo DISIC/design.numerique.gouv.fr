@@ -53,7 +53,7 @@
         <li>Prévoir deux systèmes de navigation au moins.</li>
         <li>Prévoir des liens facilitant la navigation dans les collections de pages.</li>
       </ul>
-      <h4><a href="hhttps://disic.github.io/guide-concepteur/5-consultation.html"  target="_blank" title="Consultation - nouvelle fenêtre">Consultation</a></h4>
+      <h4><a href="https://disic.github.io/guide-concepteur/5-consultation.html"  target="_blank" title="Consultation - nouvelle fenêtre">Consultation</a></h4>
       <ul>
         <li>Indiquer le poids, le format et la langue de chaque fichier téléchargeable.</li>
         <li>Créer un glossaire pour les expressions inhabituelles, les expressions idiomatiques ou le jargon.</li>

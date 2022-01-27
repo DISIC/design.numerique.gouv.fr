@@ -14,7 +14,8 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/recrutement-picto.svg" aria-hidden="true">Recrutement</h1>
-        <p class="fr-text--lead">Nombre de postes ouverts actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
+        <p v-if="$page.allJob.edges.length <= 1" class="fr-text--lead">Nombre de poste ouvert actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
+        <p v-else class="fr-text--lead">Nombre de postes ouverts actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
       </div>
     </section>
 

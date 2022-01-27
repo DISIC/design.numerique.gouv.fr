@@ -1,21 +1,21 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Saison 1</span>
-        </li>
-      </ol>
-    </nav>
+      <nav aria-label="Breadcrumb" class="fr-breadcrumb">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Saison 1</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="content">
       <h1>Commando UX saison 1</h1>
       <p class="fr-text--lead">
         Afin d’accélérer les améliorations concrètes pour les usagers dans leurs démarches, la DINUM a lancé en septembre 2020 le Commando UX.
@@ -174,7 +174,6 @@
       </section>
 
     </div>
-
   </Layout>
 </template>
 
@@ -216,7 +215,6 @@
 
 
 <script>
-
   export default {
     computed: {
       firstSeason: function () {
@@ -264,5 +262,4 @@
     ],
     }
   }
-
 </script>

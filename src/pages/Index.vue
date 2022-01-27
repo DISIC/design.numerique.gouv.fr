@@ -51,9 +51,9 @@
           <div class="fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
+                <h3 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--lg" to="/accompagnement/">Les experts</g-link>
-                </h2>
+                </h3>
                 <p class="fr-tile__desc">Nos experts pour vous aider au quotidien 🌟</p>
               </div>
               <div class="fr-tile__img">
@@ -64,9 +64,9 @@
           <div class="fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
+                <h3 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--lg" to="/commando-ux/">Le Commando UX</g-link>
-                </h2>
+                </h3>
                 <p class="fr-tile__desc">Des designers déployés au sein de votre équipe 👍 </p>
               </div>
               <div class="fr-tile__img">
@@ -77,9 +77,9 @@
           <div class="fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
+                <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
-                </h2>
+                </h3>
                 <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬  </p>
               </div>
               <div class="fr-tile__img">
@@ -90,9 +90,9 @@
           <div class="fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
+                <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--lg" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L'Observatoire</a>
-                </h2>
+                </h3>
                 <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎 </p>
               </div>
               <div class="fr-tile__img">
@@ -141,9 +141,9 @@
           <div class="fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
             <div class="fr-card fr-enlarge-link" >
               <div class="fr-card__body">
-                  <h2 class="fr-card__title">
+                  <h3 class="fr-card__title">
                     <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
-                  </h2>
+                  </h3>
                   <p class="fr-card__desc">{{ node.description }}.</p>
                   <p class="fr-card__detail">{{ node.publishedDate }}</p>
               </div>

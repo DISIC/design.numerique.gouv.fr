@@ -23,7 +23,7 @@
 
       <div class="dg-content dg-content--xs fr-mt-6w">
         <form class="form" v-on:submit.prevent="addCandidate">
-          <p class="message-required"><small>Les champs signalés par un astérisque <strong class="required">*</strong> sont obligatoires.</small></p>
+          <p><small>Les champs signalés par un astérisque <strong class="required">*</strong> sont obligatoires.</small></p>
           <div class="fr-input-group">
             <label class="fr-label" for="prenom">Votre prénom <span class="required" title="Ce champ est requis.">*</span></label>
             <input class="fr-input" type="text" id="prenom" v-model="form.firstName" required>
@@ -159,15 +159,8 @@
               <label class="fr-label" for="autres-infos">D’autres informations que vous souhaitez partager&nbsp;?</label>
               <textarea class="fr-input" type="text" id="autres-infos" v-model="form.more"></textarea>
           </div>
-
-          <p class="fr-text--sm">
-            Nous utiliserons les informations recueillies ci-dessus pour vous contacter si nous identifions des opportunités qui pourraient vous intéresser.
-          </p>
-
-          <p class="fr-text--xs">
-            Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
-          </p>
-
+          <p><small>Nous utiliserons les informations recueillies ci-dessus pour vous contacter si nous identifions des opportunités qui pourraient vous intéresser.</small></p>
+          <p><small>Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.</small></p>
           <button class="fr-btn" id="submit" type="submit">Partager votre intérêt</button>
         </form>
       </div>

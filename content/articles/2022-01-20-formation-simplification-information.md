@@ -2,7 +2,7 @@
 title: "Formation : Simplifier l’information à destination des usagers"
 slug: 2022-01-20-formation-simplification-information
 publishedDate: 2022-01-20
-tags: ["design", "simplification de l'information"]
+tags: ["formation", "design", "simplification de l'information"]
 illustration: ./illustrations/2021-10-29-formations.png
 description: Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau
 ---

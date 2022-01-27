@@ -59,7 +59,8 @@ import {
   faComments,
   faCode,
   faPencilRuler,
-  faEllipsisH
+  faEllipsisH,
+  faProjectDiagram
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faFilePdf,
@@ -129,7 +130,8 @@ library.add(
   faComments,
   faCode,
   faPencilRuler,
-  faEllipsisH
+  faEllipsisH,
+  faProjectDiagram
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ

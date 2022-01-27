@@ -1,116 +1,151 @@
 <template>
-  <Layout hideNewsletter showServices>
+  <Layout showServices>
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
-        </li>
-        <li>
-          <span aria-current="page">{{ $page.mission.title }}</span>
-        </li>
-      </ol>
-    </nav>
-
-    <div class="content">
-      <h1>{{ $page.mission.title }}</h1>
-      <section class="mission">
-        <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'route']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Statut de l’intervention :</p>
-          <p v-if="$page.mission.status == 'futur'" class="mission-detail__status mission-detail__status--futur">À venir</p>
-          <p v-else-if="$page.mission.status == 'present'" class="mission-detail__status mission-detail__status--present">En cours</p>
-          <p v-else-if="$page.mission.status == 'past'" class="mission-detail__status mission-detail__status--past">Terminée</p>
-        </div>
-        <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'desktop']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Démarche :</p>
-          <ul class="mission-detail__content mission-detail__content--procedures">
-            <li v-for="procedure in $page.mission.procedures">
-              <span v-if="procedure.url"><a :href="procedure.url" :title="procedure.name + ' - Nouvelle fenêtre'" target="_blank">{{ procedure.name }}</a></span>
-              <span v-else>{{ procedure.name }}</span>
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
-          </ul>
-        </div>
-        <div v-if="$page.mission.budget" class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'euro-sign']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Budget :</p>
-          <p class="mission-detail__content">{{ $page.mission.budget }} €</p>
-        </div>
-        <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-friends']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Impact :</p>
-          <p class="mission-detail__content">{{ $page.mission.impact }}</p>
-        </div>
-        <div v-if="$page.mission.goals.length" class="mission-detail mission-detail--goals">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'tasks']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Résultats attendus :</p>
-          <ol class="mission-detail__content mission-detail__content--goals">
-            <li v-for="goal in $page.mission.goals" class="goal">
-              <font-awesome v-if="goal.done" class="goal__status goal__status--ok" :icon="['fas', 'check']" width="16" height="16" title="Atteint :" />
-              <font-awesome v-else="goal.done" class="goal__status" :icon="['fas', 'check']" width="16" height="16" title="Pas encore atteint :" />
-              <span class="goal__name">{{ goal.name }}</span>
+            <li>
+              <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
+            </li>
+            <li>
+              <span aria-current="page">{{ $page.mission.title }}</span>
             </li>
           </ol>
-        </div>
-        <div class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-alt']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Date de début :</p>
-          <p class="mission-detail__content">{{ $page.mission.startDate }}</p>
-        </div>
-        <div v-if="$page.mission.endDate" class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['far', 'calendar-check']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Date de fin :</p>
-          <p class="mission-detail__content">{{ $page.mission.endDate }}</p>
-        </div>
-        <div v-if="$page.mission.jobs.length" class="mission-detail">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'map-marker-alt']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Lieu :</p>
-          <p class="mission-detail__content">
-            <span v-if="$page.mission.direction">{{ $page.mission.department }} — {{ $page.mission.direction }} — {{ $page.mission.place }}</span>
-            <span v-else>{{ $page.mission.department }} — {{ $page.mission.place }}</span>
-          </p>
-        </div>
-        <div v-if="$page.mission.team.length" class="mission-detail mission-detail--team">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Commando déployé :</p>
-          <ul v-if="$page.mission.startDate == '7 septembre 2020'" class="mission-detail__content mission-detail__content--team">
-            <li v-for="member in $page.mission.team" :key="member.id" class="team-member">
-              <g-image :src="member.photo" class="team-member__photo" alt="" />
-              <p class="team-member__description">{{ member.firstName }} {{ member.lastName }} - {{ member.job_title }}</p>
-            </li>
-          </ul>
-          <ul v-else class="mission-detail__content mission-detail__content--team">
-            <li v-for="member in $page.mission.team" :key="member.id" class="team-member">
-              <g-image :src="member.ghostPhoto" class="team-member__photo" alt="" />
-              <p class="team-member__description">{{ member.ghostName }}</p>
-            </li>
-          </ul>
-        </div>
-        <div v-if="$page.mission.jobs.length" class="mission-detail mission-detail--job">
-          <span class="mission-detail__icon"><font-awesome :icon="['fas', 'user-plus']" height="16px" aria-hidden="true"/></span>
-          <p class="mission-detail__name">Postes à pourvoir :</p>
-          <ul class="mission-detail__content mission-detail__content--job">
-            <li v-for="job in $page.mission.jobs" :key="job.id" class="team-member">
-              <span class="job__count">{{ job.count }}</span>
-              <g-link to="/commando-ux/partager-interet/" class="job__title">
-                {{ job.title }}
-              </g-link>
-            </li>
-          </ul>
-        </div>
-      </section>
+        </nav>
+        <h1 class="dg-cover__title">{{ $page.mission.title }}</h1>
+        <p class="fr-text--lead">Cette mission est menée dans le cadre de notre accompagnement <g-link to="/commando-ux/">Commando UX</g-link>.</p>
+      </div>
+    </div>
 
-      <section>
-        <div v-html="$page.mission.content" />
-      </section>
+    <div class="dg-content dg-content--xs fr-px-2w">
+      <div class="detail fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'route']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w">Statut :</p>
+        <p v-if="$page.mission.status == 'futur'" class="fr-badge fr-badge--pink-macaron">À venir</p>
+        <p v-else-if="$page.mission.status == 'present'" class="fr-badge fr-badge--green-tilleul-verveine">En cours</p>
+        <p v-else-if="$page.mission.status == 'past'" class="fr-badge fr-badge--grey">Terminée</p>
+      </div>
+      <div class="detail fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'desktop']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w">Démarche :</p>
+        <ul class="detail__data detail__data--procedures">
+          <li v-for="procedure in $page.mission.procedures">
+            <span v-if="procedure.url"><a :href="procedure.url" :title="procedure.name + ' - Nouvelle fenêtre'" target="_blank">{{ procedure.name }}</a></span>
+            <span v-else>{{ procedure.name }}</span>
+          </li>
+        </ul>
+      </div>
+      <div v-if="$page.mission.budget" class="detail fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'euro-sign']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w">Budget :</p>
+        <p class="detail__data">{{ $page.mission.budget }} €</p>
+      </div>
+      <div class="detail fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'user-friends']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w">Impact :</p>
+        <p class="detail__data">{{ $page.mission.impact }}</p>
+      </div>
+      <div v-if="$page.mission.goals.length" class="detail detail--goals fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'tasks']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w fr-mb-2w">Résultats attendus :</p>
+        <ol class="detail__data detail__data--goals fr-ml-2w fr-ml-md-6w fr-mb-1v">
+          <li v-for="goal in $page.mission.goals" class="goal fr-mb-1v">
+            <span v-if="goal.done"  class="goal__status goal__status--ok fr-mr-1w"><font-awesome :icon="['fas', 'check']" width="16" height="16" title="Atteint :" /></span>
+            <span v-else class="goal__status fr-mr-1w"><font-awesome :icon="['fas', 'check']" width="16" height="16" title="Pas encore atteint :" /></span>
+            <span class="goal__name">{{ goal.name }}</span>
+          </li>
+        </ol>
+      </div>
+      <div class="detail fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['far', 'calendar-alt']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w">Date de début :</p>
+        <p class="detail__data">{{ $page.mission.startDate }}</p>
+      </div>
+      <div v-if="$page.mission.endDate" class="detail fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['far', 'calendar-check']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w">Date de fin :</p>
+        <p class="detail__data">{{ $page.mission.endDate }}</p>
+      </div>
+      <div v-if="$page.mission.jobs.length" class="detail fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'map-marker-alt']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w">Lieu :</p>
+        <p class="detail__data">
+          <span v-if="$page.mission.direction">{{ $page.mission.department }} — {{ $page.mission.direction }} — {{ $page.mission.place }}</span>
+          <span v-else>{{ $page.mission.department }} — {{ $page.mission.place }}</span>
+        </p>
+      </div>
+      <div v-if="$page.mission.team.length" class="detail detail--team fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w fr-mb-2w">Commando déployé :</p>
+        <ul class="detail__data detail__data--team fr-ml-2w fr-ml-md-6w fr-mb-1v">
+          <li v-for="member in $page.mission.team" :key="member.id" class="team-member fr-mb-1v">
+            <g-image :src="member.photo" class="team-member__photo fr-mr-1w" alt="" />
+            <p class="team-member__description">{{ member.firstName }} {{ member.lastName }} - {{ member.job_title }}</p>
+          </li>
+        </ul>
+      </div>
+      <div v-if="$page.mission.jobs.length" class="detail detail--job fr-mb-1w">
+        <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'user-plus']" height="16px" aria-hidden="true"/></span>
+        <p class="detail__name fr-mr-1w fr-mb-2w">Postes à pourvoir :</p>
+        <ul class="detail__data detail__data--job fr-ml-2w fr-ml-md-6w fr-mb-1v">
+          <li v-for="job in $page.mission.jobs" :key="job.id" class="team-member fr-mb-1v">
+            <span class="dg-picto dg-picto--xs dg-picto--pink dg-text-bold fr-mr-1w">{{ job.count }}</span>
+            <g-link to="/commando-ux/partager-interet/" class="job__title">
+              {{ job.title }}
+            </g-link>
+          </li>
+        </ul>
+      </div>
+
+      <div class=" dg-content dg-content--xs fr-mt-6w" v-html="$page.mission.content" />
 
     </div>
+
   </Layout>
 </template>
+
+
+<page-query>
+  query Mission ($id: ID!) {
+    mission: mission (id: $id) {
+      title
+      status
+      procedures {
+        name
+        url
+      }
+      budget
+      impact
+      startDate (format: "D MMMM YYYY", locale : "fr")
+      endDate (format: "D MMMM YYYY", locale : "fr")
+      department
+      direction
+      place
+      jobs {
+        title
+        count
+      }
+      team {
+        id
+        firstName
+        lastName
+        photo (width: 52, height: 52, quality: 100)
+        job_title
+        ghostName
+        ghostPhoto (width: 52, height: 52, quality: 100)
+      }
+      goals {
+        name
+        done
+      }
+      content
+    }
+  }
+</page-query>
 
 
 <script>
@@ -159,46 +194,89 @@
       };
     }
   };
-
 </script>
 
 
-<page-query>
+<style lang="scss" scoped>
 
-  query Mission ($id: ID!) {
-    mission: mission (id: $id) {
-      title
-      status
-      procedures {
-        name
-        url
+  .detail {
+    display: flex;
+    align-items: baseline;
+
+    &--team, &--job, &--goals {
+      flex-wrap: wrap;
+    }
+
+    &__name {
+      flex-shrink: 0;
+      margin: 0;
+      font-weight: bold;
+    }
+
+    &__data {
+      margin: 0;
+      padding: 0;
+
+      li {
+        &:before {
+          content: none;
+        }
       }
-      budget
-      impact
-      startDate (format: "D MMMM YYYY", locale : "fr")
-      endDate (format: "D MMMM YYYY", locale : "fr")
-      department
-      direction
-      place
-      jobs {
-        title
-        count
+
+      &--procedures {
+        padding: 0;
+
+        li {
+          list-style: none;
+        }
       }
-      team {
-        id
-        firstName
-        lastName
-        photo (width: 52, height: 52, quality: 100)
-        job_title
-        ghostName
-        ghostPhoto (width: 52, height: 52, quality: 100)
+
+      &--team, &--job {
+        flex-basis: 100%;
+
+        .team-member, .job {
+          display: flex;
+          align-items: center;
+
+          &__photo {
+            border-radius: 50%;
+            width: 1.75rem;
+            height: 1.75rem;
+          }
+
+          &__description, &__title {
+              font-weight: normal;
+              margin: 0;
+          }
+        }
       }
-      goals {
-        name
-        done
+
+      &--goals {
+
+        .goal {
+          display: flex;
+          align-items: center;
+
+          &__status {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid var(--border-action-low-pink-macaron);
+            height: 1.75rem;
+            width: 1.75rem;
+            font-size: 0.875rem;
+            border-radius: 50%;
+            color: var(--background-default-grey);
+            flex-shrink: 0;
+
+            &--ok {
+              color: var(--text-label-pink-macaron);
+              border-color: var(--background-contrast-pink-macaron);
+              background-color: var(--background-contrast-pink-macaron);
+            }
+          }
+        }
       }
-      content
     }
   }
-
-</page-query>
+</style>

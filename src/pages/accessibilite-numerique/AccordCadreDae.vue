@@ -1,21 +1,22 @@
 <template>
   <Layout>
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Accord cadre accompagnement et formations</span>
-        </li>
-      </ol>
-    </nav>
+    <div class="dg-content fr-px-2w">
 
-    <div class="content">
-       <h1>Accord cadre accompagnement et formations</h1>
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Accord cadre accompagnement et formations</span>
+          </li>
+        </ol>
+      </nav>
+
+      <h1>Accord cadre accompagnement et formations</h1>
 
       <section>
         <h2>Qui peut bénéficier de cet accord ?</h2>
@@ -37,7 +38,7 @@
         <ol>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
-            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98. <a href="https://rgaa-dae.a11y.fr/" target="_blank" title="Détail des prestations proposées - Nouvelle fenêtre">Détail des prestations proposées</a> 
+            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98. <a href="https://rgaa-dae.a11y.fr/" target="_blank" title="Détail des prestations proposées - Nouvelle fenêtre">Détail des prestations proposées</a>
         </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
@@ -91,7 +92,7 @@
           </li>
           <li>
             <strong>TOSCA Consultants</strong><br>
-            Marc MAISONNEUVE / marc.maisonneuve@toscaconsultants.fr / 01 42 36 01 57 et Philipe LENEPVEU / philippe.lenepveu@toscaconsultants.fr / 06 11 24 63 92
+            Marc MAISONNEUVE  marc.maisonneuve@toscaconsultants.fr / 01 42 36 01 57 et Philipe LENEPVEU / philippe.lenepveu@toscaconsultants.fr / 06 11 24 63 92
           </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
@@ -126,14 +127,13 @@
           <li>Si le prestataire n°2 sollicité en application de la règle 2 n’est pas en capacité de répondre dans le délai mentionné ci-dessus, l'entité bénéficiaire s’adresse au prestataire dont l'offre a été classée troisième et ainsi de suite, et dans les conditions mentionnées ci-dessus.</li>
         </ul>
       </section>
-    </div>
 
+    </div>
   </Layout>
 </template>
 
 
 <script>
-
   export default {
     metaInfo: {
       title: "Accord cadre accompagnement et formations",
@@ -155,5 +155,4 @@
       }],
     }
   }
-
 </script>

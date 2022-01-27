@@ -1,55 +1,58 @@
 <template>
-<Layout hideNewsletter>
+  <Layout>
 
-  <nav aria-label="Breadcrumb" class="fr-breadcrumb">
-    <ol class="fr-breadcrumb__list">
-      <li>
-        <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-      </li>
-      <li>
-        <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
-      </li>
-      <li>
-        <span aria-current="page">Formation au design</span>
-      </li>
-    </ol>
-  </nav>
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav aria-label="Breadcrumb" class="fr-breadcrumb">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Formation au design</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title">Formation au design</h1>
+        <p class="fr-text--lead">Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques.</p>
+      </div>
+    </div>
 
-  <div class="content">
-    <h1>Formation au design</h1>
-    <p class="fr-text--lead">Connaître les principes du design centré sur les besoins des usagers et des citoyens (UX) et les moyens de leur mise en œuvre pour la conception de services publics numériques.</p>
+    <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
+      <h2>Revivez la formation en vidéo</h2>
+      <p>La formation a eu lieu en direct le 30 novembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
 
-    <h2>Revivez la formation en vidéo</h2>
-    <p>La formation a eu lieu en direct le 30 novembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
+      <h3>Objectifs</h3>
+      <ul>
+        <li>Connaitre les principes fondamentaux et les définitions</li>
+        <li>Découvrir les bénéfices de cette approche</li>
+        <li>Mettre en œuvre les méthodes dans la conception et l'amélioration des démarches administratives numériques</li>
+        <li>Identifier les rôles et responsabilités</li>
+        <li>Disposer d'une boite à outils et d'un carnet de contacts</li>
+      </ul>
 
-    <h3>Objectifs</h3>
-    <ul>
-      <li>Connaitre les principes fondamentaux et les définitions</li>
-      <li>Découvrir les bénéfices de cette approche</li>
-      <li>Mettre en œuvre les méthodes dans la conception et l'amélioration des démarches administratives numériques</li>
-      <li>Identifier les rôles et responsabilités</li>
-      <li>Disposer d'une boite à outils et d'un carnet de contacts</li>
-    </ul>
+      <h3>Public concerné</h3>
+      <p>Agents de la fonction publique ou prestataires impliqués dans la conception des démarches administratives numériques.</p>
 
-    <h3>Public concerné</h3>
-    <p>Agents de la fonction publique ou prestataires impliqués dans la conception des démarches administratives numériques.</p>
-
-    <h3>Programme</h3>
-    <ul>
-      <li>Qu'est-ce que le design centré usager ? Objectifs, principes et définitions</li>
-      <li>Les résultats de sa mise en œuvre</li>
-      <li>Comment intégrer le design dans la conception des démarches numériques ?</li>
-      <li>La recherche utilisateur</li>
-      <li>Utiliser le système de design de l'État</li>
-      <li>L'accessibilité et le design</li>
-      <li>Quels rôles et quelle organisation</li>
-      <li>Les interlocuteurs et outils pour la mise en œuvre</li>
-    </ul>
-    <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
-    <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/accessibilite/">accessibilité</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
-  </div>
-
-</Layout>
+      <h3>Programme</h3>
+      <ul>
+        <li>Qu'est-ce que le design centré usager ? Objectifs, principes et définitions</li>
+        <li>Les résultats de sa mise en œuvre</li>
+        <li>Comment intégrer le design dans la conception des démarches numériques ?</li>
+        <li>La recherche utilisateur</li>
+        <li>Utiliser le système de design de l'État</li>
+        <li>L'accessibilité et le design</li>
+        <li>Quels rôles et quelle organisation</li>
+        <li>Les interlocuteurs et outils pour la mise en œuvre</li>
+      </ul>
+      <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
+      <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/accessibilite/">accessibilité</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
+    </div>
+    
+  </Layout>
 </template>
 
 
@@ -131,4 +134,3 @@
   },
 }
 </script>
-

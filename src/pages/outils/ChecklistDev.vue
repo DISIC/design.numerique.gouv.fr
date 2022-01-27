@@ -1,23 +1,20 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Checklist dev</span>
-        </li>
-      </ol>
-    </nav>
-
-
-
-    <div class="content">
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Checklist dev</span>
+          </li>
+        </ol>
+      </nav>
 
       <h1>Checklist dev</h1>
 
@@ -41,7 +38,7 @@
           <li class="fr-accordion">
             <h3 class="fr-accordion__title">
               <button class="fr-accordion__btn" aria-expanded="false" aria-controls="fr-accordion-group-2">La balise html possède l'attribut lang avec la valeur de la langue principale</button>
-            </h3>          
+            </h3>
             <div class="fr-collapse" id="fr-accordion-group-2">
                 <h4>Comment vérifier ?</h4>
                 <p>Vérifier dans le code source que la balise html comporte bien cet attribut et qu'il est bien renseigné. Si des passages de texte sont dans d'autres langues il faudra ajouter cet attribut dans les balises conteneurs correspondantes.</p>
@@ -52,7 +49,7 @@
           <li class="fr-accordion">
             <h3 class="fr-accordion__title">
               <button class="fr-accordion__btn" aria-expanded="false" aria-controls="fr-accordion-group-3">Le code html est valide au regard de la DTD</button>
-            </h3>          
+            </h3>
             <div class="fr-collapse" id="fr-accordion-group-3">
                 <h4>Comment vérifier ?</h4>
                 <p>La validation doit s'effectuer sur le code source généré (avec JavaScript).</p>
@@ -72,7 +69,7 @@
           <li class="fr-accordion">
             <h3 class="fr-accordion__title">
               <button class="fr-accordion__btn" aria-expanded="false" aria-controls="fr-accordion-group-4">La page est entièrement navigable et utilisable au clavier</button>
-            </h3>          
+            </h3>
             <div class="fr-collapse" id="fr-accordion-group-4">
                 <h4>Comment vérifier ?</h4>
                 <p>Rafraîchir la page. S'assurer qu'on peut naviguer de lien en lien (ou tout autre élément focusable tel que bouton, champ de formulaire...) à l'aide de la touche tabulation. Lorsque le focus est posé sur un lien ou un bouton la touche d'espacement active ledit lien ou bouton. Les boutons sont également activables grâce à la touche <kbd>Return</kbd>.</p>
@@ -85,7 +82,7 @@
           <li class="fr-accordion">
             <h3 class="fr-accordion__title">
               <button class="fr-accordion__btn" aria-expanded="false" aria-controls="fr-accordion-group-5">La sémantique des balises html est correctement utilisée</button>
-            </h3>          
+            </h3>
             <div class="fr-collapse" id="fr-accordion-group-5">
 
                 <h4>Comment vérifier ?</h4>
@@ -104,7 +101,7 @@
           <li class="fr-accordion">
             <h3 class="fr-accordion__title">
               <button class="fr-accordion__btn" aria-expanded="false" aria-controls="fr-accordion-group-6">Chaque champ de formulaire est associé à son étiquette</button>
-            </h3>          
+            </h3>
             <div class="fr-collapse" id="fr-accordion-group-6">
                 <h4>Comment vérifier ?</h4>
                 <p>Dans les formulaires cliquer sur chaque étiquette pour s'assurer que le focus se place bien dans le champ correspondant ou active bien le bouton radio ou la checkbox.</p>
@@ -117,6 +114,7 @@
           </li>
         </ul>
       </div>
+
     </div>
   </Layout>
 </template>

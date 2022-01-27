@@ -13,7 +13,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto dg-picto--sm fr-mr-2w" svg-inline src="../assets/images/outils-picto.svg" aria-hidden="true">Outils</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/outils-picto.svg" aria-hidden="true">Outils</h1>
         <p class="fr-text--lead">Une sélection d’outils faits maison pour vous accompagner dans l’amélioration de l’accessibilité et du design de vos sites et applications web.</p>
       </div>
     </section>

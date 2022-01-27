@@ -1,42 +1,43 @@
 <template>
   <Layout>
-    <div class="dg-content fr-px-2w">
 
-      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-        <ol class="fr-breadcrumb__list">
-          <li>
-            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-          </li>
-          <li>
-            <span aria-current="page">Recrutement</span>
-          </li>
-        </ol>
-      </nav>
+    <section class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Recrutement</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/recrutement-picto.svg" aria-hidden="true">Recrutement</h1>
+        <p class="fr-text--lead">Nombre de postes ouverts actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
+      </div>
+    </section>
 
-      <h1>Recrutement</h1>
-      <p>Nombre de postes ouverts : <strong>{{ $page.allJob.edges.length }}</strong></p>
-      <!-- <p class="cover__subtitle" >Rejoignez le pôle design des services numériques pour améliorer ensemble la qualité des services publics numériques. Faites connaissance avec <g-link to="/equipe/">notre équipe</g-link>.</p>
-      <p>Nous sommes rattachés à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</p> -->
-
+    <section class="dg-content fr-px-2w">
       <div class="fr-grid-row fr-grid-row--gutters">
         <div class="fr-col-md-6 fr-col-12"  v-for="{ node } in $page.allJob.edges" :key="node.id">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-                <div class="fr-tile__body">
-                    <h2 class="fr-tile__title">
-                        <g-link  :to="node.path" class="fr-tile__link">{{ node.title }}</g-link>
-                    </h2>
-                    <p class="fr-tile__desc">{{ node.type }}</p>
-                </div>
+          <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
+            <div class="fr-tile__body">
+              <h2 class="fr-tile__title">
+                <g-link  :to="node.path" class="fr-tile__link">{{ node.title }}</g-link>
+              </h2>
+              <p class="fr-tile__desc">{{ node.type }}</p>
             </div>
+          </div>
         </div>
       </div>
+    </section>
 
-    </div>
   </Layout>
 </template>
 
-<page-query>
 
+<page-query>
   query {
     allJob (sortBy: "title", order: ASC) {
       edges {
@@ -49,11 +50,10 @@
       }
     }
   }
-
 </page-query>
 
-<script>
 
+<script>
   export default {
     metaInfo: {
       title: "Recrutement",
@@ -95,5 +95,4 @@
       }],
     }
   }
-
 </script>

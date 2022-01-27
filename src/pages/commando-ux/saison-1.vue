@@ -1,21 +1,21 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Saison 1</span>
-        </li>
-      </ol>
-    </nav>
+      <nav aria-label="Breadcrumb" class="fr-breadcrumb">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Saison 1</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="content">
       <h1>Commando UX saison 1</h1>
       <p class="fr-text--lead">
         Afin d’accélérer les améliorations concrètes pour les usagers dans leurs démarches, la DINUM a lancé en septembre 2020 le Commando UX.
@@ -121,32 +121,6 @@
         <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 mars 2021</p>
         <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
-        <ul class="team">
-          <li>
-            <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Faustine Demiselle"/>
-            <p><strong>Faustine Demiselle</strong></p>
-            <p lang="en">Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Ugo Dessertine"/>
-            <p><strong>Ugo Dessertine</strong></p>
-            <p lang="en">Lead Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Georges Bayard"/>
-            <p><strong>Georges Bayard</strong></p>
-            <p>Chargé de mission</p>
-            <p>Observatoire</p>
-          </li>
-        </ul>
       </section>
 
       <section>
@@ -157,7 +131,7 @@
         </p>
         <p>
           <strong>22 juin – 26 juin 2020</strong><br>
-          Étude et sélection des défis : nous sélectionnons les 5 à 10 projets les plus impactants.
+          Étude et sélection des défis : nous sélectionnons les 10 projets les plus impactants.
         </p>
         <p>
           <strong>29 juin – 19 juillet 2020</strong><br>
@@ -174,7 +148,6 @@
       </section>
 
     </div>
-
   </Layout>
 </template>
 
@@ -216,7 +189,6 @@
 
 
 <script>
-
   export default {
     computed: {
       firstSeason: function () {
@@ -264,5 +236,4 @@
     ],
     }
   }
-
 </script>

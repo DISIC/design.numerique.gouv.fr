@@ -11,14 +11,10 @@
 
     <Header />
 
-    <main class="layout" id="main" role="main">
-      <div class="fr-container fr-container--fluid fr-mt-1w">
-        <div class="fr-grid-row fr-grid-row--center">
-          <div class="fr-col-xl-10">
-            <slot/>
-            <Offer v-if="showServices"/>
-          </div>
-        </div>
+    <main id="main" role="main">
+      <div class="fr-container fr-container--fluid">
+        <slot/>
+        <Offer v-if="showServices"/>
       </div>
     </main>
 
@@ -40,7 +36,7 @@ query {
 <script>
   import Header from "~/components/Header.vue"
   import NewsletterReseauxSociaux from "~/components/NewsletterReseauxSociaux.vue"
-  import Offer from "~/components/messages/Offer.vue"
+  import Offer from "~/components/alerts/Offer.vue"
   import Footer from "~/components/Footer.vue"
   import SkipLink from "~/components/SkipLink.vue"
 

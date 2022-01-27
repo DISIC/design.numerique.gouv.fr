@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="dg-content">
+    <div class="dg-content fr-px-2w">
 
       <div class="dg-content dg-content--xs">
         <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
@@ -86,6 +86,10 @@ export default {
       this.$page.article.title.length > 48 ?
       this.$page.article.title.substring(0, 46) + "..." :
       this.$page.article.title;
+  },
+  mounted() {
+    var images = document.getElementsByTagName('img');
+    images.forEach(image => image.classList.add('fr-responsive-img'));
   }
 }
 </script>

@@ -1,134 +1,141 @@
 <template>
-  <Layout>
+  <Layout showServices>
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Commando UX</span>
-        </li>
-      </ol>
-    </nav>
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Commando UX</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Commando UX</h1>
+        <p class="fr-text--lead">Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
+      </div>
+    </div>
 
-    <div class="content">
-      <h1>Commando UX</h1>
-      <p class="fr-text--lead">Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
+    <div class="dg-content fr-px-2w">
 
-      <section class="description">
-
-        <div class="description__content">
+      <section>
+        <div>
           <h2>
             Des experts au sein des administrations
           </h2>
           <p>
-            Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l’aventure : déployer des experts du numérique au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
+            Après le succès de la saison 1 du Commando UX, nous réitérons l’aventure : déployer des experts du numérique au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
           </p>
           <p>
             L’immersion de chaque Commando revêt un double bénéfice : livrer des améliorations concrètes tout en diffusant des pratiques innovantes au sein des administrations d’accueil.
           </p>
         </div>
 
-        <div class="description__actions">
-            <div class="item item--left">
-              <div class="item__content">
-                <h3>Administrations de l’État</h3>
-                <p>
-                  Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
-                </p>
-              </div>
-
-              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="item__link button button--highlight">
-                Candidater<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </a>
+        <div class="fr-grid-row fr-grid-row--gutters fr-my-4w">
+          <div class="fr-col-sm-6 fr-mb-2w">
+            <div class="dg-text-with-picto fr-mb-2w">
+              <span class="dg-picto fr-mr-2w">
+                <font-awesome :icon="['fas', 'university']" height="16px" aria-hidden="true" />
+              </span>
+              <h3 class="fr-h4">Administrations de l’État</h3>
             </div>
+            <p class="fr-mb-2w">
+              Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
+            </p>
+            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+              Candidater
+            </a>
+          </div>
 
-            <div class="item item--right">
-              <div class="item__content">
-                <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
-                <h3>Experts «&nbsp;expérience utilisateur&nbsp;»</h3>
-                <p>
-                  Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
-                </p>
-              </div>
-
-              <g-link to="/commando-ux/partager-interet/" class="item__link button button--highlight">
-                Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </g-link>
+          <div class="fr-col-sm-6">
+            <div class="dg-text-with-picto fr-mb-2w">
+              <span class="dg-picto fr-mr-2w">
+                <font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true" />
+              </span>
+              <h3 class="fr-h4">Experts du numérique</h3>
             </div>
+            <p class="fr-mb-2w">
+              Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
+            </p>
+            <g-link to="/commando-ux/partager-interet/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+              Partager votre intérêt
+            </g-link>
+          </div>
         </div>
       </section>
 
-      <section>
-        <h2>Le commando saison 2</h2>
+      <section class="fr-mb-6w">
+        <h2>Le commando saison&nbsp;2</h2>
         <p class="section__subtitle">
           Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
         </p>
         <ul class="team">
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">2 chargées de recherche utilisateur</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des chargées de recherche utilisateur</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">2 designers UX/UI</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'project-diagram']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des expertes et experts produits</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">1 développeuse accessibilité</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des designers UX/UI</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'ellipsis-h']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description team-member__description--light">Et bientôt d'autres experts pour accompagner les administrations</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des développeuses et développeurs accessibilité</h3>
           </li>
         </ul>
       </section>
 
       <section>
         <h2>Les interventions</h2>
+
         <p class="section__subtitle">
-          L’icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
+          L’icône <span class="mission__team-member mission__team-member--open"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
         </p>
 
         <ul class="missions">
 
-          <li v-for="{ node } in futurMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in futurMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-1w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              <ul class="mission__team fr-pt-md-1v">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--futur">À venir</p>
+              <p class="fr-badge fr-badge--pink-macaron fr-ml-md-2w">À venir</p>
             </div>
           </li>
 
-          <li v-for="{ node } in presentMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in presentMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              <ul class="mission__team fr-pt-md-1w">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--present">En cours</p>
+              <p class="fr-badge fr-badge--green-tilleul-verveine fr-ml-md-2w">En cours</p>
             </div>
           </li>
 
-          <li v-for="{ node } in pastMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in pastMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
+              <ul class="mission__team fr-pt-md-1w">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--past">Terminée</p>
+              <p class="fr-badge fr-badge--grey fr-ml-md-2w">Terminée</p>
             </div>
           </li>
 
@@ -155,8 +162,8 @@
             firstName
             lastName
             ghostName
-            photo (width: 64, height: 64, quality: 100)
-            ghostPhoto (width: 64, height: 64, quality: 100)
+            photo (width: 64, height: 64, quality: 50)
+            ghostPhoto (width: 64, height: 64, quality: 50)
           }
           jobs {
             count
@@ -223,5 +230,116 @@
     ],
     }
   }
-
 </script>
+
+<style lang="scss" scoped>
+
+  .missions {
+    padding: 0;
+  }
+
+  .mission {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    display: flex;
+    border: 1px solid var(--background-default-grey);
+    border-top: 1px solid var(--border-default-grey);
+    align-items: center;
+    justify-content: space-between;
+    min-height: 3rem;
+    margin-top: -1px;
+
+    @media only screen and (max-width: $md-point) {
+      flex-wrap: wrap;
+    }
+
+    &:hover {
+      @media only screen and (min-width: $md-point + 1) {
+        background-color: var(--background-alt-green-tilleul-verveine);
+        border: 1px solid var(--border-default-green-tilleul-verveine);
+        border-top: 1px solid var(--border-default-green-tilleul-verveine);
+        z-index: 1;
+      }
+    }
+
+    &__left {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      @media only screen and (max-width: $md-point) {
+        width: 100%;
+      }
+    }
+
+    &__right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+
+      @media only screen and (max-width: $md-point) {
+        width: 100%;
+        margin-top: 0.25rem;
+        margin-bottom: 0.75rem;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+      }
+    }
+
+    &__name {
+      font-size: 1rem;
+      margin-bottom: 0;
+      line-height: 1.5;
+
+      a {
+        box-shadow: none;
+      }
+
+      a::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+
+    &__team {
+      display: flex;
+      margin: 0;
+
+      li {
+        list-style: none;
+
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    &__team-member {
+      border-radius: 50%;
+      width: 1.875rem;
+      height: 1.875rem;
+      margin-top: -0.25rem;
+      margin-bottom: -0.391rem;
+
+      @media only screen and (max-width: $md-point) {
+        margin-top: 0.25rem;
+      }
+
+      &--open {
+        display: inline-block;
+        text-align: center;
+        color: var(--text-label-pink-macaron);
+        background-color: var(--background-contrast-pink-macaron);;
+        padding: 0.2rem 0.6rem 0.8rem 0.4rem;
+        font-size: 1rem;
+        flex-shrink: 0;
+      }
+    }
+  }
+</style>

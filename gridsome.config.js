@@ -81,6 +81,13 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        typeName: 'Pnu',
+        path: './content/pnu/*.md',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         typeName: 'GooseStep',
         path: './content/goose/steps/*.md',
       }
@@ -147,7 +154,7 @@ module.exports = {
                  customBlock: true,
                  tagName: 'div',
                  properties: {
-                   class: 'steps'
+                   class: 'dg-steps'
                  }
                },
             },

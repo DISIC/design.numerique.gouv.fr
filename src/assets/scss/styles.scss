@@ -1,8 +1,11 @@
 @import "vars";
 
 html {
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-x: auto;
+
+    @media only screen and (max-width: $sm-point) {
+      word-break: break-word;
+    }
 }
 
 .dg {
@@ -12,23 +15,60 @@ html {
     &-center {
       text-align: center;
     }
+
+    &-bold {
+      font-weight: bold;
+    }
+
+    &-red {
+      color: var(--text-title-red-marianne);
+    }
+
+    &-blue {
+      color: var(--text-title-blue-france);
+    }
+
+    &-break {
+      word-break: break-word;
+    }
+
+    &-with-picto {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      h1, h2, h3, h4, h5, h6, p {
+        margin: 0;
+      }
+    }
   }
 
   &-cover {
     width: 100vw;
     position: relative;
-    margin-top: -0.5rem;
     margin-left: -50vw;
     left: 50%;
+
+    background-color: var(--background-alt-pink-macaron);
     background: conic-gradient(from 90deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
+    @media (prefers-color-scheme: dark) {
+      background: var(--background-alt-grey);
+    }
 
     &--linear {
+      background-color: var(--background-alt-pink-macaron);
       background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
+      @media (prefers-color-scheme: dark) {
+        background-color: var(--background-alt-grey);
+        background: var(--background-alt-grey);
+      }
     }
 
     &__inner {
-      padding: 0.1rem;
-      background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 80%, var(--background-default-grey) 100%);
+      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 80%, var(--background-default-grey) 100%);
+      @media (prefers-color-scheme: dark) {
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 80%, var(--background-default-grey) 100%);
+      }
     }
 
     &__container {
@@ -47,7 +87,15 @@ html {
 
     &__title {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
+
+      .dg-picto {
+        margin-top: -0.25rem;
+
+        @media only screen and (max-width: $sm-point) {
+          margin-top: 0;
+        }
+      }
     }
   }
 
@@ -73,36 +121,94 @@ html {
   }
 
   &-block {
+    background-color: var(--background-alt-pink-macaron);
     background: conic-gradient(from 180deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
+    @media (prefers-color-scheme: dark) {
+      background: var(--background-alt-grey);
+    }
   }
 
   &-picto {
-    display: inline-block;
+    background-color: var(--background-contrast-green-tilleul-verveine);
     background: conic-gradient(from 135deg, var(--green-tilleul-verveine-950-100), var(--pink-macaron-950-100), var(--green-tilleul-verveine-950-100));
     border-radius: 50%;
-    transition: 0.2s all;
-    width: 5rem;
-    height: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
-    &--sm {
-      width: 3.5rem;
-      height: 3.5rem;
+    @media only screen and (max-width: $sm-point) {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1rem;
     }
 
-    &:hover {
-      transform: rotate(180deg);
+    &--lg {
+      width: 5rem;
+      height: 5rem;
+      font-size: 1.5rem;
+
+      @media only screen and (max-width: $sm-point) {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 1.25rem;
+      }
+    }
+
+    &--sm {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1rem;
+
+      @media only screen and (max-width: $sm-point) {
+        width: 1.75rem;
+        height: 1.75rem;
+        font-size: 0.875rem;
+      }
+    }
+
+    &--xs {
+      width: 1.75rem;
+      height: 1.75rem;
+      font-size: 0.875rem;
+    }
+
+    &--rotate {
+      transition: 0.2s all;
+
+      &:hover {
+        transform: rotate(180deg);
+      }
+    }
+
+    &--pink {
+      color: var(--text-label-pink-macaron);
+      background-color: var(--background-contrast-pink-macaron);
+      background: var(--background-contrast-pink-macaron);
     }
   }
 
-  &-badge {
-    font-size: 0.6875rem;
-    font-weight: bold;
-    color: var(--text-action-high-pink-macaron);
-    background-color: var(--background-action-low-pink-macaron);
-    border-radius: 0.25rem;
-    padding: 0.125rem 0.5rem;
-    margin: 0 0.5rem;
-    display: inline;
+  &-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+
+    &-member {
+      text-align: center;
+      margin-bottom: 2rem;
+      list-style: none;
+
+      &__photo {
+        width: 6rem;
+        border-radius: 50%;
+      }
+
+      &__name, &__title, &__team, &__twitter  {
+        margin-bottom: 0.25rem;
+      }
+    }
   }
 
   &-section-with-link {
@@ -128,6 +234,35 @@ html {
       order: 3;
     }
   }
+
+  &-steps {
+    margin-left: 2rem;
+    padding-left: 2rem;
+    border-left: 4px dotted var(--border-default-pink-macaron);
+
+    @media only screen and (max-width: $sm-point) {
+      margin-left: 0.5rem;
+      padding-left: 1.3125rem;
+    }
+
+    h3 {
+      &:before {
+        background-image: url(/assets/images/step.svg);
+        display: inline;
+        position: absolute;
+        margin-left: -3.125rem;
+        margin-top: 0.125rem;
+        width: 2rem;
+        height: 2rem;
+        content:"";
+
+        @media only screen and (max-width: $sm-point) {
+          margin-left: -2.4375rem;
+          margin-top: 0;
+        }
+      }
+    }
+  }
 }
 
 .fr {
@@ -144,7 +279,15 @@ html {
     }
   }
 
-  &-tag {
+  &-badge {
+    flex-shrink: 0;
+  }
 
+  &-footer {
+    &__logo {
+      @media only screen and (max-width: $sm-point) {
+        width: 160px;
+      }
+    }
   }
 }

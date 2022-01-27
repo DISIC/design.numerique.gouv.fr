@@ -1,7 +1,8 @@
 <template>
   <Layout>
-    <div class="dg-content fr-px-2w">
 
+    <section class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
         <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
           <ol class="fr-breadcrumb__list">
             <li>
@@ -12,27 +13,34 @@
             </li>
           </ol>
         </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/article-picto.svg" aria-hidden="true">Articles</h1>
+        <ul class="fr-tags-group fr-mt-4w">
+          <li v-for="tag in $page.allTag.edges" :key="tag.node.id">
+            <g-link class="fr-tag fr-tag--pink-macaron" target="_self" :to="tag.node.path">{{ tag.node.id.charAt(0).toUpperCase() + tag.node.id.slice(1) }}</g-link>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-        <h1>Articles</h1>
+    <section class="dg-content fr-px-2w">
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
+          <article class="fr-card fr-enlarge-link" >
+            <div class="fr-card__body">
+                <h2 class="fr-card__title">
+                  <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
+                </h2>
+                <p class="fr-card__desc">{{ node.description }}.</p>
+                <p class="fr-card__detail">{{ node.publishedDate }}</p>
+            </div>
+            <div class="fr-card__img">
+                <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <section class="fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
-            <article class="fr-card fr-enlarge-link" >
-              <div class="fr-card__body">
-                  <h2 class="fr-card__title">
-                    <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
-                  </h2>
-                  <p class="fr-card__desc">{{ node.description }}.</p>
-                  <p class="fr-card__detail">{{ node.publishedDate }}</p>
-              </div>
-              <div class="fr-card__img">
-                  <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
-              </div>
-            </article>
-          </div>
-        </section>
-
-    </div>
   </Layout>
 </template>
 
@@ -45,8 +53,16 @@
         	id
           title
           publishedDate (format: "D MMMM YYYY", locale : "fr")
-          illustration
+          illustration (width: 400, height: 156, quality: 50)
           description
+          path
+        }
+      }
+    },
+    allTag (sortBy: "id", order: ASC) {
+      edges {
+        node {
+        	id
           path
         }
       }

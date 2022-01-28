@@ -21,15 +21,7 @@
     <div class="dg-content fr-px-2w">
       <section>
         <h2>Nos formations</h2>
-        <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons quatre formations gratuites indispensables&nbsp;:</p>
-
-        <!-- <ul class="fr-mb-4w">
-          <li class=""><g-link to="/formations/simplification-information/">Formation initiale à la simplification de l'information</g-link>, 2 heures, gratuit, niveau débutant.<br><strong>En direct le jeudi 17 février !</strong></li>
-          <li><g-link to="/formations/accessibilite/">Formation initiale à l’accessibilité numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
-          <li><g-link to="/formations/design/">Formation initiale au design numérique</g-link>, 2 heures, gratuit, niveau débutant.</li>
-          <li><g-link to="/formations/recherche-utilisateur/">Formation initiale à la recherche utilisateur</g-link>, 2 heures, gratuit, niveau débutant.</li>
-          <li><g-link to="/formations/ecoconception/">Formation initiale à l’écoconception</g-link>, 2 heures, gratuit, niveau débutant.</li>
-        </ul> -->
+        <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons des formations gratuites et indispensables&nbsp;:</p>
 
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
           <div class="fr-col-md-6">

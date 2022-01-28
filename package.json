@@ -31,6 +31,6 @@
     "sass-loader": "^8.0.0",
     "style-resources-loader": "^1.2.1",
     "vue-svg-loader": "^0.16.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.14"
   }
 }

@@ -195,6 +195,11 @@ module.exports = {
       .rule("vue")
       .use("vue-svg-inline-loader")
       .loader("vue-svg-inline-loader")
-      .options({ /* ... */ });
+      .options({ 
+        removeAttributes: ["svg-inline"],
+        addAttributes: {
+          role: "img"
+        }
+      });
   },
 }

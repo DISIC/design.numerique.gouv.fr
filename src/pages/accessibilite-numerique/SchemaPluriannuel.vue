@@ -1,36 +1,25 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Schéma pluriannuel</span>
-        </li>
-      </ol>
-    </nav>
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Schéma pluriannuel</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Schéma pluriannuel de mise en accessibilité</h1>
-
-      </div>
-    </div>
-
-    <div class="content">
+      <h1>Schéma pluriannuel de mise en accessibilité</h1>
 
       <section>
-
-        <h2>
-          Contenu du schéma
-        </h2>
+        <h2>Contenu du schéma</h2>
 
         <p>
           En application du III de l’article 47 précité, le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique.
@@ -64,40 +53,30 @@
       </section>
 
     </div>
-
   </Layout>
 </template>
 
+
 <script>
-
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
-export default {
-  components: {
-    Accessibilite,
-  },
-  metaInfo: {
-    title: "Schéma pluriannuel de mise en accessibilité",
-    meta: [{
-      name: 'description',
-      content: "Le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique."
-    },
-    {
-      property: 'og:title',
-      content: "Le Schéma pluriannuel de mise en accessibilité - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique."
-    },
-    {
-      property: 'og:image',
-      content: "https://design.numerique.gouv.fr/designGouv.png"
-    }],
+  export default {
+    metaInfo: {
+      title: "Schéma pluriannuel de mise en accessibilité",
+      meta: [{
+        name: 'description',
+        content: "Le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique."
+      },
+      {
+        property: 'og:title',
+        content: "Le Schéma pluriannuel de mise en accessibilité - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique."
+      },
+      {
+        property: 'og:image',
+        content: "https://design.numerique.gouv.fr/meta-images/designgouv.png"
+      }],
+    }
   }
-}
 </script>
-
-<style lang="scss">
-
-</style>

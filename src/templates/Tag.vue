@@ -1,91 +1,90 @@
 <template>
-  <Layout class="tag-page">
+  <Layout>
 
-    <div class="cover">
-     <div class="cover__container cover__container--light">
-
-       <h1>Nos publications sur le thème <span>{{ this.$route.params.id }}</span></h1>
-       <g-link to="/articles/"><font-awesome class="button__left-icon" :icon="['fas', 'arrow-left']" transform="shrink-3"/>Voir toutes nos publications</g-link>
-
+    <section class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
+            </li>
+            <li>
+              <span aria-current="page" v-html="this.tag + ' : nos articles'" />
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/article-picto.svg" aria-hidden="true">{{ this.tag }} : nos articles</h1>
+        <g-link class="fr-link fr-fi-arrow-left-line fr-link--icon-left fr-mt-1w fr-mb-2w" to="/articles/">Voir tous nos articles</g-link>
       </div>
-    </div>
+    </section>
 
-    <div class="content">
-
-      <section class="articles">
-        <article v-for="{ node } in $page.allArticle.edges" :key="node.id">
-          <g-image :src="node.illustration" alt=""/>
-          <p class="articles__date">{{ node.publishedDate }}</p>
-          <h2><g-link :to="node.path">{{ node.title }}</g-link></h2>
-          <p>{{ node.description }}</p>
-        </article>
-      </section>
-
-    </div>
+    <section class="dg-content fr-px-2w">
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-sm-6" v-for="article in $page.tag.belongsTo.edges" :key="article.node.id">
+          <article class="fr-card fr-enlarge-link" >
+            <div class="fr-card__body">
+                <h2 class="fr-card__title">
+                  <g-link :to="article.node.path" class="fr-card__link">{{ article.node.title }}</g-link>
+                </h2>
+                <p class="fr-card__desc">{{ article.node.description }}.</p>
+                <p class="fr-card__detail">{{ article.node.publishedDate }}</p>
+            </div>
+            <div class="fr-card__img">
+                <g-image :src="article.node.illustration" class="fr-responsive-img" alt=""/>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
   </Layout>
 </template>
 
 
 <page-query>
-
-  query articlesByTags($id: ID) {
-    allArticle (filter: {tags: {contains: [$id]}}, sortBy: "publishedDate", order: DESC) {
-      edges {
-        node {
-        	id
-          title
-          publishedDate (format: "D MMMM YYYY", locale : "fr")
-          illustration
-          description
-          path
+  query Tag ($id: ID!) {
+    tag: tag (id: $id) {
+      title
+      belongsTo (sortBy: "publishedDate", order: DESC) {
+        totalCount
+        edges {
+          node {
+            ...on Article {
+              title
+              description
+              publishedDate (format: "D MMMM YYYY", locale : "fr")
+              illustration (quality: 50)
+              path
+            }
+          }
         }
       }
     }
   }
-
 </page-query>
 
 
 <script>
-
   export default {
-    metaInfo: {
-      title: "Articles",
-      meta: [{
-        name: "robots",
-        content: "noindex"
-      }],
-    }
-  }
-
-</script>
-
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-  @import "src/assets/scss/_articles.scss";
-
-  .tag-page {
-
-    .cover {
-      margin-bottom: 96px;
-
-      h1 {
-        font-size: 2.5em;
-        margin-bottom: 12px;
-        line-height: 1.2;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 2em;
-        }
-
-        > span {
-          color: $blue;
-        }
+    data () {
+      return {
+        tag: ''
+      }
+    },
+    created () {
+      this.tag = this.$page.tag.title.charAt(0).toUpperCase() + this.$page.tag.title.slice(1)
+    },
+    metaInfo () {
+      return {
+        title: this.tag + " : nos articles",
+        meta: [{
+          name: "robots",
+          content: "noindex"
+        }],
       }
     }
   }
-
-</style>
+</script>

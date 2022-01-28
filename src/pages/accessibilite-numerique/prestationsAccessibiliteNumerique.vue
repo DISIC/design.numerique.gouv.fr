@@ -1,28 +1,24 @@
 <template>
   <Layout>
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Prestations accessibilité numérique</span>
-        </li>
-      </ol>
-    </nav>
+    <div class="dg-content fr-px-2w">
 
-    <div class="cover">
-     <div class="cover__container">
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Prestations accessibilité numérique</span>
+          </li>
+        </ol>
+      </nav>
 
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Prestations <span class="text-highlight">accessibilité numérique</span></h1>
-        <p>L’<a href="#accord-cadre">accord cadre accompagnement et formations</a> de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2022, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
-      </div>
-    </div>
-    <div class="content">
+      <h1>Prestations accessibilité numérique</h1>
+      <p class="fr-text--lead">L’accord cadre accompagnement et formations de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2022, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
+
       <section>
         <h2>Les commandes hors marché restent possibles</h2>
         <p>En fonction du montant de la commande, le processus n’est pas le même.</p>
@@ -45,13 +41,14 @@
         <p>Le coût d’un audit de conformité au RGAA dépend du niveau de complexité du site (exemples : nombre de pages différentes, types de composants mis en œuvre, technologies, etc.).<br/>Il est compris entre 2 000 et 5 000 € HT.</p>
         <h3>Quel est le coût d’une formation ?</h3>
         <p>Il existe plusieurs types de formation à l’accessibilité numérique dont le contenu et la durée diffèrent selon le public cible et les objectifs :</p>
-        <ul>  
+        <ul>
           <li>Une sensibilisation à l’accessibilité dure entre deux heures et une journée ;</li>
           <li>Une formation « gestion de projet web accessible » dure entre un et trois jours ;</li>
           <li>Une formation « développer un site web accessible » dure au minimum trois jours ;</li>
           <li>Une formation « auditeur ou auditrice RGAA » dure environ cinq jours.</li>
         </ul>
       </section>
+
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-col-lg-10 fr-mt-2w fr-mb-8w">
           <h3 class="fr-callout__title">Le <abbr title="Fonds pour l’Insertion des Personnes Handicapées dans la Fonction Publique">FIPHFP</abbr> peut vous aider</h3>
@@ -115,20 +112,14 @@
           <li>Formation auditeur RGAA</li>
         </ul>
       </section>
-    </div>
 
+    </div>
   </Layout>
 </template>
 
 
 <script>
-
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
   export default {
-    components: {
-      Accessibilite,
-    },
     metaInfo: {
       title: "Prestations accessibilité numérique",
       meta: [{
@@ -145,14 +136,8 @@ import Accessibilite from "~/assets/images/accessibilite.svg"
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/meta-images/designgouv.png"
       }],
     }
   }
-
 </script>
-
-
-<style lang="scss">
-
-</style>

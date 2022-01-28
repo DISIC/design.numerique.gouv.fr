@@ -26,6 +26,7 @@
           <li>Imprimer cette page qui devient une check-list et tient sur une feuille A4 recto verso.</li>
           <li>Saisir le résultat dans <a href="/assets/doc/diagnostic-flash.ods" title="le tableur (format ods - 43Ko) - À télécharger" target="_blank" download rel="noreferrer noopener">le tableur (ods - 43Ko)</a> qui délivre une note.</li>
         </ul>
+        <p>Vous pouvez vous entraîner avec une <a href="/demo/mauvais-exemple/">page de démo pleine de mauvais exemples</a>.</p>
       </section>
 
       <div class="quick-test">

@@ -114,7 +114,7 @@ export default {
     },
     {
       property: 'og:image',
-      content: "https://design.numerique.gouv.fr/designGouv.png"
+      content: "https://design.numerique.gouv.fr/meta-images/designgouv.png"
     }],
   }
 }

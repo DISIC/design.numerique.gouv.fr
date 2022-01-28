@@ -16,7 +16,7 @@
       <h1 class="text-highlight">Portail numérique unique</h1>
 
       <div class="fr-grid-row fr-grid-row--gutters">
-        <div v-for="{ node } in $page.allPnu.edges" :key="node.id" class="fr-col-12" :class="{ 'fr-col-xs-12 fr-col-sm-6 fr-col-md-4': node.order > 0 && node.order < 10 }">
+        <div v-for="{ node } in $page.allPnu.edges" :key="node.id" class="fr-col-12" :class="{ 'fr-col  fr-col-sm-6 fr-col-lg-4': node.order > 0 && node.order < 10 }">
           <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
             <div class="fr-tile__body">
               <h2 class="fr-tile__title">

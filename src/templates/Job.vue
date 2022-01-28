@@ -78,7 +78,7 @@
         },
         {
           property: "og:image",
-          content: "https://design.numerique.gouv.fr/assets/images/rejoindre-equipe.png"
+          content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipe.png"
         },
         {
           name: "twitter:card",
@@ -98,7 +98,7 @@
         },
         {
           name: "twitter:image",
-          content: "https://design.numerique.gouv.fr/assets/images/rejoindre-equipe.png"
+          content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipe.png"
         }],
       }
     },

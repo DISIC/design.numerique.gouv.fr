@@ -211,7 +211,7 @@
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
       },
       {
         name: "twitter:card",
@@ -231,7 +231,7 @@
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
       },
     ],
     }

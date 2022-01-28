@@ -4,6 +4,18 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+// Load variables for all vue-files
+const path = require('path')
+function addStyleResource (rule) {
+  rule.use('style-resource')
+    .loader('style-resources-loader')
+    .options({
+      patterns: [
+        path.resolve(__dirname, './src/assets/scss/_vars.scss'),
+      ],
+    })
+}
+
 module.exports = {
   siteName: 'DesignGouv',
   siteUrl: 'https://design.numerique.gouv.fr/',
@@ -142,7 +154,7 @@ module.exports = {
                  customBlock: true,
                  tagName: 'div',
                  properties: {
-                   class: 'steps'
+                   class: 'dg-steps'
                  }
                },
             },
@@ -160,18 +172,34 @@ module.exports = {
     Job: '/recrutement/:slug',
     Mission: '/commando-ux/:slug',
     Article: '/articles/:slug',
-    Pnu: '/pnu/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
-    Tag: '/tag/:id',
+    Tag: '/articles/tag/:id',
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch
   },
   chainWebpack: config => {
+    // Load variables for all vue-files
+    const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
+    types.forEach(type => {
+      addStyleResource(config.module.rule('scss').oneOf(type))
+    })
+    // Load SVGs as components
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
     svgRule
       .use('vue-svg-loader')
       .loader('vue-svg-loader')
+    // Load SVGs inline
+    config.module
+      .rule("vue")
+      .use("vue-svg-inline-loader")
+      .loader("vue-svg-inline-loader")
+      .options({ 
+        removeAttributes: ["svg-inline"],
+        addAttributes: {
+          role: "img"
+        }
+      });
   },
 }

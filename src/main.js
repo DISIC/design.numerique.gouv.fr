@@ -3,7 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/assets/css/dsfr.min.css'
-import '~/assets/scss/main.scss'
+import '~/assets/scss/styles.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
@@ -59,7 +59,8 @@ import {
   faComments,
   faCode,
   faPencilRuler,
-  faEllipsisH
+  faEllipsisH,
+  faProjectDiagram
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faFilePdf,
@@ -129,11 +130,12 @@ library.add(
   faComments,
   faCode,
   faPencilRuler,
-  faEllipsisH
+  faEllipsisH,
+  faProjectDiagram
   )
   export default function (Vue, { router, head, isClient }) {
     // Set default layout as a global componentÒ
     Vue.component('Layout', DefaultLayout)
     Vue.component('font-awesome', FontAwesomeIcon)
-    head.htmlAttrs = { lang: 'fr' }
-}
+    head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }
+  }

@@ -3,7 +3,7 @@
     <div class="fr-header__body">
       <div class="fr-container">
         <div class="fr-header__body-row">
-          <div class="fr-header__brand fr-enlarge-link">
+          <div class="fr-header__brand">
             <div class="fr-header__brand-top">
               <div class="fr-header__logo">
                 <p class="fr-logo">
@@ -16,9 +16,22 @@
                 </button>
               </div>
             </div>
-            <div class="fr-header__service">
-              <a href="/" title="Retour à l’accueil DesignGouv"  class="fr-header__service-title  text-highlight">DesignGouv</a>
-              <p class="fr-header__service-tagline">Par le pôle Design des services numériques</p>
+            <div class="fr-header__operator">
+              <g-link to="/">
+                <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" aria-label="Accueil - DesignGouv, par le pôle design des services numériques"/>
+              </g-link>
+            </div>
+          </div>
+          <div class="fr-header__tools">
+            <div class="fr-header__tools-links">
+              <ul class="fr-links-group">
+                <li>
+                  <g-link class="fr-link fr-fi-information-line" to="/a-propos/">Qui sommes-nous</g-link>
+                </li>
+                <!-- <li>
+                  <button class="fr-link fr-fi-theme-fill fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d'affichage</button>
+                </li> -->
+              </ul>
             </div>
           </div>
         </div>
@@ -38,43 +51,3 @@
     }
   }
 </script>
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .fr-header {
-    box-shadow: none !important;
-    margin: 0 0 16px 0 !important;
-
-    .fr-header__body {
-      margin: 0 auto;
-
-      .fr-header {
-        &__service-title {
-          font-size: 2rem;
-          font-weight: 800;
-          color: $blue;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            font-size: 1.5rem;
-          }
-        }
-
-        &__service-tagline {
-          font-size: 0.875rem;
-          margin-left: 0.125rem;
-          margin-top: 0.125rem;
-          font-weight: bold;
-        }
-      }
-
-      .fr-header__navbar {
-        @media only screen and (max-width: $mobile-max-width) {
-          margin-top: 0.5rem;
-        }
-      }
-    }
-  }
-
-</style>

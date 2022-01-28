@@ -2,7 +2,7 @@
 title: Les applications mobiles sont concernées par le RGAA
 slug: 2021-06-23-rgaa-mobile
 publishedDate: 2021-06-23
-tags: ["", ""]
+tags: ["RGAA", "accessibilité"]
 illustration: ./illustrations/2021-03-21-evenement-design.jpg
 description: Comme pour les sites web, les applications mobiles doivent se mettre en conformité avec le Référentiel général d’amélioration de l’accessibilité.
 ---
@@ -28,4 +28,3 @@ Vous pouvez vous appuyer :
 * les recommandations android et ios
 
 L’État du Luxembourg a élaboré [un référentiel d’évaluation](https://accessibilite.public.lu/fr/raam1/index.html){un référentiel d’évaluation - nouvelle fenêtre} et propose une [méthode technique](https://accessibilite.public.lu/fr/raam1/referentiel-technique.html){méthode technique - nouvelle fenêtre}.
-

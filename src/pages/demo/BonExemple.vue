@@ -1,20 +1,10 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w fr-pt-4w">
 
-    <div class="cover">
-     <div class="cover__container">
+      <h1>Erreurs corrigées !</h1>
+      <p>Cette page est la version corrigée de la page <a href="./mauvais-exemple/">Trouve les erreurs</a>.</p>
 
-       <h1 class="text-highlight">Erreurs corrigées !</h1>
-
-      </div>
-
-      <p class="cover__subtitle">
-        Cette page est la version corrigée de la page <a href="../mauvais-exemple/">Trouve les erreurs</a>.
-      </p>
-
-    </div>
-
-    <div class="content">
       <section class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12">
         <h2>Tout savoir sur la bicyclette</h2>
@@ -26,34 +16,34 @@
       <img src="/assets/images/bike.png" style="width:100%" class="" alt=""  />
 
       <section class="fr-accordion">
-          <div class="fr-accordion__title fr-content-media__transcription">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-bike">Voir la description de l’image</button>
-          </div>  
-          <div class="fr-collapse" id="accordion-bike">
-              <h3>L’anatomie d’une bicyclette</h3>
-              <p>Voici la liste des principaux composants d’une bicyclette :</p>
-              <ul>
-                <li>jantes</li>
-                <li>rayons</li>
-                <li>moyeux</li>
-                <li>attaches rapides</li>
-                <li>cocottes de frein</li>
-                <li>cables de frein</li>
-                <li>potence</li>
-                <li>cintre</li>
-                <li>bouchons de cintre</li>
-                <li>ruban de cintre</li>
-                <li>fourche</li>
-                <li>cadre</li>
-                <li>selle</li>
-                <li>tige de selle</li>
-                <li>étriers de frein</li>
-                <li>cables de frein</li>
-                <li>dérailleur avant</li>
-                <li>...</li>
-              </ul>  
-          </div>
-      </section>      
+        <div class="fr-accordion__title fr-content-media__transcription">
+          <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-bike">Voir la description de l’image</button>
+        </div>
+        <div class="fr-collapse" id="accordion-bike">
+          <h3>L’anatomie d’une bicyclette</h3>
+          <p>Voici la liste des principaux composants d’une bicyclette :</p>
+          <ul>
+            <li>jantes</li>
+            <li>rayons</li>
+            <li>moyeux</li>
+            <li>attaches rapides</li>
+            <li>cocottes de frein</li>
+            <li>cables de frein</li>
+            <li>potence</li>
+            <li>cintre</li>
+            <li>bouchons de cintre</li>
+            <li>ruban de cintre</li>
+            <li>fourche</li>
+            <li>cadre</li>
+            <li>selle</li>
+            <li>tige de selle</li>
+            <li>étriers de frein</li>
+            <li>cables de frein</li>
+            <li>dérailleur avant</li>
+            <li>...</li>
+          </ul>
+        </div>
+      </section>
       <section class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12">
           <h2>Tout savoir sur le RGAA</h2>
@@ -68,7 +58,7 @@
         <div class="fr-col-md-8 fr-col-sm-12">
           <form action="#" method="post" rel="noreferrer noopener">
             <fieldset><legend><h3>Inscrivez-vous à notre lettre d’information</h3></legend>
-            
+
 
             <div class="form-group fr-mt-4w">
               <label class="fr-label" for="mail">Votre adresse électronique (obligatoire)</label>
@@ -103,16 +93,14 @@
             </fieldset>
           </form>
         </div>
-      </section>  
+      </section>
 
     </div>
-
   </Layout>
 </template>
 
 
 <script>
-
   export default {
     metaInfo: {
       title: "Page de bons exemples",
@@ -123,14 +111,13 @@
       }],
     }
   }
-
 </script>
 
-<style lang="scss">
-  @import "src/assets/scss/_vars.scss";
-  
+
+<style scoped lang="scss">
+
   section.fixed-width {
-    width: 36em;  
+    width: 36em;
     text-align: justify;
     margin: auto;
 
@@ -139,14 +126,13 @@
       text-decoration: none;
     }
   }
-    h3 {
-    color: black;
-  }
+
   .jaune {
     background-color: yellow;
   }
+
   .indicates-required {
     text-align: right;
   }
-</style>
 
+</style>

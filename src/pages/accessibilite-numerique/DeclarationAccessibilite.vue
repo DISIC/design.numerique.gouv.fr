@@ -1,33 +1,24 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Déclaration d’accessibilité</span>
-        </li>
-      </ol>
-    </nav>
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Déclaration d’accessibilité</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Déclaration d’accessibilité</h1>
-
-      </div>
-    </div>
-
-    <div class="content">
+      <h1>Déclaration d’accessibilité</h1>
 
       <section>
-
         <h2>
           Contenu de la déclaration d’accessibilité
         </h2>
@@ -48,6 +39,7 @@
         </ul>
         <p>Voici un exemple de déclaration d’accessibilité <a href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-exemple-declaration.pdf" title="Exemple de déclaration d'accessibilité au format pdf - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">au format pdf</a> ou <a href="/outils/exemple-declaration-accessibilite/" title="Exemple de déclaration d'accessibilité au format html">au format html</a>.</p>
       </section>
+
       <section>
         <h2>Validité de la déclaration d’accessibilité</h2>
         <p>La déclaration d’accessibilité est valide à partir de sa date de publication. Elle doit être mise à jour :</p>
@@ -58,6 +50,7 @@
         </ul>
         <p>Il peut cependant être souhaitable de mettre à jour plus régulièrement la déclaration d’accessibilité, y compris pour une même version de la méthode technique, afin de souligner les efforts réalisés et de mettre à jour le pourcentage de critères respectés.</p>
       </section>
+
       <section>
         <h2>Publication de la déclaration d’accessibilité</h2>
         <p>La déclaration d’accessibilité est publiée sur internet dans un format accessible.</p>
@@ -66,6 +59,7 @@
         <p>Pour les autres services de communication au public en ligne, elle est disponible sur le site internet des organismes responsables de leur gestion ou de leur mise à disposition.</p>
         <p>La déclaration d’accessibilité fait l’objet d’un dépôt par le biais d’un téléservice selon les modalités arrêtées conjointement par le ministre chargé des personnes handicapées et le ministre chargé du numérique.</p>
       </section>
+
       <section>
         <h2>Réponse aux usagers</h2>
         <p>L’organisme concerné fournit en ligne aux utilisateurs la possibilité de faire des réclamations relatives à l’accessibilité de ses services de communication au public en ligne. Il accuse réception de ces réclamations conformément aux dispositions de l’article R112-3 du code des relations entre le public et l’Administration. L’accusé de réception comporte les informations mentionnées à l’article R112-5 du même code.</p>
@@ -75,40 +69,30 @@
       </section>
 
     </div>
-
   </Layout>
 </template>
 
+
 <script>
-
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
-export default {
-  components: {
-    Accessibilite,
-  },
-  metaInfo: {
-    title: "Déclaration d‘accessibilité",
-    meta: [{
-      name: 'description',
-      content: "La déclaration d’accessibilité est le résultat d’une évaluation effective de la conformité du service de communication au public en ligne à la norme de référence."
-    },
-    {
-      property: 'og:title',
-      content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
-    },
-    {
-      property: 'og:description',
-      content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
-    },
-    {
-      property: 'og:image',
-      content: "https://design.numerique.gouv.fr/designGouv.png"
-    }],
+  export default {
+    metaInfo: {
+      title: "Déclaration d‘accessibilité",
+      meta: [{
+        name: 'description',
+        content: "La déclaration d’accessibilité est le résultat d’une évaluation effective de la conformité du service de communication au public en ligne à la norme de référence."
+      },
+      {
+        property: 'og:title',
+        content: "Les outils pour le design numérique et l'accessibilité - DesignGouv"
+      },
+      {
+        property: 'og:description',
+        content: "Découvrez les outils pour améliorer vous-même la qualité de vos démarches."
+      },
+      {
+        property: 'og:image',
+        content: "https://design.numerique.gouv.fr/designGouv.png"
+      }],
+    }
   }
-}
 </script>
-
-<style lang="scss">
-
-</style>

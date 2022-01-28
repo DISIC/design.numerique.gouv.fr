@@ -18,7 +18,7 @@
             </div>
             <div class="fr-header__operator">
               <g-link to="/">
-                <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" role="img" aria-labelledby="Accueil - DesignGouv, par le pôle design des services numériques"/>
+                <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" role="img" aria-label="Accueil - DesignGouv, par le pôle design des services numériques"/>
               </g-link>
             </div>
           </div>

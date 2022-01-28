@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Icones" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-741.000000, -313.000000)" fill="var(--text-title-grey)">
+            <g id="article" transform="translate(741.000000, 313.000000)">
+                <path d="M45.5,41 C47.4329966,41 49,42.5670034 49,44.5 C49,46.4329966 47.4329966,48 45.5,48 L34.5,48 C32.5670034,48 31,46.4329966 31,44.5 C31,42.5670034 32.5670034,41 34.5,41 L45.5,41 Z M45.5,32 C47.4329966,32 49,33.5670034 49,35.5 C49,37.4329966 47.4329966,39 45.5,39 L34.5,39 C32.5670034,39 31,37.4329966 31,35.5 C31,33.5670034 32.5670034,32 34.5,32 L45.5,32 Z" id="Forme"></path>
+            </g>
+        </g>
+    </g>
+</svg>

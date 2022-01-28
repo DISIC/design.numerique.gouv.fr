@@ -1,95 +1,88 @@
 <template>
-<Layout hideNewsletter>
+  <Layout>
 
-  <nav aria-label="Breadcrumb" class="fr-breadcrumb">
-    <ol class="fr-breadcrumb__list">
-      <li>
-        <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-      </li>
-      <li>
-        <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
-      </li>
-      <li>
-        <span aria-current="page">Formation Simplification de l'information aux usagers</span>
-      </li>
-    </ol>
-  </nav>
-
-  <div class="cover">
-      <div class="cover__container">
-        <!-- <div class="cover__subhead"><Formations class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Formations</div> -->
-        <h1>Formation Simplification de l'information aux usagers</h1>
-        <p class="cover__subtitle">
-          Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau.
-        </p>
-      </div>
-  </div>
-
-  <div class="content fr-container">
-    <div class="fr-grid-row fr-grid-row--center">
-        <div class="fr-col-12 fr-col-md-8">
-          <h2>Jeudi 17 février de 10h à 12h</h2>
-          <p>En <a href="https://www.youtube.com/c/DesignGouv" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
-
-          <h3>Objectifs</h3>
-          <ul>
-            <li>Proposer une information adaptée aux usagers</li>
-            <li>Prendre en compte la façon dont l’information est traitée</li>
-            <li>Connaître les principes de simplification</li>
-            <li>Appliquer une méthodologie de simplification centrée usager</li>
-          </ul>
-
-          <h3>Public concerné</h3>
-          <p>Agents de la fonction publique ou prestataires impliqués dans la conception des services numériques publics.</p>
-
-          <h3>Programme</h3>
-          <ol>
-            <li>Enjeux de simplification de l’information</li>
-            <li>Comment le cerveau traite l’information</li>
-            <li>Principes de conception d’une information adaptée</li>
-            <li>Méthodologie de simplification centrée usager</li>
-            <li>Conclusion</li>
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav aria-label="Breadcrumb" class="fr-breadcrumb">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Formation Simplification de l'information aux usagers</span>
+            </li>
           </ol>
-          <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-          <p>N'oubliez pas, nous proposons quatres autres formations à (re)visionner : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
-
-          <h2>Inscription</h2>
-          <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
-           <p class="fr-text--xs">Tous les champs du formulaire sont obligatoires.</p>
-          <form class="form" v-on:submit.prevent="addParticipant">
-              <div class="fr-input-group">
-                  <label class="fr-label" for="email">Votre adresse e-mail<span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
-                  <input class="fr-input" type="email" id="email" v-model="form.email" required>
-              </div>
-              <div class="fr-input-group">
-                  <label class="fr-label" for="organisme">Votre organisme</label>
-                  <input class="fr-input" type="text" id="organisme" v-model="form.organisme" required>
-              </div>
-
-              <p class="rgpd">
-                Les données recueillies sur ce formulaire sont traitées par les équipes de la DINUM. Elles nous permettent de vous informer via e-mail des nouvelles liées à cet événement.
-              </p>
-
-              <p class="rgpd rgpd--small">
-                Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.
-              </p>
-
-              <button class="button button--strong" id="submit" type="submit">S'inscrire</button>
-          </form>
-        </div>
+        </nav>
+        <p class="fr-badge fr-badge--new fr-mb-2w">En direct le 17 février</p>
+        <h1 class="dg-cover__title">Formation Simplification de l'information aux usagers</h1>
+        <p class="fr-text--lead">Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau.</p>
       </div>
     </div>
 
-</Layout>
+    <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
+      <h2>Jeudi 17 février de 10h à 12h</h2>
+      <p>En <a href="https://www.youtube.com/c/DesignGouv" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
+
+      <h3>Objectifs</h3>
+      <ul>
+        <li>Proposer une information adaptée aux usagers</li>
+        <li>Prendre en compte la façon dont l’information est traitée</li>
+        <li>Connaître les principes de simplification</li>
+        <li>Appliquer une méthodologie de simplification centrée usager</li>
+      </ul>
+
+      <h3>Public concerné</h3>
+      <p>Agents de la fonction publique ou prestataires impliqués dans la conception des services numériques publics.</p>
+
+      <h3>Programme</h3>
+      <ol>
+        <li>Enjeux de simplification de l’information</li>
+        <li>Comment le cerveau traite l’information</li>
+        <li>Principes de conception d’une information adaptée</li>
+        <li>Méthodologie de simplification centrée usager</li>
+        <li>Conclusion</li>
+      </ol>
+
+      <h3>Formatrice</h3>
+      <div class="person">
+        <g-image src="~/assets/images/team-photos/camille-rozier.jpg" width="120" alt="" class="person__photo"/>
+        <p class="person__description">
+          <strong class="person__name">Camille Rozier</strong><br>
+          Cheffe de projet simplification et sciences comportementales à la Direction interministérielle de la transformation publique (DITP)
+        </p>
+      </div>
+
+
+      <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
+      <p>N'oubliez pas, nous proposons quatre autres formations à (re)visionner : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
+
+      <h2>Inscription</h2>
+      <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
+      <p><small>Tous les champs du formulaire sont obligatoires.</small></p>
+      <form class="form" v-on:submit.prevent="addParticipant">
+        <div class="fr-input-group">
+          <label class="fr-label" for="email">Votre adresse e-mail<span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
+          <input class="fr-input" type="email" id="email" v-model="form.email" required>
+        </div>
+        <div class="fr-input-group">
+          <label class="fr-label" for="organisme">Votre organisme</label>
+          <input class="fr-input" type="text" id="organisme" v-model="form.organisme" required>
+        </div>
+        <p><small>Les données recueillies sur ce formulaire sont traitées par les équipes de la DINUM. Elles nous permettent de vous informer via e-mail des nouvelles liées à cet événement.</small></p>
+        <p><small>Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.</small></p>
+        <button class="fr-btn" id="submit" type="submit">S'inscrire</button>
+      </form>
+    </div>
+
+  </Layout>
 </template>
 
 
 <script>
-  import Formations from "~/assets/images/formations.svg"
   export default {
-    components: {
-      Formations,
-    },
     metaInfo: {
       title: "Formation Simplification de l'information aux usagers",
       meta: [{
@@ -166,3 +159,30 @@
   },
 }
 </script>
+
+
+<style scoped lang="scss">
+
+  @import "src/assets/scss/_vars.scss";
+
+  .person {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+
+    &__photo {
+      height: 7rem;
+      width: 7rem;
+      border-radius: 50%;
+      margin-right: 2rem;
+      flex-basis: auto;
+    }
+
+    &__description {
+      flex-basis: 20rem;
+      margin: 0.5rem 0;
+    }
+  }
+
+</style>

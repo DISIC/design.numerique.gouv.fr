@@ -73,7 +73,7 @@
 
 <page-query>
   query {
-    allPeople (sortBy: "lastName", order: ASC) {
+    allPeople (filter: { group: { containsAny: ["team", "external"] }}, sortBy: "lastName", order: ASC) {
       edges {
         node {
         	id

@@ -24,7 +24,7 @@
 
     <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
       <h2>Jeudi 17 février de 10h à 12h</h2>
-      <p>En <a href="https://www.youtube.com/c/DesignGouv" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a>.</p>
+      <p>En <a href="https://www.youtube.com/c/DesignGouv" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a> avec transcription par vélotypie.</p>
 
       <h3>Objectifs</h3>
       <ul>

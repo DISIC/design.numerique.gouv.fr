@@ -25,23 +25,32 @@
         <li><a href="/accessibilite-numerique/RGAA/">Le Référentiel général d'amélioration de l'accessibilité</a></li>
         <li><a href="/accessibilite-numerique/schema-pluriannuel/">Schéma pluriannuel de mise en accessibilité</a></li>
         <li><a href="/accessibilite-numerique/declaration-accessibilite/">Déclaration d'accessibilité</a></li>
-        <li><a href="/accessibilite-numerique/accord-cadre-dae/">Accord-cadre interministériel</a></li>
+        <li><a href="/accessibilite-numerique/prestations-accessibilite-numerique/">Faire appel à un prestataire</a></li>
         </ul>
         <h2><a href="/accompagnement/">Nos offres d’accompagnement</a></h2>
         <h2><a href="/outils/">Outils</a></h2>
         <ul>
         <li><a href="/accessibilite-numerique/jeu-de-oaa/">Organiser l’amélioration de l‘accessibilité</a></li>
+          <li><a href="/accessibilite-numerique/roles-cles/">Les fiches métiers</a></li>
+        <li><a href="/outils/diagnostic-flash/">Le diagnostic flash</a></li>
         <li><a href="/outils/checklist-dev/">La checklist des développeurs et développeuses</a></li>
         <li><a href="/outils/memo-dev/">Le mémo développement</a></li>
-        <li><a href="/outils/diagnostic-flash/">Le diagnostic flash</a></li>
         <li><a href="/outils/audit-rapide/">L‘audit rapide RGAA</a></li>
         <li><a href="/outils/exemple-declaration-accessibilite/">Un exemple de déclaration d’accessibilité prêt à remplir</a></li>
         </ul>
         <h2><a href="/formations/">Formations</a></h2>
+        <ul>
+          <li><a href="/formations/simplification-information/">Formation Simplification de l'information aux usagers</a></li>
+          <li><a href="/formations/accessibilite/">Formation à l’accessibilité</a></li>
+          <li><a href="/formations/design/">Formation au design
+</a></li>
+          <li><a href="/formations/recherche-utilisateur/">Formation à la recherche utilisateur</a></li>
+          <li><a href="/formations/ecoconception/">Formation à l’écoconception</a></li>
+          </ul>
         <h2><a href="/articles/">Articles</a></h2>
         <h2>Et </h2>
         <ul>
-          <li><a href="/equipe/">Notre équipe</a></li>
+          <li><a href="/a-propos/">Notre équipe</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/recrutement/">Recrutement</a></li>
           <li><a href="/misc/accessibilite/">Accessibilité</a></li>

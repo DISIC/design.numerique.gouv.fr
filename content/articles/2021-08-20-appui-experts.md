@@ -41,13 +41,13 @@ En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pa
 
 Un autre besoin ? Demandez-nous !
 
-### D'autres l'ont fait avant vous, et nous ont dit :  
+### D'autres l'ont fait avant vous, et nous ont dit&nbsp;:  
 - « Vous avez une organisation au top, et on sera ravi de poursuivre l'aventure en 2021. »
 - « Un apport réellement bénéfique et opérationnel y compris pour une équipe déjà en place ou déjà sensibilisée à l’UX et l’accessibilité. »
 - « Le niveau d’expertise du Commando a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
 
 
-### Concrètement, ça se passe comment ?
+### Concrètement, ça se passe comment&nbsp;?
 
 1. Vous nous écrivez à experts@design.numerique.gouv.fr en indiquant la ou les démarches administratives concernées
 2. Nous nous rencontrons pour définir le type de ressources dont vous pourrez bénéficier et nous fixons ensemble les objectifs

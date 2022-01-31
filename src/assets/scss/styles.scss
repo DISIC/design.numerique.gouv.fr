@@ -2,10 +2,12 @@
 
 html {
     overflow-x: auto;
+}
 
-    @media only screen and (max-width: $sm-point) {
-      word-break: break-word;
-    }
+main {
+  @media only screen and (max-width: $sm-point) {
+    word-break: break-word;
+  }
 }
 
 .dg {

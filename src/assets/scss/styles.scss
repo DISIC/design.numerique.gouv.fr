@@ -49,25 +49,23 @@ html {
     margin-left: -50vw;
     left: 50%;
 
-    background-color: var(--background-alt-pink-macaron);
+    background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
     background: conic-gradient(from 90deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
     @media (prefers-color-scheme: dark) {
-      background: var(--background-alt-grey);
+      background: var(--background-default-grey);
     }
 
     &--linear {
-      background-color: var(--background-alt-pink-macaron);
       background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
       @media (prefers-color-scheme: dark) {
-        background-color: var(--background-alt-grey);
-        background: var(--background-alt-grey);
+        background: var(--background-alt-pink-macaron);
       }
     }
 
     &__inner {
       background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 80%, var(--background-default-grey) 100%);
       @media (prefers-color-scheme: dark) {
-        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 80%, var(--background-default-grey) 100%);
+        background: none;
       }
     }
 
@@ -121,15 +119,15 @@ html {
   }
 
   &-block {
-    background-color: var(--background-alt-pink-macaron);
+    background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
     background: conic-gradient(from 180deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
     @media (prefers-color-scheme: dark) {
-      background: var(--background-alt-grey);
+      background: var(--background-alt-pink-macaron);
     }
   }
 
   &-picto {
-    background-color: var(--background-contrast-green-tilleul-verveine);
+    background: linear-gradient(270deg, var(--green-tilleul-verveine-950-100) 20%, var(--pink-macaron-950-100) 80%);
     background: conic-gradient(from 135deg, var(--green-tilleul-verveine-950-100), var(--pink-macaron-950-100), var(--green-tilleul-verveine-950-100));
     border-radius: 50%;
     width: 3.5rem;

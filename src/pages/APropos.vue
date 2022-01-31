@@ -34,7 +34,7 @@
         <h2>Notre équipe</h2>
         <ul class="dg-team">
           <li v-for="{ node } in team" :key="node.id" class="dg-team-member">
-            <img class="dg-team-member__photo fr-responsive-img" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
+            <g-image class="dg-team-member__photo fr-responsive-img" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
             <h3 class="dg-team-member__name fr-h6">{{ node.firstName }} {{ node.lastName }}</h3>
             <p class="dg-team-member__title">{{ node.job_title }}</p>
             <p v-if="node.sub_team_link" class="dg-team-member__team">
@@ -52,7 +52,7 @@
         <h2>En appui</h2>
         <ul class="dg-team">
           <li v-for="{ node } in external" :key="node.id" class="dg-team-member">
-            <img class="dg-team-member__photo fr-responsive-img" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
+            <g-image class="dg-team-member__photo fr-responsive-img" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
             <h3 class="dg-team-member__name fr-h6">{{ node.firstName }} {{ node.lastName }}</h3>
             <p class="dg-team-member__title">{{ node.job_title }}</p>
             <p v-if="node.sub_team_link" class="dg-team-member__team">
@@ -73,7 +73,7 @@
 
 <page-query>
   query {
-    allPeople (sortBy: "lastName", order: ASC) {
+    allPeople (filter: { group: { containsAny: ["team", "external"] }}, sortBy: "lastName", order: ASC) {
       edges {
         node {
         	id

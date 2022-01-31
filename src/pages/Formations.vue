@@ -24,7 +24,7 @@
         <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons des formations gratuites et indispensables&nbsp;:</p>
 
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-          <div class="fr-col-md-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -34,7 +34,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-md-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -44,7 +44,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-md-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -54,7 +54,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-md-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -64,7 +64,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-md-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">

@@ -5,7 +5,7 @@
     <div class="fr-container">
         <div class="footer fr-footer__body fr-footer__body--operator">
             <div class="fr-footer__brand">
-                <p class="fr-logo" title="république française">
+                <p class="fr-logo">
                     république
                     <br>française
                 </p>

@@ -62,7 +62,7 @@
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/meta-images/designgouv.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
       }],
     }
   }

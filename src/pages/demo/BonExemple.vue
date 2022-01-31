@@ -3,7 +3,7 @@
     <div class="dg-content fr-px-2w fr-pt-4w">
 
       <h1>Erreurs corrigées !</h1>
-      <p>Cette page est la version corrigée de la page <a href="./mauvais-exemple/">Trouve les erreurs</a>.</p>
+      <p>Cette page est la version corrigée de la page <a href="../mauvais-exemple/">Trouve les erreurs</a>.</p>
 
       <section class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12">

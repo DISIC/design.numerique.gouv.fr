@@ -36,8 +36,7 @@
       <section>
         <h2>Directeur de publication</h2>
         <p>
-          Pour les sujets relevant de la DINUM (transformation numérique de l’État) :
-          Nadi Bou Hanna, directeur interministériel du numérique.
+          Xavier Albouy, directeur interministériel du numérique par interim.
         </p>
       </section>
 

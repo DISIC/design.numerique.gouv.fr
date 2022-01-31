@@ -15,7 +15,7 @@
 
       <section class="dg-block fr-mt-8w fr-px-1w fr-py-6w">
         <div class="dg-content fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
@@ -28,7 +28,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
@@ -48,7 +48,7 @@
         <h2 class="dg-section-with-link_title">Nos offres</h2>
         <g-link class="dg-section-with-link__link fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link>
         <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -61,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -74,7 +74,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -87,7 +87,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
@@ -105,7 +105,7 @@
 
       <section class="dg-block fr-mt-8w fr-px-1w fr-py-6w">
         <div class="dg-content fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
@@ -118,7 +118,7 @@
               </div>
             </div>
           </div>
-          <div class="fr-col-sm-6">
+          <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
@@ -138,7 +138,7 @@
         <h2 class="dg-section-with-link_title">Nos articles</h2>
         <g-link class="dg-section-with-link__link fr-link fr-link--lg fr-fi-arrow-right-line fr-link--icon-right" to="/articles/">Voir tous nos articles</g-link>
         <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
+          <div class="fr-col-12 fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
             <div class="fr-card fr-enlarge-link" >
               <div class="fr-card__body">
                   <h3 class="fr-card__title">

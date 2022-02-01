@@ -6,7 +6,7 @@ order: 0
 
 Le [Règlement (UE) 2018/1724 du Parlement européen et du Conseil du 2 octobre 2018 établissant un portail numérique unique (PNU)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e33-1-1) a pour objectif de diriger les citoyens et entreprises de l’Union européenne vers des informations de qualité sur les règles, les droits et les procédures nationales et européennes qui s’appliquent à eux dans le cadre du marché unique, ainsi que vers les sites où ils peuvent effectuer ces procédures en lignes. Ce portail viendra enrichir [le portail « Your Europe »](https://europa.eu/youreurope/index_fr.htm), déjà disponible.
 
-<div class="fr-callout">
+<div class="fr-callout fr-mb-2w">
 	<p class="fr-callout__title">Ce que dit le Règlement</p>
 	<p class="fr-callout__text">
 		Le portail donne accès […][à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne […] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur. […] Les États membres font en sorte que, lorsqu’une procédure […] établie au niveau national est accessible en ligne aux utilisateurs non transfrontières et peut être accomplie en ligne par ceux-ci, cette procédure soit également accessible en ligne aux utilisateurs transfrontières et puisse être accomplie en ligne par ceux-ci sans discrimination au moyen de la même solution technique ou d’une autre solution technique.
@@ -20,7 +20,7 @@ Il ne sera question ici ni du pilier I (pages d’information), suivi par la Dir
 Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais) :
 [Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
 
-<div class="fr-highlight">
+<div class="fr-highlight fr-mb-2w">
     <p>Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (Once Only Principle), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont l’Acte d’exécution est encore en cours de discussion ; par ailleurs, il est porté par d’autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
     </p>
 </div> 

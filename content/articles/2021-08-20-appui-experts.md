@@ -10,7 +10,7 @@ description: L'équipe DSN met à votre disposition designers, et experts en rec
 ## Soyez l’une des équipes qui bénéficiera de notre accompagnement !
 ### N’attendez pas, écrivez-nous
 
-Si vous êtes responsable d’une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
+Si vous êtes responsable d’une démarche suivie dans l’[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne ;
 
 Si votre couleur préférée est le vert, que l’orange et le rouge vous donnent de l’urticaire, surtout quand ils sont associés à des critères de l’[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} ;
 
@@ -35,17 +35,16 @@ En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pa
 - Identification de « quick wins » (améliorations rapides) sur tous les sujets
 - Audit d’accessibilité
 - Audit « Dites-le-nous une fois » (on vous aide à identifier les APIs qui peuvent vous aider à simplifier la démarche)
-- Recherche utilisateur avec vos usagers, comme par exemple des tests d’utilisabilité (recrutement des usagers, rédaction des déroulés, analyse)
+- Recherche utilisateur avec vos usagers, par exemple des tests d’utilisabilité (recrutement des usagers, rédaction des déroulés, analyse)
 - Design de tout ou partie du parcours de votre démarche en ligne (ou des petites évolutions)
 - Simplification du langage
 
 Un autre besoin ? Demandez-nous !
 
-### D'autres l’ont fait avant vous, et nous ont dit :  
+### D’autres l’ont fait avant vous, et nous ont dit :  
 - « Vous avez une organisation au top, et on sera ravi de poursuivre l’aventure en 2021. »
 - « Un apport réellement bénéfique et opérationnel y compris pour une équipe déjà en place ou déjà sensibilisée à l’UX et l’accessibilité. »
 - « Le niveau d’expertise du Commando a eu un effet déclic dans une équipe projet qui peinait à définir les priorités pour atteindre les objectifs de mise en accessibilité de la démarche. »
-
 
 ### Concrètement, ça se passe comment ?
 

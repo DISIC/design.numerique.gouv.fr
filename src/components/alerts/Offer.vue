@@ -1,7 +1,7 @@
 <template>
 
   <div class="dg-content fr-px-2w fr-mt-6w">
-    <div class="fr-callout fr-callout--pink-macaron fr-fi-information-line">
+    <div class="fr-callout fr-callout--purple-glycine fr-fi-information-line">
       <h2 class="fr-callout__title">Vous avez besoin d’aide&nbsp;?</h2>
       <p class="fr-callout__text">
         Vous êtes une administration et vous souhaitez améliorer l’expérience usager (UX) et l’accessibilité de l’un de vos services ? Nous pouvons vous accompagner&nbsp;!

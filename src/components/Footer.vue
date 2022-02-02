@@ -33,9 +33,9 @@
         </div>
        <div class="fr-footer__bottom">
             <ul class="fr-footer__bottom-list">
-                <li class="fr-footer__bottom-item">
+                <!-- <li class="fr-footer__bottom-item">
                   <g-link class="fr-footer__bottom-link" to="/contact/">Contact</g-link>
-                </li>
+                </li> -->
                 <li class="fr-footer__bottom-item">
                   <g-link class="fr-footer__bottom-link" to="/misc/plan-du-site/">Plan du site</g-link>
                 </li>

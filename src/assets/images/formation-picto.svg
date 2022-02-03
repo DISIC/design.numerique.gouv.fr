@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-3" transform="translate(-804.000000, -1908.000000)" fill="var(--text-title-grey)">
+            <g id="Group-14" transform="translate(142.000000, 1812.000000)">
+                <g id="Group-5-Copy" transform="translate(510.000000, 64.000000)">
+                    <g id="accessibilite-copy" transform="translate(152.000000, 32.000000)">
+                        <path d="M40.5,41 C42.4329966,41 44,42.5670034 44,44.5 C44,46.4329966 42.4329966,48 40.5,48 L34.5,48 C32.5670034,48 31,46.4329966 31,44.5 C31,42.5670034 32.5670034,41 34.5,41 L40.5,41 Z M45.5,32 C47.4329966,32 49,33.5670034 49,35.5 C49,37.4329966 47.4329966,39 45.5,39 L39,39 C37.0670034,39 35.5,37.4329966 35.5,35.5 C35.5,33.5670034 37.0670034,32 39,32 L45.5,32 Z" id="Forme"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

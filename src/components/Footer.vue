@@ -4,14 +4,13 @@
 <footer class="fr-footer" role="contentinfo" id="footer">
     <div class="fr-container">
         <div class="footer fr-footer__body fr-footer__body--operator">
-            <div class="fr-footer__brand fr-enlarge-link">
-                <p class="fr-logo" title="république française">
+            <div class="fr-footer__brand">
+                <p class="fr-logo">
                     république
                     <br>française
                 </p>
-                <g-link to="/" class="fr-footer__brand-link footer__logo" title="DesignGouv - Retour à l’accueil">
-                  <p class="footer__dg-title text-highlight">DesignGouv</p>
-                  <p class="footer__dg-tagline">Par le pôle Design des services numériques</p>
+                <g-link class="fr-footer__brand-link" to="/">
+                  <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" aria-label="Accueil - DesignGouv, par le pôle design des services numériques"/>
                 </g-link>
             </div>
             <div class="fr-footer__content ">
@@ -38,9 +37,6 @@
                   <g-link class="fr-footer__bottom-link" to="/contact/">Contact</g-link>
                 </li>
                 <li class="fr-footer__bottom-item">
-                  <g-link class="fr-footer__bottom-link" to="/equipe/">Notre équipe</g-link>
-                </li>
-                <li class="fr-footer__bottom-item">
                   <g-link class="fr-footer__bottom-link" to="/misc/plan-du-site/">Plan du site</g-link>
                 </li>
                 <li class="fr-footer__bottom-item">
@@ -52,7 +48,14 @@
                 <li class="fr-footer__bottom-item">
                   <g-link class="fr-footer__bottom-link"  to="/misc/donnees-personnelles/">Données personnelles et cookies</g-link>
                 </li>
+                <!-- <li class="fr-footer__bottom-item">
+                  <button class="fr-footer__bottom-link fr-fi-theme-fill fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d'affichage</button>
+                </li> -->
             </ul>
+            <div class="fr-footer__bottom-copy">
+                <p>Sauf mention contraire, tous les contenus de ce site sont sous <a href="https://github.com/etalab/licence-ouverte/blob/master/LO.md" target="_blank">licence etalab-2.0</a>
+                </p>
+            </div>
         </div>
     </div>
 </footer>
@@ -81,47 +84,3 @@
   }
 
 </static-query>
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .fr-footer {
-
-    border-color: $blue !important;
-
-    ul > li {
-      padding: 0;
-    }
-
-    .footer {
-
-      .fr-footer__brand-link, .fr-footer__content-link {
-        border-bottom: none !important;
-      }
-
-      .footer__dg-title {
-        margin: 0;
-        font-size: 2rem;
-        font-weight: 800;
-        color: $blue;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 1.5rem;
-          margin-top: 16px;
-        }
-      }
-
-      .footer__dg-tagline {
-        margin-left: 0.125rem;
-        margin-top: 0.5rem;
-        font-weight: bold;
-        color: var(--g700);
-        font-size: 0.875rem;
-        font-family: "Marianne", "Helvetica Neue", Arial, sans-serif;
-      }
-    }
-  }
-
-</style>

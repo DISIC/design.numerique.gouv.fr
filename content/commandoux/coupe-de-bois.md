@@ -9,18 +9,16 @@ procedures: [
   ]
 impact: 50 000 demandes par an
 budget: 90 000
-jobs: [
-  {title: 'Designer UX/UI', count: 1},
-  ]
-team:
+jobs:
+team: ['ameziane-allioui']
 goals: [
-    {name: 'Intégration du bouton Je Donne Mon Avis (septembre 2021)', done: false},
-    {name: 'Mise en accessibilité (septembre 2021)', done: false},
-    {name: 'Amélioration de la qualité de la démarche (septembre 2021)', done: false},
+    {name: 'Intégration du bouton Je Donne Mon Avis (septembre 2021)', done: true},
+    {name: 'Mise en accessibilité (septembre 2021)', done: true},
+    {name: 'Amélioration de la qualité de la démarche (septembre 2021)', done: true},
   ]
-status: futur
+status: past
 startDate: 2021-06-01
-endDate:
+endDate: 2021-12-31
 ---
 
 ## Résumé du projet

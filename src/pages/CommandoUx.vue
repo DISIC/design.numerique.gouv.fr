@@ -1,149 +1,141 @@
 <template>
-  <Layout class="commando-ux-page">
+  <Layout showServices>
 
-    <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
-      <ol class="fr-breadcrumb__list">
-        <li>
-          <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Commando UX</span>
-        </li>
-      </ol>
-    </nav>
-
-    <div class="cover">
-     <div class="cover__container">
-
-      <h1 class="text-highlight"><CommandoUX class="h1__icon" focusable="false" aria-hidden="true"/>Commando UX</h1>
-
-      <p class="cover__subtitle">
-        Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.
-      </p>
-
+    <div class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Commando UX</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Commando UX</h1>
+        <p class="fr-text--lead">Des experts mobilisés pour améliorer l’expérience des 250&nbsp;services publics numériques les plus utilisés par les Françaises et Français.</p>
       </div>
     </div>
 
-    <div class="content">
+    <div class="dg-content fr-px-2w">
 
-      <section class="description">
-
-        <div class="description__content">
+      <section>
+        <div>
           <h2>
             Des experts au sein des administrations
           </h2>
           <p>
-            Après le succès de la <g-link to="/commando-ux/saison-1/">saison 1 du Commando UX</g-link>, nous réitérons l’aventure : déployer des experts du numérique au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
+            Après le succès de la saison 1 du Commando UX, nous réitérons l’aventure : déployer des experts du numérique au sein des administrations pour rendre <strong>plus accessibles, plus compréhensibles, et plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
           </p>
           <p>
             L’immersion de chaque Commando revêt un double bénéfice : livrer des améliorations concrètes tout en diffusant des pratiques innovantes au sein des administrations d’accueil.
           </p>
         </div>
 
-        <div class="description__actions">
-            <div class="item item--left">
-              <div class="item__content">
-                <font-awesome :icon="['fas', 'university']" class="item__icon" width="16" height="16" aria-hidden="true" />
-                <h3>Administrations de l’État</h3>
-                <p>
-                  Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
-                </p>
-              </div>
-
-              <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="item__link button button--highlight">
-                Candidater<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </a>
+        <div class="fr-grid-row fr-grid-row--gutters fr-my-4w">
+          <div class="fr-col-sm-6 fr-mb-2w">
+            <div class="dg-text-with-picto fr-mb-2w">
+              <span class="dg-picto fr-mr-2w">
+                <font-awesome :icon="['fas', 'university']" height="16px" aria-hidden="true" />
+              </span>
+              <h3 class="fr-h4">Administrations de l’État</h3>
             </div>
+            <p class="fr-mb-2w">
+              Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
+            </p>
+            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+              Candidater
+            </a>
+          </div>
 
-            <div class="item item--right">
-              <div class="item__content">
-                <font-awesome :icon="['fas', 'user-astronaut']" class="item__icon" width="16" height="16" aria-hidden="true" />
-                <h3>Experts «&nbsp;expérience utilisateur&nbsp;»</h3>
-                <p>
-                  Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
-                </p>
-              </div>
-
-              <g-link to="/commando-ux/partager-interet/" class="item__link button button--highlight">
-                Partager votre intérêt<font-awesome width="0" class="button__icon" :icon="['fas', 'arrow-right']" transform="shrink-3"/>
-              </g-link>
+          <div class="fr-col-sm-6">
+            <div class="dg-text-with-picto fr-mb-2w">
+              <span class="dg-picto fr-mr-2w">
+                <font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true" />
+              </span>
+              <h3 class="fr-h4">Experts du numérique</h3>
             </div>
+            <p class="fr-mb-2w">
+              Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
+            </p>
+            <g-link to="/commando-ux/partager-interet/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+              Partager votre intérêt
+            </g-link>
+          </div>
         </div>
       </section>
 
-      <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando saison 2
-        </h2>
+      <section class="fr-mb-6w">
+        <h2>Le commando saison&nbsp;2</h2>
         <p class="section__subtitle">
           Ce Commando fonctionnant en continu, nous avons déjà des équipes en place sur différents projets et démarches depuis mai 2021 :
         </p>
         <ul class="team">
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">2 chargées de recherche utilisateur</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'comments']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des chargées de recherche utilisateur</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">2 designers UX/UI</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'project-diagram']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des expertes et experts produits</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description">1 développeuse accessibilité</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'pencil-ruler']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des designers UX/UI</h3>
           </li>
-          <li class="team-member">
-            <span class="team-member__photo"><font-awesome :icon="['fas', 'ellipsis-h']" height="16px" aria-hidden="true"/></span>
-            <h3 class="team-member__description team-member__description--light">Et bientôt d'autres experts pour accompagner les administrations</h3>
+          <li class="dg-text-with-picto fr-mb-1w">
+            <span class="dg-picto dg-picto--sm fr-mr-3v"><font-awesome :icon="['fas', 'code']" height="16px" aria-hidden="true"/></span>
+            <h3 class="fr-h6">Des développeuses et développeurs accessibilité</h3>
           </li>
         </ul>
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les interventions
-        </h2>
+        <h2>Les interventions</h2>
+
         <p class="section__subtitle">
-          L’icône <span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
+          L’icône <span class="mission__team-member mission__team-member--open"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span> indique les interventions pour lesquelles nous recherchons des experts.
         </p>
 
         <ul class="missions">
 
-          <li v-for="{ node } in futurMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in futurMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-1w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              <ul class="mission__team fr-pt-md-1v">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--futur">À venir</p>
+              <p class="fr-badge fr-badge--pink-macaron fr-ml-md-2w">À venir</p>
             </div>
           </li>
 
-          <li v-for="{ node } in presentMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in presentMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.ghostPhoto" :alt="member.ghostName" /></li>
+              <ul class="mission__team fr-pt-md-1w">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--present">En cours</p>
+              <p class="fr-badge fr-badge--green-tilleul-verveine fr-ml-md-2w">En cours</p>
             </div>
           </li>
 
-          <li v-for="{ node } in pastMissions" :key="node.id" class="mission">
+          <li v-for="{ node } in pastMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
-              <ul class="mission__team">
-                <li v-if="node.jobs.length" ><span class="open-jobs"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
+              <ul class="mission__team fr-pt-md-1w">
+                <li v-if="node.jobs.length" ><span class="mission__team-member mission__team-member--open fr-ml-3v"><font-awesome :icon="['fas', 'user-plus']" height="16px" title="Des postes sont ouverts pour cette mission"/></span></li>
+                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="mission__status mission__status--past">Terminée</p>
+              <p class="fr-badge fr-badge--grey fr-ml-md-2w">Terminée</p>
             </div>
           </li>
 
@@ -185,13 +177,7 @@
 
 
 <script>
-
-  import CommandoUX from "~/assets/images/accompagnement.svg"
-
   export default {
-    components: {
-      CommandoUX,
-    },
     computed: {
       pastMissions: function () {
         return this.$page.allMission.edges.filter(mission => mission.node.status == 'past')
@@ -244,408 +230,116 @@
     ],
     }
   }
-
 </script>
 
+<style lang="scss" scoped>
 
-<style lang="scss">
+  .missions {
+    padding: 0;
+  }
 
-  @import "src/assets/scss/_vars.scss";
+  .mission {
+    text-align: left;
+    width: 100%;
+    position: relative;
+    display: flex;
+    border: 1px solid var(--background-default-grey);
+    border-top: 1px solid var(--border-default-grey);
+    align-items: center;
+    justify-content: space-between;
+    min-height: 3rem;
+    margin-top: -1px;
 
-  .commando-ux-page {
-
-    .description {
-
-      &__content {
-        background-color: $light-gray;
-        padding: 2rem 2rem 1rem;
-        border-left: 4px solid $blue;
-        margin-bottom: 3rem;
-      }
-
-      &__actions {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        margin-bottom: 5rem;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          align-items: start;
-          margin: 0 0 4rem 0;
-        }
-
-        .item {
-          position: relative;
-          flex-basis: 48%;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            flex-basis: 100%;
-            flex-grow: 1;
-          }
-
-          &--left {
-            margin-right: 2%;
-
-            @media only screen and (max-width: $mobile-max-width) {
-              margin: 0 0 3rem 0;
-            }
-          }
-
-          &--right {
-            margin-left: 2%;
-
-            @media only screen and (max-width: $mobile-max-width) {
-              margin: 0;
-            }
-          }
-
-          &__link {
-            margin-top: 0.5rem;
-
-            &::after {
-              position: absolute;
-              content: "";
-              top: 0;
-              bottom: 0;
-              left: 0;
-              right: 0;
-            }
-          }
-
-          &__icon {
-            display: inline-block;
-            background: $light-gray;
-            color: $blue;
-            border-radius: 50%;
-            padding: 10px;
-            transition: .2s all;
-            height: 1.5rem;
-            width: 1.5rem;
-            margin-bottom: -0.8rem;
-            margin-right: 0.75rem;
-            box-sizing: content-box;
-
-            @media only screen and (max-width: $mobile-max-width) {
-              display: inline;
-              margin-bottom: -0.5rem;
-              height: 1rem;
-              width: 1rem;
-              margin-right: 0.5rem;
-            }
-          }
-
-          h3 {
-            display: inline-block;
-            padding: 0;
-            margin: 0;
-
-            @media only screen and (max-width: $mobile-max-width) {
-              display: inline;
-            }
-          }
-        }
-      }
-    }
-
-    .open-jobs {
-      display: inline-block;
-      text-align: center;
-      background-color: $light-gray;
-      border-radius: 50%;
-      padding: 0.2rem 0.6rem 0.8rem 0.4rem;
-      font-size: 1rem;
-      margin: 0 0.25rem 0 0;
-      width: 0.9rem;
-      height: 0.9rem;
-      color: $red;
-      flex-shrink: 0;
-    }
-
-    .missions {
-      padding: 0;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
+    @media only screen and (max-width: $md-point) {
       flex-wrap: wrap;
+    }
 
-      .mission {
-        //list-style: none;
-        text-align: left;
+    &:hover {
+      @media only screen and (min-width: $md-point + 1) {
+        background-color: var(--background-alt-green-tilleul-verveine);
+        border: 1px solid var(--border-default-green-tilleul-verveine);
+        border-top: 1px solid var(--border-default-green-tilleul-verveine);
+        z-index: 1;
+      }
+    }
+
+    &__left {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      @media only screen and (max-width: $md-point) {
         width: 100%;
-        margin: 0 0 0.5rem 0;
-        padding: 0rem 1rem;
-        position: relative;
-        display: flex;
-        border: 2px solid white;
-        border-bottom: 2px solid $gray;
-        align-items: center;
+      }
+    }
+
+    &__right {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: row;
+
+      @media only screen and (max-width: $md-point) {
+        width: 100%;
+        margin-top: 0.25rem;
+        margin-bottom: 0.75rem;
         justify-content: space-between;
+        flex-direction: row-reverse;
+      }
+    }
+
+    &__name {
+      font-size: 1rem;
+      margin-bottom: 0;
+      line-height: 1.5;
+
+      a {
+        box-shadow: none;
+      }
+
+      a::after {
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    }
+
+    &__team {
+      display: flex;
+      margin: 0;
+
+      li {
+        list-style: none;
 
         &:before {
           content: none;
         }
+      }
+    }
 
-        @media only screen and (max-width: $mobile-max-width) {
-          flex-wrap: wrap;
-          padding: 0.5rem 0;
-        }
+    &__team-member {
+      border-radius: 50%;
+      width: 1.875rem;
+      height: 1.875rem;
+      margin-top: -0.25rem;
+      margin-bottom: -0.391rem;
 
-        &:hover {
-          @media only screen and (min-width: $mobile-max-width + 1) {
-            border: 2px solid $gray;
-            border-radius: 0.5rem;
-            border-color: $blue;
-            box-shadow: 5px 5px 0px $light;
-          }
-        }
-
-        &__left {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            width: 100%;
-          }
-        }
-
-        &__right {
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-          flex-direction: row;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            width: 100%;
-            margin-top: 0.75rem;
-            justify-content: space-between;
-            flex-direction: row-reverse;
-          }
-        }
-
-        &__name {
-          font-weight: normal;
-          font-size: 1rem;
-          margin: 0 1rem 0 0;
-
-          a {
-            border: none !important;
-            color: $black !important;
-          }
-
-          a::after {
-            position: absolute;
-            content: "";
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-          }
-        }
-
-        &__illustration {
-          width: 1rem;
-          height: 1rem;
-          color: $red;
-        }
-
-        &__team {
-          display: flex;
-
-          li {
-            list-style: none;
-
-            &:before {
-              content: none;
-            }
-          }
-        }
-
-        &__team-member {
-          list-style: none;
-          border-radius: 50%;
-          width: 1.875rem;
-          height: 1.875rem;
-          margin: 0 0.25rem -0.5rem 0.25rem;
-        }
-
-        &__status {
-          text-align: center;
-          width: 4.5rem;
-          border: solid 2px $gray;
-          border-radius: 0.25rem;
-          background-color: $gray;
-          margin: 0 0 0 1rem;
-          font-size: 0.875rem;
-          font-weight: 500;
-          padding: 0.125rem 0.75rem;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            margin: 0;
-          }
-
-          &--futur {
-            border-color: $gray;
-            color: $black;
-            background-color: white;
-          }
-
-          &--past {
-            border-color: $light-gray;
-            color: $black;
-            background-color: $light-gray;
-          }
-
-          &--present {
-            border-color: $blue;
-            background-color: white;
-            color: $blue;
-          }
-        }
+      @media only screen and (max-width: $md-point) {
+        margin-top: 0.25rem;
       }
 
-      &__profil {
+      &--open {
         display: inline-block;
-        padding: 4px 12px;
-        margin: 0px 12px 12px 0;
-        border-radius: 16px;
-        font-size: 0.825em;
-        font-weight: bold;
-        background-color: $gray;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 8px 8px 0;
-        }
-      }
-
-      &__description {
-        margin: 4px 0 16px 0;
-      }
-
-      &__department, &__place {
-        font-size: 0.825em;
-        font-weight: bold;
-      }
-
-      &__icon {
-        display: inline-block;
-        margin-right: 4px;
-      }
-    }
-
-    .cta {
-      text-align: center;
-      margin-bottom: 64px;
-
-      > p {
-        margin: 0;
-        display: block;
-        font-size: 0.9em;
-        color: $dark-gray;
-      }
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 32px;
-      }
-    }
-
-    .quote {
-      blockquote p {
-        font-family: "Marianne";
-        font-weight: 100;
-        font-size: 1.5rem;
-        max-width: 600px;
-        line-height: 1.4;
-        position: relative;
-        margin: 0;
-        padding: .5rem 0;
-        color: $blue;
-
-        &:before {
-          font-family: "Marianne";
-          font-weight: 500;
-          position: absolute;
-          color: $red;
-          font-size: 8rem;
-          width: 4rem;
-          height: 4rem;
-          content: '«';
-          left: -5rem;
-          top: -4rem;
-        }
-      }
-
-      footer {
-        display: block;
-        margin: 0;
-        padding: 0;
-        border: none;
-        color: $black;
-        text-align: left;
-        font-style: normal;
-      }
-    }
-
-    .team {
-      margin-top: -1rem;
-      padding: 0 0 0 2rem;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        padding: 0;
-      }
-
-      &-member {
-        list-style: none;
-        width: 100%;
-        margin: 0.25rem 0;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-
-        &:before {
-          content: "";
-        }
-
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin: 0.25rem 0;
-        }
-
-        &__photo {
-          background-color: $light-gray;
-          border-radius: 50%;
-          padding: 0.5rem 0.25rem 0rem 0.25rem;
-          margin: 0 0.75rem 0 0;
-          width: 2rem;
-          height: 2rem;
-          color: $red;
-          text-align: center;
-          flex-shrink: 0;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            padding: 0.25rem;
-            margin: 0 0.75rem 0 0;
-            width: 1.5rem;
-            height: 1.5rem;
-          }
-        }
-
-        &__description {
-          text-align: left;
-          margin: 0;
-          font-size: 1rem;
-
-          &--light {
-            font-weight: normal;
-          }
-        }
+        text-align: center;
+        color: var(--text-label-pink-macaron);
+        background-color: var(--background-contrast-pink-macaron);;
+        padding: 0.2rem 0.6rem 0.8rem 0.4rem;
+        font-size: 1rem;
+        flex-shrink: 0;
       }
     }
   }
-
 </style>

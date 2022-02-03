@@ -20,6 +20,7 @@ Il ne sera question ici ni du pilier I (pages d’information), suivi par la Dir
 Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais)&nbsp;:
 [Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
 
+
 <div class="fr-highlight fr-mb-4w">
     <p>Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (Once Only Principle), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont l’Acte d’exécution est encore en cours de discussion ; par ailleurs, il est porté par d’autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
     </p>

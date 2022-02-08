@@ -32,8 +32,7 @@ Par souci d’optimisation des ressources et de cohérence avec nos autres missi
 
 Cette approche suppose&nbsp;:
 
-* d’établir un lien entre les démarches de l’Observatoire et les Procédures du PNU, sachant qu’une Procédure PNU peut ne pas exister en France, ou bien que plusieurs démarches de l’Observatoire puissent concerner une même Procédure PNU.
-* 
+* d’établir un lien entre les démarches de l’Observatoire et les Procédures du PNU, sachant qu’une Procédure PNU peut ne pas exister en France, ou bien que plusieurs démarches de l’Observatoire peuvent concerner une même Procédure PNU.
 * d’identifier les démarches concernées mais qui ne sont pas suivies dans le cadre de l’Observatoire et prendre une décision les concernant (par exemple, les intégrer dans l’Observatoire). Par exemple, la [démarche](https://www.cleiss.fr/docs/textes/883-04/t2.html) concernant la Procédure PNU « Demander à établir quelle est la législation applicable conformément au titre II du règlement (CE) no 883/2004 du Parlement européen et du Conseil » (détermination de la Législation Sociale Applicable) n’est pas suivi dans l’Observatoire (et n’est [pas dématérialisée](https://www.cleiss.fr/pdf/form_dla.pdf)).
 
 Ce travail ne peut être effectué que par chacun des Ministères.

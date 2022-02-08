@@ -1,10 +1,10 @@
 ---
-title:  Mobilisez nos experts ! (gratuit et sans engagement - enfin presque)
+title:  Mobilisez nos experts ! (gratuit et sans engagement - enfin presque)
 slug: 2021-08-20-appui-experts
 publishedDate: 2021-08-20
 tags: ["accompagnement", "design", "accessibilité"]
 illustration: ./illustrations/2021-08-24-tandem.jpg
-description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
+description: L’équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
 
 ## Soyez l’une des équipes qui bénéficiera de notre accompagnement !
@@ -29,7 +29,7 @@ On ne vous demande ni banderoles ni slogans mais il faut quand même manifester 
 - de l’ouverture aux propositions !
 - votre besoin par e-mail : experts@design.numerique.gouv.fr !
 
-En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pas les inconvénients, les blocages et les problèmes potentiels, il n'y en a pas 😊.
+En avant-goût, voici déjà de quoi vous faire gagner du temps : ne cherchez pas les inconvénients, les blocages et les problèmes potentiels, il n’y en a pas 😊.
 
 ### Quelques exemples des services offerts par nos experts
 - Identification de « quick wins » (améliorations rapides) sur tous les sujets

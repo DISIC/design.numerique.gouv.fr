@@ -99,18 +99,18 @@
 export default {
 
   metaInfo: {
-    title: "Mémo dev",
+    title: "Mémo design",
     meta: [{
       name: 'description',
-      content: "Le mémo du développeur et de la développeuse web pour une meilleure prise en compte de l'accessibilité numérique (RGAA)."
+      content: "Le mémo pour les designers pour une meilleure prise en compte de l'accessibilité numérique (RGAA)."
     },
     {
       property: 'og:title',
-      content: "Mémo dev - DesignGouv"
+      content: "Mémo design - DesignGouv"
     },
     {
       property: 'og:description',
-      content: "Le mémo du développeur et de la développeuse web pour une meilleure prise en compte de l'accessibilité numérique (RGAA)."
+      content: "Le mémo pour les designers pour une meilleure prise en compte de l'accessibilité numérique (RGAA)."
     },
     {
       property: 'og:image',

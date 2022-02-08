@@ -46,6 +46,6 @@ Cf. Guideline on cross-border access to online procedure p. 10&nbsp;: [Guideline
 <div class="fr-highlight fr-mb-4w">
     <p>Le site service-public.fr contient de nombreuses fiches d'informations, traduites en anglais, sur les démarches concernées. La Dila (Direction de l'information légale et administrative), en charge du site, peut mettre ces fiches à jour en incluant les exigences du PNU pour peu que les ministères concernés lui indiquent les modifications à apporter. Les liens vers les fiches devront être présents sur les sites des démarches avant authentification. La personne à contacter est Léa Noé&nbsp;: lea.noe(a)dila.gouv.fr.
     </p>
-  
-_Mis à jour le 02/02/22&nbsp;: ajout de l'encart sur service-public.fr._
 </div>
+
+_Mis à jour le 02/02/22&nbsp;: ajout de l'encart sur service-public.fr._

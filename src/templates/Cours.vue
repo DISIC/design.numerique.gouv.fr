@@ -12,7 +12,7 @@
               <g-link to="/formation/" class="fr-breadcrumb__link">Formations</g-link>
             </li>
             <li>
-              <g-link :to="$page.cours.formation" class="fr-breadcrumb__link">{{ $page.cours.formation }}</g-link>
+              <g-link :to="'/formations/' + $page.cours.formation.slug + '/'" class="fr-breadcrumb__link">{{ $page.cours.formation.nom }}</g-link>
             </li>
             <li>
               <span aria-current="page">{{ $page.cours.nom }}</span>
@@ -22,6 +22,14 @@
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
       </div>
+    </div>
+
+    <div class="dg-content dg-content--xs fr-px-2w">
+
+      <div>
+        <p>{{ $page.cours.descriptionLongue }}</p>
+      </div>
+
     </div>
 
   </Layout>
@@ -34,7 +42,10 @@
       id
       slug
       nom
-      formation
+      formation {
+        nom
+        slug
+      }
       type
       requis {
         nom

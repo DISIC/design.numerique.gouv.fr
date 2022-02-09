@@ -17,6 +17,9 @@ module.exports = function (api) {
           node {
             id
             slug
+            formation {
+              slug
+            }
           }
         }
       }
@@ -24,7 +27,7 @@ module.exports = function (api) {
 
     data.allCours.edges.forEach(({ node }) => {
       createPage({
-        path: `/formations/cours/${node.slug}`,
+        path: `/formations/${node.formation.slug}/${node.slug}`,
         component: './src/templates/Cours.vue',
         queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
       })

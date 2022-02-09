@@ -10,7 +10,24 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+  api.createPages(async ({ graphql, createPage }) => {
+    const { data } = await graphql(`{
+      allCours {
+        edges {
+          node {
+            id
+            slug
+          }
+        }
+      }
+    }`)
+
+    data.allCours.edges.forEach(({ node }) => {
+      createPage({
+        path: `/formations/cours/${node.slug}`,
+        component: './src/templates/Cours.vue',
+        queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+      })
+    })
   })
 }

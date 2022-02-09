@@ -155,6 +155,11 @@ module.exports = {
                         linkToFirst: true // optional
                     },
                     {
+                        fieldName: 'Formation',
+                        typeName: 'Formation',
+                        linkToFirst: true // optional
+                    },
+                    {
                         fieldName: 'Intervenants',
                         typeName: 'Intervenant',
                         linkToFirst: false // optional
@@ -165,6 +170,10 @@ module.exports = {
                         linkToFirst: false // optional
                     }
                 ]
+            },
+            {
+                name: 'Formations', // required
+                typeName: 'Formation', // required
             },
             {
                 name: 'Intervenants', // required

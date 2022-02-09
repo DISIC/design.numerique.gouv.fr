@@ -139,6 +139,45 @@ module.exports = {
         },
       },
     },
+    {
+      use: '@gridsome/source-airtable',
+      options: {
+        apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
+        base: process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE, // required
+        tables: [
+            {
+                name: 'Cours', // required
+                typeName: 'Cours', // required
+                links: [ // optional
+                    {
+                        fieldName: 'Requis',
+                        typeName: 'Cours',
+                        linkToFirst: true // optional
+                    },
+                    {
+                        fieldName: 'Intervenants',
+                        typeName: 'Intervenant',
+                        linkToFirst: false // optional
+                    },
+                    {
+                        fieldName: 'Sessions',
+                        typeName: 'Session',
+                        linkToFirst: false // optional
+                    }
+                ]
+            },
+            {
+                name: 'Intervenants', // required
+                typeName: 'Intervenant', // required
+            },
+            {
+                name: 'Sessions', // required
+                typeName: 'Session', // required
+            },
+        ],
+        tableName: 'Cours', // required
+      },
+    },
   ],
   transformers: {
     remark: {
@@ -174,6 +213,7 @@ module.exports = {
     Article: '/articles/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
+    // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch
@@ -195,7 +235,7 @@ module.exports = {
       .rule("vue")
       .use("vue-svg-inline-loader")
       .loader("vue-svg-inline-loader")
-      .options({ 
+      .options({
         removeAttributes: ["svg-inline"],
         addAttributes: {
           role: "img"

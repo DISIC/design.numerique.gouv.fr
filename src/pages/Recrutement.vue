@@ -37,7 +37,7 @@
   </Layout>
 </template>
 
-
+<!--
 <page-query>
   query {
     allJob (sortBy: "title", order: ASC) {
@@ -52,7 +52,7 @@
     }
   }
 </page-query>
-
+-->
 
 <script>
   export default {

@@ -42,7 +42,7 @@
   </Layout>
 </template>
 
-
+<!--
 <page-query>
   query Job ($id: ID!) {
     job: job (id: $id) {
@@ -57,7 +57,7 @@
     }
   }
 </page-query>
-
+-->
 
 <script>
   export default {

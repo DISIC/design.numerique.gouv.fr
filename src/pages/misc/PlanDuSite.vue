@@ -52,7 +52,6 @@
         <ul>
           <li><a href="/a-propos/">Notre équipe</a></li>
           <li><a href="/contact/">Contact</a></li>
-          <li><a href="/recrutement/">Recrutement</a></li>
           <li><a href="/misc/accessibilite/">Accessibilité</a></li>
           <li><a href="/misc/donnees-personnelles/">Données personnelles</a></li>
           <li><a href="/misc/mentions-legales/">Mentions légales</a></li>

@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout >
 
     <section class="dg-cover dg-cover--linear fr-mb-6w">
       <div class="dg-cover__container fr-mb-1w">
@@ -14,12 +14,13 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/recrutement-picto.svg" aria-hidden="true">Recrutement</h1>
-        <p v-if="$page.allJob.edges.length <= 1" class="fr-text--lead">Nombre de poste ouvert actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
+        <p v-if="$page.allJob.edges.length == 0" class="fr-text--lead">Aucun poste ouvert pour le moment.</p>
+        <p v-else-if="$page.allJob.edges.length <= 1" class="fr-text--lead">Nombre de poste ouvert actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
         <p v-else class="fr-text--lead">Nombre de postes ouverts actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
       </div>
     </section>
 
-    <section class="dg-content fr-px-2w">
+    <section v-if="$page.allJob" class="dg-content fr-px-2w">
       <div class="fr-grid-row fr-grid-row--gutters">
         <div class="fr-col-md-6 fr-col-12"  v-for="{ node } in $page.allJob.edges" :key="node.id">
           <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
@@ -37,22 +38,17 @@
   </Layout>
 </template>
 
-<!--
 <page-query>
   query {
     allJob (sortBy: "title", order: ASC) {
       edges {
         node {
         	id
-          title
-          path
-          type
         }
       }
     }
   }
 </page-query>
--->
 
 <script>
   export default {

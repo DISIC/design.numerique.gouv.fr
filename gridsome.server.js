@@ -10,6 +10,7 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
+  // Création manuel des pages Cours pour prendre en compte la Formation dans l'URL
   api.createPages(async ({ graphql, createPage }) => {
     const { data } = await graphql(`{
       allCours {
@@ -32,5 +33,22 @@ module.exports = function (api) {
         queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
       })
     })
+  })
+
+  api.onCreateNode((node, collection) => {
+    if (node.internal.typeName === 'Cours') {
+      const markdownStore = collection._store.addCollection('CoursContent')
+
+      const markdownNode = markdownStore.addNode({
+		    // any other fields, id, slug, title etc
+        internal: {
+          mimeType: 'text/markdown',
+          content: node.DescriptionLongue,
+          origin: node.id
+        }
+      })
+
+      node.content = collection._store.createReference(markdownNode)
+    }
   })
 }

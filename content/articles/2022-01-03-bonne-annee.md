@@ -4,7 +4,7 @@ slug: 2022-01-03-bonne-annee
 publishedDate: 2022-01-03
 tags: 
 illustration: ./illustrations/2022-01-03-bonne-annee.png
-description: Nouveaux projets, nouveaux défis... Retrouvez les surprises à venir en 2022 chez Design Gouv !
+description: Nouveaux projets, nouveaux défis… Retrouvez les surprises à venir en 2022 chez Design Gouv !
 ---
 
 ## 2021 a été une année bien riche !
@@ -20,7 +20,7 @@ Notre objectif a été de soutenir ministères et opérateurs au mieux afin d’
 On vous prépare de **belles surprises** dès le début d’année :
 
 - Le lancement de notre podcast « **Appuyez sur la touche étoile** » produit en collaboration avec _Louie Creative_ ;
-- La 11ème publication de l’[**Observatoire**](https://observatoire.numerique.gouv.fr/observatoire/){title="Observatoire - nouvelle fenêtre"} pour suivre la qualité de la numérisation des 250 démarches les plus utilisées ;
+- La 11<sup>e</sup> publication de l’[**Observatoire**](https://observatoire.numerique.gouv.fr/observatoire/){title="Observatoire - nouvelle fenêtre"} pour suivre la qualité de la numérisation des 250 démarches les plus utilisées ;
 - La publication d’un **livre blanc** sur le design de services publics numériques en collaboration avec l’agence _Où sont les Dragons_ ;
 - L’ouverture d’un nouveau marché public « Accessibilité numérique et design inclusif ».
 

@@ -68,11 +68,11 @@
           <li v-for="session in futurSessions">{{ session.date }}</li>
         </ul>
       </div>
-      <p v-else><strong>Session</strong> : aucune nouvelle session de prévue pour le moment.</p>
+      <p v-else-if="futurSessions.length == 0"><strong>Session</strong> : aucune nouvelle session de prévue pour le moment.</p>
 
       <div v-if="futurSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
-        <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ session.date }} de {{ $page.cours.sessions[0].debut }} à {{ $page.cours.sessions[0].fin }}</span></p>
+        <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurSessions[0].date }} de {{ futurSessions[0].debut }} à {{ futurSessions[0].fin }}</span></p>
         <p class="fr-mb-4w">L’inscription est obligatoire, nous vous confirmerons votre participation par e-mail en fonction des places disponibles.</p>
 
         <form class="form" v-on:submit.prevent="addParticipant">
@@ -192,7 +192,7 @@
           </div>
           <div class="fr-input-group">
             <label class="fr-label" for="attente">
-              Vous attentes concernant cette formation, les freins et le limites que vous rencontrez sur le sujet (optionnel)
+              Vous attentes concernant cette formation, les freins et les limites que vous rencontrez sur le sujet (optionnel)
             </label>
             <textarea class="fr-input" id="attente" name="attente" v-model="form.attentes"></textarea>
           </div>
@@ -226,7 +226,7 @@
           slug
         }
       }
-      intervenants (sortBy: "name", order: ASC) {
+      intervenants (sortBy: "name", order: DESC) {
         nom
         poste
         photo {
@@ -315,13 +315,16 @@
     },
     computed: {
       futurSessions: function () {
-        var futur = this.$page.cours.sessions.filter(session => new Date(session.date) > Date.now()).sort((a, b) => a.date > b.date);
-        futur.forEach(session => {
-          var date = new Date(session.date).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-          session.date = date.charAt(0).toUpperCase() + date.slice(1);
-          console.log(session.date);
-        });
-        return futur;
+        if (this.$page.cours.sessions.length > 0) {
+          var futur = this.$page.cours.sessions.filter(session => new Date(session.date) > Date.now()).sort((a, b) => a.date > b.date);
+          if (futur.length > 0) {
+            futur.forEach(session => {
+              var date = new Date(session.date).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+              session.date = date.charAt(0).toUpperCase() + date.slice(1);
+            });
+          }
+        }
+        return futur.length > 0 ? futur : [];
       },
     },
     methods: {

@@ -19,7 +19,7 @@
             </li>
           </ol>
         </nav>
-        <p v-if="$page.cours.sessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
+        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <!-- <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p> -->
         <ul class="fr-tags-group">
@@ -32,7 +32,7 @@
 
       <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
 
-      <div class="fr-alert fr-alert--info fr-alert--sm fr-mb-6w">
+      <div class="fr-alert fr-alert--info fr-mb-6w">
         <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <g-link :to="'/formations/' + $page.cours.requis.formation.slug + '/' + $page.cours.requis.slug">{{ $page.cours.requis.nom }}</g-link></p>
       </div>
 
@@ -62,30 +62,30 @@
         </ul>
       </div>
 
-      <p v-if="$page.cours.sessions.length == 1"><strong>Prochaine session</strong> : le {{ $page.cours.sessions[0].date }} de {{ $page.cours.sessions[0].debut }} à {{ $page.cours.sessions[0].fin }}</p>
-      <div v-else-if="$page.cours.sessions.length > 1" class="dg-contains-list">
+      <div v-if="futurSessions.length > 1" class="dg-contains-list">
         <p><strong>Prochaines sessions</strong> :</p>
         <ul>
-          <li v-for="session in $page.cours.sessions">Le {{ session.date }} de {{ session.debut }} à {{ session.fin }}</li>
+          <li v-for="session in futurSessions">{{ session.date }}</li>
         </ul>
       </div>
-      <p v-else>Aucune session de prévue pour le moment. Inscrivez-vous à notre newsletter pour être averti en cas de nouvelle session !</p>
+      <p v-else><strong>Session</strong> : aucune nouvelle session de prévue pour le moment.</p>
 
-      <div v-if="$page.cours.sessions.length >= 1">
+      <div v-if="futurSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
+        <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ session.date }} de {{ $page.cours.sessions[0].debut }} à {{ $page.cours.sessions[0].fin }}</span></p>
         <p class="fr-mb-4w">L’inscription est obligatoire, nous vous confirmerons votre participation par e-mail en fonction des places disponibles.</p>
 
         <form class="form" v-on:submit.prevent="addParticipant">
-          <div v-if="$page.cours.sessions.length > 1" class="fr-form-group">
+          <div v-if="futurSessions.length > 1" class="fr-form-group">
             <fieldset class="fr-fieldset">
               <legend class="fr-fieldset__legend fr-text--regular" id='radio-hint-legend'>
                 Date de la session à laquelle vous souhaitez vous inscrire
               </legend>
               <div class="fr-fieldset__content">
-                <div v-for="session in $page.cours.sessions" class="fr-radio-group">
+                <div v-for="session in futurSessions" class="fr-radio-group">
                   <input type="radio" :id="session.id" :value="session.id" name="session" v-model="form.session" required>
                   <label class="fr-label" :for="session.id">
-                    Le {{ session.date }} de {{ session.debut }} à {{ session.fin }}
+                    {{ session.date }} de {{ session.debut }} à {{ session.fin }}
                   </label>
                 </div>
               </div>
@@ -241,7 +241,7 @@
       tags
       sessions (sortBy: "date", order: ASC) {
         id
-        date (format: "D MMMM YYYY", locale : "fr")
+        date
         debut
         fin
       }
@@ -312,6 +312,17 @@
           prerequis: '',
         }
       }
+    },
+    computed: {
+      futurSessions: function () {
+        var futur = this.$page.cours.sessions.filter(session => new Date(session.date) > Date.now()).sort((a, b) => a.date > b.date);
+        futur.forEach(session => {
+          var date = new Date(session.date).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+          session.date = date.charAt(0).toUpperCase() + date.slice(1);
+          console.log(session.date);
+        });
+        return futur;
+      },
     },
     methods: {
       addParticipant() {

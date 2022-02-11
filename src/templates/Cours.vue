@@ -330,8 +330,8 @@
     methods: {
       addParticipant() {
         document.getElementById('submit').disabled = true;
-        if (this.$page.cours.sessions.length == 1) {
-          this.form.session = this.$page.cours.sessions[0].id;
+        if (this.futurSessions.length == 1) {
+          this.form.session = this.futurSessions[0].id;
         }
         var Airtable = require('airtable');
         var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE);

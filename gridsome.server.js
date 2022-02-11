@@ -18,6 +18,7 @@ module.exports = function (api) {
           node {
             id
             slug
+            publier
             formation {
               slug
             }
@@ -27,11 +28,13 @@ module.exports = function (api) {
     }`)
 
     data.allCours.edges.forEach(({ node }) => {
-      createPage({
-        path: `/formations/${node.formation.slug}/${node.slug}`,
-        component: './src/templates/Cours.vue',
-        queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
-      })
+      if (node.publier) {
+        createPage({
+          path: `/formations/${node.formation.slug}/${node.slug}`,
+          component: './src/templates/Cours.vue',
+          queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+        })
+      }
     })
   })
 
@@ -43,7 +46,7 @@ module.exports = function (api) {
 		    // any other fields, id, slug, title etc
         internal: {
           mimeType: 'text/markdown',
-          content: node.DescriptionLongue,
+          content: node.Contenu,
           origin: node.id
         }
       })

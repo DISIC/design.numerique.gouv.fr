@@ -21,7 +21,6 @@
         </nav>
         <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
-        <!-- <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p> -->
         <ul class="fr-tags-group">
           <li v-for="tag in $page.cours.tags"><span class="fr-tag">{{ tag.charAt(0).toUpperCase() + tag.slice(1) }}</span></li>
         </ul>
@@ -33,7 +32,7 @@
       <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
 
       <div class="fr-alert fr-alert--info fr-mb-6w">
-        <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <g-link :to="'/formations/' + $page.cours.requis.formation.slug + '/' + $page.cours.requis.slug">{{ $page.cours.requis.nom }}</g-link></p>
+        <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <g-link :to="'/formations/' + $page.cours.requis.formation.slug + '/' + $page.cours.requis.slug + '/'">{{ $page.cours.requis.nom }}</g-link></p>
       </div>
 
       <div v-html="$page.cours.content.content" class="dg-contains-list"/>

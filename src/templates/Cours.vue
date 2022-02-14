@@ -32,7 +32,7 @@
       <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
 
       <div v-if="$page.cours.requis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
-        <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <g-link :to="'/formations/' + $page.cours.requis.formation.slug + '/' + $page.cours.requis.slug + '/'">{{ $page.cours.requis.nom }}</g-link></p>
+        <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <a :href="'/formations/' + $page.cours.requis.formation.slug + '/' + $page.cours.requis.slug + '/'">{{ $page.cours.requis.nom }}</a></p>
       </div>
 
       <div v-html="$page.cours.content.content" class="dg-contains-list"/>

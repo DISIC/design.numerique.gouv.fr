@@ -73,7 +73,7 @@
         <h2 class="fr-mt-6w">Inscription</h2>
         <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurSessions[0].fancyDate }} de {{ futurSessions[0].debut }} à {{ futurSessions[0].fin }}</span></p>
         <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
-          <p><strong>Places limitées</strong> : cet atelier est limité à {{ $page.cours.places }} participants. En vous inscrivant, vous vous engagez à participer à cette formation.</p>
+          <p><strong>Places limitées</strong> : chaque session est limitée à {{ $page.cours.places }} participants. En vous inscrivant, vous vous engagez à participer.</p>
         </div>
 
         <form class="form" v-on:submit.prevent="addParticipant">

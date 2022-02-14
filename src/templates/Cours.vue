@@ -31,7 +31,7 @@
 
       <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
 
-      <div class="fr-alert fr-alert--info fr-mb-6w">
+      <div v-if="$page.cours.requis" class="fr-alert fr-alert--info fr-mb-6w">
         <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <g-link :to="'/formations/' + $page.cours.requis.formation.slug + '/' + $page.cours.requis.slug + '/'">{{ $page.cours.requis.nom }}</g-link></p>
       </div>
 
@@ -314,15 +314,11 @@
     },
     computed: {
       futurSessions: function () {
-        if (this.$page.cours.sessions.length > 0) {
-          var futur = this.$page.cours.sessions.filter(session => new Date(session.date) > Date.now()).sort((a, b) => a.date > b.date);
-          if (futur.length > 0) {
-            futur.forEach(session => {
-              var date = new Date(session.date).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
-              session.date = date.charAt(0).toUpperCase() + date.slice(1);
-            });
-          }
-        }
+        var futur = this.$page.cours.sessions.filter(session => new Date(session.date) > Date.now()).sort((a, b) => a.date > b.date);
+        futur.forEach(session => {
+          var date = new Date(session.date).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+          session.date = date.charAt(0).toUpperCase() + date.slice(1);
+        });
         return futur.length > 0 ? futur : [];
       },
     },

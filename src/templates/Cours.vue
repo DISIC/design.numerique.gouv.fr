@@ -319,7 +319,7 @@
           var date = new Date(session.date).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
           session.date = date.charAt(0).toUpperCase() + date.slice(1);
         });
-        return futur.length > 0 ? futur : [];
+        return futur;
       },
     },
     methods: {

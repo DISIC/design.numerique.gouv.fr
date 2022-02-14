@@ -150,7 +150,7 @@ module.exports = {
                 typeName: 'Cours', // required
                 links: [ // optional
                     {
-                        fieldName: 'Requis',
+                        fieldName: 'Prerequis',
                         typeName: 'Cours',
                         linkToFirst: true // optional
                     },

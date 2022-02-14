@@ -31,8 +31,8 @@
 
       <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
 
-      <div v-if="$page.cours.requis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
-        <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <a :href="'/formations/' + $page.cours.requis.formation.slug + '/' + $page.cours.requis.slug + '/'">{{ $page.cours.requis.nom }}</a></p>
+      <div v-if="$page.cours.prerequis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
+        <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">{{ $page.cours.prerequis.nom }}</a></p>
       </div>
 
       <div v-html="$page.cours.content.content" class="dg-contains-list"/>
@@ -72,7 +72,9 @@
       <div v-if="futurSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
         <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurSessions[0].fancyDate }} de {{ futurSessions[0].debut }} à {{ futurSessions[0].fin }}</span></p>
-        <p class="fr-mb-4w">L’inscription est obligatoire, nous vous confirmerons votre participation par e-mail en fonction des places disponibles.</p>
+        <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
+          <p><strong>Places limitées</strong> : cet atelier est limité à {{ $page.cours.places }} participants. En vous inscrivant, vous vous engagez à participer à cette formation.</p>
+        </div>
 
         <form class="form" v-on:submit.prevent="addParticipant">
           <div v-if="futurSessions.length > 1" class="fr-form-group">
@@ -90,10 +92,10 @@
               </div>
             </fieldset>
           </div>
-          <div class="fr-form-group">
+          <div v-if="$page.cours.prerequis" class="fr-form-group">
               <fieldset class="fr-fieldset">
                   <legend class="fr-fieldset__legend fr-text--regular" id='prerequis-legend'>
-                      Avez-vous suivi notre formation <em>{{ $page.cours.requis.nom }}</em> ?
+                      Avez-vous suivi notre formation <em>{{ $page.cours.prerequis.nom }}</em> ?
                   </legend>
                   <div class="fr-fieldset__content">
                       <div class="fr-radio-group">
@@ -107,19 +109,19 @@
                   </div>
               </fieldset>
           </div>
-          <div class="fr-input-group">
+          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
               <label class="fr-label" for="firstName">Votre prénom</label>
               <input class="fr-input" type="text" id="firstName" v-model="form.firstName" required>
           </div>
-          <div class="fr-input-group">
+          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
               <label class="fr-label" for="lastName">Votre nom</label>
               <input class="fr-input" type="text" id="lastName" v-model="form.lastName" required>
           </div>
           <div class="fr-input-group">
-            <label class="fr-label" for="email">Votre adresse e-mail professionnelle<span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
+            <label class="fr-label" for="email">Votre adresse e-mail<span v-if="$page.cours.type == 'Module'"> professionnelle</span><span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
             <input class="fr-input" type="email" id="email" v-model="form.email" required>
           </div>
-          <div class="fr-input-group">
+          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
               <label class="fr-label" for="phone">Votre numéro de téléphone <span class="fr-hint-text">Par exemple : 01 02 03 04 05</span></label>
               <input class="fr-input" type="text" id="phone" v-model="form.phone" required>
           </div>
@@ -127,32 +129,24 @@
               <label class="fr-label" for="job">Votre fonction</label>
               <input class="fr-input" type="text" id="job" v-model="form.job" required>
           </div>
-          <div class="fr-form-group">
-              <fieldset class="fr-fieldset">
-                  <legend class="fr-fieldset__legend fr-text--regular" id='statut-legend'>
-                      Votre statut
-                  </legend>
-                  <div class="fr-fieldset__content">
-                      <div class="fr-radio-group">
-                          <input type="radio" id="statut-1" name="statut" value="Agent public" v-model="form.statut" required>
-                          <label class="fr-label" for="statut-1">Agent public</label>
-                      </div>
-                      <div class="fr-radio-group">
-                          <input type="radio" id="statut-2" name="statut" value="Prestataire pour un organisme public" v-model="form.statut" required>
-                          <label class="fr-label" for="statut-2">Prestataire pour un organisme public</label>
-                      </div>
-                      <div class="fr-radio-group">
-                          <input type="radio" id="statut-3" name="statut" value="Autre" v-model="form.statut" required>
-                          <label class="fr-label" for="statut-3">Autre</label>
-                      </div>
-                  </div>
-              </fieldset>
+          <div class="fr-select-group">
+            <label class="fr-label" for="select-statut">Votre statut
+            </label>
+            <select class="fr-select" id="select-statut" name="select-statut" v-model="form.statut" required>
+              <option value="" selected disabled hidden>Selectionnez un statut</option>
+              <option value="Agent public de l'État">Agent ou agente publique de l'État</option>
+              <option value="Agent public des collectivités">Agent ou agente publique des collectivités</option>
+              <option value="Prestataire">Prestataire pour un organisme public</option>
+              <option value="Privé">Travailleur ou travailleuse dans le secteur privé</option>
+              <option value="Étudiant">Étudiant ou étudiante</option>
+              <option value="Autre">Autre</option>
+            </select>
           </div>
           <div class="fr-input-group">
-            <label class="fr-label" for="organisme">Votre ministère de rattachement</label>
+            <label class="fr-label" for="organisme">Votre organisme</label>
             <input class="fr-input" type="text" id="organisme" v-model="form.organisme" required>
           </div>
-          <div class="fr-input-group">
+          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
               <label class="fr-label" for="demarche">La démarche de l'Observatoire sur laquelle vous travaillez
                 <span class="fr-hint-text">Vous pouvez retrouver l'Observatoire à cette adresse : <a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank" title="L'observatoire de la qualité des démarches en ligne - nouvelle fenêtre">https://observatoire.numerique.gouv.fr</a></span>
               </label>
@@ -189,7 +183,7 @@
                   </div>
               </fieldset>
           </div>
-          <div class="fr-input-group">
+          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
             <label class="fr-label" for="attente">
               Vous attentes concernant cette formation, les freins et les limites que vous rencontrez sur le sujet (optionnel)
             </label>
@@ -218,7 +212,8 @@
         slug
       }
       type
-      requis {
+      places
+      prerequis {
         nom
         slug
         formation {

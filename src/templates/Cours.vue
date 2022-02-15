@@ -78,6 +78,7 @@
         </div>
 
         <form class="form" v-on:submit.prevent="addParticipant">
+          <p class="fr-text--sm">Tous les champs sont obligatoires.</p>
           <div v-if="futurSessions.length > 1" class="fr-form-group">
             <fieldset class="fr-fieldset">
               <legend class="fr-fieldset__legend fr-text--regular" id='radio-hint-legend'>

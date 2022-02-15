@@ -9,7 +9,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <g-link to="/formation/" class="fr-breadcrumb__link">Formations</g-link>
+              <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
             </li>
             <li>
               <g-link :to="'/formations/' + $page.cours.formation.slug + '/'" class="fr-breadcrumb__link">{{ $page.cours.formation.nom }}</g-link>

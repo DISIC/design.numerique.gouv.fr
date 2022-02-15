@@ -32,7 +32,8 @@
       <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
 
       <div v-if="$page.cours.prerequis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
-        <p><strong>Prérequis</strong> : vous devez avoir suivi la formation <a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">{{ $page.cours.prerequis.nom }}</a></p>
+        <p v-if="$page.cours.prerequis.type == 'Amphi'"><strong>Prérequis</strong> : avoir suivi ou visionné la <a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">formation {{ $page.cours.prerequis.nom }}</a>.</p>
+        <p v-else-if="$page.cours.prerequis.type == 'Module'"><strong>Prérequis</strong> : avoir participé à l'<a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">atelier {{ $page.cours.prerequis.nom }}</a>.</p>
       </div>
 
       <div v-html="$page.cours.content.content" class="dg-contains-list"/>
@@ -73,7 +74,7 @@
         <h2 class="fr-mt-6w">Inscription</h2>
         <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurSessions[0].fancyDate }} de {{ futurSessions[0].debut }} à {{ futurSessions[0].fin }}</span></p>
         <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
-          <p><strong>Places limitées</strong> : chaque session est limitée à {{ $page.cours.places }} participants. En vous inscrivant, vous vous engagez à participer.</p>
+          <p><strong>Places limitées</strong> : chaque session est limitée à {{ $page.cours.places }} participants. Si votre inscription est acceptée, vous vous engagez à participer.</p>
         </div>
 
         <form class="form" v-on:submit.prevent="addParticipant">
@@ -95,7 +96,8 @@
           <div v-if="$page.cours.prerequis" class="fr-form-group">
               <fieldset class="fr-fieldset">
                   <legend class="fr-fieldset__legend fr-text--regular" id='prerequis-legend'>
-                      Avez-vous suivi notre formation <em>{{ $page.cours.prerequis.nom }}</em> ?
+                      <span v-if="$page.cours.prerequis.type == 'Amphi'">Avez-vous suivi ou visionné la formation <em>{{ $page.cours.prerequis.nom }}</em> ?</span>
+                      <span v-if="$page.cours.prerequis.type == 'Module'">Avez-vous déjà participé à l'atelier <em>{{ $page.cours.prerequis.nom }}</em> ?</span>
                   </legend>
                   <div class="fr-fieldset__content">
                       <div class="fr-radio-group">
@@ -137,7 +139,6 @@
               <option value="Agent public de l'État">Agent ou agente publique de l'État</option>
               <option value="Agent public des collectivités">Agent ou agente publique des collectivités</option>
               <option value="Prestataire">Prestataire pour un organisme public</option>
-              <option value="Privé">Travailleur ou travailleuse dans le secteur privé</option>
               <option value="Étudiant">Étudiant ou étudiante</option>
               <option value="Autre">Autre</option>
             </select>
@@ -148,7 +149,7 @@
           </div>
           <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
               <label class="fr-label" for="demarche">La démarche de l'Observatoire sur laquelle vous travaillez
-                <span class="fr-hint-text">Vous pouvez retrouver l'Observatoire à cette adresse : <a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank" title="L'observatoire de la qualité des démarches en ligne - nouvelle fenêtre">https://observatoire.numerique.gouv.fr</a></span>
+                <span class="fr-hint-text"><a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank" title="Accéder à la liste des démarches - nouvelle fenêtre">Accéder à la liste des démarches</a></span>
               </label>
               <input class="fr-input" type="text" id="demarche" v-model="form.demarche" required>
           </div>
@@ -216,6 +217,7 @@
       prerequis {
         nom
         slug
+        type
         formation {
           slug
         }

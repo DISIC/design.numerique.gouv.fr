@@ -23,7 +23,7 @@
 
     <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
       <h2>Revivez la formation en vidéo</h2>
-      <p>La formation a eu lieu en direct le 9 décembre. Vous pouvez la revivre <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
+      <p>La formation a eu lieu en direct le 9 décembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=0V-WIpVtPCg" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
       <h3>Objectifs</h3>
       <ul>
         <li>Connaître l'importance et l'utilité de la recherche utilisateur dans la conception et développement de services numériques</li>
@@ -41,7 +41,7 @@
         <li>Quand et comment faire de la recherche utilisateur ?</li>
         <li>Les outils à votre disposition</li>
       </ul>
-      <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
+      <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=0V-WIpVtPCg" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
       <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link> (formulaires distincts).</p>
     </div>
 

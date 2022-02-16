@@ -10,7 +10,48 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
-  api.createPages(({ createPage }) => {
-    // Use the Pages API here: https://gridsome.org/docs/pages-api/
+  // Création manuel des pages Cours pour prendre en compte la Formation dans l'URL
+  api.createPages(async ({ graphql, createPage }) => {
+    const { data } = await graphql(`{
+      allCours {
+        edges {
+          node {
+            id
+            slug
+            publier
+            formation {
+              slug
+            }
+          }
+        }
+      }
+    }`)
+
+    data.allCours.edges.forEach(({ node }) => {
+      if (node.publier) {
+        createPage({
+          path: `/formations/${node.formation.slug}/${node.slug}`,
+          component: './src/templates/Cours.vue',
+          queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+        })
+      }
+    })
+  })
+
+  api.onCreateNode((node, collection) => {
+    if (node.internal.typeName === 'Cours') {
+      const markdownStore = collection._store.addCollection('CoursContent')
+
+      const markdownNode = markdownStore.addNode({
+		    // any other fields, id, slug, title etc
+        internal: {
+          mimeType: 'text/markdown',
+          content: node.Contenu,
+          origin: node.id
+        }
+      })
+
+      node.content = collection._store.createReference(markdownNode)
+    }
   })
 }

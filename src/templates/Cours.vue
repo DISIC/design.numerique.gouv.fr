@@ -187,7 +187,7 @@
           </div>
           <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
             <label class="fr-label" for="attente">
-              Vous attentes concernant cette formation, les freins et les limites que vous rencontrez sur le sujet (optionnel)
+              Vos attentes concernant cette formation, les freins et les limites que vous rencontrez sur le sujet (optionnel)
             </label>
             <textarea class="fr-input" id="attente" name="attente" v-model="form.attentes"></textarea>
           </div>

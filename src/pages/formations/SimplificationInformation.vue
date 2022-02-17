@@ -57,12 +57,12 @@
 
       <h3>Ressources</h3>
       <ul class="fr-mb-4w">
-        <li><a href="https://www.modernisation.gouv.fr/outils-et-formations/simplifier-les-documents-administratifs" target="_blank">Simplifier les documents administratifs : 6 vidéos et 6 fiches pratiques</a> (DITP)</li>
-        <li><a href="https://www.modernisation.gouv.fr/files/2021-06/guide_pratique_vaincre_la_phobie_administrative_com_4(1).pdf" target="_blank">Guide pratique vaincre la phobie administrative grâce aux sciences comportementales</a> (DITP)</li>
-        <li><a href="https://cnnumerique.fr/votre-attention-sil-vous-plait-quels-leviers-face-leconomie-de-lattention" target="_blank">Votre attention, s’il vous plaît ! Quels leviers face à l’économie de l’attention ?</a> (Conseil national du numérique)</li>
-        <li><a href="https://www.rhone.gouv.fr/content/download/16040/91641/file/LARA-1.pdf" target="_blank">Lexique administratif : un langage clair ça simplifie la vie</a> (Comité d’Orientation pour la Simplification du Langage Administratif (COSLA), Dictionnaires Le Robert)</li>
-        <li><a href="https://editions.flammarion.com/systeme-1-systeme-2/9782081211476" target="_blank">Système 1 / Système 2, Les deux vitesses de la pensée</a> (Daniel Kahneman - Flammarion) </li>
-        <li><a href="https://www.simonandschuster.com/books/Simpler/Cass-R-Sunstein/9781476726601" target="_blank">Simpler, The Future of Government</a> (Cass R. Sunstein - Simon & Schuster)</li>
+        <li><a href="https://www.modernisation.gouv.fr/outils-et-formations/simplifier-les-documents-administratifs" target="_blank" title="Simplifier les documents administratifs : 6 vidéos et 6 fiches pratiques - nouvelle fenêtre">Simplifier les documents administratifs : 6 vidéos et 6 fiches pratiques</a> (DITP)</li>
+        <li><a href="https://www.modernisation.gouv.fr/files/2021-06/guide_pratique_vaincre_la_phobie_administrative_com_4(1).pdf" target="_blank" title="Guide pratique vaincre la phobie administrative grâce aux sciences comportementales - nouvelle fenêtre">Guide pratique vaincre la phobie administrative grâce aux sciences comportementales</a> (DITP)</li>
+        <li><a href="https://cnnumerique.fr/votre-attention-sil-vous-plait-quels-leviers-face-leconomie-de-lattention" target="_blank" title="Votre attention, s’il vous plaît ! Quels leviers face à l’économie de l’attention ? - nouvelle fenêtre">Votre attention, s’il vous plaît ! Quels leviers face à l’économie de l’attention ?</a> (Conseil national du numérique)</li>
+        <li><a href="https://www.rhone.gouv.fr/content/download/16040/91641/file/LARA-1.pdf" target="_blank" title="Lexique administratif : un langage clair ça simplifie la vie - nouvelle fenêtre">Lexique administratif : un langage clair ça simplifie la vie</a> (Comité d’Orientation pour la Simplification du Langage Administratif (COSLA), Dictionnaires Le Robert)</li>
+        <li><a href="https://editions.flammarion.com/systeme-1-systeme-2/9782081211476" target="_blank" title="Système 1 / Système 2, Les deux vitesses de la pensée - nouvelle fenêtre">Système 1 / Système 2, Les deux vitesses de la pensée</a> (Daniel Kahneman - Flammarion) </li>
+        <li><a href="https://www.simonandschuster.com/books/Simpler/Cass-R-Sunstein/9781476726601" target="_blank" title="Simpler, The Future of Government - nouvelle fenêtre">Simpler, The Future of Government</a> (Cass R. Sunstein - Simon & Schuster)</li>
       </ul>
 
 

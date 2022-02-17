@@ -55,11 +55,21 @@
         </p>
       </div>
 
+      <h3>Ressources</h3>
+      <ul class="fr-mb-4w">
+        <li><a href="https://www.modernisation.gouv.fr/outils-et-formations/simplifier-les-documents-administratifs" target="_blank">Simplifier les documents administratifs : 6 vidéos et 6 fiches pratiques</a> (DITP)</li>
+        <li><a href="https://www.modernisation.gouv.fr/files/2021-06/guide_pratique_vaincre_la_phobie_administrative_com_4(1).pdf" target="_blank">Guide pratique vaincre la phobie administrative grâce aux sciences comportementales</a> (DITP)</li>
+        <li><a href="https://cnnumerique.fr/votre-attention-sil-vous-plait-quels-leviers-face-leconomie-de-lattention" target="_blank">Votre attention, s’il vous plaît ! Quels leviers face à l’économie de l’attention ?</a> (Conseil national du numérique)</li>
+        <li><a href="https://www.rhone.gouv.fr/content/download/16040/91641/file/LARA-1.pdf" target="_blank">Lexique administratif : un langage clair ça simplifie la vie</a> (Comité d’Orientation pour la Simplification du Langage Administratif (COSLA), Dictionnaires Le Robert)</li>
+        <li><a href="https://editions.flammarion.com/systeme-1-systeme-2/9782081211476" target="_blank">Système 1 / Système 2, Les deux vitesses de la pensée</a> (Daniel Kahneman - Flammarion) </li>
+        <li><a href="https://www.simonandschuster.com/books/Simpler/Cass-R-Sunstein/9781476726601" target="_blank">Simpler, The Future of Government</a> (Cass R. Sunstein - Simon & Schuster)</li>
+      </ul>
+
 
       <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
       <p>N'oubliez pas, nous proposons quatre autres formations à (re)visionner : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
 
-      <h2>Inscription</h2>
+      <!-- <h2>Inscription</h2>
       <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>
       <p><small>Tous les champs du formulaire sont obligatoires.</small></p>
       <form class="form" v-on:submit.prevent="addParticipant">
@@ -74,7 +84,7 @@
         <p><small>Les données recueillies sur ce formulaire sont traitées par les équipes de la DINUM. Elles nous permettent de vous informer via e-mail des nouvelles liées à cet événement.</small></p>
         <p><small>Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.</small></p>
         <button class="fr-btn" id="submit" type="submit">S'inscrire</button>
-      </form>
+      </form> -->
     </div>
 
   </Layout>

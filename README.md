@@ -10,6 +10,9 @@ DesignGouv rassemble les agents publics soucieux de la qualité des services num
 
 ### Démarrer le projet
 - Entrer dans le projet `cd design.numerique.gouv.fr`
+- Créez un fichier .env contenant les variables suivantes :
+  - GRIDSOME_AIRTABLE_API_KEY: clé d'API Airtable pouvant être trouvé une fois loggué dans airtable.com, sous "ACCOUNT > API"
+  - GRIDSOME_AIRTABLE_COURSE_NEW_BASE: Base de donnée pouvant être trouvée en allant sur https://airtable.com/api puis sur le workspace contenant les données, et sera visible dans l'url: https://airtable.com/{YOUR_BASE_ID}/api/docs#curl/introduction
 - Exécuter `gridsome develop` pour démarrer un environnement local
 
 

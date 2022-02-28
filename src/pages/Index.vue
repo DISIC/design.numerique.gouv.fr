@@ -6,7 +6,7 @@
         <div class="dg-cover__container dg-cover__container--lg">
           <h1 class="fr-display-sm dg-text-center">Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
           <p class="dg-content dg-text-center fr-text--lead fr-mb-5w">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
-          <!--Message/-->
+          <Message/>
         </div>
       </div>
     </div>

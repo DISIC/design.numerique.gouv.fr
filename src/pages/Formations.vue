@@ -30,7 +30,8 @@
                 <h3 class="fr-tile__title">
                   <g-link to="/formations/simplification-information/" class="fr-tile__link">Formation à la simplification de l'information</g-link>
                 </h3>
-                <p class="fr-badge fr-badge--sm fr-badge--new">En direct le 17 février</p>
+                <p class="fr-badge fr-badge--sm">Replay disponible</p>
+                <!--p class="fr-badge fr-badge--sm fr-badge--new">En direct le 17 février</p-->
               </div>
             </div>
           </div>

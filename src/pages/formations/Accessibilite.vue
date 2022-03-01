@@ -23,7 +23,7 @@
 
     <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
       <h2>Revivez la formation en vidéo</h2>
-      <p>La formation a eu lieu en direct le jeudi 18 novembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=_5zIrh-LDto&t=2456s" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
+      <p>La formation a eu lieu en direct le jeudi 18 novembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=_5zIrh-LDto" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
 
       <h3>Objectifs</h3>
       <ul>
@@ -46,9 +46,9 @@
         <li>Méthodes et outils</li>
       </ul>
       <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=_5zIrh-LDto" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
-      <p>N'oubliez pas, nous proposons trois autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
+      <p>N'oubliez pas, nous proposons d’autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link>, <g-link to="/formations/ecoconception/">écoconception</g-link> et <g-link to="/formations/simplification-information/">simplification de l’information</g-link>.</p>
     </div>
-    
+
   </Layout>
 </template>
 

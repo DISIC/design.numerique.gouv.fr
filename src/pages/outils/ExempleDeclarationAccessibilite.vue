@@ -147,7 +147,7 @@ export default {
 
 <style lang="scss">
 span.tofill {
-  background-color: #fffacd;
+  background-color: var(--artwork-decorative-red-marianne);
   font-weight: lighter;
   padding: 0.1em 0.2em;
   &:before {

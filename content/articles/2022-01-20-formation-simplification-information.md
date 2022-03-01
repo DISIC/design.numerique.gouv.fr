@@ -20,7 +20,6 @@ Cette formation sera animée par **Camille Rozier**, cheffe de projet simplifica
 
 Elle aura lieu en direct sur [notre chaîne YouTube](https://www.youtube.com/c/DesignGouv){title="Notre chaîne YouTube - nouvelle fenêtre"} (avec transcription par vélotypie). Si vous n'êtes pas disponible à cette date, cette formation sera disponible en différé sur notre chaine YouTube.
 
-[S'inscrire à la formation](/formations/simplification-information/){class="button button--strong fr-my-1w"}
 
 **C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !**
 

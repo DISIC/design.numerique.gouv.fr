@@ -16,15 +16,14 @@
             </li>
           </ol>
         </nav>
-        <p class="fr-badge fr-badge--new fr-mb-2w">En direct le 17 février</p>
         <h1 class="dg-cover__title">Formation Simplification de l'information aux usagers</h1>
         <p class="fr-text--lead">Pourquoi et comment employer un langage simple et clair pour nos services publics, en explorant les subtilités du fonctionnement de notre cerveau.</p>
       </div>
     </div>
 
     <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
-      <h2>Jeudi 17 février de 10h à 12h</h2>
-      <p>En <a href="https://www.youtube.com/c/DesignGouv" target="_blank" title="visio sur notre chaîne YouTube - Nouvelle fenêtre"><strong>visio</strong> sur notre chaîne YouTube</a> avec transcription par vélotypie.</p>
+      <h2>Revivez la formation en vidéo</h2>
+      <p>La formation a eu lieu en direct le jeudi 17 février. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=7scX1FO_FQM" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a> avec transcription par vélotypie.</p>
 
       <h3>Objectifs</h3>
       <ul>
@@ -67,7 +66,7 @@
 
 
       <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et, franchement, c’est bien fait donc : venez !</p>
-      <p>N'oubliez pas, nous proposons quatre autres formations à (re)visionner : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link> et <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
+      <p>N'oubliez pas, nous proposons d’autres formations à (re)visionner : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/ecoconception/">écoconception</g-link>.</p>
 
       <!-- <h2>Inscription</h2>
       <p>Pour que nous puissions vous communiquer d'éventuelles précisions et que nous sachions qui se trouvera de l'autre côté de l'écran, vous pouvez nous envoyer ce formulaire.</p>

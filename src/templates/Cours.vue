@@ -248,6 +248,8 @@
 
 
 <script>
+  import * as Sentry from "@sentry/browser";
+
   export default {
     metaInfo() {
       return {
@@ -328,6 +330,7 @@
         }
         var Airtable = require('airtable');
         var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE);
+
         base('Inscriptions').create([
         {
           "fields": {
@@ -345,15 +348,12 @@
             "Attentes": this.form.attentes,
             "Prérequis": this.form.prerequis,
           }
-        },], function(err, records) {
-          if (err) {
-            window.location.href = "/formulaire/erreur/";
-            console.error(err);
-            return;
-          } else {
-            window.location.href = "/formulaire/succes/";
-          }
-        });
+        },])
+        .then(() => {window.location.href = "/formulaire/succes/"})
+        .catch(e => {
+          Sentry.captureException([e.error, e.message, e.statusCode]);
+          setTimeout(() => {window.location.href = "/formulaire/erreur/"}, 5000)
+        })
       }
     },
   };

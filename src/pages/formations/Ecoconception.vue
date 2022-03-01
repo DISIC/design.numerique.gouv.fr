@@ -23,7 +23,7 @@
 
     <div class="dg-content dg-content--xs fr-px-2w fr-mt-6w">
       <h2>Revivez la formation en vidéo</h2>
-      <p>La formation a eu lieu en direct le 16 décembre. Vous pouvez la revivre <a href="https://www.youtube.com/channel/UCMH9lC8dSlRVRfb0LoKuJZw/featured" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
+      <p>La formation a eu lieu en direct le 16 décembre. Vous pouvez la revivre <a href="https://www.youtube.com/watch?v=qaPFSK-Jbxg" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaîne YouTube</a>.</p>
 
       <h3>Objectifs</h3>
       <ul>
@@ -45,7 +45,7 @@
         <li>Le système de design de l’État</li>
         <li>Les clés à retenir</li>
       </ul>
-      <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=QjGzdw4OSO8" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
+      <p>C’est important, c’est gratuit, c’est ludique, c’est opérationnel et c’est toujours disponible <a href="https://www.youtube.com/watch?v=qaPFSK-Jbxg" target="_blank" title="sur notre chaîne YouTube - Nouvelle fenêtre">sur notre chaine Youtube</a> !</p>
       <p>N'oubliez pas, nous proposons d’autres formations : <g-link to="/formations/design/">design</g-link>, <g-link to="/formations/accessibilite/">accessibilité</g-link>, <g-link to="/formations/recherche-utilisateur/">recherche utilisateur</g-link> et <g-link to="/formations/simplification-information/">simplification de l’information</g-link>.</p>
     </div>
 

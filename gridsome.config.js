@@ -187,6 +187,14 @@ module.exports = {
         tableName: 'Cours', // required
       },
     },
+    {
+      use: 'gridsome-plugin-sentry',
+      options: {
+        dsn: 'https://7e6b7f0da53c4796ace432e55a32da06@o1156251.ingest.sentry.io/6237416',
+        attachProps: true, // defaults to true
+        logErrors: true // defaults to false
+      }
+    },
   ],
   transformers: {
     remark: {

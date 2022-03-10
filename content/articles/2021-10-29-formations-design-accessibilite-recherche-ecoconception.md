@@ -2,7 +2,7 @@
 title: Musclez vos connaissances en design, accessibilité, recherche utilisateur et écoconception
 slug: 2021-10-29-formations-design-accessibilite-recherche-ecoconception
 publishedDate: 2021-10-29
-tags: ["", ""]
+tags: ["formation", "design", "accessibilité", "écoconception"]
 illustration: ./illustrations/2021-10-29-formations.png
 description: Formations accessibilité, design, recherche utilisateur et écoconception de services publics numériques
 ---

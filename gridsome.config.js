@@ -4,6 +4,18 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+// Load variables for all vue-files
+const path = require('path')
+function addStyleResource (rule) {
+  rule.use('style-resource')
+    .loader('style-resources-loader')
+    .options({
+      patterns: [
+        path.resolve(__dirname, './src/assets/scss/_vars.scss'),
+      ],
+    })
+}
+
 module.exports = {
   siteName: 'DesignGouv',
   siteUrl: 'https://design.numerique.gouv.fr/',
@@ -69,6 +81,13 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        typeName: 'Pnu',
+        path: './content/pnu/*.md',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         typeName: 'GooseStep',
         path: './content/goose/steps/*.md',
       }
@@ -120,6 +139,54 @@ module.exports = {
         },
       },
     },
+    {
+      use: '@gridsome/source-airtable',
+      options: {
+        apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
+        base: process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE, // required
+        tables: [
+            {
+                name: 'Cours', // required
+                typeName: 'Cours', // required
+                links: [ // optional
+                    {
+                        fieldName: 'Prerequis',
+                        typeName: 'Cours',
+                        linkToFirst: true // optional
+                    },
+                    {
+                        fieldName: 'Formation',
+                        typeName: 'Formation',
+                        linkToFirst: true // optional
+                    },
+                    {
+                        fieldName: 'Intervenants',
+                        typeName: 'Intervenant',
+                        linkToFirst: false // optional
+                    },
+                    {
+                        fieldName: 'Sessions',
+                        typeName: 'Session',
+                        linkToFirst: false // optional
+                    }
+                ]
+            },
+            {
+                name: 'Formations', // required
+                typeName: 'Formation', // required
+            },
+            {
+                name: 'Intervenants', // required
+                typeName: 'Intervenant', // required
+            },
+            {
+                name: 'Sessions', // required
+                typeName: 'Session', // required
+            },
+        ],
+        tableName: 'Cours', // required
+      },
+    },
   ],
   transformers: {
     remark: {
@@ -135,7 +202,7 @@ module.exports = {
                  customBlock: true,
                  tagName: 'div',
                  properties: {
-                   class: 'steps'
+                   class: 'dg-steps'
                  }
                },
             },
@@ -154,16 +221,34 @@ module.exports = {
     Mission: '/commando-ux/:slug',
     Article: '/articles/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
-    Tag: '/tag/:id',
+    Tag: '/articles/tag/:id',
+    // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch
   },
   chainWebpack: config => {
+    // Load variables for all vue-files
+    const types = ['vue-modules', 'vue', 'normal-modules', 'normal']
+    types.forEach(type => {
+      addStyleResource(config.module.rule('scss').oneOf(type))
+    })
+    // Load SVGs as components
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
     svgRule
       .use('vue-svg-loader')
       .loader('vue-svg-loader')
+    // Load SVGs inline
+    config.module
+      .rule("vue")
+      .use("vue-svg-inline-loader")
+      .loader("vue-svg-inline-loader")
+      .options({
+        removeAttributes: ["svg-inline"],
+        addAttributes: {
+          role: "img"
+        }
+      });
   },
 }

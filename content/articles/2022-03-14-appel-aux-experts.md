@@ -13,7 +13,7 @@ description: L'équipe DSN met à votre disposition designers, et experts en rec
 
 75 démarches en ligne de 15 ministères différents ont été accompagnées par nos experts en 2021&nbsp;!
 
-Fort de son succès, ce dispositif se poursuit pour les démarches suivies dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}  et dont la volumétrie est supérieure à 200 000 usages par an&nbsp;🤗
+Fort de son succès, ce dispositif se poursuit pour les démarches suivies dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}  et dont la volumétrie est supérieure à 200 000 usages par an&nbsp;🤗.
 
 ### Les experts, qu'est-ce que c'est&nbsp;?
 

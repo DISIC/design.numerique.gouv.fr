@@ -128,6 +128,10 @@
               <label class="fr-label" for="phone">Votre numéro de téléphone <span class="fr-hint-text">Par exemple : 01 02 03 04 05</span></label>
               <input class="fr-input" type="text" id="phone" v-model="form.phone" required>
           </div>
+          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
+              <label class="fr-label" for="city">Votre ville</label>
+              <input class="fr-input" type="text" id="city" v-model="form.city" required>
+          </div>
           <div class="fr-input-group">
               <label class="fr-label" for="job">Votre fonction</label>
               <input class="fr-input" type="text" id="job" v-model="form.job" required>
@@ -149,8 +153,8 @@
             <input class="fr-input" type="text" id="organisme" v-model="form.organisme" required>
           </div>
           <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
-              <label class="fr-label" for="demarche">La démarche de l'Observatoire sur laquelle vous travaillez
-                <span class="fr-hint-text"><a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank" title="Accéder à la liste des démarches - nouvelle fenêtre">Accéder à la liste des démarches</a></span>
+              <label class="fr-label" for="demarche">Intitulé dans l'Observatoire de la démarche sur laquelle vous travaillez
+                <span class="fr-hint-text"><a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank" title="Accéder à la liste des démarches de l'Observatoire - nouvelle fenêtre">Accéder à la liste des démarches de l'Observatoire</a></span>
               </label>
               <input class="fr-input" type="text" id="demarche" v-model="form.demarche" required>
           </div>
@@ -187,9 +191,9 @@
           </div>
           <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
             <label class="fr-label" for="attente">
-              Vos attentes concernant cette formation, les freins et les limites que vous rencontrez sur le sujet (optionnel)
+              Quelles sont vos motivations pour suivre cette formation ?
             </label>
-            <textarea class="fr-input" id="attente" name="attente" v-model="form.attentes"></textarea>
+            <textarea class="fr-input" id="attente" name="attente" v-model="form.attentes" required></textarea>
           </div>
           <p><small>Les données recueillies sur ce formulaire sont traitées par les équipes de la DINUM. Elles nous permettent de vous informer via e-mail des nouvelles liées à cet événement.</small></p>
           <p><small>Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.</small></p>
@@ -299,6 +303,7 @@
           lastName: null,
           email: null,
           phone: null,
+          city: null,
           job: null,
           statut: null,
           organisme: null,
@@ -337,6 +342,7 @@
             "Prénom": this.form.firstName,
             "Nom": this.form.lastName,
             "Numéro": this.form.phone,
+            "Ville": this.form.city,
             "Nom": this.form.lastName,
             "Poste": this.form.job,
             "Statut": this.form.statut,

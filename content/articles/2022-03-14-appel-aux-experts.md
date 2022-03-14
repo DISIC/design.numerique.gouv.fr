@@ -33,7 +33,7 @@ C'est un dispositif **100 % adapté à vos besoins** qui vous accompagne pour qu
 
 - **Formation et sensibilisation** : Former et sensibiliser vos équipes sur une demi-journée (ou moins) de sensibilisation aux méthodologies issues du design et à l’accessibilité&nbsp;;
 
-- **Test utilisateur** : Faire tester par un panel d’usager représentatifs tout ou partie du parcours de votre démarche&nbsp;;
+- **Test utilisateur** : Faire tester par un panel d’usagers représentatifs tout ou une partie du parcours de votre démarche&nbsp;;
 
 - **Entretiens** : Conduire une série d’entretiens individuels qualitatifs avec des usagers actuels ou potentiels de votre démarche&nbsp;;
 
@@ -49,9 +49,9 @@ C'est un dispositif **100 % adapté à vos besoins** qui vous accompagne pour qu
 - C’est 100% adapté à vos besoins&nbsp;!
 
 
-### A vous de jouer&nbsp;!
+### À vous de jouer&nbsp;!
 
-Si vous êtes responsable d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne, ce dispositif est fait pour vous&nbsp;!
+Si vous êtes responsables d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne, ce dispositif est fait pour vous&nbsp;!
 
 Pour l'activer&nbsp;:
 

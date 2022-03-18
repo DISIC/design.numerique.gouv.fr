@@ -1,5 +1,5 @@
 ---
-title:  Porteurs de projets, faites appel à nos experts !
+title:  Porteurs de démarches en ligne, faites appel à nos experts !
 slug: 2022-03-14-appel-aux-experts
 publishedDate: 2022-03-14
 tags: ["Accessibilité", "Design", "Accompagnement"]
@@ -7,57 +7,40 @@ illustration: ./illustrations/2022-03-14-experts.png
 description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
 
-## Nous sommes là pour vous appuyer&nbsp;!
+## Nous sommes là pour vous appuyer !
 
 ### Retour sur 2021...
 
-75 démarches en ligne de 15 ministères différents ont été accompagnées par nos experts en 2021&nbsp;!
+Au cours de l’année 2021, le pôle Design des services numériques est intervenu auprès des ministères sur 75 des 245 démarches de l’Observatoire.
 
-Fort de son succès, ce dispositif se poursuit pour les démarches suivies dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}  et dont la volumétrie est supérieure à 200 000 usages par an&nbsp;🤗.
+Nos experts designers, développeurs/ses, spécialistes de l’accessibilité et de la recherche utilisateur, ont été mobilisés assurant ainsi à :
+- Des **audits UX** : pour s’assurer que tout ou une partie d’un parcours répond aux pratiques UX existantes ou déterminées.
+- Des **audits accessibilité** : visant à optimiser le code d’une démarche en vue de sa mise en accessibilité.
+- Du **prototypage** : permettant d’élaborer des maquettes de solutions possibles pour tout ou partie du parcours d’une démarche.
+- De la **recherche utilisateur** : permettant de conduire une série d’entretiens individuels qualitatifs et tests d’utilisabilité avec des usagers actuels ou potentiels d’une démarche pour la faire gagner en qualité.
+- De l’accompagnement au positionnement et au **déploiement du bouton « Je donne mon avis »** qui permet de recueillir l'avis des usagers sur votre démarche administrative.
+- De la **formation** et de la sensibilisation : former et sensibiliser vos équipes sur une demi-journée (ou moins) de sensibilisation aux méthodologies issues du design et à l’accessibilité.
 
-### Les experts, qu'est-ce que c'est&nbsp;?
+
+Fort de son succès, ce dispositif d'accompagnement et de renfort se poursuit pour toutes les démarches suivies dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}  et dont la volumétrie est supérieure à 200 000 usages par an.
+
+### Les experts, qu'est-ce que c'est ?
 
 C'est un dispositif **100 % adapté à vos besoins** qui vous accompagne pour que votre démarche réponde aux besoins de tous les usagers, indépendamment de leur maîtrise du web ou de leur handicap.
 
-### Les accompagnements proposés par les experts en 2021
+### Pourquoi faire appel aux experts ?
 
-- **Audit UX** : S’assurer que tout ou partie du parcours de votre démarche réponde aux bonnes pratiques UX existantes ou déterminées suite à une étude utilisateur&nbsp;;
-
-- **Audit accessibilité** : Optimiser le code de votre démarche en vue de sa mise en accessibilité&nbsp;;
-
-- **Prototypage** : Elaborer des maquettes de solutions possibles pour tout ou partie du parcours de votre démarche&nbsp;;
-
-- **Positionnement bouton JDMA** : Positionner le bouton JMDA correctement sur le parcours de votre démarche&nbsp;;
-
-- **Atelier** : Accompagner vos équipes sur une journée ou demi-journée de collaboration autour d’un sujet d’expérience utilisateur - UX (idéation, conception, collecte de feedback)&nbsp;;
-
-- **Formation et sensibilisation** : Former et sensibiliser vos équipes sur une demi-journée (ou moins) de sensibilisation aux méthodologies issues du design et à l’accessibilité&nbsp;;
-
-- **Test utilisateur** : Faire tester par un panel d’usagers représentatifs tout ou une partie du parcours de votre démarche&nbsp;;
-
-- **Entretiens** : Conduire une série d’entretiens individuels qualitatifs avec des usagers actuels ou potentiels de votre démarche&nbsp;;
-
-
-### Pourquoi faire appel aux experts&nbsp;?
-
-- C’est gratuit&nbsp;!
-
+- C’est gratuit !
 - C’est mis en place très rapidement (un email suffit)
-
 - Aucun aspect administratif à gérer
+- C’est 100% adapté à vos besoins !
 
-- C’est 100% adapté à vos besoins&nbsp;!
 
+### À vous de jouer !
 
-### À vous de jouer&nbsp;!
+Si vous êtes responsables d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne, ce dispositif est fait pour vous !
 
-Si vous êtes responsables d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne, ce dispositif est fait pour vous&nbsp;!
+C'est parti : **écrivez-nous à experts@design.numerique.gouv.fr** 📩
 
-Pour l'activer&nbsp;:
-
-1. Décrivez votre besoin à experts@design.numerique.gouv.fr 📩 
-2. Nous nous rencontrons pour définir le type de ressources dont vous pourrez bénéficier et nous fixons ensemble vos objectifs
-3. Les experts démarrent les travaux avec vous
-
-Vous hésitez ? Vous avez des questions&nbsp;? 
-Contactez nos équipes à experts@design.numerique.gouv.fr pour échanger sur vos besoins&nbsp;!
+À très vite !
+👩‍💼🙋‍♂️🦸‍♀️

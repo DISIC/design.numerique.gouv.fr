@@ -9,7 +9,7 @@
         <h3>Tout savoir sur la bicyclette</h3>
         <p>Une bicyclette, ou un vélo (abréviation du mot vélocipède), est un véhicule terrestre à propulsion humaine entrant dans la catégorie des cycles et composé de deux roues alignées, qui lui donnent son nom. La force motrice est fournie par son conducteur (appelé « cycliste »), en position le plus souvent assise, par l’intermédiaire de deux pédales entraînant la roue arrière par une chaîne à rouleaux.</p>
         <p>La roue avant est directrice et assure l’équilibre. Son orientation est commandée par un guidon. Le cycliste a souvent les deux mains en contact avec le guidon afin de contrôler la trajectoire, le freinage ainsi que le passage des vitesses.</p>
-        <p>La <a tabindex="1" style="border-bottom: none" class="lien" href="https://fr.wikipedia.org/wiki/Bicyclette" target="blank" >bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
+        <p>La <a tabindex="1"  class="lien" href="https://fr.wikipedia.org/wiki/Bicyclette" target="blank" >bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
         <p><!-- balise utilisée à des fins de  présentation --></p>
         <p><!-- balise utilisée à des fins de  présentation --></p>
       </section>
@@ -20,7 +20,7 @@
           <div class="fr-content-media__img">
             <img src="/assets/images/seguRgaaNuit.jpg" class="fr-responsive-img" alt="" style="width:100%" />
           </div>
-        <p>Si vraiment l’accessibilité numérique vous intéresse, vous pouvez tout à fait télécharger le rgaa <a style="border-bottom: none" tabindex="3" class="lien" href="https://www.numerique.gouv.fr/uploads/rgaa/RGAA-v4.1.pdf">ici</a> ou le voir en ligne <a style="border-bottom: none" tabindex="2" class="lien" href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/">là</a>.</p>
+        <p>Si vraiment l’accessibilité numérique vous intéresse, vous pouvez tout à fait télécharger le rgaa <a  tabindex="3" class="lien" href="https://www.numerique.gouv.fr/uploads/rgaa/RGAA-v4.1.pdf">ici</a> ou le voir en ligne <a  tabindex="2" class="lien" href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/">là</a>.</p>
         </div>
       </section>
       <section class="fr-grid-row fr-grid-row--center">
@@ -90,12 +90,13 @@
     width: 36em;
     text-align: justify;
     margin: auto;
-
-    a.lien {
-      border-bottom: none;
-      text-decoration: none;
-    }
   }
+      a.lien {
+        border-bottom: none;
+        box-shadow: none;
+        text-decoration: none;
+        color: var(--background-action-high-blue-france);
+      }
 
   h3 {
     color: chartreuse;

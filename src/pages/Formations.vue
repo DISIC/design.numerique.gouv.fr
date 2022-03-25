@@ -85,6 +85,12 @@
         <ul class="fr-mb-4w">
           <li><a href="https://www.fun-mooc.fr/en/cours/accessibilite-numerique/" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est disponible en mode « Archivé ouvert » et nécessite une inscription.</a></li>
           <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
+          <li>Si vous êtes agent de l’État et avez accès à la plateforme Mentor, deux parcours sont disponibles :
+            <ul>
+              <li><a href="https://mentor.gouv.fr/catalog/314" title="L’accessibilité numérique selon votre métier - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique selon votre métier</a>, de 1h20 à 8h suivant les modules choisis dans le parcours, gratuit.</li>
+              <li><a href="https://mentor.gouv.fr/catalog/262" title="L’essentiel de l’accessibilité de la communication de l’État - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’essentiel de l’accessibilité de la communication de l’État</a>, 3h30, gratuit.</li>
+            </ul>
+          </li>
         </ul>
 
         <h3>Design</h3>

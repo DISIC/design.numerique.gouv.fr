@@ -19,14 +19,15 @@
             </li>
           </ol>
         </nav>
-        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
+        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w fr-mt-1v">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
-        <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline fr-mr-1w">Cathégorie :</p>
-        <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline fr-mr-1w">Cathégories :</p>
-        <ul class="dg-inline fr-tags-group">
+        <p class="fr-tag fr-mb-2w">{{ $page.cours.type == 'Amphi' ? 'Webinaire' : 'Atelier' }}</p>
+        <!-- <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline-block fr-mr-1w">Cathégorie :</p>
+        <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-mr-1w">Cathégories :</p>
+        <ul class="dg-inline-block fr-tags-group">
           <li v-for="tag in $page.cours.tags"><span class="fr-tag">{{ tag.charAt(0).toUpperCase() + tag.slice(1) }}</span></li>
-        </ul>
+        </ul> -->
       </div>
     </div>
 

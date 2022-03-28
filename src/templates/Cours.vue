@@ -235,6 +235,7 @@
       content {
         content
       }
+      replay
       tags
       sessions (sortBy: "date", order: ASC) {
         id

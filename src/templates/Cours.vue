@@ -22,7 +22,8 @@
         <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
-        <p class="dg-text-bold dg-inline fr-mr-1w">Cathégories :</p>
+        <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline fr-mr-1w">Cathégorie :</p>
+        <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline fr-mr-1w">Cathégories :</p>
         <ul class="dg-inline fr-tags-group">
           <li v-for="tag in $page.cours.tags"><span class="fr-tag">{{ tag.charAt(0).toUpperCase() + tag.slice(1) }}</span></li>
         </ul>
@@ -31,7 +32,13 @@
 
     <div class="dg-content dg-content--xs fr-px-2w">
 
-      <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
+      <div v-if="$page.cours.replay">
+        <h2>Revivez la formation en vidéo</h2>
+        <iframe width="560" height="315" :src="$page.cours.replay" :title="'Replay vidéo de la formation ' + $page.cours.nom" frameborder="0" allowfullscreen></iframe>
+        <h2 class="fr-mt-6w">Informations</h2>
+      </div>
+
+      <p v-if="$page.cours.descriptionLongue" class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
 
       <div v-if="$page.cours.prerequis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
         <p v-if="$page.cours.prerequis.type == 'Amphi'"><strong>Prérequis</strong> : avoir suivi ou visionné la <a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">formation {{ $page.cours.prerequis.nom }}</a>.</p>

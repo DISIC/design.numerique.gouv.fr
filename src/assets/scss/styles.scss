@@ -12,6 +12,10 @@ main {
 }
 .dg {
 
+  &-inline {
+    display: inline-block;
+  }
+
   &-text {
 
     &-center {

@@ -70,7 +70,7 @@
           <li v-for="session in futurSessions">{{ session.fancyDate }}</li>
         </ul>
       </div>
-      <p v-else-if="futurSessions.length == 0"><strong>Session</strong> : aucune nouvelle session de prévue pour le moment.</p>
+      <p v-else-if="futurSessions.length == 0"><strong>Prochaine session</strong> : aucune session de prévue pour le moment.</p>
 
       <div v-if="futurSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>

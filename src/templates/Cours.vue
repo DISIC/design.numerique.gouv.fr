@@ -21,7 +21,9 @@
         </nav>
         <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
-        <ul class="fr-tags-group">
+        <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
+        <p class="dg-text-bold dg-inline fr-mr-1w">Cathégories :</p>
+        <ul class="dg-inline fr-tags-group">
           <li v-for="tag in $page.cours.tags"><span class="fr-tag">{{ tag.charAt(0).toUpperCase() + tag.slice(1) }}</span></li>
         </ul>
       </div>

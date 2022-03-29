@@ -20,58 +20,14 @@
 
     <div class="dg-content fr-px-2w">
       <section>
-        <h2>Nos formations</h2>
-        <p>Pour se poser les bonnes questions aux bons moments, pour prendre les bonnes décisions avec les bonnes méthodes et les bons outils, pour travailler avec les bons interlocuteurs, nous vous proposons des formations gratuites et indispensables&nbsp;:</p>
-
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-          <div class="fr-col-12 fr-col-sm-6">
+          <div v-for="{ node } in $page.allFormation.edges" :key="node.id" class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <g-link to="/formations/simplification-information/" class="fr-tile__link">Formation à la simplification de l'information</g-link>
-                </h3>
-                <p class="fr-badge fr-badge--sm">Replay disponible</p>
-                <!--p class="fr-badge fr-badge--sm fr-badge--new">En direct le 17 février</p-->
-              </div>
-            </div>
-          </div>
-          <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <g-link to="/formations/accessibilite/" class="fr-tile__link">Formation à l’accessibilité numérique</g-link>
-                </h3>
-                <p class="fr-badge fr-badge--sm">Replay disponible</p>
-              </div>
-            </div>
-          </div>
-          <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <g-link to="/formations/design/" class="fr-tile__link">Formation au design numérique</g-link>
-                </h3>
-                <p class="fr-badge fr-badge--sm">Replay disponible</p>
-              </div>
-            </div>
-          </div>
-          <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <g-link to="/formations/recherche-utilisateur/" class="fr-tile__link">Formation à la recherche utilisateur</g-link>
-                </h3>
-                <p class="fr-badge fr-badge--sm">Replay disponible</p>
-              </div>
-            </div>
-          </div>
-          <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <g-link to="/formations/ecoconception/" class="fr-tile__link">Formation à l’écoconception</g-link>
-                </h3>
-                <p class="fr-badge fr-badge--sm">Replay disponible</p>
+                <h2 class="fr-tile__title">
+                  <g-link :to="'/formations/' + node.slug + '/'" class="fr-tile__link fr-text--lg">{{ node.nom }}</g-link>
+                </h2>
+                <p class="fr-badge fr-badge--sm">{{ node.cours.length }} cours</p>
               </div>
             </div>
           </div>
@@ -131,8 +87,26 @@
 </template>
 
 
-<script>
+<page-query>
+  query {
+    allFormation (sortBy: "rang", order: ASC) {
+      edges {
+        node {
+        	id
+          nom
+          slug
+          rang
+          cours {
+            id
+          }
+        }
+      }
+    }
+  }
+</page-query>
 
+
+<script>
   export default {
     metaInfo: {
       title: "Les formations",
@@ -174,5 +148,4 @@
       }],
     }
   }
-
 </script>

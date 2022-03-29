@@ -28,7 +28,8 @@
             <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-tile__link">{{ cours.nom }}</g-link>
           </h3>
           <p class="fr-card__desc">{{ cours.descriptionCourte }}</p>
-          <p v-if="cours.replay" class="dg-flex-start fr-badge fr-badge--sm">Replay disponible</p>
+          <p v-if="futurCours.filter(element => element == cours.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new">Inscriptions ouvertes</p>
+          <p v-else-if="cours.replay" class="dg-flex-start fr-badge fr-badge--sm">Replay disponible</p>
           <p class="fr-card__detail">{{ cours.type == 'Amphi' ? 'Webinaire' : 'Atelier' }}</p>
         </div>
         <div class="fr-card__img">
@@ -57,6 +58,10 @@
         descriptionCourte
         image {
           url
+        }
+        sessions {
+          id
+          date
         }
       }
     }
@@ -108,6 +113,16 @@
           },
         ]
       };
+    },
+    computed: {
+      futurCours: function () {
+        var futurList = [];
+        this.$page.formation.cours.forEach(cours => {
+          var futur = cours.sessions.sort((a, b) => a.date > b.date).filter(session => new Date(session.date) > Date.now());
+          futur.length > 0 ? futurList.push(cours.id) : null;
+        });
+        return futurList;
+      },
     },
   };
 </script>

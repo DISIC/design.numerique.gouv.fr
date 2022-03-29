@@ -21,8 +21,8 @@
       </div>
     </div>
 
-    <div class="dg-content fr-px-2w fr-py-2w">
-      <div v-for="cours in $page.formation.cours" class="fr-card fr-card--horizontal fr-enlarge-link fr-mb-2w">
+    <ul class="dg-content fr-px-2w fr-py-2w">
+      <li v-for="cours in $page.formation.cours" class="fr-card fr-card--horizontal fr-enlarge-link fr-mb-2w">
         <div class="fr-card__body">
           <h3 class="fr-card__title">
             <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-tile__link">{{ cours.nom }}</g-link>
@@ -35,8 +35,8 @@
         <div class="fr-card__img">
          <g-image :src="cours.image[0].url" class="fr-responsive-img" alt=""/>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
 
   </Layout>
 </template>

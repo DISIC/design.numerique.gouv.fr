@@ -7,9 +7,11 @@ html {
       overflow-wrap: break-word;
     }
 }
+
 main {
   overflow: hidden;
 }
+
 .dg {
 
   &-inline-block {
@@ -273,8 +275,8 @@ main {
   }
 
   &-contains-list {
-    ul {
-      margin-top: -0.5rem;
+    ul:not(ul ul) {
+      margin-top: -1rem;
       margin-bottom: 1.5rem;
       padding-left: 2rem;
     }

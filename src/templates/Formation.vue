@@ -68,19 +68,19 @@
   export default {
     metaInfo() {
       return {
-        title: this.$page.formation.nom,
+        title: "Formations en " + this.$page.formation.nom,
         meta: [
           {
             name: "description",
-            content: $page.formation.description
+            content: this.$page.formation.description
           },
           {
             property: 'og:title',
-            content: this.$page.formation.nom + " - DesignGouv"
+            content: "Formations en " + this.$page.formation.nom + " - DesignGouv"
           },
           {
             property: 'og:description',
-            content: $page.formation.description
+            content: this.$page.formation.description
           },
             {
             property: 'og:image',
@@ -96,11 +96,11 @@
           },
           {
             name: "twitter:title",
-            content: this.$page.formation.nom + " - DesignGouv"
+            content: "Formations en " + this.$page.formation.nom + " - DesignGouv"
           },
           {
             name: "twitter:description",
-            content: $page.formation.description
+            content: this.$page.formation.description
           },
           {
             name: "twitter:image",

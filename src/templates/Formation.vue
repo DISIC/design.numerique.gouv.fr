@@ -32,7 +32,7 @@
           <p class="fr-card__detail">{{ cours.type == 'Amphi' ? 'Webinaire' : 'Atelier' }}</p>
         </div>
         <div class="fr-card__img">
-         <img :src="cours.image[0].url" class="fr-responsive-img" alt="">
+         <g-image :src="cours.image[0].url" class="fr-responsive-img" alt=""/>
         </div>
       </div>
     </div>

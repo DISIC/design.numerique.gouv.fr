@@ -94,7 +94,6 @@
         node {
         	id
           nom
-          slug
           rang
           cours {
             id

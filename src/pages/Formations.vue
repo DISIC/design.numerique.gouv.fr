@@ -95,6 +95,7 @@
         	id
           nom
           rang
+          slug
           cours {
             id
           }

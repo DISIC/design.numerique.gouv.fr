@@ -16,7 +16,7 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title">Nos formations en {{ $page.formation.nom }}</h1>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/formation-picto.svg" aria-hidden="true">Nos formations en {{ $page.formation.nom }}</h1>
         <p class="fr-text--lead">{{ $page.formation.description }}</p>
       </div>
     </div>

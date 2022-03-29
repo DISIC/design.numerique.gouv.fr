@@ -59,8 +59,8 @@
       <div v-html="$page.cours.content.content" class="dg-contains-list"/>
 
       <div v-if="$page.cours.intervenants.length == 1">
-        <p><strong>Formateur</strong> :</p>
-        <div class="person">
+        <p><strong>Formateur :</strong></p>
+        <div class="people person">
           <g-image :src="$page.cours.intervenants[0].photo[0].url" width="120" alt="" class="person__photo"/>
           <p class="person__description">
             <strong class="person__name">{{ $page.cours.intervenants[0].nom }}</strong><br>
@@ -70,7 +70,7 @@
       </div>
 
       <div v-else-if="$page.cours.intervenants.length > 1">
-        <p><strong>Formateurs</strong> :</p>
+        <p><strong>Formateurs :</strong></p>
         <ul class="people">
           <li v-for="intervenant in $page.cours.intervenants" class="person">
             <g-image :src="intervenant.photo[0].url" width="120" alt="" class="person__photo"/>
@@ -385,15 +385,15 @@
 <style lang="scss">
 
   .people {
-    margin-top: -0.75rem;
-    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
   }
 
   .person {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
 
     &__photo {
       height: 5rem;

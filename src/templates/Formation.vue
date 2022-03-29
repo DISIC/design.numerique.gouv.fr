@@ -22,7 +22,7 @@
     </div>
 
     <ul class="dg-content fr-px-2w fr-py-2w">
-      <li v-for="cours in $page.formation.cours" class="fr-card fr-card--horizontal fr-enlarge-link fr-mb-2w">
+      <li v-for="cours in $page.formation.cours" :key="cours.id" class="fr-card fr-card--horizontal fr-enlarge-link fr-mb-2w">
         <div class="fr-card__body">
           <h3 class="fr-card__title">
             <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-tile__link">{{ cours.nom }}</g-link>

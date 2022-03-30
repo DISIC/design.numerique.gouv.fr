@@ -129,7 +129,7 @@
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 
   .fr-card--horizontal .fr-card__img {
 

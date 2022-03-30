@@ -21,7 +21,7 @@
     <div class="dg-content fr-px-2w">
       <section>
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-          <div v-for="{ node } in $page.allFormation.edges" :key="node.id" class="fr-col-12 fr-col-sm-6">
+          <div v-for="{ node } in $page.allFormation.edges.sort((a, b) => (a.node.rang > b.node.rang))" :key="node.id" class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
@@ -89,7 +89,7 @@
 
 <page-query>
   query {
-    allFormation (sortBy: "rang", order: ASC) {
+    allFormation {
       edges {
         node {
         	id

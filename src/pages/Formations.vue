@@ -34,6 +34,24 @@
         </div>
       </section>
 
+      <section class=" fr-mt-8w">
+        <h2>Tous nos cours</h2>
+        <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
+          <div v-for="{ node } in $page.allCours.edges.sort((a, b) => (a.node.rang > b.node.rang))" :key="node.id" class="fr-col-12 fr-col-sm-4">
+            <div class="fr-card fr-enlarge-link">
+              <div class="fr-card__body">
+                <h3 class="fr-card__title">
+                  <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
+                </h3>
+                <p v-if="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
+                <p v-else-if="node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
+                <p class="fr-card__detail">{{ node.type == 'Amphi' ? 'Webinaire' : 'Atelier' }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="dg-contains-list fr-mt-8w">
         <h2>Nous recommandons également</h2>
 
@@ -101,6 +119,26 @@
           }
         }
       }
+    },
+    allCours {
+      edges {
+        node {
+          id
+          nom
+          rang
+          slug
+          type
+          replay
+          formation {
+            id
+            slug
+          }
+          sessions {
+            id
+            date
+          }
+        }
+      }
     }
   }
 </page-query>
@@ -146,6 +184,26 @@
         name: "twitter:image",
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
       }],
-    }
+    },
+    computed: {
+      futurCours: function () {
+        var futurList = [];
+        this.$page.allCours.edges.forEach(cours => {
+          var futur = cours.node.sessions.sort((a, b) => a.date > b.date).filter(session => new Date(session.date) > Date.now());
+          futur.length > 0 ? futurList.push(cours.node.id) : null;
+        });
+        return futurList;
+      },
+    },
   }
 </script>
+
+
+<style lang="scss" scoped>
+
+  .fr-card__title .fr-tile__link {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+</style>

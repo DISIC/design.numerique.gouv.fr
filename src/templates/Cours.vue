@@ -48,7 +48,7 @@
 
       <div v-if="$page.cours.cible || $page.cours.prerequis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
         <div v-if="$page.cours.cible" class="fr-mb-2w">
-          <p v-if="$page.cours.cible"><strong>Public concerné :</strong> {{ $page.cours.cible[0].toLowerCase() + $page.cours.cible.slice(1) }}</p>
+          <p v-if="$page.cours.cible"><strong>Public concerné :</strong> {{ $page.cours.cible }}.</p>
         </div>
         <div v-if="$page.cours.prerequis">
           <p v-if="$page.cours.prerequis.type == 'Amphi'"><strong>Prérequis :</strong> avoir suivi ou visionné la <a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">formation {{ $page.cours.prerequis.nom }}</a>.</p>

@@ -30,7 +30,7 @@
           <p class="fr-card__desc">{{ cours.descriptionCourte }}</p>
           <p v-if="futurCours.filter(element => element == cours.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new">Inscriptions ouvertes</p>
           <p v-else-if="cours.replay" class="dg-flex-start fr-badge fr-badge--sm">Replay disponible</p>
-          <p class="fr-card__detail">{{ cours.type == 'Amphi' ? 'Webinaire' : 'Atelier' }}</p>
+          <p class="fr-card__detail">{{ cours.type }}</p>
         </div>
         <div class="fr-card__img">
          <g-image :src="cours.image[0].url" class="fr-responsive-img" alt=""/>

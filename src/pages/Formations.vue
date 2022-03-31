@@ -48,7 +48,7 @@
                 </h3>
                 <p v-if="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
                 <p v-else-if="node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
-                <p class="fr-card__detail">{{ node.type == 'Amphi' ? 'Webinaire' : 'Atelier' }}</p>
+                <p class="fr-card__detail">{{ node.type }}</p>
               </div>
             </div>
           </div>

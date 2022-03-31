@@ -153,6 +153,7 @@ li.fr-card {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s all;
 
     @media only screen and (max-width: $sm-point) {
       width: 2.5rem;
@@ -191,8 +192,6 @@ li.fr-card {
     }
 
     &--rotate {
-      transition: 0.2s all;
-
       &:hover {
         transform: rotate(180deg);
       }

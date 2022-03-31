@@ -38,7 +38,23 @@
       </section>
 
       <section class=" fr-mt-8w">
-        <h2>Tous nos cours</h2>
+        <h2>Toutes nos formations</h2>
+        <div class="filter">
+          <p class="filter__name dg-inline-block fr-mr-1w fr-mb-1v">Filtrer par format :</p>
+          <ul class="filter__list dg-inline-block fr-tags-group">
+            <li v-for="type in typeList.sort((a, b) => (a > b))" :id="type + '-line'">
+              <button class="fr-tag" :id="type" aria-pressed="false" @click="changeTypes($event)">{{ type }}</button>
+            </li>
+          </ul>
+        </div>
+        <div class="filter fr-mb-2w">
+          <p class="filter__name dg-inline-block fr-mr-1w">Filter par catégorie :</p>
+          <ul class="filter__list dg-inline-block fr-tags-group">
+            <li v-for="tag in tagList.sort((a, b) => (a > b))" :id="tag + '-line'">
+              <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTags($event)">{{ tag }}</button>
+            </li>
+          </ul>
+        </div>
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
           <div v-for="{ node } in $page.allCours.edges.sort((a, b) => (a.node.rang > b.node.rang))" :key="node.id" class="fr-col-12 fr-col-sm-4">
             <div class="fr-card fr-enlarge-link">
@@ -155,6 +171,7 @@
           slug
           type
           replay
+          tags
           formation {
             id
             slug
@@ -172,6 +189,64 @@
 
 <script>
   export default {
+    data() {
+      return {
+        types: [],
+        tags: []
+      }
+    },
+    methods: {
+      changeTypes: function (event) {
+        if (event.target.attributes["aria-pressed"].value == "false") {
+          this.types.push(event.target.id)
+        } else if (event.target.attributes["aria-pressed"].value == "true") {
+          const index = this.types.indexOf(event.target.id);
+          if (index > -1) {
+            this.types.splice(index, 1);
+          }
+        }
+      },
+      changeTags: function (event) {
+        if (event.target.attributes["aria-pressed"].value == "false") {
+          this.tags.push(event.target.id)
+        } else if (event.target.attributes["aria-pressed"].value == "true") {
+          const index = this.tags.indexOf(event.target.id);
+          if (index > -1) {
+            this.tags.splice(index, 1);
+          }
+        }
+      }
+    },
+    computed: {
+      futurCours: function () {
+        var futurList = [];
+        this.$page.allCours.edges.forEach(cours => {
+          var futur = cours.node.sessions.sort((a, b) => a.date > b.date).filter(session => new Date(session.date) > Date.now());
+          futur.length > 0 ? futurList.push(cours.node.id) : null;
+        });
+        return futurList;
+      },
+      typeList: function () {
+        var list = [];
+        this.$page.allCours.edges.forEach(cours => {
+          if(list.indexOf(cours.node.type) == -1) {
+            list.push(cours.node.type);
+          }
+        });
+        return list;
+      },
+      tagList: function () {
+        var list = [];
+        this.$page.allCours.edges.forEach(cours => {
+          cours.node.tags.forEach(tag => {
+            if(list.indexOf(tag) == -1) {
+              list.push(tag);
+            }
+          })
+        });
+        return list;
+      }
+    },
     metaInfo: {
       title: "Les formations",
       meta: [{
@@ -211,16 +286,6 @@
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
       }],
     },
-    computed: {
-      futurCours: function () {
-        var futurList = [];
-        this.$page.allCours.edges.forEach(cours => {
-          var futur = cours.node.sessions.sort((a, b) => a.date > b.date).filter(session => new Date(session.date) > Date.now());
-          futur.length > 0 ? futurList.push(cours.node.id) : null;
-        });
-        return futurList;
-      },
-    },
   }
 </script>
 
@@ -232,6 +297,14 @@
     line-height: 1.5;
   }
 
+  .filter {
+    display: flex;
+
+    &__name {
+      flex-shrink: 0;
+    }
+  }
+
   .fr-tile .dg-picto {
     margin-bottom: -0.5rem;
 
@@ -239,4 +312,5 @@
       display: none;
     }
   }
+
 </style>

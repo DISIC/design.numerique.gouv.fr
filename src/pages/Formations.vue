@@ -56,7 +56,7 @@
           </ul>
         </div>
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-          <div v-for="{ node } in $page.allCours.edges.sort((a, b) => (a.node.rang > b.node.rang))" :key="node.id" class="fr-col-12 fr-col-sm-4">
+          <div v-for="{ node } in filterCours.sort((a, b) => (a.node.rang > b.node.rang))" :key="node.id" class="fr-col-12 fr-col-sm-4">
             <div class="fr-card fr-enlarge-link">
               <div class="fr-card__body">
                 <h3 class="fr-card__title">
@@ -72,7 +72,7 @@
       </section>
 
       <section class="dg-contains-list fr-mt-8w">
-        <h2>Nous recommandons également</h2>
+        <h2 class="fr-h6">Nous recommandons également</h2>
 
         <section class="fr-accordion">
           <h3 class="fr-accordion__title">
@@ -218,6 +218,24 @@
       }
     },
     computed: {
+      filterCours: function () {
+        const someTypes = this.types.length > 0;
+        const someTags = this.tags.length > 0;
+        if (someTypes || someTags) {
+          return this.$page.allCours.edges.filter(edge => {
+            var testType = this.types.indexOf(edge.node.type) > -1;
+            var testTag = false;
+            edge.node.tags.forEach(tag => {
+              testTag = testTag || this.tags.indexOf(tag) > -1;
+            });
+            if(someTypes && !someTags) return testType
+            else if(!someTypes && someTags) return testTag
+            else return testType && testTag
+          })
+        } else {
+          return this.$page.allCours.edges;
+        }
+      },
       futurCours: function () {
         var futurList = [];
         this.$page.allCours.edges.forEach(cours => {

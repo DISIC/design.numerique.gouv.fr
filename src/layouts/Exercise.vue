@@ -8,7 +8,7 @@
             <div class="fr-header__brand-top">
               <div class="fr-header__logo">
                 <p class="fr-logo">
-                  Benoît &<br>Yaacov
+                  Les ateliers de <br><span>DesignGouv</span>
                 </p>
               </div>
               <div class="fr-header__navbar">
@@ -18,7 +18,7 @@
               </div>
             </div>
             <div class="fr-header__operator">
-              Dans la peau d’un auditeur ou d’une auditrice accessibilité
+              Déclaration de bicyclette
             </div>
           </div>
 
@@ -102,6 +102,12 @@
     </div>
 </footer>  </div>
 </template>
+
+<style>
+p.fr-logo span {
+  text-transform: capitalize;
+}
+</style>
 
 <script>
 

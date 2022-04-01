@@ -241,7 +241,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Qui sommes-nous ?',
+    title: 'Liste des 42 critères',
     meta: [
       {
         name: 'description',

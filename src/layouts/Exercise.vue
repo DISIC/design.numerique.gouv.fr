@@ -39,7 +39,7 @@
             <a class="fr-nav__link" href="/atelier-a11y/declarer-ma-bicyclette/">Déclarer ma bicyclette</a>
           </li>
           <li class="fr-nav__item">
-            <a class="fr-nav__link" href="/atelier-a11y/aide/">aide</a>
+            <a class="fr-nav__link" href="/atelier-a11y/aide/">Aide</a>
           </li>
         </ul>
       </nav>
@@ -123,6 +123,24 @@ p.fr-logo span {
         scripts[0].remove();
       }
       document.body.appendChild(dsfr);
+
+     var currentUrl = this.$route.path;
+      var activeClass = 'active';
+      var navLinks = document.querySelectorAll('.fr-nav a'); //all links inside the nav
+      for (var i = 0, l = navLinks.length; i < l; i++) {
+        const link = navLinks[i];
+        const url = link.getAttribute('href');
+        if (url == "/") {
+          if (currentUrl == url) {
+            link.setAttribute("aria-current", "page");
+          }
+        }
+        else if (currentUrl == url) {
+          link.setAttribute("aria-current", "page");
+        }
+      }
+ 
     }
   }
 </script>
+

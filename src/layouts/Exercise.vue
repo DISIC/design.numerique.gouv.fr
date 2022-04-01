@@ -41,6 +41,9 @@
           <li class="fr-nav__item">
             <a class="fr-nav__link" href="/atelier-a11y/aide/">Aide</a>
           </li>
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/atelier-a11y/liste-42-criteres/">Liste des 42 critères</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -139,7 +142,7 @@ p.fr-logo span {
           link.setAttribute("aria-current", "page");
         }
       }
- 
+
     }
   }
 </script>

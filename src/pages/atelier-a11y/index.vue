@@ -29,7 +29,8 @@
           <h2>Comment déclarer sa bicyclette ?</h2>
           <p>Vous pouvez télécharger le formulaire joint dans le bas de la page, l’imprimer, le remplir et l’envoyer avec les pièces jointes demandées à la préfecture de votre région ainsi qu’à la personne chargée de la bonne mobilité de votre mairie.</p>
           <p>Vous pouvez également cliquez <a  href="/atelier-a11y/declarer-ma-bicyclette/">ici</a> pour faire la démarche en ligne.</p>
-
+         <h2>Besoin d’aide ?</h2>
+          <p>Vous pouvez demander de l’aide en <a  href="/atelier-a11y/aide/">cliquant ici</a>  ou en nous interpellant, avec bienveillance, sur les réseaux sociaux.</p>
 
         </div>
       </div>

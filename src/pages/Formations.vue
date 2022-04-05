@@ -204,14 +204,14 @@
       if (type) {
         var button = document.getElementById(type);
         if (button) {
-          button.attributes["aria-pressed"].value = true;
+          button.setAttribute("aria-pressed", "true");
           this.types.push(type);
         }
       }
       if (tag) {
         var button = document.getElementById(tag);
         if (button) {
-          button.attributes["aria-pressed"].value = true;
+          button.setAttribute("aria-pressed", "true");
           this.tags.push(tag);
         }
       }

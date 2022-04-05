@@ -37,7 +37,7 @@
         </div>
       </section>
 
-      <section class=" fr-mt-8w">
+      <section id="formations" class="fr-mt-8w">
         <h2>Toutes nos formations</h2>
         <div class="filter">
           <p class="filter__name dg-inline-block fr-mr-1w fr-mb-1v">Format :</p>
@@ -195,10 +195,25 @@
         tags: []
       }
     },
+    mounted() {
+      var type = this.$route.query.type;
+      var tag = this.$route.query.tag;
+      if (type) {
+        var button = document.getElementById(type);
+        console.log(button);
+        button.attributes["aria-pressed"].value = true;
+        this.types.push(type);
+      }
+      if (tag) {
+        var button = document.getElementById(tag);
+        button.attributes["aria-pressed"].value = true;
+        this.tags.push(tag);
+      }
+    },
     methods: {
       changeTypes: function (event) {
         if (event.target.attributes["aria-pressed"].value == "false") {
-          this.types.push(event.target.id)
+          this.types.push(event.target.id);
         } else if (event.target.attributes["aria-pressed"].value == "true") {
           const index = this.types.indexOf(event.target.id);
           if (index > -1) {
@@ -208,7 +223,7 @@
       },
       changeTags: function (event) {
         if (event.target.attributes["aria-pressed"].value == "false") {
-          this.tags.push(event.target.id)
+          this.tags.push(event.target.id);
         } else if (event.target.attributes["aria-pressed"].value == "true") {
           const index = this.tags.indexOf(event.target.id);
           if (index > -1) {

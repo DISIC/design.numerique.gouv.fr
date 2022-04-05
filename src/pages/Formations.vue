@@ -21,7 +21,7 @@
     <div class="dg-content fr-px-2w">
       <section>
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-          <div v-for="{ node } in $page.allFormation.edges.sort((a, b) => (a.node.rang > b.node.rang))" :key="node.id" class="fr-col-12 fr-col-sm-6">
+          <div v-for="{ node } in sortedFormations" :key="node.id" class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
@@ -40,23 +40,23 @@
       <section class=" fr-mt-8w">
         <h2>Toutes nos formations</h2>
         <div class="filter">
-          <p class="filter__name dg-inline-block fr-mr-1w fr-mb-1v">Filtrer par format :</p>
+          <p class="filter__name dg-inline-block fr-mr-1w fr-mb-1v">Format :</p>
           <ul class="filter__list dg-inline-block fr-tags-group">
-            <li v-for="type in typeList.sort((a, b) => (a > b))" :id="type + '-line'">
+            <li v-for="type in typeList.sort((a, b) => (a > b))" :id="type + '-type'">
               <button class="fr-tag" :id="type" aria-pressed="false" @click="changeTypes($event)">{{ type }}</button>
             </li>
           </ul>
         </div>
         <div class="filter fr-mb-2w">
-          <p class="filter__name dg-inline-block fr-mr-1w">Filter par catégorie :</p>
+          <p class="filter__name dg-inline-block fr-mr-1w">Catégorie :</p>
           <ul class="filter__list dg-inline-block fr-tags-group">
-            <li v-for="tag in tagList.sort((a, b) => (a > b))" :id="tag + '-line'">
+            <li v-for="tag in tagList.sort((a, b) => (a > b))" :id="tag + '-tag'">
               <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTags($event)">{{ tag }}</button>
             </li>
           </ul>
         </div>
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-          <div v-for="{ node } in filterCours.sort((a, b) => (a.node.rang > b.node.rang))" :key="node.id" class="fr-col-12 fr-col-sm-4">
+          <div v-for="{ node } in filterCours" :key="node.id" class="fr-col-12 fr-col-sm-4">
             <div class="fr-card fr-enlarge-link">
               <div class="fr-card__body">
                 <h3 class="fr-card__title">
@@ -94,7 +94,7 @@
           <div class="fr-collapse" id="accordion-2">
             <p><strong>Initiations :</strong></p>
             <ul>
-              <li><a href="https://www.fun-mooc.fr/en/cours/accessibilite-numerique/" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est disponible en mode « Archivé ouvert » et nécessite une inscription.</a></li>
+              <li><a href="https://www.fun-mooc.fr/en/cours/accessibilite-numerique/" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est disponible en mode « Archivé ouvert » et nécessite une inscription.</li>
               <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
               <li>Si vous êtes agent de l’État et avez accès à la plateforme Mentor, deux parcours sont disponibles :
                 <ul>
@@ -218,6 +218,9 @@
       }
     },
     computed: {
+      sortedFormations: function () {
+        return this.$page.allFormation.edges.sort((a, b) => (a.node.rang > b.node.rang));
+      },
       filterCours: function () {
         const someTypes = this.types.length > 0;
         const someTags = this.tags.length > 0;
@@ -231,9 +234,9 @@
             if(someTypes && !someTags) return testType
             else if(!someTypes && someTags) return testTag
             else return testType && testTag
-          })
+          }).sort((a, b) => (a.node.rang > b.node.rang));
         } else {
-          return this.$page.allCours.edges;
+          return this.$page.allCours.edges.sort((a, b) => (a.node.rang > b.node.rang));
         }
       },
       futurCours: function () {

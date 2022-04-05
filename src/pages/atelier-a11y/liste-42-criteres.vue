@@ -24,6 +24,7 @@
             >RGAA</abbr
           >.</p
         >
+        <p>Sauf mention contraire, il s’agit de critères de niveau <abbr title="web content accessibility guidelines">WCAG</abbr> A.</p>
       </div>
     </section>
 

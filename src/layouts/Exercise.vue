@@ -4,7 +4,7 @@
     <div class="fr-header__body">
       <div class="fr-container">
         <div class="fr-header__body-row">
-          <div class="fr-header__brand">
+          <div class="fr-header__brand fr-enlarge-link">
             <div class="fr-header__brand-top">
               <div class="fr-header__logo">
                 <p class="fr-logo">
@@ -17,8 +17,8 @@
                 </button>
               </div>
             </div>
-            <div class="fr-header__operator">
-              Déclaration de bicyclette
+            <div class="fr-header__service">
+              <a class="fr-header__service-title  text-highlight" href="./">Déclaration de bicyclette</a>
             </div>
           </div>
 
@@ -106,9 +106,15 @@
 </footer>  </div>
 </template>
 
-<style>
+<style type="scoped">
 p.fr-logo span {
   text-transform: capitalize;
+}
+.fr-header__service a[href] { color: #000; }
+#main a[href] { 
+  text-decoration: none; 
+  box-shadow: none;
+  color: var(--text-action-high-blue-france);
 }
 </style>
 

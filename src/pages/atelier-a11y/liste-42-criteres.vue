@@ -253,10 +253,6 @@ export default {
 </script>
 
 <style type="scoped">
-a[href] {
-  box-shadow: none;
-  color: var(--background-active-blue-france);
-}
 ol > li::marker {
   font-size: 2em;
 }

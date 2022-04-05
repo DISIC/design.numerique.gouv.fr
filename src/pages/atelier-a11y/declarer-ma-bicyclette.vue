@@ -168,9 +168,4 @@ export default {
 };
 </script>
 
-<style type="scoped">
-a[href] {
-  box-shadow: none;
-  color: var(--background-active-blue-france);
-}
-</style>
+

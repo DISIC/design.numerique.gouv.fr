@@ -24,13 +24,13 @@
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
         <div class="dg-inline-block">
           <p class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Format :</p>
-          <p class="dg-text-bold fr-tag fr-mr-4w">{{ $page.cours.type == 'Amphi' ? 'Webinaire' : 'Atelier de formation' }}</p>
+          <g-link :to="'/formations?type=' + $page.cours.type + '#formations'" class="fr-tag fr-mr-4w">{{ $page.cours.type }}</g-link>
         </div>
         <div class="dg-inline-block">
           <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Catégorie :</p>
           <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Catégories :</p>
           <ul class="dg-inline-block fr-tags-group">
-            <li v-for="tag in $page.cours.tags"><span class="dg-text-bold fr-tag">{{ tag.charAt(0).toUpperCase() + tag.slice(1) }}</span></li>
+            <li v-for="tag in $page.cours.tags"><g-link :to="'/formations?tag=' + tag + '#formations'" class="fr-tag ">{{ tag }}</g-link></li>
           </ul>
         </div>
       </div>

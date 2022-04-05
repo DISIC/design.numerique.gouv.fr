@@ -116,6 +116,9 @@ p.fr-logo span {
   box-shadow: none;
   color: var(--text-action-high-blue-france);
 }
+.text-color.fr-label, .text-color {
+  color: var(--artwork-minor-green-menthe);
+}
 </style>
 
 <script>

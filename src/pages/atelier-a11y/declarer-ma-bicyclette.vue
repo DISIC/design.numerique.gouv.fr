@@ -23,9 +23,10 @@
     <section class="fr-container fr-px-2w fr-mb-8w">
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-md-6">
+          <p class="text-color">Seuls les champs facultatifs ne sont pas obligatoires</p>
           <form action="/atelier-a11y/merci/" method="POST">
             <div class="fr-input-group">
-              <label class="fr-label" for="bike-brand">Marque du vélo</label>
+              <label class="fr-label" for="bike-brand">Marque du vélo <small>(obligatoire)</small></label>
               <input
                 class="fr-input"
                 type="text"
@@ -34,19 +35,19 @@
               />
             </div>
             <div class="fr-input-group">
-              <label class="fr-label" for="bike-color">Couleur du vélo</label>
+              <label class="fr-label" for="bike-color">Couleur du vélo <small>(obligatoire)</small></label>
               <span class="fr-hint-text"
                 >Merci d’utiliser une couleur du nuancier RAL</span
               >
               <input
-                class="fr-input"
+                class="fr-input "
                 type="text"
                 id="bike-color"
                 name="text-input-groups1"
               />
             </div>
             <div class="fr-input-group">
-              <label class="fr-label" for="bike-name">Surnom du vélo</label>
+              <label class="fr-label text-color" for="bike-name">Surnom du vélo</label>
               <span class="fr-hint-text"
                 >C’est ridicule, mais comme <em>les gens</em> le font, merci de
                 l’indiquer</span
@@ -64,7 +65,7 @@
                   class="fr-fieldset__legend fr-text--regular"
                   id="radio-legend"
                 >
-                  Type de vélo
+                  Type de vélo <small>(obligatoire)</small>
                 </legend>
                 <div class="fr-fieldset__content">
                   <div class="fr-radio-group">
@@ -99,7 +100,7 @@
               </fieldset>
             </div>
             <div class="fr-upload-group">
-              <label class="fr-label" for="file-upload"
+              <label class="text-color fr-label" for="file-upload"
                 >Ajouter une photo
                 <span class="fr-hint-text"
                   >Taille maximale : 1 Mo. Formats supportés : jpg ou png.</span
@@ -126,7 +127,7 @@
             </div>
 
             <div class="fr-select-group">
-              <label class="fr-label" for="select">Pourquoi un vélo ?</label>
+              <label class="fr-label" for="select">Pourquoi un vélo ? <small>(obligatoire)</small></label>
               <select class="fr-select" id="select" name="select">
                 <option value="" selected disabled hidden
                   >Selectionnez une seule option (ouais, c’est balèze)</option

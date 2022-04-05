@@ -18,8 +18,8 @@
       </div>
     </div>
 
-    <div class="dg-content fr-px-2w">
-      <section>
+    <div class="dg-content dg-content--lg">
+      <section class="dg-content fr-px-2w">
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
           <div v-for="{ node } in sortedFormations" :key="node.id" class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
@@ -37,41 +37,43 @@
         </div>
       </section>
 
-      <section id="formations" class="fr-mt-8w">
-        <h2>Toutes nos formations</h2>
-        <div class="filter">
-          <p class="filter__name dg-inline-block fr-mr-1w fr-mb-1v">Format :</p>
-          <ul class="filter__list dg-inline-block fr-tags-group">
-            <li v-for="type in typeList.sort((a, b) => (a > b))" :id="type + '-type'">
-              <button class="fr-tag" :id="type" aria-pressed="false" @click="changeTypes($event)">{{ type }}</button>
-            </li>
-          </ul>
-        </div>
-        <div class="filter fr-mb-2w">
-          <p class="filter__name dg-inline-block fr-mr-1w">Catégorie :</p>
-          <ul class="filter__list dg-inline-block fr-tags-group">
-            <li v-for="tag in tagList.sort((a, b) => (a > b))" :id="tag + '-tag'">
-              <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTags($event)">{{ tag }}</button>
-            </li>
-          </ul>
-        </div>
-        <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-          <div v-for="{ node } in filterCours" :key="node.id" class="fr-col-12 fr-col-sm-4">
-            <div class="fr-card fr-enlarge-link">
-              <div class="fr-card__body">
-                <h3 class="fr-card__title">
-                  <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
-                </h3>
-                <p v-if="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
-                <p v-else-if="node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
-                <p class="fr-card__detail">{{ node.type }}</p>
+      <section id="formations" class="dg-block fr-mt-8w">
+        <div class="dg-content fr-px-2w fr-pt-6w fr-pb-1w">
+          <h2 class="fr-mb-4w">Toutes nos formations</h2>
+          <div class="filter">
+            <p class="filter__name dg-inline-block fr-mr-1w fr-mb-1v">Format :</p>
+            <ul class="filter__list dg-inline-block fr-tags-group">
+              <li v-for="type in typeList.sort((a, b) => (a > b))" :id="type + '-type'">
+                <button class="fr-tag" :id="type" aria-pressed="false" @click="changeTypes($event)">{{ type }}</button>
+              </li>
+            </ul>
+          </div>
+          <div class="filter fr-mb-4w">
+            <p class="filter__name dg-inline-block fr-mr-1w">Catégorie :</p>
+            <ul class="filter__list dg-inline-block fr-tags-group">
+              <li v-for="tag in tagList.sort((a, b) => (a > b))" :id="tag + '-tag'">
+                <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTags($event)">{{ tag }}</button>
+              </li>
+            </ul>
+          </div>
+          <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
+            <div v-for="{ node } in filterCours" :key="node.id" class="fr-col-12 fr-col-sm-4">
+              <div class="fr-card fr-enlarge-link">
+                <div class="fr-card__body">
+                  <h3 class="fr-card__title">
+                    <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
+                  </h3>
+                  <p v-if="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
+                  <p v-else-if="node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
+                  <p class="fr-card__detail">{{ node.type }}</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="dg-contains-list fr-mt-8w">
+      <section class="dg-content dg-contains-list fr-mt-8w fr-px-2w">
         <h2 class="fr-h6">Nous recommandons également</h2>
 
         <section class="fr-accordion">
@@ -153,6 +155,7 @@
           nom
           rang
           slug
+          publier
           picto {
             url
           }
@@ -234,7 +237,7 @@
     },
     computed: {
       sortedFormations: function () {
-        return this.$page.allFormation.edges.sort((a, b) => (a.node.rang > b.node.rang));
+        return this.$page.allFormation.edges.filter(formation => formation.node.publier).sort((a, b) => (a.node.rang > b.node.rang));
       },
       filterCours: function () {
         const someTypes = this.types.length > 0;

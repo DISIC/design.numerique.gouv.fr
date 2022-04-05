@@ -203,14 +203,17 @@
       var tag = this.$route.query.tag;
       if (type) {
         var button = document.getElementById(type);
-        console.log(button);
-        button.attributes["aria-pressed"].value = true;
-        this.types.push(type);
+        if (button) {
+          button.attributes["aria-pressed"].value = true;
+          this.types.push(type);
+        }
       }
       if (tag) {
         var button = document.getElementById(tag);
-        button.attributes["aria-pressed"].value = true;
-        this.tags.push(tag);
+        if (button) {
+          button.attributes["aria-pressed"].value = true;
+          this.tags.push(tag);
+        }
       }
     },
     methods: {

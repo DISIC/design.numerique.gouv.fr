@@ -237,7 +237,7 @@
     },
     computed: {
       sortedFormations: function () {
-        return this.$page.allFormation.edges.filter(formation => formation.node.publier).sort((a, b) => (a.node.rang > b.node.rang));
+        return this.$page.allFormation.edges.sort((a, b) => (a.node.rang > b.node.rang)).filter(formation => formation.node.publier);
       },
       filterCours: function () {
         const someTypes = this.types.length > 0;

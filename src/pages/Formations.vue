@@ -63,8 +63,8 @@
                   <h3 class="fr-card__title">
                     <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
                   </h3>
-                  <p v-if="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
-                  <p v-else-if="node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
+                  <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
+                  <p v-show="futurCours.filter(element => element == node.id).length == 0 && node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
                   <p class="fr-card__detail">{{ node.type }}</p>
                 </div>
               </div>

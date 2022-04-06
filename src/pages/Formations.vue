@@ -30,7 +30,7 @@
                 <p class="fr-badge fr-badge--sm">{{ node.cours.length }} formations</p>
               </div>
               <div class="fr-tile__img dg-picto">
-                <img svg-inline :src="node.picto[0].url" class="fr-responsive-img" aria-hidden="true">
+                <g-image :src="node.picto[0].url" class="fr-responsive-img" aria-hidden="true"/>
               </div>
             </div>
           </div>
@@ -240,7 +240,7 @@
     },
     computed: {
       sortedFormations: function () {
-        return this.$page.allFormation.edges.sort((a, b) => (a.node.rang > b.node.rang)).filter(formation => formation.node.publier);
+        return this.$page.allFormation.edges.filter(formation => formation.node.publier).sort((a, b) => (a.node.rang > b.node.rang));
       },
       filterCours: function () {
         const someTypes = this.types.length > 0;

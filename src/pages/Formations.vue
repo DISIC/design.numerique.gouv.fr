@@ -14,7 +14,7 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/formation-picto.svg" aria-hidden="true">Formations</h1>
-        <p class="fr-text--lead">Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites.</p>
+        <p class="fr-text--lead">Nous vous proposons de nombreuses formations, individuelles ou en équipe.</p>
       </div>
     </div>
 
@@ -296,7 +296,7 @@
       title: "Les formations",
       meta: [{
         name: 'description',
-        content: "Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites."
+        content: "Nous vous proposons de nombreuses formations, individuelles ou en équipe."
       },
       {
         property: 'og:title',
@@ -304,7 +304,7 @@
       },
       {
         property: 'og:description',
-        content: "Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites."
+        content: "Nous vous proposons de nombreuses formations, individuelles ou en équipe."
       },
       {
         property: 'og:image',
@@ -324,7 +324,7 @@
       },
       {
         name: "twitter:description",
-        content: "Nous vous proposons de nombreuses formations, individuelles ou en équipe, dont certaines gratuites."
+        content: "Nous vous proposons de nombreuses formations, individuelles ou en équipe."
       },
       {
         name: "twitter:image",

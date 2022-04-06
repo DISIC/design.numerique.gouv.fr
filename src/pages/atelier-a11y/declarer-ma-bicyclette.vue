@@ -24,14 +24,14 @@
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-md-6">
           <p class="text-color">Seuls les champs facultatifs ne sont pas obligatoires</p>
-          <form action="/atelier-a11y/merci/" method="POST">
+          <form action="/atelier-a11y/merci/">
             <div class="fr-input-group">
               <label class="fr-label" for="bike-brand">Marque du vélo <small>(obligatoire)</small></label>
               <input
                 class="fr-input"
                 type="text"
                 id="bike-brand"
-                name="text-input-groups1"
+                name="bike-brand"
               />
             </div>
             <div class="fr-input-group">
@@ -43,7 +43,7 @@
                 class="fr-input "
                 type="text"
                 id="bike-color"
-                name="text-input-groups1"
+                name="bike-color"
               />
             </div>
             <div class="fr-input-group">
@@ -63,7 +63,7 @@
               <fieldset class="fr-fieldset">
                 <legend
                   class="fr-fieldset__legend fr-text--regular"
-                  id="radio-legend"
+                  id="bike-type"
                 >
                   Type de vélo <small>(obligatoire)</small>
                 </legend>
@@ -100,7 +100,7 @@
               </fieldset>
             </div>
             <div class="fr-upload-group">
-              <label class="text-color fr-label" for="file-upload"
+              <label class="text-color fr-label" for="bike-pic"
                 >Ajouter une photo
                 <span class="fr-hint-text"
                   >Taille maximale : 1 Mo. Formats supportés : jpg ou png.</span
@@ -109,8 +109,8 @@
               <input
                 class="fr-upload"
                 type="file"
-                id="file-upload"
-                name="file-upload"
+                id="bike-pic"
+                name="bike-pic"
               />
             </div>
             <div class="fr-checkbox-group">
@@ -127,8 +127,8 @@
             </div>
 
             <div class="fr-select-group">
-              <label class="fr-label" for="select">Pourquoi un vélo ? <small>(obligatoire)</small></label>
-              <select class="fr-select" id="select" name="select">
+              <label class="fr-label" for="because">Pourquoi un vélo ? <small>(obligatoire)</small></label>
+              <select class="fr-select" id="because" name="because">
                 <option value="" selected disabled hidden
                   >Selectionnez une seule option (ouais, c’est balèze)</option
                 >

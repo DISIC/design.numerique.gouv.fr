@@ -19,8 +19,7 @@
         <h1 class="dg-cover__title">Déclarer ma bicyclette</h1>
         <p class="fr-text--lead"
           >Bravo, vous venez d‘acquérir une nouvelle bicyclette.<br />La
-          planète, la ville et tous les usagers de la voie publique vous en
-          remercie :)<br /><strong
+          planète, la ville et tous les usagers de la voie publique vous remercient :)<br /><strong
             >Vous devez déclarer cette nouvelle pratique aux autorités
             compétentes.</strong
           ></p

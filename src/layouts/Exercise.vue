@@ -61,7 +61,7 @@
         <div class="footer fr-footer__body fr-footer__body--operator">
             <div class="fr-footer__brand">
                 <p class="fr-logo">
-                    Les ateliers de <br>DesignGouv
+                    Les ateliers de <br><span>DesignGouv</span>
                 </p>
             </div>
             <div class="fr-footer__content ">

@@ -27,7 +27,7 @@
                 <h2 class="fr-tile__title">
                   <g-link :to="'/formations/' + node.slug + '/'" class="fr-tile__link fr-text--lg">{{ node.nom }}</g-link>
                 </h2>
-                <p class="fr-badge fr-badge--sm">{{ node.cours.length }} formations</p>
+                <p class="fr-badge fr-badge--sm">{{ node.cours.length }} {{ node.cours.length > 1 ? "formations" : "formation"}}</p>
               </div>
               <div class="fr-tile__img dg-picto">
                 <g-image :src="node.picto[0].url" class="fr-responsive-img" aria-hidden="true"/>

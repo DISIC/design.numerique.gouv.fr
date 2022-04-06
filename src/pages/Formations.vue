@@ -69,6 +69,9 @@
                 </div>
               </div>
             </div>
+            <div v-show="filterCours.length == 0" class="info fr-mt-1w fr-col-12">
+              <p>Aucune formation ne correspond aux filtres appliqués</p>
+            </div>
           </div>
         </div>
       </section>
@@ -344,6 +347,15 @@
 
     &__name {
       flex-shrink: 0;
+    }
+  }
+
+  .info {
+    background-color: white;
+
+    p {
+      text-align: center;
+      margin: 0.5rem;
     }
   }
 

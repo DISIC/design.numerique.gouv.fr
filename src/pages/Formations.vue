@@ -41,22 +41,22 @@
         <div class="dg-content fr-px-2w fr-pt-6w fr-pb-1w">
           <h2 class="fr-mb-4w">Toutes nos formations</h2>
           <div class="filter">
-            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Format :</p>
+            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par format :</p>
             <ul class="filter__list dg-inline-block fr-tags-group">
-              <li v-for="type in typeList.sort((a, b) => (a > b))" :id="type + '-type'">
+              <li v-for="type in typeList.sort((a, b) => (a > b))" :key="type">
                 <button class="fr-tag" :id="type" aria-pressed="false" @click="changeTypes($event)">{{ type }}</button>
               </li>
             </ul>
           </div>
           <div class="filter fr-mb-4w">
-            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Catégorie :</p>
+            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par catégorie :</p>
             <ul class="filter__list dg-inline-block fr-tags-group">
-              <li v-for="tag in tagList.sort((a, b) => (a > b))" :id="tag + '-tag'">
+              <li v-for="tag in tagList.sort((a, b) => (a > b))" :key="tag">
                 <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTags($event)">{{ tag }}</button>
               </li>
             </ul>
           </div>
-          <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
+          <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w" aria-live="polite">
             <div v-for="{ node } in filterCours" :key="node.id" class="fr-col-12 fr-col-sm-4">
               <div class="fr-card fr-enlarge-link">
                 <div class="fr-card__body">

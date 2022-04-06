@@ -40,6 +40,7 @@
 
       <div v-if="$page.cours.replay">
         <h2>Revivez la formation en vidéo</h2>
+        <p>Cette vidéo est sous-titrée.</p>
         <iframe width="560" height="315" :src="$page.cours.replay" :title="'Replay vidéo de la formation ' + $page.cours.nom" frameborder="0" allowfullscreen></iframe>
         <h2 class="fr-mt-6w">Informations</h2>
       </div>

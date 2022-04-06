@@ -124,7 +124,7 @@
                 <h2 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--lg" to="/formations/">Formations</g-link>
                 </h2>
-                <p class="fr-tile__desc">De nombreuses formations sont disponibles, que ce soit pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>. </p>
+                <p class="fr-tile__desc">Nous proposons de nombreuses formations, pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>. </p>
               </div>
               <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
                 <img svg-inline src="../assets/images/formation-picto.svg" class="fr-responsive-img" aria-hidden="true">

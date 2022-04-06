@@ -49,7 +49,7 @@
             </ul>
           </div>
           <div class="filter fr-mb-4w">
-            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par catégorie :</p>
+            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par thème :</p>
             <ul class="filter__list dg-inline-block fr-tags-group">
               <li v-for="tag in tagList.sort((a, b) => (a > b))" :key="tag">
                 <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTags($event)">{{ tag }}</button>

@@ -33,6 +33,12 @@
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.</p
           >
+          <figure class="fr-content-media" role="group" aria-label="© Légende de l‘image">
+    <div class="fr-content-media__img">
+        <img src="/assets/images/bike.jpg" class="fr-responsive-img" alt="[À MODIFIER | vide ou texte alternatif de l’image]" />
+    </div>
+    <figcaption class="fr-content-media__caption">© Légende de l‘image</figcaption>
+</figure>
           <p
             >Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

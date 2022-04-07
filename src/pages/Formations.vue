@@ -77,7 +77,7 @@
       </section>
 
       <section class="dg-content dg-contains-list fr-mt-8w fr-px-2w">
-        <h2 class="fr-h6">Nous recommandons également</h2>
+        <h2 class="fr-h6">Formations d’autres organismes</h2>
 
         <section class="fr-accordion">
           <h3 class="fr-accordion__title">

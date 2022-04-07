@@ -1,12 +1,12 @@
 <template>
   <div class="dg-content dg-message dg-text-center fr-py-3w fr-px-4w">
     <p class="fr-badge fr-badge--new">Nouveau</p>
-    <h2 class="fr-h4 fr-mt-3v fr-mb-1w">Atelier : la recherche utilisateur en pratique !</h2>
-    <p class="fr-mb-3v">
-      Nous lançons notre premier <strong>atelier de formation</strong> en ligne, <strong>Intégrer la recherche utilisateur dans la pratique&nbsp;!</strong> le jeudi 17 mars prochain&nbsp;🌈.
+    <h2 class="fr-h4 fr-mt-1w fr-mb-1w">Atelier : dans la peau d’une auditrice accessibilité !</h2>
+    <p class="fr-mb-2w">
+      Nous lançons un nouvel <strong>atelier de formation</strong> en ligne, <strong>Dans la peau d’un auditeur ou d’une auditrice accessibilité</strong> le mardi 12 avril prochain&nbsp;🌈.
     </p>
     <button class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right">
-      <g-link to="/formations/recherche-utilisateur/atelier-recherche-utilisateur/">Infos et inscription</g-link>
+      <g-link to="/formations/accessibilite/atelier-coder-accessible/">Infos et inscription</g-link>
     </button>
   </div>
 </template>

@@ -125,10 +125,6 @@
             <input class="fr-input" type="email" id="email" v-model="form.email" required>
           </div>
           <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
-              <label class="fr-label" for="phone">Votre numéro de téléphone <span class="fr-hint-text">Par exemple : 01 02 03 04 05</span></label>
-              <input class="fr-input" type="text" id="phone" v-model="form.phone" required>
-          </div>
-          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
               <label class="fr-label" for="city">Votre ville</label>
               <input class="fr-input" type="text" id="city" v-model="form.city" required>
           </div>
@@ -302,7 +298,6 @@
           firstName: null,
           lastName: null,
           email: null,
-          phone: null,
           city: null,
           job: null,
           statut: null,
@@ -341,7 +336,6 @@
             "Session": [this.form.session],
             "Prénom": this.form.firstName,
             "Nom": this.form.lastName,
-            "Numéro": this.form.phone,
             "Ville": this.form.city,
             "Nom": this.form.lastName,
             "Poste": this.form.job,

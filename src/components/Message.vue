@@ -1,13 +1,13 @@
 <template>
   <div class="dg-content dg-message dg-text-center fr-py-3w fr-px-4w">
     <p class="fr-badge fr-badge--new">Nouveau</p>
-    <h2 class="fr-h4 fr-mt-1w fr-mb-1w">Atelier : la recherche utilisateur en pratique !</h2>
-    <p class="fr-mb-2w">
+    <h2 class="fr-h4 fr-mt-3v fr-mb-1w">Atelier : la recherche utilisateur en pratique !</h2>
+    <p class="fr-mb-3v">
       Nous lançons notre premier <strong>atelier de formation</strong> en ligne, <strong>Intégrer la recherche utilisateur dans la pratique&nbsp;!</strong> le jeudi 17 mars prochain&nbsp;🌈.
     </p>
-    <g-link class="dg-message__link fr-link fr-fi-arrow-right-line fr-link--icon-right" to="/formations/recherche-utilisateur/atelier-recherche-utilisateur/">
-      Infos et inscription
-    </g-link>
+    <button class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right">
+      <g-link to="/formations/recherche-utilisateur/atelier-recherche-utilisateur/">Infos et inscription</g-link>
+    </button>
   </div>
 </template>
 

@@ -46,9 +46,7 @@
 
       <section class="dg-content dg-section-with-link fr-mt-8w fr-px-2w">
         <h2 class="dg-section-with-link_title">Nos offres</h2>
-        <button class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right">
-          <g-link to="/accompagnement/">Voir toutes nos offres</g-link>
-        </button>
+        <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link>
         <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
@@ -138,9 +136,7 @@
 
       <section class="dg-content dg-section-with-link fr-mt-8w fr-px-2w">
         <h2 class="dg-section-with-link_title">Nos articles</h2>
-        <button class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right">
-          <g-link to="/articles/">Voir tous nos articles</g-link>
-        </button>
+        <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/articles/">Voir tous nos articles</g-link>
         <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
             <div class="fr-card fr-enlarge-link" >

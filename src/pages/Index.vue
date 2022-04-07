@@ -23,7 +23,7 @@
                 </h2>
                 <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
               </div>
-              <div class="fr-tile__img dg-picto dg-picto--xl dg-picto--rotate">
+              <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
                 <img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>

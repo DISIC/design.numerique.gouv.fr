@@ -5,8 +5,8 @@
     <p class="fr-mb-3v">
       Nous lançons notre premier <strong>atelier de formation</strong> en ligne, <strong>Intégrer la recherche utilisateur dans la pratique&nbsp;!</strong> le jeudi 17 mars prochain&nbsp;🌈.
     </p>
-    <button class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right">
-      <g-link to="/formations/recherche-utilisateur/atelier-recherche-utilisateur/">Infos et inscription</g-link>
+    <button class="fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right">
+      <g-link class="dg-message__link" to="/formations/recherche-utilisateur/atelier-recherche-utilisateur/">Infos et inscription</g-link>
     </button>
   </div>
 </template>

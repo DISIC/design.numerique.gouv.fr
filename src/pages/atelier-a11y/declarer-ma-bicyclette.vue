@@ -89,12 +89,12 @@
                     <label class="fr-label" for="radio-4">BMX</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-4" name="radio" />
-                    <label class="fr-label" for="radio-4">Gravel</label>
+                    <input type="radio" id="radio-5" name="radio" />
+                    <label class="fr-label" for="radio-5">Gravel</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-4" name="radio" />
-                    <label class="fr-label" for="radio-4">Cargo</label>
+                    <input type="radio" id="radio-6" name="radio" />
+                    <label class="fr-label" for="radio-6">Cargo</label>
                   </div>
                 </div>
               </fieldset>

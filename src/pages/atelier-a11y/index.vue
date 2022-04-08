@@ -28,8 +28,7 @@
     </section>
 
     <section class="fr-container fr-px-2w fr-mb-8w">
-      <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
-        <div class="fr-col-8">
+        <div class="fixedWidth">
           <h2>Pourquoi déclarer sa bicyclette ?</h2>
           <p
             >- Parce que c’est une obligation légale depuis la loi sur la bonne
@@ -62,7 +61,7 @@
             <a href="/atelier-a11y/aide/">cliquant ici</a> ou en nous
             interpellant, avec bienveillance, sur les réseaux sociaux.</p
           >
-        </div>
+  
       </div>
     </section>
   </Exercise>
@@ -81,5 +80,12 @@ export default {
   },
 };
 </script>
+<style >
+.fixedWidth { 
+  width: 42em;
+  display: block;
+  margin: 0 auto;
+}
+</style>
 
 

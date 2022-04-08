@@ -28,6 +28,7 @@
             <div class="fr-input-group">
               <label class="fr-label" for="bike-brand">Marque du vélo <small>(obligatoire)</small></label>
               <input
+                tabindex="1"
                 class="fr-input"
                 type="text"
                 id="bike-brand"
@@ -37,9 +38,10 @@
             <div class="fr-input-group">
               <label class="fr-label" for="bike-color">Couleur du vélo <small>(obligatoire)</small></label>
               <span class="fr-hint-text"
-                >Merci d’utiliser une couleur du nuancier RAL</span
+                >Merci d’utiliser de préférence une couleur du nuancier RAL</span
               >
               <input
+                tabindex="2"
                 class="fr-input "
                 type="text"
                 id="bike-color"
@@ -53,6 +55,7 @@
                 l’indiquer</span
               >
               <input
+                tabindex="3"
                 class="fr-input"
                 type="text"
                 id="bike-name"
@@ -69,31 +72,31 @@
                 </legend>
                 <div class="fr-fieldset__content">
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-1" name="radio" />
+                    <input tabindex="4" type="radio" id="radio-1" name="radio" />
                     <label class="fr-label" for="radio-1">Route</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-2" name="radio" />
+                    <input tabindex="5" type="radio" id="radio-2" name="radio" />
                     <label class="fr-label" for="radio-2">VTT</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-3" name="radio" />
+                    <input tabindex="6" type="radio" id="radio-3" name="radio" />
                     <label class="fr-label" for="radio-3">VTC</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-4" name="radio" />
+                    <input tabindex="7" type="radio" id="radio-4" name="radio" />
                     <label class="fr-label" for="radio-4">Fixie</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-4" name="radio" />
+                    <input tabindex="8" type="radio" id="radio-4" name="radio" />
                     <label class="fr-label" for="radio-4">BMX</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-5" name="radio" />
+                    <input tabindex="9" type="radio" id="radio-5" name="radio" />
                     <label class="fr-label" for="radio-5">Gravel</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input type="radio" id="radio-6" name="radio" />
+                    <input tabindex="10" type="radio" id="radio-6" name="radio" />
                     <label class="fr-label" for="radio-6">Cargo</label>
                   </div>
                 </div>
@@ -107,6 +110,7 @@
                 >
               </label>
               <input
+              tabindex="13" 
                 class="fr-upload"
                 type="file"
                 id="bike-pic"
@@ -114,13 +118,13 @@
               />
             </div>
             <div class="fr-checkbox-group">
-              <input type="checkbox" id="vae" name="checkbox" />
+              <input tabindex="12" type="checkbox" id="vae" name="checkbox" />
               <label class="fr-label" for="vae"
                 >Cochez la case, s’il s’agit d’un VAE.</label
               >
             </div>
             <div class="fr-checkbox-group">
-              <input type="checkbox" id="auto" name="checkbox" />
+              <input tabindex="11" type="checkbox" id="auto" name="checkbox" />
               <label class="fr-label" for="auto"
                 >Cochez la case, si vous avez vendu votre automobile.</label
               >
@@ -128,7 +132,7 @@
 
             <div class="fr-select-group">
               <label class="fr-label" for="because">Pourquoi un vélo ? <small>(obligatoire)</small></label>
-              <select class="fr-select" id="because" name="because">
+              <select tabindex="14" class="fr-select" id="because" name="because">
                 <option value="" selected disabled hidden
                   >Selectionnez une seule option (ouais, c’est balèze)</option
                 >
@@ -144,8 +148,7 @@
                 >
               </select>
             </div>
-
-            <button class="fr-btn fr-fi-checkbox-circle-line fr-btn--icon-left">
+            <button tabindex="15"  class="fr-btn fr-fi-checkbox-circle-line fr-btn--icon-left">
               Valider
             </button>
           </form>

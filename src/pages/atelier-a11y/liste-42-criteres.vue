@@ -24,7 +24,10 @@
             >RGAA</abbr
           >.</p
         >
-        <p>Sauf mention contraire, il s’agit de critères de niveau <abbr title="web content accessibility guidelines">WCAG</abbr> A.</p>
+        <p
+          >Sauf mention contraire, il s’agit de critères de niveau
+          <abbr title="web content accessibility guidelines">WCAG</abbr> A.</p
+        >
       </div>
     </section>
 
@@ -67,7 +70,8 @@
                 ><li
                   ><b>3.3</b> Dans chaque page web, les couleurs utilisées dans
                   les composants d’interface ou les éléments graphiques porteurs
-                  d’informations sont-elles suffisamment contrastées ? (WCAG AA)</li
+                  d’informations sont-elles suffisamment contrastées ? (WCAG
+                  AA)</li
                 ></ul
               ></li
             ><li>
@@ -142,7 +146,8 @@
               <ul
                 ><li
                   ><b>9.1</b> Dans chaque page web, l’information est-elle
-                  structurée par l’utilisation appropriée de titres ? (WCAG AA)</li
+                  structurée par l’utilisation appropriée de titres ? (WCAG
+                  AA)</li
                 ><li
                   ><b>9.3</b> Dans chaque page web, chaque liste est-elle
                   correctement structurée ?</li
@@ -165,15 +170,16 @@
                   environnant ?</li
                 ><li
                   ><b>10.7</b> Dans chaque page web, pour chaque élément
-                  recevant le focus, la prise de focus est-elle visible ? (WCAG AA)</li
+                  recevant le focus, la prise de focus est-elle visible ? (WCAG
+                  AA)</li
                 ></ul
               ></li
             ><li>
               <h2>Formulaires</h2>
               <ul
                 ><li
-                  ><b>11.1</b> Chaque champ de formulaire a-t-il une
-                  étiquette ? (WCAG AA)</li
+                  ><b>11.1</b> Chaque champ de formulaire a-t-il une étiquette ?
+                  (WCAG AA)</li
                 ><li
                   ><b>11.2</b> Chaque étiquette associée à un champ de
                   formulaire est-elle pertinente ? (WCAG AA)</li
@@ -217,6 +223,10 @@
                   ><b>13.3</b> Dans chaque page web, chaque document bureautique
                   en téléchargement possède-t-il, si nécessaire, une version
                   accessible ?</li
+                ><li
+                  ><b>13.5</b> Dans chaque page web, chaque contenu cryptique
+                  (art ASCII, émoticône, syntaxe cryptique) a-t-il une
+                  alternative ?</li
                 ><li
                   ><b>13.8</b> Dans chaque page web, chaque contenu en mouvement
                   ou clignotant est-il contrôlable par l’utilisateur ?</li

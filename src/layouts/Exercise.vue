@@ -22,6 +22,20 @@
             </div>
           </div>
 
+          <div class="fr-header__tools">
+            <div class="fr-header__tools-links">
+              <ul class="fr-links-group">
+                <li>
+                  <g-link class="fr-link fr-fi-information-line" to="/a-propos/"></g-link>
+                </li>
+                <li>
+                  <g-link class="fr-link fr-fi-mail-line" to="/contact/"></g-link>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>

@@ -79,7 +79,7 @@
                 </p>
             </div>
             <div class="fr-footer__content ">
-              <p class="fr-footer__content-desc">DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</br>Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" title="code source - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">code source</a> est disponible en licence libre.</p>
+              <p class="fr-footer__content-desc">DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</br>Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" target="_blank" rel="noreferrer noopener">code source</a> est disponible en licence libre.</p>
                 <ul class="fr-footer__content-list">
                     <li class="fr-footer__content-item">
                         <a class="fr-footer__content-link" href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
@@ -133,6 +133,8 @@ p.fr-logo span {
 .text-color.fr-label, .text-color {
   color: var(--artwork-minor-green-menthe);
 }
+
+
 </style>
 
 <script>

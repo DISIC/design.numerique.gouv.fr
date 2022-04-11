@@ -85,7 +85,7 @@
  
 <figure class="fr-my-8w fr-quote fr-quote--column">
     <blockquote>
-        <p>« Life is too short to ride sheet bike »</p>
+        <p>« Life is too short to ride shit bike »</p>
     </blockquote>
     <figcaption>
         <p class="fr-quote__author">Auteur inconnu</p>
@@ -111,8 +111,11 @@ export default {
       {
         name: 'description',
         content: 'Exercice d’audit et de mise en conformité RGAA',
-      },
+      },      
     ],
+   htmlAttrs: {
+      lang: 'en',
+    },
   },
 };
 </script>

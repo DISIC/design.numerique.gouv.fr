@@ -63,13 +63,8 @@
               />
             </div>
             <div class="fr-form-group">
+              <label class="fr-label text-color fr-mb-2w" for="bike-name">Type de vélo</label>
               <fieldset class="fr-fieldset">
-                <legend
-                  class="fr-fieldset__legend fr-text--regular"
-                  id="bike-type"
-                >
-                  Type de vélo <small>(obligatoire)</small>
-                </legend>
                 <div class="fr-fieldset__content">
                   <div class="fr-radio-group">
                     <input tabindex="4" type="radio" id="radio-1" name="radio" />

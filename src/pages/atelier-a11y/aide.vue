@@ -70,16 +70,16 @@
           <h4 class="fr-h3">Le gravel</h4>
           <p>Le gravel est une pratique du vélo qui mélange des passages sur route ainsi que sur des sentiers, des pistes et des chemins. Elle se rapproche du cyclo-cross mais avec une moindre notion de performance.</p>
           <h4 class="fr-h3">Le bikepacking</h4>
-          <p>Le bikepacking consiste à évoluer sur un vélo dépourvu de porte-bagages, contrairement au cyclotourisme, aussi bien pour des parcours réduits que pour de longues expéditions en autonomie. Le vélo est doté de sacoches, qui, à l'inverse du cyclotourisme, sont peu nombreuses pour voyager léger ou parcourir plus rapidement un périple. La monture du cycle sert ainsi elle-même de porte-bagages. Le cycle de bikepacking est polyvalent, permettant d'emprunter aussi bien le réseau routier que les chemins muletiers. Les mini-sacoches sont accrochées au guidon, au cadre, ou encore à la tige de selle, et sont généralement fixées par des sangles.</p>
+          <p>Le bikepacking consiste à évoluer sur un vélo dépourvu de porte-bagages, contrairement au cyclotourisme, aussi bien pour des parcours réduits que pour de longues expéditions en autonomie. Le vélo est doté de sacoches, qui, à l’inverse du cyclotourisme, sont peu nombreuses pour voyager léger ou parcourir plus rapidement un périple. La monture du cycle sert ainsi elle-même de porte-bagages. Le cycle de bikepacking est polyvalent, permettant d’emprunter aussi bien le réseau routier que les chemins muletiers. Les mini-sacoches sont accrochées au guidon, au cadre, ou encore à la tige de selle, et sont généralement fixées par des sangles.</p>
           <h3>Le pignon fixe</h3>
-          <p>Le montage avec pignon fixe (« fixie » en anglais) est un montage particulier de la bicyclette, lorsque le pignon de la roue arrière est monté sans roue libre, ce qui le rend solidaire de la roue dans les deux sens de rotation. Obligatoire sur les pistes de vélodrome, cette pratique a été adpotée par les coursiers d’Amérique du nord à la fin des année 90. </p>
+          <p>Le montage avec pignon fixe (« fixie » en anglais) est un montage particulier de la bicyclette, lorsque le pignon de la roue arrière est monté sans roue libre, ce qui le rend solidaire de la roue dans les deux sens de rotation. Obligatoire sur les pistes de vélodrome, cette pratique a été adoptée par les coursiers d’Amérique du Nord à la fin des années 90. </p>
 
           <img src="/assets/images/bikes.jpg" class="fr-responsive-img" alt="ciel nuageux" />
 
         <h2 class="fr-mt-4w">Ressources intéressantes</h2>
 
           <p>Le <a href="https://wiklou.org/wiki/Accueil">wiklou</a> est un espace de partage de ressources autour du vélo sous toutes ses facettes.</p>
-          <p>Initialement conçu par et pour les ateliers vélos participatifs et solidaires, il est devenu au fils du temps un outil utilisé par toutes et tous.</p>
+          <p>Initialement conçu par et pour les ateliers vélos participatifs et solidaires, il est devenu au fil du temps un outil utilisé par toutes et tous.</p>
           <figure class="fr-my-8w fr-quote fr-quote--column">
               <blockquote>
                   <p>« Life is too short to ride shit bike »</p>

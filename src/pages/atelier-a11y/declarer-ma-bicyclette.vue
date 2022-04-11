@@ -23,35 +23,56 @@
     <section class="fr-container fr-px-2w fr-mb-8w">
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-md-6">
-          <p class="text-color">Seuls les champs facultatifs ne sont pas obligatoires</p>
-          <form action="/atelier-a11y/merci/">
+          <p class="text-color"
+            >Seuls les champs facultatifs ne sont pas obligatoires</p
+          >
+          <form id="declaVelo" action="/atelier-a11y/merci/">
             <div class="fr-input-group">
-              <label class="fr-label" for="bike-brand">Marque du vélo <small>(obligatoire)</small></label>
+              <label class="fr-label" for="bike-brand"
+                >Marque du vélo <small>(obligatoire)</small></label
+              >
               <input
-              required
+                required
                 tabindex="1"
                 class="fr-input"
                 type="text"
                 id="bike-brand"
                 name="bike-brand"
               />
+              <p
+                id="text-input-error-desc-error"
+                class="fr-error-text fr-hidden"
+              >
+                La marque du vélo est obligatoire.
+              </p>
             </div>
             <div class="fr-input-group">
-              <label class="fr-label" for="bike-color">Couleur du vélo <small>(obligatoire)</small></label>
+              <label class="fr-label" for="bike-color"
+                >Couleur du vélo <small>(obligatoire)</small></label
+              >
               <span class="fr-hint-text"
-                >Merci d’utiliser de préférence une couleur du nuancier RAL</span
+                >Merci d’utiliser de préférence une couleur du nuancier
+                RAL</span
               >
               <input
-              required
+                required
                 tabindex="2"
-                class="fr-input "
+                class="fr-input"
                 type="text"
                 id="bike-color"
                 name="bike-color"
               />
+              <p
+                id="text-input-error-desc-error"
+                class="fr-error-text fr-hidden"
+              >
+                La couleur du vélo est obligatoire.
+              </p>
             </div>
             <div class="fr-input-group">
-              <label class="fr-label text-color" for="bike-name">Surnom du vélo</label>
+              <label class="fr-label text-color" for="bike-name"
+                >Surnom du vélo</label
+              >
               <span class="fr-hint-text"
                 >C’est ridicule, mais comme <em>les gens</em> le font, merci de
                 l’indiquer</span
@@ -65,35 +86,72 @@
               />
             </div>
             <div class="fr-form-group">
-              <label class="fr-label text-color fr-mb-2w" for="bike-name">Type de vélo</label>
+              <label class="fr-label text-color fr-mb-2w" for="bike-name"
+                >Type de vélo</label
+              >
               <fieldset class="fr-fieldset">
                 <div class="fr-fieldset__content">
                   <div class="fr-radio-group">
-                    <input tabindex="4" type="radio" id="radio-1" name="radio" />
+                    <input
+                      tabindex="4"
+                      type="radio"
+                      id="radio-1"
+                      name="radio"
+                    />
                     <label class="fr-label" for="radio-1">Route</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input tabindex="5" type="radio" id="radio-2" name="radio" />
+                    <input
+                      tabindex="5"
+                      type="radio"
+                      id="radio-2"
+                      name="radio"
+                    />
                     <label class="fr-label" for="radio-2">VTT</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input tabindex="6" type="radio" id="radio-3" name="radio" />
+                    <input
+                      tabindex="6"
+                      type="radio"
+                      id="radio-3"
+                      name="radio"
+                    />
                     <label class="fr-label" for="radio-3">VTC</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input tabindex="7" type="radio" id="radio-4" name="radio" />
+                    <input
+                      tabindex="7"
+                      type="radio"
+                      id="radio-4"
+                      name="radio"
+                    />
                     <label class="fr-label" for="radio-4">Fixie</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input tabindex="8" type="radio" id="radio-4" name="radio" />
+                    <input
+                      tabindex="8"
+                      type="radio"
+                      id="radio-4"
+                      name="radio"
+                    />
                     <label class="fr-label" for="radio-4">BMX</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input tabindex="9" type="radio" id="radio-5" name="radio" />
+                    <input
+                      tabindex="9"
+                      type="radio"
+                      id="radio-5"
+                      name="radio"
+                    />
                     <label class="fr-label" for="radio-5">Gravel</label>
                   </div>
                   <div class="fr-radio-group">
-                    <input tabindex="10" type="radio" id="radio-6" name="radio" />
+                    <input
+                      tabindex="10"
+                      type="radio"
+                      id="radio-6"
+                      name="radio"
+                    />
                     <label class="fr-label" for="radio-6">Cargo</label>
                   </div>
                 </div>
@@ -107,7 +165,7 @@
                 >
               </label>
               <input
-              tabindex="13" 
+                tabindex="13"
                 class="fr-upload"
                 type="file"
                 id="bike-pic"
@@ -128,8 +186,13 @@
             </div>
 
             <div class="fr-select-group">
-              <label class="fr-label" for="because">Pourquoi un vélo ? <small>(obligatoire)</small></label>
-              <select tabindex="14" class="fr-select" id="because" name="because">
+              <label class="fr-label" for="because">Pourquoi un vélo ? </label>
+              <select
+                tabindex="14"
+                class="fr-select"
+                id="because"
+                name="because"
+              >
                 <option value="" selected disabled hidden
                   >Selectionnez une seule option (ouais, c’est balèze)</option
                 >
@@ -145,9 +208,12 @@
                 >
               </select>
             </div>
-            <button tabindex="15"  class="fr-btn fr-fi-checkbox-circle-line fr-btn--icon-left">
+            <div
+              id="btn"
+              class="fr-btn fr-fi-checkbox-circle-line fr-btn--icon-left"
+            >
               Valider
-            </button>
+            </div>
           </form>
         </div>
       </div>
@@ -166,7 +232,39 @@ export default {
       },
     ],
   },
+  mounted() {
+    const btn = document.querySelector('#btn');
+
+    btn.addEventListener('click', validateForm, false);
+
+    // form validation
+    function validateForm(e) {
+      const form = document.querySelector('#declaVelo');
+      const fields = Array.from(form.elements);
+
+      let errorsCount = 0;
+      // apply invalid class
+      for (let i = 0, il = fields.length, f; i < il; ++i) {
+        f = fields[i];
+        const isValid = f.checkValidity && f.checkValidity();
+        if (f.nextSibling && f.nextSibling.classList) {
+          f.nextSibling.classList.toggle('fr-hidden', isValid);
+        }
+        if (!isValid) {
+          fields.find((j) => !j.checkValidity()).focus();
+          ++errorsCount;
+        }
+      }
+      if (!errorsCount) {
+        location.assign(form.action);
+      }
+    }
+  },
 };
 </script>
 
-
+<style>
+#btn {
+  cursor: pointer;
+}
+</style>

@@ -51,8 +51,7 @@
             chargée de la bonne mobilité de votre mairie.</p
           >
           <p
-            >Vous pouvez également cliquez
-            <a href="/atelier-a11y/declarer-ma-bicyclette/">ici</a> pour faire
+            >Vous pouvez également cliquer <a href="/atelier-a11y/declarer-ma-bicyclette/">ici</a> pour faire
             la démarche en ligne.</p
           >
           <h2>Besoin d’aide ?</h2>

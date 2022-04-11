@@ -88,10 +88,6 @@
                 ><li
                   ><b>4.3</b> Chaque média temporel synchronisé pré-enregistré
                   a-t-il, si nécessaire, des sous-titres synchronisés ?</li
-                ><li
-                  ><b>4.4</b> Pour chaque média temporel synchronisé
-                  pré-enregistré ayant des sous-titres synchronisés, ces
-                  sous-titres sont-ils pertinents ?</li
                 ></ul
               ></li
             ><li>
@@ -139,6 +135,8 @@
                 ><li
                   ><b>8.6</b> Pour chaque page web ayant un titre de page, ce
                   titre est-il pertinent ?</li
+                ><li
+                  ><b>8.7</b> Dans chaque page web, chaque changement de langue est-il indiqué dans le code source ?</li
                 ></ul
               ></li
             ><li>
@@ -161,16 +159,15 @@
                   compréhensible lorsque les feuilles de styles sont
                   désactivées ?</li
                 ><li
-                  ><b>10.4</b> Dans chaque page web, le texte reste-t-il lisible
-                  lorsque la taille des caractères est augmentée jusqu’à 200%,
-                  au moins ? (WCAG AA)</li
-                ><li
                   ><b>10.6</b> Dans chaque page web, chaque lien dont la nature
                   n’est pas évidente est-il visible par rapport au texte
                   environnant ?</li
                 ><li
                   ><b>10.7</b> Dans chaque page web, pour chaque élément
                   recevant le focus, la prise de focus est-elle visible ? (WCAG
+                  AA)</li
+                ><li
+                  ><b>10.11</b> Pour chaque page web, les contenus peuvent-ils être présentés sans avoir recours à un défilement vertical pour une fenêtre ayant une hauteur de 256px ou à un défilement horizontal pour une fenêtre ayant une largeur de 320px ? (WCAG
                   AA)</li
                 ></ul
               ></li

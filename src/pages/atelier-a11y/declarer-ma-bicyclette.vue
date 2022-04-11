@@ -28,6 +28,7 @@
             <div class="fr-input-group">
               <label class="fr-label" for="bike-brand">Marque du vélo <small>(obligatoire)</small></label>
               <input
+              required
                 tabindex="1"
                 class="fr-input"
                 type="text"
@@ -41,6 +42,7 @@
                 >Merci d’utiliser de préférence une couleur du nuancier RAL</span
               >
               <input
+              required
                 tabindex="2"
                 class="fr-input "
                 type="text"

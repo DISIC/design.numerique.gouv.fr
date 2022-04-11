@@ -141,6 +141,12 @@ p.fr-logo span {
 
   export default {
     name: 'Header',
+    metaInfo: {
+      meta: [{
+        name: "robots",
+        content: "noindex, nofollow"
+      }],
+    },
     mounted () {
       let src = "/assets/js/dsfr.module.min.js";
       let dsfr = document.createElement('script');

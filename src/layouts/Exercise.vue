@@ -125,7 +125,7 @@ p.fr-logo span {
   text-transform: capitalize;
 }
 .fr-header__service a[href] { color: #000; }
-#main a[href] { 
+#main a[href]:not(.fr-btn) { 
   text-decoration: none; 
   box-shadow: none;
   color: var(--text-action-high-blue-france);

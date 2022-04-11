@@ -22,8 +22,9 @@
           critères parmi les 106 critères du
           <abbr title="Référentiel général d’amélioration de l’accessibilité"
             >RGAA</abbr
-          >.</p
-        >
+          >.
+          
+<p><a rel="noopener" target="_blank" title="Voir et éditer la grille d’audit en ligne - nouvelle fenêtre"  class=" fr-btn fr-btn--primary" href="https://docs.google.com/spreadsheets/d/1gwMojS5DwneB9egzLPEeFvAd3mAsdmD20E3mfXas8Uk/edit?usp=sharing">Voir et éditer la grille d’audit en ligne</a></p>
         <p
           >Sauf mention contraire, il s’agit de critères de niveau
           <abbr title="web content accessibility guidelines">WCAG</abbr> A.</p
@@ -34,6 +35,7 @@
     <section class="fr-container fr-px-2w fr-mb-8w">
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-8">
+
           <ol
             ><li>
               <h2>Images</h2>

@@ -56,6 +56,7 @@
         type
         replay
         rang
+        publier
         descriptionCourte
         image {
           url
@@ -117,7 +118,7 @@
     },
     computed: {
       sortedCours: function () {
-        return this.$page.formation.cours.sort((a, b) => (a.rang > b.rang));
+        return this.$page.formation.cours.filter(cours => cours.publier).sort((a, b) => (a.rang > b.rang));
       },
       futurCours: function () {
         var futurList = [];

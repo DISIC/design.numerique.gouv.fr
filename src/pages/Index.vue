@@ -32,7 +32,7 @@
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
                 <h2 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/accessibilite-numerique/">L'accessibilité</g-link>
+                  <g-link class="fr-tile__link fr-text--xl" to="/accessibilite-numerique/">L’accessibilité</g-link>
                 </h2>
                 <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>.</p>
               </div>
@@ -91,7 +91,7 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
-                  <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L'Observatoire</a>
+                  <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L’Observatoire</a>
                 </h3>
                 <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎</p>
               </div>

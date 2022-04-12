@@ -27,7 +27,7 @@
                 <h2 class="fr-tile__title">
                   <g-link :to="'/formations/' + node.slug + '/'" class="fr-tile__link fr-text--lg">{{ node.nom }}</g-link>
                 </h2>
-                <p class="fr-badge fr-badge--sm">{{ node.cours.length }} {{ node.cours.length > 1 ? "formations" : "formation"}}</p>
+                <p class="fr-badge fr-badge--sm">{{ node.cours.filter(cours => cours.publier).length }} {{ node.cours.filter(cours => cours.publier).length > 1 ? "formations" : "formation"}}</p>
               </div>
               <div class="fr-tile__img dg-picto">
                 <g-image :src="node.picto[0].url" class="fr-responsive-img" aria-hidden="true"/>
@@ -164,6 +164,7 @@
           }
           cours {
             id
+            publier
           }
         }
       }
@@ -178,6 +179,7 @@
           type
           replay
           tags
+          publier
           formation {
             id
             slug
@@ -255,12 +257,12 @@
             edge.node.tags.forEach(tag => {
               testTag = testTag || this.tags.indexOf(tag) > -1;
             });
-            if(someTypes && !someTags) return testType
-            else if(!someTypes && someTags) return testTag
-            else return testType && testTag
+            if(someTypes && !someTags) return testType && edge.node.publier
+            else if(!someTypes && someTags) return testTag && edge.node.publier
+            else return testType && testTag && edge.node.publier
           }).sort((a, b) => (a.node.rang > b.node.rang));
         } else {
-          return this.$page.allCours.edges.sort((a, b) => (a.node.rang > b.node.rang));
+          return this.$page.allCours.edges.filter(cours => cours.node.publier).sort((a, b) => (a.node.rang > b.node.rang));
         }
       },
       futurCours: function () {

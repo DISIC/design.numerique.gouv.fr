@@ -6,7 +6,7 @@
         <div class="dg-cover__container dg-cover__container--lg">
           <h1 class="fr-display--sm dg-text-center">Concevons des services publics numériques <strong>accessibles</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
           <p class="dg-content dg-text-center fr-text--lead fr-mb-5w">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des idées et outils pour améliorer l’expérience usager de leurs services.</p>
-          <Message/>
+          <!--Message/-->
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
                 <h2 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--xl" to="/accessibilite-numerique/">L'accessibilité</g-link>
                 </h2>
-                <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>. </p>
+                <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>.</p>
               </div>
               <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
                 <img svg-inline src="../assets/images/accessibilite-picto.svg" class="fr-responsive-img" aria-hidden="true">
@@ -67,7 +67,7 @@
                 <h3 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--xl" to="/commando-ux/">Le Commando UX</g-link>
                 </h3>
-                <p class="fr-tile__desc">Des designers déployés au sein de votre équipe 👍 </p>
+                <p class="fr-tile__desc">Des designers déployés au sein de votre équipe 👍</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/commando.svg" class="fr-responsive-img" aria-hidden="true">
@@ -80,7 +80,7 @@
                 <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
                 </h3>
-                <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬  </p>
+                <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
@@ -93,7 +93,7 @@
                 <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L'Observatoire</a>
                 </h3>
-                <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎 </p>
+                <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
@@ -124,7 +124,7 @@
                 <h2 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--xl" to="/formations/">Formations</g-link>
                 </h2>
-                <p class="fr-tile__desc">Nous proposons de nombreuses formations, pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>. </p>
+                <p class="fr-tile__desc">Nous proposons de nombreuses formations, pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>.</p>
               </div>
               <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
                 <img svg-inline src="../assets/images/formation-picto.svg" class="fr-responsive-img" aria-hidden="true">
@@ -173,12 +173,14 @@
 
 
 <script>
-  import Message from "~/components/Message.vue"
+  //import Message from "~/components/Message.vue"
 
   export default {
+    /*
     components: {
       Message,
     },
+    */
     metaInfo: {
       title: "DesignGouv - Le design numérique au service des administrations",
       meta: [{

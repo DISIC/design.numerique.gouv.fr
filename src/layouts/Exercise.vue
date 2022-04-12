@@ -120,7 +120,7 @@
 </footer>  </div>
 </template>
 
-<style type="scoped">
+<style scoped lang="scss">
 p.fr-logo span {
   text-transform: capitalize;
 }

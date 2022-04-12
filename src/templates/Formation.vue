@@ -24,9 +24,9 @@
     <ul class="dg-content fr-px-2w fr-py-2w">
       <li v-for="cours in sortedCours" :key="cours.id" class="fr-card fr-card--horizontal fr-enlarge-link fr-mb-2w">
         <div class="fr-card__body">
-          <h3 class="fr-card__title">
+          <h2 class="fr-card__title">
             <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-tile__link">{{ cours.nom }}</g-link>
-          </h3>
+          </h2>
           <p class="fr-card__desc">{{ cours.descriptionCourte }}</p>
           <p v-show="futurCours.filter(element => element == cours.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new">Inscriptions ouvertes</p>
           <p v-show="futurCours.filter(element => element == cours.id).length == 0 && cours.replay" class="dg-flex-start fr-badge fr-badge--sm">Replay disponible</p>

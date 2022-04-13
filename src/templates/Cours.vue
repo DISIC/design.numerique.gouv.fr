@@ -19,28 +19,50 @@
             </li>
           </ol>
         </nav>
-        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
+        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w fr-mt-1v">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
-        <ul class="fr-tags-group">
-          <li v-for="tag in $page.cours.tags"><span class="fr-tag">{{ tag.charAt(0).toUpperCase() + tag.slice(1) }}</span></li>
-        </ul>
+        <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
+        <div class="dg-inline-block">
+          <p class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Format :</p>
+          <g-link :to="{ path: '/formations/#formations', query: { type: $page.cours.type }}" class="fr-tag fr-mr-4w">{{ $page.cours.type }}</g-link>
+        </div>
+        <div class="dg-inline-block">
+          <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Thème :</p>
+          <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Thèmes :</p>
+          <ul class="dg-inline-block fr-tags-group">
+            <li v-for="tag in $page.cours.tags"><g-link :to="{ path: '/formations/#formations', query: { tag: tag }}" class="fr-tag ">{{ tag }}</g-link></li>
+          </ul>
+        </div>
       </div>
     </div>
 
     <div class="dg-content dg-content--xs fr-px-2w">
 
-      <p class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
+      <div v-if="$page.cours.replay">
+        <h2>Revivez la formation en vidéo</h2>
+        <p>Cette vidéo est sous-titrée.</p>
+        <iframe width="560" height="315" :src="$page.cours.replay" :title="'Replay vidéo de la formation ' + $page.cours.nom" frameborder="0" allowfullscreen></iframe>
+        <h2 class="fr-mt-6w">Informations</h2>
+      </div>
 
-      <div v-if="$page.cours.prerequis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
-        <p v-if="$page.cours.prerequis.type == 'Amphi'"><strong>Prérequis</strong> : avoir suivi ou visionné la <a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">formation {{ $page.cours.prerequis.nom }}</a>.</p>
-        <p v-else-if="$page.cours.prerequis.type == 'Module'"><strong>Prérequis</strong> : avoir participé à l'<a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">atelier {{ $page.cours.prerequis.nom }}</a>.</p>
+      <p v-if="$page.cours.descriptionLongue" class="fr-text--lead">{{ $page.cours.descriptionLongue }}</p>
+
+      <div v-if="$page.cours.cible || $page.cours.prerequis" class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w">
+        <div v-if="$page.cours.cible">
+          <p v-if="$page.cours.cible"><strong>Public concerné :</strong> {{ $page.cours.cible }}.</p>
+        </div>
+        <div v-if="$page.cours.cible && $page.cours.prerequis" class="fr-mb-2w"/>
+        <div v-if="$page.cours.prerequis">
+          <p v-if="$page.cours.prerequis.type == 'Webinaire'"><strong>Prérequis :</strong> avoir suivi ou visionné la <a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">formation {{ $page.cours.prerequis.nom }}</a>.</p>
+          <p v-else-if="$page.cours.prerequis.type == 'Atelier'"><strong>Prérequis :</strong> avoir participé à l'<a :href="'/formations/' + $page.cours.prerequis.formation.slug + '/' + $page.cours.prerequis.slug + '/'">atelier {{ $page.cours.prerequis.nom }}</a>.</p>
+        </div>
       </div>
 
       <div v-html="$page.cours.content.content" class="dg-contains-list"/>
 
       <div v-if="$page.cours.intervenants.length == 1">
-        <p><strong>Formateur</strong> :</p>
-        <div class="person">
+        <p><strong>Formateur :</strong></p>
+        <div class="people person">
           <g-image :src="$page.cours.intervenants[0].photo[0].url" width="120" alt="" class="person__photo"/>
           <p class="person__description">
             <strong class="person__name">{{ $page.cours.intervenants[0].nom }}</strong><br>
@@ -50,7 +72,7 @@
       </div>
 
       <div v-else-if="$page.cours.intervenants.length > 1">
-        <p><strong>Formateurs</strong> :</p>
+        <p><strong>Formateurs :</strong></p>
         <ul class="people">
           <li v-for="intervenant in $page.cours.intervenants" class="person">
             <g-image :src="intervenant.photo[0].url" width="120" alt="" class="person__photo"/>
@@ -68,7 +90,7 @@
           <li v-for="session in futurSessions">{{ session.fancyDate }}</li>
         </ul>
       </div>
-      <p v-else-if="futurSessions.length == 0"><strong>Session</strong> : aucune nouvelle session de prévue pour le moment.</p>
+      <p v-else-if="futurSessions.length == 0"><strong>Prochaine session</strong> : aucune session de prévue pour le moment.</p>
 
       <div v-if="futurSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
@@ -97,8 +119,8 @@
           <div v-if="$page.cours.prerequis" class="fr-form-group">
               <fieldset class="fr-fieldset">
                   <legend class="fr-fieldset__legend fr-text--regular" id='prerequis-legend'>
-                      <span v-if="$page.cours.prerequis.type == 'Amphi'">Avez-vous suivi ou visionné la formation <em>{{ $page.cours.prerequis.nom }}</em> ?</span>
-                      <span v-if="$page.cours.prerequis.type == 'Module'">Avez-vous déjà participé à l'atelier <em>{{ $page.cours.prerequis.nom }}</em> ?</span>
+                      <span v-if="$page.cours.prerequis.type == 'Webinaire'">Avez-vous suivi ou visionné la formation <em>{{ $page.cours.prerequis.nom }}</em> ?</span>
+                      <span v-if="$page.cours.prerequis.type == 'Atelier'">Avez-vous déjà participé à l'atelier <em>{{ $page.cours.prerequis.nom }}</em> ?</span>
                   </legend>
                   <div class="fr-fieldset__content">
                       <div class="fr-radio-group">
@@ -112,19 +134,19 @@
                   </div>
               </fieldset>
           </div>
-          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
+          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
               <label class="fr-label" for="firstName">Votre prénom</label>
               <input class="fr-input" type="text" id="firstName" v-model="form.firstName" required>
           </div>
-          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
+          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
               <label class="fr-label" for="lastName">Votre nom</label>
               <input class="fr-input" type="text" id="lastName" v-model="form.lastName" required>
           </div>
           <div class="fr-input-group">
-            <label class="fr-label" for="email">Votre adresse e-mail<span v-if="$page.cours.type == 'Module'"> professionnelle</span><span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
+            <label class="fr-label" for="email">Votre adresse e-mail<span v-if="$page.cours.type == 'Atelier'"> professionnelle</span><span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
             <input class="fr-input" type="email" id="email" v-model="form.email" required>
           </div>
-          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
+          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
               <label class="fr-label" for="city">Votre ville</label>
               <input class="fr-input" type="text" id="city" v-model="form.city" required>
           </div>
@@ -148,7 +170,7 @@
             <label class="fr-label" for="organisme">Votre organisme</label>
             <input class="fr-input" type="text" id="organisme" v-model="form.organisme" required>
           </div>
-          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
+          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
               <label class="fr-label" for="demarche">Intitulé dans l'Observatoire de la démarche sur laquelle vous travaillez
                 <span class="fr-hint-text"><a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank" title="Accéder à la liste des démarches de l'Observatoire - nouvelle fenêtre">Accéder à la liste des démarches de l'Observatoire</a></span>
               </label>
@@ -185,7 +207,7 @@
                   </div>
               </fieldset>
           </div>
-          <div v-if="$page.cours.type == 'Module'" class="fr-input-group">
+          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
             <label class="fr-label" for="attente">
               Quelles sont vos motivations pour suivre cette formation ?
             </label>
@@ -223,6 +245,7 @@
           slug
         }
       }
+      cible
       intervenants (sortBy: "name", order: DESC) {
         nom
         poste
@@ -235,6 +258,7 @@
       content {
         content
       }
+      replay
       tags
       sessions (sortBy: "date", order: ASC) {
         id
@@ -363,15 +387,15 @@
 <style lang="scss">
 
   .people {
-    margin-top: -0.75rem;
-    margin-bottom: 1.5rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
   }
 
   .person {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
 
     &__photo {
       height: 5rem;

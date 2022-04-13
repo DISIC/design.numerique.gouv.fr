@@ -174,6 +174,13 @@ module.exports = {
             {
                 name: 'Formations', // required
                 typeName: 'Formation', // required
+                links: [ // optional
+                    {
+                        fieldName: 'Cours',
+                        typeName: 'Cours',
+                        linkToFirst: false // optional
+                    },
+                ]
             },
             {
                 name: 'Intervenants', // required
@@ -222,6 +229,7 @@ module.exports = {
     Article: '/articles/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
+    Formation: '/formations/:Slug',
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },
   prefetch: {

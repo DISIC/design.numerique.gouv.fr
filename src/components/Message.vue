@@ -5,9 +5,7 @@
     <p class="fr-mb-2w">
       Nous lançons un nouvel <strong>atelier de formation</strong> en ligne, <strong>Dans la peau d’un auditeur ou d’une auditrice accessibilité</strong> le mardi 12 avril prochain&nbsp;🌈.
     </p>
-    <g-link class="dg-message__link fr-link fr-fi-arrow-right-line fr-link--icon-right" to="/formations/accessibilite/atelier-coder-accessible/">
-      Infos et inscription
-    </g-link>
+    <g-link class="dg-message__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/formations/accessibilite/atelier-coder-accessible/">Infos et inscription</g-link>
   </div>
 </template>
 

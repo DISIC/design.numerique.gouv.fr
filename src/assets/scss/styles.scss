@@ -7,10 +7,24 @@ html {
       overflow-wrap: break-word;
     }
 }
+
 main {
   overflow: hidden;
 }
+
+li.fr-card {
+  padding-bottom: 0;
+}
+
 .dg {
+
+  &-inline-block {
+    display: inline-block;
+  }
+
+  &-flex-start {
+    align-self: flex-start;
+  }
 
   &-text {
 
@@ -139,6 +153,7 @@ main {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    transition: 0.2s all;
 
     @media only screen and (max-width: $sm-point) {
       width: 2.5rem;
@@ -177,8 +192,6 @@ main {
     }
 
     &--rotate {
-      transition: 0.2s all;
-
       &:hover {
         transform: rotate(180deg);
       }
@@ -265,8 +278,8 @@ main {
   }
 
   &-contains-list {
-    ul {
-      margin-top: -0.5rem;
+    ul:not(ul ul) {
+      margin-top: -1rem;
       margin-bottom: 1.5rem;
       padding-left: 2rem;
     }
@@ -296,6 +309,10 @@ main {
       @media only screen and (max-width: $sm-point) {
         width: 160px;
       }
+    }
+
+    &__brand-link {
+      background-image: none;
     }
   }
 }

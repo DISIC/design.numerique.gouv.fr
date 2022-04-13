@@ -294,7 +294,7 @@
       line-height: 1.5;
 
       a {
-        box-shadow: none;
+        background-image: none;
       }
 
       a::after {

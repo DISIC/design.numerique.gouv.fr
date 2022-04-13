@@ -4,7 +4,7 @@ slug: 2022-03-14-appel-aux-experts
 publishedDate: 2022-03-14
 tags: ["Accessibilité", "Design", "Accompagnement"]
 illustration: ./illustrations/2022-03-14-experts.png
-description: L'équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
+description: L’équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---
 
 ## Nous sommes là pour vous appuyer !
@@ -22,11 +22,11 @@ Nos experts designers, développeurs/ses, spécialistes de l’accessibilité et
 - De la **formation** et de la sensibilisation : former et sensibiliser vos équipes sur une demi-journée (ou moins) de sensibilisation aux méthodologies issues du design et à l’accessibilité.
 
 
-Fort de son succès, ce dispositif d'accompagnement et de renfort se poursuit pour toutes les démarches suivies dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}  et dont la volumétrie est supérieure à 200 000 usages par an.
+Fort de son succès, ce dispositif d’accompagnement et de renfort se poursuit pour toutes les démarches suivies dans l’[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"}  et dont la volumétrie est supérieure à 200 000 usages par an.
 
-### Les experts, qu'est-ce que c'est ?
+### Les experts, qu’est-ce que c’est ?
 
-C'est un dispositif **100 % adapté à vos besoins** qui vous accompagne pour que votre démarche réponde aux besoins de tous les usagers, indépendamment de leur maîtrise du web ou de leur handicap.
+C’est un dispositif **100 % adapté à vos besoins** qui vous accompagne pour que votre démarche réponde aux besoins de tous les usagers, indépendamment de leur maîtrise du web ou de leur handicap.
 
 ### Pourquoi faire appel aux experts ?
 
@@ -38,9 +38,9 @@ C'est un dispositif **100 % adapté à vos besoins** qui vous accompagne pour qu
 
 ### À vous de jouer !
 
-Si vous êtes responsables d'une démarche suivie dans l'[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne, ce dispositif est fait pour vous !
+Si vous êtes responsables d’une démarche suivie dans l’[Observatoire](https://observatoire.numerique.gouv.fr/){title="Observatoire de la qualité des démarches en ligne - nouvelle fenêtre"} de la qualité des démarches en ligne, ce dispositif est fait pour vous !
 
-C'est parti : **écrivez-nous à experts@design.numerique.gouv.fr** 📩
+C’est parti : **écrivez-nous à experts@design.numerique.gouv.fr** 📩
 
 À très vite !
 👩‍💼🙋‍♂️🦸‍♀️

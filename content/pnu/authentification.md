@@ -14,6 +14,8 @@ Ce sujet est complexe, d’autant plus qu’il est en lien avec <span lang="en">
 * [FranceConnect+](https://franceconnect.gouv.fr/france-connect-plus) (équivalent distinct de [FranceConnect](https://franceconnect.gouv.fr/) qui permet l’authentification des citoyens des pays de l’Union européenne) qui devra être capable de reconnaître les identités numériques des différents pays&nbsp;;
 * Ou prévoir une alternative pour les utilisateurs transfrontaliers.
 
+FranceConnect+ est opérationnel aussi bien pour les utilisateurs français que pour les citoyens des autres États membre de l'Union européenne. Cependant, pour les utilisateurs français, FranceConnect+ ne s'appuie -&nbsp;pour l'instant&nbsp;- que sur les comptes de La Poste (le seul fournisseur d'identité avec un niveau de sécurité élevé)&nbsp;; par conséquent, il est plus aisé pour un citoyen français de pouvoir passer par FranceConnect, qui accepte plus de fournisseurs d'identité (impôts, Améli, etc.).
+
 Il est possible de consulter la [documentation concernant FranceConnect+ sur son GitHub](https://github.com/france-connect/Documentation-FranceConnect-Plus). Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page «&nbsp;Partenaires&nbsp;»](https://franceconnect.gouv.fr/partenaires) du site via une page d'éligibilité. Le cas échéant, il est également possible de contacter la responsable Relations partenaires FranceConnect à la Direction interministérielle du numérique (Dinum)&nbsp;: Mme Stéphane Mavel, stephane.mavel(a)modernisation.gouv.fr.
 
 <div class="fr-highlight fr-mb-4w">
@@ -21,4 +23,6 @@ Il est possible de consulter la [documentation concernant FranceConnect+ sur son
 	</p>
 </div>
 
-_Mis à jour le 01/02/22 : ProConnect ne prendra pas en compte les usagers professionnels étrangers._
+_Mis à jour&nbsp;:_
+* _le 01/02/22&nbsp;: ProConnect ne prendra pas en compte les usagers professionnels étrangers._
+* _le 14/04/22&nbsp;: Ajout du paragraphe sur le conseil d'usage de FranceConnect et FranceConnect+._

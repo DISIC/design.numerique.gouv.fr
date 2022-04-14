@@ -19,9 +19,7 @@ La Commission a mis en ligne une [vidéo synthétique de présentation du PNU](h
 
 Il ne sera question ici ni du pilier I (pages d’information), suivi par la Direction de l’information légale et administrative (Dila), ni du Pilier III (service d’assistance), suivi par la Direction interministérielle de la transformation publique (DITP). La Dinum ne suit que l’application du Pilier II du PNU, qui demande que les utilisateurs du portail «&nbsp;Your Europe&nbsp;» aient accès à 21 procédures, choisies pour leur importance, d’ici décembre 2023. Ces procédures devront être entièrement accessibles et réalisables en ligne par des utilisateurs transfrontaliers. 
 
-Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais)&nbsp;:
-[Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
-
+Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais)&nbsp;: [V02_Explanatory document on scope of Annex II procedures_Nov 2021_11_12.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/8489646/V02_Explanatory.document.on.scope.of.Annex.II.procedures_Nov.2021_11_12.docx)
 
 <div class="fr-highlight fr-mb-4w">
     <p>Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (Once Only Principle), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont l’Acte d’exécution est encore en cours de discussion ; par ailleurs, il est porté par d’autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
@@ -44,4 +42,6 @@ Le lien entre Procédures PNU et Démarches Observatoire a été fait dans deux 
 
 La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.
 
-_Mis à jour le 01/02/22 : Citation du Règlement complétée._
+_Mis à jour&nbsp;:_ 
+* _le 01/02/22&nbsp;: Citation du Règlement complétée._
+* _le 14/02/22&nbsp;: Remplacement du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» par une version plus récente._

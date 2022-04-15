@@ -25,11 +25,11 @@
                 Votre adresse électronique (obligatoire)
               </label>
               <p class="fr-hint-text" id="format">Au format prenom@mail.fr</p>
-              <input type="email" value="" name="EMAIL" class="fr-input" id="mce-EMAIL" required>
+              <input type="email" value="" name="EMAIL" class="fr-input" id="mce-EMAIL" required autocomplete="email">
             </div>
 
             <div class="fr-form-group">
-              <label class="fr-label" for="mce-group[21897]">Vous travaillez dans... </label>
+              <label class="fr-label" for="mce-group[21897]">Vous travaillez dans...</label>
               <select  class="fr-select" name="group[21897]" id="mce-group[21897]">
                 <option value="" selected disabled hidden>Selectionnez une option</option>
                 <option value="1">La fonction publique de l'État</option>
@@ -43,7 +43,7 @@
             <div class="fr-form-group">
               <fieldset class="fr-fieldset">
                 <legend class="fr-fieldset__legend fr-text--regular" id='checkboxes-legend'>
-                    Votre expertise professionelle
+                    Votre expertise professionnelle
                 </legend>
                 <div class="fr-fieldset__content">
                   <div class="fr-checkbox-group"><input type="checkbox" value="32" name="group[21901][32]" id="mce-group[21901]-21901-0"><label class="fr-label" for="mce-group[21901]-21901-0">Designer UX</label></div>
@@ -52,8 +52,8 @@
                   <div class="fr-checkbox-group"><input type="checkbox" value="64" name="group[21901][64]" id="mce-group[21901]-21901-3"><label class="fr-label" for="mce-group[21901]-21901-3">Chef / cheffe de produit (<span lang="en">product owner</span>)</label></div>
                   <div class="fr-checkbox-group"><input type="checkbox" value="262144" name="group[21901][262144]" id="mce-group[21901]-21901-4"><label class="fr-label" for="mce-group[21901]-21901-4">Chercheur / chercheuse utilisateur (<span lang="en">user researcher</span>)</label></div>
                   <div class="fr-checkbox-group"><input type="checkbox" value="1024" name="group[21901][1024]" id="mce-group[21901]-21901-5"><label class="fr-label" for="mce-group[21901]-21901-5" lang="en">Scrum master</label></div>
-                  <div class="fr-checkbox-group"><input type="checkbox" value="128" name="group[21901][128]" id="mce-group[21901]-21901-6"><label class="fr-label" for="mce-group[21901]-21901-6">Développeur / développeuse <span lang="en">front-end</span></label></div>
-                  <div class="fr-checkbox-group"><input type="checkbox" value="4096" name="group[21901][4096]" id="mce-group[21901]-21901-7"><label class="fr-label" for="mce-group[21901]-21901-7">Développeur / développeuse <span lang="en">back-end</span></label></div>
+                  <div class="fr-checkbox-group"><input type="checkbox" value="128" name="group[21901][128]" id="mce-group[21901]-21901-6"><label class="fr-label" for="mce-group[21901]-21901-6">Développeur / développeuse <span class="fr-pl-1v" lang="en">front-end</span></label></div>
+                  <div class="fr-checkbox-group"><input type="checkbox" value="4096" name="group[21901][4096]" id="mce-group[21901]-21901-7"><label class="fr-label" for="mce-group[21901]-21901-7">Développeur / développeuse  <span class="fr-pl-1v"lang="en">back-end</span></label></div>
                   <div class="fr-checkbox-group"><input type="checkbox" value="8192" name="group[21901][8192]" id="mce-group[21901]-21901-8"><label class="fr-label" for="mce-group[21901]-21901-8">Développeur / développeuse accessibilité</label></div>
                   <div class="fr-checkbox-group"><input type="checkbox" value="16384" name="group[21901][16384]" id="mce-group[21901]-21901-9"><label class="fr-label" for="mce-group[21901]-21901-9">Spécialiste en sciences comportementales</label></div>
                   <div class="fr-checkbox-group"><input type="checkbox" value="32768" name="group[21901][32768]" id="mce-group[21901]-21901-10"><label class="fr-label" for="mce-group[21901]-21901-10">Rédacteur (<span lang="en">UX writer</span>)</label></div>

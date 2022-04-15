@@ -5,7 +5,7 @@ order: 4
 ---
 
 <div class="fr-callout fr-mb-4w"> 
-<p class="fr-callout__title">Ce que dit le Règlement</p> 
+<p class="fr-callout__title fr-mb-4w">Ce que dit le Règlement</p> 
 <p class="fr-callout__text">Les États membres et la Commission veillent à ce que, avant que les utilisateurs ne doivent s’identifier pour entamer la procédure, ceux-ci aient accès à des explications suffisamment exhaustives, claires et conviviales sur les éléments suivants [...]&nbsp;:
 
 <ol><li>
@@ -33,8 +33,8 @@ Par ailleurs, ces informations doivent être traduites en anglais (le Règlement
 Le fait que les informations nécessaires à l’accomplissement de la démarche soient traduites dispense la démarche elle-même de l’être&nbsp;:
 
 <div class="fr-callout fr-mb-4w"> 
-<p class="fr-callout__title">Ce que dit la documentation</p> 
-<p class="fr-callout__text">The SDGR requires that the explanations on how to fill in the procedure form are provided in English. The SDGR does not require that the procedure can be carried out in English. It is not expected that users provide their input in English nor that the decision will be issued in English. (Guideline on cross-border access to online procedure)</p> 
+<p class="fr-callout__title fr-mb-4w">Ce que dit la documentation</p> 
+<p class="fr-callout__text" lang="en">The SDGR requires that the explanations on how to fill in the procedure form are provided in English. The SDGR does not require that the procedure can be carried out in English. It is not expected that users provide their input in English nor that the decision will be issued in English. (Guideline on cross-border access to online procedure)</p> 
 </div>
 
 Suggestion de traduction (à partir de la proposition de Deepl.com)&nbsp;:

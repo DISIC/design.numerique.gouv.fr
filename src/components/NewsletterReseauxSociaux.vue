@@ -18,18 +18,18 @@
                 <div class="fr-col-12 fr-col-md-4">
                     <div class="fr-follow__social">
                         <h2 class="fr-h5 fr-mb-3v fr-mb-3v">Suivez-nous<br> sur les réseaux sociaux</h2>
-                        <ul class="fr-links-group fr-links-group--lg">
+                        <ul class="fr-btns-group fr-btns-group--lg">
                             <li>
-                                <a class="fr-link--twitter fr-link" title="twitter - ouvre une nouvelle fenêtre" href="https://twitter.com/design_gouv/" target="_blank">twitter</a>
+                                <a class="fr-btn--twitter fr-btn" title="twitter - ouvre une nouvelle fenêtre" href="https://twitter.com/design_gouv/" target="_blank">twitter</a>
                             </li>
                             <li>
-                                <a class="fr-link--instagram fr-link" title="instagram - ouvre une nouvelle fenêtre" href="https://www.instagram.com/design_gouv/" target="_blank">instagram</a>
+                                <a class="fr-btn--instagram fr-btn" title="instagram - ouvre une nouvelle fenêtre" href="https://www.instagram.com/design_gouv/" target="_blank">instagram</a>
                             </li>
                             <li>
-                                <a class="fr-link--linkedin fr-link" title="linkedin - ouvre une nouvelle fenêtre" href="https://www.linkedin.com/company/designgouv" target="_blank">linkedin</a>
+                                <a class="fr-btn--linkedin fr-btn" lang="en" title="linkedin - ouvre une nouvelle fenêtre" href="https://www.linkedin.com/company/designgouv" target="_blank">linkedin</a>
                             </li>
                             <li>
-                                <a class="fr-link--youtube fr-link" title="youtube - ouvre une nouvelle fenêtre" href="https://www.youtube.com/c/DesignGouv" target="_blank">youtube</a>
+                                <a class="fr-btn--youtube fr-btn"  lang="en" title="youtube - ouvre une nouvelle fenêtre" href="https://www.youtube.com/c/DesignGouv" target="_blank">youtube</a>
                             </li>
                         </ul>
                     </div>

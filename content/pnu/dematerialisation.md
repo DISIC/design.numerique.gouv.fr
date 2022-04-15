@@ -5,7 +5,7 @@ order: 1
 ---
 
 <div class="fr-callout fr-mb-4w"> 
-<p class="fr-callout__title">Ce que dit le Règlement</p> 
+<p class="fr-callout__title fr-mb-4w">Ce que dit le Règlement</p> 
 <p class="fr-callout__text">Les procédures [...] sont considérées comme étant intégralement en ligne lorsque&nbsp;:</p>
 <ol>
 <li>l’identification des utilisateurs, la fourniture d’informations et de justificatifs, la signature et la validation définitive peuvent être effectuées par voie électronique à distance, par l’intermédiaire d’une chaîne de services qui permet aux utilisateurs de respecter de façon simple et structurée les exigences de la procédure&nbsp;;</li>
@@ -18,8 +18,8 @@ order: 1
 En d’autres termes (anglais)&nbsp;:
 
 <div class="fr-callout fr-mb-4w"> 
-<p class="fr-callout__title">Ce que dit la documentation</p> 
-<p class="fr-callout__text">In many procedures only the first steps are digitalised: users can fill in an application form online and submit it to the relevant authorities. However, the output of the procedure is still delivered only by physical means. Sometimes, the national users can receive the output in an electronic form provided that they are registered and are using the specific delivery system. Such system is however not available for cross-border users. [...] the cross-border users must be able to receive the output of the procedure in electronic format in all cases where this is also possible for non-cross border users. The electronic delivery can be followed by a physical delivery if the national or Union law so requires. (Guideline on cross-border access to online procedure)</p> 
+<p class="fr-callout__title fr-mb-4w">Ce que dit la documentation</p> 
+<p class="fr-callout__text" lang="en">In many procedures only the first steps are digitalised: users can fill in an application form online and submit it to the relevant authorities. However, the output of the procedure is still delivered only by physical means. Sometimes, the national users can receive the output in an electronic form provided that they are registered and are using the specific delivery system. Such system is however not available for cross-border users. [...] the cross-border users must be able to receive the output of the procedure in electronic format in all cases where this is also possible for non-cross border users. The electronic delivery can be followed by a physical delivery if the national or Union law so requires. (Guideline on cross-border access to online procedure)</p> 
 </div> 
 
 Suggestion de traduction (à partir de la proposition de Deepl.com)&nbsp;: 

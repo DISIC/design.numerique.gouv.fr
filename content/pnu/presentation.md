@@ -8,7 +8,7 @@ order: 0
 Le [Règlement (UE) 2018/1724 du Parlement européen et du Conseil du 2 octobre 2018 établissant un portail numérique unique (PNU)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e33-1-1) a pour objectif de diriger les citoyens et entreprises de l’Union européenne vers des informations de qualité sur les règles, les droits et les procédures nationales et européennes qui s’appliquent à eux dans le cadre du marché unique, ainsi que vers les sites où ils peuvent effectuer ces procédures en lignes. Ce portail viendra enrichir [le portail «&nbsp;Your Europe&nbsp;»](https://europa.eu/youreurope/index_fr.htm), déjà disponible.
 
 <div class="fr-callout fr-mb-4w">
-	<p class="fr-callout__title">Ce que dit le Règlement</p>
+	<p class="fr-callout__title fr-mb-4w">Ce que dit le Règlement</p>
 	<p class="fr-callout__text">
 		Le portail donne accès […][à] des informations sur les procédures en ligne et hors ligne ainsi que des liens vers des procédures en ligne […] pour permettre aux utilisateurs d’exercer les droits et de se conformer aux obligations et aux règles dans le domaine du marché intérieur. […] Les États membres font en sorte que, lorsqu’une procédure […] établie au niveau national est accessible en ligne aux utilisateurs non transfrontières et peut être accomplie en ligne par ceux-ci, cette procédure soit également accessible en ligne aux utilisateurs transfrontières et puisse être accomplie en ligne par ceux-ci sans discrimination au moyen de la même solution technique ou d’une autre solution technique.
 	</p>
@@ -17,14 +17,12 @@ Le [Règlement (UE) 2018/1724 du Parlement européen et du Conseil du 2 octobre 
 
 La Commission a mis en ligne une [vidéo synthétique de présentation du PNU](https://www.youtube.com/watch?v=Znkoz0-P3sc&feature=youtu.be) (la vidéo est en anglais mais il est possible de faire apparaître le sous-titrage en français).
 
-Il ne sera question ici ni du pilier I (pages d’information), suivi par la Direction de l’information légale et administrative (Dila), ni du Pilier III (service d’assistance), suivi par la Direction interministérielle de la transformation publique (DITP). La Dinum ne suit que l’application du Pilier II du PNU, qui demande que les utilisateurs du portail «&nbsp;Your Europe&nbsp;» aient accès à 21 procédures, choisies pour leur importance, d’ici décembre 2023. Ces procédures devront être entièrement accessibles et réalisables en ligne par des utilisateurs transfrontaliers. 
+Il ne sera question ici ni du pilier I (pages d’information), suivi par la Direction de l’information légale et administrative (Dila), ni du Pilier III (service d’assistance), suivi par la Direction interministérielle de la transformation publique (DITP). La Dinum ne suit que l’application du Pilier II du PNU, qui demande que les utilisateurs du portail «&nbsp;<span lang="en">Your Europe</span>&nbsp;» aient accès à 21 procédures, choisies pour leur importance, d’ici décembre 2023. Ces procédures devront être entièrement accessibles et réalisables en ligne par des utilisateurs transfrontaliers. 
 
-Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais)&nbsp;:
-[Explanatory document on scope of Annex II procedures_Sept 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7839407/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020.pdf)
-
+Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais)&nbsp;: [V02_Explanatory document on scope of Annex II procedures_Nov 2021_11_12.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/8489646/V02_Explanatory.document.on.scope.of.Annex.II.procedures_Nov.2021_11_12.docx)
 
 <div class="fr-highlight fr-mb-4w">
-    <p>Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (Once Only Principle), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont l’Acte d’exécution est encore en cours de discussion ; par ailleurs, il est porté par d’autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
+    <p>Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (<span lang="en">Once Only Principle</span>), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont l’Acte d’exécution est encore en cours de discussion ; par ailleurs, il est porté par d’autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
     </p>
 </div> 
 
@@ -44,4 +42,6 @@ Le lien entre Procédures PNU et Démarches Observatoire a été fait dans deux 
 
 La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.
 
-_Mis à jour le 01/02/22 : Citation du Règlement complétée._
+_Mis à jour&nbsp;:_ 
+* _le 01/02/22&nbsp;: Citation du Règlement complétée._
+* _le 14/02/22&nbsp;: Remplacement du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» par une version plus récente._

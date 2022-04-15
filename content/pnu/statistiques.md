@@ -5,7 +5,7 @@ order: 8
 ---
 
 <div class="fr-callout fr-mb-4w"> 
-<p class="fr-callout__title">Ce que dit le Règlement</p> 
+<p class="fr-callout__title fr-mb-4w">Ce que dit le Règlement</p> 
 <p class="fr-callout__text">Les autorités compétentes et la Commission veillent à ce que des statistiques soient collectées concernant les visites des utilisateurs sur le portail et les pages internet auxquelles le portail renvoie, d’une manière qui préserve l’anonymat des utilisateurs, dans le souci d’améliorer la fonctionnalité du portail. [...] Les statistiques recueillies [...] font partie des catégories suivantes&nbsp;:</p>
 	<ol>
 <li>données relatives au nombre, à l’origine et au type d’utilisateurs du portail&nbsp;;</li>

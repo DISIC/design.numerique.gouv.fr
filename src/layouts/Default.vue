@@ -11,7 +11,7 @@
 
     <Header />
 
-    <main class="layout" id="main" role="main">
+    <main class="layout" id="main" role="main" tabindex="-1">
       <slot/>
       <Newsletter v-if="!hideNewsletter"/>
       <Offer v-if="showServices"/>

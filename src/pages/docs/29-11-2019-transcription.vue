@@ -377,8 +377,3 @@ export default {
 }
 </script>
 
-<style>
-Main .transcription p {
-  text-align: justify;
-}
-</style>

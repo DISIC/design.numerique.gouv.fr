@@ -1,19 +1,14 @@
 <template>
-<Layout class="succes-page">
-
-  <div class="cover">
-      <div class="cover__container">
-        <h1>Merci. Votre demande a bien été transmise à nos services. Cordialement. </h1>
-        <g-link to="/" class="button">Retourner à l'accueil</g-link>
-      </div>
-  </div>
-
-</Layout>
+  <Layout>
+    <div class="dg-content dg-text-center fr-px-2w fr-pt-4w">
+      <h1 class="dg-text-blue fr-display-xs">Merci. Votre demande a bien été transmise à nos services. Cordialement.</h1>
+      <g-link to="/" class="fr-btn">Retourner à l'accueil</g-link>
+    </div>
+  </Layout>
 </template>
 
 
 <script>
-  import CommandoUX from "~/assets/images/accompagnement.svg"
 
   export default {
     metaInfo: {
@@ -25,23 +20,3 @@
     },
   }
 </script>
-
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .succes-page {
-    .cover {
-      &__container {
-        max-width: 40rem;
-
-        .button {
-          margin-top: 2rem;
-        }
-      }
-    }
-  }
-
-
-</style>

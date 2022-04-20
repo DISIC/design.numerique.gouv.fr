@@ -1,29 +1,22 @@
 <template>
   <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/accessibilite-numerique/">Accessibilité</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Accord cadre accompagnement et formations</span>
-        </li>
-      </ol>
-    </nav>
-    <div class="cover cover--with-breadcrumb">
-     <div class="cover__container">
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Accord cadre accompagnement et formations</span>
+          </li>
+        </ol>
+      </nav>
 
-       <div class="cover__subhead"><Accessibilite class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Accessibilité</div>
-       <h1>Accord cadre accompagnement et formations</h1>
-
-      </div>
-    </div>
-
-    <div class="content">
+      <h1>Accord cadre accompagnement et formations</h1>
 
       <section>
         <h2>Qui peut bénéficier de cet accord ?</h2>
@@ -33,19 +26,19 @@
           <li>Les Ministères à part le MEN et le MESRI</li>
           <li>25 Etablissements Publics</li>
         </ul>
-        <p><a href="/accessibilite-numerique/beneficiaires/">Voir la liste détaillée des bénéficiaires</a> de cet accord-cadre.</p>
-      </section>
+       </section>
 
       <section>
         <h2 id="lot-1">Lot 1 : accompagnement et audit</h2>
         <p>Le lot 1 concerne les prestations d'accompagnement et d'audit des services de communication au public en ligne de l'Etat et des établissements publics dans le cadre de la mise en conformité avec les exigences en matière d’accessibilité (RGAA ou ses documents annexes).</p>
+        <p>Validité : jusqu’au 20 novembre 2021, <strong>il n’est donc plus possible de commander ce lot</strong></p>
       </section>
       <section>
         <h3>Les prestataires</h3>
         <ol>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
-            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98. <a href="https://rgaa-dae.a11y.fr/" target="_blank" title="Détail des prestations proposées - Nouvelle fenêtre">Détail des prestations proposées</a> 
+            Karim ZAHI / gpaw-accessdae@alterway.fr (contact par courriel à privilégier) / Tel : +33 6 20 83 57 98. <a href="https://rgaa-dae.a11y.fr/" target="_blank" title="Détail des prestations proposées - Nouvelle fenêtre">Détail des prestations proposées</a>
         </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
@@ -84,6 +77,7 @@
       <section>
         <h2 id="lot-2">Lot 2 : formations</h2>
         <p>Le lot 2 concerne les prestations de formation relatives au RGAA et l'accessibilité numérique à destination de l'Etat et des établissements publics.</p>
+        <p>Validité : jusqu’au 30 octobre 2021, <strong>il n’est donc plus possible de commander ce lot</strong></p>
       </section>
       <section>
         <h3>Les prestataires</h3>
@@ -98,7 +92,7 @@
           </li>
           <li>
             <strong>TOSCA Consultants</strong><br>
-            Marc MAISONNEUVE / marc.maisonneuve@toscaconsultants.fr / 01 42 36 01 57 et Philipe LENEPVEU / philippe.lenepveu@toscaconsultants.fr / 06 11 24 63 92
+            Marc MAISONNEUVE  marc.maisonneuve@toscaconsultants.fr / 01 42 36 01 57 et Philipe LENEPVEU / philippe.lenepveu@toscaconsultants.fr / 06 11 24 63 92
           </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
@@ -133,20 +127,14 @@
           <li>Si le prestataire n°2 sollicité en application de la règle 2 n’est pas en capacité de répondre dans le délai mentionné ci-dessus, l'entité bénéficiaire s’adresse au prestataire dont l'offre a été classée troisième et ainsi de suite, et dans les conditions mentionnées ci-dessus.</li>
         </ul>
       </section>
-    </div>
 
+    </div>
   </Layout>
 </template>
 
 
 <script>
-
-import Accessibilite from "~/assets/images/accessibilite.svg"
-
   export default {
-    components: {
-      Accessibilite,
-    },
     metaInfo: {
       title: "Accord cadre accompagnement et formations",
       meta: [{
@@ -163,14 +151,8 @@ import Accessibilite from "~/assets/images/accessibilite.svg"
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/designGouv.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
       }],
     }
   }
-
 </script>
-
-
-<style lang="scss">
-
-</style>

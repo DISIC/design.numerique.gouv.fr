@@ -1,20 +1,15 @@
 <template>
   <Layout>
-    <div class="rf-container">
-      <div class="cover">
-        <div class="cover__container">
-        <h1>Oups, <span class="text-highlight">cette page n'existe pas</span></h1>
-        <p class="cover__subtitle">Vous pouvez <a href="./">retourner à l'accueil</a>, consulter le <a href="/misc/plan-du-site/">plan du site</a> ou aller faire un tour de vélo ;)</p><br />
-        <RideIllustration class="illustration" focusable="false" aria-hidden="true"/>
-      </div>
-      </div>      
+    <div class="dg-content fr-px-2w fr-pt-4w">
+      <h1>Oups, cette page n'existe pas</h1>
+      <p>Vous pouvez <a href="/">retourner à l'accueil</a>, consulter le <a href="/misc/plan-du-site/">plan du site</a> ou aller faire un tour de vélo ;)</p><br />
+      <RideIllustration class="illustration" focusable="false" aria-hidden="true"/>
     </div>
   </Layout>
 </template>
 
 
 <script>
-
   import RideIllustration from "~/assets/images/ride.svg";
 
   export default {
@@ -29,12 +24,4 @@
         }],
       }
     }
-
 </script>
-
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-</style>

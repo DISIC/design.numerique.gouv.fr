@@ -1,41 +1,37 @@
 <template>
-  <Layout class="article-page">
+  <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <div class="cover">
+      <div class="dg-content dg-content--xs">
+        <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+              <li>
+                <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
+              </li>
+            <li>
+              <span aria-current="page" v-html="this.cropedTitle" />
+            </li>
+          </ol>
+        </nav>
 
-      <nav aria-label="Breadcrumb" class="breadcrumb">
-        <ol>
-          <li>
-            <g-link to="/">Accueil</g-link>
+        <h1 v-html="$page.article.title" />
+
+        <ul v-if="$page.article.tags.length" class="fr-tags-group">
+          <li v-for="tag in $page.article.tags" :key="tag.id">
+            <g-link class="fr-tag  fr-tag--sm fr-tag--pink-macaron fr-mr-1w" target="_self" :to="tag.path">{{ tag.id.charAt(0).toUpperCase() + tag.id.slice(1) }}</g-link>
           </li>
-          <li>
-            <g-link to="/articles/">Articles</g-link>
-          </li>
-          <li>
-            <p aria-current="page">
-              <span v-html="cropedTitle" />
-            </p>
-          </li>
-        </ol>
-      </nav>
+        </ul>
 
-     <div
-        class="cover__container"
-        :style="{ backgroundImage: `url(${illustration})` }">
-
-        <div class="cover__text">
-          <p class="cover__subtitle"><span v-html="$page.article.publishedDate" /></p>
-          <h1 v-html="$page.article.title" />
-        </div>
+        <p class="fr-text fr-text--sm">Date de publication : {{ $page.article.publishedDate }}</p>
       </div>
-    </div>
 
-    <div class="content">
+      <g-image class="fr-responsive-img fr-mb-4w" :src="$page.article.illustration" alt=""/>
 
-      <div v-html="$page.article.content" />
-
-      <div class="tags">
-        <g-link class="tags__item" v-for="tag in $page.article.tags" :key="tag.id" :to="tag.path">{{tag.id}}</g-link>
+      <div class="dg-content dg-content--xs">
+          <div v-html="$page.article.content" />
       </div>
 
     </div>
@@ -86,11 +82,14 @@ export default {
     }
   },
   created() {
-    this.illustration = this.$page.article.illustration.src
     this.cropedTitle =
-      this.$page.article.title.length > 30 ?
-      this.$page.article.title.substring(0, 28) + "..." :
+      this.$page.article.title.length > 48 ?
+      this.$page.article.title.substring(0, 46) + "..." :
       this.$page.article.title;
+  },
+  mounted() {
+    var images = document.getElementsByTagName('img');
+    images.forEach(image => image.classList.add('fr-responsive-img'));
   }
 }
 </script>
@@ -100,7 +99,7 @@ query Article ($id: ID!) {
   article: article (id: $id) {
     title
     publishedDate (format: "D MMMM YYYY", locale : "fr")
-    illustration
+    illustration (quality: 50)
     description
     content
     tags {
@@ -110,124 +109,3 @@ query Article ($id: ID!) {
   }
 }
 </page-query>
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .article-page {
-
-    .breadcrumb {
-      width: 100vw;
-      position: relative;
-      margin-left: -50vw;
-      left: 50%;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-top: 8px;
-      }
-
-      p {
-        display: inline-block;
-      }
-    }
-
-    .cover {
-      margin-top: 0px;
-      margin-bottom: 64px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 48px;
-      }
-
-      &__container {
-        height: 360px;
-        padding: 0;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-      }
-
-      &__text {
-        width: 640px;
-        background-color: white;
-        padding: 4px 32px 0 32px;
-      }
-
-      h1 {
-        font-size: 2.5em;
-        line-height: 1.2;
-        color: $black;
-        display: inline-block;
-        margin: 8px 0 0 0;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          font-size: 2em;
-          margin: 0;
-        }
-      }
-
-      &__subtitle {
-        margin-top: 8px;
-      }
-    }
-
-    .content {
-      max-width: 640px;
-
-      h2 {
-        margin-top: 1.5em;
-      }
-
-      .guests { /* special pour l'evenement */
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: stretch;
-        flex-basis: auto;
-        text-align: center;
-
-        > div {
-          width: 48%;
-        }
-
-      }
-
-      img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-      }
-    }
-
-    .tags {
-      margin-top: 3em;
-
-      &__item {
-        display: inline-block;
-        padding: 2px 10px;
-        margin: 0px 12px 12px 0;
-        border-radius: 16px;
-        border: 2px solid $gray;
-        font-size: 0.825em;
-        font-weight: 900;
-        color: $black;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 8px 8px 0;
-          font-size: 0.825em;
-        }
-
-        &:hover {
-          border: 2px solid $blue;
-          color: $blue;
-        }
-      }
-    }
-  }
-
-</style>

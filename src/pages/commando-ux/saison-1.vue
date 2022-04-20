@@ -1,38 +1,28 @@
 <template>
-  <Layout class="saison-1-page">
+  <Layout>
+    <div class="dg-content fr-px-2w">
 
-    <nav aria-label="Breadcrumb" class="breadcrumb">
-      <ol>
-        <li>
-          <g-link to="/">Accueil</g-link>
-        </li>
-        <li>
-          <g-link to="/commando-ux/">Commando UX</g-link>
-        </li>
-        <li>
-          <span aria-current="page">Saison 1</span>
-        </li>
-      </ol>
-    </nav>
+      <nav aria-label="Breadcrumb" class="fr-breadcrumb">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
+          </li>
+          <li>
+            <span aria-current="page">Saison 1</span>
+          </li>
+        </ol>
+      </nav>
 
-    <div class="cover">
-     <div class="cover__container">
-
-      <div class="cover__subhead"><CommandoUX class="cover__subhead-icon" focusable="false" aria-hidden="true"/>Commando UX</div>
-      <h1 class="text-highlight">Commando UX saison 1</h1>
-      <p class="cover__subtitle">
+      <h1>Commando UX saison 1</h1>
+      <p class="fr-text--lead">
         Afin d’accélérer les améliorations concrètes pour les usagers dans leurs démarches, la DINUM a lancé en septembre 2020 le Commando UX.
       </p>
 
-      </div>
-    </div>
-
-    <div class="content">
-
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le programme
-        </h2>
+      <section>
+        <h2>Le programme</h2>
         <p>
           Cette première édition s’est appuyée sur le recrutement par la DINUM de 15 designers et développeurs, pour une période de 4 à 7 mois, placés au sein des ministères au plus près de 10 démarches du Top 250.
         </p>
@@ -78,9 +68,7 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Le commando
-        </h2>
+        <h2>Le commando</h2>
         <ul class="team">
           <li v-for="{ node } in $page.allPeople.edges" :key="node.id">
             <g-image :src="node.photo" quality="100" height="150" width="150" alt="" />
@@ -95,9 +83,7 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les 10 défis
-        </h2>
+        <h2>Les 10 défis</h2>
         <ul class="mission">
           <li class="mission__item" v-for="{ node } in firstSeason" :key="node.id">
             <h3><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
@@ -107,10 +93,8 @@
         </ul>
       </section>
 
-      <section class="subsection">
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Simplicité, inclusivité et désirabilité
-        </h2>
+      <section>
+        <h2>Simplicité, inclusivité et désirabilité</h2>
         <p>
           Pour chaque défi, l'objectif est de transformer rapidement le service public numérique concerné pour le rendre plus <strong>fluide</strong>, <strong>efficace</strong> et <strong>compréhensible</strong>. Et qu'il apporte même du <strong>plaisir</strong> aux usagers.
         </p>
@@ -125,7 +109,7 @@
         </ul>
       </section>
 
-      <section class="quote">
+      <section>
         <blockquote>
           <p>Il ne suffit pas de concevoir des [services] fonctionnels, compréhensibles et utilisables, nous devons également créer des [services] qui procurent de la joie et de l'excitation, du plaisir, du désir et, effectivement de la beauté dans la vie des gens.</p>
           <footer><span lang="en">Don Norman</span>, psychologue cognitiviste américain, professeur émérite en sciences cognitives de l'université de Californie à San Diego</footer>
@@ -133,59 +117,21 @@
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Informations pratiques
-        </h2>
+        <h2>Informations pratiques</h2>
         <p><strong>Dates des défis :</strong> Du 7 septembre 2020 au 31 mars 2021</p>
-        <!-- <p><strong>Type de contrat :</strong> CDD à temps plein</p>
-        <p><strong>Rémunération :</strong> 3 000€ ou 3 500€ net par mois, selon le niveau d'expérience</p>
-        <p><strong>Conditions :</strong></p>
-        <ul>
-          <li>Être une personne physique (et non morale)</li>
-          <li>Ne pas être fonctionnaire ou assimilié en poste lors de la prise de poste</li>
-          <li>Ne pas être scolarisé dans l'un des deux premiers cycles universitaires lors de la prise de poste</li>
-        </ul> -->
         <p><strong>Accompagnement :</strong> Par l'équipe <g-link to="/equipe/">Design des services numériques</g-link> de la direction interministérielle du numérique (DINUM) tout au long du projet, avec l'appui d'une chercheuse UX et de deux designers produit.</p>
         <p><strong>Contact :</strong> Vous avez des questions ? Écrivez-nous à <a href="mailto:contact@design.numerique.gouv.fr">contact@design.numerique.gouv.fr</a></p>
-        <ul class="team">
-          <li>
-            <g-image src="~/assets/images/team-photos/faustine-demiselle.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Faustine Demiselle"/>
-            <p><strong>Faustine Demiselle</strong></p>
-            <p lang="en">Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/ugo-dessertine.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Ugo Dessertine"/>
-            <p><strong>Ugo Dessertine</strong></p>
-            <p lang="en">Lead Designer</p>
-            <p>Commando UX</p>
-          </li>
-          <li>
-            <g-image src="~/assets/images/team-photos/georges-bayard.jpg"
-                     quality="100" height="120" width="120"
-                     alt="Georges Bayard"/>
-            <p><strong>Georges Bayard</strong></p>
-            <p>Chargé de mission</p>
-            <p>Observatoire</p>
-          </li>
-        </ul>
       </section>
 
       <section>
-        <h2>
-          <CommandoUX class="h2__icon" focusable="false" aria-hidden="true"/>Les dates clés du programme
-        </h2>
+        <h2>Les dates clés du programme</h2>
         <p>
           <strong>8 juin – 19 juin 2020</strong><br>
           Appel à défis : administrations, soumettez votre projet de l'Observatoire.
         </p>
         <p>
           <strong>22 juin – 26 juin 2020</strong><br>
-          Étude et sélection des défis : nous sélectionnons les 5 à 10 projets les plus impactants.
+          Étude et sélection des défis : nous sélectionnons les 10 projets les plus impactants.
         </p>
         <p>
           <strong>29 juin – 19 juillet 2020</strong><br>
@@ -202,7 +148,6 @@
       </section>
 
     </div>
-
   </Layout>
 </template>
 
@@ -244,13 +189,7 @@
 
 
 <script>
-
-  import CommandoUX from "~/assets/images/accompagnement.svg"
-
   export default {
-    components: {
-      CommandoUX,
-    },
     computed: {
       firstSeason: function () {
         return this.$page.allMission.edges.filter(mission => mission.node.startDate ? (new Date(mission.node.startDate)).getTime() == (new Date('2020-09-07')).getTime() : false)
@@ -272,7 +211,7 @@
       },
       {
         property: 'og:image',
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
       },
       {
         name: "twitter:card",
@@ -292,262 +231,9 @@
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/commandoUX.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
       },
     ],
     }
   }
-
 </script>
-
-
-<style lang="scss">
-
-  @import "src/assets/scss/_vars.scss";
-
-  .saison-1-page {
-
-    .mission {
-      padding: 0;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      &__item {
-        list-style: none;
-        text-align: left;
-        width: 46%;
-        margin: 0px 4px 48px 4px;
-        position: relative;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 100%;
-          margin: 0px 0px 32px 0px;
-        }
-
-        a::after {
-          position: absolute;
-          content: "";
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-        }
-
-        h3 {
-          font-weight: 800;
-          font-size: 1.5em;
-          margin: 12px 0 8px 0;
-          color: $blue;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            font-size: 1.125em;
-            margin: 8px 0 4px 0;
-          }
-
-          a {
-            border: none !important;
-          }
-        }
-
-        img {
-          max-width: 80px;
-          height: 80px;
-
-          @media only screen and (max-width: $mobile-max-width) {
-            max-width: 64px;
-            height: 64px;
-          }
-        }
-      }
-
-      &__profil {
-        display: inline-block;
-        padding: 4px 12px;
-        margin: 0px 12px 12px 0;
-        border-radius: 16px;
-        font-size: 0.825em;
-        font-weight: bold;
-        background-color: $gray;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 8px 8px 0;
-        }
-      }
-
-      &__description {
-        margin: 4px 0 16px 0;
-      }
-
-      &__department, &__place {
-        font-size: 0.825em;
-        font-weight: bold;
-      }
-
-      &__icon {
-        display: inline-block;
-        margin-right: 4px;
-      }
-    }
-
-    .subsection {
-      margin-bottom: 40px;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 24px;
-      }
-    }
-
-    .key-elements {
-      margin: 48px 0;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-around;
-      flex-wrap: wrap;
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin: 32px 0;
-      }
-
-      .element {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 160px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          margin: 0px 4px 16px 4px;
-        }
-
-        img {
-          background-color: lighten($gray, 10%);
-          border-radius: 100%;
-          padding: 12px;
-        }
-
-        > div {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border-radius: 100%;
-          width: 88px;
-          height: 88px;
-          background-color: lighten($gray, 10%);
-
-          svg {
-            font-size: 40px;
-            color: $blue;
-          }
-        }
-
-        p {
-          font-size: 0.875em;
-          color: $blue;
-          margin: 0;
-          font-weight: 500;
-          border-radius: 8px;
-          padding: 4px 8px;
-        }
-      }
-    }
-
-    .cta {
-      text-align: center;
-      margin-bottom: 64px;
-
-      > p {
-        margin: 0;
-        display: block;
-        font-size: 0.9em;
-        color: $dark-gray;
-      }
-
-      @media only screen and (max-width: $mobile-max-width) {
-        margin-bottom: 32px;
-      }
-    }
-
-    .quote {
-      blockquote p {
-        font-family: "Marianne";
-        font-weight: 100;
-        font-size: 1.5rem;
-        max-width: 600px;
-        line-height: 1.4;
-        position: relative;
-        margin: 0;
-        padding: .5rem 0;
-        color: $blue;
-
-        &:before {
-          font-family: "Marianne";
-          font-weight: 500;
-          position: absolute;
-          color: $red;
-          font-size: 8rem;
-          width: 4rem;
-          height: 4rem;
-          content: '«';
-          left: -5rem;
-          top: -4rem;
-        }
-      }
-
-      footer {
-        display: block;
-        margin: 0;
-        padding: 0;
-        border: none;
-        color: $black;
-        text-align: left;
-        font-style: normal;
-      }
-    }
-
-    .team {
-      padding: 0;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      flex-wrap: wrap;
-
-      li {
-        list-style: none;
-        text-align: center;
-        width: 30%;
-        margin: 24px 4px;
-
-        @media only screen and (max-width: $mobile-max-width) {
-          width: 46%;
-        }
-
-        img {
-          margin: 0 auto;
-          border-radius: 50em;
-          max-width: 150px;
-        }
-
-        h3 {
-          margin: 4px 0;
-
-          a {
-            color: $black !important;
-            border: none !important;
-
-            &:hover {
-              color: $blue;
-            }
-          }
-        }
-
-        p {
-            margin: 0;
-        }
-      }
-    }
-  }
-
-</style>

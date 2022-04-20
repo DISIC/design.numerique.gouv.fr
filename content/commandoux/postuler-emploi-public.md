@@ -14,14 +14,14 @@ jobs: [
   ]
 team: ['jean-edouard-sastre','julie-leroy','vianney-le-goff']
 goals: [
-    {name: 'Implémentation du bouton Je Donne Mon Avis (juillet 2021)', done: false},
-    {name: 'Prise en compte handicap sur l’espace candidat (juillet 2021)', done: false},
-    {name: 'Intégration France Connect / Dites-le nous une fois (2021/2022)', done: false},
-    {name: 'Amélioration de l’accessibilité du contact (T4 2021)', done: false},
+    {name: 'Implémentation du bouton Je Donne Mon Avis (juillet 2021)', done: true},
+    {name: 'Prise en compte handicap sur l’espace candidat (juillet 2021)', done: true},
+    {name: 'Intégration France Connect / Dites-le nous une fois (2021/2022)', done: true},
+    {name: 'Amélioration de l’accessibilité du contact (T4 2021)', done: true},
   ]
-status: present
+status: past
 startDate: 2021-04-15
-endDate:
+endDate: 2021-12-31
 ---
 
 ## Résumé du projet

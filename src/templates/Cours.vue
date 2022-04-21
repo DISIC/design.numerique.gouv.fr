@@ -176,7 +176,7 @@
               </label>
               <input class="fr-input" type="text" id="demarche" v-model="form.demarche" required>
           </div>
-          <div class="fr-form-group">
+          <div v-if="$page.cours.type == 'Atelier'" class="fr-form-group">
               <fieldset class="fr-fieldset">
                   <legend class="fr-fieldset__legend fr-text--regular" id='expertise-legend'>
                       Votre niveau d'expertise sur le sujet

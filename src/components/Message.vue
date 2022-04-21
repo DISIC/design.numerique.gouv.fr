@@ -1,11 +1,11 @@
 <template>
   <div class="dg-content dg-message dg-text-center fr-py-3w fr-px-4w">
     <p class="fr-badge fr-badge--new">Nouveau</p>
-    <h2 class="fr-h4 fr-mt-1w fr-mb-1w">Atelier : dans la peau d’une auditrice accessibilité !</h2>
+    <h2 class="fr-h4 fr-mt-1w fr-mb-1w">Un nouveau webinaire et deux nouveaux ateliers !</h2>
     <p class="fr-mb-2w">
-      Nous lançons un nouvel <strong>atelier de formation</strong> en ligne, <strong>Dans la peau d’un auditeur ou d’une auditrice accessibilité</strong> le mardi 12 avril prochain&nbsp;🌈.
+      Bien faire du numérique public&nbsp;; les tests usagers dans la pratique&nbsp;; l'accessibilité numérique pour les designer&nbsp;: découvrez nos <strong>trois nouvelles formations</strong>&nbsp;🌈.
     </p>
-    <g-link class="dg-message__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/formations/accessibilite/atelier-coder-accessible/">Infos et inscription</g-link>
+    <g-link class="dg-message__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/formations#formations">Infos et inscription</g-link>
   </div>
 </template>
 

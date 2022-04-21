@@ -4,14 +4,14 @@
     <SkipLink/>
 
     <div v-show="$i18n.locale == 'en-gb' " class="if-english">
-      <g-link to="/en/about" >
+      <g-link to="/en/about" lang="en">
         Don't speak french? Take a quick tour of what we do
       </g-link>
     </div>
 
     <Header />
 
-    <main id="main" role="main">
+    <main class="layout" id="main" role="main" tabindex="-1">
       <div class="fr-container fr-container--fluid">
         <slot/>
         <Offer v-if="showServices"/>

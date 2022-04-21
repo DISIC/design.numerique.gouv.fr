@@ -23,12 +23,12 @@
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
         <div class="dg-inline-block">
-          <p class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Format :</p>
+          <p class="dg-text-bold dg-inline-block fr-text--sm fr-mb-1w  fr-mr-1w">Format :</p>
           <g-link :to="{ path: '/formations/#formations', query: { type: $page.cours.type }}" class="fr-tag fr-mr-4w">{{ $page.cours.type }}</g-link>
         </div>
-        <div class="dg-inline-block">
-          <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Thème :</p>
-          <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Thèmes :</p>
+        <div class="dg-inline-block fr-mb-1w ">
+          <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mb-1w  fr-mr-1w">Thème :</p>
+          <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mb-1w fr-mr-1w">Thèmes :</p>
           <ul class="dg-inline-block fr-tags-group">
             <li v-for="tag in $page.cours.tags"><g-link :to="{ path: '/formations/#formations', query: { tag: tag }}" class="fr-tag ">{{ tag }}</g-link></li>
           </ul>
@@ -176,7 +176,7 @@
               </label>
               <input class="fr-input" type="text" id="demarche" v-model="form.demarche" required>
           </div>
-          <div class="fr-form-group">
+          <div v-if="$page.cours.type == 'Atelier'" class="fr-form-group">
               <fieldset class="fr-fieldset">
                   <legend class="fr-fieldset__legend fr-text--regular" id='expertise-legend'>
                       Votre niveau d'expertise sur le sujet

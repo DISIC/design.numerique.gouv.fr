@@ -245,7 +245,7 @@
     },
     computed: {
       sortedFormations: function () {
-        return this.$page.allFormation.edges.filter(formation => formation.node.publier).sort((a, b) => (a.node.rang > b.node.rang));
+        return this.$page.allFormation.edges.filter(formation => formation.node.publier).sort((a, b) => (a.node.rang - b.node.rang));
       },
       filterCours: function () {
         const someTypes = this.types.length > 0;
@@ -260,15 +260,15 @@
             if(someTypes && !someTags) return testType && edge.node.publier
             else if(!someTypes && someTags) return testTag && edge.node.publier
             else return testType && testTag && edge.node.publier
-          }).sort((a, b) => (a.node.rang > b.node.rang));
+          }).sort((a, b) => (a.node.rang - b.node.rang));
         } else {
-          return this.$page.allCours.edges.filter(cours => cours.node.publier).sort((a, b) => (a.node.rang > b.node.rang));
+          return this.$page.allCours.edges.filter(cours => cours.node.publier).sort((a, b) => (a.node.rang - b.node.rang));
         }
       },
       futurCours: function () {
         var futurList = [];
         this.$page.allCours.edges.forEach(cours => {
-          var futur = cours.node.sessions.sort((a, b) => a.date > b.date).filter(session => new Date(session.date) > Date.now());
+          var futur = cours.node.sessions.filter(session => new Date(session.date) > Date.now());
           futur.length > 0 ? futurList.push(cours.node.id) : null;
         });
         return futurList;

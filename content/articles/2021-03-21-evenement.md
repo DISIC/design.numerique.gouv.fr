@@ -1,5 +1,5 @@
 ---
-title: L’État centré usager* ? Oui c’est possible
+title: L’État centré usager ? Oui c’est possible
 slug: 2021-03-21-evenement-design
 publishedDate: 2021-03-21
 tags: ["évènement", "design", "accessibilité", "gouvernance"]
@@ -11,7 +11,7 @@ En septembre 2020, nous avons lancé le [Commando UX](/commando-ux){title="Comma
 
 À l’occasion de la clôture de la saison 1 du Commando UX, l’équipe Design des services numériques de la direction interministérielle du numérique (DINUM) organise un événement sur trois soirées et trois thématiques : la recherche utilisateur, l’inclusion et l’accessibilité, et l’art de gouverner.
 
-_*_ Le titre de cet événement s’inspire d’un terme de design : le « design centré utilisateur », soit prendre en compte les besoins des utilisateurs à chaque étape du processus de développement d’un produit ou service. Ce titre, c’est un défi lancé à nos administrations car dans le domaine du numérique, l’État a encore beaucoup de chemin à parcourir pour produire des services compréhensibles, utilisables et souhaitables.
+Le titre de cet événement s’inspire d’un terme de design : le « design centré utilisateur », soit prendre en compte les besoins des utilisateurs à chaque étape du processus de développement d’un produit ou service. Ce titre, c’est un défi lancé à nos administrations car dans le domaine du numérique, l’État a encore beaucoup de chemin à parcourir pour produire des services compréhensibles, utilisables et souhaitables.
 
 ## 3 soirées à revivre
 
@@ -20,7 +20,7 @@ _*_ Le titre de cet événement s’inspire d’un terme de design : le « desig
 Le témoignage d’un Commando UX 2020 suivi d’une table ronde virtuelle sur une nouvelle thématique chaque soir.
 
 
-## Mardi 6 avril : « Répondre à des besoins concrets »
+## Mardi 6 avril : « Répondre à des besoins concrets »
 
 Lors de cette première soirée, nous découvrirons l’importance d’aller à la rencontre des usagers, de les écouter, de les comprendre. Nous aborderons les principes et méthodes de la recherche usager, indispensable à tout projet pour s’assurer de la pertinence d’un service, pour simplifier ce service et ses fonctionnalités à l’essentiel, et pour mieux fédérer vos équipes et donner du sens à leur mission (en bonus, cela vous permettra aussi de réduire les coûts d’un projet).
 
@@ -71,7 +71,7 @@ Docteure en sciences comportementales à la direction interministérielle de la 
 </div>
 </div>
 
-## Mercredi 7 avril : « Des services pour toutes et tous, accessibles & inclusifs »
+## Mercredi 7 avril : « Des services pour toutes et tous, accessibles & inclusifs »
 
 Nous sommes toutes et tous différents derrière nos écrans. Que nous soyons en situation de handicap, très à l’aise avec le numérique, que nous le détestions, que nous ayons accès à un ordinateur, ou pas, que nous ne comprenions rien au langage administratif (coucou tout le monde 👋), il y a une chose qui nous réunit : c’est que nous devons tous avoir un accès égal à nos services publics. Une même facilité d’interaction avec ces services.
 
@@ -114,7 +114,7 @@ Chargé de mission stratégie numérique, Fédération des Aveugles et Amblyopes
 </div>
 </div>
 
-## Jeudi 8 avril : « L’art de gouverner : un moyen essentiel pour maîtriser la qualité et la durabilité des services »
+## Jeudi 8 avril : « L’art de gouverner : un moyen essentiel pour maîtriser la qualité et la durabilité des services »
 
 Nous devons produire des services maintenables, désirables, compréhensibles, sémantiques, accessibles, réactifs, respectueux de la vie privée. En somme des services qui donnent confiance et qui font confiance. Et pour y parvenir, ces mêmes valeurs doivent exister dans les méthodes de management au sein des administrations.
 

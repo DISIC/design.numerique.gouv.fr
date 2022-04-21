@@ -48,7 +48,7 @@
           <li><a href="/formations/ecoconception/">Formation à l’écoconception</a></li>
           </ul>
         <h2><a href="/articles/">Articles</a></h2>
-        <h2>Et </h2>
+        <h2>Autres pages</h2>
         <ul>
           <li><a href="/a-propos/">Notre équipe</a></li>
           <li><a href="/contact/">Contact</a></li>

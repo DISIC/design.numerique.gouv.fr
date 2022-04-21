@@ -118,12 +118,12 @@
     },
     computed: {
       sortedCours: function () {
-        return this.$page.formation.cours.filter(cours => cours.publier).sort((a, b) => (a.rang > b.rang));
+        return this.$page.formation.cours.filter(cours => cours.publier).sort((a, b) => (a.rang - b.rang));
       },
       futurCours: function () {
         var futurList = [];
         this.$page.formation.cours.forEach(cours => {
-          var futur = cours.sessions.sort((a, b) => a.date > b.date).filter(session => new Date(session.date) > Date.now());
+          var futur = cours.sessions.filter(session => new Date(session.date) > Date.now());
           futur.length > 0 ? futurList.push(cours.id) : null;
         });
         return futurList;

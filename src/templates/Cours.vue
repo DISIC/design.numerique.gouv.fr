@@ -28,7 +28,7 @@
         </div>
         <div class="dg-inline-block">
           <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Thème :</p>
-          <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mr-1w">Thèmes :</p>
+          <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mb-1w fr-mr-1w">Thèmes :</p>
           <ul class="dg-inline-block fr-tags-group">
             <li v-for="tag in $page.cours.tags"><g-link :to="{ path: '/formations/#formations', query: { tag: tag }}" class="fr-tag ">{{ tag }}</g-link></li>
           </ul>

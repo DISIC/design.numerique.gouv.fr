@@ -2,7 +2,7 @@
 title:  Porteurs de démarches en ligne, faites appel à nos experts !
 slug: 2022-03-14-appel-aux-experts
 publishedDate: 2022-03-14
-tags: ["Accessibilité", "Design", "Accompagnement"]
+tags: ["accessibilité", "design", "accompagnement"]
 illustration: ./illustrations/2022-03-14-experts.png
 description: L’équipe DSN met à votre disposition designers, et experts en recherche utilisateur et accessibilité
 ---

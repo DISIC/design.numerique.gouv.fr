@@ -6,9 +6,7 @@ tags: ["Accessibilité"]
 illustration: ./illustrations/2022-04-29-traduction-en-francais.png
 description: Access42 vous propose de participer à la traduction en français des WCAG 2.1
 ---
-## Titre : Participez à la traduction en français des WCAG 2.1
-
-### Access42 en charge de la traduction en français des WCAG 2.1
+## Participez à la traduction en français des WCAG 2.1
 
 En 2021, **Access42**, SCOP spécialisée en [accessibilité numérique](https://design.numerique.gouv.fr/accessibilite-numerique/){title="Qu'est-ce que l'accessibilité numérique - nouvelle fenêtre"}, a été retenue comme pilote de l’organisation de **la traduction des WCAG** (Web Content Accessibility Guidelines) version 2.1 **en français** par le W3C (World Wide Web Consortium). 
 

@@ -5,6 +5,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 import ExerciseLayout from '~/layouts/Exercise.vue'
 
 import '~/assets/css/dsfr.min.css'
+import '~/assets/css/utility.min.css'
 import '~/assets/scss/styles.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'

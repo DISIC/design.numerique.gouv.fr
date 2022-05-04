@@ -8,7 +8,7 @@ description: Un ensemble de composants réutilisables pouvant être assemblés p
 ---
 
 
-Le Système de Design de l’État regroupe un ensemble de composants réutilisables, répondant à des standards et à une gouvernance, pouvant être assemblés pour créer des sites internet accessibles et ergonomiques. Il permet aux citoyens et citoyennes d’avoir une meilleure expérience des services numériques de l’État.
+Le Système de Design de l’État, développé par le Service d’information du Gouvernement (SIG), regroupe un ensemble de composants réutilisables, répondant à des standards et à une gouvernance, pouvant être assemblés pour créer des sites internet accessibles et ergonomiques. Il permet aux citoyens et citoyennes d’avoir une meilleure expérience des services numériques de l’État.
 
 ## Lancement
 

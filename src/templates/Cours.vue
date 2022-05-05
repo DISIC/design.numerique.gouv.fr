@@ -376,7 +376,7 @@
         .then(() => {window.location.href = "/formulaire/succes/"})
         .catch(e => {
           Sentry.captureException([e.error, e.message, e.statusCode]);
-          setTimeout(() => {window.location.href = "/formulaire/erreur/"}, 5000)
+          setTimeout(() => {window.location.href = "/formulaire/erreur/"}, 5000);
         })
       }
     },

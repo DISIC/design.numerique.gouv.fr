@@ -5,7 +5,9 @@ order: 0
 ---
 
 
-Le [Règlement (UE) 2018/1724 du Parlement européen et du Conseil du 2 octobre 2018 établissant un portail numérique unique (PNU)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e33-1-1) a pour objectif de diriger les citoyens et entreprises de l’Union européenne vers des informations de qualité sur les règles, les droits et les procédures nationales et européennes qui s’appliquent à eux dans le cadre du marché unique, ainsi que vers les sites où ils peuvent effectuer ces procédures en lignes. Ce portail viendra enrichir [le portail «&nbsp;Your Europe&nbsp;»](https://europa.eu/youreurope/index_fr.htm), déjà disponible.
+Le [Règlement (UE) 2018/1724 du Parlement européen et du Conseil du 2 octobre 2018 établissant un portail numérique unique (PNU)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e33-1-1) a pour objectif de diriger les citoyens et entreprises de l’Union européenne vers des informations de qualité sur les règles, les droits et les procédures nationales et européennes qui s’appliquent à eux dans le cadre du marché unique, ainsi que vers les sites où ils peuvent effectuer ces procédures en lignes. Ce Règlement a fait l'objet d'un [Acte d'exécution en juillet 2020](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32020R1121&from=FR#d1e413-3-1).
+
+Ce portail viendra enrichir [le portail «&nbsp;Your Europe&nbsp;»](https://europa.eu/youreurope/index_fr.htm), déjà disponible.
 
 <div class="fr-callout fr-mb-4w">
 	<p class="fr-callout__title fr-mb-4w">Ce que dit le Règlement</p>
@@ -42,6 +44,12 @@ Le lien entre Procédures PNU et Démarches Observatoire a été fait dans deux 
 
 La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.
 
+<div class="fr-highlight fr-mb-4w">
+    <p>La page d'accueil décrit les principaux aspects attendus par la Commission concernant les démarches entrant dans le périmètre du PNU. La partie "Statistiques" a été supprimée, la position de la Commission ayant évolué à ce sujet : dans l'acte d'exécution, il n'est plus question de transmission de statistiques concernant les procédures.
+    </p>
+</div> 
+
 _Mis à jour&nbsp;:_ 
 * _le 01/02/22&nbsp;: Citation du Règlement complétée._
-* _le 14/02/22&nbsp;: Remplacement du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» par une version plus récente._
+* _le 14/04/22&nbsp;: Remplacement du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» par une version plus récente._
+* _le 06/05/22&nbsp;: Ajout du paragraphe concernant l'évolution de la position de la Commission sur les statistiques et du lien vers l'acte d'exécution._

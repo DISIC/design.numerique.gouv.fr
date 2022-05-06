@@ -44,4 +44,4 @@ Pour tout ce qui concerne [service-public.fr](https://www.service-public.fr/), e
 _Mis à jour&nbsp;:_ 
 * _le 03/02/22&nbsp;: Ajout de la partie Contacts_
 * _le 14/04/22&nbsp;: Ajout de la V2 du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» et du contact du coordonnateur national._
-* _le 06/05/22&nbsp;: Ajout du lien vers l'Acte d'exécution et du document sur les métadonnées collectées.
+* _le 06/05/22&nbsp;: Ajout du lien vers l'Acte d'exécution et du document sur les métadonnées collectées._

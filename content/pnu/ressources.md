@@ -17,7 +17,7 @@ Le lien entre les procédures PNU et les Démarches de l’Observatoire a été 
 
 * [Règlement avec ancre sur le Pilier II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1695-1-1)
 * [Règlement avec ancre sur le «&nbsp;Dites-le nous une fois&nbsp;»](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1)
-* [Acte d'exécution relatif à la collecte et à l’échange de statistiques (...)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32020R1121&from=FR#d1e413-3-1)
+* [Acte d’exécution relatif à la collecte et à l’échange de statistiques (...)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32020R1121&from=FR#d1e413-3-1)
 
 
 ## Documents (en anglais) de la Commission
@@ -27,7 +27,7 @@ Le lien entre les procédures PNU et les Démarches de l’Observatoire a été 
 * [V02_Explanatory document on scope of Annex II procedures_Nov 2021_11_12.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/8489717/V02_Explanatory.document.on.scope.of.Annex.II.procedures_Nov.2021_11_12.docx) (ancienne version&nbsp;: [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849091/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf))
 * [SDG_APIs Technical Specifications.07.07.2021.v2.2.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856412/SDG_APIs.Technical.Specifications.07.07.2021.v2.2.docx)
 * [API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856415/API.URLs.08.07.2021.v2.3.docx)
-* [Metadata to be collected by the EC crawler.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/8641634/Metadata.to.be.collected.by.the.EC.crawler.pdf) - les métadonnées sont collectées au niveau de la saisie dans le portail (pas d'impact sur le code en principe).
+* [Metadata to be collected by the EC crawler.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/8641634/Metadata.to.be.collected.by.the.EC.crawler.pdf) - les métadonnées sont collectées au niveau de la saisie dans le portail (pas d’impact sur le code en principe).
 
 
 ## Contacts
@@ -44,4 +44,4 @@ Pour tout ce qui concerne [service-public.fr](https://www.service-public.fr/), e
 _Mis à jour&nbsp;:_ 
 * _le 03/02/22&nbsp;: Ajout de la partie Contacts_
 * _le 14/04/22&nbsp;: Ajout de la V2 du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» et du contact du coordonnateur national._
-* _le 06/05/22&nbsp;: Ajout du lien vers l'Acte d'exécution et du document sur les métadonnées collectées._
+* _le 06/05/22&nbsp;: Ajout du lien vers l’Acte d’exécution et du document sur les métadonnées collectées._

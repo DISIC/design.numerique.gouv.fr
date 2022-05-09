@@ -2,7 +2,7 @@
 title: Participez à la traduction en français des WCAG 2.1
 slug: 2022-04-29-traduction-en-français-wcag
 publishedDate: 2022-04-29
-tags: ["Accessibilité"]
+tags: ["accessibilité"]
 illustration: ./illustrations/2022-04-29-traduction-en-francais.png
 description: Access42 vous propose de participer à la traduction en français des WCAG 2.1
 ---

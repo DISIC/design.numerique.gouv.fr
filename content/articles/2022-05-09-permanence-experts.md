@@ -1,9 +1,9 @@
 ---
 title: "C’est tout nouveau&nbsp;: la permanence des experts !"
-slug: 2022-05-09-permancence-experts
+slug: 2022-05-09-permanence-experts
 publishedDate: 2022-05-09
 tags: ["accessibilité", "accompagnement"]
-illustration: ./illustrations/2022-05-09-permancence-experts.png
+illustration: ./illustrations/2022-05-09-permanence-experts.png
 description: La permanence des experts pour vous aider dans la conception et l'amélioration de vos démarches.
 ---
 ## C’est tout nouveau : la permanence des experts&nbsp;!

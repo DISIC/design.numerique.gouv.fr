@@ -1,5 +1,5 @@
 ---
-title: C’est tout nouveau : la permanence des experts ! 
+title: "C’est tout nouveau&nbsp;: la permanence des experts !"
 slug: 2022-05-09-permancence-experts
 publishedDate: 2022-05-09
 tags: ["accessibilité", "accompagnement"]

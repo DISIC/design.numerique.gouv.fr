@@ -2,7 +2,7 @@
 title: "C’est tout nouveau : la permanence des experts !"
 slug: 2022-05-09-permanence-experts
 publishedDate: 2022-05-09
-tags: ["accessibilité", "accompagnement"]
+tags: ["accessibilité", "accompagnement", "design"]
 illustration: ./illustrations/2022-05-09-permanence-experts.png
 description: La permanence des experts pour vous aider dans la conception et l'amélioration de vos démarches.
 ---
@@ -12,7 +12,7 @@ Afin de vous accompagner au mieux dans votre volonté d’**améliorer en contin
 
 ### 🥸 Qu’est ce que c’est&nbsp;?
 
-**4 créneaux de 30 minuntes chaque semaine** durant lesquels vous pourrez **échanger avec les experts** dans le but de vous aider dans **la conception et l’amélioration de vos démarches**. Ils répondront à toutes vos questions et vous livreront les clés pour aider à lever vos blocages.
+**4 créneaux de 30 minutes chaque semaine** durant lesquels vous pourrez **échanger avec les experts** dans le but de vous aider dans **la conception et l’amélioration de vos démarches**. Ils répondront à toutes vos questions et vous livreront les clés pour aider à lever vos blocages.
 
 ### 😎 A qui s’adresse cette permanence&nbsp;? 
 
@@ -20,7 +20,7 @@ Afin de vous accompagner au mieux dans votre volonté d’**améliorer en contin
 
 ### 🤔 Comment y recourir&nbsp;? 
 
-Facile ! Réservez un **créneau de 30min** qui sera dédié à vos équipes, à vos problématiques et à vos questions&nbsp;! 
+Facile ! Réservez un **créneau de 30 min** qui sera dédié à vos équipes, à vos problématiques et à vos questions&nbsp;! 
 
 Il vous suffira de partager en amont vos attentes/sujets pour identifier quels seront les bons experts pour répondre à vos besoins.
 
@@ -28,4 +28,4 @@ Il vous suffira de partager en amont vos attentes/sujets pour identifier quels s
 
 Tous les **mardis et jeudis, de 11h à 12h**&nbsp;! 
 
-[Inscrivez-vous ici](https://calendly.com/designgouv/permanence-experts?month=2022-05) pour réserver votre premier créneau (et les prochains aussi&nbsp;!).
+[Réservez votre créneau](https://calendly.com/designgouv/permanence-experts?month=2022-05){class="fr-btn"}

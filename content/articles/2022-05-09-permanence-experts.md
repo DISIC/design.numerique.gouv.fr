@@ -8,15 +8,15 @@ description: La permanence des experts pour vous aider dans la conception et l'a
 ---
 ## C’est tout nouveau : la permanence des experts&nbsp;!
 
-Afin de vous accompagner au mieux dans votre volonté d’**améliorer en continu vos services publics numériques**, [l’équipe DesignGouv](/a-propos/){title="Découvrez l'équipe de DesignGouv - nouvelle fenêtre"} lance : **la permanence des Experts**&nbsp;☎️
+Afin de vous accompagner au mieux dans votre volonté d’**améliorer en continu vos services publics numériques**, [l’équipe DesignGouv](/a-propos/){title="Découvrez l'équipe de DesignGouv - nouvelle fenêtre"} lance&nbsp;: **la permanence des Experts**&nbsp;☎️
 
-### 🥸 Qu’est ce que c’est&nbsp;?
+### 🥸 Qu’est-ce que c’est&nbsp;?
 
 **4 créneaux de 30 minutes chaque semaine** durant lesquels vous pourrez **échanger avec les experts** dans le but de vous aider dans **la conception et l’amélioration de vos démarches**. Ils répondront à toutes vos questions et vous livreront les clés pour aider à lever vos blocages.
 
-### 😎 A qui s’adresse cette permanence&nbsp;? 
+### 😎 À qui s’adresse cette permanence&nbsp;? 
 
-À **vous**, bien évidemment ! 😏 Agents intervenants sur les démarches : responsables produit, responsables de projets, designers, développeuses, développeurs, directeurs et directrices de design... 
+À **vous**, bien évidemment ! 😏 Agents intervenants sur les démarches&nbsp;: responsables produit, responsables de projets, designers, développeuses, développeurs, directeurs et directrices de design... 
 
 ### 🤔 Comment y recourir&nbsp;? 
 

@@ -8,7 +8,7 @@ description: La permanence des experts pour vous aider dans la conception et l'a
 ---
 ## C’est tout nouveau : la permanence des experts&nbsp;!
 
-Afin de vous accompagner au mieux dans votre volonté d’**améliorer en continu vos services publics numériques**, [l’équipe DesignGouv](https://design.numerique.gouv.fr/a-propos/){title="Découvrez l'équipe de DesignGouv - nouvelle fenêtre"} lance : **la permanence des Experts**&nbsp;☎️
+Afin de vous accompagner au mieux dans votre volonté d’**améliorer en continu vos services publics numériques**, [l’équipe DesignGouv](/a-propos/){title="Découvrez l'équipe de DesignGouv - nouvelle fenêtre"} lance : **la permanence des Experts**&nbsp;☎️
 
 ### 🥸 Qu’est ce que c’est&nbsp;?
 
@@ -28,4 +28,4 @@ Il vous suffira de partager en amont vos attentes/sujets pour identifier quels s
 
 Tous les **mardis et jeudis, de 11h à 12h**&nbsp;! 
 
-[Réservez votre créneau](https://calendly.com/designgouv/permanence-experts?month=2022-05){class="fr-btn"}
+[Réserver votre créneau](https://calendly.com/designgouv/permanence-experts?month=2022-05){class="fr-btn"}

@@ -12,7 +12,7 @@ Afin de vous accompagner au mieux dans votre volonté d’**améliorer en contin
 
 ### 🥸 Qu’est ce que c’est&nbsp;?
 
-Deux créneaux de **deux heures chaque semaine** durant lesquels vous pourrez **échanger avec les experts** dans le but de vous aider dans **la conception et l’amélioration de vos démarches**. Ils répondront à toutes vos questions et vous livreront les clés pour aider à lever vos blocages.
+**4 créneaux de 30 minuntes chaque semaine** durant lesquels vous pourrez **échanger avec les experts** dans le but de vous aider dans **la conception et l’amélioration de vos démarches**. Ils répondront à toutes vos questions et vous livreront les clés pour aider à lever vos blocages.
 
 ### 😎 A qui s’adresse cette permanence&nbsp;? 
 

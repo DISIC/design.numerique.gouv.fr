@@ -126,7 +126,7 @@ export default {
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
     .fr-accordion .fr-accordion__btn {
       padding: .75rem 0.5rem .75rem 3rem;
     }

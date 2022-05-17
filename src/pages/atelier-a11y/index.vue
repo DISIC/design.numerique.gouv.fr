@@ -79,7 +79,7 @@ export default {
   },
 };
 </script>
-<style >
+<style lang="scss" scoped>
 .fixedWidth { 
   width: 42em;
   display: block;

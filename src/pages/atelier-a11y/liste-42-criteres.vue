@@ -262,7 +262,7 @@ export default {
 };
 </script>
 
-<style type="scoped">
+<style lang="scss" scoped>
 ol > li::marker {
   font-size: 2em;
 }

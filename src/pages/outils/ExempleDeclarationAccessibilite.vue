@@ -145,7 +145,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 span.tofill {
   background-color: var(--artwork-decorative-red-marianne);
   font-weight: lighter;

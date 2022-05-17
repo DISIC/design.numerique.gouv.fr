@@ -384,7 +384,7 @@
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 
   .people {
     margin-top: -1rem;

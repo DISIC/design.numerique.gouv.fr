@@ -1,0 +1,107 @@
+<template>
+  <Layout>
+    <section class="dg-cover dg-cover--linear fr-mb-6w">
+      <div class="dg-cover__container fr-mb-1w">
+        <nav
+          role="navigation"
+          class="fr-breadcrumb"
+          aria-label="vous êtes ici :"
+        >
+          <ol class="fr-breadcrumb__list">
+            <li>
+              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+            </li>
+            <li>
+              <span aria-current="page">Checklist PiDila</span>
+            </li>
+          </ol>
+        </nav>
+        <h1 class="dg-cover__title">La checklist PiDila</h1>
+        <p class="fr-text--lead">
+          Une liste unique des bonnes pratiques et obligations pour les sites
+          web publics : Marque de l’État,
+          <abbr title="Référentiel Général d’Amélioration de l’Accessibilité"
+            >RGAA</abbr
+          >, Éco-conception, Loi informatique et liberté,
+          <abbr title="Référentiel Général d’Interopérabilité">RGI</abbr> et
+          Règles Opquast.
+        </p>
+      </div>
+    </section>
+
+    <section class="dg-content fr-px-2w">
+      <ul class="fr-accordions-group">
+        <li v-for="edge in $page.allPidilaCriterion.edges" :key="edge.node.id">
+          <section class="fr-accordion">
+            <h2 class="fr-accordion__title">
+              <button
+                class="fr-accordion__btn"
+                aria-expanded="false"
+                :aria-controls="`accordion-${edge.node.id}`"
+              >
+                Pi-{{ edge.node.id }} : {{ edge.node.title }}
+              </button>
+            </h2>
+            <div class="fr-collapse" :id="`accordion-${edge.node.id}`">
+              <h3 class="sr-only">Test</h3>
+              <div v-html="edge.node.content" />
+
+              <ul class="fr-tags-group">
+                <li>
+                  <ul aria-label="Profils">
+                    <li
+                      class="fr-tag"
+                      v-for="profile in edge.node.profiles"
+                      :key="profile"
+                    >
+                      {{ profile }}
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul aria-label="Références">
+                    <li
+                      class="fr-tag"
+                      v-for="reference in edge.node.references"
+                      :key="reference"
+                    >
+                      {{ reference }}
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul aria-label="Thématiques">
+                    <li
+                      class="fr-tag"
+                      v-for="category in edge.node.categories"
+                      :key="category"
+                    >
+                      {{ category }}
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </li>
+      </ul>
+    </section>
+  </Layout>
+</template>
+
+<page-query>
+query {
+  allPidilaCriterion (sortBy: "id", order: ASC) {
+    edges {
+      node {
+        id
+        title
+        profiles
+        categories
+        references
+        content
+      }
+    }
+  }
+}
+</page-query>

@@ -120,6 +120,13 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'PidilaCriterion',
+        path: './content/pidila/*.md',
+      }
+    },
+    {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [

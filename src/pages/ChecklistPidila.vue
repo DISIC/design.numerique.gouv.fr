@@ -16,7 +16,15 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title">La checklist PiDila</h1>
+        <h1 class="dg-cover__title">
+          <img
+            class="dg-picto fr-mr-2w"
+            svg-inline
+            src="../assets/images/accessibilite-picto.svg"
+            aria-hidden="true"
+          />
+          La checklist PiDila
+        </h1>
         <p class="fr-text--lead">
           Une liste unique des bonnes pratiques et obligations pour les sites
           web publics : Marque de l’État,
@@ -43,9 +51,11 @@
               </button>
             </h2>
             <div class="fr-collapse" :id="`accordion-${edge.node.id}`">
+              <!-- Main content -->
               <h3 class="sr-only">Test</h3>
               <div v-html="edge.node.content" />
 
+              <!-- Tags list -->
               <ul class="fr-tags-group">
                 <li>
                   <ul aria-label="Profils">
@@ -105,3 +115,54 @@ query {
   }
 }
 </page-query>
+
+<script>
+export default {
+  metaInfo: {
+    title: "Checklist PiDila",
+    meta: [
+      {
+        name: "description",
+        content:
+          "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+      },
+      {
+        property: "og:title",
+        content: "Checklist PiDila - DesignGouv",
+      },
+      {
+        property: "og:description",
+        content:
+          "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
+      },
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+      {
+        name: "twitter:site",
+        content: "@Design_Gouv",
+      },
+      {
+        name: "twitter:title",
+        content: "Checklist PiDila - DesignGouv",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
+      },
+    ],
+  },
+};
+</script>

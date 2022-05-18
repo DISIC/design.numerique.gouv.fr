@@ -4,8 +4,6 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import ExerciseLayout from '~/layouts/Exercise.vue'
 
-import '~/assets/css/dsfr.min.css'
-import '~/assets/css/utility.min.css'
 import '~/assets/scss/styles.scss'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -140,7 +138,13 @@ library.add(
     // Set default layout as a global component
     Vue.component('Layout', DefaultLayout)
     Vue.component('Exercise', ExerciseLayout)
-    
+    head.link.push({
+      rel: 'stylesheet',
+      href: '/assets/css/utility.min.css'
+    },{
+      rel: 'stylesheet',
+      href: '/assets/css/dsfr.min.css'
+    })
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }
   }

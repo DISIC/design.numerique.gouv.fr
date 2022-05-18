@@ -213,6 +213,7 @@ module.exports = {
   transformers: {
     remark: {
       autolinkHeadings: false,
+      slug: false,
       plugins: [
         'remark-attr',
         [

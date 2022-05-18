@@ -138,6 +138,8 @@ li.fr-card {
   &-block {
     background: linear-gradient(270deg, var(--green-tilleul-verveine-975-75) 20%, var(--pink-macaron-975-75) 80%);
     background: conic-gradient(from 180deg, var(--green-tilleul-verveine-975-75), var(--pink-macaron-975-75), var(--green-tilleul-verveine-975-75));
+    display: flex;
+    justify-content: center;
     @media (prefers-color-scheme: dark) {
       background: var(--background-alt-pink-macaron);
     }

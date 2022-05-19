@@ -38,6 +38,9 @@
     </section>
 
     <section class="dg-content fr-px-2w">
+      <Toolbar />
+
+      <!-- Checklist -->
       <ul class="fr-accordions-group">
         <li v-for="edge in $page.allPidilaCriterion.edges" :key="edge.node.id">
           <section class="fr-accordion">
@@ -117,7 +120,10 @@ query {
 </page-query>
 
 <script>
+import Toolbar from "../components/pidila/Toolbar.vue";
+
 export default {
+  components: { Toolbar },
   metaInfo: {
     title: "Checklist PiDila",
     meta: [

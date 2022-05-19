@@ -10,7 +10,9 @@
         name="search"
         v-model.trim="searchQuery"
       />
-      <button class="fr-btn" title="Rechercher">Rechercher</button>
+      <button class="fr-btn" type="submit" title="Rechercher">
+        Rechercher
+      </button>
     </div>
   </form>
 </template>
@@ -33,6 +35,12 @@ export default {
   methods: {
     search() {
       this.$emit("search", this.searchQuery);
+    },
+  },
+  watch: {
+    "$route.query"(to, from) {
+      this.searchQuery = to.search;
+      this.search();
     },
   },
 };

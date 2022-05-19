@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <!-- Hero banner -->
     <section class="dg-cover dg-cover--linear fr-mb-6w">
       <div class="dg-cover__container fr-mb-1w">
         <nav
@@ -37,69 +38,104 @@
       </div>
     </section>
 
-    <section class="dg-content fr-px-2w">
-      <Toolbar />
-      <Search @search="updateSearch" />
+    <div class="dg-content fr-px-2w">
+      <!-- Filters and tools -->
+      <div class="fr-mb-8w">
+        <Toolbar />
+      </div>
 
-      <!-- Checklist -->
-      <ul class="fr-accordions-group">
-        <li v-for="edge in filteredCriteria" :key="edge.node.id">
-          <section class="fr-accordion">
-            <h2 class="fr-accordion__title">
-              <button
-                class="fr-accordion__btn"
-                aria-expanded="false"
-                :aria-controls="`accordion-${edge.node.id}`"
-              >
-                Pi-{{ edge.node.id }} : {{ edge.node.title }}
-              </button>
-            </h2>
-            <div class="fr-collapse" :id="`accordion-${edge.node.id}`">
-              <!-- Main content -->
-              <h3 class="sr-only">Test</h3>
-              <div v-html="edge.node.content" />
+      <section class="fr-mb-8w">
+        <h2>Rechercher et filtrer les critères</h2>
+        <Search @search="updateSearch" />
 
-              <!-- Tags list -->
-              <ul class="fr-tags-group">
-                <li>
-                  <ul aria-label="Profils">
-                    <li
-                      class="fr-tag"
-                      v-for="profile in edge.node.profiles"
-                      :key="profile"
-                    >
-                      {{ profile }}
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <ul aria-label="Références">
-                    <li
-                      class="fr-tag"
-                      v-for="reference in edge.node.references"
-                      :key="reference"
-                    >
-                      {{ reference }}
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <ul aria-label="Thématiques">
-                    <li
-                      class="fr-tag"
-                      v-for="category in edge.node.categories"
-                      :key="category"
-                    >
-                      {{ category }}
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </li>
-      </ul>
-    </section>
+        <!-- Banner -->
+        <div
+          class="fr-mb-8w"
+          role="alert"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <p>
+            {{ filteredCriteria.length }} {{ bannerStringResults }}
+            <template v-if="searchQuery">
+              « <strong>{{ searchQuery }}</strong> »
+            </template>
+          </p>
+          <button
+            v-if="searchQuery"
+            class="fr-btn fr-btn--tertiary"
+            @click="resetFilters"
+          >
+            Réinitialiser les filtres
+          </button>
+        </div>
+      </section>
+
+      <!-- Criteria list -->
+      <section>
+        <h2>Critères</h2>
+        <ul v-if="filteredCriteria.length" class="fr-accordions-group">
+          <li v-for="edge in filteredCriteria" :key="edge.node.id">
+            <section class="fr-accordion">
+              <h2 class="fr-accordion__title">
+                <button
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  :aria-controls="`accordion-${edge.node.id}`"
+                >
+                  Pi-{{ edge.node.id }} : {{ edge.node.title }}
+                </button>
+              </h2>
+              <div class="fr-collapse" :id="`accordion-${edge.node.id}`">
+                <!-- Main content -->
+                <h3 class="sr-only">Test</h3>
+                <div v-html="edge.node.content" />
+
+                <!-- Tags list -->
+                <ul class="fr-tags-group">
+                  <li>
+                    <ul aria-label="Profils">
+                      <li
+                        class="fr-tag"
+                        v-for="profile in edge.node.profiles"
+                        :key="profile"
+                      >
+                        {{ profile }}
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul aria-label="Références">
+                      <li
+                        class="fr-tag"
+                        v-for="reference in edge.node.references"
+                        :key="reference"
+                      >
+                        {{ reference }}
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul aria-label="Thématiques">
+                      <li
+                        class="fr-tag"
+                        v-for="category in edge.node.categories"
+                        :key="category"
+                      >
+                        {{ category }}
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </li>
+        </ul>
+        <div v-else class="fr-p-2w">
+          Aucun critère ne correspond aux filtres appliqués.
+        </div>
+      </section>
+    </div>
   </Layout>
 </template>
 
@@ -153,6 +189,15 @@ export default {
 
       return this.$page.allPidilaCriterion.edges;
     },
+    bannerStringResults() {
+      if (this.searchQuery) {
+        return `critère${
+          this.filteredCriteria.length > 1 ? "s" : ""
+        } correspondant à la recherche`;
+      }
+
+      return `critères sans aucun filtre ni recherche appliqués pour le moment.`;
+    },
   },
   methods: {
     /**
@@ -176,6 +221,9 @@ export default {
               }
         )
         .catch(() => {});
+    },
+    resetFilters() {
+      this.$router.push({ path: this.$route.path });
     },
     /**
      * Remove accents and uppercase characters.

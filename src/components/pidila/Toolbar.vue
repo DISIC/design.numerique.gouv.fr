@@ -27,7 +27,7 @@
     <div role="alert" aria-live="polite">
       <div
         v-if="showClipboardAlert"
-        class="fr-alert fr-alert--success fr-alert--sm fr-mb-1w"
+        class="fr-alert fr-alert--success fr-alert--sm fr-mb-2w"
       >
         <p>Le lien vers la liste a bien été copié dans le presse-papier.</p>
       </div>

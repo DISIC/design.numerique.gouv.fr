@@ -39,10 +39,11 @@
 
     <section class="dg-content fr-px-2w">
       <Toolbar />
+      <Search @search="updateSearch" />
 
       <!-- Checklist -->
       <ul class="fr-accordions-group">
-        <li v-for="edge in $page.allPidilaCriterion.edges" :key="edge.node.id">
+        <li v-for="edge in filteredCriteria" :key="edge.node.id">
           <section class="fr-accordion">
             <h2 class="fr-accordion__title">
               <button
@@ -121,9 +122,73 @@ query {
 
 <script>
 import Toolbar from "../components/pidila/Toolbar.vue";
+import Search from "../components/pidila/Search.vue";
 
 export default {
-  components: { Toolbar },
+  components: { Toolbar, Search },
+  data() {
+    return {
+      searchQuery: "",
+    };
+  },
+  computed: {
+    /**
+     * Filter criteria based on search, profile and reference.
+     * @returns {Object[]}
+     */
+    filteredCriteria() {
+      // Search filter based on criterion's title and content
+      if (this.searchQuery) {
+        return this.$page.allPidilaCriterion.edges.filter((edge) => {
+          return (
+            this.cleanString(edge.node.title).includes(
+              this.cleanString(this.searchQuery)
+            ) ||
+            this.cleanString(edge.node.content).includes(
+              this.cleanString(this.searchQuery)
+            )
+          );
+        });
+      }
+
+      return this.$page.allPidilaCriterion.edges;
+    },
+  },
+  methods: {
+    /**
+     * Set search value and update URL query params
+     */
+    updateSearch(value) {
+      if (this.searchQuery === value) return;
+
+      this.searchQuery = value;
+
+      // Update or remove `search` query param
+      this.$router
+        .push(
+          !value
+            ? { path: this.$route.path }
+            : {
+                query: {
+                  ...this.$route.query,
+                  search: value,
+                },
+              }
+        )
+        .catch(() => {});
+    },
+    /**
+     * Remove accents and uppercase characters.
+     * @param {string}
+     * @returns {string}
+     */
+    cleanString(string) {
+      return string
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+    },
+  },
   metaInfo: {
     title: "Checklist PiDila",
     meta: [

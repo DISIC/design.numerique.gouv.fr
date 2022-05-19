@@ -1,19 +1,17 @@
 <template>
-  <form @submit.prevent="search">
-    <div class="fr-input-group">
-      <label class="fr-label" for="search">
-        Rechercher dans les critères
-      </label>
+  <form @submit.prevent="search" class="fr-mb-2w">
+    <div class="fr-search-bar" id="header-search" role="search">
+      <label class="fr-label" for="search">Rechercher parmi les critères</label>
       <input
         class="fr-input"
-        type="text"
+        placeholder="Schéma pluriannuel"
+        type="search"
         id="search"
         name="search"
         v-model.trim="searchQuery"
       />
+      <button class="fr-btn" title="Rechercher">Rechercher</button>
     </div>
-
-    <button class="fr-btn fr-btn--secondary" type="submit">Go</button>
   </form>
 </template>
 

@@ -26,14 +26,18 @@
         <div class="fr-col-sm-6" v-for="article in $page.tag.belongsTo.edges" :key="article.node.id">
           <article class="fr-card fr-enlarge-link" >
             <div class="fr-card__body">
+              <div class="fr-card__content">
                 <h2 class="fr-card__title">
                   <g-link :to="article.node.path" class="fr-card__link">{{ article.node.title }}</g-link>
                 </h2>
                 <p class="fr-card__desc">{{ article.node.description }}.</p>
                 <p class="fr-card__detail">{{ article.node.publishedDate }}</p>
+              </div>
             </div>
-            <div class="fr-card__img">
-                <g-image :src="article.node.illustration" class="fr-responsive-img" alt=""/>
+            <div class="fr-card__header">
+              <div class="">
+                  <g-image :src="article.node.illustration" class="fr-responsive-img" alt=""/>
+              </div>
             </div>
           </article>
         </div>

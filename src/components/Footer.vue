@@ -17,16 +17,16 @@
               <p class="fr-footer__content-desc">DesignGouv est propulsé par la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</br>Le <a href="https://github.com/DISIC/design.numerique.gouv.fr" title="code source - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">code source</a> est disponible en licence libre.</p>
                 <ul class="fr-footer__content-list">
                     <li class="fr-footer__content-item">
-                        <a class="fr-footer__content-link" href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
+                        <a class="fr-footer__content-link" target="_blank" title="legifrance.gouv.fr - nouvelle fenêtre" href="https://legifrance.gouv.fr">legifrance.gouv.fr</a>
                     </li>
                     <li class="fr-footer__content-item">
-                        <a class="fr-footer__content-link" href="https://gouvernement.fr">gouvernement.fr</a>
+                        <a class="fr-footer__content-link"  target="_blank" title="gouvernement.fr - nouvelle fenêtre" href="https://gouvernement.fr">gouvernement.fr</a>
                     </li>
                     <li class="fr-footer__content-item">
-                        <a class="fr-footer__content-link" href="https://service-public.fr">service-public.fr</a>
+                        <a class="fr-footer__content-link"  target="_blank" title="service-public.fr - nouvelle fenêtre" href="https://service-public.fr">service-public.fr</a>
                     </li>
                     <li class="fr-footer__content-item">
-                        <a class="fr-footer__content-link" href="https://data.gouv.fr">data.gouv.fr</a>
+                        <a class="fr-footer__content-link"  target="_blank" title="data.gouv.fr - nouvelle fenêtre" href="https://data.gouv.fr">data.gouv.fr</a>
                     </li>
                 </ul>
             </div>

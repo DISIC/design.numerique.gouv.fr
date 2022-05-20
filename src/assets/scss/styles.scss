@@ -316,7 +316,7 @@ li.fr-card {
       }
     }
 
-    &__brand-link {
+    &__brand-link[href] {
       background-image: none;
     }
   }

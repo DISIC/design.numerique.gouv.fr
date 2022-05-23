@@ -40,7 +40,10 @@ export default {
   watch: {
     "$route.query"(to, from) {
       this.searchQuery = to.search;
-      this.search();
+
+      if (to.search) {
+        this.search();
+      }
     },
   },
 };

@@ -42,33 +42,30 @@
       <!-- Filters and tools -->
       <div class="fr-mb-8w">
         <Toolbar />
-      </div>
-
-      <section class="fr-mb-8w">
         <Search @search="updateSearch" />
+        <Filters @filter-profile="updateProfileFilters" />
 
-        <!-- Banner -->
+        <!-- Results info -->
         <div
           class="fr-mb-8w"
           role="alert"
           aria-live="polite"
           aria-atomic="true"
         >
-          <p>
-            {{ filteredCriteria.length }} {{ bannerStringResults }}
-            <template v-if="searchQuery">
-              « <strong>{{ searchQuery }}</strong> »
-            </template>
-          </p>
+          <ResultsMessage
+            :results-count="filteredCriteria.length"
+            :search="searchQuery"
+            :profiles="profileFilters"
+          />
           <button
-            v-if="searchQuery"
+            v-if="isFiltered"
             class="fr-btn fr-btn--tertiary"
             @click="resetFilters"
           >
             Réinitialiser les filtres
           </button>
         </div>
-      </section>
+      </div>
 
       <!-- Criteria list -->
       <section>
@@ -157,23 +154,30 @@ query {
 <script>
 import Toolbar from "../../components/pidila/Toolbar.vue";
 import Search from "../../components/pidila/Search.vue";
+import Filters from "../../components/pidila/Filters.vue";
+import ResultsMessage from "../../components/pidila/ResultsMessage.vue";
 
 export default {
-  components: { Toolbar, Search },
-  data() {
-    return {
-      searchQuery: "",
-    };
-  },
+  components: { Toolbar, Search, Filters, ResultsMessage },
   computed: {
+    searchQuery() {
+      return this.$route.query.search;
+    },
+    profileFilters() {
+      return this.$route.query.profil
+        ? JSON.parse(this.$route.query.profil)
+        : [];
+    },
     /**
      * Filter criteria based on search, profile and reference.
      * @returns {Object[]}
      */
     filteredCriteria() {
+      let criteria = this.$page.allPidilaCriterion.edges;
+
       // Search filter based on criterion's title and content
       if (this.searchQuery) {
-        return this.$page.allPidilaCriterion.edges.filter((edge) => {
+        criteria = criteria.filter((edge) => {
           return (
             this.cleanString(edge.node.title).includes(
               this.cleanString(this.searchQuery)
@@ -185,22 +189,33 @@ export default {
         });
       }
 
-      return this.$page.allPidilaCriterion.edges;
-    },
-    bannerStringResults() {
-      if (this.searchQuery) {
-        return `critère${
-          this.filteredCriteria.length > 1 ? "s" : ""
-        } correspondant à la recherche`;
+      // Profile filter
+      if (this.profileFilters.length) {
+        criteria = criteria.filter((edge) => {
+          return edge.node.profiles.some((p) =>
+            this.profileFilters.includes(p)
+          );
+        });
       }
 
-      return `critères sans aucun filtre ni recherche appliqués pour le moment.`;
+      return criteria;
+    },
+    isFiltered() {
+      return this.searchQuery || this.profileFilters.length;
     },
     pageTitle() {
-      if (this.searchQuery) {
+      const appliedFiltersCount = [
+        !!this.searchQuery,
+        !!this.profileFilters.length,
+      ].reduce((n, acc) => n + acc, 0);
+
+      // X critère(s) pour X filtre(s) appliqué(s)
+      if (this.isFiltered) {
         return `${this.filteredCriteria.length} critère${
           this.filteredCriteria.length > 1 ? "s" : ""
-        } pour 1 filtre appliqué`;
+        } pour ${appliedFiltersCount} filtre${
+          appliedFiltersCount > 1 ? "s" : ""
+        } appliqué${appliedFiltersCount > 1 ? "s" : ""}`;
       }
 
       return "Checklist PiDila";
@@ -208,25 +223,35 @@ export default {
   },
   methods: {
     /**
-     * Set search value and update URL query params
+     * Update `search` query params. "undefined" removes the query param instead of setting it to an empty value.
+     * @param {string} value
      */
     updateSearch(value) {
-      if (this.searchQuery === value) return;
+      this.updateQueryParams("search", value || undefined);
+    },
+    /**
+     * Update `profil` query param. "undefined" removes the query param instead of setting it to an empty value.
+     * @param {string[]} value
+     */
+    updateProfileFilters(value) {
+      this.updateQueryParams("profil", value.length ? value : undefined);
+    },
+    /**
+     * Update URL query params based on filters values
+     * @param {string} key The query param name (e.g. "search")
+     * @param {string|array} value The query param value (e.g. "rgaa")
+     */
+    updateQueryParams(key, value) {
+      const queryParams = {
+        ...this.$route.query,
+        [key]: Array.isArray(value) ? JSON.stringify(value) : value,
+      };
 
-      this.searchQuery = value;
-
-      // Update or remove `search` query param
-      this.$router
-        .push(
-          !value
-            ? { path: this.$route.path }
-            : {
-                query: {
-                  ...this.$route.query,
-                  search: value,
-                },
-              }
-        )
+      return this.$router
+        .push({
+          path: this.$route.path,
+          query: Object.keys(queryParams).length ? queryParams : null,
+        })
         .catch(() => {});
     },
     resetFilters() {

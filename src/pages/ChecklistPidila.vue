@@ -45,7 +45,6 @@
       </div>
 
       <section class="fr-mb-8w">
-        <h2>Rechercher et filtrer les critères</h2>
         <Search @search="updateSearch" />
 
         <!-- Banner -->
@@ -73,8 +72,7 @@
 
       <!-- Criteria list -->
       <section>
-        <h2>Critères</h2>
-        <ul v-if="filteredCriteria.length" class="fr-accordions-group">
+        <ul v-if="filteredCriteria.length" class="dg-pidila-accordions">
           <li v-for="edge in filteredCriteria" :key="edge.node.id">
             <section class="fr-accordion">
               <h2 class="fr-accordion__title">
@@ -198,6 +196,15 @@ export default {
 
       return `critères sans aucun filtre ni recherche appliqués pour le moment.`;
     },
+    pageTitle() {
+      if (this.searchQuery) {
+        return `${this.filteredCriteria.length} critère${
+          this.filteredCriteria.length > 1 ? "s" : ""
+        } pour 1 filtre appliqué`;
+      }
+
+      return "Checklist PiDila";
+    },
   },
   methods: {
     /**
@@ -237,51 +244,60 @@ export default {
         .toLowerCase();
     },
   },
-  metaInfo: {
-    title: "Checklist PiDila",
-    meta: [
-      {
-        name: "description",
-        content:
-          "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
-      },
-      {
-        property: "og:title",
-        content: "Checklist PiDila - DesignGouv",
-      },
-      {
-        property: "og:description",
-        content:
-          "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
-      },
-      {
-        property: "og:image",
-        content:
-          "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image",
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv",
-      },
-      {
-        name: "twitter:title",
-        content: "Checklist PiDila - DesignGouv",
-      },
-      {
-        name: "twitter:description",
-        content:
-          "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
-      },
-      {
-        name: "twitter:image",
-        content:
-          "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
-      },
-    ],
+  metaInfo() {
+    return {
+      title: this.pageTitle,
+      meta: [
+        {
+          name: "description",
+          content:
+            "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+        },
+        {
+          property: "og:title",
+          content: "Checklist PiDila - DesignGouv",
+        },
+        {
+          property: "og:description",
+          content:
+            "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+        },
+        {
+          property: "og:image",
+          content:
+            "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
+        },
+        {
+          name: "twitter:card",
+          content: "summary_large_image",
+        },
+        {
+          name: "twitter:site",
+          content: "@Design_Gouv",
+        },
+        {
+          name: "twitter:title",
+          content: "Checklist PiDila - DesignGouv",
+        },
+        {
+          name: "twitter:description",
+          content:
+            "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+        },
+        {
+          name: "twitter:image",
+          content:
+            "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
+        },
+      ],
+    };
   },
 };
 </script>
+
+<style scoped lang='scss'>
+.dg-pidila-accordions {
+  list-style-type: none;
+  padding-left: 0;
+}
+</style>

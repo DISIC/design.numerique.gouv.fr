@@ -21,7 +21,7 @@
           <img
             class="dg-picto fr-mr-2w"
             svg-inline
-            src="../assets/images/accessibilite-picto.svg"
+            src="../../assets/images/outils-picto.svg"
             aria-hidden="true"
           />
           La checklist PiDila
@@ -155,8 +155,8 @@ query {
 </page-query>
 
 <script>
-import Toolbar from "../components/pidila/Toolbar.vue";
-import Search from "../components/pidila/Search.vue";
+import Toolbar from "../../components/pidila/Toolbar.vue";
+import Search from "../../components/pidila/Search.vue";
 
 export default {
   components: { Toolbar, Search },

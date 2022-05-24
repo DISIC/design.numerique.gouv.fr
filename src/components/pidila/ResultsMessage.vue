@@ -1,5 +1,35 @@
 <template>
-  <p v-html="message" />
+  <p>
+    {{ pluralizedCriterion }}
+    <!-- Default -->
+    <template v-if="isNotFiltered">
+      sans aucun filtre ni recherche appliqués pour le moment</template
+    >
+
+    <!-- Text search -->
+    <template v-if="search">
+      correspondant à la recherche «
+      <strong>{{ this.search }}</strong> »</template
+    >
+
+    <!-- Profiles -->
+    <template v-if="profiles.length">
+      pour
+      <template v-for="(p, i) in profiles">
+        <template v-if="i !== 0"> ou </template>
+        <strong :key="p">{{ p }}</strong>
+      </template>
+    </template>
+
+    <!-- References -->
+    <template v-if="references.length">
+      dans
+      <template v-for="(r, j) in references">
+        <template v-if="j !== 0"> ou </template>
+        <strong :key="r">{{ r }}</strong>
+      </template> </template
+    >.
+  </p>
 </template>
 
 <script>
@@ -34,32 +64,8 @@ export default {
           return `${this.resultsCount} critères`;
       }
     },
-    message() {
-      let string = this.pluralizedCriterion;
-
-      if (!this.search && !this.profiles.length && !this.references.length) {
-        string += " sans aucun filtre ni recherche appliqués pour le moment";
-      }
-
-      if (this.search) {
-        string += ` correspondant à la recherche « <strong>${this.search}</strong> »`;
-      }
-
-      if (this.profiles.length) {
-        string += ` pour ${this.profiles
-          .map((p, i) => `${i !== 0 ? " ou " : ""} <strong>${p}</strong>`)
-          .join("")}`;
-      }
-
-      if (this.references.length) {
-        string += ` dans ${this.references
-          .map((r, i) => `${i !== 0 ? " ou " : ""} <strong>${r}</strong>`)
-          .join("")}`;
-      }
-
-      string += ".";
-
-      return string;
+    isNotFiltered() {
+      return !this.search && !this.profiles.length && !this.references.length;
     },
   },
 };

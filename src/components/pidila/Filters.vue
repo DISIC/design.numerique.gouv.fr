@@ -1,43 +1,76 @@
 <template>
-  <div class="fr-form-group">
-    <fieldset class="fr-fieldset fr-fieldset--inline">
-      <!-- Profiles -->
-      <legend
-        class="fr-fieldset__legend fr-text--regular"
-        id="checkboxes-inline-legend"
-      >
-        Filtrer par profil
-      </legend>
-      <div class="fr-fieldset__content">
-        <div class="fr-checkbox-group">
-          <input
-            type="checkbox"
-            id="filters-profile-all"
-            name="filters-profile-all"
-            value="Tous"
-            v-model="allProfile"
-          />
-          <label class="fr-label" for="filters-profile-all">Tous</label>
+  <div>
+    <!-- Profiles -->
+    <div class="fr-form-group">
+      <fieldset class="fr-fieldset fr-fieldset--inline">
+        <legend class="fr-fieldset__legend fr-text--regular">
+          Filtrer par profil
+        </legend>
+        <div class="fr-fieldset__content">
+          <div class="fr-checkbox-group">
+            <input
+              type="checkbox"
+              id="filters-profile-all"
+              value="Tous"
+              v-model="allProfile"
+            />
+            <label class="fr-label" for="filters-profile-all">Tous</label>
+          </div>
+          <div
+            v-for="profile in profiles"
+            :key="profile"
+            class="fr-checkbox-group"
+          >
+            <input
+              type="checkbox"
+              :id="`filters-profile-${profile}`"
+              :value="profile"
+              v-model="profileFilters"
+              @change="filterProfile"
+            />
+            <label class="fr-label" :for="`filters-profile-${profile}`"
+              >{{ profile }}
+            </label>
+          </div>
         </div>
-        <div
-          v-for="profile in profiles"
-          :key="profile"
-          class="fr-checkbox-group"
-        >
-          <input
-            type="checkbox"
-            :id="`filters-profile-${profile}`"
-            :name="`filters-profile-${profile}`"
-            :value="profile"
-            v-model="profileFilters"
-            @change="filterProfile"
-          />
-          <label class="fr-label" :for="`filters-profile-${profile}`"
-            >{{ profile }}
-          </label>
+      </fieldset>
+    </div>
+
+    <!-- References -->
+    <div class="fr-form-group">
+      <fieldset class="fr-fieldset fr-fieldset--inline">
+        <legend class="fr-fieldset__legend fr-text--regular">
+          Filtrer par référence
+        </legend>
+        <div class="fr-fieldset__content">
+          <div class="fr-checkbox-group">
+            <input
+              type="checkbox"
+              id="filters-reference-all"
+              value="Tous"
+              v-model="allReference"
+            />
+            <label class="fr-label" for="filters-reference-all">Tous</label>
+          </div>
+          <div
+            v-for="reference in references"
+            :key="reference"
+            class="fr-checkbox-group"
+          >
+            <input
+              type="checkbox"
+              :id="`filters-reference-${reference}`"
+              :value="reference"
+              v-model="referenceFilters"
+              @change="filterReference"
+            />
+            <label class="fr-label" :for="`filters-reference-${reference}`">
+              {{ reference }}
+            </label>
+          </div>
         </div>
-      </div>
-    </fieldset>
+      </fieldset>
+    </div>
   </div>
 </template>
 
@@ -55,6 +88,15 @@ export default {
         "Rédactionnel",
       ],
       profileFilters: [],
+      references: [
+        "RGAA",
+        "Marque de l’État",
+        "Règles Opquast",
+        "Éco-conception",
+        "Référentiel général d'interopérabilité",
+        "Loi informatique et Liberté",
+      ],
+      referenceFilters: [],
     };
   },
   mounted() {
@@ -72,15 +114,28 @@ export default {
         this.filterProfile();
       },
     },
+    allReference: {
+      get() {
+        return !this.referenceFilters.length;
+      },
+      set() {
+        this.referenceFilters = [];
+        this.filterReference();
+      },
+    },
   },
   methods: {
     filterProfile() {
       this.$emit("filter-profile", this.profileFilters);
     },
+    filterReference() {
+      this.$emit("filter-reference", this.referenceFilters);
+    },
   },
   watch: {
     "$route.query"(to, from) {
       this.profileFilters = to.profil ? JSON.parse(to.profil) : [];
+      this.referenceFilters = to.reference ? JSON.parse(to.reference) : [];
     },
   },
 };

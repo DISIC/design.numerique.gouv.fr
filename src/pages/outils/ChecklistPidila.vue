@@ -43,7 +43,10 @@
       <div class="fr-mb-8w">
         <Toolbar />
         <Search @search="updateSearch" />
-        <Filters @filter-profile="updateProfileFilters" />
+        <Filters
+          @filter-profile="updateProfileFilters"
+          @filter-reference="updateReferenceFilters"
+        />
 
         <!-- Results info -->
         <div
@@ -168,6 +171,11 @@ export default {
         ? JSON.parse(this.$route.query.profil)
         : [];
     },
+    referenceFilters() {
+      return this.$route.query.reference
+        ? JSON.parse(this.$route.query.reference)
+        : [];
+    },
     /**
      * Filter criteria based on search, profile and reference.
      * @returns {Object[]}
@@ -198,15 +206,29 @@ export default {
         });
       }
 
+      // Reference filter
+      if (this.referenceFilters.length) {
+        criteria = criteria.filter((edge) => {
+          return edge.node.references.some((r) =>
+            this.referenceFilters.includes(r)
+          );
+        });
+      }
+
       return criteria;
     },
     isFiltered() {
-      return this.searchQuery || this.profileFilters.length;
+      return (
+        this.searchQuery ||
+        this.profileFilters.length ||
+        this.referenceFilters.length
+      );
     },
     pageTitle() {
       const appliedFiltersCount = [
         !!this.searchQuery,
         !!this.profileFilters.length,
+        !!this.referenceFilters.length,
       ].reduce((n, acc) => n + acc, 0);
 
       // X critère(s) pour X filtre(s) appliqué(s)
@@ -235,6 +257,13 @@ export default {
      */
     updateProfileFilters(value) {
       this.updateQueryParams("profil", value.length ? value : undefined);
+    },
+    /**
+     * Update `reference` query param. "undefined" removes the query param instead of setting it to an empty value.
+     * @param {string[]} value
+     */
+    updateReferenceFilters(value) {
+      this.updateQueryParams("reference", value.length ? value : undefined);
     },
     /**
      * Update URL query params based on filters values

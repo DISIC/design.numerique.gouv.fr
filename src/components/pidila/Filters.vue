@@ -17,20 +17,18 @@
             <label class="fr-label" for="filters-profile-all">Tous</label>
           </div>
           <div
-            v-for="profile in profiles"
+            v-for="(profile, i) in profiles"
             :key="profile"
             class="fr-checkbox-group"
           >
             <input
               type="checkbox"
-              :id="`filters-profile-${profile.replaceAll(' ', '-')}`"
+              :id="`filters-profile-${i}`"
               :value="profile"
               v-model="profileFilters"
               @change="filterProfile"
             />
-            <label
-              class="fr-label"
-              :for="`filters-profile-${profile.replaceAll(' ', '-')}`"
+            <label class="fr-label" :for="`filters-profile-${i}`"
               >{{ profile }}
             </label>
           </div>
@@ -55,21 +53,18 @@
             <label class="fr-label" for="filters-reference-all">Tous</label>
           </div>
           <div
-            v-for="reference in references"
+            v-for="(reference, i) in references"
             :key="reference"
             class="fr-checkbox-group"
           >
             <input
               type="checkbox"
-              :id="`filters-reference-${reference.replaceAll(' ', '-')}`"
+              :id="`filters-reference-${i}`"
               :value="reference"
               v-model="referenceFilters"
               @change="filterReference"
             />
-            <label
-              class="fr-label"
-              :for="`filters-reference-${reference.replaceAll(' ', '-')}`"
-            >
+            <label class="fr-label" :for="`filters-reference-${i}`">
               {{ reference }}
             </label>
           </div>

@@ -23,12 +23,14 @@
           >
             <input
               type="checkbox"
-              :id="`filters-profile-${profile}`"
+              :id="`filters-profile-${profile.replaceAll(' ', '-')}`"
               :value="profile"
               v-model="profileFilters"
               @change="filterProfile"
             />
-            <label class="fr-label" :for="`filters-profile-${profile}`"
+            <label
+              class="fr-label"
+              :for="`filters-profile-${profile.replaceAll(' ', '-')}`"
               >{{ profile }}
             </label>
           </div>
@@ -59,12 +61,15 @@
           >
             <input
               type="checkbox"
-              :id="`filters-reference-${reference}`"
+              :id="`filters-reference-${reference.replaceAll(' ', '-')}`"
               :value="reference"
               v-model="referenceFilters"
               @change="filterReference"
             />
-            <label class="fr-label" :for="`filters-reference-${reference}`">
+            <label
+              class="fr-label"
+              :for="`filters-reference-${reference.replaceAll(' ', '-')}`"
+            >
               {{ reference }}
             </label>
           </div>

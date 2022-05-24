@@ -1,42 +1,5 @@
 <template>
-  <!-- Search and profiles -->
-  <p v-if="search && profiles.length">
-    {{ pluralizedCriterion }} correspondant à la recherche «
-    <strong>{{ search }}</strong> » pour
-    <template v-if="profiles.length > 1">
-      <template v-for="(profile, i) in profiles">
-        <template v-if="i !== 0"> ou </template>
-        <strong :key="i">{{ profile }}</strong>
-      </template>
-    </template>
-    <strong v-else>{{ profiles[0] }}</strong
-    >.
-  </p>
-
-  <!-- Only search -->
-  <p v-else-if="search">
-    {{ pluralizedCriterion }} correspondant à la recherche «
-    <strong>{{ search }}</strong> ».
-  </p>
-
-  <!-- Only profiles -->
-  <p v-else-if="profiles.length">
-    {{ pluralizedCriterion }} pour
-    <template v-if="profiles.length > 1">
-      <template v-for="(profile, i) in profiles">
-        <template v-if="i !== 0"> ou </template>
-        <strong :key="i">{{ profile }}</strong>
-      </template>
-    </template>
-    <strong v-else>{{ profiles[0] }}</strong
-    >.
-  </p>
-
-  <!-- Default -->
-  <p v-else>
-    {{ pluralizedCriterion }} sans aucun filtre ni recherche appliqués pour le
-    moment.
-  </p>
+  <p v-html="message" />
 </template>
 
 <script>
@@ -55,6 +18,10 @@ export default {
       type: Array,
       default: () => [],
     },
+    references: {
+      type: Array,
+      default: () => [],
+    },
   },
   computed: {
     pluralizedCriterion() {
@@ -66,6 +33,33 @@ export default {
         default:
           return `${this.resultsCount} critères`;
       }
+    },
+    message() {
+      let string = this.pluralizedCriterion;
+
+      if (!this.search && !this.profiles.length && !this.references.length) {
+        string += " sans aucun filtre ni recherche appliqués pour le moment";
+      }
+
+      if (this.search) {
+        string += ` correspondant à la recherche « <strong>${this.search}</strong> »`;
+      }
+
+      if (this.profiles.length) {
+        string += ` pour ${this.profiles
+          .map((p, i) => `${i !== 0 ? " ou " : ""} <strong>${p}</strong>`)
+          .join("")}`;
+      }
+
+      if (this.references.length) {
+        string += ` dans ${this.references
+          .map((r, i) => `${i !== 0 ? " ou " : ""} <strong>${r}</strong>`)
+          .join("")}`;
+      }
+
+      string += ".";
+
+      return string;
     },
   },
 };

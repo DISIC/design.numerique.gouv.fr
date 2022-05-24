@@ -59,6 +59,7 @@
             :results-count="filteredCriteria.length"
             :search="searchQuery"
             :profiles="profileFilters"
+            :references="referenceFilters"
           />
           <button
             v-if="isFiltered"

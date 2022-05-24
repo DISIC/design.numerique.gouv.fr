@@ -100,9 +100,11 @@ export default {
     };
   },
   mounted() {
-    const { profil } = this.$route.query;
+    const { profil, reference } = this.$route.query;
     this.profileFilters = profil ? JSON.parse(profil) : [];
     this.filterProfile();
+    this.referenceFilters = reference ? JSON.parse(reference) : [];
+    this.filterReference();
   },
   computed: {
     allProfile: {

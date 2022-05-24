@@ -13,6 +13,9 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
+              <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
+            </li>
+            <li>
               <span aria-current="page">Checklist PiDila</span>
             </li>
           </ol>

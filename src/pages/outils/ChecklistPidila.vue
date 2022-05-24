@@ -77,61 +77,11 @@
       <!-- Criteria list -->
       <section>
         <ul v-if="filteredCriteria.length" class="dg-pidila-accordions">
-          <li v-for="edge in filteredCriteria" :key="edge.node.id">
-            <section class="fr-accordion">
-              <h2 class="fr-accordion__title">
-                <button
-                  class="fr-accordion__btn"
-                  aria-expanded="false"
-                  :aria-controls="`accordion-${edge.node.id}`"
-                >
-                  Pi-{{ edge.node.id }} : {{ edge.node.title }}
-                </button>
-              </h2>
-              <div class="fr-collapse" :id="`accordion-${edge.node.id}`">
-                <!-- Main content -->
-                <h3 class="sr-only">Test</h3>
-                <div v-html="edge.node.content" />
-
-                <!-- Tags list -->
-                <ul class="fr-tags-group">
-                  <li>
-                    <ul aria-label="Profils">
-                      <li
-                        class="fr-tag"
-                        v-for="profile in edge.node.profiles"
-                        :key="profile"
-                      >
-                        {{ profile }}
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul aria-label="Références">
-                      <li
-                        class="fr-tag"
-                        v-for="reference in edge.node.references"
-                        :key="reference"
-                      >
-                        {{ reference }}
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <ul aria-label="Thématiques">
-                      <li
-                        class="fr-tag"
-                        v-for="category in edge.node.categories"
-                        :key="category"
-                      >
-                        {{ category }}
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </section>
-          </li>
+          <Criterion
+            v-for="edge in filteredCriteria"
+            :key="edge.node.id"
+            :criterion="edge"
+          />
         </ul>
         <div v-else class="fr-p-2w">
           Aucun critère ne correspond aux filtres appliqués.
@@ -163,9 +113,10 @@ import Toolbar from "../../components/pidila/Toolbar.vue";
 import Search from "../../components/pidila/Search.vue";
 import Filters from "../../components/pidila/Filters.vue";
 import ResultsMessage from "../../components/pidila/ResultsMessage.vue";
+import Criterion from "../../components/pidila/Criterion.vue";
 
 export default {
-  components: { Toolbar, Search, Filters, ResultsMessage },
+  components: { Toolbar, Search, Filters, ResultsMessage, Criterion },
   computed: {
     searchQuery() {
       return this.$route.query.search;

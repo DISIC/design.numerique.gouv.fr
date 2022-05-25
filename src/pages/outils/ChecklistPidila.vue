@@ -181,10 +181,10 @@ export default {
     },
     pageTitle() {
       const appliedFiltersCount = [
-        !!this.searchQuery,
-        !!this.profileFilters.length,
-        !!this.referenceFilters.length,
-      ].reduce((n, acc) => n + acc, 0);
+        this.searchQuery,
+        this.profileFilters.length,
+        this.referenceFilters.length,
+      ].filter(Boolean).length;
 
       // X critère(s) pour X filtre(s) appliqué(s)
       if (this.isFiltered) {

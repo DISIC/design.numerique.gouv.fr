@@ -13,7 +13,7 @@
       </h2>
       <div class="fr-collapse" :id="`accordion-${criterion.node.id}`">
         <!-- Main content -->
-        <h3 class="sr-only">Test</h3>
+        <h3 class="fr-sr-only">Test</h3>
         <div v-html="criterion.node.content" />
 
         <!-- Tags list -->

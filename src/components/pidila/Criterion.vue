@@ -1,5 +1,5 @@
 <template>
-  <li>
+  <li class="dg-pidila__accordion">
     <section class="fr-accordion">
       <!-- Title -->
       <h2 class="fr-accordion__title">
@@ -8,7 +8,14 @@
           aria-expanded="false"
           :aria-controls="`accordion-${criterion.node.id}`"
         >
-          Pi-{{ criterion.node.id }} : {{ criterion.node.title }}
+          <span class="dg-pidila__criterion-id-container">
+            <span class="dg-pidila__criterion-id">
+              Pi-{{ criterion.node.id }}
+            </span>
+            <span>
+              {{ criterion.node.title }}
+            </span>
+          </span>
         </button>
       </h2>
       <div class="fr-collapse" :id="`accordion-${criterion.node.id}`">
@@ -21,7 +28,10 @@
           <li>
             <ul aria-label="Profils">
               <li
-                class="fr-tag"
+                class="
+                  fr-tag
+                  dg-pidila__criterion-tag dg-pidila__criterion-tag--profile
+                "
                 v-for="profile in criterion.node.profiles"
                 :key="profile"
               >
@@ -32,7 +42,10 @@
           <li>
             <ul aria-label="Références">
               <li
-                class="fr-tag"
+                class="
+                  fr-tag
+                  dg-pidila__criterion-tag dg-pidila__criterion-tag--reference
+                "
                 v-for="reference in criterion.node.references"
                 :key="reference"
               >
@@ -43,7 +56,10 @@
           <li>
             <ul aria-label="Thématiques">
               <li
-                class="fr-tag"
+                class="
+                  fr-tag
+                  dg-pidila__criterion-tag dg-pidila__criterion-tag--category
+                "
                 v-for="category in criterion.node.categories"
                 :key="category"
               >

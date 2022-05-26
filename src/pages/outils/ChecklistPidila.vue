@@ -46,10 +46,23 @@
       <div class="fr-mb-8w">
         <Toolbar />
         <Search @search="updateSearch" />
-        <Filters
-          @filter-profile="updateProfileFilters"
-          @filter-reference="updateReferenceFilters"
-        />
+        <section class="fr-accordion fr-mb-2w">
+          <h2 class="fr-accordion__title">
+            <button
+              class="fr-accordion__btn"
+              aria-expanded="false"
+              aria-controls="accordion-filters"
+            >
+              Filtrer les critères
+            </button>
+          </h2>
+          <div class="fr-collapse" id="accordion-filters">
+            <Filters
+              @filter-profile="updateProfileFilters"
+              @filter-reference="updateReferenceFilters"
+            />
+          </div>
+        </section>
 
         <!-- Results info -->
         <div

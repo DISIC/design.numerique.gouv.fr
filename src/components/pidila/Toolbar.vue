@@ -21,6 +21,26 @@
           Imprimer la liste
         </button>
       </li>
+      <li>
+        <button
+          class="fr-btn fr-btn--tertiary"
+          type="button"
+          @click="discloseAll"
+          disabled
+        >
+          Ouvrir toute la liste
+        </button>
+      </li>
+      <li>
+        <button
+          class="fr-btn fr-btn--tertiary"
+          type="button"
+          @click="concealAll"
+          disabled
+        >
+          Fermer toute la liste
+        </button>
+      </li>
     </ul>
 
     <!-- Clipboard alert -->
@@ -58,6 +78,12 @@ export default {
     },
     printList() {
       window.print();
+    },
+    discloseAll() {
+      this.$emit("disclose-all");
+    },
+    concealAll() {
+      this.$emit("conceal-all");
     },
     hideClipboardAlert() {
       this.showClipboardAlert = false;

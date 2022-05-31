@@ -44,9 +44,12 @@
     <div class="dg-content fr-px-2w">
       <!-- Filters and tools -->
       <div class="fr-mb-8w">
-        <Toolbar />
+        <Toolbar
+          @conceal-all="toggleAll(false)"
+          @disclose-all="toggleAll(true)"
+        />
         <Search @search="updateSearch" />
-        <section class="fr-accordion fr-mb-2w">
+        <section class="fr-accordion fr-mb-2w" id="prout">
           <h2 class="fr-accordion__title">
             <button
               class="fr-accordion__btn"
@@ -264,6 +267,10 @@ export default {
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
         .toLowerCase();
+    },
+    toggleAll(value) {
+      // TODO: implement display/hide all
+      console.log(`${value ? "Révéler" : "Cacher"} tous les critères`);
     },
   },
   metaInfo() {

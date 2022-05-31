@@ -146,8 +146,10 @@
                     <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
                   </h3>
                   <p class="fr-card__desc">{{ node.description }}.</p>
-                  <p class="fr-card__detail">{{ node.publishedDate }}</p>
-                </div>  
+                  <div class="fr-card__start">
+                    <p class="fr-card__detail">{{ node.publishedDate }}</p>
+                  </div>
+                </div>
               </div>
               <div class="fr-card__header">
                 <div class="">

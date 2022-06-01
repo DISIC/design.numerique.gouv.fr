@@ -303,6 +303,7 @@ li.fr-card {
       background-color: var(--info-950-100);
       font-weight: bold;
       padding: 0.125rem 0.25rem;
+      flex-shrink: 0;
     }
 
     &__criterion-tag {

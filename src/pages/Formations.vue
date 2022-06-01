@@ -60,12 +60,18 @@
             <div v-for="{ node } in filterCours" :key="node.id" class="fr-col-12 fr-col-sm-4">
               <div class="fr-card fr-enlarge-link">
                 <div class="fr-card__body">
+                  <div class="fr-card__content">
                   <h3 class="fr-card__title">
                     <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
                   </h3>
-                  <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
-                  <p v-show="futurCours.filter(element => element == node.id).length == 0 && node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
-                  <p class="fr-card__detail">{{ node.type }}</p>
+                  <div class="fr-card__start">
+                    <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
+                    <p v-show="futurCours.filter(element => element == node.id).length == 0 && node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
+                  </div>  
+                  <div class="fr-card__end">
+                    <p class="fr-card__detail">{{ node.type }}</p>
+                  </div>
+                </div>
                 </div>
               </div>
             </div>

@@ -141,14 +141,20 @@
           <div class="fr-col-12 fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
             <div class="fr-card fr-enlarge-link" >
               <div class="fr-card__body">
+                <div class="fr-card__content">
                   <h3 class="fr-card__title">
                     <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
                   </h3>
                   <p class="fr-card__desc">{{ node.description }}.</p>
-                  <p class="fr-card__detail">{{ node.publishedDate }}</p>
+                  <div class="fr-card__start">
+                    <p class="fr-card__detail">{{ node.publishedDate }}</p>
+                  </div>
+                </div>
               </div>
-              <div class="fr-card__img">
+              <div class="fr-card__header">
+                <div class="">
                   <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
+                </div>
               </div>
             </div>
           </div>

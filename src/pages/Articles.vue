@@ -27,14 +27,20 @@
         <div class="fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
           <article class="fr-card fr-enlarge-link" >
             <div class="fr-card__body">
+              <div class="fr-card__content">
                 <h2 class="fr-card__title">
                   <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
                 </h2>
                 <p class="fr-card__desc">{{ node.description }}.</p>
-                <p class="fr-card__detail">{{ node.publishedDate }}</p>
+                <div class="fr-card__start">
+                  <p class="fr-card__detail">{{ node.publishedDate }}</p>
+                </div>
+              </div>
             </div>
-            <div class="fr-card__img">
-                <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
+            <div class="fr-card__header">
+              <div>
+                  <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
+              </div>
             </div>
           </article>
         </div>

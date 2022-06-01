@@ -22,18 +22,26 @@
     </div>
 
     <ul class="dg-content fr-px-2w fr-py-2w">
-      <li v-for="cours in sortedCours" :key="cours.id" class="fr-card fr-card--horizontal fr-enlarge-link fr-mb-2w">
-        <div class="fr-card__body">
-          <h2 class="fr-card__title">
-            <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-tile__link">{{ cours.nom }}</g-link>
-          </h2>
-          <p class="fr-card__desc">{{ cours.descriptionCourte }}</p>
-          <p v-show="futurCours.filter(element => element == cours.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new">Inscriptions ouvertes</p>
-          <p v-show="futurCours.filter(element => element == cours.id).length == 0 && cours.replay" class="dg-flex-start fr-badge fr-badge--sm">Replay disponible</p>
-          <p class="fr-card__detail">{{ cours.type }}</p>
+      <li v-for="cours in sortedCours" :key="cours.id" class="fr-card fr-card--horizontal-tier fr-enlarge-link fr-mb-2w">
+        <div class="fr-card__header">
+            <div class="fr-card__img">
+            <g-image :src="cours.image[0].url" class="fr-responsive-img" alt=""/>
+            </div>
         </div>
-        <div class="fr-card__img">
-         <g-image :src="cours.image[0].url" class="fr-responsive-img" alt=""/>
+        <div class="fr-card__body">
+          <div class="fr-card__content">
+            <h2 class="fr-card__title">
+              <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-tile__link">{{ cours.nom }}</g-link>
+            </h2>
+            <p class="fr-card__desc">{{ cours.descriptionCourte }}</p>
+            <div class="fr-card__end">
+              <p v-show="futurCours.filter(element => element == cours.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new">Inscriptions ouvertes</p>
+              <p v-show="futurCours.filter(element => element == cours.id).length == 0 && cours.replay" class="dg-flex-start fr-badge fr-badge--sm">Replay disponible</p>
+            </div>
+            <div class="fr-card__start">
+              <p class="fr-card__detail">{{ cours.type }}</p>
+            </div>
+          </div>
         </div>
       </li>
     </ul>
@@ -131,15 +139,3 @@
     },
   };
 </script>
-
-
-<style lang="scss" scoped>
-
-  .fr-card--horizontal .fr-card__img {
-
-    @media (min-width: 48em) {
-      max-width: 24%;
-    }
-  }
-
-</style>

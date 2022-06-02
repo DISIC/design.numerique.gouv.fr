@@ -120,6 +120,13 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'PidilaCriterion',
+        path: './content/pidila/*.md',
+      }
+    },
+    {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [
@@ -206,6 +213,7 @@ module.exports = {
   transformers: {
     remark: {
       autolinkHeadings: false,
+      slug: false,
       plugins: [
         'remark-attr',
         [

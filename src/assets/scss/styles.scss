@@ -307,15 +307,15 @@ li.fr-card {
     }
 
     &__criterion-tag {
-      &--profile {
+      &--profile.fr-tag {
         background-color: var(--warning-950-100);
       }
 
-      &--reference {
+      &--reference.fr-tag {
         background-color: var(--success-975-75);
       }
 
-      &--category {
+      &--category.fr-tag {
         background-color: var(--info-950-100);
       }
     }

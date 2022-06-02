@@ -3,7 +3,7 @@
     <ul class="fr-btns-group fr-btns-group--inline">
       <li>
         <button
-          class="fr-btn fr-btn--tertiary"
+          class="fr-btn fr-btn--tertiary fr-icon-link"
           type="button"
           @click="copyLink"
           @blur="hideClipboardAlert"
@@ -14,7 +14,7 @@
       <li>
         <button
           ref="printButton"
-          class="fr-btn fr-btn--tertiary"
+          class="fr-btn fr-btn--tertiary fr-icon-printer-fill"
           type="button"
           @click="printList"
         >
@@ -23,7 +23,7 @@
       </li>
       <li>
         <button
-          class="fr-btn fr-btn--tertiary"
+          class="fr-btn fr-btn--tertiary fr-icon-arrow-down-s-fill"
           type="button"
           @click="discloseAll"
           disabled
@@ -33,7 +33,7 @@
       </li>
       <li>
         <button
-          class="fr-btn fr-btn--tertiary"
+          class="fr-btn fr-btn--tertiary fr-icon-arrow-up-s-fill"
           type="button"
           @click="concealAll"
           disabled

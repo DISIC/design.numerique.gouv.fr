@@ -39,7 +39,7 @@
             </div>
             <div class="fr-card__header">
               <div>
-                  <g-image :src="node.illustration" class="fr-responsive-img" alt=""/>
+                  <img :src="node.illustration.src" class="fr-responsive-img" alt=""/>
               </div>
             </div>
           </article>

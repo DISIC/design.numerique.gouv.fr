@@ -5,6 +5,7 @@
         <button
           class="fr-btn fr-btn--tertiary fr-icon-link"
           type="button"
+          title="Copier la liste dans le presse-papier"
           @click="copyLink"
           @blur="hideClipboardAlert"
         >
@@ -16,17 +17,19 @@
           ref="printButton"
           class="fr-btn fr-btn--tertiary fr-icon-printer-fill"
           type="button"
+          title="Imprimer la liste"
           @click="printList"
         >
           Imprimer la liste
         </button>
       </li>
-      <li>
+      <!-- <li>
         <button
           class="fr-btn fr-btn--tertiary fr-icon-arrow-down-s-fill"
           type="button"
-          @click="discloseAll"
+          title="Ouvrir toute la liste"
           disabled
+          @click="discloseAll"
         >
           Ouvrir toute la liste
         </button>
@@ -35,12 +38,13 @@
         <button
           class="fr-btn fr-btn--tertiary fr-icon-arrow-up-s-fill"
           type="button"
-          @click="concealAll"
+          title="Fermer toute la liste"
           disabled
+          @click="concealAll"
         >
           Fermer toute la liste
         </button>
-      </li>
+      </li> -->
     </ul>
 
     <!-- Clipboard alert -->

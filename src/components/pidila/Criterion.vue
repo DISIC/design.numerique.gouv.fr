@@ -21,7 +21,7 @@
       <div class="fr-collapse" :id="`accordion-${criterion.node.id}`">
         <!-- Main content -->
         <div v-html="criterion.node.content" />
-
+        <hr class="fr-mt-4w" />
         <!-- Tags list -->
         <ul class="fr-tags-group">
           <li>

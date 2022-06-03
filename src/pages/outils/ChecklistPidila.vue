@@ -30,7 +30,7 @@
           La checklist PiDila
         </h1>
         <p class="fr-text--lead">
-          Une liste unique des bonnes pratiques et obligations pour les sites
+          Une liste unique des obligations et bonnes pratiques pour les sites
           web publics : Marque de l’État,
           <abbr title="Référentiel Général d’Amélioration de l’Accessibilité"
             >RGAA</abbr
@@ -280,7 +280,7 @@ export default {
         {
           name: "description",
           content:
-            "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
         },
         {
           property: "og:title",
@@ -289,7 +289,7 @@ export default {
         {
           property: "og:description",
           content:
-            "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
         },
         {
           property: "og:image",
@@ -311,7 +311,7 @@ export default {
         {
           name: "twitter:description",
           content:
-            "Une liste unique des bonnes pratiques et obligations pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Marque de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
         },
         {
           name: "twitter:image",

@@ -115,7 +115,6 @@ query {
         id
         title
         profiles
-        categories
         references
         content
       }

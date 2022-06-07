@@ -52,20 +52,6 @@
               </li>
             </ul>
           </li>
-          <li>
-            <ul aria-label="Thématiques">
-              <li
-                class="
-                  fr-tag
-                  dg-pidila__criterion-tag dg-pidila__criterion-tag--category
-                "
-                v-for="category in criterion.node.categories"
-                :key="category"
-              >
-                {{ category }}
-              </li>
-            </ul>
-          </li>
         </ul>
       </div>
     </section>

@@ -16,7 +16,7 @@
         <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/article-picto.svg" aria-hidden="true">Articles</h1>
         <ul class="fr-tags-group fr-mt-4w">
           <li v-for="tag in $page.allTag.edges" :key="tag.node.id">
-            <g-link class="fr-tag fr-tag--pink-macaron" target="_self" :to="tag.node.path">{{ tag.node.id.charAt(0).toUpperCase() + tag.node.id.slice(1) }}</g-link>
+            <g-link class="fr-tag" target="_self" :to="tag.node.path">{{ tag.node.id.charAt(0).toUpperCase() + tag.node.id.slice(1) }}</g-link>
           </li>
         </ul>
       </div>

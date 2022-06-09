@@ -18,6 +18,7 @@
 
       <h1>Mémo dev</h1>
       <p class="fr-text--lead">Les recommandations ci-dessous sont extraites du <a href="https://disic.github.io/guide-integrateur/index.html" target="_blank" title="guide de l’intégrateur RGAA - nouvelle fenêtre">guide de l'intégrateur RGAA</a> de la <abbr title="Direction interministérielle du numérique">Dinum</abbr>. Ce guide propose des fiches pour chaque thématique avec des conseils de développement, l'explication du besoin pour les utilisateurs et des ressources complémentaires.</p>
+      <p>Ces recommandations sont issues de la version 3 du RGAA mais restent pertinentes.</p>
 
       <h2 class="fr-h3"><a target="_blank" href="https://disic.github.io/guide-integrateur/1-gabarit-general.html" title="Layout - nouvelle fenêtre" ><span lang="en">Layout</span></a></h2>
       <ul>

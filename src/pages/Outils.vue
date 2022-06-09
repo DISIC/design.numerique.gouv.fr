@@ -96,7 +96,7 @@
             d’apprécier l’accessibilité d’un site et la maturité d’une équipe ;
           </li>
           <li>
-            la <a href="/outils/checklist-pidila/">Checklist Pidila</a> regroupe
+            la <a href="/outils/checklist-pidila/">checklist Pidila</a> regroupe
             les critères des différents référentiels et bonnes pratiques du web.
           </li>
         </ul>

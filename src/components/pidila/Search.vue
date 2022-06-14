@@ -4,7 +4,7 @@
       <label class="fr-label" for="search">Rechercher parmi les critères</label>
       <input
         class="fr-input"
-        placeholder="Schéma pluriannuel"
+        placeholder="Rechercher"
         type="search"
         id="search"
         name="search"

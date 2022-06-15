@@ -287,6 +287,39 @@ li.fr-card {
       padding-left: 2rem;
     }
   }
+
+  &-pidila {
+    &__accordion {
+      padding-bottom: 0;
+    }
+
+    &__criterion-id-container {
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+    }
+
+    &__criterion-id {
+      background-color: var(--info-950-100);
+      font-weight: bold;
+      padding: 0.125rem 0.25rem;
+      flex-shrink: 0;
+    }
+
+    &__criterion-tag {
+      &--profile.fr-tag {
+        background-color: var(--warning-950-100);
+      }
+
+      &--reference.fr-tag {
+        background-color: var(--success-975-75);
+      }
+
+      &--category.fr-tag {
+        background-color: var(--info-950-100);
+      }
+    }
+  }
 }
 .fr-tag, .fr-badge {
   z-index:0;

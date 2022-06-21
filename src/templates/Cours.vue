@@ -259,6 +259,9 @@
         content
       }
       replay
+      transcription {
+        url
+      }
       tags
       sessions (sortBy: "date", order: ASC) {
         id

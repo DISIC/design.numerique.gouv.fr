@@ -42,6 +42,15 @@
         <h2>Revivez la formation en vidéo</h2>
         <p>Cette vidéo est sous-titrée.</p>
         <iframe width="560" height="315" :src="$page.cours.replay" :title="'Replay vidéo de la formation ' + $page.cours.nom" frameborder="0" allowfullscreen></iframe>
+        <div v-if="$page.cours.transcription[0]" class="fr-download">
+          <p>
+            <a :href="$page.cours.transcription[0].url" download class="fr-download__link">Télécharger la transcription de ce webinaire
+              <span class="fr-download__detail">
+                Word (DOCX) – 43 ko
+              </span>
+            </a>
+          </p>
+        </div>
         <h2 class="fr-mt-6w">Informations</h2>
       </div>
 

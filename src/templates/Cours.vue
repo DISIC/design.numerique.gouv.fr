@@ -46,7 +46,7 @@
           <p>
             <a :href="$page.cours.transcription[0].url" download class="fr-download__link">Télécharger la transcription
               <span class="fr-download__detail">
-                Word (DOCX) – 43 ko
+                {{ $page.cours.transcriptionFormat }} – {{ $page.cours.transcriptionSize }}
               </span>
             </a>
           </p>
@@ -271,6 +271,8 @@
       transcription {
         url
       }
+      transcriptionFormat
+      transcriptionSize
       tags
       sessions (sortBy: "date", order: ASC) {
         id

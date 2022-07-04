@@ -53,5 +53,20 @@ module.exports = function (api) {
 
       node.content = collection._store.createReference(markdownNode)
     }
+
+    if (node.internal.typeName === 'Poste') {
+      const markdownStore = collection._store.addCollection('PosteContent')
+
+      const markdownNode = markdownStore.addNode({
+		    // any other fields, id, slug, title etc
+        internal: {
+          mimeType: 'text/markdown',
+          content: node.Description,
+          origin: node.id
+        }
+      })
+
+      node.content = collection._store.createReference(markdownNode)
+    }
   })
 }

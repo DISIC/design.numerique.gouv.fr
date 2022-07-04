@@ -202,6 +202,20 @@ module.exports = {
       },
     },
     {
+      use: '@gridsome/source-airtable',
+      options: {
+        apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
+        base: process.env.GRIDSOME_AIRTABLE_JOB_BASE, // required
+        tables: [
+            {
+                name: 'Postes', // required
+                typeName: 'Poste', // required
+            },
+        ],
+        tableName: 'Postes', // required
+      },
+    },
+    {
       use: 'gridsome-plugin-sentry',
       options: {
         dsn: 'https://7e6b7f0da53c4796ace432e55a32da06@o1156251.ingest.sentry.io/6237416',
@@ -246,6 +260,7 @@ module.exports = {
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
     Formation: '/formations/:Slug',
+    Poste: '/recrutement/:Slug',
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },
   prefetch: {

@@ -185,14 +185,14 @@
 
   export default {
     metaInfo: {
-      title: "Partager votre intérêt pour le Commando UX",
+      title: "Partager votre intérêt",
       meta: [{
         name: 'description',
         content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
       },
       {
         property: 'og:title',
-        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+        content: "Partager votre intérêt - DesignGouv"
       },
       {
         property: 'og:description',
@@ -212,7 +212,7 @@
       },
       {
         name: "twitter:title",
-        content: "Partager votre intérêt pour le Commando UX - DesignGouv"
+        content: "Partager votre intérêt - DesignGouv"
       },
       {
         name: "twitter:description",

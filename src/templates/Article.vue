@@ -43,6 +43,15 @@ export default {
   metaInfo () {
     return {
       title: this.$page.article.title,
+      script: [{
+        type: 'application/ld+json',
+        json: {
+          '@context': 'http://schema.org', 
+          '@id':'https://design.numerique.gouv.fr'+this.$route.fullPath,
+          '@type':'NewsArticle','headline':this.$page.article.title,
+          'thumbnailUrl':'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,'datePublished':this.$page.article.publishedDate,'description':this.$page.article.description,'articleBody':this.$page.article.content
+        }
+      }],
       meta: [{
         name: "description",
         content: this.$page.article.description
@@ -78,7 +87,7 @@ export default {
       {
         name: "twitter:image",
         content: "https://design.numerique.gouv.fr" + this.$page.article.illustration.src
-      }],
+      }]
     }
   },
   created() {

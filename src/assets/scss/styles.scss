@@ -59,6 +59,13 @@ li.fr-card {
     }
   }
 
+  &-list {
+    &-no-decoration {
+      list-style: none;
+      padding-left: 0;
+    }
+  }
+
   &-cover {
     width: 100vw;
     position: relative;

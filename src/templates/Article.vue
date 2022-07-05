@@ -48,14 +48,20 @@ export default {
         json: {
           '@context': 'http://schema.org', 
           '@id':'https://design.numerique.gouv.fr'+this.$route.fullPath,
-          'author': {
+          'publisher': {
             '@type':'Organization', 
             '@id':'https://design.numerique.gouv.fr',
             'name':'DesignGouv',
             'logo': {
-              'url':'https://design.numerique.gouv.fr/assets/images/logo-designgouv.png','width':'188',
+              '@type':'ImageObject',
+              'url':'https://design.numerique.gouv.fr/assets/images/logo-designgouv.png',
+              'width':'188',
               'height':'37'
             },
+          },
+          'author': {
+            '@type':'Organization', 
+            'name':'DesignGouv',
           },
           '@type':'NewsArticle','headline':this.$page.article.title,
           'thumbnailUrl':'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,'datePublished':this.$page.article.publishedDate,'description':this.$page.article.description,'articleBody':this.$page.article.content          

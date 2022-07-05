@@ -103,7 +103,7 @@
         title: this.$page.poste.intitule + " - " + this.$page.poste.contrat + " - " + this.$page.poste.duree,
         meta: [{
           name: "description",
-          content: "Rejoignez notre équipe et participez à l'amélioration des services publics numériques !"
+          content: this.$page.poste.descriptionCourte
         },
         {
           property: "og:title",
@@ -111,7 +111,7 @@
         },
         {
           property: "og:description",
-          content: "Rejoignez notre équipe et participez à l'amélioration des services publics numériques !"
+          content: this.$page.poste.descriptionCourte
         },
         {
           property: "og:image",
@@ -131,7 +131,7 @@
         },
         {
           name: "twitter:description",
-          content: "Rejoignez notre équipe et participez à l'amélioration des services publics numériques !"
+          content: this.$page.poste.descriptionCourte
         },
         {
           name: "twitter:image",

@@ -205,7 +205,7 @@ module.exports = {
       use: '@gridsome/source-airtable',
       options: {
         apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
-        base: process.env.GRIDSOME_AIRTABLE_JOB_BASE, // required
+        base: process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE, // required
         tables: [
             {
                 name: 'Postes', // required

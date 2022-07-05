@@ -49,7 +49,7 @@ export default {
           '@context': 'http://schema.org', 
           '@id':'https://design.numerique.gouv.fr'+this.$route.fullPath,
           'author': {
-            '@type':'Organisation', 
+            '@type':'Organization', 
             '@id':'https://design.numerique.gouv.fr',
             'name':'DesignGouv',
             'logo': {

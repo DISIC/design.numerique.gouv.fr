@@ -46,10 +46,10 @@ export default {
       script: [{
         type: 'application/ld+json',
         json: {
-          '@context': 'http://schema.org', 
+          '@context': 'http://schema.org',
           '@id':'https://design.numerique.gouv.fr'+this.$route.fullPath,
           'publisher': {
-            '@type':'Organization', 
+            '@type':'Organization',
             '@id':'https://design.numerique.gouv.fr',
             'name':'DesignGouv',
             'logo': {
@@ -60,11 +60,12 @@ export default {
             },
           },
           'author': {
-            '@type':'Organization', 
+            '@type':'Organization',
             'name':'DesignGouv',
+            'url':'https://design.numerique.gouv.fr',
           },
           '@type':'NewsArticle','headline':this.$page.article.title,
-          'thumbnailUrl':'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,'datePublished':this.$page.article.publishedDate,'description':this.$page.article.description,'articleBody':this.$page.article.content          
+          'thumbnailUrl':'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,'datePublished':this.$page.article.publishedDate,'description':this.$page.article.description,'articleBody':this.$page.article.content
         }
       }],
       meta: [{

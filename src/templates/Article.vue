@@ -64,8 +64,15 @@ export default {
             'name':'DesignGouv',
             'url':'https://design.numerique.gouv.fr',
           },
-          '@type':'NewsArticle','headline':this.$page.article.title,
-          'thumbnailUrl':'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,'datePublished':this.$page.article.publishedDate,'description':this.$page.article.description,'articleBody':this.$page.article.content
+          '@type':'NewsArticle',
+          'headline':this.$page.article.title,
+          "image": [
+            'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,
+           ],
+          'thumbnailUrl':'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,
+          'datePublished':this.$page.article.publishedDate,
+          'description':this.$page.article.description,
+          'articleBody':this.$page.article.content
         }
       }],
       meta: [{

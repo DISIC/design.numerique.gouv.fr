@@ -43,6 +43,38 @@ export default {
   metaInfo () {
     return {
       title: this.$page.article.title,
+      script: [{
+        type: 'application/ld+json',
+        json: {
+          '@context': 'http://schema.org',
+          '@id':'https://design.numerique.gouv.fr'+this.$route.fullPath,
+          'publisher': {
+            '@type':'Organization',
+            '@id':'https://design.numerique.gouv.fr',
+            'name':'DesignGouv',
+            'logo': {
+              '@type':'ImageObject',
+              'url':'https://design.numerique.gouv.fr/assets/images/logo-designgouv.png',
+              'width':'188',
+              'height':'37'
+            },
+          },
+          'author': {
+            '@type':'Organization',
+            'name':'DesignGouv',
+            'url':'https://design.numerique.gouv.fr',
+          },
+          '@type':'NewsArticle',
+          'headline':this.$page.article.title,
+          "image": [
+            'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,
+           ],
+          'thumbnailUrl':'https://design.numerique.gouv.fr'+this.$page.article.illustration.src,
+          'datePublished':this.$page.article.publishedDate,
+          'description':this.$page.article.description,
+          'articleBody':this.$page.article.content
+        }
+      }],
       meta: [{
         name: "description",
         content: this.$page.article.description
@@ -78,7 +110,7 @@ export default {
       {
         name: "twitter:image",
         content: "https://design.numerique.gouv.fr" + this.$page.article.illustration.src
-      }],
+      }]
     }
   },
   created() {

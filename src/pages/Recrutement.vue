@@ -14,25 +14,33 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/recrutement-picto.svg" aria-hidden="true">Recrutement</h1>
-        <p v-if="$page.allJob.edges.length == 0" class="fr-text--lead">Aucun poste ouvert pour le moment.</p>
-        <p v-else-if="$page.allJob.edges.length <= 1" class="fr-text--lead">Nombre de poste ouvert actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
-        <p v-else class="fr-text--lead">Nombre de postes ouverts actuellement : <strong>{{ $page.allJob.edges.length }}</strong></p>
+        <p v-if="$page.allPoste.edges.length == 0" class="fr-text--lead">Aucun poste ouvert pour le moment.</p>
+        <p v-else-if="$page.allPoste.edges.length <= 1" class="fr-text--lead">Nombre de poste ouvert actuellement : <strong>{{ $page.allPoste.edges.length }}</strong></p>
+        <p v-else class="fr-text--lead">Nombre de postes ouverts actuellement : <strong>{{ $page.allPoste.edges.length }}</strong></p>
       </div>
     </section>
 
-    <section v-if="$page.allJob" class="dg-content fr-px-2w">
-      <div class="fr-grid-row fr-grid-row--gutters">
-        <div class="fr-col-md-6 fr-col-12"  v-for="{ node } in $page.allJob.edges" :key="node.id">
+    <section v-if="$page.allPoste" class="dg-content fr-px-2w">
+
+      <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
+        <div class="fr-col-md-6 fr-col-12"  v-for="{ node } in $page.allPoste.edges" :key="node.id">
           <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
             <div class="fr-tile__body">
               <h2 class="fr-tile__title">
-                <g-link  :to="node.path" class="fr-tile__link">{{ node.title }}</g-link>
+                <g-link  :to="'/recrutement/' + node.slug + '/'" class="fr-tile__link">{{ node.titre }}</g-link>
               </h2>
               <p class="fr-tile__desc">{{ node.type }}</p>
             </div>
           </div>
         </div>
       </div>
+
+      <hr>
+
+      <h2 class="fr-h6">Vous êtes disponibles pour des missions au sein de l'administration ?</h2>
+      <p>Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.</p>
+      <g-link to="/recrutement/partager-interet/" class="fr-btn">Partager votre intérêt</g-link>
+
     </section>
 
   </Layout>
@@ -40,10 +48,12 @@
 
 <page-query>
   query {
-    allJob (sortBy: "title", order: ASC) {
+    allPoste (sortBy: "titre", order: ASC) {
       edges {
         node {
         	id
+          titre
+          slug
         }
       }
     }

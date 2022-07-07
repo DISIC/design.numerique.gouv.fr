@@ -38,17 +38,17 @@
           <div class="fr-card fr-enlarge-link fr-card--horizontal">
             <div class="fr-card__body">
               <div class="fr-card__content">
-                <h4 class="fr-card__title">
+                <h2 class="fr-card__title">
                   <g-link :to="'/recrutement/' + node.slug + '/'">{{ node.intitule }}</g-link>
-                </h4>
+                </h2>
                 <p class="fr-card__desc">{{ node.descriptionCourte }}</p>
                 <div class="fr-card__start">
                   <ul class="fr-badges-group">
-                    <li>
-                      <p v-if="Date.now() - new Date(node.publication) < 1209600000" class="fr-badge fr-badge--new fr-badge--sm">Nouveau</p>
+                    <li v-if="Date.now() - new Date(node.publication) < 1209600000" class="fr-badge fr-badge--new fr-badge--sm">
+                      Nouveau
                     </li>
-                    <li>
-                      <p class="fr-badge fr-badge--pink-macaron fr-badge--sm">{{ node.contrat }}</p>
+                    <li class="fr-badge fr-badge--pink-macaron fr-badge--sm">
+                      {{ node.contrat }}
                     </li>
                   </ul>
                 </div>

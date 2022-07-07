@@ -2,29 +2,31 @@
   <Layout>
     <div class="dg-content fr-px-2w">
 
-      <nav aria-label="Breadcrumb" class="fr-breadcrumb">
-        <ol class="fr-breadcrumb__list">
-          <li>
-            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-          </li>
-          <li>
-            <g-link to="/recrutement/" class="fr-breadcrumb__link">Recrutement</g-link>
-          </li>
-          <li>
-            <span aria-current="page">Partager votre intérêt</span>
-          </li>
-        </ol>
-      </nav>
+      <div class="dg-cover dg-cover--linear fr-mb-4w">
+        <div class="dg-cover__container dg-cover__container fr-mb-1w">
+          <nav aria-label="Breadcrumb" class="fr-breadcrumb">
+            <ol class="fr-breadcrumb__list">
+              <li>
+                <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+              </li>
+              <li>
+                <g-link to="/recrutement/" class="fr-breadcrumb__link">Recrutement</g-link>
+              </li>
+              <li>
+                <span aria-current="page">Partager votre intérêt</span>
+              </li>
+            </ol>
+          </nav>
 
-      <h1 v-if="!this.$route.query.poste">Vous souhaitez participer à l'amélioration des services publics numériques&nbsp;? Partagez votre intérêt&nbsp;!</h1>
-      <p v-if="!this.$route.query.poste" class="fr-text--lead">
-        Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.
-      </p>
+          <h1 v-if="!this.$route.query.poste">Partagez votre intérêt&nbsp;!</h1>
+          <h1 v-else class="fr-mb-6w">Votre intérêt pour le poste de {{this.$route.query.intitule}}</h1>
+          <p v-if="!this.$route.query.poste" class="fr-text--lead">
+            Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.
+          </p>
+        </div>
+      </div>
 
       <div class="dg-content dg-content--xs fr-mt-6w">
-
-        <h1 v-if="this.$route.query.poste" class="fr-mb-6w">Votre intérêt pour le poste de {{this.$route.query.intitule}}</h1>
-
         <form class="form" v-on:submit.prevent="addCandidate">
           <p><small>Sauf mention contraire, tous les champs sont obligatoires.</small></p>
           <div class="fr-input-group">

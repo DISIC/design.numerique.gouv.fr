@@ -44,13 +44,6 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'Job',
-        path: './content/jobs/*.md',
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
         typeName: 'Mission',
         path: './content/commandoux/**/*.md',
         refs: {
@@ -254,7 +247,6 @@ module.exports = {
   },
   templates: {
     People: '/equipe/:id',
-    Job: '/recrutement/:slug',
     Mission: '/commando-ux/:slug',
     Article: '/articles/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',

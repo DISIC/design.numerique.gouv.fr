@@ -252,7 +252,7 @@ module.exports = {
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
     Formation: '/formations/:Slug',
-    Poste: '/recrutement/:Slug',
+    // Poste: '/recrutement/:Slug',
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },
   prefetch: {

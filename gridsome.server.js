@@ -10,9 +10,10 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
-  // Création manuel des pages Cours pour prendre en compte la Formation dans l'URL
   api.createPages(async ({ graphql, createPage }) => {
-    const { data } = await graphql(`{
+
+    // Création manuel des pages Cours pour prendre en compte la Formation dans l'URL
+    const cours = await graphql(`{
       allCours {
         edges {
           node {
@@ -25,9 +26,8 @@ module.exports = function (api) {
           }
         }
       }
-    }`)
-
-    data.allCours.edges.forEach(({ node }) => {
+    }`);
+    cours.data.allCours.edges.forEach(({ node }) => {
       if (node.publier) {
         createPage({
           path: `/formations/${node.formation.slug}/${node.slug}`,
@@ -35,8 +35,31 @@ module.exports = function (api) {
           queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
         })
       }
-    })
-  })
+    });
+
+    // Création manuel des pages Poste pour ne créer que les offres publiées
+    const poste = await graphql(`{
+      allPoste {
+        edges {
+          node {
+            id
+            slug
+            publier
+          }
+        }
+      }
+    }`);
+    poste.data.allPoste.edges.forEach(({ node }) => {
+      if (node.publier) {
+        createPage({
+          path: `/recrutement/${node.slug}`,
+          component: './src/templates/Poste.vue',
+          queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+        })
+      }
+    });
+
+  });
 
   api.onCreateNode((node, collection) => {
     if (node.internal.typeName === 'Cours') {
@@ -68,5 +91,5 @@ module.exports = function (api) {
 
       node.content = collection._store.createReference(markdownNode)
     }
-  })
+  });
 }

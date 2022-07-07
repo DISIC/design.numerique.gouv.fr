@@ -69,18 +69,3 @@
   }
 
 </script>
-
-
-<static-query>
-
-  query {
-    allJob (sortBy: "title", order: ASC) {
-      edges {
-        node {
-        	id
-        }
-      }
-    }
-  }
-
-</static-query>

@@ -48,7 +48,7 @@
 
 <page-query>
   query {
-    allPoste (sortBy: "titre", order: ASC) {
+    allPoste (filter: { publier: { eq: true }}) {
       edges {
         node {
         	id

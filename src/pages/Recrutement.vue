@@ -20,26 +20,56 @@
       </div>
     </section>
 
-    <section v-if="$page.allPoste" class="dg-content fr-px-2w">
+    <section class="dg-content fr-px-2w">
 
-      <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
-        <div class="fr-col-md-6 fr-col-12"  v-for="{ node } in $page.allPoste.edges" :key="node.id">
-          <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-            <div class="fr-tile__body">
-              <h2 class="fr-tile__title">
-                <g-link  :to="'/recrutement/' + node.slug + '/'" class="fr-tile__link">{{ node.titre }}</g-link>
-              </h2>
-              <p class="fr-tile__desc">{{ node.type }}</p>
+      <!-- <div class="fr-mb-6w">
+        <p class="dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par catégorie :</p>
+        <div class="dg-inline-block ">
+          <ul class="fr-tags-group">
+            <li v-for="tag in tagList.sort((a, b) => (a > b))" :key="tag">
+              <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTypes($event)">{{ tag }}</button>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+
+      <div v-if="$page.allPoste.edges.length" class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
+        <div class="fr-col-md-6 fr-col-12" v-for="{ node } in $page.allPoste.edges" :key="node.id">
+          <div class="fr-card fr-enlarge-link fr-card--horizontal">
+            <div class="fr-card__body">
+              <div class="fr-card__content">
+                <h4 class="fr-card__title">
+                  <g-link :to="'/recrutement/' + node.slug + '/'">{{ node.intitule }}</g-link>
+                </h4>
+                <p class="fr-card__desc">{{ node.descriptionCourte }}</p>
+                <div class="fr-card__start">
+                  <ul class="fr-badges-group">
+                    <li>
+                      <p v-if="Date.now() - new Date(node.publication) < 1209600000" class="fr-badge fr-badge--new fr-badge--sm">Nouveau</p>
+                    </li>
+                    <li>
+                      <p class="fr-badge fr-badge--pink-macaron fr-badge--sm">{{ node.contrat }}</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="fr-card__end">
+                  <ul class="fr-tags-group">
+                    <li v-for="tag in node.tags">
+                      <p class="fr-tag">{{ tag }}</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <hr>
+      <hr v-if="$page.allPoste.edges.length">
 
       <h2 class="fr-h6">Vous êtes disponibles pour des missions au sein de l'administration ?</h2>
       <p>Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.</p>
-      <g-link to="/recrutement/partager-interet/" class="fr-btn">Partager votre intérêt</g-link>
+      <g-link to="/recrutement/partager-interet/" class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line">Partager votre intérêt</g-link>
 
     </section>
 
@@ -48,14 +78,17 @@
 
 <page-query>
   query {
-    allPoste (filter: { publier: { eq: 1 }}) {
+    allPoste (sortBy: "publication", order: ASC, filter: { publier: { eq: 1 }}) {
       edges {
         node {
         	id
-          titre
+          intitule
           slug
           publication
           publier
+          contrat
+          descriptionCourte
+          tags
         }
       }
     }
@@ -64,6 +97,19 @@
 
 <script>
   export default {
+    // computed: {
+    //   tagList: function () {
+    //     var list = [];
+    //     this.$page.allPoste.edges.forEach(poste => {
+    //       poste.node.tags.forEach(tag => {
+    //         if(list.indexOf(tag) == -1) {
+    //           list.push(tag);
+    //         }
+    //       })
+    //     });
+    //     return list;
+    //   },
+    // },
     metaInfo: {
       title: "Recrutement",
       meta: [{
@@ -102,6 +148,6 @@
         name: "twitter:image",
         content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipe.png"
       }],
-    }
+    },
   }
 </script>

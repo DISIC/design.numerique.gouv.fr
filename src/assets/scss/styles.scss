@@ -22,6 +22,18 @@ li.fr-card {
     display: inline-block;
   }
 
+  &-flex {
+    display: flex;
+
+    &--space-between {
+      justify-content: space-between;
+    }
+
+    &--wrap {
+      flex-wrap: wrap;
+    }
+  }
+
   &-flex-start {
     align-self: flex-start;
   }

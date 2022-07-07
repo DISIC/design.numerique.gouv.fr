@@ -14,7 +14,7 @@ module.exports = function (api) {
 
     // Création manuel des pages Cours pour prendre en compte la Formation dans l'URL
     const cours = await graphql(`{
-      allCours {
+      allCours (filter: { publier: { eq: true }}) {
         edges {
           node {
             id
@@ -28,18 +28,16 @@ module.exports = function (api) {
       }
     }`);
     cours.data.allCours.edges.forEach(({ node }) => {
-      if (node.publier) {
-        createPage({
-          path: `/formations/${node.formation.slug}/${node.slug}`,
-          component: './src/templates/Cours.vue',
-          queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
-        })
-      }
+      createPage({
+        path: `/formations/${node.formation.slug}/${node.slug}`,
+        component: './src/templates/Cours.vue',
+        queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+      })
     });
 
     // Création manuel des pages Poste pour ne créer que les offres publiées
     const poste = await graphql(`{
-      allPoste {
+      allPoste (filter: { publier: { eq: 1 }}) {
         edges {
           node {
             id
@@ -50,13 +48,11 @@ module.exports = function (api) {
       }
     }`);
     poste.data.allPoste.edges.forEach(({ node }) => {
-      if (node.publier) {
-        createPage({
-          path: `/recrutement/${node.slug}`,
-          component: './src/templates/Poste.vue',
-          queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
-        })
-      }
+      createPage({
+        path: `/recrutement/${node.slug}`,
+        component: './src/templates/Poste.vue',
+        queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+      })
     });
 
   });

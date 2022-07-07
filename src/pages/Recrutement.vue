@@ -48,12 +48,14 @@
 
 <page-query>
   query {
-    allPoste (filter: { publier: { eq: true }}) {
+    allPoste (filter: { publier: { eq: 1 }}) {
       edges {
         node {
         	id
           titre
           slug
+          publication
+          publier
         }
       }
     }

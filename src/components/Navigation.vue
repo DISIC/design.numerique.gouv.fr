@@ -37,7 +37,7 @@
 
 <static-query>
   query {
-    allPoste (filter: { publier: { eq: true }}) {
+    allPoste (filter: { publier: { eq: 1 }}) {
       edges {
         node {
         	id

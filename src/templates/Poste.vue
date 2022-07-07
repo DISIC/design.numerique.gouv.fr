@@ -20,23 +20,11 @@
           <p v-if="Date.now() - new Date($page.poste.publication) < 1209600000" class="fr-badge fr-badge--new fr-mb-2w">Nouveau</p>
           <h1 class="dg-cover__title" v-html="$page.poste.intitule" />
           <p class="fr-text--lead" v-html="$page.poste.descriptionCourte" />
-          <div class="dg-inline-block fr-mb-0 fr-mb-md-n1w fr-mr-4w">
-            <p class="dg-text-bold dg-inline-block fr-mr-1w">Contrat :</p>
-            <g-link :to="{ path: '/recrutement/', query: { contrat: $page.poste.contrat }}" class="fr-tag">{{ $page.poste.contrat }}</g-link>
-          </div>
-          <div class="dg-inline-block fr-mb-0 fr-mb-md-n1w">
-            <p v-if="$page.poste.tags.length == 1" class="dg-text-bold dg-inline-block fr-mb-1w fr-mr-1w">Cathégorie :</p>
-            <p v-else-if="$page.poste.tags.length > 1" class="dg-text-bold dg-inline-block fr-mb-1w fr-mr-1w">Cathégories :</p>
-            <div class="dg-inline-block">
-              <ul class="dg-inline-flex fr-tags-group">
-                <li v-for="tag in $page.poste.tags"><g-link :to="{ path: '/recrutement/', query: { tag: tag }}" class="fr-tag ">{{ tag }}</g-link></li>
-              </ul>
-            </div>
-          </div>
-          <ul class="dg-list-no-decoration">
-            <li class="dg-inline-block fr-mb-5v fr-mr-4w"><strong>Durée de la mission : </strong><span v-html="$page.poste.duree" class="fr-badge fr-badge--green-tilleul-verveine fr-badge--sm" /></li>
-            <li class="dg-inline-block fr-mb-5v fr-mb-1v"><strong>Date de début : </strong><span v-html="(new Date($page.poste.debut) - Date.now()) < 0 ? 'Dès que possible' : (new Date($page.poste.debut)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" class="fr-badge fr-badge--green-tilleul-verveine fr-badge--sm" /></li>
-            <li><strong>Localisation : </strong><span v-html="$page.poste.localisation" class="fr-badge fr-badge--green-tilleul-verveine fr-badge--sm" /></li>
+          <ul class="dg-list-no-decoration fr-mb-2w">
+            <li class="dg-inline-block fr-mb-1w fr-mr-4w fr-text--sm"><strong>Contrat : </strong><span v-html="$page.poste.contrat" class="fr-badge fr-badge--pink-macaron fr-badge--sm" /></li>
+            <li class="dg-inline-block fr-mb-1w fr-mr-4w fr-text--sm"><strong>Durée : </strong><span v-html="$page.poste.duree" class="fr-badge fr-badge--pink-macaron fr-badge--sm" /></li>
+            <li class="dg-inline-block fr-mb-1w fr-mr-4w fr-text--sm"><strong>Début : </strong><span v-html="(new Date($page.poste.debut) - Date.now()) < 0 ? 'Dès que possible' : (new Date($page.poste.debut)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" class="fr-badge fr-badge--pink-macaron fr-badge--sm" /></li>
+            <li><strong>Localisation : </strong><strong v-html="$page.poste.localisation" class="fr-badge fr-badge--pink-macaron fr-badge--sm" /></li>
           </ul>
         </div>
       </div>
@@ -45,11 +33,13 @@
 
         <h2>Le contexte</h2>
 
-        <h3 v-if="" v-html="$page.poste.direction" />
+        <h3 v-html="$page.poste.direction" />
         <p v-html="$page.poste.descriptionDirection" />
 
-        <h3 v-html="$page.poste.equipe" />
-        <p v-html="$page.poste.descriptionEquipe" />
+        <div v-if="$page.poste.equipe">
+          <h3 v-html="$page.poste.equipe" />
+          <p v-html="$page.poste.descriptionEquipe" />
+        </div>
 
         <div v-html="$page.poste.content.content" />
 
@@ -59,9 +49,21 @@
         <h2>Pour candidater</h2>
         <g-link :to="{ path: '/recrutement/partager-interet/', query: { poste: $page.poste.id, intitule: $page.poste.intitule }}" class="fr-btn">Partager votre intérêt</g-link>
 
-        <p class="fr-mt-6w">
+        <p class="fr-mt-8w">
           <hr>
-          <small>Cette offre a été publiée le <b><span v-html="(new Date($page.poste.publication)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" /></b>.</small>
+          <div class="dg-flex dg-flex--space-between dg-flex--wrap">
+            <!-- <div class="fr-mb-n1w fr-mr-1w">
+              <p v-if="$page.poste.tags.length == 1" class="dg-inline-block fr-mb-1w fr-mr-1w fr-text--sm">Cathégorie :</p>
+              <p v-else-if="$page.poste.tags.length > 1" class="dg-inline-block fr-mb-1w fr-mr-1w fr-text--sm">Cathégories :</p>
+              <div class="dg-inline-block">
+                <ul class="fr-tags-group">
+                  <li v-for="tag in $page.poste.tags"><g-link :to="{ path: '/recrutement/', query: { tag: tag }}" class="fr-tag fr-tag--sm">{{ tag }}</g-link></li>
+                  <li v-for="tag in $page.poste.tags" class="fr-tag fr-tag--sm">{{ tag }}</li>
+                </ul>
+              </div>
+            </div> -->
+            <p class="fr-text--sm">Date de publication : <b><span v-html="(new Date($page.poste.publication)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" /></b></p>
+          </div>
         </p>
 
       </div>

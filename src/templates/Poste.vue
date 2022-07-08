@@ -3,7 +3,7 @@
     <div class="dg-content fr-px-2w">
 
       <div class="dg-cover dg-cover--linear fr-mb-4w">
-        <div class="dg-cover__container dg-cover__container fr-mb-1w">
+        <div class="dg-cover__container fr-mb-1w">
           <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
             <ol class="fr-breadcrumb__list">
               <li>
@@ -47,7 +47,7 @@
         <p>Vous pouvez nous contacter à l'adresse suivante : <strong>{{$page.poste.contact}}</strong></p></p>
 
         <h2>Pour candidater</h2>
-        <g-link :to="{ path: '/recrutement/partager-interet/', query: { poste: $page.poste.id, intitule: $page.poste.intitule }}" class="fr-btn">Partager votre intérêt</g-link>
+        <g-link :to="{ path: '/recrutement/partager-interet/', query: { poste: $page.poste.id, intitule: $page.poste.intitule }}" class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line">Postuler</g-link>
 
         <p class="fr-mt-8w">
           <hr>

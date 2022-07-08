@@ -3,7 +3,7 @@
     <div class="dg-content fr-px-2w">
 
       <div class="dg-cover dg-cover--linear fr-mb-4w">
-        <div class="dg-cover__container dg-cover__container fr-mb-1w">
+        <div class="dg-cover__container fr-mb-1w">
           <nav aria-label="Breadcrumb" class="fr-breadcrumb">
             <ol class="fr-breadcrumb__list">
               <li>
@@ -19,7 +19,7 @@
           </nav>
 
           <h1 v-if="!this.$route.query.poste">Partagez votre intérêt&nbsp;!</h1>
-          <h1 v-else class="fr-mb-6w">Votre intérêt pour le poste de {{this.$route.query.intitule}}</h1>
+          <h1 v-else class="fr-mb-6w">Votre candidature pour le poste de {{this.$route.query.intitule}}</h1>
           <p v-if="!this.$route.query.poste" class="fr-text--lead">
             Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.
           </p>
@@ -174,7 +174,7 @@
           </div>
           <p><small>Nous utiliserons les informations recueillies ci-dessus pour vous contacter dans le cadre des missions que nous proposons.</small></p>
           <p><small>Conformément à la règlementation, vous disposez d’un droit d’opposition et d’un droit à la limitation du traitement de données vous concernant, ainsi que d’un droit d’accès, de rectification, de portabilité et d’effacement de vos données. Vous pouvez exercer vos droits en nous écrivant à contact@design.numerique.gouv.fr.</small></p>
-          <button class="fr-btn" id="submit" type="submit">Partager votre intérêt</button>
+          <button class="fr-btn" id="submit" type="submit">Envoyer votre candidature</button>
         </form>
       </div>
 

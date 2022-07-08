@@ -1,6 +1,6 @@
 ---
 title: Authentification
-description: Les démarches pour les particuliers doivent permettre l’authentification des particuliers et des entreprises de l’Union Européenne.
+description: Les démarches doivent permettre l’authentification des particuliers et des entreprises de l’Union Européenne.
 order: 5
 ---
 

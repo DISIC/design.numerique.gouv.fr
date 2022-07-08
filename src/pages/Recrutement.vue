@@ -67,7 +67,7 @@
 
       <hr v-if="$page.allPoste.edges.length">
 
-      <h2 class="fr-h6">Vous êtes disponibles pour des missions au sein de l'administration ?</h2>
+      <h2 class="fr-h6">Vous êtes disponible pour des missions au sein de l'administration ?</h2>
       <p>Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.</p>
       <g-link to="/recrutement/partager-interet/" class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line">Partager votre intérêt</g-link>
 

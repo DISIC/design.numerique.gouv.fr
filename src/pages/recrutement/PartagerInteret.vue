@@ -91,6 +91,10 @@
                   <input type="checkbox" id="checkboxes-9" value="Rédaction UX" v-model="form.skills">
                   <label class="fr-label" for="checkboxes-9">Rédaction UX</label>
                 </div>
+                <div class="fr-checkbox-group">
+                  <input type="checkbox" id="checkboxes-10" value="Pilotage" v-model="form.skills">
+                  <label class="fr-label" for="checkboxes-10">Pilotage</label>
+                </div>
               </div>
             </fieldset>
           </div>

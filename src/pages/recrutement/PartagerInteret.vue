@@ -222,7 +222,7 @@
       },
       {
         name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
+        content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipde.png"
       }],
     },
     data () {

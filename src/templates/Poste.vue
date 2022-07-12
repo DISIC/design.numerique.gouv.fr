@@ -47,7 +47,7 @@
         <p>Vous pouvez nous contacter à l'adresse suivante : <strong>{{$page.poste.contact}}</strong></p></p>
 
         <h2>Pour candidater</h2>
-        <g-link :to="{ path: '/recrutement/partager-interet/', query: { poste: $page.poste.id, intitule: $page.poste.intitule }}" class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line">Postuler</g-link>
+        <g-link :to="{ path: '/recrutement/partager-interet/', query: { poste: $page.poste.id }}" class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line">Postuler</g-link>
 
         <p class="fr-mt-8w">
           <hr>

@@ -19,14 +19,14 @@
           </nav>
 
           <h1 v-if="!this.$route.query.poste">Partagez votre intérêt&nbsp;!</h1>
-          <h1 v-else class="fr-mb-6w">Votre candidature pour le poste de {{this.$route.query.intitule}}</h1>
+          <h1 v-else class="fr-mb-6w">Votre candidature : {{this.poste.intitule}}</h1>
           <p v-if="!this.$route.query.poste" class="fr-text--lead">
             Nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.
           </p>
         </div>
       </div>
 
-      <div class="dg-content dg-content--xs fr-mt-6w">
+      <div v-if="!this.$route.query.poste || this.poste.intitule" class="dg-content dg-content--xs fr-mt-6w">
         <form class="form" v-on:submit.prevent="addCandidate">
           <p><small>Sauf mention contraire, tous les champs sont obligatoires.</small></p>
           <div class="fr-input-group">
@@ -49,56 +49,56 @@
             <label class="fr-label" for="commune">Dans quelle commune habitez-vous&nbsp;? (facultatif)</label>
             <input class="fr-input" type="text" id="commune" v-model="form.city">
           </div>
-          <div class="fr-form-group">
+          <div v-if="this.poste.destination != 'DSN'" class="fr-form-group">
             <fieldset class="fr-fieldset">
               <legend class="fr-fieldset__legend fr-text--regular" id='expertise-legend'>
                 Votre expertise <span class="fr-hint-text">Plusieurs choix possibles</span></span>
               </legend>
               <div class="fr-fieldset__content">
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="expertise-1" value="Recherche utilisateur" v-model="form.skills">
-                  <label class="fr-label" for="expertise-1">Recherche utilisateur</label>
+                  <input type="checkbox" id="expertise-1" value="Accessibilité numérique" v-model="form.skills">
+                  <label class="fr-label" for="expertise-1">Accessibilité numérique</label>
                 </div>
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="expertise-2" value="Design UX" v-model="form.skills">
-                  <label class="fr-label" for="expertise-2">Design UX</label>
+                  <input type="checkbox" id="expertise-2" value="Audit RGAA" v-model="form.skills">
+                  <label class="fr-label" for="expertise-2">Audit RGAA</label>
                 </div>
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="expertise-3" value="Design UI" v-model="form.skills">
-                  <label class="fr-label" for="expertise-3">Design UI</label>
+                  <input type="checkbox" id="expertise-3" value="Design de services" v-model="form.skills">
+                  <label class="fr-label" for="expertise-3">Design de services</label>
                 </div>
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="expertise-4" value="Design de services" v-model="form.skills">
-                  <label class="fr-label" for="expertise-4">Design de services</label>
+                  <input type="checkbox" id="expertise-4" value="Design UI" v-model="form.skills">
+                  <label class="fr-label" for="expertise-4">Design UI</label>
                 </div>
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="expertise-5" value="Accessibilité numérique" v-model="form.skills">
-                  <label class="fr-label" for="expertise-5">Accessibilité numérique</label>
+                  <input type="checkbox" id="expertise-5" value="Design UX" v-model="form.skills">
+                  <label class="fr-label" for="expertise-5">Design UX</label>
                 </div>
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="expertise-6" value="Audit RGAA" v-model="form.skills">
-                  <label class="fr-label" for="expertise-6">Audit RGAA</label>
+                  <input type="checkbox" id="expertise-6" value="Développement back-end" v-model="form.skills">
+                  <label class="fr-label" for="expertise-6">Développement back-end</label>
                 </div>
                 <div class="fr-checkbox-group">
                   <input type="checkbox" id="expertise-7" value="Développement front-end" v-model="form.skills">
                   <label class="fr-label" for="expertise-7">Développement front-end</label>
                 </div>
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="expertise-8" value="Développement back-end" v-model="form.skills">
-                  <label class="fr-label" for="expertise-8">Développement back-end</label>
+                  <input type="checkbox" id="expertise-8" value="Recherche utilisateur" v-model="form.skills">
+                  <label class="fr-label" for="expertise-8">Recherche utilisateur</label>
                 </div>
                 <div class="fr-checkbox-group">
-                  <input type="checkbox" id="checkboxes-9" value="Pilotage" v-model="form.skills">
-                  <label class="fr-label" for="checkboxes-9">Pilotage</label>
+                  <input type="checkbox" id="expertise-9" value="Rédaction UX" v-model="form.skills">
+                  <label class="fr-label" for="expertise-9">Rédaction UX</label>
                 </div>
               </div>
             </fieldset>
           </div>
-          <div class="fr-input-group">
+          <div v-if="this.poste.destination != 'DSN'" class="fr-input-group">
             <label class="fr-label" for="autres-competences">Vos autres compétences (facultatif)</label>
             <input class="fr-input" type="text" id="autres-competences" v-model="form.otherSkills">
           </div>
-          <div class="fr-form-group">
+          <div v-if="this.poste.destination != 'DSN'" class="fr-form-group">
             <fieldset class="fr-fieldset">
               <legend class="fr-fieldset__legend fr-text--regular" id='radio-legend'>
                 Votre expérience professionnelle dans ces domaines d’expertise</span>
@@ -132,7 +132,7 @@
             <input class="fr-input" type="url" id="CV" v-model="form.cv" required>
           </div>
           <div class="fr-input-group">
-            <label class="fr-label" for="portfolio">Le lien vers votre portfolio ou votre site (facultatif) <span class="fr-hint-text">Le lien vers votre portfolio (ou votre site) doit débuter par http:// ou https://</span></label>
+            <label class="fr-label" for="portfolio">Le lien vers votre portfolio ou votre site (facultatif) <span class="fr-hint-text">Le lien vers votre portfolio ou votre site doit débuter par http:// ou https://</span></label>
             <input class="fr-input" type="url" id="portfolio" v-model="form.portfolio"></input>
           </div>
           <div v-if="!this.$route.query.poste" class="fr-form-group">
@@ -227,6 +227,7 @@
     },
     data () {
       return {
+        poste: {},
         form: {
           email: '',
           firstName: '',
@@ -235,7 +236,7 @@
           city: '',
           skills: [],
           otherSkills: '',
-          experience: '',
+          experience: null,
           profil: '',
           duration: [],
           delay: '',
@@ -243,6 +244,16 @@
           more: '',
           poste: this.$route.query.poste ? [this.$route.query.poste] : [],
         }
+      }
+    },
+    mounted () {
+      if (this.$route.query.poste) {
+        var Airtable = require('airtable');
+        var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE);
+        base('Postes').find(this.$route.query.poste, (err, record) => {
+            if (err) { console.error(err); return; }
+            this.poste = record.fields;
+        });
       }
     },
     methods: {
@@ -253,20 +264,20 @@
         base('Candidats').create([
         {
           "fields": {
-            "Email": this.form.email,
-            "Prénom": this.form.firstName,
-            "Nom": this.form.lastName,
-            "Téléphone": this.form.phone,
-            "Commune": this.form.city,
-            "Expertise": this.form.skills,
-            "Autres compétences": this.form.otherSkills,
-            "Expérience": this.form.experience,
-            "Portfolio": this.form.portfolio,
-            "Durée": this.form.duration,
-            "Délai": this.form.delay,
-            "CV": this.form.cv,
-            "Plus": this.form.more,
-            "Poste": this.form.poste,
+            "fldT89YP3RwfT0yWV": this.form.email,
+            "fldW7JMKtx57QTsFH": this.form.firstName,
+            "fldcqvHPP4CrPtacu": this.form.lastName,
+            "fldVbCpU20kG5YSZj": this.form.phone,
+            "fldbKzZw3J9n5rzo5": this.form.city,
+            "fldX3Kttyv35vEJBF": this.form.skills,
+            "fld8kGoo6LoyRjzEu": this.form.otherSkills,
+            "fldOmtisX6heRkfEM": this.form.experience,
+            "fldLWDNR8FrMUIy5y": this.form.portfolio,
+            "fld5D9U70rnBmW49S": this.form.duration,
+            "fldoERWo629yGrf9P": this.form.delay,
+            "fld2gbfiiNwFpBXcF": this.form.cv,
+            "fldMfXvTB1w5tAY1w": this.form.more,
+            "fld4z5zGx5aXMFS1d": this.form.poste,
           }
         },
       ], function(err, records) {

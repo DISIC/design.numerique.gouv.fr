@@ -27,11 +27,11 @@
       </div>
 
       <div v-if="!this.$route.query.poste || this.poste.intitule" class="dg-content dg-content--xs fr-mt-6w">
-        <form class="form" v-on:submit.prevent="addCandidate" data-netlify="true">
+        <form class="form" v-on:submit.prevent="addCandidate" data-netlify="true" name="Partage intérêt">
           <p><small>Sauf mention contraire, tous les champs sont obligatoires.</small></p>
           <div class="fr-input-group">
             <label class="fr-label" for="prenom">Votre prénom</label>
-            <input class="fr-input" type="text" id="prenom" v-model="form.firstName" required>
+            <input class="fr-input" type="text" id="prenom" v-model="form.firstName" name="Prénom" required>
           </div>
           <div class="fr-input-group">
             <label class="fr-label" for="nom">Votre nom</label>

@@ -62,7 +62,7 @@
                 </ul>
               </div>
             </div> -->
-            <p class="fr-text--sm fr-mb-2w">Date de publication : <b><span v-html="(new Date($page.poste.publication)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" /></b></p>
+            <p class="fr-text--sm fr-mb-2w">Date de publication : <span class="fr-text--bold" v-html="(new Date($page.poste.publication)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" /></p>
             <p v-if="$page.poste.lien" class="fr-text--sm"><g-link :to="$page.poste.lien">Lien vers l'annonce sur Place de l'emploi public</g-link></p>
           <!-- </div> -->
         </p>

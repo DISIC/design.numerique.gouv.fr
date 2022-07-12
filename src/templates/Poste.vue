@@ -47,7 +47,7 @@
         <p>Vous pouvez nous contacter à l'adresse suivante : <strong>{{$page.poste.contact}}</strong></p></p>
 
         <h2 class="fr-mt-6w">Pour candidater</h2>
-        <p v-if="this.$page.poste.destination == 'DSN'" >Pour postuler à cette offre, envoyer nous votre CV et une lettre de motivation à l'adresse <strong>candidatures-dinum@pm.gouv.fr</strong>.</p>
+        <p v-if="this.$page.poste.destination == 'DSN'" >Pour postuler à cette offre, envoyez-nous votre CV et une lettre de motivation à l'adresse <strong>candidatures-dinum@pm.gouv.fr</strong>.</p>
         <g-link v-else :to="{ path: '/recrutement/partager-interet/', query: { poste: $page.poste.id }}" class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line">Postuler</g-link>
 
         <p class="fr-mt-8w">

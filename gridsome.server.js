@@ -80,7 +80,7 @@ module.exports = function (api) {
 		    // any other fields, id, slug, title etc
         internal: {
           mimeType: 'text/markdown',
-          content: node.Description,
+          content: node.description,
           origin: node.id
         }
       })

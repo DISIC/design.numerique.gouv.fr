@@ -19,7 +19,7 @@
             </li>
           </ol>
         </nav>
-        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w fr-mt-1v">Inscriptions ouvertes</p>
+        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
         <div class="dg-inline-block">
@@ -29,9 +29,11 @@
         <div class="dg-inline-block fr-mb-1w ">
           <p v-if="$page.cours.tags.length == 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mb-1w  fr-mr-1w">Thème :</p>
           <p v-else-if="$page.cours.tags.length > 1" class="dg-text-bold dg-inline-block fr-text--sm fr-mb-1w fr-mr-1w">Thèmes :</p>
-          <ul class="dg-inline-block fr-tags-group">
-            <li v-for="tag in $page.cours.tags"><g-link :to="{ path: '/formations/#formations', query: { tag: tag }}" class="fr-tag ">{{ tag }}</g-link></li>
-          </ul>
+          <div class="dg-inline-block">
+            <ul class="fr-tags-group">
+              <li v-for="tag in $page.cours.tags"><g-link :to="{ path: '/formations/#formations', query: { tag: tag }}" class="fr-tag ">{{ tag }}</g-link></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -59,7 +59,7 @@
             <p class="fr-mb-2w">
               Vous êtes spécialisé en design UI, design UX, accessibilité, recherche utilisateur, rédaction UX et vous souhaitez vous impliquer.
             </p>
-            <g-link to="/commando-ux/partager-interet/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+            <g-link to="/recrutement/partager-interet/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
               Partager votre intérêt
             </g-link>
           </div>

@@ -26,8 +26,8 @@
           <li class="fr-nav__item">
             <a class="fr-nav__link" href="/articles/">Articles</a>
           </li>
-          <li class="fr-nav__item" v-if="$static.allJob.edges.length > 0">
-            <a class="fr-nav__link" href="/recrutement/">Recrutement <span v-if="$static.allJob.edges.length == 1" class="fr-badge fr-badge--sm fr-badge--pink-macaron">{{ $static.allJob.edges.length }} offre</span><span v-else-if="$static.allJob.edges.length > 1" class="fr-badge fr-badge--sm fr-badge--pink-macaron">{{ $static.allJob.edges.length }} offres</span></a>
+          <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/recrutement/">Recrutement <span v-if="$static.allPoste.edges.length == 1" class="fr-badge fr-badge--sm fr-badge--pink-macaron">{{ $static.allPoste.edges.length }} offre</span><span v-else-if="$static.allPoste.edges.length > 1" class="fr-badge fr-badge--sm fr-badge--pink-macaron">{{ $static.allPoste.edges.length }} offres</span></a>
           </li>
         </ul>
       </nav>
@@ -37,7 +37,7 @@
 
 <static-query>
   query {
-    allJob (sortBy: "title", order: ASC) {
+    allPoste (filter: { publier: { eq: 1 }}) {
       edges {
         node {
         	id

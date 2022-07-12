@@ -51,7 +51,7 @@
 
         <p class="fr-mt-8w">
           <hr>
-          <div class="dg-flex dg-flex--space-between dg-flex--wrap">
+          <!-- <div class="dg-flex dg-flex--space-between dg-flex--wrap"> -->
             <!-- <div class="fr-mb-n1w fr-mr-1w">
               <p v-if="$page.poste.tags.length == 1" class="dg-inline-block fr-mb-1w fr-mr-1w fr-text--sm">Cathégorie :</p>
               <p v-else-if="$page.poste.tags.length > 1" class="dg-inline-block fr-mb-1w fr-mr-1w fr-text--sm">Cathégories :</p>
@@ -62,8 +62,9 @@
                 </ul>
               </div>
             </div> -->
-            <p class="fr-text--sm">Date de publication : <b><span v-html="(new Date($page.poste.publication)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" /></b></p>
-          </div>
+            <p class="fr-text--sm fr-mb-2w">Date de publication : <b><span v-html="(new Date($page.poste.publication)).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })" /></b></p>
+            <p v-if="$page.poste.lien" class="fr-text--sm"><g-link :to="$page.poste.lien">Lien vers l'annonce sur Place de l'emploi public</g-link></p>
+          <!-- </div> -->
         </p>
 
       </div>
@@ -91,6 +92,7 @@
       contact
       publication
       destination
+      lien
       content {
         content
       }

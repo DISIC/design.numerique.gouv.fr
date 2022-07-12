@@ -33,20 +33,20 @@
 
         <h2>Le contexte</h2>
 
-        <h3 v-html="$page.poste.direction" />
+        <h3 class="fr-h6" v-html="$page.poste.direction" />
         <p v-html="$page.poste.descriptionDirection" />
 
         <div v-if="$page.poste.equipe">
-          <h3 v-html="$page.poste.equipe" />
+          <h3 class="fr-h6" v-html="$page.poste.equipe" />
           <p v-html="$page.poste.descriptionEquipe" />
         </div>
 
-        <div class="dg-contains-list" v-html="$page.poste.content.content" />
+        <div class="dg-contains-list fr-mt-6w" v-html="$page.poste.content.content" />
 
-        <h2>Vous avez une question ?</h2>
+        <h2 class="fr-mt-6w">Vous avez une question ?</h2>
         <p>Vous pouvez nous contacter à l'adresse suivante : <strong>{{$page.poste.contact}}</strong></p></p>
 
-        <h2>Pour candidater</h2>
+        <h2 class="fr-mt-6w">Pour candidater</h2>
         <p v-if="this.$page.poste.destination == 'DSN'" >Pour postuler à cette offre, envoyer nous votre CV et une lettre de motivation à l'adresse <strong>candidatures-dinum@pm.gouv.fr</strong>.</p>
         <g-link v-else :to="{ path: '/recrutement/partager-interet/', query: { poste: $page.poste.id }}" class="fr-btn fr-btn--icon-right fr-icon-arrow-right-line">Postuler</g-link>
 
@@ -147,16 +147,3 @@
     },
   }
 </script>
-
-<style lang="scss" scoped>
-
-  h2 {
-    margin-top: 3rem;
-  }
-
-  h3 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-  }
-
-</style>

@@ -41,7 +41,7 @@
           <p v-html="$page.poste.descriptionEquipe" />
         </div>
 
-        <div v-html="$page.poste.content.content" />
+        <div class="dg-contains-list" v-html="$page.poste.content.content" />
 
         <h2>Vous avez une question ?</h2>
         <p>Vous pouvez nous contacter à l'adresse suivante : <strong>{{$page.poste.contact}}</strong></p></p>

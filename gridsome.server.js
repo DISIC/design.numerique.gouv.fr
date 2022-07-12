@@ -10,10 +10,11 @@ module.exports = function (api) {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })
 
-  // Création manuel des pages Cours pour prendre en compte la Formation dans l'URL
   api.createPages(async ({ graphql, createPage }) => {
-    const { data } = await graphql(`{
-      allCours {
+
+    // Création manuel des pages Cours pour prendre en compte la Formation dans l'URL
+    const cours = await graphql(`{
+      allCours (filter: { publier: { eq: true }}) {
         edges {
           node {
             id
@@ -25,18 +26,36 @@ module.exports = function (api) {
           }
         }
       }
-    }`)
+    }`);
+    cours.data.allCours.edges.forEach(({ node }) => {
+      createPage({
+        path: `/formations/${node.formation.slug}/${node.slug}`,
+        component: './src/templates/Cours.vue',
+        queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+      })
+    });
 
-    data.allCours.edges.forEach(({ node }) => {
-      if (node.publier) {
-        createPage({
-          path: `/formations/${node.formation.slug}/${node.slug}`,
-          component: './src/templates/Cours.vue',
-          queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
-        })
+    // Création manuel des pages Poste pour ne créer que les offres publiées
+    const poste = await graphql(`{
+      allPoste (filter: { publier: { eq: 1 }}) {
+        edges {
+          node {
+            id
+            slug
+            publier
+          }
+        }
       }
-    })
-  })
+    }`);
+    poste.data.allPoste.edges.forEach(({ node }) => {
+      createPage({
+        path: `/recrutement/${node.slug}`,
+        component: './src/templates/Poste.vue',
+        queryVariables: { id: node.id } // use ($id: ID!) in page-query instead of $path
+      })
+    });
+
+  });
 
   api.onCreateNode((node, collection) => {
     if (node.internal.typeName === 'Cours') {
@@ -53,5 +72,20 @@ module.exports = function (api) {
 
       node.content = collection._store.createReference(markdownNode)
     }
-  })
+
+    if (node.internal.typeName === 'Poste') {
+      const markdownStore = collection._store.addCollection('PosteContent')
+
+      const markdownNode = markdownStore.addNode({
+		    // any other fields, id, slug, title etc
+        internal: {
+          mimeType: 'text/markdown',
+          content: node.description,
+          origin: node.id
+        }
+      })
+
+      node.content = collection._store.createReference(markdownNode)
+    }
+  });
 }

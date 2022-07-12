@@ -37,7 +37,7 @@ Le **coordonnateur national** pour la France de l’ensemble du PNU est Umar Dah
 Pour toute question sur le **pilier II** du PNU, le contact est Anthony Brunelli, anthony.brunelli(a)modernisation.gouv.fr, à la Dinum.
 
 Concernant **FranceConnect+** Il est possible de consulter la [documentation sur son GitHub](https://github.com/france-connect/Documentation-FranceConnect-Plus). 
-Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page «&nbsp;Partenaires&nbsp;»](https://franceconnect.gouv.fr/partenaires) du site via une page d’éligibilité. Le contact est Mme Stéphane Mavel, stephane.mavel(a)modernisation.gouv.fr, à la Dinum.
+Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page «&nbsp;Partenaires&nbsp;»](https://franceconnect.gouv.fr/partenaires) du site via une page d’éligibilité. Le contact est Christine Balian christine.balian(a)modernisation.gouv.fr, à la Dinum.
 
 Pour tout ce qui concerne [service-public.fr](https://www.service-public.fr/), et notamment les **fiches d’informations relatives aux différentes démarches** ou tous les aspects propre au Pilier I du PNU, le contact est Léa Noé, lea.noe(a)dila.gouv.fr, à la Direction de l’information légale et administrative (Dila). 
 
@@ -45,3 +45,4 @@ _Mis à jour&nbsp;:_
 * _le 03/02/22&nbsp;: Ajout de la partie Contacts_
 * _le 14/04/22&nbsp;: Ajout de la V2 du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» et du contact du coordonnateur national._
 * _le 06/05/22&nbsp;: Ajout du lien vers l’Acte d’exécution et du document sur les métadonnées collectées._
+* _le 12/07/22&nbsp;: Mise à jour du contact FranceConnect._

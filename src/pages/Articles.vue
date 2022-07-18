@@ -31,7 +31,7 @@
                 <h2 class="fr-card__title">
                   <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
                 </h2>
-                <p class="fr-card__desc">{{ node.description }}.</p>
+                <p class="fr-card__desc">{{ node.description }}</p>
                 <div class="fr-card__start">
                   <p class="fr-card__detail">{{ node.publishedDate }}</p>
                 </div>

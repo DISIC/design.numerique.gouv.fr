@@ -25,7 +25,7 @@ Ni les obligations légales ni la méthode technique n’ont été modifiées.
 
 ## Nous vous invitons à contribuer !
 
-vous pouvez contribuer et nous faire vos retours en écrivant à rgaa@design.numerique.gouv.fr ou en proposant des <span lang="en">pull requests</span> sur le dépôt [github.com/DISIC/accessibilite.numerique.gouv.fr](https://github.com/DISIC/accessibilite.numerique.gouv.fr).
+Cette nouvelle version est actuellement en bêta : vous pouvez contribuer et nous faire vos retours en écrivant à rgaa@design.numerique.gouv.fr ou en proposant des <span lang="en">pull requests</span> sur le dépôt [github.com/DISIC/accessibilite.numerique.gouv.fr](https://github.com/DISIC/accessibilite.numerique.gouv.fr).
 
 Seules les contributions sur le site, ses fonctionnalités et ses ressources seront prises en compte. Les contributions concernant les contenus règlementaires (obligations légales, critères et tests) seront étudiées dans un second temps.
 

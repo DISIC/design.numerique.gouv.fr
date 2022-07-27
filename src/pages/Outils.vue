@@ -101,7 +101,7 @@
             les critères des différents référentiels et bonnes pratiques du web.
           </li>
           <li>
-            la page <a href="/outils/accessibilite-marche-public/">l'accessibilité numérique dans les marchés publics</a> recensent les points importants dans la rédaction des marchés et l'analyse des offres.
+            la page <a href="/outils/accessibilite-marche-public/">l’accessibilité numérique dans les marchés publics</a> recensent les points importants dans la rédaction des marchés et l’analyse des offres.
           </li>
         </ul>
       </section>

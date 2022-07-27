@@ -113,10 +113,7 @@
                   <li><a href="https://mentor.gouv.fr/catalog/262" title="L’essentiel de l’accessibilité de la communication de l’État - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’essentiel de l’accessibilité de la communication de l’État</a>, 3h30, gratuit.</li>
                 </ul>
               </li>
-              <li>Si vous êtes agent de l’État et avez accès aux formations de l’IGPDE, un parcours à destination des profils « maîtrise d’œuvre » est disponible :
-                <ul>
-                  <li><a href="https://catalogue.igpde.finances.gouv.fr/878-appliquer-l-accessibilite-aux-interfaces-web.html" title="Appliquer l'accessibilité aux interfaces web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Appliquer l'accessibilité aux interfaces web</a>, 3 jours.</li>
-                </ul>
+              <li>Si vous êtes agent de l’État et avez accès aux formations de l’IGPDE, un parcours à destination des profils « maîtrise d’œuvre » est disponible : <a href="https://catalogue.igpde.finances.gouv.fr/878-appliquer-l-accessibilite-aux-interfaces-web.html" title="Appliquer l'accessibilité aux interfaces web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Appliquer l'accessibilité aux interfaces web</a>, 3 jours.
               </li>
             </ul>
             <p><strong>Certification :</strong></p>

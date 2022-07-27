@@ -35,7 +35,7 @@
     <div class="dg-content fr-px-2w">
       <section>
         <h2 id="tech">Tech</h2>
-        <ul>
+        <ul class="fr-mb-3w">
           <li>
             la <a href="checklist-dev">checklist dev</a> regroupe les tests et
             vérifications rapides à faire soi-même avant de livrer son travail ;
@@ -54,9 +54,10 @@
           </li>
         </ul>
       </section>
+
       <section>
         <h2 id="methode">Méthode</h2>
-        <ul>
+        <ul class="fr-mb-3w">
           <li>
             le
             <a href="/accessibilite-numerique/jeu-de-oaa/"
@@ -99,11 +100,15 @@
             la <a href="/outils/checklist-pidila/">checklist Pidila</a> regroupe
             les critères des différents référentiels et bonnes pratiques du web.
           </li>
+          <li>
+            la page <a href="/outils/accessibilite-marche-public/">l'accessibilité numérique dans les marchés publics</a> recensent les points importants dans la rédaction des marchés et l'analyse des offres.
+          </li>
         </ul>
       </section>
+
       <section>
         <h2 id="audit">Audit</h2>
-        <ul>
+        <ul class="fr-mb-3w">
           <li>
             L’<strong>assistant RGAA</strong> facilite la réalisation d’audit en
             mettant à disposition les critères et tests du RGAA 4.1 directement
@@ -141,9 +146,10 @@
           </li>
         </ul>
       </section>
+
       <section>
         <h2 id="declaration">Obligations légales</h2>
-        <ul>
+        <ul class="fr-mb-3w">
           <li>
             un
             <a href="/outils/exemple-declaration-accessibilite/"
@@ -170,6 +176,7 @@
           </li>
         </ul>
       </section>
+
       <section>
         <h2 id="tests">Tests usagers en situation de handicap</h2>
         <h3>Mode d’utilisation du groupe d’utilisateurs handicapés</h3>
@@ -197,6 +204,7 @@
           <strong>jamshid.kohandel@modernisation.gouv.fr</strong>.
         </p>
       </section>
+
       <section>
         <h2 id="dsfr">Le système de design de l’État</h2>
         <p>
@@ -211,7 +219,7 @@
           sur les sites et applications web de l’État.
         </p>
         <p>Il propose :</p>
-        <ul>
+        <ul class="fr-mb-3w">
           <li>
             les éléments de base : couleurs, typographies, grilles et icônes ;
           </li>

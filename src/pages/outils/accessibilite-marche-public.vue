@@ -57,7 +57,7 @@ export default {
     title: "L'accessibilité numérique dans les marchés publics",
     meta: [{
       name: 'description',
-      content: "L‘audit rapide RGAA : la première étape pour une meilleure prise en compte de l'accessibilité numérique."
+      content: "Les points important dans la rédaction des marchés et l'analyse des offres."
     },
     {
       property: 'og:title',
@@ -65,7 +65,7 @@ export default {
     },
     {
       property: 'og:description',
-      content: "L‘audit rapide RGAA : la première étape pour une meilleure prise en compte de l'accessibilité numérique."
+      content: "Les points important dans la rédaction des marchés et l'analyse des offres."
     },
     {
       property: 'og:image',

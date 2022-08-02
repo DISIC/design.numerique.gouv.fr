@@ -31,5 +31,12 @@ Suggestion de traduction (à partir de la proposition de Deepl.com)&nbsp;:
 
 *Le Règlement instaurant le PNU prévoit que lorsque les autorités compétentes sont tenues, en vertu du droit national ou des pratiques administratives applicables, à accepter des copies numérisées de preuves d’identité non électroniques, telles que les cartes d’identité ou les passeports, ces autorités doivent également accepter ces copies numérisées de la part des utilisateurs transfrontaliers.*
 
+En synthèse&nbsp;: 
+* Tous les caractères des différents alphabets des États-membre doivent être acceptés dans les champs de saisie.
+* Les champs de formulaire doivent permettre la saisie avec les formats en vigueur dans les autres États-membres (adresse, code postal, téléphone, numéro de sécurité sociale, numéro de carte d’identité…).
+* Si les usagers français ont la possibilité de joindre une copie de leur pièce d’identité, les usagers des autres États-membres doivent l’avoir aussi.
+
 Cf. Guideline on cross-border access to online procedure p. 12 et p. 17&nbsp;: 
 [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7848984/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)
+
+_Mis à jour le 17/08/2022&nbsp;: Ajout de la synthèse en fin de page._

@@ -28,7 +28,7 @@ tout délai que doit respecter l’utilisateur ou l’autorité compétente et, 
 toute autre langue dans laquelle la procédure peut être accomplie.</li></ol>
 </div> 
 
-Par ailleurs, ces informations doivent être traduites en anglais (le Règlement évoque la possibilité de consulter les instructions dans «&nbsp;une langue officielle de l’Union largement comprise par le plus grand nombre possible d’utilisateurs transfrontières&nbsp;»).
+Par ailleurs, ces informations doivent être traduites en anglais (le Règlement évoque la possibilité de consulter les instructions dans «&nbsp;une langue officielle de l’Union largement comprise par le plus grand nombre possible d’utilisateurs transfrontières&nbsp;»). La Commission européenne peut prendre en charge un certain nombre de traductions.
 
 Le fait que les informations nécessaires à l’accomplissement de la démarche soient traduites dispense la démarche elle-même de l’être&nbsp;:
 
@@ -48,4 +48,6 @@ Cf. Guideline on cross-border access to online procedure p. 10&nbsp;: [Guideline
     </p>
 </div>
 
-_Mis à jour le 02/02/22&nbsp;: ajout de l'encart sur service-public.fr._
+_Mis à jour&nbsp;:_ 
+* _le 02/02/22&nbsp;: Ajout de l'encart sur service-public.fr._
+* _le 17/08/22&nbsp;: Ajout de la phrase quant à la prise en charge des traductions par la Commission._

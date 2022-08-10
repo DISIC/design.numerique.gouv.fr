@@ -23,10 +23,10 @@ Le lien entre les procédures PNU et les Démarches de l’Observatoire a été 
 ## Documents (en anglais) de la Commission
 
 * La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.
-* [Explanatory document on scope of Annex II procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849089/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020-1.1.pdf)
-* [V02_Explanatory document on scope of Annex II procedures_Nov 2021_11_12.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/8489717/V02_Explanatory.document.on.scope.of.Annex.II.procedures_Nov.2021_11_12.docx) (ancienne version&nbsp;: [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849091/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf))
-* [SDG_APIs Technical Specifications.07.07.2021.v2.2.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856412/SDG_APIs.Technical.Specifications.07.07.2021.v2.2.docx)
-* [API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856415/API.URLs.08.07.2021.v2.3.docx)
+* Le document qui décrit le périmètre de chacune des procédures&nbsp;: [220801 Explanatory document on scope of Annex II procedures_V03.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/9242848/220801.Explanatory.document.on.scope.of.Annex.II.procedures_V03_July.2.docx) - les deux versions précédentes du même document&nbsp;: [V2 de novembre 2021 (format .docx)](https://github.com/DISIC/design.numerique.gouv.fr/files/8489717/V02_Explanatory.document.on.scope.of.Annex.II.procedures_Nov.2021_11_12.docx) et [V1 de septembre 2020 (format .pdf)](https://github.com/DISIC/design.numerique.gouv.fr/files/7849089/Explanatory.document.on.scope.of.Annex.II.procedures_Sept.2020-1.1.pdf) (avec la [comparaison entre V2 et V3 (format .docx à voir en mode correction)](https://github.com/DISIC/design.numerique.gouv.fr/files/9242893/220801.Comparison.between.V02.and.V03-Explanatory.document.on.scope.of.docx)).
+*  [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7849091/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf).
+* [SDG_APIs Technical Specifications.07.07.2021.v2.2.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856412/SDG_APIs.Technical.Specifications.07.07.2021.v2.2.docx).
+* [API URLs 08.07.2021.v2.3.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/7856415/API.URLs.08.07.2021.v2.3.docx).
 * [Metadata to be collected by the EC crawler.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/8641634/Metadata.to.be.collected.by.the.EC.crawler.pdf) - les métadonnées sont collectées au niveau de la saisie dans le portail (pas d’impact sur le code en principe).
 
 
@@ -46,3 +46,4 @@ _Mis à jour&nbsp;:_
 * _le 14/04/22&nbsp;: Ajout de la V2 du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» et du contact du coordonnateur national._
 * _le 06/05/22&nbsp;: Ajout du lien vers l’Acte d’exécution et du document sur les métadonnées collectées._
 * _le 12/07/22&nbsp;: Mise à jour du contact FranceConnect._
+* _le 17/08/22&nbsp;: Ajout de la V3 du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;»._

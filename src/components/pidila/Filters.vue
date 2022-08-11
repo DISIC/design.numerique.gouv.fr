@@ -90,7 +90,7 @@ export default {
       profileFilters: [],
       references: [
         "RGAA",
-        "Marque de l’État",
+        "Système de design de l‘État",
         "Règles Opquast",
         "Éco-conception",
         "Référentiel général d'interopérabilité",

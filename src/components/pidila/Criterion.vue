@@ -2,7 +2,9 @@
   <li class="dg-pidila__accordion">
     <section class="fr-accordion">
       <!-- Title -->
-      <h2 class="fr-accordion__title">
+      <h2 class="fr-accordion__title"
+         :id="`${criterion.node.id}`"
+       >
         <button
           class="fr-accordion__btn"
           aria-expanded="false"

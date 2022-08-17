@@ -310,6 +310,13 @@ li.fr-card {
   &-pidila {
     &__accordion {
       padding-bottom: 0;
+
+      div.dg-criterion {
+      ul li p {
+        margin-bottom: 0;
+      }        
+      }
+
     }
 
     &__criterion-id-container {

@@ -31,7 +31,7 @@
         </h1>
         <p class="fr-text--lead">
           Une liste unique des obligations et bonnes pratiques pour les sites
-          web publics : Système de design de l‘État,
+          web publics : Système de design de l’État,
           <abbr title="Référentiel Général d’Amélioration de l’Accessibilité"
             >RGAA</abbr
           >, Éco-conception, Loi informatique et liberté,

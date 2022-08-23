@@ -27,7 +27,7 @@
         <h3>Comment</h3>
         <p>Rendez-vous sur <g-link to="/commando-ux/">notre page dédiée au Commando UX</g-link>.</p>
       </section>
-      <section >
+<!--       <section >
         <h2>Notre guichet France Relance</h2>
         <p>Obtenez un financement ou des ressources pour concrétiser un projet d'améliorer de la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
         <h3>Qui</h3>
@@ -35,7 +35,7 @@
         <h3>Comment</h3>
         <p>Retrouvez toutes les informations sur <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" rel="noreferrer noopener" title="la page de notre guichet France Relance - Nouvelle fenêtre">la page de notre guichet France Relance</a>.</p>
       </section>
-      <section>
+ -->      <section>
         <h2>L'Observatoire</h2>
         <p>Suivez la qualité de vos démarches en ligne et récoltez les avis de vos usagers grâce au <a href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" target="_blank" rel="noreferrer noopener" title="bouton Je donne mon avis - Nouvelle fenêtre">bouton <i>Je donne mon avis</i></a>.</p>
         <h3>Qui</h3>

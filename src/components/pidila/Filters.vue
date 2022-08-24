@@ -90,10 +90,10 @@ export default {
       profileFilters: [],
       references: [
         "RGAA",
-        "Système de design de l‘État",
+        "Système de design de l'État",
         "Règles Opquast",
         "Éco-conception",
-        "Référentiel général d'interopérabilité",
+        "RGI",
         "Loi informatique et Liberté",
       ],
       referenceFilters: [],

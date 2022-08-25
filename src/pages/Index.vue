@@ -54,7 +54,7 @@
                 <h3 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--xl" to="/accompagnement/">Les experts</g-link>
                 </h3>
-                <p class="fr-tile__desc">Nos experts pour vous aider au quotidien 🌟</p>
+                <p class="fr-tile__desc">Nos experts pour vous aider au quotidien.</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/experts.svg" class="fr-responsive-img" aria-hidden="true">
@@ -67,7 +67,7 @@
                 <h3 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--xl" to="/commando-ux/">Le Commando UX</g-link>
                 </h3>
-                <p class="fr-tile__desc">Des designers déployés au sein de votre équipe 👍</p>
+                <p class="fr-tile__desc">Des designers déployés au sein de votre équipe.</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/commando.svg" class="fr-responsive-img" aria-hidden="true">
@@ -80,7 +80,7 @@
                 <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
                 </h3>
-                <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers 💬</p>
+                <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers.</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
@@ -93,7 +93,7 @@
                 <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L’Observatoire</a>
                 </h3>
-                <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe 🔎</p>
+                <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe.</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
@@ -166,7 +166,7 @@
         <div class="team">
           <img class="team__image" src="../assets/images/equipe-designgouv.jpg" alt="L’équipe DesignGouv sourire aux lèvres"/>
           <div class="team__description">
-            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises ☀️.</p>
+            <p>DesignGouv c’est avant tout une équipe, <strong>le pôle Design des services numériques</strong>, diverse et heureuse de contribuer aux côtés des administrations à l’amélioration du quotidien des Français et des Françaises.</p>
             <g-link to="/a-propos/" class="fr-link fr-fi-arrow-right-line fr-link--icon-right">Découvrir l’équipe et notre mission</g-link>
           </div>
         </div>

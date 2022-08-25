@@ -276,7 +276,7 @@ module.exports = {
       .use("vue-svg-inline-loader")
       .loader("vue-svg-inline-loader")
       .options({
-        removeAttributes: ["svg-inline"],
+        removeAttributes: ["svg-inline", "src", "alt"],
         addAttributes: {
           role: "img"
         }

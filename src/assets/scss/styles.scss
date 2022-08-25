@@ -1,14 +1,14 @@
 @import "vars";
 
 html {
-    overflow-x: auto;
+  overflow-x: auto;
 
-    @media only screen and (max-width: $sm-point) {
-      overflow-wrap: break-word;
-    }
+  @media only screen and (max-width: $sm-point) {
+    overflow-wrap: break-word;
+  }
 }
 
-main {
+body {
   overflow: hidden;
 }
 

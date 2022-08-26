@@ -52,7 +52,7 @@
 
   export default {
     metaInfo: {
-      title: "Nos offres d'accompagnement pour l'amélioration des services publics numériques",
+      title: "Nos offres d'accompagnement",
       meta: [{
         name: 'description',
         content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."

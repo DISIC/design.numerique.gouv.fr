@@ -14,7 +14,7 @@
         </ol>
       </nav>
 
-      <h1>Les rôles clés</span></h1>
+      <h1>Rôles clés</span></h1>
       <p class="fr-text--lead">Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
 
       <div class="fr-grid-row fr-grid-row--gutters">
@@ -57,14 +57,14 @@
 <script>
   export default {
     metaInfo: {
-        title: "Les rôles clés",
+        title: "Rôles clés",
         meta: [{
           name: "description",
           content: "Découvrez votre rôle pour la mise en oeuvre de l’accessibilité numérique."
         },
         {
           property: "og:title",
-          content: "Les rôles clés - DesignGouv"
+          content: "Rôles clés - DesignGouv"
         },
         {
           property: "og:description",
@@ -84,7 +84,7 @@
         },
         {
           name: "twitter:title",
-          content: "Les rôles clés - DesignGouv"
+          content: "Rôles clés - DesignGouv"
         },
         {
           name: "twitter:description",

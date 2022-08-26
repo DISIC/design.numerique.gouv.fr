@@ -2,6 +2,7 @@
 title: Les applications mobiles sont concernées par le RGAA
 slug: 2021-06-23-rgaa-mobile
 publishedDate: 2021-06-23
+updatedDate: 2022-08-24
 tags: ["RGAA", "accessibilité"]
 illustration: ./illustrations/2021-03-21-evenement-design.jpg
 description: Comme pour les sites web, les applications mobiles doivent se mettre en conformité avec le Référentiel général d’amélioration de l’accessibilité.

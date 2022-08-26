@@ -23,7 +23,7 @@
          <h3>État de conformité</h3>
          <p>Le site DesignGouv est <strong>totalement conforme</strong> avec le référentiel général d’amélioration de l’accessibilité (RGAA) version 4.</p>
          <h4>Résultats des tests</h4>
-				 <p>L’audit de conformité réalisé par DesignGouv révèle que 100% des critères du RGAA version 4 sont respectés ;</p>
+				 <p>L’audit de conformité réalisé par DesignGouv révèle que 100% des critères du RGAA version 4 sont respectés.</p>
 				 <h3>Établissement de cette déclaration d’accessibilité</h3>
 				 <p>Cette déclaration a été établie en septembre 2020.<br>Elle a été mise à jour :</p>
 				 <ul>
@@ -47,11 +47,11 @@
 				 </ul>
 				 <h4>Outils pour évaluer l’accessibilité</h4>
 				 <ul>
-					<li>Extension Chrome "Assistant RGAA" ;</li>
-					<li>Extension Chrome "Web Developer" ;</li>
-					<li>Extension Chrome "HeadingsMap" ;</li>
-					<li>Extension Chrome ArcToolkit ;</li>
-					<li>Application "Colour Contrast Analyser".</li>
+					<li>Extension Chrome <em>Assistant RGAA</em>  ;</li>
+					<li>Extension Chrome <em lang="en">Web Developer</em> ;</li>
+					<li>Extension Chrome <em lang="en">HeadingsMap</em> ;</li>
+					<li>Extension Chrome <em lang="en">ArcToolkit</em> ;</li>
+					<li>Application <em lang="en">Colour Contrast Analyser</em>.</li>
 				 </ul>
 				 <h4>Pages du site ayant fait l’objet de la vérification de conformité</h4>
          <ul>
@@ -79,7 +79,7 @@
          <ul>
            <li>un <a href="https://www.defenseurdesdroits.fr/nous-contacter" title="formulaire de contact - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">formulaire de contact</a></li>
            <li>la <a href="https://www.defenseurdesdroits.fr/fr/saisir/delegues" title="liste des délégués de votre région - nouvelle fenêtre"  target="_blank" rel="noreferrer noopener">liste des délégués de votre région</a> avec leurs informations de contact directs</li>
-           <li>un numéro de téléphone : le <a href="tel:+33500000000">+33 (0) 9 69 39 00 00</a> du lundi au vendredi de 8h30 à 19h30 (coût d’un appel local)</li>
+           <li>un numéro de téléphone : le <a href="tel:+33969390000">+33 (0) 9 69 39 00 00</a> du lundi au vendredi de 8h30 à 19h30 (coût d’un appel local)</li>
            <li>une adresse postale dans l’<a href="https://lannuaire.service-public.fr/autorites-independantes/autorite-administrative-independante_195381" title="annuaire de l’administration - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">annuaire de l’administration</a></li>
          </ul>
        </section>

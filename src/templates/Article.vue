@@ -25,7 +25,7 @@
           </li>
         </ul>
 
-        <p class="fr-text fr-text--sm">Date de publication : {{ $page.article.publishedDate }}</p>
+        <p class="fr-text fr-text--sm">Publié le {{ $page.article.publishedDate }}<strong  v-if="$page.article.updatedDate" > - Mis à jour le {{ $page.article.updatedDate }}</strong></p>
       </div>
 
       <g-image class="fr-responsive-img fr-mb-4w" :src="$page.article.illustration" alt=""/>
@@ -131,6 +131,7 @@ query Article ($id: ID!) {
   article: article (id: $id) {
     title
     publishedDate (format: "D MMMM YYYY", locale : "fr")
+    updatedDate (format: "D MMMM YYYY", locale : "fr")
     illustration (quality: 50)
     description
     content

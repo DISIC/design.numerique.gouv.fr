@@ -25,7 +25,7 @@
           </li>
         </ul>
 
-        <p class="fr-text fr-text--sm">Date de publication : {{ $page.article.publishedDate }}<strong  v-if="$page.article.updatedDate" > - Mis à jour le {{ $page.article.updatedDate }}</strong></p>
+        <p class="fr-text fr-text--sm">Publié le {{ $page.article.publishedDate }}<strong  v-if="$page.article.updatedDate" > - Mis à jour le {{ $page.article.updatedDate }}</strong></p>
       </div>
 
       <g-image class="fr-responsive-img fr-mb-4w" :src="$page.article.illustration" alt=""/>

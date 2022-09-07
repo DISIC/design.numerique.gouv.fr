@@ -1,6 +1,6 @@
 ---
 title: Présentation
-description: La Direction interministérielle du numérique (Dinum) suit, dans le cadre du Portail numérique unique (PNU) européen, la dématérialisation des procédures qui concernent les citoyens et les entreprises de l’Union européenne. Ce suivi se fait en lien avec l’Observatoire de la qualité des démarches en ligne&nbsp;; les demandes de la Commission européenne sont présentées ci-dessous.
+description: La Direction interministérielle du numérique (Dinum) suit, dans le cadre du Portail numérique unique (PNU) européen, la dématérialisation des procédures qui concernent les citoyens et les entreprises de l’Union européenne. Ce suivi se fait en lien avec l’Observatoire de la qualité des démarches en ligne. Les demandes de la Commission européenne sont présentées ci-dessous (les tuiles sont cliquables).
 order: 0
 ---
 

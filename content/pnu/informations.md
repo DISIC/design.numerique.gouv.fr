@@ -44,10 +44,11 @@ Suggestion de traduction (à partir de la proposition de Deepl.com)&nbsp;:
 Cf. Guideline on cross-border access to online procedure p. 10&nbsp;: [Guidelines on Cross-Border Access to online procedures_September 2020.pdf](https://github.com/DISIC/design.numerique.gouv.fr/files/7848994/Guidelines.on.Cross-Border.Access.to.online.procedures_September.2020.pdf)
 
 <div class="fr-highlight fr-mb-4w">
-    <p>Le site service-public.fr contient de nombreuses fiches d'informations, traduites en anglais, sur les démarches concernées. La Dila (Direction de l'information légale et administrative), en charge du site, peut mettre ces fiches à jour en incluant les exigences du PNU pour peu que les ministères concernés lui indiquent les modifications à apporter. Les liens vers les fiches devront être présents sur les sites des démarches avant authentification. La personne à contacter est Léa Noé&nbsp;: lea.noe(a)dila.gouv.fr.
+    <p>Le site service-public.fr contient de nombreuses fiches d'informations, traduites en anglais, sur les démarches concernées. La Dila (Direction de l'information légale et administrative), en charge du site, peut mettre ces fiches à jour en incluant les exigences du PNU pour peu que les ministères concernés lui indiquent les modifications à apporter. Les liens vers les fiches devront être présents sur les sites des démarches avant authentification. Pour être mis en contact avec le service compétent de la Dila, s'adresser à Anthony Brunelli à la Dinum qui fera le nécessaire&nbsp;: anthony.brunelli(a)modernisation.gouv.fr.
     </p>
 </div>
 
 _Mis à jour&nbsp;:_ 
 * _le 02/02/22&nbsp;: Ajout de l'encart sur service-public.fr._
 * _le 17/08/22&nbsp;: Ajout de la phrase quant à la prise en charge des traductions par la Commission._
+* _le 07/09/22&nbsp;: Changement du contact pour la mise à jour des fiches de la Dila._

@@ -23,10 +23,7 @@ Il ne sera question ici ni du pilier I (pages d’information), suivi par la Dir
 
 Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais)  : [220801 Explanatory document on scope of Annex II procedures_V03.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/9242984/220801.Explanatory.document.on.scope.of.Annex.II.procedures_V03.docx)
 
-<div class="fr-highlight fr-mb-4w">
-    <p>Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (<span lang="en">Once Only Principle</span>), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont l’Acte d’exécution est encore en cours de discussion ; par ailleurs, il est porté par d’autres acteurs. Par conséquent, il ne sera pas abordé en tant que tel ici.
-    </p>
-</div> 
+Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (<span lang="en">Once Only Principle</span>), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont le [Règlement d’exécution a été publié au JO UE le 6 septembre 2022](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R1463&qid=1662474257036) (pour une entrée en application le 12 décembre 2023). Il est également porté par d’autres acteurs - par conséquent, il ne sera pas abordé en tant que tel ici.
 
 Par souci d’optimisation des ressources et de cohérence avec nos autres missions, la décision a été prise de suivre les démarches françaises concernées via l’[Observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr/).
 
@@ -54,3 +51,4 @@ _Mis à jour&nbsp;:_
 * _le 14/04/22&nbsp;: Nouvelle version du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» (passage de la V1 à la V2)._
 * _le 06/05/22&nbsp;: Ajout du paragraphe concernant l’évolution de la position de la Commission sur les statistiques et du lien vers l’acte d’exécution._
 * _le 17/08/22&nbsp;: Nouvelle version du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» (passage de la V2 à la V3)._
+* _le 07/09/22&nbsp;: Ajout des éléments relatif à la publication du Règlement OOTS._

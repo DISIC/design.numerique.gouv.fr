@@ -18,7 +18,7 @@ Le lien entre les procédures PNU et les Démarches de l’Observatoire a été 
 * [Règlement avec ancre sur le Pilier II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1695-1-1)
 * [Règlement avec ancre sur le «&nbsp;Dites-le nous une fois&nbsp;»](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e1761-1-1)
 * [Acte d’exécution relatif à la collecte et à l’échange de statistiques (...)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32020R1121&from=FR#d1e413-3-1)
-* [Règlement d'exécution relatif à l'échange transfrontière automatisé de justificatifs et l’application du principe «&nbsp;une fois pour toutes&nbsp;»](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022R1463&from=EN), communément appelé «&nbsp:Règlement OOTS&nbsp;» (pour Once Only Technical System).
+* [Règlement d'exécution (concernant) l'échange transfrontière automatisé de justificatifs et l’application du principe «&nbsp;une fois pour toutes&nbsp;»](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022R1463&from=EN), communément appelé «&nbsp:Règlement OOTS&nbsp;» (pour Once Only Technical System).
 
 
 ## Documents (en anglais) de la Commission

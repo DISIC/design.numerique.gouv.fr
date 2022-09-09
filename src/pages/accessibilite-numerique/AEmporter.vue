@@ -35,7 +35,7 @@
       <p>Le <g-link to="/accessibilite-numerique/jeu-de-oaa">jeu de l'organisation de l’amélioration de l’accessibilité (OAA)</g-link> vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       <h2>Se faire aider</h2>
-      <p>Le <g-link to="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" title="guichet France Relance - nouvelle fenêtre">guichet France Relance</g-link> vous permet de financer l’amélioration de la qualité de vos démarches.</p>
+      <p>Si votre démarche fait partie de l’<a href="" title="observatoire de la qualité des démarches en ligne - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">observatoire de la qualité des démarches en ligne</a>, vous pouvez consulter <g-link to="/accompagnement/">nos offres d’accompagnment</g-link>.</p>
       <p>Vous pouvez également bénéficier de <a href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite" title="financement - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">financement</a> de la part du <abbr title="Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique">FIPHFP</abbr> pour la <strong>formation</strong> de vos agents ou la <strong>mise en accessibilité</strong> de vos interfaces.</p>
       <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à un <g-link to="/accessibilite-numerique/prestations-accessibilite-numerique">prestataire</g-link> pour de l’<strong>accompagnement</strong>, de la <strong>formation</strong>, des <strong>audits</strong> RGAA, des tests avec des utilisateurs en situation de handicap, la constitution d’un schéma pluriannuel de mise en accessiblité, etc.</p>
 

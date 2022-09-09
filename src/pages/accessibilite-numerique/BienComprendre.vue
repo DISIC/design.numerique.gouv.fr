@@ -57,7 +57,7 @@
       <div class="fr-card__body">                
         <div class="fr-card__content">                   
            <h2>Avoir la réf’</h2>                    
-           <p class="fr-card__desc fr-text--lg">Le site <a href="https://accessibilite.numerique.gouv.fr"><strong>accessibilite.numerique.gouv.fr</strong></a> du référentiel général d’amélioration de l’accessibilité.</p>                
+           <p class="fr-card__desc fr-text--lg">Le <g-link to="/accessibilite-numerique/RGAA/"><strong>RGAA</strong></g-link> : référentiel général d’amélioration de l’accessibilité définit des régles de mise en oeuvre et une méthode de vérification.</p>                
         </div>
       </div>
     </div>

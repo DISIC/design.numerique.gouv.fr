@@ -24,7 +24,7 @@
       <div class="fr-card__body">                
         <div class="fr-card__content">                   
            <h2>Apprendre</h2>                    
-           <p class="fr-card__desc fr-text--lg">Découvrir <g-link to="/formations/accessibilite/introduction-accessibilite-numerique/" ><strong>les bases</strong></g-link> de l’accessibilité numérique</p>                
+           <p class="fr-card__desc fr-text--lg">Découvrir <g-link to="/formations/accessibilite/introduction-accessibilite-numerique/" ><strong>les bases</strong></g-link> de l’accessibilité numérique.</p>                
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
       <div class="fr-card__body">                
         <div class="fr-card__content">                   
            <h2>S’organiser</h2>                    
-           <p class="fr-card__desc fr-text--lg">Le <g-link to="/accessibilite-numerique/jeu-de-oaa/">jeu de l’OAA</g-link> permet de se poser <strong>les bonnes questions au bon moment</strong> dans la mise en accessibilité de votre service numérique</p>                
+           <p class="fr-card__desc fr-text--lg">Se poser <strong>les bonnes questions au bon moment</strong> dans la mise en accessibilité de votre service numérique grâce au <g-link to="/accessibilite-numerique/jeu-de-oaa/">jeu de l’OAA</g-link></p>                
         </div>
       </div>
     </div>
@@ -46,7 +46,7 @@
       <div class="fr-card__body">                
         <div class="fr-card__content">                   
            <h2>Évaluer</h2>                    
-           <p class="fr-card__desc fr-text--lg">Le <g-link to="/outils/diagnostic-flash/"><strong>diagnostic flash</strong></g-link> permet d’estimer la qualité, l’accessibilité et le design d’un site sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>                
+           <p class="fr-card__desc fr-text--lg">Estimer la qualité, l’accessibilité et le design de votre site en peu de temps avec le <g-link to="/outils/diagnostic-flash/"><strong>diagnostic flash</strong></g-link></p>                
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@
       <div class="fr-card__body">                
         <div class="fr-card__content">                   
            <h2>Avoir la réf’</h2>                    
-           <p class="fr-card__desc fr-text--lg">Le <g-link to="/accessibilite-numerique/RGAA/"><strong>RGAA</strong></g-link> : référentiel général d’amélioration de l’accessibilité définit des régles de mise en oeuvre et une méthode de vérification.</p>                
+           <p class="fr-card__desc fr-text--lg">Les <strong>règles</strong> de mise en &oelig;uvre et la <strong>méthode</strong> de vérification sont définies dans le <g-link to="/accessibilite-numerique/RGAA/">référentiel général d’amélioration de l’accessibilité</g-link>.</p>                
         </div>
       </div>
     </div>

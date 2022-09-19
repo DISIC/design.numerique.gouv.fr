@@ -182,10 +182,10 @@
             <input class="fr-input" type="text" id="organisme" v-model="form.organisme" required>
           </div>
           <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
-              <label class="fr-label" for="demarche">Intitulé dans l'Observatoire de la démarche sur laquelle vous travaillez
+              <label class="fr-label" for="demarche">Démarche de l'Observatoire sur laquelle vous travaillez (si c'est le cas)
                 <span class="fr-hint-text"><a href="https://observatoire.numerique.gouv.fr/observatoire/" target="_blank" title="Accéder à la liste des démarches de l'Observatoire - nouvelle fenêtre">Accéder à la liste des démarches de l'Observatoire</a></span>
               </label>
-              <input class="fr-input" type="text" id="demarche" v-model="form.demarche" required>
+              <input class="fr-input" type="text" id="demarche" v-model="form.demarche">
           </div>
           <div v-if="$page.cours.type == 'Atelier'" class="fr-form-group">
               <fieldset class="fr-fieldset">

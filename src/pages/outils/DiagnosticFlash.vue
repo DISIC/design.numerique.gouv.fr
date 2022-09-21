@@ -31,7 +31,7 @@
 
       <div class="quick-test">
         <section :class="'cat'+cat.node.id" v-for="cat in $page.allDiagFlashCat.edges"  >
-            <h2> {{ cat.node.title }}</h2>
+            <h2 class="fr-my-6w"> {{ cat.node.title }}</h2>
             <ul class="fr-accordions-group">
               <li  class="fr-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
                 <h3 class="fr-accordion__title"><span class="numero">{{ criterion.node.id }}</span>

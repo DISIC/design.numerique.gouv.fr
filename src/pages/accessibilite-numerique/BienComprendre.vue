@@ -78,6 +78,10 @@
         content: "Apprendre, s’organiser, évaluer et comprendre."
       },
       {
+        name: 'robots',
+        content: "noindex, nofollow"
+      },
+      {
         property: 'og:title',
         content: "Bien comprendre l’accessibilité numérique - DesignGouv"
       },

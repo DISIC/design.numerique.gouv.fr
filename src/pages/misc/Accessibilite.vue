@@ -15,7 +15,7 @@
 
       <h1>Accessibilité</h1>
 
-      <section>
+      <section class="dg-contains-list">
         <h2>Déclaration d’accessibilité</h2>
          <p>
            Cette déclaration d’accessibilité s’applique au site DesignGouv (design.numerique.gouv.fr)

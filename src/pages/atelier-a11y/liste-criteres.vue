@@ -31,7 +31,7 @@
         <li  class="fr-accordion">
           <h3 class="fr-accordion__title"><span class="numero">1</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="1">
-               Le site est consultable que que soit la taille et l'orientation de l'écran
+               Le site est consultable quelle que soit la taille et l'orientation de l'écran
             </button>
           </h3>
           <div class="fr-collapse" :id="1">

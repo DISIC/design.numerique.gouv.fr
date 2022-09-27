@@ -145,7 +145,7 @@
         <li  class="fr-accordion">
           <h3 class="fr-accordion__title"><span class="numero">7</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="7">
-               le style du focus n'est ni supprimé ni dégradé
+               Le style du focus n'est ni supprimé ni dégradé
             </button>
           </h3>
           <div class="fr-collapse" :id="7">

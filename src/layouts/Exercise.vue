@@ -56,7 +56,7 @@
             <a class="fr-nav__link" href="/atelier-a11y/aide/">Aide</a>
           </li>
           <li class="fr-nav__item">
-            <a class="fr-nav__link" href="/atelier-a11y/liste-42-criteres/">Liste des 42 critères</a>
+            <a class="fr-nav__link" href="/atelier-a11y/liste-criteres/">Liste des critères</a>
           </li>
         </ul>
       </nav>
@@ -125,8 +125,8 @@ p.fr-logo span {
   text-transform: capitalize;
 }
 .fr-header__service a[href] { color: #000; }
-#main a[href]:not(.fr-btn) { 
-  text-decoration: none; 
+#main a[href]:not(.fr-btn) {
+  text-decoration: none;
   box-shadow: none;
   color: var(--text-action-high-blue-france);
   background: none;
@@ -178,4 +178,3 @@ p.fr-logo span {
     }
   }
 </script>
-

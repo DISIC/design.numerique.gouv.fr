@@ -30,7 +30,7 @@
       <ul class="fr-accordions-group">
         <li  class="fr-accordion">
           <h3 class="fr-accordion__title"><span class="numero">1</span>
-            <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="1">Le site est consultable quelle que soit la taille et l’orientation de l’écran</button>
+            <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="1">Le site est consultable quelles que soient la taille et l’orientation de l’écran</button>
           </h3>
           <div class="fr-collapse" :id="1">
             <div class="fr-accordion__inner">
@@ -341,7 +341,7 @@
               <h4>Pourquoi ?</h4>
               <p>Les contenus clignotants ou en mouvement peuvent perturber l’attention des personnes naviguant votre site. Il est important de laisser à l’utilisateur le contrôle des animations.</p>
               <h4>Comment contrôler ?</h4>
-              <p>S’assurer que chaque animation (gif, carrousel, etc. est accompagnée d’un bouton stop ou pause.</p>
+              <p>S’assurer que chaque animation (gif, carrousel, etc.) est accompagnée d’un bouton stop ou pause.</p>
             </div>
           </div>
         </li>
@@ -389,6 +389,11 @@ export default {
 
   .fr-accordion .fr-accordion__btn {
     padding: .75rem 0.5rem .75rem 3rem;
+  }
+  code {
+    border: 1px solid var(--border-default-purple-glycine);
+    color: var(--border-default-purple-glycine);
+    padding:0.1rem;
   }
   span.numero {
     padding:0.25rem;

@@ -92,7 +92,7 @@
               <h4>Pourquoi ?</h4>
               <p>Le moteur de recherche, le plan du site et le menu sont les moyens fondamentaux de repérage et d’accès à l’information. Il est important pour l’internaute de pouvoir se repérer dans l’arborescence du site.</p>
               <h4>Comment contrôler ?</h4>
-              <p>Vérifier sur chacune des pages que deux systèmes de navigation (parmi les trois suivants : moteur de recherche, un menu de navigation et plan du site) sont bien présents et positionnés au même endroit.</p>
+              <p>Vérifier sur chacune des pages que deux systèmes de navigation (parmi les trois suivants : moteur de recherche, menu de navigation et plan du site) sont bien présents et positionnés au même endroit.</p>
             </div>
           </div>
         </li>
@@ -130,15 +130,15 @@
          <li  class="fr-accordion">
           <h3 class="fr-accordion__title"><span class="numero">7</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="6">
-               Le contenu reste lisible lorsque la taille de caractères est portée à 200% de la taille par défaut dans le navigateur
+               Le contenu reste lisible lorsque la taille de caractères est portée à 200 % de la taille par défaut dans le navigateur
             </button>
           </h3>
           <div class="fr-collapse" :id="6">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>Les usagers nécessitant de grossir les caractères pour accéder au contenu d’un site ou d’une démarche ne doivent pas être ralentis ou bloqués par du texte disparaissant car hors du cadre ou caché, ou bien difficilement lisible car superposé à d’autres éléments.</p>
+              <p>Les usagers nécessitant de grossir les caractères pour accéder au contenu d’un site ou d’une démarche ne doivent pas être ralentis ou bloqués par du texte tronqué ou disparaissant car hors du cadre ou caché, ou bien difficilement lisible car superposé à d’autres éléments.</p>
               <h4>Comment contrôler ?</h4>
-              <p>Contrôler que le contenu reste clair lorsque la taille de caractères est portée à 200% de la taille par défaut dans le navigateur. Pour effectuer ce test, il faut augmenter la taille des caractères jusqu’à 200% :</p>
+              <p>Contrôler que le contenu reste clair lorsque la taille de caractères est portée à 200 % de la taille par défaut dans le navigateur. Pour effectuer ce test, il faut augmenter la taille des caractères jusqu’à 200 % :</p>
               <ul><li>soit en effectuant la combinaison de touches ctrl + + six fois ou ctrl + molette ;</li>
               <li>soit en modifiant les préférences du navigateur.</li></ul>
             </div>
@@ -153,7 +153,7 @@
           <div class="fr-collapse" :id="7">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>Une information véhiculée uniquement par la couleur nuit au confort de navigation (par exemple si les liens sont en bleu foncé dans du texte en noir) et exclu de fait les usagers malvoyants. À titre d’exemple, 8% des hommes et 0,5% des femmes sont atteints de daltonisme.</p>
+              <p>Une information véhiculée uniquement par la couleur nuit au confort de navigation (par exemple si les liens sont en bleu foncé dans du texte en noir) et exclut de fait les usagers malvoyants. À titre d’exemple, 8 % des hommes et 0,5 % des femmes sont atteints de daltonisme.</p>
               <h4>Comment contrôler ?</h4>
               <p>Contrôler qu’aucun élément n’est compréhensible qu’en fonction de sa couleur (par exemple pas de texte telle que « la saisie des champs en rouge doit être corrigée »). Les liens sont visibles autrement que par une couleur distincte et sont soulignés. </p>
             </div>
@@ -170,7 +170,7 @@
               <h4>Comment contrôler ?</h4>
               <p>Contrôler que :</p>
               <ul>
-              <li>Les vidéos sont sous-titrées et proposent une transcription et que les fichiers audio ont une transcription en alternative; le lien vers la transcription doit être adjacent au contenu vidéo ou audio ;</li>
+              <li>Les vidéos sont sous-titrées et proposent une transcription et que les fichiers audio ont une transcription en alternative ; le lien vers la transcription doit être adjacent au contenu vidéo ou audio ;</li>
               <li>Les images porteuses d’informations – c’est-à-dire les images qui ne sont pas purement décoratives – ont une alternative textuelle : dans le code source, rechercher img et vérifier que chacune de ces balises comporte un attribut <code>alt="ici le texte alternatif"</code> (À noter : si l’image est purement décorative, l’attribut doit être présent et vide <code>alt=""</code>) ;</li>
               <li>Dans le cas d’images complexes ou d’infographies, la transcription textuelle doit être adjacente et l’attribut alt doit être présent et vide <code>alt=""</code>.</li></ul>
               <p>La transcription textuelle et le texte alternatif doivent être pertinents c’est-à-dire transmettre les informations contenues dans l’image et non leur description factuelle.</p>
@@ -186,7 +186,7 @@
           <div class="fr-collapse" :id="9">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>Chaque service et métier ont leurs propres codes, leurs sigles, voire leur jargon. Il est donc essentiel de faire relire les contenus par des personnes extérieures et de se référer à une charte éditoriale pour gérer la qualité des contenus. Un vocabulaire simple et précis mettra l’usager en confiance.</p>
+              <p>Chaque service et métier ont leurs propres codes, leurs abréviations, voire leur jargon. Il est donc essentiel de faire relire les contenus par des personnes extérieures et de se référer à une charte éditoriale pour gérer la qualité des contenus. Un vocabulaire simple et précis mettra l’usager en confiance.</p>
               <h4>Comment contrôler ?</h4>
               <p>Avec des personnes extérieures aux services, répondre aux questions suivantes :   </p>
               <ul>
@@ -195,7 +195,7 @@
               <li>Les questions posées sont-elles logiques, justifiées et compréhensibles ?</li>
               <li>Reste-t-il des pages techniques en anglais avec des termes informatiques (par exemple, la page « Erreur 404 » en tapant après l’URL "/ridingbikeissocool" ) ?</li>
               <li>Les messages d’erreur ou de confirmation sont-ils écrits en français ? Sont-ils suffisamment clairs et précis ?</li>
-              <li>Les sigles sont-ils développés la première fois qu’ils sont utilisés sur chaque page (éventuellement via une infobulle ou via un renvoi à un glossaire)?</li>
+              <li>Les abréviations sont-elles développées la première fois qu’elles sont utilisées sur chaque page (éventuellement via une infobulle ou via un renvoi à un glossaire)?</li>
               </ul>
            
             </div>

@@ -70,19 +70,34 @@
         </li>
         <li  class="fr-accordion">
           <h3 class="fr-accordion__title"><span class="numero">3</span>
-            <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="3">Deux systèmes de navigation sont présents (parmi les trois suivants : moteur de recherche, un menu de navigation et plan du site) et accessibles de manière identique sur chaque page</button>
+            <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="16">
+               Le soulignement est réservé aux liens
+            </button>
+          </h3>
+          <div class="fr-collapse" :id="16">
+            <div class="fr-accordion__inner">
+              <h4>Pourquoi ?</h4>
+              <p>Réserver le soulignement aux liens facilite leur identification et évite à l’utilisateur des clics inutiles sur des contenus soulignés perçus comme des hyperliens.</p>
+              <h4>Comment contrôler ?</h4>
+              <p>Vérifier que seuls les liens sont soulignés.</p>
+            </div>
+          </div>
+        </li>
+        <li  class="fr-accordion">
+          <h3 class="fr-accordion__title"><span class="numero">4</span>
+            <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="3">Deux systèmes de navigation sont présents et accessibles de manière identique sur chaque page</button>
           </h3>
           <div class="fr-collapse" :id="3">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
               <p>Le moteur de recherche, le plan du site et le menu sont les moyens fondamentaux de repérage et d’accès à l’information. Il est important pour l’internaute de pouvoir se repérer dans l’arborescence du site.</p>
               <h4>Comment contrôler ?</h4>
-              <p>Vérifier sur chacune des pages que deux systèmes de navigation sont bien présents et positionnés au même endroit.</p>
+              <p>Vérifier sur chacune des pages que deux systèmes de navigation (parmi les trois suivants : moteur de recherche, un menu de navigation et plan du site) sont bien présents et positionnés au même endroit.</p>
             </div>
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">4</span>
+          <h3 class="fr-accordion__title"><span class="numero">5</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="4">Le libellé de chaque lien permet d’en comprendre la destination</button>
           </h3>
           <div class="fr-collapse" :id="4">
@@ -91,12 +106,12 @@
               <p>Il s’agit de permettre aux internautes d’identifier clairement la destination du lien. Un lien "Lire la suite" ne donne aucune indication sur sa destination.</p>
               <h4>Comment contrôler ?</h4>
               <p>Vérifier que le libellé du lien désigne explicitement la nature ou la fonction du lien. 
-              "Critère 3.2 du RGAA" et "Télécharger le RGAA (format pdf - 3,4Mo)"  sont des exemples de liens explicites.</p>
+              "Critère 3.2 du RGAA" et "Télécharger le RGAA (format pdf – 3,4Mo)"  sont des exemples de liens explicites.</p>
             </div>
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">5</span>
+          <h3 class="fr-accordion__title"><span class="numero">6</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="5">Le site propose au moins deux moyens de contact différents</button>
           </h3>
           <div class="fr-collapse" :id="5">
@@ -113,7 +128,7 @@
       <h2 class="fr-my-6w">Langage & interface</h2>
       <ul class="fr-accordions-group">
          <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">6</span>
+          <h3 class="fr-accordion__title"><span class="numero">7</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="6">
                Le contenu reste lisible lorsque la taille de caractères est portée à 200% de la taille par défaut dans le navigateur
             </button>
@@ -130,7 +145,7 @@
           </div>
         </li>
        <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">7</span>
+          <h3 class="fr-accordion__title"><span class="numero">8</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="7">
                Aucune information n’est véhiculée uniquement par la couleur
             </button>
@@ -145,25 +160,25 @@
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">8</span>
+          <h3 class="fr-accordion__title"><span class="numero">9</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="8">Les images porteuses d’informations, les infographies, les vidéos et les fichiers audio ont une alternative textuelle</button>
           </h3>
           <div class="fr-collapse" :id="8">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>Les alternatives textuelles permettent par exemple aux personnes aveugles d’accéder aux contenus via un lecteur d’écran ou une page braille.</p>
+              <p>Les alternatives textuelles permettent par exemple aux personnes aveugles d’accéder aux contenus via un lecteur d’écran ou une plage braille.</p>
               <h4>Comment contrôler ?</h4>
               <p>Contrôler que :</p>
               <ul>
               <li>Les vidéos sont sous-titrées et proposent une transcription et que les fichiers audio ont une transcription en alternative; le lien vers la transcription doit être adjacent au contenu vidéo ou audio ;</li>
-              <li>Les images porteuses d’informations - c’est-à-dire les images qui ne sont pas purement décoratives - ont une alternative textuelle : dans le code source, rechercher img et vérifier que chacune de ces balises comporte un attribut <code>alt="ici le texte alternatif"</code> (À noter : si l’image est purement décorative, l’attribut doit être présent et vide <code>alt=""</code>) ;</li>
+              <li>Les images porteuses d’informations – c’est-à-dire les images qui ne sont pas purement décoratives – ont une alternative textuelle : dans le code source, rechercher img et vérifier que chacune de ces balises comporte un attribut <code>alt="ici le texte alternatif"</code> (À noter : si l’image est purement décorative, l’attribut doit être présent et vide <code>alt=""</code>) ;</li>
               <li>Dans le cas d’images complexes ou d’infographies, la transcription textuelle doit être adjacente et l’attribut alt doit être présent et vide <code>alt=""</code>.</li></ul>
               <p>La transcription textuelle et le texte alternatif doivent être pertinents c’est-à-dire transmettre les informations contenues dans l’image et non leur description factuelle.</p>
             </div>
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">9</span>
+          <h3 class="fr-accordion__title"><span class="numero">10</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="9">
                Les textes sont simples et compréhensibles
             </button>
@@ -187,7 +202,7 @@
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">10</span>
+          <h3 class="fr-accordion__title"><span class="numero">11</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="10">
                Les informations relatives aux fichiers proposés en téléchargement sont indiquées
             </button>
@@ -209,7 +224,7 @@
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">11</span>
+          <h3 class="fr-accordion__title"><span class="numero">12</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="11">
                Les fichiers bureautiques téléchargeables sur le site sont proposés dans un format ouvert et sont accessibles
             </button>
@@ -234,7 +249,7 @@
       <h2 class="fr-my-6w">Présentation de l’information</h2>
       <ul class="fr-accordions-group">
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">12</span>
+          <h3 class="fr-accordion__title"><span class="numero">13</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="12">
                Le titre de la page est unique et pertinent
             </button>
@@ -259,7 +274,7 @@
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">13</span>
+          <h3 class="fr-accordion__title"><span class="numero">14</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="13">
                Les textes et les éléments graphiques porteurs d’informations sont présentés avec un contraste suffisant par rapport à leur arrière-plan
             </button>
@@ -267,8 +282,8 @@
           <div class="fr-collapse" :id="13">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>Afin de permettre une bonne lisibilité des contenus et de limiter la charge mentale lors de la consultation, le ratio de contraste entre le texte - y compris du texte sous forme d’image - et son arrière-plan doit être d’au moins 4,5:1.</p>
-              <p>Pour les textes en gras ou agrandis (taille restituée supérieure ou égale à 24px, équivalent à de l’Arial 18), ce ratio doit être d’au moins 3:1.</p>
+              <p>Afin de permettre une bonne lisibilité des contenus et de limiter la charge mentale lors de la consultation, le ratio de contraste entre le texte – y compris du texte sous forme d’image – et son arrière-plan doit être d’au moins 4,5:1.</p>
+              <p>Pour les textes en gras ou agrandis (taille restituée supérieure ou égale à 24px, équivalente à de l’Arial 18), ce ratio doit être d’au moins 3:1.</p>
               <p>Dans le cas de graphique, le contraste entre chaque élément (courbe, bâton, part de camembert, etc.) doit être également suffisant.</p>
               <h4>Comment contrôler ?</h4>
               <p>Contrôler que les contrastes sont respectés à l’aide, par exemple, de l’extension de navigateur Contrast Checker (symbolisée par une roue multicolore).</p>
@@ -276,14 +291,14 @@
           </div>
         </li>
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">14</span>
+          <h3 class="fr-accordion__title"><span class="numero">15</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="14">Chaque champ de formulaire est clairement associé à son intitulé. Les champs et les formats obligatoires sont indiqués
 </button>
           </h3>
           <div class="fr-collapse" :id="14">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>L’association - visuellement et dans le code - entre l’intitulé, le champ concerné et les informations de saisie (type de donnée demandé, format, champ obligatoire, etc.) évite l’agacement et l’incompréhension des utilisateurs. Elle leur permet d’identifier sans ambiguïté les champs de formulaire et la nature des informations à saisir, et ainsi de prévenir les erreurs. Elle améliore l’accessibilité en permettant l’utilisation des aides techniques (les lecteurs d’écran par exemple).</p>
+              <p>L’association – visuellement et dans le code – entre l’intitulé, le champ concerné et les informations de saisie (type de donnée demandé, format, champ obligatoire, etc.) évite l’agacement et l’incompréhension des utilisateurs. Elle leur permet d’identifier sans ambiguïté les champs de formulaire et la nature des informations à saisir, et ainsi de prévenir les erreurs. Elle améliore l’accessibilité en permettant l’utilisation des aides techniques (les lecteurs d’écran par exemple).</p>
               <h4>Comment contrôler ?</h4>
               <p>Pour tout champ de saisie, notamment dans les formulaires, contrôler que :</p>
               <ul>
@@ -298,7 +313,7 @@
         </li>
 
         <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">15</span>
+          <h3 class="fr-accordion__title"><span class="numero">16</span>
             <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="15">
                La hiérarchie des titres est complète et cohérente
             </button>
@@ -306,27 +321,11 @@
           <div class="fr-collapse" :id="15">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>La mise en page - permet avant tout la navigation sur la page pour les utilisateurs aveugles ayant un lecteur d’écran ou un clavier braille : ils ont ainsi connaissance de la structuration de la page et peuvent naviguer de titre en titre sans être obligés de lire l’ensemble du contenu.</p>
+              <p>La mise en page – permet avant tout la navigation sur la page pour les utilisateurs aveugles ayant un lecteur d’écran ou une plage braille : ils ont ainsi connaissance de la structuration de la page et peuvent naviguer de titre en titre sans être obligés de lire l’ensemble du contenu.</p>
               <p>Ce principe est d’ailleurs valable pour les outils bureautiques de type Document Writer ou Word ou encore PDF : il est indispensable d’utiliser les "styles" et non pas une mise en forme du texte.</p>
               <p>De manière plus générale, une bonne hiérarchisation permet une meilleure visualisation et permet l’extraction du plan de chaque page aux outils dédiés (dont ceux d’indexation, avec par conséquent un meilleur référencement).</p>
               <h4>Comment contrôler ?</h4>
               <p>Lancer l’extension headingsMap (symbolisée par le pictogramme <strong>[h/]</strong>). Vérifier qu’il y a au moins un titre de niveau 1 et que l’arbre des titres est logique et cohérent (il ne doit pas y avoir de "trous" : un titre de niveau <code>h2</code> ne doit pas être suivi d’un titre <code>h4</code>, <code>h5</code> ou <code>h6</code>, par exemple).</p>
-            </div>
-          </div>
-        </li>
-
-        <li  class="fr-accordion">
-          <h3 class="fr-accordion__title"><span class="numero">16</span>
-            <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="16">
-               Le soulignement est réservé aux liens
-            </button>
-          </h3>
-          <div class="fr-collapse" :id="16">
-            <div class="fr-accordion__inner">
-              <h4>Pourquoi ?</h4>
-              <p>Réserver le soulignement aux liens facilite leur identification et évite à l’utilisateur des clics inutiles sur des contenus soulignés perçus comme des hyperliens.</p>
-              <h4>Comment contrôler ?</h4>
-              <p>Vérifier que seuls les liens sont soulignés.</p>
             </div>
           </div>
         </li>

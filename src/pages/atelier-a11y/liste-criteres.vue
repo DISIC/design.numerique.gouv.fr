@@ -117,7 +117,7 @@
           <div class="fr-collapse" :id="5">
             <div class="fr-accordion__inner">
               <h4>Pourquoi ?</h4>
-              <p>Le fait de proposer au moins deux moyens de contact différents permet de favoriser les retours d’information de la part des utilisateurs, tout en évitant de mettre ce dernier en difficulté en cas d’indisponibilité ou de problèmes d’utilisation de l’un des moyens de contact.</p>
+              <p>Le fait de proposer au moins deux moyens de contact différents permet de favoriser les retours d’information de la part de l’utilisateur, tout en évitant de mettre ce dernier en difficulté en cas d’indisponibilité ou de problèmes d’utilisation de l’un des moyens de contact.</p>
               <h4>Comment contrôler ?</h4>
               <p>Vérifier que l’information "contact" permettant d’échanger avec un agent (ce qui exclut par exemple les tchat bots) est facile à trouver et qu’au moins deux alternatives existent (téléphone, mail, formulaire de contact, tchat, guichet physique local).</p>
             </div>

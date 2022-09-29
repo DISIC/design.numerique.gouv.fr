@@ -45,7 +45,7 @@
           <p>- À des fins statistiques plus ou moins pertinentes.</p>
           <h2>Comment déclarer sa bicyclette ?</h2>
           <p
-            >Vous pouvez télécharger le formulaire joint dans le bas de la page,
+            >Vous pouvez <a href="/assets/doc/xyz.doc" download>télécharger</a> le formulaire,
             l’imprimer, le remplir et l’envoyer avec les pièces jointes
             demandées à la préfecture de votre région ainsi qu’à la personne
             chargée de la bonne mobilité de votre mairie.</p

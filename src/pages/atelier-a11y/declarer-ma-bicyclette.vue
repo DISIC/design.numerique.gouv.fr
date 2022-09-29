@@ -210,7 +210,7 @@
             </div>
             <div
               id="btn"
-              class="fr-btn fr-fi-checkbox-circle-line fr-btn--icon-left"
+              class="fr-btn"
             >
               Valider
             </div>

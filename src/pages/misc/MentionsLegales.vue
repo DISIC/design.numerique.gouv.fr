@@ -34,9 +34,9 @@
       </section>
 
       <section>
-        <h2>Directeur de publication</h2>
+        <h2>Directrice de publication</h2>
         <p>
-          Xavier Albouy, directeur interministériel du numérique par interim.
+          Stéphanie Schaer, directrice interministérielle du numérique.
         </p>
       </section>
 

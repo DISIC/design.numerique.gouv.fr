@@ -67,7 +67,7 @@
                   <div class="fr-card__start">
                     <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
                     <p v-show="futurCours.filter(element => element == node.id).length == 0 && node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
-                  </div>  
+                  </div>
                   <div class="fr-card__end">
                     <p class="fr-card__detail">{{ node.type }}</p>
                   </div>
@@ -195,6 +195,7 @@
           sessions {
             id
             date
+            ouverte
           }
         }
       }
@@ -276,7 +277,7 @@
       futurCours: function () {
         var futurList = [];
         this.$page.allCours.edges.forEach(cours => {
-          var futur = cours.node.sessions.filter(session => new Date(session.date) > Date.now());
+          var futur = cours.node.sessions.filter(session => session.ouverte && new Date(session.date) > Date.now());
           futur.length > 0 ? futurList.push(cours.node.id) : null;
         });
         return futurList;

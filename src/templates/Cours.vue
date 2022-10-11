@@ -19,7 +19,7 @@
             </li>
           </ol>
         </nav>
-        <p v-if="futurSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
+        <p v-if="futurOpenSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
         <div class="dg-inline-block">
@@ -83,7 +83,7 @@
       </div>
 
       <div v-else-if="$page.cours.intervenants.length > 1">
-        <p><strong>Formateurs :</strong></p>
+        <p><strong>Équipe de formation :</strong></p>
         <ul class="people">
           <li v-for="intervenant in $page.cours.intervenants" class="person">
             <g-image :src="intervenant.photo[0].url" width="120" alt="" class="person__photo"/>
@@ -95,30 +95,39 @@
         </ul>
       </div>
 
-      <div v-if="futurSessions.length > 1" class="dg-contains-list">
-        <p><strong>Prochaines sessions</strong> :</p>
+      <div v-if="futurSessions.length > 0" class="dg-contains-list">
+        <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> :</p>
+        <p v-else><strong>Prochaines sessions</strong> :</p>
         <ul>
-          <li v-for="session in futurSessions">{{ session.fancyDate }}</li>
+          <li v-for="session in futurSessions">
+            <div v-if="session.ouverte">
+              {{ session.fancyDate }}
+            </div>
+            <div v-else>
+              <s>{{ session.fancyDate }}</s>
+              <span class="fr-badge fr-badge--sm dg-inline fr-ml-1w">complet</span>
+            </div>
+          </li>
         </ul>
       </div>
       <p v-else-if="futurSessions.length == 0"><strong>Prochaine session</strong> : aucune session de prévue pour le moment.</p>
 
-      <div v-if="futurSessions.length >= 1">
+      <div v-if="futurOpenSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
-        <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurSessions[0].fancyDate }} de {{ futurSessions[0].debut }} à {{ futurSessions[0].fin }}</span></p>
+        <p v-if="futurOpenSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurOpenSessions[0].fancyDate }} de {{ futurOpenSessions[0].debut }} à {{ futurOpenSessions[0].fin }}</span></p>
         <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
           <p><strong>Places limitées</strong> : chaque session est limitée à {{ $page.cours.places }} participants. Si votre inscription est acceptée, vous vous engagez à participer.</p>
         </div>
 
         <form class="form" v-on:submit.prevent="addParticipant">
           <p class="fr-text--sm">Tous les champs sont obligatoires.</p>
-          <div v-if="futurSessions.length > 1" class="fr-form-group">
+          <div v-if="futurOpenSessions.length > 1" class="fr-form-group">
             <fieldset class="fr-fieldset">
               <legend class="fr-fieldset__legend fr-text--regular" id='radio-hint-legend'>
                 Date de la session à laquelle vous souhaitez vous inscrire
               </legend>
               <div class="fr-fieldset__content">
-                <div v-for="session in futurSessions" class="fr-radio-group">
+                <div v-for="session in futurOpenSessions" class="fr-radio-group">
                   <input type="radio" :id="session.id" :value="session.id" name="session" v-model="form.session" required>
                   <label class="fr-label" :for="session.id">
                     {{ session.fancyDate }} de {{ session.debut }} à {{ session.fin }}
@@ -281,6 +290,7 @@
         date
         debut
         fin
+        ouverte
       }
     }
   }
@@ -361,12 +371,15 @@
         });
         return futur;
       },
+      futurOpenSessions: function () {
+        return this.futurSessions.filter(session => session.ouverte);
+      },
     },
     methods: {
       addParticipant() {
         document.getElementById('submit').disabled = true;
-        if (this.futurSessions.length == 1) {
-          this.form.session = this.futurSessions[0].id;
+        if (this.futurOpenSessions.length == 1) {
+          this.form.session = this.futurOpenSessions[0].id;
         }
         var Airtable = require('airtable');
         var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE);
@@ -404,7 +417,7 @@
 
   .people {
     margin-top: -1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .person {

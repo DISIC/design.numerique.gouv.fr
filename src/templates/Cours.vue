@@ -83,7 +83,7 @@
       </div>
 
       <div v-else-if="$page.cours.intervenants.length > 1">
-        <p><strong>Formateurs :</strong></p>
+        <p><strong>Équipe de formation :</strong></p>
         <ul class="people">
           <li v-for="intervenant in $page.cours.intervenants" class="person">
             <g-image :src="intervenant.photo[0].url" width="120" alt="" class="person__photo"/>

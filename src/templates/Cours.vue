@@ -95,9 +95,9 @@
         </ul>
       </div>
 
-      <div v-if="futurSessions.length > 0" class="dg-contains-list">
-        <p v-if="futurSessions.length == 1"><strong>Prochaine session</strong> :</p>
-        <p v-else><strong>Prochaines sessions</strong> :</p>
+      <div v-show="futurSessions.length > 0" class="dg-contains-list">
+        <p v-show="futurSessions.length == 1"><strong>Prochaine session</strong> :</p>
+        <p v-show="futurSessions.length > 1"><strong>Prochaines sessions</strong> :</p>
         <ul>
           <li v-for="session in futurSessions">
             <div v-if="session.ouverte">
@@ -110,18 +110,18 @@
           </li>
         </ul>
       </div>
-      <p v-else-if="futurSessions.length == 0"><strong>Prochaine session</strong> : aucune session de prévue pour le moment.</p>
+      <p v-show="futurSessions.length == 0"><strong>Prochaine session</strong> : aucune session de prévue pour le moment.</p>
 
-      <div v-if="futurOpenSessions.length >= 1">
+      <div v-show="futurOpenSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
-        <p v-if="futurOpenSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurOpenSessions[0].fancyDate }} de {{ futurOpenSessions[0].debut }} à {{ futurOpenSessions[0].fin }}</span></p>
-        <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
+        <p v-show="futurOpenSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurOpenSessions[0].fancyDate }} de {{ futurOpenSessions[0].debut }} à {{ futurOpenSessions[0].fin }}</span></p>
+        <div v-show="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
           <p><strong>Places limitées</strong> : chaque session est limitée à {{ $page.cours.places }} participants. Si votre inscription est acceptée, vous vous engagez à participer.</p>
         </div>
 
         <form class="form" v-on:submit.prevent="addParticipant">
           <p class="fr-text--sm">Tous les champs sont obligatoires.</p>
-          <div v-if="futurOpenSessions.length > 1" class="fr-form-group">
+          <div v-show="futurOpenSessions.length > 1" class="fr-form-group">
             <fieldset class="fr-fieldset">
               <legend class="fr-fieldset__legend fr-text--regular" id='radio-hint-legend'>
                 Date de la session à laquelle vous souhaitez vous inscrire

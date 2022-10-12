@@ -114,8 +114,8 @@
 
       <div v-show="futurOpenSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
-        <p v-show="futurOpenSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurOpenSessions[0].fancyDate }} de {{ futurOpenSessions[0].debut }} à {{ futurOpenSessions[0].fin }}</span></p>
-        <div v-show="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
+        <p v-if="futurOpenSessions.length == 1"><strong>Prochaine session</strong> : <span class="fr-badge fr-badge--green-tilleul-verveine">{{ futurOpenSessions[0].fancyDate }} de {{ futurOpenSessions[0].debut }} à {{ futurOpenSessions[0].fin }}</span></p>
+        <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
           <p><strong>Places limitées</strong> : chaque session est limitée à {{ $page.cours.places }} participants. Si votre inscription est acceptée, vous vous engagez à participer.</p>
         </div>
 

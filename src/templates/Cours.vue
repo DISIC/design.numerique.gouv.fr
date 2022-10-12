@@ -19,7 +19,7 @@
             </li>
           </ol>
         </nav>
-        <p v-if="futurOpenSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
+        <p v-show="futurOpenSessions.length >= 1" class="fr-badge fr-badge--new fr-mb-2w">Inscriptions ouvertes</p>
         <h1 class="dg-cover__title">{{ $page.cours.nom }}</h1>
         <p class="fr-text--lead">{{ $page.cours.descriptionCourte }}</p>
         <div class="dg-inline-block">

@@ -42,9 +42,9 @@
             />
           </div>
           <button class="fr-btn" id="submit" type="submit">
-            Inscrivez-vous
+          Je m’inscris
           </button>
-          <p>
+          <p class="fr-mt-2w">
             <small
               >Conformément à la règlementation, vous disposez d’un droit
               d’opposition et d’un droit à la limitation du traitement de

@@ -20,17 +20,20 @@ C’est essentiel pour que les entreprises privées s’approprient aussi de ce 
 
 ## Un nouvel outil
 
-Enfin, courant novembre, la direction interministérielle du numérique lancera un nouvel outil permettant de **simplifier la réalisation d’audits** d’accessibilité, ainsi que **la compréhension et l’interprétation** des rapports d’audit. 
+Enfin, courant novembre, la direction interministérielle du numérique lancera **Confiture** : un nouvel outil permettant de *simplifier la réalisation d’audits* d’accessibilité, ainsi que *la compréhension et l’interprétation* des rapports d’audit. 
 
-Cet outil pourra aussi permettre aux ministères de centraliser **le suivi de l’accessibilité** de leurs services et applications. Cet outil de réalisation d’audits d’accessibilité est conçu de manière libre et open source (https ://github.com/DISIC/confiture). 
+**Confiture** permettra aux ministères de centraliser *le suivi de l’accessibilité* de leurs services et applications. Cet outil de réalisation d’audits d’accessibilité est conçu de manière libre et open source (https ://github.com/DISIC/confiture). 
 En en faisant un véritable **commun numérique**, il pourra ainsi être repris et utilisé par les entreprises privées et les collectivités. 
 
-### Inscrivez-vous pour être notifié·e lors de son lancement en version bêta
-  <div class="fr-grid-row fr-grid-row--center fr-mb-6w">
-    <div class="fr-col-4">
-      <a href="/bientot/" class="fr-btn">Inscrivez-vous</a>
-    </div>
-  </div>
+
+<div class="fr-callout fr-mt-2w fr-mb-4w ">
+    <h3 class="fr-callout__title">Inscrivez-vous pour être notifié·e de son lancement en version bêta</h3>
+    <p class="fr-callout__text">
+        <a href="/bientot/" class="fr-btn">Je m’inscris</a>
+    </p>
+    
+</div>
+
 
 ## Des évolutions règlementaires
 

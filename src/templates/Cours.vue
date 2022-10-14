@@ -100,10 +100,10 @@
         <p v-show="futurSessions.length > 1"><strong>Prochaines sessions</strong> :</p>
         <ul>
           <li v-for="session in futurSessions">
-            <div v-if="session.ouverte">
+            <div v-show="session.ouverte">
               {{ session.fancyDate }}
             </div>
-            <div v-else>
+            <div v-show="!session.ouverte">
               <s>{{ session.fancyDate }}</s>
               <span class="fr-badge fr-badge--sm dg-inline fr-ml-1w">complet</span>
             </div>

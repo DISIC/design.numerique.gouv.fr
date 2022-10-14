@@ -16,7 +16,7 @@
 
           <h1>Bientôt, vous pourrez faire des audits d’accessibilité numérique entièrement en ligne</h1>
           <p class="fr-text--lead">
-            Vous souhaitez être informé·e de la sortie de notre outil pour réaliser des audits RGAA et faciliter leur lecture ?
+            Vous souhaitez être informé·e de la sortie de <strong>Confiture</strong> notre outil pour réaliser des audits RGAA et faciliter leur lecture ?
           </p>
         </div>
       </div>
@@ -45,8 +45,7 @@
           Je m’inscris
           </button>
           <p class="fr-mt-2w">
-            <small
-              >Conformément à la règlementation, vous disposez d’un droit
+            <small>Conformément à la règlementation, vous disposez d’un droit
               d’opposition et d’un droit à la limitation du traitement de
               données vous concernant, ainsi que d’un droit d’accès, de
               rectification, de portabilité et d’effacement de vos données. Vous
@@ -69,20 +68,16 @@ export default {
       {
         name: "description",
         content:
-          "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.",
+          "Être informé·e de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
       },
       {
         property: "og:title",
-        content: "Partager votre intérêt - DesignGouv",
+        content: "Être informé·e de la sortie de Confiture",
       },
       {
         property: "og:description",
         content:
-          "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.",
-      },
-      {
-        property: "og:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png",
+          "Être informé·e de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
       },
       {
         name: "twitter:card",
@@ -94,17 +89,12 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Partager votre intérêt - DesignGouv",
+        content: "Être informé·e de la sortie de Confiture",
       },
       {
         name: "twitter:description",
         content:
-          "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne.",
-      },
-      {
-        name: "twitter:image",
-        content:
-          "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipde.png",
+          "Être informé·e de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
       },
     ],
   },

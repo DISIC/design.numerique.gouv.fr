@@ -68,16 +68,16 @@ export default {
       {
         name: "description",
         content:
-          "Être informé·e de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
+          "Être informé de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
       },
       {
         property: "og:title",
-        content: "Être informé·e de la sortie de Confiture",
+        content: "Être informé de la sortie de Confiture",
       },
       {
         property: "og:description",
         content:
-          "Être informé·e de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
+          "Être informé de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
       },
       {
         name: "twitter:card",
@@ -89,12 +89,12 @@ export default {
       },
       {
         name: "twitter:title",
-        content: "Être informé·e de la sortie de Confiture",
+        content: "Être informé de la sortie de Confiture",
       },
       {
         name: "twitter:description",
         content:
-          "Être informé·e de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
+          "Être informé de la sortie de Confiture : notre outil pour réaliser des audits RGAA et faciliter leur lecture.",
       },
     ],
   },

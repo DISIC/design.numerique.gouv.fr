@@ -16,7 +16,7 @@
 
           <h1>Bientôt, vous pourrez faire des audits d’accessibilité numérique entièrement en ligne</h1>
           <p class="fr-text--lead">
-            Vous souhaitez être informé de la sortie de <strong>Confiture</strong>, notre outil pour réaliser des audits RGAA et faciliter leur lecture ?
+            Vous souhaitez être informé de la sortie de notre outil pour réaliser des audits RGAA et faciliter leur lecture ?
           </p>
         </div>
       </div>

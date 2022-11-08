@@ -32,7 +32,7 @@ Mettre en œuvre une démarche d’écoconception et prendre en main le RGESN, l
 
 Mettre en œuvre l’accessibilité tout au long du cycle de vie d’un projet numérique.
 
-<span aria-hidden="true">✅</span> **Évaluer l’accessibilité d’un site** 10 janvier *(inscriptions à venir)*
+<span aria-hidden="true">✅</span> **Évaluer l’accessibilité d’un site** — 10 janvier *(inscriptions à venir)*
 
 Détecter les principaux défauts d’accessibilité et les faire corriger par les équipes de développement sans connaître le code.
 

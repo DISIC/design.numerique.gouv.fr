@@ -10,7 +10,7 @@ description: Pour finir l’année en beauté, l’équipe Design des services n
 
 <p class="fr-text--lead">Pour finir l’année en beauté, l’équipe Design des services numériques de la Direction interministérielle du numérique (DINUM) a conçu un programme de 6 ateliers de formation pour vous aider à améliorer toujours les services publics en ligne. 🚀</p>
 
-## Quels sont les thèmes des ateliers ?
+## Quels sont les thèmes des ateliers ?
 
 <span aria-hidden="true">🖋</span> **[Simplifier le langage des démarches](https://design.numerique.gouv.fr/formations/design/atelier-simplification/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 6 décembre 
 
@@ -36,31 +36,31 @@ Mettre en œuvre l’accessibilité tout au long du cycle de vie d’un projet n
 
 Détecter les principaux défauts d’accessibilité et les faire corriger par les équipes de développement sans connaître le code.
 
-## Comment se déroulent les ateliers ?
+## Comment se déroulent les ateliers ?
 
 Hautement participatifs, les ateliers se passent en petits comités d’environs 15 personnes pour faciliter les échanges. Ils ont lieu dans le 7e arrondissement de Paris. 
 
 Leur durée varie de 4 heures à 1 journée complète selon le thème abordé.
 
-## À qui sont dédiés les ateliers ?
+## À qui sont dédiés les ateliers ?
 
 Ils sont réservés aux agents travaillant sur les services publics numériques, notamment sur les démarches de l’[Observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr/).
 
-## Qui sont les formatrices et formateurs ?
+## Qui sont les formatrices et formateurs ?
 
-Ce sont des experts de la DINUM- et notamment de notre équipe Pôle design des services numériques - mais aussi de la Direction interministérielle de la transformation publique (DITP). Ils ont plus de 10 ans d’expérience dans leur domaine respectif et sauront vous aider concrètement dans vos projets. 
+Ce sont des experts de la DINUM - et notamment de notre équipe Pôle design des services numériques - mais aussi de la Direction interministérielle de la transformation publique (DITP). Ils ont plus de 10 ans d’expérience dans leur domaine respectif et sauront vous aider concrètement dans vos projets. 
 
-## Y a-t-il des prérequis pour participer ?
+## Y a-t-il des prérequis pour participer ?
 
 Pour chaque atelier vous pourrez, lors de l’inscription, prendre connaissance des prérequis. Pour beaucoup d’entre eux, il vous est demandé d’avoir visionné l’un des [webinaires](https://youtube.com/playlist?list=PLzwHdQWfGYgZqhHm6XxyrsfXf5OQF0s82) que nous avons organisé sur ces thèmes.
 
-## Comment s’inscrire ?
+## Comment s’inscrire ?
 
 Au fur et à mesure de l’ouverture des sessions, nous publions sur notre site les programmes des formations et les formulaires d’inscription. Ça se passe sur [notre page dédiée aux formations](https://design.numerique.gouv.fr/formations/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv) et c’est gratuit 🙂
 
 Ne perdez pas de temps, les ateliers se remplissent vite. 
 
-## Comment être informé des prochaines sessions ?
+## Comment être informé des prochaines sessions ?
 
 Nous annonçons les nouvelles dates de formation sur les réseaux sociaux [Linkedin](https://www.linkedin.com/company/designgouv/) et [Twitter](https://twitter.com/design_gouv), restez à l’écoute…
 

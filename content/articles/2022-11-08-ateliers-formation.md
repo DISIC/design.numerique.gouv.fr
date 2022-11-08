@@ -12,27 +12,27 @@ Pour finir l’année en beauté, l’équipe Design des services numériques de
 
 ## Quels sont les thèmes des ateliers ?
 
-**🖋 [Simplifier le langage des démarches](https://design.numerique.gouv.fr/formations/design/atelier-simplification/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 6 décembre 
+<span aria-hidden="true">🖋</span> **[Simplifier le langage des démarches](https://design.numerique.gouv.fr/formations/design/atelier-simplification/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 6 décembre 
 
 Produire des textes et des contenus plus adaptés aux usagers et faciliter leur compréhension des démarches. 
 
-🌟 **[Concevoir des services numériques accessibles](https://design.numerique.gouv.fr/formations/accessibilite/atelier-accessibilite-designer/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 8 décembre
+<span aria-hidden="true">🌟</span> **[Concevoir des services numériques accessibles](https://design.numerique.gouv.fr/formations/accessibilite/atelier-accessibilite-designer/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 8 décembre
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 
-🧪 **[Les tests usagers dans la pratique](https://design.numerique.gouv.fr/formations/recherche-utilisateur/atelier-test-usager/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 13 décembre
+<span aria-hidden="true">🧪</span> **[Les tests usagers dans la pratique](https://design.numerique.gouv.fr/formations/recherche-utilisateur/atelier-test-usager/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 13 décembre
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.
 
-🌱 **Écoconception des services numériques** — 14 décembre *(inscriptions à venir)*
+<span aria-hidden="true">🌱</span> **Écoconception des services numériques** — 14 décembre *(inscriptions à venir)*
 
 Mettre en œuvre une démarche d’écoconception et prendre en main le RGESN, le référentiel général d’écoconception de service numérique.
 
-🐲 **[Démystifier la mise en accessibilité des démarches en ligne](https://design.numerique.gouv.fr/formations/accessibilite/atelier-demystifier-accessibilite/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 15 décembre
+<span aria-hidden="true">🐲</span> **[Démystifier la mise en accessibilité des démarches en ligne](https://design.numerique.gouv.fr/formations/accessibilite/atelier-demystifier-accessibilite/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 15 décembre
 
 Mettre en œuvre l’accessibilité tout au long du cycle de vie d’un projet numérique.
 
-✅ **Évaluer l’accessibilité d’un site** 10 janvier *(inscriptions à venir)*
+<span aria-hidden="true">✅</span> **Évaluer l’accessibilité d’un site** 10 janvier *(inscriptions à venir)*
 
 Détecter les principaux défauts d’accessibilité et les faire corriger par les équipes de développement sans connaître le code.
 

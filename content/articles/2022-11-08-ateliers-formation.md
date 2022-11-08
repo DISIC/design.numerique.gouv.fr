@@ -8,7 +8,7 @@ description: Pour finir l’année en beauté, l’équipe Design des services n
 ---
 
 
-Pour finir l’année en beauté, l’équipe Design des services numériques de la Direction interministérielle du numérique (DINUM) a conçu un programme de 6 ateliers de formation pour vous aider à améliorer toujours les services publics en ligne 🚀
+<p class="fr-text--lead">Pour finir l’année en beauté, l’équipe Design des services numériques de la Direction interministérielle du numérique (DINUM) a conçu un programme de 6 ateliers de formation pour vous aider à améliorer toujours les services publics en ligne. 🚀</p>
 
 ## Quels sont les thèmes des ateliers ?
 

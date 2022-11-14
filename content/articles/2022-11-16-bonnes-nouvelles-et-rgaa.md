@@ -1,5 +1,5 @@
 ---
-title: Bonnes nouvelles pour l'accessibilité numérique
+title: Bonnes nouvelles pour l’accessibilité numérique
 slug: 2022-11-16-bonnes-nouvelles-et-rgaa
 publishedDate: 2022-11-16
 tags: ["accessibilité", "RGAA"]
@@ -27,6 +27,6 @@ En en faisant un véritable **commun numérique**, il pourra ainsi être repris 
 
 ## Des évolutions règlementaires
 
-En 2023, la direction interministérielle du numérique démarrera de nouveaux travaux en vue d'une mise à jour du contenu du RGAA, et sollicitera les acteurs privés, publics et associatifs pour envisager cette nouvelle version.
+En 2023, la direction interministérielle du numérique démarrera de nouveaux travaux en vue d’une mise à jour du contenu du RGAA, et sollicitera les acteurs privés, publics et associatifs pour envisager cette nouvelle version.
 
 L’objectif de cette nouvelle version sera de s’assurer que le taux de conformité reflète encore mieux le niveau d’accessibilité ressenti d’un site, produit ou service.

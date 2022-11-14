@@ -1,7 +1,7 @@
 ---
 title: Bonnes nouvelles et accessibilité numérique
-slug: 2022-11-14-bonnes-nouvelles-et-rgaa
-publishedDate: 2022-11-14
+slug: 2022-11-16-bonnes-nouvelles-et-rgaa
+publishedDate: 2022-11-16
 tags: ["accessibilité", "RGAA"]
 illustration: ./illustrations/2022-07-19-beta-site-rgaa.png
 description: Enfin du nouveau pour améliorer l’accessibilité numérique, un nouveau site, un nouvel outil et une mise à jour prochaine du RGAA
@@ -20,20 +20,10 @@ C’est essentiel pour que les entreprises privées s’approprient aussi de ce 
 
 ## Un nouvel outil
 
-Enfin, courant novembre, la direction interministérielle du numérique lancera un nouvel outil permettant de *simplifier la réalisation d’audits* d’accessibilité, ainsi que *la compréhension et l’interprétation* des rapports d’audit. 
+L’équipe DesignGouv et le <abbr title="Fond pour l’insertion des personnes handicapées dans la Fonction publique">FIPHFP</abbr> lancent <a href="https://ara.numerique.gouv.fr" target="_blank" title="Ara - nouvelle fenêtre"><strong>Ara</strong></a> : un outil permettant de simplifier **la réalisation d’audits** d’accessibilité et **la compréhension et l’interprétation** des rapports d’audit. 
 
-Il permettra aux ministères de centraliser *le suivi de l’accessibilité* de leurs services et applications. Cet outil de réalisation d’audits d’accessibilité est conçu de manière libre et open source (https ://github.com/DISIC/confiture). 
+Il permettra à toutes celles et ceux qui le souhaitent de centraliser **le suivi de l’accessibilité** de leurs services et applications. Cet outil de réalisation d’audits d’accessibilité est conçu de manière libre et open source (https ://github.com/DISIC/confiture). 
 En en faisant un véritable **commun numérique**, il pourra ainsi être repris et utilisé par les entreprises privées et les collectivités. 
-
-
-<div class="fr-callout fr-mt-2w fr-mb-4w ">
-    <h3 class="fr-callout__title">Inscrivez-vous pour être notifié·e de son lancement en version bêta</h3>
-    <p class="fr-callout__text">
-        <a href="/bientot/" class="fr-btn">Je m’inscris</a>
-    </p>
-    
-</div>
-
 
 ## Des évolutions règlementaires
 

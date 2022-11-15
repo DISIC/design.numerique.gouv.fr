@@ -24,7 +24,7 @@ Prendre en compte l’accessibilité dans toutes les étapes de design d’un se
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.
 
-<span aria-hidden="true">🌱</span> **Écoconception des services numériques** — 14 décembre *(inscriptions à venir)*
+<span aria-hidden="true">🌱</span> **[Écoconception des services numériques](https://design.numerique.gouv.fr/formations/ecoconception/atelier-ecoconception/?mtm_campaign=formations6ateliers&mtm_source=ArticleDesigngouv)** — 14 décembre *(inscriptions à venir)*
 
 Mettre en œuvre une démarche d’écoconception et prendre en main le RGESN, le référentiel général d’écoconception de service numérique.
 

@@ -28,7 +28,7 @@
         </p>
 
         <p>
-          <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode/criteres/#contenu" title="Consulter les critères du RGAA - Nouvelle fenêtre" target="_blank" class="fr-btn">
+          <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/" title="Consulter les critères du RGAA - Nouvelle fenêtre" target="_blank" class="fr-btn">
             Consulter les critères du RGAA
           </a>
         </p>

@@ -20,7 +20,7 @@
           <div class="fr-content-media__img">
             <img src="/assets/images/seguRgaaNuit.jpg" class="fr-responsive-img" alt="" style="width:100%" />
           </div>
-        <p>Si vraiment l’accessibilité numérique vous intéresse, vous pouvez tout à fait télécharger le rgaa <a  tabindex="3" class="lien" href="https://www.numerique.gouv.fr/uploads/rgaa/RGAA-v4.1.pdf">ici</a> ou le voir en ligne <a  tabindex="2" class="lien" href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/">là</a>.</p>
+        <p>Si vraiment l’accessibilité numérique vous intéresse, vous pouvez tout à fait télécharger le rgaa <a  tabindex="3" class="lien" href="https://accessibilite.numerique.gouv.fr/doc/RGAA-v4.1.pdf">ici</a> ou le voir en ligne <a  tabindex="2" class="lien" href="https://accessibilite.numerique.gouv.fr">là</a>.</p>
         </div>
       </section>
       <section class="fr-grid-row fr-grid-row--center">

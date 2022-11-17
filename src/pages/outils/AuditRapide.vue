@@ -47,7 +47,7 @@
         <li>Dans chaque page web, l’ordre de tabulation est-il cohérent ? (Navigation, 12.8)</li>
         <li>Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ? (Navigation, 12.9)</li>
       </ul>
-      <p>Le détail des critères et des tests est disponible à l’adresse suivante : <a href="https://www.numerique.gouv.fr/publications/rgaa-accessibilite/" target="_blank" title="numerique.gouv.fr/publications/rgaa-accessibilite/ - nouvelle fenêtre">numerique.gouv.fr/publications/rgaa-accessibilite/</a>.</p>
+      <p>Le détail des critères et des tests est disponible à l’adresse suivante : <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/" target="_blank" title="accessibilite.numerique.gouv.fr/methode/criteres-et-tests - nouvelle fenêtre">accessibilite.numerique.gouv.fr/methode/criteres-et-tests</a>.</p>
       <p><strong>Vous avez terminé ?</strong><br/>Passez à l’étape suivante et vérifiez les vingt-cinq critères de l’<a href="/outils/audit-complementaire/">audit complémentaire</a>.</p>
 
     </div>

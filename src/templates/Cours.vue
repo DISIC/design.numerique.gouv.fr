@@ -74,7 +74,7 @@
       <div v-if="$page.cours.intervenants.length == 1">
         <p><strong>Formateur :</strong></p>
         <div class="people person">
-          <g-image :src="$page.cours.intervenants[0].photo[0].url" width="120" alt="" class="person__photo"/>
+          <g-image :src="'/assets/images/formation/' + $page.cours.intervenants[0].slug + '.jpg'" width="120" alt="" class="person__photo"/>
           <p class="person__description">
             <strong class="person__name">{{ $page.cours.intervenants[0].nom }}</strong><br>
             {{ $page.cours.intervenants[0].poste }}
@@ -86,7 +86,7 @@
         <p><strong>Équipe de formation :</strong></p>
         <ul class="people">
           <li v-for="intervenant in $page.cours.intervenants" class="person">
-            <g-image :src="intervenant.photo[0].url" width="120" alt="" class="person__photo"/>
+            <g-image :src="'/assets/images/formation/' + intervenant.slug + '.jpg'" width="120" alt="" class="person__photo"/>
             <p class="person__description">
               <strong class="person__name">{{ intervenant.nom }}</strong><br>
               {{ intervenant.poste }}
@@ -269,9 +269,7 @@
       intervenants (sortBy: "name", order: DESC) {
         nom
         poste
-        photo {
-          url
-        }
+        slug
       }
       descriptionCourte
       descriptionLongue

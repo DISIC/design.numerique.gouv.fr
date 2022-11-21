@@ -29,8 +29,12 @@
                 </h2>
                 <p class="fr-badge fr-badge--sm">{{ node.cours.filter(cours => cours.publier).length }} {{ node.cours.filter(cours => cours.publier).length > 1 ? "formations" : "formation"}}</p>
               </div>
-              <div class="fr-tile__img dg-picto">
-                <g-image :src="node.picto[0].url" class="fr-responsive-img" aria-hidden="true"/>
+              <div class="fr-tile__img dg-picto">                              
+                <img v-if="node.slug == 'design'" svg-inline src="'../assets/images/design-picto.svg'" class="fr-responsive-img" aria-hidden="true">      
+                <img v-else-if="node.slug == 'accessibilite'" svg-inline src="'../assets/images/accessibilite-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+                <img v-if="node.slug == 'recherche-utilisateur'" svg-inline src="'../assets/images/recherche-utilisateur-picto.svg'" class="fr-responsive-img" aria-hidden="true">      
+                <img v-else-if="node.slug == 'ecoconception'" svg-inline src="'../assets/images/ecoconception-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+                <img v-else-if="node.slug == 'simplification-information'" svg-inline src="'../assets/images/simplification-information-picto.svg'" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>
           </div>

@@ -25,7 +25,7 @@
       <li v-for="cours in sortedCours" :key="cours.id" class="fr-card fr-card--horizontal-tier fr-enlarge-link fr-mb-2w">
         <div class="fr-card__header">
             <div class="fr-card__img">
-            <g-image :src="cours.image[0].url" class="fr-responsive-img" alt=""/>
+            <g-image :src="'/assets/images/formation/' + cours.slug + '.png'" class="fr-responsive-img" alt=""/>
             </div>
         </div>
         <div class="fr-card__body">

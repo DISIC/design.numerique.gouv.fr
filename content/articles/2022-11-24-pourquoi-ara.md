@@ -10,8 +10,8 @@ description: En savoir plus sur Ara, le nouvel outil d’audit accessibilité de
 <p class="fr-text--lead"><strong>Ara</strong> n’a pas la prétention de faire les audits à notre place. Alors à quoi sert-il ?</p>
 
 Ce sont des échanges avec des auditeurs et auditrices d'accessibilité numérique qui nous ont décidé à nous lancer sur le développement de ce nouvel outil :
-1. D'une part, la grille d’audit a été identifiée comme irritante pour son remplissage, sa manipulation, ainsi que les échanges des différentes versions.
-2. D'autre part, les personnes recevant le rapport d’audit avaient du mal à l’appréhender et à bien comprendre comment fonctionnait le calcul du taux de conformité.
+- d'une part, la grille d’audit a été identifiée comme irritante pour son remplissage, sa manipulation, ainsi que les échanges des différentes versions.
+- d'autre part, les personnes recevant le rapport d’audit avaient du mal à l’appréhender et à bien comprendre comment fonctionnait le calcul du taux de conformité.
 
 Le sujet étant toujours un peu effrayant et difficile à prendre en main, l’idée était d’insuffler de la pédagogie et de donner la possibilité d’y aller par étape :
 - on peut commencer par un audit rapide (25 critères de niveau <abbr title="Web content accessibility guidelines" lang="en">WCAG</abbr> A), corriger les anomalies,
@@ -20,9 +20,9 @@ Le sujet étant toujours un peu effrayant et difficile à prendre en main, l’i
 
 **À noter qu’il est impossible de générer une déclaration d’accessibilité tant que l’audit complet n’est pas terminé.**
 
-A savoir qu'une feuille de route sera publiée prochainement et de nombreuses évolutions ou nouvelles fonctionnalités sont prévues.
+Une feuille de route sera publiée prochainement et de nombreuses évolutions ou nouvelles fonctionnalités sont prévues.
 Par exemple :
-- expliciter qu’Ara ne fait l’audit tout seul
+- mieux expliciter qu’Ara ne fait l’audit tout seul
 - pouvoir (in)valider un critère sur l’ensemble de l’échantillon
 - pouvoir ajouter des captures d’écran
 - simplifier la lecture des rapports d’audit

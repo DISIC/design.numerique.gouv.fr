@@ -1,6 +1,6 @@
 ---
 title: Pourquoi Ara ?
-slug: 2022-11-24-pourquoi-ara.md
+slug: 2022-11-24-pourquoi-ara
 publishedDate: 2022-11-24
 tags: ["accessibilité", "RGAA"]
 illustration: ./illustrations/2022-11-24-pourquoi-ara.png

@@ -4,7 +4,7 @@ slug: 2022-11-24-pourquoi-ara
 publishedDate: 2022-11-24
 tags: ["accessibilité", "RGAA"]
 illustration: ./illustrations/2022-11-24-pourquoi-ara.png
-description: En savoir plus sur Ara, le nouvel outil d’audit accessibilité de Designgouv
+description: En savoir plus sur Ara, le nouvel outil d’audit accessibilité de DesignGouv
 ---
 
 <p class="fr-text--lead"><strong>Ara</strong>, le nouvel outil d’audit <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> (<a href="https://ara.numerique.gouv.fr" title="ara.numerique.gouv.fr - nouvelle fenêtre" target="_blank" rel="nopenner noreferrer">ara.numerique.gouv.fr</a>) n’a pas la prétention de faire les audits à notre place. Alors à quoi sert-il ?</p>

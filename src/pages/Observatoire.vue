@@ -14,54 +14,76 @@
           <h3>Accueil avec petit déjeuner</h3>
           <div class="meta">
             <p class="when">9h00 – 9h30</p>
+            <p class="where">1er étage</p>
           </div>
         </section>
         <section>
           <h3>Introduction de la journée</h3>
           <div class="meta">
             <p class="when">9h30 – 10h30</p>
-            <p class="where">Salle plénière</p>
+            <p class="where"><span class="fr-badge fr-badge--green-emeraude">Vert</span> Salle plénière - 3ème étage</p>
           </div>
         </section>
         <section>
-          <h3>Atelier <em>L’ambition de l’Observatoire</em></h3>
+          <h3><span class="atelier">Atelier</span><br><em>L’ambition de l’Observatoire</em></h3>
           <div class="meta">
             <p class="when">10h45 – 12h15</p>
-            <p class="where">Salle plénière</p>
+            <p class="where">
+              <span class="fr-badge fr-badge--green-emeraude">Vert</span> Salle plénière - 3ème étage<br>
+              <span class="fr-badge fr-badge--blue-ecume">Bleu</span> Salle 3.3 - 3ème étage<br>
+              <span class="fr-badge fr-badge--yellow-tournesol">Orange</span> Salle 2.4 - 2ème étage<br>
+              <span class="fr-badge fr-badge--pink-macaron">Rose</span> Salle 2.3 - 2ème étage<br>
+            </p>
           </div>
         </section>
         <section>
-          <h3>Atelier <em>Critères de suivi de l’Observatoire</em></h3>
+          <h3><span class="atelier">Atelier</span><br><em>Critères de suivi de l’Observatoire</em></h3>
           <div class="meta">
             <p class="when">12h25 – 13h15</p>
-            <p class="where">Répartition dans différentes salles</p>
+            <p class="where">
+              <span class="fr-badge fr-badge--green-emeraude">Vert</span> Salle plénière - 3ème étage<br>
+              <span class="fr-badge fr-badge--blue-ecume">Bleu</span> Salle 3.3 - 3ème étage<br>
+             <span class="fr-badge fr-badge--yellow-tournesol">Orange</span> Salle 2.4 - 2ème étage<br>
+              <span class="fr-badge fr-badge--pink-macaron">Rose</span> Salle 2.3 - 2ème étage<br>
+            </p>
           </div>
         </section>
         <section>
           <h3>Déjeuner tous ensemble</h3>
           <div class="meta">
             <p class="when">13h30 – 14h30</p>           
+            <p class="where">1er étage</p>
           </div>
         </section>
         <section>
-          <h3>Atelier <em>Critères d’entrée ou de sortie de l’Observatoire</em></h3>
+          <h3><span class="atelier">Atelier</span><br><em>Critères d’entrée ou de sortie de l’Observatoire</em></h3>
           <div class="meta">
             <p class="when">14h30 – 15h30</p>
-            <p class="where">Répartition dans différentes salles</p>
+            <p class="where">
+              <span class="fr-badge fr-badge--green-emeraude">Vert</span> Salle plénière - 3ème étage<br>
+              <span class="fr-badge fr-badge--blue-ecume">Bleu</span> Salle 3.3 - 3ème étage<br>
+              <span class="fr-badge fr-badge--yellow-tournesol">Orange</span> Salle 2.4 - 2ème étage<br>
+              <span class="fr-badge fr-badge--pink-macaron">Rose</span> Salle 2.3 - 2ème étage<br>
+            </p>
           </div>
         </section>
         <section>
-          <h3>Atelier <em>Comment vous simplifier la vie ?</em></h3>
+          <h3><span class="atelier">Atelier</span><br><em>Comment vous simplifier la vie ?</em></h3>
           <div class="meta">
             <p class="when">15h40 – 16h35</p>
-            <p class="where">Répartition dans différentes salles</p>
+            <p class="where">
+              <span class="fr-badge fr-badge--green-emeraude">Vert</span> Salle plénière - 3ème étage<br>
+              <span class="fr-badge fr-badge--blue-ecume">Bleu</span> Salle 3.3 - 3ème étage<br>
+              <span class="fr-badge fr-badge--yellow-tournesol">Orange</span> Salle 2.4 - 2ème étage<br>
+              <span class="fr-badge fr-badge--pink-macaron">Rose</span> Salle 2.3 - 2ème étage<br>
+            </p>
           </div>
         </section>
         <section>
           <h3>Conclusion</h3>
           <div class="meta">
             <p class="when">16h40 – 17h00 </p>
-            <p class="where">Salle plénière</p>
+            <p class="where"><span class="fr-badge fr-badge--green-emeraude">Vert</span> Salle plénière - 3ème étage</p>
           </div>
         </section>
       </div>
@@ -75,6 +97,10 @@ export default {
   metaInfo: {
     title: "Construire ensemble l’observatoire de demain",
     meta: [
+      {
+        name: 'robots',
+        content: "noindex, nofollow"
+      },
       {
         name: "description",
         content:
@@ -125,10 +151,18 @@ export default {
     align-items: flex-start;
     justify-content: start;
   div.meta {
-      width: 12em;
+      width: 18em;
+    .when {
+      font-weight: bold;
+    }
     }
     h3 {
-      max-width: 22em;
+      font-weight: 400;
+      max-width: 18em;
+      margin-left: 1rem;
+      em {
+        font-weight: bold;
+      }
     }
   }
 }

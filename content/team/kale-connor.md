@@ -10,5 +10,5 @@ sub_team:
 sub_team_link:
 twitter:
 e-mail :
-group : ["external"]
+group : ["external", "expert"]
 ---

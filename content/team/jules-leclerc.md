@@ -10,7 +10,7 @@ sub_team:
 sub_team_link:
 twitter:
 e-mail :
-group : ["external"]
+group : ["external", "expert"]
 ---
 
 Lead UX designer, expert en ergonomie et formateur, Jules accompagne les administrations dans la conception et l’amélioration des services publics numériques.

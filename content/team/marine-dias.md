@@ -8,5 +8,5 @@ sub_team:
 sub_team_link:
 twitter: marine_adias
 e-mail :
-group : ["external"]
+group : ["external", "expert"]
 ---

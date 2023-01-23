@@ -266,9 +266,9 @@ module.exports = {
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
     Formation: '/formations/:Slug',
+    Accompagnement: '/accompagnement/:Slug',
     // Poste: '/recrutement/:Slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
-    // Accompagnement: '/accompagnement/:Slug', -> géré manuellement dans gridsome.server.js
   },
   prefetch: {
     mask: '^$', // example - disable all prefetch

@@ -15,7 +15,7 @@
             <a class="fr-nav__link" href="/accessibilite-numerique/">Accessibilité</a>
           </li>
           <li class="fr-nav__item">
-            <a class="fr-nav__link" href="/accompagnement/">Nos offres</a>
+            <a class="fr-nav__link" href="/accompagnement/">Accompagnement</a>
           </li>
           <li class="fr-nav__item">
             <a class="fr-nav__link" href="/outils/">Outils</a>

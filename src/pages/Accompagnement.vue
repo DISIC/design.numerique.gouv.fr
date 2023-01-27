@@ -61,7 +61,7 @@
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
             <strong class="dg-picto dg-picto--xs fr-mr-3v">2</strong>
-            <strong>Nous construisons ensemble votre accompagnement sur-mesure</strong>
+            <strong>Nous construisons ensemble un accompagnement sur-mesure</strong>
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
             <strong class="dg-picto dg-picto--xs fr-mr-3v">3</strong>
@@ -69,7 +69,7 @@
           </li>
         </ol>
         <p>Chaque accompagnement est sur-mesure pour s’adapter à vos besoins, votre équipe, vos délais et vos objectifs. Et en plus, tout ça gratuitement 🙂.</p>
-        <g-link to="/recrutement/partager-interet/" class="fr-btn fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-2w">
+        <g-link to="/accompagnement/obtenir-un-accompagnement/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-mb-2w">
           Obtenir un accompagnement
         </g-link>
       </div>
@@ -194,18 +194,18 @@
       }
     },
     metaInfo: {
-      title: "Commando UX",
+      title: "Accompagnement",
       meta: [{
         name: 'description',
-        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
+        content: "Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une vraie approche design pour votre service mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !"
       },
       {
         property: 'og:title',
-        content: "Commando UX - DesignGouv"
+        content: "Accompagnement - DesignGouv"
       },
       {
         property: 'og:description',
-        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
+        content: "Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une vraie approche design pour votre service mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !"
       },
       {
         property: 'og:image',
@@ -221,11 +221,11 @@
       },
       {
         name: "twitter:title",
-        content: "Commando UX - DesignGouv"
+        content: "Accompagnement - DesignGouv"
       },
       {
         name: "twitter:description",
-        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
+        content: "Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une vraie approche design pour votre service mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !"
       },
       {
         name: "twitter:image",

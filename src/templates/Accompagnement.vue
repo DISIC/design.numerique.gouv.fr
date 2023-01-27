@@ -25,8 +25,8 @@
       <div class="detail fr-mb-1w">
         <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'route']" height="16px" aria-hidden="true"/></span>
         <p class="detail__name fr-mr-1w">Statut :</p>
-        <p v-if="$page.accompagnement.status == '✅ terminé'" class="fr-badge fr-badge--green-tilleul-verveine">Terminé</p>
-        <p v-else class="fr-badge fr-badge--pink-macaron">En cours</p>
+        <p v-if="$slugify($page.accompagnement.status[0]) == 'termine'" class="fr-badge fr-badge--success fr-badge--no-icon">Terminé</p>
+        <p v-else class="fr-badge fr-badge--info fr-badge--no-icon">En cours</p>
       </div>
       <div class="detail fr-mb-1w">
         <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'user-friends']" height="16px" aria-hidden="true"/></span>
@@ -45,7 +45,8 @@
       </div>
       <div v-if="$page.accompagnement.experts.length" class="detail detail--team fr-mb-1w">
         <span class="dg-picto dg-picto--sm fr-mr-1w"><font-awesome :icon="['fas', 'user-astronaut']" height="16px" aria-hidden="true"/></span>
-        <p class="detail__name fr-mr-1w fr-mb-2w">Experts déployés :</p>
+        <p v-if="$page.accompagnement.experts.length < 2" class="detail__name fr-mr-1w fr-mb-2w">Expert déployé :</p>
+        <p v-else class="detail__name fr-mr-1w fr-mb-2w">Experts déployés :</p>
         <ul class="detail__data detail__data--team fr-ml-2w fr-ml-md-6w fr-mb-1v">
           <li v-for="expert in $page.accompagnement.experts" :key="expert.id" class="team-member fr-mb-1v">
             <g-image :src="findPhoto(expert.slug).photo" class="team-member__photo fr-mr-1w" alt="" />

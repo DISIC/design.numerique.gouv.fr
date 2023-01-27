@@ -46,18 +46,18 @@
 
       <section class="dg-content dg-section-with-link fr-mt-8w fr-px-2w">
         <h2 class="dg-section-with-link_title">Nos offres</h2>
-        <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link>
+        <!-- <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link> -->
         <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/accompagnement/">Les experts</g-link>
+                  <g-link class="fr-tile__link fr-text--xl" to="/accompagnement/">Nos accompagnements</g-link>
                 </h3>
-                <p class="fr-tile__desc">Nos experts pour vous aider au quotidien.</p>
+                <p class="fr-tile__desc">Faites intérvenir nos experts pour améliorer vos services.</p>
               </div>
               <div class="fr-tile__img">
-                <img svg-inline src="../assets/images/experts.svg" class="fr-responsive-img" aria-hidden="true">
+                <img svg-inline src="../assets/images/accompagnement.svg" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>
           </div>
@@ -65,12 +65,12 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/commando-ux/">Le Commando UX</g-link>
+                  <g-link class="fr-tile__link fr-text--xl" to="/articles/2022-05-09-permanence-experts/">Notre permanence</g-link>
                 </h3>
-                <p class="fr-tile__desc">Des designers déployés au sein de votre équipe.</p>
+                <p class="fr-tile__desc">Posez toutes vos questions à nos experts du numérique.</p>
               </div>
               <div class="fr-tile__img">
-                <img svg-inline src="../assets/images/commando.svg" class="fr-responsive-img" aria-hidden="true">
+                <img svg-inline src="../assets/images/permanence.svg" class="fr-responsive-img" aria-hidden="true">
               </div>
             </div>
           </div>
@@ -78,9 +78,9 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
-                  <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/Aide/Donner%20son%20avis" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
+                  <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
                 </h3>
-                <p class="fr-tile__desc">Le bouton pour mesurer la satisfaction de vos usagers.</p>
+                <p class="fr-tile__desc">Mesurez la satisfaction des usagers de vos services.</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
@@ -93,7 +93,7 @@
                 <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L’Observatoire</a>
                 </h3>
-                <p class="fr-tile__desc">Les 250 démarches les plus utilisées passées à la loupe.</p>
+                <p class="fr-tile__desc">Suivez la qualité des démarches que vous portez.</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">

@@ -79,19 +79,31 @@
 
         <ul class="missions">
 
-          <li v-for="{ node } in futurMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-1w fr-py-md-2v">
+          <li v-for="{ node } in presentAccompagnements" :key="node.id" class="mission fr-px-md-2w fr-pt-1w fr-py-md-2v">
             <div class="mission__left">
-              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+              <h3 class="mission__name"><g-link :to="'/accompagnement/' + $slugify(node.name)">{{ node.name }}</g-link></h3>
             </div>
             <div class="mission__right">
               <ul class="mission__team fr-pt-md-1v">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
+                <li v-for="expert in node.experts" :key="expert.id" ><g-image class="mission__team-member fr-ml-3v" :src="findPhoto(expert.slug).photo" :alt="expert.name" /></li>
               </ul>
-              <p class="fr-badge fr-badge--pink-macaron fr-ml-md-2w">À venir</p>
+              <p class="fr-badge fr-badge--sm fr-badge--info fr-badge--no-icon fr-ml-md-2w">En cours</p>
             </div>
           </li>
 
-          <li v-for="{ node } in presentMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
+          <li v-for="{ node } in pastAccompagnements" :key="node.id" class="mission fr-px-md-2w fr-pt-1w fr-py-md-2v">
+            <div class="mission__left">
+              <h3 class="mission__name"><g-link :to="'/accompagnement/' + $slugify(node.name)">{{ node.name }}</g-link></h3>
+            </div>
+            <div class="mission__right">
+              <ul class="mission__team fr-pt-md-1v">
+                <li v-for="expert in node.experts" :key="expert.id" ><g-image class="mission__team-member fr-ml-3v" :src="findPhoto(expert.slug).photo" :alt="expert.name" /></li>
+              </ul>
+              <p class="fr-badge fr-badge--sm fr-badge--success fr-badge--no-icon fr-ml-md-2w">Terminé</p>
+            </div>
+          </li>
+
+          <li v-for="{ node } in $page.missions.edges" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
               <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
@@ -99,19 +111,7 @@
               <ul class="mission__team fr-pt-md-1w">
                 <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
               </ul>
-              <p class="fr-badge fr-badge--green-tilleul-verveine fr-ml-md-2w">En cours</p>
-            </div>
-          </li>
-
-          <li v-for="{ node } in pastMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
-            <div class="mission__left">
-              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
-            </div>
-            <div class="mission__right">
-              <ul class="mission__team fr-pt-md-1w">
-                <li v-for="member in node.team" :key="member.id" ><g-image class="mission__team-member fr-ml-3v" :src="member.photo" :alt="member.firstName+' '+member.lastName" /></li>
-              </ul>
-              <p class="fr-badge fr-badge--sm fr-badge--grey fr-ml-md-2w">Terminée</p>
+              <p class="fr-badge fr-badge--sm fr-badge--success fr-badge--no-icon fr-ml-md-2w">Terminé</p>
             </div>
           </li>
 
@@ -126,7 +126,7 @@
 <page-query>
 
   query {
-    allMission (sortBy: "title", order: ASC) {
+    missions: allMission (sortBy: "title", order: ASC) {
       edges {
         node {
         	id
@@ -147,6 +147,32 @@
         }
       }
     }
+    accompagnements: allAccompagnement (sortBy: "date", order: ASC) {
+      edges {
+        node {
+          id
+          name
+          experts {
+            id
+            name
+            slug
+          }
+          date
+          status
+        }
+      }
+    }
+    people: allPeople (sortBy: "lastName", order: ASC) {
+      edges {
+        node {
+          id
+          firstName
+          lastName
+          job_title
+          photo (width: 96, height: 96, quality: 100)
+        }
+      }
+    }
   }
 
 </page-query>
@@ -155,15 +181,17 @@
 <script>
   export default {
     computed: {
-      pastMissions: function () {
-        return this.$page.allMission.edges.filter(mission => mission.node.status == 'past')
+      pastAccompagnements: function () {
+        return this.$page.accompagnements.edges.filter(accompagnement => this.$slugify(accompagnement.node.status[0]) == 'termine')
       },
-      presentMissions: function () {
-        return this.$page.allMission.edges.filter(mission => mission.node.status == 'present')
+      presentAccompagnements: function () {
+        return this.$page.accompagnements.edges.filter(accompagnement => this.$slugify(accompagnement.node.status[0]) == 'en-cours')
       },
-      futurMissions: function () {
-        return this.$page.allMission.edges.filter(mission => mission.node.status == 'futur')
-      },
+    },
+    methods: {
+      findPhoto(id) {
+        return this.$page.people.edges.filter(person => person.node.id == id)[0].node;
+      }
     },
     metaInfo: {
       title: "Commando UX",

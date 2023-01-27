@@ -266,7 +266,7 @@ module.exports = {
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
     Formation: '/formations/:Slug',
-    Accompagnement: '/accompagnement/:Slug',
+    Accompagnement: '/accompagnement/:Name',
     // Poste: '/recrutement/:Slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },

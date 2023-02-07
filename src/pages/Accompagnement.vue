@@ -14,7 +14,7 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Accompagnement</h1>
-        <p class="fr-text--lead">Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une vraie approche design pour votre service mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !</p>
+        <p class="fr-text--lead">Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une vraie approche design pour votre service, mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !</p>
       </div>
     </div>
 
@@ -53,7 +53,7 @@
 
       <div class="fr-mb-6w">
         <h2>Comment être accompagné ?</h2>
-        <p>Si vous êtes une administration d’Etat en charge de l’une des démarches recensées dans l’Observatoire, rien de plus simple :</p>
+        <p>Si vous êtes une administration d’État en charge de l’une des démarches recensées dans l’Observatoire, rien de plus simple :</p>
         <ol class="fr-mb-2w">
           <li class="dg-text-with-picto fr-mb-1w">
             <strong class="dg-picto dg-picto--xs fr-mr-3v">1</strong>

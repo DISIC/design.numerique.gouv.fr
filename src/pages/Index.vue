@@ -54,7 +54,7 @@
                 <h3 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--xl" to="/accompagnement/">Nos accompagnements</g-link>
                 </h3>
-                <p class="fr-tile__desc">Faites intérvenir nos experts pour améliorer vos services.</p>
+                <p class="fr-tile__desc">Faites intervenir nos experts pour améliorer vos services.</p>
               </div>
               <div class="fr-tile__img">
                 <img svg-inline src="../assets/images/accompagnement.svg" class="fr-responsive-img" aria-hidden="true">

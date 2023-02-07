@@ -105,7 +105,7 @@
 
           <li v-for="{ node } in $page.missions.edges" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
-              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+              <h3 class="mission__name"><g-link :to="'/accompagnement/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
               <ul class="mission__team fr-pt-md-1w">

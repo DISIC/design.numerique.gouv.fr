@@ -9,7 +9,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
+              <g-link to="/accompagnement/" class="fr-breadcrumb__link">Accompagnement</g-link>
             </li>
             <li>
               <span aria-current="page">{{ $page.mission.title }}</span>

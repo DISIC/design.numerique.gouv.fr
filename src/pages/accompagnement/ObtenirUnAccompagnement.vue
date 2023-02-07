@@ -29,6 +29,10 @@
         <form class="form" v-on:submit.prevent="addCandidate">
           <p><small>Sauf mention contraire, tous les champs sont obligatoires.</small></p>
           <div class="fr-input-group">
+            <label class="fr-label" for="name">Votre nom</label>
+            <input class="fr-input" type="text" id="name" v-model="form.name" required>
+          </div>
+          <div class="fr-input-group">
             <label class="fr-label" for="email">Votre adresse e-mail <span class="fr-hint-text">L’adresse e-mail doit être au format prenom@mail.fr</span></label>
             <input class="fr-input" type="email" id="email" v-model="form.email" required>
           </div>
@@ -97,6 +101,7 @@
       return {
         poste: {},
         form: {
+          name: '',
           email: '',
           service: '',
           description: '',
@@ -111,7 +116,8 @@
         base('tblfDh7NA0MCjxxsN').create([
         {
           "fields": {
-            "fldy4RnxSe4Zvj8vq": this.form.email,
+            "fldy4RnxSe4Zvj8vq": this.form.name,
+            "fldth995tXb2utb94": this.form.email,
             "fld4TfBjLenSsDt0F": this.form.service,
             "fldHMNxUJPYcwsW7k": this.form.description,
           }

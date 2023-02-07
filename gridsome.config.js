@@ -261,7 +261,7 @@ module.exports = {
   },
   templates: {
     People: '/equipe/:id',
-    Mission: '/commando-ux/:slug',
+    Mission: '/accompagnement/commando-ux/:slug',
     Article: '/articles/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',

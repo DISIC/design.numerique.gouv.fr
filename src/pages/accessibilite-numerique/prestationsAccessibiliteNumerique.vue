@@ -17,7 +17,7 @@
       </nav>
 
       <h1>Prestations accessibilité numérique</h1>
-      <p class="fr-text--lead">L’accord cadre accompagnement et formations de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2022, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
+      <p class="fr-text--lead">L’accord cadre accompagnement et formations de la <abbr title="Direction des achats de l’État">DAÉ</abbr> a pris fin le 20/11/21. Dans l’attente de son renouvellement en 2023, vous pouvez tout de même faire appel à des professionnels du secteur.</p>
 
       <section>
         <h2>Les commandes hors marché restent possibles</h2>

@@ -323,7 +323,7 @@ export default {
 };
 </script>
 
-<style scoped lang='scss'>
+<style scoped lang="scss">
 .dg-pidila-accordions {
   list-style-type: none;
   padding-left: 0;

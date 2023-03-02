@@ -42,67 +42,69 @@
     </section>
 
     <div class="dg-content fr-px-2w">
-      <!-- Filters and tools -->
-      <div class="fr-mb-8w">
-        <Toolbar
-          @conceal-all="toggleAll(false)"
-          @disclose-all="toggleAll(true)"
-        />
-        <Search @search="updateSearch" />
-        <section class="fr-accordion fr-mb-2w" id="prout">
-          <h2 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-filters"
-            >
-              Filtrer les critères
-            </button>
-          </h2>
-          <div class="fr-collapse" id="accordion-filters">
-            <Filters
-              @filter-profile="updateProfileFilters"
-              @filter-reference="updateReferenceFilters"
-            />
+      <div class="fr-container">
+        <div class="fr-grid-row fr-grid-row--gutters">
+          <div class="fr-col-12 fr-col-md-4">
+            <!-- Filters and tools -->
+            <Search @search="updateSearch" />
+            <section class="fr-accordion fr-mb-2w" id="prout">
+              <h2 class="fr-accordion__title">
+                <button
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-filters"
+                >
+                  Filtrer les critères
+                </button>
+              </h2>
+              <div class="fr-collapse" id="accordion-filters">
+                <Filters
+                  @filter-profile="updateProfileFilters"
+                  @filter-reference="updateReferenceFilters"
+                />
+              </div>
+            </section>
+            <!-- Results info -->
+            <div role="alert" aria-live="polite" aria-atomic="true">
+              <button
+                v-if="isFiltered"
+                class="fr-btn fr-btn--tertiary"
+                @click="resetFilters"
+              >
+                Réinitialiser les filtres
+              </button>
+            </div>
           </div>
-        </section>
-
-        <!-- Results info -->
-        <div
-          class="fr-mb-8w"
-          role="alert"
-          aria-live="polite"
-          aria-atomic="true"
-        >
-          <ResultsMessage
-            :results-count="filteredCriteria.length"
-            :search="searchQuery"
-            :profiles="profileFilters"
-            :references="referenceFilters"
-          />
-          <button
-            v-if="isFiltered"
-            class="fr-btn fr-btn--tertiary"
-            @click="resetFilters"
-          >
-            Réinitialiser les filtres
-          </button>
+          <div class="fr-col-12 fr-col-md-8">
+            <div class="dg-pidila-result-bar">
+              <ResultsMessage
+                :results-count="filteredCriteria.length"
+                :search="searchQuery"
+                :profiles="profileFilters"
+                :references="referenceFilters"
+              />
+              <Toolbar
+                @conceal-all="toggleAll(false)"
+                @disclose-all="toggleAll(true)"
+                class="dg-pidila-result-bar-tools"
+              />
+            </div>
+            <!-- Criteria list -->
+            <section>
+              <ul v-if="filteredCriteria.length" class="dg-pidila-accordions">
+                <Criterion
+                  v-for="edge in filteredCriteria"
+                  :key="edge.node.id"
+                  :criterion="edge"
+                />
+              </ul>
+              <div v-else class="fr-p-2w">
+                Aucun critère ne correspond aux filtres appliqués.
+              </div>
+            </section>
+          </div>
         </div>
       </div>
-
-      <!-- Criteria list -->
-      <section>
-        <ul v-if="filteredCriteria.length" class="dg-pidila-accordions">
-          <Criterion
-            v-for="edge in filteredCriteria"
-            :key="edge.node.id"
-            :criterion="edge"
-          />
-        </ul>
-        <div v-else class="fr-p-2w">
-          Aucun critère ne correspond aux filtres appliqués.
-        </div>
-      </section>
     </div>
   </Layout>
 </template>
@@ -324,8 +326,26 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.dg-pidila-accordions {
-  list-style-type: none;
-  padding-left: 0;
+.dg-pidila {
+  &-accordions {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  &-result-bar {
+    display: flex;
+    gap: 1em;
+    margin: var(--text-spacing);
+    @media only screen and (max-width: $sm-point) {
+      flex-wrap: wrap;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+  &-result-bar-tools {
+    flex: 1 0 auto;
+    margin-right: -1rem;
+  }
 }
 </style>

@@ -51,7 +51,7 @@
       <section>
         <h2>En appui</h2>
         <ul class="dg-team">
-          <li v-for="{ node } in external" :key="node.id" class="dg-team-member">
+          <li v-for="{ node } in obs" :key="node.id" class="dg-team-member">
             <g-image class="dg-team-member__photo" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
             <h3 class="dg-team-member__name fr-h6">{{ node.firstName }} {{ node.lastName }}</h3>
             <p class="dg-team-member__title">{{ node.job_title }}</p>
@@ -66,6 +66,26 @@
         </ul>
       </section>
 
+
+      <section>
+        <h2>Les expertes et les experts</h2>
+        <ul class="dg-team">
+          <li v-for="{ node } in expert" :key="node.id" class="dg-team-member">
+            <g-image class="dg-team-member__photo" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
+            <h3 class="dg-team-member__name fr-h6">{{ node.firstName }} {{ node.lastName }}</h3>
+            <p class="dg-team-member__title">{{ node.job_title }}</p>
+            <p v-if="node.sub_team_link" class="dg-team-member__team">
+              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
+            </p>
+            <p v-else-if="node.sub_team" class="dg-team-member__team">{{ node.sub_team }}</p>
+            <p v-if="node.twitter" class="dg-team-member__twitter">
+              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
+            </p>
+          </li>
+        </ul>
+      </section>
+
+
     </div>
   </Layout>
 </template>
@@ -73,7 +93,7 @@
 
 <page-query>
   query {
-    allPeople (filter: { group: { containsAny: ["team", "external"] }}, sortBy: "lastName", order: ASC) {
+    allPeople (filter: { group: { containsAny: ["team", "expert", "obs"] }}, sortBy: "lastName", order: ASC) {
       edges {
         node {
         	id
@@ -108,6 +128,12 @@
       },
       external: function () {
         return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('external'))
+      },
+      obs: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('obs'))
+      },
+      expert: function () {
+        return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('expert'))
       },
     }
   }

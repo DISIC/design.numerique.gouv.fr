@@ -8,8 +8,8 @@
 
     <!-- Text search -->
     <template v-if="search">
-      correspondant à la recherche «
-      <strong>{{ this.search }}</strong> »</template
+      correspondant à la recherche «&nbsp;<strong>{{ this.search }}</strong
+      >&nbsp;»</template
     >
 
     <!-- Profiles -->

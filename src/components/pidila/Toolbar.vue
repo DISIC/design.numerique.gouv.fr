@@ -3,17 +3,6 @@
     <ul class="fr-btns-group fr-btns-group--inline">
       <li>
         <button
-          class="fr-btn fr-btn--tertiary-no-outline fr-icon-link"
-          type="button"
-          title="Copier la liste dans le presse-papier"
-          @click="copyLink"
-          @blur="hideClipboardAlert"
-        >
-          Copier la liste dans le presse-papier
-        </button>
-      </li>
-      <li>
-        <button
           ref="printButton"
           class="fr-btn fr-btn--tertiary-no-outline fr-icon-printer-fill"
           type="button"
@@ -21,6 +10,17 @@
           @click="printList"
         >
           Imprimer la liste
+        </button>
+      </li>
+      <li>
+        <button
+          class="fr-btn fr-btn--tertiary-no-outline fr-icon-link"
+          type="button"
+          title="Copier la liste dans le presse-papier"
+          @click="copyLink"
+          @blur="hideClipboardAlert"
+        >
+          Copier la liste dans le presse-papier
         </button>
       </li>
       <!-- <li>

@@ -66,7 +66,7 @@
 
   </header>
     <main id="main" role="main">
-      <div class="fr-container fr-container--fluid">
+      <div class="fr-container">
         <slot/>
       </div>
     </main>

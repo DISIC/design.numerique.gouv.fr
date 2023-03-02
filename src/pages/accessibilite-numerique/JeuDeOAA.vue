@@ -42,7 +42,7 @@
               <h3 class="fr-mb-1w"><button class="dg-goose__card-title"  data-fr-opened="false" :aria-controls="card.node.id" :id="card.node.id + '__open-button'"><strong>{{ card.node.title }}</strong></button></h3>
 
               <dialog :aria-labelledby="'fr-modal-'+card.node.id" :id="card.node.id" class="fr-modal" role="dialog">
-                <div class="fr-container fr-container--fluid fr-container-md">
+                <div class="fr-container fr-container-md">
                   <div class="fr-grid-row fr-grid-row--center">
                     <div class="fr-col-12 fr-col-md-8">
                       <div class="fr-modal__body">

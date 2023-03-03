@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul class="fr-btns-group fr-btns-group--inline">
+    <ul class="fr-btns-group fr-btns-group--inline btns-group--justify-end">
       <li>
         <button
           ref="printButton"
@@ -95,3 +95,11 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+@media only screen and (min-width: $sm-point) {
+  .btns-group--justify-end {
+    justify-content: flex-end;
+  }
+}
+</style>

@@ -20,8 +20,7 @@
               </div>
               <div class="fr-modal__content">
                 <h1 id="fr-modal-title-modal-1" class="fr-modal__title"
-                  ><span class="fr-fi-arrow-right-line fr-fi--lg"></span>Filtrer
-                  les critères</h1
+                  >Filtrer les critères</h1
                 >
                 <Filters
                   mode="condensed"

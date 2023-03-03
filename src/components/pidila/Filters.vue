@@ -1,16 +1,19 @@
 <template>
   <div>
     <!-- Profiles -->
-    <div class="fr-form-group">
+    <div class="fr-form-group fr-mb-12v">
       <fieldset class="fr-fieldset fr-fieldset--inline">
         <legend
-          class="fr-fieldset__legend fr-text--regular"
-          title="Filter les critères par profils"
+          class="fr-fieldset__legend"
+          title="Filter les critères par profil"
         >
-          Filtrer par profil
+          <h2 class="fr-h6">Filtrer par profil</h2>
         </legend>
         <div class="fr-fieldset__content">
-          <ul class="fr-tags-group tags-group--vertical-group">
+          <ul
+            class="fr-tags-group"
+            :class="{ 'tags-group--vertical-group': isVertical }"
+          >
             <li>
               <button
                 class="fr-tag"
@@ -39,11 +42,16 @@
     <!-- References -->
     <div class="fr-form-group">
       <fieldset class="fr-fieldset fr-fieldset--inline">
-        <legend class="fr-fieldset__legend fr-text--regular">
-          Filtrer par référence
-        </legend>
+        <legend
+          class="fr-fieldset__legend"
+          title="Filter les critères par référence"
+          ><h2 class="fr-h6">Filtrer par référence</h2></legend
+        >
         <div class="fr-fieldset__content">
-          <ul class="fr-tags-group tags-group--vertical-group">
+          <ul
+            class="fr-tags-group"
+            :class="{ 'tags-group--vertical-group': isVertical }"
+          >
             <li>
               <button
                 class="fr-tag"
@@ -74,6 +82,15 @@
 <script>
 export default {
   name: "Filters",
+  props: {
+    mode: {
+      validator(value) {
+        // The value must match one of these strings
+        return ["vertical", "condensed"].includes(value);
+      },
+      default: "vertical",
+    },
+  },
   data() {
     return {
       profiles: [
@@ -104,6 +121,11 @@ export default {
     this.filterReferences();
   },
   computed: {
+    isVertical: {
+      get() {
+        return this.mode === "vertical";
+      },
+    },
     allProfiles: {
       get() {
         return !this.profileFilters.length;
@@ -172,5 +194,8 @@ export default {
 }
 .tags-group--vertical-group > li {
   display: block;
+}
+h2 {
+  color: var(--text-title-blue-france);
 }
 </style>

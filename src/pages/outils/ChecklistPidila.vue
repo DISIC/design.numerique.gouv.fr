@@ -1,5 +1,39 @@
 <template>
   <Layout>
+    <dialog
+      aria-labelledby="fr-modal-title-modal-1"
+      role="dialog"
+      id="fr-modal-1"
+      class="fr-modal fr-unhidden-sm fr-hidden-md"
+    >
+      <div class="fr-container fr-container--fluid fr-container-md">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+            <div class="fr-modal__body">
+              <div class="fr-modal__header">
+                <button
+                  class="fr-link--close fr-link"
+                  title="Fermer la fenêtre modale"
+                  aria-controls="fr-modal-1"
+                  >Fermer</button
+                >
+              </div>
+              <div class="fr-modal__content">
+                <h1 id="fr-modal-title-modal-1" class="fr-modal__title"
+                  ><span class="fr-fi-arrow-right-line fr-fi--lg"></span>Filtrer
+                  les critères</h1
+                >
+                <Filters
+                  mode="condensed"
+                  @filter-profile="updateProfileFilters"
+                  @filter-reference="updateReferenceFilters"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </dialog>
     <!-- Hero banner -->
     <section class="dg-cover dg-cover--linear fr-mb-6w">
       <div class="dg-cover__container fr-mb-1w">
@@ -41,61 +75,66 @@
       </div>
     </section>
 
-    <div class="dg-content fr-px-2w">
-      <div class="fr-container">
-        <div class="fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-12 fr-col-md-4">
-            <!-- Filters and tools -->
-            <Search @search="updateSearch" />
-            <section>
-              <h2>Filtrer les critères </h2>
-              <div>
-                <Filters
-                  @filter-profile="updateProfileFilters"
-                  @filter-reference="updateReferenceFilters"
-                />
-              </div>
-            </section>
-            <!-- Results info -->
-            <div role="alert" aria-live="polite" aria-atomic="true">
-              <button
-                v-if="isFiltered"
-                class="fr-btn fr-btn--tertiary"
-                @click="resetFilters"
-              >
-                Réinitialiser les filtres
-              </button>
-            </div>
+    <div class="fr-grid-row fr-grid-row--gutters">
+      <div class="fr-col-12 fr-col-md-3">
+        <!-- Filters and tools -->
+        <Search @search="updateSearch" />
+        <section>
+          <div class="fr-unhidden-sm fr-hidden-md">
+            <button
+              class="
+                fr-btn fr-btn--secondary fr-btn--icon-right
+                fr-icon-filter-line
+                btn-filters
+              "
+              data-fr-opened="false"
+              aria-controls="fr-modal-1"
+            >
+              Filtres
+            </button>
           </div>
-          <div class="fr-col-12 fr-col-md-8">
-            <div class="result-bar">
-              <ResultsMessage
-                :results-count="filteredCriteria.length"
-                :search="searchQuery"
-                :profiles="profileFilters"
-                :references="referenceFilters"
-              />
-              <Toolbar
-                @conceal-all="toggleAll(false)"
-                @disclose-all="toggleAll(true)"
-                class="result-bar-tools"
-              />
-            </div>
-            <!-- Criteria list -->
-            <section>
-              <ul v-if="filteredCriteria.length" class="accordions">
-                <Criterion
-                  v-for="edge in filteredCriteria"
-                  :key="edge.node.id"
-                  :criterion="edge"
-                />
-              </ul>
-              <div v-else class="fr-p-2w">
-                Aucun critère ne correspond aux filtres appliqués.
-              </div>
-            </section>
+          <div class="fr-hidden fr-unhidden-md">
+            <Filters
+              @filter-profile="updateProfileFilters"
+              @filter-reference="updateReferenceFilters"
+            />
           </div>
+        </section>
+      </div>
+      <div class="fr-col-12 fr-col-md-1"> </div>
+      <div class="fr-col-12 fr-col-md-8">
+        <!-- Results info -->
+        <div
+          class="result-bar fr-mb-4v fr-mb-md-12v"
+          role="alert"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <ResultsMessage
+            :results-count="filteredCriteria.length"
+            :search="searchQuery"
+            :profiles="profileFilters"
+            :references="referenceFilters"
+          />
+          <Toolbar
+            @conceal-all="toggleAll(false)"
+            @disclose-all="toggleAll(true)"
+            class="result-bar-tools"
+          />
         </div>
+        <!-- Criteria list -->
+        <section>
+          <ul v-if="filteredCriteria.length" class="accordions">
+            <Criterion
+              v-for="edge in filteredCriteria"
+              :key="edge.node.id"
+              :criterion="edge"
+            />
+          </ul>
+          <div v-else class="fr-p-2w">
+            Aucun critère ne correspond aux filtres appliqués.
+          </div>
+        </section>
       </div>
     </div>
   </Layout>
@@ -322,11 +361,14 @@ export default {
   list-style-type: none;
   padding-left: 0;
 }
+.btn-filters {
+  width: 100%;
+  justify-content: center;
+}
 .result-bar {
   display: flex;
   align-items: center;
   gap: 1em;
-  margin: var(--text-spacing);
   @media only screen and (max-width: $sm-point) {
     flex-wrap: wrap;
   }

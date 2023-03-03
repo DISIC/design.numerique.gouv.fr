@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="search" class="fr-mb-2w">
+  <form @submit.prevent="search" class="fr-mb-4v fr-mb-md-12v">
     <div class="fr-search-bar" id="header-search" role="search">
       <label class="fr-label" for="search">Rechercher parmi les critères</label>
       <input

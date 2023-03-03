@@ -3,35 +3,35 @@
     <!-- Profiles -->
     <div class="fr-form-group">
       <fieldset class="fr-fieldset fr-fieldset--inline">
-        <legend class="fr-fieldset__legend fr-text--regular">
+        <legend
+          class="fr-fieldset__legend fr-text--regular"
+          title="Filter les critères par profils"
+        >
           Filtrer par profil
         </legend>
         <div class="fr-fieldset__content">
-          <div class="fr-checkbox-group">
-            <input
-              type="checkbox"
-              id="filters-profile-all"
-              value="Tous"
-              v-model="allProfile"
-            />
-            <label class="fr-label" for="filters-profile-all">Tous</label>
-          </div>
-          <div
-            v-for="(profile, i) in profiles"
-            :key="profile"
-            class="fr-checkbox-group"
-          >
-            <input
-              type="checkbox"
-              :id="`filters-profile-${i}`"
-              :value="profile"
-              v-model="profileFilters"
-              @change="filterProfile"
-            />
-            <label class="fr-label" :for="`filters-profile-${i}`"
-              >{{ profile }}
-            </label>
-          </div>
+          <ul class="fr-tags-group tags-group--vertical-group">
+            <li>
+              <button
+                class="fr-tag"
+                id="filters-profile-all"
+                value="Tous"
+                :aria-pressed="allProfiles"
+                @click="allProfiles = true"
+                >Tous</button
+              >
+            </li>
+            <li v-for="(profile, i) in profiles" :key="profile">
+              <button
+                class="fr-tag"
+                :id="`filters-profile-${i}`"
+                :value="profile"
+                :aria-pressed="isProfileFiltered(profile)"
+                @click="onProfileButtonClick"
+                >{{ profile }}</button
+              >
+            </li>
+          </ul>
         </div>
       </fieldset>
     </div>
@@ -43,31 +43,28 @@
           Filtrer par référence
         </legend>
         <div class="fr-fieldset__content">
-          <div class="fr-checkbox-group">
-            <input
-              type="checkbox"
-              id="filters-reference-all"
-              value="Tous"
-              v-model="allReference"
-            />
-            <label class="fr-label" for="filters-reference-all">Tous</label>
-          </div>
-          <div
-            v-for="(reference, i) in references"
-            :key="reference"
-            class="fr-checkbox-group"
-          >
-            <input
-              type="checkbox"
-              :id="`filters-reference-${i}`"
-              :value="reference"
-              v-model="referenceFilters"
-              @change="filterReference"
-            />
-            <label class="fr-label" :for="`filters-reference-${i}`">
-              {{ reference }}
-            </label>
-          </div>
+          <ul class="fr-tags-group tags-group--vertical-group">
+            <li>
+              <button
+                class="fr-tag"
+                id="filters-profile-all"
+                value="Tous"
+                :aria-pressed="allReferences"
+                @click="allReferences = true"
+                >Toutes</button
+              >
+            </li>
+            <li v-for="(reference, i) in references" :key="reference">
+              <button
+                class="fr-tag"
+                :id="`filters-reference-${i}`"
+                :value="reference"
+                :aria-pressed="isReferenceFiltered(reference)"
+                @click="onReferenceButtonClick"
+                >{{ reference }}</button
+              >
+            </li>
+          </ul>
         </div>
       </fieldset>
     </div>
@@ -102,35 +99,61 @@ export default {
   mounted() {
     const { profil, reference } = this.$route.query;
     this.profileFilters = profil ? JSON.parse(profil) : [];
-    this.filterProfile();
+    this.filterProfiles();
     this.referenceFilters = reference ? JSON.parse(reference) : [];
-    this.filterReference();
+    this.filterReferences();
   },
   computed: {
-    allProfile: {
+    allProfiles: {
       get() {
         return !this.profileFilters.length;
       },
       set() {
         this.profileFilters = [];
-        this.filterProfile();
+        this.filterProfiles();
       },
     },
-    allReference: {
+    allReferences: {
       get() {
         return !this.referenceFilters.length;
       },
       set() {
         this.referenceFilters = [];
-        this.filterReference();
+        this.filterReferences();
       },
     },
   },
   methods: {
-    filterProfile() {
+    isProfileFiltered(profile) {
+      return this.profileFilters.includes(profile);
+    },
+    onProfileButtonClick(event) {
+      const profile = event.target.value;
+      const i = this.profileFilters.indexOf(profile);
+      if (i === -1) {
+        this.profileFilters.push(profile);
+      } else {
+        this.profileFilters.splice(i, 1);
+      }
+      this.filterProfiles();
+    },
+    filterProfiles() {
       this.$emit("filter-profile", this.profileFilters);
     },
-    filterReference() {
+    isReferenceFiltered(profile) {
+      return this.referenceFilters.includes(profile);
+    },
+    onReferenceButtonClick(event) {
+      const profile = event.target.value;
+      const i = this.referenceFilters.indexOf(profile);
+      if (i === -1) {
+        this.referenceFilters.push(profile);
+      } else {
+        this.referenceFilters.splice(i, 1);
+      }
+      this.filterReferences();
+    },
+    filterReferences() {
       this.$emit("filter-reference", this.referenceFilters);
     },
   },
@@ -142,3 +165,12 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.tags-group--vertical-group {
+  display: block;
+}
+.tags-group--vertical-group > li {
+  display: block;
+}
+</style>

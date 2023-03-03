@@ -47,17 +47,9 @@
           <div class="fr-col-12 fr-col-md-4">
             <!-- Filters and tools -->
             <Search @search="updateSearch" />
-            <section class="fr-accordion fr-mb-2w" id="prout">
-              <h2 class="fr-accordion__title">
-                <button
-                  class="fr-accordion__btn"
-                  aria-expanded="false"
-                  aria-controls="accordion-filters"
-                >
-                  Filtrer les critères
-                </button>
-              </h2>
-              <div class="fr-collapse" id="accordion-filters">
+            <section>
+              <h2>Filtrer les critères </h2>
+              <div>
                 <Filters
                   @filter-profile="updateProfileFilters"
                   @filter-reference="updateReferenceFilters"
@@ -76,7 +68,7 @@
             </div>
           </div>
           <div class="fr-col-12 fr-col-md-8">
-            <div class="dg-pidila-result-bar">
+            <div class="result-bar">
               <ResultsMessage
                 :results-count="filteredCriteria.length"
                 :search="searchQuery"
@@ -86,12 +78,12 @@
               <Toolbar
                 @conceal-all="toggleAll(false)"
                 @disclose-all="toggleAll(true)"
-                class="dg-pidila-result-bar-tools"
+                class="result-bar-tools"
               />
             </div>
             <!-- Criteria list -->
             <section>
-              <ul v-if="filteredCriteria.length" class="dg-pidila-accordions">
+              <ul v-if="filteredCriteria.length" class="accordions">
                 <Criterion
                   v-for="edge in filteredCriteria"
                   :key="edge.node.id"
@@ -325,27 +317,27 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-.dg-pidila {
-  &-accordions {
-    list-style-type: none;
-    padding-left: 0;
+<style lang="scss" scoped>
+.accordions {
+  list-style-type: none;
+  padding-left: 0;
+}
+.result-bar {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin: var(--text-spacing);
+  @media only screen and (max-width: $sm-point) {
+    flex-wrap: wrap;
   }
-  &-result-bar {
-    display: flex;
-    gap: 1em;
-    margin: var(--text-spacing);
-    @media only screen and (max-width: $sm-point) {
-      flex-wrap: wrap;
-    }
 
-    p {
-      margin: 0;
-    }
+  p {
+    margin: 0;
   }
-  &-result-bar-tools {
-    flex: 1 0 auto;
-    margin-right: -1rem;
-  }
+}
+.result-bar-tools {
+  flex: 1 0 auto;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
 }
 </style>

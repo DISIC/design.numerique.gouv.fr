@@ -195,7 +195,4 @@ export default {
 .tags-group--vertical-group > li {
   display: block;
 }
-h2 {
-  color: var(--text-title-blue-france);
-}
 </style>

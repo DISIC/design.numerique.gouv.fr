@@ -1,7 +1,7 @@
 ---
 title: Dématérialisation
 description: Les utilisateurs doivent pouvoir accéder à toutes les démarches concernées par le PNU et les accomplir intégralement en ligne.
-order: 1
+order: 3
 ---
 
 <div class="fr-callout fr-mb-4w"> 

@@ -1,7 +1,7 @@
 ---
 title: Recueil des avis utilisateurs
 description: Dans le cadre de l’Observatoire, le recueil des avis des utilisateurs se fait par le bouton et le formulaire Je donne mon avis.
-order: 2
+order: 4
 ---
 
 Les démarches suivies dans le cadre de l’Observatoire doivent proposer l’utilisation du bouton et du formulaire «&nbsp;Je donne mon avis&nbsp;» (JDMA). Le fait que certaines démarches sont concernées par le PNU ne remet pas en compte cette approche, mais la renforce. 

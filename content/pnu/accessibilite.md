@@ -1,7 +1,7 @@
 ---
 title: Accessibilité
 description: Les démarches concernées par le PNU doivent respecter les règles d’accessibilité.
-order: 3
+order: 5
 ---
 
 Cet aspect sera suivi de la même manière qu’il l’est actuellement pour l’ensemble des démarches recensées dans l’[Observatoire](https://observatoire.numerique.gouv.fr){title="Observatoire - nouvelle fenêtre"}.

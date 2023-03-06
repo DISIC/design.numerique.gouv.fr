@@ -1,7 +1,7 @@
 ---
 title: Champs à saisir
 description: Les champs à saisir et les pièces d’identité à joindre doivent être pensés pour que tous les citoyens européens puissent effectuer les démarches de la même manière.
-order: 6
+order: 8
 ---
 
 <div class="fr-callout fr-mb-4w"> 

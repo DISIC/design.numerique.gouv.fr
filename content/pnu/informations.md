@@ -1,7 +1,7 @@
 ---
 title: Informations sur la démarche
 description: Les utilisateurs doivent disposer, en français et en anglais, des informations relatives à la démarche, en amont de toute identification.
-order: 4
+order: 6
 ---
 
 <div class="fr-callout fr-mb-4w"> 

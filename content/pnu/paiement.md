@@ -1,7 +1,7 @@
 ---
 title: Paiement
 description: Si une démarche en ligne nécessite un paiement, celui-ci doit pouvoir être effectué en ligne dans les mêmes conditions quel que soit le pays européen de l’utilisateur.
-order: 7
+order: 9
 ---
 
 Les démarches en ligne qui nécessitent un paiement doivent prévoir des solutions de paiement largement disponibles dans l’ensemble des pays de l’Union européenne.

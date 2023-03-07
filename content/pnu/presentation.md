@@ -1,6 +1,6 @@
 ---
 title: Présentation
-description: La Direction interministérielle du numérique (Dinum) suit, dans le cadre du Portail numérique unique (PNU) européen, la dématérialisation des procédures qui concernent les citoyens et les entreprises de l’Union européenne. Ce suivi se fait en lien avec l’Observatoire de la qualité des démarches en ligne. Les demandes de la Commission européenne sont présentées ci-dessous (les tuiles sont cliquables).
+description: La Direction interministérielle du numérique (Dinum) suit, dans le cadre du Portail numérique unique (PNU) européen, la dématérialisation des procédures qui concernent les usagers et les entreprises de l’Union européenne. Les demandes de la Commission européenne sont présentées ci-dessous (les tuiles sont cliquables).
 order: 0
 ---
 
@@ -23,21 +23,11 @@ Il ne sera question ici ni du pilier&nbsp;I (pages d’information), suivi par l
 
 Les procédures concernées sont celles listées dans l’[Annexe II](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1) du Règlement. Le périmètre des procédures est détaillé dans le document (en anglais)&nbsp;: [220801 Explanatory document on scope of Annex II procedures_V03.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/9242984/220801.Explanatory.document.on.scope.of.Annex.II.procedures_V03.docx)
 
-Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (<span lang="en">Once Only Principle</span>), relatif à l’authentification et au Dites-le nous une fois. Il s’agit d’un sujet très technique dont le [Règlement d’exécution a été publié au JO UE le 6 septembre 2022](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R1463&qid=1662474257036) (pour une entrée en application le 12 décembre 2023). Il est également porté par d’autres acteurs -&nbsp;par conséquent, il ne sera pas abordé en tant que tel ici.
+Le Pilier II couvre aussi, dans le cadre des Procédures de l’Annexe II, l’OOP (<span lang="en">Once Only Principle</span>), relatif au «&nbsp;Dites-le nous une fois&nbsp;» européen. Il s’agit d’un sujet très technique dont le [Règlement d’exécution a été publié au JO UE le 6 septembre 2022](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32022R1463&qid=1662474257036) (pour une entrée en application le 12 décembre 2023). Il est également porté par d’autres acteurs -&nbsp;par conséquent, il ne sera pas abordé ici.
 
-Par souci d’optimisation des ressources et de cohérence avec nos autres missions, la décision a été prise de suivre les démarches françaises concernées via l’[Observatoire de la qualité des démarches en ligne](https://observatoire.numerique.gouv.fr/).
-
-Cette approche suppose&nbsp;:
-
-* d’établir un lien entre les démarches de l’Observatoire et les Procédures du PNU, sachant qu’une Procédure PNU peut ne pas exister en France, ou bien que plusieurs démarches de l’Observatoire peuvent concerner une même Procédure PNU.
-* d’identifier les démarches concernées mais qui ne sont pas suivies dans le cadre de l’Observatoire et prendre une décision les concernant (par exemple, les intégrer dans l’Observatoire). Par exemple, la [démarche](https://www.cleiss.fr/docs/textes/883-04/t2.html) concernant la Procédure PNU « Demander à établir quelle est la législation applicable conformément au titre II du règlement (CE) no 883/2004 du Parlement européen et du Conseil » (détermination de la Législation Sociale Applicable) n’est pas suivi dans l’Observatoire (et n’est [pas dématérialisée](https://www.cleiss.fr/pdf/form_dla.pdf)).
-
-Ce travail ne peut être effectué que par chacun des Ministères.
-
-Le lien entre Procédures PNU et Démarches Observatoire a été fait dans deux tableaux (qui demandent à être complétés et validés par les Ministères)&nbsp;:
-
-* Une [vue par Procédures définies par le Règlement](https://airtable.com/shrHA6vtsvmvEJygE/tblkvBZs4Hwj5JDhF).
-* Une [vue par Démarches de l’Observatoire](https://airtable.com/shrFh9LF94qois3sm).
+Le PNU a fait l’objet, le 2 mars 2023, d'un [webinaire dont l’enregistrement est disponible sur YouTube](https://youtu.be/yq13SImy5Ik) (durée&nbsp;: 1h45). Il reprend l’ensemble des éléments présents sur ce site&nbsp;: présentation, situation de la France, cartographie, critères fixés par la Commission, plan d’action. Les supports de présentation sont disponibles en téléchargement&nbsp;:
+* [Présentation webinaire PNU (PDF, 714Ko)](https://github.com/DISIC/design.numerique.gouv.fr/files/10908979/230302.Presentation.webinaire.PNU.pdf)
+* [Présentation webinaire PNU - Focus FranceConnect (PDF, 843Ko)](https://github.com/DISIC/design.numerique.gouv.fr/files/10908982/230302.Presentation.FC%2B.PNU.webinaire.pdf)
 
 La Commission met régulièrement à jour une [page en accès libre rassemblant l’ensemble des documents](https://ec.europa.eu/growth/single-digital-gateway-requirements_en) non-confidentiels qu’il convient de consulter pour obtenir l’exhaustivité des informations.
 
@@ -52,3 +42,4 @@ _Mis à jour&nbsp;:_
 * _le 06/05/22&nbsp;: Ajout du paragraphe concernant l’évolution de la position de la Commission sur les statistiques et du lien vers l’acte d’exécution._
 * _le 17/08/22&nbsp;: Nouvelle version du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;» (passage de la V2 à la V3)._
 * _le 07/09/22&nbsp;: Ajout des éléments relatif à la publication du Règlement OOTS._
+* _le 07/03/23&nbsp;: Suppression de la partie cartographie (nouvelle entrée depuis la page d'accueil) et ajout du webinaire._

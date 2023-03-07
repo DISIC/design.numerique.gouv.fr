@@ -1,6 +1,6 @@
 ---
 title: Calendrier et plan d’actions
-description: Le délai de mise en œuvre est fixé par la Commission à décembre 2023, ce qui suppose une mesure des écarts à l'attendu, un calendrier et une priorisation.
+description: Le délai de mise en œuvre est fixé par la Commission à décembre 2023, ce qui suppose une mesure des écarts à l’attendu, un calendrier et une priorisation.
 order: 2
 ---
 
@@ -18,7 +18,7 @@ Les critères de conformité sont les suivants&nbsp;:
 
 Chacun de ces critères est détaillé sur le site (pages disponibles à partir des tuiles sur la [page d’accueil PNU](https://design.numerique.gouv.fr/pnu/)).
 
-Ces critères ne traitent pas d’un autre sujet nécessitant la mobilisation des ministères et opérateurs, le OOP – Once-only principle, l’équivalent du «&nbsp;dites-le nous une fois&nbsp;», pour l’Europe. L’[acte d’exécution de l’OOP](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022R1463&from=EN) établit «&nbsp;les spécifications techniques et opérationnelles du système technique pour l’échange transfrontière automatisé de justificatifs et l’application du principe ‘une fois pour toutes’&nbsp;». 
+Ces critères ne traitent pas d’un autre sujet nécessitant la mobilisation des ministères et opérateurs, le OOP – <span lang="en">Once-only principle</span>, l’équivalent du «&nbsp;dites-le nous une fois&nbsp;», pour l’Europe. L’[acte d’exécution de l’OOP](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32022R1463&from=EN) établit «&nbsp;les spécifications techniques et opérationnelles du système technique pour l’échange transfrontière automatisé de justificatifs et l’application du principe ‘une fois pour toutes’&nbsp;». 
 
 L’échéance se rapprochant, le plan d’action pour chaque démarche est le suivant&nbsp;:
 *	Mesurer l’écart à l’attendu pour chaque critère&nbsp;;

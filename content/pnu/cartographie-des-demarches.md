@@ -3,7 +3,12 @@ title: Cartographie des démarches
 description: Le périmètre du PNU est déterminé par des procédures qui correspondent à une ou plusieurs démarches françaises.
 order: 1
 ---
-Le périmètre du PNU est déterminé par les procédures listées dans [l’Annexe II du Règlement](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1). Chacune de ces procédures est détaillée dans le document (en anglais)&nbsp;: [220801 Explanatory document on scope of Annex II procedures_V03.docx](https://github.com/DISIC/design.numerique.gouv.fr/files/9242984/220801.Explanatory.document.on.scope.of.Annex.II.procedures_V03.docx)
+Le périmètre du PNU est déterminé par les procédures listées dans [l’Annexe II du Règlement](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724&from=EN#d1e32-36-1).  
+Chacune de ces procédures est détaillée dans le document suivant (en anglais)&nbsp;:
+  <div class="fr-mb-2w fr-grid-row fr-grid-row--center">
+<a class="fr-btn" href="https://github.com/DISIC/design.numerique.gouv.fr/files/9242984/220801.Explanatory.document.on.scope.of.Annex.II.procedures_V03.docx" target="_blank" rel="noopener noreferrer" title="Description du périmètre des procédures (.docx - 139Ko) - nouvelle fenêtre">Télécharger la description des procédures (.docx - 139Ko)</a>
+</div>
+
 
 La mise en place du PNU suppose un travail de cartographie permettant d’établir un lien entre les démarches en vigueur en France et les procédures du PNU. Une procédure PNU peut ne pas exister en France (cas rare), ou bien concerner plusieurs démarches françaises (cas beaucoup plus fréquent).
 

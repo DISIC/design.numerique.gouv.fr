@@ -9,7 +9,9 @@ order: 7
 <p class="fr-callout__text">Dans tous les cas où cela est possible également pour les utilisateurs non transfrontières, les utilisateurs transfrontières sont en mesure de s’identifier et de s’authentifier, de signer ou de sceller des documents électroniquement.</p> 
 </div> 
 
-Dans le cadre du PNU, lorsqu’un utilisateur doit s’_identifier_ pour effectuer une démarche en ligne, il doit pouvoir le faire y compris s’il est d’un autre État-membre. Si l’identification s’accompagne d’une _authentification_ – c’est-à-dire que service en ligne s’assure que l’utilisateur est bien celui qu’il prétend être - les démarches doivent proposer une connexion soit via [FranceConnect](https://franceconnect.gouv.fr/), soit via [FranceConnect+](https://franceconnect.gouv.fr/france-connect-plus).
+Dans le cadre du PNU, il existe deux cas :
+* Lorsqu’un utilisateur doit simplement s’_identifier_ (sans s’_authentifier_) pour effectuer une démarche en ligne, il doit pouvoir le faire y compris s’il est d’un autre État-membre. Dans ce cas, il n'est pas nécessaire de passer par FranceConnect ou FranceConnect+.
+* Si l’identification s’accompagne d’une _authentification_ – c’est-à-dire que service en ligne s’assure que l’utilisateur est bien celui qu’il prétend être - les démarches doivent proposer une connexion soit via [FranceConnect](https://franceconnect.gouv.fr/), soit via [FranceConnect+](https://franceconnect.gouv.fr/france-connect-plus).
 
 Aussi bien FranceConnect (dans sa prochaine version, V2) que FranceConnect+ permettent de reconnaître les identités numériques des utilisateurs des autres États-membres via la connexion au [nœud d’interopérabilité européen eIDAS](https://www.ssi.gouv.fr/actualite/le-reglement-europeen-eidas-pour-la-confiance-dans-les-transactions-electroniques-entre-en-application/)&nbsp;; en d’autres termes, un utilisateur d’un autre État-membre pourra utiliser les identifiants et mots de passe de services (fournisseurs d’identités reconnus par l’eIDAS) de son pays pour se connecter.
 

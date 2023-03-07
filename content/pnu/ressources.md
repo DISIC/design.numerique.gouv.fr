@@ -37,8 +37,7 @@ Le **coordonnateur national** pour la France de l’ensemble du PNU est Umar Dah
 
 Pour toute question sur le **pilier II** du PNU, le contact est Anthony Brunelli, anthony.brunelli(a)modernisation.gouv.fr, à la Dinum.
 
-Concernant **FranceConnect+** Il est possible de consulter la [documentation sur son GitHub](https://github.com/france-connect/Documentation-FranceConnect-Plus). 
-Pour demander l’intégration de FranceConnect+, il convient de faire une [demande d’habilitation sur la page «&nbsp;Partenaires&nbsp;»](https://franceconnect.gouv.fr/partenaires) du site via une page d’éligibilité. Le contact est Christine Balian christine.balian(a)modernisation.gouv.fr, à la Dinum.
+Concernant **FranceConnect** et **FranceConnect+** La documentation est disponible sur son [GitHub](https://github.com/france-connect) en accès libre et sur la [page dédiée du site FranceConnect](https://partenaires.franceconnect.gouv.fr/fcp/fournisseur-service). Pour demander l’intégration de FranceConnect et FranceConnect+, il convient de faire une [demande d’habilitation sur la page «&nbsp;Partenaires&nbsp;»](https://franceconnect.gouv.fr/partenaires) du site via une page d’éligibilité. Le contact est Lauren Tron lauren.tron(a)modernisation.gouv.fr, à la Dinum.
 
 Pour tout ce qui concerne [service-public.fr](https://www.service-public.fr/), et notamment les **fiches d’informations relatives aux différentes démarches** ou tous les aspects propre au Pilier I du PNU, s'adresser à Anthony Brunelli de la Dinum - anthony.brunelli(a)modernisation.gouv.fr - qui fera la mise en contact avec le service compétent de la Direction de l’information légale et administrative (Dila). 
 
@@ -49,3 +48,4 @@ _Mis à jour&nbsp;:_
 * _le 12/07/22&nbsp;: Mise à jour du contact FranceConnect._
 * _le 17/08/22&nbsp;: Ajout de la V3 du document «&nbsp;Explanatory document on scope of Annex II procedures&nbsp;»._
 * _le 22/09/22&nbsp;: Ajout du lien vers le règlement OOTS et remplacement du contact pour les fiches d'informations._
+* _le 07/03/23&nbsp;: Mise à jour du contact et des ressources FranceConnect.

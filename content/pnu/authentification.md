@@ -38,5 +38,5 @@ _Mis à jour&nbsp;:_
 * _le 14/04/22&nbsp;: Ajout du paragraphe sur le conseil d’usage de FranceConnect et FranceConnect+._
 * _le 12/07/22&nbsp;: Mise à jour du contact FranceConnect._
 * _le 27/07/22&nbsp;: Ajout du renvoi à eIDAS, reformulation, suppression de la référence à l’acte d’exécution._
-* _le 07/03/23&nbsp;: Mise à jour du contenu avec FranceConnect V2 qui permettra la connexion eIDAS et du contact._
+* _le 07/03/23&nbsp;: Mise à jour du contenu avec FranceConnect V2 et le contact._
 * _le 08/03/23&nbsp;: Ajout des liens vers l'enregistrement et vers le support de présentation du webinaire._

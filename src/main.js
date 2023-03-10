@@ -147,4 +147,14 @@ library.add(
     })
     Vue.component('font-awesome', FontAwesomeIcon)
     head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }
+
+    // Don't scroll to top when dynamically changing
+    // query params on PiDila checklist
+    router.options.scrollBehavior = (to, from, savedPosition) => {
+      const PIDILA_PATH = '/outils/checklist-pidila/'
+
+      if (to.path === PIDILA_PATH && from.path === PIDILA_PATH) {
+        return {}
+      }
+    }
   }

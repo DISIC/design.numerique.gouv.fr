@@ -273,6 +273,8 @@ export default {
      * @param {string|array} value The query param value (e.g. "rgaa")
      */
     updateQueryParams(key, value) {
+      const previouslyFocusedElement = document.activeElement;
+
       const queryParams = {
         ...this.$route.query,
         [key]: Array.isArray(value) ? JSON.stringify(value) : value,
@@ -282,6 +284,9 @@ export default {
         .push({
           path: this.$route.path,
           query: Object.keys(queryParams).length ? queryParams : null,
+        })
+        .then(() => {
+          previouslyFocusedElement?.focus();
         })
         .catch(() => {});
     },

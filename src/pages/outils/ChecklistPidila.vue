@@ -273,6 +273,11 @@ export default {
      * @param {string|array} value The query param value (e.g. "rgaa")
      */
     updateQueryParams(key, value) {
+      // if params have not changed, nothing to do
+      if (this.$route.query[key] === JSON.stringify(value)) {
+        return;
+      }
+
       const previouslyFocusedElement = document.activeElement;
 
       const queryParams = {

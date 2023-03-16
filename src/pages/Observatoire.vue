@@ -149,7 +149,8 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    justify-content: flex-start;
+    /* autoprefixer: ignore next */
+    justify-content: start;
   div.meta {
       width: 18em;
     .when {

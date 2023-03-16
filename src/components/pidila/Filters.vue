@@ -17,7 +17,6 @@
             <li>
               <button
                 class="fr-tag"
-                id="filters-profile-all"
                 value="Tous"
                 :aria-pressed="allProfiles"
                 @click="allProfiles = true"
@@ -55,7 +54,6 @@
             <li>
               <button
                 class="fr-tag"
-                id="filters-profile-all"
                 value="Tous"
                 :aria-pressed="allReferences"
                 @click="allReferences = true"

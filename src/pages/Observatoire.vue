@@ -149,7 +149,7 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: flex-start;
   div.meta {
       width: 18em;
     .when {

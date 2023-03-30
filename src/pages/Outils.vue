@@ -211,12 +211,15 @@
           Le
           <a
             href="https://systeme-de-design.gouv.fr/"
+            rel="noreferrer noopener"
             title="système de design de l‘État - nouvelle fenêtre"
             target="_blank"
             >système de design de l’État</a
-          >
-          assure une cohérence graphique et une meilleure expérience utilisateur
-          sur les sites et applications web de l’État.
+          >, développé, maintenu et géré par le <a 
+          href="https://www.gouvernement.fr/service-d-information-du-gouvernement-sig"
+          rel="noreferrer noopener"
+          title="Service d’Information du Gouvernement - nouvelle fenêtre"
+          target="_blank">Service d’Information du Gouvernement</a>, assure une cohérence graphique et une meilleure expérience utilisateur sur les sites et applications web de l’État.
         </p>
         <p>Il propose :</p>
         <ul class="fr-mb-3w">
@@ -238,9 +241,18 @@
           </li>
           <li>une communauté active de designers et de développeurs.</li>
         </ul>
+        <div class="fr-highlight">
+       
+<p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a 
+  href="https://github.com/GouvernementFR/dsfr/blob/fix/readme/doc/legal/cgu.md"
+  rel="noreferrer noopener"
+  title="conditions générales d'utilisation - nouvelle fenêtre"
+  target="_blank"
+ >conditions générales d’utilisation</a>.</p>
+        </div>
       </section>
-
-      <p>
+<hr class=" fr-mt-8w">
+      <p class="fr-text--lead">
         Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes
         idées,
         <a

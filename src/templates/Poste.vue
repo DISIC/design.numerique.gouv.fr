@@ -36,7 +36,7 @@
         <h3 class="fr-h6" v-html="$page.poste.direction" />
         <p v-html="$page.poste.descriptionDirection" />
 
-        <div v-if="$page.poste.equipe">
+        <div v-if="$page.poste.descriptionEquipe">
           <h3 class="fr-h6" v-html="$page.poste.equipe" />
           <p v-html="$page.poste.descriptionEquipe" />
         </div>

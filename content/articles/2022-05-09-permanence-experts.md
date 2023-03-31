@@ -19,12 +19,12 @@ Afin de vous accompagner au mieux dans votre volonté d’**améliorer en contin
 
 ## Comment s’inscrire&nbsp;? 
 
-Facile ! Réservez un **créneau de 30 min** qui sera dédié à vos équipes, à vos problématiques et à vos questions&nbsp;! 
+Facile ! Réservez un **créneau de 30 minutes** qui sera dédié à vos équipes, à vos problématiques et à vos questions&nbsp;! 
 
 Dans le formulaire d’inscription, n’oubliez pas de nous préciser vos attentes et sujets pour que nous puissions identifier les experts qui pourront répondre à vos besoins. 
 
 ## Et cette permanence, elle a lieu quand&nbsp;?
 
-Tous les **mardis et jeudis, de 11h à 12h**&nbsp;! 
+Tous les **mardis et jeudis, de 11h à 12h**, en visioconférence&nbsp;! 
 
 [Réserver votre créneau](https://calendly.com/designgouv/permanence-experts?month=2022-05){class="fr-btn"}

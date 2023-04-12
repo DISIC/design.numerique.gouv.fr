@@ -3,7 +3,7 @@ title: La norme européenne sur l’accessibilité en français
 slug: 2023-04-11-accessibilite-norme-europeenne-francais
 publishedDate: 2023-04-11
 tags: ["accessibilité", "RGAA"]
-illustration: ./illustrations/2022-07-19-beta-site-rgaa.png
+illustration: ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
 description: Version en français de la norme européenne sur l’accessibilité utilisée par le RGAA 4
 ---
 <p>Version en français de la norme européenne sur l’accessibilité utilisée par le RGAA 4.</p>

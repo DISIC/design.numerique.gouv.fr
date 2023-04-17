@@ -53,7 +53,7 @@
         <div class="fr-callout fr-col-lg-10 fr-mt-2w fr-mb-8w">
           <h3 class="fr-callout__title">Le <abbr title="Fonds pour l’Insertion des Personnes Handicapées dans la Fonction Publique">FIPHFP</abbr> peut vous aider</h3>
           <p class="fr-callout__text">Le FIPHFP peut apporter une aide financière sur les prestations d’audit, d’accompagnement et de <strong>formation des agents de la fonction publique</strong>.<br>
-          Retrouvez les informations du <a href="http://www.fiphfp.fr/Espace-employeur/Interventions-du-FIPHFP" target="_blank" title="financement accessibilité numérique - nouvelle fenêtre">financement accessibilité numérique</a>.</p>
+          Retrouvez les informations du <a href="https://www.fiphfp.fr/employeurs/nos-aides-financieres/catalogue-des-interventions" target="_blank" title="financement accessibilité numérique - nouvelle fenêtre">financement accessibilité numérique</a>.</p>
         </div>
       </div>
 

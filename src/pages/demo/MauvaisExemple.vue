@@ -13,7 +13,7 @@
         <p><!-- balise utilisée à des fins de  présentation --></p>
         <p><!-- balise utilisée à des fins de  présentation --></p>
       </section>
-      <img src="/assets/images/bike.png" style="width:100%"  alt="L’anatomie d’une bicyclette"  />
+      <img src="/assets/images/veloeclate.jpg" alt="Vue éclatée d’une bicyclette" />
       <section class="fr-grid-row fr-grid-row--center">
         <div class="fr-col-12">
           <h3>Tout savoir sur le RGAA</h3>

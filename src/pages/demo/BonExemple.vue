@@ -13,38 +13,60 @@
         <p>La <a href="https://fr.wikipedia.org/wiki/Bicyclette" target="blank" title="bicyclette - nouvelle fenêtre">bicyclette</a> est l’un des principaux moyens de transport dans de nombreuses parties du monde. Son efficacité énergétique est particulièrement élevée. Sa pratique, le cyclisme, constitue à la fois un usage quotidien de transport, un loisir populaire et un sport.</p>
         </div>
       </section>
-      <img src="/assets/images/bike.png" style="width:100%" class="" alt=""  />
-
+      <img src="/assets/images/veloeclate.jpg" alt="Vue éclatée d’une bicyclette" />
+      <div class="fr-container">
+        <div class="fr-grid-row fr-grid-row--right "><p class="fr-text--xs"><a rel="noopener noreferrer" href="https://wiklou.org/wiki/Fichier:Velo_vueEclatee_diffWeb_HD.jpg#file" target="_blank" title="Source de l’image - nouvelle fenêtre">Source de l’image</a></p>
+        </div>
+      </div>
       <section class="fr-accordion">
         <div class="fr-accordion__title fr-content-media__transcription">
-          <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-bike">Voir la description de l’image</button>
+          <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-bike">Voir la transcription de l’image</button>
         </div>
         <div class="fr-collapse" id="accordion-bike">
-          <h3>L’anatomie d’une bicyclette</h3>
+          <h3>Vue éclatée d’une bicyclette</h3>
           <p>Voici la liste des principaux composants d’une bicyclette :</p>
+          <h4>Guidon</h4>
           <ul>
-            <li>jantes</li>
-            <li>rayons</li>
-            <li>moyeux</li>
-            <li>attaches rapides</li>
-            <li>cocottes de frein</li>
-            <li>cables de frein</li>
-            <li>potence</li>
-            <li>cintre</li>
-            <li>bouchons de cintre</li>
-            <li>ruban de cintre</li>
-            <li>fourche</li>
-            <li>cadre</li>
-            <li>selle</li>
-            <li>tige de selle</li>
-            <li>étriers de frein</li>
-            <li>cables de frein</li>
-            <li>dérailleur avant</li>
-            <li>...</li>
+            <li>Cintre</li>
+            <li>Potence à plongeur, écrou, vis</li>
+            <li>Poignée droite/gauche</li>
+            <li>Levier de frein droit/gauche</li>
+            <li>Levier de vitesses arrière/avant</li>
+            <li>cables vitesses</li>
+            <li>butée</li>
+            <li>gaine</li>
+            <li>Cable de frein</li>
           </ul>
+          <h4>Jeu de direction</h4>
+          <ul>
+            <li>Contre-écrou</li>
+            <li>Écrou,</li>
+            <li>Cage de roulement</li>
+            <li>Roulement à bille</li>
+            <li>Cage de roulement</li>
+            <li>Colonne de direction du cadre</li>
+            <li>Cage de roulement</li>
+            <li>Roulement à bille</li>
+            <li>Fourche</li>
+          </ul>
+          <h4>Freins</h4>
+          <h5>Machoire classique</h5>
+          <ul>
+            <li>Vis percée</li>
+            <li>Écrou de réglage</li>
+            <li>Écrou</li>
+            <li>Rondelle</li>
+            <li>Vis percée</li>
+            <li>Écrou</li>
+            <li>Rondelle</li>
+            <li>Patin de frein</li>
+            <li>Rondelle</li>
+            <li>Écrou</li>
+          </ul>
+          <p>...</p>
         </div>
       </section>
-      <section class="fr-grid-row fr-grid-row--center">
+      <section class="fr-mt-4w fr-grid-row fr-grid-row--center">
         <div class="fr-col-12">
           <h2>Tout savoir sur le RGAA</h2>
           <div class="fr-content-media__img">

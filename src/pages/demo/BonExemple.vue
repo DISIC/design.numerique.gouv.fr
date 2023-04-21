@@ -24,7 +24,6 @@
         </div>
         <div class="fr-collapse" id="accordion-bike">
           <h3>Vue éclatée d’une bicyclette</h3>
-          <p>Voici la liste des principaux composants d’une bicyclette :</p>
           <h4>Guidon</h4>
           <ul>
             <li>Cintre</li>
@@ -40,13 +39,28 @@
           <h4>Jeu de direction</h4>
           <ul>
             <li>Contre-écrou</li>
-            <li>Écrou,</li>
+            <li>Écrou</li>
             <li>Cage de roulement</li>
             <li>Roulement à bille</li>
             <li>Cage de roulement</li>
             <li>Colonne de direction du cadre</li>
             <li>Cage de roulement</li>
             <li>Roulement à bille</li>
+            <li>Fourche</li>
+          </ul>
+          <h4>Jeu de direction <span lang="en">A-headset</span></h4>
+          <ul>
+            <li>Étoile</li>
+            <li>Vis</li>
+            <li>Potence <span lang="en">A-headset</span></li>
+            <li>Rondelles</li>
+            <li>Cage de roulement</li>
+            <li>Roulement à bille</li>
+            <li>Cage de roulement</li>
+            <li>Colonne de direction du cadre</li>
+            <li>Cage de roulement</li>
+            <li>Roulement à bille</li>
+            <li>Cône</li>
             <li>Fourche</li>
           </ul>
           <h4>Freins</h4>
@@ -63,6 +77,44 @@
             <li>Rondelle</li>
             <li>Écrou</li>
           </ul>
+          <h5><span lang="en">V-brake</span></h5>
+          <ul>
+            <li>Plot de fixation à la fourche</li>
+            <li>Ressort</li>
+            <li>Écrou</li>
+            <li>Vis</li>
+            <li>Patin de frein</li>
+            <li>Ressort</li>
+            <li>Écrou</li>
+            <li>Vis</li>
+            <li>Flexible</li>
+            <li>Écrou vis percée</li>
+          </ul>
+          <h4>Roue avant</h4>
+          <ul>
+            <li>Rayon</li>
+            <li>Tête de rayon</li>
+            <li>Jante</li>
+            <li>Fond de jante</li>
+            <li>Chambre à air</li>
+            <li>Valve</li>
+            <li>Pneu</li>
+          </ul>
+          <h4>Pédalier</h4>
+          <p>...</p>
+          <h5>à clavettes</h5>
+          <p>...</p>
+          <h5>axe carré</h5>
+          <p>...</p>
+          <h4>Moyeu arrière</h4>
+          <p>...</p>
+          <h5>à roue libre</h5>
+          <p>...</p>
+          <h5>à cassette</h5>
+          <p>...</p>
+          <h4>Dérailleur arrière</h4>
+          <p>...</p>
+          <h4>Selle</h4>
           <p>...</p>
         </div>
       </section>

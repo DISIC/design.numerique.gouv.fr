@@ -145,11 +145,11 @@
             </div>
 
             <div class="form-group fr-mt-4w">
-              <label class="fr-label" for="like">Vous aimez ...
+              <label class="fr-label" for="like">Vous aimez …
                <span class="fr-hint-text">Pour recevoir des contenus qui vous correspondent ;)</span></label>
                 <select name="" class="fr-input"  id="like">
                   <option value="1">les fruits et les légumes</option>
-                  <option value="2">les ballades à bicyclette</option>
+                  <option value="2">les balades à bicyclette</option>
                   <option value="3">les voyages à vélo</option>
                   <option value="4">faire la sieste</option>
                   <option value="5">rien de tout ça</option>

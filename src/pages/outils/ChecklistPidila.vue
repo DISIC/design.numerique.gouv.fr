@@ -15,13 +15,14 @@
                   class="fr-link--close fr-link"
                   title="Fermer la fenêtre modale"
                   aria-controls="fr-modal-1"
-                  >Fermer</button
                 >
+                  Fermer
+                </button>
               </div>
               <div class="fr-modal__content">
-                <h1 id="fr-modal-title-modal-1" class="fr-modal__title"
-                  >Filtrer les critères</h1
-                >
+                <h1 id="fr-modal-title-modal-1" class="fr-modal__title">
+                  Filtrer les critères
+                </h1>
                 <Filters
                   mode="condensed"
                   @filter-profile="updateProfileFilters"
@@ -100,7 +101,7 @@
           </div>
         </section>
       </div>
-      <div class="fr-col-12 fr-col-md-1"> </div>
+      <div class="fr-col-12 fr-col-md-1"></div>
       <div class="fr-col-12 fr-col-md-8">
         <!-- Results info -->
         <div
@@ -278,20 +279,15 @@ export default {
         return;
       }
 
-      const previouslyFocusedElement = document.activeElement;
-
       const queryParams = {
         ...this.$route.query,
         [key]: Array.isArray(value) ? JSON.stringify(value) : value,
       };
 
       return this.$router
-        .push({
+        .replace({
           path: this.$route.path,
           query: Object.keys(queryParams).length ? queryParams : null,
-        })
-        .then(() => {
-          previouslyFocusedElement?.focus();
         })
         .catch(() => {});
     },

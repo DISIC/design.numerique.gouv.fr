@@ -1,9 +1,8 @@
 <template>
   <div>
+    <SkipLink />
 
-    <SkipLink/>
-
-    <div v-show="$i18n.locale == 'en-gb' " class="if-english">
+    <div v-show="$i18n.locale == 'en-gb'" class="if-english">
       <g-link to="/en/about" lang="en">
         Don't speak french? Take a quick tour of what we do
       </g-link>
@@ -13,15 +12,14 @@
 
     <main class="layout" id="main" role="main" tabindex="-1">
       <div class="fr-container fr-container--fluid">
-        <slot/>
-        <Offer v-if="showServices"/>
+        <slot />
+        <Offer v-if="showServices" />
       </div>
     </main>
 
     <NewsletterReseauxSociaux />
 
     <Footer />
-
   </div>
 </template>
 
@@ -34,36 +32,36 @@ query {
 </static-query>
 
 <script>
-  import Header from "~/components/Header.vue"
-  import NewsletterReseauxSociaux from "~/components/NewsletterReseauxSociaux.vue"
-  import Offer from "~/components/alerts/Offer.vue"
-  import Footer from "~/components/Footer.vue"
-  import SkipLink from "~/components/SkipLink.vue"
+import Header from "~/components/Header.vue";
+import NewsletterReseauxSociaux from "~/components/NewsletterReseauxSociaux.vue";
+import Offer from "~/components/alerts/Offer.vue";
+import Footer from "~/components/Footer.vue";
+import SkipLink from "~/components/SkipLink.vue";
 
-  export default {
-    components: {
-      Header,
-      NewsletterReseauxSociaux,
-      Offer,
-      Footer,
-      SkipLink,
+export default {
+  components: {
+    Header,
+    NewsletterReseauxSociaux,
+    Offer,
+    Footer,
+    SkipLink,
+  },
+  props: {
+    showServices: {
+      default: false,
+      type: Boolean,
     },
-    props: {
-      showServices: {
-        default: false,
-        type: Boolean
-      },
-    },
-    mounted () {
-      let src = "/assets/js/dsfr.module.min.js";
-      let dsfr = document.createElement('script');
-      dsfr.type = "module";
-      dsfr.src = src;
-      let scripts = document.querySelectorAll('[src="' + src + '"]');
-      if (scripts.length > 0) {
-        scripts[0].remove();
-      }
-      document.body.appendChild(dsfr);
+  },
+  mounted() {
+    let src = "/dsfr/dsfr.module.min.js";
+    let dsfr = document.createElement("script");
+    dsfr.type = "module";
+    dsfr.src = src;
+    let scripts = document.querySelectorAll('[src="' + src + '"]');
+    if (scripts.length > 0) {
+      scripts[0].remove();
     }
-  }
+    document.body.appendChild(dsfr);
+  },
+};
 </script>

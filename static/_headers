@@ -1,7 +1,4 @@
-/assets/css/*
-  Cache-Control: public, max-age=31536000
-
-/assets/js/*
+/dsfr/*
   Cache-Control: public, max-age=31536000
 
 /assets/img/*

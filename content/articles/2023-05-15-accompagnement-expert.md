@@ -11,7 +11,8 @@ description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur 
 
 Dans cette version 2.1.2 (2018-08), les critères d’accessibilité du WCAG 2.1 – <span lang="en">web content accessibility guidelines</span>, en français les règles pour l’accessibilité des contenus du web – publié par le W3C (<span lang="en">world wide web consortium</span>) ont officiellement été référencés.
 
-https://www.youtube-nocookie.com/embed/_5zIrh-LDto?rel=0&amp;modestbranding=1
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Z9_YLcynXw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 Cette norme s’applique à un large éventail de produits et services TIC, tels que les logiciels, les sites internet, les applications mobiles et autres technologies numériques. Elle couvre notamment les exigences d’accessibilité liées aux contenus, aux interfaces utilisateur et à la navigation. 
 

@@ -7,14 +7,15 @@ illustration: ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non urna diam. Suspendisse nec nulla id ante dignissim venenatis. Nulla a pretium turpis, quis placerat tellus. 
 ---
 
-
-## Sous-titre de mon article 
+## Lorem ipsum dolor sit amet
 
 Dans cette version 2.1.2 (2018-08), les critères d’accessibilité du WCAG 2.1 – <span lang="en">web content accessibility guidelines</span>, en français les règles pour l’accessibilité des contenus du web – publié par le W3C (<span lang="en">world wide web consortium</span>) ont officiellement été référencés.
 
 https://www.youtube-nocookie.com/embed/_5zIrh-LDto?rel=0&amp;modestbranding=1
 
 Cette norme s’applique à un large éventail de produits et services TIC, tels que les logiciels, les sites internet, les applications mobiles et autres technologies numériques. Elle couvre notamment les exigences d’accessibilité liées aux contenus, aux interfaces utilisateur et à la navigation. 
+
+### Lorem ipsum dolor sit amet
 
 Elle est la référence définie par la décision d’exécution (UE) 2018/2048 du 20 décembre 2018 concernant la norme harmonisée applicable aux sites internet et aux applications mobiles ; elle a été élaborée à l’appui de la directive européenne (UE) 2016/2102 du 26 octobre 2016 relative à l’accessibilité des sites internet et des applications mobiles des organismes du secteur public, dite « WAD » pour l’acronyme anglais de « <span lang="en">Web Accessibility Directive</span> ».
 

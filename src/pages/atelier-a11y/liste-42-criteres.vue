@@ -12,7 +12,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Atelier a11é</span>
+              <span aria-current="page" class="fr-breadcrumb__link">Atelier a11é</span>
             </li>
           </ol>
         </nav>
@@ -23,7 +23,7 @@
           <abbr title="Référentiel général d’amélioration de l’accessibilité"
             >RGAA</abbr
           >.
-          
+
 <p><a rel="noopener" target="_blank" title="Voir et éditer la grille d’audit en ligne - nouvelle fenêtre"  class=" fr-btn fr-btn--primary" href="https://docs.google.com/spreadsheets/d/1gwMojS5DwneB9egzLPEeFvAd3mAsdmD20E3mfXas8Uk/edit?usp=sharing">Voir et éditer la grille d’audit en ligne</a></p>
         <p
           >Sauf mention contraire, il s’agit de critères de niveau

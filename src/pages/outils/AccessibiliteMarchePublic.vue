@@ -11,7 +11,7 @@
             <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
           </li>
           <li>
-            <span aria-current="page">L’accessibilité numérique dans les marchés publics</span>
+            <span aria-current="page" class="fr-breadcrumb__link">L’accessibilité numérique dans les marchés publics</span>
           </li>
         </ol>
       </nav>

@@ -11,7 +11,7 @@
     <Header />
 
     <main class="layout" id="main" role="main" tabindex="-1">
-      <div class="fr-container fr-container--fluid">
+      <div class="dg-cover-container fr-container fr-container--fluid">
         <slot />
         <Offer v-if="showServices" />
       </div>

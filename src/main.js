@@ -1,21 +1,21 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-import DefaultLayout from "~/layouts/Default.vue";
-import ExerciseLayout from "~/layouts/Exercise.vue";
+import DefaultLayout from '~/layouts/Default.vue';
+import ExerciseLayout from '~/layouts/Exercise.vue';
 
-import "~/assets/scss/styles.scss";
+import '~/assets/scss/styles.scss';
 
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-import { config, library } from "@fortawesome/fontawesome-svg-core";
+import { config, library } from '@fortawesome/fontawesome-svg-core';
 import {
   faGithub,
   faTwitter,
   faInstagram,
   faYoutube,
   faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 import {
   faPaperPlane,
   faArrowDown,
@@ -62,7 +62,7 @@ import {
   faPencilRuler,
   faEllipsisH,
   faProjectDiagram,
-} from "@fortawesome/free-solid-svg-icons";
+} from '@fortawesome/free-solid-svg-icons';
 import {
   faFilePdf,
   faFileWord,
@@ -71,8 +71,8 @@ import {
   faEdit,
   faCalendarAlt,
   faCalendarCheck,
-} from "@fortawesome/free-regular-svg-icons";
-import "@fortawesome/fontawesome-svg-core/styles.css";
+} from '@fortawesome/free-regular-svg-icons';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 config.autoAddCss = false;
 library.add(
@@ -136,18 +136,18 @@ library.add(
 );
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
-  Vue.component("Layout", DefaultLayout);
-  Vue.component("Exercise", ExerciseLayout);
+  Vue.component('Layout', DefaultLayout);
+  Vue.component('Exercise', ExerciseLayout);
   head.link.push(
     {
-      rel: "stylesheet",
-      href: "/dsfr/utility/utility.min.css",
+      rel: 'stylesheet',
+      href: '/dsfr/utility/utility.min.css',
     },
     {
-      rel: "stylesheet",
-      href: "/dsfr/dsfr.min.css",
+      rel: 'stylesheet',
+      href: '/dsfr/dsfr.min.css',
     }
   );
-  Vue.component("font-awesome", FontAwesomeIcon);
-  head.htmlAttrs = { lang: "fr", "data-fr-scheme": "system" };
+  Vue.component('font-awesome', FontAwesomeIcon);
+  head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' };
 }

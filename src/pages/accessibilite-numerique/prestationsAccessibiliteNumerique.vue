@@ -11,7 +11,7 @@
             <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
           </li>
           <li>
-            <span aria-current="page">Prestations accessibilité numérique</span>
+            <span aria-current="page" class="fr-breadcrumb__link">Prestations accessibilité numérique</span>
           </li>
         </ol>
       </nav>

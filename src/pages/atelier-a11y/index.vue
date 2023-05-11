@@ -12,7 +12,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Atelier a11é</span>
+              <span aria-current="page" class="fr-breadcrumb__link">Atelier a11é</span>
             </li>
           </ol>
         </nav>
@@ -60,7 +60,7 @@
             <a href="/atelier-a11y/aide/">cliquant ici</a> ou en nous
             interpellant, avec bienveillance, sur les réseaux sociaux.</p
           >
-  
+
       </div>
     </section>
   </Exercise>
@@ -80,7 +80,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-.fixedWidth { 
+.fixedWidth {
   width: 42em;
   display: block;
   margin: 0 auto;

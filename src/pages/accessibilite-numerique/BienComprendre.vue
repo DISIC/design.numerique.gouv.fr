@@ -11,7 +11,7 @@
             <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
           </li>
           <li>
-            <span aria-current="page">Bien comprendre</span>
+            <span aria-current="page" class="fr-breadcrumb__link">Bien comprendre</span>
           </li>
         </ol>
       </nav>

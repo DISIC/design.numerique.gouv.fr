@@ -11,7 +11,7 @@
             <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
           </li>
           <li>
-            <span aria-current="page">Exemple de déclaration d’accessibilité</span>
+            <span aria-current="page" class="fr-breadcrumb__link">Exemple de déclaration d’accessibilité</span>
           </li>
         </ol>
       </nav>

@@ -9,7 +9,7 @@
                 <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
               </li>
               <li>
-                <span aria-current="page">Bientôt</span>
+                <span aria-current="page" class="fr-breadcrumb__link">Bientôt</span>
               </li>
             </ol>
           </nav>

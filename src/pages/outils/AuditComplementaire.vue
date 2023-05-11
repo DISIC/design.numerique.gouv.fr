@@ -11,7 +11,7 @@
             <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
           </li>
           <li>
-            <span aria-current="page">Audit complémentaire</span>
+            <span aria-current="page" class="fr-breadcrumb__link">Audit complémentaire</span>
           </li>
         </ol>
       </nav>

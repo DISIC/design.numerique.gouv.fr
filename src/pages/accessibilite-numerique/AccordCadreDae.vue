@@ -11,7 +11,7 @@
             <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
           </li>
           <li>
-            <span aria-current="page">Accord cadre accompagnement et formations</span>
+            <span aria-current="page" class="fr-breadcrumb__link">Accord cadre accompagnement et formations</span>
           </li>
         </ol>
       </nav>

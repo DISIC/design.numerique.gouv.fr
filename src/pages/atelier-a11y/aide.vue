@@ -12,7 +12,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Atelier a11é</span>
+              <span aria-current="page" class="fr-breadcrumb__link">Atelier a11é</span>
             </li>
           </ol>
         </nav>
@@ -24,7 +24,7 @@
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-8">
           <h2>Choisir son vélo</h2>
-        <div class="fr-table fr-table--bordered fr-table--no-caption">          
+        <div class="fr-table fr-table--bordered fr-table--no-caption">
           <table summary="Quel type de vélo choisir ?"><caption>Comparatif de type de vélo</caption>
             <thead><tr>
               <th scope="col">Type de vélo</th>
@@ -32,39 +32,39 @@
               <th scope="col">Contre</th>
               <th scope="col"><3</th>
             </tr></thead>
-            <tbody>         
+            <tbody>
             <tr>
               <th scope="row">Route</th>
               <td>Efficace et léger</td>
               <td>Inutilisable ailleurs que sur la route</td>
               <td>-</td>
-            </tr>            
+            </tr>
             <tr>
               <th scope="row">VTT</th>
               <td>Léger et maniable</td>
               <td>Inefficace sur la route</td>
               <td>-</td>
-            </tr>            
+            </tr>
             <tr>
               <th scope="row">Gravel</th>
               <td>Efficace sur la route</td>
               <td>Efficace sur les chemins</td>
               <td>Liberté</td>
-            </tr>          
+            </tr>
             <tr>
               <th scope="row">Fixie</th>
               <td>Ultra léger</td>
               <td>Ratio unique</td>
               <td>Sensations fortes</td>
-            </tr>          
+            </tr>
             <tr>
               <th scope="row">Cargo</th>
               <td>Transport de marchandise ou d’être humain</td>
               <td>Lourd et encombrant</td>
               <td>Une voiture de moins</td>
-            </tr>          
+            </tr>
             </tbody>
-          </table>    
+          </table>
         </div>
         <h2>Les différentes pratiques à la mode</h2>
           <h4 class="fr-h3">Le gravel</h4>
@@ -108,7 +108,7 @@ export default {
       {
         name: 'description',
         content: 'Exercice d’audit et de mise en conformité RGAA',
-      },      
+      },
     ],
    htmlAttrs: {
       lang: 'en',

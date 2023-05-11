@@ -12,7 +12,7 @@
               <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
             </li>
             <li>
-              <span aria-current="page">{{ $page.formation.nom }}</span>
+              <span aria-current="page" class="fr-breadcrumb__link">{{ $page.formation.nom }}</span>
             </li>
           </ol>
         </nav>

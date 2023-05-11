@@ -24,12 +24,12 @@
           </div>
           <div class="fr-header__tools">
             <div class="fr-header__tools-links">
-              <ul class="fr-links-group">
+              <ul class="fr-btns-group">
                 <li>
-                  <g-link class="fr-link fr-fi-information-line" to="/a-propos/">Qui sommes-nous</g-link>
+                  <g-link class="fr-btn fr-fi-information-line" to="/a-propos/">Qui sommes-nous</g-link>
                 </li>
                 <li>
-                  <g-link class="fr-link fr-fi-mail-line" to="/contact/">Nous contacter</g-link>
+                  <g-link class="fr-btn fr-fi-mail-line" to="/contact/">Nous contacter</g-link>
                 </li>
                 <!-- <li>
                   <button class="fr-link fr-fi-theme-fill fr-link--icon-left" aria-controls="fr-theme-modal" data-fr-opened="false">Paramètres d'affichage</button>

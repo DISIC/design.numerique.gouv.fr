@@ -11,7 +11,7 @@
             <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
           </li>
           <li>
-            <span aria-current="page">Schéma pluriannuel</span>
+            <span aria-current="page" class="fr-breadcrumb__link">Schéma pluriannuel</span>
           </li>
         </ol>
       </nav>

@@ -10,7 +10,7 @@
           <li>
             <g-link to="/pnu/" class="fr-breadcrumb__link">Portail numérique unique</g-link>
           </li>
-          <li aria-current="page" v-html="$page.pnu.title" />
+          <li aria-current="page" class="fr-breadcrumb__link" v-html="$page.pnu.title" />
         </ol>
       </nav>
 

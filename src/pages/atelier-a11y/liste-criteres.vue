@@ -12,7 +12,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Atelier a11é</span>
+              <span aria-current="page" class="fr-breadcrumb__link">Atelier a11é</span>
             </li>
           </ol>
         </nav>
@@ -60,11 +60,11 @@
               <p>De plus, les dispositifs qui ne reposent pas sur la souris doivent être pris en compte ; notamment, les contenus et l’utilisation des services doivent être accessibles aux utilisateurs d’aides techniques (lecteurs d’écran par exemple) qui n’utilisent que le clavier ou un périphérique plus spécifique reposant sur les mêmes mécanismes que le clavier.</p>
               <h4>Comment contrôler ?</h4>
               <p>Contrôler que : </p>
-              <ul>              
+              <ul>
               <li>Chaque page comporte des liens d’accès rapides vers le contenu principal, le menu et le moteur de recherche s’il existe : ces liens sont au tout début de la page, ils sont de préférence visibles en permanence mais peuvent éventuellement ne s’afficher qu’au cours de la navigation au clavier (rafraîchir la page puis actionner la touche de tabulation pour les faire apparaître) ;
               </li><li>La navigation et l’utilisation peuvent s’effectuer entièrement au clavier dans un ordre prévisible ;
               </li><li>Le focus clavier (qui permet à l’usager de savoir sur quel élément interactif il se trouve) est clairement visible.</li>
-              </ul>     
+              </ul>
             </div>
           </div>
         </li>
@@ -105,7 +105,7 @@
               <h4>Pourquoi ?</h4>
               <p>Il s’agit de permettre aux internautes d’identifier clairement la destination du lien. Un lien "Lire la suite" ne donne aucune indication sur sa destination.</p>
               <h4>Comment contrôler ?</h4>
-              <p>Vérifier que le libellé du lien désigne explicitement la nature ou la fonction du lien. 
+              <p>Vérifier que le libellé du lien désigne explicitement la nature ou la fonction du lien.
               "Critère 3.2 du RGAA" et "Télécharger le RGAA (format pdf – 3,4Mo)"  sont des exemples de liens explicites.</p>
             </div>
           </div>
@@ -197,7 +197,7 @@
               <li>Les messages d’erreur ou de confirmation sont-ils écrits en français ? Sont-ils suffisamment clairs et précis ?</li>
               <li>Les abréviations sont-elles développées la première fois qu’elles sont utilisées sur chaque page (éventuellement via une infobulle ou via un renvoi à un glossaire)?</li>
               </ul>
-           
+
             </div>
           </div>
         </li>
@@ -307,7 +307,7 @@
               <li>Une mention est présente pour les champs dont la saisie est obligatoire, soit explicitement, soit par le biais d’une indication (souvent un astérisque) dont l’explication est donnée au début du formulaire ;</li>
               <li>Pour tout champ de formulaire présentant un type de donnée ou un format obligatoire, l’utilisateur est informé ;</li>
               <li>Tout message d’erreur identifie le champ concerné.</li>
-              </ul>             
+              </ul>
             </div>
           </div>
         </li>

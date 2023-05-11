@@ -13,7 +13,7 @@
                 <g-link to="/recrutement/" class="fr-breadcrumb__link">Recrutement</g-link>
               </li>
               <li>
-                <span aria-current="page" class="fr-breadcrumb__link">Partager votre intérêt</span>
+                <a aria-current="page" class="fr-breadcrumb__link">Partager votre intérêt</a>
               </li>
             </ol>
           </nav>

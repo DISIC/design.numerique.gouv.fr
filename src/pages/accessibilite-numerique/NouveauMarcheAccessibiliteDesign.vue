@@ -11,7 +11,7 @@
             <g-link to="/commando-ux/" class="fr-breadcrumb__link">Accessibilité</g-link>
           </li>
           <li>
-            <span aria-current="page" class="fr-breadcrumb__link">Nouveau marché public accessibilité numérique et design inclusif</span>
+            <a aria-current="page" class="fr-breadcrumb__link">Nouveau marché public accessibilité numérique et design inclusif</a>
           </li>
         </ol>
       </nav>

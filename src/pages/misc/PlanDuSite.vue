@@ -8,7 +8,7 @@
             <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
           </li>
           <li>
-            <span aria-current="page" class="fr-breadcrumb__link">Plan du site</span>
+            <a aria-current="page" class="fr-breadcrumb__link">Plan du site</a>
           </li>
         </ol>
       </nav>

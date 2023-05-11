@@ -11,7 +11,7 @@
             <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
           </li>
           <li>
-            <span aria-current="page" class="fr-breadcrumb__link">Mémo dev</span>
+            <a aria-current="page" class="fr-breadcrumb__link">Mémo dev</a>
           </li>
         </ol>
       </nav>

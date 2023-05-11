@@ -8,7 +8,7 @@
             <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
           </li>
           <li>
-            <span aria-current="page">Mentions légales</span>
+            <a aria-current="page">Mentions légales</a>
           </li>
         </ol>
       </nav>

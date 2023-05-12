@@ -102,12 +102,56 @@ Les vidéos sont sous-titrées et accompagnées d'une transcription.
 </thead>
 <tbody>
     <tr>
-    <td>Bonjour, je m’appelle Jean-Mi</td>
-    <td>Jean-Mi regarde par la  fenêtre, il fait grand soleil dehors</td>
+    <td>L’aide juridictionnelle consiste en la prise en charge, par l’État, des frais qui sont relatifs à un procès : frais d’avocat, commissaire de justice ou notaire pour les plus démunis. Donc c’est vraiment un dispositif qui favorise l’accès à la justice. Et par an, on a à peu près 1 million de demandes qui sont faites.</td>
+    <td>Betty, assise à son bureau, qui parle face caméra.</td>
     </tr>
     <tr>
-    <td>je suis développeur foulestaque et j’aime les grosses bagnoles</td>
-    <td>-</td>
+    <td>On met à disposition un site internet pour pouvoir faire cette demande en ligne. Naturellement, il est toujours possible de faire sa demande par voie papier.</td>
+    <td>Plan sur un écran d’ordinateur qui montre le service en ligne d’Aide juridictionnelle.</td>
+    </tr>
+    <tr>
+    <td>Nous nous sommes rendus compte qu’il y avait des difficultés pour les personnes en situation de handicap lorsqu’elles utilisaient notre site internet.</td>
+    <td>Retour sur Betty à son bureau.</td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>Panneau titre avec le texte “Les équipe de la Dinum accompagnent l’Aide juridictionnelle”.</td>
+    </tr>
+    <tr>
+    <td>Nous avons donc sollicité DesignGouv pour nous aider à comprendre ces difficultés et surtout à trouver des solutions. Donc là, je vais me connecter sur mon compte pour pouvoir faire une demande d’aide juridictionnelle en ligne.</td>
+    <td>Betty à son bureau, devant son ordinateur.</td>
+    </tr>
+    <tr>
+    <td>Et je me rends compte que dès la page d’accueil de mon espace, j’ai des gros boutons par fonctionnalité qui sont très simples à comprendre. Et ça, c’était un travail que l’on effectué pour que l’on comprenne beaucoup plus facilement les différentes rubriques qui sont disponibles.</td>
+    <td>Plan sur l’écran d’ordinateur et la page d’accueil du service en ligne.</td>
+    </tr>
+    <tr>
+    <td>Autre exemple, lorsque des personnes en situation de handicap visuel</td>
+    <td>Betty à son bureau, devant son ordinateur.</td>
+    </tr>
+    <tr>
+    <td>avaient déposé une demande en ligne et qu’elles voulaient consulter les documents envoyés par le tribunal, elles étaient coincées.</td>
+    <td>Gros plan sur l’écran d’ordinateur et une page du service en ligne d’Aide juridictionnelle.</td>
+    </tr>
+    <tr>
+    <td>Pourquoi ? Parce qu’avec leur clavier, elles n’arrivaient pas sur le bouton pour fermer la fenêtre.</td>
+    <td>Gros plan sur une page web et sur l’icône de fermeture de fenêtre.</td>
+    </tr>
+    <tr>
+    <td>Aujourd’hui, ce bouton a été modifié. Il est possible de cliquer sur “fermer” avec une souris ou un clavier.</td>
+    <td>Betty, à son bureau, devant son ordinateur.</td>
+    </tr>
+    <tr>
+    <td>Aujourd’hui, le service en ligne est 100% accessible</td>
+    <td>Plan sur une page web du service en ligne.</td>
+    </tr>
+    <tr>
+    <td>aux personnes en situation de handicap et cela depuis fin 2022. Et nous en sommes très fiers. D’ici fin 2023, on pourra faire une demande d’aide juridictionnelle en ligne sur l’ensemble du territoire.</td>
+    <td>Plan sur Betty à son bureau, qui parle face caméra.</td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>Animation de fin avec le logo DesignGouv puis le logo du Gouvernement et la mention Direction interministérielle au numérique.</td>
     </tr>
 </tbody>
 </table>

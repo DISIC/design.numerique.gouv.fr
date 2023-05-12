@@ -1,19 +1,17 @@
 ---
-title: L’accompagnement expert
+title: Retours en vidéo sur les accompagnements experts
 slug: 2023-05-15-accompagnement-expert
 publishedDate: 2023-05-15
 tags: ["accompagnement", "design", "accessibilité"]
 illustration: ./illustrations/2023-05-15-accompagnement-expert.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non urna diam. Suspendisse nec nulla id ante dignissim venenatis. Nulla a pretium turpis, quis placerat tellus. 
+description: Nos experts ont accompagnés la Fabrique numérique des ministères sociaux sur la démarche EgaPro, ainsi que le ministère de la Justice sur la démarche Aide juridictionnelle. 
 ---
-
-## Lorem ipsum dolor sit amet
 
 DesignGouv met à disposition des experts du numérique auprès des administrations pour rendre plus accessibles, plus compréhensibles, et plus performants leurs services en lignes, en particulier ceux les plus utilisées par les Français. Notre objectif est d’aider à apporter des améliorations concrètes tout en diffusant des bonnes pratiques au sein des administrations.
 
 Nos experts ont accompagnés la Fabrique numérique des ministères sociaux sur la démarche EgaPro, ainsi que le ministère de la Justice sur la démarche Aide juridictionnelle. Nous sommes très enthousiastes sur le travail accompli ensemble et le résultat obtenu !
 
-Les vidéo sont sous-titrées.
+Les vidéos sont sous-titrées et accompagnées d'une transcription.
 
 ### Les équipes de la DINUM accompagnent Egapro
 

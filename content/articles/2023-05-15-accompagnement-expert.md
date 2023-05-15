@@ -82,7 +82,7 @@ Les vidéos sont sous-titrées et accompagnées d'une transcription.
 
 </div></section>
 
-### Accompagnement de l'Aide juridictionnelle 
+### Accompagnement de l'aide juridictionnelle 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2dBLlHYG34A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <section class="fr-accordion">

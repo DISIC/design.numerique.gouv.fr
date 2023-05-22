@@ -38,19 +38,19 @@
         <ol>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
-            gpaw-accessdae@alterway.fr <a href="https://rgaa-dae.a11y.fr/" target="_blank" title="Détail des prestations proposées - Nouvelle fenêtre">Détail des prestations proposées</a>
+            gpaw-accessdae@alterway.fr 
         </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
-            rgaa@urbilog.fr / Tel : 03 28 55 21 30
+            rgaa@urbilog.fr / 03 28 55 21 30
           </li>
           <li>
             <strong>Groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</strong><br>
-            ao_accessibiliteweb@mc2i.fr / Tel : 01 44 43 01 00
+            ao_accessibiliteweb@mc2i.fr / 01 44 43 01 00
           </li>
           <li>
             <strong>KOENA</strong><br>
-            gestion@koena.net / Tel : 09 72 63 21 28
+            gestion@koena.net / 09 72 63 21 28
           </li>
         </ol>
       </section>
@@ -84,7 +84,7 @@
         <ol>
           <li>
             <strong>Groupement MC2I – TEMESIS – ATALAN et OCEANE Consulting</strong><br>
-            ao_accessibiliteweb@mc2i.fr / Tel : 01 44 43 01 00
+            ao_accessibiliteweb@mc2i.fr / 01 44 43 01 00
           </li>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
@@ -92,11 +92,11 @@
           </li>
           <li>
             <strong>TOSCA Consultants</strong><br>
-            01 42 36 01 57 / 06 11 24 63 92
+            https://toscaconsultants.fr/contacts
           </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>
-            rgaa@urbilog.fr / Tel : 03 28 55 21 30
+            rgaa@urbilog.fr / 03 28 55 21 30
           </li>
         </ol>
       </section>

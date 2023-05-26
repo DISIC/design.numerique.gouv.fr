@@ -15,7 +15,7 @@ focus: La qualité d’un site web et sa conformité au RGAA se joue dès la con
 ## Vos actions
 
 * partager l’objectif de **conformité totale** avec le <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> avec tous les acteurs et toutes les actrices du projet, internes et prestataires ;
-* s’assurer que chaque étape du projet, chaque process, chaque intervention prennent en compte l’accessibilité ;
+* s’assurer que chaque étape du projet, chaque processus, chaque intervention prennent en compte l’accessibilité ;
 * organiser des tests avec des usagers dont certains en situation de handicap ;
 * vérifier que les différents livrables ont bien été audités et sont bien conformes au RGAA.
 

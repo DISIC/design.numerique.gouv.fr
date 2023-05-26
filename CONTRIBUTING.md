@@ -15,7 +15,7 @@ Vos contributions sont les bienvenues !
     - Commit lié au code
     - …
 
-## Les process de mise à jour de DesignGouv
+## Les processus de mise à jour de DesignGouv
 
 ### Je modifie du contenu en <span lang="en">Markdown</span>
 

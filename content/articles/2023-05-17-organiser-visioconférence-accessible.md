@@ -120,7 +120,7 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
 
 </div></section>
 
-Dans l’équipe DesignGouv, nous avons établi avec eux la liste suivante des points à respecter lors des visioconférences : 
+Dans l’équipe DesignGouv, nous avons établi la liste suivante des points à respecter lors des visioconférences : 
 
 - **Mettre la caméra**, s’assurer d’avoir le visage clairement et entièrement visible (→ lecture labiale)
 - **Lancer la transcription** sur son poste (→ détection des incompréhensions)

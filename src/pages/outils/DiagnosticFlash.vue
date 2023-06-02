@@ -19,6 +19,7 @@
       <h1>Diagnostic flash</h1>
       <p class="fr-text--lead">Le diagnostic flash permet d’estimer de manière partielle l’accessibilité et la qualité d’un site ou d’un service en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
       <p>Ces tests sont très simples à réaliser et peuvent être intégrés à toutes les phases de tests, de recettes ou de validations fonctionnelles et techniques.</p>
+      <p>Le badge <abbr title="accessibilité" class="fr-badge fr-badge--green-bourgeon">A11É</abbr> indique que le critère touche à l’accessibilité du site et vient du Référentiel général d’amélioration de l’accessibilité.</p>
 
 
       <div class="quick-test">

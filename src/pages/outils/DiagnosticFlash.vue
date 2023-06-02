@@ -119,8 +119,9 @@ export default {
 }
 </script>
 
-<style scoped>
-.fr-accordion__btn {
-  display: inline-block;
-}
+
+<style lang="scss" scoped>
+  .fr-accordion .fr-accordion__btn {
+    display: inline-block;
+  }
 </style>

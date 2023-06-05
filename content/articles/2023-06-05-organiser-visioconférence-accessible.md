@@ -84,8 +84,7 @@ La vidéo est sous-titrée et accompagnée d’une transcription.
     </tr>
     <tr>
     <td>tels que des loupes d’écran et des logiciels de transcription qui me permettent de travailler dans de bonnes conditions.</td>
-    <td>Écran scindé en deux avec, à gauche, Sélim qui parle face à la caméra ; à droite, un écran d    <td>Écran scindé en deux avec, à gauche, Sélim qui parle face à la caméra ; à droite, un écran d'ordinateur où l’on voit une transcription agrandie par une loupe numérique.</td>
-ordinateur où l’on voit une transcription agrandie par une loupe numérique.</td>
+    <td>Écran scindé en deux avec, à gauche, Sélim qui parle face à la caméra ; à droite, un écran d'ordinateur où l’on voit une transcription agrandie par une loupe numérique.</td>
     </tr>
     <tr>
     <td>(interlocuteur) Donc ça concernait la dernière fonctionnalité qui était prise en compte à savoir la gestion des éléments…</td>

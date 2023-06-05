@@ -1,9 +1,9 @@
 ---
 title: Comment organiser une visioconférence accessible ?
-slug: 2023-06-05-organiser-visioconférence-accessible
+slug: 2023-06-05-organiser-visioconference-accessible
 publishedDate: 2023-06-05
 tags: ["accessibilité"]
-illustration: ./illustrations/2023-06-05-organiser-visioconférence-accessible.png
+illustration: ./illustrations/2023-06-05-organiser-visioconference-accessible.png
 description: Comment organiser une visioconférence avec des personnes handicapées ? Quelles sont les bonnes pratiques à respecter ?
 ---
 

@@ -4,14 +4,14 @@ slug: 2023-06-05-organiser-visioconférence-accessible
 publishedDate: 2023-06-05
 tags: ["accessibilité"]
 illustration: ./illustrations/2023-06-05-organiser-visioconférence-accessible.png
-description: Comment organiser une visioconférence avec des personnes handicapées ? Quels sont les bonnes pratiques à respecter ?
+description: Comment organiser une visioconférence avec des personnes handicapées ? Quelles sont les bonnes pratiques à respecter ?
 ---
 
-Comment organiser une visioconférence avec des personnes handicapées ? Quels sont les bonnes pratiques à respecter ?
+Comment organiser une visioconférence avec des personnes handicapées ? Quelles sont les bonnes pratiques à respecter ?
 
-Sophie Drouvroy et Sélim Méziti sont experts accessibilité et travaillent avec l’équipe DesignGouv. Ils présentent les problèmes qu’ils peuvent rencontrer, les aides humaines et techniques auxquelles ils font appel et quelques-unes les bonnes pratiques à appliquer.
+Sophie Drouvroy et Sélim Méziti sont experts accessibilité et travaillent avec l’équipe DesignGouv. Ils présentent les problèmes qu’ils peuvent rencontrer, les aides humaines et techniques auxquelles ils font appel et quelques-unes des bonnes pratiques à appliquer.
 
-La vidéo est sous-titrée et accompagnée d'une transcription.
+La vidéo est sous-titrée et accompagnée d’une transcription.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vDJLgHCkjfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <section class="fr-accordion">
@@ -59,7 +59,7 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
     <td>Sophie est toujours filmée devant son ordinateur. Les deux interlocuteurs de la visioconférence ont allumé leur webcam.</td>
     </tr>
     <tr>
-    <td>Je vais avoir un problème, je ne ne peux pas communiquer avec toi, je ne vois pas tes lèvres.</td>
+    <td>Je vais avoir un problème, je ne peux pas communiquer avec toi, je ne vois pas tes lèvres.</td>
     <td>Sur l’écran d’ordinateur, on voit que le visage d’un des interlocuteurs de la visioconférence n’est pas filmé entièrement. On ne voit pas le bas de son visage. L’autre a les mains devant la bouche.</td>
     </tr>
     <tr>
@@ -84,7 +84,8 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
     </tr>
     <tr>
     <td>tels que des loupes d’écran et des logiciels de transcription qui me permettent de travailler dans de bonnes conditions.</td>
-    <td>Écran scindé en deux avec, à gauche, Sélim qui parle face à la caméra ; à droite, un écran d'ordinateur où l’on voit une transcription agrandie par une loupe numérique.</td>
+    <td>Écran scindé en deux avec, à gauche, Sélim qui parle face à la caméra ; à droite, un écran d    <td>Écran scindé en deux avec, à gauche, Sélim qui parle face à la caméra ; à droite, un écran d'ordinateur où l’on voit une transcription agrandie par une loupe numérique.</td>
+ordinateur où l’on voit une transcription agrandie par une loupe numérique.</td>
     </tr>
     <tr>
     <td>(interlocuteur) Donc ça concernait la dernière fonctionnalité qui était prise en compte à savoir la gestion des éléments…</td>
@@ -92,7 +93,7 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
     </tr>
     <tr>
     <td>(interlocuteur) Je préférerais qu’on parle…</td>
-    <td>Plan sur sur l’écran d’ordinateur où l’on voit que la transcription en temps réel ne réussit pas à écrire ce que disent les interlocuteurs qui parlent en même temps.</td>
+    <td>Plan sur l’écran d’ordinateur où l’on voit que la transcription en temps réel ne réussit pas à écrire ce que disent les interlocuteurs qui parlent en même temps.</td>
     </tr>
     <tr>
     <td>Excusez-moi, vous parlez en même temps, je ne sais pas qui a dit quoi… Parlez chacun votre tour, sinon je vais avoir du mal à suivre la transcription et je ne vais pas savoir qui dit quoi.</td>

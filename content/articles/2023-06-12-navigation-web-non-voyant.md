@@ -13,7 +13,7 @@ Jamshid Kohandel, juriste dans l’équipe DesignGouv, nous explique comment il 
 
 Comme il le dit : “Cela montre quand même l’efficacité des mesures d’accessibilité à prévoir sur une page web […], mais les petites erreurs peuvent quand même tout compromettre. Même une seule.”
 
-La vidéo est sous-titrée et accompagnée d'une transcription.
+La vidéo est sous-titrée et accompagnée d’une transcription.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0ani4NkrRe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <section class="fr-accordion">
@@ -50,7 +50,7 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
     </tr>
     <tr>
     <td>et qui envoie à une synthèse vocale tout ce qui s’affiche sur l’écran.</td>
-    <td>Plan scindé en deux avec, à gauche, un écran d'ordinateur ; à droite, Jamshid à son bureau.</td>
+    <td>Plan scindé en deux avec, à gauche, un écran d’ordinateur ; à droite, Jamshid à son bureau.</td>
     </tr>
     <tr>
     <td>(synthèse vocale) Test DesignGouv</td>
@@ -77,7 +77,7 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
     <td>Écran scindé en deux avec, à gauche, une page web avec un formulaire à remplir, dont un des champs apparaît en jaune ; à droite Jamshid.</td>
     </tr>
     <tr>
-    <td>Au début du formulaire on me dit que les champs en jaune sont obligatoire.</td>
+    <td>Au début du formulaire on me dit que les champs en jaune sont obligatoires.</td>
     <td>Panneau titre avec le texte “Premier cas : les champs obligatoires dans les formulaires”.</td>
     </tr>
     <tr>
@@ -102,7 +102,7 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
     </tr>
     <tr>
     <td>Je valide, je fais une tabulation.</td>
-    <td>Plan sur Jamshid devant son ordinateur. Apparition d’un panneau de texte : “L’information est écrite, explicite et lisible par les outils d'assistance”.</td>
+    <td>Plan sur Jamshid devant son ordinateur. Apparition d’un panneau de texte : “L’information est écrite, explicite et lisible par les outils d’assistance”.</td>
     </tr>
     <tr>
     <td>Je vais sur le bouton s’inscrire et je valide.</td>
@@ -129,7 +129,7 @@ La vidéo est sous-titrée et accompagnée d'une transcription.
     <td>Plan sur l’écran d’ordinateur.</td>
     </tr>
     <tr>
-    <td>donc si je clique sur ce bouton, j’aurais une description de l’image. (synthèse vocale) Voici la liste des principaux composants d’une bicyclette. Ici, j’ai la liste des composants d’une bicyclette, ce qui était sur la photo.</td>
+    <td>Donc si je clique sur ce bouton, j’aurais une description de l’image. (synthèse vocale) Voici la liste des principaux composants d’une bicyclette. Ici, j’ai la liste des composants d’une bicyclette, ce qui était sur la photo.</td>
     <td>Plan scindé en deux avec, à gauche, l’image présente sur la page web ; à droite, Jamshid à son bureau. Apparition d’un encart avec le texte “L’alternative textuelle apporte les mêmes informations que l’image”.</td>
     </tr>
     <tr>

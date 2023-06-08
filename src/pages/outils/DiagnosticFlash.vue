@@ -17,7 +17,7 @@
       </nav>
 
       <h1>Diagnostic flash</h1>
-      <p class="fr-text--lead">Le diagnostic flash permet d’estimer de manière partielle l’accessibilité et la qualité d’un site ou d’un service en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
+      <p class="fr-text--lead">Le <strong>diagnostic flash</strong> permet d’estimer de manière partielle l’accessibilité et la qualité d’un site ou d’un service en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
       <p>Ces tests sont très simples à réaliser et peuvent être intégrés à toutes les phases de tests, de recettes ou de validations fonctionnelles et techniques.</p>
       <p>Le badge <abbr title="accessibilité" class="fr-badge fr-badge--sm fr-badge--green-bourgeon">A11É</abbr> indique que le critère touche à l’accessibilité du site et vient du Référentiel général d’amélioration de l’accessibilité.</p>
 
@@ -29,7 +29,7 @@
               <li  class="fr-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
                 <h3 class="fr-accordion__title"><!--span class="numero">{{ criterion.node.id }}</span-->
                   <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
-                     {{ criterion.node.title }}  <span v-if="criterion.node.tag" class="fr-mr-1w fr-badge fr-badge--sm fr-badge--green-bourgeon"> {{ criterion.node.tag }}</span> 
+                     <span><span>{{ criterion.node.title }} </span> <span v-if="criterion.node.tag" class="fr-badge fr-badge-sm fr-badge--green-bourgeon"> {{ criterion.node.tag }}</span></span>
                   </button>
                 </h3>
                 <div class="fr-collapse" :id="criterion.node.id">
@@ -101,7 +101,7 @@ export default {
     title: "Diagnostic flash",
     meta: [{
       name: "description",
-      content: "Le diagnostic flash est destiné à toute personne souhaitant avoir un premier aperçu sur la qualité, l’accessibilité et le design d’un site."
+      content: "Le diagnostic flash est destiné à toute personne souhaitant avoir un premier aperçu sur la qualité et l’accessibilité d’un site web."
     },
     {
       property: 'og:title',
@@ -109,7 +109,7 @@ export default {
     },
     {
       property: 'og:description',
-      content: "Le diagnostic flash est destiné à toute personne souhaitant avoir un premier aperçu sur la qualité, l’accessibilité et le design d’un site."
+      content: "Le diagnostic flash est destiné à toute personne souhaitant avoir un premier aperçu sur la qualité et l’accessibilité d’un site web."
     },
     {
       property: 'og:image',
@@ -119,9 +119,3 @@ export default {
 }
 </script>
 
-
-<style lang="scss" scoped>
-  .fr-accordion .fr-accordion__btn {
-    display: inline-block;
-  }
-</style>

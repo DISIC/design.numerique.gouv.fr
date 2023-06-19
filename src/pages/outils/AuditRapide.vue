@@ -17,7 +17,7 @@
       </nav>
 
       <h1>Audit rapide RGAA</h1>
-      <p class="fr-text--lead">Vingt cinq critères du RGAA <strong>absolument essentiels</strong>. L’évaluation de ces critères nécessite une bonne connaissance du RGAA. Si vous n’avez pas d’expert dans votre équipe, <a href="/accessibilite-numerique/accord-cadre-dae#lot-1">vous pouvez faire appel à un prestataire</a>.<br/>Si le résultat de cet audit rapide n’est pas représentatif du niveau de conformité, il donne une bonne idée de la prise en compte ou non du RGAA dans les process de développement.</p>
+      <p class="fr-text--lead">Vingt cinq critères du RGAA <strong>absolument essentiels</strong>. L’évaluation de ces critères nécessite une bonne connaissance du RGAA. Si vous n’avez pas d’expert dans votre équipe, <a href="/accessibilite-numerique/accord-cadre-dae#lot-1">vous pouvez faire appel à un prestataire</a>.<br/>Si le résultat de cet audit rapide n’est pas représentatif du niveau de conformité, il donne une bonne idée de la prise en compte ou non du RGAA dans les processus de développement.</p>
 
       <p>L’audit rapide porte sur un  échantillon réduit de 3 à 5 pages et sur les 25 critères (<abbr lang="en" title="web content accessilibity guidelines">WCAG</abbr> niveau A) suivants :</p>
       <ul>

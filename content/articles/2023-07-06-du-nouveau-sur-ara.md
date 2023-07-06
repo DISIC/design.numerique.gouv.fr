@@ -51,10 +51,10 @@ Pour chaque nouvel audit créé, vous recevez un e-mail concernant les liens d�
 
 D’autres attentes importantes ont été identifiées. Actuellement, nous travaillons à la mise en place d’un compte auditeur. Des comptes pour les autres profils utilisateurs sont également prévus.
 
-Découvrez les prochaines nouveautés dans la [feuille de route](https://ara.numerique.gouv.fr/feuille-de-route){title="feuille de route - nouvelle fenêtre"}.
+Découvrez les prochaines nouveautés dans notre [feuille de route](https://ara.numerique.gouv.fr/feuille-de-route){title="feuille de route - nouvelle fenêtre"}.
 
 
-**Vous souhaitez nous contacter ?**
-Vous pouvez nous écrire par e-mail à l’adresse : ara@design.numerique.gouv.fr 
+## Vous souhaitez nous contacter ?
+Vous pouvez nous écrire à l’adresse : **ara@design.numerique.gouv.fr**. 
 
 À bientôt donc ! L’équipe Ara 🦜

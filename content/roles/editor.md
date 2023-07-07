@@ -24,5 +24,5 @@ focus:
 
 * [Le guide du contributeur](https://disic.github.io/guide-contribuer_accessible/index.html){Le guide du contributeur - nouvelle fenêtre} ;
 * [Créer des documents bureautiques accessibles](https://disic.github.io/guides-documents_bureautiques_accessibles/html/){Créer des documents bureautiques accessibles - nouvelle fenêtre} ;
-* [Les grands principes d’une communication accessible](https://www.gouvernement.fr/charte-d-accessibilite-de-la-communication-de-l-etat/les-grands-principes-d-une-communication-accessible){Les grands principes d’une communication accessible - nouvelle fenêtre}.
-* [26 critères de la checklist PiDila](https://design.numerique.gouv.fr/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22R%C3%A9dactionnel%22%5D){26 critères de la checklist PiDila - nouvelle fenêtre} ;
+* [Les grands principes d’une communication accessible](https://www.gouvernement.fr/charte-d-accessibilite-de-la-communication-de-l-etat/les-grands-principes-d-une-communication-accessible){Les grands principes d’une communication accessible - nouvelle fenêtre} ;
+* [26 critères de la checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22R%C3%A9dactionnel%22%5D).

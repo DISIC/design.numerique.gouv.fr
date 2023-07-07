@@ -28,7 +28,7 @@ focus: La qualité d’un site web et sa conformité au RGAA se joue dès la con
 
 ## Vos outils
 
-* la [checklist PiDila](https://design.numerique.gouv.fr/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D){title="checklist PiDila - nouevlle fenêtre"} ;
+* la [checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D) ;
 * le [jeu de l’Organisation de l’amélioration de l’accessibilité](../../jeu-de-oaa/) ;
 * le [diagnostic flash](/outils/diagnostic-flash) ;
-* le [système de design de l'État](https://www.systeme-de-design.gouv.fr/){title="système de design de l'État - nouevlle fenêtre"}.
+* le [système de design de l'État](https://www.systeme-de-design.gouv.fr/){title="système de design de l'État - nouvelle fenêtre"}.

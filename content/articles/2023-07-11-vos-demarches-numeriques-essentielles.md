@@ -2,7 +2,7 @@
 title: L’Observatoire devient Vos démarches numériques essentielles
 slug: 2023-07-11-vos-demarches-numeriques-essentielles
 publishedDate: 2023-07-11
-tags: ["RGAA", "design"]
+tags: ["design", "Accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-06-05-organiser-visioconference-accessible.png
 description: Suite à la consultation des ministères, des administrations, des opérateurs et de la société civile, l’Observatoire de la qualité des démarches en ligne évolue.
 ---
@@ -35,17 +35,18 @@ Pour plus d’information sur les indicateurs et leur mode de calcul, vous pouve
 ## Le passage au vert pour l’accessibilité numérique uniquement pour une conformité de 100%
 
 Dans cette nouvelle version, les niveaux d’évaluation ont été revus de la manière suivante : 
-* <span class="fr-badge fr-badge--success fr-badge--no-icon">Oui</span> : le service est 100% conforme au RGAA.
+* <span class="fr-badge fr-badge--success fr-badge--no-icon">Oui</span> : le service est 100% conforme au Référentiel général d'amélioration de l'accessibilité (RGAA).
 * <span class="fr-badge fr-badge--warning fr-badge--no-icon">Partiel</span> : entre 50% et 99% de conformité au RGAA.
 * <span class="fr-badge fr-badge--new fr-badge--no-icon">Non</span> : moins de 50% de conformité au RGAA, ou aucune déclaration d’accessibilité, ou une déclaration ne respectant pas les critères pour être recevable.
 
 ## De nouveaux critères d’entrée dans le tableau de suivi
 
 Pour être recensé dans le tableau de suivi des services numériques essentiels, un service doit répondre à au moins une de ces quatre conditions : 
-* Service dont la volumétrie annuelle est supérieure à 200 000 usages
-* Service ouvrant droit à une aide financière nationale 
-* Service suivi au sein des [10 moments de vie](https://www.modernisation.gouv.fr/presse/7e-comite-interministeriel-de-la-transformation-publique-citp-des-services-publics-au-rendez){title="10 moments de vie - nouvelle fenêtre"}
-* Service inscrit au [Portail Numérique Unique](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724){title="Portail Numérique Unique - nouevelle fenêtre"} européen
+* Service dont la volumétrie annuelle est supérieure à 200 000 usages.
+* Service ouvrant droit à une aide financière nationale.
+* Service suivi au sein des [10 moments de vie](https://www.modernisation.gouv.fr/presse/7e-comite-interministeriel-de-la-transformation-publique-citp-des-services-publics-au-rendez){title="10 moments de vie - nouvelle fenêtre"}.
+* Service inscrit au [Portail Numérique Unique](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32018R1724){title="Portail Numérique Unique - nouevelle fenêtre"} européen.
+
 Ainsi, 74 nouveaux services sont à présent suivis dans cette nouvelle version.
 
 ## La possibilité pour les utilisateurs de demander l’ajout d’un service

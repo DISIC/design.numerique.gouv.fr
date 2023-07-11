@@ -37,7 +37,7 @@ Pour plus d’information sur les indicateurs et leur mode de calcul, vous pouve
 Dans cette nouvelle version, les niveaux d’évaluation ont été revus de la manière suivante : 
 * <span class="fr-badge fr-badge--success fr-badge--no-icon">Oui</span> : le service est 100% conforme au RGAA.
 * <span class="fr-badge fr-badge--warning fr-badge--no-icon">Partiel</span> : entre 50% et 99% de conformité au RGAA.
-* <span class="fr-badge fr-badge--error fr-badge--no-icon">Non</span> : moins de 50% de conformité au RGAA, ou aucune déclaration d’accessibilité, ou une déclaration ne respectant pas les critères énoncés ci-dessus.
+* <span class="fr-badge fr-badge--new fr-badge--no-icon">Non</span> : moins de 50% de conformité au RGAA, ou aucune déclaration d’accessibilité, ou une déclaration ne respectant pas les critères énoncés ci-dessus.
 
 ## De nouveaux critères d’entrée dans le tableau de suivi
 

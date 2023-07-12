@@ -3,7 +3,7 @@ title: L’Observatoire devient Vos démarches numériques essentielles
 slug: 2023-07-11-vos-demarches-numeriques-essentielles
 publishedDate: 2023-07-11
 tags: ["design", "Accessibilité", "RGAA"]
-illustration:  ./illustrations/2023-06-05-organiser-visioconference-accessible.png
+illustration:  ./illustrations/2023-07-11-vos-demarches-numeriques-essentielles.png
 description: Suite à la consultation des ministères, des administrations, des opérateurs et de la société civile, l’Observatoire de la qualité des démarches en ligne évolue.
 ---
 

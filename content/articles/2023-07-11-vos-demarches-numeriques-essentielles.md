@@ -1,5 +1,5 @@
 ---
-title: L’Observatoire devient Vos démarches numériques essentielles
+title: L’Observatoire devient Vos démarches essentielles
 slug: 2023-07-11-vos-demarches-numeriques-essentielles
 publishedDate: 2023-07-11
 tags: ["design", "Accessibilité", "RGAA"]
@@ -9,7 +9,7 @@ description: Suite à la consultation des ministères, des administrations, des 
 
 <p class="fr-text--lead">Suite à la consultation des ministères, des administrations, des opérateurs et de la société civile, l’Observatoire de la qualité des démarches en ligne évolue.</p>
 
-Il devient à présent **Vos démarches numériques essentielles**. L’URL ne change pas ([observatoire.numerique.gouv.fr](https://observatoire.numerique.gouv.fr){title="observatoire.numerique.gouv.fr - nouvelle fenêtre"}) et la publication reste trimestrielle ; quant aux principales nouveautés, vous trouverez notamment : 
+Il devient à présent **Vos démarches essentielles**. L’URL ne change pas ([observatoire.numerique.gouv.fr](https://observatoire.numerique.gouv.fr){title="observatoire.numerique.gouv.fr - nouvelle fenêtre"}) et la publication reste trimestrielle ; quant aux principales nouveautés, vous trouverez notamment : 
 
 ## De nouveaux indicateurs de qualité
 
@@ -30,7 +30,7 @@ Des indicateurs complémentaires permettent aux équipes d’affiner l’identif
 * “Aide joignable et efficace”
 * “Niveau d’autonomie”
  
-Pour plus d’information sur les indicateurs et leur mode de calcul, vous pouvez consulter la [page Indicateurs de qualité](https://observatoire.numerique.gouv.fr/Aide/Observatoire?tab=indicators){title="page Indicateurs de qualité - nouvelle fenêtre"} sur le site Vos démarches numériques essentielles.
+Pour plus d’information sur les indicateurs et leur mode de calcul, vous pouvez consulter la [page Indicateurs de qualité](https://observatoire.numerique.gouv.fr/Aide/Observatoire?tab=indicators){title="page Indicateurs de qualité - nouvelle fenêtre"} sur le site Vos démarches essentielles.
 
 ## Le passage au vert pour l’accessibilité numérique uniquement pour une conformité de 100%
 

@@ -19,7 +19,11 @@ focus:
 
 ## Vos outils
 
+<<<<<<< HEAD
 * [22 critères de la checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22Conception%22,%22Graphisme%22%5D)
+=======
+* [22 critères de la checklist PiDila](https://design.numerique.gouv.fr/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22Conception%22,%22Graphisme%22%5D){22 critères de la checklist PiDila - nouvelle fenêtre} ;
+>>>>>>> 8f808d28 (Fix urls checklist)
 * le [mémo design](/outils/memo-design) regroupe l’essentiel des recommandations ;
 * le [diagnostic flash](/outils/diagnostic-flash) permet d’estimer de manière partielle et rapide la qualité et l’accessibilité d’un site ;
 * le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}.

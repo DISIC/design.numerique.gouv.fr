@@ -5,6 +5,8 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+const slugify = require('@sindresorhus/slugify');
+
 module.exports = function (api) {
   api.loadSource(({ addCollection }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
@@ -86,6 +88,25 @@ module.exports = function (api) {
       })
 
       node.content = collection._store.createReference(markdownNode)
+    }
+
+    if (node.internal.typeName === 'Accompagnement') {
+      const markdownStore = collection._store.addCollection('AccompagnementContent')
+
+      const markdownNode = markdownStore.addNode({
+		    // any other fields, id, slug, title etc
+        internal: {
+          mimeType: 'text/markdown',
+          content: node.Mission,
+          origin: node.id
+        },
+      })
+
+      node.content = collection._store.createReference(markdownNode)
+
+      node.Experts.forEach((expert, i) => {
+        node.Experts[i].slug = slugify(expert.name);
+      });
     }
   });
 }

@@ -209,6 +209,20 @@ module.exports = {
       },
     },
     {
+      use: '@gridsome/source-airtable',
+      options: {
+        apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
+        base: process.env.GRIDSOME_AIRTABLE_OBSERVATORY_BASE, // required
+        tables: [
+            {
+                name: 'tblPV9UUYqT0cxs9L', // required
+                typeName: 'Accompagnement', // required
+            },
+        ],
+        tableName: 'tblPV9UUYqT0cxs9L', // required
+      },
+    },
+    {
       use: 'gridsome-plugin-sentry',
       options: {
         dsn: 'https://7e6b7f0da53c4796ace432e55a32da06@o1156251.ingest.sentry.io/6237416',
@@ -247,12 +261,13 @@ module.exports = {
   },
   templates: {
     People: '/equipe/:id',
-    Mission: '/commando-ux/:slug',
+    Mission: '/accompagnement/commando-ux/:slug',
     Article: '/articles/:slug',
     Role: '/accessibilite-numerique/roles-cles/:slug',
     Tag: '/articles/tag/:id',
     Formation: '/formations/:Slug',
-    // Poste: '/recrutement/:Slug',
+    Accompagnement: '/accompagnement/:Name',
+    // Poste: '/recrutement/:Slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },
   prefetch: {

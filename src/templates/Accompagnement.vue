@@ -17,7 +17,7 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title">{{ $page.accompagnement.name }}</h1>
-        <p class="fr-text--lead">{{ $page.accompagnement.mission }}</p>
+        <p class="fr-text--lead">{{ $page.accompagnement.description }}</p>
       </div>
     </div>
 

@@ -150,4 +150,5 @@ export default function (Vue, { router, head, isClient }) {
   );
   Vue.component('font-awesome', FontAwesomeIcon);
   head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' };
+
 }

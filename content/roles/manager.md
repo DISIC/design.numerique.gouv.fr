@@ -15,11 +15,11 @@ focus:
 
 * désigner [un ou une référente accessibilité](../referent/) ;
 * former tous les membres de l’équipe à l’accessibilité ;
-* s’assurer que chaque étape du projet, chaque process, chaque intervention prend en compte l’accessibilité.
+* s’assurer que chaque étape du projet, chaque processus, chaque intervention prend en compte l’accessibilité.
 
 ## Vos outils
 
 * le [jeu de l’Organisation de l’amélioration de l’accessibilité](../../jeu-de-oaa/) vous guide dans la mise en accessibilité de vos services numériques ;
-* la présence d’[un ou une experte en accessibilité numérique](../expert/) dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les process, faire des revues de code ;
+* la présence d’[un ou une experte en accessibilité numérique](../expert/) dans une équipe est précieuse : pour sensibiliser et former les équipes, optimiser les processus, faire des revues de code ;
 * il existe quelques [sensibilisations](/formations/) gratuites et en ligne ;
 * si vous n’avez pas les ressources nécessaires en interne pour le faire, [faites appel à l’accord-cadre interministériel de la Direction des achats de l’État](../../accord-cadre-dae/) pour de l’accompagnement et de la formation. Tous les sujets y sont couverts : audits RGAA, formations de vos équipes, tests avec des utilisateurs en situation de handicap, constitution d’un schéma pluriannuel de mise en accessibilité, …

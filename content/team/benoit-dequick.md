@@ -6,7 +6,7 @@ photo: ./photos/benoit-dequick.jpg
 job_title: Développeur
 sub_team: Design et accessibilité
 sub_team_link:
-twitter: bedqck
+twitter:
 e-mail :
 group : ["team"]
 ---

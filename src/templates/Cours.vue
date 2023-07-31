@@ -46,7 +46,7 @@
         <iframe width="560" height="315" :src="$page.cours.replay" :title="'Replay vidéo de la formation ' + $page.cours.nom" frameborder="0" allowfullscreen></iframe>
         <div v-if="$page.cours.transcription[0]" class="fr-download fr-mt-1w">
           <p>
-            <a :href="$page.cours.transcription[0].url" download class="fr-download__link">Télécharger la transcription
+            <a :href="'/assets/doc/'+$page.cours.transcriptionName" download class="fr-download__link">Télécharger la transcription
               <span class="fr-download__detail">
                 {{ $page.cours.transcriptionFormat }} – {{ $page.cours.transcriptionSize }}
               </span>
@@ -280,6 +280,7 @@
       transcription {
         url
       }
+      transcriptionName
       transcriptionFormat
       transcriptionSize
       tags

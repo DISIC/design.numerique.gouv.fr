@@ -127,18 +127,18 @@
             > ;
           </li>
           <li>
-            Le
+            Télécharger le 
             <a
-              href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4.1.modele-de-grille-d-audit.ods"
+              href="https://accessibilite.numerique.gouv.fr/doc/rgaa4.1.2.modele-de-grille-d-audit.ods"
               title="Télécharger le modèle de grille d’audit (format ODS – 233 Ko)"
               download
               >modèle de grille d’audit (format ODS – 233 Ko)</a
             > ;
           </li>
           <li>
-            Le
+             Télécharger le 
             <a
-              href="https://www.numerique.gouv.fr/uploads/rgaa/rgaa4-2019-modele-rapport-audit.odt"
+              href="https://accessibilite.numerique.gouv.fr/doc/rgaa4-2019-modele-rapport-audit.odt"
               title="Télécharger le modèle de rapport d’audit (format ODT – 51 Ko)"
               download
               >modèle de rapport d’audit (format ODT – 51 Ko)</a
@@ -149,32 +149,12 @@
 
       <section>
         <h2 id="declaration">Obligations légales</h2>
-        <ul class="fr-mb-3w">
-          <li>
-            un
+        <p class="fr-mb-3w">
             <a href="/outils/exemple-declaration-accessibilite/"
-              >exemple de déclaration d’accessibilité</a
+              >Exemple de déclaration d’accessibilité</a
             >
-            prêt à remplir ;
-          </li>
-          <li>
-            le
-            <a
-              href="https://betagouv.github.io/a11y-generateur-declaration/"
-              title="Générateur de déclaration d’accessibilité - Nouvelle fenêtre"
-              target="_blank"
-              rel="noreferrer noopener"
-              >générateur de déclaration d’accessibilité</a
-            >
-            produit par
-            <a
-              target="_blank"
-              title="BetaGouv - nouvelle fenêtre"
-              href="https://beta.gouv.fr"
-              >BetaGouv</a
-            >.
-          </li>
-        </ul>
+            prêt à remplir.
+          </p>
       </section>
 
       <section>

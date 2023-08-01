@@ -28,7 +28,7 @@ S’assurer que les sites et applications web conçus par votre entité sont acc
 
 * Nombre de personnes sensibilisées et/ou formées ;
 * Nombre d’audits de conformité effectués ;
-* Nombre de [déclarations d’accessibilité](../../declaration-accessibilite) publiées ;
+* Nombre de déclarations d’accessibilité publiées ;
 * Nombre de sites ou applications non/partiellement/totalement conformes ;
 * Publication de fiches de postes ;
 * Clauses de marché publics ;
@@ -36,7 +36,7 @@ S’assurer que les sites et applications web conçus par votre entité sont acc
 
 ### Vos outils
 
-Le [jeu de l’organisation de l’amélioration de l’accessibilité](../../jeu-de-oaa) propose un parcours d’amélioration de l’accessibilité des sites et applications web de votre entité.
+Le [jeu de l’organisation de l’amélioration de l’accessibilité](/outils/jeu-de-oaa) propose un parcours d’amélioration de l’accessibilité des sites et applications web de votre entité.
 
 [L’accord-cadre interministériel <abbr title="Direction des achats de l’État">DAÉ</abbr>](../../accord-cadre-dae/) comprend toutes les prestations nécessaires :
 * Accompagnement pour la mise en œuvre et le suivi du schéma pluriannuel de mise en accessibilité des services de communication au public en ligne ;

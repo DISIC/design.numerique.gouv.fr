@@ -30,6 +30,6 @@ cat: Pilotage
 ### Vos outils
 
 * la [checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D) ;
-* le [jeu de l’Organisation de l’amélioration de l’accessibilité](../../jeu-de-oaa/) ;
+* le [jeu de l’Organisation de l’amélioration de l’accessibilité](/outils/jeu-de-oaa/) ;
 * le [diagnostic flash](/outils/diagnostic-flash) ;
 * le [système de design de l'État](https://www.systeme-de-design.gouv.fr/){title="système de design de l'État - nouvelle fenêtre"}.

@@ -36,7 +36,7 @@ cat: Expertise
 
 ### Vos outils
 
-* le [jeu de l’Organisation de l’amélioration de l’accessibilité](../../jeu-de-oaa/)  ;
+* le [jeu de l’Organisation de l’amélioration de l’accessibilité](/outils/jeu-de-oaa/)  ;
 * la revue de maquette avec les designers ;
 * la revue de code avec les équipes de développement ;
 * la recette <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> de chaque nouvelle fonctionnalité

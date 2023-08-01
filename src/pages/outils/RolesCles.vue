@@ -18,8 +18,8 @@
       <p class="fr-text--lead">Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-accordions-group">
-          
-          <div class="fr-col-12" v-for="{ node } in $page.allRole.edges" :key="node.id">     
+      
+          <div class="fr-col-12" v-for="{ node } in $page.allRole.edges" :key="node.id">      
             <section class="fr-accordion">
               <h2 class="fr-accordion__title">
               <button class="fr-accordion__btn" aria-expanded="false" :aria-controls="node.id">
@@ -27,7 +27,8 @@
                   <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto">
                     <img svg-inline src="../../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">
                   </span>
-                  {{ node.title }} 
+                  {{ node.title }}
+                    <span v-if="node.cat" class="fr-mx-2w fr-badge fr-badge--green-bourgeon">{{node.cat}}</span>
                   </span>                
                 </button>
               </h2>
@@ -45,7 +46,7 @@
 
 <page-query>
   query {
-    allRole (sortBy: "cat", order: DESC) {
+    allRole (sort: [{ by: "cat", order: DESC }, { by: "title", order: ASC }]) {
       edges {
         node {
         	id

@@ -4,7 +4,7 @@ slug: expert
 order: 3
 description: Vous sensibilisez, formez, accompagnez les équipes et auditez les sites et applications web
 focus:
-cat: Expertise
+cat: 
 ---
 
 ### Votre rôle

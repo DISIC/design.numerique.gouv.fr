@@ -4,7 +4,7 @@ slug: editor
 order: 7
 description: Vous produisez des contenus numériques et consultables en ligne
 focus:
-cat: Contribution
+cat: 
 ---
 
 

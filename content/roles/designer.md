@@ -4,7 +4,7 @@ slug: designer
 order: 5
 description: Vous concevez un parcours ou une interface en prenant en compte tous les usagers
 focus:
-cat: Design
+cat: 
 ---
 
 

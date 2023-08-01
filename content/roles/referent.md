@@ -1,29 +1,30 @@
 ---
 title: Référent ou référente
 slug: referent
-cat: 2
+order: 2
 description: Vous mettez en place les actions nécessaires au suivi du schéma pluriannuel
 focus:
+cat: Pilotage
 ---
 
-## Votre rôle
+### Votre rôle
 
 S’assurer que les sites et applications web conçus par votre entité sont accessibles et conformes au RGAA.
 
-## Vos actions
+### Vos actions
 
-### Établir un schéma pluriannuel de mise en accessibilité
+#### Établir un schéma pluriannuel de mise en accessibilité
 
 * Faire un **état des lieux** des sites et applications web ;
 * Décliner le schéma en **plans d’actions annuels**.
 
-### Planifier
+#### Planifier
 
 * des audits de ses sites et applications ;
 * des formations ;
 * des sensibilisations.
 
-### Mettre en place des indicateurs 
+#### Mettre en place des indicateurs 
 
 * Nombre de personnes sensibilisées et/ou formées ;
 * Nombre d’audits de conformité effectués ;
@@ -33,7 +34,7 @@ S’assurer que les sites et applications web conçus par votre entité sont acc
 * Clauses de marché publics ;
 * …
 
-## Vos outils
+### Vos outils
 
 Le [jeu de l’organisation de l’amélioration de l’accessibilité](../../jeu-de-oaa) propose un parcours d’amélioration de l’accessibilité des sites et applications web de votre entité.
 

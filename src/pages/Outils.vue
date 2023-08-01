@@ -60,7 +60,7 @@
         <ul class="fr-mb-3w">
           <li>
             le
-            <a href="/accessibilite-numerique/jeu-de-oaa/"
+            <a href="/outils/jeu-de-oaa/"
               >jeu de l’organisation de l’amélioration de l’accessibilité
               (OAA)</a
             >
@@ -69,7 +69,7 @@
           </li>
           <li>
             les
-            <a href="/accessibilite-numerique/roles-cles/">fiches métiers</a>
+            <a href="/outils/roles-cles/">fiches métiers</a>
             décrivent votre rôle, vos actions et vos outils ;
           </li>
           <li>

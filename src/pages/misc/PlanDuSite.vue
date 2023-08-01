@@ -30,8 +30,8 @@
         <h2><a href="/accompagnement/">Nos offres d’accompagnement</a></h2>
         <h2><a href="/outils/">Outils</a></h2>
         <ul>
-        <li><a href="/accessibilite-numerique/jeu-de-oaa/">Organiser l’amélioration de l‘accessibilité</a></li>
-          <li><a href="/accessibilite-numerique/roles-cles/">Les fiches métiers</a></li>
+        <li><a href="/outils/jeu-de-oaa/">Organiser l’amélioration de l‘accessibilité</a></li>
+          <li><a href="/outils/roles-cles/">Les fiches métiers</a></li>
         <li><a href="/outils/diagnostic-flash/">Le diagnostic flash</a></li>
         <li><a href="/outils/checklist-dev/">La checklist des développeurs et développeuses</a></li>
         <li><a href="/outils/memo-dev/">Le mémo développement</a></li>

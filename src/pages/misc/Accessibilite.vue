@@ -64,12 +64,12 @@
            <li><a href="/accompagnement/">Nos offres d’accompagnement</a></li>
            <li><a href="/articles/">Articles</a></li>
            <li><a href="/a-propos">Équipe</a></li>
-           <li><a href="/accessibilite-numerique/roles-cles/">Rôles clés</a></li>
+           <li><a href="/outils/roles-cles/">Rôles clés</a></li>
            <li><a href="/accessibilite-numerique/roles-cles/developer/">Développeur ou développeuse</a></li>
            <li><a href="/commando-ux/">Commando UX</a></li>
            <li><a href="/articles/2021-03-21-evenement-design/">L’État centré usager ? Oui c’est possible</a></li>
            <li><a href="/newsletter/">Newsletter</a></li>
-           <li><a href="/accessibilite-numerique/jeu-de-oaa/">Le jeu de l’OAA</a></li>
+           <li><a href="/outils/jeu-de-oaa/">Le jeu de l’OAA</a></li>
          </ul>
          <h3>Retour d’information et contact</h3>
          <p>La direction interministérielle du numérique (DINUM) s’engage à prendre les moyens nécessaires afin de donner accès, dans un délai raisonnable, aux informations et fonctionnalités recherchées par la personne handicapée, que le contenu fasse l’objet d’une dérogation ou non.</p>

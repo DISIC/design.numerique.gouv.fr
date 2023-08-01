@@ -287,7 +287,7 @@
                               <h3 class="fr-card__title fr-h6">
                                   <a href="#">Le système de design</a>
                               </h3>
-                              <p class="fr-card__desc">La carte donne des aperçus cliquables d’une page de contenu à l’utilisateur.</p>
+                              <p class="fr-card__desc">Développer vos sites et applications en utilisant des composants prêts à l’emploi, accessibles et ergonomiques.</p>
                           </div>
                       </div>
                   </div>
@@ -297,9 +297,9 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="#">Le diganostique flash</a>
+                                  <a href="/outils/diagnostic-flash">Le diagnostic flash</a>
                               </h3>
-                              <p class="fr-card__desc">La carte donne des aperçus cliquables d’une page de contenu à l’utilisateur.</p>
+                              <p class="fr-card__desc">Il permet d’estimer de manière partielle l’accessibilité et la qualité d’un site ou d’un service en ligne.</p>
                           </div>
                       </div>
                   </div>
@@ -309,9 +309,9 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="#">Nos testeurs en situation de handicap</a>
+                                  <a href="/outils/#tests">Nos testeurs en situation de handicap</a>
                               </h3>
-                              <p class="fr-card__desc">La carte donne des aperçus cliquables d’une page de contenu à l’utilisateur.</p>
+                              <p class="fr-card__desc">Faîtes tester vos services en ligne par des utilisateurs en situation de handicap.</p>
                           </div>
                       </div>
                   </div>
@@ -321,9 +321,9 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="#">Les fiches métier</a>
+                                  <a href="/accessibilite-numerique/roles-cles">Les fiches métier</a>
                               </h3>
-                              <p class="fr-card__desc">La carte donne des aperçus cliquables d’une page de contenu à l’utilisateur.</p>
+                              <p class="fr-card__desc">Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
                           </div>
                       </div>
                   </div>

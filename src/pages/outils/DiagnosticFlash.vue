@@ -132,10 +132,10 @@ export default {
   .dg-criteres {
     ul {
       li {
-        display: inline;
+        display: inline-flex;
         margin-right: 1em;
+        margin-bottom: 1em;
         a {
-          margin-bottom: 0.5em;        
         }
       }
     }

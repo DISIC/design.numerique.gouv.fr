@@ -19,7 +19,7 @@
       <h1>Diagnostic flash</h1>
       <p class="fr-text--lead">Le <strong>diagnostic flash</strong> permet d’estimer de manière partielle l’accessibilité et la qualité d’un site ou d’un service en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
       <p>Ces tests sont très simples à réaliser et peuvent être intégrés à toutes les phases de tests, de recettes ou de validations fonctionnelles et techniques.</p>
-      <p>Le badge <abbr title="accessibilité" class="fr-badge fr-badge--sm fr-badge--green-bourgeon">A11É</abbr> indique que le critère touche à l’accessibilité du site et vient du Référentiel général d’amélioration de l’accessibilité.</p>
+      <p>Le badge <abbr title="accessibilité" class="fr-badge fr-badge--sm">A11É</abbr> indique que le critère touche à l’accessibilité du site et vient du Référentiel général d’amélioration de l’accessibilité.</p>
 
 
       <div class="quick-test">
@@ -29,12 +29,20 @@
               <li  class="fr-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
                 <h3 class="fr-accordion__title"><!--span class="numero">{{ criterion.node.id }}</span-->
                   <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
-                     <span><span>{{ criterion.node.title }} </span> <span v-if="criterion.node.tag" class="fr-badge fr-badge-sm fr-badge--green-bourgeon"> {{ criterion.node.tag }}</span></span>
+                     <span><span>{{ criterion.node.title }} </span> <span v-if="criterion.node.tag" class="fr-badge fr-badge-sm"> {{ criterion.node.tag }}</span></span>
                   </button>
                 </h3>
                 <div class="fr-collapse" :id="criterion.node.id">
                   <div class="fr-accordion__inner">
                     <div v-html="criterion.node.content" />
+                    <div class="dg-criteres fr-my-2w" v-if="criterion.node.rgaa.length">
+                      <h4><span v-if="criterion.node.rgaa.length == 1">Critère <abbr title="Référentiel général d’amélioration de l’accessibilité" >RGAA</abbr> concerné</span><span v-else-if="criterion.node.rgaa.length > 1">Critères RGAA concernés</span></h4>
+                      <ul>
+                        <li    class="fr-tag"  v-for="(critere, index) in criterion.node.rgaa.length">
+                             <g-link target="_blank" rel="noopener, noreferrer" :title="'Critère '+criterion.node.rgaa[index]+' - nouvelle fenêtre'"  :to="'https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests#' + criterion.node.rgaa[index]">{{ criterion.node.rgaa[index] }} <span aria-hidden="true" class="fr-icon-external-link-line fr-icon--sm"></span><span class="sr-only">nouvelle fenêtre</span></g-link>
+                        </li>
+                      </ul>            					
+                    </div>
                   </div>
                 </div>
               </li>
@@ -84,6 +92,7 @@
           title
           tag
           content
+          rgaa
           cat {
             id
           }
@@ -119,3 +128,16 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+  .dg-criteres {
+    ul {
+      li {
+        display: inline;
+        margin-right: 1em;
+        a {
+          margin-bottom: 0.5em;        
+        }
+      }
+    }
+  }
+</style>

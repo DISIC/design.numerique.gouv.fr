@@ -42,10 +42,10 @@
 
       <h2 id="comprendre">Comprendre</h2>
       <div class="fr-mb-6w">
-        <p>Le design numérique concerne l'ensemble des pratiques permettant la
+        <p>Le design numérique concerne l’ensemble des pratiques permettant la
           conception de produits et services numériques et plaçant les
-          utilisateurs au cœur de cette conception. Au sein de l'État,
-          l'ambition du design numérique est de proposer aux usagers des
+          utilisateurs au cœur de cette conception. Au sein de l’État,
+          l’ambition du design numérique est de proposer aux usagers des
           produits et services&nbsp;:
           <ul class="dg-list-no-decoration fr-pl-0">
             <li class="fr-mt-2w">
@@ -58,7 +58,7 @@
             </li>
             <li class="fr-mt-2w">
               <span class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v">Protecteurs</span>
-              <span class="dg-display-block fr-pl-2w">Qui protègent les droits des usagers, et explicitent, rendent lisible et en assurent la transparence de l'action publique.</span>
+              <span class="dg-display-block fr-pl-2w">Qui protègent les droits des usagers, et explicitent, rendent lisible et en assurent la transparence de l’action publique.</span>
             </li>
             <li class="fr-mt-2w">
               <span class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v">Conviviaux</span>
@@ -76,10 +76,10 @@
           <h3 class="fr-accordion__title">
             <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-113">
               <span class="dg-flex dg-flex--align-center">
-                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg " aria-hidden="true">
                   🎨
                 </span>
-                Le design numérique c'est quoi ?
+                Le design numérique c’est quoi ?
               </span>
             </button>
           </h3>
@@ -87,35 +87,35 @@
             <p>Le design numérique est une pratique qui regroupe plusieurs compétences, toutes indispensables à la réalisation de bons services numériques.</p>
             <ul class="dg-list-no-decoration">
               <li class="fr-mb-4w">
-                <h4 class="fr-mb-2w">La recherche utilisateur (user research)</h4>
-                <p class="fr-mb-2w">Aller à la recontre des usagers d'un service numérique  pour
-                connaître et comprendre leurs besoins et leurs attentes, puis pour tester l'adéquation
+                <h4 class="fr-mb-2w">La recherche utilisateur (<span lang="en">user research</span>)</h4>
+                <p class="fr-mb-2w">Aller à la rencontre des usagers d’un service numérique  pour
+                connaître et comprendre leurs besoins et leurs attentes, puis pour tester l’adéquation
                 entre un service numérique et ces besoins et attentes. Pour
-                cela, plusieurs méthodes existent comme les enquètes, les entretiens
-                utilisateur et les tests utilisateur.</p>
+                cela, plusieurs méthodes existent comme les enquêtes, les entretiens
+                utilisateurs et les tests utilisateurs.</p>
                 <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right">La recherche utilisateur en détails</a>
               </li>
               <li class="fr-mb-2w">
-                <h4 class="fr-mb-2w">Le design d'expérience (UX design)</h4>
+                <h4 class="fr-mb-2w">Le design d’expérience (UX design)</h4>
                 <p>Sur la base des données issues de la recherche utilisateur,
-                  donner vie au service en concevant les parcours pour les différents cas d'usage et toute l'expérience du service.
+                  donner vie au service en concevant les parcours pour les différents cas d’usage et toute l’expérience du service.
                   Pour cela, plusieurs méthodes existent comme la création de
-                  maquettes et de protptypes rapides.</p>
+                  maquettes et de prototypes rapides.</p>
               </li>
               <li class="fr-mb-4w">
-                <h4 class="fr-mb-2w">Le design d'interface (UI design)</h4>
+                <h4 class="fr-mb-2w">Le design d’interface (UI design)</h4>
                 <p class="fr-mb-2w">Donner forme au service numérique en concevant son identité
-                  graphique : marque, couleurs, typrographie, forme des composants, etc. Pour cela et s'il existe, l'utilisation d'un
+                  graphique : marque, couleurs, typographie, forme des composants, etc. Pour cela et s’il existe, l’utilisation d’un
                   système de design est essentiel.</p>
-                  <a href="https://www.systeme-de-design.gouv.fr/" title="Le système de design de l'État - Nouvelle fenêtre" target="_blank" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right">Le système de design de l'État</a>
+                  <a href="https://www.systeme-de-design.gouv.fr/" title="Le système de design de l’État - Nouvelle fenêtre" target="_blank" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right">Le système de design de l’État</a>
               </li>
               <li class="fr-mb-2w">
-                <h4 class="fr-mb-2w">Le design de contenu (content design)</h4>
+                <h4 class="fr-mb-2w">Le design de contenu (<span lang="en">design</span>)</h4>
                 <p>Concevoir et rédiger des contenus simples, clairs, compréhensibles
-                  pour les usagers. Par exemple par l'emploi du
+                  pour les usagers. Par exemple par l’emploi du
                   <a href="https://www.iso.org/fr/standard/78907.html" title="Langage clair - Nouvelle fenêtre" target="_blank" >langage clair</a>,
                   du <a href="https://www.unapei.org/article/de-nouvelles-fiches-en-facile-a-lire-et-a-comprendre-falc-realisees-par-la-cnsa/" title="Facile À Lire et à Comprendre (FALC) - Nouvelle fenêtre" target="_blank" >Facile À Lire et à Comprendre (FALC)</a>
-                  ou encore par la simplification des textes jurdiques (design juridique - legal design).</p>
+                  ou encore par la simplification des textes juridiques (design juridique - <span lang="en">legal design</span>).</p>
               </li>
             </ul>
           </div>
@@ -124,10 +124,10 @@
           <h3 class="fr-accordion__title">
             <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-115">
               <span class="dg-flex dg-flex--align-center">
-                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg" aria-hidden="true">
                   👯
                 </span>
-                Le design c'est qui ?
+                Le design c’est qui ?
               </span>
             </button>
           </h3>
@@ -142,10 +142,10 @@
           <h3 class="fr-accordion__title">
             <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-115">
               <span class="dg-flex dg-flex--align-center">
-                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"  aria-hidden="true">
                   🗓️
                 </span>
-                Le design c'est quand ?
+                Le design c’est quand ?
               </span>
             </button>
           </h3>
@@ -160,7 +160,7 @@
           <h3 class="fr-accordion__title">
             <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-116">
               <span class="dg-flex dg-flex--align-center">
-                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"  aria-hidden="true">
                   🧭
                 </span>
                 Comment intégrer le design ?
@@ -176,13 +176,13 @@
         </section>
       </div>
 
-      <h2 id="agir">Passer à l'action</h2>
+      <h2 id="agir">Passer à l’action</h2>
       <div class="fr-accordions-group fr-mb-6w">
         <section class="fr-accordion">
             <h3 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-14">
                   <span class="dg-flex dg-flex--align-center">
-                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"  aria-hidden="true">
                       🦮
                     </span>
                     Je souhaite être accompagné
@@ -200,7 +200,7 @@
             <h3 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-15">
                   <span class="dg-flex dg-flex--align-center">
-                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"  aria-hidden="true">
                       🧑‍🏫
                     </span>
                     Je souhaite former mes équipes
@@ -218,7 +218,7 @@
             <h3 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-16">
                   <span class="dg-flex dg-flex--align-center">
-                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg" aria-hidden="true">
                       🗣️
                     </span>
                     Je souhaite faire des tests utilisateurs
@@ -236,7 +236,7 @@
             <h3 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-17">
                   <span class="dg-flex dg-flex--align-center">
-                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg">
+                    <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg" aria-hidden="true">
                       🗣️
                     </span>
                     Je souhaite connaître la qualité de mon site

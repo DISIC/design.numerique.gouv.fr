@@ -110,6 +110,14 @@
         <h2 id="audit">Audit</h2>
         <ul class="fr-mb-3w">
           <li>
+            <a
+              href="https://ara.numerique.gouv.fr"
+              title="Ara - nouvelle fenêtre"
+              target="_blank" rel="noreferrer noopener"
+              ><strong>Ara</strong></a
+            > est un outil en ligne pour réaliser des audits d’accessibilité numérique, générer un rapport d’accessibilité et rédiger la déclaration d’accessibilité ;
+          </li> 
+          <li>
             L’<strong>assistant RGAA</strong> facilite la réalisation d’audit en
             mettant à disposition les critères et tests du RGAA 4.1 directement
             dans le navigateur. Disponible sur

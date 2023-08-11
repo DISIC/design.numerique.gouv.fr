@@ -25,11 +25,30 @@
           />Outils
         </h1>
         <p class="fr-text--lead">
-          Une sélection d’outils faits maison pour vous accompagner dans
+          Une sélection d’outils <em>faits maison</em> pour vous accompagner dans
           l’amélioration de l’accessibilité et du design de vos sites et
           applications web.
         </p>
-      </div>
+        <ul class="fr-tags-group">
+          <li>
+              <a href="#tech" class="fr-tag" target="_self">Tech</a>
+          </li>
+          <li>
+              <a href="#methode" class="fr-tag" target="_self">Méthode</a>
+          </li>
+          <li>
+              <a href="#audit" class="fr-tag" target="_self">Audit</a>
+          </li>
+         <li>
+              <a href="#declaration" class="fr-tag" target="_self">Déclaration</a>
+          </li>
+           <li>
+              <a href="#tests" class="fr-tag" target="_self">Tests usagers en situation de handicap</a>
+          </li>
+          <li>
+              <a href="#dsfr" class="fr-tag" target="_self">Système de design</a>
+          </li>
+      </ul>      </div>
     </section>
 
     <div class="dg-content fr-px-2w">
@@ -156,33 +175,14 @@
       </section>
 
       <section>
-        <h2 id="declaration">Obligations légales</h2>
-        <ul class="fr-mb-3w">
-          <li>
-            un
+        <h2 id="declaration">Déclaration d’accessibilité</h2>
+          <p>
+            Un
             <a href="/outils/exemple-declaration-accessibilite/"
               >exemple de déclaration d’accessibilité</a
             >
-            prêt à remplir ;
-          </li>
-          <li>
-            le
-            <a
-              href="https://betagouv.github.io/a11y-generateur-declaration/"
-              title="Générateur de déclaration d’accessibilité - Nouvelle fenêtre"
-              target="_blank"
-              rel="noreferrer noopener"
-              >générateur de déclaration d’accessibilité</a
-            >
-            produit par
-            <a
-              target="_blank"
-              title="BetaGouv - nouvelle fenêtre"
-              href="https://beta.gouv.fr"
-              >BetaGouv</a
-            >.
-          </li>
-        </ul>
+            prêt à remplir.
+          </p>
       </section>
 
       <section>

@@ -187,7 +187,7 @@
 
       <section>
         <h2 id="tests">Tests usagers en situation de handicap</h2>
-        <h3>Mode d’utilisation du groupe d’utilisateurs handicapés</h3>
+        <h3 class="fr-h4">Mode d’utilisation du groupe d’utilisateurs handicapés</h3>
         <p>
           La DINUM a créé un groupe d’utilisateurs handicapés pour tester
           l’accessibilité des sites et applications mobiles publics. Il inclut

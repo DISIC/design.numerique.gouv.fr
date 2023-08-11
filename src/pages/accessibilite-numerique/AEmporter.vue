@@ -32,12 +32,12 @@
       </ol>
 
       <h2>S’organiser</h2>
-      <p>Le <g-link to="/accessibilite-numerique/jeu-de-oaa">jeu de l'organisation de l’amélioration de l’accessibilité (OAA)</g-link> vous guide dans la mise en accessibilité de votre service numérique.</p>
+      <p>Le <g-link to="/accessibilite-numerique/jeu-de-oaa">jeu de l’organisation de l’amélioration de l’accessibilité (OAA)</g-link> vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       <h2>Se faire aider</h2>
-      <p>Si votre démarche fait partie de l’<a href="https://observatoire.numerique.gouv.fr/" title="observatoire de la qualité des démarches en ligne - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">observatoire de la qualité des démarches en ligne</a>, vous pouvez consulter <g-link to="/accompagnement/">nos offres d’accompagnment</g-link>.</p>
+      <p>Toute l’équipe DesignGouv est là pour vous aider. Consultez <g-link to="/accompagnement/">nos offres d’accompagnement</g-link> ou <g-link to="/contact/">contactez-nous</g-link>.</p>
       <p>Vous pouvez également bénéficier de <a href="http://www.fiphfp.fr/Le-FIPHFP/Domaines-d-intervention/Accessibilite" title="financement - nouvelle fenêtre" target="_blank" rel="noreferrer noopener">financement</a> de la part du <abbr title="Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique">FIPHFP</abbr> pour la <strong>formation</strong> de vos agents ou la <strong>mise en accessibilité</strong> de vos interfaces.</p>
-      <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à un <g-link to="/accessibilite-numerique/prestations-accessibilite-numerique">prestataire</g-link> pour de l’<strong>accompagnement</strong>, de la <strong>formation</strong>, des <strong>audits</strong> RGAA, des tests avec des utilisateurs en situation de handicap, la constitution d’un schéma pluriannuel de mise en accessiblité, etc.</p>
+      <p>Si vous n’avez pas les ressources nécessaires en interne pour le faire, faites appel à un <g-link to="/accessibilite-numerique/prestations-accessibilite-numerique">prestataire</g-link> pour de l’<strong>accompagnement</strong>, de la <strong>formation</strong>, des <strong>audits</strong> RGAA, des tests avec des utilisateurs en situation de handicap, la constitution d’un schéma pluriannuel de mise en accessibilité, etc.</p>
 
     </div>
   </Layout>

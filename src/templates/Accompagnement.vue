@@ -48,9 +48,9 @@
         <p v-if="$page.accompagnement.experts.length < 2" class="detail__name fr-mr-1w fr-mb-2w">Expert déployé :</p>
         <p v-else class="detail__name fr-mr-1w fr-mb-2w">Experts déployés :</p>
         <ul class="detail__data detail__data--team fr-ml-2w fr-ml-md-6w fr-mb-1v">
-          <li v-for="expert in $page.accompagnement.experts" :key="expert.id" class="team-member fr-mb-1v">
-            <g-image :src="findPhoto(expert.slug).photo" class="team-member__photo fr-mr-1w" alt="" />
-            <p class="team-member__description">{{ expert.name }}</p>
+          <li v-for="expert in $page.accompagnement.experts" :key="expert" class="team-member fr-mb-1v">
+            <g-image :src="findPhoto(expert).photo" class="team-member__photo fr-mr-1w" alt="" />
+            <p class="team-member__description">{{ expert }}</p>
           </li>
         </ul>
       </div>
@@ -70,11 +70,7 @@
       name
       mission
       volumetry
-      experts {
-        id
-        name
-        slug
-      }
+      experts
       date
       status
       impact
@@ -141,8 +137,8 @@
       };
     },
     methods: {
-      findPhoto(id) {
-        return this.$page.people.edges.filter(person => person.node.id == id)[0].node;
+      findPhoto(name) {
+        return this.$page.people.edges.filter(person => person.node.id == this.$slugify(name))[0].node;
       }
     }
   };

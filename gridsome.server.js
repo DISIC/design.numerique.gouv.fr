@@ -104,9 +104,9 @@ module.exports = function (api) {
 
       node.content = collection._store.createReference(markdownNode)
 
-      node.Experts.forEach((expert, i) => {
-        node.Experts[i].slug = slugify(expert.name);
-      });
+      // node.Experts.forEach((expert, i) => {
+      //   node.Experts[i].slug = slugify(expert.name);
+      // });
     }
   });
 }

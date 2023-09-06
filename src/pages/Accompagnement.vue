@@ -85,7 +85,7 @@
             </div>
             <div class="mission__right">
               <ul class="mission__team fr-pt-md-1v">
-                <li v-for="expert in node.experts" :key="expert.id" ><g-image class="mission__team-member fr-ml-3v" :src="findPhoto(expert.slug).photo" :alt="expert.name" /></li>
+                <li v-for="expert in node.experts" :key="expert" ><g-image class="mission__team-member fr-ml-3v" :src="findPhoto(expert).photo" :alt="expert" /></li>
               </ul>
               <p class="fr-badge fr-badge--sm fr-badge--info fr-badge--no-icon fr-ml-md-2w">En cours</p>
             </div>
@@ -97,7 +97,7 @@
             </div>
             <div class="mission__right">
               <ul class="mission__team fr-pt-md-1v">
-                <li v-for="expert in node.experts" :key="expert.id" ><g-image class="mission__team-member fr-ml-3v" :src="findPhoto(expert.slug).photo" :alt="expert.name" /></li>
+                <li v-for="expert in node.experts" :key="expert" ><g-image class="mission__team-member fr-ml-3v" :src="findPhoto(expert).photo" :alt="expert" /></li>
               </ul>
               <p class="fr-badge fr-badge--sm fr-badge--success fr-badge--no-icon fr-ml-md-2w">Terminé</p>
             </div>
@@ -152,11 +152,7 @@
         node {
           id
           name
-          experts {
-            id
-            name
-            slug
-          }
+          experts
           date
           status
         }
@@ -189,8 +185,8 @@
       },
     },
     methods: {
-      findPhoto(id) {
-        return this.$page.people.edges.filter(person => person.node.id == id)[0].node;
+      findPhoto(name) {
+        return this.$page.people.edges.filter(person => person.node.id == this.$slugify(name))[0].node;
       }
     },
     metaInfo: {

@@ -8,9 +8,19 @@
 const slugify = require('@sindresorhus/slugify');
 
 module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
+  api.loadSource(({ addSchemaResolvers }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
-  })
+		addSchemaResolvers({
+			DiagFlashCriterion: {
+				rgaaStr: {
+					type: '[String]',
+					resolve(obj) {
+						return obj.rgaa || []
+					}
+				}
+			}
+		})
+  });
 
   api.createPages(async ({ graphql, createPage }) => {
 

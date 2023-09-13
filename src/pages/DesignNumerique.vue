@@ -41,7 +41,7 @@
 
     <section class="dg-content fr-px-2w">
 
-      <div class="fr-highlight fr-highlight--pink-macaron fr-my-6w">
+      <div class="fr-highlight fr-highlight--pink-macaron fr-my-8w">
           <p class="fr-text--lg"><strong>🇫🇷 L’État a la responsabilité de créer
             des services numériques simples, inclusifs et humains pour toutes
             et tous. En écoutant, en comprenant et en impliquant les personnes
@@ -318,21 +318,20 @@
         </section>
       </div>
 
-      <section id="ressources" class="dg-block fr-mb-6w">
-        <div class="dg-content fr-px-6w fr-pt-4w fr-pb-0">
+      <section id="ressources" class="fr-mb-6w">
           <h2>Ressources</h2>
           <ul class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w">
-              <li class="fr-col-md-6 fr-col-12">
+              <li class="fr-col-md-4 fr-col-12">
                   <div class="fr-card fr-enlarge-link">
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
                                   <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" target="_blank" title="La recherche utilisateur - Nouvelle fenêtre" class="dg-link--no-icon">La recherche utilisateur</a>
                               </h3>
-                              <div class="fr-card__end">
-                                <ul class="fr-tags-group">
+                              <div class="fr-card__start">
+                                <ul class="fr-badges-group">
                                   <li>
-                                    <p class="fr-tag">Recherche utilisateur</p>
+                                    <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">Recherche</p>
                                   </li>
                                 </ul>
                               </div>
@@ -341,20 +340,20 @@
                       </div>
                   </div>
               </li>
-              <li class="fr-col-md-6 fr-col-12">
+              <li class="fr-col-md-4 fr-col-12">
                   <div class="fr-card fr-enlarge-link">
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
                                   <a href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4" target="_blank" title="Les fiches de poste - Nouvelle fenêtre" class="dg-link--no-icon">Les fiches de poste</a>
                               </h3>
-                              <div class="fr-card__end">
-                                <ul class="fr-tags-group">
+                              <div class="fr-card__start">
+                                <ul class="fr-badges-group">
                                   <li>
-                                    <p class="fr-tag">Design</p>
+                                    <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">Recherche</p>
                                   </li>
                                   <li>
-                                    <p class="fr-tag">Recherche utilisateur</p>
+                                    <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">Design</p>
                                   </li>
                                 </ul>
                               </div>
@@ -363,17 +362,17 @@
                       </div>
                   </div>
               </li>
-              <li class="fr-col-md-6 fr-col-12">
+              <li class="fr-col-md-4 fr-col-12">
                   <div class="fr-card fr-enlarge-link">
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
                                   <a href="/outils/diagnostic-flash/">Le diagnostic flash</a>
                               </h3>
-                              <div class="fr-card__end">
-                                <ul class="fr-tags-group">
+                              <div class="fr-card__start">
+                                <ul class="fr-badges-group">
                                   <li>
-                                    <p class="fr-tag">Design</p>
+                                    <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">Design</p>
                                   </li>
                                 </ul>
                               </div>
@@ -382,17 +381,17 @@
                       </div>
                   </div>
               </li>
-              <li class="fr-col-md-6 fr-col-12">
+              <li class="fr-col-md-4 fr-col-12">
                   <div class="fr-card fr-enlarge-link">
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
                                   <a href="/outils/#tests">Nos testeurs en situation de handicap</a>
                               </h3>
-                              <div class="fr-card__end">
-                                <ul class="fr-tags-group">
+                              <div class="fr-card__start">
+                                <ul class="fr-badges-group">
                                   <li>
-                                    <p class="fr-tag">Recherche utilisateur</p>
+                                    <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">Recherche</p>
                                   </li>
                                 </ul>
                               </div>
@@ -413,17 +412,17 @@
                       </div>
                   </div>
               </li> -->
-              <li class="fr-col-md-6 fr-col-12">
+              <li class="fr-col-md-4 fr-col-12">
                   <div class="fr-card fr-enlarge-link">
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
                                   <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" title="Le système de design de l'État - Nouvelle fenêtre" class="dg-link--no-icon">Le système de design de l'État</a>
                               </h3>
-                              <div class="fr-card__end">
-                                <ul class="fr-tags-group">
+                              <div class="fr-card__start">
+                                <ul class="fr-badges-group">
                                   <li>
-                                    <p class="fr-tag">Design</p>
+                                    <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">Design</p>
                                   </li>
                                 </ul>
                               </div>
@@ -432,17 +431,17 @@
                       </div>
                   </div>
               </li>
-              <li class="fr-col-md-6 fr-col-12">
+              <li class="fr-col-md-4 fr-col-12">
                   <div class="fr-card fr-enlarge-link">
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
                                   <a href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" target="_blank" title="Le bouton Je Donne Mon Avis - Nouvelle fenêtre" class="dg-link--no-icon">Le bouton Je Donne Mon Avis</a>
                               </h3>
-                              <div class="fr-card__end">
-                                <ul class="fr-tags-group">
+                              <div class="fr-card__start">
+                                <ul class="fr-badges-group">
                                   <li>
-                                    <p class="fr-tag">Recherche utilisateur</p>
+                                    <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">Recherche</p>
                                   </li>
                                 </ul>
                               </div>
@@ -452,17 +451,114 @@
                   </div>
               </li>
           </ul>
-        </div>
       </section>
 
 
-      <h2 id="formations">Formations</h2>
+      <section id="formations" class="dg-block fr-mb-6w">
+        <div class="dg-content fr-px-6w fr-pt-4w fr-pb-0">
+          <h2>Formations</h2>
+          <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w" aria-live="polite">
+            <div v-for="{ node } in $page.allCours.edges.sort((a,b) => (a.node.nom > b.node.nom)).sort((a,b) => (a.node.type < b.node.type))" :key="node.id" class="fr-col-12 fr-col-sm-4">
+              <div class="fr-card fr-enlarge-link">
+                <div class="fr-card__body">
+                  <div class="fr-card__content">
+                    <div class="fr-card__start">
+                      <ul class="fr-badges-group">
+                        <li>
+                          <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">{{ node.type }}</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <h3 class="fr-h6 fr-card__title">
+                      <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
+                    </h3>
+                    <!-- <div class="fr-card__start">
+                      <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
+                      <p v-show="futurCours.filter(element => element == node.id).length == 0 && node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <h2 id="articles">Articles</h2>
+      <section id="articles" class="dg-section-with-link fr-px-6w">
+        <h2 class="dg-section-with-link_title">Derniers articles</h2>
+        <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/articles/">Voir tous nos articles</g-link>
+        <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
+          <div class="fr-col-sm-6" v-for="{ node } in $page.allArticle.edges" :key="node.id">
+            <article class="fr-card fr-enlarge-link" >
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h2 class="fr-card__title">
+                    <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
+                  </h2>
+                  <p class="fr-card__desc">{{ node.description }}</p>
+                  <div class="fr-card__start">
+                    <p class="fr-card__detail">{{ node.publishedDate }}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="fr-card__header">
+                <div>
+                    <img :src="node.illustration.src" class="fr-responsive-img" alt=""/>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
     </section>
 
   </Layout>
 </template>
+
+
+<page-query>
+  query {
+    allCours (sortBy: "nom", order: ASC, filter: { tags: { contains: ["Design", "Recherche utilisateur"] }}) {
+      edges {
+        node {
+          id
+          nom
+          rang
+          slug
+          type
+          replay
+          tags
+          publier
+          formation {
+            id
+            slug
+          }
+          sessions {
+            id
+            date
+            ouverte
+          }
+        }
+      }
+    },
+    allArticle (sortBy: "publishedDate", order: DESC, filter: { tags: { containsAny: ["design", "recherche utilisateur"] }}, limit: 2) {
+      edges {
+        node {
+        	id
+          title
+          publishedDate (format: "D MMMM YYYY", locale : "fr")
+          illustration (width: 800, height: 312, quality: 50)
+          description
+          path
+          tags {
+            id
+          }
+        }
+      }
+    },
+  }
+</page-query>
 
 
 <script>

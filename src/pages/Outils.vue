@@ -12,7 +12,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Outils</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Outils</a>
             </li>
           </ol>
         </nav>
@@ -127,7 +127,7 @@
             > ;
           </li>
           <li>
-            Télécharger le 
+            Télécharger le
             <a
               href="https://accessibilite.numerique.gouv.fr/doc/rgaa4.1.2.modele-de-grille-d-audit.ods"
               title="Télécharger le modèle de grille d’audit (format ODS – 233 Ko)"
@@ -136,7 +136,7 @@
             > ;
           </li>
           <li>
-             Télécharger le 
+             Télécharger le
             <a
               href="https://accessibilite.numerique.gouv.fr/doc/rgaa4-2019-modele-rapport-audit.odt"
               title="Télécharger le modèle de rapport d’audit (format ODT – 51 Ko)"
@@ -195,7 +195,7 @@
             title="système de design de l‘État - nouvelle fenêtre"
             target="_blank"
             >système de design de l’État</a
-          >, développé, maintenu et géré par le <a 
+          >, développé, maintenu et géré par le <a
           href="https://www.gouvernement.fr/service-d-information-du-gouvernement-sig"
           rel="noreferrer noopener"
           title="Service d’Information du Gouvernement - nouvelle fenêtre"
@@ -222,8 +222,8 @@
           <li>une communauté active de designers et de développeurs.</li>
         </ul>
         <div class="fr-highlight">
-       
-<p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a 
+
+<p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a
   href="https://github.com/GouvernementFR/dsfr/blob/fix/readme/doc/legal/cgu.md"
   rel="noreferrer noopener"
   title="conditions générales d'utilisation - nouvelle fenêtre"

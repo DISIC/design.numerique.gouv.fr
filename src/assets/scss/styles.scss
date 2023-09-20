@@ -18,6 +18,16 @@ li.fr-card {
 
 .dg {
 
+  &-link {
+    &--no-icon::after {
+        display: none !important;
+    }
+  }
+
+  &-display-block {
+    display: block;
+  }
+
   &-inline-block {
     display: inline-block;
   }
@@ -31,6 +41,10 @@ li.fr-card {
 
     &--wrap {
       flex-wrap: wrap;
+    }
+
+    &--align-center {
+      align-items: center;
     }
   }
 
@@ -314,7 +328,7 @@ li.fr-card {
       div.dg-criterion {
       ul li p {
         margin-bottom: 0;
-      }        
+      }
       }
 
     }

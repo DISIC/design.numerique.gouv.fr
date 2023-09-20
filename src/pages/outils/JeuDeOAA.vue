@@ -9,7 +9,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
+              <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
             </li>
             <li>
               <span aria-current="page">Jeu de l’OAA</span>

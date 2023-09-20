@@ -1,24 +1,25 @@
 ---
 title: Développeur ou développeuse
 slug: developer
-cat: 6
+order: 6
 description: Vous utilisez ou développez des composants d’interfaces accessibles et conformes au RGAA
 focus: <strong>Attention aux outils de tests automatiques !</strong><br> Ils ne couvrent qu’une petite partie des tests RGAA et ne peuvent pas détecter les anomalies relevant de la pertinence ou du contexte.
+cat: 
 ---
 
-## Votre rôle
+### Votre rôle
 
 * développer accessible et conforme au <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> ;
 * rencontrer des utilisateurs et utilisatrices en situation de handicap ou/et « éloignées » du numérique.
 
-## Vos actions
+### Vos actions
 
 * utiliser les composants du [système de design de l’État](https://gouvfr.atlassian.net/wiki/spaces/DB/pages/223019574/D+veloppeurs){système de design de l’État - nouvelle fenêtre} ;
 * se former à la conception et au développement d’interfaces accessibles et conformes au <abbr title="Référentiel général d’amélioration de l’accessibilité">RGAA</abbr> ;
 * revoir le code avec un expert accessibilité ou un pair afin de résoudre les blocages et d’acquérir de nouvelles compétences
 * [**tester**](/outils/checklist-dev/). 
 
-## Vos outils
+### Vos outils
 
 * Le [validateur HTML du W3C](https://validator.w3.org/) ;
 * Les [68 critères de la checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22D%C3%A9veloppement%22,%22Int%C3%A9gration%22%5D) ;

@@ -8,7 +8,7 @@
             <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
           </li>
           <li>
-            <g-link to="/accessibilite-numerique/"  class="fr-breadcrumb__link">Accessibilité</g-link>
+            <g-link to="/outils/"  class="fr-breadcrumb__link">Outils</g-link>
           </li>
           <li aria-current="page">Rôles clés</li>
         </ol>
@@ -16,22 +16,28 @@
 
       <h1>Rôles clés</span></h1>
       <p class="fr-text--lead">Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
-
-      <div class="fr-grid-row fr-grid-row--gutters">
-        <div class="fr-col-12 fr-col-sm-6 fr-col-lg-4" v-for="{ node } in $page.allRole.edges" :key="node.id">
-          <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-            <div class="fr-tile__body">
-              <h2 class="fr-tile__title">
-                <g-link  class="fr-tile__link" :to="node.path">
+      <div class="fr-grid-row fr-grid-row--center">
+        <div class="fr-accordions-group">
+      
+          <div class="fr-col-12" v-for="{ node } in $page.allRole.edges" :key="node.id">      
+            <section class="fr-accordion">
+              <h2 class="fr-accordion__title">
+              <button class="fr-accordion__btn" aria-expanded="false" :aria-controls="node.id">
+                <span class="dg-flex dg-flex--align-center">
+                  <span class="fr-mt-0 fr-mr-2w dg-picto dg-picto">
+                    <img svg-inline src="../../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">
+                  </span>
                   {{ node.title }}
-                </g-link>
+                    <span v-if="node.cat" class="fr-mx-2w fr-badge fr-badge--green-bourgeon">{{node.cat}}</span>
+                  </span>                
+                </button>
               </h2>
-              <p class="fr-tile__desc">{{ node.description }}</p>
-              <!-- p class="fr-tag">{{ node.cat }}</p -->
-            </div>
+              <div class="fr-collapse" :id="node.id"  v-html="node.content">
+              </div>
+            </section>
           </div>
         </div>
-      </div>
+      </div>   
 
     </div>
   </Layout>
@@ -40,14 +46,16 @@
 
 <page-query>
   query {
-    allRole (sortBy: "cat", order: ASC) {
+    allRole (sort: [{ by: "cat", order: DESC }, { by: "title", order: ASC }]) {
       edges {
         node {
         	id
           title
-          cat
+          order
           description
+          cat
           path
+          content
         }
       }
     }
@@ -97,3 +105,9 @@
       }
     }
 </script>
+<style scoped>
+button.fr-accordion__btn svg { 
+margin-right: 1em;
+  }
+
+</style>

@@ -15,3 +15,5 @@
 /commando-ux/partager-interet/ /recrutement/partager-interet/
 /commando-ux/* /accompagnement/commando-ux/:splat
 /accompagnement/commando-ux/ /accompagnement/
+/accessibilite-numerique/jeu-de-oaa/  /outils/jeu-de-oaa/
+/accessibilite-numerique/roles-cles/  /outils/roles-cles/

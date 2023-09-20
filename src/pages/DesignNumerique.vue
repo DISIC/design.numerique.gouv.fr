@@ -42,10 +42,10 @@
     <section class="dg-content fr-px-2w">
 
       <div class="fr-highlight fr-highlight--pink-macaron fr-my-8w">
-          <p class="fr-text--lg"><strong>🇫🇷 L’État a la responsabilité de créer
+          <p class="fr-text--lg"><strong><span aria-hidden="true">🇫🇷 </span>L’État a la responsabilité de créer
             des services numériques simples, inclusifs et humains pour toutes
             et tous. En écoutant, en comprenant et en impliquant les personnes
-            qui utilisent nos services numériques. 👶🏻🧒🏾🧑🏼🧑🏽‍🦱🧑🏾‍🦰👱🏼🧑🏽‍🦳🧑🏼‍🦲🧔🏾🧓🏽👳🏻</strong></p>
+            qui utilisent nos services numériques. <span aria-hidden="true">👶🏻🧒🏾🧑🏼🧑🏽‍🦱🧑🏾‍🦰👱🏼🧑🏽‍🦳🧑🏼‍🦲🧔🏾🧓🏽👳🏻</span></strong></p>
       </div>
 
       <h2 id="comprendre">Comprendre</h2>
@@ -55,6 +55,7 @@
           utilisateurs au cœur de cette conception. Au sein de l’État,
           l’ambition du design numérique est de proposer aux usagers des
           produits et services&nbsp;:
+        </p>
           <ul class="dg-list-no-decoration fr-pl-0">
             <li class="fr-mt-2w">
               <span class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v">Pertinents</span>
@@ -77,7 +78,6 @@
               <span class="dg-display-block fr-pl-2w">Qui soient frugaux, mutualisés et résilients.</span>
             </li>
           </ul>
-        </p>
       </div>
       <div class="fr-accordions-group fr-mb-6w">
         <section class="fr-accordion">
@@ -92,7 +92,7 @@
             </button>
           </h3>
           <div class="fr-collapse" id="accordion-113">
-            <p><strong>🔑 La clé d’un produit ou service de qualité, ce sont
+            <p><strong><span aria-hidden="true">🔑</span> La clé d’un produit ou service de qualité, ce sont
               les usagers.</strong> Le design numérique est une pratique qui
               place les usagers au cœur de la conception des produits
               et services numérique. Le design numérique regroupe plusieurs
@@ -147,11 +147,12 @@
           <div class="fr-collapse" id="accordion-115">
               <h4 class="fr-h6">Les professionels du design</h4>
               <p>La pratique du design, comme tout métier, nécéssite un apprentissage
-                et de l'expérience. Il existe une diversité de profils pouvant
+                et de l’expérience. Il existe une diversité de profils pouvant
                 pratiquer tout ou partie des métiers du design. Pour être
                 pleinement intégré dans les organisations, des
                 profils de designers managers sont également nécéssaires.</p>
               <p>Voici une liste non exhaustive des praticiens du design numérique :
+              </p>
                 <ul>
                   <li>Designer / Designeuse</li>
                   <li>Designer / Designeuse UX/UI</li>
@@ -162,7 +163,6 @@
                   <li>Design manager</li>
                   <li>Responsable du design</li>
                 </ul>
-              </p>
               <a href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4" target="_blank" title="Voir les fiches de poste - Nouvelle fenêtre" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right">Voir les fiches de poste</a>
           </div>
         </section>
@@ -181,14 +181,14 @@
               <!-- données de test -->
               <h4 class="fr-h6">Tout le temps.</h4>
               <p>
-                Le design doit être présent dans toutes les phases de conception et dévéloppement d'un produit numérique.
-                <ul class="dg-list-no-decoration">
-                  <li class="fr-pt-2w"><strong>🔭 Lors des phases exploratoires :</strong> identification des utilisateurs, clarification du contexte, définition du besoin et des objectifs pour le produit. La ou le chargé de recherche utilisateur est le plus impliqué dans ces phases.</li>
-                  <li class="fr-pt-2w"><strong>🌱 Lors des phases d'idéation :</strong> organisation d'atelier d'idéation, élaboration d'un ou plusieurs concepts de solution, tests et validation du concept. La ou le chargé de recheche utilisateur et la ou le designer (UX) sont les plus impliqués dans ces phases.</li>
-                  <li class="fr-pt-2w"><strong>🧱 Lors des phases de conception et développement :</strong> création des maquettes et prototypes, réalisation des tests d'utilisabilité, recette suite aux développement. La ou le designer (UX/UI) et le ou la chargé de recherche utilisateur sont le plus impliqués dans ces phases.</li>
-                  <li class="fr-pt-2w"><strong>✨ Lors des phases d'évaluation et d'amélioration continue :</strong> mesure de l'atteinte des objectifs, tests utilisateurs en production, mesure de la satisfaction usager. Le ou la chargé de recherche utilisateur est le plus impliqué dans ces phases.</li>
-                </ul>
+                Le design doit être présent dans toutes les phases de conception et dévéloppement d’un produit numérique.
               </p>
+                <ul class="dg-list-no-decoration">
+                  <li class="fr-pt-2w"><strong><span aria-hidden="true">🔭</span> Lors des phases exploratoires :</strong> identification des utilisateurs, clarification du contexte, définition du besoin et des objectifs pour le produit. La ou le chargé de recherche utilisateur est le plus impliqué dans ces phases.</li>
+                  <li class="fr-pt-2w"><strong><span aria-hidden="true">🌱</span> Lors des phases d’idéation :</strong> organisation d’atelier d’idéation, élaboration d’un ou plusieurs concepts de solution, tests et validation du concept. La ou le chargé de recheche utilisateur et la ou le designer (UX) sont les plus impliqués dans ces phases.</li>
+                  <li class="fr-pt-2w"><strong><span aria-hidden="true">🧱</span> Lors des phases de conception et développement :</strong> création des maquettes et prototypes, réalisation des tests d’utilisabilité, recette suite aux développement. La ou le designer (UX/UI) et le ou la chargé de recherche utilisateur sont le plus impliqués dans ces phases.</li>
+                  <li class="fr-pt-2w"><strong><span aria-hidden="true">✨</span> Lors des phases d’évaluation et d’amélioration continue :</strong> mesure de l’atteinte des objectifs, tests utilisateurs en production, mesure de la satisfaction usager. Le ou la chargé de recherche utilisateur est le plus impliqué dans ces phases.</li>
+                </ul>
           </div>
         </section>
         <section class="fr-accordion">
@@ -204,14 +204,14 @@
           </h3>
           <div class="fr-collapse" id="accordion-117">
 
-              <h4 class="fr-h6">👍 En travaillant avec des designers</h4>
-              <p>Il n'y a pas de secret, la première chose dont vous aurez besoin pour intégrer le design, ce sont des designers. S'il ne devait y en avoir qu'un, préferez un profil polyvalent (designer UX/UI - product designer). Puis au fur et à mesure des recrutements, séléctionnez des profils plus spécialisés et qui se complètent.</p>
+              <h4 class="fr-h6"><span aria-hidden="true">👍</span> En travaillant avec des designers</h4>
+              <p>Il n’y a pas de secret, la première chose dont vous aurez besoin pour intégrer le design, ce sont des designers. S’il ne devait y en avoir qu’un, préferez un profil polyvalent (designer UX/UI - product designer). Puis au fur et à mesure des recrutements, séléctionnez des profils plus spécialisés et qui se complètent.</p>
 
-              <h4 class="fr-h6">✌️ En adaptant les méthodes de travail</h4>
-              <p>Aussi talentueuse soit-elle, la designeuse ne peut pas faire de miracle si les méthodes de travail sont hostiles ou contraires à la pratique du design. Il est donc important d'adapter celles-ci pour faire de la place aux temps et activités du design. Votre ou vos designers sauront vous guider pour cela.</p>
+              <h4 class="fr-h6"><span aria-hidden="true">✌️</span> En adaptant les méthodes de travail</h4>
+              <p>Aussi talentueuse soit-elle, la designeuse ne peut pas faire de miracle si les méthodes de travail sont hostiles ou contraires à la pratique du design. Il est donc important d’adapter celles-ci pour faire de la place aux temps et activités du design. Votre ou vos designers sauront vous guider pour cela.</p>
 
-              <h4 class="fr-h6">🤟 En strucurant l'organisation</h4>
-              <p>Les besoins en design dépasse de loin le simple besoin de travailler avec des designers. Tout comme il y a un responsable technique et des tech lead, la bonne intégration du design au sein d'une organisation passe par la nommination d'un responsable du design, pour définir une véritable stratégie du design, et de design lead, pour la mettre en œuvre.</p>
+              <h4 class="fr-h6"><span aria-hidden="true">🤟</span> En strucurant l’organisation</h4>
+              <p>Les besoins en design dépasse de loin le simple besoin de travailler avec des designers. Tout comme il y a un responsable technique et des tech lead, la bonne intégration du design au sein d’une organisation passe par la nommination d’un responsable du design, pour définir une véritable stratégie du design, et de design lead, pour la mettre en œuvre.</p>
           </div>
         </section>
       </div>
@@ -234,15 +234,15 @@
               <p>La direction interministérielle du numérique (DINUM) propose plusieurs dispositifs pour vous aider.</p>
 
               <h4 class="fr-h6 fr-mb-2w">Les permanences design et accessibilité numérique</h4>
-              <p class="fr-mb-2w">Discutez pendant 30 minutes avec des experts du design et de l'accessibilité numérique pour savoir comment vous y prendre.</p>
+              <p class="fr-mb-2w">Discutez pendant 30 minutes avec des experts du design et de l’accessibilité numérique pour savoir comment vous y prendre.</p>
               <a href="/articles/2022-05-09-permanence-experts/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Réservez un créneaux</a>
 
-              <h4 class="fr-h6 fr-mb-2w">La brigade d'intervention numérique </h4>
-              <p class="fr-mb-2w">Faites intérvenir gratuitement au sein de votre équipes des experts du design, de la rechecrhe utilisateur et de l'accesibilité numérique pour vous accompagner.</p>
+              <h4 class="fr-h6 fr-mb-2w">La brigade d’intervention numérique </h4>
+              <p class="fr-mb-2w">Faites intérvenir gratuitement au sein de votre équipes des experts du design, de la rechecrhe utilisateur et de l’accesibilité numérique pour vous accompagner.</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
 
               <h4 class="fr-h6 fr-mb-2w">Le financement FTAP</h4>
-              <p class="fr-mb-2w">Obtenez un cofinancement pour vos projets de prise en compte du design et de l'accesibilité numérique.</p>
+              <p class="fr-mb-2w">Obtenez un cofinancement pour vos projets de prise en compte du design et de l’accesibilité numérique.</p>
               <a href="https://www.demarches-simplifiees.fr/commencer/guichet-design-et-accessibilite" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w" target="_blank" title="Déposer une demande - Nouvelle fenêtre">Déposer une demande</a>
 
             </div>
@@ -261,11 +261,11 @@
             <div class="fr-collapse" id="accordion-15">
 
               <h4 class="fr-h6 fr-mb-2w">Les formations DesignGouv</h4>
-              <p class="fr-mb-2w">Nous proposons un ensemble de webinaires et d'ateliers de formation accessibles gratuitement aux agents publics.</p>
+              <p class="fr-mb-2w">Nous proposons un ensemble de webinaires et d’ateliers de formation accessibles gratuitement aux agents publics.</p>
               <a href="/formations/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Accéder à nos formations</a>
 
               <h4 class="fr-h6 fr-mb-2w">Les formations sur mesure</h4>
-              <p class="fr-mb-2w">La brigade d'intervention numérique propose des formations au design, à la recherche utilisateur et à l'accessibilité numérique sur mesure.</p>
+              <p class="fr-mb-2w">La brigade d’intervention numérique propose des formations au design, à la recherche utilisateur et à l’accessibilité numérique sur mesure.</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
 
             </div>
@@ -288,7 +288,7 @@
               <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" target="_blank" title="La recherche utilisateur en détails - Nouvelle fenêtre" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">La recherche utilisateur en détails</a>
 
               <h4 class="fr-h6 fr-mb-2w">Avec un accompagnement</h4>
-              <p class="fr-mb-2w">La brigade d'intervention numérique peut vous aider à tester vos produits et services numérique auprès de vos utilisateurs</p>
+              <p class="fr-mb-2w">La brigade d’intervention numérique peut vous aider à tester vos produits et services numérique auprès de vos utilisateurs</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
 
             </div>
@@ -311,7 +311,7 @@
               <a href="/outils/diagnostic-flash/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Le diagnostic flash</a>
 
               <h4 class="fr-h6 fr-mb-2w">Avec un audit</h4>
-              <p class="fr-mb-2w">La brigade d'intervention numérique peut réaliser une audit de votre service ou produit numérique.</p>
+              <p class="fr-mb-2w">La brigade d’intervention numérique peut réaliser une audit de votre service ou produit numérique.</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
 
             </div>
@@ -417,7 +417,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" title="Le système de design de l'État - Nouvelle fenêtre" class="dg-link--no-icon">Le système de design de l'État</a>
+                                  <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" title="Le système de design de l’État - Nouvelle fenêtre" class="dg-link--no-icon">Le système de design de l’État</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -492,9 +492,9 @@
             <article class="fr-card fr-enlarge-link" >
               <div class="fr-card__body">
                 <div class="fr-card__content">
-                  <h2 class="fr-card__title">
+                  <h3 class="fr-card__title">
                     <g-link :to="node.path" class="fr-card__link">{{ node.title }}</g-link>
-                  </h2>
+                  </h3>
                   <p class="fr-card__desc">{{ node.description }}</p>
                   <div class="fr-card__start">
                     <p class="fr-card__detail">{{ node.publishedDate }}</p>

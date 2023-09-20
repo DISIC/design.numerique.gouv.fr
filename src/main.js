@@ -5,8 +5,6 @@ import DefaultLayout from '~/layouts/Default.vue'
 import ExerciseLayout from '~/layouts/Exercise.vue'
 import slugify from '@sindresorhus/slugify'
 
-import '~/assets/scss/styles.scss'
-
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import { config, library } from '@fortawesome/fontawesome-svg-core'
@@ -142,10 +140,10 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Exercise', ExerciseLayout)
   head.link.push({
     rel: 'stylesheet',
-    href: '/assets/css/utility.min.css'
+    href: '/dsfr/utility/utility.min.css'
   },{
     rel: 'stylesheet',
-    href: '/assets/css/dsfr.min.css'
+    href: '/dsfr/dsfr.min.css'
   })
   Vue.component('font-awesome', FontAwesomeIcon)
   head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }

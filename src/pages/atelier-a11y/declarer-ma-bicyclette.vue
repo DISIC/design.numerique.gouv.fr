@@ -12,7 +12,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Atelier a11é</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Atelier a11é</a>
             </li>
           </ol>
         </nav>

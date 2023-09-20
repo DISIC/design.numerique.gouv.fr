@@ -13,7 +13,7 @@
                 <g-link to="/accompagnement/" class="fr-breadcrumb__link">Accompagnement</g-link>
               </li>
               <li>
-                <span aria-current="page">Obtenir un accompagnement</span>
+                <a class="fr-breadcrumb__link" aria-current="page">Obtenir un accompagnement</a>
               </li>
             </ol>
           </nav>

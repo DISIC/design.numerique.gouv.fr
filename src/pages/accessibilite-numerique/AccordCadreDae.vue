@@ -11,7 +11,7 @@
             <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
           </li>
           <li>
-            <span aria-current="page">Accord cadre accompagnement et formations</span>
+            <a class="fr-breadcrumb__link" aria-current="page">Accord cadre accompagnement et formations</a>
           </li>
         </ol>
       </nav>
@@ -38,7 +38,7 @@
         <ol>
           <li>
             <strong>Groupement ALTERWAY MAKERS – ACCESS 42 – BRAILLENET – EMPREINTE DIGITALE-Groupe V TECHNOLOGIES</strong><br>
-            gpaw-accessdae@alterway.fr 
+            gpaw-accessdae@alterway.fr
         </li>
           <li>
             <strong>Groupement URBILOG – URBI EA et IPEDIS</strong><br>

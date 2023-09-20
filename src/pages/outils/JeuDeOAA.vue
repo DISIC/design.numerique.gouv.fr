@@ -12,7 +12,7 @@
               <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
             </li>
             <li>
-              <span aria-current="page">Jeu de l’OAA</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Jeu de l’OAA</a>
             </li>
           </ol>
         </nav>

@@ -8,7 +8,7 @@
             <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
           </li>
           <li>
-            <span aria-current="page">Portail numérique unique</span>
+            <a class="fr-breadcrumb__link" aria-current="page">Portail numérique unique</a>
           </li>
         </ol>
       </nav>

@@ -12,7 +12,7 @@
               <g-link to="/accompagnement/" class="fr-breadcrumb__link">Accompagnement</g-link>
             </li>
             <li>
-              <span aria-current="page">{{ $page.mission.title }}</span>
+              <a class="fr-breadcrumb__link" aria-current="page">{{ $page.mission.title }}</a>
             </li>
           </ol>
         </nav>

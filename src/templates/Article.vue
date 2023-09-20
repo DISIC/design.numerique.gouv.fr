@@ -12,7 +12,7 @@
                 <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
               </li>
             <li>
-              <span aria-current="page" v-html="this.cropedTitle" />
+              <a class="fr-breadcrumb__link" aria-current="page" v-html="this.cropedTitle" />
             </li>
           </ol>
         </nav>

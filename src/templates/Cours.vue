@@ -15,7 +15,7 @@
               <g-link :to="'/formations/' + $page.cours.formation.slug + '/'" class="fr-breadcrumb__link">{{ $page.cours.formation.nom }}</g-link>
             </li>
             <li>
-              <span aria-current="page">{{ $page.cours.nom }}</span>
+              <a class="fr-breadcrumb__link" aria-current="page">{{ $page.cours.nom }}</a>
             </li>
           </ol>
         </nav>

@@ -11,7 +11,7 @@
             <g-link to="/commando-ux/" class="fr-breadcrumb__link">Commando UX</g-link>
           </li>
           <li>
-            <span aria-current="page">Saison 1</span>
+            <a class="fr-breadcrumb__link" aria-current="page">Saison 1</a>
           </li>
         </ol>
       </nav>

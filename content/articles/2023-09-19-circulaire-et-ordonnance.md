@@ -1,7 +1,7 @@
 ---
 title: "Services numériques publics : une circulaire et une ordonnance pour renforcer l’accessibilité et le design"
 slug: 2023-09-19-circulaire-et-ordonnance
-publishedDate: 2023-07-11
+publishedDate: 2023-09-26
 tags: ["design", "Accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
 description: "Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum)."
@@ -20,10 +20,8 @@ Le **6 septembre 2023**, le Gouvernement a publié une « **Ordonnance** visant 
 
 L’**ordonnance** renforce les sanctions des manquements aux obligations d’accessibilité des sites publics. Ainsi, un défaut d’accessibilité devient une infraction passible d’une sanction plafonnée à 50.000€ pouvant se cumuler avec la sanction pour non-respect d’affichage d’informations sur l’accessibilité. L’ordonnance attribue les compétences d’autorité de contrôle pour ces manquements à l’Autorité de régulation de la communication audiovisuelle et numérique (Arcom), dont les mises en demeure seront publiées. Ces dispositions inciteront les administrations à se mettre en conformité. Dans ce cadre, les experts de la « Brigade d’intervention numérique (Bin) » de la Dinum (dont DesignGouv fait partie) pourront être sollicités pour intervenir.
 
-La **circulaire** rappelle l’importance du design, de la prise en compte des besoins des usagers et des tests utilisateur - secteur d’activité pour lesquels la Bin peut fournir outils, formations, expertises et accompagnements. La Circulaire traite également de la nécessité pour les directions du numérique des ministères de recruter des responsables du design (ou chief design officer) ; leur mission consiste à définir et mettre en œuvre une stratégie pour professionnaliser la pratique du design dans l’administration. 
+La **circulaire** rappelle l’importance du design, de la prise en compte des besoins des usagers et des tests utilisateur - secteur d’activité pour lesquels la Bin peut fournir outils, formations, expertises et accompagnements. La Circulaire traite également de la nécessité pour les directions du numérique des ministères de recruter des responsables du design (ou chief design officer) ; leur mission consiste à définir et mettre en œuvre une stratégie pour professionnaliser la pratique du design dans l’administration.
 
 Pour donner une image concrète du métier de responsable du design, encore peu développé dans la fonction publique, une série d’entretiens avec des responsables du design qui présenteront leur métier, leur rôle et leur apport sera prochainement publiée sur le [site DesignGouv](https://design.numerique.gouv.fr/).
 
 Nous sommes prêts 🙂
-
-

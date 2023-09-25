@@ -1,10 +1,10 @@
 ---
-title: Services numériques publics : une circulaire et une ordonnance pour renforcer l’accessibilité et le design 
+title: "Services numériques publics : une circulaire et une ordonnance pour renforcer l’accessibilité et le design"
 slug: 2023-09-19-circulaire-et-ordonnance
 publishedDate: 2023-07-11
 tags: ["design", "Accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
-description: Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum).
+description: "Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum)."
 ---
 
 <p class="fr-text--lead">Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum).</p>

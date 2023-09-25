@@ -458,7 +458,7 @@
         <div class="dg-content fr-px-6w fr-pt-4w fr-pb-0">
           <h2>Formations</h2>
           <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w" aria-live="polite">
-            <div v-for="{ node } in $page.allCours.edges.sort((a,b) => (a.node.nom > b.node.nom)).sort((a,b) => (a.node.type < b.node.type))" :key="node.id" class="fr-col-12 fr-col-sm-4">
+            <div v-for="{ node } in $page.allCours.edges" :key="node.id" class="fr-col-12 fr-col-sm-4">
               <div class="fr-card fr-enlarge-link">
                 <div class="fr-card__body">
                   <div class="fr-card__content">

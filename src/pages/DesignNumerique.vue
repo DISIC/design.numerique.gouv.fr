@@ -234,16 +234,16 @@
 
               <p>La direction interministérielle du numérique (DINUM) propose plusieurs dispositifs pour vous aider.</p>
 
-              <h4 class="fr-h6 fr-mb-2w">Les permanences design et accessibilité numérique</h4>
+              <h4 class="fr-h6 fr-mb-2w">Les permanences design et accessibilité numériques</h4>
               <p class="fr-mb-2w">Discutez pendant 30 minutes avec des experts du design et de l’accessibilité numérique pour savoir comment vous y prendre.</p>
-              <a href="/articles/2022-05-09-permanence-experts/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Réservez un créneaux</a>
+              <a href="/articles/2022-05-09-permanence-experts/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Réservez un créneau</a>
 
               <h4 class="fr-h6 fr-mb-2w">La brigade d’intervention numérique </h4>
-              <p class="fr-mb-2w">Faites intérvenir gratuitement au sein de votre équipes des experts du design, de la rechecrhe utilisateur et de l’accesibilité numérique pour vous accompagner.</p>
+              <p class="fr-mb-2w">Faites intervenir gratuitement au sein de votre équipe des experts du design, de la recherche utilisateur et de l’accessibilité numérique pour vous accompagner.</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
 
               <h4 class="fr-h6 fr-mb-2w">Le financement FTAP</h4>
-              <p class="fr-mb-2w">Obtenez un cofinancement pour vos projets de prise en compte du design et de l’accesibilité numérique.</p>
+              <p class="fr-mb-2w">Obtenez un cofinancement pour vos projets de prise en compte du design et de l’accessibilité numérique.</p>
               <a href="https://www.demarches-simplifiees.fr/commencer/guichet-design-et-accessibilite" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w" target="_blank" title="Déposer une demande - Nouvelle fenêtre">Déposer une demande</a>
 
             </div>
@@ -285,11 +285,11 @@
             <div class="fr-collapse" id="accordion-16">
 
               <h4 class="fr-h6 fr-mb-2w">En autonomie</h4>
-              <p class="fr-mb-2w">Nous avons élaboré un guide sur la recherche utilisateur pour vous aider. Toutefois, pour assurer leur qualité, il est préférable que les tests utilisateurs soit réalisés par des personnes formées. Consultez également nos formations si besoin.</p>
+              <p class="fr-mb-2w">Nous avons élaboré un guide sur la recherche utilisateur pour vous aider. Toutefois, pour assurer leur qualité, il est préférable que les tests utilisateurs soient réalisés par des personnes formées. Consultez également nos formations si besoin.</p>
               <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" target="_blank" title="La recherche utilisateur en détails - Nouvelle fenêtre" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">La recherche utilisateur en détails</a>
 
               <h4 class="fr-h6 fr-mb-2w">Avec un accompagnement</h4>
-              <p class="fr-mb-2w">La brigade d’intervention numérique peut vous aider à tester vos produits et services numérique auprès de vos utilisateurs</p>
+              <p class="fr-mb-2w">La brigade d’intervention numérique peut vous aider à tester vos produits et services numériques auprès de vos utilisateurs</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
 
             </div>
@@ -312,7 +312,7 @@
               <a href="/outils/diagnostic-flash/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Le diagnostic flash</a>
 
               <h4 class="fr-h6 fr-mb-2w">Avec un audit</h4>
-              <p class="fr-mb-2w">La brigade d’intervention numérique peut réaliser une audit de votre service ou produit numérique.</p>
+              <p class="fr-mb-2w">La brigade d’intervention numérique peut réaliser un audit de votre service ou produit numérique.</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
 
             </div>

@@ -17,7 +17,7 @@
         <p class="fr-text--lead">Le design permet la création services
           numériques <strong>simples</strong>, <strong>inclusifs</strong> et
           <strong>humains</strong>. Concevoir par le design, c’est
-          mettre en œuvre une approche centrées sur <strong>les usagers</strong> et <strong>leurs besoins</strong>, tout en s’appuyant
+          mettre en œuvre une approche centrée sur <strong>les usagers</strong> et <strong>leurs besoins</strong>, tout en s’appuyant
           sur <strong>de bonnes pratiques</strong> reconnues.</p>
         <ul class="fr-tags-group">
           <li>
@@ -95,7 +95,7 @@
             <p><strong><span aria-hidden="true">🔑</span> La clé d’un produit ou service de qualité, ce sont
               les usagers.</strong> Le design numérique est une pratique qui
               place les usagers au cœur de la conception des produits
-              et services numérique. Le design numérique regroupe plusieurs
+              et services numériques. Le design numérique regroupe plusieurs
               compétences, toutes indispensables à la réalisation de services
               numériques de qualité.</p>
             <ul class="dg-list-no-decoration">
@@ -156,8 +156,9 @@
                 <ul>
                   <li>Designer / Designeuse</li>
                   <li>Designer / Designeuse UX/UI</li>
-                  <li>Product designer / designeuse</li>
+                  <li>Product designer</li>
                   <li>Chargé / Chargée de recherche utilisateur</li>
+                  <li>Content designer</li>
                   <li>Rédacteur / rédactrice UX</li>
                   <li>Lead designer / designeuse</li>
                   <li>Design manager</li>
@@ -181,12 +182,12 @@
               <!-- données de test -->
               <h4 class="fr-h6">Tout le temps.</h4>
               <p>
-                Le design doit être présent dans toutes les phases de conception et dévéloppement d’un produit numérique.
+                Le design doit être présent dans toutes les phases de conception et développement d’un produit numérique.
               </p>
                 <ul class="dg-list-no-decoration">
                   <li class="fr-pt-2w"><strong><span aria-hidden="true">🔭</span> Lors des phases exploratoires :</strong> identification des utilisateurs, clarification du contexte, définition du besoin et des objectifs pour le produit. La ou le chargé de recherche utilisateur est le plus impliqué dans ces phases.</li>
                   <li class="fr-pt-2w"><strong><span aria-hidden="true">🌱</span> Lors des phases d’idéation :</strong> organisation d’atelier d’idéation, élaboration d’un ou plusieurs concepts de solution, tests et validation du concept. La ou le chargé de recheche utilisateur et la ou le designer (UX) sont les plus impliqués dans ces phases.</li>
-                  <li class="fr-pt-2w"><strong><span aria-hidden="true">🧱</span> Lors des phases de conception et développement :</strong> création des maquettes et prototypes, réalisation des tests d’utilisabilité, recette suite aux développement. La ou le designer (UX/UI) et le ou la chargé de recherche utilisateur sont le plus impliqués dans ces phases.</li>
+                  <li class="fr-pt-2w"><strong><span aria-hidden="true">🧱</span> Lors des phases de conception et développement :</strong> création des maquettes et prototypes, réalisation des tests d’utilisabilité, recette suite aux développements. La ou le designer (UX/UI) et le ou la chargé de recherche utilisateur sont le plus impliqués dans ces phases.</li>
                   <li class="fr-pt-2w"><strong><span aria-hidden="true">✨</span> Lors des phases d’évaluation et d’amélioration continue :</strong> mesure de l’atteinte des objectifs, tests utilisateurs en production, mesure de la satisfaction usager. Le ou la chargé de recherche utilisateur est le plus impliqué dans ces phases.</li>
                 </ul>
           </div>
@@ -205,13 +206,13 @@
           <div class="fr-collapse" id="accordion-117">
 
               <h4 class="fr-h6"><span aria-hidden="true">👍</span> En travaillant avec des designers</h4>
-              <p>Il n’y a pas de secret, la première chose dont vous aurez besoin pour intégrer le design, ce sont des designers. S’il ne devait y en avoir qu’un, préferez un profil polyvalent (designer UX/UI - product designer). Puis au fur et à mesure des recrutements, séléctionnez des profils plus spécialisés et qui se complètent.</p>
+              <p>Il n’y a pas de secret, la première chose dont vous aurez besoin pour intégrer le design, ce sont des designers. S’il ne devait y en avoir qu’un, préférez un profil polyvalent (designer UX/UI - product designer). Puis au fur et à mesure des recrutements, sélectionnez des profils plus spécialisés et qui se complètent.</p>
 
               <h4 class="fr-h6"><span aria-hidden="true">✌️</span> En adaptant les méthodes de travail</h4>
               <p>Aussi talentueuse soit-elle, la designeuse ne peut pas faire de miracle si les méthodes de travail sont hostiles ou contraires à la pratique du design. Il est donc important d’adapter celles-ci pour faire de la place aux temps et activités du design. Votre ou vos designers sauront vous guider pour cela.</p>
 
-              <h4 class="fr-h6"><span aria-hidden="true">🤟</span> En strucurant l’organisation</h4>
-              <p>Les besoins en design dépasse de loin le simple besoin de travailler avec des designers. Tout comme il y a un responsable technique et des tech lead, la bonne intégration du design au sein d’une organisation passe par la nommination d’un responsable du design, pour définir une véritable stratégie du design, et de design lead, pour la mettre en œuvre.</p>
+              <h4 class="fr-h6"><span aria-hidden="true">🤟</span> En structurant l’organisation</h4>
+              <p>Les besoins en design dépassent de loin le simple besoin de travailler avec des designers. Tout comme il y a un responsable technique et des tech lead, la bonne intégration du design au sein d’une organisation passe par la nomination d’un responsable du design, pour définir une véritable stratégie du design, et de design lead, pour la mettre en œuvre.</p>
           </div>
         </section>
       </div>

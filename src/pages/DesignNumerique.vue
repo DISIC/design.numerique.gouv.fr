@@ -336,7 +336,7 @@
                                   </li>
                                 </ul>
                               </div>
-                              <p class="fr-card__desc">Découvrez la recherche utilisateur et les ressources pour vous aider à la mettre en place.</p>
+                              <p class="fr-card__desc">Découvrez la recherche utilisateur et les ressources pour vous aider à la mettre en œuvre.</p>
                           </div>
                       </div>
                   </div>

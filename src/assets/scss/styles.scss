@@ -92,6 +92,10 @@ li.fr-card {
     }
   }
 
+	&-cover-container {
+		overflow: visible;
+	}
+
   &-cover {
     width: 100vw;
     position: relative;

@@ -5,6 +5,8 @@ import DefaultLayout from '~/layouts/Default.vue'
 import ExerciseLayout from '~/layouts/Exercise.vue'
 import slugify from '@sindresorhus/slugify'
 
+import '~/assets/scss/styles.scss'
+
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import { config, library } from '@fortawesome/fontawesome-svg-core'

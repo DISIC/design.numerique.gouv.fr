@@ -5,8 +5,6 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const slugify = require('@sindresorhus/slugify');
-
 module.exports = function (api) {
   api.loadSource(({ addSchemaResolvers }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/

@@ -18,6 +18,7 @@
     "@gridsome/source-airtable": "*",
     "@gridsome/source-filesystem": "*",
     "@gridsome/transformer-remark": "*",
+    "@sindresorhus/slugify": "^2.2.1",
     "airtable": "*",
     "global": "*",
     "gridsome": "*",

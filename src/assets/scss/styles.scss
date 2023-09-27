@@ -78,6 +78,10 @@ li.fr-card {
     }
   }
 
+	&-cover-container {
+		overflow: visible;
+	}
+
   &-cover {
     width: 100vw;
     position: relative;
@@ -314,7 +318,7 @@ li.fr-card {
       div.dg-criterion {
       ul li p {
         margin-bottom: 0;
-      }        
+      }
       }
 
     }

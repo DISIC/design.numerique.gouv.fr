@@ -1,6 +1,7 @@
 {
   "name": "design.numerique.gouv.fr",
   "private": true,
+  "packageManager": "yarn@1.22.19",
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
     "develop": "gridsome develop",

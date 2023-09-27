@@ -26,6 +26,7 @@
     "gridsome-plugin-matomo": "*",
     "gridsome-plugin-remark-container": "*",
     "gridsome-plugin-sentry": "*",
+    "node-gyp": "^9.4.0",
     "remark-attr": "*",
     "vue-click-outside": "*",
     "vue-svg-inline-loader": "*",

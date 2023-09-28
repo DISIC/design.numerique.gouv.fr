@@ -11,7 +11,7 @@
             <g-link to="/accessibilite-numerique/" class="fr-breadcrumb__link">Accessibilité</g-link>
           </li>
           <li>
-            <g-link to="/accessibilite-numerique/roles-cles/" class="fr-breadcrumb__link">Rôles clés</g-link>
+            <g-link to="/outils/roles-cles/" class="fr-breadcrumb__link">Rôles clés</g-link>
           </li>
           <li aria-current="page" v-html="$page.role.title" />
         </ol>

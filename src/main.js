@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import ExerciseLayout from '~/layouts/Exercise.vue'
+import slugify from '@sindresorhus/slugify'
 
 import '~/assets/scss/styles.scss'
 
@@ -134,17 +135,22 @@ library.add(
   faEllipsisH,
   faProjectDiagram
   )
-  export default function (Vue, { router, head, isClient }) {
-    // Set default layout as a global component
-    Vue.component('Layout', DefaultLayout)
-    Vue.component('Exercise', ExerciseLayout)
-    head.link.push({
-      rel: 'stylesheet',
-      href: '/assets/css/utility.min.css'
-    },{
-      rel: 'stylesheet',
-      href: '/assets/css/dsfr.min.css'
-    })
-    Vue.component('font-awesome', FontAwesomeIcon)
-    head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }
-  }
+
+export default function (Vue, { router, head, isClient }) {
+  // Set default layout as a global component
+  Vue.component('Layout', DefaultLayout)
+  Vue.component('Exercise', ExerciseLayout)
+  head.link.push({
+    rel: 'stylesheet',
+    href: '/assets/css/utility.min.css'
+  },{
+    rel: 'stylesheet',
+    href: '/assets/css/dsfr.min.css'
+  })
+  Vue.component('font-awesome', FontAwesomeIcon)
+  head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }
+  //Use Moment.Js library inside our project
+  Object.defineProperty(Vue.prototype, '$slugify', {
+    value: slugify
+  });
+}

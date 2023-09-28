@@ -51,7 +51,7 @@
         <section>
           <h3>Déjeuner tous ensemble</h3>
           <div class="meta">
-            <p class="when">13h30 – 14h30</p>           
+            <p class="when">13h30 – 14h30</p>
             <p class="where">1er étage</p>
           </div>
         </section>
@@ -134,7 +134,7 @@ export default {
       },
     ],
   },
-  
+
 };
 </script>
 
@@ -149,7 +149,7 @@ export default {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: flex-start;
   div.meta {
       width: 18em;
     .when {

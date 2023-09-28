@@ -1,23 +1,24 @@
 ---
 title: Designer
 slug: designer
-cat: 5
+order: 5
 description: Vous concevez un parcours ou une interface en prenant en compte tous les usagers
 focus:
+cat: 
 ---
 
 
-## Votre rôle
+### Votre rôle
 
 * prendre en compte tous les utilisateurs et tous les contextes d’utilisation.
 
-## Vos actions
+### Vos actions
 
 * utiliser le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}, disponible au format sketch et figma ;
 * collaborer *étroitement* et *au plus tôt* avec les autres métiers pour s’assurer que ce que vous concevez ne pose pas de difficulté d’accessibilité ;
 * faire des tests en intégrant des personnes en situations de handicap en faisant appel à l’UO [Écoute usagers internes](/accessibilite-numerique/accord-cadre-dae#lot-1) de l’accord-cadre ou en sollicitant le [groupe d’utilisateurs handicapés](/outils/#tests) de la Dinum.
 
-## Vos outils
+### Vos outils
 
 * [22 critères de la checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22Conception%22,%22Graphisme%22%5D)
 * le [mémo design](/outils/memo-design) regroupe l’essentiel des recommandations ;

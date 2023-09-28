@@ -25,11 +25,30 @@
           />Outils
         </h1>
         <p class="fr-text--lead">
-          Une sélection d’outils faits maison pour vous accompagner dans
+          Une sélection d’outils <em>faits maison</em> pour vous accompagner dans
           l’amélioration de l’accessibilité et du design de vos sites et
           applications web.
         </p>
-      </div>
+        <ul class="fr-tags-group">
+          <li>
+              <a href="#tech" class="fr-tag" target="_self">Tech</a>
+          </li>
+          <li>
+              <a href="#methode" class="fr-tag" target="_self">Méthode</a>
+          </li>
+          <li>
+              <a href="#audit" class="fr-tag" target="_self">Audit</a>
+          </li>
+         <li>
+              <a href="#declaration" class="fr-tag" target="_self">Déclaration</a>
+          </li>
+           <li>
+              <a href="#tests" class="fr-tag" target="_self">Tests usagers en situation de handicap</a>
+          </li>
+          <li>
+              <a href="#dsfr" class="fr-tag" target="_self">Système de design</a>
+          </li>
+      </ul>      </div>
     </section>
 
     <div class="dg-content fr-px-2w">
@@ -60,7 +79,7 @@
         <ul class="fr-mb-3w">
           <li>
             le
-            <a href="/accessibilite-numerique/jeu-de-oaa/"
+            <a href="/outils/jeu-de-oaa/"
               >jeu de l’organisation de l’amélioration de l’accessibilité
               (OAA)</a
             >
@@ -69,7 +88,7 @@
           </li>
           <li>
             les
-            <a href="/accessibilite-numerique/roles-cles/">fiches métiers</a>
+            <a href="/outils/roles-cles/">fiches métiers</a>
             décrivent votre rôle, vos actions et vos outils ;
           </li>
           <li>
@@ -110,6 +129,14 @@
         <h2 id="audit">Audit</h2>
         <ul class="fr-mb-3w">
           <li>
+            <a
+              href="https://ara.numerique.gouv.fr"
+              title="Ara - nouvelle fenêtre"
+              target="_blank" rel="noreferrer noopener"
+              ><strong>Ara</strong></a
+            > est un outil en ligne pour réaliser des audits d’accessibilité numérique, générer un rapport d’accessibilité et rédiger la déclaration d’accessibilité ;
+          </li>
+          <li>
             L’<strong>assistant RGAA</strong> facilite la réalisation d’audit en
             mettant à disposition les critères et tests du RGAA 4.1 directement
             dans le navigateur. Disponible sur
@@ -127,7 +154,7 @@
             > ;
           </li>
           <li>
-            Télécharger le 
+            Télécharger le
             <a
               href="https://accessibilite.numerique.gouv.fr/doc/rgaa4.1.2.modele-de-grille-d-audit.ods"
               title="Télécharger le modèle de grille d’audit (format ODS – 233 Ko)"
@@ -136,7 +163,7 @@
             > ;
           </li>
           <li>
-             Télécharger le 
+             Télécharger le
             <a
               href="https://accessibilite.numerique.gouv.fr/doc/rgaa4-2019-modele-rapport-audit.odt"
               title="Télécharger le modèle de rapport d’audit (format ODT – 51 Ko)"
@@ -148,8 +175,9 @@
       </section>
 
       <section>
-        <h2 id="declaration">Obligations légales</h2>
-        <p class="fr-mb-3w">
+        <h2 id="declaration">Déclaration d’accessibilité</h2>
+          <p>
+            Un
             <a href="/outils/exemple-declaration-accessibilite/"
               >Exemple de déclaration d’accessibilité</a
             >
@@ -159,7 +187,7 @@
 
       <section>
         <h2 id="tests">Tests usagers en situation de handicap</h2>
-        <h3>Mode d’utilisation du groupe d’utilisateurs handicapés</h3>
+        <h3 class="fr-h4">Mode d’utilisation du groupe d’utilisateurs handicapés</h3>
         <p>
           La DINUM a créé un groupe d’utilisateurs handicapés pour tester
           l’accessibilité des sites et applications mobiles publics. Il inclut
@@ -195,7 +223,7 @@
             title="système de design de l‘État - nouvelle fenêtre"
             target="_blank"
             >système de design de l’État</a
-          >, développé, maintenu et géré par le <a 
+          >, développé, maintenu et géré par le <a
           href="https://www.gouvernement.fr/service-d-information-du-gouvernement-sig"
           rel="noreferrer noopener"
           title="Service d’Information du Gouvernement - nouvelle fenêtre"
@@ -222,8 +250,8 @@
           <li>une communauté active de designers et de développeurs.</li>
         </ul>
         <div class="fr-highlight">
-       
-<p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a 
+
+<p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a
   href="https://github.com/GouvernementFR/dsfr/blob/fix/readme/doc/legal/cgu.md"
   rel="noreferrer noopener"
   title="conditions générales d'utilisation - nouvelle fenêtre"

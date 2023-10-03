@@ -55,7 +55,7 @@ query {
       },
     },
     mounted () {
-      let src = "/assets/js/dsfr.module.min.js";
+      let src = "/assets/dsfr/dsfr.module.min.js";
       let dsfr = document.createElement('script');
       dsfr.type = "module";
       dsfr.src = src;

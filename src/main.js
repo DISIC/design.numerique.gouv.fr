@@ -142,10 +142,10 @@ export default function (Vue, { router, head, isClient }) {
   Vue.component('Exercise', ExerciseLayout)
   head.link.push({
     rel: 'stylesheet',
-    href: '/assets/css/utility.min.css'
+    href: '/assets/dsfr/utility/utility.min.css'
   },{
     rel: 'stylesheet',
-    href: '/assets/css/dsfr.min.css'
+    href: '/assets/dsfr/dsfr.min.css'
   })
   Vue.component('font-awesome', FontAwesomeIcon)
   head.htmlAttrs = { lang: 'fr', 'data-fr-scheme': 'system' }

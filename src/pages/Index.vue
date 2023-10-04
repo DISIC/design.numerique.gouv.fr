@@ -16,28 +16,40 @@
       <section class="dg-block fr-mt-8w fr-px-1w fr-py-6w">
         <div class="dg-content fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/design-numerique/">Le design</g-link>
-                </h2>
-                <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
+            <div class="fr-card fr-enlarge-link dg-picto--rotate">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h2 class="fr-card__title">
+                    <g-link class="fr-card__link fr-text--xl" to="/design-numerique/">Le design</g-link>
+                  </h2>
+                  <p class="fr-card__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
+                </div>
               </div>
-              <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
-                <img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg">
+                  	<img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+                </div>
               </div>
             </div>
           </div>
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/accessibilite-numerique/">L’accessibilité</g-link>
-                </h2>
-                <p class="fr-tile__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>.</p>
+            <div class="fr-card fr-enlarge-link dg-picto--rotate">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h2 class="fr-card__title">
+                    <g-link class="fr-card__link fr-text--xl" to="/accessibilite-numerique/">L’accessibilité</g-link>
+                  </h2>
+                  <p class="fr-card__desc">Rendre les services en ligne accessibles aux personnes en <strong>situation de handicap</strong>.</p>
+                </div>
               </div>
-              <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
-                <img svg-inline src="../assets/images/accessibilite-picto.svg" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg">
+                  	<img svg-inline src="../assets/images/accessibilite-picto.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+                </div>
               </div>
             </div>
           </div>
@@ -49,54 +61,78 @@
         <!-- <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link> -->
         <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/accompagnement/">Nos accompagnements</g-link>
-                </h3>
-                <p class="fr-tile__desc">Faites intervenir nos experts pour améliorer vos services.</p>
+            <div class="fr-card fr-enlarge-link fr-card--horizontal">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title">
+                    <g-link class="fr-card__link fr-text--xl" to="/accompagnement/">Nos accompagnements</g-link>
+                  </h3>
+                  <p class="fr-card__desc">Faites intervenir nos experts pour améliorer vos services.</p>
+                </div>
               </div>
-              <div class="fr-tile__img">
-                <img svg-inline src="../assets/images/accompagnement.svg" class="fr-responsive-img" aria-hidden="true">
-              </div>
-            </div>
-          </div>
-          <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/articles/2022-05-09-permanence-experts/">Notre permanence</g-link>
-                </h3>
-                <p class="fr-tile__desc">Posez toutes vos questions à nos experts du numérique.</p>
-              </div>
-              <div class="fr-tile__img">
-                <img svg-inline src="../assets/images/permanence.svg" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg">
+                  	<img svg-inline src="../assets/images/accompagnement.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+                </div>
               </div>
             </div>
           </div>
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
-                </h3>
-                <p class="fr-tile__desc">Mesurez la satisfaction des usagers de vos services.</p>
+            <div class="fr-card fr-enlarge-link fr-card--horizontal">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title">
+                    <g-link class="fr-card__link fr-text--xl" to="/articles/2022-05-09-permanence-experts/">Notre permanence</g-link>
+                  </h3>
+                  <p class="fr-card__desc">Posez toutes vos questions à nos experts du numérique.</p>
+                </div>
               </div>
-              <div class="fr-tile__img">
-                <img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg">
+                  	<img svg-inline src="../assets/images/permanence.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+                </div>
               </div>
             </div>
           </div>
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
-                  <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L’Observatoire</a>
-                </h3>
-                <p class="fr-tile__desc">Suivez la qualité des démarches que vous portez.</p>
+            <div class="fr-card fr-enlarge-link fr-card--horizontal">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title">
+                    <a class="fr-card__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
+                  </h3>
+                  <p class="fr-card__desc">Mesurez la satisfaction des usagers de vos services.</p>
+                </div>
               </div>
-              <div class="fr-tile__img">
-                <img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg">
+                  	<img svg-inline src="../assets/images/jdma.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="fr-col-12 fr-col-sm-6">
+            <div class="fr-card fr-enlarge-link fr-card--horizontal">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title">
+                    <a class="fr-card__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L’Observatoire</a>
+                  </h3>
+                  <p class="fr-card__desc">Suivez la qualité des démarches que vous portez.</p>
+                </div>
+              </div>
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg">
+                  	<img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+                </div>
               </div>
             </div>
           </div>
@@ -106,28 +142,40 @@
       <section class="dg-block fr-mt-8w fr-px-1w fr-py-6w">
         <div class="dg-content fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/outils/">Outils</g-link>
-                </h2>
-                <p class="fr-tile__desc">Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <strong>design</strong> et de l’<strong>accessibilité</strong>.</p>
+            <div class="fr-card fr-enlarge-link dg-picto--rotate">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h2 class="fr-card__title">
+                    <g-link class="fr-card__link fr-text--xl" to="/outils/">Outils</g-link>
+                  </h2>
+                  <p class="fr-card__desc">Nous mettons à votre disposition un ensemble d’outils pour vous guider sur les sujets du <strong>design</strong> et de l’<strong>accessibilité</strong>.</p>
+                </div>
               </div>
-              <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
-                <img svg-inline src="../assets/images/outils-picto.svg" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg">
+                  	<img svg-inline src="../assets/images/outils-picto.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+                </div>
               </div>
             </div>
           </div>
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/formations/">Formations</g-link>
-                </h2>
-                <p class="fr-tile__desc">Nous proposons de nombreuses formations, pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>.</p>
+            <div class="fr-card fr-enlarge-link dg-picto--rotate">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h2 class="fr-card__title">
+                    <g-link class="fr-card__link fr-text--xl" to="/formations/">Formations</g-link>
+                  </h2>
+                  <p class="fr-card__desc">Nous proposons de nombreuses formations, pour vous former <strong>personnellement</strong> ou en <strong>équipe</strong>.</p>
+                </div>
               </div>
-              <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
-                <img svg-inline src="../assets/images/formation-picto.svg" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-card__header">
+                <div class="fr-card__img">
+									<div class="dg-picto dg-picto--lg ">
+                  	<img svg-inline src="../assets/images/formation-picto.svg" class="fr-responsive-img" aria-hidden="true">
+									</div>
+								</div>
               </div>
             </div>
           </div>
@@ -152,7 +200,7 @@
                 </div>
               </div>
               <div class="fr-card__header">
-                <div>
+                <div class="fr-card__img">
                   <img :src="node.illustration.src" class="fr-responsive-img" alt=""/>
                 </div>
               </div>
@@ -238,7 +286,7 @@
     allArticle (limit: 2, sortBy: "publishedDate", order: DESC) {
       edges {
         node {
-        	id
+          id
           title
           publishedDate (format: "D MMMM YYYY", locale : "fr")
           illustration (width: 800, height: 360, quality: 50)

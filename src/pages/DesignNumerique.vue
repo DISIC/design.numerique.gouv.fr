@@ -327,7 +327,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" target="_blank" title="La recherche utilisateur - Nouvelle fenêtre" class="dg-link--no-icon">La recherche utilisateur</a>
+                                  <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" target="_blank" title="La recherche utilisateur - Nouvelle fenêtre">La recherche utilisateur</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -346,7 +346,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4" target="_blank" title="Les fiches de poste - Nouvelle fenêtre" class="dg-link--no-icon">Les fiches de poste</a>
+                                  <a href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4" target="_blank" title="Les fiches de poste - Nouvelle fenêtre">Les fiches de poste</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -418,7 +418,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" title="Le système de design de l’État - Nouvelle fenêtre" class="dg-link--no-icon">Le système de design de l’État</a>
+                                  <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" title="Le système de design de l’État - Nouvelle fenêtre">Le système de design de l’État</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -437,7 +437,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" target="_blank" title="Le bouton Je Donne Mon Avis - Nouvelle fenêtre" class="dg-link--no-icon">Le bouton Je Donne Mon Avis</a>
+                                  <a href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" target="_blank" title="Le bouton Je Donne Mon Avis - Nouvelle fenêtre">Le bouton Je Donne Mon Avis</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -471,7 +471,7 @@
                       </ul>
                     </div>
                     <h3 class="fr-h6 fr-card__title">
-                      <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
+                      <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-card__link">{{ node.nom }}</g-link>
                     </h3>
                     <!-- <div class="fr-card__start">
                       <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>

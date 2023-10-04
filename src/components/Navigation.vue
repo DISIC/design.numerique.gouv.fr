@@ -1,7 +1,7 @@
 <template>
   <div class="fr-header__menu fr-modal" id="modal-833" aria-labelledby="fr-btn-menu-mobile">
     <div class="fr-container">
-      <button class="fr-link--close fr-link" aria-controls="modal-833">Fermer</button>
+      <button class="fr-link--close fr-btn" aria-controls="modal-833">Fermer</button>
       <div class="fr-header__menu-links"></div>
       <nav class="fr-nav" id="navigation-832" role="navigation" aria-label="Menu principal">
         <ul id="nav" class="fr-nav__list">

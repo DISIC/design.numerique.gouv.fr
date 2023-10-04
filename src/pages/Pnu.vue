@@ -17,14 +17,16 @@
 
       <div class="fr-grid-row fr-grid-row--gutters">
         <div v-for="{ node } in $page.allPnu.edges" :key="node.id" class="fr-col-12" :class="{ 'fr-col  fr-col-sm-6 fr-col-lg-4': node.order > 2  }">
-          <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-            <div class="fr-tile__body">
-              <h2 class="fr-tile__title">
-                <g-link  class="fr-tile__link" :to="node.path">
-                  {{ node.title }}
-                </g-link>
-              </h2>
-              <p class="fr-tile__desc">{{ node.description }}</p>
+          <div class="fr-card fr-enlarge-link fr-card--horizontal">
+            <div class="fr-card__body">
+              <div class="fr-card__content">
+                <h2 class="fr-card__title">
+                  <g-link  class="fr-card__link" :to="node.path">
+                    {{ node.title }}
+                  </g-link>
+                </h2>
+                <p class="fr-card__desc">{{ node.description }}</p>
+              </div>
             </div>
           </div>
         </div>
@@ -40,7 +42,7 @@
     allPnu  (sortBy: "order", order: ASC){
       edges {
         node {
-        	id
+          id
           title
           description
           order

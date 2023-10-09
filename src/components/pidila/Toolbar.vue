@@ -1,9 +1,20 @@
 <template>
   <div>
-    <ul class="fr-btns-group fr-btns-group--inline">
+    <ul class="fr-btns-group fr-btns-group--inline btns-group--justify-end">
       <li>
         <button
-          class="fr-btn fr-btn--tertiary fr-icon-link"
+          ref="printButton"
+          class="fr-btn fr-btn--tertiary-no-outline fr-icon-printer-fill"
+          type="button"
+          title="Imprimer la liste"
+          @click="printList"
+        >
+          Imprimer la liste
+        </button>
+      </li>
+      <li>
+        <button
+          class="fr-btn fr-btn--tertiary-no-outline fr-icon-link"
           type="button"
           title="Copier la liste dans le presse-papier"
           @click="copyLink"
@@ -12,20 +23,9 @@
           Copier la liste dans le presse-papier
         </button>
       </li>
-      <li>
-        <button
-          ref="printButton"
-          class="fr-btn fr-btn--tertiary fr-icon-printer-fill"
-          type="button"
-          title="Imprimer la liste"
-          @click="printList"
-        >
-          Imprimer la liste
-        </button>
-      </li>
       <!-- <li>
         <button
-          class="fr-btn fr-btn--tertiary fr-icon-arrow-down-s-fill"
+          class="fr-btn fr-btn--tertiary-no-outline fr-icon-arrow-down-s-fill"
           type="button"
           title="Ouvrir toute la liste"
           disabled
@@ -36,7 +36,7 @@
       </li>
       <li>
         <button
-          class="fr-btn fr-btn--tertiary fr-icon-arrow-up-s-fill"
+          class="fr-btn fr-btn--tertiary-no-outline fr-icon-arrow-up-s-fill"
           type="button"
           title="Fermer toute la liste"
           disabled
@@ -95,3 +95,11 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+@media only screen and (min-width: $sm-point) {
+  .btns-group--justify-end {
+    justify-content: flex-end;
+  }
+}
+</style>

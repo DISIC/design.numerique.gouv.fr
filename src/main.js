@@ -153,4 +153,20 @@ export default function (Vue, { router, head, isClient }) {
   Object.defineProperty(Vue.prototype, '$slugify', {
     value: slugify
   });
+
+	// Don't scroll to top when dynamically changing
+	// query params on PiDila checklist
+	router.options.scrollBehavior = function(to, from , savedPosition) {
+		if (savedPosition) {
+			return savedPosition;
+		}
+		if (to.hash) {
+			return {selector: to.hash};
+		}
+		const PIDILA_PATH = '/outils/checklist-pidila/'
+		if (to.path === PIDILA_PATH && from.path === PIDILA_PATH) {
+			return window.scrollHeight
+		}
+		return {x: 0, y: 0}
+	}
 }

@@ -1,5 +1,39 @@
 <template>
   <Layout>
+    <dialog
+      aria-labelledby="fr-modal-title-modal-1"
+      role="dialog"
+      id="fr-modal-1"
+      class="fr-modal fr-unhidden-sm fr-hidden-md"
+    >
+      <div class="fr-container fr-container--fluid fr-container-md">
+        <div class="fr-grid-row fr-grid-row--center">
+          <div class="fr-col-12 fr-col-md-8 fr-col-lg-6">
+            <div class="fr-modal__body">
+              <div class="fr-modal__header">
+                <button
+                  class="fr-link--close fr-link"
+                  title="Fermer la fenêtre modale"
+                  aria-controls="fr-modal-1"
+                >
+                  Fermer
+                </button>
+              </div>
+              <div class="fr-modal__content">
+                <h1 id="fr-modal-title-modal-1" class="fr-modal__title">
+                  Filtrer les critères
+                </h1>
+                <Filters
+                  mode="condensed"
+                  @filter-profile="updateProfileFilters"
+                  @filter-reference="updateReferenceFilters"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </dialog>
     <!-- Hero banner -->
     <section class="dg-cover dg-cover--linear fr-mb-6w">
       <div class="dg-cover__container fr-mb-1w">
@@ -41,35 +75,37 @@
       </div>
     </section>
 
-    <div class="dg-content fr-px-2w">
-      <!-- Filters and tools -->
-      <div class="fr-mb-8w">
-        <Toolbar
-          @conceal-all="toggleAll(false)"
-          @disclose-all="toggleAll(true)"
-        />
+    <div class="fr-grid-row fr-grid-row--gutters">
+      <div class="fr-col-12 fr-col-md-3">
+        <!-- Filters and tools -->
         <Search @search="updateSearch" />
-        <section class="fr-accordion fr-mb-2w" id="prout">
-          <h2 class="fr-accordion__title">
+        <section>
+          <div class="fr-unhidden-sm fr-hidden-md">
             <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-filters"
+              class="
+                fr-btn fr-btn--secondary fr-btn--icon-right
+                fr-icon-filter-line
+                btn-filters
+              "
+              data-fr-opened="false"
+              aria-controls="fr-modal-1"
             >
-              Filtrer les critères
+              Filtres
             </button>
-          </h2>
-          <div class="fr-collapse" id="accordion-filters">
+          </div>
+          <div class="fr-hidden fr-unhidden-md">
             <Filters
               @filter-profile="updateProfileFilters"
               @filter-reference="updateReferenceFilters"
             />
           </div>
         </section>
-
+      </div>
+      <div class="fr-col-12 fr-col-md-1"></div>
+      <div class="fr-col-12 fr-col-md-8">
         <!-- Results info -->
         <div
-          class="fr-mb-8w"
+          class="result-bar fr-mb-4v fr-mb-md-12v"
           role="alert"
           aria-live="polite"
           aria-atomic="true"
@@ -80,29 +116,26 @@
             :profiles="profileFilters"
             :references="referenceFilters"
           />
-          <button
-            v-if="isFiltered"
-            class="fr-btn fr-btn--tertiary"
-            @click="resetFilters"
-          >
-            Réinitialiser les filtres
-          </button>
-        </div>
-      </div>
-
-      <!-- Criteria list -->
-      <section>
-        <ul v-if="filteredCriteria.length" class="dg-pidila-accordions">
-          <Criterion
-            v-for="edge in filteredCriteria"
-            :key="edge.node.id"
-            :criterion="edge"
+          <Toolbar
+            @conceal-all="toggleAll(false)"
+            @disclose-all="toggleAll(true)"
+            class="result-bar-tools"
           />
-        </ul>
-        <div v-else class="fr-p-2w">
-          Aucun critère ne correspond aux filtres appliqués.
         </div>
-      </section>
+        <!-- Criteria list -->
+        <section>
+          <ul v-if="filteredCriteria.length" class="accordions">
+            <Criterion
+              v-for="edge in filteredCriteria"
+              :key="edge.node.id"
+              :criterion="edge"
+            />
+          </ul>
+          <div v-else class="fr-p-2w">
+            Aucun critère ne correspond aux filtres appliqués.
+          </div>
+        </section>
+      </div>
     </div>
   </Layout>
 </template>
@@ -241,13 +274,18 @@ export default {
      * @param {string|array} value The query param value (e.g. "rgaa")
      */
     updateQueryParams(key, value) {
+      // if params have not changed, nothing to do
+      if (this.$route.query[key] === JSON.stringify(value)) {
+        return;
+      }
+
       const queryParams = {
         ...this.$route.query,
         [key]: Array.isArray(value) ? JSON.stringify(value) : value,
       };
 
       return this.$router
-        .push({
+        .replace({
           path: this.$route.path,
           query: Object.keys(queryParams).length ? queryParams : null,
         })
@@ -279,7 +317,7 @@ export default {
         {
           name: "description",
           content:
-            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Système de design de l‘État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Système de design de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
         },
         {
           property: "og:title",
@@ -288,7 +326,7 @@ export default {
         {
           property: "og:description",
           content:
-            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Système de design de l‘État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Système de design de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
         },
         {
           property: "og:image",
@@ -310,7 +348,7 @@ export default {
         {
           name: "twitter:description",
           content:
-            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Système de design de l‘État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
+            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Système de design de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
         },
         {
           name: "twitter:image",
@@ -323,9 +361,31 @@ export default {
 };
 </script>
 
-<style scoped lang='scss'>
-.dg-pidila-accordions {
+<style lang="scss" scoped>
+.accordions {
   list-style-type: none;
   padding-left: 0;
+}
+
+.btn-filters {
+  width: 100%;
+  justify-content: center;
+}
+.result-bar {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  @media only screen and (max-width: $sm-point) {
+    flex-wrap: wrap;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+.result-bar-tools {
+  flex: 1 0 auto;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
 }
 </style>

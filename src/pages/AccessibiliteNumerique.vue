@@ -100,7 +100,7 @@
         <h3 class="fr-h4">Je souhaite former mes équipes</h3>
         <p>Vous pouvez faire appel à des <g-link to="/accessibilite-numerique/prestations-accessibilite-numerique">prestataires</g-link> pour <strong>former et sensibiliser</strong> vos équipes.<br>Le <abbr title="Fonds pour l’Insertion des Personnes Handicapées dans la Fonction Publique">FIPHFP</abbr> peut vous aider à financer la formation des agents publics.</p>
 
-        <h3 class="fr-h4">Dans tous les cas, utilisez le <g-link to="/accessibilite-numerique/jeu-de-oaa">jeu de l’<abbr title="organisation de l’amélioration de l’accessiblité">oaa</abbr></g-link>.</h3>
+        <h3 class="fr-h4">Dans tous les cas, utilisez le <g-link to="/outils/jeu-de-oaa">jeu de l’<abbr title="organisation de l’amélioration de l’accessiblité">oaa</abbr></g-link>.</h3>
 
         <p><strong>Sensibilisez</strong> et <strong>formez</strong> les décideurs et décideuses, <span lang="en">designers</span>, développeurs et développeuses, <span lang="en">product owner</span>, cheffes et chefs de projets sur le sujet de l’accessibilité numérique.</p>
         <p>Intégrez la conformité au RGAA dans vos process.</p>

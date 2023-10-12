@@ -1,27 +1,35 @@
 ---
-title: "Services numériques publics : une circulaire et une ordonnance pour renforcer l’accessibilité et le design"
-slug: 2023-09-19-circulaire-et-ordonnance
-publishedDate: 2023-09-26
-tags: ["design", "Accessibilité", "RGAA"]
-illustration:  ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
-description: "Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum)."
+title: Paroles de responsables du design
+slug: 2023-10-19-paroles-de-responsables-du-design
+publishedDate: 2023-10-19
+tags: ["Design", "Gouvernance"]
+illustration: ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
+description: 
 ---
 
-<p class="fr-text--lead">Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum).</p>
+
+<p>Version en français de la norme européenne sur l’accessibilité utilisée par le RGAA 4.</p>
+<p class="fr-text--lead">La norme européenne « Exigences d’accessibilité pour les produits et services ICT » (EN 301549) spécifie les exigences d’accessibilité pour les produits et services des technologies de l’information et de la communication (TIC, ICT en anglais). Elle fournit des lignes directrices pour concevoir des produits et services accessibles à toutes et à tous. 
+</p>
+
+Dans cette version 2.1.2 (2018-08), les critères d’accessibilité du WCAG 2.1 – <span lang="en">web content accessibility guidelines</span>, en français les règles pour l’accessibilité des contenus du web – publié par le W3C (<span lang="en">world wide web consortium</span>) ont officiellement été référencés.
 
 
-## Quels sont les deux textes&nbsp;?
+<div class="fr-download fr-enlarge-link fr-download--card  fr-my-4w">
+    <p>
+        <a href="/assets/doc/fr_301549v020102p.pdf" download class="fr-download__link">Télécharger la norme européenne en français
+              <span class="fr-download__detail">PDF – 3,8 Mo</span>
+        </a>
+    </p>
+    <p class="fr-download__desc">« Exigences d’accessibilité pour les produits et services ICT »</p>
+</div>
 
-Chronologiquement le premier texte est la «&nbsp;**Circulaire** n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le **7 juillet 2023** par la Première ministre. Elle est accompagnée de deux notes d’application (une du service d’information du gouvernement - SIG - et une de la Dinum). Vous trouverez tous les détails dans le [communiqué de presse publié le 5 septembre 2023](https://www.numerique.gouv.fr/espace-presse/services-numeriques-publics-circulaire-premiere-ministre/){title="communiqué de presse publié le 5 septembre 2023 - nouvelle fenêtre"} par la Dinum. Le [SIG a également publié un article](https://www.systeme-de-design.gouv.fr/a-propos/articles/circulaire-d-application/){title="SIG a également publié un article - nouvelle fenêtre"} permettant le téléchargement de ces documents. Vous pouvez visionner le [webinaire de présentation de la circulaire (durée : 1h16)](https://vimeo.com/846954419/a95cc7b784){title="webinaire de présentation de la circulaire (durée : 1h16) - nouvelle fenêtre"}.  
 
-Le **6 septembre 2023**, le Gouvernement a publié une «&nbsp;**Ordonnance** visant à renforcer les sanctions des manquements aux obligations d’accessibilité des services de communication au public en ligne&nbsp;». Elle modifie l’[article 47](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037388867/){title="article 47 - nouvelle fenêtre"} et insère l’[article 47-1](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000048050174/2023-09-08){title="article 47-1 - nouvelle fenêtre"} dans la loi n°2005-102 du 11 février 2005 pour l'égalité des droits et des chances, la participation et la citoyenneté des personnes handicapées. Vous trouverez tous les détails dans le [communiqué de presse publié le 6 septembre 2023](https://www.numerique.gouv.fr/espace-presse/accessibilite-numerique-a-100-percent-le-gouvernement-passe-a-la-vitesse-superieure-et-presente-une-ordonnance-visant-a-controler-laccessibilite-des-sites-des-administrations-publiques-a-compter-2024/){title="communiqué de presse publié le 6 septembre 2023 - nouvelle fenêtre"} par la Dinum. L’ordonnance fera l’objet d’un décret d’application qui préciseront les modalités de sa mise en œuvre.
+Cette norme s’applique à un large éventail de produits et services TIC, tels que les logiciels, les sites internet, les applications mobiles et autres technologies numériques. Elle couvre notamment les exigences d’accessibilité liées aux contenus, aux interfaces utilisateur et à la navigation. 
 
-## Design, accessibilité&nbsp;: en quoi les administrations sont concernées&nbsp;?
+Elle est la référence définie par la décision d’exécution (UE) 2018/2048 du 20 décembre 2018 concernant la norme harmonisée applicable aux sites internet et aux applications mobiles ; elle a été élaborée à l’appui de la directive européenne (UE) 2016/2102 du 26 octobre 2016 relative à l’accessibilité des sites internet et des applications mobiles des organismes du secteur public, dite « WAD » pour l’acronyme anglais de « <span lang="en">Web Accessibility Directive</span> ».
 
-L’**ordonnance** renforce les sanctions des manquements aux obligations d’accessibilité des sites publics. Ainsi, un défaut d’accessibilité devient une infraction passible d’une sanction plafonnée à 50.000€ pouvant se cumuler avec la sanction pour non-respect d’affichage d’informations sur l’accessibilité. L’ordonnance attribue les compétences d’autorité de contrôle pour ces manquements à l’Autorité de régulation de la communication audiovisuelle et numérique (Arcom), dont les mises en demeure seront publiées. Ces dispositions inciteront les administrations à se mettre en conformité. Dans ce cadre, les experts de la «&nbsp;Brigade d’intervention numérique (Bin)&nbsp;» de la Dinum (dont DesignGouv fait partie) pourront être sollicités pour intervenir.
+Le référentiel général d’amélioration de l’accessibilité (RGAA) rend obligatoire l’application de cette norme (c’est elle qui a servi à la mise à jour en version 4 du RGAA).
 
-La **circulaire** rappelle l’importance du design, de la prise en compte des besoins des usagers et des tests utilisateur - secteur d’activité pour lesquels la Bin peut fournir outils, formations, expertises et accompagnements. La Circulaire traite également de la nécessité pour les directions du numérique des ministères de recruter des responsables du design (ou chief design officer)&nbsp;; leur mission consiste à définir et mettre en œuvre une stratégie pour professionnaliser la pratique du design dans l’administration.
 
-Pour donner une image concrète du métier de responsable du design, encore peu développé dans la fonction publique, une série d’entretiens avec des responsables du design qui présenteront leur métier, leur rôle et leur apport sera prochainement publiée sur le [site DesignGouv](/).
-
-Nous sommes prêts 🙂
+Note : La norme est régulièrement mise à jour pour refléter les évolutions technologiques et garantir sa pertinence et son efficacité dans la promotion de l’accessibilité. Le RGAA prendra en compte la version de la norme qui sera en vigueur lors de sa prochaine évolution, ainsi que les exigences d’accessibilité découlant de la directive (UE) 2019/882 du 17 avril 2019 relative aux exigences en matière d’accessibilité applicables aux produits et services (EAA), qui vise à garantir l’accessibilité des produits et services dans l’Union européenne.

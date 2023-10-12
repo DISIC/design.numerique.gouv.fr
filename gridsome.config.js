@@ -267,6 +267,7 @@ module.exports = {
     Tag: '/articles/tag/:id',
     Formation: '/formations/:Slug',
     Accompagnement: '/accompagnement/:Name',
+    Entretien: '/entretiens/:firstName-:lastName',
     // Poste: '/recrutement/:Slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },

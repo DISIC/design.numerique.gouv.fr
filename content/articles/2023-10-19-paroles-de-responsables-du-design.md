@@ -4,7 +4,7 @@ slug: 2023-10-19-paroles-de-responsables-du-design
 publishedDate: 2023-10-19
 tags: ["Design", "Gouvernance"]
 illustration: ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
-description: 
+description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ---
 
 
@@ -15,15 +15,9 @@ description:
 Dans cette version 2.1.2 (2018-08), les critères d’accessibilité du WCAG 2.1 – <span lang="en">web content accessibility guidelines</span>, en français les règles pour l’accessibilité des contenus du web – publié par le W3C (<span lang="en">world wide web consortium</span>) ont officiellement été référencés.
 
 
-<div class="fr-download fr-enlarge-link fr-download--card  fr-my-4w">
-    <p>
-        <a href="/assets/doc/fr_301549v020102p.pdf" download class="fr-download__link">Télécharger la norme européenne en français
-              <span class="fr-download__detail">PDF – 3,8 Mo</span>
-        </a>
-    </p>
-    <p class="fr-download__desc">« Exigences d’accessibilité pour les produits et services ICT »</p>
-</div>
-
+* [Didier Boulet](/entretiens/didier-boulet/)
+* [Éric Hetroy](/entretiens/eric-hetroy/)
+* Audrey Hacq (À venir)
 
 Cette norme s’applique à un large éventail de produits et services TIC, tels que les logiciels, les sites internet, les applications mobiles et autres technologies numériques. Elle couvre notamment les exigences d’accessibilité liées aux contenus, aux interfaces utilisateur et à la navigation. 
 

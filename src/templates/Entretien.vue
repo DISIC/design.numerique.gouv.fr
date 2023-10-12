@@ -39,7 +39,7 @@
       <section>
         <div v-html="$page.entretien.content" />
       </section>
-      <a href="#" class="fr-mt-6w fr-link fr-icon-arrow-left-line fr-link--icon-left">Retour à l’article</a>
+      <a href="/articles/2023-10-19-paroles-de-responsables-du-design/" class="fr-mt-6w fr-link fr-icon-arrow-left-line fr-link--icon-left">Retour à l’article</a>
     </div>
   </Layout>
 </template>

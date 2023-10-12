@@ -120,6 +120,13 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Entretien',
+        path: './content/entretiens/*.md',
+      }
+    },
+    {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [

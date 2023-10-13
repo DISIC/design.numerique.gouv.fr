@@ -3,27 +3,35 @@ title: Paroles de responsables du design
 slug: 2023-10-19-paroles-de-responsables-du-design
 publishedDate: 2023-10-19
 tags: ["Design", "Gouvernance"]
-illustration: ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
-description:  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+illustration: 
+description: Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d'autres organismes.
 ---
 
 
-<p>Version en français de la norme européenne sur l’accessibilité utilisée par le RGAA 4.</p>
-<p class="fr-text--lead">La norme européenne « Exigences d’accessibilité pour les produits et services ICT » (EN 301549) spécifie les exigences d’accessibilité pour les produits et services des technologies de l’information et de la communication (TIC, ICT en anglais). Elle fournit des lignes directrices pour concevoir des produits et services accessibles à toutes et à tous. 
+<p>Paroles de responsables du design</p>
+<p class="fr-text--lead">Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d'autres organismes. 
 </p>
 
-Dans cette version 2.1.2 (2018-08), les critères d’accessibilité du WCAG 2.1 – <span lang="en">web content accessibility guidelines</span>, en français les règles pour l’accessibilité des contenus du web – publié par le W3C (<span lang="en">world wide web consortium</span>) ont officiellement été référencés.
+La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à **chaque ministère de désigner un responsable du design** (souvent appelé «&nbsp;Chief design officer&nbsp;»).
 
+La note d’application de la Direction interministérielle du numérique (Dinum) qui accompagne la circulaire précise que ce rôle doit être présent «&nbsp;au sein de toutes les directions du numérique, et notamment les directions ministérielles du numérique&nbsp;». Une fiche de poste-type précise le rôle et les missions des responsables du design, notamment :
 
-* [Didier Boulet](/entretiens/didier-boulet/)
-* [Éric Hetroy](/entretiens/eric-hetroy/)
-* Audrey Hacq (À venir)
+- Définir et piloter la stratégie de design&nbsp;;
+- S’assurer des conditions de sa bonne prise en compte et de sa mise en œuvre&nbsp;;
+- Fixer en conséquence les objectifs à atteindre&nbsp;;
+- Travailler en lien avec les responsables techniques et les responsables produit.
 
-Cette norme s’applique à un large éventail de produits et services TIC, tels que les logiciels, les sites internet, les applications mobiles et autres technologies numériques. Elle couvre notamment les exigences d’accessibilité liées aux contenus, aux interfaces utilisateur et à la navigation. 
+**Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste.** Lors de cette série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;», ils et elles nous ont donné un aperçu de leur travail au quotidien, de leur place dans leur organisation, de leur parcours…
 
-Elle est la référence définie par la décision d’exécution (UE) 2018/2048 du 20 décembre 2018 concernant la norme harmonisée applicable aux sites internet et aux applications mobiles ; elle a été élaborée à l’appui de la directive européenne (UE) 2016/2102 du 26 octobre 2016 relative à l’accessibilité des sites internet et des applications mobiles des organismes du secteur public, dite « WAD » pour l’acronyme anglais de « <span lang="en">Web Accessibility Directive</span> ».
+Paroles de responsables du design, les entretiens&nbsp;:
 
-Le référentiel général d’amélioration de l’accessibilité (RGAA) rend obligatoire l’application de cette norme (c’est elle qui a servi à la mise à jour en version 4 du RGAA).
+1. [Audrey Hacq, Product Design Director chez OpenClassrooms](/entretiens/audrey-hacq/)
+2. Éric  Hetroy, Head Of Design chez Axa (à venir)
+3. Vanessa Guilloteau, Head of Product Design chez Canal+ (à venir)
+4. Alessandro Catania, Product Design Director chez Air Liquide (à venir)
+5. Jean-Marc Denis, Design Director chez Meta (à venir)
+6. Didier Boulet, Group Chief Design Officer chez Thalès (à venir)
+7. Ray Ho, Director of design chez Back Market (à venir)
+8. David Ruiz Martínez, VP design chez PayFit (à venir)
 
-
-Note : La norme est régulièrement mise à jour pour refléter les évolutions technologiques et garantir sa pertinence et son efficacité dans la promotion de l’accessibilité. Le RGAA prendra en compte la version de la norme qui sera en vigueur lors de sa prochaine évolution, ainsi que les exigences d’accessibilité découlant de la directive (UE) 2019/882 du 17 avril 2019 relative aux exigences en matière d’accessibilité applicables aux produits et services (EAA), qui vise à garantir l’accessibilité des produits et services dans l’Union européenne.
+Merci à elles et eux d’avoir pris le temps de nous répondre 😊.

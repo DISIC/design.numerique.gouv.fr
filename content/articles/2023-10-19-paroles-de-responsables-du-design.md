@@ -3,7 +3,7 @@ title: Paroles de responsables du design
 slug: 2023-10-19-paroles-de-responsables-du-design
 publishedDate: 2023-10-19
 tags: ["Design", "Gouvernance"]
-illustration: 
+illustration: ./illustrations/2023-10-19-paroles-de-responsables-du-design.png
 description: Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d'autres organismes.
 ---
 

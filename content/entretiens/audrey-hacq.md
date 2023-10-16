@@ -8,7 +8,9 @@ company: OpenClassrooms
 rs: https://www.linkedin.com/in/audrey-hacq-4440652a/
 ---
 
-<p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;». Épisode 1&nbsp;: Audrey Hacq, <span lang="en">Product Design Director<span lang="en"> chez OpenClassrooms.</p>
+<p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;». 
+  
+Épisode 1&nbsp;: Audrey Hacq, <span lang="en">Product Design Director<span lang="en"> chez OpenClassrooms.</p>
 
 <h2 class="fr-h6">Pouvez-vous nous expliquer en quoi consiste votre rôle&nbsp;? Quels sont vos principaux enjeux&nbsp;?</h2>
 
@@ -16,7 +18,11 @@ Je suis <span lang="en">Product Design Director<span lang="en"> chez Openclassro
 
 <h2 class="fr-h6">Parlez-nous de votre parcours, comment êtes-vous arrivée au poste que vous occupez aujourd’hui&nbsp;?</h2>
 
-Après un BTS communication visuelle puis une formation graphiste aux Gobelins, j'ai commencé ma carrière dans les supports imprimés. Mon premier travail chez Prisma Presse consistait à concevoir des catalogues, des bons d'abonnement, des affiches et des publi-reportages. J'ai ensuite travaillé en tant que directrice artistique pour des agences dites «&nbsp;360&nbsp;» dans lequel on faisait beaucoup de supports imprimés mais également quelques sites internet. En 2010, ma carrière a pris un tournant lorsque j'ai rejoint «&nbsp;Autre Planète&nbsp;», une agence 100&nbsp;% numérique qui travaillait principalement sur des applications mobiles. Je suis alors devenue designer. C'est à cette époque que j'ai réalisé que concevoir des écrans était une activité très différente de la mise en page classique. Il fallait des méthodes beaucoup plus puissantes que les templates proposés dans Indesign. Je me suis alors intéressée au design par composants. J'ai ensuite rejoint l'agence Backelite (Idean/Frog) où j'ai développé une forte expérience autour de l'*atomic design* et des design systems (système de design). J'ai ensuite décidé de quitter le monde de l'agence, que je connaissais pourtant si bien, pour me lancer dans l'univers produit.
+Après un BTS communication visuelle puis une formation graphiste aux Gobelins, j'ai commencé ma carrière dans les supports imprimés. Mon premier travail chez Prisma Presse consistait à concevoir des catalogues, des bons d'abonnement, des affiches et des publi-reportages. J'ai ensuite travaillé en tant que directrice artistique pour des agences dites «&nbsp;360&nbsp;» dans lequel on faisait beaucoup de supports imprimés mais également quelques sites internet. 
+
+En 2010, ma carrière a pris un tournant lorsque j'ai rejoint «&nbsp;Autre Planète&nbsp;», une agence 100&nbsp;% numérique qui travaillait principalement sur des applications mobiles. Je suis alors devenue designer. C'est à cette époque que j'ai réalisé que concevoir des écrans était une activité très différente de la mise en page classique. Il fallait des méthodes beaucoup plus puissantes que les templates proposés dans Indesign. Je me suis alors intéressée au design par composants. J'ai ensuite rejoint l'agence Backelite (Idean/Frog) où j'ai développé une forte expérience autour de l'*atomic design* et des design systems (système de design). 
+
+J'ai ensuite décidé de quitter le monde de l'agence, que je connaissais pourtant si bien, pour me lancer dans l'univers produit.
 
 <h2 class="fr-h6">Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation&nbsp;?</h2>
 

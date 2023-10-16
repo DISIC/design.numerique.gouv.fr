@@ -20,17 +20,20 @@
           </ol>
         </nav>
         <div class="dg-cover__title fr-grid-row">
-          <div class="fr-col-sm-2">
+          <div class="fr-col-sm-3">
             <g-image
             class="dg-picto fr-mr-2w"
             :src="$page.entretien.photo"
             alt=""
-            style="width:6em; height:6em"
+            style="width:8em; height:8em"
           />
           </div>
           <div class="fr-col">
             <h1>Entretien avec {{ $page.entretien.firstName }} {{$page.entretien.lastName }}</h1>
-            <p class="fr-text--lead"><span v-html="$page.entretien.job" /><br /><span v-html="$page.entretien.company" /></p>
+           
+            <p class="fr-text--lead"><span v-html="$page.entretien.job" /><br /><span v-html="$page.entretien.company" /><br />
+            <g-link :href="$page.entretien.rs" class="fr-link fr-text--xs" target="_blank"  title="LinkedIn - nouvelle fenêtre" >LinkedIn {{ $page.entretien.firstName }} {{$page.entretien.lastName }}</g-link>
+             </p>
           </div>
         </div>
       </div>

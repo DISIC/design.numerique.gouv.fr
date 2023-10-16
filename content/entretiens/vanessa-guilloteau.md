@@ -8,8 +8,9 @@ company: Canal+
 rs: https://www.linkedin.com/in/vanessa-guilloteau/
 ---
 
+<p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;». Aujourd’hui, épisode 3&nbsp;: Vanessa Guilloteau, Head of Product Design chez Canal+.</p>
 
-## Pouvez-vous nous expliquer en quoi consiste votre rôle ? Quels sont vos principaux enjeux ?
+<h2 class="fr-h6">Pouvez-vous nous expliquer en quoi consiste votre rôle&nbsp;? Quels sont vos principaux enjeux&nbsp;?</h2>
 
 J’ai rejoint le groupe CANAL+ en 2020 en tant que Head of Product Design, c’est-à-dire que je suis aujourd’hui responsable de l’expérience design de myCANAL, notre plateforme vidéo Live et VOD [vidéo à la demande].
 
@@ -19,17 +20,15 @@ Mon premier enjeu était de structurer l’activité de Product Design en tant q
 
 Mon deuxième enjeu était quant à lui beaucoup plus large et transversal car il consistait à initier et piloter l’ambitieux projet de création du Design System CANAL+.
 
-
-## Parlez-nous de votre parcours, comment êtes-vous arrivée au poste que vous occupez aujourd’hui ?
+<h2 class="fr-h6">Parlez-nous de votre parcours, comment êtes-vous arrivée au poste que vous occupez aujourd’hui&nbsp;?</h2>
 
 On peut dire que j’ai un parcours un peu atypique mais, surtout, je suis une vraie autodidacte du design.
 
-Avec un diplôme universitaire de technologie (DUT) « Services et Réseaux de Communication » en poche, ma curiosité, ma passion des usages digitaux et un soupçon d’ambition m’ont permis de passer très naturellement du monde de la Tech, dans lequel j’ai passé huit ans en tant que développeuse Frontend, à celui du Design où j'ai évolué pas à pas en enchaînant des rôles de Designeuse UX, de Designeuse Produit, de Lead Designeuse ou encore de Directrice Design, la plupart du temps en tant que consultante.
+Avec un diplôme universitaire de technologie (DUT) «&nbsp;Services et Réseaux de Communication&nbsp;» en poche, ma curiosité, ma passion des usages digitaux et un soupçon d’ambition m’ont permis de passer très naturellement du monde de la Tech, dans lequel j’ai passé huit ans en tant que développeuse Frontend, à celui du Design où j'ai évolué pas à pas en enchaînant des rôles de Designeuse UX, de Designeuse Produit, de Lead Designeuse ou encore de Directrice Design, la plupart du temps en tant que consultante.
 
 Toutes ces expériences plus enrichissantes les unes que les autres m’ont permis d’occuper aujourd’hui ce poste qui me correspond parfaitement, celui de Head of Product Design chez CANAL+.
 
-
-## Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation ?
+<h2 class="fr-h6">Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation&nbsp;?</h2>
 
 L’équipe Product Design fait partie d’une entité nommée la DPM (Direction Product Management), qui regroupe tous les métiers du produit chez CANAL+ et qui a pour vocation de porter la stratégie et l’expérience de la plateforme myCANAL. La collaboration avec toutes les expertises de la DPM se passe très bien car nous sommes tous des passionnés portés par le même objectif : proposer la meilleure expérience possible à nos abonnés et à nos nouveaux clients potentiels.
 
@@ -39,8 +38,7 @@ En effet, grâce à certaines initiatives novatrices pour le groupe, nous voyons
 
 Il reste cependant encore du chemin à parcourir pour que l’ensemble des initiatives portées par le Product Design puissent répondre aux attentes de toutes les directions du groupe. C’est un travail de longue haleine qui porte tout de même ses fruits, petit à petit.
 
-
-## Comment mesurez-vous l'impact de votre travail sur les résultats de votre organisation ?
+<h2 class="fr-h6">Comment mesurez-vous l'impact de votre travail sur les résultats de votre organisation&nbsp;?</h2>
 
 Pour mesurer au mieux l’impact de mon travail sur l’organisation, il me semble intéressant de le faire à trois niveaux.
 
@@ -50,13 +48,12 @@ Ensuite, je vérifie qu’au niveau de la DPM, le Product Design propose un trav
 
 Et enfin, je fais le nécessaire pour garantir que la stratégie Product Design que je porte soit toujours corrélée à la stratégie du groupe CANAL+, ce qui m’amène à devoir m’adapter quand cela s’avère nécessaire.
 
+<h2 class="fr-h6">Dernière question&nbsp;: Quelle question auriez-vous aimé que l’on vous pose, et quelle est la réponse&nbsp;?</h2>
 
-## Dernière question : Quelle question auriez-vous aimé que l’on vous pose, et quelle est la réponse ?
-
-La question est la suivante : « Qu’est-ce qui vous caractérise selon vous aujourd’hui dans ce rôle de Head of Product Design chez CANAL+ ? »
+La question est la suivante&nbsp;: «&nbsp;Qu’est-ce qui vous caractérise selon vous aujourd’hui dans ce rôle de Head of Product Design chez CANAL+&nbsp;?&nbsp;»
 
 Comme je le disais en introduction, j’ai un parcours professionnel assez atypique mais je pense que ma personnalité l’est aussi un peu. Et dans le cadre de mon poste, ça se caractérise pleinement dans le type de management que je propose à mon équipe et qui sort un peu des sentiers battus, dirons-nous, tant à l’échelle de CANAL+ que du monde professionnel en général.
 
 En effet, j’applique aujourd’hui un management par l’empathie, une vertu qui me caractérise bien je pense. C’est une approche à la fois bienveillante mais surtout basée sur l’écoute et les retours de mon équipe. Car au-delà de faire mon maximum chaque jour pour m’assurer que tous s’épanouissent, je m’appuie sur le partage mutuel pour assouvir mon besoin constant de grandir et d’évoluer en tant que manager, c’est du donnant donnant.
 
-J’ai eu la chance d’arriver chez CANAL+ avec la pleine confiance de mon CPO [chief product officer, directeur produits], qui m’a laissée carte blanche quant à la façon de prendre en mains mon équipe. Je lui en suis très reconnaissante car grâce à cela, j’ai pu, pour la première fois de ma carrière, jouer le rôle du manager idéal que j’ai toujours rêvé d’avoir. Et que c’est gratifiant quand on constate que cela fonctionne !
+J’ai eu la chance d’arriver chez CANAL+ avec la pleine confiance de mon CPO [chief product officer, directeur produits], qui m’a laissée carte blanche quant à la façon de prendre en mains mon équipe. Je lui en suis très reconnaissante car grâce à cela, j’ai pu, pour la première fois de ma carrière, jouer le rôle du manager idéal que j’ai toujours rêvé d’avoir. Et que c’est gratifiant quand on constate que cela fonctionne&nbsp;!

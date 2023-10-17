@@ -20,22 +20,26 @@ Préparer et animer des tests avec des usagers puis analyser les résultats.
 </div>   
 
 **L’accessibilité numérique dans la pratique** – 21 novembre, toute la journée.
+
 Intégrer concrètement l’accessibilité dans les services publics numériques.
 
 **Accessibilité numérique et design** – 28 novembre, matin.
+
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 
 **Vérifier l’accessibilité** – 5 décembre, matin.
+
 Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
 
 **Créer un PDF (vraiment) accessible** – 14 décembre, matin.
+
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants ou à l’aide de vos propres systèmes de génération de PDF.
 
 Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur le lien !
 
 ## Le déroulement <span aria-hidden="true">🎡</span>
 
-Hautement participatifs, les ateliers se passent en petits comités d’environ 15 personnes pour faciliter les échanges. Ils ont lieu en présentiel exclusivement, dans le 7ème arrondissement de Paris.
+Hautement participatifs, les ateliers se passent en petits comités de 15 à 20 personnes pour faciliter les échanges. Ils ont lieu en présentiel exclusivement, dans le 7ème arrondissement de Paris.
 
 Leur durée varie de 4 heures à 1 journée complète selon le thème abordé.
 

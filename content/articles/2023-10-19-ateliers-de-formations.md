@@ -4,7 +4,7 @@ slug: 2023-10-19-ateliers-de-formations
 publishedDate: 2023-10-19
 tags: ["formation", "design", "accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
-description: "Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum)."
+description: "Du 21 novembre au 14 décembre, la Direction interministérielle du numérique (DINUM) anime 5 ateliers de formation sur le design, la recherche utilisateur et l'accessibilité pour aider les agents à améliorer les services publics en ligne."
 ---
 
 <p class="fr-text--lead">Pour la fin d’année, la Direction interministérielle du numérique (Dinum) a conçu un programme de 5 ateliers de formation pour vous aider à améliorer toujours les services publics en ligne. <span aria-hidden="true">🚀</span></p>

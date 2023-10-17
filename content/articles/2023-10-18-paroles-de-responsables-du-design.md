@@ -1,6 +1,6 @@
 ---
 title: Paroles de responsables du design
-slug: 2023-10-19-paroles-de-responsables-du-design
+slug: 2023-10-1-paroles-de-responsables-du-design
 publishedDate: 2023-10-19
 tags: ["Design", "Gouvernance"]
 illustration: ./illustrations/2023-10-19-paroles-de-responsables-du-design.png

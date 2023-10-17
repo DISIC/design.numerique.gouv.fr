@@ -3,7 +3,7 @@ title: Participez à nos ateliers de formation !
 slug: 2023-10-19-ateliers-de-formations
 publishedDate: 2023-10-19
 tags: ["formation", "design", "accessibilité", "RGAA"]
-illustration:  ./illustrations/20221108-ProgrammeDeFormation.png
+illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
 description: "Deux textes importants relatifs à l’amélioration de la qualité des démarches numériques, de leur lisibilité et au renforcement de leur accessibilité viennent en appui des missions confiées à la Direction interministérielle du numérique (Dinum)."
 ---
 

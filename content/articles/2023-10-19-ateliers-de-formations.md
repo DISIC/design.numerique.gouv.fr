@@ -33,7 +33,7 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 
 **Créer un PDF (vraiment) accessible** – 14 décembre, matin.
 
-Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants ou à l’aide de vos propres systèmes de génération de PDF.
+Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques ou à l’aide de vos propres systèmes de génération de PDF.
 
 Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur le lien !
 

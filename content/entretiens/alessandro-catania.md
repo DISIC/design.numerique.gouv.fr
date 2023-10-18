@@ -19,7 +19,7 @@ De mon côté, je contribue à cette mission principalement&nbsp;:
 - en apportant un support et en inspirant tous les métiers ainsi que les experts Digital & <span lang="en">IT</span> du Groupe, afin de développer des méthodes pour nos business encore davantage centrée sur les utilisateurs, tout en intégrant une approche design&nbsp;;
 - en faisant grandir les expertises recherche et design dans l’organisation, et notamment dans notre réseau de <span lang="en">Digital Factories</span> à l’international, en Europe, Asie et Amérique.
 
-<h2 class="fr-h6">Parlez-nous de votre parcours, comment êtes-vous arrivée au poste que vous occupez aujourd’hui&nbsp;?</h2>
+<h2 class="fr-h6">Parlez-nous de votre parcours, comment êtes-vous arrivé au poste que vous occupez aujourd’hui&nbsp;?</h2>
 
 J’ai un parcours académique dans les sciences humaines et sociales, réalisé en Italie puis en France et en Angleterre. Après avoir obtenu un doctorat dans ce domaine, j’ai d’abord travaillé dans des cabinets d’études et de conseil, j’ai ensuite co-fondé une agence de design, puis travaillé comme <span lang="en">freelance</span> et enfin, j’ai rejoint une agence design de services pour y développer l'activité de recherche utilisateur (il y a plus de 10 ans désormais&nbsp;!). Depuis, j’ai continué à travailler dans le design, en particulier sur des sujets industriels, et c’est ainsi que j’ai rejoint Air&nbsp;Liquide. C’est le design squiggle&nbsp;!
 

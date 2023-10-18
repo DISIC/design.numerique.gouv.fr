@@ -12,26 +12,27 @@ description: "Du 21 novembre au 14 décembre, la Direction interministérielle d
 
 ## Les ateliers <span aria-hidden="true">🛠</span>
 
-**Les tests usagers dans la pratique** – 21 novembre ou 12 décembre, toute la journée.
+[**Les tests usagers dans la pratique** – 21 novembre ou 12 décembre, toute la journée](https://design.numerique.gouv.fr/formations/recherche-utilisateur/atelier-test-usager/)
+
 Préparer et animer des tests avec des usagers puis analyser les résultats.
 
 <div class="fr-highlight">
   <p>Note bene : les deux sessions proposent le même contenu, inutile donc de s’inscrire au deux.</p>
 </div>   
 
-**L’accessibilité numérique dans la pratique** – 21 novembre, toute la journée.
+[**L’accessibilité numérique dans la pratique** – 21 novembre, toute la journée](https://design.numerique.gouv.fr/formations/accessibilite/atelier-accessibilite-pratique/)
 
 Intégrer concrètement l’accessibilité dans les services publics numériques.
 
-**Accessibilité numérique et design** – 28 novembre, matin.
+[**Accessibilité numérique et design** – 28 novembre, matin](https://design.numerique.gouv.fr/formations/accessibilite/atelier-accessibilite-designer/)
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 
-**Vérifier l’accessibilité** – 5 décembre, matin.
+[**Vérifier l’accessibilité** – 5 décembre, matin](https://design.numerique.gouv.fr/formations/accessibilite/atelier-coder-accessible/)
 
 Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
 
-**Créer un PDF (vraiment) accessible** – 14 décembre, matin.
+[**Créer un PDF (vraiment) accessible** – 14 décembre, matin](https://design.numerique.gouv.fr/formations/accessibilite/atelier-pdf-accessible/)
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques ou à l’aide de vos propres systèmes de génération de PDF.
 

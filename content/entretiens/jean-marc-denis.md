@@ -16,7 +16,7 @@ Je suis actuellement directeur du design chez Meta, focalisé sur les produits d
 Les enjeux sont multiples : évidemment, aider à produire les meilleures expériences utilisateurs, ainsi que répondre aux demandes de fonctionnalités. Innover et élever le produit en créant ou amplifiant de nouvelles façons de communiquer. Par exemple récemment la sortie de « Community Chats » qui va aider à connecter votre communauté en temps réel sur Messenger et Facebook.
 
 
-## Parlez-nous de votre parcours, comment êtes-vous arrivée au poste que vous occupez aujourd’hui ?
+## Parlez-nous de votre parcours, comment êtes-vous arrivé au poste que vous occupez aujourd’hui ?
 
 Mon parcours est fait de deux histoires qui se sont déroulées en parallèle.
 D'un côté, ayant redoublé ma seconde j'ai été orienté vers un brevet d’études professionnelles (BEP) MSMA (Maintenance des systèmes mécaniques automatisés). Après l'obtention de ce diplôme je me suis redirigé vers une première d'adaptation sciences et technologies industrielles (STI) en mécanique.

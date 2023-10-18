@@ -12,7 +12,7 @@ rs: https://www.linkedin.com/in/rayhoooooooo/
 ## Pouvez-vous nous expliquer en quoi consiste votre rôle ? Quels sont vos principaux enjeux ?
 
 
-## Parlez-nous de votre parcours, comment êtes-vous arrivée au poste que vous occupez aujourd’hui ?
+## Parlez-nous de votre parcours, comment êtes-vous arrivé au poste que vous occupez aujourd’hui ?
 
 
 ## Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation ?

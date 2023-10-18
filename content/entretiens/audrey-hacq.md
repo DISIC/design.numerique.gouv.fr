@@ -26,7 +26,7 @@ J'ai ensuite décidé de quitter le monde de l'agence, que je connaissais pourta
 
 <h2 class="fr-h6">Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation&nbsp;?</h2>
 
-Le plus souvent possible en collaboration et en co-construction&nbsp;;) Je travaille beaucoup avec les autres directeurs, notamment concernant la stratégie, la <span lang="en">roadmap</span> [feuille de route] et l'organisation des équipes. J'anime également régulièrement des ateliers d'idéation et d'alignements dans lesquels je me positionne en tant que facilitatrice pour favoriser l'intelligence collective. C'est notre métier de designers de trouver des solutions tout en créant l'alignement. J’oeuvre également au quotidien pour que la Recherche Utilisateur prenne un rôle de plus en plus important dans la culture de l'entreprise mais aussi dans la définition de la stratégie globale.
+Le plus souvent possible en collaboration et en co-construction&nbsp;;) Je travaille beaucoup avec les autres Directeurs, notamment concernant la stratégie, la <span lang="en">roadmap</span> [feuille de route] et l'organisation des équipes. J'anime également régulièrement des ateliers d'idéation et d'alignements dans lesquels je me positionne en tant que facilitatrice pour favoriser l'intelligence collective. C'est notre métier de designers de trouver des solutions tout en créant l'alignement. J’oeuvre également au quotidien pour que la Recherche Utilisateur prenne un rôle de plus en plus important dans la culture de l'entreprise mais aussi dans la définition de la stratégie globale.
 
 <h2 class="fr-h6">Comment mesurez-vous l'impact de votre travail sur les résultats de votre organisation&nbsp;?</h2>
 

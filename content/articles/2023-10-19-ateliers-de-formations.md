@@ -60,7 +60,7 @@ Ne perdez pas de temps, les ateliers se remplissent vite.
 
 ## Suivez-nous ! <span aria-hidden="true">🕵️‍♀️</span>
 
-Nous annonçons les nouvelles dates de formation sur les réseaux sociaux [Linkedin](https://www.linkedin.com/company/designgouv/) et [Twitter](https://twitter.com/design_gouv), restez à l’écoute…
+Nous annonçons les nouvelles dates de formation sur les réseaux sociaux [LinkedIn](https://www.linkedin.com/company/designgouv/) et [Twitter](https://twitter.com/design_gouv), restez à l’écoute…
 
 Nous vous invitons également à vous [inscrire à notre lettre d’information](https://design.numerique.gouv.fr/newsletter) pour ne rien rater.
 

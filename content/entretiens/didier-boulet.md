@@ -8,6 +8,8 @@ company: Thalès
 rs: https://www.linkedin.com/in/bouletdidier
 ---
 
+<p class="fr-text--lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+<p class="fr-text--lead">Épisode X&nbsp;: Didier Boulet, <span lang="en">Group Chief Design Officer</span> chez Thalès.</p>
 
 ## Pouvez-vous expliquer en quoi consiste votre rôle ? Quels sont vos principaux enjeux ?
 

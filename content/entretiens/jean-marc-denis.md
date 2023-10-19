@@ -8,6 +8,9 @@ company: Meta
 rs: https://www.linkedin.com/in/jmdenis/
 ---
 
+<p class="fr-text--lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+<p class="fr-text--lead">Épisode Y&nbsp;: Jean-Marc Denis, <span lang="en">Design Director</span> chez Meta.</p>
+
 
 ## Pouvez-vous nous expliquer en quoi consiste votre rôle ? Quels sont vos principaux enjeux ?
 

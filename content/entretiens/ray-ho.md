@@ -8,6 +8,11 @@ company: Back Market
 rs: https://www.linkedin.com/in/rayhoooooooo/
 ---
 
+<p class="fr-text--lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+<p class="fr-text--lead">Épisode Z&nbsp;: Ray Ho, <span lang="en">Director of design</span> chez <span lang="en">Back Market</span>.</p>
+
+
+
 
 ## Pouvez-vous nous expliquer en quoi consiste votre rôle ? Quels sont vos principaux enjeux ?
 

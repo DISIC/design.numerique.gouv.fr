@@ -32,4 +32,4 @@ Paroles de responsables du design, les entretiens&nbsp;:
 7. Ray Ho, Director of design chez Back Market (à venir)
 8. David Ruiz Martínez, VP design chez PayFit (à venir)
 
-Merci à elles et eux d’avoir pris le temps de nous répondre 😊.
+Merci à elles et eux d’avoir pris le temps de nous répondre. 😊

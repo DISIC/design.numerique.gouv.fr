@@ -8,11 +8,11 @@ company: CANAL+
 rs: https://www.linkedin.com/in/vanessa-guilloteau/
 ---
 
-<p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;». Aujourd’hui, épisode 3&nbsp;: Vanessa Guilloteau, <span lang="en">Head of Product Design</span> chez CANAL+.</p>
+<p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l’État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;».</p><p class="fr-text--lead">Épisode 3&nbsp;: Vanessa Guilloteau, <span lang="en">Head of Product Design</span> chez CANAL+.</p>
 
 <h2 class="fr-h6">Pouvez-vous nous expliquer en quoi consiste votre rôle&nbsp;? Quels sont vos principaux enjeux&nbsp;?</h2>
 
-J’ai rejoint le groupe CANAL+ en 2020 en tant que Head of Product Design, c’est-à-dire que je suis aujourd’hui responsable de l’expérience design de myCANAL, notre plateforme vidéo <span lang="en">Live</span> et VOD [vidéo à la demande].
+J’ai rejoint le groupe CANAL+ en 2020 en tant que Head of Product Design, c’est-à-dire que je suis aujourd’hui responsable de l’expérience design de myCANAL, notre plateforme vidéo <span lang="en">Live</span> et <abbr lang="en" title="video on demand">VOD</abbr> [vidéo à la demande].
 
 J’ai pris ce poste avec pour objectif de répondre à deux enjeux majeurs et stratégiques.
 
@@ -24,11 +24,11 @@ Mon deuxième enjeu était quant à lui beaucoup plus large et transversal car i
 
 On peut dire que j’ai un parcours un peu atypique mais, surtout, je suis une vraie autodidacte du design.
 
-Avec un diplôme universitaire de technologie (DUT) «&nbsp;Services et Réseaux de Communication&nbsp;» en poche, ma curiosité, ma passion des usages digitaux et un soupçon d’ambition m’ont permis de passer très naturellement du monde de la tech, dans lequel j’ai passé huit ans en tant que développeuse <span lang="en">Frontend</span>, à celui du Design où j'ai évolué pas à pas en enchaînant des rôles de Designeuse UX, de Designeuse Produit, de <span lang="en">Lead</span> Designeuse ou encore de Directrice Design, la plupart du temps en tant que consultante.
+Avec un diplôme universitaire de technologie (DUT) «&nbsp;Services et Réseaux de Communication&nbsp;» en poche, ma curiosité, ma passion des usages digitaux et un soupçon d’ambition m’ont permis de passer très naturellement du monde de la tech, dans lequel j’ai passé huit ans en tant que développeuse <span lang="en">Frontend</span>, à celui du Design où j’ai évolué pas à pas en enchaînant des rôles de Designeuse UX, de Designeuse Produit, de <span lang="en">Lead</span> Designeuse ou encore de Directrice Design, la plupart du temps en tant que consultante.
 
 Toutes ces expériences plus enrichissantes les unes que les autres m’ont permis d’occuper aujourd’hui ce poste qui me correspond parfaitement, celui de <span lang="en">Head of Product Design</span> chez CANAL+.
 
-<h2 class="fr-h6">Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation&nbsp;?</h2>
+<h2 class="fr-h6">Comment travaillez-vous avec les autres membres de l’équipe dirigeante de votre organisation&nbsp;?</h2>
 
 L’équipe <span lang="en">Product Design</span> fait partie d’une entité nommée la DPM (Direction Product Management), qui regroupe tous les métiers du produit chez CANAL+ et qui a pour vocation de porter la stratégie et l’expérience de la plateforme myCANAL. La collaboration avec toutes les expertises de la DPM se passe très bien car nous sommes tous des passionnés portés par le même objectif : proposer la meilleure expérience possible à nos abonnés et à nos nouveaux clients potentiels.
 
@@ -38,7 +38,7 @@ En effet, grâce à certaines initiatives novatrices pour le groupe, nous voyons
 
 Il reste cependant encore du chemin à parcourir pour que l’ensemble des initiatives portées par le <span lang="en">Product Design</span> puissent répondre aux attentes de toutes les directions du groupe. C’est un travail de longue haleine qui porte tout de même ses fruits, petit à petit.
 
-<h2 class="fr-h6">Comment mesurez-vous l'impact de votre travail sur les résultats de votre organisation&nbsp;?</h2>
+<h2 class="fr-h6">Comment mesurez-vous l’impact de votre travail sur les résultats de votre organisation&nbsp;?</h2>
 
 Pour mesurer au mieux l’impact de mon travail sur l’organisation, il me semble intéressant de le faire à trois niveaux.
 

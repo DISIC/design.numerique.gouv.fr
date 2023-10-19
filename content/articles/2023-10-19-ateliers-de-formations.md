@@ -12,7 +12,7 @@ description: "Du 21 novembre au 14 décembre, la Direction interministérielle d
 
 ## Les ateliers <span aria-hidden="true">🛠</span>
 
-[**Les tests usagers dans la pratique** – 21 novembre ou 12 décembre, toute la journée](https://design.numerique.gouv.fr/formations/recherche-utilisateur/atelier-test-usager/)
+[**Les tests usagers dans la pratique**](/formations/recherche-utilisateur/atelier-test-usager/) – 21 novembre ou 12 décembre, toute la journée
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.
 
@@ -20,19 +20,19 @@ Préparer et animer des tests avec des usagers puis analyser les résultats.
   <p>Note bene : les deux sessions proposent le même contenu, inutile donc de s’inscrire au deux.</p>
 </div>   
 
-[**L’accessibilité numérique dans la pratique** – 21 novembre, toute la journée](https://design.numerique.gouv.fr/formations/accessibilite/atelier-accessibilite-pratique/)
+[**L’accessibilité numérique dans la pratique**](/formations/accessibilite/atelier-accessibilite-pratique/) – 21 novembre, toute la journée
 
 Intégrer concrètement l’accessibilité dans les services publics numériques.
 
-[**Accessibilité numérique et design** – 28 novembre, matin](https://design.numerique.gouv.fr/formations/accessibilite/atelier-accessibilite-designer/)
+[**Accessibilité numérique et design**](/formations/accessibilite/atelier-accessibilite-designer/) – 28 novembre, matin
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 
-[**Vérifier l’accessibilité** – 5 décembre, matin](https://design.numerique.gouv.fr/formations/accessibilite/atelier-coder-accessible/)
+[**Vérifier l’accessibilité**](/formations/accessibilite/atelier-coder-accessible/) – 5 décembre, matin
 
 Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
 
-[**Créer un PDF (vraiment) accessible** – 14 décembre, matin](https://design.numerique.gouv.fr/formations/accessibilite/atelier-pdf-accessible/)
+[**Créer un PDF (vraiment) accessible**](/formations/accessibilite/atelier-pdf-accessible/) – 14 décembre, matin
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques ou à l’aide de vos propres systèmes de génération de PDF.
 

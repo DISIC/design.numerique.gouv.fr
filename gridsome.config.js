@@ -120,6 +120,13 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Entretien',
+        path: './content/entretiens/*.md',
+      }
+    },
+    {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [
@@ -267,6 +274,7 @@ module.exports = {
     Tag: '/articles/tag/:id',
     Formation: '/formations/:Slug',
     Accompagnement: '/accompagnement/:Name',
+    Entretien: '/entretiens/:firstName-:lastName',
     // Poste: '/recrutement/:Slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },

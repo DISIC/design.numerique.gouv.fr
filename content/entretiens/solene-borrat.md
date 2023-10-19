@@ -2,7 +2,7 @@
 id: solene-borrat
 firstName: Solène
 lastName: Borrat
-photo: ./photos/solene-borrat.jpg
+photo: ./photos/vanessa-guilloteau.jpg
 job: Head of Product Design Europe
 company: Getaround
 rs: https://www.linkedin.com/in/sol%C3%A8ne-borrat-0a5b8649/

@@ -4,13 +4,13 @@ slug: 2023-10-18-paroles-de-responsables-du-design
 publishedDate: 2023-10-18
 tags: ["Design", "Gouvernance"]
 illustration: ./illustrations/2023-10-18-paroles-de-responsables-du-design.png
-description: Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d'autres organismes.
+description: Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d’autres organismes.
 ---
 
-<p class="fr-text--lead">Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d'autres organismes. 
+<p class="fr-text--lead">Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d’autres organismes. 
 </p>
 
-La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à **chaque ministère de désigner un responsable du design** (souvent appelé «&nbsp;Chief Design Officer&nbsp;»).
+La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l’État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à **chaque ministère de désigner un responsable du design** (souvent appelé «&nbsp;<span lang="en">Chief Design Officer</span>&nbsp;»).
 
 La note d’application de la Direction interministérielle du numérique (Dinum) qui accompagne la circulaire précise que ce rôle doit être présent «&nbsp;au sein de toutes les directions du numérique, et notamment les directions ministérielles du numérique&nbsp;». Une fiche de poste-type précise le rôle et les missions des responsables du design, notamment :
 
@@ -23,13 +23,13 @@ La note d’application de la Direction interministérielle du numérique (Dinum
 
 Paroles de responsables du design, les entretiens&nbsp;:
 
-1. [Audrey Hacq, Product Design Director chez OpenClassrooms](/entretiens/audrey-hacq/)
-2. [Éric  Hetroy, Head Of Design chez Axa](/entretiens/eric-hetroy/)
-3. [Vanessa Guilloteau, Head of Product Design chez CANAL+](/entretiens/vanessa-guilloteau/)
-4. Alessandro Catania, Product Design Director chez Air Liquide (à venir)
-5. Jean-Marc Denis, Design Director chez Meta (à venir)
-6. Didier Boulet, Group Chief Design Officer chez Thalès (à venir)
-7. Ray Ho, Director of design chez Back Market (à venir)
-8. David Ruiz Martínez, VP design chez PayFit (à venir)
+1. [Audrey Hacq, <span lang="en">Product Design Director</span> chez <span lang="en">OpenClassrooms</span>](/entretiens/audrey-hacq/)
+2. [Éric  Hetroy, <span lang="en">Head Of Design</span> chez Axa](/entretiens/eric-hetroy/)
+3. [Vanessa Guilloteau, <span lang="en">Head of Product Design</span> chez CANAL+](/entretiens/vanessa-guilloteau/)
+4. Alessandro Catania, <span lang="en">Product Design Director</span> chez Air Liquide (à venir)
+5. Jean-Marc Denis, <span lang="en">Design Director</span> chez Meta (à venir)
+6. Didier Boulet, <span lang="en">Group Chief Design Officer</span> chez Thalès (à venir)
+7. Ray Ho, <span lang="en">Director of design</span> chez <span lang="en">Back Market</span> (à venir)
+8. David Ruiz Martínez, <span lang="en">VP design</span> chez <span lang="en">PayFit</span> (à venir)
 
 Merci à elles et eux d’avoir pris le temps de nous répondre. 😊

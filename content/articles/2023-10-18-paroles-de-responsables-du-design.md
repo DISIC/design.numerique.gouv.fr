@@ -10,7 +10,7 @@ description: Tous les ministères auront prochainement un responsable du design 
 <p class="fr-text--lead">Tous les ministères auront prochainement un responsable du design au sein de leur Direction du numérique. Pour avoir un aperçu de leurs missions, nous nous sommes entretenus avec les personnes remplissant ce rôle dans d'autres organismes. 
 </p>
 
-La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à **chaque ministère de désigner un responsable du design** (souvent appelé «&nbsp;Chief design officer&nbsp;»).
+La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à **chaque ministère de désigner un responsable du design** (souvent appelé «&nbsp;Chief Design Officer&nbsp;»).
 
 La note d’application de la Direction interministérielle du numérique (Dinum) qui accompagne la circulaire précise que ce rôle doit être présent «&nbsp;au sein de toutes les directions du numérique, et notamment les directions ministérielles du numérique&nbsp;». Une fiche de poste-type précise le rôle et les missions des responsables du design, notamment :
 
@@ -24,8 +24,8 @@ La note d’application de la Direction interministérielle du numérique (Dinum
 Paroles de responsables du design, les entretiens&nbsp;:
 
 1. [Audrey Hacq, Product Design Director chez OpenClassrooms](/entretiens/audrey-hacq/)
-2. Éric  Hetroy, Head Of Design chez Axa (à venir)
-3. Vanessa Guilloteau, Head of Product Design chez Canal+ (à venir)
+2. [Éric  Hetroy, Head Of Design chez Axa](/entretiens/eric-hetroy/)
+3. [Vanessa Guilloteau, Head of Product Design chez CANAL+](/entretiens/vanessa-guilloteau/)
 4. Alessandro Catania, Product Design Director chez Air Liquide (à venir)
 5. Jean-Marc Denis, Design Director chez Meta (à venir)
 6. Didier Boulet, Group Chief Design Officer chez Thalès (à venir)

@@ -17,7 +17,7 @@ description: "Du 21 novembre au 14 décembre, la Direction interministérielle d
 Préparer et animer des tests avec des usagers puis analyser les résultats.
 
 <div class="fr-highlight">
-  <p>Note bene : les deux sessions proposent le même contenu, inutile donc de s’inscrire au deux.</p>
+  <p>Note bene : les deux sessions proposent le même contenu, inutile donc de s’inscrire aux deux.</p>
 </div>   
 
 [**L’accessibilité numérique dans la pratique**](/formations/accessibilite/atelier-accessibilite-pratique/) – 21 novembre, toute la journée
@@ -40,7 +40,7 @@ Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur le l
 
 ## Le déroulement <span aria-hidden="true">🎡</span>
 
-Hautement participatifs, les ateliers se passent en petits comités de 15 à 20 personnes pour faciliter les échanges. Ils ont lieu en présentiel exclusivement, dans le 7ème arrondissement de Paris.
+Hautement participatifs, les ateliers se passent en petits comités de 15 à 20 personnes pour faciliter les échanges. Ils ont lieu en présentiel exclusivement, dans le 7e arrondissement de Paris.
 
 Leur durée varie de 4 heures à 1 journée complète selon le thème abordé.
 

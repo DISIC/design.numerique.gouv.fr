@@ -40,44 +40,44 @@
         <h2 id="comprendre">Comprendre</h2>
         <div class="fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-card fr-enlarge-link">
-                  <div class="fr-card__body">
-                    <div class="fr-card__content">
-                      <h3 class="fr-card__title">
-                          <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-card__link">Obligations légales et sanctions</g-link>
+              <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <div class="fr-tile__content">
+                      <h3 class="fr-tile__title">
+                          <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-tile__link">Obligations légales et sanctions</g-link>
                       </h3>
                     </div>
                   </div>
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-card fr-enlarge-link">
-                  <div class="fr-card__body">
-                    <div class="fr-card__content">
-                      <h3 class="fr-card__title">
-                          <g-link to="/accessibilite-numerique/RGAA/" class="fr-card__link">RGAA</g-link>
+              <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <div class="fr-tile__content">
+                      <h3 class="fr-tile__title">
+                          <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link">RGAA</g-link>
                       </h3>
                     </div>
                   </div>
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-card fr-enlarge-link">
-                  <div class="fr-card__body">
-                    <div class="fr-card__content">
-                      <h3 class="fr-card__title">
-                          <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-card__link">Schéma pluriannuel</g-link>
+              <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <div class="fr-tile__content">
+                      <h3 class="fr-tile__title">
+                          <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-tile__link">Schéma pluriannuel</g-link>
                       </h3>
                     </div>
                   </div>
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
-              <div class="fr-card fr-enlarge-link">
-                  <div class="fr-card__body">
-                    <div class="fr-card__content">
-                      <h3 class=" fr-card__title">
-                          <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-card__link">Déclaration d’accessibilité</g-link>
+              <div class="fr-tile fr-enlarge-link">
+                  <div class="fr-tile__body">
+                    <div class="fr-tile__content">
+                      <h3 class=" fr-tile__title">
+                          <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-tile__link">Déclaration d’accessibilité</g-link>
                       </h3>
                     </div>
                   </div>

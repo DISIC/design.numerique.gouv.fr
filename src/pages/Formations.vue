@@ -22,17 +22,17 @@
       <section class="dg-content fr-px-2w">
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
           <div v-for="{ node } in sortedFormations" :key="node.id" class="fr-col-12 fr-col-sm-6">
-            <div class="fr-card fr-enlarge-link">
-              <div class="fr-card__body">
-                <div class="fr-card__content">
-                  <h2 class="fr-card__title">
-                    <g-link :to="'/formations/' + node.slug + '/'" class="fr-card__link fr-text--lg">{{ node.nom }}</g-link>
+            <div class="fr-tile fr-enlarge-link">
+              <div class="fr-tile__body">
+                <div class="fr-tile__content">
+                  <h2 class="fr-tile__title">
+                    <g-link :to="'/formations/' + node.slug + '/'" class="fr-tile__link fr-text--lg">{{ node.nom }}</g-link>
                   </h2>
                   <p class="fr-badge fr-badge--sm">{{ node.cours.filter(cours => cours.publier).length }} {{ node.cours.filter(cours => cours.publier).length > 1 ? "formations" : "formation"}}</p>
                 </div>
               </div>
-              <div class="fr-card__header">
-                <div class="fr-card__img dg-picto">
+              <div class="fr-tile__header">
+                <div class="fr-tile__img dg-picto dg-picto--rotate">
                   <img v-if="node.slug == 'design'" svg-inline src="'../assets/images/design-picto.svg'" class="fr-responsive-img" aria-hidden="true">
                   <img v-else-if="node.slug == 'accessibilite'" svg-inline src="'../assets/images/accessibilite-picto.svg'" class="fr-responsive-img" aria-hidden="true">
                   <img v-if="node.slug == 'recherche-utilisateur'" svg-inline src="'../assets/images/recherche-utilisateur-picto.svg'" class="fr-responsive-img" aria-hidden="true">

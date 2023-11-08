@@ -14,7 +14,7 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title">Contact</h1>
-        <p class="fr-text--lead">Vous pouvez nous contacter en utilisant l’adresse électronique <strong>contact@design.numerique.gouv.fr</strong>.</p>
+        <p class="fr-text--lead">Vous pouvez nous contacter en utilisant l’adresse électronique <strong>contact[a]design.numerique.gouv.fr</strong>.</p>
       </div>
     </div>
 

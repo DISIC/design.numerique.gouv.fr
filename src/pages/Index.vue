@@ -49,7 +49,7 @@
         <!-- <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link> -->
         <div class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal@md">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <div class="fr-tile__content">
                   <h3 class="fr-tile__title">
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal@md">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <div class="fr-tile__content">
                   <h3 class="fr-tile__title">
@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal@md">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <div class="fr-tile__content">
                   <h3 class="fr-tile__title">
@@ -106,7 +106,7 @@
             </div>
           </div>
           <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal@md">
+            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <div class="fr-tile__content">
                   <h3 class="fr-tile__title">

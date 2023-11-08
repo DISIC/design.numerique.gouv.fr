@@ -274,7 +274,10 @@ li.fr-card {
     }
 
     &__blocks {
-      order: 3;
+      order: 3;  
+      a.fr-tile__link {
+        word-break: break-all;
+      }
     }
   }
 

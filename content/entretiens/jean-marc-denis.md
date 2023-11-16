@@ -8,18 +8,16 @@ company: Meta
 rs: https://www.linkedin.com/in/jmdenis/
 ---
 
-<p class="fr-text--lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
-<p class="fr-text--lead">Épisode Y&nbsp;: Jean-Marc Denis, <span lang="en">Design Director</span> chez Meta.</p>
+<p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l'État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;».</p><p class="fr-text--lead">Épisode 5&nbsp;: Jean-Marc Denis, <span lang="en">Design Director</span> chez Meta.</p>
 
-
-## Pouvez-vous nous expliquer en quoi consiste votre rôle ? Quels sont vos principaux enjeux ?
+<h2 class="fr-h6">Pouvez-vous nous expliquer en quoi consiste votre rôle&nbsp;? Quels sont vos principaux enjeux&nbsp;?</h2>
 
 Je suis actuellement directeur du design chez Meta, focalisé sur les produits de messagerie Messenger et Instagram. Mon équipe a une position unique car elle travaille horizontalement avec tous les piliers produits et acteurs extérieurs comme Marketplace et bien d’autres.
 
 Les enjeux sont multiples : évidemment, aider à produire les meilleures expériences utilisateurs, ainsi que répondre aux demandes de fonctionnalités. Innover et élever le produit en créant ou amplifiant de nouvelles façons de communiquer. Par exemple récemment la sortie de « Community Chats » qui va aider à connecter votre communauté en temps réel sur Messenger et Facebook.
 
 
-## Parlez-nous de votre parcours, comment êtes-vous arrivé au poste que vous occupez aujourd’hui ?
+<h2 class="fr-h6">Parlez-nous de votre parcours, comment êtes-vous arrivé au poste que vous occupez aujourd’hui&nbsp;?</h2>
 
 Mon parcours est fait de deux histoires qui se sont déroulées en parallèle.
 D'un côté, ayant redoublé ma seconde j'ai été orienté vers un brevet d’études professionnelles (BEP) MSMA (Maintenance des systèmes mécaniques automatisés). Après l'obtention de ce diplôme je me suis redirigé vers une première d'adaptation sciences et technologies industrielles (STI) en mécanique.
@@ -31,16 +29,16 @@ J'ai ensuite eu la chance de trouver un emploi en tant que technicien d'exploita
 J'ai travaillé avec une jeune startup française, Sparrow, qui sera rachetée en 2012 par Google. J'ai ensuite rejoint Google en Californie pour travailler avec l'équipe GMail sur un produit qui deviendra Inbox By Gmail. Après la sortie du produit, j'ai rejoint Daydream, la division de réalité virtuelle/augmentée. Et à la sortie du produit, j'ai rejoint Facebook dans l'équipe de Messenger que j'ai intégré en qualité de manager. J'ai aidé à développer le produit et les équipes pour en arriver à ce poste que j'occupe aujourd'hui.
 
 
-## Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation ?
+<h2 class="fr-h6">Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation&nbsp;?</h2>
 
 Nous avons régulièrement des réunions pour faire circuler les informations et prendre les décisions qui sont à l'ordre du jour. Notre communication passe beaucoup par Messenger pour accélérer la boucle de prise de décisions et d’informations.
 
 
-## Comment mesurez-vous l'impact de votre travail sur les résultats de votre organisation ?
+<h2 class="fr-h6">Comment mesurez-vous l'impact de votre travail sur les résultats de votre organisation&nbsp;?</h2>
 
 Nous utilisons le modèle des « OKR » (Objectives and Key Results, Objectifs et résultats clés) qui est un modèle standard pour définir des objectifs mesurables et suivre leurs résultats.
 
 
-## Dernière question : Quelle question auriez-vous aimé que l’on vous pose, et quelle est la réponse ?
+<h2 class="fr-h6">Dernière question&nbsp;: Quelle question auriez-vous aimé que l’on vous pose, et quelle est la réponse&nbsp;?</h2>
 
 Haha ! J’aime beaucoup le thème de la curiosité en tant que designer qui, je pense, est la base pour grandir dans tous les domaines. En tant qu’autodidacte, ça a toujours été une composante énorme pour ma carrière et mes projets personnels. Il faut préserver et entretenir cette curiosité à tout prix !

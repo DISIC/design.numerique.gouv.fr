@@ -15,7 +15,8 @@ rs: https://www.linkedin.com/in/jmdenis/
 
 Je suis actuellement directeur du design chez Meta, focalisé sur les produits de messagerie Messenger et Instagram. Mon équipe a une position unique car elle travaille horizontalement avec tous les piliers produits et acteurs extérieurs comme Marketplace et bien d’autres.
 
-Les enjeux sont multiples&nbsp;: évidemment, aider à produire les meilleures expériences utilisateurs, ainsi que répondre aux demandes de fonctionnalités. Innover et élever le produit en créant ou amplifiant de nouvelles façons de communiquer. Par exemple récemment la sortie de «&nbsp;Community Chats&nbsp;» qui va aider à connecter votre communauté en temps réel sur Messenger et Facebook.
+Les enjeux sont multiples&nbsp;: évidemment, aider à produire les meilleures expériences utilisateurs, ainsi que répondre aux demandes de fonctionnalités. Innover et élever le produit en créant ou amplifiant de nouvelles façons de communiquer. Par exemple récemment la sortie de <span lang="en">«&nbsp;Community Chats&nbsp;»</span>
+ qui va aider à connecter votre communauté en temps réel sur Messenger et Facebook.
 
 
 <h2 class="fr-h6">Parlez-nous de votre parcours, comment êtes-vous arrivé au poste que vous occupez aujourd’hui&nbsp;?</h2>
@@ -27,7 +28,7 @@ De l'autre côté, durant toute ma scolarité, j'ai acquis de manière autodidac
 
 J'ai ensuite eu la chance de trouver un emploi en tant que technicien d'exploitation. J'ai beaucoup appris sur la rigueur et combien l'esprit d'équipe ainsi que la camaraderie sont importants pour être épanouis dans son métier. En parallèle j'ai continué à faire du freelance dans le design.
 
-J'ai travaillé avec une jeune startup française, Sparrow, qui sera rachetée en 2012 par Google. J'ai ensuite rejoint Google en Californie pour travailler avec l'équipe GMail sur un produit qui deviendra Inbox By Gmail. Après la sortie du produit, j'ai rejoint Daydream, la division de réalité virtuelle/augmentée. Et à la sortie du produit, j'ai rejoint Facebook dans l'équipe de Messenger que j'ai intégré en qualité de manager. J'ai aidé à développer le produit et les équipes pour en arriver à ce poste que j'occupe aujourd'hui.
+J'ai travaillé avec une jeune <span lang="en">startup</span> française, <span lang="en">Sparrow</span>, qui sera rachetée en 2012 par Google. J'ai ensuite rejoint <span lang="en">Google</span> en Californie pour travailler avec l'équipe <span lang="en">GMail</span> sur un produit qui deviendra <span lang="en">Inbox By Gmail</span>. Après la sortie du produit, j'ai rejoint <span lang="en">Daydream</span>, la division de réalité virtuelle/augmentée. Et à la sortie du produit, j'ai rejoint <span lang="en">Facebook</span> dans l'équipe de <span lang="en">Messenger</span> que j'ai intégré en qualité de manager. J'ai aidé à développer le produit et les équipes pour en arriver à ce poste que j'occupe aujourd'hui.
 
 
 <h2 class="fr-h6">Comment travaillez-vous avec les autres membres de l'équipe dirigeante de votre organisation&nbsp;?</h2>
@@ -37,7 +38,7 @@ Nous avons régulièrement des réunions pour faire circuler les informations et
 
 <h2 class="fr-h6">Comment mesurez-vous l'impact de votre travail sur les résultats de votre organisation&nbsp;?</h2>
 
-Nous utilisons le modèle des «&nbsp;OKR&nbsp;» (Objectives and Key Results, Objectifs et résultats clés) qui est un modèle standard pour définir des objectifs mesurables et suivre leurs résultats.
+Nous utilisons le modèle des <span lang="en">«&nbsp;OKR&nbsp;» (Objectives and Key Results</span>, Objectifs et résultats clés) qui est un modèle standard pour définir des objectifs mesurables et suivre leurs résultats.
 
 
 <h2 class="fr-h6">Dernière question&nbsp;: Quelle question auriez-vous aimé que l’on vous pose, et quelle est la réponse&nbsp;?</h2>

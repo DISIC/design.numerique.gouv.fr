@@ -31,5 +31,6 @@ Paroles de responsables du design, les entretiens&nbsp;:
 6. [Didier Boulet, <span lang="en">Group Chief Design Officer</span> chez Thales](/entretiens/didier-boulet/)
 7. Ray Ho, <span lang="en">Director of design</span> chez <span lang="en">Back Market</span> (à venir)
 8. David Ruiz Martínez, <span lang="en">VP design</span> chez <span lang="en">PayFit</span> (à venir)
+9. Solène Borrat, <span lang="en">Head of Product Design</span> Europe chez Getaround (à venir)
 
 Merci à elles et eux d’avoir pris le temps de nous répondre. 😊

@@ -29,8 +29,9 @@ Paroles de responsables du design, les entretiens&nbsp;:
 4. [Alessandro Catania, <span lang="en">Product Design Director</span> chez Air Liquide](/entretiens/alessandro-catania/)
 5. [Jean-Marc Denis, <span lang="en">Design Director</span> chez Meta](/entretiens/jean-marc-denis/)
 6. [Didier Boulet, <span lang="en">Group Chief Design Officer</span> chez Thales](/entretiens/didier-boulet/)
-7. Ray Ho, <span lang="en">Director of design</span> chez <span lang="en">Back Market</span> (à venir)
-8. David Ruiz Martínez, <span lang="en">VP design</span> chez <span lang="en">PayFit</span> (à venir)
-9. Solène Borrat, <span lang="en">Head of Product Design</span> Europe chez Getaround (à venir)
+7. David Ruiz Martínez, <span lang="en">VP design</span> chez <span lang="en">PayFit</span> (à venir)
+8. Solène Borrat, <span lang="en">Head of Product Design</span> Europe chez Getaround (à venir)
+9. Ray Ho, <span lang="en">Director of design</span> chez <span lang="en">Back Market</span> (à venir)
+
 
 Merci à elles et eux d’avoir pris le temps de nous répondre. 😊

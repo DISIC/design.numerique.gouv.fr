@@ -55,9 +55,9 @@
           <li class="fr-nav__item">
             <a class="fr-nav__link" href="/atelier-a11y/aide/">Aide</a>
           </li>
-          <li class="fr-nav__item">
+          <!--li class="fr-nav__item">
             <a class="fr-nav__link" href="/atelier-a11y/liste-criteres/">Liste des critères</a>
-          </li>
+          </li-->
         </ul>
       </nav>
     </div>

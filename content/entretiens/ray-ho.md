@@ -10,7 +10,7 @@ rs: https://www.linkedin.com/in/rayhoooooooo/
 
 <p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l’État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;».</p>
 
-<p class="fr-text--lead">Épisode 7&nbsp;: Ray Ho, <span lang="en">Director of Design</span> chez <span lang="en">Back&nbsp;Market</span>.</p>
+<p class="fr-text--lead">Épisode 9&nbsp;: Ray Ho, <span lang="en">Director of Design</span> chez <span lang="en">Back&nbsp;Market</span>.</p>
 
 _Nota bene&nbsp;: l’entretien s’est tenu en anglais, la version originale est en dessous de la version traduite en français._
 

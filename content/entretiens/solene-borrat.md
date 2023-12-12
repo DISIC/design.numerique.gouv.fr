@@ -10,7 +10,7 @@ rs: https://www.linkedin.com/in/sol%C3%A8ne-borrat-0a5b8649/
 
 <p class="fr-text--lead">La «&nbsp;Circulaire n°6411-SG relative à la lisibilité des sites internet de l’État et de la qualité des démarches numériques&nbsp;», signée le 7 juillet 2023 par la Première ministre, demande à chaque ministère de désigner un responsable du design. Afin d’incarner ce rôle et ces missions, nous avons échangé avec des responsables du design en poste dans une série d’entretiens, intitulée «&nbsp;Paroles de responsables du design&nbsp;».</p>
 
-<p class="fr-text--lead">Épisode 8&nbsp;: Solène Borrat, <span lang="en">Head of Product Design Europe</span> chez <span lang="en">Getaround</span>.</p>
+<p class="fr-text--lead">Épisode 9&nbsp;: Solène Borrat, <span lang="en">Head of Product Design Europe</span> chez <span lang="en">Getaround</span>.</p>
 
 <h2 class="fr-h6">Pouvez-vous nous expliquer en quoi consiste votre rôle&nbsp;? Quels sont vos principaux enjeux&nbsp;?</h2>
 

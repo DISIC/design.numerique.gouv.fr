@@ -1,7 +1,7 @@
 ---
 title: Les outils de surcouche et la conformité au RGAA
-slug: 2023-12-19-outils-de-surcouche-et-conformite-rgaa
-publishedDate: 2023-12-19
+slug: 2023-12-18-outils-de-surcouche-et-conformite-rgaa
+publishedDate: 2023-12-18
 tags: ["accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
 description: "La Commission européenne s’est prononcée sur les outils de surcouche d’accessibilité et widgets dans un article rappelant que ces outils ne permettent en aucun cas de rendre un site accessible ni de respecter la législation en vigueur."

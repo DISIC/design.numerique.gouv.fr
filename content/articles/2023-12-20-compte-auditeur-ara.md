@@ -19,8 +19,8 @@ Accédez plus simplement à votre audit, rapport d’audit et déclaration d’a
 Les onglets correspondants à l’échantillon des pages que vous auditez sont dorénavant visibles en permanence durant votre audit. Plus de doute concernant la page sur laquelle vous vous situez.
 
 <h2 class="fr-mt-4w fr-mb-1w fr-h5">Naviguez au clavier dans les zones des saisies</h2> 
-Enfin&nbsp;! Il est possible d’utiliser les flèches de son clavier pour naviguer au sein des zones des saisies.  
- 
+Enfin&nbsp;! Il est possible d’utiliser les flèches de son clavier pour naviguer au sein des zones des saisies.
+<br></br>
 Nous avons également œuvré à&nbsp;:
 
 - Améliorer le niveau d’accessibilité d’Ara (&nbsp;et ce n’est pas fini&nbsp;!&nbsp;)

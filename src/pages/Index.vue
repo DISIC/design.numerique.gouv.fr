@@ -65,19 +65,6 @@
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
                 <h3 class="fr-tile__title">
-                  <g-link class="fr-tile__link fr-text--xl" to="/articles/2022-05-09-permanence-experts/">Notre permanence</g-link>
-                </h3>
-                <p class="fr-tile__desc">Posez toutes vos questions à nos experts du numérique.</p>
-              </div>
-              <div class="fr-tile__img">
-                <img svg-inline src="../assets/images/permanence.svg" class="fr-responsive-img" aria-hidden="true">
-              </div>
-            </div>
-          </div>
-          <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <h3 class="fr-tile__title">
                   <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" title="Je donne mon avis - Nouvelle fenêtre" target="_blank">Je donne mon avis</a>
                 </h3>
                 <p class="fr-tile__desc">Mesurez la satisfaction des usagers de vos services.</p>

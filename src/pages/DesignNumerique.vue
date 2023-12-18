@@ -234,10 +234,6 @@
 
               <p>La direction interministérielle du numérique (DINUM) propose plusieurs dispositifs pour vous aider.</p>
 
-              <h4 class="fr-h6 fr-mb-2w">Les permanences design et accessibilité numériques</h4>
-              <p class="fr-mb-2w">Discutez pendant 30 minutes avec des experts du design et de l’accessibilité numérique pour savoir comment vous y prendre.</p>
-              <a href="/articles/2022-05-09-permanence-experts/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Réservez un créneau</a>
-
               <h4 class="fr-h6 fr-mb-2w">La brigade d’intervention numérique </h4>
               <p class="fr-mb-2w">Faites intervenir gratuitement au sein de votre équipe des experts du design, de la recherche utilisateur et de l’accessibilité numérique pour vous accompagner.</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>

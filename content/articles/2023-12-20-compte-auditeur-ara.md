@@ -21,15 +21,14 @@ Les onglets correspondants à l’échantillon des pages que vous auditez sont d
 <h2 class="fr-mt-4w fr-mb-1w fr-h5">Naviguez au clavier dans les zones des saisies</h2> 
 Enfin&nbsp;! Il est possible d’utiliser les flèches de son clavier pour naviguer au sein des zones des saisies. 
 
-Nous avons également œuvré à&nbsp;:
+<p>Nous avons également œuvré à&nbsp;:
 
 - Améliorer le niveau d’accessibilité d’Ara (&nbsp;et ce n’est pas fini&nbsp;!&nbsp;)
 - Faciliter l’accès aux paramètres de son audit pour le faire évoluer ou en modifier son échantillon 
 - Corriger une série de bugs 
-- Passer à la version&nbsp;1.10 du Système de Design de l'État (DSFR)
+- Passer à la version&nbsp;1.10 du Système de Design de l'État (DSFR)</p>
 
 <p class="fr-mt-4w">Pour en savoir plus sur les toutes les autres mises à jour, consultez les <a href="https://ara.numerique.gouv.fr/notes-de-versions" rel="noopener noreferrer" target="_blank"  title="notes de version - nouvelle fenêtre">notes de version</a> d’Ara.</p>
-
 
 ## À venir très prochainement
 

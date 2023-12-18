@@ -1,5 +1,5 @@
 ---
-title: Le compte Ara est enfin arrivé
+title: Ara, le compte Auditeur est enfin arrivé
 slug: 2023-12-20-compte-auditeur-ara
 publishedDate: 2023-12-20
 tags: ["accessibilité", "RGAA", "open source"]

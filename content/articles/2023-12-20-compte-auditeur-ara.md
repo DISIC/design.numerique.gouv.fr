@@ -1,16 +1,16 @@
 ---
-title: Ara : le compte auditeur est enfin arrivé
+title: Le compte Ara est enfin arrivé
 slug: 2023-12-20-compte-auditeur-ara
 publishedDate: 2023-12-20
 tags: ["accessibilité", "RGAA", "open source"]
 illustration: ./illustrations/2022-11-24-pourquoi-ara.png
-description: Découvrez les dernières fonctionnalités d’Ara
+description: Découvrez les dernières fonctionnalités d’Ara et particulièrement la création de compte auditeur et auditrice.
 ---
 
-6 mois se sont écoulés depuis notre précédent bilan des nouveautés sur Ara. La majeure partie de notre temps a été depuis dédié au compte auditeur et au développement des améliorations suivantes&nbsp;:
+<p class="fr-text--lead">Six mois se sont écoulés depuis notre précédent bilan des nouveautés sur Ara. La majeure partie de notre temps a été dédiée au compte auditeur et auditrice ainsi qu’au développement des améliorations suivantes&nbsp;:</p>
  
 <h2 class="fr-mt-4w fr-mb-1w fr-h5">Retrouvez tous vos audits dans un espace dédié</h2> 
-Vous pouvez désormais créer un compte auditeur sur Ara pour retrouver et gérer tous vos audits au même endroit.
+Vous pouvez désormais créer un compte sur Ara pour retrouver et gérer tous vos audits au même endroit.
 
 <h2 class="fr-mt-4w fr-mb-1w fr-h5">Suivez l’avancée de votre travail</h2> 
 Accédez plus simplement à votre audit, rapport d’audit et déclaration d’accessibilité et suivez l’avancée de votre travail. 
@@ -48,7 +48,7 @@ Chaque type d’audit proposé par Ara seront clarifiés. Les objectifs et prér
 
 <div class="fr-container fr-my-4w">
 <div class="fr-grid-row fr-grid-row--center">
-<a class="fr-btn" href="https://ara.numerique.gouv.fr">Accéder à Ara</a>
+<a class="fr-btn" target="_blank" rel="noopener noreferrer" title="Accéder à Ara - nouvelle fenêtre" href="https://ara.numerique.gouv.fr">Accéder à Ara</a>
 </div>
 </div>  
 

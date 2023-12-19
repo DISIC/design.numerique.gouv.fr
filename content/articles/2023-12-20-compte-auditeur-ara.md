@@ -57,4 +57,4 @@ Merci également à toutes celles et tous ceux qui nous font part de leurs avis 
 Pour toute question ou information supplémentaire, n’hésitez pas à nous contacter à l’adresse&nbsp;: **ara@design.numerique.gouv.fr**.
 
 À bientôt&nbsp;!
-L’équipe Ara&nbsp;🦜
+L’équipe Ara&nbsp;<span aria-hidden="true">🦜</span>

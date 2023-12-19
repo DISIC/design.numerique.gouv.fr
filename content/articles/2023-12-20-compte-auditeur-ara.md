@@ -32,16 +32,16 @@ Nous avons également œuvré à&nbsp;:
 
 ## À venir très prochainement
 
-<h2 class="fr-mt-4w fr-mb-1w fr-h5">Gérez plus simplement vos critères transverses</h2> 
+<h3 class="fr-mt-4w fr-mb-1w fr-h5">Gérez plus simplement vos critères transverses</h3> 
 Le système de gestion des critères transverses sera clarifié et simplifié pour limiter les erreurs. En plus d’expliciter les anomalies transverses, il sera possible d’ajouter des anomalies et des recommandations propres à une page.
 
-<h2 class="fr-mt-4w fr-mb-1w fr-h5">Liez plus facilement les anomalies relevées et leurs recommandations de correction</h2> 
+<h3 class="fr-mt-4w fr-mb-1w fr-h5">Liez plus facilement les anomalies relevées et leurs recommandations de correction</h3> 
 Les champs «&nbsp;Description de l’erreur&nbsp;» et «&nbsp;Recommandation de correction&nbsp;» seront fusionnés. 
 
-<h2 class="fr-mt-4w fr-mb-1w fr-h5">Agencez l’ordre des pages de l’échantillon </h2> 
+<h3 class="fr-mt-4w fr-mb-1w fr-h5">Agencez l’ordre des pages de l’échantillon </h3> 
 Réorganisez à votre convenance l'ordre des onglets correspondant à échantillons des pages que vous auditez.  
 
-<h2 class="fr-mt-4w fr-mb-1w fr-h5">Choisissez le type d’audit qui correspond à vos besoins</h2> 
+<h3 class="fr-mt-4w fr-mb-1w fr-h5">Choisissez le type d’audit qui correspond à vos besoins</h3> 
 Chaque type d’audit proposé par Ara seront clarifiés. Les objectifs et prérequis nécessaires pour réaliser un audit seront ajoutés.  
 
 <p class="fr-mt-4w">Retrouvez toutes les prochaines nouveautés dans notre <a href="https://ara.numerique.gouv.fr/feuille-de-route" rel="noopener noreferrer" target="_blank"  title="Feuille de route - nouvelle fenêtre">feuille de route</a> et découvrez vite les nouvelles fonctionnalités&nbsp;:</p>

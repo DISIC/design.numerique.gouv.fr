@@ -26,7 +26,7 @@ Nous avons également œuvré à&nbsp;:
 - Améliorer le niveau d’accessibilité d’Ara (&nbsp;et ce n’est pas fini&nbsp;!&nbsp;)
 - Faciliter l’accès aux paramètres de son audit pour le faire évoluer ou en modifier son échantillon 
 - Corriger une série de bugs 
-- Passer à la version&nbsp;1.10 du Système de Design de l'État (DSFR)
+- Passer à la version&nbsp;1.10 du Système de Design de l’État (DSFR)
 
 <p class="fr-mt-4w">Pour en savoir plus sur les toutes les autres mises à jour, consultez les <a href="https://ara.numerique.gouv.fr/notes-de-versions" rel="noopener noreferrer" target="_blank"  title="notes de version - nouvelle fenêtre">notes de version</a> d’Ara.</p>
 
@@ -39,7 +39,7 @@ Le système de gestion des critères transverses sera clarifié et simplifié po
 Les champs «&nbsp;Description de l’erreur&nbsp;» et «&nbsp;Recommandation de correction&nbsp;» seront fusionnés. 
 
 <h3 class="fr-mt-4w fr-mb-1w fr-h5">Agencez l’ordre des pages de l’échantillon </h3> 
-Réorganisez à votre convenance l'ordre des onglets correspondant à échantillons des pages que vous auditez.  
+Réorganisez à votre convenance l’ordre des onglets correspondant à échantillons des pages que vous auditez.  
 
 <h3 class="fr-mt-4w fr-mb-1w fr-h5">Choisissez le type d’audit qui correspond à vos besoins</h3> 
 Chaque type d’audit proposé par Ara seront clarifiés. Les objectifs et prérequis nécessaires pour réaliser un audit seront ajoutés.  
@@ -52,9 +52,9 @@ Chaque type d’audit proposé par Ara seront clarifiés. Les objectifs et prér
 </div>
 </div>  
 
-Merci également à toutes celles et tous ceux qui nous font part de leurs avis et suggestions d’amélioration à travers notre formulaire de retour, par e-mails ou sur les réseaux sociaux. Nous avons à cœur de développer Ara pour vous et avec vous. Chacune de vos contributions jouent un rôle crucial dans notre démarche d'amélioration continuent et dans la construction de notre feuille de route.
+Merci également à toutes celles et tous ceux qui nous font part de leurs avis et suggestions d’amélioration à travers notre formulaire de retour, par e-mails ou sur les réseaux sociaux. Nous avons à cœur de développer Ara pour vous et avec vous. Chacune de vos contributions joue un rôle crucial dans notre démarche d’amélioration continuent et dans la construction de notre feuille de route.
 
-Pour toute question ou information supplémentaire, n'hésitez pas à nous contacter à l'adresse&nbsp;: **ara@design.numerique.gouv.fr**.
+Pour toute question ou information supplémentaire, n’hésitez pas à nous contacter à l’adresse&nbsp;: **ara@design.numerique.gouv.fr**.
 
 À bientôt&nbsp;!
 L’équipe Ara&nbsp;🦜

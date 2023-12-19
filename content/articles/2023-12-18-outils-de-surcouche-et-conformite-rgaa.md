@@ -18,7 +18,7 @@ Elle y signale les points suivants&nbsp;:
 
 <strong>En conclusion, ces outils ne permettent en aucun cas de rendre un site accessible ni de respecter la législation française en vigueur.</strong>
 
-L’accessibilité doit être prise en compte lors de la conception du site puis tout au long de sa vie. La respect de la législation française relative à l’accessibilité numérique - la conformité au RGAA - s’obtient de la même façon.</p>
+L’accessibilité doit être prise en compte lors de la conception du site puis tout au long de sa vie. Le respect de la législation française relative à l’accessibilité numérique - la conformité au RGAA - s’obtient de la même façon.</p>
 
 
 <p>

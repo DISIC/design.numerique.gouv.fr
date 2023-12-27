@@ -12,7 +12,7 @@
               <g-link to="/formations/" class="fr-breadcrumb__link">Formations</g-link>
             </li>
             <li>
-              <span aria-current="page">{{ $page.formation.nom }}</span>
+              <a class="fr-breadcrumb__link" aria-current="page">{{ $page.formation.nom }}</a>
             </li>
           </ol>
         </nav>
@@ -31,7 +31,7 @@
         <div class="fr-card__body">
           <div class="fr-card__content">
             <h2 class="fr-card__title">
-              <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-tile__link">{{ cours.nom }}</g-link>
+              <g-link :to="'/formations/' + $page.formation.slug + '/' + cours.slug + '/'" class="fr-card__link">{{ cours.nom }}</g-link>
             </h2>
             <p class="fr-card__desc">{{ cours.descriptionCourte }}</p>
             <div class="fr-card__end">

@@ -10,7 +10,9 @@
           <li>
             <g-link to="/outils/"  class="fr-breadcrumb__link">Outils</g-link>
           </li>
-          <li aria-current="page">Rôles clés</li>
+          <li>
+            <a  class="fr-breadcrumb__link" aria-current="page">Rôles clés</a>
+          </li>  
         </ol>
       </nav>
 

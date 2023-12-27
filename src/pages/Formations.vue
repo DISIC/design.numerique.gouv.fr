@@ -9,7 +9,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Formations</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Formations</a>
             </li>
           </ol>
         </nav>
@@ -24,17 +24,21 @@
           <div v-for="{ node } in sortedFormations" :key="node.id" class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
-                  <g-link :to="'/formations/' + node.slug + '/'" class="fr-tile__link fr-text--lg">{{ node.nom }}</g-link>
-                </h2>
-                <p class="fr-badge fr-badge--sm">{{ node.cours.filter(cours => cours.publier).length }} {{ node.cours.filter(cours => cours.publier).length > 1 ? "formations" : "formation"}}</p>
+                <div class="fr-tile__content">
+                  <h2 class="fr-tile__title">
+                    <g-link :to="'/formations/' + node.slug + '/'" class="fr-tile__link fr-text--lg">{{ node.nom }}</g-link>
+                  </h2>
+                  <p class="fr-badge fr-badge--sm">{{ node.cours.filter(cours => cours.publier).length }} {{ node.cours.filter(cours => cours.publier).length > 1 ? "formations" : "formation"}}</p>
+                </div>
               </div>
-              <div class="fr-tile__img dg-picto">                              
-                <img v-if="node.slug == 'design'" svg-inline src="'../assets/images/design-picto.svg'" class="fr-responsive-img" aria-hidden="true">      
-                <img v-else-if="node.slug == 'accessibilite'" svg-inline src="'../assets/images/accessibilite-picto.svg'" class="fr-responsive-img" aria-hidden="true">
-                <img v-if="node.slug == 'recherche-utilisateur'" svg-inline src="'../assets/images/recherche-utilisateur-picto.svg'" class="fr-responsive-img" aria-hidden="true">      
-                <img v-else-if="node.slug == 'ecoconception'" svg-inline src="'../assets/images/ecoconception-picto.svg'" class="fr-responsive-img" aria-hidden="true">
-                <img v-else-if="node.slug == 'simplification-information'" svg-inline src="'../assets/images/simplification-information-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+              <div class="fr-tile__header">
+                <div class="fr-tile__img dg-picto dg-picto--rotate">
+                  <img v-if="node.slug == 'design'" svg-inline src="'../assets/images/design-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+                  <img v-else-if="node.slug == 'accessibilite'" svg-inline src="'../assets/images/accessibilite-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+                  <img v-if="node.slug == 'recherche-utilisateur'" svg-inline src="'../assets/images/recherche-utilisateur-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+                  <img v-else-if="node.slug == 'ecoconception'" svg-inline src="'../assets/images/ecoconception-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+                  <img v-else-if="node.slug == 'simplification-information'" svg-inline src="'../assets/images/simplification-information-picto.svg'" class="fr-responsive-img" aria-hidden="true">
+                </div>
               </div>
             </div>
           </div>
@@ -45,16 +49,16 @@
         <div class="dg-content fr-px-2w fr-pt-6w fr-pb-1w">
           <h2 class="fr-mb-4w">Toutes nos formations</h2>
           <div class="filter">
-            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par format :</p>
-            <ul class="filter__list dg-inline-block fr-tags-group">
+            <p class="filter__name fr-mr-1w fr-mt-1v">Filtrer par format :</p>
+            <ul class="filter__list fr-tags-group">
               <li v-for="type in typeList.sort((a, b) => (a > b))" :key="type">
                 <button class="fr-tag" :id="type" aria-pressed="false" @click="changeTypes($event)">{{ type }}</button>
               </li>
             </ul>
           </div>
           <div class="filter fr-mb-4w">
-            <p class="filter__name dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par thème :</p>
-            <ul class="filter__list dg-inline-block fr-tags-group">
+            <p class="filter__name fr-mr-1w fr-mt-1v">Filtrer par thème :</p>
+            <ul class="filter__list fr-tags-group">
               <li v-for="tag in tagList.sort((a, b) => (a > b))" :key="tag">
                 <button class="fr-tag" :id="tag" aria-pressed="false" @click="changeTags($event)">{{ tag }}</button>
               </li>
@@ -65,17 +69,17 @@
               <div class="fr-card fr-enlarge-link">
                 <div class="fr-card__body">
                   <div class="fr-card__content">
-                  <h3 class="fr-card__title">
-                    <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
-                  </h3>
-                  <div class="fr-card__start">
-                    <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
-                    <p v-show="futurCours.filter(element => element == node.id).length == 0 && node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
+                    <h3 class="fr-card__title">
+                      <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-card__link">{{ node.nom }}</g-link>
+                    </h3>
+                    <div class="fr-card__start">
+                      <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>
+                      <p v-show="futurCours.filter(element => element == node.id).length == 0 && node.replay" class="dg-flex-start fr-badge fr-badge--sm fr-my-1w">Replay disponible</p>
+                    </div>
+                    <div class="fr-card__end">
+                      <p class="fr-card__detail">{{ node.type }}</p>
+                    </div>
                   </div>
-                  <div class="fr-card__end">
-                    <p class="fr-card__detail">{{ node.type }}</p>
-                  </div>
-                </div>
                 </div>
               </div>
             </div>
@@ -166,7 +170,7 @@
     allFormation {
       edges {
         node {
-        	id
+          id
           nom
           rang
           slug
@@ -352,7 +356,7 @@
 
 <style lang="scss" scoped>
 
-  .fr-card__title .fr-tile__link {
+  .fr-card__title .fr-card__link {
     font-size: 1rem;
     line-height: 1.5;
   }
@@ -371,14 +375,6 @@
     p {
       text-align: center;
       margin: 0.5rem;
-    }
-  }
-
-  .fr-tile .dg-picto {
-    margin-bottom: -0.5rem;
-
-    @media only screen and (max-width: $sm-point) {
-      display: none;
     }
   }
 

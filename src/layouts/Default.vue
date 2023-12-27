@@ -12,7 +12,7 @@
     <Header />
 
     <main class="layout" id="main" role="main" tabindex="-1">
-      <div class="fr-container fr-container--fluid">
+			<div class="dg-cover-container fr-container">
         <slot/>
         <Offer v-if="showServices"/>
       </div>
@@ -55,7 +55,7 @@ query {
       },
     },
     mounted () {
-      let src = "/assets/js/dsfr.module.min.js";
+      let src = "/assets/dsfr/dsfr.module.min.js";
       let dsfr = document.createElement('script');
       dsfr.type = "module";
       dsfr.src = src;

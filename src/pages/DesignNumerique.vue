@@ -9,7 +9,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Design numérique</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Design numérique</a>
             </li>
           </ol>
         </nav>
@@ -467,7 +467,7 @@
                       </ul>
                     </div>
                     <h3 class="fr-h6 fr-card__title">
-                      <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-tile__link">{{ node.nom }}</g-link>
+                      <g-link :to="'/formations/' + node.formation.slug + '/' + node.slug + '/'" class="fr-card__link">{{ node.nom }}</g-link>
                     </h3>
                     <!-- <div class="fr-card__start">
                       <p v-show="futurCours.filter(element => element == node.id).length > 0" class="dg-flex-start fr-badge fr-badge--sm fr-badge--new fr-my-1w">Inscriptions ouvertes</p>

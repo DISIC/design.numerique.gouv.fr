@@ -16,7 +16,7 @@ cat:
 
 * utiliser le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}, disponible au format sketch et figma ;
 * collaborer *étroitement* et *au plus tôt* avec les autres métiers pour s’assurer que ce que vous concevez ne pose pas de difficulté d’accessibilité ;
-* faire des tests en intégrant des personnes en situations de handicap en faisant appel à l’UO [Écoute usagers internes](/accessibilite-numerique/accord-cadre-dae#lot-1) de l’accord-cadre ou en sollicitant le [groupe d’utilisateurs handicapés](/outils/#tests) de la Dinum.
+* faire des tests en intégrant des personnes en situations de handicap en sollicitant le [groupe d’utilisateurs handicapés](/outils/#tests) de la Dinum.
 
 ### Vos outils
 

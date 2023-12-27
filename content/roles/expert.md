@@ -1,5 +1,5 @@
 ---
-title: Expert ou experte
+title: Expert ou experte accessibilité numérique
 slug: expert
 order: 3
 description: Vous sensibilisez, formez, accompagnez les équipes et auditez les sites et applications web

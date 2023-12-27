@@ -11,7 +11,7 @@
             <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
           </li>
           <li>
-            <span aria-current="page">Diagnostic flash</span>
+            <a class="fr-breadcrumb__link" aria-current="page">Diagnostic flash</a>
           </li>
         </ol>
       </nav>

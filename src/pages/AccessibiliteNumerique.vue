@@ -9,7 +9,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Accessibilité</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Accessibilité</a>
             </li>
           </ol>
         </nav>
@@ -26,7 +26,7 @@
               <a href="#emporter" class="fr-tag" target="_self">À emporter</a>
           </li>
         </ul>
-      </div>      
+      </div>
     </section>
 
     <section class="dg-content fr-px-2w">
@@ -42,36 +42,44 @@
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
               <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
+                    <div class="fr-tile__content">
                       <h3 class="fr-tile__title">
                           <g-link to="/accessibilite-numerique/cadre-legal/" class="fr-tile__link">Obligations légales et sanctions</g-link>
                       </h3>
+                    </div>
                   </div>
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
               <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
+                    <div class="fr-tile__content">
                       <h3 class="fr-tile__title">
                           <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link">RGAA</g-link>
                       </h3>
+                    </div>
                   </div>
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
               <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
+                    <div class="fr-tile__content">
                       <h3 class="fr-tile__title">
                           <g-link to="/accessibilite-numerique/schema-pluriannuel/" class="fr-tile__link">Schéma pluriannuel</g-link>
                       </h3>
+                    </div>
                   </div>
               </div>
           </div>
           <div class="fr-col-xl-3 fr-col-md-6 fr-col-12">
               <div class="fr-tile fr-enlarge-link">
                   <div class="fr-tile__body">
+                    <div class="fr-tile__content">
                       <h3 class=" fr-tile__title">
                           <g-link to="/accessibilite-numerique/declaration-accessibilite/" class="fr-tile__link">Déclaration d’accessibilité</g-link>
                       </h3>
+                    </div>
                   </div>
               </div>
           </div>

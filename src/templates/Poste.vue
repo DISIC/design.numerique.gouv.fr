@@ -13,7 +13,7 @@
                 <g-link to="/recrutement/" class="fr-breadcrumb__link">Recrutement</g-link>
               </li>
               <li>
-                <span aria-current="page">{{ $page.poste.intitule }}</span>
+                <a class="fr-breadcrumb__link" aria-current="page">{{ $page.poste.intitule }}</a>
               </li>
             </ol>
           </nav>

@@ -12,7 +12,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Atelier a11é</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Atelier a11é</a>
             </li>
           </ol>
         </nav>
@@ -30,7 +30,7 @@
               <li  v-if="criterion.node.tag == 'A11É'" class="fr-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
                 <h3 class="fr-accordion__title"><!--span class="numero">{{ criterion.node.id }}</span-->
                   <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
-                    {{ criterion.node.title }} 
+                    {{ criterion.node.title }}
                   </button>
                 </h3>
                 <div class="fr-collapse" :id="criterion.node.id">

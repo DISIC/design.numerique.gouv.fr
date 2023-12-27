@@ -9,7 +9,7 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <span aria-current="page">Accompagnement</span>
+              <a class="fr-breadcrumb__link" aria-current="page">Accompagnement</a>
             </li>
           </ol>
         </nav>
@@ -25,7 +25,7 @@
           Nos expertes à votre disposition
         </h2>
         <p>
-          DesignGouv met à disposition des experts du numérique auprès des administrations pour rendre <strong>plus accessibles</strong>, <strong>plus compréhensibles</strong> et <strong>plus performantes</strong> les <a href="https://observatoire.numerique.gouv.fr/observatoire/">250 démarches administratives</a> les plus utilisées par les Français.
+          DesignGouv met à disposition des experts du numérique auprès des administrations pour rendre <strong>plus accessibles</strong>, <strong>plus compréhensibles</strong> et <strong>plus performantes</strong> les <a target="_blank" href="https://observatoire.numerique.gouv.fr/observatoire/" title="250 démarches administratives - nouvelle fenêtre" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
         </p>
         <p class="fr-mb-2w">
           Nos expertes sont spécialisées en :

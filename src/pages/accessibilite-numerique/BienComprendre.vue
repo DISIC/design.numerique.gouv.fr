@@ -35,7 +35,7 @@
       <div class="fr-card__body">
         <div class="fr-card__content">
            <h2>S’organiser</h2>
-           <p class="fr-card__desc fr-text--lg">Se poser <strong>les bonnes questions au bon moment</strong> dans la mise en accessibilité de votre service numérique grâce au <g-link to="/accessibilite-numerique/jeu-de-oaa/">jeu de l’OAA</g-link></p>
+           <p class="fr-card__desc fr-text--lg">Se poser <strong>les bonnes questions au bon moment</strong> dans la mise en accessibilité de votre service numérique grâce au <g-link to="/outils/jeu-de-oaa/">jeu de l’OAA</g-link></p>
         </div>
       </div>
     </div>

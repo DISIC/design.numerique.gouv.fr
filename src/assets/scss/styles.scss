@@ -369,6 +369,9 @@ li.fr-card {
   }
 
   &-tile {
+    a.fr-tile__link {
+      word-break: inherit;
+    }
     &:hover {
       .dg-picto--rotate {
         transform: rotate(180deg);

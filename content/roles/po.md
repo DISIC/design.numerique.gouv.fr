@@ -1,5 +1,5 @@
 ---
-title: Responsable de projet et de produit
+title: Responsable de projet ou de produit
 slug: po
 order: 4
 description: Vous assurez la bonne prise en compte à chaque étape de l’accessibilité

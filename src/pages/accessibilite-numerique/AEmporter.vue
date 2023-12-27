@@ -32,7 +32,7 @@
       </ol>
 
       <h2>S’organiser</h2>
-      <p>Le <g-link to="/accessibilite-numerique/jeu-de-oaa">jeu de l’organisation de l’amélioration de l’accessibilité (OAA)</g-link> vous guide dans la mise en accessibilité de votre service numérique.</p>
+      <p>Le <g-link to="/outils/jeu-de-oaa">jeu de l’organisation de l’amélioration de l’accessibilité (OAA)</g-link> vous guide dans la mise en accessibilité de votre service numérique.</p>
 
       <h2>Se faire aider</h2>
       <p>Toute l’équipe DesignGouv est là pour vous aider. Consultez <g-link to="/accompagnement/">nos offres d’accompagnement</g-link> ou <g-link to="/contact/">contactez-nous</g-link>.</p>

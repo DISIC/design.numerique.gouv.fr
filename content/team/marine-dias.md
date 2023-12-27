@@ -6,7 +6,7 @@ photo: ./photos/marine-dias.jpg
 job_title: Chargée de recherche utilisateur
 sub_team:
 sub_team_link:
-twitter: marine_adias
+twitter: 
 e-mail :
 group : ["external", "expert"]
 ---

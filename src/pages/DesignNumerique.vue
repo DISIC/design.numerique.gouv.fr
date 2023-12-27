@@ -234,10 +234,6 @@
 
               <p>La direction interministérielle du numérique (DINUM) propose plusieurs dispositifs pour vous aider.</p>
 
-              <h4 class="fr-h6 fr-mb-2w">Les permanences design et accessibilité numériques</h4>
-              <p class="fr-mb-2w">Discutez pendant 30 minutes avec des experts du design et de l’accessibilité numérique pour savoir comment vous y prendre.</p>
-              <a href="/articles/2022-05-09-permanence-experts/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Réservez un créneau</a>
-
               <h4 class="fr-h6 fr-mb-2w">La brigade d’intervention numérique </h4>
               <p class="fr-mb-2w">Faites intervenir gratuitement au sein de votre équipe des experts du design, de la recherche utilisateur et de l’accessibilité numérique pour vous accompagner.</p>
               <a href="/accompagnement/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Contacter la brigade</a>
@@ -327,7 +323,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" target="_blank" title="La recherche utilisateur - Nouvelle fenêtre">La recherche utilisateur</a>
+                                  <a href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4" target="_blank" title="La recherche utilisateur - Nouvelle fenêtre" class="dg-link--no-icon">La recherche utilisateur</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -346,7 +342,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4" target="_blank" title="Les fiches de poste - Nouvelle fenêtre">Les fiches de poste</a>
+                                  <a href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4" target="_blank" title="Les fiches de poste - Nouvelle fenêtre" class="dg-link--no-icon">Les fiches de poste</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -418,7 +414,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" title="Le système de design de l’État - Nouvelle fenêtre">Le système de design de l’État</a>
+                                  <a href="https://www.systeme-de-design.gouv.fr/" target="_blank" title="Le système de design de l’État - Nouvelle fenêtre" class="dg-link--no-icon">Le système de design de l’État</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">
@@ -437,7 +433,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" target="_blank" title="Le bouton Je Donne Mon Avis - Nouvelle fenêtre">Le bouton Je Donne Mon Avis</a>
+                                  <a href="https://observatoire.numerique.gouv.fr/je-donne-mon-avis/" target="_blank" title="Le bouton Je Donne Mon Avis - Nouvelle fenêtre" class="dg-link--no-icon">Le bouton Je Donne Mon Avis</a>
                               </h3>
                               <div class="fr-card__start">
                                 <ul class="fr-badges-group">

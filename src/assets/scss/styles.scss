@@ -17,7 +17,11 @@ li.fr-card {
 }
 
 .dg {
-
+  &-link {
+    &--no-icon::after {
+        display: none !important;
+    }
+  }
   &-display-block {
     display: block;
   }

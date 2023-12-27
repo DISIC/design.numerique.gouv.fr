@@ -13,7 +13,7 @@ Sophie Drouvroy et Sélim Méziti sont experts accessibilité et travaillent ave
 
 La vidéo est sous-titrée et accompagnée d’une transcription.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vDJLgHCkjfE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vDJLgHCkjfE" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <section class="fr-accordion">
 <h3 class="fr-accordion__title">
     <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-video-1">Voir la transcription</button>

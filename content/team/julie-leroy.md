@@ -6,8 +6,8 @@ photo: ./photos/julie-leroy.png
 job_title: Développeuse accessibilité
 ghostName: Une développeuse accessibilité
 ghostPhoto: ./photos/julie-leroy-ghost.png
-sub_team: Défi emploi public
-sub_team_link: /commando-ux/defi-postuler-emploi-public
+sub_team: 
+sub_team_link: 
 twitter:
 e-mail :
 group : ["commando", "commando-1", "expert"]

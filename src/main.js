@@ -154,7 +154,7 @@ export default function (Vue, { router, head, isClient }) {
     value: slugify
   });
 
-	// Don't scroll to top when dynamically changing
+  // Don't scroll to top when dynamically changing
 	// query params on PiDila checklist
 	router.options.scrollBehavior = function(to, from , savedPosition) {
 		if (savedPosition) {

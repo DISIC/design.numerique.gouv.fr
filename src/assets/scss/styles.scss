@@ -28,6 +28,10 @@ li.fr-card {
 
   &-inline-block {
     display: inline-block;
+
+    ul.fr-tags-group li a.fr-tag {
+      vertical-align: baseline;
+    }
   }
 
   &-flex {

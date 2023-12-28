@@ -44,9 +44,9 @@
             <p class="fr-mb-2w">
               Vous êtes en charge de l’une des démarches recensées dans l’Observatoire et vous souhaitez accueillir un Commando UX.
             </p>
-            <a href="https://france-relance.transformation.gouv.fr/61a2-ameliorer-lexperience-usager-dans-une-demarch" target="_blank" title="Candidater - Nouvelle fenêtre" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
+            <button disabled class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-btn--secondary">
               Candidater
-            </a>
+            </button>
           </div>
 
           <div class="fr-col-sm-6">
@@ -102,7 +102,7 @@
 
           <li v-for="{ node } in futurMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-1w fr-py-md-2v">
             <div class="mission__left">
-              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+              <h3 class="mission__name"><g-link :to="'/accompagnement/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
               <ul class="mission__team fr-pt-md-1v">
@@ -115,7 +115,7 @@
 
           <li v-for="{ node } in presentMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
-              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+              <h3 class="mission__name"><g-link :to="'/accompagnement/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
               <ul class="mission__team fr-pt-md-1w">
@@ -128,7 +128,7 @@
 
           <li v-for="{ node } in pastMissions" :key="node.id" class="mission fr-px-md-2w fr-pt-2w fr-py-md-2v">
             <div class="mission__left">
-              <h3 class="mission__name"><g-link :to="'/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
+              <h3 class="mission__name"><g-link :to="'/accompagnement/commando-ux/' + node.slug">{{ node.title }}</g-link></h3>
             </div>
             <div class="mission__right">
               <ul class="mission__team fr-pt-md-1w">

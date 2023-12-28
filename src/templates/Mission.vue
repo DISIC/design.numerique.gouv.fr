@@ -94,7 +94,7 @@
         <ul class="detail__data detail__data--job fr-ml-2w fr-ml-md-6w fr-mb-1v">
           <li v-for="job in $page.mission.jobs" :key="job.id" class="team-member fr-mb-1v">
             <span class="dg-picto dg-picto--xs dg-picto--pink dg-text-bold fr-mr-1w">{{ job.count }}</span>
-            <g-link to="/commando-ux/partager-interet/" class="job__title">
+            <g-link to="/recrutement/partager-interet/" class="job__title">
               {{ job.title }}
             </g-link>
           </li>

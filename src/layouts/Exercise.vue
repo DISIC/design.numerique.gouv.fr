@@ -1,6 +1,7 @@
 <template>
-  <div>
+<div>
   <header role="banner" class="fr-header">
+    <marquee>Ici, on n’utilise pas de cookie.</marquee>
     <div class="fr-header__body">
       <div class="fr-container">
         <div class="fr-header__body-row">
@@ -21,56 +22,47 @@
               <a class="fr-header__service-title  text-highlight" href="./">Déclaration de bicyclette</a>
             </div>
           </div>
-
           <div class="fr-header__tools">
             <div class="fr-header__tools-links">
               <ul class="fr-links-group">
                 <li>
-                  <g-link class="fr-link fr-fi-information-line" to="/a-propos/"></g-link>
+                  <a class="fr-link fr-fi-information-line" href="#"></a>
                 </li>
                 <li>
-                  <g-link class="fr-link fr-fi-mail-line" to="/contact/"></g-link>
+                  <a class="fr-link fr-fi-mail-line" href="#"></a>
                 </li>
               </ul>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
-
-  <div class="fr-header__menu fr-modal" id="modal-833" aria-labelledby="fr-btn-menu-mobile">
-    <div class="fr-container">
-      <button class="fr-link--close fr-link" aria-controls="modal-833">Fermer</button>
-      <div class="fr-header__menu-links"></div>
-      <nav class="fr-nav" id="navigation-832" role="navigation" aria-label="Menu principal">
-        <ul id="nav" class="fr-nav__list">
-          <li class="fr-nav__item">
-            <a class="fr-nav__link" href="/atelier-a11y/">Accueil</a>
-          </li>
-          <li class="fr-nav__item">
-            <a class="fr-nav__link" href="/atelier-a11y/declarer-ma-bicyclette/">Déclarer ma bicyclette</a>
-          </li>
-          <li class="fr-nav__item">
-            <a class="fr-nav__link" href="/atelier-a11y/aide/">Aide</a>
-          </li>
-          <!--li class="fr-nav__item">
-            <a class="fr-nav__link" href="/atelier-a11y/liste-criteres/">Liste des critères</a>
-          </li-->
-        </ul>
-      </nav>
-    </div>
-  </div>
-
-
-  </header>
-    <main id="main" role="main">
-      <div class="dg-cover-container fr-container fr-container--fluid">
-        <slot/>
+    <div class="fr-header__menu fr-modal" id="modal-833" aria-labelledby="fr-btn-menu-mobile">
+      <div class="fr-container">
+        <button class="fr-link--close fr-link" aria-controls="modal-833">Fermer</button>
+        <div class="fr-header__menu-links"></div>
+        <nav class="fr-nav" id="navigation-832" role="navigation" aria-label="Menu principal">
+          <ul id="nav" class="fr-nav__list">
+            <li class="fr-nav__item">
+              <a class="fr-nav__link" href="/atelier-a11y/">Accueil</a>
+            </li>
+            <li class="fr-nav__item">
+              <a class="fr-nav__link" href="/atelier-a11y/declarer-ma-bicyclette/">Déclarer ma bicyclette</a>
+            </li>
+            <li class="fr-nav__item">
+              <a class="fr-nav__link" href="/atelier-a11y/aide/">Aide</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </main>
-<footer class="fr-footer" role="contentinfo" id="footer">
+    </div>
+  </header>
+  <main id="main" role="main">
+    <div class="dg-cover-container fr-container">
+      <slot/>
+    </div>
+  </main>
+  <footer class="fr-footer" role="contentinfo" id="footer">
     <div class="fr-container">
         <div class="footer fr-footer__body fr-footer__body--operator">
             <div class="fr-footer__brand">
@@ -99,16 +91,16 @@
        <div class="fr-footer__bottom">
             <ul class="fr-footer__bottom-list">
                 <li class="fr-footer__bottom-item">
-                  <g-link class="fr-footer__bottom-link" to="/misc/plan-du-site/">Plan du site</g-link>
+                  <a class="fr-footer__bottom-link" href="#">Plan du site</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                  <g-link class="fr-footer__bottom-link" to="/misc/accessibilite/">Accessibilité : totalement conforme</g-link>
+                  <a class="fr-footer__bottom-link" href="#">Accessibilité : totalement conforme</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                  <g-link class="fr-footer__bottom-link" to="/misc/mentions-legales/">Mentions légales</g-link>
+                  <a class="fr-footer__bottom-link" href="#">Mentions légales</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                  <g-link class="fr-footer__bottom-link"  to="/misc/donnees-personnelles/">Données personnelles et cookies</g-link>
+                  <a class="fr-footer__bottom-link"  href="#">Données personnelles et cookies</a>
                 </li>
             </ul>
             <div class="fr-footer__bottom-copy">
@@ -117,7 +109,8 @@
             </div>
         </div>
     </div>
-</footer>  </div>
+  </footer>
+</div>
 </template>
 
 <style scoped lang="scss">

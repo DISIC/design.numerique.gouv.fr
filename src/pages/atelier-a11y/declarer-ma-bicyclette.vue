@@ -24,7 +24,7 @@
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-md-6">
           <p class="text-color"
-            >Seuls les champs facultatifs ne sont pas obligatoires</p
+            >Les champs facultatifs <em>verts</em> ne sont pas obligatoires</p
           >
           <form id="declaVelo" action="/atelier-a11y/merci/">
             <div class="fr-input-group">
@@ -85,7 +85,7 @@
                 name="bike-name"
               />
             </div>
-            <div class="fr-form-group">
+            <div class="fr-input-group fr-form-group">
               <label class="fr-label text-color fr-mb-2w" for="bike-name"
                 >Type de vélo</label
               >
@@ -157,7 +157,7 @@
                 </div>
               </fieldset>
             </div>
-            <div class="fr-upload-group">
+            <div class="fr-input-group fr-upload-group">
               <label class="text-color fr-label" for="bike-pic"
                 >Ajouter une photo
                 <span class="fr-hint-text"
@@ -172,20 +172,25 @@
                 name="bike-pic"
               />
             </div>
-            <div class="fr-checkbox-group">
+            <div class="fr-input-group fr-checkbox-group">
               <input tabindex="12" type="checkbox" id="vae" name="checkbox" />
               <label class="fr-label" for="vae"
                 >Cochez la case, s’il s’agit d’un VAE.</label
               >
             </div>
-            <div class="fr-checkbox-group">
+            <div class="fr-input-group fr-checkbox-group">
               <input tabindex="11" type="checkbox" id="auto" name="checkbox" />
               <label class="fr-label" for="auto"
                 >Cochez la case, si vous avez vendu votre automobile.</label
               >
             </div>
-
-            <div class="fr-select-group">
+            <div class="fr-input-group fr-checkbox-group">
+              <input checked type="checkbox" id="robot" name="checkbox" />
+              <label class="fr-label" for="robot"
+                >Déochez la case, si vous êtes une vraie personne. <span class="fr-hint-text">Vous êtes un robot ? N’y touchez pas ! Merci.</span></label
+              >
+            </div>
+            <div class="fr-input-group fr-select-group">
               <label class="fr-label" for="because">Pourquoi un vélo ? </label>
               <select
                 tabindex="14"

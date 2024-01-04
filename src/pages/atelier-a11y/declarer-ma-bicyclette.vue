@@ -154,6 +154,14 @@
                     />
                     <label class="fr-label" for="radio-6">Cargo</label>
                   </div>
+                  <div class="fr-radio-group">
+                    <input
+                      type="radio"
+                      id="radio-7"
+                      name="radio"
+                    />
+                    <label class="fr-label" for="radio-7">Autre</label>
+                  </div>
                 </div>
               </fieldset>
             </div>

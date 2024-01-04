@@ -23,7 +23,7 @@
     <section class="fr-container fr-px-2w fr-mb-8w">
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-8">
-          <h2>Choisir son vélo</h2>
+          <h2>Bien choisir son vélo</h2>
         <div class="fr-table fr-table--bordered fr-table--no-caption">
           <table summary="Quel type de vélo choisir ?"><caption>Comparatif de type de vélo</caption>
             <thead><tr>
@@ -36,7 +36,7 @@
             <tr>
               <th scope="row">Route</th>
               <td>Efficace et léger</td>
-              <td>Inutilisable ailleurs que sur la route</td>
+              <td>Inutilisable sur les chemins</td>
               <td>-</td>
             </tr>
             <tr>
@@ -47,8 +47,8 @@
             </tr>
             <tr>
               <th scope="row">Gravel</th>
-              <td>Efficace sur la route</td>
-              <td>Efficace sur les chemins</td>
+              <td>Efficace partout</td>
+              <td></td>
               <td>Liberté</td>
             </tr>
             <tr>
@@ -59,7 +59,7 @@
             </tr>
             <tr>
               <th scope="row">Cargo</th>
-              <td>Transport de marchandise ou d’être humain</td>
+              <td>Transport de marchandise et/ou d’être humain</td>
               <td>Lourd et encombrant</td>
               <td>Une voiture de moins</td>
             </tr>

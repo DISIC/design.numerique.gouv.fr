@@ -9,10 +9,7 @@
         >
           <ol class="fr-breadcrumb__list">
             <li>
-              <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
-            </li>
-            <li>
-              <a class="fr-breadcrumb__link" aria-current="page">Atelier a11é</a>
+              <a class="fr-breadcrumb__link" aria-current="page">Accueil Atelier</a>
             </li>
           </ol>
         </nav>

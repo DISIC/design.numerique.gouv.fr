@@ -39,7 +39,7 @@
                       <h4><span v-if="criterion.node.rgaaStr.length == 1">Critère <abbr title="Référentiel général d’amélioration de l’accessibilité" >RGAA</abbr> concerné</span><span v-else-if="criterion.node.rgaa.length > 1">Critères <abbr title="Référentiel général d’amélioration de l’accessibilité" >RGAA</abbr> concernés</span></h4>
                       <ul>
                         <li class="fr-tag"  v-for="(critere, index) in criterion.node.rgaaStr">
-                             <g-link target="_blank" rel="noopener, noreferrer" :title="'Critère ' + critere + ' - nouvelle fenêtre'"  :to="'https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests#' + critere">{{ critere }} <span aria-hidden="true" class="fr-icon-external-link-line fr-icon--sm"></span><span class="sr-only">nouvelle fenêtre</span></g-link>
+                             <g-link target="_blank" rel="noopener, noreferrer" :title="'Critère ' + critere + ' - nouvelle fenêtre'"  :to="'https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests#' + critere">{{ critere }} <span class="sr-only">nouvelle fenêtre</span></g-link>
                         </li>
                       </ul>
                     </div>

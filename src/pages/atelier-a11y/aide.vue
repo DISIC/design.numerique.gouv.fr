@@ -23,7 +23,7 @@
     <section class="fr-container fr-px-2w fr-mb-8w">
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-8">
-          <h2>Bien choisir son vélo</h2>
+          <h3 class="fr-h1">Bien choisir son vélo</h3>
         <div class="fr-table fr-table--bordered fr-table--no-caption">
           <table summary="Quel type de vélo choisir ?"><caption>Comparatif de type de vélo</caption>
             <thead><tr>
@@ -66,12 +66,12 @@
             </tbody>
           </table>
         </div>
-        <h2>Les différentes pratiques à la mode</h2>
-          <h4 class="fr-h3">Le gravel</h4>
+        <h3 class="fr-h1">Les différentes pratiques à la mode</h3>
+          <h2 class="fr-h3">Le gravel</h2>
           <p>Le gravel est une pratique du vélo qui mélange des passages sur route ainsi que sur des sentiers, des pistes et des chemins. Elle se rapproche du cyclo-cross mais avec une moindre notion de performance.</p>
-          <h4 class="fr-h3">Le bikepacking</h4>
+          <h2 class="fr-h3">Le bikepacking</h2>
           <p>Le bikepacking consiste à évoluer sur un vélo dépourvu de porte-bagages, contrairement au cyclotourisme, aussi bien pour des parcours réduits que pour de longues expéditions en autonomie. Le vélo est doté de sacoches, qui, à l’inverse du cyclotourisme, sont peu nombreuses pour voyager léger ou parcourir plus rapidement un périple. La monture du cycle sert ainsi elle-même de porte-bagages. Le cycle de bikepacking est polyvalent, permettant d’emprunter aussi bien le réseau routier que les chemins muletiers. Les mini-sacoches sont accrochées au guidon, au cadre, ou encore à la tige de selle, et sont généralement fixées par des sangles.</p>
-          <h3>Le pignon fixe</h3>
+          <h2>Le pignon fixe</h2>
           <p>Le montage avec pignon fixe (« fixie » en anglais) est un montage particulier de la bicyclette, lorsque le pignon de la roue arrière est monté sans roue libre, ce qui le rend solidaire de la roue dans les deux sens de rotation. Obligatoire sur les pistes de vélodrome, cette pratique a été adoptée par les coursiers d’Amérique du Nord à la fin des années 90. </p>
 
           <img src="/assets/images/bikes.jpg" class="fr-responsive-img" alt="ciel nuageux" />

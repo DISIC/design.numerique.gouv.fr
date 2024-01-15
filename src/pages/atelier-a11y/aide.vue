@@ -174,7 +174,7 @@
         </div>
         <h3 class="fr-h1">Les différentes pratiques à la mode</h3>
           <h2 class="fr-h3  fr-mt-4v">Le gravel</h2>
-          <img src="/assets/images/gravel.jpg" alt="" class="fr-responsive-img"  />
+          <img src="/assets/images/gravel.jpg" alt="GTJ - juin 2023" class="fr-responsive-img"  />
           <p>Le gravel est une pratique du vélo qui mélange des passages sur route ainsi que sur des sentiers, des pistes et des chemins. C’est une pratique particulièrement liée au voyage et à la découverte de grands espaces.</p>
           <h2 class="fr-h3   fr-mt-4w">Le bikepacking</h2>
           <img src="/assets/images/bikepacking.jpg" alt="" class="fr-responsive-img"  />

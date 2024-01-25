@@ -90,26 +90,6 @@ export default {
       {
         property: "og:image",
         content: "https://design.numerique.gouv.fr" + this.$page.article.illustration.src
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: this.$page.article.title + " - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: this.$page.article.description
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr" + this.$page.article.illustration.src
       }]
     }
   },

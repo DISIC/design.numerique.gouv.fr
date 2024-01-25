@@ -328,27 +328,8 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Les formations - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Toutes nos formations ouvertes à toutes et tous : renseignez-vous, inscrivez-vous et revisionnez les formations passées."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      }],
+      }
+    ],
     },
   }
 </script>

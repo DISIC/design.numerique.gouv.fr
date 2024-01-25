@@ -26,7 +26,7 @@
          Working with all ministers responsible for digital public services, our goal is that most French people can use these services on their own, and especially the 12 million people with handicap. In order to do so, we pilot and track the quality of this digitalisation on the <a href="https://observatoire.numerique.gouv.fr">Observatory</a> since june 2019. We launched in september 2020 the <a href="https://design.numerique.gouv.fr/commando-ux">UX Commando</a> to deploy designers et développeurs amongst ministers who build these public services. Finally, we participate to the development of a culture of design and inclusion within the administration.
        </p>
        <p>
-         The team works under the <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> and for the Minister of the Transformation and the Public Workforce <a href="https://twitter.com/AdeMontchalin">Amélie de Montchalin</a>.
+         The team works under the <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> and for the Minister of the Transformation and the Public Workforce Amélie de Montchalin.
        </p>
        <h2>Success metrics by 2022</h2>
        <ul>
@@ -53,9 +53,7 @@
              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
            </p>
            <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
-           <p v-if="node.twitter">
-             <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-           </p>
+
          </li>
        </ul>
      </section>
@@ -71,9 +69,7 @@
              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
            </p>
            <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
-           <p v-if="node.twitter">
-             <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-           </p>
+
          </li>
        </ul>
      </section>
@@ -89,9 +85,7 @@
              <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
            </p>
            <p v-else-if="node.sub_team">{{ node.sub_team }}</p>
-           <p v-if="node.twitter">
-             <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-           </p>
+
          </li>
        </ul>
      </section> -->
@@ -112,7 +106,6 @@
           job_title
           sub_team
           sub_team_link
-          twitter
           photo (width: 150, height: 150, quality: 100)
           group
           content

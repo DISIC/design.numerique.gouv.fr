@@ -206,27 +206,7 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Accompagnement - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une vraie approche design pour votre service mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !"
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
+      }
     ],
     }
   }

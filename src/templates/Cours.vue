@@ -319,27 +319,7 @@
             {
             property: 'og:image',
             content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-          },
-          {
-            name: "twitter:card",
-            content: "summary_large_image"
-          },
-          {
-            name: "twitter:site",
-            content: "@Design_Gouv"
-          },
-          {
-            name: "twitter:title",
-            content: this.$page.cours.nom + " - DesignGouv"
-          },
-          {
-            name: "twitter:description",
-            content: this.$page.cours.descriptionCourte
-          },
-          {
-            name: "twitter:image",
-            content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-          },
+          }
         ]
       };
     },

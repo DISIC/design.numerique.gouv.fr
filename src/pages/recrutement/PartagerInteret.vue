@@ -203,26 +203,6 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Partager votre intérêt - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Experts du numérique : nous pouvons vous aider à intervenir au profit des administrations, dans le cadre de l’amélioration de la qualité de leurs démarches en ligne."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipde.png"
       }],
     },
     data () {

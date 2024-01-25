@@ -206,27 +206,7 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Commando UX - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Une équipe d’experts mobilisée pour améliorer l’expérience des 250 services publics numériques les plus utilisés par les Françaises et Français."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
+      }
     ],
     }
   }

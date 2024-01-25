@@ -221,26 +221,6 @@
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
       },
       {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "DesignGouv - Concevons des services publics numériques accessibles, inclusifs et humains."
-      },
-      {
-        name: "twitter:description",
-        content: "Comment créer des services numériques de qualité et accessibles pour tous."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      },
-      {
         name: "google-site-verification",
         content: "3lr6jhip11QgAYBjIlgBMRAi7CfsjE8mQygaLbZo68A"
       }],

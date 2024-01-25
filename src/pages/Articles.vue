@@ -96,27 +96,8 @@
       {
         property: "og:image",
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Articles - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Découvrez nos dernières publications sur le design et l'accessibilité numérique."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      }],
+      }
+      ],
     }
   }
 

@@ -75,27 +75,8 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Obtenir un accompagnement - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Chacun de nos accompagnements est contruit sur-mesure avec vous pour s’adapter à vos besoins, votre équipe, vos délais et vos objectifs. Et tout ça gratuitement 🙂."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipde.png"
-      }],
+      }
+      ],
     },
     data () {
       return {

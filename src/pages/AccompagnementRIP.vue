@@ -68,27 +68,8 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Nos offres d'accompagnement pour l'amélioration des services publics numériques - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Découvrez les accompagnements que nous proposons pour améliorer la qualité des démarches en ligne."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      }],
+      }
+      ],
     }
   }
 

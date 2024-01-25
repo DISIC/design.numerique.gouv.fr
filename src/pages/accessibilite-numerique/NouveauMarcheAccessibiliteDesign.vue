@@ -106,27 +106,7 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Nouveau marché public accessibilité numérique et design inclusif - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Vous êtes acteur de l'accessibilité numérique et/ou du design inclusif ? Renseignez vos coordonnées pour être prévenu dès son lancement."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      }],
+      }      ],
     },
     data () {
       return {

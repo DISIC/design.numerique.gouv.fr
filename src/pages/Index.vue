@@ -203,14 +203,14 @@
       Message,
     },
     metaInfo: {
-      title: "DesignGouv - Le design numérique au service des administrations",
+      title: "Concevons des services publics numériques accessibles, inclusifs et humains.",
       meta: [{
         name: "description",
         content: "Comment créer des services numériques de qualité et accessibles pour tous."
       },
       {
         property: "og:title",
-        content: "DesignGouv - Le design numérique au service des administrations"
+        content: "DesignGouv - Concevons des services publics numériques accessibles, inclusifs et humains."
       },
       {
         property: "og:description",
@@ -230,7 +230,7 @@
       },
       {
         name: "twitter:title",
-        content: "DesignGouv - Le design numérique au service des administrations"
+        content: "DesignGouv - Concevons des services publics numériques accessibles, inclusifs et humains."
       },
       {
         name: "twitter:description",

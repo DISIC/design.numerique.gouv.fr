@@ -278,7 +278,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Les outils de design de l’accessibilité",
+    title: "Les outils",
     meta: [
       {
         name: "description",
@@ -287,7 +287,7 @@ export default {
       },
       {
         property: "og:title",
-        content: "Les outils de design de l’accessibilité - DesignGouv",
+        content: "Les outils de design et d’accessibilité - DesignGouv",
       },
       {
         property: "og:description",

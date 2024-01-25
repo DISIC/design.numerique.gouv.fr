@@ -17,7 +17,7 @@
       RideIllustration,
     },
     metaInfo: {
-      title: "Erreur 404",
+      title: "Page non trouvée",
       meta: [{
           name: 'description',
           content: "Oups, cette page n'existe pas."

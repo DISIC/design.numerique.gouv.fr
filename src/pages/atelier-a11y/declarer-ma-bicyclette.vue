@@ -195,7 +195,7 @@
             <div class="fr-input-group fr-checkbox-group">
               <input checked type="checkbox" id="robot" name="checkbox" />
               <label class="fr-label" for="robot"
-                >Déochez la case, si vous êtes une vraie personne. <span class="fr-hint-text">Vous êtes un robot ? N’y touchez pas ! Merci.</span></label
+                >Décochez la case, si vous êtes une vraie personne. <span class="fr-hint-text">Vous êtes un robot ? N’y touchez pas ! Merci.</span></label
               >
             </div>
             <div class="fr-input-group fr-select-group">

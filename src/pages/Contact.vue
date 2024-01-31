@@ -22,9 +22,6 @@
       <section>
         <p>Vous pouvez également nous suivre sur les réseaux sociaux suivants :</p>
         <ul>
-          <li><a href="https://twitter.com/design_gouv/" title="Twitter - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
-                Twitter <span class="fr-fi-twitter-fill" aria-hidden="true"></span>
-                </a></li>
           <li><a href="https://www.instagram.com/design_gouv/" title="Instagram - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Instagram <span class="fr-fi-instagram-fill" aria-hidden="true"></span>
                 </a></li>

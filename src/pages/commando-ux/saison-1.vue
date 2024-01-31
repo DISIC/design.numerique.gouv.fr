@@ -175,7 +175,6 @@
           job_title
           sub_team
           sub_team_link
-          twitter
           photo (width: 150, height: 150, quality: 100)
           path
           content
@@ -212,27 +211,7 @@
       {
         property: 'og:image',
         content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Commando UX saison 1 - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "Améliorer l'expérience de 10 des 250 services publics numériques les plus utilisés par les Français !"
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-      },
+      }
     ],
     }
   }

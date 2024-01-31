@@ -101,27 +101,7 @@
             {
             property: 'og:image',
             content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-          },
-          {
-            name: "twitter:card",
-            content: "summary_large_image"
-          },
-          {
-            name: "twitter:site",
-            content: "@Design_Gouv"
-          },
-          {
-            name: "twitter:title",
-            content: "Formations en " + this.$page.formation.nom + " - DesignGouv"
-          },
-          {
-            name: "twitter:description",
-            content: this.$page.formation.description
-          },
-          {
-            name: "twitter:image",
-            content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-          },
+          }
         ]
       };
     },

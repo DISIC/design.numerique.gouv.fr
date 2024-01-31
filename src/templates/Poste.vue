@@ -122,26 +122,6 @@
         {
           property: "og:image",
           content: this.$page.poste.destination == "DSN" ? "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipe.png" : "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-        },
-        {
-          name: "twitter:card",
-          content: "summary_large_image"
-        },
-        {
-          name: "twitter:site",
-          content: "@Design_Gouv"
-        },
-        {
-          name: "twitter:title",
-          content: this.$page.poste.intitule + " - " + this.$page.poste.contrat + " - " + this.$page.poste.duree
-        },
-        {
-          name: "twitter:description",
-          content: this.$page.poste.descriptionCourte
-        },
-        {
-          name: "twitter:image",
-          content: "https://design.numerique.gouv.fr/assets/meta-images/rejoindre-equipe.png"
         }],
       }
     },

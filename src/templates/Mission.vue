@@ -169,27 +169,7 @@
             {
             property: 'og:image',
             content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-          },
-          {
-            name: "twitter:card",
-            content: "summary_large_image"
-          },
-          {
-            name: "twitter:site",
-            content: "@Design_Gouv"
-          },
-          {
-            name: "twitter:title",
-            content: this.$page.mission.title + " - DesignGouv"
-          },
-          {
-            name: "twitter:description",
-            content: "Une équipe d'experts du Commando UX est mobilisée sur cette mission"
-          },
-          {
-            name: "twitter:image",
-            content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-          },
+          }
         ]
       };
     }

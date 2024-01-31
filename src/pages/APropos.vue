@@ -27,7 +27,7 @@
         <p>En partenariat avec les ministères, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie. Pour ce faire, nous pilotons et suivons la qualité de cette numérisation des services à travers l'<a href="https://observatoire.numerique.gouv.fr">Observatoire</a> depuis juin 2019.</p>
         <p>Depuis septembre 2020 nous avons mis en place le <a href="https://design.numerique.gouv.fr/commando-ux">Commando UX</a> : des designers et développeurs déployés au sein des ministères qui concoivent ces services publics pour les améliorer.</p>
         <p>Enfin, nous participons au développement d’une culture de design d'inclusion au sein de l’État, et à la mise en communauté de compétences de design dans les administrations.</p>
-        <p>Le pôle Design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de la Transformation et de la Fonction publiques <a href="https://twitter.com/StanGuerini" target="_blank" title="Stanislas Guerini - nouvelle fenêtre">Stanislas Guerini</a>.</p>
+        <p>Le pôle Design des services numériques est rattaché à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de la Transformation et de la Fonction publiques Stanislas Guerini.</p>
       </section>
 
       <section>
@@ -41,9 +41,6 @@
               <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
             </p>
             <p v-else-if="node.sub_team" class="dg-team-member__team">{{ node.sub_team }}</p>
-            <p v-if="node.twitter" class="dg-team-member__twitter">
-              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-            </p>
           </li>
         </ul>
       </section>
@@ -59,9 +56,6 @@
               <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>
             </p>
             <p v-else-if="node.sub_team" class="dg-team-member__team">{{ node.sub_team }}</p>
-            <p v-if="node.twitter" class="dg-team-member__twitter">
-              <g-link :to=" 'https://twitter.com/' + node.twitter">@{{ node.twitter }}</g-link>
-            </p>
           </li>
         </ul>
       </section>
@@ -83,7 +77,6 @@
           job_title
           sub_team
           sub_team_link
-          twitter
           photo (width: 96, height: 96, quality: 100)
           group
           content

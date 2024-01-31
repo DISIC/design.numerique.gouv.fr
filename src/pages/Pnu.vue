@@ -77,27 +77,8 @@
       {
         property: "og:image",
         content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      },
-      {
-        name: "twitter:card",
-        content: "summary_large_image"
-      },
-      {
-        name: "twitter:site",
-        content: "@Design_Gouv"
-      },
-      {
-        name: "twitter:title",
-        content: "Portail numérique unique - DesignGouv"
-      },
-      {
-        name: "twitter:description",
-        content: "DDécouvrez le portail numérique unique."
-      },
-      {
-        name: "twitter:image",
-        content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-      }],
+      }      
+    ],
     }
   }
 </script>

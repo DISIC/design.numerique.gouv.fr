@@ -112,27 +112,7 @@
             {
             property: 'og:image',
             content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-          },
-          {
-            name: "twitter:card",
-            content: "summary_large_image"
-          },
-          {
-            name: "twitter:site",
-            content: "@Design_Gouv"
-          },
-          {
-            name: "twitter:title",
-            content: this.$page.accompagnement.name + " - DesignGouv"
-          },
-          {
-            name: "twitter:description",
-            content: this.$page.accompagnement.mission
-          },
-          {
-            name: "twitter:image",
-            content: "https://design.numerique.gouv.fr/assets/meta-images/CUX.png"
-          },
+          }
         ]
       };
     },

@@ -83,26 +83,6 @@
         {
           property: "og:image",
           content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
-        },
-        {
-          name: "twitter:card",
-          content: "summary_large_image"
-        },
-        {
-          name: "twitter:site",
-          content: "@Design_Gouv"
-        },
-        {
-          name: "twitter:title",
-          content: "Rôles clés - DesignGouv"
-        },
-        {
-          name: "twitter:description",
-          content: "Découvrez votre rôle pour la mise en oeuvre de l'accessibilité numérique."
-        },
-        {
-          name: "twitter:image",
-          content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
         }],
       }
     }

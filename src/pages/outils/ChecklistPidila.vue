@@ -332,29 +332,7 @@ export default {
           property: "og:image",
           content:
             "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
-        },
-        {
-          name: "twitter:card",
-          content: "summary_large_image",
-        },
-        {
-          name: "twitter:site",
-          content: "@Design_Gouv",
-        },
-        {
-          name: "twitter:title",
-          content: "Checklist PiDila - DesignGouv",
-        },
-        {
-          name: "twitter:description",
-          content:
-            "Une liste unique des obligations et bonnes pratiques pour les sites web publics : Système de design de l’État, RGAA, Éco-conception, Loi informatique et liberté, RGI et Règles Opquast.",
-        },
-        {
-          name: "twitter:image",
-          content:
-            "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
-        },
+        }
       ],
     };
   },

@@ -20,9 +20,6 @@
                         <h2 class="fr-h5 fr-mb-3v fr-mb-3v">Suivez-nous<br> sur les réseaux sociaux</h2>
                         <ul class="fr-btns-group fr-btns-group--lg">
                             <li>
-                                <a class="fr-btn--twitter fr-btn" title="twitter - ouvre une nouvelle fenêtre" href="https://twitter.com/design_gouv/" target="_blank">twitter</a>
-                            </li>
-                            <li>
                                 <a class="fr-btn--instagram fr-btn" title="instagram - ouvre une nouvelle fenêtre" href="https://www.instagram.com/design_gouv/" target="_blank">instagram</a>
                             </li>
                             <li>

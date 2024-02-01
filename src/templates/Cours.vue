@@ -361,7 +361,7 @@
           this.form.session = this.futurOpenSessions[0].id;
         }
         var Airtable = require('airtable');
-        var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY}).base(process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE);
+        var base = new Airtable({apiKey: process.env.GRIDSOME_AIRTABLE_TOKEN}).base(process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE);
 
         base('Inscriptions').create([
         {

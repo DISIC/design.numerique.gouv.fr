@@ -149,7 +149,7 @@ module.exports = {
     {
       use: '@gridsome/source-airtable',
       options: {
-        apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
+        apiKey: process.env.GRIDSOME_AIRTABLE_TOKEN, // required
         base: process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE, // required
         tables: [
             {
@@ -204,7 +204,7 @@ module.exports = {
     {
       use: '@gridsome/source-airtable',
       options: {
-        apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
+        apiKey: process.env.GRIDSOME_AIRTABLE_TOKEN, // required
         base: process.env.GRIDSOME_AIRTABLE_CANDIDATE_BASE, // required
         tables: [
             {
@@ -218,7 +218,7 @@ module.exports = {
     {
       use: '@gridsome/source-airtable',
       options: {
-        apiKey: process.env.GRIDSOME_AIRTABLE_API_KEY, // required
+        apiKey: process.env.GRIDSOME_AIRTABLE_TOKEN, // required
         base: process.env.GRIDSOME_AIRTABLE_OBSERVATORY_BASE, // required
         tables: [
             {

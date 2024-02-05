@@ -19,7 +19,7 @@ description: « Appuyez sur la touche étoile » est une série audio en 3 ép
   </audio>
   <ul class="fr-callout__text">
     <li><a href="/assets/podcast/aslte01.mp3" class="fr-link  fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode1.mp3">Télécharger l‘épisode 1 (format mp3 - 24,3 Mo)</a></li>
-    <li><a href="/assets/podcast/aslte01.odt" class="fr-link  fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode1.mp3">Télécharger la transcription de l‘épisode 1 (format odt - 18 ko)</a></li>
+    <li><a href="/assets/podcast/aslte01.odt" class="fr-link  fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode1.odt">Télécharger la transcription de l‘épisode 1 (format odt - 18 ko)</a></li>
   </ul>
 </div>
 
@@ -30,7 +30,7 @@ description: « Appuyez sur la touche étoile » est une série audio en 3 ép
   </audio>
   <ul class="fr-callout__text">
     <li><a href="/assets/podcast/aslte02.mp3" class="fr-link  fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode2.mp3">Télécharger l‘épisode 2 (format mp3 - 22,5 Mo)</a></li>
-    <li><a href="/assets/podcast/aslte02.odt" class="fr-link  fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode2.mp3">Télécharger la transcription de l‘épisode 2 (format odt - 19 ko)</a></li>
+    <li><a href="/assets/podcast/aslte02.odt" class="fr-link  fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode2.odt">Télécharger la transcription de l‘épisode 2 (format odt - 19 ko)</a></li>
   </ul>
 </div>
 
@@ -41,7 +41,7 @@ description: « Appuyez sur la touche étoile » est une série audio en 3 ép
   </audio>
   <ul class="fr-callout__text">
     <li><a href="/assets/podcast/aslte03.mp3" class="fr-link  fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode3.mp3">Télécharger l‘épisode 3 (format mp3 - 26,2 Mo)</a></li>
-    <li><a href="/assets/podcast/aslte03.odt" class="fr-link  fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode3.mp3">Télécharger la transcription de l‘épisode 3 (format odt - 18 ko)</a></li>
+    <li><a href="/assets/podcast/aslte03.odt" class="fr-link  fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode3.odt">Télécharger la transcription de l‘épisode 3 (format odt - 18 ko)</a></li>
   </ul>
 </div>
 

@@ -4,7 +4,7 @@ slug: 2024-02-08-appuyez-sur-la-touche-etoile
 publishedDate: 2024-02-08
 tags: ["accessibilité", "inclusion", "simplification de l'information", "design"]
 illustration: ./illustrations/2024-02-08-appuyez-sur-la-touche-etoile.jpeg
-description: Découvrez les dernières fonctionnalités d’Ara et particulièrement la création de compte auditeur et auditrice.
+description: « Appuyez sur la touche étoile » est une série audio en 3 épisodes dans laquelle Jamal, Huguette, Patrick et Jeanne nous emmènent au travers de leurs péripéties numériques.
 ---
 
 <p class="fr-text--lead">Les services en ligne, s’ils ne sont pas pensés et conçus pour toutes et tous, peuvent être une jungle hostile pour de nombreux concitoyens.</p>

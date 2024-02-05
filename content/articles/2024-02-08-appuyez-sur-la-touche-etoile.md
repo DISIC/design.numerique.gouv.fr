@@ -2,7 +2,7 @@
 title: Appuyez sur la touche étoile
 slug: 2024-02-08-appuyez-sur-la-touche-etoile
 publishedDate: 2024-02-08
-tags: ["accessibilité", "RGAA", "open source"]
+tags: ["accessibilité", "inclusion", "simplification de l'information", "design"]
 illustration: ./illustrations/2024-02-08-appuyez-sur-la-touche-etoile.jpeg
 description: Découvrez les dernières fonctionnalités d’Ara et particulièrement la création de compte auditeur et auditrice.
 ---

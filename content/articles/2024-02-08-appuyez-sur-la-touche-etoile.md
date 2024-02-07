@@ -18,7 +18,7 @@ description: « Appuyez sur la touche étoile » est une série audio en 3 ép
     <source src="/assets/podcast/aslte01.mp3" type="audio/mp3" />
   </audio>
   <p class="fr-callout__text">
- <a href="/assets/podcast/aslte01.pdf" class="fr-link fr-link--download fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode1.pdf">Télécharger la transcription de l‘épisode 1 <span class="fr-link__detail">format pdf - 185 ko</span></a>
+ <a href="/assets/podcast/aslte01.pdf" class="fr-link fr-link--download fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode1.pdf">Télécharger la transcription de l’épisode 1 <span class="fr-link__detail">format pdf - 185 ko</span></a>
 </div>
 
 <div class="fr-callout">
@@ -27,7 +27,7 @@ description: « Appuyez sur la touche étoile » est une série audio en 3 ép
     <source src="/assets/podcast/aslte02.mp3" type="audio/mp3" />
   </audio>
     <p class="fr-callout__text">
- <a href="/assets/podcast/aslte02.pdf" class="fr-link fr-link--download fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode2.pdf">Télécharger la transcription de l‘épisode 2 <span class="fr-link__detail">format pdf - 194 ko</span></a>
+ <a href="/assets/podcast/aslte02.pdf" class="fr-link fr-link--download fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode2.pdf">Télécharger la transcription de l’épisode 2 <span class="fr-link__detail">format pdf - 194 ko</span></a>
   </p>
 </div>
 
@@ -38,7 +38,7 @@ description: « Appuyez sur la touche étoile » est une série audio en 3 ép
     <source src="/assets/podcast/aslte03.mp3" type="audio/mp3" />
   </audio>
   <p class="fr-callout__text">
- <a href="/assets/podcast/aslte03.pdf" class="fr-link fr-link--download fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode3.pdf">Télécharger la transcription de l‘épisode 3 <span class="fr-link__detail">format pdf - 190 ko</span></a>
+ <a href="/assets/podcast/aslte03.pdf" class="fr-link fr-link--download fr-text--xs" download="transcription-Appuyez-sur-la-touche-etoile-Episode3.pdf">Télécharger la transcription de l’épisode 3 <span class="fr-link__detail">format pdf - 190 ko</span></a>
   </p>
 </div>
 
@@ -54,18 +54,19 @@ La bonne nouvelle, c’est que pour mieux faire, il existe de petites astuces au
 * Appliquer les bonnes pratiques du web et de l’accessibilité numérique dans le code des sites internet et dans la communication ;
 * S’entourer de profils compétents (cheffes et chefs de produit expérimentés, designers, développeuses et développeurs, expertes et experts en recherche utilisateurs, expertes et experts en accessibilité, etc.).
 
-« Appuyez sur la touche étoile » est une série audio de la direction interministérielle du numérique, produite par Louie Creative, avec le soutien du FIPHFP, le Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique.
-
+« Appuyez sur la touche étoile » est une série audio de la direction interministérielle du numérique, produite par Louie Creative, avec le soutien du FIPHFP, le Fonds pour l’Insertion des Personnes Handicapées dans la Fonction publique.
+<!--
 <div class="fr-card  ">
 <div class="fr-card__body">
 <div class="fr-card__content">
 <h2 class="fr-card__title">Télécharger les épisodes</h2>
 <ul class="fr-card__desc">
-<li><a href="/assets/podcast/aslte01.mp3" class="fr-link  fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode1.mp3">Télécharger l‘épisode 1 (format mp3 - 24,3 Mo)</a></li>
-<li><a href="/assets/podcast/aslte02.mp3" class="fr-link fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode2.mp3">Télécharger l‘épisode 2 (format mp3 - 22,5 Mo)</a></li>
-<li><a href="/assets/podcast/aslte03.mp3" class="fr-link  fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode3.mp3">Télécharger l‘épisode 3 (format mp3 - 26,2 Mo)</a></li>
+<li><a href="/assets/podcast/aslte01.mp3" class="fr-link fr-link--download  fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode1.mp3">Télécharger l’épisode 1 <span class="fr-link__detail">format mp3 - 24,3 Mo)</span></a></li>
+<li><a href="/assets/podcast/aslte02.mp3" class="fr-link fr-link--download fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode2.mp3">Télécharger l’épisode 2 <span class="fr-link__detail">format mp3 - 22,5 Mo)</span></a></li>
+<li><a href="/assets/podcast/aslte03.mp3" class="fr-link fr-link--download  fr-text--xs" download="appuyez-sur-la-touche-etoile-Episode3.mp3">Télécharger l’épisode 3 <span class="fr-link__detail">format mp3 - 26,2 Mo</span></a></li>
 </ul>
 </div>
 </div>
 </div>   
 </div>
+-->

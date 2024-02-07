@@ -58,6 +58,3 @@ La bonne nouvelle, c’est que pour mieux faire, il existe de petites astuces au
 * S’entourer de profils compétents (cheffes et chefs de produit expérimentés, designers, développeuses et développeurs, expertes et experts en recherche utilisateurs, expertes et experts en accessibilité, etc.).
 
 « Appuyez sur la touche étoile » est une série audio de la direction interministérielle du numérique, produite par Louie Creative, avec le soutien du FIPHFP, le Fonds pour l'Insertion des Personnes Handicapées dans la Fonction publique.
-
-Elle a été réalisée par Pierre Bariaud, écrite par Yacine Belhousse, produite par Soukaïna Qabbal. La musique a été composée par Jocelyn Robert et Manuel Sanchez et la prise de son par Dorian Racine.
-Ce travail a été rendu possible par Marion Girard, responsable de production, Maureen Wilson, responsable éditoriale, Charlotte Pudlowski, directrice éditoriale, et Mélissa Bounoua, directrice des productions.

@@ -19,7 +19,8 @@
             </div>
             <div class="fr-header__operator">
               <g-link to="/">
-                <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" aria-label="Accueil - DesignGouv, par le pôle design des services numériques"/>
+                <img svg-inline src="../assets/images/logoDesigngouv.svg" class="fr-header__service-title" aria-label="Accueil - DesignGouv"/>
+                <p class="fr-header__service-tagline fr-text--sm">par la brigade d’intervention numérique de la Dinum</p>
               </g-link>
             </div>
           </div>

@@ -10,7 +10,7 @@
                     <br>française
                 </p>
                 <g-link class="fr-footer__brand-link" to="/">
-                  <img svg-inline src="../assets/images/logoBasline.svg" class="fr-responsive-img" aria-label="Accueil - DesignGouv, par le pôle design des services numériques"/>
+                  <img svg-inline src="../assets/images/logoDesignGouv.svg" class="fr-responsive-img" aria-label="Accueil - DesignGouv"/>
                 </g-link>
             </div>
             <div class="fr-footer__content ">

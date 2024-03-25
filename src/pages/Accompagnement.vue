@@ -14,7 +14,7 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/accompagnement-picto.svg" aria-hidden="true">Accompagnement</h1>
-        <p class="fr-text--lead">Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une vraie approche design pour votre service, mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !</p>
+        <p class="fr-text--lead">Vous souhaitez rendre votre site accessible, faire des tests avec des usagers ou avoir une approche design pour votre service, mais vous ne savez pas comment faire ? Nous sommes là pour vous aider !</p>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
           Nos expertes à votre disposition
         </h2>
         <p>
-          DesignGouv met à disposition des experts du numérique auprès des administrations pour rendre <strong>plus accessibles</strong>, <strong>plus compréhensibles</strong> et <strong>plus performantes</strong> les <a target="_blank" href="https://observatoire.numerique.gouv.fr/observatoire/" title="250 démarches administratives - nouvelle fenêtre" rel="noreferrer noopener">250 démarches administratives</a> les plus utilisées par les Français.
+          DesignGouv met à disposition des experts du numérique auprès des administrations pour rendre <strong>plus accessibles</strong>, <strong>plus simples</strong> et <strong>plus compréhensibles</strong> leurs services en ligne.
         </p>
         <p class="fr-mb-2w">
           Nos expertes sont spécialisées en :
@@ -37,23 +37,23 @@
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
             <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'pencil-ruler']" width="12px" height="12px" aria-hidden="true"/></span>
-            <strong>Design UX / Design UI</strong>
+            <strong>Design UX / Design UI / Design de contenu</strong>
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
             <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'project-diagram']" width="12px" height="12px" aria-hidden="true"/></span>
-            <strong>Pilotage de produits et services numériques</strong>
+            <strong>Optimisation pour les moteurs de recherche (<abbr title="Search engine optimization" lang="en">SEO</abbr>)</strong>
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
             <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'code']" width="12px" height="12px" aria-hidden="true"/></span>
             <strong>Accessibilité numérique</strong>
           </li>
         </ul>
-        <p>Nos objectifs sont simples : vous aidez à apporter des améliorations concrètes tout en diffusant des bonnes pratiques au sein de votre administration.</p>
+        <p>Notre objectif est de vous aider à apporter des améliorations concrètes tout en mettant en place les bonnes pratiques au sein de votre administration.</p>
       </div>
 
       <div class="fr-mb-6w">
         <h2>Comment être accompagné ?</h2>
-        <p>Si vous êtes une administration d’État en charge de l’une des démarches recensées dans l’Observatoire, rien de plus simple :</p>
+        <p>Nous accompagnons les administrations d’État et leurs opérateurs :</p>
         <ol class="fr-mb-2w">
           <li class="dg-text-with-picto fr-mb-1w">
             <strong class="dg-picto dg-picto--xs fr-mr-3v">1</strong>
@@ -68,7 +68,7 @@
             <strong>Nous mettons à votre disposition la ou les expertes</strong>
           </li>
         </ol>
-        <p>Chaque accompagnement est sur-mesure pour s’adapter à vos besoins, votre équipe, vos délais et vos objectifs. Et en plus, tout ça gratuitement 🙂.</p>
+        <p>Chaque accompagnement est sur-mesure pour s’adapter à vos besoins, votre équipe, vos délais et vos objectifs. Tout ça financé par la direction interministérielle du numérique 🙂.</p>
         <g-link to="/accompagnement/obtenir-un-accompagnement/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right fr-mb-2w">
           Obtenir un accompagnement
         </g-link>

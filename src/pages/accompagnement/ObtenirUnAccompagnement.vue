@@ -20,7 +20,7 @@
 
           <h1>Obtenir un accompagnement</h1>
           <p class="fr-text--lead">
-            Chacun de nos accompagnements est contruit sur-mesure avec vous pour s’adapter à vos besoins, votre équipe, vos délais et vos objectifs. Et tout ça gratuitement 🙂.
+            Chaque accompagnement est sur-mesure pour s’adapter à vos besoins, votre équipe, vos délais et vos objectifs. Tout ça financé par la direction interministérielle du numérique 🙂.
           </p>
         </div>
       </div>

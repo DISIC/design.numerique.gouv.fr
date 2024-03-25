@@ -30,24 +30,25 @@
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="comprendre-1">Pourquoi déclarer sa bicyclette ?</button>
               </h3>
               <div class="fr-collapse" id="comprendre-1"><p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing, <a href="test" target="_blank">link test</a> incididunt, ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et. Diam maecenas sed enim ut. Accumsan lacus vel facilisis volutpat est. Ut aliquam purus sit amet luctus. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
-              </p></div>
+                - Parce que c’est une obligation légale depuis la loi sur la bonne mobilité du 01/04/2022 ;<br><br>
+
+- Parce que plus l’État en sait sur votre pratique de la bicyclette, mieux c’est ;
+<br><br>
+- Pour optimiser la répartition de l’organisation de l’espace public ;
+<br><br>
+- À des fins statistiques plus ou moins pertinentes.</p></div>
             </section>
             <section class="fr-accordion">
               <h3 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="comprendre-2">Est-ce obligatoire de déclarer sa bicyclette ?</button>
               </h3>
-              <div class="fr-collapse" id="comprendre-2"><p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing, <a href="test" target="_blank">link test</a> incididunt, ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et. Diam maecenas sed enim ut. Accumsan lacus vel facilisis volutpat est. Ut aliquam purus sit amet luctus. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
-              </p></div>
+              <div class="fr-collapse" id="comprendre-2"><p>Oui.</p></div>
             </section>
             <section class="fr-accordion">
               <h3 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="comprendre-3">Est-il obligatoire de la faire en ligne ?</button>
               </h3>
-              <div class="fr-collapse" id="comprendre-3"><p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing, <a href="test" target="_blank">link test</a> incididunt, ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et. Diam maecenas sed enim ut. Accumsan lacus vel facilisis volutpat est. Ut aliquam purus sit amet luctus. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
-              </p></div>
+              <div class="fr-collapse" id="comprendre-3"><p>Non.<br/>Vous pouvez également vous rendre dans une maison France Service et remplir le formulaire papier en trois exemplaires : le bleu pour la maison France Service, le blanc pour vous et le rouge à déposer dans un commissariat de police.</p></div>
             </section>
           </div>
 

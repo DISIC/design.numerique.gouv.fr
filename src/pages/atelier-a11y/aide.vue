@@ -17,190 +17,146 @@
           </ol>
         </nav>
         <h1 class="dg-cover__title">Aide</h1>
+        <p class="fr-text--lead">Les réponses à toutes vos questions devraient se trouver dans cette page. Dans le cas contraire, vous pouvez écrire au <a href="#support">support</a>.</p>
       </div>
     </section>
-
     <section class="fr-container fr-px-2w fr-mb-8w">
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-8">
-          <h3 class="fr-h1">Vue éclatée d’un vélo</h3>
-          <img src="/assets/images/veloeclate.jpg" alt="Vue éclatée d’une bicyclette" />
-          <div class="fr-container">
-            <div class="fr-grid-row fr-grid-row--right "><p class="fr-text--xs"><a rel="noopener noreferrer" href="https://wiklou.org/wiki/Fichier:Velo_vueEclatee_diffWeb_HD.jpg#file" target="_blank" title="Source de l’image - nouvelle fenêtre">Source de l’image</a></p>
-            </div>
+          <h2 class="fr-my-4w">Pour comprendre la démarche</h2>
+          <div class="fr-accordions-group">
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="comprendre-1">Pourquoi déclarer sa bicyclette ?</button>
+              </h3>
+              <div class="fr-collapse" id="comprendre-1"><p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing, <a href="test" target="_blank">link test</a> incididunt, ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et. Diam maecenas sed enim ut. Accumsan lacus vel facilisis volutpat est. Ut aliquam purus sit amet luctus. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
+              </p></div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="comprendre-2">Est-ce obligatoire de déclarer sa bicyclette ?</button>
+              </h3>
+              <div class="fr-collapse" id="comprendre-2"><p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing, <a href="test" target="_blank">link test</a> incididunt, ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et. Diam maecenas sed enim ut. Accumsan lacus vel facilisis volutpat est. Ut aliquam purus sit amet luctus. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
+              </p></div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="comprendre-3">Est-il obligatoire de la faire en ligne ?</button>
+              </h3>
+              <div class="fr-collapse" id="comprendre-3"><p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing, <a href="test" target="_blank">link test</a> incididunt, ut labore et dolore magna aliqua. Vitae sapien pellentesque habitant morbi tristique senectus et. Diam maecenas sed enim ut. Accumsan lacus vel facilisis volutpat est. Ut aliquam purus sit amet luctus. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
+              </p></div>
+            </section>
           </div>
-          <section class="fr-accordion">
-            <div class="fr-accordion__title fr-content-media__transcription">
-              <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-bike">Voir la transcription de l’image</button>
-            </div>
-            <div class="fr-collapse" id="accordion-bike">
-              <h4>Guidon</h4>
-              <ul>
-                <li>Cintre</li>
-                <li>Potence à plongeur, écrou, vis</li>
-                <li>Poignée droite/gauche</li>
-                <li>Levier de frein droit/gauche</li>
-                <li>Levier de vitesses arrière/avant</li>
-                <li>cables vitesses</li>
-                <li>butée</li>
-                <li>gaine</li>
-                <li>Cable de frein</li>
-              </ul>
-              <h4>Jeu de direction</h4>
-              <ul>
-                <li>Contre-écrou</li>
-                <li>Écrou</li>
-                <li>Cage de roulement</li>
-                <li>Roulement à bille</li>
-                <li>Cage de roulement</li>
-                <li>Colonne de direction du cadre</li>
-                <li>Cage de roulement</li>
-                <li>Roulement à bille</li>
-                <li>Fourche</li>
-              </ul>
-              <h4>Jeu de direction <span lang="en">A-headset</span></h4>
-              <ul>
-                <li>Étoile</li>
-                <li>Vis</li>
-                <li>Potence <span lang="en">A-headset</span></li>
-                <li>Rondelles</li>
-                <li>Cage de roulement</li>
-                <li>Roulement à bille</li>
-                <li>Cage de roulement</li>
-                <li>Colonne de direction du cadre</li>
-                <li>Cage de roulement</li>
-                <li>Roulement à bille</li>
-                <li>Cône</li>
-                <li>Fourche</li>
-              </ul>
-              <h4>Freins</h4>
-              <h5>Machoire classique</h5>
-              <ul>
-                <li>Vis percée</li>
-                <li>Écrou de réglage</li>
-                <li>Écrou</li>
-                <li>Rondelle</li>
-                <li>Vis percée</li>
-                <li>Écrou</li>
-                <li>Rondelle</li>
-                <li>Patin de frein</li>
-                <li>Rondelle</li>
-                <li>Écrou</li>
-              </ul>
-              <h5><span lang="en">V-brake</span></h5>
-              <ul>
-                <li>Plot de fixation à la fourche</li>
-                <li>Ressort</li>
-                <li>Écrou</li>
-                <li>Vis</li>
-                <li>Patin de frein</li>
-                <li>Ressort</li>
-                <li>Écrou</li>
-                <li>Vis</li>
-                <li>Flexible</li>
-                <li>Écrou vis percée</li>
-              </ul>
-              <h4>Roue avant</h4>
-              <ul>
-                <li>Rayon</li>
-                <li>Tête de rayon</li>
-                <li>Jante</li>
-                <li>Fond de jante</li>
-                <li>Chambre à air</li>
-                <li>Valve</li>
-                <li>Pneu</li>
-              </ul>
-              <h4>Pédalier</h4>
-              <p>...</p>
-              <h5>à clavettes</h5>
-              <p>...</p>
-              <h5>axe carré</h5>
-              <p>...</p>
-              <h4>Moyeu arrière</h4>
-              <p>...</p>
-              <h5>à roue libre</h5>
-              <p>...</p>
-              <h5>à cassette</h5>
-              <p>...</p>
-              <h4>Dérailleur arrière</h4>
-              <p>...</p>
-              <h4>Selle</h4>
-              <p>...</p>
-            </div>
-          </section>  
 
-          <h3 class="fr-h1 fr-mt-8v">Bien choisir son vélo</h3>
-          <div class="fr-table fr-table--bordered fr-table--no-caption">
-          <table summary="Quel type de vélo choisir ?"><caption>Comparatif de type de vélo</caption>
-            <thead><tr>
-              <th scope="col">Type de vélo</th>
-              <th scope="col">Pour</th>
-              <th scope="col">Contre</th>
-              <th scope="col"><3</th>
-            </tr></thead>
-            <tbody>
-            <tr>
-              <th scope="row">Route</th>
-              <td>Efficace et léger</td>
-              <td>Inutilisable sur les chemins</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <th scope="row">VTT</th>
-              <td>Léger et maniable</td>
-              <td>Inefficace sur la route</td>
-              <td>-</td>
-            </tr>
-            <tr>
-              <th scope="row">Gravel</th>
-              <td>Efficace partout</td>
-              <td></td>
-              <td>Liberté</td>
-            </tr>
-            <tr>
-              <th scope="row">Fixie</th>
-              <td>Ultra léger</td>
-              <td>Ratio unique</td>
-              <td>Sensations fortes</td>
-            </tr>
-            <tr>
-              <th scope="row">Cargo</th>
-              <td>Transport de marchandise et/ou d’être humain</td>
-              <td>Lourd et encombrant</td>
-              <td>Une voiture de moins</td>
-            </tr>
-            </tbody>
-          </table>
-        </div>
-        <h3 class="fr-h1">Exemples de pratiques fun</h3>
-          <h2 class="fr-h3  fr-mt-4v">Le gravel</h2>
-          <img src="/assets/images/gravel.jpg" alt="GTJ - juin 2023" class="fr-responsive-img"  />
-          <p>Le gravel est une pratique du vélo qui mélange des passages sur route ainsi que sur des sentiers, des pistes et des chemins. C’est une pratique particulièrement liée au voyage et à la découverte de grands espaces.</p>
-          <h2 class="fr-h3   fr-mt-4w">Le bikepacking</h2>
-          <img src="/assets/images/bikepacking.jpg" alt="" class="fr-responsive-img"  />
-          <p>Le bikepacking consiste à évoluer sur un vélo dépourvu de porte-bagages, contrairement au cyclotourisme, aussi bien pour des parcours réduits que pour de longues expéditions en autonomie. Le vélo est doté de sacoches, qui, à l’inverse du cyclotourisme, sont peu nombreuses pour voyager léger ou parcourir plus rapidement un périple. La monture du cycle sert ainsi elle-même de porte-bagages. Le cycle de bikepacking est polyvalent, permettant d’emprunter aussi bien le réseau routier que les chemins muletiers. Les mini-sacoches sont accrochées au guidon, au cadre, ou encore à la tige de selle, et sont généralement fixées par des sangles.</p>
 
-         <h2 class="fr-mt-4w">Le pignon fixe</h2>
-          <div class="fr-responsive-vid">
-            <iframe class="fr-responsive-vid__player" src="https://www.youtube.com/embed/U8Pm5Cxe5cs?controls=0&amp;start=24" title="YouTube video player" frameborder="0"  ></iframe>
+           <h2 class="fr-my-4w">Pour remplir le formulaire</h2>
+          <div class="fr-accordions-group">
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-1">Je ne connais pas la marque de ma bicyclette</button>
+              </h3>
+              <div class="fr-collapse" id="remplir-1"><p>
+                Elle doit être écrite en gros sur le tube diagonal de votre vélo et sur la facture.
+              </p></div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-2">Je ne connais pas le nuancier RAL</button>
+              </h3>
+              <div class="fr-collapse" id="remplir-2"><p>
+                Le nuancier RAL est disponible à l’adresse suivante https://www.couleursral.fr.<br/>
+                Vous pouvez juste mettre le nom commun de la couleur (vert, rouge, jaune, etc.). <br/>
+                <strong>En cas de perte ou de vol, cette information est vraiment importante.</strong>
+              </p></div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-3">Je ne connais pas le surnom</button>
+              </h3>
+              <div class="fr-collapse" id="remplir-3"><p>
+                Pas de problème !<br/>
+                Ce champ n’est pas obligatoire.
+              </p></div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-4">Je ne connais pas le type de mon vélo</button>
+              </h3>
+              <div class="fr-collapse" id="remplir-4"><p>Il existe de multiple de type de bicyclette :</p>
+              <div class="fr-table fr-table--bordered fr-table--no-caption">
+              <table summary="Quel type de vélo choisir ?"><caption>Comparatif de type de vélo</caption>
+                <thead><tr>
+                  <th scope="col">Type de vélo</th>
+                  <th scope="col">Usage</th>
+                </tr></thead>
+                <tbody>
+                <tr>
+                  <th scope="row">Route</th>
+                  <td>Rouler (vite) sur du bel asphalte.</td>
+                </tr>
+                <tr>
+                  <th scope="row">VTT</th>
+                  <td>Rouler sur les sentiers plus ou moins escarpés.</td>
+                </tr>
+                <tr>
+                  <th scope="row">VTC</th>
+                  <td>Rouler en ville ou en promenade.</td>
+                </tr>
+              <tr>
+                  <th scope="row">Fixie</th>
+                  <td>Sans roue libre. Sensations fortes garanties.</td>
+                </tr>
+              <tr>
+                  <th scope="row">Gravel</th>
+                  <td>Le vélo passe vraiment partout.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cargo</th>
+                  <td>Transport de marchandise et/ou d’être humain.</td>
+                </tr>
+              <tr>
+                  <th scope="row">Autre</th>
+                  <td>Tout ce qui n’est pas cité précédement.</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-5">Je ne veux pas mettre de photo de mon vélo</button>
+              </h3>
+              <div class="fr-collapse" id="remplir-5"><p>
+                Pas de problème !<br/>
+                Ce champ n’est pas obligatoire.
+              </p></div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-6">Je ne sais pas ce qu’est un VAE</button>
+              </h3>
+              <div class="fr-collapse" id="remplir-6"><p>
+                C’est un vélo à assistance électrique.
+              </p></div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-7">Pourquoi dire si j’ai vendu ma voiture ?</button>
+              </h3>
+              <div class="fr-collapse" id="remplir-7"><p>Si vous vendez votre voiture, l’achat de votre vélo peut être pris en charge à hauteur de 75% du prix d’achat avec un plafond à 1000 euros.
+              </p></div>
+            </section>
           </div>
-          <p>Le montage avec pignon fixe (« fixie » en anglais) est un montage particulier de la bicyclette, lorsque le pignon de la roue arrière est monté sans roue libre, ce qui le rend solidaire de la roue dans les deux sens de rotation. Obligatoire sur les pistes de vélodrome, cette pratique a été adoptée par les coursiers d’Amérique du Nord à la fin des années 90. </p>
-        <h2 class="fr-mt-4w">Ressources intéressantes</h2>
+          <h2 class="fr-my-4w" id="support">Vous n’avez pas trouvé la réponse à votre question</h2>
+          <p>Écrivez-nous à l’adresse suivante : aide [à] declarer-sa-bicyclette [point] fr.</p>
 
-          <img src="/assets/images/bikes.jpg" class="fr-responsive-img" alt="ciel nuageux" />
-          <p>Le <a href="https://wiklou.org/wiki/Accueil">wiklou</a> est un espace de partage de ressources autour du vélo sous toutes ses facettes.</p>
-          <p>Initialement conçu par et pour les ateliers vélos participatifs et solidaires, il est devenu au fil du temps un outil utilisé par toutes et tous.</p>
-          <figure class="fr-my-8w fr-quote fr-quote--column">
-              <blockquote>
-                  <p>« Life is too short to ride shit bike »</p>
-              </blockquote>
-              <figcaption>
-                  <p class="fr-quote__author">Auteur inconnu</p>
-                  <div class="fr-quote__image">
-                      <img src="/assets/images/bike.jpg" class="fr-responsive-img" alt="" />
-                  </div>
-              </figcaption>
-          </figure>
+
+
+
         </div>
       </div>
     </section>

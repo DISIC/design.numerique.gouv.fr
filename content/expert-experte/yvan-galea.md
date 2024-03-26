@@ -4,13 +4,13 @@ firstName: Yvan
 lastName: Galéa
 photo: /assets/images/formation/yvan-gaela.jpg
 job: Lead designer
-company: Dinum
+company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/yvan-galea/
 ---
 
 <p class="fr-text--lead">Texte d'introduction</p>
 
-<p class="fr-text--lead">Yvan Galéa, <span lang="en">Lead designer</span> à la direction interministérielle du Numérique (DINUM).</p>
+<p class="fr-text--lead">Yvan Galéa, <span lang="en">Lead designer</span> à la DINUM.</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

@@ -4,13 +4,13 @@ firstName: Kheira
 lastName: Belkacem
 photo: /assets/images/formation/kheira-belkacem.jpg
 job: User researcher
-company: Dinum
+company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/kbelkacem/
 ---
 
 <p class="fr-text--lead">Texte d'introduction</p>
 
-<p class="fr-text--lead">Kheira Belkacem, <span lang="en">User researcher</span> à la direction interministérielle du Numérique (DINUM).</p>
+<p class="fr-text--lead">Kheira Belkacem, <span lang="en">User researcher</span> à la DINUM.</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

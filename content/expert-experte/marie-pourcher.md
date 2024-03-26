@@ -4,13 +4,13 @@ firstName: Marie
 lastName: Pourcher
 photo: /assets/images/formation/marie-pourcher.jpg
 job: Lead user researcher
-company: Dinum
+company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/marie-pourcher-b2818271/
 ---
 
 <p class="fr-text--lead">Texte d'introduction</p>
 
-<p class="fr-text--lead">Marie Pourcher, <span lang="en">Lead user researcher</span> à la direction interministérielle du Numérique (DINUM).</p>
+<p class="fr-text--lead">Marie Pourcher, <span lang="en">Lead user researcher</span> à la DINUM.</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

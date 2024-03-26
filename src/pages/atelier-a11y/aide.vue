@@ -48,7 +48,7 @@
               <h3 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="comprendre-3">Est-il obligatoire de la faire en ligne ?</button>
               </h3>
-              <div class="fr-collapse" id="comprendre-3"><p>Non.<br/>Vous pouvez également vous rendre dans une maison France Service et remplir le formulaire papier en trois exemplaires : le bleu pour la maison France Service, le blanc pour vous et le rouge à déposer dans un commissariat de police.</p></div>
+              <div class="fr-collapse" id="comprendre-3"><p>Non.<br/>Vous pouvez également vous rendre dans une maison France Service et remplir le <a href="/assets/doc/declaration-de-bicyclette.pdf" download>formulaire</a> papier en trois exemplaires : le bleu pour la maison France Service, le blanc pour vous et le rouge à déposer dans un commissariat de police.</p></div>
             </section>
           </div>
 

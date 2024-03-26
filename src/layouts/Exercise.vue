@@ -24,14 +24,9 @@
           </div>
           <div class="fr-header__tools">
             <div class="fr-header__tools-links">
-              <ul class="fr-links-group">
-                <li>
-                  <a class="fr-link fr-fi-information-line" href="#"></a>
-                </li>
-                <li>
-                  <a class="fr-link fr-fi-mail-line" href="#"></a>
-                </li>
-              </ul>
+              <p class="fr-links-group">
+                  <a class="fr-link fr-fi-mail-line" href="/atelier-a11y/contact/"></a>
+              </p>
             </div>
           </div>
         </div>
@@ -91,16 +86,10 @@
        <div class="fr-footer__bottom">
             <ul class="fr-footer__bottom-list">
                 <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link" href="#">Plan du site</a>
+                  <a class="fr-footer__bottom-link" href="/atelier-a11y/plan-du-site/">Plan du site</a>
                 </li>
                 <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link" href="#">Accessibilité : totalement conforme</a>
-                </li>
-                <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link" href="#">Mentions légales</a>
-                </li>
-                <li class="fr-footer__bottom-item">
-                  <a class="fr-footer__bottom-link"  href="#">Données personnelles et cookies</a>
+                  <a class="fr-footer__bottom-link" href="/atelier-a11y/accessibilite/">Accessibilité : totalement conforme</a>
                 </li>
             </ul>
             <div class="fr-footer__bottom-copy">

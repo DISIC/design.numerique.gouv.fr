@@ -10,7 +10,7 @@ rs: https://www.linkedin.com/in/thomas-bonamy/
 
 <p class="fr-text--lead">Texte d'introduction</p>
 
-<p class="fr-text--lead">Thomas Bonamy, <span lang="en">UX Design</span> à la direction interministérielle du Numérique (DINUM).</p>
+<p class="fr-text--lead">Thomas Bonamy, <span lang="en">UX Designer</span> à la direction interministérielle du Numérique (DINUM).</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

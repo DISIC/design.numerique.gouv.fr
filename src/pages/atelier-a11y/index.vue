@@ -9,7 +9,7 @@
         >
           <ol class="fr-breadcrumb__list">
             <li>
-              <a class="fr-breadcrumb__link" aria-current="page">Accueil Atelier</a>
+              <a class="fr-breadcrumb__link" aria-current="page">Accueil</a>
             </li>
           </ol>
         </nav>

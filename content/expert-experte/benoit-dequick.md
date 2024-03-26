@@ -3,7 +3,7 @@ id: benoit-dequick
 firstName: Benoît
 lastName: Dequick
 photo: /assets/images/formation/benoit-dequick.jpg
-job: Accessibiliy expert
+job: Accessibility expert
 company: Dinum
 rs: https://www.linkedin.com/in/benoit-dequick/
 ---

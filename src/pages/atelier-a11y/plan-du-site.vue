@@ -24,13 +24,18 @@
       <div class="fr-col-sm-4">
         <ul>
           <li><a href="/atelier-a11y/">Accueil</a></li>
-          <li><a href="/atelier-a11y/declarer-ma-bicyclette/">Déclaration de bicyclette</a></li>
+          <li><a href="/atelier-a11y/declarer-ma-bicyclette/">Déclarer ma bicyclette</a></li>
           <li><a href="/atelier-a11y/aide/">Aide</a></li>
           <li><a href="/atelier-a11y/plan-du-site/">Plan du site</a></li>
           <li><a href="/atelier-a11y/accessibilite/">Accessibilité</a></li>
         </ul>
       </div>
     </div>
+    <figure class="fr-content-media" role="group" aria-label="Grande traversée du Jura 2022">
+    <div class="fr-content-media__img">
+        <img class="fr-responsive-img fr-ratio-16x9" src="/assets/images/gravel.jpg" alt="Tu es perdu ? C'est tout droit !" />
+    </div>
+</figure>
   </Exercise>
 </template>
 

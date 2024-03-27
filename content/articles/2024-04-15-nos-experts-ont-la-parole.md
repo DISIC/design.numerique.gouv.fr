@@ -13,11 +13,14 @@ Qui sont celles et ceux qui vous accompagnent pour améliorer les services publi
 
 Les entretiens&nbsp;:
 * [Benoît Dequick, Accessibility expert](/expert-experte/benoit-dequick/)
+* [Galdys Diankodi, Content designer](/expert-experte/gladys-diankodi/)
+* [Julie Leroy, Accessibility](/expert-experte/julie-leroy/)
 * [Kheira Belkacem, User researcher](/expert-experte/kheira-belkacem/)
 * [Marie Pourcher, Lead user researcher](/expert-experte/marie-pourcher/)
 * [Sélim Métizi, Accessibility auditor](/expert-experte/selim-metizi/)
 * [Thomas Bonamy, UX Designer](/expert-experte/thomas-bonamy/)
 * [Ugo Dessertine, Design manager](/expert-experte/ugo-dessertine/)
+* [Yaacov Cohen, Accessibility developer](/expert-experte/yaacov-cohen/)
 * [Yvan Galéa, Lead designer](/expert-experte/yvan-galea/)
 
 Merci à elles et eux d’avoir pris le temps de nous répondre. 😊

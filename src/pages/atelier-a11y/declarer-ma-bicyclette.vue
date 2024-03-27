@@ -9,7 +9,7 @@
         >
           <ol class="fr-breadcrumb__list">
             <li>
-              <a href="../"  class="fr-breadcrumb__link">Accueil Atelier</a>
+              <a href="../"  class="fr-breadcrumb__link">Accueil</a>
             </li>
             <li>
               <a class="fr-breadcrumb__link" aria-current="page">Déclarer ma bicyclette</a>
@@ -24,11 +24,11 @@
       <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
         <div class="fr-col-md-6">
           <p class="text-color"
-            >Les champs facultatifs <em>verts</em> ne sont pas obligatoires</p
+            >Les champs <em>verts</em> sont obligatoires</p
           >
           <form id="declaVelo" action="/atelier-a11y/merci/">
             <div class="fr-input-group">
-              <label class="fr-label" for="bike-brand"
+              <label class="fr-label  text-color" for="bike-brand"
                 >Marque du vélo <small>(obligatoire)</small></label
               >
               <input
@@ -47,7 +47,7 @@
               </p>
             </div>
             <div class="fr-input-group">
-              <label class="fr-label" for="bike-color"
+              <label class="fr-label  text-color" for="bike-color"
                 >Couleur du vélo <small>(obligatoire)</small></label
               >
               <span class="fr-hint-text"
@@ -70,7 +70,7 @@
               </p>
             </div>
             <div class="fr-input-group">
-              <label class="fr-label text-color" for="bike-name"
+              <label class="fr-label" for="bike-name"
                 >Surnom du vélo</label
               >
               <span class="fr-hint-text"
@@ -86,10 +86,8 @@
               />
             </div>
             <div class="fr-input-group fr-form-group">
-              <label class="fr-label text-color fr-mb-2w" for="bike-name"
-                >Type de vélo</label
-              >
-              <fieldset class="fr-fieldset">
+
+              <fieldset class="fr-fieldset"><legend class="fr-label fr-mb-2w">Type de vélo</legend>
                 <div class="fr-fieldset__content">
                   <div class="fr-radio-group">
                     <input
@@ -166,7 +164,7 @@
               </fieldset>
             </div>
             <div class="fr-input-group fr-upload-group">
-              <label class="text-color fr-label" for="bike-pic"
+              <label class="fr-label" for="bike-pic"
                 >Ajouter une photo
                 <span class="fr-hint-text"
                   >Taille maximale : 1 Mo. Formats supportés : jpg ou png.</span
@@ -219,6 +217,7 @@
                   >Pour le vent dans les cheveux (ou dans le nez, si vous portez
                   un casque)</option
                 >
+                <option value="5">Cela ne vous regarde pas</option>
               </select>
             </div>
             <div

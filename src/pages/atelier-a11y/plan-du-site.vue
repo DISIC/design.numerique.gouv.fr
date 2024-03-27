@@ -12,21 +12,23 @@
               <a href="../"  class="fr-breadcrumb__link">Accueil</a>
             </li>
             <li>
-              <a class="fr-breadcrumb__link" aria-current="page">Merci</a>
+              <a class="fr-breadcrumb__link" aria-current="page">Plan du site</a>
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title">Merci</h1>
-        <p class="fr-text--lead">Votre vélo a bien été enregistré.</p>
-        <p
-          >Note pour plus tard : même si votre vélo est immortel il faut en
-          prendre soin.</p
-        >
+        <h1 class="dg-cover__title">Plan du site</h1>
+        <p class="fr-text--lead">Vous êtes perdu ?</p>
       </div>
     </section>
     <div class=" fr-px-2w fr-mb-8w fr-grid-row fr-grid-row--gutters fr-grid-row--center">
       <div class="fr-col-sm-4">
-        <a aria-label="Je donne mon avis sur la démarche du vélo" href="https://voxusagers.numerique.gouv.fr/Demarches/3372?&view-mode=formulaire-avis&nd_mode=en-ligne-enti%C3%A8rement&nd_source=button&key=c0750ed0b02f89b76c1f7d7f9abf3d68"><img src="https://voxusagers.numerique.gouv.fr/static/bouton-bleu.svg"  /></a>
+        <ul>
+          <li><a href="/atelier-a11y/">Accueil</a></li>
+          <li><a href="/atelier-a11y/declarer-ma-bicyclette/">Déclaration de bicyclette</a></li>
+          <li><a href="/atelier-a11y/aide/">Aide</a></li>
+          <li><a href="/atelier-a11y/plan-du-site/">Plan du site</a></li>
+          <li><a href="/atelier-a11y/accessibilite/">Accessibilité</a></li>
+        </ul>
       </div>
     </div>
   </Exercise>

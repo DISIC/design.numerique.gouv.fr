@@ -148,8 +148,40 @@
               <h4 class="fr-accordion__title">
                 <button class="fr-accordion__btn" aria-expanded="false" aria-controls="remplir-7">Pourquoi dire si j’ai vendu ma voiture ?</button>
               </h4>
-              <div class="fr-collapse" id="remplir-7"><p>Si vous vendez votre voiture, l’achat de votre vélo peut être pris en charge à hauteur de 75% du prix d’achat avec un plafond à 1000 euros.
-              </p></div>
+              <div class="fr-collapse" id="remplir-7"><p>Si vous vendez votre voiture, l’achat de votre vélo peut être pris en charge à hauteur de 75% du prix d’achat avec un plafond à 1500 euros.
+              </p>
+  <div class="fr-table fr-table--no-caption">
+              <table summary="Quel type de bicyclette ">
+                <thead>
+                <tr>
+                  <td>J’achète un vélo</td>
+                  <td>Je vends ma voiture</td>
+                  <td>Aide</td>
+                </tr>  
+                </thead>
+                <tbody>
+                <tr>
+                  <td rowspan="2"> <img class="fr-responsive-img" src="/assets/images/musculaire.jpg" alt="vélo jaune" /></td>
+                  <td>oui</td>
+                  <td>750 €</td>
+                </tr>  
+                <tr>
+                  <td>non</td>
+                  <td>250 €</td>
+                </tr>  
+                <tr>
+                  <td rowspan="2"><img class="fr-responsive-img" src="/assets/images/electrique.jpg" alt="" /></td>
+                  <td>oui</td>
+                  <td>1500 €</td>
+                </tr>  
+                <tr>
+                  <td>non</td>
+                  <td>500 €</td>
+                </tr> 
+                </tbody> 
+              </table>
+  </div>
+              </div>
             </section>
           </div>
           <h2 class="fr-my-4w" id="support">Vous n’avez pas trouvé la réponse à votre question</h2>

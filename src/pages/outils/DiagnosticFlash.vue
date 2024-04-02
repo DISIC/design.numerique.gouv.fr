@@ -17,10 +17,10 @@
       </nav>
 
       <h1>Diagnostic flash</h1>
-      <p class="fr-text--lead">Le <strong>diagnostic flash</strong> permet d’estimer de manière partielle l’accessibilité et la qualité d’un site ou d’un service en ligne, sans avoir d’expertise particulière et en n’y consacrant que peu de temps.</p>
+      <p class="fr-text--lead">Le <strong>diagnostic flash</strong> permet d’estimer de manière <strong>rapide et partielle</strong> l’accessibilité et la qualité d’un site ou d’un service en ligne, sans avoir d’expertise particulière.</p>
+      <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
+        <p class="fr-callout__text">Il est inutile de faire un audit de conformité RGAA tant que tout ces critères ne sont pas respectés.</p></div>
       <p>Ces tests sont très simples à réaliser et peuvent être intégrés à toutes les phases de tests, de recettes ou de validations fonctionnelles et techniques.</p>
-      <p>Le badge <abbr title="accessibilité" class="fr-badge fr-badge--sm">A11É</abbr> indique que le critère touche à l’accessibilité du site et vient du Référentiel général d’amélioration de l’accessibilité.</p>
-
 
       <div class="quick-test">
         <section :class="'cat'+cat.node.id" v-for="cat in $page.allDiagFlashCat.edges"  >
@@ -29,7 +29,7 @@
               <li  class="fr-accordion" v-for="(criterion, index) in $page.allDiagFlashCriterion.edges.filter(edge => edge.node.cat.id === cat.node.id)">
                 <h3 class="fr-accordion__title"><!--span class="numero">{{ criterion.node.id }}</span-->
                   <button class=" fr-accordion__btn" aria-expanded="false" :aria-controls="criterion.node.id">
-                     <span><span>{{ criterion.node.title }} </span> <span v-if="criterion.node.tag" class="fr-badge fr-badge-sm"> {{ criterion.node.tag }}</span></span>
+                     <span>{{ criterion.node.title }} </span> 
                   </button>
                 </h3>
                 <div class="fr-collapse" :id="criterion.node.id">

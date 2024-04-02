@@ -14,20 +14,60 @@ rs: https://www.linkedin.com/in/yvan-galea/
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 
-Réponse à la question
+J&rsquo;ai suivi un cursus plutôt tech au début avec une licence en informatique où j&rsquo;ai surtout appris le développement informatique. Ensuite je me suis spécialisé dans la conception centrée sur les utilisatrices et les utilisateurs et j&rsquo;ai obtenu un master en Interaction Humain Machine à l&rsquo;université de Toulouse Paul&nbsp;Sabatier.
 
-<h2 class="fr-h6">Ta mission, c’est quoi pour toi&nbsp;?</h2>
+Après mon master, j&rsquo;ai travaillé pendant 5&nbsp;ans chez Sopra&nbsp;Steria à Toulouse en tant qu&rsquo;UX/UI Designer. J&rsquo;y ai réalisé aussi bien des prestations en amont des développements que des projets chez le client où j&rsquo;ai pu concevoir un produit et suivre ses développements. Tout au long de cette expérience, j&rsquo;ai travaillé majoritairement sur des logiciels métier pouvant nécessiter une forte expertise (par exemple, des outils de supervision aéronautique pour le contrôle aérien).
 
-Réponse à la question
+J&rsquo;ai ensuite travaillé 2 ans chez Bluenove en tant que lead UX Designer. C&rsquo;est une entreprise qui fait de l&rsquo;intelligence collective et qui développe sa propre plateforme.
+
+Je suis fraîchement arrivé à la DINUM en ce début d&rsquo;année dans l&rsquo;équipe Design et recherche utilisateur de la Brigade d&rsquo;Intervention Numérique. Celle-ci accompagne les ministères et organismes sous tutelle de l&rsquo;État dans l&rsquo;adoption d&rsquo;une démarche de conception centrée sur les usagers et les usagères pour leurs produits et services numériques. En plus du design et de la recherche utilisateur, la Brigade regroupe des experts en accessibilité, en numérique éco-responsable, en transformation numérique et des mentors.
+
+<h2 class="fr-h6">Ta mission, c&rsquo;est quoi pour toi&nbsp;?</h2>
+
+Notre équipe intervient auprès des ministères et des opérateurs sur tout le cycle de vie d&rsquo;une démarche centrée usager (de la recherche aux tests en passant par la conception de maquettes). Dans l&rsquo;équipe, on appelle ces interventions des accompagnements.
+
+Ma mission est de m&rsquo;assurer que nos accompagnements permettent aux ministères et opérateurs de développer des services publics utiles, utilisables et désirables par toutes leurs utilisatrices et tous leurs utilisateurs.
+
+Ça veut dire d&rsquo;une part que je supervise les designers dans leurs accompagnements pour assurer une qualité de livrable et une expérience cohérente des usagères et usager des services publics.
+
+D&rsquo;autre part, je mets en place ou améliore avec l&rsquo;équipe de designers de la Brigade les outils et les méthodes qui permettent de&nbsp;:
+
+- Renforcer la collaboration des différentes expertises de l&rsquo;équipe&nbsp;;
+- Améliorer la qualité de ce que l&rsquo;on produit&nbsp;;
+- Favoriser la compréhension de l&rsquo;intérêt du design auprès des ministères et opérateurs que l&rsquo;on accompagne.
+
+On a commencé à identifier collectivement des leviers à mettre en place pour atteindre ces objectifs. On va par la suite les prioriser et les traiter par petites équipes.
 
 <h2 class="fr-h6">À quoi ressemblent tes activités types&nbsp;?</h2>
 
-Réponse à la question
+Il y en a de trois sortes&nbsp;:
 
-<h2 class="fr-h6">Le projet qui t’a le plus marqué et pourquoi&nbsp;?</h2>
+Premièrement, travailler sur les leviers que j&rsquo;ai évoqués à la question précédente. Pour l&rsquo;instant il s&rsquo;agit surtout de faire l&rsquo;état des lieux de ce qui est fait aujourd&rsquo;hui dans l&rsquo;équipe et de se renseigner sur ce qui existe et fonctionne ailleurs pour mettre en place des solutions adaptées à notre équipe.
 
-Réponse à la question
+Ensuite, c&rsquo;est tout ce qui concerne les accompagnements. J&rsquo;ai des points de suivis avec les designers de l&rsquo;équipe pour avoir une vision d&rsquo;ensemble sur ce qui est fait, ce qu&rsquo;il reste à faire, traiter d&rsquo;éventuels éléments bloquants. Ces points sont aussi l&rsquo;occasion de faire des liens entre les accompagnements. Si une problématique est traitée par plusieurs accompagnements en même temps, il vaut mieux s&rsquo;y poser collectivement plutôt que de tout refaire de son côté.
+
+Je fais aussi des revues de conception sur les projets quand c&rsquo;est nécessaire (au moins en amont d&rsquo;une livraison). Soit seul avec la personne qui a produit, soit collectivement lors de notre point d&rsquo;équipe pour avoir plus de retours et permettre d&rsquo;élever encore la qualité du rendu.
+
+Et pour finir, ce qui tourne autour de la stratégie UX.
+
+Pour ça, j&rsquo;ai des échanges avec le responsable du Design et la responsable de la recherche utilisateur pour cadrer les nouveaux accompagnements et adapter notre stratégie pour répondre le mieux possible aux besoins des ministères et opérateurs. On a aussi des réunions avec les autres expertises de la Brigade pour se synchroniser, partager nos expériences et s&rsquo;améliorer en continu.
+
+<h2 class="fr-h6">Le projet qui t&rsquo;a le plus marqué et pourquoi&nbsp;?</h2>
+
+Je pense à la plainte en ligne. Un site web qui permettra de porter plainte entièrement en ligne.
+
+C&rsquo;est un accompagnement qui est toujours en cours pour un produit qui sera bientôt disponible.
+
+Initialement il s&rsquo;agissait d&rsquo;une demande pour des tests utilisateurs uniquement. Aujourd&rsquo;hui, on les accompagne aussi sur la conception du produit. Côté Brigade, l&rsquo;équipe est composée de 3 expertises différentes et complémentaires&nbsp;: recherche utilisateur, design UX/UI, content design.
+
+C&rsquo;est particulièrement intéressant parce que c&rsquo;est la première fois que l&rsquo;on travaille avec une content Designer. Historiquement l&rsquo;équipe était habituée à travailler en binôme&nbsp;: chargé·e de recherche utilisateur et designer en faisant aussi intervenir des expert·es de l&rsquo;accessibilité. Avec cette nouvelle compétence, il a fallu s&rsquo;organiser pour comprendre comment créer une synergie.
+
+Quand la V1 du produit sortira, ça sera aussi l&rsquo;occasion de faire un retour d&rsquo;expérience pour pouvoir le répliquer sur d&rsquo;autres accompagnements de manière encore plus fluide et même d&rsquo;intégrer certaines bonnes pratiques de content design comme on le fait avec l&rsquo;accessibilité et le design.
 
 <h2 class="fr-h6">Un service public en ligne que tu aimes particulièrement&nbsp;?</h2>
 
-Réponse à la question
+Très récemment, j'ai utilisé <a href="https://https://www.jeveuxaider.gouv.fr/">jeveuxaider.gouv.fr/</a> que j&rsquo;ai vraiment apprécié. Le site permet de trouver une association pour devenir bénévole. Je voulais trouver une association qui aide des personnes éloignées de l&rsquo;informatique. En quelques clics, j&rsquo;ai pu trouver Konexio, qui organise des formations d&rsquo;initiation à l&rsquo;informatique pas très loin de chez moi et qui correspond à mes disponibilités.
+
+Le parcours est très rapide. J&rsquo;ai eu accès à toutes les informations nécessaires (une présentation de l&rsquo;association, les heures et le lieu de la mission, un descriptif de la mission) sans éléments supplémentaires inutiles. J’ai pu contacter l’association directement depuis la plateforme. Le site répond donc parfaitement à mes besoins et seulement mes besoins.
+
+Je trouve que c&rsquo;est un bon exemple de par sa simplicité. Pas de superflu, pas de fonctionnalités inutiles qui pourraient rendre le site confus.

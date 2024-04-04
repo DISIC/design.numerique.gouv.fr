@@ -20,7 +20,7 @@ Je suis maintenant designer dans le numérique depuis bientôt 15&nbsp;ans. J&rs
 
 <h2 class="fr-h6">Ta mission, c’est quoi pour toi&nbsp;?</h2>
 
-Améliorer et donner du sens à nos services publics numériques. Questionner leurs intérêts, comprendre les décisions qui ont été prises, comprendre et travailler avec les personnes qui les façonnent et bien sûr impliquer celles et ceux qu&rsquo;ils servent. Ma mission est de faire en sorte que ces services publics numériques améliorent le quotidien des usagers et pas l&rsquo;inverse. Ils doivent participer à leur autonomie, les aider à faire des choix éclairés, les informer et doivent être représentatifs de la devise «&nbsp;liberté, égalité, fraternité&nbsp;».
+Améliorer et donner du sens à nos services publics numériques. Questionner leurs intérêts, comprendre les décisions qui ont été prises, comprendre et travailler avec les personnes qui les façonnent et bien sûr impliquer celles et ceux qu&rsquo;ils servent. Ma mission est de faire en sorte que ces services publics numériques améliorent le quotidien des usagers et pas à l&rsquo;inverse qu'ils le rendent plus compliqué. Ils doivent participer à leur autonomie, les aider à faire des choix éclairés, les informer et doivent être représentatifs de la devise «&nbsp;liberté, égalité, fraternité&nbsp;».
 
 <h2 class="fr-h6">À quoi ressemblent tes activités types&nbsp;?</h2>
 

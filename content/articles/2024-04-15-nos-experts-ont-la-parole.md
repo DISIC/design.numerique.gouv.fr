@@ -18,7 +18,7 @@ Les entretiens&nbsp;:
 * [Kheira Belkacem, (User researcher)](/expert-experte/kheira-belkacem/)
 * [Marie Pourcher, (Lead user researcher)](/expert-experte/marie-pourcher/)
 * [Sélim Métizi, (Accessibility auditor)](/expert-experte/selim-metizi/)
-* [Thomas Bonamy, (UX Designer)](/expert-experte/thomas-bonamy/)
+* [Thomas Bonamy, (UX designer)](/expert-experte/thomas-bonamy/)
 * [Ugo Dessertine, (Chief design officer)](/expert-experte/ugo-dessertine/)
 * [Yaacov Cohen, (Accessibility developer)](/expert-experte/yaacov-cohen/)
 * [Yvan Galéa, (Lead designer)](/expert-experte/yvan-galea/)

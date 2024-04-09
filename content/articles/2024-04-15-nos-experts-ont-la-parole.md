@@ -14,7 +14,7 @@ Qui sont celles et ceux qui vous accompagnent pour améliorer les services publi
 Les entretiens&nbsp;:
 * [Benoît Dequick, (Accessibility expert)](/expert-experte/benoit-dequick/)
 * [Galdys Diankodi, (Content designer)](/expert-experte/gladys-diankodi/)
-* [Julie Leroy, (Accessibility)](/expert-experte/julie-leroy/)
+* [Julie Leroy, (Accessibility expert)](/expert-experte/julie-leroy/)
 * [Kheira Belkacem, (User researcher)](/expert-experte/kheira-belkacem/)
 * [Marie Pourcher, (Lead user researcher)](/expert-experte/marie-pourcher/)
 * [Sélim Métizi, (Accessibility auditor)](/expert-experte/selim-metizi/)

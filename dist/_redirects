@@ -1,0 +1,19 @@
+/accessibilite-numerique/solutions https://www.notion.so/designgouv/Je-veux-rendre-accessible-mes-exp-riences-num-riques-ce1966fa48d940aca486e8bac02454bd
+/services /accompagnement/
+/fish https://ows-185-21-194-29.cloudgouv-eu-west-1.compute.outscale.com/
+/audits/:administration/*  https://dsn-audits-:administration.netlify.app/:splat 200
+/articles/2021-10-29-formations-design-accessibilite-recherche /articles/2021-10-29-formations-design-accessibilite-recherche-ecoconception/
+/accessibilite-numerique/accord-cadre-dae   /accessibilite-numerique/prestations-accessibilite-numerique/
+/commando-ux/saison-1/ /accompagnement/
+/equipe/ /a-propos/
+/formations/recherche-utilisateur/introduction-recherche-utilisateur/ /formations/recherche-utilisateur/
+/formations/accessibilite/introduction-accessibilite-numerique/ /formations/accessibilite/
+/formations/design/introduction-design-centre-usagers/ /formations/design/
+/formations/ecoconception/introduction-ecoconception/ /formations/ecoconception/
+/formations/simplification-information/simplifier-information/ /formations/design/simplifier-information/
+/formations/simplification-information/ /formations/design/simplifier-information/
+/commando-ux/partager-interet/ /recrutement/partager-interet/
+/commando-ux/* /accompagnement/commando-ux/:splat
+/accompagnement/commando-ux/ /accompagnement/
+/accessibilite-numerique/jeu-de-oaa/  /outils/jeu-de-oaa/
+/accessibilite-numerique/roles-cles/  /outils/roles-cles/

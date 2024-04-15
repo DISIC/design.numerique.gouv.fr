@@ -3,14 +3,14 @@ id: benoit-dequick
 firstName: Benoît
 lastName: Dequick
 photo: /assets/images/formation/benoit-dequick.jpg
-job: Accessibility expert
+job: Responsable de l'équipe accessibilité
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/benoit-dequick/
 ---
 
-<p class="fr-text--lead">Texte d'introduction</p>
+<p class="fr-text--lead">L’accès au droit des citoyens, le fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Les métiers du design et de l’accessibilité sont donc indispensables, mais ils restent souvent mal connus ou mal représentés. Pour les incarner, la Brigade d’intervention numérique (dont fait partie DesignGouv) donne la parole à ses expertes et experts.</p>
 
-<p class="fr-text--lead">Benoît Dequick, <span lang="en">Accessibility expert</span> à la DINUM.</p>
+<p class="fr-text--lead">Aujourd’hui, Benoît Dequick, responsable de l’équipe accessibilité.</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

@@ -25,4 +25,4 @@ L&rsquo;équipe DesignGouv est organisée autour de deux pôles&nbsp;: design et
 - Benoît Dequick, responsable de l&rsquo;équipe accessibilité -&nbsp;Disponible prochainement
   - Yaacov Cohen, expert accessibilité (centré sur le développement) -&nbsp;Disponible prochainement
   - Julie Leroy, experte accessibilité (centré sur l&rsquo;accompagnement) -&nbsp;Disponible prochainement
-  - Sélim Metizi, expert accessibilité (centré sur l&rsquo;audit) -&nbsp;Disponible prochainement
+  - Sélim Méziti, expert accessibilité (centré sur l&rsquo;audit) -&nbsp;Disponible prochainement

@@ -24,7 +24,7 @@ Je suis fraîchement arrivé à la DINUM en ce début d&rsquo;année dans l&rsqu
 
 <h2 class="fr-h6">Ta mission, c&rsquo;est quoi pour toi&nbsp;?</h2>
 
-Notre équipe intervient auprès des ministères et des opérateurs sur tout le cycle de vie d&rsquo;une démarche centrée usager (de la recherche aux tests en passant par la conception de maquettes). Dans l&rsquo;équipe, on appelle ces interventions des accompagnements.
+Notre équipe intervient auprès des ministères et des opérateurs sur tout le cycle de vie d&rsquo;une démarche (de la recherche aux tests en passant par la conception de maquettes). Dans l&rsquo;équipe, on appelle ces interventions des accompagnements.
 
 Ma mission est de m&rsquo;assurer que nos accompagnements permettent aux ministères et opérateurs de développer des services publics utiles, utilisables et désirables par toutes leurs utilisatrices et tous leurs utilisateurs.
 

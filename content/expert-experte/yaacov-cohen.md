@@ -3,14 +3,14 @@ id: yaacov-cohen
 firstName: Yaacov
 lastName: Cohen
 photo: /assets/images/formation/yaacov-cohen.jpg
-job: Accessibility developer
+job: Expert accessibilité
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/yaacovcohen/
 ---
 
-<p class="fr-text--lead">Texte d&rsquo;introduction</p>
+<p class="fr-text--lead">L’accès au droit des citoyens, le fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Les métiers du design et de l’accessibilité sont donc indispensables, mais ils restent souvent mal connus ou mal représentés. Pour les incarner, la Brigade d’intervention numérique (dont fait partie DesignGouv) donne la parole à ses expertes et experts.</p>
 
-<p class="fr-text--lead">Yaacov Cohen, <span lang="en">Accessibility developer</span> à la DINUM.</p>
+<p class="fr-text--lead">Aujourd’hui, Yaacov Cohen, expert accessibilité (centré sur le développement).</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

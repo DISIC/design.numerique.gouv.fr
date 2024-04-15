@@ -3,14 +3,14 @@ id: yvan-galea
 firstName: Yvan
 lastName: Galéa
 photo: /assets/images/formation/yvan-gaela.jpg
-job: Lead designer
+job: Responsable de l’équipe design
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/yvan-galea/
 ---
 
-<p class="fr-text--lead">Texte d'introduction</p>
+<p class="fr-text--lead">L’accès au droit des citoyens, le fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Les métiers du design et de l’accessibilité sont donc indispensables, mais ils restent souvent mal connus ou mal représentés. Pour les incarner, la Brigade d’intervention numérique (dont fait partie DesignGouv) donne la parole à ses expertes et experts.</p>
 
-<p class="fr-text--lead">Yvan Galéa, <span lang="en">Lead designer</span> à la DINUM.</p>
+<p class="fr-text--lead">Aujourd’hui, Yvan Galéa, responsable de l’équipe design (<span lang="en">lead designer</span>).</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

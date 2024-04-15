@@ -3,14 +3,14 @@ id: marie-pourcher
 firstName: Marie
 lastName: Pourcher
 photo: /assets/images/formation/marie-pourcher.jpg
-job: Lead user researcher
+job: Responsable de l’équipe recherche utilisateur
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/marie-pourcher-b2818271/
 ---
 
-<p class="fr-text--lead">Texte d'introduction</p>
+<p class="fr-text--lead">L’accès au droit des citoyens, le fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Les métiers du design et de l’accessibilité sont donc indispensables, mais ils restent souvent mal connus ou mal représentés. Pour les incarner, la Brigade d’intervention numérique (dont fait partie DesignGouv) donne la parole à ses expertes et experts.</p>
 
-<p class="fr-text--lead">Marie Pourcher, <span lang="en">Lead user researcher</span> à la DINUM.</p>
+<p class="fr-text--lead">Marie Pourcher, responsable de l’équipe recherche utilisateur (<span lang="en">lead user researcher</span>)</p>
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 

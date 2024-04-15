@@ -46,7 +46,7 @@
       <div class="fr-card__body">
         <div class="fr-card__content">
            <h2>Évaluer</h2>
-           <p class="fr-card__desc fr-text--lg">Estimer la qualité, l’accessibilité et le design de votre site en peu de temps avec le <g-link to="/outils/diagnostic-flash/"><strong>diagnostic flash</strong></g-link></p>
+           <p class="fr-card__desc fr-text--lg">Estimer l’accessibilité de votre site en peu de temps avec le <g-link to="/outils/diagnostic-flash/"><strong>diagnostic flash</strong></g-link></p>
         </div>
       </div>
     </div>

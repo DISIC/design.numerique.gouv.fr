@@ -3,7 +3,7 @@ id: kheira-belkacem
 firstName: Kheira
 lastName: Belkacem
 photo: /assets/images/formation/kheira-belkacem.jpg
-job: User researcher
+job: Chargée de recherche utilisateur
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/kbelkacem/
 ---

@@ -24,7 +24,7 @@ Je suis fraîchement arrivé à la DINUM en ce début d&rsquo;année dans l&rsqu
 
 <h2 class="fr-h6">Ta mission, c&rsquo;est quoi pour toi&nbsp;?</h2>
 
-Notre équipe intervient auprès des ministères et des opérateurs sur tout le cycle de vie d&rsquo;une démarche (de la recherche aux tests en passant par la conception de maquettes). Dans l&rsquo;équipe, on appelle ces interventions des accompagnements.
+Notre équipe intervient auprès des ministères et des opérateurs sur tout le cycle de vie d&rsquo;une démarche (de la recherche aux tests usagers en passant par la conception de maquettes). Dans l&rsquo;équipe, on appelle ces interventions des accompagnements.
 
 Ma mission est de m&rsquo;assurer que nos accompagnements permettent aux ministères et opérateurs de développer des services publics utiles, utilisables et désirables par toutes leurs utilisatrices et tous leurs utilisateurs.
 
@@ -44,7 +44,7 @@ Il y en a de trois sortes&nbsp;:
 
 Premièrement, travailler sur les leviers que j&rsquo;ai évoqués à la question précédente. Pour l&rsquo;instant il s&rsquo;agit surtout de faire l&rsquo;état des lieux de ce qui est fait aujourd&rsquo;hui dans l&rsquo;équipe et de se renseigner sur ce qui existe et fonctionne ailleurs pour mettre en place des solutions adaptées à notre équipe.
 
-Ensuite, c&rsquo;est tout ce qui concerne les accompagnements. J&rsquo;ai des points de suivis avec les designers de l&rsquo;équipe pour avoir une vision d&rsquo;ensemble sur ce qui est fait, ce qu&rsquo;il reste à faire, traiter d&rsquo;éventuels éléments bloquants. Ces points sont aussi l&rsquo;occasion de faire des liens entre les accompagnements. Si une problématique est traitée par plusieurs accompagnements en même temps, il vaut mieux s&rsquo;y poser collectivement plutôt que de tout refaire de son côté.
+Ensuite, c&rsquo;est tout ce qui concerne les accompagnements. J&rsquo;ai des points de suivis avec les designers de l&rsquo;équipe pour avoir une vision d&rsquo;ensemble sur ce qui est fait, ce qu&rsquo;il reste à faire, traiter d&rsquo;éventuels éléments bloquants. Ces points sont aussi l&rsquo;occasion de faire des liens entre les accompagnements. Si une problématique est traitée par plusieurs accompagnements en même temps, il vaut mieux s&rsquo;y pencher collectivement plutôt que de tout refaire de son côté.
 
 Je fais aussi des revues de conception sur les projets quand c&rsquo;est nécessaire (au moins en amont d&rsquo;une livraison). Soit seul avec la personne qui a produit, soit collectivement lors de notre point d&rsquo;équipe pour avoir plus de retours et permettre d&rsquo;élever encore la qualité du rendu.
 

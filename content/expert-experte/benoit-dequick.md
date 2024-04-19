@@ -8,7 +8,7 @@ company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/benoit-dequick/
 ---
 
-<p class="fr-text--lead">L’accès au droit des citoyens, le fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Les métiers du design et de l’accessibilité sont donc indispensables, mais ils restent souvent mal connus ou mal représentés. Pour les incarner, la Brigade d’intervention numérique (dont fait partie DesignGouv) donne la parole à ses expertes et experts.</p>
+<p class="fr-text--lead">L’accès des citoyens à leurs droits, le bon fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Pour cela, les métiers du design et de l’accessibilité sont indispensables, mais ils restent souvent mal connus ou mal mis en œuvre. Pour les incarner, nous donnons la parole à nos expertes et experts.</p>
 
 <p class="fr-text--lead">Aujourd’hui, Benoît Dequick, responsable de l’équipe accessibilité.</p>
 
@@ -41,10 +41,10 @@ Je trouve particulièrement gratifiant et utile d’aider les gens motivés à p
 
 J’ai plusieurs cas que j’aimerais évoquer, donc je prétendrai que la question est au pluriel.
 
-Déjà, je me réjouis qu’à travers l’outil de Diagnostic flash et les formations que nous proposons, les agents qui travaillent sur des services numériques s’approprie le sujet, «&nbsp;s’encapacitent&nbsp;», soient outillés et autonomes.
+Déjà, je me réjouis qu’à travers l’outil de Diagnostic flash et les formations que nous proposons, les agents qui travaillent sur des services numériques s’approprient le sujet, «&nbsp;s’encapacitent&nbsp;», soient outillés et autonomes.
 
-Aussi, je voudrais évoquer le <a href="https://www.systeme-de-design.gouv.fr/">système de design de l’État</a>. Il est porté par le SIG (le Service d’information du gouvernement), qui nous a associé pour les aspects relatifs à l’accessibilité. Je pense qu’il s’agit d’une belle réussite qui permet de meilleurs services numériques&nbsp;: en proposant des composants web réutilisables, accessibles, respectant la marque de l’État, les services de l’État propose une meilleure expérience aux usagers -&nbsp;et à *tous* les usagers.
+Aussi, je voudrais évoquer le <a href="https://www.systeme-de-design.gouv.fr/">système de design de l’État</a>. Il est porté par le SIG (le Service d’information du gouvernement), qui nous a associés pour les aspects relatifs à l’accessibilité. Je pense qu’il s’agit d’une belle réussite qui permet de meilleurs services numériques&nbsp;: en proposant des composants web réutilisables, accessibles, respectant la marque de l’État, les services de l’État proposent une meilleure expérience aux usagers -&nbsp;et à *tous* les usagers.
 
 <h2 class="fr-h6">Un service public en ligne que tu aimes particulièrement&nbsp;?</h2>
 
-La «&nbsp;<a href="https://design.numerique.gouv.fr/demo/mauvais-exemple/">Déclaration de bicyclette</a>&nbsp;», sans hésiter&nbsp;! C’est un service qui n’existe pas (encore), mais que j’ai créé comme exercice pour les formations. J’y ai mis les principales erreurs que l’on rencontre sur les -&nbsp;vrais&nbsp;- services en ligne. Voir les participants les trouver et s’insurger contre chacune d’entre elle, avec la compréhension de leur conséquence, reste un très grand plaisir&nbsp;!
+La «&nbsp;<a href="https://design.numerique.gouv.fr/demo/mauvais-exemple/">Déclaration de bicyclette</a>&nbsp;», sans hésiter&nbsp;! C’est un service qui n’existe pas (encore), mais que j’ai créé comme exercice pour les formations. J’y ai mis les principales erreurs que l’on rencontre sur les -&nbsp;vrais&nbsp;- services en ligne. Voir les participants les trouver et s’insurger contre chacune d’entre elles, avec la compréhension de leur conséquence, reste un très grand plaisir&nbsp;!

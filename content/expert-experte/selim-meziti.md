@@ -8,7 +8,7 @@ company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/selimmeziti/
 ---
 
-<p class="fr-text--lead">L’accès au droit des citoyens, le fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Les métiers du design et de l’accessibilité sont donc indispensables, mais ils restent souvent mal connus ou mal représentés. Pour les incarner, la Brigade d’intervention numérique (dont fait partie DesignGouv) donne la parole à ses expertes et experts.</p>
+<p class="fr-text--lead">L’accès des citoyens à leurs droits, le bon fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Pour cela, les métiers du design et de l’accessibilité sont indispensables, mais ils restent souvent mal connus ou mal mis en œuvre. Pour les incarner, nous donnons la parole à nos expertes et experts.</p>
 
 <p class="fr-text--lead">Aujourd'hui, Sélim Méziti, expert accessibilité (centré sur l’audit).</p>
 

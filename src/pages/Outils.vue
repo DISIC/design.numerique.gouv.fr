@@ -93,7 +93,7 @@
           </li>
           <li>
             le <a href="diagnostic-flash">diagnostic flash</a> permet d’estimer
-            de manière partielle la qualité, l’accessibilité et le design d’un
+            de manière <strong>rapide et partielle</strong> l’accessibilité d’un
             site ou d’une démarche en ligne, sans avoir d’expertise particulière
             et en n’y consacrant que peu de temps ;
           </li>
@@ -134,7 +134,7 @@
               title="Ara - nouvelle fenêtre"
               target="_blank" rel="noreferrer noopener"
               ><strong>Ara</strong></a
-            > est un outil en ligne pour réaliser des audits d’accessibilité numérique, générer un rapport d’accessibilité et rédiger la déclaration d’accessibilité ;
+            > permet de réaliser des audits d’accessibilité numérique, générer un rapport d’accessibilité et rédiger la déclaration d’accessibilité ;
           </li>
           <li>
             L’<strong>assistant RGAA</strong> facilite la réalisation d’audit en

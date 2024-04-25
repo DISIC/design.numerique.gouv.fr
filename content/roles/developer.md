@@ -22,7 +22,7 @@ cat:
 ### Vos outils
 
 * Le [validateur HTML du W3C](https://validator.w3.org/) ;
+* Le [diagnostic flash](/outils/diagnostic-flash) permet d’estimer de manière **partielle et rapide** l’accessibilité d’un site ;
 * Les [68 critères de la checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22D%C3%A9veloppement%22,%22Int%C3%A9gration%22%5D) ;
 * Le [mémo dev](/outils/memo-dev) regroupe l’essentiel des recommandations ;
-* Le [diagnostic flash](/outils/diagnostic-flash) permet d’estimer de manière partielle et rapide la qualité et l’accessibilité d’un site ;
 * Le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}.

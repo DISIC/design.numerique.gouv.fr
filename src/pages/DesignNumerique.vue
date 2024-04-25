@@ -304,7 +304,7 @@
             <div class="fr-collapse" id="accordion-17">
 
               <h4 class="fr-h6 fr-mb-2w">En autonomie</h4>
-              <p class="fr-mb-2w">Le diagnostic flash que nous avons élaboré vous aide à évaluer rapidement la qualité de votre site. Il ne se substitue pas à un véritable audit.</p>
+              <p class="fr-mb-2w">Le diagnostic flash que nous avons élaboré vous aide à évaluer rapidement l’accessibilité de votre site. Il ne se substitue pas à un véritable audit.</p>
               <a href="/outils/diagnostic-flash/" class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w">Le diagnostic flash</a>
 
               <h4 class="fr-h6 fr-mb-2w">Avec un audit</h4>
@@ -373,7 +373,7 @@
                                   </li>
                                 </ul>
                               </div>
-                              <p class="fr-card__desc">Estimez de manière partielle l’accessibilité et la qualité de votre produit ou service numérique.</p>
+                              <p class="fr-card__desc">Estimez de manière <strong>partielle et rapide</strong> l’accessibilité de votre produit ou service numérique.</p>
                           </div>
                       </div>
                   </div>

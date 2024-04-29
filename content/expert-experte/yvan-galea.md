@@ -2,7 +2,7 @@
 id: yvan-galea
 firstName: Yvan
 lastName: Galéa
-photo: /assets/images/formation/yvan-gaela.jpg
+photo: /assets/images/formation/yvan-galea.jpg
 job: Responsable de l’équipe design
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/yvan-galea/

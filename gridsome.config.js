@@ -127,6 +127,13 @@ module.exports = {
       }
     },
     {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Expert',
+        path: './content/expert-experte/*.md',
+      }
+    },
+    {
       use: "gridsome-plugin-i18n",
       options: {
         locales: [
@@ -275,6 +282,8 @@ module.exports = {
     Formation: '/formations/:Slug',
     Accompagnement: '/accompagnement/:Name',
     Entretien: '/entretiens/:firstName-:lastName',
+    Expert: '/expert-experte/:firstName-:lastName'
+    //ExpertsEtExpertes: '/experts/:lastName'
     // Poste: '/recrutement/:Slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js
   },

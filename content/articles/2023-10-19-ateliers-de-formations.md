@@ -2,7 +2,7 @@
 title: Participez à nos ateliers de formation !
 slug: 2023-12-18-ateliers-de-formations
 publishedDate: 2024-03-07
-tags: ["Formation", "Design", "Accessibilité", "RGAA", "Écoconception"]
+tags: ["formation", "design", "accessibilité", "RGAA", "écoconception"]
 illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
 description: "Le deuxième trimestre 2024, la Direction interministérielle du numérique (DINUM) organise 7 ateliers de formation sur le design, la recherche utilisateur, l'accessibilité et l'écoconception pour aider les agents à améliorer les services publics en ligne."
 ---

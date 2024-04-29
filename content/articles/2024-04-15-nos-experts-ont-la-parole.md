@@ -1,7 +1,7 @@
 ---
 title: Nos experts ont la parole
-slug: 2024-04-15-nos-experts-ont-la-parole
-publishedDate: 2024-04-15
+slug: 2024-04-29-nos-experts-ont-la-parole
+publishedDate: 2024-04-29
 tags: ["design", "accessibilité", "recherche utilisateur"]
 illustration: ./illustrations/2023-10-18-paroles-de-responsables-du-design.png
 description: Les expertes et experts en recherche utilisateur, design et accessibilité numérique de la Brigade d'intervention numérique prennent la parole

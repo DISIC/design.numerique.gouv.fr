@@ -66,7 +66,7 @@ Quand la V1 du produit sortira, ça sera aussi l&rsquo;occasion de faire un reto
 
 <h2 class="fr-h6">Un service public en ligne que tu aimes particulièrement&nbsp;?</h2>
 
-Très récemment, j'ai utilisé <a href="https://https://www.jeveuxaider.gouv.fr/">jeveuxaider.gouv.fr/</a> que j&rsquo;ai vraiment apprécié. Le site permet de trouver une association pour devenir bénévole. Je voulais trouver une association qui aide des personnes éloignées de l&rsquo;informatique. En quelques clics, j&rsquo;ai pu trouver Konexio, qui organise des formations d&rsquo;initiation à l&rsquo;informatique pas très loin de chez moi et qui correspond à mes disponibilités.
+Très récemment, j'ai utilisé <a href="https://www.jeveuxaider.gouv.fr">jeveuxaider.gouv.fr</a> que j&rsquo;ai vraiment apprécié. Le site permet de trouver une association pour devenir bénévole. Je voulais trouver une association qui aide des personnes éloignées de l&rsquo;informatique. En quelques clics, j&rsquo;ai pu trouver Konexio, qui organise des formations d&rsquo;initiation à l&rsquo;informatique pas très loin de chez moi et qui correspond à mes disponibilités.
 
 Le parcours est très rapide. J&rsquo;ai eu accès à toutes les informations nécessaires (une présentation de l&rsquo;association, les heures et le lieu de la mission, un descriptif de la mission) sans éléments supplémentaires inutiles. J’ai pu contacter l’association directement depuis la plateforme. Le site répond donc parfaitement à mes besoins et seulement mes besoins.
 

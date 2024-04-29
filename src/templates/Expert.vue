@@ -43,7 +43,7 @@
       <section>
         <div v-html="$page.expert.content" />
       </section>
-      <a href="/articles/2024-04-15-nos-experts-ont-la-parole/" class="fr-mt-6w fr-link fr-icon-arrow-left-line fr-link--icon-left">Retour à l’article</a>
+      <a href="/articles/2024-04-29-nos-experts-ont-la-parole/" class="fr-mt-6w fr-link fr-icon-arrow-left-line fr-link--icon-left">Retour à l’article</a>
     </div>
   </Layout>
 </template>

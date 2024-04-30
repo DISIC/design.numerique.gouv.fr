@@ -1,10 +1,14 @@
 {
   "name": "design.numerique.gouv.fr",
+  "version" : "3.3.3",
   "private": true,
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
+  },
+  "engines" : {
+    "node" : "^16"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",

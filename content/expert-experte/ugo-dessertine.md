@@ -8,7 +8,7 @@ company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/ugodessertine/
 ---
 
-<p class="fr-text--lead">L’accès des citoyens à leurs droits, le bon fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (plus de détails dans notre article). Pour cela, les métiers du design et de l’accessibilité sont indispensables, mais ils restent souvent mal connus ou mal mis en œuvre. Pour les incarner, nous donnons la parole à nos expertes et experts.</p>
+<p class="fr-text--lead">L’accès des citoyens à leurs droits, le bon fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (<a href="/articles/2024-04-29-nos-experts-ont-la-parole/">plus de détails dans notre article</a>). Pour cela, les métiers du design et de l’accessibilité sont indispensables, mais ils restent souvent mal connus ou mal mis en œuvre. Pour les incarner, nous donnons la parole à nos expertes et experts.</p>
 
 <p class="fr-text--lead">Aujourd’hui, Ugo Dessertine, responsable du design (<span lang="en">chief design officer</span>).</p>
 

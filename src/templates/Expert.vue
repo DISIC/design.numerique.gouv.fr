@@ -15,7 +15,7 @@
               <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
             </li>
             <li v-if="$page.expert.published==true">
-              <span aria-current="page">{{ $page.expert.firstName }} {{$page.expert.lastName }}</span>
+              <span class="fr-breadcrumb__link" aria-current="page">{{ $page.expert.firstName }} {{$page.expert.lastName }}</span>
             </li>
             <li v-else>
               <a href="/articles/2024-04-29-nos-experts-ont-la-parole/" class="fr-breadcrumb__link">Nos expertes et experts ont la parole</a>

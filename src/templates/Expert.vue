@@ -1,6 +1,6 @@
-<template>
+<template> 
   <Layout class="roles-cles-page">
-    <section class="dg-cover dg-cover--linear fr-mb-6w">
+    <section class="dg-cover dg-cover--linear fr-mb-6w" >
       <div class="dg-cover__container fr-mb-1w">
         <nav
           role="navigation"
@@ -14,9 +14,12 @@
             <li>
               <g-link to="/articles/" class="fr-breadcrumb__link">Articles</g-link>
             </li>
-            <li>
+            <li v-if="$page.expert.published==true">
               <span aria-current="page">{{ $page.expert.firstName }} {{$page.expert.lastName }}</span>
             </li>
+            <li v-else>
+              <a href="/articles/2024-04-29-nos-experts-ont-la-parole/" class="fr-breadcrumb__link">Nos expertes et experts ont la parole</a>
+            </li>  
           </ol>
         </nav>
         <div class="dg-cover__title fr-grid-row">
@@ -29,7 +32,7 @@
           />
           </div>
           <div class="fr-col">
-            <h1>{{ $page.expert.firstName }} {{$page.expert.lastName }}</h1>
+            <h1><span v-if="$page.expert.published==false">Prochaînement :</span> {{ $page.expert.firstName }} {{$page.expert.lastName }}</h1>
            
             <p class="fr-text--lead"><span v-html="$page.expert.job" /><br /><span v-html="$page.expert.company" /><br />
 
@@ -39,7 +42,7 @@
         </div>
       </div>
     </section>
-    <div class="dg-content fr-px-2w">
+    <div class="dg-content fr-px-2w" v-if="$page.expert.published==true">
       <section>
         <div v-html="$page.expert.content" />
       </section>
@@ -58,6 +61,7 @@
           rs
           company
           photo
+          published
           content
     }
   }

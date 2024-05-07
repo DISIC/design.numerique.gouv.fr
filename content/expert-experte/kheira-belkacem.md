@@ -15,7 +15,7 @@ published: false
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 
-Je suis arrivée dans la vie professionnelle par le biais des sciences politiques, et notamment européennes. C’était encore les balbutiements de la «&nbsp;e-démocratie&nbsp;» à l’époque (tout ce qui attrait au numérique et à la démocratie)&nbsp;; c’est à cette occasion que j’ai découvert le numérique dans les processus administratifs, en particulier dans le cadre d’un stage à la direction de l’innovation du Parlement européen à Bruxelles. 
+Je suis arrivée dans la vie professionnelle par le biais des sciences politiques, et notamment européennes. C’était encore les balbutiements de la «&nbsp;e-démocratie&nbsp;» à l’époque (tout ce qui a trait au numérique et à la démocratie)&nbsp;; c’est à cette occasion que j’ai découvert le numérique dans les processus administratifs, en particulier dans le cadre d’un stage à la direction de l’innovation du Parlement européen à Bruxelles. 
 
 Cette expérience m’a poussée à faire un doctorat en communication politique et gouvernance numérique en Grande-Bretagne -&nbsp;avec toujours cet intérêt particulier pour le fonctionnement des processus administratifs. À la suite de ma thèse, j’ai donc commencé à travailler en tant que cheffe de produit à la direction du numérique du Parlement britannique, puis progressivement en tant que chargée de recherche utilisateur. Ce métier m’a permis de m’orienter sur ce qui m’intéresse plus spécifiquement&nbsp;: les usagers.
 
@@ -39,9 +39,9 @@ J’anime des ateliers d’idéation avec les usagers&nbsp;: le principe est de 
 
 Et enfin, j’anime des formations à la recherche utilisateur pour les agents publics, afin qu’ils soient sensibilisés aux méthodes et aux bénéfices qu’elles apportent dans la conception et le développement de services numériques.
 
-<h2 class="fr-h6">Le projet qui t’a le plus marqué et pourquoi&nbsp;?</h2>
+<h2 class="fr-h6">Le projet qui t’a le plus marquée et pourquoi&nbsp;?</h2>
 
-J’aime évoquer l’exemple de <a href="https://portailpro.gouv.fr/">Portailpro</a>, qui nous a sollicité en phase de conception. Le site Portailpro a pour vocation de rassembler à un endroit unique l’essentiel des démarches que doivent effectuer les entreprises françaises. Deux aspects m’ont particulièrement marqué. 
+J’aime évoquer l’exemple de <a href="https://portailpro.gouv.fr/">Portailpro</a>, qui nous a sollicité en phase de conception. Le site Portailpro a pour vocation de rassembler à un endroit unique l’essentiel des démarches que doivent effectuer les entreprises françaises. Deux aspects m’ont particulièrement marquée. 
 
 D’une part, le nombre d’administrations concernées par ces démarches (avec l’enjeu de les mettre d’accord d’un point de vue fonctionnel) ainsi que l’importance de l’interopérabilité des différents systèmes d’information d’un point de vue technique. La valeur ajoutée de mon métier dans ce genre de situation est de rappeler à tous l’importance des usagers finaux et la réalité de leurs usages. C’est en se concentrant sur les besoins et les problématiques des usagers que l’on peut trouver des accords entre les différents acteurs.
 

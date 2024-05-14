@@ -21,11 +21,11 @@ L&rsquo;équipe DesignGouv est organisée autour de deux pôles&nbsp;: design et
   - Ugo Dessertine, responsable du design (<span lang="en">chief design officer</span>) -&nbsp;Disponible prochainement 
   - [Yvan Galéa, responsable de l&rsquo;équipe design (<span lang="en">lead designer</span>)](/expert-experte/yvan-galea/)
   - [Marie Pourcher, responsable de l&rsquo;équipe recherche utilisateur (<span lang="en">lead user researcher</span>)](/expert-experte/marie-pourcher/)
-  - Kheira Belkacem, chargée de recherche utilisateur (<span lang="en">user researcher</span>) -&nbsp;Disponible prochainement
+  - [Kheira Belkacem, chargée de recherche utilisateur (<span lang="en">user researcher</span>)](/expert-experte/kheira-belkacem/)
   - Thomas Bonamy, designeur d&rsquo;expérience utilisateur (<span lang="en">UX designer</span>) -&nbsp;Disponible prochainement 
   - Gladys Diandoki, designeuse de contenu (<span lang="en">content designer</span>) -&nbsp;Disponible prochainement
 - Accessibilité :
   - Benoît Dequick, responsable de l&rsquo;équipe accessibilité -&nbsp;Disponible prochainement
   - Yaacov Cohen, expert accessibilité (centré sur le développement) -&nbsp;Disponible prochainement
   - Julie Leroy, experte accessibilité (centré sur l&rsquo;accompagnement) -&nbsp;Disponible prochainement
-  - Sélim Meziti, expert accessibilité (centré sur l&rsquo;audit) -&nbsp;Disponible prochainement
+  - [Sélim Meziti, expert accessibilité (centré sur l&rsquo;audit)](/expert-experte/selim-meziti/)

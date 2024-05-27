@@ -26,6 +26,6 @@ L&rsquo;équipe DesignGouv est organisée autour de deux pôles&nbsp;: design et
   - Gladys Diandoki, designeuse de contenu (<span lang="en">content designer</span>) -&nbsp;Disponible prochainement
 - Accessibilité :
   - Benoît Dequick, responsable de l&rsquo;équipe accessibilité -&nbsp;Disponible prochainement
-  - Yaacov Cohen, expert accessibilité (centré sur le développement) -&nbsp;Disponible prochainement
+  - [Yaacov Cohen, expert accessibilité (centré sur le développement)](/expert-experte/yaacov-cohen/)
   - Julie Leroy, experte accessibilité (centré sur l&rsquo;accompagnement) -&nbsp;Disponible prochainement
   - [Sélim Meziti, expert accessibilité (centré sur l&rsquo;audit)](/expert-experte/selim-meziti/)

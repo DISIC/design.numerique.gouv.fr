@@ -23,7 +23,7 @@ L&rsquo;équipe DesignGouv est organisée autour de deux pôles&nbsp;: design et
   - [Marie Pourcher, responsable de l&rsquo;équipe recherche utilisateur (<span lang="en">lead user researcher</span>)](/expert-experte/marie-pourcher/)
   - [Kheira Belkacem, chargée de recherche utilisateur (<span lang="en">user researcher</span>)](/expert-experte/kheira-belkacem/)
   - Thomas Bonamy, designeur d&rsquo;expérience utilisateur (<span lang="en">UX designer</span>) -&nbsp;Disponible prochainement 
-  - Gladys Diandoki, designeuse de contenu (<span lang="en">content designer</span>) -&nbsp;Disponible prochainement
+  - [Gladys Diandoki, designeuse de contenu (<span lang="en">content designer</span>)](/expert-experte/gladys-diandoki/)
 - Accessibilité :
   - Benoît Dequick, responsable de l&rsquo;équipe accessibilité -&nbsp;Disponible prochainement
   - [Yaacov Cohen, expert accessibilité (centré sur le développement)](/expert-experte/yaacov-cohen/)

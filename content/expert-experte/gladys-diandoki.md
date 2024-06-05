@@ -6,7 +6,7 @@ photo: /assets/images/formation/gladys-diandoki.jpg
 job: Designeuse de contenu
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/gladysdiandoki/
-published: false
+published: true
 ---
 
 <p class="fr-text--lead">L’accès des citoyens à leurs droits, le bon fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (<a href="/articles/2024-04-29-nos-experts-ont-la-parole/">plus de détails dans notre article</a>). Pour cela, les métiers du design et de l’accessibilité sont indispensables, mais ils restent souvent mal connus ou mal mis en œuvre. Pour les incarner, nous donnons la parole à nos expertes et experts.</p>
@@ -21,7 +21,7 @@ Et puis j&rsquo;ai découvert l&rsquo;UX. Je me suis formée, puis j&rsquo;ai co
 
 <h2 class="fr-h6">Ta mission, c’est quoi pour toi&nbsp;?</h2>
 
-Mon rôle consiste à donner la bonne information au bon moment, en prenant en compte le niveau émotionnel de la personne qui réalise une tâche. Je vais penser les parcours avec le prisme de l&rsquo;information, en faisant pas mal de recherche pour comprendre comment la personne pense et comment elle parle. Je vais ensuite travailler l&rsquo;architecture de l&rsquo;information pour construire des parcours qui s&rsquo;adaptent aux modèles qu&rsquo;on a compris pendant la recherche. Et doucement, je vais arriver sur les écrans. On va s&rsquo;assurer que le fond et la forme fonctionnent pour que l&rsquo;expérience soit solide structurellement et sur l&rsquo;interface. Ce qui veut dire que la personne arrive à faire ce qu&rsquo;elle est venue faire, sans se poser la moindre question. Sans se prendre la tête parce qu&rsquo;elle ne sait pas ce qu&rsquo;elle doit faire ou se demande où est cachée l&rsquo;information. C&rsquo;est pour ça que les tests sont importants. C&rsquo;est la seule manière de savoir si on a atteint notre objectif.
+Mon rôle consiste à donner la bonne information au bon moment, en prenant en compte le niveau émotionnel de la personne qui réalise une tâche. Je vais penser les parcours avec le prisme de l&rsquo;information, en faisant pas mal de recherches pour comprendre comment la personne pense et comment elle parle. Je vais ensuite travailler l&rsquo;architecture de l&rsquo;information pour construire des parcours qui s&rsquo;adaptent aux modèles qu&rsquo;on a compris pendant la recherche. Et doucement, je vais arriver sur les écrans. On va s&rsquo;assurer que le fond et la forme fonctionnent pour que l&rsquo;expérience soit solide structurellement et sur l&rsquo;interface. Ce qui veut dire que la personne arrive à faire ce qu&rsquo;elle est venue faire, sans se poser la moindre question. Sans se prendre la tête parce qu&rsquo;elle ne sait pas ce qu&rsquo;elle doit faire ou se demande où est cachée l&rsquo;information. C&rsquo;est pour ça que les tests sont importants. C&rsquo;est la seule manière de savoir si on a atteint notre objectif.
 
 <h2 class="fr-h6">À quoi ressemblent tes activités types&nbsp;?</h2>
 

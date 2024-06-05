@@ -6,7 +6,7 @@ photo: /assets/images/formation/yaacov-cohen.jpg
 job: Expert accessibilité
 company: Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/yaacovcohen/
-published: false
+published: true
 ---
 
 <p class="fr-text--lead">L’accès des citoyens à leurs droits, le bon fonctionnement de l’administration et la transformation de l’action publique dépendent pour une large part de la qualité des services numériques que l’État est en mesure d’offrir à ses usagers (<a href="/articles/2024-04-29-nos-experts-ont-la-parole/">plus de détails dans notre article</a>). Pour cela, les métiers du design et de l’accessibilité sont indispensables, mais ils restent souvent mal connus ou mal mis en œuvre. Pour les incarner, nous donnons la parole à nos expertes et experts.</p>
@@ -15,7 +15,7 @@ published: false
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 
-Après des études d&rsquo;ingénieur orienté *multimedia* (oui, plus personne n&rsquo;utilise ce mot aujourd&rsquo;hui), j&rsquo;ai commencé à travailler en tant que développeur vers 2005, dans différents secteurs&nbsp;: d&rsquo;abord les jeux vidéos, l&rsquo;animation 3D, puis dans des entreprises de services numériques. J&rsquo;ai participé au développement d&rsquo;applications web et mobiles –&nbsp;en flash à l&rsquo;époque&nbsp;– en m&rsquo;orientant petit à petit dans les interfaces pour les télévisions connectées (set-top-box), chez des opérateurs téléphoniques comme Bouygues, ou des sociétés comme Thomson.
+Après des études d&rsquo;ingénieur orienté *multimedia* (oui, plus personne n&rsquo;utilise ce mot aujourd&rsquo;hui), j&rsquo;ai commencé à travailler en tant que développeur vers 2005, dans différents secteurs&nbsp;: d&rsquo;abord les jeux vidéo, l&rsquo;animation 3D, puis dans des entreprises de services numériques. J&rsquo;ai participé au développement d&rsquo;applications web et mobiles –&nbsp;en flash à l&rsquo;époque&nbsp;– en m&rsquo;orientant petit à petit dans les interfaces pour les télévisions connectées (set-top-box), chez des opérateurs téléphoniques comme Bouygues, ou des sociétés comme Thomson.
 
 En 2009 j&rsquo;ai rejoint la société Netgem, chez qui je suis resté 6 ans, dont 3 à Sydney en Australie. J&rsquo;ai notamment participé au développement des interfaces de la box Telstra, premier opérateur téléphonique en Australie.
 
@@ -23,12 +23,12 @@ En 2009 j&rsquo;ai rejoint la société Netgem, chez qui je suis resté 6 ans, d
 
 Pendant 3 ans, nous avons beaucoup travaillé et beaucoup appris. Le sujet de l&rsquo;accessibilité numérique est rapidement devenu une évidence pour nous. Ainsi, nous avons fait nos premières armes en développant le portail de Koena (société de conseil en accessibilité).
 
-En 2020, je vois une annonce pour le Commando&nbsp;UX de la DINUM. Je postule et je suis pris. Je passe ainsi 7 mois au sein de la DGFiP pour les accompagner sur la mise en accessibilité du service de gestion du prélèvement à la source. J&rsquo;intègre alors une équipe formidable, dirigée à l&rsquo;époque par Marine Boudeau. Depuis 2021, je travaille en tant qu&rsquo;indépendant pour cette même équipe, désormais appelée Brigade interministérielle du numérique. Nous travaillons à un niveau interministériel, en support aux équipes s&rsquo;occupant des démarches en lignes les plus utilisées par les français. J&rsquo;accompagne ces équipes sur l&rsquo;accessibilité de leurs démarches, en réalisant des audits, et en les accompagnant plus concrètement sur la correction des anomalies dans le code. Je travaille aussi en collaboration avec les designers en vérifiant et en annotant les maquettes de conception.
+En 2020, je vois une annonce pour le Commando&nbsp;UX de la DINUM. Je postule et je suis pris. Je passe ainsi 7 mois au sein de la Direction générale des Finances publiques (DGFiP) pour les accompagner sur la mise en accessibilité du service de gestion du prélèvement à la source. J&rsquo;intègre alors une équipe formidable, dirigée à l&rsquo;époque par Marine Boudeau. Depuis 2021, je travaille en tant qu&rsquo;indépendant pour cette même équipe, désormais appelée Brigade interministérielle du numérique. Nous travaillons à un niveau interministériel, en support aux équipes s&rsquo;occupant des démarches en lignes les plus utilisées par les français. J&rsquo;accompagne ces équipes sur l&rsquo;accessibilité de leurs démarches, en réalisant des audits, et en les accompagnant plus concrètement sur la correction des anomalies dans le code. Je travaille aussi en collaboration avec les designers en vérifiant et en annotant les maquettes de conception.
 
 <h2 class="fr-h6">Ta mission, c&rsquo;est quoi pour toi&nbsp;?</h2>
 
 Ma mission s&rsquo;apparente au final à de la formation. Car si aujourd&rsquo;hui beaucoup de personnes sont sensibilisées au sujet de l&rsquo;accessibilité, peu ont encore fait le pas de l&rsquo;inscrire comme un pilier indispensable à la conception de service numérique. Avec ma casquette de développeur, je transmets mon expertise aux développeurs mais aussi aux autres parties prenantes.
-En animant des ateliers de formation, comme par exemple pour rendre accessible les PDFs, je participe aussi à une veille sur l&rsquo;évolution des outils et pratiques de mise en accessibilité.
+En animant des ateliers de formation, comme par exemple pour rendre accessibles les PDFs, je participe aussi à une veille sur l&rsquo;évolution des outils et pratiques de mise en accessibilité.
 
 <h2 class="fr-h6">À quoi ressemblent tes activités types&nbsp;?</h2>
 
@@ -46,7 +46,7 @@ Je garde un très bon souvenir de cette période&nbsp;:
 - très bien accueilli
 - j&rsquo;ai eu le sentiment d&rsquo;avoir été utile et productif
 
-Travailler sur Parcoursup, c&rsquo;est avoir un impact direct sur près d&rsquo;un million d&rsquo;élèves a une période clé de leur scolarité, ce n&rsquo;est pas rien&nbsp;!
+Travailler sur Parcoursup, c&rsquo;est avoir un impact direct sur près d&rsquo;un million d&rsquo;élèves à une période clé de leur scolarité, ce n&rsquo;est pas rien&nbsp;!
 
 <h2 class="fr-h6">Un service public en ligne que tu aimes particulièrement&nbsp;?</h2>
 

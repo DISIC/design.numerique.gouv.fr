@@ -49,6 +49,3 @@ Aussi, je voudrais évoquer le <a href="https://www.systeme-de-design.gouv.fr/" 
 <h2 class="fr-h6">Un service public en ligne que tu aimes particulièrement&nbsp;?</h2>
 
 La «&nbsp;<a href="https://design.numerique.gouv.fr/atelier-a11y/" target="_blank" title="Déclaration de bicyclette - nouvelle fenêtre" rel="noreferrer noopener">Déclaration de bicyclette</a>&nbsp;», sans hésiter&nbsp;! C’est un service qui n’existe pas (encore), créé comme exercice pour les formations. J’y ai mis les principales erreurs que l’on rencontre sur les -&nbsp;vrais&nbsp;- services en ligne. Voir les participants les trouver et s’insurger contre chacune d’entre elles, avec la compréhension de leur conséquence, reste un très grand plaisir&nbsp;!
-
-
- target="_blank" title=" - nouvelle fenêtre" rel="noreferrer noopener">

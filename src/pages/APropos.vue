@@ -90,12 +90,24 @@
 <script>
   export default {
     metaInfo: {
-      title: "Équipe",
+      title: "Qui sommes-nous ?",
       meta: [{
-        name: "robots",
-        content: "noindex"
-      }],
-    },
+          name: 'description',
+          content: "La brigade d‘intervention numérique de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes."
+        },
+        {
+          property: 'og:title',
+          content: "Qui sommes-nous ? - DesignGouv"
+        },
+        {
+          property: 'og:description',
+          content: "La brigade d‘intervention numérique de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes."
+        },
+        {
+          property: 'og:image',
+          content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
+        }],
+      },
     computed: {
       team: function () {
         return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('team'))

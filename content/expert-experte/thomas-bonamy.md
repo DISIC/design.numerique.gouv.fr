@@ -15,9 +15,9 @@ published: false
 
 <h2 class="fr-h6">Quel est ton parcours&nbsp;?</h2>
 
-J&rsquo;ai d&rsquo;abord passé 4&nbsp;années à étudier la photographie. Mes expériences professionnelles durant ces études m&rsquo;ont permis de me rendre compte que pour que je puisse vivre de cette activité comme je l&rsquo;entendais le chemin serait compliqué. La photographie étant une passion avant tout, je ne souhaitais pas la dénaturer ou lui faire perdre de sa magie en rendant sa pratique nécessaire ou en changeant mon ambition. Je me suis donc orienté vers un parcours complémentaire, celui de designer graphique.
+J&rsquo;ai d&rsquo;abord passé 4&nbsp;années à étudier la photographie. Mes expériences professionnelles durant ces études m&rsquo;ont permis de me rendre compte que pour que je puisse vivre de cette activité comme je l&rsquo;entendais, le chemin serait compliqué. La photographie étant une passion avant tout, je ne souhaitais pas la dénaturer ou lui faire perdre de sa magie en rendant sa pratique nécessaire ou en changeant mon ambition. Je me suis donc orienté vers un parcours complémentaire, celui de designer graphique.
 
-Je suis maintenant designer dans le numérique depuis bientôt 15&nbsp;ans. J&rsquo;ai travaillé avec de nombreuses sociétés ou agences, dans la publicité sur internet d&rsquo;abord, dans le domaine de la création de sites événementiels ou e-commerce ensuite pour aujourd&rsquo;hui me concentrer à une mission qui me tient à cœur, améliorer et donner du sens à nos services publics numériques.
+Je suis maintenant designer dans le numérique depuis bientôt 15&nbsp;ans. J&rsquo;ai travaillé avec de nombreuses sociétés ou agences, dans la publicité sur internet d&rsquo;abord, dans le domaine de la création de sites événementiels ou e-commerce ensuite, pour aujourd&rsquo;hui me concentrer à une mission qui me tient à cœur, améliorer et donner du sens à nos services publics numériques.
 
 <h2 class="fr-h6">Ta mission, c’est quoi pour toi&nbsp;?</h2>
 
@@ -35,7 +35,7 @@ Une partie du travail relève également de la gestion de produit/projet afin de
 
 Je pense instinctivement à deux projets, Parcoursup et Mon Master pour lequel mon accompagnement est toujours en cours.
 
-Ces deux projets sont très étroitement liés à l&rsquo;éducation, à l&rsquo;ambition et à l&rsquo;égalité des chances. Ces notions sont primordiales, nous devons veiller à ce que cette égalité soit respectée. Également les jeunes publics ne sont pas forcément éloignés du numérique mais ils sont éloignés des questions administratives. C&rsquo;est un véritable enjeu que de leur permettre d&rsquo;acquérir une forte autonomie, de les aider à prendre des décisions éclairées à un moment de leur vie qui est particulièrement stressant. Ces deux démarches représentent l&rsquo;essence même de la mission que je me fixe en travaillant au sein de la Dinum.
+Ces deux projets sont étroitement liés à l&rsquo;éducation, à l&rsquo;ambition et à l&rsquo;égalité des chances. Ces notions sont primordiales, nous devons veiller à ce que cette égalité soit respectée. Également les jeunes publics ne sont pas forcément éloignés du numérique mais ils sont éloignés des questions administratives. C&rsquo;est un véritable enjeu que de leur permettre d&rsquo;acquérir une forte autonomie, de les aider à prendre des décisions éclairées à un moment de leur vie qui est particulièrement stressant. Ces deux démarches représentent l&rsquo;essence même de la mission que je me fixe en travaillant au sein de la Dinum.
 
 <h2 class="fr-h6">Un service public en ligne que tu aimes particulièrement&nbsp;?</h2>
 

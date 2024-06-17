@@ -63,7 +63,7 @@
            <li><a href="/misc/plan-du-site/">Plan du site</a></li>
            <li><a href="/accompagnement/">Nos offres d’accompagnement</a></li>
            <li><a href="/articles/">Articles</a></li>
-           <li><a href="/a-propos">Équipe</a></li>
+           <li><a href="/a-propos/">Équipe</a></li>
            <li><a href="/outils/roles-cles/">Rôles clés</a></li>
            <li><a href="/accessibilite-numerique/roles-cles/developer/">Développeur ou développeuse</a></li>
            <li><a href="/commando-ux/">Commando UX</a></li>

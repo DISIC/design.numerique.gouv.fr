@@ -50,7 +50,7 @@
         <h2><a href="/articles/">Articles</a></h2>
         <h2>Autres pages</h2>
         <ul>
-          <li><a href="/a-propos/">Notre équipe</a></li>
+          <li><a href="/qui-sommes-nous/">Qui sommes-nous ?</a></li>
           <li><a href="/contact/">Contact</a></li>
           <li><a href="/recrutement/">Recrutement</a></li>
           <li><a href="/misc/accessibilite/">Accessibilité</a></li>

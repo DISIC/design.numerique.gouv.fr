@@ -30,7 +30,7 @@
             <div class="fr-header__tools-links">
               <ul class="fr-btns-group">
                 <li>
-                  <g-link class="fr-btn fr-fi-information-line" to="/a-propos/">Qui sommes-nous</g-link>
+                  <g-link class="fr-btn fr-fi-information-line" to="/qui-sommes-nous/">Qui sommes-nous</g-link>
                 </li>
                 <li>
                   <g-link class="fr-btn fr-fi-mail-line" to="/contact/">Nous contacter</g-link>

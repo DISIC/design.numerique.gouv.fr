@@ -4,7 +4,7 @@ firstName: Kheira
 lastName: Belkacem
 photo: /assets/images/formation/kheira-belkacem.jpg
 job: Chargée de recherche utilisateur
-company: Direction interministérielle du Numérique (DINUM)
+company: Prestataire à la Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/kbelkacem/
 published: true
 ---

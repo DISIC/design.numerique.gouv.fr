@@ -4,7 +4,7 @@ firstName: Yaacov
 lastName: Cohen
 photo: /assets/images/formation/yaacov-cohen.jpg
 job: Expert accessibilité
-company: Direction interministérielle du Numérique (DINUM)
+company: Prestataire à la Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/yaacovcohen/
 published: true
 ---

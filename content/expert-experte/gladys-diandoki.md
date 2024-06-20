@@ -4,7 +4,7 @@ firstName: Gladys
 lastName: Diandoki
 photo: /assets/images/formation/gladys-diandoki.jpg
 job: Designeuse de contenu
-company: Direction interministérielle du Numérique (DINUM)
+company: Prestataire à la Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/gladysdiandoki/
 published: true
 ---

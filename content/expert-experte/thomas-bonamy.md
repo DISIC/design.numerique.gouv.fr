@@ -4,7 +4,7 @@ firstName: Thomas
 lastName: Bonamy
 photo: /assets/images/formation/thomas-bonamy.jpg
 job: Designeur d’expérience utilisateur
-company: Direction interministérielle du Numérique (DINUM)
+company: Prestataire à la Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/thomas-bonamy/
 published: true
 ---

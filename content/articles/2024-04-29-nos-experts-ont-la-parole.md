@@ -18,7 +18,7 @@ Les métiers du design et de l&rsquo;accessibilité sont indispensables, mais il
 L&rsquo;équipe DesignGouv est organisée autour de deux pôles&nbsp;: design et accessibilité. Parmi les expertes et experts qui y travaillent, ont été sollicités&nbsp;:
 
 - Design :
-  - Ugo Dessertine, responsable du design (<span lang="en">chief design officer</span>) -&nbsp;Disponible prochainement 
+  - [Ugo Dessertine, responsable du design (<span lang="en">chief design officer</span>)](/expert-experte/ugo-dessertine/)
   - [Yvan Galéa, responsable de l&rsquo;équipe design (<span lang="en">lead designer</span>)](/expert-experte/yvan-galea/)
   - [Marie Pourcher, responsable de l&rsquo;équipe recherche utilisateur (<span lang="en">lead user researcher</span>)](/expert-experte/marie-pourcher/)
   - [Kheira Belkacem, chargée de recherche utilisateur (<span lang="en">user researcher</span>)](/expert-experte/kheira-belkacem/)

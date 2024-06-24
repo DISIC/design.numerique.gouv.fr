@@ -17,7 +17,7 @@ published: true
 
 Bonjour&nbsp;! Je tiens d&rsquo;abord à préciser que mon parcours n&rsquo;est qu&rsquo;une histoire personnelle, en aucun cas un cadre à suivre, et que la diversité des parcours fait la richesse des équipes.
 
-J&rsquo;ai commencé mes études par une formation d&rsquo;ingénieur. Le rôle de l&rsquo;ingénieur, pour simplifier, est de concevoir et opérer l&rsquo;ensemble des systèmes techniques que nous utilisons, par le prisme de la technique. Mais cette approche met généralement de côté toutes les personnes –&nbsp;et les entités (les êtres vivants, l&rsquo;air, l&rsquo;eau, les sols, etc.)&nbsp;– qui sont soit utilisatrices, soit impactées par ces systèmes techniques. C&rsquo;est ce qui m&rsquo;a poussé à poursuivre mes études par une formation en design, qui me semblait plus à même d&rsquo;aborder nos enjeux de société par le prisme humains et de leurs besoins. J&rsquo;ai ensuite pris part à différentes jeunes pousses du numérique, en tant que responsable produit et designer numérique.
+J&rsquo;ai commencé mes études par une formation d&rsquo;ingénieur. Le rôle de l&rsquo;ingénieur, pour simplifier, est de concevoir et opérer l&rsquo;ensemble des systèmes techniques que nous utilisons, par le prisme de la technique. Mais cette approche met généralement de côté toutes les personnes –&nbsp;et les entités (les êtres vivants, l&rsquo;air, l&rsquo;eau, les sols, etc.)&nbsp;– qui sont soit utilisatrices, soit impactées par ces systèmes techniques. C&rsquo;est ce qui m&rsquo;a poussé à poursuivre mes études par une formation en design, qui me semblait plus à même d&rsquo;aborder nos enjeux de société par le prisme humain et de leurs besoins. J&rsquo;ai ensuite pris part à différentes jeunes pousses du numérique, en tant que responsable produit et designer numérique.
 
 Puis petit à petit, une réflexion m&rsquo;a travaillée&nbsp;: le design ne peut accomplir ce que je considère comme sa mission s&rsquo;il est mû avant tout par des enjeux mercantiles. Il m&rsquo;a donc paru indispensable, pour être en accord avec cela, de rejoindre une structure qui porte une mission d&rsquo;intérêt général. Dans mon cas, ce fût l&rsquo;État. Je rejoins donc en 2019 la DINUM comme designer numérique, puis responsable du design.
 
@@ -38,7 +38,7 @@ Les activités du responsable du design peuvent être les suivantes&nbsp;:
 - informer, sensibiliser, convaincre les décideurs de son organisation du rôle et de la place stratégique que doit occuper le design
 - conseiller, accompagner les équipes au sein de son organisation dans la mise en œuvre du design
 - former ses équipes
-- recruter les compétences indispensables à la pratique du design&nbsp;: des designers, bien sûr, mais également des chercheurs et des chercheuses en sciences sociales, en sciences humaines, en science comportementales, etc. dont les travaux ancrent et nourrissent l&rsquo;activité des designers
+- recruter les compétences indispensables à la pratique du design&nbsp;: des designers, bien sûr, mais également des chercheurs et des chercheuses en sciences sociales, en sciences humaines, en sciences comportementales, etc. dont les travaux ancrent et nourrissent l&rsquo;activité des designers
 - outiller ses équipes et mettre en place des standards de conception partagés
 - organiser des moments d&rsquo;échange, de rencontre, de débats autour de sujets qui nourrissent la pratique du design
 - rendre compte de ses actions, mettre en lumière l&rsquo;apport du design

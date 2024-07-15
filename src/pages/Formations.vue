@@ -109,10 +109,10 @@
           <div class="fr-collapse" id="accordion-1">
             <ul class="fr-my-2w">
               <li><a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" title="Initiez-vous au Design - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Initiez-vous au Design</a>
-                <ul><li>Organisme de formation : OpenClassRoom</li><li>Durée : 6h</li></ul>
+                <ul><li>Organisme de formation : <strong>OpenClassRoom</strong></li><li>Durée : <strong>6h</strong></li></ul>
               </li>
               <li><a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" title="UX design : découvrez les fondamentaux - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">UX design&nbsp;: découvrez les fondamentaux</a>
-                <ul><li>Organisme de formation : OpenClassRoom</li><li>Durée : 8h</li></ul>
+                <ul><li>Organisme de formation : <strong>OpenClassRoom</strong></li><li>Durée : <strong>8h</strong></li></ul>
               </li>
             </ul>
           </div>
@@ -125,19 +125,19 @@
           <div class="fr-collapse" id="accordion-2">
             <ul class="fr-my-2w">
                <li><a href="https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique</a>
-                <ul><li>Organisme de formation : Inria (Institut national de recherche en sciences et technologies du numérique), France Université numérique</li><li>Durée : 13h</li></ul>
+                <ul><li>Organisme de formation : <strong>Inria</strong> (Institut national de recherche en sciences et technologies du numérique), France Université numérique</li><li>Durée : <strong>13h</strong></li></ul>
                </li>
                <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Mise en œuvre de l’accessibilité numérique</a>
-                  <ul><li>Wikiversité</li><li>Durée : 14h</li><li>La formation fait référence à la précédente version du Référentiel général d’amélioration de l’accessibilité (RGAA) mais garde toute sa pertinence.</li></ul>
+                  <ul><li>Organisme de formation : <strong>Wikiversité</strong></li><li>Durée : <strong>14h</strong></li><li>La formation fait référence à la précédente version du Référentiel général d’amélioration de l’accessibilité (RGAA) mais garde toute sa pertinence.</li></ul>
                </li>
                <li><a href="https://mentor.gouv.fr/catalog/314" title="L’accessibilité numérique selon votre métier - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique selon votre métier</a>
-                  <ul><li>Durée : 1h20 à 8h suivant les modules choisis</li><li>Réservé aux agents de l’État ayant accès à la plateforme Mentor</li></ul>
+                  <ul><li>Durée : <strong>1h20 à 8h</strong> suivant les modules choisis</li><li>Réservé aux agents de l’État ayant accès à la <a href="https://mentor.gouv.fr/login/index.php" title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">plateforme Mentor</a>.</li></ul>
                </li>
                <li><a href="https://mentor.gouv.fr/catalog/262" title="L’essentiel de l’accessibilité de la communication de l’État - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’essentiel de l’accessibilité de la communication de l’État</a>
-                 <ul><li>Durée : 3h30</li><li>Réservé aux agents de l’État ayant accès à la plateforme Mentor</li></ul>
+                 <ul><li>Durée : <strong>3h30</strong></li><li>Réservé aux agents de l’État ayant accès à la <a href="https://mentor.gouv.fr/login/index.php" title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">plateforme Mentor</a>.</li></ul>
                </li>
                <li><a href="https://mentor.gouv.fr/local/catalog/pages/training.php?trainingid=1405" title="L’accessibilité numérique des sites et applications web : Game of code- Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique des sites et applications web : <span lang="en">Game of code</span></a>
-                 <ul><li>Durée : 2h</li><li>Réservé aux agents de l’État ayant accès à la <a href="https://mentor.gouv.fr/login/index.php" title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">plateforme Mentor</a> ou ayant accès aux formations de l’Institut de la gestion publique et du développement économique (IGPDE) (<a href="https://catalogue.igpde.finances.gouv.fr/1528-laccessibilite-numerique-des-sites-et-applications-web-game-of-code.html?search_query=accessibilite&results=6">catalogue.igpde.finances.gouv.fr</a>).</li></ul>
+                 <ul><li>Durée : <strong>2h</strong></li><li>Réservé aux agents de l’État ayant accès à la <a href="https://mentor.gouv.fr/login/index.php" title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">plateforme Mentor</a> ou ayant accès aux formations de l’Institut de la gestion publique et du développement économique (IGPDE) (<a href="https://catalogue.igpde.finances.gouv.fr/1528-laccessibilite-numerique-des-sites-et-applications-web-game-of-code.html?search_query=accessibilite&results=6">catalogue.igpde.finances.gouv.fr</a>).</li></ul>
                </li>
             </ul>
 
@@ -163,7 +163,7 @@
           <div class="fr-collapse" id="accordion-3">
             <ul class="fr-my-2w">
               <li><a href="https://www.fun-mooc.fr/fr/cours/impacts-environnementaux-du-numerique/" title="Les impacts environnementaux du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Les impacts environnementaux du numérique</a>
-                <ul><li>Organisme de formation : Inria (Institut national de recherche en sciences et technologies du numérique), France Université numérique</li><li>Durée : 5h</li></ul>
+                <ul><li>Organisme de formation : <strong>Inria</strong> (Institut national de recherche en sciences et technologies du numérique), France Université numérique</li><li>Durée : <strong>5h</strong></li></ul>
               </li>
             </ul>
           </div>
@@ -176,7 +176,7 @@
           <div class="fr-collapse" id="accordion-4">
             <ul class="fr-my-2w">
               <li><a href="https://www.opquast.com/certification/" title="Certification Qualité web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Certification Qualité web</a>
-                <ul><li>Organisme de formation : Opquast</li><li>Durée : 14h</li><li>Coût : financé par la Dinum pour les agents des trois fonctions publiques, dans la limite des places disponibles. Pour en bénéficier, contacter : formation[a]design.numerique.gouv.fr</li></ul>              
+                <ul><li>Organisme de formation : <strong>Opquast</strong></li><li>Durée : <strong>14h</strong></li><li>Coût : financé par la Dinum pour les agents des trois fonctions publiques, dans la limite des places disponibles. Pour en bénéficier, contacter <strong>formation[a]design.numerique.gouv.fr</strong>.</li></ul>              
               </li>
             </ul>
           </div>

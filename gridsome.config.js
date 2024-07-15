@@ -229,11 +229,11 @@ module.exports = {
         base: process.env.GRIDSOME_AIRTABLE_OBSERVATORY_BASE, // required
         tables: [
             {
-                name: 'tblPV9UUYqT0cxs9L', // required
+                name: 'tblDTPei5XSX4CUnO', // required
                 typeName: 'Accompagnement', // required
             },
         ],
-        tableName: 'tblPV9UUYqT0cxs9L', // required
+        tableName: 'tblDTPei5XSX4CUnO', // required
       },
     },
     {

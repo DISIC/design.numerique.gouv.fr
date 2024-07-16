@@ -182,6 +182,8 @@
           </div>
         </section>
 
+
+<p class="fr-mt-8w fr-pr-1w">Vous pouvez aussi consulter et partager les vidéos de sensibilisation à l’accessibilité numérique sur <a href="https://www.youtube.com/playlist?list=PLzwHdQWfGYgaOs3drhozCyHWW4pVO4Skw" title="youtube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">YouTube</a>, également visibles <strong>et</strong> téléchargeables sur <a href="https://tube.numerique.gouv.fr/c/designgouv/videos?s=1" title="peertube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">PeerTube</a>.</p>
       </section>
 
     </div>

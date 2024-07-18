@@ -17,7 +17,7 @@ Trois principaux chantiers ont été identifiés :
 * La notion d’anomalie.
 
 <h2 class="fr-mt-4w fr-mb-1w fr-h5">Améliorer la saisie</h2> 
-Un éditeur de texte enrichi va être intégré à chaque champ de saisie, l’ajout d’image sera facilité
+Un éditeur de texte enrichi va être intégré à chaque champ de saisie, l’ajout d’images sera facilité
 
 <h2 class="fr-mt-4w fr-mb-1w fr-h5">Éléments transverses</h2> 
 La gestion actuelle des éléments transverses n’est aujourd’hui pas satisfaisante.
@@ -30,7 +30,7 @@ Il va être possible d’auditer un service numérique sans suivre la liste des 
 
 Une fois ces chantiers terminés, nous nous attaquerons aux différents exports, à l’intégration de tests automatiques et au travail collaboratif sur un audit.
 
-<p class="fr-mt-4w">Pour en savoir plus sur les toutes les autres mises à jour, consultez les <a href="https://ara.numerique.gouv.fr/notes-de-versions" rel="noopener noreferrer" target="_blank"  title="notes de version - nouvelle fenêtre">notes de version</a> d’Ara.</p>
+<p class="fr-mt-4w">Pour en savoir plus sur toutes les autres mises à jour, consultez les <a href="https://ara.numerique.gouv.fr/notes-de-versions" rel="noopener noreferrer" target="_blank"  title="notes de version - nouvelle fenêtre">notes de version</a> d’Ara.</p>
 
 
 <p class="fr-mt-4w">Retrouvez toutes les prochaines nouveautés dans notre <a href="https://ara.numerique.gouv.fr/feuille-de-route" rel="noopener noreferrer" target="_blank"  title="Feuille de route - nouvelle fenêtre">feuille de route</a> et découvrez vite les nouvelles fonctionnalités&nbsp;:</p>
@@ -41,7 +41,7 @@ Une fois ces chantiers terminés, nous nous attaquerons aux différents exports,
 </div>
 </div>  
 
-Merci également à toutes celles et tous ceux qui nous font part de leurs avis et suggestions d’amélioration à travers notre formulaire de retour, par e-mails ou sur les réseaux sociaux. Nous avons à cœur de développer Ara pour vous et avec vous. Chacune de vos contributions joue un rôle crucial dans notre démarche d’amélioration continuent et dans la construction de notre feuille de route.
+Merci également à toutes celles et tous ceux qui nous font part de leurs avis et suggestions d’améliorations à travers notre formulaire de retour, par e-mails ou sur les réseaux sociaux. Nous avons à cœur de développer Ara pour vous et avec vous. Chacune de vos contributions joue un rôle crucial dans notre démarche d’amélioration continue et dans la construction de notre feuille de route.
 
 Pour toute question ou information supplémentaire, n’hésitez pas à nous contacter à l’adresse&nbsp;: **ara@design.numerique.gouv.fr**.
 

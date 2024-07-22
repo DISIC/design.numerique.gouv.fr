@@ -1,7 +1,7 @@
 ---
-title: Ara et les tests utilisateurs 
-slug: 2024-07-23-tests-utilisateurs-ara
-publishedDate: 2024-07-23
+title: Ara, retour sur la série de tests utilisateurs
+slug: 2024-07-25-tests-utilisateurs-ara
+publishedDate: 2024-07-25
 tags: ["accessibilité", "RGAA", "open source"]
 illustration: ./illustrations/2022-11-24-pourquoi-ara.png
 description: Les tests utilisateurs réalisés avec Ara nous ont permis d’identifier des pistes d’améliorations, des points de blocages et ont été une aide précieuse dans la priorisation des tâches en cours et à venir.

@@ -101,7 +101,9 @@
         <ul>
           <li v-for="session in futurSessions">
             <div v-show="session.ouverte">
-              {{ session.fancyDate }}
+              {{ session.fancyDate }} 
+              <p class="fr-badge fr-badge--sm fr-badge--new" v-if="session.lieuDeParticipation == 'Visioconférence'">{{ session.lieuDeParticipation }}</p>
+              <p v-else class="fr-badge fr-badge--sm fr-badge--no-icon">Présentiel à Paris</p>
             </div>
             <div v-show="!session.ouverte">
               <s>{{ session.fancyDate }}</s>
@@ -130,7 +132,8 @@
                 <div v-for="session in futurOpenSessions" class="fr-radio-group">
                   <input type="radio" :id="session.id" :value="session.id" name="session" v-model="form.session" required>
                   <label class="fr-label" :for="session.id">
-                    {{ session.fancyDate }} de {{ session.debut }} à {{ session.fin }}
+                    {{ session.fancyDate }} de {{ session.debut }} à {{ session.fin }} <span class="fr-mt-1w fr-badge fr-badge--sm fr-badge--new" v-if="session.lieuDeParticipation == 'Visioconférence'">{{ session.lieuDeParticipation }}</span>
+                    <span v-else class="fr-mt-1w fr-badge fr-badge--sm fr-badge--no-icon">Présentiel à Paris</span>
                   </label>
                 </div>
               </div>
@@ -286,6 +289,7 @@
       tags
       sessions (sortBy: "date", order: ASC) {
         id
+        lieuDeParticipation
         date
         debut
         fin

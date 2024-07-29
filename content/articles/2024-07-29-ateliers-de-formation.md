@@ -12,50 +12,57 @@ description: "Le deuxième trimestre 2024, la Direction interministérielle du n
 <p>Dans la plupart des cas, les ateliers ont lieu en <strong>présentiel</strong> dans le 7e arrondissement de Paris ; toutefois, pour la première fois, nous proposons aussi des sessions spécifiques en <strong>visioconférence</strong>, pour lesquelles les candidats éloignés de Paris seront prioritaires. 
 </p>
 
-[**Design et accessibilité numérique**](/formations/accessibilite/atelier-accessibilite-designer/)  
+Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur les liens&nbsp;!
+
+<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Design et accessibilité numérique</a></h2>
+
+Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
+
 - 17 septembre - présentiel
 - 1er octobre - visioconférence
 - 3 décembre - présentiel
 
-Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
+<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
 
-[**L’accessibilité numérique dans la pratique**](/formations/accessibilite/atelier-accessibilite-pratique/)  
+
+Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant.
+
 - 19 septembre - présentiel
 - 26 septembre - visioconférence
 - 28 novembre - présentiel
 
-Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant.
+<h2 class="fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Les tests usagers dans la pratique</a></h2>
 
-[**Les tests usagers dans la pratique**](/formations/recherche-utilisateur/atelier-test-usager/)  
+Préparer et animer des tests avec des usagers puis analyser les résultats.  
+
 - 24 septembre - présentiel
 - 8 octobre - présentiel
 - 5 décembre - visioconférence 
 
-Préparer et animer des tests avec des usagers puis analyser les résultats.  
+<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF (vraiment) accessible</a></h2>
 
-[**Créer un PDF (vraiment) accessible**](/formations/accessibilite/atelier-pdf-accessible/)   
+Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques ou à l’aide de vos propres systèmes de génération de PDF.
+
 - 15 octobre - présentiel
 - 19 novembre - présentiel
 - 26 novembre - visioconférence
 
-Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques ou à l’aide de vos propres systèmes de génération de PDF.
+<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité</a></h2>
 
-[**Vérifier l’accessibilité**](/formations/accessibilite/atelier-coder-accessible/)  
+Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
+
 - 17 octobre - présentiel
 - 7 novembre - présentiel
 - 12 décembre - visioconférence
 
-Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
+<h2 class="fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
 
-[**Cadrer la recherche utilisateur**](/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/)  
+Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents.
+
 - 5 novembre - présentiel
 - 21 novembre - visioconférence
 - 10 décembre - présentiel
 
-Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents.
-
 <hr/>
-
-Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur les liens&nbsp;!
 
 À bientôt, lors des ateliers&nbsp;! <span aria-hidden="true">👋</span>

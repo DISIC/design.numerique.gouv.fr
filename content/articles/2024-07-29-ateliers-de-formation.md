@@ -14,7 +14,7 @@ description: "Le deuxième trimestre 2024, la Direction interministérielle du n
 
 Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur les liens&nbsp;!
 
-<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Design et accessibilité numérique</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Design et accessibilité numérique</a></h2>
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 
@@ -22,8 +22,7 @@ Prendre en compte l’accessibilité dans toutes les étapes de design d’un se
 - 1er octobre - visioconférence
 - 3 décembre - présentiel
 
-<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
-
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
 
 Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant.
 
@@ -31,7 +30,7 @@ Intégrer concrètement l’accessibilité dans les services publics numériques
 - 26 septembre - visioconférence
 - 28 novembre - présentiel
 
-<h2 class="fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Les tests usagers dans la pratique</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Les tests usagers dans la pratique</a></h2>
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.  
 
@@ -39,7 +38,7 @@ Préparer et animer des tests avec des usagers puis analyser les résultats.
 - 8 octobre - présentiel
 - 5 décembre - visioconférence 
 
-<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF (vraiment) accessible</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF (vraiment) accessible</a></h2>
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques ou à l’aide de vos propres systèmes de génération de PDF.
 
@@ -47,7 +46,7 @@ Créer des documents PDF accessibles aux personnes handicapées, avec les logici
 - 19 novembre - présentiel
 - 26 novembre - visioconférence
 
-<h2 class="fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité</a></h2>
 
 Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
 
@@ -55,7 +54,7 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 - 7 novembre - présentiel
 - 12 décembre - visioconférence
 
-<h2 class="fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
 
 Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents.
 

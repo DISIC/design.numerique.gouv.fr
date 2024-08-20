@@ -109,10 +109,10 @@
           <div class="fr-collapse" id="accordion-1">
             <ul class="fr-my-2w">
               <li><a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" title="Initiez-vous au Design - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Initiez-vous au Design</a>
-                <ul><li>Organisme de formation : <strong>OpenClassRoom</strong></li><li>Durée : <strong>6h</strong></li></ul>
+                <ul><li>Organisme de formation : <strong>OpenClassrooms</strong></li><li>Durée : <strong>6h</strong></li></ul>
               </li>
               <li><a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" title="UX design : découvrez les fondamentaux - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">UX design&nbsp;: découvrez les fondamentaux</a>
-                <ul><li>Organisme de formation : <strong>OpenClassRoom</strong></li><li>Durée : <strong>8h</strong></li></ul>
+                <ul><li>Organisme de formation : <strong>OpenClassrooms</strong></li><li>Durée : <strong>8h</strong></li></ul>
               </li>
             </ul>
           </div>

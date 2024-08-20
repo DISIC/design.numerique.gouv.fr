@@ -158,7 +158,7 @@
 
         <section class="fr-accordion">
           <h3 class="fr-accordion__title">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-3">Numérique responsable, écoconception</button>
+            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-3">Écoconception</button>
           </h3>
           <div class="fr-collapse" id="accordion-3">
             <ul class="fr-my-2w">

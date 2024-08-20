@@ -4,7 +4,7 @@ slug: 2024-07-29-ateliers-de-formation
 publishedDate: 2024-07-29
 tags: ["formation", "design", "accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
-description: "Le deuxième trimestre 2024, la Direction interministérielle du numérique (DINUM) organise 6 ateliers de formation sur le design, la recherche utilisateur, l'accessibilité pour aider les agents à améliorer les services publics en ligne."
+description: "La Direction interministérielle du numérique (DINUM) organise 6 ateliers de formation sur le design, la recherche utilisateur, l'accessibilité pour aider les agents à améliorer les services publics en ligne."
 ---
 
 <p class="fr-text--lead">La direction interministérielle du numérique (Dinum) vous propose de nouvelles sessions de ses 6 ateliers de formation pour continuer à améliorer les services publics en ligne. </p>

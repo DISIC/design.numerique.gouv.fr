@@ -1,0 +1,13 @@
+// FIXME Use a module
+function setDarkBeforeRender() {
+  const localScheme = localStorage.getItem("scheme");
+  if (
+    localScheme == "dark" ||
+    (localScheme == "system" &&
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches)
+  ) {
+    document.documentElement.setAttribute("data-fr-theme", "dark");
+  }
+}
+setDarkBeforeRender();

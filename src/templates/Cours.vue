@@ -101,7 +101,7 @@
         <ul>
           <li v-for="session in futurSessions">
             <div v-show="session.ouverte">
-              {{ session.fancyDate }} 
+              {{ session.fancyDate }}
               <p class="fr-badge fr-badge--sm fr-badge--new" v-if="session.lieuDeParticipation == 'Visioconférence'">{{ session.lieuDeParticipation }}</p>
               <p v-else class="fr-badge fr-badge--sm fr-badge--no-icon">Présentiel à Paris</p>
             </div>
@@ -347,7 +347,7 @@
     },
     computed: {
       futurSessions: function () {
-        var futur = this.$page.cours.sessions.sort((a, b) => a.date > b.date).filter(session => new Date(session.date) > Date.now());
+        var futur = this.$page.cours.sessions.sort((a, b) => new Date(a.date) - new Date(b.date)).filter(session => new Date(session.date) > Date.now());
         futur.forEach(session => {
           var date = new Date(session.date).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
           session.fancyDate = date.charAt(0).toUpperCase() + date.slice(1);

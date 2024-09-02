@@ -55,7 +55,7 @@
                   <div class="fr-tile__body">
                     <div class="fr-tile__content">
                       <h3 class="fr-tile__title">
-                          <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link">RGAA</g-link>
+                          <g-link to="/accessibilite-numerique/rgaa/" class="fr-tile__link">RGAA</g-link>
                       </h3>
                     </div>
                   </div>

@@ -73,17 +73,6 @@
         </p>
       </section>
 
-      <section>
-        <h2>Hébergement</h2>
-        <p>
-          Netlify Inc.</br>
-          2325 3rd Street, Suite 215</br>
-          San Francisco, California 94107</br>
-          États-Unis d’Amérique</br>
-          +1 844-899-7312</br>
-        </p>
-      </section>
-
     </div>
   </Layout>
 </template>

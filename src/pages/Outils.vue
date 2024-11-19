@@ -56,17 +56,17 @@
         <h2 id="tech">Tech</h2>
         <ul class="fr-mb-3w">
           <li>
-            la <a href="checklist-dev">checklist dev</a> regroupe les tests et
+            la <g-link to="/outils/checklist-dev/">checklist dev</g-link> regroupe les tests et
             vérifications rapides à faire soi-même avant de livrer son travail ;
           </li>
           <li>
-            le <a href="memo-dev">mémo dev</a> regroupe sur une seule et même
+            le <g-link to="/outils/memo-dev/">mémo dev</g-link> regroupe sur une seule et même
             page les points d’attention pour
             <strong>les développeurs et les développeuses front</strong> ainsi
             que les liens vers les ressources adéquates ;
           </li>
           <li>
-            le <a href="memo-design">mémo design</a> regroupe sur une seule et
+            le <g-link to="/outils/memo-design/">mémo design</g-link> regroupe sur une seule et
             même page les points d’attention pour
             <strong>les designers</strong> ainsi que les liens vers les
             ressources adéquates.
@@ -79,20 +79,19 @@
         <ul class="fr-mb-3w">
           <li>
             le
-            <a href="/outils/jeu-de-oaa/"
-              >jeu de l’organisation de l’amélioration de l’accessibilité
-              (OAA)</a
-            >
+            <g-link to="/outils/jeu-de-oaa/">
+              jeu de l’organisation de l’amélioration de l’accessibilité
+              (OAA)</g-link>
             vous guide dans la mise en accessibilité de votre service
             numérique ;
           </li>
           <li>
             les
-            <a href="/outils/roles-cles/">fiches métiers</a>
+            <g-link to="/outils/roles-cles/">fiches métiers</g-link>
             décrivent votre rôle, vos actions et vos outils ;
           </li>
           <li>
-            le <a href="diagnostic-flash">diagnostic flash</a> permet d’estimer
+            le <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link> permet d’estimer
             de manière <strong>rapide et partielle</strong> l’accessibilité d’un
             site ou d’une démarche en ligne, sans avoir d’expertise particulière
             et en n’y consacrant que peu de temps ;
@@ -112,15 +111,15 @@
             fonction publique (FIPHFP) ;
           </li>
           <li>
-            l’<a href="audit-rapide">audit rapide</a> permet à moindre coût
+            l’<g-link to="/outils/audit-rapide/">audit rapide</g-link> permet à moindre coût
             d’apprécier l’accessibilité d’un site et la maturité d’une équipe ;
           </li>
           <li>
-            la <a href="/outils/checklist-pidila/">checklist Pidila</a> regroupe
+            la <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link> regroupe
             les critères des différents référentiels et bonnes pratiques du web.
           </li>
           <li>
-            la page <a href="/outils/accessibilite-marche-public/">l’accessibilité numérique dans les marchés publics</a> recense les points importants dans la rédaction des marchés et l’analyse des offres.
+            la page <g-link to="/outils/accessibilite-marche-public/">l’accessibilité numérique dans les marchés publics</g-link> recense les points importants dans la rédaction des marchés et l’analyse des offres.
           </li>
         </ul>
       </section>
@@ -178,8 +177,8 @@
         <h2 id="declaration">Déclaration d’accessibilité</h2>
           <p>
             Un
-            <a href="/outils/exemple-declaration-accessibilite/"
-              >Exemple de déclaration d’accessibilité</a
+            <g-link href="/outils/exemple-declaration-accessibilite/"
+              >Exemple de déclaration d’accessibilité</g-link
             >
             prêt à remplir.
           </p>

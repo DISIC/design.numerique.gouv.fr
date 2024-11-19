@@ -20,22 +20,21 @@
 
 
     <div class="dg-content fr-px-2w">
-      <section>
+      <section class="fr-mb-8w">
         <h2>Mission</h2>
-        <p>En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.</p>
-        <p>Le numérique, c’est la promesse d’un accès à une multitude d’informations et services pour tous, et partout. Néanmoins, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. C’est le cas pour de nombreux services publics numériques. <strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services simples, accessibles et humains.</strong></p>
-        <p>En partenariat avec les ministères, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie. Pour ce faire, nous pilotons et suivons la qualité de cette numérisation des services à travers l'<a href="https://observatoire.numerique.gouv.fr">Observatoire</a> depuis juin 2019.</p>
-        <p>Depuis septembre 2020 nous avons mis en place le <a href="https://design.numerique.gouv.fr/commando-ux/">Commando UX</a> : des designers et développeurs déployés au sein des ministères qui concoivent ces services publics pour les améliorer.</p>
-        <p>Enfin, nous participons au développement d’une culture de design d'inclusion au sein de l’État, et à la mise en communauté de compétences de design dans les administrations.</p>
-        <p>La brigade d’intervention numérique est rattachée à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de la Transformation et de la Fonction publiques Stanislas Guerini.</p>
+        <p>Le numérique, c’est la promesse d’un accès à une multitude d’informations et services pour tous et toutes, partout. Néanmoins, les produits et services numériques sont encore trop souvent conçus sans prendre en compte les personnes qu’ils servent. C’est le cas pour de nombreux services publics numériques.</p>
+        <p><strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services utiles, utilisables, simples, inclusifs et humains.</strong>. En partenariat avec les ministères, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie.</p>
+        <p>Depuis septembre 2020, nous avons mis en place des <g-link to="/accompagnement/">accompagnements d'experts</g-link> : des designers, chargées de recherche utilisateur, experts en référencement naturel, expertes en accessibilité numérique, designers de contenu, développeuses déployées au sein des administrations qui concoivent ces services publics pour les améliorer.</p>
+        <p>Nous participons à la diffusion d’une culture de design inclusif au sein de l’État et à la mise en communauté de compétences de design dans les administrations.</p>
+        <p>La brigade d’intervention numérique est rattachée à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a>.</p>
       </section>
 
-      <section>
+      <section class="fr-mb-8w">
         <h2>Notre équipe</h2>
         <ul class="dg-team">
           <li v-for="{ node } in team" :key="node.id" class="dg-team-member">
             <g-image class="dg-team-member__photo" :src="node.photo" :alt="node.firstName+' '+node.lastName" />
-            <h3 class="dg-team-member__name fr-h6">{{ node.firstName }} {{ node.lastName }}</h3>
+            <h3 class="dg-team-member__name fr-h6 fr-mb-1w">{{ node.firstName }} {{ node.lastName }}</h3>
             <p class="dg-team-member__title">{{ node.job_title }}</p>
             <p v-if="node.sub_team_link" class="dg-team-member__team">
               <g-link :to="node.sub_team_link">{{ node.sub_team }}</g-link>

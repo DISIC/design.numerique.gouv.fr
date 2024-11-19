@@ -41,7 +41,7 @@
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
             <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'project-diagram']" width="12px" height="12px" aria-hidden="true"/></span>
-            <strong>Optimisation pour les moteurs de recherche (<abbr title="Search engine optimization" lang="en">SEO</abbr>)</strong>
+            <strong>Référencement naturel (<abbr title="Search engine optimization" lang="en">SEO</abbr>)</strong>
           </li>
           <li class="dg-text-with-picto fr-mb-1w">
             <span class="dg-picto dg-picto--xs fr-mr-3v"><font-awesome :icon="['fas', 'code']" width="12px" height="12px" aria-hidden="true"/></span>

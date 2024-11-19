@@ -3,9 +3,9 @@ id: ugo-dessertine
 firstName: Ugo
 lastName: Dessertine
 photo: ./photos/ugo-dessertine.jpg
-job_title: Lead Designer
-sub_team: 
-sub_team_link: 
+job_title: Responsable du design
+sub_team:
+sub_team_link:
 twitter:
 e-mail :
 group : ["team"]

@@ -4,7 +4,7 @@ firstName: Julie
 lastName: Leroy
 photo: /assets/images/formation/julie-leroy.jpg
 job: Experte accessibilité
-company: Direction interministérielle du Numérique (DINUM)
+company: Prestataire à la Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/julie-leroy-aa671a5a/
 published: false
 ---

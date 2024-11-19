@@ -217,7 +217,7 @@
         <p>
           Le
           <a
-            href="https://systeme-de-design.gouv.fr/"
+            href="https://www.systeme-de-design.gouv.fr/"
             rel="noreferrer noopener"
             title="système de design de l‘État - nouvelle fenêtre"
             target="_blank"

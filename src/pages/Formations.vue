@@ -91,29 +91,58 @@
       </section>
 
       <section class="dg-content dg-contains-list fr-mt-8w fr-px-2w">
-        <h2 class="fr-h6">Formations d’autres organismes</h2>
+        <h2 id="autres-formations" class="fr-h2">Autres formations pour un web meilleur</h2>
+        <p>Si vous travaillez dans le numérique public, il existe en ligne des formations vous permettant de vous former de manière autonome à l’amélioration des services en ligne. La liste ci-dessous répond à plusieurs critères :</p>
+        <ul>
+          <li>qualité de la formation ;</li>
+          <li>en ligne (pas de présentiel) ;</li>
+          <li>autonomie du participant ;</li>
+          <li>simplicité de l’inscription (pas de marché, convention ou autre) ;</li>
+          <li>gratuité (ou financement de la Direction interministérielle du numérique - Dinum).</li>
+        </ul>
+        <p>Cette liste n’est pas exhaustive. Elle concerne le design des services numériques, l’accessibilité numérique et le numérique responsable/écoconception.</p>
 
         <section class="fr-accordion">
           <h3 class="fr-accordion__title">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-1">Design</button>
+            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-1">Design des services numériques</button>
           </h3>
           <div class="fr-collapse" id="accordion-1">
-            <p><strong>Initiations :</strong></p>
-            <ul>
-              <li><a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" title="Initiez-vous au Design - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Initiez-vous au Design</a>, 6 heures, gratuit.</li>
-              <li><a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" title="UX design : découvrez les fondamentaux - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">UX design&nbsp;: découvrez les fondamentaux</a>, 8 heures, gratuit.</li>
+            <ul class="fr-my-2w">
+              <li><a href="https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking" title="Initiez-vous au Design - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Initiez-vous au Design</a>
+                <ul><li>Organisme de formation : <strong>OpenClassrooms</strong></li><li>Durée : <strong>6h</strong></li></ul>
+              </li>
+              <li><a href="https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux" title="UX design : découvrez les fondamentaux - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">UX design&nbsp;: découvrez les fondamentaux</a>
+                <ul><li>Organisme de formation : <strong>OpenClassrooms</strong></li><li>Durée : <strong>8h</strong></li></ul>
+              </li>
             </ul>
           </div>
         </section>
 
         <section class="fr-accordion">
           <h3 class="fr-accordion__title">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-2">Accessibilité</button>
+            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-2">Accessibilité numérique</button>
           </h3>
           <div class="fr-collapse" id="accordion-2">
-            <p><strong>Initiations :</strong></p>
-            <ul>
-              <li><a href="https://www.fun-mooc.fr/en/cours/accessibilite-numerique/" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est disponible en mode « Archivé ouvert » et nécessite une inscription.</li>
+            <ul class="fr-my-2w">
+               <li><a href="https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique</a>
+                <ul><li>Organisme de formation : <strong>Inria</strong> (Institut national de recherche en sciences et technologies du numérique), France Université numérique</li><li>Durée : <strong>13h</strong></li></ul>
+               </li>
+               <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Mise en œuvre de l’accessibilité numérique</a>
+                  <ul><li>Organisme de formation : <strong>Wikiversité</strong></li><li>Durée : <strong>14h</strong></li><li>La formation fait référence à la précédente version du Référentiel général d’amélioration de l’accessibilité (RGAA) mais garde toute sa pertinence.</li></ul>
+               </li>
+               <li><a href="https://mentor.gouv.fr/catalog/314" title="L’accessibilité numérique selon votre métier - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique selon votre métier</a>
+                  <ul><li>Durée : <strong>1h20 à 8h</strong> suivant les modules choisis</li><li>Réservé aux agents de l’État ayant accès à la <a href="https://mentor.gouv.fr/login/index.php" title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">plateforme Mentor</a>.</li></ul>
+               </li>
+               <li><a href="https://mentor.gouv.fr/catalog/262" title="L’essentiel de l’accessibilité de la communication de l’État - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’essentiel de l’accessibilité de la communication de l’État</a>
+                 <ul><li>Durée : <strong>3h30</strong></li><li>Réservé aux agents de l’État ayant accès à la <a href="https://mentor.gouv.fr/login/index.php" title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">plateforme Mentor</a>.</li></ul>
+               </li>
+               <li><a href="https://mentor.gouv.fr/local/catalog/pages/training.php?trainingid=1405" title="L’accessibilité numérique des sites et applications web : Game of code- Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique des sites et applications web : <span lang="en">Game of code</span></a>
+                 <ul><li>Durée : <strong>2h</strong></li><li>Réservé aux agents de l’État ayant accès à la <a href="https://mentor.gouv.fr/login/index.php" title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">plateforme Mentor</a> ou ayant accès aux formations de l’Institut de la gestion publique et du développement économique (IGPDE) (<a href="https://catalogue.igpde.finances.gouv.fr/1528-laccessibilite-numerique-des-sites-et-applications-web-game-of-code.html?search_query=accessibilite&results=6">catalogue.igpde.finances.gouv.fr</a>).</li></ul>
+               </li>
+            </ul>
+
+
+              <!--li><a href="https://www.fun-mooc.fr/en/cours/accessibilite-numerique/" title="L’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’accessibilité numérique</a>. Ce <abbr title="Massive Open Online Course" lang="en">MOOC</abbr> est un cours généraliste d’introduction à l’accessibilité numérique. Il est disponible en mode « Archivé ouvert » et nécessite une inscription.</li>
               <li><a href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique" title="Mise en œuvre de l’accessibilité numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Mise en œuvre de l’accessibilité numérique</a>, 14 heures, gratuit.</li>
               <li>Si vous êtes agent de l’État et avez accès à la plateforme Mentor, deux parcours sont disponibles :
                 <ul>
@@ -122,41 +151,39 @@
                 </ul>
               </li>
               <li>Si vous êtes agent de l’État et avez accès aux formations de l’IGPDE, un parcours à destination des profils « maîtrise d’œuvre » est disponible : <a href="https://catalogue.igpde.finances.gouv.fr/878-appliquer-l-accessibilite-aux-interfaces-web.html" title="Appliquer l'accessibilité aux interfaces web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Appliquer l'accessibilité aux interfaces web</a>, 3 jours.
-              </li>
-            </ul>
-            <p><strong>Certification :</strong></p>
-            <ul>
-              <li><a href="https://formations.access42.net/?p=877" title="Développer des sites web accessibles - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Développer des sites web accessibles</a>, 9 heures, payant.</li>
-            </ul>
+              </li-->
+  
           </div>
         </section>
 
         <section class="fr-accordion">
           <h3 class="fr-accordion__title">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-3">Numérique responsable</button>
+            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-3">Écoconception</button>
           </h3>
           <div class="fr-collapse" id="accordion-3">
-            <p><strong>Initiations :</strong></p>
-            <ul>
-              <li><a href="https://www.academie-nr.org/sensibilisation/" title="Sensibilisation au numérique responsable - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Sensibilisation au numérique responsable</a>, 30 minutes, gratuit.</li>
-              <li><a href="https://www.academie-nr.org/" title="MOOC numérique responsable - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">MOOC Numérique Responsable</a>, 4h30, gratuit.<br>14 modules pour progresser et saisir l’ensemble des enjeux environnementaux, éthique et d’inclusion.</li>
+            <ul class="fr-my-2w">
+              <li><a href="https://www.fun-mooc.fr/fr/cours/impacts-environnementaux-du-numerique/" title="Les impacts environnementaux du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Les impacts environnementaux du numérique</a>
+                <ul><li>Organisme de formation : <strong>Inria</strong> (Institut national de recherche en sciences et technologies du numérique), France Université numérique</li><li>Durée : <strong>5h</strong></li></ul>
+              </li>
             </ul>
           </div>
         </section>
 
         <section class="fr-accordion">
           <h3 class="fr-accordion__title">
-            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-4">Qualité</button>
+            <button class="fr-accordion__btn" aria-expanded="false" aria-controls="accordion-4">Qualité web</button>
           </h3>
           <div class="fr-collapse" id="accordion-4">
-            <p><strong>Certification :</strong></p>
-            <ul>
-              <li><a href="https://www.opquast.com/certification/" title="Maîtrise de la qualité en projet web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Maîtrise de la qualité en projet web</a>, 14 heures, payant.</li>
+            <ul class="fr-my-2w">
+              <li><a href="https://www.opquast.com/certification/" title="Certification Qualité web - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Certification Qualité web</a>
+                <ul><li>Organisme de formation : <strong>Opquast</strong></li><li>Durée : <strong>14h</strong></li><li>Coût : financé par la Dinum pour les agents des trois fonctions publiques, dans la limite des places disponibles. Pour en bénéficier, contacter <strong>formation[a]design.numerique.gouv.fr</strong>.</li></ul>              
+              </li>
             </ul>
           </div>
         </section>
 
-        <p class="fr-text--sm fr-mt-4w">Si votre organisme propose une formation certifiante et souhaite être référencé sur notre site, vous pouvez <a href="https://github.com/DISIC/design.numerique.gouv.fr/pulls" title="proposer une PR - nouvelle fenêtre"  target="_blank" rel="noreferrer noopener">proposer une <abbr lang="en" title="pull request">PR</abbr></a> ou nous contacter en utilisant l’adresse électronique contact@design.numerique.gouv.fr.</p>
+
+<p class="fr-mt-8w fr-pr-1w">Vous pouvez aussi consulter et partager les vidéos de sensibilisation à l’accessibilité numérique sur <a href="https://www.youtube.com/playlist?list=PLzwHdQWfGYgaOs3drhozCyHWW4pVO4Skw" title="youtube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">YouTube</a>, également visibles <strong>et</strong> téléchargeables sur <a href="https://tube.numerique.gouv.fr/c/designgouv/videos?s=1" title="peertube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">PeerTube</a>.</p>
       </section>
 
     </div>

@@ -26,7 +26,7 @@
 
     <section class="fr-container fr-px-2w fr-mb-8w">
         <div class="fixedWidth">
-          <h2>Pourquoi déclarer sa bicyclette ?</h2>
+          <h3 class="fr-h2">Pourquoi déclarer sa bicyclette ?</h3>
           <p
             >- Parce que c’est une obligation légale depuis la loi sur la bonne
             mobilité du 01/04/2022 ;</p
@@ -51,7 +51,7 @@
             >Vous pouvez également cliquer <a href="/atelier-a11y/declarer-ma-bicyclette/">ici</a> pour faire
             la démarche en ligne.</p
           >
-          <h2>Besoin d’aide ?</h2>
+          <div class="fr-h2">Besoin d’aide ?</div>
           <p
             >Vous pouvez demander de l’aide en
             <a href="/atelier-a11y/aide/">cliquant ici</a> ou en nous

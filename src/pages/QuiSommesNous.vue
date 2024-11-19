@@ -9,12 +9,12 @@
               <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
             </li>
             <li>
-              <a class="fr-breadcrumb__link" aria-current="page">À propos</a>
+              <a class="fr-breadcrumb__link" aria-current="page">Qui sommes-nous&nbsp;?</a>
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/recrutement-picto.svg" aria-hidden="true">Le pôle design des services numériques</h1>
-        <p class="fr-text--lead">Le pôle design des services numériques fait partie de la <a href="https://www.numerique.gouv.fr/dinum/" target="_blank" title="direction interministérielle du numérique - Nouvelle fenêtre">direction interministérielle du numérique</a>.</p>
+        <h1 class="dg-cover__title"><img class="dg-picto fr-mr-2w" svg-inline src="../assets/images/recrutement-picto.svg" aria-hidden="true">Qui sommes-nous&nbsp;?</h1>
+        <p class="fr-text--lead">La brigade d‘intervention numérique fait partie de la <a href="https://www.numerique.gouv.fr/dinum/" target="_blank" title="direction interministérielle du numérique - Nouvelle fenêtre">direction interministérielle du numérique</a>.</p>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
         <p>En 2017, Emmanuel Macron a fixé deux objectifs à 2022 : rendre 100% des démarches administratives réalisables en ligne, et améliorer les services publics du quotidien grâce au numérique.</p>
         <p>Le numérique, c’est la promesse d’un accès à une multitude d’informations et services pour tous, et partout. Néanmoins, les produits et services numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. C’est le cas pour de nombreux services publics numériques. <strong>Le numérique doit nous permettre d'améliorer la relation entre les usagers et l'administration, à travers des services simples, accessibles et humains.</strong></p>
         <p>En partenariat avec les ministères, nous travaillons pour qu'un plus grand nombre puissent utiliser ces services en toute autonomie. Pour ce faire, nous pilotons et suivons la qualité de cette numérisation des services à travers l'<a href="https://observatoire.numerique.gouv.fr">Observatoire</a> depuis juin 2019.</p>
-        <p>Depuis septembre 2020 nous avons mis en place le <a href="https://design.numerique.gouv.fr/commando-ux">Commando UX</a> : des designers et développeurs déployés au sein des ministères qui concoivent ces services publics pour les améliorer.</p>
+        <p>Depuis septembre 2020 nous avons mis en place le <a href="https://design.numerique.gouv.fr/commando-ux/">Commando UX</a> : des designers et développeurs déployés au sein des ministères qui concoivent ces services publics pour les améliorer.</p>
         <p>Enfin, nous participons au développement d’une culture de design d'inclusion au sein de l’État, et à la mise en communauté de compétences de design dans les administrations.</p>
         <p>La brigade d’intervention numérique est rattachée à la <a href="https://numerique.gouv.fr" title="direction interministérielle du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">direction interministérielle du numérique</a> et placé, par délégation du Premier ministre, sous l’autorité du ministre de la Transformation et de la Fonction publiques Stanislas Guerini.</p>
       </section>
@@ -90,12 +90,24 @@
 <script>
   export default {
     metaInfo: {
-      title: "Équipe",
+      title: "Qui sommes-nous ?",
       meta: [{
-        name: "robots",
-        content: "noindex"
-      }],
-    },
+          name: 'description',
+          content: "La brigade d‘intervention numérique de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes."
+        },
+        {
+          property: 'og:title',
+          content: "Qui sommes-nous ? - DesignGouv"
+        },
+        {
+          property: 'og:description',
+          content: "La brigade d‘intervention numérique de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes."
+        },
+        {
+          property: 'og:image',
+          content: "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png"
+        }],
+      },
     computed: {
       team: function () {
         return this.$page.allPeople.edges.filter(edge => edge.node.group.includes('team'))

@@ -4,7 +4,7 @@ firstName: Sélim
 lastName: Meziti
 photo: /assets/images/formation/selim-meziti.jpg
 job: Expert accessibilité 
-company: Direction interministérielle du Numérique (DINUM)
+company: Prestataire à la Direction interministérielle du Numérique (DINUM)
 rs: https://www.linkedin.com/in/selimmeziti/
 published: true
 ---

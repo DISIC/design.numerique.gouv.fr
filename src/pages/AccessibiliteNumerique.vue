@@ -55,7 +55,7 @@
                   <div class="fr-tile__body">
                     <div class="fr-tile__content">
                       <h3 class="fr-tile__title">
-                          <g-link to="/accessibilite-numerique/RGAA/" class="fr-tile__link">RGAA</g-link>
+                          <g-link to="/accessibilite-numerique/rgaa/" class="fr-tile__link">RGAA</g-link>
                       </h3>
                     </div>
                   </div>
@@ -87,7 +87,7 @@
         <div class="fr-grid-row fr-grid-row--center">
           <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
             <h3 class="fr-callout__title">A11É ?</h3>
-            <p class="fr-callout__text"><strong>A11É</strong> est une abréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abbréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
+            <p class="fr-callout__text"><strong>A11É</strong> est une abréviation pour accessibilité où <em>11</em> représente le nombre de lettres entre le <em>a</em> et le <em>é</em> du mot accessibilité. <br>On retrouve également cette abréviation sous sa version anglaise : <strong>A11Y</strong>.</p>
           </div>
         </div>
       </section>

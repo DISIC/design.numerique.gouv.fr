@@ -11,7 +11,7 @@ En 2021, **Access42**, SCOP spécialisée en [accessibilité numérique](https:/
 
 Dans la cadre de cette mission, Access42 a organisé et animé un **comité de travail** pour effectuer une traduction française des WCAG 2.1 la plus consensuelle possible entre les propositions des 42 organismes représentatifs de la francophonie à l’international. 
 
-Ce chantier a abouti à une proposition finale candidate proposée par Access42 au W3C au début avril 2022, auquel [l’équipe DesignGouv](https://design.numerique.gouv.fr/a-propos/){title="Découvrez l'équipe de DesignGouv - nouvelle fenêtre"} a participé. 
+Ce chantier a abouti à une proposition finale candidate proposée par Access42 au W3C au début avril 2022, auquel [l’équipe DesignGouv](https://design.numerique.gouv.fr/qui-sommes-nous/){title="Découvrez l'équipe de DesignGouv - nouvelle fenêtre"} a participé. 
 
 ## Participez à la traduction&nbsp;!
 

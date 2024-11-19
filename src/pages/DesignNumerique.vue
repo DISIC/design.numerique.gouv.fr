@@ -402,7 +402,7 @@
                       <div class="fr-card__body">
                           <div class="fr-card__content">
                               <h3 class="fr-card__title fr-h6">
-                                  <a href="/outils/roles-cles">Les fiches métier</a>
+                                  <a href="/outils/roles-cles/">Les fiches métier</a>
                               </h3>
                               <p class="fr-card__desc">Les actions et les outils pour bien prendre en compte l’accessibilité dans vos projets numériques.</p>
                           </div>

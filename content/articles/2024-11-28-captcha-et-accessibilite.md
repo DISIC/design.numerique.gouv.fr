@@ -50,7 +50,7 @@ Il existe aujourd’hui une grande variété de Captcha allant du texte déform�
 
 En 2024, [l’étude de WebAIM (en anglais)](https://webaim.org/projects/screenreadersurvey10/#problematic) relève que les Captcha sont toujours les éléments les plus gênants sur internet pour les personnes utilisant un lecteur d’écran.
 
-### Les Captcha visuels
+### Captcha visuel
 
 Ces Captcha sont basés sur la reconnaissance d’un texte ou d’une image.
 

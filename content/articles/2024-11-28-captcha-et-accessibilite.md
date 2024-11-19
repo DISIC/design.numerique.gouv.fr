@@ -12,8 +12,31 @@ description: "Dans cet article, nous vous expliquons ce que sont les Captcha et 
 <p class="fr-text--lead">Dans cet article, nous vous expliquons ce que sont les Captcha et pourquoi certains posent problèmes. Enfin, nous présenterons des alternatives viables et des bonnes pratiques pour protéger vos sites tout en étant accessible.</p>
 
 
+<nav class="fr-summary fr-mb-4w" role="navigation" aria-labelledby="fr-summary-title">
+  <h2 class="fr-summary__title" id="fr-summary-title">Sommaire</h2>
+  <ol>
+      <li>
+          <a class="fr-summary__link"  href="#anchor-1">Que sont les Captcha ?</a>
+      </li>
+      <li>
+          <a class="fr-summary__link"  href="#anchor-2">Quels sont les Captcha qui ne sont pas accessibles ?</a>
+      </li>
+      <li>
+          <a class="fr-summary__link"  href="#anchor-3">Quelles sont les alternatives accessibles ?</a>
+      </li>
+      <li>
+          <a class="fr-summary__link"  href="#anchor-4">Sécurité</a>
+      </li>
+      <li>
+          <a class="fr-summary__link"  href="#anchor-5">Quand et comment mettre en place un Captcha ?</a>
+      </li>
+      <li>
+          <a class="fr-summary__link"  href="#anchor-6">Conclusion</a>
+      </li>
+    </ol>
+</nav>
 
-## Que sont les Captcha ?
+<h2 class="" id="anchor-1">Que sont les Captcha ?</h2>
 
 Captcha est un acronyme de « <span lang="en">Completely Automated Public Turing test to tell Computers and Humans Apart</span> » que l’on peut traduire littéralement par « test public de Turing entièrement automatisé pour distinguer les ordinateurs des humains ». 
 
@@ -21,7 +44,7 @@ C’est un type de test de sécurité qui est conçu pour distinguer un utilisat
 
 Il existe aujourd’hui une grande variété de Captcha allant du texte déformé à l’analyse du comportement de l’utilisateur par une IA (Intelligence Artificielle). 
 
-## Quels sont les Captcha qui ne sont pas accessibles ?
+<h2 class="" id="anchor-2">Quels sont les Captcha qui ne sont pas accessibles ?</h2>
 
 **Les Captcha les plus couramment utilisés posent des problèmes majeurs d’accessibilité empêchant certains utilisateurs et utilisatrices en situation de handicap d’accéder à des services numériques.** Ainsi des outils conçus initialement pour se prémunir d’un déni de service sont ironiquement à l’origine d’un *déni de service public* pour ces usagers.
 
@@ -55,7 +78,7 @@ L’utilisateur doit sélectionner des images correspondant à une instruction (
 
 Les Captcha visuels sont basés sur des éléments graphiques et **sont donc impossibles à résoudre pour une personne aveugle ou malvoyante**, même avec un lecteur d’écran. En effet, ces captcha n’ont pas de texte alternatif qui serait lu par les lecteurs d’écran — mais aussi par un robot qui pourrait alors le résoudre, le rendant inutile.
 
-### Les Captcha sonores
+### Captcha sonore
 
 Ces Captcha sont utilisés en complément des Captcha visuels pour les personnes aveugles ou malvoyantes. L’utilisateur doit écouter un enregistrement audio et écrire les lettres ou les chiffres dictés. 
 
@@ -71,19 +94,19 @@ Ces Captcha sont utilisés en complément des Captcha visuels pour les personnes
 
 **Proposer une alternative sonore à un Captcha textuel n’est pas suffisant** (mais représente tout de même une amélioration ) ! Une personne ayant des troubles visuels et auditifs, par exemple sourde-aveugle, ne pourra compléter aucune des deux versions. De plus, au lancement de l’enregistrement dictant le texte à renseigner, le lecteur d’écran peut fournir le message “lecture d’un fichier audio”. Cette information vient se superposer au début du message enregistré le rendant inaudible. Par ailleurs certains Captcha sonores ne différencient pas les majuscules des minuscules. Il est par ailleurs extrêmement difficile de mémoriser la réponse car elle n’a aucun sens. Une personne aveugle ou malvoyante utilisant un lecteur d’écran ne pourra alors ni remplir le Captcha textuel, ni le Captcha sonore.
 
-### Les Captcha puzzles
+### Captcha puzzle
 
 Certains Captcha demandent à l’usager de compléter un puzzle logique. Par exemple, cela peut être de glisser-déposer une pièce d’un puzzle pour compléter une image. 
 
 Une partie de ces Captcha reposent sur des éléments graphiques et ne sont donc pas accessibles. Ils peuvent aussi demander des tâches trop complexe pour des personnes ayant des troubles cognitifs ou encore reposer sur des actions qui nécessitent une souris et sont donc non réalisables pour une personne navigant au clavier. 
 
-### reCaptcha et les Captcha invisibles
+### Captcha invisible et reCaptcha
 
 Ce Captcha (la fameuse case à cocher “je ne suis pas un robot”) est basé sur l’analyse du comportement de l’utilisateur. Une IA évalue le comportement de l’utilisateur pour évaluer s’il s’agit d’un humain ou d’un robot. **Si l’algorithme suspecte un robot, un Captcha traditionnel (visuel ou sonore) est utilisé. Ces Captcha ne sont donc pas accessible non plus.** 
 
 De plus, pour analyser le comportement de l’usager cet algorithme se base sur les données de l’utilisateur qui sont envoyées à l’étranger et ne doit donc pas être utilisé par l’administration française.   
 
-## Quelles sont les alternatives accessibles ?
+<h2 class="" id="anchor-3">Quelles sont les alternatives accessibles ?</h2>
 
 Il existe plusieurs alternatives aux Captcha non accessibles décrits précédemment. 
 
@@ -93,7 +116,7 @@ Le <span lang="en">Honeypot</span> (« pot de miel ») consiste à ajouter un 
 
 ### Question simple
 
-Ces Captcha posent une question simple, de la vie courante ou de calcul basique. Par exemple « Combien font 2 + 3 » ou « Je mange mon lait et mes céréales le matin dans… : un bol, une assiette plate ou une gourde ? ». Ces questions sont très simples pour des humains mais peuvent être trop complexe pour des robots qui ne sont pas programmés pour comprendre du langage humain. 
+Ces Captcha posent une question simple, de la vie courante ou de calcul basique. Par exemple « Combien font 2 + 3 » ou « Je mange mon lait et mes céréales le matin dans… : un bol, une assiette plate ou une gourde ? ». Ces questions sont très simples pour des humains mais peuvent être trop complexe pour des robots qui ne sont pas programmés pour comprendre du langage humain. 
 
 Pour ces Captcha il faut s’assurer que les questions sont très simples pour être sur qu’elles ne posent pas de barrière aux usagères et usagers du service.
 
@@ -109,7 +132,7 @@ Préférez donc les solutions précédentes dans la mesure du possible.</p>
 </div>
 
 
-## Sécurité
+<h2 class="" id="anchor-4">Sécurité</h2>
 
 Qu’ils soient accessibles ou non, les Captcha ne représentent qu’une protection limitée. 
 
@@ -121,9 +144,9 @@ La protection d’un service numérique ne doit donc pas reposer uniquement sur 
 
 Il n’existe pas de solution miracle qui répond à tous les cas. Tout comme on ne protège pas de la même manière un coffre de banque qu’un casier dans un vestiaire, il faut choisir un ensemble de solutions adaptées aux risques. Et autant que possible, ne faites pas reposer la sécurité de votre service numérique sur vos utilisateurs.
 
-## Quand et comment mettre en place un Captcha ?
+<h2 class="" id="anchor-5">Quand et comment mettre en place un Captcha ?</h2>
 
-Avant de mettre en place un Captcha sur votre site internet, il faut se poser quelques questions. A-t-on réellement besoin d’un Captcha ? Pourquoi ? Quel est le risque de ne pas en utiliser ? Quel est l’impact sur nos usagers ?
+Avant de mettre en place un Captcha sur votre site internet, il faut se poser quelques questions. A-t-on réellement besoin d’un Captcha ? Pourquoi ? Quel est le risque de ne pas en utiliser ? Quel est l’impact sur nos usagers ?
 
 Si vous arrivez à la conclusion que vous devez en utiliser un, **il faut premièrement choisir un Captcha accessible**. 
 
@@ -137,7 +160,7 @@ Enfin, si l’on vous impose l’utilisation d’un Captcha “traditionnel” n
 </p>
 </div>
 
-## Conclusion
+<h2 class="" id="anchor-6">Conclusion</h2>
 
 Il est essentiel que les solutions de sécurité soient traitées en prenant en compte leur impact sur les usagers du service. La sécurité d’un service numérique ne doit pas se faire au détriment de personnes en situation de handicap. 
 

@@ -282,7 +282,7 @@ li.fr-card {
     }
 
     &__blocks {
-      order: 3;  
+      order: 3;
       a.fr-tile__link {
         word-break: break-all;
       }
@@ -370,10 +370,15 @@ li.fr-card {
 .fr-tag, .fr-badge {
   z-index:0;
 }
+
 .fr {
 
   &-header {
     z-index: 1;
+
+    &__operator {
+      padding-bottom: 0 !important;
+    }
   }
 
   &-tile {
@@ -387,7 +392,7 @@ li.fr-card {
     }
 
   }
- 
+
   &-badge {
     flex-shrink: 0;
   }

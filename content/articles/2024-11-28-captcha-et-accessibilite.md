@@ -7,9 +7,9 @@ illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
 description: "Dans cet article, nous vous expliquons ce que sont les Captcha et pourquoi certains posent problèmes. Enfin, nous présenterons des alternatives viables et des bonnes pratiques pour protéger vos sites tout en étant accessible."
 ---
 
-<p class="fr-text--lead">Que ce soit pour se connecter à un compte, s’inscrire à une newsletter, les Captcha sont partout sur internet. Conçu pour  protéger les sites internet contre certaines attaques informatiques, ils permettent de différencier les utilisateurs humains des machines. Cependant, certains Captcha ne sont pas accessibles : qu’ils s’agissent de textes déformés, de puzzles visuels ou de tests audio, ces tests ne bloquent pas seulement les robots mais excluent aussi des millions d’utilisateurs en situation de handicap. </p>
+<p class="fr-text--lead">Que ce soit pour se connecter à un compte, s’inscrire à une newsletter, les Captcha sont partout sur internet. Conçu pour  protéger les sites internet contre certaines attaques informatiques, ils permettent de différencier les utilisateurs humains des machines. Cependant, certains Captcha ne sont pas accessibles : qu’il s’agisse de textes déformés, de puzzles visuels ou de tests audio, ces tests ne bloquent pas seulement les robots mais excluent aussi des millions d’utilisateurs en situation de handicap. </p>
 
-<p class="fr-text--lead">Dans cet article, nous vous expliquons ce que sont les Captcha et pourquoi certains posent problèmes. Enfin, nous présenterons des alternatives viables et des bonnes pratiques pour protéger vos sites tout en étant accessible.</p>
+<p class="fr-text--lead">Dans cet article, nous vous expliquons ce que sont les Captcha et pourquoi certains posent problème. Enfin, nous présenterons des alternatives viables et des bonnes pratiques pour protéger vos sites tout en étant accessible.</p>
 
 
 <nav class="fr-summary fr-mb-4w" role="navigation" aria-labelledby="fr-summary-title">
@@ -40,13 +40,13 @@ description: "Dans cet article, nous vous expliquons ce que sont les Captcha et 
 
 Captcha est un acronyme de « <span lang="en">Completely Automated Public Turing test to tell Computers and Humans Apart</span> » que l’on peut traduire littéralement par « test public de Turing entièrement automatisé pour distinguer les ordinateurs des humains ». 
 
-C’est un type de test de sécurité qui est conçu pour distinguer un utilisateur humain d’un robot lors d’une interaction avec un site web. Ils sont utilisés pour sécuriser les sites internet contre des soumissions de formulaires automatisées et répétées par des robots. Par exemple pour éviter qu’un robot génère des milliers de fausses demandes sur une procédure en ligne. Ces attaques peuvent aller jusqu’à provoquer une interruption de service.
+C’est un type de test de sécurité qui est conçu pour distinguer un utilisateur humain d’un robot lors d’une interaction avec un site web. Ils sont utilisés pour sécuriser les sites internet contre des soumissions de formulaires automatisées et répétées par des robots, par exemple pour éviter qu’un robot génère des milliers de fausses demandes sur une procédure en ligne. Ces attaques peuvent aller jusqu’à provoquer une interruption de service.
 
 Il existe aujourd’hui une grande variété de Captcha allant du texte déformé à l’analyse du comportement de l’utilisateur par une IA (Intelligence Artificielle). 
 
 <h2 class="" id="anchor-2">Quels sont les Captcha qui ne sont pas accessibles ?</h2>
 
-**Les Captcha les plus couramment utilisés posent des problèmes majeurs d’accessibilité empêchant certains utilisateurs et utilisatrices en situation de handicap d’accéder à des services numériques.** Ainsi des outils conçus initialement pour se prémunir d’un déni de service sont ironiquement à l’origine d’un *déni de service public* pour ces usagers.
+**Les Captcha les plus couramment utilisés posent des problèmes majeurs d’accessibilité empêchant certains utilisateurs et utilisatrices en situation de handicap d’accéder à des services numériques.** Ainsi des outils conçus initialement pour se prémunir d’un déni de service sont ironiquement à l’origine d’un déni de service public pour ces usagers.
 
 En 2024, [l’étude de WebAIM (en anglais)](https://webaim.org/projects/screenreadersurvey10/#problematic) relève que les Captcha sont toujours les éléments les plus gênants sur internet pour les personnes utilisant un lecteur d’écran.
 
@@ -118,7 +118,7 @@ Le <span lang="en">Honeypot</span> (« pot de miel ») consiste à ajouter un 
 
 Ces Captcha posent une question simple, de la vie courante ou de calcul basique. Par exemple « Combien font 2 + 3 » ou « Je mange mon lait et mes céréales le matin dans… : un bol, une assiette plate ou une gourde ? ». Ces questions sont très simples pour des humains mais peuvent être trop complexe pour des robots qui ne sont pas programmés pour comprendre du langage humain. 
 
-Pour ces Captcha il faut s’assurer que les questions sont très simples pour être sur qu’elles ne posent pas de barrière aux usagères et usagers du service.
+Pour ces Captcha il faut s’assurer que les questions sont très simples pour être sûr qu’elles ne posent pas de barrière aux usagères et usagers du service.
 
 ### Preuve de travail
 
@@ -152,13 +152,7 @@ Si vous arrivez à la conclusion que vous devez en utiliser un, **il faut premi�
 
 Deuxièmement, il est plus judicieux de ne pas utiliser un Captcha tout le temps auprès de tous vos usagers. **Testez qu’il s’agit bien d’un humain seulement quand il y a un doute** (nombre de souscription trop élevé dans un laps de temps trop court etc.). De la même manière il n’est pas nécessaire d’afficher un Captcha si un usager est authentifié via [FranceConnect](https://franceconnect.gouv.fr/) : on est assuré qu’il s’agit de la bonne personne.
 
-Enfin, si l’on vous impose l’utilisation d’un Captcha “traditionnel” non accessible, vous devez mettre en place des alternatives pour palier à ce problème (une personne contact pour faire la démarche par exemple. Pensez aussi à prendre aussi le Captcha le moins limitant possible.
-
-<div class="fr-callout fr-icon-information-line">
-    <p class="fr-callout__text">
-À noter qu’un Hackaton sera organisé en début d’année 2025 pour améliorer l’accessibilité de la solution CAPCHÉTAT.  
-</p>
-</div>
+Enfin, si l’on vous impose l’utilisation d’un Captcha « traditionnel » non accessible, vous devez mettre en place des alternatives pour palier ce problème (une personne contact pour faire la démarche par exemple. Pensez aussi à choisir le Captcha le moins limitant possible.
 
 <h2 class="" id="anchor-6">Conclusion</h2>
 
@@ -166,4 +160,4 @@ Il est essentiel que les solutions de sécurité soient traitées en prenant en 
 
 Les alternatives accessibles présentées dans cet article doivent être envisagées lors de la conception de la sécurité d’un service numérique.
 
-Si vous souhaitez allez plus loin sur les Captcha et l’accessibilité, Vous pouvez consulter l’article en anglais [“Inaccessibility of CAPTCHA”](https://www.w3.org/TR/turingtest/) rédigé par un groupe de travail du W3C (World Wide Web Consortium, qui est l’organisme de standardisation d’internet à l’échelle mondiale).
+Si vous souhaitez aller plus loin sur les Captcha et l’accessibilité, vous pouvez consulter l’article en anglais [“Inaccessibility of CAPTCHA”](https://www.w3.org/TR/turingtest/) rédigé par un groupe de travail du W3C (World Wide Web Consortium, qui est l’organisme de standardisation d’internet à l’échelle mondiale).

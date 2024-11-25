@@ -152,7 +152,7 @@ Si vous arrivez à la conclusion que vous devez en utiliser un, **il faut premi�
 
 Deuxièmement, il est plus judicieux de ne pas utiliser un Captcha tout le temps auprès de tous vos usagers. **Testez qu’il s’agit bien d’un humain seulement quand il y a un doute** (nombre de souscription trop élevé dans un laps de temps trop court, etc.). De la même manière il n’est pas nécessaire d’afficher un Captcha si un usager est authentifié via [FranceConnect](https://franceconnect.gouv.fr/) : on est assuré qu’il s’agit de la bonne personne.
 
-Enfin, si l’on vous impose l’utilisation d’un Captcha « traditionnel » non accessible, vous devez mettre en place des alternatives pour palier ce problème (une personne contact pour faire la démarche par exemple. Pensez aussi à choisir le Captcha le moins limitant possible.
+Enfin, si l’on vous impose l’utilisation d’un Captcha « traditionnel » non accessible, vous devez mettre en place des alternatives pour palier ce problème (une personne contact pour faire la démarche par exemple). Pensez aussi à choisir le Captcha le moins limitant possible.
 
 <h2 class="" id="anchor-6">Conclusion</h2>
 
@@ -160,4 +160,4 @@ Il est essentiel que les solutions de sécurité soient traitées en prenant en 
 
 Les alternatives accessibles présentées dans cet article doivent être envisagées lors de la conception de la sécurité d’un service numérique.
 
-Si vous souhaitez aller plus loin sur les Captcha et l’accessibilité, vous pouvez consulter l’article en anglais « <span lang="en">[Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/)</span> » rédigé par un groupe de travail du W3C (World Wide Web Consortium, qui est l’organisme de standardisation d’internet à l’échelle mondiale).
+Si vous souhaitez aller plus loin sur les Captcha et l’accessibilité, vous pouvez consulter l’article en anglais « <span lang="en">[Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/)</span> » rédigé par un groupe de travail du W3C (<span lang="en">World Wide Web Consortium</span>, qui est l’organisme de standardisation d’internet à l’échelle mondiale).

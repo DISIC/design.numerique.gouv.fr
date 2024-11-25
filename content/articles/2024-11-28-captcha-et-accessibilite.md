@@ -56,7 +56,7 @@ Ces Captcha sont basés sur la reconnaissance d’un texte ou d’une image.
 
 #### Captcha textuel
 L’utilisateur doit lire un texte déformé affiché dans une image et le recopier.
-<figure class="fr-content-media--sm" role="group" aria-label="Exemple de Captcha textuel">
+<figure class="fr-content-media--sm" >
     <div class="fr-content-media__img">
         <img src="/assets/images/captcha-txt.png" class="fr-responsive-img" alt="" />
     </div>
@@ -65,9 +65,9 @@ L’utilisateur doit lire un texte déformé affiché dans une image et le recop
     
 
 #### Captcha basé sur des images
-L’utilisateur doit sélectionner des images correspondant à une instruction (par exemple ”Sélectionnez toutes les images contenant des passages piétons” ou “Déplacez l’objet pour qu’il soit orienté dans la position de la flèche”).
+L’utilisateur doit sélectionner des images correspondant à une instruction (par exemple « Sélectionnez toutes les images contenant des passages piétons » ou « Déplacez l’objet pour qu’il soit orienté dans la position de la flèche »).
     
-  <figure class="fr-content-media--sm" role="group" aria-label="Exemple de Captcha basé sur les images">
+  <figure class="fr-content-media--sm" >
     <div class="fr-content-media__img">
         <img src="/assets/images/captcha-img.png" class="fr-responsive-img" alt="" />
     </div>
@@ -82,7 +82,7 @@ Les Captcha visuels sont basés sur des éléments graphiques et **sont donc imp
 
 Ces Captcha sont utilisés en complément des Captcha visuels pour les personnes aveugles ou malvoyantes. L’utilisateur doit écouter un enregistrement audio et écrire les lettres ou les chiffres dictés. 
 
-<figure class="fr-content-media--sm" role="group" aria-label="Exemple de Captcha sonore, en complément du Captcha textuel">
+<figure class="fr-content-media--sm">
     <div class="fr-content-media__img">
         <img src="/assets/images/captcha-son.png" class="fr-responsive-img" alt="" />
     </div>
@@ -92,7 +92,7 @@ Ces Captcha sont utilisés en complément des Captcha visuels pour les personnes
 
 **Il n’est pas utile de préciser que les Captcha sonores sont inutilisables par les personnes sourdes**. De plus, la qualité de l’enregistrement est parfois réduite volontairement pour ne pas être reconnue par un robot ce qui **peut le rendre aussi inutilisable pour certaines personnes, d’autant plus pour des personnes malentendantes**.
 
-**Proposer une alternative sonore à un Captcha textuel n’est pas suffisant** (mais représente tout de même une amélioration ) ! Une personne ayant des troubles visuels et auditifs, par exemple sourde-aveugle, ne pourra compléter aucune des deux versions. De plus, au lancement de l’enregistrement dictant le texte à renseigner, le lecteur d’écran peut fournir le message “lecture d’un fichier audio”. Cette information vient se superposer au début du message enregistré le rendant inaudible. Par ailleurs certains Captcha sonores ne différencient pas les majuscules des minuscules. Il est par ailleurs extrêmement difficile de mémoriser la réponse car elle n’a aucun sens. Une personne aveugle ou malvoyante utilisant un lecteur d’écran ne pourra alors ni remplir le Captcha textuel, ni le Captcha sonore.
+**Proposer une alternative sonore à un Captcha textuel n’est pas suffisant** (mais représente tout de même une amélioration) ! Une personne ayant des troubles visuels et auditifs, par exemple sourde-aveugle, ne pourra compléter aucune des deux versions. De plus, au lancement de l’enregistrement dictant le texte à renseigner, le lecteur d’écran peut fournir le message « lecture d’un fichier audio ». Cette information vient se superposer au début du message enregistré le rendant inaudible. Par ailleurs certains Captcha sonores ne différencient pas les majuscules des minuscules. Il est par ailleurs extrêmement difficile de mémoriser la réponse car elle n’a aucun sens. Une personne aveugle ou malvoyante utilisant un lecteur d’écran ne pourra alors ni remplir le Captcha textuel, ni le Captcha sonore.
 
 ### Captcha puzzle
 
@@ -102,7 +102,7 @@ Une partie de ces Captcha reposent sur des éléments graphiques et ne sont donc
 
 ### Captcha invisible et reCaptcha
 
-Ce Captcha (la fameuse case à cocher “je ne suis pas un robot”) est basé sur l’analyse du comportement de l’utilisateur. Une IA évalue le comportement de l’utilisateur pour évaluer s’il s’agit d’un humain ou d’un robot. **Si l’algorithme suspecte un robot, un Captcha traditionnel (visuel ou sonore) est utilisé. Ces Captcha ne sont donc pas accessible non plus.** 
+Ce Captcha (la fameuse case à cocher « je ne suis pas un robot ») est basé sur l’analyse du comportement de l’utilisateur. Une IA évalue le comportement de l’utilisateur pour évaluer s’il s’agit d’un humain ou d’un robot. **Si l’algorithme suspecte un robot, un Captcha traditionnel (visuel ou sonore) est utilisé. Ces Captcha ne sont donc pas accessible non plus.** 
 
 De plus, pour analyser le comportement de l’usager cet algorithme se base sur les données de l’utilisateur qui sont envoyées à l’étranger et ne doit donc pas être utilisé par l’administration française.   
 
@@ -112,7 +112,7 @@ Il existe plusieurs alternatives aux Captcha non accessibles décrits précédem
 
 ### Pot de miel
 
-Le <span lang="en">Honeypot</span> (« pot de miel ») consiste à ajouter un champ qui est invisible pour les humains mais sera rempli par un robot. Ainsi, quand le formulaire est soumis, il suffit de vérifier si ce champ est rempli. Un honeypot **ne** **rajoute pas d’action à l’usager** et est **très simple à mettre en place**.
+Le <span lang="en">Honeypot</span> (« pot de miel ») consiste à ajouter un champ qui est invisible pour les humains mais sera rempli par un robot. Ainsi, quand le formulaire est soumis, il suffit de vérifier si ce champ est rempli. Un <span lang="en">honeypot</span> **ne** **rajoute pas d’action à l’usager** et est **très simple à mettre en place**.
 
 ### Question simple
 
@@ -122,7 +122,7 @@ Pour ces Captcha il faut s’assurer que les questions sont très simples pour �
 
 ### Preuve de travail
 
-La preuve de travail consiste à faire “travailler” l’ordinateur de l’utilisateur d’un site internet. Il s’agit d’une tâche qui demande une puissance de calcul importante au moment de soumettre un formulaire. Cette charge ne pose, en général, pas de problème pour une personne seule sur son ordinateur mais peut bloquer des robots qui ont des ressources limitées pour assurer leur grand nombre. 
+La preuve de travail consiste à faire « travailler » l’ordinateur de l’utilisateur d’un site internet. Il s’agit d’une tâche qui demande une puissance de calcul importante au moment de soumettre un formulaire. Cette charge ne pose, en général, pas de problème pour une personne seule sur son ordinateur mais peut bloquer des robots qui ont des ressources limitées pour assurer leur grand nombre. 
 
 Comme le pot de miel, cette technique est transparente pour l’usager.
 <div class="fr-callout fr-icon-information-line">
@@ -138,9 +138,9 @@ Qu’ils soient accessibles ou non, les Captcha ne représentent qu’une protec
 
 En effet, depuis 2014 [les algorithmes de Google peuvent résoudre les Captcha textuels avec une précision de 99% (en anglais)](https://security.googleblog.com/2014/04/street-view-and-recaptcha-technology.html). Une étude plus récente a montré que, grâce à l’avancée en matière de reconnaissance d’image des intelligences artificielles, [les robots sont plus rapides et plus précis que les humains pour compléter un Captcha (en anglais)](https://arxiv.org/abs/2307.12108).  Par exemple, pour un Captcha de texte déformé, les humains ont mis entre 9 et 15 secondes avec une précision de 50 à 84%, là où les robots ont mis moins d’une seconde avec une précision de 99,8%.  
 
-De la même manière, les Captcha accessibles présentés précédemment ne sont pas infaillibles. Un robot adapté pourra détecter et donc ignorer un honeypot ou répondre à une question simple. Avec suffisamment de ressources, il pourra aussi ne pas être impacté par la preuve de travail. 
+De la même manière, les Captcha accessibles présentés précédemment ne sont pas infaillibles. Un robot adapté pourra détecter et donc ignorer un <span lang="en">honeypot</span> ou répondre à une question simple. Avec suffisamment de ressources, il pourra aussi ne pas être impacté par la preuve de travail. 
 
-La protection d’un service numérique ne doit donc pas reposer uniquement sur un Captcha. Il faut aussi mettre des protections au niveau du réseau (réseau de distribution de contenu, équilibreur de charge, pare-feu …) et d’autre couche du service numérique. 
+La protection d’un service numérique ne doit donc pas reposer uniquement sur un Captcha. Il faut aussi mettre des protections au niveau du réseau (réseau de distribution de contenu, équilibreur de charge, pare-feu…) et d’autre couche du service numérique. 
 
 Il n’existe pas de solution miracle qui répond à tous les cas. Tout comme on ne protège pas de la même manière un coffre de banque qu’un casier dans un vestiaire, il faut choisir un ensemble de solutions adaptées aux risques. Et autant que possible, ne faites pas reposer la sécurité de votre service numérique sur vos utilisateurs.
 
@@ -150,7 +150,7 @@ Avant de mettre en place un Captcha sur votre site internet, il faut se poser qu
 
 Si vous arrivez à la conclusion que vous devez en utiliser un, **il faut premièrement choisir un Captcha accessible**. 
 
-Deuxièmement, il est plus judicieux de ne pas utiliser un Captcha tout le temps auprès de tous vos usagers. **Testez qu’il s’agit bien d’un humain seulement quand il y a un doute** (nombre de souscription trop élevé dans un laps de temps trop court etc.). De la même manière il n’est pas nécessaire d’afficher un Captcha si un usager est authentifié via [FranceConnect](https://franceconnect.gouv.fr/) : on est assuré qu’il s’agit de la bonne personne.
+Deuxièmement, il est plus judicieux de ne pas utiliser un Captcha tout le temps auprès de tous vos usagers. **Testez qu’il s’agit bien d’un humain seulement quand il y a un doute** (nombre de souscription trop élevé dans un laps de temps trop court, etc.). De la même manière il n’est pas nécessaire d’afficher un Captcha si un usager est authentifié via [FranceConnect](https://franceconnect.gouv.fr/) : on est assuré qu’il s’agit de la bonne personne.
 
 Enfin, si l’on vous impose l’utilisation d’un Captcha « traditionnel » non accessible, vous devez mettre en place des alternatives pour palier ce problème (une personne contact pour faire la démarche par exemple. Pensez aussi à choisir le Captcha le moins limitant possible.
 
@@ -160,4 +160,4 @@ Il est essentiel que les solutions de sécurité soient traitées en prenant en 
 
 Les alternatives accessibles présentées dans cet article doivent être envisagées lors de la conception de la sécurité d’un service numérique.
 
-Si vous souhaitez aller plus loin sur les Captcha et l’accessibilité, vous pouvez consulter l’article en anglais [“Inaccessibility of CAPTCHA”](https://www.w3.org/TR/turingtest/) rédigé par un groupe de travail du W3C (World Wide Web Consortium, qui est l’organisme de standardisation d’internet à l’échelle mondiale).
+Si vous souhaitez aller plus loin sur les Captcha et l’accessibilité, vous pouvez consulter l’article en anglais « <span lang="en">[Inaccessibility of CAPTCHA](https://www.w3.org/TR/turingtest/)</span> » rédigé par un groupe de travail du W3C (World Wide Web Consortium, qui est l’organisme de standardisation d’internet à l’échelle mondiale).

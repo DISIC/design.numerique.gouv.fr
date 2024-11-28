@@ -1,13 +1,13 @@
 ---
-title: Captcha et Accessibilité. Les personnes handicapées ne sont pas des robots !
+title: "Captcha et accessibilité : Les personnes handicapées ne sont pas des robots !"
 slug: 2024-11-28-captcha-et-accessibilite
 publishedDate: 2024-11-28
 tags: [ "accessibilité", "RGAA"]
-illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
+illustration: ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
 description: "Dans cet article, nous vous expliquons ce que sont les Captcha et pourquoi certains posent problèmes. Enfin, nous présenterons des alternatives viables et des bonnes pratiques pour protéger vos sites tout en étant accessible."
 ---
 
-<p class="fr-text--lead">Que ce soit pour se connecter à un compte, s’inscrire à une newsletter, les Captcha sont partout sur internet. Conçu pour  protéger les sites internet contre certaines attaques informatiques, ils permettent de différencier les utilisateurs humains des machines. Cependant, certains Captcha ne sont pas accessibles : qu’il s’agisse de textes déformés, de puzzles visuels ou de tests audio, ces tests ne bloquent pas seulement les robots mais excluent aussi des millions d’utilisateurs en situation de handicap. </p>
+<p class="fr-text--lead">Que ce soit pour se connecter à un compte ou s’inscrire à une newsletter, les Captcha sont partout sur internet. Conçus pour  protéger les sites internet contre certaines attaques informatiques, ils permettent de différencier les utilisateurs humains des machines. Cependant, certains Captcha ne sont pas accessibles : qu’il s’agisse de textes déformés, de puzzles visuels ou de tests audio, ces tests ne bloquent pas seulement les robots mais excluent aussi des millions d’utilisateurs en situation de handicap. </p>
 
 <p class="fr-text--lead">Dans cet article, nous vous expliquons ce que sont les Captcha et pourquoi certains posent problème. Enfin, nous présenterons des alternatives viables et des bonnes pratiques pour protéger vos sites tout en étant accessible.</p>
 
@@ -76,7 +76,7 @@ L’utilisateur doit sélectionner des images correspondant à une instruction (
     
     
 
-Les Captcha visuels sont basés sur des éléments graphiques et **sont donc impossibles à résoudre pour une personne aveugle ou malvoyante**, même avec un lecteur d’écran. En effet, ces captcha n’ont pas de texte alternatif qui serait lu par les lecteurs d’écran — mais aussi par un robot qui pourrait alors le résoudre, le rendant inutile.
+Les Captcha visuels sont basés sur des éléments graphiques et **sont donc impossibles à résoudre pour une personne aveugle ou malvoyante**, même avec un lecteur d’écran. En effet, ces captcha n’ont pas de texte alternatif qui serait lu par les lecteurs d’écran - mais aussi par un robot qui pourrait alors le résoudre, les rendant inutiles.
 
 ### Captcha sonore
 
@@ -136,7 +136,7 @@ Préférez donc les solutions précédentes dans la mesure du possible.</p>
 
 Qu’ils soient accessibles ou non, les Captcha ne représentent qu’une protection limitée. 
 
-En effet, depuis 2014 [les algorithmes de Google peuvent résoudre les Captcha textuels avec une précision de 99% (en anglais)](https://security.googleblog.com/2014/04/street-view-and-recaptcha-technology.html). Une étude plus récente a montré que, grâce à l’avancée en matière de reconnaissance d’image des intelligences artificielles, [les robots sont plus rapides et plus précis que les humains pour compléter un Captcha (en anglais)](https://arxiv.org/abs/2307.12108).  Par exemple, pour un Captcha de texte déformé, les humains ont mis entre 9 et 15 secondes avec une précision de 50 à 84%, là où les robots ont mis moins d’une seconde avec une précision de 99,8%.  
+En effet, depuis 2014 [les algorithmes de Google peuvent résoudre les Captcha textuels avec une précision de 99% (en anglais)](https://security.googleblog.com/2014/04/street-view-and-recaptcha-technology.html). Une étude plus récente a montré que, grâce à l’avancée en matière de reconnaissance d’image des intelligences artificielles, [les robots sont plus rapides et plus précis que les humains pour compléter un Captcha (en anglais)](https://arxiv.org/abs/2307.12108).  Par exemple, pour un Captcha de texte déformé, les humains ont mis entre 9 et 15 secondes avec une précision de 50 à 84 %, là où les robots ont mis moins d’une seconde avec une précision de 99,8 %.  
 
 De la même manière, les Captcha accessibles présentés précédemment ne sont pas infaillibles. Un robot adapté pourra détecter et donc ignorer un <span lang="en">honeypot</span> ou répondre à une question simple. Avec suffisamment de ressources, il pourra aussi ne pas être impacté par la preuve de travail. 
 
@@ -150,7 +150,7 @@ Avant de mettre en place un Captcha sur votre site internet, il faut se poser qu
 
 Si vous arrivez à la conclusion que vous devez en utiliser un, **il faut premièrement choisir un Captcha accessible**. 
 
-Deuxièmement, il est plus judicieux de ne pas utiliser un Captcha tout le temps auprès de tous vos usagers. **Testez qu’il s’agit bien d’un humain seulement quand il y a un doute** (nombre de souscription trop élevé dans un laps de temps trop court, etc.). De la même manière il n’est pas nécessaire d’afficher un Captcha si un usager est authentifié via [FranceConnect](https://franceconnect.gouv.fr/) : on est assuré qu’il s’agit de la bonne personne.
+Deuxièmement, il est plus judicieux de ne pas utiliser un Captcha tout le temps auprès de tous vos usagers. **Testez qu’il s’agit bien d’un humain seulement quand il y a un doute** (nombre de souscription trop élevé dans un laps de temps trop court, etc.). De la même manière il n’est pas nécessaire d’afficher un Captcha si un usager est authentifié via [FranceConnect](https://franceconnect.gouv.fr/) : on est assuré qu’il s’agit de la bonne personne.
 
 Enfin, si l’on vous impose l’utilisation d’un Captcha « traditionnel » non accessible, vous devez mettre en place des alternatives pour palier ce problème (une personne contact pour faire la démarche par exemple). Pensez aussi à choisir le Captcha le moins limitant possible.
 

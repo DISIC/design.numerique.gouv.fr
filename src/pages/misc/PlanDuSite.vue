@@ -20,7 +20,7 @@
         <h2><a href="/accessibilite-numerique/">Accessibilité</a></h2>
         <ul>
         <li><a href="/accessibilite-numerique/cadre-legal/">Obligations légales et sanctions</a></li>
-        <li><a href="/accessibilite-numerique/RGAA/">Le Référentiel général d'amélioration de l'accessibilité</a></li>
+        <li><a href="/accessibilite-numerique/rgaa/">Le Référentiel général d'amélioration de l'accessibilité</a></li>
         <li><a href="/accessibilite-numerique/schema-pluriannuel/">Schéma pluriannuel de mise en accessibilité</a></li>
         <li><a href="/accessibilite-numerique/declaration-accessibilite/">Déclaration d'accessibilité</a></li>
         <li><a href="/accessibilite-numerique/prestations-accessibilite-numerique/">Faire appel à un prestataire</a></li>

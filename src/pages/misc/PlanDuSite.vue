@@ -38,7 +38,7 @@
         <li><a href="/outils/audit-rapide/">L‘audit rapide RGAA</a></li>
         <li><a href="/outils/checklist-pidila/">La checklist PiDila</a></li>
         <li><a href="/outils/accessibilite-marche-public/">L’accessibilité numérique dans les marchés publics</a></li>
-        <li><a href="/outils/exemple-declaration-accessibilite/">Ara</a></li>
+        <li><a href="/outils/exemple-declaration-accessibilite/">Exemple de déclaration d’accessibilité</a></li>
         </ul>
         <h2><a href="/formations/">Formations</a></h2>
         <ul>

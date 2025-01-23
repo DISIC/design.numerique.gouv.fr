@@ -17,7 +17,7 @@
 
       <section>
         <h2><a href="/design-numerique/">Design numérique</a></h2>
-        <h2><a href="/accessibilite-numerique/">Accessibilité</a></h2>
+        <h2><a href="/accessibilite-numerique/">Accessibilité numérique</a></h2>
         <ul>
         <li><a href="/accessibilite-numerique/cadre-legal/">Obligations légales et sanctions</a></li>
         <li><a href="/accessibilite-numerique/rgaa/">Le Référentiel général d'amélioration de l'accessibilité</a></li>

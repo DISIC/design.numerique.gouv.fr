@@ -162,6 +162,12 @@
           </h3>
           <div class="fr-collapse" id="accordion-3">
             <ul class="fr-my-2w">
+              <li><a href="https://mentor.gouv.fr/catalog/3087" title="L’impact environnemental du numérique : comment agir ? - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">L’impact environnemental du numérique : comment agir ?</a>
+                <ul><li>Organisme de formation : <strong>Direction interministérielle du numérique - Mission Numérique Écoresponsable</strong></li>
+                <li>Durée : <strong>1h</strong></li>
+                <li>Réservé aux agents de l’État ayant accès à la <a title="plateforme Mentor - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener" href="https://mentor.gouv.fr/login/index.php">plateforme Mentor</a></li>
+                </ul>
+              </li>    
               <li><a href="https://www.fun-mooc.fr/fr/cours/impacts-environnementaux-du-numerique/" title="Les impacts environnementaux du numérique - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Les impacts environnementaux du numérique</a>
                 <ul><li>Organisme de formation : <strong>Inria</strong> (Institut national de recherche en sciences et technologies du numérique), France Université numérique</li><li>Durée : <strong>5h</strong></li></ul>
               </li>

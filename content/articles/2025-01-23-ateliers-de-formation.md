@@ -17,9 +17,9 @@ Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur les 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité</a></h2>
 
 Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
-- 13 février - présentiel
-- 27 mars - visioconférence
-
+- ~~13 février~~ Annulé !
+- ~~27 mars~~ Complet !
+  
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Les tests usagers dans la pratique</a></h2>
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.  
@@ -28,13 +28,13 @@ Préparer et animer des tests avec des usagers puis analyser les résultats.
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
 
 Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant.
-- 6 mars - présentiel
+- ~~6 mars - présentiel~~ Complet !
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF accessible avec un traitement de texte</a></h2>
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants : Microsoft Word et LibreOffice Writer.
 - 6 mars - présentiel
-- 25 mars - visioconférence
+- ~~25 mars - visioconférence~~ Complet !
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
 
@@ -44,7 +44,7 @@ Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents.
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Design et accessibilité numérique</a></h2>
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
-- 18 mars - présentiel
+- ~~18 mars~~ Complet !
 
 <hr/>
 

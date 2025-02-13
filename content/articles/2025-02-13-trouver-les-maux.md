@@ -4,7 +4,7 @@ slug: 2025-02-13-trouver-les-maux
 publishedDate: 2025-02-13
 tags: ["design"]
 illustration: ./illustrations/2025-02-13-trouver-les-maux.png
-description: Trouver les maux
+description: Trouver les maux est une tribune d’Ugo Dessertine, responsable du design à la Direction interministérielle du numérique (DINUM).
 ---
 
 <p class="fr-text--lead">«&nbsp;Trouver les maux&nbsp;» est une tribune d’Ugo Dessertine, responsable du design à la Direction interministérielle du numérique (DINUM).</p>

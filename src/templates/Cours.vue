@@ -162,7 +162,7 @@
         </div>
       </div>
 
-      <div v-html="$page.cours.content.content" class="dg-contains-list" />
+      <div class="dg-contains-list" v-html="markdownContent" />
 
       <div v-if="$page.cours.intervenants.length == 1">
         <p><strong>Formateur :</strong></p>
@@ -602,9 +602,7 @@
       }
       descriptionCourte
       descriptionLongue
-      content {
-        content
-      }
+      contenu
       replay
 			transcription
       transcriptionName
@@ -625,6 +623,7 @@
 
 <script>
 import * as Sentry from "@sentry/browser";
+import MarkdownIt from "markdown-it";
 
 export default {
   metaInfo() {
@@ -653,6 +652,7 @@ export default {
   },
   data() {
     return {
+      md: new MarkdownIt(),
       form: {
         firstName: null,
         lastName: null,
@@ -670,6 +670,9 @@ export default {
     };
   },
   computed: {
+    markdownContent() {
+      return this.md.render(this.$page.cours.contenu);
+    },
     futurSessions: function () {
       var futur = this.$page.cours.sessions
         .sort((a, b) => new Date(a.date * 1000) - new Date(b.date * 1000))

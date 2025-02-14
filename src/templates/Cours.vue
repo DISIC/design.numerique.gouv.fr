@@ -610,6 +610,7 @@
 <script>
 import * as Sentry from "@sentry/browser";
 import MarkdownIt from "markdown-it";
+import axios from "axios";
 
 export default {
   metaInfo() {
@@ -664,7 +665,7 @@ export default {
         .sort((a, b) => new Date(a.date * 1000) - new Date(b.date * 1000))
         .filter((session) => new Date(session.date * 1000) > Date.now());
       futur.forEach((session) => {
-        var date = new Date(session.date).toLocaleDateString(undefined, {
+        var date = new Date(session.date * 1000).toLocaleDateString(undefined, {
           weekday: "long",
           year: "numeric",
           month: "long",
@@ -679,45 +680,50 @@ export default {
     },
   },
   methods: {
-    addParticipant() {
+    async addParticipant() {
       document.getElementById("submit").disabled = true;
+
       if (this.futurOpenSessions.length == 1) {
         this.form.session = this.futurOpenSessions[0].id;
       }
-      var Airtable = require("airtable");
-      var base = new Airtable({
-        apiKey: process.env.GRIDSOME_AIRTABLE_TOKEN,
-      }).base(process.env.GRIDSOME_AIRTABLE_COURSE_NEW_BASE);
 
-      base("Inscriptions")
-        .create([
-          {
-            fields: {
-              "E-mail": this.form.email,
-              Organisme: this.form.organisme,
-              Session: [this.form.session],
-              Prénom: this.form.firstName,
-              Nom: this.form.lastName,
-              Ville: this.form.city,
-              Nom: this.form.lastName,
-              Poste: this.form.job,
-              Statut: this.form.statut,
-              Démarche: this.form.demarche,
-              Niveau: this.form.expertise,
-              Attentes: this.form.attentes,
-              Prérequis: this.form.prerequis,
-            },
+      try {
+        await axios({
+          method: "post",
+          url: `${process.env.CORS_PROXY}${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_DOC_ID}/tables/Inscriptions/records`,
+          headers: {
+            Authorization: `Bearer ${process.env.GRIDSOME_GRIST_API_KEY}`,
+            "Content-Type": "application/json",
           },
-        ])
-        .then(() => {
-          window.location.href = "/formulaire/succes/";
-        })
-        .catch((e) => {
-          Sentry.captureException([e.error, e.message, e.statusCode]);
-          setTimeout(() => {
-            window.location.href = "/formulaire/erreur/";
-          }, 5000);
+          data: {
+            records: [
+              {
+                fields: {
+                  e_mail: this.form.email,
+                  organisme: this.form.organisme,
+                  id2: parseInt(this.form.session),
+                  prenom: this.form.firstName,
+                  nom: this.form.lastName,
+                  ville: this.form.city,
+                  poste: this.form.job,
+                  statut: this.form.statut,
+                  demarche: this.form.demarche,
+                  niveau: this.form.expertise,
+                  attentes: this.form.attentes,
+                  prerequis: this.form.prerequis,
+                },
+              },
+            ],
+          },
         });
+
+        window.location.href = "/formulaire/succes/";
+      } catch (error) {
+        Sentry.captureException(error);
+        setTimeout(() => {
+          window.location.href = "/formulaire/erreur/";
+        }, 5000);
+      }
     },
   },
 };

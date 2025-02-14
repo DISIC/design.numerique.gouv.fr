@@ -44,9 +44,6 @@
     "style-resources-loader": "^1.5.0"
   },
   "lint-staged": {
-    "*.{js,vue,json,md}": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.{js,vue,json,md}": "prettier --write"
   }
 }

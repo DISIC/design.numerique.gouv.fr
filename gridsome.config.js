@@ -214,20 +214,6 @@ module.exports = {
       },
     },
     {
-      use: "@gridsome/source-airtable",
-      options: {
-        apiKey: process.env.GRIDSOME_AIRTABLE_TOKEN, // required
-        base: process.env.GRIDSOME_AIRTABLE_OBSERVATORY_BASE, // required
-        tables: [
-          {
-            name: "tblDTPei5XSX4CUnO", // required
-            typeName: "Accompagnement", // required
-          },
-        ],
-        tableName: "tblDTPei5XSX4CUnO", // required
-      },
-    },
-    {
       use: "gridsome-plugin-sentry",
       options: {
         dsn: "https://7e6b7f0da53c4796ace432e55a32da06@o1156251.ingest.sentry.io/6237416",
@@ -271,7 +257,6 @@ module.exports = {
     Role: "/accessibilite-numerique/roles-cles/:slug",
     Tag: "/articles/tag/:id",
     Formation: "/formations/:slug",
-    Accompagnement: "/accompagnement/:Name",
     Entretien: "/entretiens/:firstName-:lastName",
     Expert: "/expert-experte/:firstName-:lastName",
     //ExpertsEtExpertes: '/experts/:lastName'

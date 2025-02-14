@@ -61,26 +61,5 @@ module.exports = function (api) {
 
       node.content = collection._store.createReference(markdownNode);
     }
-
-    if (node.internal.typeName === "Accompagnement") {
-      const markdownStore = collection._store.addCollection(
-        "AccompagnementContent"
-      );
-
-      const markdownNode = markdownStore.addNode({
-        // any other fields, id, slug, title etc
-        internal: {
-          mimeType: "text/markdown",
-          content: node.Mission,
-          origin: node.id,
-        },
-      });
-
-      node.content = collection._store.createReference(markdownNode);
-
-      // node.Experts.forEach((expert, i) => {
-      //   node.Experts[i].slug = slugify(expert.name);
-      // });
-    }
   });
 };

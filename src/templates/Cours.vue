@@ -122,7 +122,7 @@
           </p>
         </div>
         <div
-          v-if="$page.cours.cible && $page.cours.prerequis.length"
+          v-if="$page.cours.cible && $page.cours.prerequis"
           class="fr-mb-2w"
         />
         <div v-if="$page.cours.prerequis">

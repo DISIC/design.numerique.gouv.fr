@@ -4,7 +4,8 @@
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "postinstall": "husky"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -35,8 +36,22 @@
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.3.4",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.1",
     "sass": "^1.68.0",
     "sass-loader": "^10.1.1",
     "style-resources-loader": "^1.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,vue,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }

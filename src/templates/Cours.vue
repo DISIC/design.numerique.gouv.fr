@@ -690,7 +690,7 @@ export default {
       try {
         await axios({
           method: "post",
-          url: `${process.env.CORS_PROXY}${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_DOC_ID}/tables/Inscriptions/records`,
+          url: `${process.env.GRIDSOME_CORS_PROXY}${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_TRAINING_DOC_ID}/tables/Inscriptions/records`,
           headers: {
             Authorization: `Bearer ${process.env.GRIDSOME_GRIST_API_KEY}`,
             "Content-Type": "application/json",

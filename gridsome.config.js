@@ -153,7 +153,7 @@ module.exports = {
       use: "~/src/plugins/gridsome-source-grist",
       options: {
         apiKey: process.env.GRIDSOME_GRIST_API_KEY,
-        docId: process.env.GRIDSOME_GRIST_DOC_ID,
+        docId: process.env.GRIDSOME_GRIST_TRAINING_DOC_ID,
         baseUrl: process.env.GRIDSOME_GRIST_URL,
         sort: "id",
         limit: 1000,

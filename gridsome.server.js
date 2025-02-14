@@ -44,28 +44,6 @@ module.exports = function (api) {
         queryVariables: { id: node.id },
       });
     });
-
-    // Création manuel des pages Poste pour ne créer que les offres publiées
-    const poste = await graphql(`
-      {
-        allPoste(filter: { publier: { eq: 1 } }) {
-          edges {
-            node {
-              id
-              slug
-              publier
-            }
-          }
-        }
-      }
-    `);
-    poste.data.allPoste.edges.forEach(({ node }) => {
-      createPage({
-        path: `/recrutement/${node.slug}`,
-        component: "./src/templates/Poste.vue",
-        queryVariables: { id: node.id }, // use ($id: ID!) in page-query instead of $path
-      });
-    });
   });
 
   api.onCreateNode((node, collection) => {
@@ -77,21 +55,6 @@ module.exports = function (api) {
         internal: {
           mimeType: "text/markdown",
           content: node.Contenu,
-          origin: node.id,
-        },
-      });
-
-      node.content = collection._store.createReference(markdownNode);
-    }
-
-    if (node.internal.typeName === "Poste") {
-      const markdownStore = collection._store.addCollection("PosteContent");
-
-      const markdownNode = markdownStore.addNode({
-        // any other fields, id, slug, title etc
-        internal: {
-          mimeType: "text/markdown",
-          content: node.description,
           origin: node.id,
         },
       });

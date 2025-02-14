@@ -113,10 +113,7 @@
       </p>
 
       <div
-        v-if="
-          $page.cours.cible ||
-          ($page.cours.prerequis && $page.cours.prerequis.length)
-        "
+        v-if="$page.cours.cible || $page.cours.prerequis"
         class="fr-alert fr-alert--info fr-mt-6w fr-mb-4w"
       >
         <div v-if="$page.cours.cible">
@@ -128,37 +125,32 @@
           v-if="$page.cours.cible && $page.cours.prerequis.length"
           class="fr-mb-2w"
         />
-        <div
-          v-bind:key="prerequis.slug"
-          v-for="prerequis in $page.cours.prerequis"
-        >
-          <div v-if="prerequis">
-            <p v-if="prerequis.type == 'Webinaire'">
-              <strong>Prérequis :</strong> avoir suivi ou visionné la
-              <a
-                :href="
-                  '/formations/' +
-                  prerequis.formation.slug +
-                  '/' +
-                  prerequis.slug +
-                  '/'
-                "
-                >formation {{ prerequis.nom }}</a
-              >.
-            </p>
-            <p v-else-if="prerequis.type == 'Atelier'">
-              <strong>Prérequis :</strong> avoir participé à l'<a
-                :href="
-                  '/formations/' +
-                  prerequis.formation.slug +
-                  '/' +
-                  prerequis.slug +
-                  '/'
-                "
-                >atelier {{ prerequis.nom }}</a
-              >.
-            </p>
-          </div>
+        <div v-if="$page.cours.prerequis">
+          <p v-if="$page.cours.prerequis.type == 'Webinaire'">
+            <strong>Prérequis :</strong> avoir suivi ou visionné la
+            <a
+              :href="
+                '/formations/' +
+                $page.cours.prerequis.formation.slug +
+                '/' +
+                $page.cours.prerequis.slug +
+                '/'
+              "
+              >formation {{ $page.cours.prerequis.nom }}</a
+            >.
+          </p>
+          <p v-else-if="$page.cours.prerequis.type == 'Atelier'">
+            <strong>Prérequis :</strong> avoir participé à l'<a
+              :href="
+                '/formations/' +
+                $page.cours.prerequis.formation.slug +
+                '/' +
+                $page.cours.prerequis.slug +
+                '/'
+              "
+              >atelier {{ $page.cours.prerequis.nom }}</a
+            >.
+          </p>
         </div>
       </div>
 
@@ -305,56 +297,50 @@
               </div>
             </fieldset>
           </div>
-          <div v-if="$page.cours.prerequis.length">
+          <div v-if="$page.cours.prerequis">
             <!-- 
 						TODO : handle multiple prerequis 
 						Just printing the first prerequis with [$page.cours.prerequis[0]] for now 
 						-->
-            <div
-              v-bind:key="prerequis.slug"
-              v-for="prerequis in [$page.cours.prerequis[0]]"
-              class="fr-form-group"
-            >
-              <fieldset class="fr-fieldset">
-                <legend
-                  class="fr-fieldset__legend fr-text--regular"
-                  id="prerequis-legend"
+            <fieldset class="fr-fieldset">
+              <legend
+                class="fr-fieldset__legend fr-text--regular"
+                id="prerequis-legend"
+              >
+                <span v-if="$page.cours.prerequis.type == 'Webinaire'"
+                  >Avez-vous suivi ou visionné la formation
+                  <em>{{ $page.cours.prerequis.nom }}</em> ?</span
                 >
-                  <span v-if="prerequis.type == 'Webinaire'"
-                    >Avez-vous suivi ou visionné la formation
-                    <em>{{ prerequis.nom }}</em> ?</span
-                  >
-                  <span v-if="prerequis.type == 'Atelier'"
-                    >Avez-vous déjà participé à l'atelier
-                    <em>{{ prerequis.nom }}</em> ?</span
-                  >
-                </legend>
-                <div class="fr-fieldset__content">
-                  <div class="fr-radio-group">
-                    <input
-                      type="radio"
-                      id="prerequis-1"
-                      name="prerequis"
-                      value="OK"
-                      v-model="form.prerequis"
-                      required
-                    />
-                    <label class="fr-label" for="prerequis-1">Oui</label>
-                  </div>
-                  <div class="fr-radio-group">
-                    <input
-                      type="radio"
-                      id="prerequis-2"
-                      name="prerequis"
-                      value="KO"
-                      v-model="form.prerequis"
-                      required
-                    />
-                    <label class="fr-label" for="prerequis-2">Non</label>
-                  </div>
+                <span v-if="$page.cours.prerequis.type == 'Atelier'"
+                  >Avez-vous déjà participé à l'atelier
+                  <em>{{ $page.cours.prerequis.nom }}</em> ?</span
+                >
+              </legend>
+              <div class="fr-fieldset__content">
+                <div class="fr-radio-group">
+                  <input
+                    type="radio"
+                    id="prerequis-1"
+                    name="prerequis"
+                    value="OK"
+                    v-model="form.prerequis"
+                    required
+                  />
+                  <label class="fr-label" for="prerequis-1">Oui</label>
                 </div>
-              </fieldset>
-            </div>
+                <div class="fr-radio-group">
+                  <input
+                    type="radio"
+                    id="prerequis-2"
+                    name="prerequis"
+                    value="KO"
+                    v-model="form.prerequis"
+                    required
+                  />
+                  <label class="fr-label" for="prerequis-2">Non</label>
+                </div>
+              </div>
+            </fieldset>
           </div>
           <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
             <label class="fr-label" for="firstName">Votre prénom</label>

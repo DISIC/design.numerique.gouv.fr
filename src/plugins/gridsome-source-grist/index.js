@@ -60,14 +60,12 @@ class GristSource {
       const records = await this.fetchTable(table.name);
 
       for (const record of records) {
-        // HACK TO LOWERCASE THE FIRST LETTER (temporary)
         const transformedRecord = Object.fromEntries(
           Object.entries(record).map(([key, value]) => {
-            const newKey = key.charAt(0).toLowerCase() + key.slice(1);
             let newValue = value;
-            // REMOVE WEIRD VALUE "L" FROM ARRAYS OF RELATIONS
+            // Remove "L" from arrays of relations
             if (Array.isArray(value)) newValue = value.filter((v) => v !== "L");
-            return [newKey, newValue];
+            return [key, newValue];
           })
         );
 
@@ -90,10 +88,8 @@ class GristSource {
       const { fromTable, toTable, foreignKey } = relation;
 
       if (collections[fromTable] && collections[toTable]) {
-        const originalKey =
-          foreignKey.charAt(0).toUpperCase() + foreignKey.slice(1);
         collections[fromTable].addReference(foreignKey, toTable, {
-          key: originalKey, // Use original key for looking up references
+          key: foreignKey,
         });
       }
     }

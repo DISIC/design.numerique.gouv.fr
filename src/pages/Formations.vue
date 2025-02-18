@@ -701,7 +701,8 @@ export default {
       var futurList = [];
       this.$page.allCours.edges.forEach((cours) => {
         var futur = cours.node.sessions.filter(
-          (session) => session.ouverte && new Date(session.date) > Date.now()
+          (session) =>
+            session.ouverte && new Date(session.date * 1000) > Date.now(),
         );
         futur.length > 0 ? futurList.push(cours.node.id) : null;
       });

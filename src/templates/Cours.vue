@@ -687,12 +687,13 @@ export default {
         this.form.session = this.futurOpenSessions[0].id;
       }
 
+      const targetUrl = `${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_TRAINING_DOC_ID}/tables/Inscriptions/records`;
+
       try {
         await axios({
           method: "post",
-          url: `${process.env.GRIDSOME_CORS_PROXY}${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_TRAINING_DOC_ID}/tables/Inscriptions/records`,
+          url: `${process.env.GRIDSOME_GRIST_PHP_PROXY}/grist-proxy.php?url=${encodeURIComponent(targetUrl)}`,
           headers: {
-            Authorization: `Bearer ${process.env.GRIDSOME_GRIST_API_KEY}`,
             "Content-Type": "application/json",
           },
           data: {
@@ -720,9 +721,9 @@ export default {
         window.location.href = "/formulaire/succes/";
       } catch (error) {
         Sentry.captureException(error);
-        // setTimeout(() => {
-        //   window.location.href = "/formulaire/erreur/";
-        // }, 5000);
+        setTimeout(() => {
+          window.location.href = "/formulaire/erreur/";
+        }, 5000);
       }
     },
   },

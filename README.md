@@ -31,12 +31,24 @@ Puis modifiez le fichier `.env` avec vos valeurs :
 - `GRIDSOME_GRIST_TRAINING_DOC_ID` : L'ID du document Grist pour les formations
 - `GRIDSOME_GRIST_REQUESTS_DOC_ID` : L'ID du document Grist pour les demandes d'accompagnement
 - `GRIDSOME_GRIST_URL` : L'URL de votre instance Grist
-- `GRIDSOME_CORS_PROXY` est déjà configuré avec `https://thingproxy.freeboard.io/fetch/`
 
 ### Démarrer le projet
 
-- Entrer dans le projet : `cd design.numerique.gouv.fr`
-- Exécuter `gridsome develop` pour démarrer un environnement local
+1. Lancer le serveur de développement Gridsome :
+
+```bash
+gridsome develop
+```
+
+2. Lancer le serveur proxy PHP pour les appels à l'API Grist du browser (inscription, demande d'accompagnement, candidature) :
+
+```bash
+docker-compose up
+```
+
+Le proxy PHP est nécessaire pour gérer les appels à l'API Grist en contournant les problèmes de CORS. Il tourne sur le port 8000 et gère automatiquement l'authentification avec votre clé API Grist configurée dans le fichier `.env`.
+
+**Note** : Cette solution utilise les capacités PHP du module Static de CleverCloud pour gérer les appels API sans avoir besoin d'un backend dédié. Le fichier grist-proxy.php est automatiquement inclus dans le build (dossier /dist) lors du déploiement en production.
 
 # Licence
 

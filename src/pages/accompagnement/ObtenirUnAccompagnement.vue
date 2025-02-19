@@ -162,12 +162,13 @@ export default {
         year: "numeric",
       });
 
+      const targetUrl = `${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_REQUESTS_DOC_ID}/tables/Demandes_d_accompagnement/records`;
+
       try {
         await axios({
           method: "post",
-          url: `${process.env.GRIDSOME_CORS_PROXY}${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_REQUESTS_DOC_ID}/tables/Demandes_d_accompagnement/records`,
+          url: `${process.env.GRIDSOME_GRIST_PHP_PROXY}/grist-proxy.php?url=${encodeURIComponent(targetUrl)}`,
           headers: {
-            Authorization: `Bearer ${process.env.GRIDSOME_GRIST_API_KEY}`,
             "Content-Type": "application/json",
           },
           data: {

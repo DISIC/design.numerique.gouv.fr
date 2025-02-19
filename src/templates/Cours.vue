@@ -720,9 +720,9 @@ export default {
         window.location.href = "/formulaire/succes/";
       } catch (error) {
         Sentry.captureException(error);
-        setTimeout(() => {
-          window.location.href = "/formulaire/erreur/";
-        }, 5000);
+        // setTimeout(() => {
+        //   window.location.href = "/formulaire/erreur/";
+        // }, 5000);
       }
     },
   },

@@ -1,0 +1,14 @@
+version: "3"
+services:
+  php-proxy:
+    image: php:8.2-cli
+    ports:
+      - "8000:8000"
+    environment:
+      - GRIDSOME_GRIST_API_KEY=${GRIDSOME_GRIST_API_KEY}
+    volumes:
+      - ./grist-proxy.php:/var/www/html/grist-proxy.php
+    command: >
+      bash -c "apt-get update && apt-get install -y libcurl4-openssl-dev && 
+      docker-php-ext-install curl && 
+      php -S 0.0.0.0:8000 -t /var/www/html"

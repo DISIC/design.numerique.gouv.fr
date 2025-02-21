@@ -2,24 +2,43 @@
 title: Recensement des données disponibles
 slug: recensement
 order: 2
-description: Vous concevez un parcours ou une interface en prenant en compte tous les usagers
+description: Faire un état des lieux des données usager et métier déjà disponibles puis les regrouper pour commencer à créer une base de connaissances partagées.
 cat: ["recherche utilisateur", "seo", "données"]
 ---
 
+### Déroulé
 
-### Votre rôle
+L'équipe collecte, consigne et analyse toutes les données disponibles concernant les aspects métiers et la connaissance usager. Il peut s'agir :
+- du contexte et des exigences métier (fonctionnement actuel, nouvelle réglementation à venir, problématiques connus dans le traitement des demandes, etc.) ;
+- de la connaissance usagers (données provenant des statistiques d'usages, des analyses SEO, des outils de recueil des avis type bouton JDMA, des remontées des services de support aux usagers, des irritants constatées au cours d'enquêtes déjà menées, etc.) ;
+- des études et autres sources extérieurs pouvant nourrir cette connaissance (recherches académiques, rapport d'organismes publics, etc.)
 
-* prendre en compte tous les utilisateurs et tous les contextes d’utilisation.
+L'analyse de ces données doit permettre de se figurer un état des lieux et des connaissance au lancement au projet. Elle mettra en lumière les savoirs déjà identifiés et les lacunes, et guiderons ainsi le choix des travaux à mener pour la phase d'approfondissement de la connaissance usager et métier.
 
-### Vos actions
+### Rôles et responsabilités
 
-* utiliser le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}, disponible au format sketch et figma ;
-* collaborer *étroitement* et *au plus tôt* avec les autres métiers pour s’assurer que ce que vous concevez ne pose pas de difficulté d’accessibilité ;
-* faire des tests en intégrant des personnes en situations de handicap en sollicitant le [groupe d’utilisateurs handicapés](/outils/#tests) de la Dinum.
+<span class="fr-badge fr-badge--pink-macaron">Recherche utilisateur</span>
+- Rassembler et analyser l'ensemble des données.
+- En produire un synthèse.
+- Réunir l'ensemble des données disponible dans une base de connaissance.
+- Identifier les informations absente et/ou complémentaire à aller collecter lors de la phase suivante.
 
-### Vos outils
+Responsabilité : <span class="fr-tag fr-tag--sm">Responsable</span>
 
-* [22 critères de la checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22Conception%22,%22Graphisme%22%5D)
-* le [mémo design](/outils/memo-design) regroupe l’essentiel des recommandations ;
-* le [diagnostic flash](/outils/diagnostic-flash) permet d’estimer de manière **partielle et rapide** l’accessibilité d’un site ;
-* le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}.
+<span class="fr-badge fr-badge--pink-macaron">SEO</span>
+- Conduit une analyse SEO (s'il n'en existe pas déjà).
+- En produit un synthèse.
+
+Responsabilité : <span class="fr-tag fr-tag--sm">Responsable</span>
+
+<span class="fr-badge fr-badge--pink-macaron">Données</span> (dans le cas d'un service existant)
+- Identifie les données d'usage pertinente à aller collecter.
+- Les extraire et en produire un synthèse
+
+Responsabilité : <span class="fr-tag fr-tag--sm">Responsable</span>
+
+### Exemple
+
+Lors du lancement de projet d'amélioration du site de demande de logement social, les données issues du bouton JDMA ont été analysées. Les remontées issue des service de support ont également été collectées et analysées, et une analyse SEO a été menées. L'absence (regrettable) d'une outils de suivi des comportements usagers n'a pas permis de faire un analyse des données d'usage.
+
+Ces données ont permis d'élaborer le cadre d'une étude plus approfondie menée par le suite auprès des usagers du service.

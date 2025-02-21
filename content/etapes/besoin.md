@@ -2,24 +2,22 @@
 title: Expression de besoin
 slug: besoin
 order: 1
-description: Vous concevez un parcours ou une interface en prenant en compte tous les usagers
-cat: ["design"]
+description: Formuler collectivement l'objectif du projet dans des termes exprimant les besoins de toutes les personnes impliquées (administration, usagers, etc.)
+cat: ["design", "recherche utilisateur"]
 ---
 
+### Déroulé
 
-### Votre rôle
+L'équipe projet pluridisciplinaire se réunis afin de convenir collectivement de l'objectif du projet. Cette objectif doit ensuite être connu et approuvé de tous, et
 
-* prendre en compte tous les utilisateurs et tous les contextes d’utilisation.
+### Rôles et responsabilités
 
-### Vos actions
+<span class="fr-badge fr-badge--pink-macaron">Design</span> <span class="fr-badge fr-badge--pink-macaron">Recherche utilisateur</span>
+- Identifier les personnes a priori impliquées.
+- Aider à formuler l'expression de besoin en tenant compte de ces personnes.
 
-* utiliser le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}, disponible au format sketch et figma ;
-* collaborer *étroitement* et *au plus tôt* avec les autres métiers pour s’assurer que ce que vous concevez ne pose pas de difficulté d’accessibilité ;
-* faire des tests en intégrant des personnes en situations de handicap en sollicitant le [groupe d’utilisateurs handicapés](/outils/#tests) de la Dinum.
+Responsabilités : <span class="fr-tag fr-tag--sm">Approbabteurs</span>
 
-### Vos outils
+### Exemple
 
-* [22 critères de la checklist PiDila](/outils/checklist-pidila/?reference=%5B%22RGAA%22%5D&profil=%5B%22Conception%22,%22Graphisme%22%5D)
-* le [mémo design](/outils/memo-design) regroupe l’essentiel des recommandations ;
-* le [diagnostic flash](/outils/diagnostic-flash) permet d’estimer de manière **partielle et rapide** l’accessibilité d’un site ;
-* le [système de design de l’État](https://www.systeme-de-design.gouv.fr/){title="système de design de l’État - Nouvelle fenêtre"}.
+Évaluer et améliorer le site de la demande de logement social afin de le rendre plus simple et intuitif pour les usagers et de faciliter le traitement des demandes pour les administrations.

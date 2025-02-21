@@ -19,7 +19,7 @@
         <p class="fr-text--lead">Prendre en compte les utilisateurs et
           utilisatrices d'un service numérique au cours de sa conception
           nécéssite de faire appel aux <strong>bonnes expertises</strong> pour mettre en œuvre
-          les <strong>bonnes méthodes</strong> aux <strong>bons moments</strong>.</p>
+          les <strong>bonnes méthodes</strong> aux <strong>bons moments</strong>. Suivez le guide !</p>
       </div>
     </section>
 
@@ -30,7 +30,7 @@
               <div class="fr-notice__body">
                   <p>
                       <span class="fr-notice__title">Nos recommandations illustrent l'ensemble des étapes indispensables. </span>
-                      <span class="fr-notice__desc">Chaque projet étant spécifique, il sera nécéssiare d'apater ce cadre à votre contexte. N'improvisez pas, faîtes appel aux experts de ces métiers !</span>
+                      <span class="fr-notice__desc">Chaque projet étant spécifique, il sera nécéssaire d'adapter ce cadre à votre contexte. <strong>N'improvisez pas</strong>, faîtes appel aux experts de ces métiers !</span>
                   </p>
                   <button title="Masquer le message" onclick="const notice = this.parentNode.parentNode.parentNode; notice.parentNode.removeChild(notice)" id="button-1299" class="fr-btn--close fr-btn">Masquer le message</button>
               </div>
@@ -62,7 +62,12 @@
                   </span>
                 </button>
               </h2>
-              <div class="fr-collapse" :id="node.id"  v-html="node.content"></div>
+              <div class="fr-collapse dg-content dg-content--sm" :id="node.id">
+                <div class="fr-callout">
+                    <p class="fr-callout__text">{{ node.description }}</p>
+                </div>
+                <div v-html="node.content"></div>
+              </div>
             </section>
           </il>
 

@@ -1,6 +1,6 @@
 ---
 title: Participez à nos ateliers de formation !
-slug: 2025-02-27-ateliers-de-formation.
+slug: 2025-02-27-ateliers-de-formation
 publishedDate: 2025-02-27
 tags: ["formation", "design", "accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png

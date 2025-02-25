@@ -36,7 +36,7 @@ Intégrer concrètement l’accessibilité dans les services publics numériques
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité avec le Référentiel général d’amélioration de l’accessibilité (RGAA)</a></h2>
 
-Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au RGAA. Pour suivre cet atelier, il convient de connaître les bases de l'accessibilité numérique.
+Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au RGAA. Cette formation s'adresse aux agents ayant des bases en accessibilité numérique et des notions de code.
 - 27 mai - présentiel
 - 17 juin - présentiel
 

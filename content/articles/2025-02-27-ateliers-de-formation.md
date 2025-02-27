@@ -4,47 +4,65 @@ slug: 2025-02-27-ateliers-de-formation
 publishedDate: 2025-02-27
 tags: ["formation", "design", "accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
-description: "La Direction interministérielle du numérique (DINUM) organise 6 ateliers de formation en février et mars 2025 sur le design, la recherche utilisateur, l'accessibilité pour aider les agents à améliorer les services publics en ligne."
+description: "La Direction interministérielle du numérique (DINUM) organise huit ateliers de formation (dont deux nouveaux !) en février et mars 2025 sur le design, la recherche utilisateur, l'accessibilité pour aider les agents à améliorer les services publics en ligne."
 ---
 
-<p class="fr-text--lead">La direction interministérielle du numérique (Dinum) vous propose de nouvelles sessions de ses 6 ateliers de formation pour continuer à améliorer les services publics en ligne. </p>
+<p class="fr-text--lead">La direction interministérielle du numérique (Dinum) vous propose de nouvelles sessions de ses six ateliers de formation -&nbsp;ainsi que deux nouveaux&nbsp;!&nbsp;- pour continuer à améliorer les services publics en ligne. </p>
 <p>Les ateliers se passent en petits comités d’une vingtaine de personnes pour faciliter les échanges. Ils s’adressent <em>exclusivement</em> <strong>aux agents publics</strong>, et en priorité aux agents publics d’État. Ils ont lieu sur <strong>une journée</strong>.</p> 
-<p>Dans la plupart des cas, les ateliers ont lieu <strong>en présentiel</strong> dans le 7e arrondissement de Paris ; toutefois, nous proposons aussi des sessions spécifiques <strong>en visioconférence, pour lesquelles les candidats éloignés de Paris seront prioritaires</strong>.</p>
-<p>D’autres sessions seront organisées d’avril à juillet.</p>
+<p>Dans la plupart des cas, les ateliers ont lieu <strong>en présentiel</strong> dans le 7e arrondissement de Paris&nbsp;; toutefois, nous proposons aussi des sessions spécifiques <strong>en visioconférence, pour lesquelles les agents éloignés de Paris seront prioritaires</strong>.</p>
+<p>D’autres sessions seront organisées à l'automne.</p>
 
-Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur les liens&nbsp;!
+Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur les intitulés des formations&nbsp;!
 
-<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité</a></h2>
-
-Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
-- ~~13 février~~ Annulé !
-- ~~27 mars~~ Complet !
-  
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Les tests usagers dans la pratique</a></h2>
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.  
-- 4 mars - présentiel
-
-<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
-
-Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant.
-- ~~6 mars - présentiel~~ Complet !
-
-<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF accessible avec un traitement de texte</a></h2>
-
-Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants : Microsoft Word et LibreOffice Writer.
-- 6 mars - présentiel
-- ~~25 mars - visioconférence~~ Complet !
+- 1er avril - visiconférence
+- 1er juillet - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
 
 Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents.
-- 11 mars - présentiel
+- 11 mars - présentiel, <em>dernières places&nbsp;!</em>
+- 8 avril - visiconférence
+
+
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
+
+Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant, quelque soit votre niveau de connaissance initial de l'accessibilité numérique. 
+- 8 avril - visiconférence
+- 22 mai - présentiel
+
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité avec le Référentiel général d’amélioration de l’accessibilité (RGAA)</a></h2>
+
+Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de conformité au RGAA. 
+- 27 mai - présentiel
+- 17 juin - présentiel
+
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF accessible avec un traitement de texte</a></h2>
+
+Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants&nbsp;: Microsoft Word et LibreOffice Writer.
+- 20 mai - présentiel
+- 17 juin - visiconférence
+- 24 juin - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Design et accessibilité numérique</a></h2>
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
-- ~~18 mars~~ Complet !
+- 5 juin - visiconférence
+- 12 juin - présentiel
+
+<h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/xxxx/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
+
+Adopter les bons réflexes pour proposer des services numériques intuitifs.
+- 13 mai - présentiel
+- 10 juin - visiconférence
+
+<h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/xxxx/">Bien mener la conception d’un service numérique</a></h2>
+
+Orchestrer la conception ou l’amélioration d’un service numérique&nbsp;: respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
+- 3 juin - présentiel
+- 26 juin - visiconférence
 
 <hr/>
 

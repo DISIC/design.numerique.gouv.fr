@@ -52,13 +52,13 @@ Prendre en compte l’accessibilité dans toutes les étapes de design d’un se
 - 5 juin - visiconférence
 - 12 juin - présentiel
 
-<h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/xxxx/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
+<h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/design/atelier-ergonomie/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
 
 Adopter les bons réflexes pour proposer des services numériques intuitifs.
 - 13 mai - présentiel
 - 10 juin - visiconférence
 
-<h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/xxxx/">Bien mener la conception d’un service numérique</a></h2>
+<h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/design/atelier-mener-conception/">Bien mener la conception d’un service numérique</a></h2>
 
 Orchestrer la conception ou l’amélioration d’un service numérique&nbsp;: respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
 - 3 juin - présentiel

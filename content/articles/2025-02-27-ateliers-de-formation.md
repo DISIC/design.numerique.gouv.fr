@@ -46,7 +46,7 @@ Créer des documents PDF accessibles aux personnes handicapées, avec les logici
 - 17 juin - visioconférence
 - 24 juin - présentiel
 
-<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Design et accessibilité numérique</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Accessibilité numérique et design</a></h2>
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 - 5 juin - visioconférence

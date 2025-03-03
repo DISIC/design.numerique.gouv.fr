@@ -17,20 +17,20 @@ Pour plus d’information et/ou pour s’inscrire, il suffit de cliquer sur les 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Les tests usagers dans la pratique</a></h2>
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.  
-- 1er avril - visiconférence
+- 1er avril - visioconférence
 - 1er juillet - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
 
 Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents.
 - 11 mars - présentiel, <em>dernières places&nbsp;!</em>
-- 8 avril - visiconférence
+- 8 avril - visioconférence
 
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
 
 Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant, quelque soit votre niveau de connaissance initial de l'accessibilité numérique. 
-- 8 avril - visiconférence
+- 8 avril - visioconférence
 - 22 mai - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité avec le Référentiel général d’amélioration de l’accessibilité (RGAA)</a></h2>
@@ -43,26 +43,26 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants&nbsp;: Microsoft Word et LibreOffice Writer.
 - 20 mai - présentiel
-- 17 juin - visiconférence
+- 17 juin - visioconférence
 - 24 juin - présentiel
 
-<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Design et accessibilité numérique</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Accessibilité numérique et design</a></h2>
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
-- 5 juin - visiconférence
+- 5 juin - visioconférence
 - 12 juin - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/design/atelier-ergonomie/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
 
 Adopter les bons réflexes pour proposer des services numériques intuitifs.
 - 13 mai - présentiel
-- 10 juin - visiconférence
+- 10 juin - visioconférence
 
 <h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/design/atelier-mener-conception/">Bien mener la conception d’un service numérique</a></h2>
 
 Orchestrer la conception ou l’amélioration d’un service numérique&nbsp;: respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
 - 3 juin - présentiel
-- 26 juin - visiconférence
+- 26 juin - visioconférence
 
 <hr/>
 

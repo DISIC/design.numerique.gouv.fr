@@ -284,7 +284,7 @@
           </h3>
           <div class="fr-collapse" id="accordion-2">
             <ul class="fr-my-2w">
-              <li>
+              <!--li>
                 <a
                   href="https://www.fun-mooc.fr/fr/cours/accessibilite-numerique/"
                   title="L’accessibilité numérique - Nouvelle fenêtre"
@@ -300,7 +300,7 @@
                   </li>
                   <li>Durée : <strong>13h</strong></li>
                 </ul>
-              </li>
+              </li-->
               <li>
                 <a
                   href="https://fr.wikiversity.org/wiki/Mise_en_%C5%93uvre_de_l_accessibilite_numerique"

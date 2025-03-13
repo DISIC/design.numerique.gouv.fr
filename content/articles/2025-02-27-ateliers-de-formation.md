@@ -23,7 +23,6 @@ Préparer et animer des tests avec des usagers puis analyser les résultats.
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
 
 Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents.
-- 11 mars - présentiel, <em>dernières places&nbsp;!</em>
 - 8 avril - visioconférence
 
 
@@ -43,7 +42,7 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants&nbsp;: Microsoft Word et LibreOffice Writer.
 - 20 mai - présentiel
-- 17 juin - visioconférence
+- ~~17 juin - visioconférence~~ (complète)
 - 24 juin - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Accessibilité numérique et design</a></h2>
@@ -55,7 +54,7 @@ Prendre en compte l’accessibilité dans toutes les étapes de design d’un se
 <h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/design/atelier-ergonomie/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
 
 Adopter les bons réflexes pour proposer des services numériques intuitifs.
-- 13 mai - présentiel
+- ~~13 mai - présentiel~~ (complète) 
 - 10 juin - visioconférence
 
 <h2 class="fr-mt-4w fr-h6"><em>Nouveau&nbsp;! </em><a href="/formations/design/atelier-mener-conception/">Bien mener la conception d’un service numérique</a></h2>

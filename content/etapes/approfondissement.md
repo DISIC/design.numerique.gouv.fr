@@ -2,7 +2,7 @@
 title: Approfondissement de la connaissance usager et métier
 slug: approfondissement
 order: 3
-description: Mener des études qualitatives et quantitatives pour approfondir et enrichir la connaissance usager et métier.
+description: Mener des études qualitatives et quantitatives pour approfondir et enrichir les connaissances et prendre des décisions éclairées.
 cat: ["recherche utilisateur", "seo"]
 ---
 
@@ -10,7 +10,7 @@ cat: ["recherche utilisateur", "seo"]
 
 La ou le chargé de recherche utilisateur met en places des études qualitatives - entretiens / tests - et/ou quantitatives - sondages - afin d'aller enrichir les connaissance actuelles. Ces études peuvent être menées auprès des différentes parties prenantes (usagers, agents, experts métier, etc.). Un attention particulière doit être porté à la représentativité des personnes impliquées, pour qu'elles correspondent aux publics cibles.
 
-Cette phase est primordiale, car c'est sur la base de ces connaissances objectives qu'il sera possible de prendre des décisions stratégiques éclairées pour le projet lors des phases suivantes. D'une bonne phase d'étude découlent de bonnes décisions, d'une mauvaise ou d'un absence de phase d'étude découlent de mauvaises décisions.
+Cette phase est primordiale, car c'est sur la base de ces connaissances objectives qu'il sera possible de prendre des décisions stratégiques éclairées pour le projet lors des phases suivantes. D'une bonne phase d'étude découlent de bonnes décisions, d'une mauvaise ou d'une absence de phase d'étude découlent de mauvaises décisions.
 
 ### Rôles et responsabilités
 

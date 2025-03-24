@@ -80,6 +80,13 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
+        typeName: 'Etapes',
+        path: './content/etapes/*.md',
+      }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
         typeName: 'Pnu',
         path: './content/pnu/*.md',
       }

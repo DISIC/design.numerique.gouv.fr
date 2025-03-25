@@ -73,23 +73,16 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        typeName: 'Etapes',
-        path: './content/etapes/*.md',
-      }
+        typeName: "Etape",
+        path: "./content/etapes/*.md",
+      },
     },
     {
-      use: '@gridsome/source-filesystem',
+      use: "@gridsome/source-filesystem",
       options: {
-        typeName: 'Etapes',
-        path: './content/etapes/*.md',
-      }
-    },
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        typeName: 'Pnu',
-        path: './content/pnu/*.md',
-      }
+        typeName: "Pnu",
+        path: "./content/pnu/*.md",
+      },
     },
     {
       use: "@gridsome/source-filesystem",
@@ -273,6 +266,7 @@ module.exports = {
     Formation: "/formations/:slug",
     Entretien: "/entretiens/:firstName-:lastName",
     Expert: "/expert-experte/:firstName-:lastName",
+    Etape: "/design-numerique/etapes-cles/:slug",
     //ExpertsEtExpertes: '/experts/:lastName'
     // Poste: '/recrutement/:slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js

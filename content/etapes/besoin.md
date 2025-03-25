@@ -2,17 +2,18 @@
 title: Expression de besoin
 slug: besoin
 order: 1
-description: Formuler collectivement l'objectif du projet dans des termes exprimant les besoins de toutes les personnes impliquées (administration, usagers, etc.)
-cat: ["design", "recherche utilisateur"]
+description: Formuler collectivement l'ambition du projet dans des termes exprimant les besoins de toutes les personnes impliquées (administration, usagers, etc.)
+cat: ["★ produit", "métier", "design", "recherche utilisateur"]
 ---
 
 ### Déroulé
 
-L'équipe projet pluridisciplinaire se réunis afin de convenir collectivement de l'objectif du projet. Cette objectif doit ensuite être connu et approuvé de tous, et
+L'équipe projet pluridisciplinaire se réunis afin de convenir collectivement de l'ambition du projet. Cette ambition doit ensuite être connu et approuvé de tous, et ne sera pas amener à évoluer. Elle doit être suffisamment large et ouvert, car à ce stade, les besoins précis ne sont pas encore connus.
 
 ### Rôles et responsabilités
 
 <span class="fr-badge fr-badge--pink-macaron">Design</span> <span class="fr-badge fr-badge--pink-macaron">Recherche utilisateur</span>
+
 - Identifier les personnes a priori impliquées.
 - Aider à formuler l'expression de besoin en tenant compte de ces personnes.
 

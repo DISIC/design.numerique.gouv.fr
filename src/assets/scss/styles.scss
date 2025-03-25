@@ -217,6 +217,18 @@ li.fr-card {
       }
     }
 
+    &--md {
+      width: 3rem;
+      height: 3rem;
+      font-size: 1.125rem;
+
+      @media only screen and (max-width: $sm-point) {
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.9375rem;
+      }
+    }
+
     &--sm {
       width: 2.5rem;
       height: 2.5rem;

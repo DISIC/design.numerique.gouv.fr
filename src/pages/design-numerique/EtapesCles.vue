@@ -21,44 +21,26 @@
             </li>
           </ol>
         </nav>
-        <h1 class="dg-cover__title">Les étapes clés de la conception</h1>
+        <h1 class="dg-cover__title">
+          <img
+            class="dg-picto fr-mr-2w"
+            svg-inline
+            src="../../assets/images/design-picto.svg"
+            aria-hidden="true"
+          />
+          Bien concevoir un service numérique
+        </h1>
         <p class="fr-text--lead">
-          Prendre en compte les utilisateurs et utilisatrices d'un service
-          numérique au cours de sa conception nécéssite de faire appel aux
+          Concevoir un service numérique simple, inclusifs, humain nécéssite de
+          faire appel aux
           <strong>bonnes expertises</strong> pour mettre en œuvre les
-          <strong>bonnes méthodes</strong> aux <strong>bons moments</strong>.
+          <strong>bonnes pratiques</strong> aux <strong>bons moments</strong>.
           Suivez le guide !
         </p>
       </div>
     </section>
 
     <section class="dg-content dg-content--sm">
-      <div class="fr-notice fr-notice--info fr-mb-4w">
-        <div class="fr-container">
-          <div class="fr-notice__body">
-            <p>
-              <span class="fr-notice__title"
-                >Nos recommandations illustrent l'ensemble des étapes
-                indispensables.
-              </span>
-              <span class="fr-notice__desc"
-                >Chaque projet étant spécifique, il sera nécéssaire d'adapter ce
-                cadre à votre contexte. <strong>N'improvisez pas</strong>,
-                faîtes appel aux experts de métiers impliqués !</span
-              >
-            </p>
-            <button
-              title="Masquer le message"
-              onclick="const notice = this.parentNode.parentNode.parentNode; notice.parentNode.removeChild(notice)"
-              id="button-1299"
-              class="fr-btn--close fr-btn"
-            >
-              Masquer le message
-            </button>
-          </div>
-        </div>
-      </div>
-
       <div class="fr-mb-4w">
         <h2 class="fr-h3">Les bonnes questions</h2>
         <p>
@@ -118,7 +100,7 @@
           </li>
           <li>
             <span class="fr-ml-4w fr-badge fr-badge--sm fr-badge--pink-macaron"
-              >Eco</span
+              >éco</span
             >
             : expert en numérique écoresponsable
           </li>
@@ -151,9 +133,34 @@
 
       <div class="">
         <h2 class="fr-h3">Les étapes clés</h2>
+        <div class="fr-notice fr-notice--info fr-mb-4w">
+          <div class="fr-container">
+            <div class="fr-notice__body">
+              <p>
+                <span class="fr-notice__title"
+                  >Nos recommandations illustrent l'ensemble des étapes
+                  indispensables.
+                </span>
+                <span class="fr-notice__desc"
+                  >Chaque projet étant spécifique, il sera nécéssaire d'adapter
+                  ce cadre à votre contexte. <strong>N'improvisez pas</strong>,
+                  faîtes appel aux experts de métiers impliqués !</span
+                >
+              </p>
+              <button
+                title="Masquer le message"
+                onclick="const notice = this.parentNode.parentNode.parentNode; notice.parentNode.removeChild(notice)"
+                id="button-1299"
+                class="fr-btn--close fr-btn"
+              >
+                Masquer le message
+              </button>
+            </div>
+          </div>
+        </div>
         <p>
-          Pour chaque étape, les compétences indpensables sont listées. Le
-          symbole ★ indique la personne responsable de l'étape.
+          Le symbole ★ indique la personne responsable du bon déroulé de l'étape
+          . Les autres compétences indispensables sont listée ensuite.
         </p>
         <ol class="fr-pl-0">
           <il

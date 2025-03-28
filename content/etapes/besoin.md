@@ -3,7 +3,7 @@ title: Expression de besoin
 slug: besoin
 order: 1
 description: Formuler collectivement l'ambition du projet dans des termes exprimant les besoins de toutes les personnes impliquées (administration, usagers, etc.)
-cat: ["★ produit", "métier", "design", "recherche utilisateur"]
+cat: ["★ produit", "métier", "recherche utilisateur", "design", "éco"]
 ---
 
 ### Déroulé

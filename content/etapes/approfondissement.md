@@ -2,8 +2,8 @@
 title: Approfondissement de la connaissance usager et métier
 slug: approfondissement
 order: 3
-description: Mener des études qualitatives et quantitatives pour approfondir et enrichir les connaissances et prendre des décisions éclairées.
-cat: ["recherche utilisateur", "seo"]
+description: Mener des études qualitatives et quantitatives pour approfondir la connaissance des besoins et attentes des (futurs) usagers service numérique.
+cat: ["★ recherche utilisateur", "design", "accessibilité"]
 ---
 
 ### Déroulé
@@ -15,6 +15,7 @@ Cette phase est primordiale, car c'est sur la base de ces connaissances objectiv
 ### Rôles et responsabilités
 
 <span class="fr-badge fr-badge--pink-macaron">Recherche utilisateur</span>
+
 - Déterminer les études à mener, en définir les objectifs et les protocoles
 - Recruter les participants, conduire les études
 - Analyser et synthétiser les enseignements des études
@@ -22,6 +23,7 @@ Cette phase est primordiale, car c'est sur la base de ces connaissances objectiv
 Responsabilité : <span class="fr-tag fr-tag--sm">Responsable</span>
 
 <span class="fr-badge fr-badge--pink-macaron">SEO</span> (si une analyse SEO complémentaire est utile)
+
 - Conduit une analyse SEO.
 - En produit un synthèse.
 

@@ -33,6 +33,9 @@
         <div class="dg-cover__title fr-grid-row">
           <div class="fr-col">
             <h1>{{ $page.etape.title }}</h1>
+            <p class="fr-text--lead">
+              {{ $page.etape.description }}
+            </p>
           </div>
         </div>
       </div>

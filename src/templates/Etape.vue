@@ -61,23 +61,11 @@
 export default {
   metaInfo() {
     return {
-      title:
-        "Entretien avec " +
-        this.$page.entretien.firstName +
-        " " +
-        this.$page.entretien.lastName,
+      title: this.$page.etape.title,
       meta: [
         {
           name: "description",
-          content:
-            this.$page.entretien.firstName +
-            " " +
-            this.$page.entretien.lastName +
-            " (" +
-            this.$page.entretien.job +
-            " / " +
-            this.$page.entretien.company +
-            ") - DesignGouv",
+          content: this.$page.etape.description,
         },
         {
           name: "robots",
@@ -85,25 +73,16 @@ export default {
         },
         {
           property: "og:title",
-          content:
-            "Entretien avec " +
-            this.$page.entretien.firstName +
-            " " +
-            this.$page.entretien.lastName +
-            " - DesignGouv",
+          content: this.$page.etape.title + " - DesignGouv",
         },
         {
           property: "og:description",
+          content: this.$page.etape.description,
+        },
+        {
+          property: "og:image",
           content:
-            "Entretien avec " +
-            this.$page.entretien.firstName +
-            " " +
-            this.$page.entretien.lastName +
-            " (" +
-            this.$page.entretien.job +
-            " / " +
-            this.$page.entretien.company +
-            ") - DesignGouv",
+            "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
         },
       ],
     };

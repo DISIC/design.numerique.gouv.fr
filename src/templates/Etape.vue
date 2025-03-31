@@ -68,10 +68,6 @@ export default {
           content: this.$page.etape.description,
         },
         {
-          name: "robots",
-          content: "noindex, nofollow",
-        },
-        {
           property: "og:title",
           content: this.$page.etape.title + " - DesignGouv",
         },

@@ -31,7 +31,7 @@
           Bien concevoir un service numérique
         </h1>
         <p class="fr-text--lead">
-          Concevoir un service numérique simple, inclusifs, humain nécéssite de
+          Concevoir un service numérique simple, inclusif, humain nécéssite de
           faire appel aux
           <strong>bonnes expertises</strong> pour mettre en œuvre les
           <strong>bonnes pratiques</strong> aux <strong>bons moments</strong>.
@@ -41,6 +41,32 @@
     </section>
 
     <section class="dg-content dg-content--sm">
+      <div class="fr-notice fr-notice--info fr-mb-4w">
+        <div class="fr-container">
+          <div class="fr-notice__body">
+            <p>
+              <span class="fr-notice__title"
+                >Ce guide présente les étapes et compétences indispensables à la
+                conception.
+              </span>
+              <span class="fr-notice__desc"
+                >Chaque projet étant spécifique, il sera nécéssaire d'adapter ce
+                cadre à votre contexte. <strong>N'improvisez pas</strong>,
+                faîtes appel aux experts des métiers impliqués !</span
+              >
+            </p>
+            <button
+              title="Masquer le message"
+              onclick="const notice = this.parentNode.parentNode.parentNode; notice.parentNode.removeChild(notice)"
+              id="button-1299"
+              class="fr-btn--close fr-btn"
+            >
+              Masquer le message
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div class="fr-mb-4w">
         <h2 class="fr-h3">Les bonnes questions</h2>
         <p>
@@ -59,7 +85,9 @@
           <li>
             Quand et comment impliquer les usagers lors de la conception ?
           </li>
-          <li>Quand traîter du sujet de l'acessibilité numérique ?</li>
+          <li>
+            Quand et comment traîter du sujet de l'acessibilité numérique ?
+          </li>
         </ul>
       </div>
 
@@ -68,8 +96,7 @@
         <p>
           Nous concentrons notre attention sur
           <strong
-            >les expertises indispensables à la conception d'un service
-            numérique de qualité</strong
+            >les expertises indispensables à la conception du service</strong
           >. Un équipe produit complète nécéssitera d'autres compétences, non
           mentionnées ici.
         </p>
@@ -133,31 +160,6 @@
 
       <div class="">
         <h2 class="fr-h3">Les étapes clés</h2>
-        <div class="fr-notice fr-notice--info fr-mb-4w">
-          <div class="fr-container">
-            <div class="fr-notice__body">
-              <p>
-                <span class="fr-notice__title"
-                  >Nos recommandations illustrent l'ensemble des étapes
-                  indispensables.
-                </span>
-                <span class="fr-notice__desc"
-                  >Chaque projet étant spécifique, il sera nécéssaire d'adapter
-                  ce cadre à votre contexte. <strong>N'improvisez pas</strong>,
-                  faîtes appel aux experts de métiers impliqués !</span
-                >
-              </p>
-              <button
-                title="Masquer le message"
-                onclick="const notice = this.parentNode.parentNode.parentNode; notice.parentNode.removeChild(notice)"
-                id="button-1299"
-                class="fr-btn--close fr-btn"
-              >
-                Masquer le message
-              </button>
-            </div>
-          </div>
-        </div>
         <p>
           Le symbole ★ indique la personne responsable du bon déroulé de l'étape
           . Les autres compétences indispensables sont listée ensuite.
@@ -199,48 +201,6 @@
           </il>
         </ol>
       </div>
-
-      <!-- <div class="fr-grid-row fr-grid-row--center fr-mt-4w">
-        <ol class="fr-accordions-group">
-          <il
-            class="fr-col-12"
-            v-for="{ node } in $page.allEtapes.edges"
-            :key="node.id"
-          >
-            <section class="fr-accordion">
-              <h2 class="fr-accordion__title">
-                <button
-                  class="fr-accordion__btn"
-                  aria-expanded="false"
-                  :aria-controls="node.id"
-                >
-                  <span class="dg-text-with-picto step-title">
-                    <strong class="dg-picto dg-picto--sm fr-mr-3v">{{
-                      node.order
-                    }}</strong>
-                    {{ node.title }}
-                  </span>
-                </button>
-              </h2>
-              <p class="step-description">{{ node.description }}</p>
-              <p class="step-expert">Expertises mobilisées :
-                <span
-                  v-for="c in node.cat"
-                  :key="c.id"
-                  class="fr-ml-1w fr-badge fr-badge--sm fr-badge--pink-macaron"
-                  >{{ c }}</span
-                >
-              </p>
-              <div class="fr-collapse dg-content dg-content--sm" :id="node.id">
-                <div class="fr-callout">
-                  <p class="fr-callout__text">{{ node.description }}</p>
-                </div>
-                <div v-html="node.content"></div>
-              </div>
-            </section>
-          </il>
-        </ol>
-      </div> -->
     </section>
   </Layout>
 </template>
@@ -267,19 +227,21 @@
 <script>
 export default {
   metaInfo: {
-    title: "Étapes clés",
+    title: "Bien concevoir un service numérique",
     meta: [
       {
         name: "description",
-        content: "Les étapes clés de la conception d'un services numérique",
+        content:
+          "Les étapes et compétences clés de la conception d'un services numérique de qualité",
       },
       {
         property: "og:title",
-        content: "Étapes clés - DesignGouv",
+        content: "Bien concevoir un service numérique - DesignGouv",
       },
       {
         property: "og:description",
-        content: "Les étapes clés de la conception d'un services numérique",
+        content:
+          "Les étapes et compétences clés de la conception d'un services numérique de qualité",
       },
       {
         property: "og:image",

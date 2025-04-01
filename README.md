@@ -37,7 +37,7 @@ Puis modifiez le fichier `.env` avec vos valeurs :
 1. Lancer le serveur de développement Gridsome :
 
 ```bash
-gridsome develop
+yarn develop
 ```
 
 2. Lancer le serveur proxy PHP pour les appels à l'API Grist du browser (inscription, demande d'accompagnement, candidature) :

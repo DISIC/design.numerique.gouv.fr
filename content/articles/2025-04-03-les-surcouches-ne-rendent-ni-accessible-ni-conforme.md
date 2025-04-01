@@ -4,7 +4,7 @@ slug: 2025-04-03-les-surcouches-ne-rendent-ni-accessible-ni-conforme
 publishedDate: 2025-04-03
 tags: ["accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-04-11-accessibilite-norme-europeenne-francais.png
-description: "La Commission européenne réaffirme sa position quant aux outils de surcouche d’accessibilité : les outils de surcouche ne permettent en aucun cas de rendre un site accessible ni de respecter la législation française."
+description: "La Commission européenne réaffirme sa position quant aux outils de surcouche d’accessibilité&nbsp;: les outils de surcouche ne permettent en aucun cas de rendre un site accessible ni de respecter la législation française."
 ---
 
 <p class="fr-text--lead">La Commission européenne réaffirme sa position quant aux outils de surcouche («&nbsp;<span lang="en">overlays</span>&nbsp;») d’accessibilité.<br>
@@ -16,9 +16,9 @@ Voici la traduction de la partie consacrée aux outils de surcouche d’accessib
 
 > Les exigences légales en matière d’accessibilité dans l’Union européenne reposent sur des critères techniques spécifiés dans la norme européenne harmonisée EN 301 549 v3.2.1. Les outils de surcouche d'accessibilité sont des outils qui peuvent être ajoutés aux sites Web avec l’objectif d'améliorer l'accessibilité. **Les outils de surcouche, ou tout autre outil qui ne garantit pas que le site Web lui-même répond aux critères de la norme, ne sont pas une solution appropriée. Il est préférable de résoudre les problèmes d'accessibilité à la source.**
 Une autre bonne pratique consiste à fournir un retour d’information sur les questions d’accessibilité à ceux qui développent ou maintiennent des outils numériques, afin de veiller à ceux qui en sont responsables en apprennent davantage sur l’accessibilité numérique et évitent de futurs problèmes. Pour s'assurer que les sites Web sont véritablement accessibles, il est important de toujours faire participer les personnes handicapées aux tests.
-> Le Forum européen des personnes handicapées, les utilisateurs handicapés et de nombreux experts en accessibilité se sont déclarés préoccupés par l’utilisation d’outils de surcouches. Pour de plus amples informations, veuillez consulter les sites suivants [en anglais] :
->  * [Joint statement by EDF & IAAP](https://www.edf-feph.org/publications/joint-statement-on-accessibility-overlays/)
->  * [Article by The A11Y project](https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/)
+> Le Forum européen des personnes handicapées, les utilisateurs handicapés et de nombreux experts en accessibilité se sont déclarés préoccupés par l’utilisation d’outils de surcouches. Pour de plus amples informations, veuillez consulter les sites suivants&nbsp;:
+>  * (en anglais) [Joint statement by EDF & IAAP](https://www.edf-feph.org/publications/joint-statement-on-accessibility-overlays/)
+>  * (en anglais) [Article by The A11Y project](https://www.a11yproject.com/posts/should-i-use-an-accessibility-overlay/)
 >  * [Overlay Fact Sheet](https://overlayfactsheet.com/fr/) signée par près de 900 experts en accessibilité.
 
 L’article indique donc que «&nbsp;il est préférable de résoudre les problèmes d’accessibilité à la source&nbsp;» (traduction de «&nbsp;<span lang="en">it is best to fix accessibility issues at their source</span>&nbsp;»), c’est-à-dire aux niveaux de la conception (design), du code et de la saisie de contenu. Il nous semble plus opportun de dire que c’est indispensable. 

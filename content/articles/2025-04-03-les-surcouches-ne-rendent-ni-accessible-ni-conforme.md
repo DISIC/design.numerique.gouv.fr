@@ -1,5 +1,5 @@
 ---
-title: Surcouche d’accessibilité, la Commission européenne en remet une.
+title: Overlays, la Commission européenne en remet une (sur)couche
 slug: 2025-04-03-les-surcouches-ne-rendent-ni-accessible-ni-conforme
 publishedDate: 2025-04-03
 tags: ["accessibilité", "RGAA"]
@@ -7,10 +7,11 @@ illustration:  ./illustrations/2023-04-11-accessibilite-norme-europeenne-francai
 description: "La Commission européenne réaffirme sa position quant aux outils de surcouche d’accessibilité : les outils de surcouche ne permettent en aucun cas de rendre un site accessible ni de respecter la législation française."
 ---
 
-<p class="fr-text--lead">La Commission européenne réaffirme sa position quant aux outils de surcouche («&nbsp;<span lang="en">overlays</span>&nbsp;») d’accessibilité.<br>
+<p class="fr-text--lead">La Commission européenne réaffirme sa position quant aux outils de surcouche («&nbsp;<span lang="en">overlays</span>&nbsp;») d’accessibilité.</p>
+
 La Commission européenne s’est prononcée en 2023 sur les outils de surcouche d’accessibilité. Nous avions alors publié un article, «&nbsp;<a href="/articles/2023-12-18-outils-de-surcouche-et-conformite-rgaa/" >Les outils de surcouche et la conformité au RGAA</a>&nbsp;», en décembre 2023. Par la suite, l’article originel de la Commission européenne avait été rendu indisponible, pour des raisons que nous ignorons.
+
 Sa position a néanmoins été réaffirmée sur sa page consacrée à l’accessibilité numérique (en anglais mais avec la possibilité d’avoir une traduction automatique en français), intitulée «&nbsp;<span lang="en">Web accessibility</span>&nbsp;», mais avec la possibilité d’avoir une traduction automatique en français), dont la dernière mise à jour est datée du 21 février 2025.
-</p>
 
 Voici la traduction de la partie consacrée aux outils de surcouche d’accessibilité, sur la base de celle fournie par l’outil de traduction automatique, corrigée à la marge par nos soins (le gras a été ajouté par nous).
 

@@ -11,7 +11,7 @@ description: "La Commission européenne réaffirme sa position quant aux outils 
 
 La Commission européenne s’est prononcée en 2023 sur les outils de surcouche d’accessibilité. Nous avions alors publié un article, «&nbsp;<a href="/articles/2023-12-18-outils-de-surcouche-et-conformite-rgaa/" >Les outils de surcouche et la conformité au RGAA</a>&nbsp;», en décembre 2023. Par la suite, l’article originel de la Commission européenne avait été rendu indisponible, pour des raisons que nous ignorons.
 
-Sa position a néanmoins été réaffirmée sur sa page consacrée à l’accessibilité numérique (en anglais mais avec la possibilité d’avoir une traduction automatique en français), intitulée «&nbsp;<span lang="en">Web accessibility</span>&nbsp;», mais avec la possibilité d’avoir une traduction automatique en français), dont la dernière mise à jour est datée du 21 février 2025.
+Sa position a néanmoins été réaffirmée sur sa page consacrée à l’accessibilité numérique (en anglais mais avec la possibilité d’avoir une traduction automatique en français), intitulée «&nbsp;<span lang="en">Web accessibility</span>&nbsp;», dont la dernière mise à jour est datée du 21 février 2025.
 
 Voici la traduction de la partie consacrée aux outils de surcouche d’accessibilité, sur la base de celle fournie par l’outil de traduction automatique, corrigée à la marge par nos soins (le gras a été ajouté par nous).
 

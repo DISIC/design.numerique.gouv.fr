@@ -9,7 +9,7 @@ cat:
     "accessibilité",
     "seo",
     "recherche utilisateur",
-    "éco",
+    "numéco",
     "technique",
   ]
 ---

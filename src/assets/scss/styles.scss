@@ -92,6 +92,15 @@ li.fr-card {
       list-style: none;
       padding-left: 0;
     }
+
+    &-markdown {
+      p {
+        margin-bottom: 0.5rem;
+      }
+      ul {
+        margin-left: 1rem;
+      }
+    }
   }
 
 	&-cover-container {

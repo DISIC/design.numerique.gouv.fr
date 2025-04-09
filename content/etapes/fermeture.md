@@ -3,7 +3,8 @@ title: Fermeture
 slug: fermeture
 order: 11
 description: Anticiper et préparer la fermeture définitivement du service numérique, quand celui-ci ne sera plus utile ou adapté aux besoins des usagers.
-cat: ["★ recherche utilisateur", "design", "accessibilité", "éco", "technique"]
+cat:
+  ["★ recherche utilisateur", "design", "accessibilité", "numéco", "technique"]
 ---
 
 ### Votre rôle

@@ -127,7 +127,7 @@
           </li>
           <li>
             <span class="fr-ml-4w fr-badge fr-badge--sm fr-badge--pink-macaron"
-              >éco</span
+              >numéco</span
             >
             : expert en numérique écoresponsable
           </li>
@@ -232,7 +232,7 @@ export default {
       {
         name: "description",
         content:
-          "Les étapes et compétences clés de la conception d'un services numérique de qualité",
+          "Les étapes et compétences clés pour la conception d'un services numérique de qualité",
       },
       {
         property: "og:title",
@@ -241,7 +241,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Les étapes et compétences clés de la conception d'un services numérique de qualité",
+          "Les étapes et compétences clés pour la conception d'un services numérique de qualité",
       },
       {
         property: "og:image",
@@ -253,7 +253,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 button.fr-accordion__btn svg {
   margin-right: 1em;
 }
@@ -266,25 +266,5 @@ button.fr-accordion__btn svg {
 .fr-card {
   padding: 0.5rem;
   border-bottom: 1px solid var(--background-contrast-pink-macaron);
-  /* --idle: transparent;
-    --hover: var(--background-contrast-pink-macaron);
-    --active: var(--background-contrast-pink-macaron-hover);
-    background-color: var(--background-alt-grey); */
 }
-
-/* .step-title {
-    margin-top: 0.25rem;
-    margin-bottom: 0.25rem;
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-
-  .step-description {
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  .step-expert {
-    margin-left: 1rem;
-  } */
 </style>

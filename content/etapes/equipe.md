@@ -8,24 +8,38 @@ cat: ["★ produit"]
 
 ### Déroulé
 
+:::list
 La personne (unique) désignée pilote du projet (par le sponsor ou sa hiérarchie) est en charge de mobiliser cette équipe. La taille et la composition de l'équipe dépendra du budget disponible et de son envergure, mais ne doit en aucun cas faire l'impasse sur les rôles clés :
 
 - un représentant du métier
 - un représentant de l'équipe technique
 - un designer
-  Elle devra par ailleurs s'appuyer sur un sponsor, qui soutient et finance le projet.
+- un expert en accessibilité numérique
+- un expert en numérique écoresponsable
+  :::list
+
+Elle devra par ailleurs s'appuyer sur un sponsor, qui soutient et finance le projet.
+
+<br/>
 
 ### Rôles et responsabilités
 
-<span class="fr-badge fr-badge--pink-macaron">Produit</span>
+#### <span class="fr-badge fr-badge--pink-macaron">Produit</span>
+
+:::list
+**Responsabilité :** <span class="fr-tag fr-tag--sm">Responsable</span>
+
+**Tâches :**
 
 - Constituer une équipe pluridisciplinaire. Toutes les compétences doivent être impliquées : design, recherche utilisateur, accessibilité, SEO, données, numérique écoresponsable, métier, technique. Elle peuvent être détenues par une ou plusieurs personnes, en fonction de la taille de l'équipe.
-- Réunir l'équipes, mettre en place les rituels d'équipe (réunions régulières, etc.) et lancer les travaux.
+- Réunir l'équipes pour lancer le projet : partager le contexte du projet, mettre en place les grands jalons, planifier les rituels d'équipe (réunions régulières, etc.) et lancer les travaux.
+  :::list
 
-Responsabilités : <span class="fr-tag fr-tag--sm">Responsable</span>
+<br/>
 
 ### Exemple
 
+:::list
 Une équipe composée de :
 
 - Une responsable produit (la pilote)
@@ -42,3 +56,4 @@ Les rituels suivant :
 - une revue de conception toutes les deux semaines (à partir du début de la conception)
 - une revue de développement toutes les semaines (à partir dans lancement des chantiers techniques)
 - une réunion de démonstration tous les mois en présence du sponsor
+  :::list

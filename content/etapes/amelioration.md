@@ -10,7 +10,7 @@ cat:
     "accessibilité",
     "données",
     "seo",
-    "éco",
+    "numéco",
   ]
 ---
 

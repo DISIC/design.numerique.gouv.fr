@@ -247,6 +247,22 @@ module.exports = {
                   class: "dg-steps",
                 },
               },
+              highlight: {
+                keyword: "highlight",
+                customBlock: true,
+                tagName: "div",
+                properties: {
+                  class: "fr-highlight",
+                },
+              },
+              list: {
+                keyword: "list",
+                customBlock: true,
+                tagName: "div",
+                properties: {
+                  class: "dg-list-markdown",
+                },
+              },
             },
             useDefaultTypes: false,
             tag: ":::",

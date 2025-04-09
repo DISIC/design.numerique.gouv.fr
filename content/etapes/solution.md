@@ -8,7 +8,7 @@ cat:
     "★ design",
     "recherche utilisateur",
     "accessibilité",
-    "éco",
+    "numéco",
     "métier",
     "technique",
   ]

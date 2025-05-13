@@ -118,14 +118,14 @@
 <script>
 export default {
   metaInfo: {
-    title: "Checklist pdf",
+    title: "Checklist pour faire un PDF accessible",
     meta: [{
       name: 'description',
       content: "La checklist pour faire des documents pdf accessibles"
     },
     {
       property: 'og:title',
-      content: "Checklist pdf - DesignGouv"
+      content: "Checklist pour faire un PDF accessible - DesignGouv"
     },
     {
       property: 'og:description',

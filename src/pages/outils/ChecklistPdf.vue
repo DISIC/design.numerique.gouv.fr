@@ -31,22 +31,22 @@
       <p>Voici quelques règles à suivre :</p>
       <h2 class="fr-mt-4w">Structure du document</h2>
       <p>Réfléchir à la structure avant de commencer la rédaction.</p>
-      <h3>Titres</h3>
+      <h3 class="fr-mt-2w">Titres</h3>
       <ul>
           <li>Utiliser des titres hiérarchisés (“Titre 1”, “Titre 2”, “Titre 3” …)</li>
           <li>Ne pas utiliser un style de titre simplement pour « mettre le texte plus gros »</li>
       </ul>
-      <h3>Styles</h3>
+      <h3 class="fr-mt-2w">Styles</h3>
       <ul>
         <li> Utiliser les styles pour la mise en forme (paragraphe, caractère, lié, liste, tableau)</li>
           <li>Un passage de texte dans une autre langue ? Il faut utiliser un style en spécifiant cette langue</li>
       </ul>
-      <h3>Listes</h3>
+      <h3 class="fr-mt-2w">Listes</h3>
       <ul>
           <li>Utiliser les listes à puces ou numérotées</li>
           <li>Ne pas utiliser de symbole comme “-” (sauf si automatiquement converti en puce)</li>
       </ul>
-      <h3>Espacements</h3>
+      <h3 class="fr-mt-2w">Espacements</h3>
       <ul>
           <li>Utiliser les sauts de page ou de section.</li>
           <li>Utiliser les styles de paragraphe en spécifiant des espacements avant et après le paragraphe</li>

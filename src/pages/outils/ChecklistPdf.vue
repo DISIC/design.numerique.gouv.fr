@@ -19,7 +19,7 @@
       <h1>Checklist pour faire un PDF accessible</h1>
       <p class="fr-text--lead">Quelque soit le traitement de texte utilisé (LibreOffice ou Word), il est possible de rendre un document pdf accessible à tout le monde.</p>
       <div class="fr-grid-row fr-grid-row--center">
-        <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
+        <div class="fr-callout fr-callout--purple-glycine">
           <h2 class="fr-callout__title">Ai-je vraiment besoin d’un PDF ?</h2>
           <ul class="fr-callout__text">
             <li>Le format PDF est adapté lorsque l’on veut préserver la mise en page (ex. impression)</li>

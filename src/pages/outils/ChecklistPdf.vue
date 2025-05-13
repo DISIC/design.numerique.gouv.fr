@@ -17,7 +17,7 @@
       </nav>
 
       <h1>Checklist pour faire un PDF accessible</h1>
-      <p class="fr-text--lead">Il arrive que l’on ne puisse pas se passer d’un document au format pdf.<br>Quelque soit le traitement de texte utilisé (LibreOffice ou Word), il est possible de rendre ce type de document accessible à tout le monde.</p>
+      <p class="fr-text--lead">Quelque soit le traitement de texte utilisé (LibreOffice ou Word), il est possible de rendre un document pdf accessible à tout le monde.</p>
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
           <h2 class="fr-callout__title">Ai-je vraiment besoin d’un PDF ?</h2>
@@ -55,7 +55,7 @@
       <h2 class="fr-mt-4w">Contrastes et couleurs</h2>
       <ul>
           <li>Utiliser des couleurs contrastées (voir <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3.2" target="_blank" title="critère 3.2 du RGAA - nouvelle fenêtre" rel="noopener noreferrer">critère 3.2 du RGAA</a>) :
-            <ul>https://comptoir-du-libre.org/fr/softwares/398
+            <ul>
               <li>Vérification avec une pipette : <a href="https://comptoir-du-libre.org/fr/softwares/398" target="_blank" title="Colour Contrast Analyser - nouvelle fenêtre" rel="noopener noreferrer" lang="en">Colour Contrast Analyser</a></li>
               <li>Recherche de couleur alternative : <a href="https://contrast-finder.tanaguru.com/" target="_blank" title="Tanaguru Contrast Finder - nouvelle fenêtre" rel="noopener noreferrer" lang="en">Tanaguru Contrast Finder</a></li>
             </ul>

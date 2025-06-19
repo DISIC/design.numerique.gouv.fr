@@ -70,45 +70,6 @@
         <p>Consulter le <a href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937" title="décret n° 2019-768 du 24 juillet 2019 - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">décret n° 2019-768 du 24 juillet 2019</a> relatif à l'accessibilité aux personnes handicapées des services de communication au public en ligne.</p>
       </section>
 
-      <section>
-        <h2>Calendrier</h2>
-
-        <ul>
-          <li><strong>Tous les sites</strong> du secteur public doivent être accessibles depuis le <strong>23 septembre 2020</strong></li>
-          <li><strong>23 juin 2021</strong> : toutes les applications mobiles, les progiciels et les mobiliers urbains numériques doivent être accessibles.</li>
-        </ul>
-
-      </section>
-
-      <section>
-        <h2>Sanctions</h2>
-        <p>
-          Le manquement à ces obligations déclaratives peut entraîner une sanction financière prononcée par le ministre chargé des personnes handicapées d’un montant de <strong>20 000 euros par service en ligne</strong>.
-        </p>
-
-        <p>
-          La Direction générale de la cohésion sociale est chargée de vérifier le respect des obligations et de proposer les sanctions à prononcer Ministre chargé des affaires sociales.
-        </p>
-      </section>
-
-      <section>
-        <h2>
-          Transposition de la directive européenne
-        </h2>
-
-        <p>
-          La norme européenne pour l'accès aux produits et services TIC (<a href="https://www.etsi.org/deliver/etsi_en/301500_301599/301549/02.01.02_60/en_301549v020102p.pdf" title="EN-301549 - format pdf - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">EN-301549</a>) a été mise à jour en 2018 pour inclure les nouveaux critères internationaux sur l'accessibilité (<a href="https://www.w3.org/TR/WCAG21/" title="WCAG 2.1 - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener" ><abbr lang="en" title="web content accessibilty guidelines">WCAG 2.1</abbr></a>), à travers la directive européenne 2016/2102 relative à l'accessibilité des sites internet et des applications mobiles des organismes du secteur public.
-        </p>
-
-        <p>La transposition de cette directive (2016/2102) européenne a été achevée par :</p>
-        <ol>
-          <li>La modification de l’article 47 de la loi du 11 février 2005 par l’article 80 de la loi n° 2018-771</li>
-          <li>La publication du décret n° 2019-768 du 24 juillet 2019 relatif à l'accessibilité des services de communication au public en ligne aux personnes handicapées</li>
-          <li>La publication de l’arrêté du 20 septembre 2019 mettant en vigueur et approuvant la version 4.0 du Référentiel général de l’amélioration de l’accessibilité (RGAA).</li>
-        </ol>
-
-      </section>
-
     </div>
   </Layout>
 </template>

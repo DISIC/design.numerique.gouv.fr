@@ -543,8 +543,7 @@
                   <li>Organisme de formation : <strong>Opquast</strong></li>
                   <li>Durée : <strong>14h</strong></li>
                   <li>
-                    Coût : financé par la Dinum pour les agents des trois
-                    fonctions publiques, dans la limite des places disponibles.
+                    Coût : financé par la Dinum pour les agents publics, dans la limite des places disponibles.
                     Pour en bénéficier, contacter
                     <strong>formation[a]design.numerique.gouv.fr</strong>.
                   </li>

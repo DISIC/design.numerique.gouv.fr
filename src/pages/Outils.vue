@@ -251,7 +251,7 @@
         <div class="fr-highlight">
 
 <p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a
-  href="https://github.com/GouvernementFR/dsfr/blob/fix/readme/doc/legal/cgu.md"
+  href="https://www.systeme-de-design.gouv.fr/version-courante/fr/a-propos/conditions-generales-d-utilisation"
   rel="noreferrer noopener"
   title="conditions générales d'utilisation - nouvelle fenêtre"
   target="_blank"

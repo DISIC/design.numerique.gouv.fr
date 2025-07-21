@@ -162,6 +162,9 @@ import ResultsMessage from "../../components/pidila/ResultsMessage.vue";
 import Criterion from "../../components/pidila/Criterion.vue";
 
 export default {
+  mounted() {
+    updateSearch();
+  },
   components: { Toolbar, Search, Filters, ResultsMessage, Criterion },
   computed: {
     searchQuery() {

@@ -50,7 +50,9 @@
               <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
             </li>
             <li>
-              <a class="fr-breadcrumb__link" aria-current="page">Checklist PiDila</a>
+              <a class="fr-breadcrumb__link" aria-current="page"
+                >Checklist PiDila</a
+              >
             </li>
           </ol>
         </nav>
@@ -82,11 +84,7 @@
         <section>
           <div class="fr-unhidden-sm fr-hidden-md">
             <button
-              class="
-                fr-btn fr-btn--secondary fr-btn--icon-right
-                fr-icon-filter-line
-                btn-filters
-              "
+              class="fr-btn fr-btn--secondary fr-btn--icon-right fr-icon-filter-line btn-filters"
               data-fr-opened="false"
               aria-controls="fr-modal-1"
             >
@@ -191,10 +189,10 @@ export default {
         criteria = criteria.filter((edge) => {
           return (
             this.cleanString(edge.node.title).includes(
-              this.cleanString(this.searchQuery)
+              this.cleanString(this.searchQuery),
             ) ||
             this.cleanString(edge.node.content).includes(
-              this.cleanString(this.searchQuery)
+              this.cleanString(this.searchQuery),
             )
           );
         });
@@ -204,7 +202,7 @@ export default {
       if (this.profileFilters.length) {
         criteria = criteria.filter((edge) => {
           return edge.node.profiles.some((p) =>
-            this.profileFilters.includes(p)
+            this.profileFilters.includes(p),
           );
         });
       }
@@ -213,7 +211,7 @@ export default {
       if (this.referenceFilters.length) {
         criteria = criteria.filter((edge) => {
           return edge.node.references.some((r) =>
-            this.referenceFilters.includes(r)
+            this.referenceFilters.includes(r),
           );
         });
       }
@@ -247,6 +245,9 @@ export default {
     },
   },
   methods: {
+    mounted() {
+      updateSearch();
+    },
     /**
      * Update `search` query params. "undefined" removes the query param instead of setting it to an empty value.
      * @param {string} value
@@ -332,7 +333,7 @@ export default {
           property: "og:image",
           content:
             "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
-        }
+        },
       ],
     };
   },

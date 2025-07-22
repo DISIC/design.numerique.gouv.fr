@@ -102,12 +102,8 @@
           <li>Instructions pour corriger les problèmes relevés par PAC : <span lang="en">Tagged PDF</span> (anglais)</li>
           <li>Tanaguru propose une traduction française : PAC, comprendre et corriger les erreurs d’accessibilité</li>
       </ul>
-      <h2 class="fr-mt-6w"><span class="fr-badge fr-badge--purple-glycine">Bonus</span> Quelques ressources</h2>
-      <ul>
-          <li>Consulter le <a href="https://accessibilite.numerique.gouv.fr" target="_blank" title="Référentiel Général d’Amélioration de l’Accessibilité - nouvelle fenêtre" rel="noopener noreferrer">Référentiel Général d’Amélioration de l’Accessibilité</a> (RGAA)</li>
-          <li>Consulter le <a href="https://accessibilite.public.lu/fr/rapdf1/index.html" target="_blank" title="Référentiel d’évaluation de l’accessibilité des documents au format PDF - nouvelle fenêtre" rel="noopener noreferrer">Référentiel d’évaluation de l’accessibilité des documents au format PDF</a> produit par l’État du Luxembourg</li>
-          <li>Se former avec les <a href="/outils/">ressources de DesignGouv</a></li>
-      </ul>
+      <hr>
+      <p>Consulter le <a href="https://accessibilite.public.lu/fr/rapdf1/index.html" target="_blank" title="Référentiel d’évaluation de l’accessibilité des documents au format PDF - nouvelle fenêtre" rel="noopener noreferrer">Référentiel d’évaluation de l’accessibilité des documents au format PDF</a> produit par l’État du Luxembourg</p>
     </div>
   </Layout>
 </template>

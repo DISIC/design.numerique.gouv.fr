@@ -17,40 +17,37 @@
       </nav>
 
       <h1>Checklist pour faire un PDF accessible</h1>
-      <p class="fr-text--lead">Quelque soit le traitement de texte utilisé (LibreOffice ou Word), il est possible de rendre un document pdf accessible à tout le monde.</p>
+      <p class="fr-text--lead">Quelque soit le traitement de texte utilisé (LibreOffice ou Word), il est possible de rendre un document pdf accessible à tout le monde quelque soit le matériel ou l’aide technique utilisée.</p>
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-callout--purple-glycine">
-          <h2 class="fr-callout__title">Ai-je vraiment besoin d’un PDF ?</h2>
+          <h2 class="fr-callout__title">Le format PDF est-il <em>justifié</em> ?</h2>
           <ul class="fr-callout__text">
             <li>Le format PDF est adapté lorsque l’on veut préserver la mise en page (ex. impression)</li>
-            <li>Vérifier s’il est possible de proposer un format alternatif avant de produire un PDF : HTML, EPUB, format bureautique (LibreOffice, Word )…</li>
+            <li>Il est souvent plus pertinent de proposer un format alternatif avant de produire un PDF : HTML, EPUB, format bureautique (LibreOffice, Word )…</li>
             <li>Un PDF peut être généré automatiquement à partir d’un autre format (ex. HTML). Discutez-en avec vos équipes !</li>
           </ul>
         </div>
       </div>
       <p>Voici quelques règles à suivre :</p>
       <h2 class="fr-mt-4w">Structure du document</h2>
-      <p>Réfléchir à la structure avant de commencer la rédaction.</p>
-      <h3 class="fr-mt-2w">Titres</h3>
-      <ul>
-          <li>Utiliser des titres hiérarchisés (“Titre 1”, “Titre 2”, “Titre 3” …)</li>
-          <li>Ne pas utiliser un style de titre simplement pour « mettre le texte plus gros »</li>
-      </ul>
       <h3 class="fr-mt-2w">Styles</h3>
+      <p>Dans un traitement de texte, les styles donnent un statut aux différents éléments (ex. titre, paragraphe, liste, lien, etc.). Ce statut est restitué par les aides techniques contrairement à une simple mise en forme. Par exemple, une utilisatrice de synthèse vocale pourra naviguer de titre en titre .</p>
       <ul>
-        <li> Utiliser les styles pour la mise en forme (paragraphe, caractère, lié, liste, tableau)</li>
-          <li>Un passage de texte dans une autre langue ? Il faut utiliser un style en spécifiant cette langue</li>
+        <li>Utiliser les styles pour la mise en forme (titre, paragraphe, caractère, lié, liste, tableau)
+          <ul>
+              <li>Utiliser des titres hiérarchisés (“Titre 1”, “Titre 2”, “Titre 3” …)</li>
+              <li>Ne pas utiliser un style de titre simplement pour « mettre le texte plus gros »</li>
+              <li>Utiliser les listes à puces ou numérotées</li>
+              <li>Ne pas utiliser de symbole comme “-” (sauf si automatiquement converti en puce)</li>
+            </ul>
+        </li>
       </ul>
-      <h3 class="fr-mt-2w">Listes</h3>
+      <h3 class="fr-mt-2w">Contenus</h3>
       <ul>
-          <li>Utiliser les listes à puces ou numérotées</li>
-          <li>Ne pas utiliser de symbole comme “-” (sauf si automatiquement converti en puce)</li>
-      </ul>
-      <h3 class="fr-mt-2w">Espacements</h3>
-      <ul>
-          <li>Utiliser les sauts de page ou de section.</li>
-          <li>Utiliser les styles de paragraphe en spécifiant des espacements avant et après le paragraphe</li>
-          <li>Ne pas insérer d’espaces ou sauts de ligne pour séparer paragraphes et sections</li>
+          <li>Utiliser des <a href="../diagnostic-flash/#11" >libellés de liens</a>  clairs et pertinents</li>
+          <li>Développer les sigles et acronymes à leur première occurence</li>
+          <li>Utiliser les sauts de page ou de section (ne pas faire de sauts de ligne pour passer à la page suivante)</li>
+          <li>Utiliser les styles de paragraphe en spécifiant des espacements avant et après le paragraphe. (Ne pas insérer d’espaces ou sauts de ligne pour séparer paragraphes et sections)</li>
       </ul>
       <h2 class="fr-mt-4w">Contrastes et couleurs</h2>
       <ul>
@@ -60,13 +57,13 @@
               <li>Recherche de couleur alternative : <a href="https://contrast-finder.tanaguru.com/" target="_blank" title="Tanaguru Contrast Finder - nouvelle fenêtre" rel="noopener noreferrer" lang="en">Tanaguru Contrast Finder</a></li>
             </ul>
           </li>    
-          <li>Ajouter un visuel (pictogramme ou encadré par exemple) si une information n’est donnée que par la couleur (voir <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3.1" target="_blank" title="critère 3.1 du RGAA - nouvelle fenêtre" rel="noopener noreferrer">critère 3.1 du RGAA</a>)</li>
+          <li>Ne  pas donner l’information uniquement par la couleur (voir <a href="https://accessibilite.numerique.gouv.fr/methode/criteres-et-tests/#3.1" target="_blank" title="critère 3.1 du RGAA - nouvelle fenêtre" rel="noopener noreferrer">critère 3.1 du RGAA</a>) : ajouter du texte ou un visuel  (pictogramme ou encadré par exemple)</li>
       </ul>
       <h2 class="fr-mt-4w">Images et alternatives textuelles</h2>
       <ul>
           <li><strong>Image informative</strong> : ajouter une alternative textuelle (parfois nommée « description »)</li>
-          <li><strong>Image décorative</strong> : à indiquer comme telle pour qu’elle soit ignorée par les aides techniques (case à cocher ou mettre une alternative textuelle vide)</li>
-          <li><strong>Image complexe</strong> (ex. un graphique) : ajouter une description détaillée sous l’image</li>
+          <li><strong>Image décorative</strong> : à indiquer comme telle pour qu’elle soit ignorée par les aides techniques (case à cocher ou laisser l’alternative textuelle vide)</li>
+          <li><strong>Image complexe</strong> (ex. un graphique) : ajouter un texte équivalent sous l’image</li>
           <li><strong>Image lien</strong> : indiquer la fonction ou la destination du lien</li>
       </ul>
       <h2 class="fr-mt-4w">Tableaux</h2>

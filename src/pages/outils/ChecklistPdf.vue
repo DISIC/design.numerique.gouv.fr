@@ -29,8 +29,8 @@
         </div>
       </div>
       <p>Voici quelques règles à suivre :</p>
-      <h2 class="fr-mt-4w">Structure du document</h2>
-      <h3 class="fr-mt-2w">Styles</h3>
+      <!--h2 class="fr-mt-4w">Structure du document</h2-->
+      <h2 class="fr-mt-2w">Styles</h2>
       <p>Dans un traitement de texte, les styles donnent un statut aux différents éléments (ex. titre, paragraphe, liste, lien, etc.). Ce statut est restitué par les aides techniques contrairement à une simple mise en forme. Par exemple, une utilisatrice de synthèse vocale pourra naviguer de titre en titre .</p>
       <ul>
         <li>Utiliser les styles pour la mise en forme (titre, paragraphe, caractère, lié, liste, tableau)
@@ -42,7 +42,7 @@
             </ul>
         </li>
       </ul>
-      <h3 class="fr-mt-2w">Contenus</h3>
+      <h2 class="fr-mt-2w">Contenus</h2>
       <ul>
           <li>Utiliser des <a href="../diagnostic-flash/#11" >libellés de liens</a>  clairs et pertinents.</li>
           <li>Développer les sigles et acronymes à leur première occurence.</li>

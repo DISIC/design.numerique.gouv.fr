@@ -20,8 +20,9 @@
                 value="Tous"
                 :aria-pressed="allProfiles"
                 @click="allProfiles = true"
-                >Tous</button
               >
+                Tous
+              </button>
             </li>
             <li v-for="(profile, i) in profiles" :key="profile">
               <button
@@ -30,8 +31,9 @@
                 :value="profile"
                 :aria-pressed="isProfileFiltered(profile)"
                 @click="onProfileButtonClick"
-                >{{ profile }}</button
               >
+                {{ profile }}
+              </button>
             </li>
           </ul>
         </div>
@@ -44,8 +46,9 @@
         <legend
           class="fr-fieldset__legend"
           title="Filter les critères par référence"
-          ><h2 class="fr-h6">Filtrer par référence</h2></legend
         >
+          <h2 class="fr-h6">Filtrer par référence</h2>
+        </legend>
         <div class="fr-fieldset__content">
           <ul
             class="fr-tags-group"
@@ -57,8 +60,9 @@
                 value="Tous"
                 :aria-pressed="allReferences"
                 @click="allReferences = true"
-                >Toutes</button
               >
+                Toutes
+              </button>
             </li>
             <li v-for="(reference, i) in references" :key="reference">
               <button
@@ -67,8 +71,9 @@
                 :value="reference"
                 :aria-pressed="isReferenceFiltered(reference)"
                 @click="onReferenceButtonClick"
-                >{{ reference }}</button
               >
+                {{ reference }}
+              </button>
             </li>
           </ul>
         </div>
@@ -87,6 +92,14 @@ export default {
         return ["vertical", "condensed"].includes(value);
       },
       default: "vertical",
+    },
+    profileFilters: {
+      type: Array,
+      default: () => [],
+    },
+    referenceFilters: {
+      type: Array,
+      default: () => [],
     },
   },
   data() {
@@ -112,10 +125,7 @@ export default {
     };
   },
   mounted() {
-    const { profil, reference } = this.$route.query;
-    this.profileFilters = profil ? JSON.parse(profil) : [];
     this.filterProfiles();
-    this.referenceFilters = reference ? JSON.parse(reference) : [];
     this.filterReferences();
   },
   computed: {
@@ -175,12 +185,6 @@ export default {
     },
     filterReferences() {
       this.$emit("filter-reference", this.referenceFilters);
-    },
-  },
-  watch: {
-    "$route.query"(to, from) {
-      this.profileFilters = to.profil ? JSON.parse(to.profil) : [];
-      this.referenceFilters = to.reference ? JSON.parse(to.reference) : [];
     },
   },
 };

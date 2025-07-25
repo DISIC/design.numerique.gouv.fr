@@ -25,6 +25,8 @@
                 </h1>
                 <Filters
                   mode="condensed"
+                  :profileFilters="profileFilters"
+                  :referenceFilters="referenceFilters"
                   @filter-profile="updateProfileFilters"
                   @filter-reference="updateReferenceFilters"
                 />
@@ -77,64 +79,68 @@
       </div>
     </section>
 
-    <div class="fr-grid-row fr-grid-row--gutters">
-      <div class="fr-col-12 fr-col-md-3">
-        <!-- Filters and tools -->
-        <Search @search="updateSearch" />
-        <section>
-          <div class="fr-unhidden-sm fr-hidden-md">
-            <button
-              class="fr-btn fr-btn--secondary fr-btn--icon-right fr-icon-filter-line btn-filters"
-              data-fr-opened="false"
-              aria-controls="fr-modal-1"
-            >
-              Filtres
-            </button>
-          </div>
-          <div class="fr-hidden fr-unhidden-md">
-            <Filters
-              @filter-profile="updateProfileFilters"
-              @filter-reference="updateReferenceFilters"
-            />
-          </div>
-        </section>
-      </div>
-      <div class="fr-col-12 fr-col-md-1"></div>
-      <div class="fr-col-12 fr-col-md-8">
-        <!-- Results info -->
-        <div
-          class="result-bar fr-mb-4v fr-mb-md-12v"
-          role="alert"
-          aria-live="polite"
-          aria-atomic="true"
-        >
-          <ResultsMessage
-            :results-count="filteredCriteria.length"
-            :search="searchQuery"
-            :profiles="profileFilters"
-            :references="referenceFilters"
-          />
-          <Toolbar
-            @conceal-all="toggleAll(false)"
-            @disclose-all="toggleAll(true)"
-            class="result-bar-tools"
-          />
+    <ClientOnly>
+      <div class="fr-grid-row fr-grid-row--gutters">
+        <div class="fr-col-12 fr-col-md-3">
+          <!-- Filters and tools -->
+          <Search @search="updateSearch" :search="searchQuery" />
+          <section>
+            <div class="fr-unhidden-sm fr-hidden-md">
+              <button
+                class="fr-btn fr-btn--secondary fr-btn--icon-right fr-icon-filter-line btn-filters"
+                data-fr-opened="false"
+                aria-controls="fr-modal-1"
+              >
+                Filtres
+              </button>
+            </div>
+            <div class="fr-hidden fr-unhidden-md">
+              <Filters
+                :profileFilters="profileFilters"
+                :referenceFilters="referenceFilters"
+                @filter-profile="updateProfileFilters"
+                @filter-reference="updateReferenceFilters"
+              />
+            </div>
+          </section>
         </div>
-        <!-- Criteria list -->
-        <section>
-          <ul v-if="filteredCriteria.length" class="accordions">
-            <Criterion
-              v-for="edge in filteredCriteria"
-              :key="edge.node.id"
-              :criterion="edge"
+        <div class="fr-col-12 fr-col-md-1"></div>
+        <div class="fr-col-12 fr-col-md-8">
+          <!-- Results info -->
+          <div
+            class="result-bar fr-mb-4v fr-mb-md-12v"
+            role="alert"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            <ResultsMessage
+              :results-count="filteredCriteria.length"
+              :search="searchQuery"
+              :profiles="profileFilters"
+              :references="referenceFilters"
             />
-          </ul>
-          <div v-else class="fr-p-2w">
-            Aucun critère ne correspond aux filtres appliqués.
+            <Toolbar
+              @conceal-all="toggleAll(false)"
+              @disclose-all="toggleAll(true)"
+              class="result-bar-tools"
+            />
           </div>
-        </section>
+          <!-- Criteria list -->
+          <section>
+            <ul v-if="filteredCriteria.length" class="accordions">
+              <Criterion
+                v-for="edge in filteredCriteria"
+                :key="edge.node.id"
+                :criterion="edge"
+              />
+            </ul>
+            <div v-else class="fr-p-2w">
+              Aucun critère ne correspond aux filtres appliqués.
+            </div>
+          </section>
+        </div>
       </div>
-    </div>
+    </ClientOnly>
   </Layout>
 </template>
 
@@ -163,7 +169,9 @@ import Criterion from "../../components/pidila/Criterion.vue";
 
 export default {
   mounted() {
-    updateSearch();
+    this.updateSearch(this.searchQuery);
+    this.updateProfileFilters(this.profileFilters);
+    this.updateReferenceFilters(this.referenceFilters);
   },
   components: { Toolbar, Search, Filters, ResultsMessage, Criterion },
   computed: {
@@ -180,6 +188,7 @@ export default {
         ? JSON.parse(this.$route.query.reference)
         : [];
     },
+
     /**
      * Filter criteria based on search, profile and reference.
      * @returns {Object[]}
@@ -248,9 +257,6 @@ export default {
     },
   },
   methods: {
-    mounted() {
-      updateSearch();
-    },
     /**
      * Update `search` query params. "undefined" removes the query param instead of setting it to an empty value.
      * @param {string} value

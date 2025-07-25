@@ -1,5 +1,5 @@
 <template>
-  <form @submit.prevent="search" class="fr-mb-4v fr-mb-md-12v">
+  <form @submit.prevent="launchSearch" class="fr-mb-4v fr-mb-md-12v">
     <div class="fr-search-bar" id="header-search" role="search">
       <label class="fr-label" for="search">Rechercher parmi les critères</label>
       <input
@@ -20,30 +20,23 @@
 <script>
 export default {
   name: "Search",
+  props: {
+    search: {
+      type: String,
+      default: null,
+    },
+  },
   data() {
     return {
-      searchQuery: "",
+      searchQuery: this.search,
     };
   },
   mounted() {
-    const { search } = this.$route.query;
-    if (search) {
-      this.searchQuery = search;
-      this.search();
-    }
+    this.launchSearch();
   },
   methods: {
-    search() {
+    launchSearch() {
       this.$emit("search", this.searchQuery);
-    },
-  },
-  watch: {
-    "$route.query"(to, from) {
-      this.searchQuery = to.search;
-
-      if (to.search) {
-        this.search();
-      }
     },
   },
 };

@@ -55,7 +55,7 @@
       <section>
         <h2 id="tech">Les checklists pour toustes</h2>
         <ul class="fr-mb-3w">
-          <li><span class="fr-badge fr-badge--purple-glycine">Nouveau !</span> La <g-link to="/outils/checklist-pdf/">checklist pdf</g-link> propose un ensemble de règles pour réaliser un <strong>document pdf accessible</strong> à partir d’un traitement de texte ;
+          <li><span class="fr-badge fr-badge--purple-glycine">Nouveau !</span> La <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose un ensemble de règles pour réaliser un <strong>document PDF accessible</strong> à partir d’un traitement de texte ;
           </li>
           <li>
             le <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link> permet d’estimer

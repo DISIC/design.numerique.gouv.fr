@@ -17,21 +17,21 @@
       </nav>
 
       <h1>Checklist pour faire un PDF accessible</h1>
-      <p class="fr-text--lead">Quelque soit le traitement de texte utilisé (LibreOffice ou Word), il est possible de rendre un document pdf accessible à tout le monde quelque soit le matériel ou l’aide technique utilisée.</p>
+      <p class="fr-text--lead">Quelque soit le traitement de texte utilisé (LibreOffice ou Word), il est possible de rendre un document PDF accessible à tout le monde quelque soit le matériel ou l’aide technique utilisée.</p>
       <div class="fr-grid-row fr-grid-row--center">
         <div class="fr-callout fr-callout--purple-glycine">
           <h2 class="fr-callout__title">Le format PDF est-il <em>nécessaire</em> ?</h2>
           <ul class="fr-callout__text">
             <li>Le format PDF est adapté lorsque l’on veut préserver la mise en page.</li>
             <li>Il est souvent plus pertinent de proposer un autre format que PDF : HTML, EPUB, format bureautique (LibreOffice, Word )…</li>
-            <li>Un PDF peut être généré automatiquement à partir d’un autre format (ex. HTML). Discutez-en avec vos équipes !</li>
+            <li>Un PDF peut être généré automatiquement à partir d’un autre format (HTML par exemple). Discutez-en avec vos équipes !</li>
           </ul>
         </div>
       </div>
       <p>Voici quelques règles à suivre :</p>
       <!--h2 class="fr-mt-4w">Structure du document</h2-->
       <h2 class="fr-mt-2w">Styles</h2>
-      <p>Dans un traitement de texte, les styles donnent un statut aux différents éléments (ex. titre, paragraphe, liste, lien, etc.). Ce statut est restitué par les aides techniques contrairement à une simple mise en forme. Par exemple, une utilisatrice de synthèse vocale pourra naviguer de titre en titre .</p>
+      <p>Dans un traitement de texte, les styles donnent un statut aux différents éléments (titre, paragraphe, liste, lien, etc.). Ce statut est restitué par les aides techniques contrairement à une simple mise en forme. Par exemple, une utilisatrice de synthèse vocale pourra naviguer de titre en titre .</p>
       <ul>
         <li>Utiliser les styles pour la mise en forme (titre, paragraphe, caractère, lié, liste, tableau)
           <ul>
@@ -114,7 +114,7 @@ export default {
     title: "Checklist pour faire un PDF accessible",
     meta: [{
       name: 'description',
-      content: "La checklist pour faire des documents pdf accessibles"
+      content: "La checklist pour faire des documents pdf accessibles à partir d’un traitement de texte."
     },
     {
       property: 'og:title',
@@ -122,7 +122,7 @@ export default {
     },
     {
       property: 'og:description',
-      content: "La checklist pour faire des documents pdf accessibles."
+      content: "La checklist pour faire des documents pdf accessibles à partir d’un traitement de texte."
     },
     {
       property: 'og:image',

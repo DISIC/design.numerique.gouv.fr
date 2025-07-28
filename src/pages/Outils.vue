@@ -53,6 +53,24 @@
 
     <div class="dg-content fr-px-2w">
       <section>
+        <h2 id="tech">Les checklists pour toustes</h2>
+        <ul class="fr-mb-3w">
+          <li><span class="fr-badge fr-badge--purple-glycine">Nouveau !</span> La <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose un ensemble de règles pour réaliser un <strong>document PDF accessible</strong> à partir d’un traitement de texte ;
+          </li>
+          <li>
+            le <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link> permet d’estimer
+            de manière <strong>rapide et partielle</strong> l’accessibilité d’un
+            site ou d’une démarche en ligne, sans avoir d’expertise particulière
+            et en n’y consacrant que peu de temps ;
+          </li>
+          <li>
+            la <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link> regroupe
+            les critères des différents référentiels et bonnes pratiques du web.
+          </li>
+        </ul>
+      </section>
+
+      <section>
         <h2 id="tech">Tech</h2>
         <ul class="fr-mb-3w">
           <li>
@@ -113,10 +131,6 @@
           <li>
             l’<g-link to="/outils/audit-rapide/">audit rapide</g-link> permet à moindre coût
             d’apprécier l’accessibilité d’un site et la maturité d’une équipe ;
-          </li>
-          <li>
-            la <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link> regroupe
-            les critères des différents référentiels et bonnes pratiques du web.
           </li>
           <li>
             la page <g-link to="/outils/accessibilite-marche-public/">l’accessibilité numérique dans les marchés publics</g-link> recense les points importants dans la rédaction des marchés et l’analyse des offres.

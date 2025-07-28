@@ -30,9 +30,9 @@
       </div>
       <p>Voici quelques règles à suivre :</p>
       <h2 class="fr-mt-2w">Styles</h2>
-      <p>Dans un traitement de texte, les styles donnent un statut aux différents éléments (titre, paragraphe, liste, lien, etc.). Ce statut est restitué par les aides techniques contrairement à une simple mise en forme. Par exemple, une utilisatrice de synthèse vocale pourra naviguer de titre en titre .</p>
+      <p>Dans un traitement de texte, les styles donnent un statut aux différents éléments (titre, paragraphe, liste, etc.). Ce statut est restitué par les aides techniques contrairement à une simple mise en forme. Par exemple, une utilisatrice de synthèse vocale pourra naviguer de titre en titre .</p>
       <ul>
-        <li>Utiliser des titres hiérarchisés (“Titre 1”, “Titre 2”, “Titre 3” …).</li>
+        <li>Utiliser des titres hiérarchisés ("Titre" pour le titre principal, puis "Titre 1", "Titre 2", "Titre 3" …).</li>
         <li>Ne pas utiliser un style de titre simplement pour « mettre le texte plus gros ».</li>
         <li>Utiliser les listes à puces ou numérotées.</li>
         <li>Ne pas utiliser de symbole comme “-” (sauf si la conversion en puces se fait automatiquement).</li>

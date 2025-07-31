@@ -23,7 +23,7 @@
           <h2 class="fr-callout__title">Le format PDF est-il <em>nécessaire</em> ?</h2>
           <ul class="fr-callout__text">
             <li>Le format PDF est adapté lorsque l’on veut préserver la mise en page.</li>
-            <li>Il est souvent plus pertinent de proposer un autre format que PDF : HTML, EPUB, format bureautique (LibreOffice, Word )…</li>
+            <li>Il est souvent plus pertinent de proposer un autre format que PDF : HTML, EPUB, format bureautique (LibreOffice, Word, etc.)…</li>
             <li>Un PDF peut être généré automatiquement à partir d’un autre format (HTML par exemple). Discutez-en avec vos équipes !</li>
           </ul>
         </div>
@@ -33,7 +33,7 @@
       <h2 class="fr-mt-2w">Styles</h2>
       <p>Dans un traitement de texte, les styles donnent un statut aux différents éléments (titre, paragraphe, liste, etc.). Ce statut est restitué par les aides techniques comme les lecteurs d’écran, contrairement à une simple mise en forme. Par exemple, une personne aveugle ou malvoyante utilisant un lecteur d’écran pourra naviguer de titre en titre comme le ferait une personne voyante qui se rend directement à la partie qui l’intéresse.</p>
       <ul>
-        <li>Utiliser des titres hiérarchisés ("Titre" pour le titre principal, puis "Titre 1", "Titre 2", "Titre 3" …) de manière cohérente.</li>
+        <li>Utiliser des titres hiérarchisés ("Titre" pour le titre principal, puis "Titre 1", "Titre 2", "Titre 3"…) de manière cohérente.</li>
         <li>Ne pas utiliser un style de titre simplement pour « mettre le texte plus gros ».</li>
         <li>Utiliser les listes à puces ou numérotées.</li>
         <li>Ne pas utiliser de symbole comme “-” (sauf si la conversion en puces se fait automatiquement).</li>
@@ -82,24 +82,25 @@
       <h2 class="fr-mt-4w">Export en PDF</h2>
       <ul>
           <li>Générer les signets PDF à partir des titres hiérarchisés (case à cocher au moment de l’export).</li>
-          <li>Exporter les balises d’accessibilité (une case à cocher, parfois nommée « idéal pour la distribution électronique et l’accessibilité »)</li>
-          <li>Cocher la case PDF/A (archive) peut améliorer l’accessibilité du PDF (police de caractères embarquée, par exemple si vous utilisez la police Marianne de l’État)</li>
+          <li>Exporter les balises d’accessibilité (une case à cocher, parfois nommée « idéal pour la distribution électronique et l’accessibilité »).</li>
+          <li>Cocher la case PDF/A (archive) peut améliorer l’accessibilité du PDF (police de caractères embarquée, par exemple si vous utilisez la police Marianne de l’État).</li>
       </ul>
       <h2 class="fr-mt-4w">Vérifications</h2>
       <ul>
-          <li>Vérifier le titre, la langue et que le PDF est balisé (possible dans <span lang="en">Adobe Acrobat Reader</span>)</li>
-          <li>Vérifier l’ordre de lecture (dans Adobe Acrobat Pro ou à l’aide d’une synthèse vocale)</li>
-          <li>Vérifier l’accessibilité du PDF avec PAC (<span lang="en">PDF Accessibility Checker</span>) ou <span lang="en">Adobe Acrobat Pro</span></li>
-          <li>Tester avec un lecteur d’écran : NVDA avec Firefox sur PC Windows, VoiceOver Mac ou VoiceOver iPhone avec Safari, TalkBack sur Android</li>
+          <li>Vérifier le titre, la langue et que le PDF est balisé (possible dans <span lang="en">Adobe Acrobat Reader</span>).</li>
+          <li>Vérifier l’ordre de lecture (dans Adobe Acrobat Pro ou à l’aide d’une synthèse vocale).</li>
+          <li>Vérifier l’accessibilité du PDF avec PAC (<span lang="en">PDF Accessibility Checker</span>) ou <span lang="en">Adobe Acrobat Pro</span>.</li>
+          <li>Tester avec un lecteur d’écran : NVDA avec Firefox sur PC Windows, VoiceOver Mac ou VoiceOver iPhone avec Safari, TalkBack sur Android.</li>
       </ul>
       <h2 class="fr-mt-4w">Corrections avancées</h2>
       <ul>
-          <li>Impossible d’exporter un PDF qui passe 100% des tests de PAC directement ? Utiliser Adobe Acrobat Pro pour corriger les dernières erreurs</li>
-          <li>Instructions pour corriger les problèmes relevés par PAC : <a href="https://taggedpdf.com/" target="_blank" title="Tagged PDF (en anglais) - nouvelle fenêtre" rel="noopener noreferrer"><span lang="en">Tagged PDF</span></a> (anglais)</li>
+          <li>Impossible d’exporter un PDF qui passe 100% des tests de PAC directement ? Utiliser Adobe Acrobat Pro pour corriger les dernières erreurs.</li>
+          <li>Instructions pour corriger les problèmes relevés par PAC : <a href="https://taggedpdf.com/" target="_blank" title="Tagged PDF (en anglais) - nouvelle fenêtre" rel="noopener noreferrer"><span lang="en">Tagged PDF</span></a> (anglais).</li>
           <li>Tanaguru propose une traduction française d’une grande partie du contenu présent sur Tagged PDF : <a href="https://www.tanaguru.com/pac-comprendre-et-corriger-les-erreurs-daccessibilite/" target="_blank" title="PAC, comprendre et corriger les erreurs d’accessibilité - nouvelle fenêtre" rel="noopener noreferrer">PAC, comprendre et corriger les erreurs d’accessibilité</a>.</li>
       </ul>
       <hr>
       <p>L’État du Luxembourg est l’auteur d’un <a href="https://accessibilite.public.lu/fr/rapdf1/index.html" target="_blank" title="Référentiel d’évaluation de l’accessibilité des documents au format PDF - nouvelle fenêtre" rel="noopener noreferrer">Référentiel d’évaluation de l’accessibilité des documents au format PDF</a> qui permet un audit complet.</p>
+      <p>La communauté beta.gouv propose également le guide <a href="https://doc.incubateur.net/communaute/travailler-chez-beta.gouv.fr/se-former/se-former-en-ligne/formation-a-laccessibilite/pdf-et-accessibilite" target="_blank" title="PDF et accessibilité - nouvelle fenêtre" rel="noopener noreferrer">PDF et accessibilité</a>.</p>
     </div>
   </Layout>
 </template>

@@ -1,10 +1,10 @@
 ---
-title: Participez à nos ateliers de formation !
+title: Nos ateliers de formation de l’automne
 slug: 2025-08-26-ateliers-de-formation
 publishedDate: 2025-08-26
 tags: ["formation", "design", "accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
-description: "La Direction interministérielle du numérique (DINUM) propose, à partir d’octobre, de nouvelles sessions de ses huit ateliers de formation sur le design, la recherche utilisateur, l'accessibilité pour aider les agents à améliorer les services publics en ligne."
+description: "La Direction interministérielle du numérique (DINUM) propose, à partir d’octobre, de nouvelles sessions de ses huit ateliers de formation sur le design, la recherche utilisateur, l’accessibilité pour aider les agents à améliorer les services publics en ligne."
 ---
 
 <p class="fr-text--lead">La direction interministérielle du numérique (Dinum) propose de nouvelles sessions de ses huit ateliers de formation pour améliorer les services publics en ligne.</p>
@@ -14,12 +14,12 @@ description: "La Direction interministérielle du numérique (DINUM) propose, à
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/design/atelier-mener-conception/">Bien mener la conception d’un service numérique</a></h2>
 
-Orchestrer la conception ou l’amélioration d’un service numériques&nbsp;: respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
+Orchestrer la conception ou l’amélioration d’un service numérique&nbsp;: respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
 - 7 octobre - présentiel
 - 16 octobre - présentiel
 - 16 décembre - visioconférence
   
-<h2 class="fr-mt-4w fr-h6"><a href="/formations/design/atelier-ergonomie/">Ergonomie numériques&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
+<h2 class="fr-mt-4w fr-h6"><a href="/formations/design/atelier-ergonomie/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
 
 Adopter les bons réflexes pour proposer des services numériques intuitifs.
 - 4 novembre - présentiel
@@ -42,7 +42,7 @@ Préparer et animer des tests avec des usagers puis analyser les résultats.
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
 
-Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant, quelque soit votre niveau de connaissance initial de l'accessibilité numérique.
+Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant, quel que soit votre niveau de connaissance initial de l’accessibilité numérique.
 - 6 novembre - visioconférence
 - 25 novembre - présentiel
 - 4 décembre - présentiel

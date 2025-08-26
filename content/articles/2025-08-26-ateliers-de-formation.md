@@ -53,6 +53,7 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 <div class="fr-callout fr-icon-information-line">
     <p class="fr-callout__text">Cet atelier est réservé aux personnes ayant de bonnes connaissances en accessibilité numérique ou ayant suivi la formation “l’accessibilité numérique dans la pratique”. Dans les deux cas, merci de préciser votre niveau dans le champ "attente" pour que nous puissions procéder à la sélection des candidats.</p>
 </div>
+
 - 2 décembre - visioconférence
 - 18 décembre - présentiel
 

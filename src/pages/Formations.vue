@@ -197,7 +197,13 @@
           </div>
         </div>
       </section>
-
+      <section class="dg-content dg-contains-list fr-mt-8w fr-px-2w">
+        <h2 id="marche-dae" class="fr-h2">Le marché de formation de la Direction des achats de l’État</h2>
+        <p>Un marché permet de vous former au numérique... et notamment à l’accessibilité numérique.
+        Ce nouveau marché interministériel permet de dispenser des formations en présentiel, à distance et sous format hybride aux agents de l’État.
+        Les thématiques sont vastes. En plus de l'accessibilité, on trouve la cybersécurité, l'IA ou les systèmes d’exploitation.</p>
+        <p>Pour en savoir plus, rendez-vous sur la <a href="https://www.economie.gouv.fr/dae/un-nouveau-marche-interministeriel-pour-renforcer-loffre-de-formations-numeriques-destination" target="_blank" rel="noreferrer noopener"   title="page dédiée à ce marché de formation - Nouvelle fenêtre">page dédiée à ce marché de formation</a> sur le site du Ministère de l’économie.</p>
+      </section>
       <section class="dg-content dg-contains-list fr-mt-8w fr-px-2w">
         <h2 id="autres-formations" class="fr-h2">
           Autres formations pour un web meilleur

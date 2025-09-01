@@ -14,14 +14,14 @@ description: "La Direction interministérielle du numérique (DINUM) propose, à
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/design/atelier-mener-conception/">Bien mener la conception d’un service numérique</a></h2>
 
-Orchestrer la conception ou l’amélioration d’un service numérique&nbsp;: respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
+Piloter un projet&nbsp;: orchestrer la conception ou l’amélioration d’un service numérique, respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
 - 7 octobre - présentiel
 - 16 octobre - présentiel
 - 16 décembre - visioconférence
   
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/design/atelier-ergonomie/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
 
-Adopter les bons réflexes pour proposer des services numériques intuitifs.
+Concevoir des parcours et des écrans&nbsp;: adopter les bons réflexes pour proposer des services numériques intuitifs.
 - 4 novembre - présentiel
 - 18 novembre - visioconférence
 - 9 décembre - présentiel

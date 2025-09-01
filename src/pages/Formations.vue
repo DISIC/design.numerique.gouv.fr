@@ -25,7 +25,7 @@
           />Formations
         </h1>
         <p class="fr-text--lead">
-          Toutes nos formations ouvertes à toutes et tous : renseignez-vous,
+          Les ateliers s’adressent exclusivement aux agents et salariés des services publics : renseignez-vous,
           inscrivez-vous et revisionnez les formations passées.
         </p>
       </div>
@@ -734,7 +734,7 @@ export default {
       {
         name: "description",
         content:
-          "Toutes nos formations ouvertes à toutes et tous : renseignez-vous, inscrivez-vous et revisionnez les formations passées.",
+          "Les ateliers s’adressent exclusivement aux agents et salariés des services publics : renseignez-vous, inscrivez-vous et revisionnez les formations passées.",
       },
       {
         property: "og:title",
@@ -743,7 +743,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Toutes nos formations ouvertes à toutes et tous : renseignez-vous, inscrivez-vous et revisionnez les formations passées.",
+          "Les ateliers s’adressent exclusivement aux agents et salariés des services publics  : renseignez-vous, inscrivez-vous et revisionnez les formations passées.",
       },
       {
         property: "og:image",

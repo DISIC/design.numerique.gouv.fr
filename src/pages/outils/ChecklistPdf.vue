@@ -94,13 +94,16 @@
       </ul>
       <h2 class="fr-mt-4w">Corrections avancées</h2>
       <ul>
-          <li>Impossible d’exporter un PDF qui passe 100% des tests de PAC directement ? Utiliser Adobe Acrobat Pro pour corriger les dernières erreurs.</li>
+          <li>Impossible d’exporter un PDF qui passe 100% des tests de PAC directement ? Utiliser Adobe Acrobat Pro pour corriger les dernières erreurs.
+            La société Atalan propose une notice <a href="https://www.pdf-accessible.com/notices-accessibilite-indesign-acrobat/" target="_blank" title="Rendre accessibles les documents PDF avec Adobe Acrobat Pro - nouvelle fenêtre" rel="noopener noreferrer">Rendre accessibles les documents PDF avec Adobe Acrobat Pro</a>.
+          </li>
           <li>Instructions pour corriger les problèmes relevés par PAC : <a href="https://taggedpdf.com/" target="_blank" title="Tagged PDF (en anglais) - nouvelle fenêtre" rel="noopener noreferrer"><span lang="en">Tagged PDF</span></a> (anglais).</li>
           <li>Tanaguru propose une traduction française d’une grande partie du contenu présent sur Tagged PDF : <a href="https://www.tanaguru.com/pac-comprendre-et-corriger-les-erreurs-daccessibilite/" target="_blank" title="PAC, comprendre et corriger les erreurs d’accessibilité - nouvelle fenêtre" rel="noopener noreferrer">PAC, comprendre et corriger les erreurs d’accessibilité</a>.</li>
       </ul>
       <hr>
       <p>L’État du Luxembourg est l’auteur d’un <a href="https://accessibilite.public.lu/fr/rapdf1/index.html" target="_blank" title="Référentiel d’évaluation de l’accessibilité des documents au format PDF - nouvelle fenêtre" rel="noopener noreferrer">Référentiel d’évaluation de l’accessibilité des documents au format PDF</a> qui permet un audit complet.</p>
       <p>La communauté beta.gouv propose également le guide <a href="https://doc.incubateur.net/communaute/travailler-chez-beta.gouv.fr/se-former/se-former-en-ligne/formation-a-laccessibilite/pdf-et-accessibilite" target="_blank" title="PDF et accessibilité - nouvelle fenêtre" rel="noopener noreferrer">PDF et accessibilité</a>.</p>
+      <p>Pour les utilisateurs d’InDesign, la société Atalan propose une notice <a href="https://www.pdf-accessible.com/notices-accessibilite-indesign-acrobat/" title="Créer des documents PDF accessibles avec Adobe InDesign - nouvelle fenêtre" rel="noopener noreferrer" target="_blank">Créer des documents PDF accessibles avec Adobe InDesign</a>.</p>
     </div>
   </Layout>
 </template>

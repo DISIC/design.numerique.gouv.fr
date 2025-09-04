@@ -73,6 +73,13 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        typeName: "Qr",
+        path: "./content/qr/*.md",
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         typeName: "Pnu",
         path: "./content/pnu/*.md",
       },

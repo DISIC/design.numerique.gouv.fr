@@ -51,7 +51,6 @@
         	id
           title
           order
-          description
           cat
           path
           content

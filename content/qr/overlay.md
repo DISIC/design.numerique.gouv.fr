@@ -1,9 +1,6 @@
 ---
 title: Qu’est-ce que je dis aux marchands d’outils de surcouche (overlays) qui m’assurent que ça rendra mon site accessible ?
-slug: 
 order: 5
-description: 
-focus: 
 cat: non
 ---
 

@@ -1,9 +1,6 @@
 ---
 title: Quels sont les chiffres du handicap en France ?
-slug: 
 order: 9
-description: 
-focus: 
 cat: handicap
 ---
 

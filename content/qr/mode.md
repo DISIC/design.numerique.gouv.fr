@@ -1,9 +1,6 @@
 ---
 title: Je n’ai ni le temps ni les ressources pour la nouvelle mode du “design” et des “tests utilisateurs”, est-ce qu’on peut passer à autre chose ?
-slug: mode
 order: 3
-description: 
-focus:
 cat: non
 ---
 

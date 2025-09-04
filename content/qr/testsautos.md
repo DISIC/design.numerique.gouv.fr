@@ -1,9 +1,6 @@
 ---
 title: Perso, je n’ai pas de question parce que les tests automatiques disent déjà que mon site est accessible
-slug: 
 order: 10
-description: 
-focus: 
 cat: non
 ---
 

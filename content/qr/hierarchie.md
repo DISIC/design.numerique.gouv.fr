@@ -1,9 +1,6 @@
 ---
 title: Qu’est-ce que je dis à ma hiérarchie pour les convaincre prendre en compte l’accessibilité ?
-slug: 
 order: 12
-description: 
-focus: 
 cat: obligation légale
 ---
 Revêtez-vous de votre plus beau sourire et, avec le tact et la diplomatie que ce genre de situation requiert, faites valoir les aspects suivants (normalement le premier devrait suffire mais par souci d’exhaustivité nous indiquons également les autres). L’accessibilité numérique, c’est :

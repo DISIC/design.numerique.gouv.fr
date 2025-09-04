@@ -1,9 +1,6 @@
 ---
 title: Je n’ai pas d’utilisateurs handicapés, suis-je concerné par l’accessibilité numérique ?
-slug: 
 order: 18
-description: 
-focus: 
 cat: oui
 ---
 Deux petites choses : un petit indice et un petit exemple.

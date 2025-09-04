@@ -1,9 +1,6 @@
 ---
 title: Les captchas accessibles, ça existe ?
-slug: 
 order: 6
-description: 
-focus:
 cat: non
 ---
 

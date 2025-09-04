@@ -1,9 +1,6 @@
 ---
 title: Comment je rends mes PDF accessibles ?
-slug: 
 order: 7
-description: 
-focus: 
 cat: 
 ---
 Quatre étapes simples pour une vaste question :

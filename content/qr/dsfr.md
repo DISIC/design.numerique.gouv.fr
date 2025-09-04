@@ -1,9 +1,6 @@
 ---
 title: Mon site est au DSFR, puis-je être serein niveau accessibilité ?
-slug: 
 order: 11
-description: 
-focus: 
 cat: 
 ---
 C’est bien… mais ça n’est pas suffisant. Nous conseillons donc une sérénité modérée matinée d’une inébranlable volonté de vérification et d’amélioration.

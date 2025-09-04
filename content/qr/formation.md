@@ -1,8 +1,6 @@
 ---
 title: Comment peut-on se former au design et à l’accessibilité numérique ?
-slug: formation
 order: 1
-description: 
 cat: 
 ---
 

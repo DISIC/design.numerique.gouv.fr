@@ -1,9 +1,6 @@
 ---
 title: Quelles ressources existent pour sensibiliser au design et à l’accessibilité numérique ?
-slug: ressources
 order: 2
-description: 
-focus: 
 cat: 
 ---
 

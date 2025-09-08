@@ -28,8 +28,7 @@
         </h1>
         <p class="fr-text--lead">
           Le design permet la création services numériques
-          <strong>simples</strong>, <strong>inclusifs</strong> et
-          <strong>humains</strong>. Concevoir par le design, c’est mettre en
+          <strong>simples</strong> et <strong>inclusifs</strong>. Concevoir par le design, c’est mettre en
           œuvre une approche centrée sur <strong>les usagers</strong> et
           <strong>leurs besoins</strong>, tout en s’appuyant sur
           <strong>de bonnes pratiques</strong> reconnues.
@@ -59,7 +58,7 @@
         <p class="fr-text--lg">
           <strong
             ><span aria-hidden="true">🇫🇷 </span>L’État a la responsabilité de
-            créer des services numériques simples, inclusifs et humains pour
+            créer des services numériques simples et inclusifs pour
             toutes et tous. En écoutant, en comprenant et en impliquant les
             personnes qui utilisent nos services numériques.
             <span aria-hidden="true">👶🏻🧒🏾🧑🏼🧑🏽‍🦱🧑🏾‍🦰👱🏼🧑🏽‍🦳🧑🏼‍🦲🧔🏾🧓🏽👳🏻</span></strong

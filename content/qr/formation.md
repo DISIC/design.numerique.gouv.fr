@@ -5,7 +5,7 @@ cat:
 ---
 
 
-Merci de le demander ! Ateliers en présentiels à Paris, ateliers en visio si vous n’êtes pas en Île-de-France, formations en ligne, sans oublier le nouveau marché mis en place avec la Direction des achats de l’État : les solutions ne manquent pas !
+Merci de le demander&nbsp;! Ateliers en présentiels à Paris, ateliers en visio si vous n’êtes pas en Île-de-France, formations en ligne, sans oublier le nouveau marché mis en place avec la Direction des achats de l’État&nbsp;: les solutions ne manquent pas&nbsp;!
 
 ### Le marché de formation de la Direction des achats de l’État
 
@@ -17,11 +17,10 @@ Pour en savoir plus, rendez-vous sur [la page dédiée à ce marché de formatio
 
 ### Les ateliers de formation DesignGouv
 
-Les ateliers s’adressent **exclusivement** **aux agents et salariés des services publics**, et en priorité aux agents publics d’État. Ils ont lieu sur **une journée** (il ne s’agit donc pas d’acquérir une expertise). Ils se passent en comités d’une vingtaine de personnes pour faciliter les échanges.  
-Ils ont lieu **en présentiel** dans le 7e arrondissement de Paris ; toutefois, nous proposons aussi des sessions spécifiques **en visioconférence pour les agents éloignés de Paris**.
+Les ateliers s’adressent **exclusivement aux agents et salariés des services publics**, et en priorité aux agents publics d’État. Ils ont lieu sur **une journée** (il ne s’agit donc pas d’acquérir une expertise). Ils se passent en comités d’une vingtaine de personnes pour faciliter les échanges. Ils ont lieu **en présentiel** dans le 7e arrondissement de Paris&nbsp;; toutefois, nous proposons aussi des sessions spécifiques **en visioconférence pour les agents éloignés de Paris**.
 [Les différents formats de nos ateliers de formation](https://design.numerique.gouv.fr/formations/) sont présentés sur notre site. 
 
-Pour être informé de l’organisation des sessions, deux solutions :
+Pour être informé de l’organisation des sessions, deux solutions&nbsp;:
 - Notre [newsletter](https://design.numerique.gouv.fr/newsletter)
 - Notre [compte Linkedin](https://www.linkedin.com/company/designgouv)
 
@@ -35,12 +34,12 @@ Des campagnes de formation sont lancées régulièrement. Pour en bénéficier, 
 
 Si vous travaillez dans le numérique public, il existe des [formations en ligne vous permettant de vous former de manière autonome](https://design.numerique.gouv.fr/formations/#autres-formations) à l’amélioration des services en ligne. 
 
-Nous avons constitué une liste (lien ci-dessus) répondant à plusieurs critères :
+Nous avons constitué une liste (lien ci-dessus) répondant à plusieurs critères&nbsp;:
 
-- qualité de la formation ;
-- en ligne (pas de présentiel) ;
-- autonomie du participant ;
-- simplicité de l’inscription (pas de marché, convention ou autre) ;
+- qualité de la formation&nbsp;;
+- en ligne (pas de présentiel)&nbsp;;
+- autonomie du participant&nbsp;;
+- simplicité de l’inscription (pas de marché, convention ou autre)&nbsp;;
 - gratuité (ou financement de la Direction interministérielle du numérique).
 
 Cette liste n’est pas exhaustive. Elle concerne le design des services numériques, l’accessibilité numérique et le numérique responsable/écoconception.

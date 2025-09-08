@@ -26,22 +26,22 @@
       <h2>Rédaction des marchés publics&nbsp;: explicitation des exigences</h2>
       <p>Un marché fixe une obligation de résultats et non de moyens. Par conséquent, un marché ne peut pas imposer de méthode&nbsp;; il peut en revanche préciser un certain nombres de points&nbsp;:</p>
       <ul class="fr-mb-3w">
-        <li>Un critère éliminatoire spécifique pour l’accessibilité numérique dans la grille d’analyse des offres, au poids d’environ 10%.</li>
+        <li>Un critère éliminatoire spécifique pour l’accessibilité numérique dans la grille d’analyse des offres, au poids d’environ 10%.
           <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
           <p class="fr-callout__text">Si l’accessibilité n’est pas prise en compte, l’offre ne l’est pas non plus car elle ne respecte pas la législation. On évite ainsi le cas d’un prestataire qui ignorerait l’accessibilité numérique mais qui obtiendrait le meilleur score final sur la base d’un coût moindre.</p>
-          </div>
-        <li>Les référentiels et guides officiels qui seront utilisés, avec la version en vigueur à la date de publication du marché&nbsp;:</li>
+          </div></li>
+        <li>Les référentiels et guides officiels qui seront utilisés, avec la version en vigueur à la date de publication du marché&nbsp;:
           <ul class="fr-mb-3w">
           <li>Référentiel général de l’amélioration de l’accessibilité (RGAA) pour les sites,</li>
           <li>Norme européenne pour les applications mobiles,</li>
           <li>Guide officiel d’accessibilité de la ou les plateformes mobiles concernées (iOS, Android, etc.),</li>
           <li>etc.</li>
-          </ul>
-        <li>L’engagement du répondant&nbsp;:</li>
+          </ul></li>
+        <li>L’engagement du répondant&nbsp;:
           <ul class="fr-mb-3w">
           <li>à réaliser un un produit numérique (site, application mobile ou native, etc.) accessible et à respecter 100% des critères du RGAA,</li> 
           <li>à corriger gratuitement durant la période de garantie corrective les défauts d’accessibilité.</li>
-          </ul>
+          </ul></li>
         <li>Le répondant fournit la méthodologie envisagée pour le respect de l’accessibilité.</li>
       </ul>
 
@@ -60,13 +60,13 @@
         <li>Dans le cas d’utilisation de briques logicielles sur étagère (CMS, etc.), le répondant fournit le niveau initial d’accessibilité de celles-ci, les remédiations éventuelles et le niveau atteint après application de celles-ci.</li>
         <li>Le répondant ne propose pas un outil de surcouche («&nbsp;<span lang="en">overlay</span>&nbsp;») d’accessibilité comme solution (les raisons sont exposées dans <a href="https://design.numerique.gouv.fr/articles/2025-04-03-les-surcouches-ne-rendent-ni-accessible-ni-conforme/">notre article «&nbsp;Overlays, la Commission européenne en remet une (sur)couche&nbsp;»)</a>.</li>
         <li>Les solutions permettant de la production de contenu sont accessibles (pour permettre aux contributeurs porteurs de handicap d’effectuer leur travail) et permettent la production d’un contenu accessible.</li>
-        <li>Les références&nbsp;:</li>
+        <li>Les références&nbsp;:
           <ul class="fr-mb-3w">
           <li>concernent idéalement des sites publics,</li> 
           <li>sont récentes,</li>
-          <li>sont réalisées par l’équipe et non par l’entreprise, surtout si cette dernière est de taille importante.</li>
-          </ul>
-          <p>Les références permettent d’analyser les déclarations d’accessibilité et de prendre contact avec les administrations concernées.</p>
+          <li>sont réalisées par l’équipe et non par l’entreprise, surtout si cette dernière est de taille importante,</li>
+          <li>permettent d’analyser les déclarations d’accessibilité et de prendre contact avec les administrations concernées.</li>  
+          </ul></li>
         <li>Les compétences de l’équipe couvrent les besoins en accessibilité (CV, références, etc.).</li>
         <li>Idéalement, un référent accessibilité est présent dans l’équipe (sans être multicasquette).</li>
         <li>Les offres indiquant que les tests et la rédaction préparatoire de la déclaration d’accessibilité seront pris en charge sont à privilégier. Le recours à un cabinet extérieur spécialisé est une garantie d’indépendance.</li>

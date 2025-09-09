@@ -1,4 +1,5 @@
 ---
+id: 4
 title: C’est quoi, l’adoption en juin 2025 de la Directive européenne sur l’accessibilité ?
 order: 13
 cat: 1

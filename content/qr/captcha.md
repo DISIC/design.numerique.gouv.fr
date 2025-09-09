@@ -1,8 +1,9 @@
 ---
+id: 3
 title: Les captchas accessibles, ça existe ?
 order: 6
 cat: 3
-tag:
+tag: non
 ---
 
 Avec la réponse à cette question, vous allez épater vos collègues, et même au-delà.  

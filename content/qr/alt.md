@@ -1,8 +1,9 @@
 ---
+id: 1
 title: C’est quoi, une alternative pertinente ? 
 order: 19
 cat: 3
-tag:
+tag: ça dépend du contexte
 ---
 Le Référentiel général d’amélioration de l’accessibilité (RGAA) indique à plusieurs reprises la nécessité de proposer une «&nbsp;alternative&nbsp;» et que celle-ci soit «&nbsp;pertinente&nbsp;».
 

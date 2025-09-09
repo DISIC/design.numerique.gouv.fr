@@ -1,4 +1,5 @@
 ---
+id: 8
 title: Comment peut-on se former au design et à l’accessibilité numérique ?
 order: 1
 cat: 3

@@ -4,8 +4,8 @@
     <div class="dg-cover fr-pt-4w fr-pt-md-6w">
       <div class="dg-cover__inner">
         <div class="dg-cover__container dg-cover__container--lg">
-          <h1 class="fr-display--sm dg-text-center">Concevons des services publics numériques <strong>simples</strong>, <strong>inclusifs</strong> et <strong>humains</strong>.</h1>
-          <p class="dg-content dg-text-center fr-text--lead fr-mb-5w">Les services publics numériques sont encore trop souvent conçus sans prendre en compte l’audience qu’ils servent. Nous mettons à la disposition des administrations des ressources et outils pour améliorer l’expérience usager de leurs services.</p>
+          <h1 class="fr-display--sm dg-text-center">Concevons des services publics numériques <strong>simples</strong> et <strong>inclusifs</strong>.</h1>
+          <p class="dg-content dg-text-center fr-text--lead fr-mb-5w">Les services publics numériques sont encore trop souvent conçus sans prendre en compte leurs usagers. Nous mettons à la disposition des administrations des ressources et outils pour améliorer l’expérience utilisateur de leurs services.</p>
           <!--Message/-->
         </div>
       </div>
@@ -21,7 +21,7 @@
                 <h2 class="fr-tile__title">
                   <g-link class="fr-tile__link fr-text--xl" to="/design-numerique/">Le design</g-link>
                 </h2>
-                <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong>, <strong>accessibles</strong> et <strong>agréables</strong> pour les usagers.</p>
+                <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong> et <strong>inclusifs</strong> pour les usagers.</p>
               </div>
               <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
                 <img svg-inline src="../assets/images/design-picto.svg" class="fr-responsive-img" aria-hidden="true">

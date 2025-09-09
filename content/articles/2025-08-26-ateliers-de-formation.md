@@ -16,8 +16,8 @@ description: "La Direction interministérielle du numérique (DINUM) propose, à
 
 Piloter un projet&nbsp;: orchestrer la conception ou l’amélioration d’un service numérique, respecter les étapes clés et faire intervenir les bonnes expertises pour mettre en œuvre les bonnes méthodes aux bons moments.
 - 7 octobre - présentiel
-- 16 octobre - présentiel
-- 16 décembre - visioconférence
+- 16 octobre - visioconférence
+- 16 décembre - présentiel
   
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/design/atelier-ergonomie/">Ergonomie numérique&nbsp;: Concevoir une expérience simple et compréhensible</a></h2>
 

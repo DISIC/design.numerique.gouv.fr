@@ -1,7 +1,8 @@
 ---
 title: Les émojis et les caractères fantaisistes, c’est accessible ?
 order: 17
-cat: non
+cat: 3
+tag:
 ---
 En voilà une bonne question&nbsp;!  
 Et voici pour la bonne réponse&nbsp;:

@@ -73,8 +73,18 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        typeName: "QrCat",
+        path: "./content/qr/cat/*.md",
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         typeName: "Qr",
         path: "./content/qr/*.md",
+        refs: {
+          cat: "QrCat",
+        },
       },
     },
     {

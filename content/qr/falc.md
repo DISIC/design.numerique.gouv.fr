@@ -1,7 +1,8 @@
 ---
 title: Si j’écris en Falc, c’est mieux ?
 order: 20
-cat: 
+cat: 4
+tag:
 ---
 Falc, c’est pour «&nbsp;Facile à lire et à comprendre&nbsp;». La page [«&nbsp;Outils de création pour rendre l’information et la communication accessibles&nbsp;» du site info.gouv.fr](https://www.info.gouv.fr/accessibilite/outils-de-creation-pour-rendre-linformation-et-la-communication-accessibles) présente la démarche de la manière suivante (extraits)&nbsp;:
 

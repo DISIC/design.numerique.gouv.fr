@@ -1,7 +1,8 @@
 ---
 title: Comment prendre en compte l’accessibilité numérique dans les marchés publics ?
 order: 4
-cat: 
+cat: 2
+tag:
 ---
 Bon réflexe&nbsp;! L’accessibilité des services publics numériques dépend de sa bonne prise en compte tout au long du projet et de la vie du service. Les prestataires sélectionnés doivent être compétents sur cet aspect. 
 

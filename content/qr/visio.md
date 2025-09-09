@@ -1,7 +1,8 @@
 ---
 title: Comment organiser une visioconférence avec des personnes handicapées ?
 order: 15
-cat: 
+cat: 2
+tag:
 ---
 Sophie Drouvroy et Sélim Méziti sont experts accessibilité et travaillent avec l’équipe DesignGouv. Ils présentent les problèmes qu’ils peuvent rencontrer, les aides humaines et techniques auxquelles ils font appel et quelques-unes des bonnes pratiques à appliquer en vidéo&nbsp;:
 

@@ -1,7 +1,8 @@
 ---
 title: Mon service est en ligne et il n’est pas accessible. Je fais quoi ?
 order: 14 
-cat: 
+cat: 2
+tag:
 ---
 …on fait le «&nbsp;mode pompier&nbsp;»:
 

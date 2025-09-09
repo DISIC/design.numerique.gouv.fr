@@ -1,7 +1,8 @@
 ---
 title: Perso, je n’ai pas de question parce que les tests automatiques disent déjà que mon site est accessible
 order: 10
-cat: non
+cat: 4
+tag:
 ---
 
 Éh bien, vous avez bien fait de vous arrêter par ici quand même, même si ça risque de bousculer vos certitudes.

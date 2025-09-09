@@ -1,7 +1,8 @@
 ---
 title: Comment navigue-t-on sur le web quand on est aveugle ?
 order: 16
-cat: 
+cat: 1
+tag:
 ---
 Jamshid Kohandel, juriste dans l’équipe DesignGouv, explique en vidéo comment il procède et quels sont quelques-uns des problèmes d’accessibilité qu’il rencontre&nbsp;: information indiquée uniquement par la couleur, absence d’alternative aux images porteuses de sens…
 

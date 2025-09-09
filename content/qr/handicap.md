@@ -1,7 +1,8 @@
 ---
 title: Quels sont les chiffres du handicap en France ?
 order: 9
-cat: handicap
+cat: 1
+tag:
 ---
 
 «&nbsp;Bonne question&nbsp;», comme on dit aux questions contrariantes parce que la réponse est épineuse et incertaine. La Direction de la recherche, des études, de l’évaluation et des statistiques (Drees) expose la problématique dans l’édition 2024 du [Handicap en chiffres (PDF, 2,29 Mo)](https://drees.solidarites-sante.gouv.fr/sites/default/files/2024-11/HANDICAP24_0.pdf)&nbsp;:

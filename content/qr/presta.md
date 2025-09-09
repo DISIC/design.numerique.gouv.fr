@@ -1,7 +1,8 @@
 ---
 title: Mon presta me dit que ce qu’il fait est accessible. Est-ce que je peux lui faire confiance ?
 order: 8
-cat: non
+cat: 2
+tag:
 ---
 Il existe deux réponses à cette question&nbsp;: non et oui.
 

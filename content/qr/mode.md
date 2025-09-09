@@ -1,7 +1,8 @@
 ---
 title: Je n’ai ni le temps ni les ressources pour la nouvelle mode du « design » et des « tests utilisateurs », est-ce qu’on peut passer à autre chose ?
 order: 3
-cat: design
+cat: 1
+tag:
 ---
 
 Merci de venir d’être venu partager votre ressenti. Il s’agit certainement d’une question purement rhétorique destinée à faire valoir des compétences et une expérience que nous ne contestons pas, même s’il y a un soupçon de suffisance dans la formulation&nbsp;; nous allons malgré tout prendre le temps de répondre.

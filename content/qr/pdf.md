@@ -1,7 +1,8 @@
 ---
 title: Comment je rends mes PDF accessibles ?
 order: 7
-cat: 
+cat: 3
+tag:
 ---
 Quatre étapes simples pour une vaste question&nbsp;»:
 

@@ -19,23 +19,31 @@
       <h1>Questions - Réponses</h1>
       <p class="fr-text--lead">À DesignGouv, on a fait le point sur plusieurs questions qu’on nous pose régulièrement et qui nous semblent importantes, ainsi que sur les questions qu’on nous pose rarement alors qu’elles nous semblent importantes. On vous partage nos réponses.</p>
       <div class="fr-grid-row fr-grid-row--center">
-        <div class="fr-accordions-group">
-      
-          <div class="fr-col-12" v-for="{ node } in $page.allQr.edges" :key="node.id">      
-            <section class="fr-accordion">
-              <h2 class="fr-accordion__title">
-              <button class="fr-accordion__btn" aria-expanded="false" :aria-controls="node.order">
-                <span class="dg-flex dg-flex--align-center">
-                  {{ node.title }}
-                    <span v-if="node.cat" class="fr-mx-2w fr-badge fr-badge--green-bourgeon">{{node.cat}}</span>
-                  </span>                
-                </button>
-              </h2>
-              <div class="fr-collapse" :id="node.order"  v-html="node.content">
+
+
+
+
+
+
+
+
+
+      <section :class="'cat'+cat.node.id" v-for="cat in $page.allQrCat.edges"  >
+            <h2 class="fr-my-6w"> {{ cat.node.title }}</h2>
+              <div  class="fr-accordion" v-for="(qr, index) in $page.allQr.edges.filter(edge => edge.node.cat.id === cat.node.id)">
+                <h3 class="fr-accordion__title"><!--span class="numero">{{ criterion.node.id }}</span-->
+                       <span>{{ qr.node.title }} </span> 
+                 </h3>
               </div>
-            </section>
-          </div>
-        </div>
+      </section>           
+
+      
+
+       
+
+
+
+
       </div>   
 
     </div>
@@ -45,18 +53,33 @@
 
 <page-query>
   query {
+    allQrCat (sortBy: "id", order: ASC) {
+      edges {
+        node {
+          id
+          title
+        }
+      }
+    },
     allQr (sort: [{ by: "order", order: ASC }, { by: "title", order: ASC }]) {
       edges {
         node {
           title
           order
-          cat
+          cat {
+            id
+          }
+          tag
           content
         }
       }
     }
   }
 </page-query>
+
+
+
+
 
 <script>
   export default {

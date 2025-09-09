@@ -19,13 +19,13 @@
   <p class="fr-text--lead">À DesignGouv, on a fait le point sur plusieurs questions qu’on nous pose régulièrement et qui nous semblent importantes, ainsi que sur les questions qu’on nous pose rarement alors qu’elles nous semblent importantes. On vous partage nos réponses.</p>
   <div class="fr-grid-row fr-grid-row--center">
     <div :class="'cat'+cat.node.id" v-for="cat in $page.allQrCat.edges"  >
-      <h2 :id=cat.node.title class="fr-my-6w"> {{ cat.node.title }}</h2>
+      <h2 :id="'cat'+cat.node.id" class="fr-my-6w"> {{ cat.node.title }}</h2>
       <div class="fr-accordions-group" data-fr-group="true">
         <section  class="fr-accordion" v-for="(qr, index) in $page.allQr.edges.filter(edge => edge.node.cat.id === cat.node.id)">
-          <h3 class="fr-accordion__title"><!--span class="numero">{{ criterion.node.id }}</span-->
-            <button type="button" class="fr-accordion__btn" aria-expanded="false"  :aria-controls="qr.node.id">{{ qr.node.title }}  <span v-if="qr.node.tag" class="fr-mx-2w fr-badge fr-badge--green-bourgeon">{{qr.node.tag}}</span></button> 
+          <h3  :id="'q-'+qr.node.id"class="fr-accordion__title"><!--span class="numero">{{ criterion.node.id }}</span-->
+            <button type="button" class="fr-accordion__btn" aria-expanded="false"  :aria-controls="'r-'+qr.node.id">{{ qr.node.title }}  </button> 
           </h3>
-          <div class="fr-collapse" :id="qr.node.id">
+          <div class="fr-collapse" :id="'r-'+qr.node.id">
             <div class="fr-accordion__inner">
               <div v-html="qr.node.content" />
             </div>

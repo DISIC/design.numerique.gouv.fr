@@ -5,7 +5,7 @@ order: 14
 cat: 2
 tag:
 ---
-…on fait le «&nbsp;mode pompier&nbsp;»:
+…on fait le «&nbsp;mode pompier&nbsp;»
 
 - On informe les responsables sur la situation et les enjeux (voir la question «&nbsp;Qu’est-ce que je dis à ma hiérarchie pour les convaincre prendre en compte l’accessibilité numérique ?&nbsp;»).
 - On fait un [Diagnostic flash](/outils/diagnostic-flash/)&nbsp;: des contrôles rapides ne nécessitant pas de compétences techniques.

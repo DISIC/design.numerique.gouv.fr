@@ -10,8 +10,8 @@ En vrai, cette question, on ne nous la pose pas et c’est bien tout le problèm
 
 * Réponse courte&nbsp;:
 
-  Répétez aux-dits marchands les deux mots suivants&nbsp;: “<strong>Non, merci.</strong>".   
+  Répétez auxdits marchands les deux mots suivants&nbsp;: “<strong>Non, merci.</strong>".   
 * Réponse moins courte&nbsp;:
    
-  Répétez aux-dits marchands les deux mots suivants&nbsp;: "<strong>Non, merci.</strong>" puis renvoyez-le par politesse sur notre article «&nbsp;
+  Répétez auxdits marchands les deux mots suivants&nbsp;: "<strong>Non, merci.</strong>" puis renvoyez-les par politesse sur notre article «&nbsp;
 [Overlays, la Commission européenne en remet une (sur)couche](https://design.numerique.gouv.fr/articles/2025-04-03-les-surcouches-ne-rendent-ni-accessible-ni-conforme/)&nbsp;» que vous aurez préalablement lu.

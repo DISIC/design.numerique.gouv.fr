@@ -19,6 +19,10 @@ Revêtez-vous de votre plus beau sourire et, avec le tact et la diplomatie que c
 - Pour obtenir l’agrément du SIG (service d’information du gouvernement) nécessaire aux services de l’État pour mettre un site en ligne.
 - Pour éviter les surcoûts des corrections a posteriori.
 
-<span aria-hidden="true">💡 </span>Vous pouvez aussi montrer par exemple [comment une personne aveugle navigue sur internet (vidéo sur PeerTube, 3 minutes 54, téléchargeable)](https://tube.numerique.gouv.fr/w/s5rnZ2HnmgLkMq9WaVU57v) !
+
+<div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
+        <p class="fr-callout__text"><span aria-hidden="true">💡</span> Vous pouvez aussi montrer par exemple <a href="(https://tube.numerique.gouv.fr/w/s5rnZ2HnmgLkMq9WaVU57v" target="_blank" title="comment une personne aveugle navigue sur internet (vidéo sur PeerTube, 3 minutes 54, téléchargeable) - nouvelle fenêtre" rel="nofollow noopener noreferrer">comment une personne aveugle navigue sur internet (vidéo sur PeerTube, 3 minutes 54, téléchargeable)</a>.</p>
+</div>
+
 
 On vous envoie plein de bonnes ondes&nbsp;!

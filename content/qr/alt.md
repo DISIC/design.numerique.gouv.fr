@@ -7,7 +7,9 @@ tag: ça dépend du contexte
 ---
 Le Référentiel général d’amélioration de l’accessibilité (RGAA) indique à plusieurs reprises la nécessité de proposer une «&nbsp;alternative&nbsp;» et que celle-ci soit «&nbsp;pertinente&nbsp;».
 
-<span aria-hidden="true">💡 </span>Dans les 250 tests des 106 critères du RGAA, «&nbsp;alternatif&nbsp;» et «&nbsp;alternative&nbsp;» apparaissent 29 fois, «&nbsp;pertinent&nbsp;» et «&nbsp;pertinente&nbsp;» 21 (les deux n’étant pas toujours associés). Sont notamment concernés&nbsp;: images, catchas, titres, multimédia, tableaux, scripts, étiquettes, légendes, intitulés, contrôles de saisie…
+<div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
+        <p class="fr-callout__text"><span aria-hidden="true">💡 </span>Dans les 250 tests des 106 critères du RGAA, «&nbsp;alternatif&nbsp;» et «&nbsp;alternative&nbsp;» apparaissent 29 fois, «&nbsp;pertinent&nbsp;» et «&nbsp;pertinente&nbsp;» 21 (les deux n’étant pas toujours associés). Sont notamment concernés&nbsp;: images, catchas, titres, multimédia, tableaux, scripts, étiquettes, légendes, intitulés, contrôles de saisie…</p>
+</div>
 
 L’exemple type est celui de l’image&nbsp;: que proposer à une personne aveugle ou malvoyante&nbsp;?
 

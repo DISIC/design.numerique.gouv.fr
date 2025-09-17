@@ -30,6 +30,9 @@ En 2023, notre collègue Erwan avait exposé les principaux chiffres de la prév
 - [Handicap&nbsp;: les chiffres clés (vidéo sur PeerTube, 1 minute 07, téléchargeable)](https://tube.numerique.gouv.fr/w/aaarMaRTu3P4UeUQM4FG8K)
 - [Handicap&nbsp;: les chiffres clés (vidéo sur YouTube, 1 minute 07)](https://youtu.be/4XTLTfKi-WU?feature=shared)
 
-<span aria-hidden="true">⚠️ </span>Il semblerait que l’affirmation selon laquelle 80% des handicaps sont invisibles ne soit pas sourcée (mais on peut dire sans risque de se tromper que *beaucoup* de handicaps sont invisibles).
+<div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
+        <p class="fr-callout__text"><span aria-hidden="true">⚠️ </span>Il semblerait que l’affirmation selon laquelle 80% des handicaps sont invisibles ne soit pas sourcée (mais on peut dire sans risque de se tromper que <strong>beaucoup</strong> de handicaps sont invisibles).</p>
+</div>
+
 
 Voilà&nbsp!

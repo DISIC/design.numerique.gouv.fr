@@ -52,10 +52,14 @@
     </section>
 
     <div class="dg-content fr-px-2w">
+<div class="fr-callout fr-callout--purple-glycine fr-mt-4w  fr-icon-star-line">
+        <p class="fr-callout__text">On a fait le point sur plusieurs questions qu’on nous pose régulièrement et qui nous semblent importantes, ainsi que sur les questions qu’on nous pose rarement alors qu’elles nous semblent importantes.<br><a href="qr/">On vous partage nos réponses</a>.</p>
+</div>
+      
       <section>
         <h2 id="tech">Les checklists pour toustes</h2>
         <ul class="fr-mb-3w">
-          <li><span class="fr-badge fr-badge--purple-glycine">Nouveau !</span> La <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose un ensemble de règles pour réaliser un <strong>document PDF accessible</strong> à partir d’un traitement de texte ;
+          <li>La <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose un ensemble de règles pour réaliser un <strong>document PDF accessible</strong> à partir d’un traitement de texte ;
           </li>
           <li>
             le <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link> permet d’estimer

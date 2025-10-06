@@ -62,16 +62,18 @@
             href="https://www.arcep.fr/uploads/tx_gspublication/barometre-du-numerique_edition_2025_RAPPORT_mars2025.pdf"
             title="ont rencontré des
           difficultés - Nouvelle fenêtre"
+            target="_blank"
             >ont rencontré des difficultés</a
           >
           et 32%
           <a
             href="https://www.insee.fr/fr/statistiques/6438420"
             title="ont dû abandonner une démarche en ligne - Nouvelle fenêtre"
+            target="_blank"
             >ont dû abandonner une démarche en ligne</a
           >. Environ 12 millions de personnes sont en situation de handicap en
-          France et on estime que seulement 3% des sites internet sont
-          accessibles, c'est-à-dire conçus pour toutes et tous.
+          France mais seulement 3% environ des sites sont conçus pour toutes et
+          tous.
         </p>
       </div>
 
@@ -133,6 +135,7 @@
                 <a
                   href="https://www.modernisation.gouv.fr/publications/actimage-eb-langage-clair-et-services-publics"
                   title="langage clair - Nouvelle fenêtre"
+                  target="_blank"
                   >langage clair</a
                 >, simple à comprendre par ses usagers.
               </li>
@@ -350,14 +353,13 @@
 
       <h2 id="lancer" class="fr-mt-8w">Les phases clés</h2>
       <p>
-        Pour créer des services numériques de qualité, pas de mystère, il est
-        nécessaire de mobiliser les experts de la conception numérique. Et ce,
-        dès le début du projet et tout au long de la vie du produit. Tour
-        d'horizon des rôles et compétences clés :
+        La conception de service numérique de qualité nécessite le passage par
+        un certain nombre de phases clés. Chaque projet étant spécifique, le
+        responsable produit les déroulera en fonction de son contexte.
       </p>
       <ol class="dg-list-no-decoration">
         <li class="fr-mb-2w">
-          <h3>1️⃣ Phase d'exploration</h3>
+          <h3 class="fr-h4 fr-mb-2w">1️⃣ Phase d'exploration</h3>
           <ul>
             <li>
               Recueillir les données (métiers, usagers) déjà à disposition
@@ -373,7 +375,7 @@
           </ul>
         </li>
         <li class="fr-mb-2w">
-          <h3>2️⃣ Phase d'idéation</h3>
+          <h3 class="fr-h4 fr-mb-2w">2️⃣ Phase d'idéation</h3>
           <ul>
             <li>Imaginer la ou les premières pistes de solution</li>
             <li>Les tester auprès d'usagers réels</li>
@@ -381,7 +383,9 @@
           </ul>
         </li>
         <li class="fr-mb-2w">
-          <h3>3️⃣ Phase de conception et développement</h3>
+          <h3 class="fr-h4 fr-mb-2w">
+            3️⃣ Phase de conception et développement
+          </h3>
           <ul>
             <li>Découper et prioriser les travaux</li>
             <li>
@@ -393,7 +397,7 @@
           </ul>
         </li>
         <li class="fr-mb-2w">
-          <h3>4️⃣ Phase de mise à l'épreuve</h3>
+          <h3 class="fr-h4 fr-mb-2w">4️⃣ Phase de mise à l'épreuve</h3>
           <ul>
             <li>
               Mettre à l'épreuve une première version opérationnelle (beta,
@@ -404,7 +408,9 @@
           </ul>
         </li>
         <li class="fr-mb-2w">
-          <h3>5️⃣ Phase de déploiement et amélioration continue</h3>
+          <h3 class="fr-h4 fr-mb-2w">
+            5️⃣ Phase de déploiement et amélioration continue
+          </h3>
           <ul>
             <li>
               Généraliser le service (sortie de beta, déploiement national,

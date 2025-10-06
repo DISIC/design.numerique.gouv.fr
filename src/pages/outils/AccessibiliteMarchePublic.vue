@@ -44,13 +44,13 @@
           </ul></li>
         <li>Le répondant fournit la méthodologie envisagée pour le respect de l’accessibilité.</li>
       </ul>
-<!-- en attendant d'avoir une version accessible du doc
+
       <div class="fr-callout fr-callout--green-tilleul-verveine fr-mt-4w fr-icon-gift-fill">
       <p class="fr-callout__text">À titre d’exemple, le Ministère de l’Intérieur a rédigé un modèle de clause d’accessibilité numérique pour ses appels d’offre. Ce modèle est à adapter en fonction de vos besoins et de vos contraintes.
-       <a href="/assets/pdf/clauses-a11y-mi.pdf" download="Clauses-accessibilite-marches.pdf" class="fr-link">Télécharger le modèle de clauses (pdf - 845ko)</a> 
+       <a href="/assets/doc/clauses-a11y-mi.odt" download="Clauses-accessibilite-marches.odt" class="fr-link">Télécharger le modèle de clauses (odt - 23ko)</a> 
       </p>
       </div>
--->
+
       <h2>Étude des offres</h2>
       <p>Les éléments suivants donnent des indications pertinentes sur la bonne prise en compte de l’accessibilité numérique par le répondant.</p>
       <div class="fr-callout fr-callout--purple-glycine fr-mt-4w fr-icon-warning-fill">

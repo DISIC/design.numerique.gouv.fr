@@ -20,6 +20,9 @@
             <a class="fr-nav__link" href="/">Accueil</a>
           </li>
           <li class="fr-nav__item">
+            <a class="fr-nav__link" href="/bien-concevoir/">Bien concevoir</a>
+          </li>
+          <li class="fr-nav__item">
             <a class="fr-nav__link" href="/design-numerique/">Design</a>
           </li>
           <li class="fr-nav__item">
@@ -27,9 +30,9 @@
               >Accessibilité</a
             >
           </li>
-          <li class="fr-nav__item">
+          <!-- <li class="fr-nav__item">
             <a class="fr-nav__link" href="/accompagnement/">Accompagnement</a>
-          </li>
+          </li> -->
           <li class="fr-nav__item">
             <a class="fr-nav__link" href="/outils/">Outils</a>
           </li>

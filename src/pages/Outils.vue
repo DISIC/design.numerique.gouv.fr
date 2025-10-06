@@ -52,6 +52,28 @@
     </section>
 
     <div class="dg-content fr-px-2w">
+<div class="fr-callout fr-callout--purple-glycine fr-mt-4w  fr-icon-star-line">
+        <p class="fr-callout__text">On a fait le point sur plusieurs questions qu’on nous pose régulièrement et qui nous semblent importantes, ainsi que sur les questions qu’on nous pose rarement alors qu’elles nous semblent importantes.<br><a href="qr/">On vous partage nos réponses</a>.</p>
+</div>
+      
+      <section>
+        <h2 id="tech">Les checklists pour toustes</h2>
+        <ul class="fr-mb-3w">
+          <li>La <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose un ensemble de règles pour réaliser un <strong>document PDF accessible</strong> à partir d’un traitement de texte ;
+          </li>
+          <li>
+            le <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link> permet d’estimer
+            de manière <strong>rapide et partielle</strong> l’accessibilité d’un
+            site ou d’une démarche en ligne, sans avoir d’expertise particulière
+            et en n’y consacrant que peu de temps ;
+          </li>
+          <li>
+            la <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link> regroupe
+            les critères des différents référentiels et bonnes pratiques du web.
+          </li>
+        </ul>
+      </section>
+
       <section>
         <h2 id="tech">Tech</h2>
         <ul class="fr-mb-3w">
@@ -113,10 +135,6 @@
           <li>
             l’<g-link to="/outils/audit-rapide/">audit rapide</g-link> permet à moindre coût
             d’apprécier l’accessibilité d’un site et la maturité d’une équipe ;
-          </li>
-          <li>
-            la <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link> regroupe
-            les critères des différents référentiels et bonnes pratiques du web.
           </li>
           <li>
             la page <g-link to="/outils/accessibilite-marche-public/">l’accessibilité numérique dans les marchés publics</g-link> recense les points importants dans la rédaction des marchés et l’analyse des offres.
@@ -251,7 +269,7 @@
         <div class="fr-highlight">
 
 <p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a
-  href="https://github.com/GouvernementFR/dsfr/blob/fix/readme/doc/legal/cgu.md"
+  href="https://www.systeme-de-design.gouv.fr/version-courante/fr/a-propos/conditions-generales-d-utilisation"
   rel="noreferrer noopener"
   title="conditions générales d'utilisation - nouvelle fenêtre"
   target="_blank"

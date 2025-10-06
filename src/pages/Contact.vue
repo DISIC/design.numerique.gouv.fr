@@ -26,7 +26,7 @@
                 Instagram <span class="fr-fi-instagram-fill" aria-hidden="true"></span>
                 </a></li>
               <li><a href="https://www.youtube.com/c/DesignGouv" title="Youtube - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
-                Youtube <font-awesome  width="0" :icon="['fab', 'youtube']"/>
+                Youtube <span class="fr-fi-youtube-fill" aria-hidden="true"></span>
                 </a></li>
           <li><a href="https://www.linkedin.com/company/designgouv" title="Linkedin - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">
                 Linkedin <span class="fr-fi-linkedin-box-fill" aria-hidden="true"></span>

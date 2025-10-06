@@ -525,6 +525,7 @@
           <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
             <label class="fr-label" for="attente">
               Quelles sont vos motivations pour suivre cette formation ?
+              <span class="fr-hint-text">Indispensable pour que nous puissions étudier votre inscription</span>
             </label>
             <textarea
               class="fr-input"

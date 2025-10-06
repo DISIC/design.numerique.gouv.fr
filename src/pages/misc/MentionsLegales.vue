@@ -56,6 +56,15 @@
       </section>
 
       <section>
+        <h2>Hébergement du site</h2>
+        <p>Le site DesignGouv est hébergé par Clever Cloud SAS.</p>
+        <p>Clever Cloud SAS est une société par actions simplifiée immatriculée au Registre du Commerce et des Sociétés (RCS) de Nantes sous le numéro RCS Nantes B 524 172 699.</p>
+        <p>Son siège social est situé au 4 rue Voltaire, 44000 Nantes, France.</p>
+        <p>Numéro de TVA : FR 87 524 172 699</p>
+        <p>Contact téléphonique : 02 85 52 07 69</p>
+      </section>
+
+      <section>
         <h2>Propriété intellectuelle et liens</h2>
         <p>
           Tout site public ou privé est autorisé à établir, sans autorisation préalable,

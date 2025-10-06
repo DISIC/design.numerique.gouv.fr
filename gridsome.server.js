@@ -6,6 +6,39 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function (api) {
+  // Set specific response HTTP headers for JSON files only:
+  //
+  // - max-age = 0     : the response is never fresh
+  //
+  // - s-maxage = 0    : the response is never fresh in a shared cache
+  //                     (e.g. Proxy, CDN…)
+  //
+  // - no-cache        : the response can be stored in caches, but the response
+  //                     must be validated with the origin server before each
+  //                     reuse, even when the cache is disconnected from the
+  //                     origin server.
+  //
+  // - must-revalidate : the response can be stored in caches and can be reused
+  //                     while fresh (never here). If the response becomes stale
+  //                     (straighaway here), it must be validated with the
+  //                     origin server before reuse.
+  //
+  // - proxy-revalidate: equivalent of must-revalidate, but for shared caches
+  //
+  // → Hack to fix [Hash did not match #1032](https://github.com/gridsome/gridsome/issues/1032)
+  api.configureServer((app) => {
+    app.use((req, res, next) => {
+      if (req.path.endsWith(".json")) {
+        res.setHeader(
+          "Cache-Control",
+          "max-age=0, s-maxage=0, no-cache, must-revalidate, proxy-revalidate",
+        );
+        res.setHeader("Expires", "0");
+      }
+      next();
+    });
+  });
+
   api.loadSource(({ addSchemaResolvers }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
     addSchemaResolvers({

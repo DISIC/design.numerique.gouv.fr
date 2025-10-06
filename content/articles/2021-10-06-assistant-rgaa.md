@@ -4,10 +4,10 @@ slug: 2021-10-06-assistant-rgaa
 publishedDate: 2021-10-06
 tags: ["RGAA", "accessibilité"]
 illustration: ./illustrations/2021-10-06-assistant-rgaa.png
-description: Créée en 2016 par la DINUM sous licence ouverte 2.0, cette extension pour navigateur Chrome ou Firefox a été mise à jour par Empreinte Digitale avec la dernière version du RGAA 4.1.
+description: Créée en 2016 par la DINUM sous licence ouverte 2.0, cette extension pour navigateur Chrome ou Firefox a été mise à jour par Boscop avec la dernière version du RGAA 4.1.
 ---
 
-Créée en 2016 par la [DINUM](https://www.numerique.gouv.fr){title="Direction interministérielle du numérique - nouvelle fenêtre"} sous licence ouverte 2.0, cette extension pour navigateur a été mise à jour par [Empreinte Digitale](https://www.empreintedigitale.fr/){title="Empreinte Digitale - nouvelle fenêtre"} avec la dernière version du référentiel général d’amélioration de l’accessibilité (RGAA 4.1).
+Créée en 2016 par la [DINUM](https://www.numerique.gouv.fr){title="Direction interministérielle du numérique - nouvelle fenêtre"} sous licence ouverte 2.0, cette extension pour navigateur a été mise à jour par [Boscop](https://boscop.fr/){title="Boscop - nouvelle fenêtre"} avec la dernière version du référentiel général d’amélioration de l’accessibilité (RGAA 4.1).
 
 ## L’Assistant RGAA qu’est-ce que c’est ?
 

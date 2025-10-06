@@ -22,7 +22,7 @@
           <img
             class="dg-picto fr-mr-2w"
             svg-inline
-            src="../assets/images/design-picto.svg"
+            src="../assets/images/accompagnement-picto.svg"
             aria-hidden="true"
           />Bien concevoir un service numérique
         </h1>

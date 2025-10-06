@@ -40,7 +40,7 @@
               <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
                 <img
                   svg-inline
-                  src="../assets/images/design-picto.svg"
+                  src="../assets/images/accompagnement-picto.svg"
                   class="fr-responsive-img"
                   aria-hidden="true"
                 />

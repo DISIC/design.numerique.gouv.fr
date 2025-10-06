@@ -29,21 +29,21 @@ Concevoir des parcours et des écrans&nbsp;: adopter les bons réflexes pour pro
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-cadrer-recherche-utilisateur/">Cadrer la recherche utilisateur</a></h2>
 
 Choisir ses méthodes et recruter des utilisatrices et utilisateurs pertinents pour concevoir des sites et services en ligne.
-- 14 octobre - présentiel
-- 20 novembre - présentiel
+- ~~14 octobre - présentiel~~ Complet
+- ~~20 novembre - présentiel~~ Complet
 - 9 décembre - visioconférence
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Les tests usagers dans la pratique</a></h2>
 
 Préparer et animer des tests avec des usagers puis analyser les résultats.
-- 7 octobre - visioconférence
-- 6 novembre - présentiel
-- 18 novembre - présentiel
+- ~~7 octobre - visioconférence~~ Complet
+- ~~6 novembre - présentiel~~ Complet
+- ~~18 novembre - présentiel~~ Complet
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
 
 Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant, quel que soit votre niveau de connaissance initial de l’accessibilité numérique.
-- 6 novembre - visioconférence
+- ~~6 novembre - visioconférence~~ Complet
 - 25 novembre - présentiel
 - 4 décembre - présentiel
 
@@ -61,12 +61,12 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants : Microsoft Word et LibreOffice Writer.
 - 13 novembre - présentiel
-- 27 novembre - visioconférence
+- ~~27 novembre - visioconférence~~ Complet
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Accessibilité numérique et design</a></h2>
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
-- 9 octobre - présentiel
+- ~~9 octobre - présentiel~~ Complet
 - 2 décembre - présentiel
 - 11 décembre - visioconférence
 

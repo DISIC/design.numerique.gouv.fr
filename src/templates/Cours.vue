@@ -410,151 +410,193 @@
               <option value="" selected disabled hidden>
                 Selectionnez un statut
               </option>
-              <option value="Agent public de l'État">
-                Agent ou agente publique de l'État
+              <option v-for="s in this.statut" :key="s" :value="s">
+                {{ s }}
               </option>
-              <option value="Agent public des collectivités">
-                Agent ou agente publique des collectivités
-              </option>
-              <option value="Prestataire">
-                Prestataire pour un organisme public
-              </option>
-              <option value="Étudiant">Étudiant ou étudiante</option>
-              <option value="Autre">Autre</option>
             </select>
           </div>
-          <div class="fr-input-group">
-            <label class="fr-label" for="organisme">Votre organisme</label>
-            <input
-              class="fr-input"
-              type="text"
-              id="organisme"
-              v-model="form.organisme"
-              required
-            />
-          </div>
-          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
-            <label class="fr-label" for="demarche"
-              >Démarche de l'Observatoire sur laquelle vous travaillez (si c'est
-              le cas)
-              <span class="fr-hint-text"
-                ><a
-                  href="https://observatoire.numerique.gouv.fr/observatoire/"
-                  target="_blank"
-                  title="Accéder à la liste des démarches de l'Observatoire - nouvelle fenêtre"
-                  >Accéder à la liste des démarches de l'Observatoire</a
-                ></span
+          <div v-if="this.form.statut !== 'Prestataire'">
+            <div class="fr-select-group">
+              <label class="fr-label" for="select-ministeres"
+                >Votre ministère
+                <span class="fr-hint-text"
+                  >Indiquer le périmètre ministériel principal de votre
+                  administration ou, le cas échéant, si vous travaillez pour une
+                  collectivité</span
+                ></label
               >
-            </label>
-            <input
-              class="fr-input"
-              type="text"
-              id="demarche"
-              v-model="form.demarche"
-            />
-          </div>
-          <div v-if="$page.cours.type == 'Atelier'" class="fr-form-group">
-            <fieldset class="fr-fieldset">
-              <legend
-                class="fr-fieldset__legend fr-text--regular"
-                id="expertise-legend"
+              <select
+                class="fr-select"
+                id="select-ministeres"
+                name="select-ministeres"
+                v-model="form.ministeres"
+                required
               >
-                Votre niveau d'expertise sur le sujet
-              </legend>
-              <div class="fr-fieldset__content">
-                <div class="fr-radio-group">
-                  <input
-                    type="radio"
-                    id="expertise-1"
-                    name="expertise"
-                    value="Novice"
-                    v-model="form.expertise"
-                    required
-                  />
-                  <label class="fr-label" for="expertise-1"
-                    >Novice
-                    <span class="fr-hint-text">Vous avez tout à découvrir</span>
-                  </label>
+                <option value="" selected disabled hidden>
+                  Selectionnez un ministère
+                </option>
+                <option
+                  v-for="ministere in this.ministeres"
+                  :key="ministere"
+                  :value="ministere"
+                >
+                  {{ ministere }}
+                </option>
+              </select>
+            </div>
+            <div class="fr-input-group">
+              <label class="fr-label" for="organisme">Votre organisme</label>
+              <input
+                class="fr-input"
+                type="text"
+                id="organisme"
+                v-model="form.organisme"
+                required
+              />
+            </div>
+            <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
+              <label class="fr-label" for="demarche"
+                >Démarche de l'Observatoire sur laquelle vous travaillez (si
+                c'est le cas)
+                <span class="fr-hint-text"
+                  ><a
+                    href="https://observatoire.numerique.gouv.fr/observatoire/"
+                    target="_blank"
+                    title="Accéder à la liste des démarches de l'Observatoire - nouvelle fenêtre"
+                    >Accéder à la liste des démarches de l'Observatoire</a
+                  ></span
+                >
+              </label>
+              <input
+                class="fr-input"
+                type="text"
+                id="demarche"
+                v-model="form.demarche"
+              />
+            </div>
+            <div v-if="$page.cours.type == 'Atelier'" class="fr-form-group">
+              <fieldset class="fr-fieldset">
+                <legend
+                  class="fr-fieldset__legend fr-text--regular"
+                  id="expertise-legend"
+                >
+                  Votre niveau d'expertise sur le sujet
+                </legend>
+                <div class="fr-fieldset__content">
+                  <div class="fr-radio-group">
+                    <input
+                      type="radio"
+                      id="expertise-1"
+                      name="expertise"
+                      value="Novice"
+                      v-model="form.expertise"
+                      required
+                    />
+                    <label class="fr-label" for="expertise-1"
+                      >Novice
+                      <span class="fr-hint-text"
+                        >Vous avez tout à découvrir</span
+                      >
+                    </label>
+                  </div>
+                  <div class="fr-radio-group">
+                    <input
+                      type="radio"
+                      id="expertise-2"
+                      name="expertise"
+                      value="Débutant"
+                      v-model="form.expertise"
+                      required
+                    />
+                    <label class="fr-label" for="expertise-2"
+                      >Débutant
+                      <span class="fr-hint-text"
+                        >Vous avez commencé à pratiquer</span
+                      >
+                    </label>
+                  </div>
+                  <div class="fr-radio-group">
+                    <input
+                      type="radio"
+                      id="expertise-3"
+                      name="expertise"
+                      value="Intermédiaire"
+                      v-model="form.expertise"
+                      required
+                    />
+                    <label class="fr-label" for="expertise-3"
+                      >Intermédiaire
+                      <span class="fr-hint-text"
+                        >Vous pratiquez régulièrement</span
+                      >
+                    </label>
+                  </div>
+                  <div class="fr-radio-group">
+                    <input
+                      type="radio"
+                      id="expertise-4"
+                      name="expertise"
+                      value="Expert"
+                      v-model="form.expertise"
+                      required
+                    />
+                    <label class="fr-label" for="expertise-4">Expert</label>
+                  </div>
                 </div>
-                <div class="fr-radio-group">
-                  <input
-                    type="radio"
-                    id="expertise-2"
-                    name="expertise"
-                    value="Débutant"
-                    v-model="form.expertise"
-                    required
-                  />
-                  <label class="fr-label" for="expertise-2"
-                    >Débutant
-                    <span class="fr-hint-text"
-                      >Vous avez commencé à pratiquer</span
-                    >
-                  </label>
-                </div>
-                <div class="fr-radio-group">
-                  <input
-                    type="radio"
-                    id="expertise-3"
-                    name="expertise"
-                    value="Intermédiaire"
-                    v-model="form.expertise"
-                    required
-                  />
-                  <label class="fr-label" for="expertise-3"
-                    >Intermédiaire
-                    <span class="fr-hint-text"
-                      >Vous pratiquez régulièrement</span
-                    >
-                  </label>
-                </div>
-                <div class="fr-radio-group">
-                  <input
-                    type="radio"
-                    id="expertise-4"
-                    name="expertise"
-                    value="Expert"
-                    v-model="form.expertise"
-                    required
-                  />
-                  <label class="fr-label" for="expertise-4">Expert</label>
-                </div>
-              </div>
-            </fieldset>
+              </fieldset>
+            </div>
+            <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
+              <label class="fr-label" for="attente">
+                Pourquoi voulez-vous suivre cette formation ?
+                <span class="fr-hint-text"
+                  >Précisez vos attentes et motivations. Cela nous permet de
+                  sélectionner les candidatures.</span
+                >
+              </label>
+              <textarea
+                class="fr-input"
+                id="attente"
+                name="attente"
+                v-model="form.attentes"
+                required
+              ></textarea>
+            </div>
+            <p>
+              <small
+                >Les données recueillies sur ce formulaire sont traitées par les
+                équipes de la DINUM. Elles nous permettent de vous informer via
+                e-mail des nouvelles liées à cet événement.</small
+              >
+            </p>
+            <p>
+              <small
+                >Conformément à la règlementation, vous disposez d’un droit
+                d’opposition et d’un droit à la limitation du traitement de
+                données vous concernant, ainsi que d’un droit d’accès, de
+                rectification, de portabilité et d’effacement de vos données.
+                Vous pouvez exercer vos droits en nous écrivant à
+                contact@design.numerique.gouv.fr.</small
+              >
+            </p>
+            <button class="fr-btn" id="submit" type="submit">
+              S'inscrire à cette formation
+            </button>
           </div>
-          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
-            <label class="fr-label" for="attente">
-              Quelles sont vos motivations pour suivre cette formation ?
-              <span class="fr-hint-text">Indispensable pour que nous puissions étudier votre inscription</span>
-            </label>
-            <textarea
-              class="fr-input"
-              id="attente"
-              name="attente"
-              v-model="form.attentes"
-              required
-            ></textarea>
+          <div v-else class="fr-alert fr-alert--info">
+            <h3 class="fr-alert__title">
+              Les formations sont réservées aux agents et salariés du public
+            </h3>
+            <p>
+              Nous ne pouvons donc pas accepter votre demande de participation.
+              À toute fin utile, nous avons listé des formations en ligne de
+              qualité et gratuites :
+              <a
+                href="https://design.numerique.gouv.fr/formations/#autres-formations"
+                target="_blank"
+                >https://design.numerique.gouv.fr/formations/#autres-formations</a
+              >
+            </p>
           </div>
-          <p>
-            <small
-              >Les données recueillies sur ce formulaire sont traitées par les
-              équipes de la DINUM. Elles nous permettent de vous informer via
-              e-mail des nouvelles liées à cet événement.</small
-            >
-          </p>
-          <p>
-            <small
-              >Conformément à la règlementation, vous disposez d’un droit
-              d’opposition et d’un droit à la limitation du traitement de
-              données vous concernant, ainsi que d’un droit d’accès, de
-              rectification, de portabilité et d’effacement de vos données. Vous
-              pouvez exercer vos droits en nous écrivant à
-              contact@design.numerique.gouv.fr.</small
-            >
-          </p>
-          <button class="fr-btn" id="submit" type="submit">
-            S'inscrire à cette formation
-          </button>
         </form>
       </div>
     </div>
@@ -648,6 +690,7 @@ export default {
         city: null,
         job: null,
         statut: null,
+        ministeres: null,
         organisme: null,
         demarche: null,
         expertise: null,
@@ -655,6 +698,8 @@ export default {
         attentes: null,
         prerequis: null,
       },
+      ministeres: [],
+      statut: [],
     };
   },
   computed: {
@@ -679,6 +724,23 @@ export default {
     futurOpenSessions: function () {
       return this.futurSessions.filter((session) => session.ouverte);
     },
+  },
+  async mounted() {
+    try {
+      const targetUrl = `${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_TRAINING_DOC_ID}/tables/Inscriptions/columns`;
+      const response = await axios.get(
+        `${process.env.GRIDSOME_GRIST_PHP_PROXY}/grist-proxy.php?url=${targetUrl}`,
+      );
+      const columns = response.data.columns;
+
+      const ministeres = columns.find((elt) => elt.id === "ministeres");
+      this.ministeres = JSON.parse(ministeres.fields.widgetOptions).choices;
+
+      const statut = columns.find((elt) => elt.id === "statut");
+      this.statut = JSON.parse(statut.fields.widgetOptions).choices;
+    } catch (err) {
+      this.error = "Une erreur est survenue : " + err.message;
+    }
   },
   methods: {
     async addParticipant() {
@@ -709,6 +771,7 @@ export default {
                   ville: this.form.city,
                   poste: this.form.job,
                   statut: this.form.statut,
+                  ministeres: this.form.ministeres,
                   demarche: this.form.demarche,
                   niveau: this.form.expertise,
                   attentes: this.form.attentes,

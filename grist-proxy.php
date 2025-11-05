@@ -1,4 +1,4 @@
-<?php
+<?php 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, X-Requested-With');
@@ -15,6 +15,23 @@ $targetUrl = isset($_GET['url']) ? $_GET['url'] : '';
 if (empty($targetUrl)) {
     http_response_code(400);
     echo json_encode(['error' => 'No URL provided']);
+    exit;
+}
+
+// Whitelist
+$whitelist = [
+    "POST https://grist.numerique.gouv.fr/api/docs/6qaW2ZVzGWAk/tables/Accompagnements/records" => true,
+    "GET https://grist.numerique.gouv.fr/api/docs/6qaW2ZVzGWAk/tables/Accompagnements/columns" => true,
+    "POST https://grist.numerique.gouv.fr/api/docs/6qaW2ZVzGWAk/tables/Candidats_Tous_les_profils/records" => true,
+    "POST https://grist.numerique.gouv.fr/api/docs/aAPmMf18CiUp/tables/Inscriptions/records" => true,
+    "GET https://grist.numerique.gouv.fr/api/docs/aAPmMf18CiUp/tables/Inscriptions/columns" => true,
+];
+
+$targetKey = $_SERVER['REQUEST_METHOD'] . ' ' . $targetUrl;
+
+if (!isset($whitelist[$targetKey])) {
+    http_response_code(400);
+    echo json_encode(['error' => 'URL not whitelisted']);
     exit;
 }
 

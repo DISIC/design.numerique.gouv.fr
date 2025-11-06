@@ -18,13 +18,17 @@ if (empty($targetUrl)) {
     exit;
 }
 
+$baseUrl = getenv('GRIDSOME_GRIST_URL');
+$training = getenv('GRIDSOME_GRIST_TRAINING_DOC_ID');
+$request = getenv('GRIDSOME_GRIST_REQUESTS_DOC_ID');
+
 // Whitelist
 $whitelist = [
-    "POST https://grist.numerique.gouv.fr/api/docs/6qaW2ZVzGWAk/tables/Accompagnements/records" => true,
-    "GET https://grist.numerique.gouv.fr/api/docs/6qaW2ZVzGWAk/tables/Accompagnements/columns" => true,
-    "POST https://grist.numerique.gouv.fr/api/docs/6qaW2ZVzGWAk/tables/Candidats_Tous_les_profils/records" => true,
-    "POST https://grist.numerique.gouv.fr/api/docs/aAPmMf18CiUp/tables/Inscriptions/records" => true,
-    "GET https://grist.numerique.gouv.fr/api/docs/aAPmMf18CiUp/tables/Inscriptions/columns" => true,
+    "POST $baseUrl/api/docs/$request/tables/Accompagnements/records" => true,
+    "GET $baseUrl/api/docs/$request/tables/Accompagnements/columns" => true,
+    "POST $baseUrl/api/docs/$request/tables/Candidats_Tous_les_profils/records" => true,
+    "POST $baseUrl/api/docs/$training/tables/Inscriptions/records" => true,
+    "GET $baseUrl/api/docs/$training/tables/Inscriptions/columns" => true,
 ];
 
 $targetKey = $_SERVER['REQUEST_METHOD'] . ' ' . $targetUrl;

@@ -6,6 +6,9 @@ services:
       - "8000:8000"
     environment:
       - GRIDSOME_GRIST_API_KEY=${GRIDSOME_GRIST_API_KEY}
+      - GRIDSOME_GRIST_URL=${GRIDSOME_GRIST_URL}
+      - GRIDSOME_GRIST_TRAINING_DOC_ID=${GRIDSOME_GRIST_TRAINING_DOC_ID}
+      - GRIDSOME_GRIST_REQUESTS_DOC_ID=${GRIDSOME_GRIST_REQUESTS_DOC_ID}
     volumes:
       - ./grist-proxy.php:/var/www/html/grist-proxy.php
     command: >

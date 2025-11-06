@@ -1,4 +1,4 @@
-<?php
+<?php 
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, X-Requested-With');
@@ -15,6 +15,27 @@ $targetUrl = isset($_GET['url']) ? $_GET['url'] : '';
 if (empty($targetUrl)) {
     http_response_code(400);
     echo json_encode(['error' => 'No URL provided']);
+    exit;
+}
+
+$baseUrl = getenv('GRIDSOME_GRIST_URL');
+$training = getenv('GRIDSOME_GRIST_TRAINING_DOC_ID');
+$request = getenv('GRIDSOME_GRIST_REQUESTS_DOC_ID');
+
+// Whitelist
+$whitelist = [
+    "POST $baseUrl/api/docs/$request/tables/Accompagnements/records" => true,
+    "GET $baseUrl/api/docs/$request/tables/Accompagnements/columns" => true,
+    "POST $baseUrl/api/docs/$request/tables/Candidats_Tous_les_profils/records" => true,
+    "POST $baseUrl/api/docs/$training/tables/Inscriptions/records" => true,
+    "GET $baseUrl/api/docs/$training/tables/Inscriptions/columns" => true,
+];
+
+$targetKey = $_SERVER['REQUEST_METHOD'] . ' ' . $targetUrl;
+
+if (!isset($whitelist[$targetKey])) {
+    http_response_code(400);
+    echo json_encode(['error' => 'URL not whitelisted']);
     exit;
 }
 

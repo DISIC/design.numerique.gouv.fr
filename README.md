@@ -48,6 +48,9 @@ docker-compose up
 
 Le proxy PHP est nécessaire pour gérer les appels à l'API Grist en contournant les problèmes de CORS. Il tourne sur le port 8000 et gère automatiquement l'authentification avec votre clé API Grist configurée dans le fichier `.env`.
 
+Le proxy PHP inclut un mécanisme de whitelist.
+Chaque route accessible est un champ texte avec la méthode HTTP puis l'URL Grist. Cette vérification se trouve dans le fichier `grist-proxy.php`.
+
 **Note** : Cette solution utilise les capacités PHP du module Static de CleverCloud pour gérer les appels API sans avoir besoin d'un backend dédié. Le fichier grist-proxy.php est automatiquement inclus dans le build (dossier /dist) lors du déploiement en production.
 
 # Licence

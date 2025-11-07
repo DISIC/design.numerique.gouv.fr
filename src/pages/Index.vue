@@ -3,9 +3,21 @@
     <div class="dg-cover fr-pt-4w fr-pt-md-6w">
       <div class="dg-cover__inner">
         <div class="dg-cover__container dg-cover__container--lg">
-          <h1 class="fr-display--sm dg-text-center">Concevons des services publics numériques <strong>simples</strong> et <strong>inclusifs</strong>.</h1>
-          <p class="dg-content dg-text-center fr-text--lead fr-mb-5w">Les services publics numériques sont encore trop souvent conçus sans prendre en compte leurs usagers. Nous mettons à la disposition des administrations des ressources et outils pour améliorer l’expérience utilisateur de leurs services.</p>
-          <!--Message/-->
+          <h1 class="fr-display--sm dg-text-center">
+            Concevons des services publics numériques
+            <strong>simples</strong> et <strong>inclusifs</strong>.
+          </h1>
+          <p class="dg-content dg-text-center fr-text--lead fr-mb-5w">
+            Les services publics numériques sont encore trop souvent conçus sans
+            prendre en compte leurs usagers. Nous mettons à la disposition des
+            administrations des ressources et outils pour améliorer l’expérience
+            utilisateur de leurs services.
+            <br />
+            <g-link class="fr-mt-4w fr-btn" to="/bien-concevoir/"
+              >Par où commencer ?</g-link
+            >
+          </p>
+          <!-- <Message/> -->
         </div>
       </div>
     </div>
@@ -13,31 +25,6 @@
     <div class="dg-content dg-content--lg">
       <section class="dg-block fr-mt-8w fr-px-1w fr-py-6w">
         <div class="dg-content fr-grid-row fr-grid-row--gutters">
-          <div class="fr-col-12">
-            <div class="fr-tile fr-enlarge-link">
-              <div class="fr-tile__body">
-                <h2 class="fr-tile__title">
-                  <g-link
-                    class="fr-tile__link fr-text--xl"
-                    to="/bien-concevoir/"
-                    >Bien concevoir un service numérique</g-link
-                  >
-                </h2>
-                <p class="fr-tile__desc">
-                  Adopter <strong>les bonnes pratiques</strong> pour concevoir
-                  des services numériques de qualité.
-                </p>
-              </div>
-              <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
-                <img
-                  svg-inline
-                  src="../assets/images/accompagnement-picto.svg"
-                  class="fr-responsive-img"
-                  aria-hidden="true"
-                />
-              </div>
-            </div>
-          </div>
           <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">
               <div class="fr-tile__body">
@@ -48,7 +35,11 @@
                     >Le design</g-link
                   >
                 </h2>
-                <p class="fr-tile__desc">Rendre les services numériques plus <strong>simples</strong> et <strong>inclusifs</strong> pour les usagers.</p>
+                <p class="fr-tile__desc">
+                  Rendre les services numériques plus
+                  <strong>simples</strong> et <strong>inclusifs</strong> pour
+                  les usagers.
+                </p>
               </div>
               <div class="fr-tile__img dg-picto dg-picto--lg dg-picto--rotate">
                 <img

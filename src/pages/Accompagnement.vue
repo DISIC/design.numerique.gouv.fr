@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <div class="dg-content dg-content--sm fr-px-2w">
+    <div class="dg-content dg-content--sm fr-px-0 fr-px-md-2w">
       <div class="fr-mb-6w">
         <h2>Nos expertes à votre disposition</h2>
         <p>
@@ -276,7 +276,7 @@ export default {
   methods: {
     findPhoto(name) {
       return this.$page.people.edges.filter(
-        (person) => person.node.id == this.$slugify(name)
+        (person) => person.node.id == this.$slugify(name),
       )[0].node;
     },
   },

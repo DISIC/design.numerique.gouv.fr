@@ -79,7 +79,7 @@
       </div>
     </div>
 
-    <div class="dg-content dg-content--xs fr-px-2w">
+    <div class="dg-content dg-content--xs fr-px-0 fr-px-md-2w">
       <div v-if="$page.cours.replay">
         <h2>Revivez la formation</h2>
         <p class="fr-mb-2w">Cette vidéo est sous-titrée.</p>
@@ -298,9 +298,9 @@
             </fieldset>
           </div>
           <div v-if="$page.cours.prerequis">
-            <!-- 
-						TODO : handle multiple prerequis 
-						Just printing the first prerequis with [$page.cours.prerequis[0]] for now 
+            <!--
+						TODO : handle multiple prerequis
+						Just printing the first prerequis with [$page.cours.prerequis[0]] for now
 						-->
             <fieldset class="fr-fieldset">
               <legend
@@ -525,7 +525,10 @@
           <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
             <label class="fr-label" for="attente">
               Quelles sont vos motivations pour suivre cette formation ?
-              <span class="fr-hint-text">Indispensable pour que nous puissions étudier votre inscription</span>
+              <span class="fr-hint-text"
+                >Indispensable pour que nous puissions étudier votre
+                inscription</span
+              >
             </label>
             <textarea
               class="fr-input"

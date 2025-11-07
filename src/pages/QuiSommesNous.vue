@@ -43,7 +43,7 @@
       </div>
     </div>
 
-    <div class="dg-content fr-px-2w">
+    <div class="dg-content fr-px-0 fr-px-md-2w">
       <section class="fr-mb-8w">
         <h2>Mission</h2>
         <p>

@@ -41,7 +41,7 @@
       </div>
     </section>
 
-    <div class="dg-content dg-content--sm fr-px-2w">
+    <div class="dg-content dg-content--sm fr-px-0 fr-px-md-2w">
       <section>
         <div v-html="$page.etape.content" />
       </section>

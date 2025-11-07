@@ -56,7 +56,7 @@
         </div>
       </div>
     </section>
-    <div class="dg-content fr-px-2w">
+    <div class="dg-content fr-px-0 fr-px-md-2w">
       <section>
         <div v-html="$page.entretien.content" />
       </section>

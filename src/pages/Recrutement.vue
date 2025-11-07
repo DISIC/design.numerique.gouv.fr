@@ -28,7 +28,7 @@
       </div>
     </section>
 
-    <section class="dg-content fr-px-2w">
+    <section class="dg-content fr-px-0 fr-px-md-2w">
       <!-- <div class="fr-mb-6w">
         <p class="dg-inline-block fr-mr-1w fr-mt-1v">Filtrer par catégorie :</p>
         <div class="dg-inline-block ">

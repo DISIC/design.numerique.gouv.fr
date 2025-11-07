@@ -54,7 +54,7 @@
       </div>
     </section>
 
-    <section class="dg-content dg-content--sm fr-px-2w">
+    <section class="dg-content dg-content--sm fr-px-0 fr-px-md-2w">
       <div class="fr-highlight fr-highlight--pink-macaron fr-my-8w">
         <p class="fr-text--lg">
           En 2024, 44% des usagers des services publics numériques

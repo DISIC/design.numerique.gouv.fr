@@ -23,7 +23,7 @@
     </div>
 
     <div class="dg-content dg-content--lg">
-      <section class="dg-block fr-mt-8w fr-px-1w fr-py-6w">
+      <section class="dg-block fr-mt-4w fr-px-1w fr-py-6w">
         <div class="dg-content fr-grid-row fr-grid-row--gutters">
           <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link">

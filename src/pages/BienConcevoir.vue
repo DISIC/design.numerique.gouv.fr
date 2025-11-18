@@ -36,19 +36,22 @@
         </p>
         <ul class="fr-tags-group">
           <li>
-            <a href="#definir" class="fr-tag" target="_self">Définir</a>
+            <a href="#definir" class="fr-tag" target="_self"
+              >Les critères de qualité</a
+            >
           </li>
           <li>
-            <a href="#anticiper" class="fr-tag" target="_self">Anticiper</a>
+            <a href="#anticiper" class="fr-tag" target="_self"
+              >Les bonnes pratiques</a
+            >
           </li>
           <li>
-            <a href="#entourer" class="fr-tag" target="_self">S'entourer</a>
+            <a href="#entourer" class="fr-tag" target="_self"
+              >Les compétences clés</a
+            >
           </li>
           <li>
-            <a href="#lancer" class="fr-tag" target="_self">Se lancer</a>
-          </li>
-          <li>
-            <a href="#formation" class="fr-tag" target="_self">Se former</a>
+            <a href="#lancer" class="fr-tag" target="_self">Les étapes clés</a>
           </li>
         </ul>
       </div>
@@ -77,12 +80,13 @@
         </p>
       </div>
 
-      <h2 id="definir">Un bon service numérique</h2>
+      <h2 id="definir">Les critères de qualité</h2>
       <div class="fr-mb-6w">
         <p>
-          L'État noue un lien avec les usagers des services publics à travers
-          les services numérique qu'il propose. Cela l'oblige à respecter un
-          certain nombre de principes, portés par sa mission d'intérêt général.
+          L'État noue un lien avec les usagers à travers les services publics
+          numériques qu'il propose. Cela l'oblige à respecter un certain nombre
+          de principes, portés par sa mission d'intérêt général, pour assurer la
+          qualité de ses services.
         </p>
 
         <ul class="dg-list-no-decoration fr-pl-0">
@@ -108,7 +112,7 @@
                 usagers.
               </li>
               <li>
-                <strong>Désirables :</strong> que les usagers aient plaisir à
+                <strong>Agréable :</strong> que les usagers aient plaisir à
                 utiliser.
               </li>
             </ul>
@@ -150,13 +154,13 @@
               <span
                 class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
                 ><span aria-hidden="true">⚡️</span>&nbsp;Un service
-                performant</span
+                efficace</span
               >
             </h3>
             <ul>
               <li>
-                <strong>Efficace :</strong> qui se définit des objectifs clairs
-                et produit les effets attendus.
+                <strong>Performant :</strong> qui se définit des objectifs
+                clairs et produit les effets attendus.
               </li>
               <li>
                 <strong>Résilient :</strong> qui sait évoluer dans un
@@ -204,10 +208,10 @@
 
       <h2 id="anticiper">Les bonnes pratiques</h2>
       <p>
-        La création de bons services numériques se base des principes éprouvés.
-        Leur respect est indispensable pour assurer la création de services
-        publics numériques de qualité : simples, efficaces et utilisables par
-        toutes et tous. Pour bien concevoir, il faut anticiper !
+        La création de bons services numériques se base sur des principes
+        éprouvés. Leur respect est indispensable pour assurer la création de
+        services publics numériques de qualité : simples, efficaces et
+        utilisables par toutes et tous.
       </p>
       <ul class="dg-list-no-decoration fr-mt-4w">
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -306,12 +310,11 @@
         </li>
       </ul>
 
-      <h2 id="entourer" class="fr-mt-8w">Les rôle et compétences clés</h2>
+      <h2 id="entourer" class="fr-mt-8w">Les rôles et compétences clés</h2>
       <p>
-        Pour créer des services numériques de qualité, pas de mystère, il est
-        nécessaire de mobiliser les experts de la conception numérique. Et ce,
-        dès le début du projet et tout au long de la vie du produit. Tour
-        d'horizon des rôles et compétences clés :
+        Pour créer des services numériques de qualité, il est nécessaire de
+        mobiliser les experts de la conception numérique. Et ce, dès le début du
+        projet et tout au long de la vie du produit.
       </p>
 
       <ul>
@@ -369,7 +372,7 @@
 
       <h2 id="lancer" class="fr-mt-8w">Les phases clés</h2>
       <p>
-        La conception de service numérique de qualité nécessite le passage par
+        La conception de services numériques de qualité nécessite le passage par
         un certain nombre de phases clés. Chaque projet étant spécifique, le
         responsable produit les déroulera en fonction de son contexte.
       </p>

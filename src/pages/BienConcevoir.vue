@@ -211,7 +211,9 @@
       </p>
       <ul class="dg-list-no-decoration fr-mt-4w">
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">❓</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">❓</span>
+          </div>
           <div class="">
             <span class="fr-h6"
               >Commencer par identifier les besoins, non les solutions</span
@@ -221,7 +223,9 @@
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">🧪</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">🧪</span>
+          </div>
           <div class="">
             <span class="fr-h6"
               >Toujours tester une solution avant de la développer</span
@@ -231,7 +235,9 @@
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">✔️</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">✔️</span>
+          </div>
           <div class="">
             <span class="fr-h6">Concevoir et développer de façon itérative</span
             ><br />
@@ -240,7 +246,9 @@
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">🚧</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">🚧</span>
+          </div>
           <div class="">
             <span class="fr-h6"
               >Savoir s'adapter aux changements des besoins usagers et
@@ -251,7 +259,9 @@
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">🔥</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">🔥</span>
+          </div>
           <div class="">
             <span class="fr-h6">Piloter par l'impact</span><br />
             Vérifier en continu les indicateurs de succès et faire évoluer le
@@ -259,7 +269,9 @@
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">💬</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">💬</span>
+          </div>
           <div class="">
             <span class="fr-h6"
               >Travailler de manière collaborative, empathique et
@@ -270,7 +282,9 @@
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">💫</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">💫</span>
+          </div>
           <div class="">
             <span class="fr-h6"
               >Identifier clairement les rôles de chacune et chacun</span
@@ -280,7 +294,9 @@
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
-          <div class="dg-picto dg-picto--sm fr-mr-2w">👐</div>
+          <div class="dg-picto dg-picto--sm fr-mr-2w">
+            <span aria-hidden="true">👐</span>
+          </div>
           <div class="">
             <span class="fr-h6">Bâtir avec les autres et travailler ouvert</span
             ><br />
@@ -359,7 +375,9 @@
       </p>
       <ol class="dg-list-no-decoration">
         <li class="fr-mb-2w">
-          <h3 class="fr-h4 fr-mb-2w">1️⃣ Phase d'exploration</h3>
+          <h3 class="fr-h4 fr-mb-2w">
+            <span aria-hidden="true">1️⃣</span> Phase d'exploration
+          </h3>
           <ul>
             <li>
               Recueillir les données (métiers, usagers) déjà à disposition
@@ -375,7 +393,9 @@
           </ul>
         </li>
         <li class="fr-mb-2w">
-          <h3 class="fr-h4 fr-mb-2w">2️⃣ Phase d'idéation</h3>
+          <h3 class="fr-h4 fr-mb-2w">
+            <span aria-hidden="true">2️⃣</span> Phase d'idéation
+          </h3>
           <ul>
             <li>Imaginer la ou les premières pistes de solution</li>
             <li>Les tester auprès d'usagers réels</li>
@@ -384,7 +404,8 @@
         </li>
         <li class="fr-mb-2w">
           <h3 class="fr-h4 fr-mb-2w">
-            3️⃣ Phase de conception et développement
+            <span aria-hidden="true">3️⃣</span> Phase de conception et
+            développement
           </h3>
           <ul>
             <li>Découper et prioriser les travaux</li>
@@ -397,7 +418,9 @@
           </ul>
         </li>
         <li class="fr-mb-2w">
-          <h3 class="fr-h4 fr-mb-2w">4️⃣ Phase de mise à l'épreuve</h3>
+          <h3 class="fr-h4 fr-mb-2w">
+            <span aria-hidden="true">4️⃣</span> Phase de mise à l'épreuve
+          </h3>
           <ul>
             <li>
               Mettre à l'épreuve une première version opérationnelle (beta,
@@ -409,7 +432,8 @@
         </li>
         <li class="fr-mb-2w">
           <h3 class="fr-h4 fr-mb-2w">
-            5️⃣ Phase de déploiement et amélioration continue
+            <span aria-hidden="true">5️⃣</span> Phase de déploiement et
+            amélioration continue
           </h3>
           <ul>
             <li>

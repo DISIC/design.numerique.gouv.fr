@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="dg-content fr-px-2w">
+    <div class="dg-content fr-px-0 fr-px-md-2w">
       <div class="dg-cover dg-cover--linear fr-mb-4w">
         <div class="dg-cover__container fr-mb-1w">
           <nav aria-label="Breadcrumb" class="fr-breadcrumb">

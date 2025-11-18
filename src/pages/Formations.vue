@@ -25,14 +25,15 @@
           />Formations
         </h1>
         <p class="fr-text--lead">
-          Les ateliers s’adressent exclusivement aux agents et salariés des services publics : renseignez-vous,
-          inscrivez-vous et revisionnez les formations passées.
+          Les ateliers s’adressent exclusivement aux agents et salariés des
+          services publics : renseignez-vous, inscrivez-vous et revisionnez les
+          formations passées.
         </p>
       </div>
     </div>
 
     <div class="dg-content dg-content--lg">
-      <section class="dg-content fr-px-2w">
+      <section class="dg-content fr-px-0 fr-px-md-2w">
         <div class="fr-grid-row fr-grid-row--gutters fr-mb-6w">
           <div
             v-for="{ node } in sortedFormations"
@@ -198,11 +199,28 @@
         </div>
       </section>
       <section class="dg-content dg-contains-list fr-mt-8w fr-px-2w">
-        <h2 id="marche-dae" class="fr-h2">Le marché de formation de la Direction des achats de l’État</h2>
-        <p>Un marché permet de vous former au numérique... et notamment à l’accessibilité numérique.
-        Ce nouveau marché interministériel permet de dispenser des formations en présentiel, à distance et sous format hybride aux agents de l’État.
-        Les thématiques sont vastes. En plus de l'accessibilité, on trouve la cybersécurité, l'IA ou les systèmes d’exploitation.</p>
-        <p>Pour en savoir plus, rendez-vous sur la <a href="https://www.economie.gouv.fr/dae/un-nouveau-marche-interministeriel-pour-renforcer-loffre-de-formations-numeriques-destination" target="_blank" rel="noreferrer noopener"   title="page dédiée à ce marché de formation - Nouvelle fenêtre">page dédiée à ce marché de formation</a> sur le site du Ministère de l’économie.</p>
+        <h2 id="marche-dae" class="fr-h2">
+          Le marché de formation de la Direction des achats de l’État
+        </h2>
+        <p>
+          Un marché permet de vous former au numérique... et notamment à
+          l’accessibilité numérique. Ce nouveau marché interministériel permet
+          de dispenser des formations en présentiel, à distance et sous format
+          hybride aux agents de l’État. Les thématiques sont vastes. En plus de
+          l'accessibilité, on trouve la cybersécurité, l'IA ou les systèmes
+          d’exploitation.
+        </p>
+        <p>
+          Pour en savoir plus, rendez-vous sur la
+          <a
+            href="https://www.economie.gouv.fr/dae/un-nouveau-marche-interministeriel-pour-renforcer-loffre-de-formations-numeriques-destination"
+            target="_blank"
+            rel="noreferrer noopener"
+            title="page dédiée à ce marché de formation - Nouvelle fenêtre"
+            >page dédiée à ce marché de formation</a
+          >
+          sur le site du Ministère de l’économie.
+        </p>
       </section>
       <section class="dg-content dg-contains-list fr-mt-8w fr-px-2w">
         <h2 id="autres-formations" class="fr-h2">
@@ -549,8 +567,8 @@
                   <li>Organisme de formation : <strong>Opquast</strong></li>
                   <li>Durée : <strong>14h</strong></li>
                   <li>
-                    Coût : financé par la Dinum pour les agents publics, dans la limite des places disponibles.
-                    Pour en bénéficier, contacter
+                    Coût : financé par la Dinum pour les agents publics, dans la
+                    limite des places disponibles. Pour en bénéficier, contacter
                     <strong>formation[a]design.numerique.gouv.fr</strong>.
                   </li>
                 </ul>

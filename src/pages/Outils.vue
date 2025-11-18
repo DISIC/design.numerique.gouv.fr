@@ -25,51 +25,70 @@
           />Outils
         </h1>
         <p class="fr-text--lead">
-          Une sélection d’outils <em>faits maison</em> pour vous accompagner dans
-          l’amélioration de l’accessibilité et du design de vos sites et
+          Une sélection d’outils <em>faits maison</em> pour vous accompagner
+          dans l’amélioration de l’accessibilité et du design de vos sites et
           applications web.
         </p>
         <ul class="fr-tags-group">
           <li>
-              <a href="#tech" class="fr-tag" target="_self">Tech</a>
+            <a href="#tech" class="fr-tag" target="_self">Tech</a>
           </li>
           <li>
-              <a href="#methode" class="fr-tag" target="_self">Méthode</a>
+            <a href="#methode" class="fr-tag" target="_self">Méthode</a>
           </li>
           <li>
-              <a href="#audit" class="fr-tag" target="_self">Audit</a>
-          </li>
-         <li>
-              <a href="#declaration" class="fr-tag" target="_self">Déclaration</a>
-          </li>
-           <li>
-              <a href="#tests" class="fr-tag" target="_self">Tests usagers en situation de handicap</a>
+            <a href="#audit" class="fr-tag" target="_self">Audit</a>
           </li>
           <li>
-              <a href="#dsfr" class="fr-tag" target="_self">Système de design</a>
+            <a href="#declaration" class="fr-tag" target="_self">Déclaration</a>
           </li>
-      </ul>      </div>
+          <li>
+            <a href="#tests" class="fr-tag" target="_self"
+              >Tests usagers en situation de handicap</a
+            >
+          </li>
+          <li>
+            <a href="#dsfr" class="fr-tag" target="_self">Système de design</a>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <div class="dg-content fr-px-2w">
-<div class="fr-callout fr-callout--purple-glycine fr-mt-4w  fr-icon-star-line">
-        <p class="fr-callout__text">On a fait le point sur plusieurs questions qu’on nous pose régulièrement et qui nous semblent importantes, ainsi que sur les questions qu’on nous pose rarement alors qu’elles nous semblent importantes.<br><a href="qr/">On vous partage nos réponses</a>.</p>
-</div>
-      
+    <div class="dg-content fr-px-0 fr-px-md-2w">
+      <div
+        class="fr-callout fr-callout--purple-glycine fr-mt-4w fr-icon-star-line"
+      >
+        <p class="fr-callout__text">
+          On a fait le point sur plusieurs questions qu’on nous pose
+          régulièrement et qui nous semblent importantes, ainsi que sur les
+          questions qu’on nous pose rarement alors qu’elles nous semblent
+          importantes.<br /><a href="qr/">On vous partage nos réponses</a>.
+        </p>
+      </div>
+
       <section>
         <h2 id="tech">Les checklists pour toustes</h2>
         <ul class="fr-mb-3w">
-          <li>La <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose un ensemble de règles pour réaliser un <strong>document PDF accessible</strong> à partir d’un traitement de texte ;
+          <li>
+            La
+            <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose
+            un ensemble de règles pour réaliser un
+            <strong>document PDF accessible</strong> à partir d’un traitement de
+            texte ;
           </li>
           <li>
-            le <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link> permet d’estimer
-            de manière <strong>rapide et partielle</strong> l’accessibilité d’un
-            site ou d’une démarche en ligne, sans avoir d’expertise particulière
-            et en n’y consacrant que peu de temps ;
+            le
+            <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link>
+            permet d’estimer de manière
+            <strong>rapide et partielle</strong> l’accessibilité d’un site ou
+            d’une démarche en ligne, sans avoir d’expertise particulière et en
+            n’y consacrant que peu de temps ;
           </li>
           <li>
-            la <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link> regroupe
-            les critères des différents référentiels et bonnes pratiques du web.
+            la
+            <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link>
+            regroupe les critères des différents référentiels et bonnes
+            pratiques du web.
           </li>
         </ul>
       </section>
@@ -78,18 +97,20 @@
         <h2 id="tech">Tech</h2>
         <ul class="fr-mb-3w">
           <li>
-            la <g-link to="/outils/checklist-dev/">checklist dev</g-link> regroupe les tests et
-            vérifications rapides à faire soi-même avant de livrer son travail ;
+            la
+            <g-link to="/outils/checklist-dev/">checklist dev</g-link> regroupe
+            les tests et vérifications rapides à faire soi-même avant de livrer
+            son travail ;
           </li>
           <li>
-            le <g-link to="/outils/memo-dev/">mémo dev</g-link> regroupe sur une seule et même
-            page les points d’attention pour
+            le <g-link to="/outils/memo-dev/">mémo dev</g-link> regroupe sur une
+            seule et même page les points d’attention pour
             <strong>les développeurs et les développeuses front</strong> ainsi
             que les liens vers les ressources adéquates ;
           </li>
           <li>
-            le <g-link to="/outils/memo-design/">mémo design</g-link> regroupe sur une seule et
-            même page les points d’attention pour
+            le <g-link to="/outils/memo-design/">mémo design</g-link> regroupe
+            sur une seule et même page les points d’attention pour
             <strong>les designers</strong> ainsi que les liens vers les
             ressources adéquates.
           </li>
@@ -103,7 +124,8 @@
             le
             <g-link to="/outils/jeu-de-oaa/">
               jeu de l’organisation de l’amélioration de l’accessibilité
-              (OAA)</g-link>
+              (OAA)</g-link
+            >
             vous guide dans la mise en accessibilité de votre service
             numérique ;
           </li>
@@ -113,10 +135,12 @@
             décrivent votre rôle, vos actions et vos outils ;
           </li>
           <li>
-            le <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link> permet d’estimer
-            de manière <strong>rapide et partielle</strong> l’accessibilité d’un
-            site ou d’une démarche en ligne, sans avoir d’expertise particulière
-            et en n’y consacrant que peu de temps ;
+            le
+            <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link>
+            permet d’estimer de manière
+            <strong>rapide et partielle</strong> l’accessibilité d’un site ou
+            d’une démarche en ligne, sans avoir d’expertise particulière et en
+            n’y consacrant que peu de temps ;
           </li>
           <li>
             les nombreux
@@ -133,11 +157,17 @@
             fonction publique (FIPHFP) ;
           </li>
           <li>
-            l’<g-link to="/outils/audit-rapide/">audit rapide</g-link> permet à moindre coût
-            d’apprécier l’accessibilité d’un site et la maturité d’une équipe ;
+            l’<g-link to="/outils/audit-rapide/">audit rapide</g-link> permet à
+            moindre coût d’apprécier l’accessibilité d’un site et la maturité
+            d’une équipe ;
           </li>
           <li>
-            la page <g-link to="/outils/accessibilite-marche-public/">l’accessibilité numérique dans les marchés publics</g-link> recense les points importants dans la rédaction des marchés et l’analyse des offres.
+            la page
+            <g-link to="/outils/accessibilite-marche-public/"
+              >l’accessibilité numérique dans les marchés publics</g-link
+            >
+            recense les points importants dans la rédaction des marchés et
+            l’analyse des offres.
           </li>
         </ul>
       </section>
@@ -149,9 +179,12 @@
             <a
               href="https://ara.numerique.gouv.fr"
               title="Ara - nouvelle fenêtre"
-              target="_blank" rel="noreferrer noopener"
+              target="_blank"
+              rel="noreferrer noopener"
               ><strong>Ara</strong></a
-            > permet de réaliser des audits d’accessibilité numérique, générer un rapport d’accessibilité et rédiger la déclaration d’accessibilité ;
+            >
+            permet de réaliser des audits d’accessibilité numérique, générer un
+            rapport d’accessibilité et rédiger la déclaration d’accessibilité ;
           </li>
           <li>
             L’<strong>assistant RGAA</strong> facilite la réalisation d’audit en
@@ -180,7 +213,7 @@
             > ;
           </li>
           <li>
-             Télécharger le
+            Télécharger le
             <a
               href="https://accessibilite.numerique.gouv.fr/doc/rgaa4-2019-modele-rapport-audit.odt"
               title="Télécharger le modèle de rapport d’audit (format ODT – 51 Ko)"
@@ -193,18 +226,20 @@
 
       <section>
         <h2 id="declaration">Déclaration d’accessibilité</h2>
-          <p>
-            Un
-            <g-link href="/outils/exemple-declaration-accessibilite/"
-              >Exemple de déclaration d’accessibilité</g-link
-            >
-            prêt à remplir.
-          </p>
+        <p>
+          Un
+          <g-link href="/outils/exemple-declaration-accessibilite/"
+            >Exemple de déclaration d’accessibilité</g-link
+          >
+          prêt à remplir.
+        </p>
       </section>
 
       <section>
         <h2 id="tests">Tests usagers en situation de handicap</h2>
-        <h3 class="fr-h4">Mode d’utilisation du groupe d’utilisateurs handicapés</h3>
+        <h3 class="fr-h4">
+          Mode d’utilisation du groupe d’utilisateurs handicapés
+        </h3>
         <p>
           La DINUM a créé un groupe d’utilisateurs handicapés pour tester
           l’accessibilité des sites et applications mobiles publics. Il inclut
@@ -240,11 +275,15 @@
             title="système de design de l‘État - nouvelle fenêtre"
             target="_blank"
             >système de design de l’État</a
-          >, développé, maintenu et géré par le <a
-          href="https://www.gouvernement.fr/service-d-information-du-gouvernement-sig"
-          rel="noreferrer noopener"
-          title="Service d’Information du Gouvernement - nouvelle fenêtre"
-          target="_blank">Service d’Information du Gouvernement</a>, assure une cohérence graphique et une meilleure expérience utilisateur sur les sites et applications web de l’État.
+          >, développé, maintenu et géré par le
+          <a
+            href="https://www.gouvernement.fr/service-d-information-du-gouvernement-sig"
+            rel="noreferrer noopener"
+            title="Service d’Information du Gouvernement - nouvelle fenêtre"
+            target="_blank"
+            >Service d’Information du Gouvernement</a
+          >, assure une cohérence graphique et une meilleure expérience
+          utilisateur sur les sites et applications web de l’État.
         </p>
         <p>Il propose :</p>
         <ul class="fr-mb-3w">
@@ -267,16 +306,28 @@
           <li>une communauté active de designers et de développeurs.</li>
         </ul>
         <div class="fr-highlight">
-
-<p> <strong>Utilisation interdite en dehors des sites Internet de l’État</strong><br>Il est formellement interdit à tout autre acteur d’utiliser le Système de Design de l’État (les administrations territoriales ou tout autre acteur privé). Le Système de Design de l’État représente l’identité numérique de l’État. En cas d’usage à des fins trompeuses ou frauduleuses, l’État se réserve le droit d’entreprendre les actions nécessaires pour y mettre un terme.<br> Voir les <a
-  href="https://www.systeme-de-design.gouv.fr/version-courante/fr/a-propos/conditions-generales-d-utilisation"
-  rel="noreferrer noopener"
-  title="conditions générales d'utilisation - nouvelle fenêtre"
-  target="_blank"
- >conditions générales d’utilisation</a>.</p>
+          <p>
+            <strong
+              >Utilisation interdite en dehors des sites Internet de
+              l’État</strong
+            ><br />Il est formellement interdit à tout autre acteur d’utiliser
+            le Système de Design de l’État (les administrations territoriales ou
+            tout autre acteur privé). Le Système de Design de l’État représente
+            l’identité numérique de l’État. En cas d’usage à des fins trompeuses
+            ou frauduleuses, l’État se réserve le droit d’entreprendre les
+            actions nécessaires pour y mettre un terme.<br />
+            Voir les
+            <a
+              href="https://www.systeme-de-design.gouv.fr/version-courante/fr/a-propos/conditions-generales-d-utilisation"
+              rel="noreferrer noopener"
+              title="conditions générales d'utilisation - nouvelle fenêtre"
+              target="_blank"
+              >conditions générales d’utilisation</a
+            >.
+          </p>
         </div>
       </section>
-<hr class=" fr-mt-8w">
+      <hr class="fr-mt-8w" />
       <p class="fr-text--lead">
         Vous pouvez proposer de nouveaux outils, méthodes ou autres bonnes
         idées,
@@ -290,7 +341,6 @@
     </div>
   </Layout>
 </template>
-
 
 <script>
 export default {

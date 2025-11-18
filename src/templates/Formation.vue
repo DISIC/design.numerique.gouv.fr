@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <ul class="dg-content fr-px-2w fr-py-2w">
+    <ul class="dg-content fr-px-0 fr-px-md-2w fr-py-2w">
       <li
         v-for="cours in sortedCours"
         :key="cours.id"
@@ -155,7 +155,7 @@ export default {
       this.$page.formation.cours.forEach((cours) => {
         var futur = cours.sessions.filter(
           (session) =>
-            session.ouverte && new Date(session.date * 1000) > Date.now()
+            session.ouverte && new Date(session.date * 1000) > Date.now(),
         );
         futur.length > 0 ? futurList.push(cours.id) : null;
       });

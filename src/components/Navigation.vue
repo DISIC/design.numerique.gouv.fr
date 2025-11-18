@@ -39,9 +39,9 @@
           <li class="fr-nav__item">
             <a class="fr-nav__link" href="/articles/">Articles</a>
           </li>
-          <li class="fr-nav__item">
+          <!-- <li class="fr-nav__item">
             <a class="fr-nav__link" href="/recrutement/">Recrutement</a>
-          </li>
+          </li> -->
         </ul>
       </nav>
     </div>

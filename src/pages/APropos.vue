@@ -22,10 +22,10 @@
             svg-inline
             src="../assets/images/recrutement-picto.svg"
             aria-hidden="true"
-          />Le pôle design des services numériques
+          />La brigade d’intervention numérique
         </h1>
         <p class="fr-text--lead">
-          Le pôle design des services numériques fait partie de la
+          La brigade d’intervention numérique fait partie de la
           <a
             href="https://www.numerique.gouv.fr/dinum/"
             target="_blank"

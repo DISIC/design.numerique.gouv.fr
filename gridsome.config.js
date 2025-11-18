@@ -73,13 +73,6 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        typeName: "Etape",
-        path: "./content/etapes/*.md",
-      },
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
         typeName: "QrCat",
         path: "./content/qr/cat/*.md",
       },
@@ -299,7 +292,6 @@ module.exports = {
     Formation: "/formations/:slug",
     Entretien: "/entretiens/:firstName-:lastName",
     Expert: "/expert-experte/:firstName-:lastName",
-    Etape: "/design-numerique/etapes-cles/:slug",
     //ExpertsEtExpertes: '/experts/:lastName'
     // Poste: '/recrutement/:slug', -> géré manuellement dans gridsome.server.js
     // Cours: '/formations/cours/:id', -> géré manuellement dans gridsome.server.js

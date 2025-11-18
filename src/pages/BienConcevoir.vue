@@ -83,9 +83,9 @@
       <h2 id="definir">Les critères de qualité</h2>
       <div class="fr-mb-6w">
         <p>
-          L'État noue un lien avec les usagers à travers les services publics
-          numériques qu'il propose. Cela l'oblige à respecter un certain nombre
-          de principes, portés par sa mission d'intérêt général, pour assurer la
+          L’État noue un lien avec les usagers à travers les services publics
+          numériques qu’il propose. Cela l’oblige à respecter un certain nombre
+          de principes, portés par sa mission d’intérêt général, pour assurer la
           qualité de ses services.
         </p>
 
@@ -132,7 +132,7 @@
               </li>
               <li>
                 <strong>Compatible :</strong> qui soit utilisable dans toutes
-                situations (qualité du réseau, type d'équipement, etc.)
+                situations (qualité du réseau, type d’équipement, etc.)
               </li>
               <li>
                 <strong>Compréhensible :</strong> qui utilise un
@@ -186,7 +186,7 @@
             </h3>
             <ul>
               <li>
-                <strong>Frugal :</strong> qui se contente de l'essentiel, qui
+                <strong>Frugal :</strong> qui se contente de l’essentiel, qui
                 est économe en ressources et en moyens.
               </li>
               <li>
@@ -195,11 +195,11 @@
               </li>
               <li>
                 <strong>Humain :</strong> qui accompagne les usagers, leur fait
-                confiance, leur permet l'erreur et la contestation.
+                confiance, leur permet l’erreur et la contestation.
               </li>
               <li>
                 <strong>Convivial :</strong> qui respecte et renforce
-                l'autonomie des usagers, qui les implique dans la conception.
+                l’autonomie des usagers, qui les implique dans la conception.
               </li>
             </ul>
           </li>
@@ -220,10 +220,10 @@
           </div>
           <div class="">
             <span class="fr-h6"
-              >Commencer par identifier les besoins, non les solutions</span
+              >Commencer par identifier les besoins, non les solutions.</span
             ><br />
-            Aller d'abord à la rencontre de vrais usagers pour les écouter,
-            comprendre leurs besoins
+            Aller d’abord à la rencontre de vrais usagers pour les écouter,
+            comprendre leurs besoins.
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -232,10 +232,10 @@
           </div>
           <div class="">
             <span class="fr-h6"
-              >Toujours tester une solution avant de la développer</span
+              >Toujours tester une solution avant de la développer.</span
             ><br />
             Mener de tests qualitatifs avec des vrais usagers représentatifs et
-            en situation réelle
+            en situation réelle.
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -243,10 +243,10 @@
             <span aria-hidden="true">✔️</span>
           </div>
           <div class="">
-            <span class="fr-h6">Concevoir et développer de façon itérative</span
+            <span class="fr-h6">Concevoir et développer de façon itérative.</span
             ><br />
             Découper et prioriser les travaux, faire évoluer le service
-            progressivement
+            progressivement.
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -255,11 +255,11 @@
           </div>
           <div class="">
             <span class="fr-h6"
-              >Savoir s'adapter aux changements des besoins usagers et
-              métiers</span
+              >Savoir s’adapter aux changements des besoins usagers et
+              métiers.</span
             ><br />
-            Savoir faire face à l'imprévu, faire preuve de souplesse et
-            d'adaptabilité
+            Savoir faire face à l’imprévu, faire preuve de souplesse et
+            d’adaptabilité.
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -267,9 +267,9 @@
             <span aria-hidden="true">🔥</span>
           </div>
           <div class="">
-            <span class="fr-h6">Piloter par l'impact</span><br />
+            <span class="fr-h6">Piloter par l’impact.</span><br />
             Vérifier en continu les indicateurs de succès et faire évoluer le
-            service en conséquence
+            service en conséquence.
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -279,10 +279,10 @@
           <div class="">
             <span class="fr-h6"
               >Travailler de manière collaborative, empathique et
-              inclusive</span
+              inclusive.</span
             ><br />
             Constituer dès le début une équipe pluridisciplinaire qui
-            travaillera ensemble au quotidien
+            travaillera ensemble au quotidien.
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -291,10 +291,10 @@
           </div>
           <div class="">
             <span class="fr-h6"
-              >Identifier clairement les rôles de chacune et chacun</span
+              >Identifier clairement les rôles de chacune et chacun.</span
             ><br />
             Définir qui fait quoi, qui est responsable de quoi et qui prend les
-            décisions
+            décisions.
           </div>
         </li>
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -302,10 +302,10 @@
             <span aria-hidden="true">👐</span>
           </div>
           <div class="">
-            <span class="fr-h6">Bâtir avec les autres et travailler ouvert</span
+            <span class="fr-h6">Bâtir avec les autres et travailler ouvert.</span
             ><br />
             Ne pas réinventer la roue, produire du design et code ouvert,
-            accueillir la contribution
+            accueillir la contribution.
           </div>
         </li>
       </ul>
@@ -327,11 +327,11 @@
           prend les décisions au quotidien
         </li>
         <li>
-          <strong>L'équipe métier</strong> qui possède l'expertise métier et
+          <strong>L’équipe métier</strong> qui possède l’expertise métier et
           nourrit les choix de conception
         </li>
         <li>
-          <strong>L'équipe design</strong> qui s'occupe de la conception du
+          <strong>L’équipe design</strong> qui s’occupe de la conception du
           service
           <ul>
             <li>
@@ -349,23 +349,23 @@
           </ul>
         </li>
         <li>
-          <strong>L'équipe technique</strong> qui s'appuie sur la conception
+          <strong>L’équipe technique</strong> qui s’appuie sur la conception
           pour développer et maintenir le service
         </li>
         <li>
-          <strong>L'expertise accessibilité numérique</strong> qui guide, forme
+          <strong>L’expertise accessibilité numérique</strong> qui guide, forme
           et accompagne sur ce sujet
         </li>
         <li>
-          <strong>L'expertise numérique responsable</strong> qqui guide, forme
+          <strong>L’expertise numérique responsable</strong> qqui guide, forme
           et accompagne sur ce sujet
         </li>
         <li>
-          <strong>L'expertise donnée</strong> (analytics) qui accompagne sur le
+          <strong>L’expertise donnée</strong> (analytics) qui accompagne sur le
           sujet
         </li>
         <li>
-          <strong>L'expertise référencement naturel</strong> (SEO) qui
+          <strong>L’expertise référencement naturel</strong> (SEO) qui
           accompagne sur le sujet
         </li>
       </ul>
@@ -379,7 +379,7 @@
       <ol class="dg-list-no-decoration">
         <li class="fr-mb-2w">
           <h3 class="fr-h4 fr-mb-2w">
-            <span aria-hidden="true">1️⃣</span> Phase d'exploration
+            <span aria-hidden="true">1️⃣</span> Phase d’exploration
           </h3>
           <ul>
             <li>
@@ -397,11 +397,11 @@
         </li>
         <li class="fr-mb-2w">
           <h3 class="fr-h4 fr-mb-2w">
-            <span aria-hidden="true">2️⃣</span> Phase d'idéation
+            <span aria-hidden="true">2️⃣</span> Phase d’idéation
           </h3>
           <ul>
             <li>Imaginer la ou les premières pistes de solution</li>
-            <li>Les tester auprès d'usagers réels</li>
+            <li>Les tester auprès d’usagers réels</li>
             <li>Acter la solution retenue</li>
           </ul>
         </li>
@@ -422,11 +422,11 @@
         </li>
         <li class="fr-mb-2w">
           <h3 class="fr-h4 fr-mb-2w">
-            <span aria-hidden="true">4️⃣</span> Phase de mise à l'épreuve
+            <span aria-hidden="true">4️⃣</span> Phase de mise à l’épreuve
           </h3>
           <ul>
             <li>
-              Mettre à l'épreuve une première version opérationnelle (beta,
+              Mettre à l’épreuve une première version opérationnelle (beta,
               expérimentation, etc.)
             </li>
             <li>Suivre les retours usagers et indicateurs de réussite</li>
@@ -447,7 +447,7 @@
               Suivre les retours usagers et indicateur pour améliorer le service
               en continu
             </li>
-            <li>Fermer le service lorsqu'il n'a plus de raison d'être</li>
+            <li>Fermer le service lorsqu’il n’a plus de raison d’être</li>
           </ul>
         </li>
       </ol>
@@ -480,11 +480,11 @@
                   <h3 class="fr-h6 fr-card__title">
                     <g-link
                       :to="
-                        '/formations/' +
+                        ’/formations/’ +
                         node.formation.slug +
-                        '/' +
+                        ’/’ +
                         node.slug +
-                        '/'
+                        ’/’
                       "
                       class="fr-card__link"
                       >{{ node.nom }}</g-link

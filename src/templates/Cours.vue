@@ -212,7 +212,7 @@
         <ul>
           <li v-bind:key="session.id" v-for="session in futurSessions">
             <div v-show="session.ouverte">
-              {{ session.fancyDate }}
+              {{ session.Date_a_ecrire_sur_le_site }}
               <p
                 class="fr-badge fr-badge--sm fr-badge--new"
                 v-if="session.lieuDeParticipation == 'Visioconférence'"
@@ -224,7 +224,7 @@
               </p>
             </div>
             <div v-show="!session.ouverte">
-              <s>{{ session.fancyDate }}</s>
+              <s>{{ session.Date_a_ecrire_sur_le_site }}</s>
               <span class="fr-badge fr-badge--sm dg-inline fr-ml-1w"
                 >complet</span
               >
@@ -239,14 +239,6 @@
 
       <div v-show="futurOpenSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
-        <p v-if="futurOpenSessions.length == 1">
-          <strong>Prochaine session</strong> :
-          <span class="fr-badge fr-badge--green-tilleul-verveine"
-            >{{ futurOpenSessions[0].fancyDate }} de
-            {{ futurOpenSessions[0].debut }} à
-            {{ futurOpenSessions[0].fin }}</span
-          >
-        </p>
         <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">
           <p>
             <strong>Places limitées</strong> : chaque session est limitée à
@@ -275,7 +267,7 @@
             </select>
           </div>
           <div v-if="this.form.statut !== 'Prestataire'">
-            <div v-if="futurOpenSessions.length > 1" class="fr-form-group">
+            <div class="fr-form-group">
               <fieldset class="fr-fieldset">
                 <legend
                   class="fr-fieldset__legend fr-text--regular"
@@ -298,8 +290,7 @@
                       required
                     />
                     <label class="fr-label" :for="session.id">
-                      {{ session.fancyDate }} de {{ session.debut }} à
-                      {{ session.fin }}
+                      {{ session.Date_a_ecrire_sur_le_site }}
                       <span
                         class="fr-mt-1w fr-badge fr-badge--sm fr-badge--new"
                         v-if="session.lieuDeParticipation == 'Visioconférence'"
@@ -642,6 +633,7 @@
       tags
       sessions (sortBy: "date", order: ASC) {
         id
+        Date_a_ecrire_sur_le_site
         lieuDeParticipation
         date
         debut
@@ -712,20 +704,16 @@ export default {
       var futur = this.$page.cours.sessions
         .sort((a, b) => new Date(a.date * 1000) - new Date(b.date * 1000))
         .filter((session) => new Date(session.date * 1000) > Date.now());
-      futur.forEach((session) => {
-        var date = new Date(session.date * 1000).toLocaleDateString(undefined, {
-          weekday: "long",
-          year: "numeric",
-          month: "long",
-          day: "numeric",
-        });
-        session.fancyDate = date.charAt(0).toUpperCase() + date.slice(1);
-      });
-      console.log("Futur sessions : ", futur);
       return futur;
     },
     futurOpenSessions: function () {
-      return this.futurSessions.filter((session) => session.ouverte);
+      const futurOpenSessions = this.futurSessions.filter(
+        (session) => session.ouverte,
+      );
+      if (futurOpenSessions.length == 1) {
+        this.form.session = futurOpenSessions[0].id;
+      }
+      return futurOpenSessions;
     },
   },
   async mounted() {

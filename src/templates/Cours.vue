@@ -257,147 +257,6 @@
 
         <form class="form" v-on:submit.prevent="addParticipant">
           <p class="fr-text--sm">Tous les champs sont obligatoires.</p>
-          <div v-if="futurOpenSessions.length > 1" class="fr-form-group">
-            <fieldset class="fr-fieldset">
-              <legend
-                class="fr-fieldset__legend fr-text--regular"
-                id="radio-hint-legend"
-              >
-                Date de la session à laquelle vous souhaitez vous inscrire
-              </legend>
-              <div class="fr-fieldset__content">
-                <div
-                  v-bind:key="session.id"
-                  v-for="session in futurOpenSessions"
-                  class="fr-radio-group"
-                >
-                  <input
-                    type="radio"
-                    :id="session.id"
-                    :value="session.id"
-                    name="session"
-                    v-model="form.session"
-                    required
-                  />
-                  <label class="fr-label" :for="session.id">
-                    {{ session.fancyDate }} de {{ session.debut }} à
-                    {{ session.fin }}
-                    <span
-                      class="fr-mt-1w fr-badge fr-badge--sm fr-badge--new"
-                      v-if="session.lieuDeParticipation == 'Visioconférence'"
-                      >{{ session.lieuDeParticipation }}</span
-                    >
-                    <span
-                      v-else
-                      class="fr-mt-1w fr-badge fr-badge--sm fr-badge--no-icon"
-                      >Présentiel à Paris</span
-                    >
-                  </label>
-                </div>
-              </div>
-            </fieldset>
-          </div>
-          <div v-if="$page.cours.prerequis">
-            <!--
-						TODO : handle multiple prerequis
-						Just printing the first prerequis with [$page.cours.prerequis[0]] for now
-						-->
-            <fieldset class="fr-fieldset">
-              <legend
-                class="fr-fieldset__legend fr-text--regular"
-                id="prerequis-legend"
-              >
-                <span v-if="$page.cours.prerequis.type == 'Webinaire'"
-                  >Avez-vous suivi ou visionné la formation
-                  <em>{{ $page.cours.prerequis.nom }}</em> ?</span
-                >
-                <span v-if="$page.cours.prerequis.type == 'Atelier'"
-                  >Avez-vous déjà participé à l'atelier
-                  <em>{{ $page.cours.prerequis.nom }}</em> ?</span
-                >
-              </legend>
-              <div class="fr-fieldset__content">
-                <div class="fr-radio-group">
-                  <input
-                    type="radio"
-                    id="prerequis-1"
-                    name="prerequis"
-                    value="OK"
-                    v-model="form.prerequis"
-                    required
-                  />
-                  <label class="fr-label" for="prerequis-1">Oui</label>
-                </div>
-                <div class="fr-radio-group">
-                  <input
-                    type="radio"
-                    id="prerequis-2"
-                    name="prerequis"
-                    value="KO"
-                    v-model="form.prerequis"
-                    required
-                  />
-                  <label class="fr-label" for="prerequis-2">Non</label>
-                </div>
-              </div>
-            </fieldset>
-          </div>
-          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
-            <label class="fr-label" for="firstName">Votre prénom</label>
-            <input
-              class="fr-input"
-              type="text"
-              id="firstName"
-              v-model="form.firstName"
-              required
-            />
-          </div>
-          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
-            <label class="fr-label" for="lastName">Votre nom</label>
-            <input
-              class="fr-input"
-              type="text"
-              id="lastName"
-              v-model="form.lastName"
-              required
-            />
-          </div>
-          <div class="fr-input-group">
-            <label class="fr-label" for="email"
-              >Votre adresse e-mail<span v-if="$page.cours.type == 'Atelier'">
-                professionnelle</span
-              ><span class="fr-hint-text"
-                >L’adresse e-mail doit être au format prenom@mail.fr</span
-              ></label
-            >
-            <input
-              class="fr-input"
-              type="email"
-              id="email"
-              v-model="form.email"
-              required
-            />
-          </div>
-          <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
-            <label class="fr-label" for="city">Votre ville</label>
-            <input
-              class="fr-input"
-              type="text"
-              id="city"
-              v-model="form.city"
-              required
-            />
-          </div>
-          <div class="fr-input-group">
-            <label class="fr-label" for="job">Votre fonction</label>
-            <input
-              class="fr-input"
-              type="text"
-              id="job"
-              v-model="form.job"
-              required
-            />
-          </div>
           <div class="fr-select-group">
             <label class="fr-label" for="select-statut">Votre statut </label>
             <select
@@ -416,13 +275,155 @@
             </select>
           </div>
           <div v-if="this.form.statut !== 'Prestataire'">
+            <div v-if="futurOpenSessions.length > 1" class="fr-form-group">
+              <fieldset class="fr-fieldset">
+                <legend
+                  class="fr-fieldset__legend fr-text--regular"
+                  id="radio-hint-legend"
+                >
+                  Date de la session à laquelle vous souhaitez vous inscrire
+                </legend>
+                <div class="fr-fieldset__content">
+                  <div
+                    v-bind:key="session.id"
+                    v-for="session in futurOpenSessions"
+                    class="fr-radio-group"
+                  >
+                    <input
+                      type="radio"
+                      :id="session.id"
+                      :value="session.id"
+                      name="session"
+                      v-model="form.session"
+                      required
+                    />
+                    <label class="fr-label" :for="session.id">
+                      {{ session.fancyDate }} de {{ session.debut }} à
+                      {{ session.fin }}
+                      <span
+                        class="fr-mt-1w fr-badge fr-badge--sm fr-badge--new"
+                        v-if="session.lieuDeParticipation == 'Visioconférence'"
+                        >{{ session.lieuDeParticipation }}</span
+                      >
+                      <span
+                        v-else
+                        class="fr-mt-1w fr-badge fr-badge--sm fr-badge--no-icon"
+                        >Présentiel à Paris</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+            <div v-if="$page.cours.prerequis">
+              <!--
+						TODO : handle multiple prerequis
+						Just printing the first prerequis with [$page.cours.prerequis[0]] for now
+						-->
+              <fieldset class="fr-fieldset">
+                <legend
+                  class="fr-fieldset__legend fr-text--regular"
+                  id="prerequis-legend"
+                >
+                  <span v-if="$page.cours.prerequis.type == 'Webinaire'"
+                    >Avez-vous suivi ou visionné la formation
+                    <em>{{ $page.cours.prerequis.nom }}</em> ?</span
+                  >
+                  <span v-if="$page.cours.prerequis.type == 'Atelier'"
+                    >Avez-vous déjà participé à l'atelier
+                    <em>{{ $page.cours.prerequis.nom }}</em> ?</span
+                  >
+                </legend>
+                <div class="fr-fieldset__content">
+                  <div class="fr-radio-group">
+                    <input
+                      type="radio"
+                      id="prerequis-1"
+                      name="prerequis"
+                      value="OK"
+                      v-model="form.prerequis"
+                      required
+                    />
+                    <label class="fr-label" for="prerequis-1">Oui</label>
+                  </div>
+                  <div class="fr-radio-group">
+                    <input
+                      type="radio"
+                      id="prerequis-2"
+                      name="prerequis"
+                      value="KO"
+                      v-model="form.prerequis"
+                      required
+                    />
+                    <label class="fr-label" for="prerequis-2">Non</label>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+            <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
+              <label class="fr-label" for="firstName">Votre prénom</label>
+              <input
+                class="fr-input"
+                type="text"
+                id="firstName"
+                v-model="form.firstName"
+                required
+              />
+            </div>
+            <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
+              <label class="fr-label" for="lastName">Votre nom</label>
+              <input
+                class="fr-input"
+                type="text"
+                id="lastName"
+                v-model="form.lastName"
+                required
+              />
+            </div>
+            <div class="fr-input-group">
+              <label class="fr-label" for="email"
+                >Votre adresse e-mail<span v-if="$page.cours.type == 'Atelier'">
+                  professionnelle</span
+                ><span class="fr-hint-text"
+                  >L’adresse e-mail doit être au format prenom@mail.fr</span
+                ></label
+              >
+              <input
+                class="fr-input"
+                type="email"
+                id="email"
+                v-model="form.email"
+                required
+              />
+            </div>
+            <div v-if="$page.cours.type == 'Atelier'" class="fr-input-group">
+              <label class="fr-label" for="city">Votre ville</label>
+              <input
+                class="fr-input"
+                type="text"
+                id="city"
+                v-model="form.city"
+                required
+              />
+            </div>
+            <div class="fr-input-group">
+              <label class="fr-label" for="job">Votre fonction</label>
+              <input
+                class="fr-input"
+                type="text"
+                id="job"
+                v-model="form.job"
+                required
+              />
+            </div>
             <div class="fr-select-group">
               <label class="fr-label" for="select-ministeres"
                 >Votre ministère
                 <span class="fr-hint-text"
                   >Indiquer le périmètre ministériel principal de votre
-                  administration ou, le cas échéant, si vous travaillez pour une
-                  collectivité</span
+                  administration ou, le cas échéant, si vous travaillez pour la
+                  fonction publique territoriale ou la fonction publique
+                  hospitalière</span
                 ></label
               >
               <select
@@ -564,8 +565,9 @@
             <p>
               <small
                 >Les données recueillies sur ce formulaire sont traitées par les
-                équipes de la DINUM. Elles nous permettent de vous informer via
-                e-mail des nouvelles liées à cet événement.</small
+                équipes de la Direction interministérielle du numérique. Elles
+                nous permettent de vous informer via e-mail des nouvelles liées
+                à cet événement.</small
               >
             </p>
             <p>
@@ -719,6 +721,7 @@ export default {
         });
         session.fancyDate = date.charAt(0).toUpperCase() + date.slice(1);
       });
+      console.log("Futur sessions : ", futur);
       return futur;
     },
     futurOpenSessions: function () {

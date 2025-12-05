@@ -15,7 +15,7 @@
     <!-- Profiles -->
     <template v-if="profiles.length">
       pour
-      <template :key="p" v-for="(p, i) in profiles">
+      <template v-for="(p, i) in profiles">
         <template v-if="i !== 0"> ou </template>
         <strong>{{ p }}</strong>
       </template>
@@ -24,7 +24,7 @@
     <!-- References -->
     <template v-if="references.length">
       dans
-      <template :key="r" v-for="(r, j) in references">
+      <template v-for="(r, j) in references">
         <template v-if="j !== 0"> ou </template>
         <strong>{{ r }}</strong>
       </template> </template

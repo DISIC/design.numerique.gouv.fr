@@ -243,7 +243,8 @@
             <span aria-hidden="true">✔️</span>
           </div>
           <div class="">
-            <span class="fr-h6">Concevoir et développer de façon itérative.</span
+            <span class="fr-h6"
+              >Concevoir et développer de façon itérative.</span
             ><br />
             Découper et prioriser les travaux, faire évoluer le service
             progressivement.
@@ -302,7 +303,8 @@
             <span aria-hidden="true">👐</span>
           </div>
           <div class="">
-            <span class="fr-h6">Bâtir avec les autres et travailler ouvert.</span
+            <span class="fr-h6"
+              >Bâtir avec les autres et travailler ouvert.</span
             ><br />
             Ne pas réinventer la roue, produire du design et code ouvert,
             accueillir la contribution.
@@ -480,11 +482,11 @@
                   <h3 class="fr-h6 fr-card__title">
                     <g-link
                       :to="
-                        ’/formations/’ +
+                        '/formations/' +
                         node.formation.slug +
-                        ’/’ +
+                        '/' +
                         node.slug +
-                        ’/’
+                        '/'
                       "
                       class="fr-card__link"
                       >{{ node.nom }}</g-link

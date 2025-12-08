@@ -90,7 +90,21 @@ li.fr-card {
   &-list {
     &-no-decoration {
       list-style: none;
+      list-style-type: none;
       padding-left: 0;
+
+      > li::marker {
+        content: none;
+      }
+    }
+
+    &-markdown {
+      p {
+        margin-bottom: 0.5rem;
+      }
+      ul {
+        margin-left: 1rem;
+      }
     }
   }
 
@@ -153,7 +167,7 @@ li.fr-card {
   }
 
   &-content {
-    margin: 0 auto;
+    margin: 0 auto !important;
     max-width: $md-width;
 
 
@@ -214,6 +228,18 @@ li.fr-card {
         width: 3.5rem;
         height: 3.5rem;
         font-size: 1.25rem;
+      }
+    }
+
+    &--md {
+      width: 3rem;
+      height: 3rem;
+      font-size: 1.125rem;
+
+      @media only screen and (max-width: $sm-point) {
+        width: 2rem;
+        height: 2rem;
+        font-size: 0.9375rem;
       }
     }
 

@@ -28,10 +28,10 @@
         </h1>
         <p class="fr-text--lead">
           Le design permet la création services numériques
-          <strong>simples</strong> et <strong>inclusifs</strong>. Concevoir par le design, c’est mettre en
-          œuvre une approche centrée sur <strong>les usagers</strong> et
-          <strong>leurs besoins</strong>, tout en s’appuyant sur
-          <strong>de bonnes pratiques</strong> reconnues.
+          <strong>simples</strong> et <strong>inclusifs</strong>. Concevoir par
+          le design, c’est mettre en œuvre une approche centrée sur
+          <strong>les usagers</strong> et <strong>leurs besoins</strong>, tout
+          en s’appuyant sur <strong>de bonnes pratiques</strong> reconnues.
         </p>
         <ul class="fr-tags-group">
           <li>
@@ -53,14 +53,14 @@
       </div>
     </section>
 
-    <section class="dg-content fr-px-2w">
+    <section class="dg-content fr-px-0 fr-px-md-2w">
       <div class="fr-highlight fr-highlight--pink-macaron fr-my-8w">
         <p class="fr-text--lg">
           <strong
             ><span aria-hidden="true">🇫🇷 </span>L’État a la responsabilité de
-            créer des services numériques simples et inclusifs pour
-            toutes et tous. En écoutant, en comprenant et en impliquant les
-            personnes qui utilisent nos services numériques.
+            créer des services numériques simples et inclusifs pour toutes et
+            tous. En écoutant, en comprenant et en impliquant les personnes qui
+            utilisent nos services numériques.
             <span aria-hidden="true">👶🏻🧒🏾🧑🏼🧑🏽‍🦱🧑🏾‍🦰👱🏼🧑🏽‍🦳🧑🏼‍🦲🧔🏾🧓🏽👳🏻</span></strong
           >
         </p>

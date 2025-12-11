@@ -7,9 +7,9 @@ illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
 description: "La direction interministérielle du numérique (Dinum) propose de nouvelles sessions de ses neuf ateliers de formation pour améliorer les services publics en ligne avec, en nouveauté, l’atelier « Rédaction : simplifier l’information pour les usagers »"
 ---
 
-<p class="fr-text--lead">La direction interministérielle du numérique (Dinum) propose de nouvelles sessions de ses neuf ateliers de formation pour améliorer les services publics en ligne avec, en nouveauté, l’atelier «&nbsp;Rédaction&nbsp;: simplifier l’information pour les usagers&nbsp;»</p>
-<p>Les ateliers s’adressent <em>exclusivement</em> <strong>aux agents et salariés des services publics</strong>, et en priorité aux agents publics d’État. Ils ont lieu sur <strong>une ou deux journées</strong> et rassemblent une vingtaine de participants pour faciliter les échanges.</p> 
-<p>Ils ont lieu <strong>en présentiel</strong> dans le 7e arrondissement de Paris&nbsp;; toutefois, nous proposons aussi des sessions spécifiques <strong>en visioconférence pour les agents éloignés de Paris</strong>.</p>
+<p class="fr-text--lead">La direction interministérielle du numérique (Dinum) propose de nouvelles sessions de ses neuf ateliers de formation pour améliorer les services publics en ligne avec, en nouveauté, l’atelier «&nbsp;Rédaction&nbsp;: simplifier l’information pour les usagers et usagères&nbsp;»</p>
+<p>Les ateliers s’adressent <em>exclusivement</em> <strong>aux agent·es et salarié·es des services publics</strong>, et en priorité aux agent·es publics d’État. Ils ont lieu sur <strong>une ou deux journées</strong> et rassemblent une vingtaine de participant·es pour faciliter les échanges.</p> 
+<p>Ils ont lieu <strong>en présentiel</strong> dans le 7e arrondissement de Paris&nbsp;; toutefois, nous proposons aussi des sessions spécifiques <strong>en visioconférence pour les agent·es éloigné·es de Paris</strong>.</p>
 <p>Pour plus d’information et s’inscrire, il suffit de cliquer sur les intitulés des formations&nbsp;!</p>
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
@@ -40,7 +40,7 @@ Prendre en compte l’accessibilité dans toutes les étapes de design d’un se
 - 24 mars – présentiel
 - 5 mai – visioconférence
 
-<h2 class="fr-mt-4w fr-h6"><a href="/formations/design/atelier-redaction/">NOUVEAU&nbsp;! Rédaction&nbsp;: simplifier l’information pour les usagers</a></h2>
+<h2 class="fr-mt-4w fr-h6"><span class="fr-badge fr-badge--pink-macaron">NOUVEAU&nbsp;!</span> <a href="/formations/design/atelier-redaction/">Rédaction&nbsp;: simplifier l’information pour les usagers</a></h2>
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 - 26 mars – visioconférence
@@ -48,9 +48,9 @@ Prendre en compte l’accessibilité dans toutes les étapes de design d’un se
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Tests utilisateurs&nbsp;: évaluer un service avec les usagers</a></h2>
 
-Savoir préparer et animer des tests avec les usagers pour améliorer les parcours.
+Savoir préparer et animer des tests avec les usager et usagères pour améliorer les parcours.
 <div class="fr-callout fr-icon-information-line">
-    <p class="fr-callout__text">Nouveau format&nbsp;! La formation se tient sur deux jours (il n’est pas possible d’assister à une seule des deux journées), avec des usagers recrutés spécialement pour la formation&nbsp;!</p>
+    <p class="fr-callout__text"><strong>Nouveau format&nbsp;!</strong><br>La formation se tient sur deux jours (il n’est pas possible d’assister à une seule des deux journées), avec des usagers et usagères recrutées spécialement pour la formation&nbsp;!</p>
 </div>
 
 - 10 et 11 mars – présentiel 

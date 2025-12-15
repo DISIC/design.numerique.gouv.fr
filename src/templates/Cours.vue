@@ -237,7 +237,7 @@
         moment.
       </p>
       <p v-if="$page.cours.slug == 'atelier-test-usager'" class="dg-inline-block fr-mb-1w">
-        <span class="fr-badge  fr-badge--new fr-badge-sm">Attention !</span> Cette formation se déroule sur deux jours consécutifs et il est impératif d’assister à l’intégralité.
+        <span class="fr-badge  fr-badge--new fr-badge-sm">Attention !</span> Cette formation se déroule sur <strong>deux jours consécutifs</strong> et il est <strong>impératif d’assister à l’intégralité</strong>.
       </p>
       <div v-show="futurOpenSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>

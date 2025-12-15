@@ -236,7 +236,9 @@
         <strong>Prochaine session</strong> : aucune session de prévue pour le
         moment.
       </p>
-
+      <p v-if="$page.cours.slug == 'atelier-test-usager'" class="dg-inline-block fr-mb-1w">
+        <span class="fr-badge  fr-badge--new fr-badge-sm">Attention !</span> Cette formation se déroule sur deux jours consécutifs et il est impératif d’assister à l’intégralité.
+      </p>
       <div v-show="futurOpenSessions.length >= 1">
         <h2 class="fr-mt-6w">Inscription</h2>
         <div v-if="$page.cours.places" class="fr-alert fr-alert--info fr-my-4w">

@@ -88,16 +88,15 @@
         <figcaption>
           <p class="fr-quote__source">RGAA - 16 septembre 2019</p>
         </figcaption>
-        Pour réaliser un audit de conformité, vous devez connaître le RGAA, ses critères et tests, ses termes du glossaire et savoir utiliser les aides techniques comme les synthèses vocales les plus courantes.
-        Vous pouvez utiliser <img src="assets/images/logo_Ara_bleu.jpg" alt="Ara majoritairement bleu très stylé" /> ou bien la vieille grille d’audit. Les deux sont mis a disposition par la Dinum.
+
         
         
         <div class="fr-callout fr-mb-6v fr-icon-alert-line fr-callout--yellow-moutarde fr-mt-4w">
         <h3  class="fr-callout__title">Aucun site n’a jamais été conforme par accident</h3>
-        <p  class="fr-callout__text">Si aucune personne de l'équipe n’a pris en compte les critères du RGAA lors des phases de conception, développement, test,  recette et rédaction de contenu alors le site ne sera <strong>ni accessible ni conforme</strong> aux utilisateur·ices en situation de handicap (ou non). </p>
+        <p  class="fr-callout__text">Si aucune personne de l'équipe n’a pris en compte les critères du RGAA lors des phases de conception, développement, test,  recette et rédaction de contenu alors le site ne sera <strong>ni accessible ni conforme</strong> aux utilisateur·ices en situation de handicap (ou non) 🧒🏾👨🏻‍🦯🧑🏼🧑🏽‍🦱👩🏿‍🎓👱🏼🧑🏽‍🦳👨🏻‍🌾🧑🏼🧑🏽‍🦼‍➡️🧔🏾🧓🏽🧏‍♀️👳🏻.</p>
         </div>
- 
- 
+        <p>Pour réaliser un audit de conformité, vous devez connaître le RGAA, ses critères et tests, ses termes du glossaire et savoir utiliser les aides techniques comme les synthèses vocales les plus courantes.</p>
+        <p>Vous pouvez utiliser <img width="25" src="/assets/images/logo_Ara_bleu.jpg" alt="un perroquet plutôt bleu vraiment très stylé" /> ou bien la vieille grille d’audit. Les deux sont mis a disposition par la Dinum.</p>
       </div>
     </div>
 

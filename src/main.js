@@ -2,7 +2,8 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from '~/layouts/Default.vue'
-import ExerciseLayout from '~/layouts/Exercise.vue'
+import ExerciceLayout from '~/layouts/Exercice.vue'
+import AtelierLayout from '~/layouts/Atelier.vue'
 import slugify from '@sindresorhus/slugify'
 
 import '~/assets/scss/styles.scss'
@@ -139,7 +140,8 @@ library.add(
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
-  Vue.component('Exercise', ExerciseLayout)
+  Vue.component('Atelier', AtelierLayout)
+  Vue.component('Exercice', ExerciceLayout)
   head.link.push({
     rel: 'stylesheet',
     href: '/assets/dsfr/utility/utility.min.css'

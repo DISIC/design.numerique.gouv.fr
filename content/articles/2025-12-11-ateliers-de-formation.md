@@ -16,8 +16,8 @@ description: "La direction interministérielle du numérique (Dinum) propose de 
 
 Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant, quel que soit votre niveau de connaissance initial de l’accessibilité numérique.
 - ~~10 février – présentiel~~ complet !
+- <span class="fr-badge fr-badge--pink-macaron">Nouvelle session&nbsp;!</span> 14 avril - présentiel
 - ~~5 mai – visioconférence~~ complet !
-_Nous organiserons prochainement de nouvelles sessions_.
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité avec le Référentiel général d’amélioration de l’accessibilité (RGAA)</a></h2>
 
@@ -34,7 +34,7 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants&nbsp;: Microsoft Word et LibreOffice Writer.
 - ~~12 février – présentiel~~ annulé :(
 - ~~2 avril – visioconférence~~ complet ! 
-_Nous organiserons prochainement de nouvelles sessions_.
+- <span class="fr-badge fr-badge--pink-macaron">Nouvelle session&nbsp;!</span> 16 avril - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Accessibilité numérique et design</a></h2>
 

@@ -20,9 +20,7 @@
             <div class="fr-header__operator">
               <g-link to="/">
                 <img svg-inline src="../assets/images/logoDesignGouv.svg" class="fr-header__service-title" aria-label="Accueil - DesignGouv"/>
-                <!--
-                  p class="fr-header__service-tagline fr-text--sm">par la brigade d’intervention numérique de la Direction interministérielle du numérique</p>
-                -->
+                  <!--p class="fr-header__service-tagline fr-text--sm">par le pôle design & accessibilité de la Direction interministérielle du numérique</p-->
               </g-link>
             </div>
           </div>

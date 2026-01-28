@@ -441,7 +441,7 @@
               plusieurs dispositifs pour vous aider.
             </p>
 
-            <h4 class="fr-h6 fr-mb-2w">La brigade d’intervention numérique</h4>
+            <h4 class="fr-h6 fr-mb-2w">Le pôle Design et Accessibilité</h4>
             <p class="fr-mb-2w">
               Faites intervenir gratuitement au sein de votre équipe des experts
               du design, de la recherche utilisateur et de l’accessibilité
@@ -450,7 +450,7 @@
             <a
               href="/accompagnement/"
               class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter la brigade</a
+              >Contacter le pôle Design et Accessibilité </a
             >
 
             <h4 class="fr-h6 fr-mb-2w">Le financement FTAP</h4>
@@ -499,14 +499,14 @@
 
             <h4 class="fr-h6 fr-mb-2w">Les formations sur mesure</h4>
             <p class="fr-mb-2w">
-              La brigade d’intervention numérique propose des formations au
+              Le pôle Design et Accessibilité propose des formations au
               design, à la recherche utilisateur et à l’accessibilité numérique
               sur mesure.
             </p>
             <a
               href="/accompagnement/"
               class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter la brigade</a
+              >Contacter le pôle Design et Accessibilité </a
             >
           </div>
         </section>
@@ -546,13 +546,13 @@
 
             <h4 class="fr-h6 fr-mb-2w">Avec un accompagnement</h4>
             <p class="fr-mb-2w">
-              La brigade d’intervention numérique peut vous aider à tester vos
+              LLe pôle Design et Accessibilité  peut vous aider à tester vos
               produits et services numériques auprès de vos utilisateurs
             </p>
             <a
               href="/accompagnement/"
               class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter la brigade</a
+              >Contacter le pôle Design et Accessibilité </a
             >
           </div>
         </section>
@@ -589,13 +589,13 @@
 
             <h4 class="fr-h6 fr-mb-2w">Avec un audit</h4>
             <p class="fr-mb-2w">
-              La brigade d’intervention numérique peut réaliser un audit de
+              Le pôle Design et Accessibilité peut réaliser un audit de
               votre service ou produit numérique.
             </p>
             <a
               href="/accompagnement/"
               class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter la brigade</a
+              >Contacter le pôle Design et Accessibilité </a
             >
           </div>
         </section>

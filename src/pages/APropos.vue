@@ -22,10 +22,10 @@
             svg-inline
             src="../assets/images/recrutement-picto.svg"
             aria-hidden="true"
-          />La brigade d’intervention numérique
+          />Le pôle Design et Accessibilité 
         </h1>
         <p class="fr-text--lead">
-          La brigade d’intervention numérique fait partie de la
+          Le pôle Design et Accessibilité fait partie de la
           <a
             href="https://www.numerique.gouv.fr/dinum/"
             target="_blank"
@@ -78,7 +78,7 @@
           compétences de design dans les administrations.
         </p>
         <p>
-          La brigade d’intervention numérique est rattachée à la
+          Le pôle Design et Accessibilité est rattaché à la
           <a
             href="https://numerique.gouv.fr"
             title="direction interministérielle du numérique - Nouvelle fenêtre"

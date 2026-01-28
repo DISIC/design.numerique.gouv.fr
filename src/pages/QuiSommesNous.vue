@@ -27,7 +27,7 @@
           />Qui sommes-nous&nbsp;?
         </h1>
         <p class="fr-text--lead">
-          DesignGouv est animé par la brigade d‘intervention numérique, qui fait
+          DesignGouv est animé par le pôle Design et Accessibilité , qui fait
           partie de la
           <a
             href="https://www.numerique.gouv.fr/dinum/"
@@ -75,7 +75,7 @@
           dans les administrations.
         </p>
         <p>
-          La brigade d’intervention numérique est rattachée à la
+          Le pôle Design et Accessibilité est rattaché à la
           <a
             href="https://numerique.gouv.fr"
             title="direction interministérielle du numérique - Nouvelle fenêtre"
@@ -85,7 +85,7 @@
           >.
         </p>
       </section>
-
+<!--
       <section class="fr-mb-8w">
         <h2>Notre équipe</h2>
         <ul class="dg-team">
@@ -131,6 +131,8 @@
           </li>
         </ul>
       </section>
+
+-->
     </div>
   </Layout>
 </template>
@@ -163,7 +165,7 @@ export default {
       {
         name: "description",
         content:
-          "La brigade d‘intervention numérique de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes.",
+          "Le pôle Design et Accessibilité de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes.",
       },
       {
         property: "og:title",
@@ -172,7 +174,7 @@ export default {
       {
         property: "og:description",
         content:
-          "La brigade d‘intervention numérique de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes.",
+          "Le pôle Design et Accessibilité de la direction interministérielle du numérique peut vous aider à améliorer l‘expérience des services publics numériques des citoyens et citoyennes.",
       },
       {
         property: "og:image",

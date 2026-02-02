@@ -15,8 +15,9 @@ description: "La direction interministérielle du numérique (Dinum) propose de 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-pratique/">L’accessibilité numérique dans la pratique</a></h2>
 
 Intégrer concrètement l’accessibilité dans les services publics numériques, en projet ou existant, quel que soit votre niveau de connaissance initial de l’accessibilité numérique.
-- 10 février – présentiel
-- 5 mai – visioconférence
+- ~~10 février – présentiel~~ complet !
+- <span class="fr-badge fr-badge--pink-macaron">Nouvelle session&nbsp;!</span> 14 avril - présentiel
+- ~~5 mai – visioconférence~~ complet !
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité avec le Référentiel général d’amélioration de l’accessibilité (RGAA)</a></h2>
 
@@ -31,8 +32,9 @@ Contrôler l’accessibilité des interfaces comme premier pas vers l’audit de
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF accessible avec un traitement de texte</a></h2>
 
 Créer des documents PDF accessibles aux personnes handicapées, avec les logiciels bureautiques courants&nbsp;: Microsoft Word et LibreOffice Writer.
-- 12 février – présentiel
-- 2 avril – visioconférence 
+- ~~12 février – présentiel~~ annulé :(
+- ~~2 avril – visioconférence~~ complet ! 
+- <span class="fr-badge fr-badge--pink-macaron">Nouvelle session&nbsp;!</span> 16 avril - présentiel
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-accessibilite-designer/">Accessibilité numérique et design</a></h2>
 
@@ -42,8 +44,8 @@ Prendre en compte l’accessibilité dans toutes les étapes de design d’un se
 
 <h2 class="fr-mt-4w fr-h6"><span class="fr-badge fr-badge--pink-macaron">NOUVEAU&nbsp;!</span> <a href="/formations/design/atelier-redaction/">Rédaction&nbsp;: simplifier l’information pour les usagers</a></h2>
 
-Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
-- 26 mars – visioconférence
+Rédiger des textes clairs, conçus pour simplifier l’expérience de votre audience.
+- ~~26 mars – visioconférence~~ complet !
 - 21 mai – présentiel 
 
 <h2 class="fr-mt-4w fr-h6"><a href="/formations/recherche-utilisateur/atelier-test-usager/">Tests utilisateurs&nbsp;: évaluer un service avec les usagers</a></h2>

@@ -6,7 +6,7 @@ cat: 1
 tag: non
 ---
 
-Merci de venir d’être venu partager votre ressenti. Il s’agit certainement d’une question purement rhétorique destinée à faire valoir des compétences et une expérience que nous ne contestons pas, même s’il y a un soupçon de suffisance dans la formulation&nbsp;; nous allons malgré tout prendre le temps de répondre.
+Merci de venir partager votre ressenti. Il s’agit certainement d’une question purement rhétorique destinée à faire valoir des compétences et une expérience que nous ne contestons pas, même s’il y a un soupçon de suffisance dans la formulation&nbsp;; nous allons malgré tout prendre le temps de répondre.
 
 Pour que nous parlions bien de la même chose&nbsp;: le design, ça n’est *pas* l’aspect esthétique que l’on rend original ou moderne - c’est même le contraire de tout ce qui est superficiel. Le mot en français le plus proche pour traduire «&nbsp;design&nbsp;», c’est «&nbsp;conception&nbsp;».
 

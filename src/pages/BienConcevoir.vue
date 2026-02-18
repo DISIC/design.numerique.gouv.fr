@@ -359,7 +359,7 @@
           et accompagne sur ce sujet
         </li>
         <li>
-          <strong>L’expertise numérique responsable</strong> qqui guide, forme
+          <strong>L’expertise numérique responsable</strong> qui guide, forme
           et accompagne sur ce sujet
         </li>
         <li>

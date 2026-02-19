@@ -27,13 +27,13 @@ Lors de cette première soirée, nous découvrirons l’importance d’aller à 
 **[Revoir l’événement « Répondre à des besoins concrets »](https://www.youtube.com/watch?v=6hsc_hCOhVo&list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo&index=3){title="Revoir l’événement Répondre à des besoins concrets - nouvelle fenêtre"}**
 
 ### 18h00
-Ouverture de l’événement par [Amélie de Montchalin](https://twitter.com/ademontchalin){title="Amélie de Montchalin sur Twitter - nouvelle fenêtre"}, Ministre de la Transformation et de la Fonction publiques et [Nadi Bou Hanna](https://fr.linkedin.com/in/nadi-bou-hanna){title="Nadi Bou Hanna  sur linkedin - nouvelle fenêtre"}, directeur interministériel du numérique.
+Ouverture de l’événement par Amélie de Montchalin, Ministre de la Transformation et de la Fonction publiques et Nadi Bou Hanna, directeur interministériel du numérique.
 
 ### 18h10
-Retour sur le Commando [Contestation de contravention](/commando-ux/defi-contestation-contravention) avec [Lola Charpentier](/equipe/lola-charpentier/), [Manon Oresve](/equipe/manon-oresve/) et [Lucile Foraison](/equipe/lucile-foraison/).
+Retour sur le Commando Contestation de contravention avec Lola Charpentier, Manon Oresve et Lucile Foraison.
 
 ### 18h30
-Table ronde animée par [Ugo Dessertine](/equipe/ugo-dessertine), lead designer au sein du pôle design des services numériques.
+Table ronde animée par Ugo Dessertine, lead designer au sein du pôle design des services numériques.
 
 Autour de cette table virtuelle :
 <div class="guests">
@@ -41,15 +41,15 @@ Autour de cette table virtuelle :
 
 ![Kheira Belkacem](./illustrations/2021-03-21-evenement/kheira-belkacem.jpeg)
 
-**[Kheira Belkacem](https://www.linkedin.com/in/kbelkacem){title="Kheira Belkacem sur linkedin - nouvelle fenêtre"}**<br>
-Experte en recherche utilisateur anciennement à la direction interministérielle du numérique (DINUM)
+**Kheira Belkacem**<br>
+Experte en recherche utilisateur
 
 </div>
 <div>
 
 ![Louis Beziau](./illustrations/2021-03-21-evenement/louis-beziau.jpeg)
 
-**[Louis Beziau](https://www.linkedin.com/in/louisbeziau/){title="Louis Beziau sur linkedin - nouvelle fenêtre"}**<br>
+**Louis Beziau**<br>
 Designer et co-directeur du studio de design Les Sismo
 
 </div>
@@ -57,7 +57,7 @@ Designer et co-directeur du studio de design Les Sismo
 
 ![Alexandre Gardette](./illustrations/2021-03-21-evenement/alexandre-gardette.jpeg)
 
-**[Alexandre Gardette](https://www.linkedin.com/in/alexandre-gardette-a1309235/){title="Alexandre Gardette sur linkedin - nouvelle fenêtre"}**<br>
+**Alexandre Gardette**<br>
 Chef de la Mission France Recouvrement
 
 </div>
@@ -65,7 +65,7 @@ Chef de la Mission France Recouvrement
 
 ![Camille Rozier](./illustrations/2021-03-21-evenement/camille-rozier.jpeg)
 
-**[Camille Rozier](https://fr.linkedin.com/in/camille-rozier-phd-489aa033){title="Camille Rozier sur linkedin - nouvelle fenêtre"}**<br>
+**Camille Rozier**<br>
 Docteure en sciences comportementales à la direction interministérielle de la transformation publique (DITP)
 
 </div>
@@ -78,13 +78,13 @@ Nous sommes toutes et tous différents derrière nos écrans. Que nous soyons en
 **[Revoir l’événement « Des services pour toutes et tous, accessibles & inclusifs »](https://www.youtube.com/watch?v=uL476FeyUH4&list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo&index=4){title="Revoir l’événement Des services pour toutes et tous, accessibles & inclusifs - nouvelle fenêtre"}**
 
 ### 18h00
-Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.
+Introduction de la soirée par Marine Boudeau, cheffe du pôle design des services numériques.
 
 ### 18h10
-Retour sur le Commando [Place de l’emploi public](/commando-ux/defi-postuler-emploi-public) avec [Julie Leroy](/equipe/julie-leroy/) et [Édouard Sastre](/equipe/edouard-sastre/).
+Retour sur le Commando Place de l’emploi public avec Julie Leroy et Édouard Sastre.
 
 ### 18h30
-Table ronde animée par [Anthony Brunelli](/equipe/anthony-brunelli), chargé de mission au sein du pôle design des services numériques.
+Table ronde animée par Anthony Brunelli, chargé de mission au sein du pôle design des services numériques.
 
 Autour de cette table virtuelle :
 <div class="guests">
@@ -92,7 +92,7 @@ Autour de cette table virtuelle :
 
 ![Gwenaëlle Brochoire](./illustrations/2021-03-21-evenement/gwenaelle-brochoire.jpeg)
 
-**[Gwenaëlle Brochoire](https://www.linkedin.com/in/gwenaellebrochoire/){title="Gwenaëlle Brochoire sur linkedin - nouvelle fenêtre"}**<br>
+**Gwenaëlle Brochoire**<br>
 Designer de service inclusive et co-fondatrice de Oocity
 
 </div>
@@ -100,7 +100,7 @@ Designer de service inclusive et co-fondatrice de Oocity
 
 ![Géraldine Da Sylva](./illustrations/2021-03-21-evenement/geraldine-da-sylva.jpeg)
 
-**[Géraldine Da Sylva](https://www.linkedin.com/in/gdasylva/){title="Géraldine Da Sylva sur linkedin - nouvelle fenêtre"}**<br>
+**Géraldine Da Sylva**<br>
 Cheffe de produit Service-Public.fr à la direction de l’information légale et administrative (DILA)
 
 </div>
@@ -108,7 +108,7 @@ Cheffe de produit Service-Public.fr à la direction de l’information légale e
 
 ![Fernando Pinto da Silva](./illustrations/2021-03-21-evenement/fernando-pinto-da-silva.jpeg)
 
-**[Fernando Pinto da Silva](https://www.linkedin.com/in/fpintodasilva){title="Fernando Pinto da Silva sur linkedin - nouvelle fenêtre"}**<br>
+**Fernando Pinto da Silva**<br>
 Chargé de mission stratégie numérique, Fédération des Aveugles et Amblyopes de France
 
 </div>
@@ -121,13 +121,13 @@ Nous devons produire des services maintenables, désirables, compréhensibles, s
 **[Revoir l’événement « L’art de gouverner »](https://www.youtube.com/watch?v=Sm26uzOqFys&list=PLzwHdQWfGYgaaSrJNhXYLegMdQlX3AQmo&index=5){title="Revoir l’art de gouverner - nouvelle fenêtre"}**
 
 ### 18h00
-Introduction de la soirée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.
+Introduction de la soirée par Marine Boudeau, cheffe du pôle design des services numériques.
 
 ### 18h10
-Retour sur le Commando [Titre de séjour](/commando-ux/defi-titre-de-sejour) avec [Pierre-Brice Haurie](/equipe/pierre-brice-haurie/) et [Améziane Allioui](/equipe/ameziane-allioui/).
+Retour sur le Commando Titre de séjour avec Pierre-Brice Haurie et Améziane Allioui.
 
 ### 18h30
-Table ronde animée par [Marine Boudeau](/equipe/marine-boudeau), cheffe du pôle design des services numériques.
+Table ronde animée par Marine Boudeau, cheffe du pôle design des services numériques.
 
 Autour de cette table virtuelle :
 <div class="guests">
@@ -135,7 +135,7 @@ Autour de cette table virtuelle :
 
 ![Geoffrey Arthaud](./illustrations/2021-03-21-evenement/geoffrey-arthaud.jpeg)
 
-**[Geoffrey Arthaud](https://www.linkedin.com/in/geoffreyarthaud/){title="Geoffrey Arthaud sur linkedin - nouvelle fenêtre"}**<br>
+**Geoffrey Arthaud**<br>
 Responsable des pratiques Agiles au Service du Numérique du Ministère de la Transition Écologique
 
 </div>
@@ -143,7 +143,7 @@ Responsable des pratiques Agiles au Service du Numérique du Ministère de la Tr
 
 ![Hela Ghariani](./illustrations/2021-03-21-evenement/hela-ghariani.jpeg)
 
-**[Hela Ghariani](https://www.linkedin.com/in/hela-ghariani-10208566/){title="Hela Ghariani sur linkedin - nouvelle fenêtre"}**<br>
+**Hela Ghariani**<br>
 Directrice de projets à la délégation du numérique en santé
 
 </div>
@@ -151,7 +151,7 @@ Directrice de projets à la délégation du numérique en santé
 
 ![Apolline Le Gall](./illustrations/2021-03-21-evenement/apolline-le-gall.jpeg)
 
-**[Apolline Le Gall](https://www.linkedin.com/in/apolline-le-gall/){title="Apolline Le Gall sur linkedin - nouvelle fenêtre"}**<br>
+**Apolline Le Gall**<br>
 Chercheuse, co-Fondatrice de l’agence Où sont les Dragons
 
 </div>
@@ -159,7 +159,7 @@ Chercheuse, co-Fondatrice de l’agence Où sont les Dragons
 
 ![Stéphane Vincent](./illustrations/2021-03-21-evenement/stephane-vincent.jpeg)
 
-**[Stéphane Vincent](https://www.linkedin.com/in/svincent/){title="Stéphane Vincent sur linkedin - nouvelle fenêtre"}**<br>
+**Stéphane Vincent**<br>
   Cofondateur de la 27<sup>e</sup> Région
 
 </div>

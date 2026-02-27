@@ -13,7 +13,7 @@
             </li>
             <li>
               <a class="fr-breadcrumb__link" aria-current="page"
-                >Bien concevoir</a
+                >Concevoir un service public numérique de qualilté</a
               >
             </li>
           </ol>
@@ -24,7 +24,7 @@
             svg-inline
             src="../assets/images/accompagnement-picto.svg"
             aria-hidden="true"
-          />Bien concevoir un service numérique
+          />Concevoir un service public numérique de qualilté
         </h1>
         <p class="fr-text--lead">
           L’État a la responsabilité de
@@ -359,8 +359,8 @@
           et accompagne sur ce sujet
         </li>
         <li>
-          <strong>L’expertise numérique responsable</strong> qui guide, forme
-          et accompagne sur ce sujet
+          <strong>L’expertise numérique responsable</strong> qui guide, forme et
+          accompagne sur ce sujet
         </li>
         <li>
           <strong>L’expertise donnée</strong> (analytics) qui accompagne sur le
@@ -537,21 +537,22 @@
 <script>
 export default {
   metaInfo: {
-    title: "Bien concevoir un service numérique",
+    title: "Concevoir un service public numérique de qualilté",
     meta: [
       {
         name: "description",
         content:
-          "Adopter les bonnes pratiques pour concevoir des services numériques de qualité.",
+          "Qu'est-ce qu'un service public numérique de qualité ? Tour d'horizon pour comprendre et passer à l'action.",
       },
       {
         property: "og:title",
-        content: "DesignGouv - Bien concevoir un service numérique",
+        content:
+          "DesignGouv - Concevoir un service public numérique de qualilté",
       },
       {
         property: "og:description",
         content:
-          "Adopter les bonnes pratiques pour concevoir des services numériques de qualité.",
+          "Qu'est-ce qu'un service public numérique de qualité ? Tour d'horizon pour comprendre et passer à l'action.",
       },
       {
         property: "og:image",

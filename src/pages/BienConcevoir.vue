@@ -27,9 +27,10 @@
           />Concevoir un service public numérique de qualilté
         </h1>
         <p class="fr-text--lead">
+          Un service public numérique de qualité,
           <strong
-            >Un service public numérique de qualité, c'est un service pertinent,
-            efficace, inclusif et responsable.</strong
+            >c'est un service pertinent, efficace, inclusif et
+            responsable.</strong
           >
           C'est un service utilisable facilement par toutes et tous et conçu
           avec soin.
@@ -71,8 +72,7 @@
           dans la réalisation de leurs démarches en ligne, et
           <a
             href="https://www.insee.fr/fr/statistiques/6438420"
-            target="
-          "
+            target="_blank"
             title="32 % d'entre eux finissent même par abandonner - Nouvelle fenêtre"
             >32 % d'entre eux finissent même par abandonner</a
           >. Par ailleurs, bien que 12 millions de personnes soient en situation
@@ -81,7 +81,7 @@
             href="https://webaim.org/projects/million/"
             target="_blank"
             title="3% le nombre de sites internet accessibles - Nouvelle fenêtre"
-          ></a
+            >3% le nombre de sites internet accessibles</a
           >, c'est-à-dire conçus pour toutes et tous.
         </p>
       </div>

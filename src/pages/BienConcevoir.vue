@@ -13,7 +13,7 @@
             </li>
             <li>
               <a class="fr-breadcrumb__link" aria-current="page"
-                >Concevoir un service public numérique de qualilté</a
+                >Concevoir un service public numérique de qualité</a
               >
             </li>
           </ol>
@@ -24,15 +24,15 @@
             svg-inline
             src="../assets/images/accompagnement-picto.svg"
             aria-hidden="true"
-          />Concevoir un service public numérique de qualilté
+          />Concevoir un service public numérique de qualité
         </h1>
         <p class="fr-text--lead">
           Un service public numérique de qualité,
           <strong
-            >c'est un service pertinent, efficace, inclusif et
+            >c’est un service pertinent, efficace, inclusif et
             responsable.</strong
           >
-          C'est un service utilisable facilement par toutes et tous et conçu
+          C’est un service utilisable facilement par toutes et tous et conçu
           avec soin.
         </p>
         <ul class="fr-tags-group">
@@ -61,20 +61,20 @@
     <section class="dg-content dg-content--sm fr-px-0 fr-px-md-2w">
       <div class="fr-highlight fr-highlight--pink-macaron fr-my-8w">
         <p class="fr-text--lg">
-          Les services publics numériques font partie du quotidien des français.
+          Les services publics numériques font partie du quotidien des Français et des Françaises.
           Pourtant,
           <a
             href="https://www.arcep.fr/uploads/tx_gspublication/barometre-du-numerique_edition_2025_RAPPORT_mars2025.pdf"
             target="_blank"
             title="44 % des français rencontrent des difficultés - Nouvelle fenêtre"
-            >44 % des français rencontrent des difficultés</a
+            >44 % des Français et des Françaises rencontrent des difficultés</a
           >
           dans la réalisation de leurs démarches en ligne, et
           <a
             href="https://www.insee.fr/fr/statistiques/6438420"
             target="_blank"
             title="32 % d'entre eux finissent même par abandonner - Nouvelle fenêtre"
-            >32 % d'entre eux finissent même par abandonner</a
+            >32 % d’entre eux finissent même par abandonner</a
           >. Par ailleurs, bien que 12 millions de personnes soient en situation
           de handicap en France, on estime à
           <a
@@ -82,14 +82,14 @@
             target="_blank"
             title="3% le nombre de sites internet accessibles - Nouvelle fenêtre"
             >3% le nombre de sites internet accessibles</a
-          >, c'est-à-dire conçus pour toutes et tous.
+          >, c’est-à-dire conçus pour toutes et tous.
         </p>
       </div>
 
       <h2 id="definir">Les critères de qualité</h2>
       <div class="fr-mb-6w">
         <p>
-          L'administrations noue un lien avec les usagers à travers les services
+          L’administration noue un lien avec les usagers à travers les services
           publics numériques qu’elle propose. Cela nous oblige à respecter un
           certain nombre de principes, portés par notre mission d’intérêt
           général, pour assurer la qualité de nos services.

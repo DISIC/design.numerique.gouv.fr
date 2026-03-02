@@ -13,7 +13,7 @@
             </li>
             <li>
               <a class="fr-breadcrumb__link" aria-current="page"
-                >Bien concevoir</a
+                >Concevoir un service public numérique de qualité</a
               >
             </li>
           </ol>
@@ -24,15 +24,16 @@
             svg-inline
             src="../assets/images/accompagnement-picto.svg"
             aria-hidden="true"
-          />Bien concevoir un service numérique
+          />Concevoir un service public numérique de qualité
         </h1>
         <p class="fr-text--lead">
-          L’État a la responsabilité de
+          Un service public numérique de qualité,
           <strong
-            >proposer des services numériques simples, efficaces et utilisables
-            par toutes et tous.</strong
+            >c’est un service pertinent, efficace, inclusif et
+            responsable.</strong
           >
-          En créant des services utiles à ses usagers, avec soin et humilité.
+          C’est un service utilisable facilement par toutes et tous et conçu
+          avec soin.
         </p>
         <ul class="fr-tags-group">
           <li>
@@ -60,33 +61,38 @@
     <section class="dg-content dg-content--sm fr-px-0 fr-px-md-2w">
       <div class="fr-highlight fr-highlight--pink-macaron fr-my-8w">
         <p class="fr-text--lg">
-          En 2024, 44% des usagers des services publics numériques
+          Les services publics numériques font partie du quotidien des Français et des Françaises.
+          Pourtant,
           <a
             href="https://www.arcep.fr/uploads/tx_gspublication/barometre-du-numerique_edition_2025_RAPPORT_mars2025.pdf"
-            title="ont rencontré des
-          difficultés - Nouvelle fenêtre"
             target="_blank"
-            >ont rencontré des difficultés</a
+            title="44 % des français rencontrent des difficultés - Nouvelle fenêtre"
+            >44 % des Français et des Françaises rencontrent des difficultés</a
           >
-          et 32%
+          dans la réalisation de leurs démarches en ligne, et
           <a
             href="https://www.insee.fr/fr/statistiques/6438420"
-            title="ont dû abandonner une démarche en ligne - Nouvelle fenêtre"
             target="_blank"
-            >ont dû abandonner une démarche en ligne</a
-          >. Environ 12 millions de personnes sont en situation de handicap en
-          France mais seulement 3% environ des sites sont conçus pour toutes et
-          tous.
+            title="32 % d'entre eux finissent même par abandonner - Nouvelle fenêtre"
+            >32 % d’entre eux finissent même par abandonner</a
+          >. Par ailleurs, bien que 12 millions de personnes soient en situation
+          de handicap en France, on estime à
+          <a
+            href="https://webaim.org/projects/million/"
+            target="_blank"
+            title="3% le nombre de sites internet accessibles - Nouvelle fenêtre"
+            >3% le nombre de sites internet accessibles</a
+          >, c’est-à-dire conçus pour toutes et tous.
         </p>
       </div>
 
       <h2 id="definir">Les critères de qualité</h2>
       <div class="fr-mb-6w">
         <p>
-          L’État noue un lien avec les usagers à travers les services publics
-          numériques qu’il propose. Cela l’oblige à respecter un certain nombre
-          de principes, portés par sa mission d’intérêt général, pour assurer la
-          qualité de ses services.
+          L’administration noue un lien avec les usagers à travers les services
+          publics numériques qu’elle propose. Cela nous oblige à respecter un
+          certain nombre de principes, portés par notre mission d’intérêt
+          général, pour assurer la qualité de nos services.
         </p>
 
         <ul class="dg-list-no-decoration fr-pl-0">
@@ -208,10 +214,9 @@
 
       <h2 id="anticiper">Les bonnes pratiques</h2>
       <p>
-        La création de bons services numériques se base sur des principes
-        éprouvés. Leur respect est indispensable pour assurer la création de
-        services publics numériques de qualité : simples, efficaces et
-        utilisables par toutes et tous.
+        La création de services numériques se base sur des principes éprouvés.
+        Leur respect est indispensable pour assurer la création de services de
+        qualité.
       </p>
       <ul class="dg-list-no-decoration fr-mt-4w">
         <li class="dg-flex dg-flex--align-center fr-mb-4w">
@@ -316,7 +321,9 @@
       <p>
         Pour créer des services numériques de qualité, il est nécessaire de
         mobiliser les experts de la conception numérique. Et ce, dès le début du
-        projet et tout au long de la vie du produit.
+        projet et tout au long de la vie du produit. Ces expertises pourront
+        être internes à l'équipe, transverses à l'organisation ou externalisés.
+        Certaines expertises peuvent être détenues par une même personne.
       </p>
 
       <ul>
@@ -359,8 +366,8 @@
           et accompagne sur ce sujet
         </li>
         <li>
-          <strong>L’expertise numérique responsable</strong> qqui guide, forme
-          et accompagne sur ce sujet
+          <strong>L’expertise numérique responsable</strong> qui guide, forme et
+          accompagne sur ce sujet
         </li>
         <li>
           <strong>L’expertise donnée</strong> (analytics) qui accompagne sur le
@@ -537,21 +544,22 @@
 <script>
 export default {
   metaInfo: {
-    title: "Bien concevoir un service numérique",
+    title: "Concevoir un service public numérique de qualilté",
     meta: [
       {
         name: "description",
         content:
-          "Adopter les bonnes pratiques pour concevoir des services numériques de qualité.",
+          "Qu'est-ce qu'un service public numérique de qualité ? Tour d'horizon pour comprendre et passer à l'action.",
       },
       {
         property: "og:title",
-        content: "DesignGouv - Bien concevoir un service numérique",
+        content:
+          "DesignGouv - Concevoir un service public numérique de qualilté",
       },
       {
         property: "og:description",
         content:
-          "Adopter les bonnes pratiques pour concevoir des services numériques de qualité.",
+          "Qu'est-ce qu'un service public numérique de qualité ? Tour d'horizon pour comprendre et passer à l'action.",
       },
       {
         property: "og:image",

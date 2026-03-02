@@ -14,7 +14,7 @@
             utilisateur de leurs services.
             <br />
             <g-link class="fr-mt-4w fr-btn" to="/bien-concevoir/"
-              >Par où commencer ?</g-link
+              >Comment s'y prendre ?</g-link
             >
           </p>
           <!-- <Message/> -->

@@ -21,7 +21,7 @@ Préparer et animer des tests avec des usagers puis analyser les résultats.
 
 Prendre en compte l’accessibilité dans toutes les étapes de design d’un service numérique.
 
-[**Écoconception des services numériques**](/formations/ecoconception/atelier-ecoconception/) - 14 mai *matin*, 13 juin *matin*
+**Écoconception des services numériques** - 14 mai *matin*, 13 juin *matin*
 
 Mettre en œuvre une démarche d’écoconception et prendre en main le référentiel général d’écoconception de service numérique (RGESN).
 

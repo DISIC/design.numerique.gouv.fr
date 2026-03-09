@@ -4,7 +4,9 @@
     <div class="fr-container">
       <div class="footer fr-footer__body fr-footer__body--operator">
         <div class="fr-footer__brand">
-          <p class="fr-logo">république française</p>
+          <p class="fr-logo">République<br>
+						Française
+          </p>
           <g-link class="fr-footer__brand-link" to="/">
             <img
               svg-inline

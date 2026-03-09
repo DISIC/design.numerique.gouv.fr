@@ -66,22 +66,22 @@
           <a
             href="https://www.arcep.fr/uploads/tx_gspublication/barometre-du-numerique_edition_2025_RAPPORT_mars2025.pdf"
             target="_blank"
-            title="44 % des français rencontrent des difficultés - Nouvelle fenêtre"
-            >44 % des Français et des Françaises rencontrent des difficultés</a
+            title="44 % des français rencontrent des difficultés - Nouvelle fenêtre"
+            >44 % des Français et des Françaises rencontrent des difficultés</a
           >
           dans la réalisation de leurs démarches en ligne, et
           <a
             href="https://www.insee.fr/fr/statistiques/6438420"
             target="_blank"
-            title="32 % d'entre eux finissent même par abandonner - Nouvelle fenêtre"
-            >32 % d’entre eux finissent même par abandonner</a
+            title="32 % d'entre eux finissent même par abandonner - Nouvelle fenêtre"
+            >32 % d’entre eux finissent même par abandonner</a
           >. Par ailleurs, bien que 12 millions de personnes soient en situation
           de handicap en France, on estime à
           <a
             href="https://webaim.org/projects/million/"
             target="_blank"
-            title="3% le nombre de sites internet accessibles - Nouvelle fenêtre"
-            >3% le nombre de sites internet accessibles</a
+            title="3 % le nombre de sites internet accessibles - Nouvelle fenêtre"
+            >3 % le nombre de sites internet accessibles</a
           >, c’est-à-dire conçus pour toutes et tous.
         </p>
       </div>
@@ -239,7 +239,7 @@
             <span class="fr-h6"
               >Toujours tester une solution avant de la développer.</span
             ><br />
-            Mener de tests qualitatifs avec des vrais usagers représentatifs et
+            Mener des tests qualitatifs avec des vrais usagers représentatifs et
             en situation réelle.
           </div>
         </li>
@@ -435,7 +435,7 @@
           </h3>
           <ul>
             <li>
-              Mettre à l’épreuve une première version opérationnelle (beta,
+              Mettre à l’épreuve une première version opérationnelle (bêta,
               expérimentation, etc.)
             </li>
             <li>Suivre les retours usagers et indicateurs de réussite</li>
@@ -449,11 +449,11 @@
           </h3>
           <ul>
             <li>
-              Généraliser le service (sortie de beta, déploiement national,
+              Généraliser le service (sortie de bêta, déploiement national,
               etc.)
             </li>
             <li>
-              Suivre les retours usagers et indicateur pour améliorer le service
+              Suivre les retours usagers et indicateurs pour améliorer le service
               en continu
             </li>
             <li>Fermer le service lorsqu’il n’a plus de raison d’être</li>

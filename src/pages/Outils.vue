@@ -67,7 +67,7 @@
       </div>
 
       <section>
-        <h2 id="tech">Les checklists pour toustes</h2>
+        <h2 id="tech">Les checklists pour toutes et tous</h2>
         <ul class="fr-mb-3w">
           <li>
             La

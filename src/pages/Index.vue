@@ -297,30 +297,6 @@
           </div>
         </div>
       </section>
-
-      <section class="dg-content fr-mt-8w fr-px-2w">
-        <h2>Notre équipe</h2>
-        <div class="team">
-          <img
-            class="team__image"
-            src="../assets/images/equipe-designgouv.jpg"
-            alt="L’équipe DesignGouv sourire aux lèvres"
-          />
-          <div class="team__description">
-            <p>
-              DesignGouv c’est avant tout une équipe,
-              <strong>le pôle Design des services numériques</strong>, diverse
-              et heureuse de contribuer aux côtés des administrations à
-              l’amélioration du quotidien des Français et des Françaises.
-            </p>
-            <g-link
-              to="/qui-sommes-nous/"
-              class="fr-link fr-fi-arrow-right-line fr-link--icon-right"
-              >Découvrir l’équipe et notre mission</g-link
-            >
-          </div>
-        </div>
-      </section>
     </div>
   </Layout>
 </template>

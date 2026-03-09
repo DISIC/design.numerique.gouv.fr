@@ -56,6 +56,7 @@
       <div class="dg-content dg-content--xs">
         <div v-html="$page.article.content" />
       </div>
+      <div class="dg-content fr-mt-4w"><a href="/articles/" class="fr-link fr-icon-arrow-left-fill fr-link--icon-left">Retour à la liste des articles</a></div>
     </div>
   </Layout>
 </template>

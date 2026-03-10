@@ -79,31 +79,12 @@
         </div>
       </section>
 
-      <section class="dg-content dg-section-with-link fr-mt-8w fr-px-2w">
+      <section class="dg-section dg-section-with-link fr-mt-8w fr-px-2w">
         <h2 class="dg-section-with-link_title">Nos produits</h2>
         <!-- <g-link class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right" to="/accompagnement/">Voir toutes nos offres</g-link> -->
         <div
           class="dg-section-with-link__blocks fr-grid-row fr-grid-row--gutters"
         >
-          <!-- <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <div class="fr-tile__content">
-                  <h3 class="fr-tile__title">
-                    <g-link class="fr-tile__link fr-text--xl" to="/accompagnement/">Nos accompagnements</g-link>
-                  </h3>
-                  <p class="fr-tile__desc">Faites intervenir nos experts pour améliorer vos services.</p>
-                </div>
-              </div>
-              <div class="dg-tile__header">
-                <div class="fr-tile__img">
-									<div class="dg-picto dg-picto--lg">
-                  	<img svg-inline src="../assets/images/accompagnement.svg" class="fr-responsive-img" aria-hidden="true">
-									</div>
-                </div>
-              </div>
-            </div>
-          </div> -->
           <div class="fr-col-12 fr-col-sm-6">
             <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
               <div class="fr-tile__body">
@@ -168,25 +149,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="fr-col-12 fr-col-sm-6">
-            <div class="fr-tile fr-enlarge-link fr-tile--horizontal">
-              <div class="fr-tile__body">
-                <div class="fr-tile__content">
-                  <h3 class="fr-tile__title">
-                    <a class="fr-tile__link fr-text--xl" href="https://observatoire.numerique.gouv.fr/" title="L'observatoire - Nouvelle fenêtre" target="_blank">L’Observatoire</a>
-                  </h3>
-                  <p class="fr-tile__desc">Suivez la qualité des démarches que vous portez.</p>
-                </div>
-              </div>
-              <div class="dg-tile__header">
-                <div class="fr-tile__img">
-									<div class="dg-picto dg-picto--lg">
-                  	<img svg-inline src="../assets/images/observatoire.svg" class="fr-responsive-img" aria-hidden="true">
-									</div>
-                </div>
-              </div>
-            </div>
-          </div> -->
+
         </div>
       </section>
 
@@ -255,7 +218,7 @@
         </div>
       </section>
 
-      <section class="dg-content dg-section-with-link fr-mt-8w fr-px-2w">
+      <section class="dg-section dg-section-with-link fr-mt-8w fr-px-2w">
         <h2 class="dg-section-with-link_title">Nos articles</h2>
         <g-link
           class="dg-section-with-link__link fr-btn fr-btn--tertiary-no-outline fr-fi-arrow-right-line fr-btn--icon-right"

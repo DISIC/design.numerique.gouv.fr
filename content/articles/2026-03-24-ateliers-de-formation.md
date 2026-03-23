@@ -1,7 +1,7 @@
 ---
 title: Nos ateliers de formation avant l’été
 slug: 2026-03-24-ateliers-de-formation
-publishedDate: 2025-12-11
+publishedDate: 2026-03-24
 tags: ["formation", "design", "accessibilité", "RGAA"]
 illustration:  ./illustrations/2023-10-19-ateliers-de-formation.png
 description: "La direction interministérielle du numérique (Dinum) propose de nouvelles sessions de ses neuf ateliers de formation pour améliorer les services publics en ligne avec, en nouveauté, l’atelier « Rédaction : simplifier l’information pour les usagers »"

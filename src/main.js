@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import ExerciseLayout from '~/layouts/Exercise.vue'
+import TestLayout from '~/layouts/Test.vue'
 import slugify from '@sindresorhus/slugify'
 
 import '~/assets/scss/styles.scss'
@@ -140,6 +141,7 @@ export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
   Vue.component('Exercise', ExerciseLayout)
+  Vue.component('Test', TestLayout)
   head.link.push({
     rel: 'stylesheet',
     href: '/assets/dsfr/utility/utility.min.css'

@@ -1,7 +1,7 @@
 ---
 id: 18
 title: L’écriture inclusive, c’est pas ça le vrai problème ?
-order: 32
+order: 20
 cat: 3
 tag:
 ---

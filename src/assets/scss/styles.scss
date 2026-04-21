@@ -48,6 +48,7 @@ li.fr-card {
     &--align-center {
       align-items: center;
     }
+    
   }
 
   &-flex-start {
@@ -391,7 +392,12 @@ li.fr-card {
       }
     }
   }
-}
+  &-numgouv {
+    text-align: right;
+     svg {
+      width: 9em;
+     }
+  }}
 
 .fr-tag, .fr-badge {
   z-index:0;

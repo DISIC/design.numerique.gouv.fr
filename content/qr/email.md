@@ -18,5 +18,3 @@ Quid des adresses mail *non* cliquables, au format service@administration.gouv.f
 Elles supposent un copier-coller, éventuellement en modifiant le [a] en @ : cette opération est peu pratique, et même très compliquée pour plein de personnes.  
 
 **La solution accessible pour tout le monde, c’est de prévoir un formulaire de contact (accessible) !**
-
-Voilà <span aria-hidden="true">😊</span>

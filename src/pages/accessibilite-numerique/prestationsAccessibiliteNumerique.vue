@@ -124,7 +124,7 @@
       title: "Prestations accessibilité numérique",
       meta: [{
         name: 'description',
-        content: "Faites appel à des prestations d‘audit, d‘acompagnement et de formation en accessibilité numérique"
+        content: "Faites appel à des prestations d‘audit, d‘accompagnement et de formation en accessibilité numérique"
       },
       {
         property: 'og:title',
@@ -132,7 +132,7 @@
       },
       {
         property: 'og:description',
-        content: "Faites appel à des prestations d‘audit, d‘acompagnement et de formation en accessibilité numérique"
+        content: "Faites appel à des prestations d‘audit, d‘accompagnement et de formation en accessibilité numérique"
       },
       {
         property: 'og:image',

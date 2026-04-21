@@ -27,7 +27,7 @@
           />Design numérique
         </h1>
         <p class="fr-text--lead">
-          Le design permet la création services numériques
+          Le design permet la création de services numériques
           <strong>simples</strong> et <strong>inclusifs</strong>. Concevoir par
           le design, c’est mettre en œuvre une approche centrée sur
           <strong>les usagers</strong> et <strong>leurs besoins</strong>, tout
@@ -202,7 +202,7 @@
                   Donner forme au service numérique en concevant son identité
                   graphique : marque, couleurs, typographie, forme des
                   composants, etc. Pour cela et s’il existe, l’utilisation d’un
-                  système de design est essentiel.
+                  système de design est essentielle.
                 </p>
                 <a
                   href="https://www.systeme-de-design.gouv.fr/"
@@ -257,13 +257,13 @@
             </button>
           </h3>
           <div class="fr-collapse" id="accordion-115">
-            <h4 class="fr-h6">Les professionels du design</h4>
+            <h4 class="fr-h6">Les professionnels du design</h4>
             <p>
-              La pratique du design, comme tout métier, nécéssite un
+              La pratique du design, comme tout métier, nécessite un
               apprentissage et de l’expérience. Il existe une diversité de
               profils pouvant pratiquer tout ou partie des métiers du design.
               Pour être pleinement intégré dans les organisations, des profils
-              de designers managers sont également nécéssaires.
+              de designers managers sont également nécessaires.
             </p>
             <p>
               Voici une liste non exhaustive des praticiens du design numérique
@@ -332,7 +332,7 @@
                 >
                 organisation d’atelier d’idéation, élaboration d’un ou plusieurs
                 concepts de solution, tests et validation du concept. La ou le
-                chargé de recheche utilisateur et la ou le designer (UX) sont
+                chargé de recherche utilisateur et la ou le designer (UX) sont
                 les plus impliqués dans ces phases.
               </li>
               <li class="fr-pt-2w">
@@ -546,7 +546,7 @@
 
             <h4 class="fr-h6 fr-mb-2w">Avec un accompagnement</h4>
             <p class="fr-mb-2w">
-              LLe pôle Design et Accessibilité  peut vous aider à tester vos
+              Le pôle Design et Accessibilité peut vous aider à tester vos
               produits et services numériques auprès de vos utilisateurs
             </p>
             <a
@@ -715,7 +715,7 @@
                     </ul>
                   </div>
                   <p class="fr-card__desc">
-                    Faîtes tester vos services en ligne par des utilisateurs en
+                    Faites tester vos services en ligne par des utilisateurs en
                     situation de handicap.
                   </p>
                 </div>
@@ -945,7 +945,7 @@ export default {
       {
         name: "description",
         content:
-          "Le design permet la création services numériques simples, inclusifs et humains.",
+          "Le design permet la création de services numériques simples, inclusifs et humains.",
       },
       {
         property: "og:title",
@@ -954,7 +954,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Le design permet la création services numériques simples, inclusifs et humains.",
+          "Le design permet la création de services numériques simples, inclusifs et humains.",
       },
       {
         property: "og:image",

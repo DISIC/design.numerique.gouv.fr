@@ -122,7 +122,7 @@
         <h2>Modalité de gestion des bons de commandes</h2>
         <p>La règle de gestion est dite « en cascade » :</p>
         <ul>
-          <li>Le bon de commande est attribué au prestataire n°1 dont l'offre a été classée première lors du choix des prestatires du lot concerné. Le prestataire n°1 dispose d'un délai de 5 jours ouvrés à compter de la notification d'un bon de commande pour présenter ses observations et informer par écrit (par messagerie électronique) l'entité bénéficiaire émettrice du bon de commande de son impossibilité d'exécuter ce bon de commande. Passé ce délai, le bon de commande est réputé accepté sans réserve.</li>
+          <li>Le bon de commande est attribué au prestataire n°1 dont l'offre a été classée première lors du choix des prestataires du lot concerné. Le prestataire n°1 dispose d'un délai de 5 jours ouvrés à compter de la notification d'un bon de commande pour présenter ses observations et informer par écrit (par messagerie électronique) l'entité bénéficiaire émettrice du bon de commande de son impossibilité d'exécuter ce bon de commande. Passé ce délai, le bon de commande est réputé accepté sans réserve.</li>
           <li>Si le prestataire n°1 sollicité en application de la règle 1 n’est pas en capacité de répondre et en informe dans le délai mentionné ci-dessus, l'entité bénéficiaire s’adresse au prestataire dont l'offre a été classée deuxième. Le prestataire n°2 dispose d'un délai de 5 jours ouvrés à compter de la notification du bon de commande pour présenter ses observations et informer par écrit (par messagerie électronique) l'entité bénéficiaire émettrice du bon de commande de son impossibilité d'exécuter ce bon de commande. Passé ce délai, le bon de commande est réputé accepté sans réserve.</li>
           <li>Si le prestataire n°2 sollicité en application de la règle 2 n’est pas en capacité de répondre dans le délai mentionné ci-dessus, l'entité bénéficiaire s’adresse au prestataire dont l'offre a été classée troisième et ainsi de suite, et dans les conditions mentionnées ci-dessus.</li>
         </ul>
@@ -139,7 +139,7 @@
       title: "Accord cadre accompagnement et formations",
       meta: [{
         name: 'description',
-        content: "Découvrez l‘accord cadre DAE permettant de faire appel à des prestations d‘audit, d‘acompagnement et de formation."
+        content: "Découvrez l‘accord cadre DAE permettant de faire appel à des prestations d‘audit, d'accompagnement et de formation."
       },
       {
         property: 'og:title',

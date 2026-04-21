@@ -212,7 +212,7 @@
           Dans tous les cas, utilisez le
           <g-link to="/outils/jeu-de-oaa"
             >jeu de l’<abbr
-              title="organisation de l’amélioration de l’accessiblité"
+              title="organisation de l’amélioration de l’accessibilité"
               >oaa</abbr
             ></g-link
           >.

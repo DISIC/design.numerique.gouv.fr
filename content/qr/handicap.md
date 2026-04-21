@@ -33,6 +33,3 @@ En 2023, notre collègue Erwan avait exposé les principaux chiffres de la prév
 <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
         <p class="fr-callout__text"><span aria-hidden="true">⚠️ </span>Il semblerait que l’affirmation selon laquelle 80% des handicaps sont invisibles ne soit pas sourcée (mais on peut dire sans risque de se tromper que <strong>beaucoup</strong> de handicaps sont invisibles).</p>
 </div>
-
-
-Voilà&nbsp!

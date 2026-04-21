@@ -1,5 +1,5 @@
 ---
-id: 18
+id: 23
 title: L’écriture inclusive, c’est pas ça le vrai problème ?
 order: 20
 cat: 3
@@ -7,7 +7,7 @@ tag:
 ---
 
 
-En soi, l’écriture inclusive est *juste* une attention portée sur la représentation des genres dans le but de lutter contre les stéréotypes. Si son objectif est d’être inclusive dans son propos, elle doit aussi veiller l’être envers ses lecteurs et lectrices et n’exclure personne : certaines formes sont donc à éviter.
+En soi, l’écriture inclusive est *juste* une attention portée sur la représentation des genres dans le but de lutter contre les stéréotypes. Si son objectif est d’être inclusive dans son propos, elle doit aussi veiller à l’être envers ses lecteurs et lectrices et n’exclure personne : certaines formes sont donc à éviter.
 
 #### Petite mise au point médian
 

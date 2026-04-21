@@ -544,7 +544,7 @@
 <script>
 export default {
   metaInfo: {
-    title: "Concevoir un service public numérique de qualilté",
+    title: "Concevoir un service public numérique de qualité",
     meta: [
       {
         name: "description",
@@ -554,7 +554,7 @@ export default {
       {
         property: "og:title",
         content:
-          "DesignGouv - Concevoir un service public numérique de qualilté",
+          "DesignGouv - Concevoir un service public numérique de qualité",
       },
       {
         property: "og:description",

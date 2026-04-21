@@ -56,7 +56,7 @@
               required
             >
               <option value="" selected disabled hidden>
-                Selectionnez une option
+                Sélectionnez une option
               </option>
               <option value="La fonction publique de l'État">
                 La fonction publique de l'État
@@ -234,7 +234,7 @@
           </p>
           <p>
             <small
-              >Conformément à la règlementation, vous disposez d'un droit
+              >Conformément à la réglementation, vous disposez d'un droit
               d'opposition et d'un droit à la limitation du traitement de
               données vous concernant, ainsi que d'un droit d'accès, de
               rectification, de portabilité et d'effacement de vos données. Vous

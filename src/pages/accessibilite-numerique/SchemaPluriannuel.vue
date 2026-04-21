@@ -24,7 +24,7 @@
         <p>
           En application du III de l’article 47 précité, le schéma pluriannuel, d’une durée maximum de trois ans, présente la politique de l’entité concernée en matière d’accessibilité numérique.
         </p>
-        <p>A ce titre, il contient des informations sur :</p>
+        <p>À ce titre, il contient des informations sur :</p>
         <ul>
           <li>la prise en compte de l’accessibilité numérique dans la stratégie numérique de l’entité et dans sa politique en faveur de l’intégration des personnes en situation de handicap</li>
           <li>la position fonctionnelle et les missions du référent accessibilité numérique de l’entité</li>

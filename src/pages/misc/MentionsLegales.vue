@@ -77,7 +77,7 @@
         </p>
         <p>
           La mise en place de liens vers nos contenus et documents est cependant
-          est à privilégier par rapport à la reproduction sur un site tiers. La
+          à privilégier par rapport à la reproduction sur un site tiers. La
           mention explicite du site source design.numerique.gouv.fr est recommandée.
         </p>
       </section>
@@ -90,7 +90,7 @@
 <script>
   export default {
     metaInfo: {
-      title: "Mention légales",
+      title: "Mentions légales",
       meta: [{
         name: "robots",
         content: "noindex"

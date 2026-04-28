@@ -38,7 +38,7 @@
             <a href="#comprendre" class="fr-tag" target="_self">Comprendre</a>
           </li>
           <li>
-            <a href="#agir" class="fr-tag" target="_self">Agir</a>
+            <a href="#agir" class="fr-tag" target="_self">Passer à l'action</a>
           </li>
           <li>
             <a href="#ressources" class="fr-tag" target="_self">Ressources</a>
@@ -57,115 +57,135 @@
       <div class="fr-highlight fr-highlight--pink-macaron fr-my-8w">
         <p class="fr-text--lg">
           <strong
-            ><span aria-hidden="true">🇫🇷 </span>L’État a la responsabilité de
-            créer des services numériques simples et inclusifs pour toutes et
-            tous. En écoutant, en comprenant et en impliquant les personnes qui
-            utilisent nos services numériques.
-            <span aria-hidden="true">👶🏻🧒🏾🧑🏼🧑🏽‍🦱🧑🏾‍🦰👱🏼🧑🏽‍🦳🧑🏼‍🦲🧔🏾🧓🏽👳🏻</span></strong
-          >
+            ><span aria-hidden="true">🔑</span> La clé d’un produit ou service
+            de qualité, ce sont les usagers.<br
+          /></strong>
+          Le design numérique est un ensemble de pratiques qui placent les
+          usagers au cœur de la conception des produits et services numériques.
+          Le design numérique mobilise plusieurs métiers, tous indispensables à
+          la réalisation de services numériques de qualité.
         </p>
       </div>
 
-      <h2 id="comprendre">Comprendre</h2>
-      <div class="fr-mb-6w">
-        <p>
-          Le design numérique concerne l’ensemble des pratiques permettant la
-          conception de produits et services numériques et plaçant les
-          utilisateurs au cœur de cette conception. Au sein de l’État,
-          l’ambition du design numérique est de proposer aux usagers des
-          produits et services&nbsp;:
-        </p>
-        <ul class="dg-list-no-decoration fr-pl-0">
-          <li class="fr-mt-2w">
-            <span
-              class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
-              >Pertinents</span
-            >
-            <span class="dg-display-block fr-pl-2w"
-              >Qui apportent une solution adaptée à un besoin concret, qui
-              soient utilisables et simples à utiliser.</span
-            >
-          </li>
-          <li class="fr-mt-2w">
-            <span
-              class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
-              >Inclusifs</span
-            >
-            <span class="dg-display-block fr-pl-2w"
-              >Qui prennent en compte les usagers dans leur diversité comme les
-              situations de handicap, les disparités d’aisance avec l’usage du
-              numérique, les diversités d’équipements et d’accès au
-              réseau.</span
-            >
-          </li>
-          <li class="fr-mt-2w">
-            <span
-              class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
-              >Protecteurs</span
-            >
-            <span class="dg-display-block fr-pl-2w"
-              >Qui protègent les droits des usagers, et explicitent, rendent
-              lisible et en assurent la transparence de l’action publique.</span
-            >
-          </li>
-          <li class="fr-mt-2w">
-            <span
-              class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
-              >Conviviaux</span
-            >
-            <span class="dg-display-block fr-pl-2w"
-              >Qui garantissent l’autonomie des citoyennes et citoyens dans
-              leurs démarches, et de bonnes relations entre eux et les
-              administrations.</span
-            >
-          </li>
-          <li class="fr-mt-2w">
-            <span
-              class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
-              >Soutenables</span
-            >
-            <span class="dg-display-block fr-pl-2w"
-              >Qui soient frugaux, mutualisés et résilients.</span
-            >
-          </li>
-        </ul>
-      </div>
-      <div class="fr-accordions-group fr-mb-6w">
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-113"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  🎨
-                </span>
-                Le design numérique c’est quoi ?
-              </span>
-            </button>
-          </h3>
-          <div class="fr-collapse" id="accordion-113">
-            <p>
-              <strong
-                ><span aria-hidden="true">🔑</span> La clé d’un produit ou
-                service de qualité, ce sont les usagers.</strong
+      <section id="comprendre" class="fr-mb-8w">
+        <section>
+          <h2 class="fr-h3 fr-mt-4w fr-mb-2w">
+            <span class="dg-flex dg-flex--align-center">
+              <span
+                class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                aria-hidden="true"
               >
-              Le design numérique est une pratique qui place les usagers au cœur
-              de la conception des produits et services numériques. Le design
-              numérique regroupe plusieurs compétences, toutes indispensables à
-              la réalisation de services numériques de qualité.
-            </p>
-            <ul class="dg-list-no-decoration">
-              <li class="fr-mb-4w">
-                <h4 class="fr-h6 fr-mb-2w">
+                🎨
+              </span>
+              Le design numérique, c’est quoi ?
+            </span>
+          </h2>
+          <p class="fr-mb-0">
+            Le design numérique concerne l’ensemble des pratiques permettant la
+            conception de produits et services numériques et plaçant les
+            utilisateurs au cœur de cette conception. Au sein de l’État,
+            l’ambition du design numérique est de proposer aux usagers des
+            produits et services&nbsp;:
+          </p>
+          <ul class="dg-list-no-decoration fr-pl-0">
+            <li class="fr-mt-2w">
+              <span
+                class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
+                >Pertinents</span
+              >
+              <span class="dg-display-block fr-pl-2w"
+                >Qui apportent une solution adaptée à un besoin concret, qui
+                soient utilisables et simples à utiliser.</span
+              >
+            </li>
+            <li class="fr-mt-2w">
+              <span
+                class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
+                >Inclusifs</span
+              >
+              <span class="dg-display-block fr-pl-2w"
+                >Qui prennent en compte les usagers dans leur diversité comme
+                les situations de handicap, les disparités d’aisance avec
+                l’usage du numérique, les diversités d’équipements et d’accès au
+                réseau.</span
+              >
+            </li>
+            <li class="fr-mt-2w">
+              <span
+                class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
+                >Efficace</span
+              >
+              <span class="dg-display-block fr-pl-2w"
+                >Qui fonctionnent correctement, garantissent la protections des
+                usagers, savent évoluer en focntion des besoins et assurent la
+                transparence de l’action publique.</span
+              >
+            </li>
+            <li class="fr-mt-2w">
+              <span
+                class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
+                >Responables</span
+              >
+              <span class="dg-display-block fr-pl-2w"
+                >Qui soient frugaux, qui repectent et renforce l’autonomie des
+                citoyennes et citoyens dans leurs démarches et proposent
+                l'accompagnemnt dont ils ont besoin.</span
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="fr-h3 fr-mt-8w fr-mb-2w">
+            <span class="dg-flex dg-flex--align-center">
+              <span
+                class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                aria-hidden="true"
+              >
+                👯
+              </span>
+              Le design numérique, c’est qui ?
+            </span>
+          </h2>
+          <p>
+            La pratique du design, comme tout métier, nécéssite un apprentissage
+            et de l’expérience. Il existe une diversité de profils pouvant
+            pratiquer tout ou partie des métiers du design. Pour être pleinement
+            intégré dans les organisations, des profils de designers managers
+            sont également nécéssaires.
+          </p>
+          <p>
+            Voici une liste non exhaustive des praticiens du design
+            numérique&nbsp;:
+          </p>
+          <ul>
+            <li>Designer / Designeuse</li>
+            <li>Designer / Designeuse UX/UI</li>
+            <li>Product designer</li>
+            <li>Chargé / Chargée de recherche utilisateur</li>
+            <li>Content designer</li>
+            <li>Rédacteur / rédactrice UX</li>
+            <li>Lead designer / designeuse</li>
+            <li>Design manager</li>
+            <li>Responsable du design</li>
+          </ul>
+          <p class="fr-mt-4w">
+            <strong>Les principaux métiers du design numérique&nbsp;:</strong>
+          </p>
+          <div class="fr-accordions-group">
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  type="button"
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-1"
+                >
                   La recherche utilisateur (<span lang="en">user research</span
                   >)
-                </h4>
+                </button>
+              </h3>
+              <div id="accordion-1" class="fr-collapse">
                 <p class="fr-mb-2w">
                   Aller à la rencontre des usagers d’un service numérique pour
                   connaître et comprendre leurs besoins et leurs attentes, puis
@@ -181,11 +201,20 @@
                   class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right"
                   >La recherche utilisateur en détails</a
                 >
-              </li>
-              <li class="fr-mb-2w">
-                <h4 class="fr-h6 fr-mb-2w">
+              </div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  type="button"
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-2"
+                >
                   Le design d’expérience (<span lang="en">UX design</span>)
-                </h4>
+                </button>
+              </h3>
+              <div id="accordion-2" class="fr-collapse">
                 <p>
                   Sur la base des données issues de la recherche utilisateur,
                   donner vie au service en concevant les parcours pour les
@@ -193,11 +222,20 @@
                   cela, plusieurs méthodes existent comme la création de
                   maquettes et de prototypes rapides.
                 </p>
-              </li>
-              <li class="fr-mb-4w">
-                <h4 class="fr-h6 fr-mb-2w">
+              </div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  type="button"
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-3"
+                >
                   Le design d’interface (<span lang="en">UI design</span>)
-                </h4>
+                </button>
+              </h3>
+              <div id="accordion-3" class="fr-collapse">
                 <p class="fr-mb-2w">
                   Donner forme au service numérique en concevant son identité
                   graphique : marque, couleurs, typographie, forme des
@@ -211,11 +249,20 @@
                   class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right"
                   >Le système de design de l’État</a
                 >
-              </li>
-              <li class="fr-mb-2w">
-                <h4 class="fr-h6 fr-mb-2w">
+              </div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  type="button"
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-4"
+                >
                   Le design de contenu (<span lang="en">content design</span>)
-                </h4>
+                </button>
+              </h3>
+              <div id="accordion-4" class="fr-collapse">
                 <p>
                   Concevoir et rédiger des contenus simples, clairs,
                   compréhensibles pour les usagers. Par exemple par l’emploi du
@@ -234,372 +281,327 @@
                   ou encore par la simplification des textes juridiques (design
                   juridique - <span lang="en">legal design</span>).
                 </p>
-              </li>
-            </ul>
+              </div>
+            </section>
           </div>
         </section>
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-115"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  👯
-                </span>
-                Le design c’est qui ?
+
+        <section>
+          <h2 class="fr-h3 fr-mt-8w fr-mb-2w">
+            <span class="dg-flex dg-flex--align-center">
+              <span
+                class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                aria-hidden="true"
+              >
+                🗓️
               </span>
-            </button>
-          </h3>
-          <div class="fr-collapse" id="accordion-115">
-            <h4 class="fr-h6">Les professionels du design</h4>
-            <p>
-              La pratique du design, comme tout métier, nécéssite un
-              apprentissage et de l’expérience. Il existe une diversité de
-              profils pouvant pratiquer tout ou partie des métiers du design.
-              Pour être pleinement intégré dans les organisations, des profils
-              de designers managers sont également nécéssaires.
-            </p>
-            <p>
-              Voici une liste non exhaustive des praticiens du design numérique
-              :
-            </p>
-            <ul>
-              <li>Designer / Designeuse</li>
-              <li>Designer / Designeuse UX/UI</li>
-              <li>Product designer</li>
-              <li>Chargé / Chargée de recherche utilisateur</li>
-              <li>Content designer</li>
-              <li>Rédacteur / rédactrice UX</li>
-              <li>Lead designer / designeuse</li>
-              <li>Design manager</li>
-              <li>Responsable du design</li>
-            </ul>
-            <a
-              href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4"
-              target="_blank"
-              title="Voir les fiches de poste - Nouvelle fenêtre"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right"
-              >Voir les fiches de poste</a
-            >
-          </div>
+              Le design numérique, c’est quand ?
+            </span>
+          </h2>
+          <p class="fr-mb-0">
+            <strong>Tout le temps !</strong> Le design est indispensable pour
+            définir la stratégie produit, en amont de sa conception, puis tout
+            au long de sa vie, pour son amélioration continu. Il interveniont
+            donc dans toutes les phases de conception et de dévaloppement.
+          </p>
+          <ul class="dg-list-no-decoration">
+            <li class="fr-pt-2w">
+              <strong
+                ><span aria-hidden="true">🔭</span> Lors des phases
+                exploratoires :</strong
+              >
+              identification des utilisateurs, clarification du contexte,
+              définition du besoin et des objectifs pour le produit. La ou le
+              chargé de recherche utilisateur est le plus impliqué dans ces
+              phases.
+            </li>
+            <li class="fr-pt-2w">
+              <strong
+                ><span aria-hidden="true">🌱</span> Lors des phases d’idéation
+                :</strong
+              >
+              organisation d’atelier d’idéation, élaboration d’un ou plusieurs
+              concepts de solution, tests et validation du concept. La ou le
+              chargé de recheche utilisateur et la ou le designer (UX) sont les
+              plus impliqués dans ces phases.
+            </li>
+            <li class="fr-pt-2w">
+              <strong
+                ><span aria-hidden="true">🧱</span> Lors des phases de
+                conception et développement :</strong
+              >
+              création des maquettes et prototypes, réalisation des tests
+              d’utilisabilité, recette suite aux développements. La ou le
+              designer (UX/UI) et le ou la chargé de recherche utilisateur sont
+              le plus impliqués dans ces phases.
+            </li>
+            <li class="fr-pt-2w">
+              <strong
+                ><span aria-hidden="true">✨</span> Lors des phases d’évaluation
+                et d’amélioration continue :</strong
+              >
+              mesure de l’atteinte des objectifs, tests utilisateurs en
+              production, mesure de la satisfaction usager. Le ou la chargé de
+              recherche utilisateur est le plus impliqué dans ces phases.
+            </li>
+          </ul>
         </section>
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-116"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  🗓️
-                </span>
-                Le design c’est quand ?
+
+        <section id="agir">
+          <h2 class="fr-h3 fr-mt-8w fr-mb-4w">
+            <span class="dg-flex dg-flex--align-center">
+              <span
+                class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                aria-hidden="true"
+              >
+                🧭
               </span>
-            </button>
+              Comment intégrer le design numérique ?
+            </span>
+          </h2>
+          <h3 class="fr-h6 fr-mb-1w">
+            <span aria-hidden="true">1️⃣</span> En travaillant avec des designers
           </h3>
-          <div class="fr-collapse" id="accordion-116">
-            <!-- données de test -->
-            <h4 class="fr-h6">Tout le temps.</h4>
-            <p>
-              Le design doit être présent dans toutes les phases de conception
-              et développement d’un produit numérique.
-            </p>
-            <ul class="dg-list-no-decoration">
-              <li class="fr-pt-2w">
-                <strong
-                  ><span aria-hidden="true">🔭</span> Lors des phases
-                  exploratoires :</strong
+          <p>
+            Il n’y a pas de secret, la première chose dont vous aurez besoin
+            pour intégrer le design, ce sont des designers. S’il ne devait y en
+            avoir qu’un, préférez un profil polyvalent (designer UX/UI - product
+            designer). Puis au fur et à mesure des recrutements, sélectionnez
+            des profils plus spécialisés et qui se complètent.
+          </p>
+
+          <h3 class="fr-h6 fr-mb-1w">
+            <span aria-hidden="true">2️⃣</span> En adaptant les méthodes de
+            travail
+          </h3>
+          <p>
+            Aussi talentueuse soit-elle, la designeuse ne peut pas faire de
+            miracle si les méthodes de travail sont hostiles ou contraires à la
+            pratique du design. Il est donc important d’adapter celles-ci pour
+            faire de la place aux temps et activités du design. Votre ou vos
+            designers sauront vous guider pour cela.
+          </p>
+
+          <h3 class="fr-h6 fr-mb-1w">
+            <span aria-hidden="true">3️⃣</span> En structurant l’organisation
+          </h3>
+          <p>
+            Les besoins en design dépassent de loin le simple besoin de
+            travailler avec des designers. Tout comme il y a un responsable
+            technique et des tech lead, la bonne intégration du design au sein
+            d’une organisation passe par la nomination d’un responsable du
+            design, pour définir une véritable stratégie du design, et de design
+            lead, pour la mettre en œuvre.
+          </p>
+
+          <h3 class="fr-h6">
+            <span aria-hidden="true">➡️</span> Nous pouvons vous aider :
+          </h3>
+          <div class="fr-notice fr-notice--info fr-mt-2w fr-mb-4w">
+            <div class="fr-container">
+              <div class="fr-notice__body">
+                <p>
+                  <span class="fr-notice__title"
+                    >Vous pilotez un projet numérique ?<br
+                  /></span>
+                  <span class="fr-notice__desc"
+                    >Décourvez notre Guide pour concevoir un service public
+                    numérique de qualité<br
+                  /></span>
+                  <a href="/bien-concevoir/" class="fr-notice__link"
+                    >Consulter le guide <span aria-hidden="true">→</span></a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="fr-accordions-group fr-mb-6w">
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-14"
                 >
-                identification des utilisateurs, clarification du contexte,
-                définition du besoin et des objectifs pour le produit. La ou le
-                chargé de recherche utilisateur est le plus impliqué dans ces
-                phases.
-              </li>
-              <li class="fr-pt-2w">
-                <strong
-                  ><span aria-hidden="true">🌱</span> Lors des phases d’idéation
-                  :</strong
+                  <span class="dg-flex dg-flex--align-center">
+                    <span
+                      class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                      aria-hidden="true"
+                    >
+                      🦮
+                    </span>
+                    Je souhaite être accompagné ou financé
+                  </span>
+                </button>
+              </h3>
+              <div class="fr-collapse" id="accordion-14">
+                <p>
+                  La direction interministérielle du numérique (DINUM) propose
+                  plusieurs dispositifs pour vous aider.
+                </p>
+
+                <h4 class="fr-h6 fr-mb-2w">Le pôle Design et Accessibilité</h4>
+                <p class="fr-mb-2w">
+                  Faites intervenir gratuitement au sein de votre équipe des
+                  experts du design, de la recherche utilisateur et de
+                  l’accessibilité numérique pour vous accompagner.
+                </p>
+                <a
+                  href="/accompagnement/"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  >Contacter le pôle Design et Accessibilité
+                </a>
+
+                <h4 class="fr-h6 fr-mb-2w">Le guichet de financement</h4>
+                <p class="fr-mb-2w">
+                  Obtenez un cofinancement pour vos projets de prise en compte
+                  du design et de l’accessibilité numérique.
+                </p>
+                <a
+                  href="https://www.demarches-simplifiees.fr/commencer/guichet-design-et-accessibilite"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  target="_blank"
+                  title="Déposer une demande - Nouvelle fenêtre"
+                  >Déposer une demande</a
                 >
-                organisation d’atelier d’idéation, élaboration d’un ou plusieurs
-                concepts de solution, tests et validation du concept. La ou le
-                chargé de recheche utilisateur et la ou le designer (UX) sont
-                les plus impliqués dans ces phases.
-              </li>
-              <li class="fr-pt-2w">
-                <strong
-                  ><span aria-hidden="true">🧱</span> Lors des phases de
-                  conception et développement :</strong
+              </div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-15"
                 >
-                création des maquettes et prototypes, réalisation des tests
-                d’utilisabilité, recette suite aux développements. La ou le
-                designer (UX/UI) et le ou la chargé de recherche utilisateur
-                sont le plus impliqués dans ces phases.
-              </li>
-              <li class="fr-pt-2w">
-                <strong
-                  ><span aria-hidden="true">✨</span> Lors des phases
-                  d’évaluation et d’amélioration continue :</strong
+                  <span class="dg-flex dg-flex--align-center">
+                    <span
+                      class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                      aria-hidden="true"
+                    >
+                      🧑‍🏫
+                    </span>
+                    Je souhaite former mes équipes
+                  </span>
+                </button>
+              </h3>
+              <div class="fr-collapse" id="accordion-15">
+                <h4 class="fr-h6 fr-mb-2w">Les formations DesignGouv</h4>
+                <p class="fr-mb-2w">
+                  Nous proposons un ensemble de webinaires et d’ateliers de
+                  formation accessibles gratuitement aux agents publics.
+                </p>
+                <a
+                  href="/formations/"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  >Accéder à nos formations</a
                 >
-                mesure de l’atteinte des objectifs, tests utilisateurs en
-                production, mesure de la satisfaction usager. Le ou la chargé de
-                recherche utilisateur est le plus impliqué dans ces phases.
-              </li>
-            </ul>
+
+                <h4 class="fr-h6 fr-mb-2w">Les formations sur mesure</h4>
+                <p class="fr-mb-2w">
+                  Le pôle Design et Accessibilité propose des formations au
+                  design, à la recherche utilisateur et à l’accessibilité
+                  numérique sur mesure.
+                </p>
+                <a
+                  href="/accompagnement/"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  >Contacter le pôle Design et Accessibilité
+                </a>
+              </div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-16"
+                >
+                  <span class="dg-flex dg-flex--align-center">
+                    <span
+                      class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                      aria-hidden="true"
+                    >
+                      🗣️
+                    </span>
+                    Je souhaite faire des tests utilisateurs
+                  </span>
+                </button>
+              </h3>
+              <div class="fr-collapse" id="accordion-16">
+                <h4 class="fr-h6 fr-mb-2w">En autonomie</h4>
+                <p class="fr-mb-2w">
+                  Nous avons élaboré un guide sur la recherche utilisateur pour
+                  vous aider. Toutefois, pour assurer leur qualité, il est
+                  préférable que les tests utilisateurs soient réalisés par des
+                  personnes formées. Consultez également nos formations si
+                  besoin.
+                </p>
+                <a
+                  href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4"
+                  target="_blank"
+                  title="La recherche utilisateur en détails - Nouvelle fenêtre"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  >La recherche utilisateur en détails</a
+                >
+
+                <h4 class="fr-h6 fr-mb-2w">Avec un accompagnement</h4>
+                <p class="fr-mb-2w">
+                  Le pôle Design et Accessibilité peut vous aider à tester vos
+                  produits et services numériques auprès de vos utilisateurs
+                </p>
+                <a
+                  href="/accompagnement/"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  >Contacter le pôle Design et Accessibilité
+                </a>
+              </div>
+            </section>
+            <section class="fr-accordion">
+              <h3 class="fr-accordion__title">
+                <button
+                  class="fr-accordion__btn"
+                  aria-expanded="false"
+                  aria-controls="accordion-17"
+                >
+                  <span class="dg-flex dg-flex--align-center">
+                    <span
+                      class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+                      aria-hidden="true"
+                    >
+                      ✨
+                    </span>
+                    Je souhaite connaître la qualité de mon site
+                  </span>
+                </button>
+              </h3>
+              <div class="fr-collapse" id="accordion-17">
+                <h4 class="fr-h6 fr-mb-2w">En autonomie</h4>
+                <p class="fr-mb-2w">
+                  Le diagnostic flash que nous avons élaboré vous aide à évaluer
+                  rapidement l’accessibilité de votre site. Il ne se substitue
+                  pas à un véritable audit.
+                </p>
+                <a
+                  href="/outils/diagnostic-flash/"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  >Le diagnostic flash</a
+                >
+
+                <h4 class="fr-h6 fr-mb-2w">Avec un audit</h4>
+                <p class="fr-mb-2w">
+                  Le pôle Design et Accessibilité peut réaliser un audit de
+                  votre service ou produit numérique.
+                </p>
+                <a
+                  href="/accompagnement/"
+                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
+                  >Contacter le pôle Design et Accessibilité
+                </a>
+              </div>
+            </section>
           </div>
         </section>
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-117"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  🧭
-                </span>
-                Comment intégrer le design ?
-              </span>
-            </button>
-          </h3>
-          <div class="fr-collapse" id="accordion-117">
-            <h4 class="fr-h6">
-              <span aria-hidden="true">👍</span> En travaillant avec des
-              designers
-            </h4>
-            <p>
-              Il n’y a pas de secret, la première chose dont vous aurez besoin
-              pour intégrer le design, ce sont des designers. S’il ne devait y
-              en avoir qu’un, préférez un profil polyvalent (designer UX/UI -
-              product designer). Puis au fur et à mesure des recrutements,
-              sélectionnez des profils plus spécialisés et qui se complètent.
-            </p>
-
-            <h4 class="fr-h6">
-              <span aria-hidden="true">✌️</span> En adaptant les méthodes de
-              travail
-            </h4>
-            <p>
-              Aussi talentueuse soit-elle, la designeuse ne peut pas faire de
-              miracle si les méthodes de travail sont hostiles ou contraires à
-              la pratique du design. Il est donc important d’adapter celles-ci
-              pour faire de la place aux temps et activités du design. Votre ou
-              vos designers sauront vous guider pour cela.
-            </p>
-
-            <h4 class="fr-h6">
-              <span aria-hidden="true">🤟</span> En structurant l’organisation
-            </h4>
-            <p>
-              Les besoins en design dépassent de loin le simple besoin de
-              travailler avec des designers. Tout comme il y a un responsable
-              technique et des tech lead, la bonne intégration du design au sein
-              d’une organisation passe par la nomination d’un responsable du
-              design, pour définir une véritable stratégie du design, et de
-              design lead, pour la mettre en œuvre.
-            </p>
-          </div>
-        </section>
-      </div>
-
-      <h2 id="agir">Passer à l’action</h2>
-      <div class="fr-accordions-group fr-mb-6w">
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-14"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  🦮
-                </span>
-                Je souhaite être accompagné
-              </span>
-            </button>
-          </h3>
-          <div class="fr-collapse" id="accordion-14">
-            <p>
-              La direction interministérielle du numérique (DINUM) propose
-              plusieurs dispositifs pour vous aider.
-            </p>
-
-            <h4 class="fr-h6 fr-mb-2w">Le pôle Design et Accessibilité</h4>
-            <p class="fr-mb-2w">
-              Faites intervenir gratuitement au sein de votre équipe des experts
-              du design, de la recherche utilisateur et de l’accessibilité
-              numérique pour vous accompagner.
-            </p>
-            <a
-              href="/accompagnement/"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter le pôle Design et Accessibilité </a
-            >
-
-            <h4 class="fr-h6 fr-mb-2w">Le financement FTAP</h4>
-            <p class="fr-mb-2w">
-              Obtenez un cofinancement pour vos projets de prise en compte du
-              design et de l’accessibilité numérique.
-            </p>
-            <a
-              href="https://www.demarches-simplifiees.fr/commencer/guichet-design-et-accessibilite"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              target="_blank"
-              title="Déposer une demande - Nouvelle fenêtre"
-              >Déposer une demande</a
-            >
-          </div>
-        </section>
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-15"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  🧑‍🏫
-                </span>
-                Je souhaite former mes équipes
-              </span>
-            </button>
-          </h3>
-          <div class="fr-collapse" id="accordion-15">
-            <h4 class="fr-h6 fr-mb-2w">Les formations DesignGouv</h4>
-            <p class="fr-mb-2w">
-              Nous proposons un ensemble de webinaires et d’ateliers de
-              formation accessibles gratuitement aux agents publics.
-            </p>
-            <a
-              href="/formations/"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Accéder à nos formations</a
-            >
-
-            <h4 class="fr-h6 fr-mb-2w">Les formations sur mesure</h4>
-            <p class="fr-mb-2w">
-              Le pôle Design et Accessibilité propose des formations au
-              design, à la recherche utilisateur et à l’accessibilité numérique
-              sur mesure.
-            </p>
-            <a
-              href="/accompagnement/"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter le pôle Design et Accessibilité </a
-            >
-          </div>
-        </section>
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-16"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  🗣️
-                </span>
-                Je souhaite faire des tests utilisateurs
-              </span>
-            </button>
-          </h3>
-          <div class="fr-collapse" id="accordion-16">
-            <h4 class="fr-h6 fr-mb-2w">En autonomie</h4>
-            <p class="fr-mb-2w">
-              Nous avons élaboré un guide sur la recherche utilisateur pour vous
-              aider. Toutefois, pour assurer leur qualité, il est préférable que
-              les tests utilisateurs soient réalisés par des personnes formées.
-              Consultez également nos formations si besoin.
-            </p>
-            <a
-              href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4"
-              target="_blank"
-              title="La recherche utilisateur en détails - Nouvelle fenêtre"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >La recherche utilisateur en détails</a
-            >
-
-            <h4 class="fr-h6 fr-mb-2w">Avec un accompagnement</h4>
-            <p class="fr-mb-2w">
-              LLe pôle Design et Accessibilité  peut vous aider à tester vos
-              produits et services numériques auprès de vos utilisateurs
-            </p>
-            <a
-              href="/accompagnement/"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter le pôle Design et Accessibilité </a
-            >
-          </div>
-        </section>
-        <section class="fr-accordion">
-          <h3 class="fr-accordion__title">
-            <button
-              class="fr-accordion__btn"
-              aria-expanded="false"
-              aria-controls="accordion-17"
-            >
-              <span class="dg-flex dg-flex--align-center">
-                <span
-                  class="fr-mt-0 fr-mr-2w dg-picto dg-picto--lg"
-                  aria-hidden="true"
-                >
-                  ✨
-                </span>
-                Je souhaite connaître la qualité de mon site
-              </span>
-            </button>
-          </h3>
-          <div class="fr-collapse" id="accordion-17">
-            <h4 class="fr-h6 fr-mb-2w">En autonomie</h4>
-            <p class="fr-mb-2w">
-              Le diagnostic flash que nous avons élaboré vous aide à évaluer
-              rapidement l’accessibilité de votre site. Il ne se substitue pas à
-              un véritable audit.
-            </p>
-            <a
-              href="/outils/diagnostic-flash/"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Le diagnostic flash</a
-            >
-
-            <h4 class="fr-h6 fr-mb-2w">Avec un audit</h4>
-            <p class="fr-mb-2w">
-              Le pôle Design et Accessibilité peut réaliser un audit de
-              votre service ou produit numérique.
-            </p>
-            <a
-              href="/accompagnement/"
-              class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-              >Contacter le pôle Design et Accessibilité </a
-            >
-          </div>
-        </section>
-      </div>
+      </section>
 
       <section id="ressources" class="fr-mb-6w">
         <h2>Ressources</h2>

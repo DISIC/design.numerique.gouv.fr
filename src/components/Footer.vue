@@ -17,6 +17,9 @@
           </g-link>
         </div>
         <div class="fr-footer__content">
+          <div class="fr-footer__content-desc dg-numgouv">
+            <img  svg-inline src="../assets/images/numeriquegouv.svg" class="fr-header__service-title" aria-label="Numérique.gouv - L’alliance du numérique de l’État"/>
+          </div>
           <p class="fr-footer__content-desc">
             DesignGouv est propulsé par la
             <a

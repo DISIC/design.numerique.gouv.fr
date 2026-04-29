@@ -2,18 +2,36 @@
   <Test>
     <div class="dg-content fr-px-2w fr-pt-4w">
       <h1>Tests</h1>
+
+
+<table aria-describedby="table-desc">
+  <tr>
+    <td>1.1</td>
+    <td>1.2</td>
+    <td>1.3</td>
+  </tr>
+ <tr>
+    <td>2.1</td>
+    <td>2.2</td>
+    <td>2.3</td>
+  </tr>
+  <tr>
+    <td>3.1</td>
+    <td>3.2</td>
+    <td>3.3</td>
+  </tr>   
+</table>
+
+<p id="table-desc">Ce tableau ne sert vraiment à rien</p>
+
+
+
 <div
   aria-label="Attribut aria label restitué par vo"
   aria-description="Attribut aria description non restitué par vo">
   <h2>Test aria description</h2>
   <p>Exemple de contenu </p>
 </div>
-
-test longdesc ?
-
-
-documenter les points d'api
-
 
 
 <h2>Test aria describedby</h2>

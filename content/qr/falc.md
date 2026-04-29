@@ -7,16 +7,19 @@ tag:
 ---
 Falc, c’est pour «&nbsp;Facile à lire et à comprendre&nbsp;». La page [«&nbsp;Outils de création pour rendre l’information et la communication accessibles&nbsp;» du site info.gouv.fr](https://www.info.gouv.fr/accessibilite/outils-de-creation-pour-rendre-linformation-et-la-communication-accessibles) présente la démarche de la manière suivante (extraits)&nbsp;:
 
-> Initialement destiné aux personnes porteuses de déficiences intellectuelles, la méthode Falc profite finalement à un public bien plus large. Personnes malvoyantes du fait de l’âge ou d’un handicap, personnes maîtrisant mal le français, personnes peu familières avec l’administratif…
->
-> La méthode Falc repose sur 5 règles&nbsp;:
->  1. Des informations présentées dans un ordre logique,
->  2. Un niveau de langage simplifié constitué de mots courants, sans jargon ni métaphore,
->  3. Des phrases courtes (pas plus de 12 mots) et ne contenant qu’une seule idée,
->  4. Des images et des pictogrammes pour améliorer la compréhension du texte,
->  5. Une mise en page adaptée et une police facilement lisible par tous.
->
-> Ces cinq premières cases cochées, la méthode prévoit une relecture systématique des documents Falc par une personne en situation de handicap intellectuel conformément au principe du «&nbsp;n’écrivez jamais pour nous sans nous&nbsp;».
+Initialement destiné aux personnes porteuses de déficiences intellectuelles, la méthode Falc profite finalement à un public bien plus large. Personnes malvoyantes du fait de l’âge ou d’un handicap, personnes maîtrisant mal le français, personnes peu familières avec l’administratif…
+
+La méthode Falc repose sur 5 règles&nbsp;:
+
+<ol>
+  <li>Des informations présentées dans un ordre logique,</li>
+  <li>Un niveau de langage simplifié constitué de mots courants, sans jargon ni métaphore,</li>
+  <li>Des phrases courtes (pas plus de 12 mots) et ne contenant qu’une seule idée,</li>
+  <li>Des images et des pictogrammes pour améliorer la compréhension du texte,</li>
+  <li>Une mise en page adaptée et une police facilement lisible par tous.</li>
+</ol>
+
+Ces cinq premières cases cochées, <strong>la méthode prévoit une relecture systématique des documents Falc par une personne en situation de handicap intellectuel</strong> conformément au principe du «&nbsp;n’écrivez jamais pour nous sans nous&nbsp;».
 
 Le Falc est donc l’application d’une *méthode* de *traduction* - et non pas uniquement le fait d’écrire clairement et simplement (ce qui devrait être toujours le cas).
 

@@ -18,8 +18,7 @@
         </nav>
         <h1 class="dg-cover__title">Contact</h1>
         <p class="fr-text--lead">
-          Vous pouvez nous contacter en utilisant l’adresse électronique
-          <strong>contact[a]design.numerique.gouv.fr</strong>.
+          Envoyez nous un message, nous vous répondrons rapidement.
         </p>
       </div>
     </div>

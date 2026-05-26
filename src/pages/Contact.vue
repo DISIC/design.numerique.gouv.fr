@@ -22,10 +22,69 @@
         </p>
       </div>
     </div>
+
+    <div class="dg-content fr-px-0 fr-px-md-2w">
+      <div class="dg-content dg-content--xs fr-mt-6w">
+        <form class="form" v-on:submit.prevent="sendMessage">
+          <p>
+            <small>Tous les champs sont obligatoires.</small>
+          </p>
+          <div class="fr-input-group">
+            <label class="fr-label" for="email">
+              Votre adresse e-mail
+              <span class="fr-hint-text">Format attendu : prenom@mail.fr</span>
+            </label>
+            <input
+              class="fr-input"
+              type="email"
+              id="email"
+              v-model="form.mail"
+              required
+            />
+          </div>
+          <div class="fr-input-group">
+            <label class="fr-label" for="message"> Votre message </label>
+            <textarea
+              class="fr-input"
+              id="message"
+              v-model="form.message"
+              required
+            ></textarea>
+          </div>
+          <p>
+            <small>
+              Nous utiliserons les informations recueillies ci-dessus pour vous
+              contacter afin de répondre à votre message. <br /><br />
+              Conformément à la règlementation, vous disposez d'un droit
+              d'opposition et d'un droit à la limitation du traitement de
+              données vous concernant, ainsi que d'un droit d'accès, de
+              rectification, de portabilité et d'effacement de vos données. Vous
+              pouvez exercer vos droits en nous écrivant à
+              contact@design.numerique.gouv.fr.
+            </small>
+          </p>
+          <div
+            v-if="error"
+            class="fr-alert fr-alert--error fr-mb-2w"
+            role="alert"
+          >
+            <p>
+              Un problème est survenu lors de l'envoi de votre message. Veuillez
+              réessayer ultérieurement.
+            </p>
+          </div>
+          <button class="fr-btn" id="submit" type="submit">
+            Envoyer votre message
+          </button>
+        </form>
+      </div>
+    </div>
   </Layout>
 </template>
 
 <script>
+import axios from "axios";
+
 export default {
   metaInfo: {
     title: "Contact",
@@ -50,6 +109,56 @@ export default {
           "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
       },
     ],
+  },
+  data() {
+    return {
+      form: {
+        mail: "",
+        message: "",
+      },
+      error: false,
+    };
+  },
+  methods: {
+    async sendMessage() {
+      document.getElementById("submit").disabled = true;
+      this.error = false;
+
+      const sanitizedMessage = this.form.message
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/’/g, "&#039;");
+
+      const targetUrl = `${process.env.GRIDSOME_GRIST_URL}/api/docs/${process.env.GRIDSOME_GRIST_REQUESTS_DOC_ID}/tables/Contact/records`;
+
+      try {
+        await axios({
+          method: "post",
+          url: `${process.env.GRIDSOME_GRIST_PHP_PROXY}/grist-proxy.php?url=${encodeURIComponent(targetUrl)}`,
+          headers: {
+            "Content-Type": "application/json",
+          },
+          data: {
+            records: [
+              {
+                fields: {
+                  mail: this.form.mail,
+                  message: sanitizedMessage,
+                },
+              },
+            ],
+          },
+        });
+
+        window.location.href = "/contact/succes/";
+      } catch (err) {
+        Sentry.captureException(err);
+        this.error = true;
+        document.getElementById("submit").disabled = false;
+      }
+    },
   },
 };
 </script>

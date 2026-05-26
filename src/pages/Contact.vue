@@ -26,6 +26,17 @@
     <div class="dg-content fr-px-0 fr-px-md-2w">
       <div class="dg-content dg-content--xs fr-mt-6w">
         <form class="form" v-on:submit.prevent="sendMessage">
+          <div class="form__trap" aria-hidden="true">
+            <label for="website">Ne pas remplir ce champ</label>
+            <input
+              type="text"
+              id="website"
+              name="website"
+              v-model="honeypot"
+              autocomplete="off"
+              tabindex="-1"
+            />
+          </div>
           <p>
             <small>Tous les champs sont obligatoires.</small>
           </p>
@@ -116,11 +127,17 @@ export default {
         mail: "",
         message: "",
       },
+      honeypot: "",
       error: false,
     };
   },
   methods: {
     async sendMessage() {
+      if (this.honeypot !== "") {
+        window.location.href = "/contact/succes/";
+        return;
+      }
+
       document.getElementById("submit").disabled = true;
       this.error = false;
 
@@ -162,3 +179,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.form__trap {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+</style>

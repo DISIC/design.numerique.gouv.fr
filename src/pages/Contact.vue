@@ -59,6 +59,7 @@
               class="fr-input"
               id="message"
               v-model="form.message"
+              maxlength="5000"
               required
             ></textarea>
           </div>
@@ -84,7 +85,7 @@
               réessayer ultérieurement.
             </p>
           </div>
-          <button class="fr-btn" id="submit" type="submit">
+          <button class="fr-btn" type="submit" :disabled="submitting">
             Envoyer votre message
           </button>
         </form>
@@ -130,16 +131,17 @@ export default {
       },
       honeypot: "",
       error: false,
+      submitting: false,
     };
   },
   methods: {
     async sendMessage() {
       if (this.honeypot !== "") {
-        window.location.href = "/contact/succes/";
+        this.$router.push("/contact/succes/");
         return;
       }
 
-      document.getElementById("submit").disabled = true;
+      this.submitting = true;
       this.error = false;
 
       const sanitizedMessage = this.form.message
@@ -170,11 +172,11 @@ export default {
           },
         });
 
-        window.location.href = "/contact/succes/";
+        this.$router.push("/contact/succes/");
       } catch (err) {
         Sentry.captureException(err);
         this.error = true;
-        document.getElementById("submit").disabled = false;
+        this.submitting = false;
       }
     },
   },

@@ -77,8 +77,10 @@
           </p>
           <div
             v-if="error"
+            ref="errorAlert"
             class="fr-alert fr-alert--error fr-mb-2w"
             role="alert"
+            tabindex="-1"
           >
             <p>
               Un problème est survenu lors de l'envoi de votre message. Veuillez
@@ -178,6 +180,9 @@ export default {
         Sentry.captureException(err);
         this.error = true;
         this.submitting = false;
+        this.$nextTick(() => {
+          this.$refs.errorAlert?.focus();
+        });
       }
     },
   },
@@ -187,9 +192,13 @@ export default {
 <style scoped>
 .form__trap {
   position: absolute;
-  left: -9999px;
-  opacity: 0;
-  height: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 </style>

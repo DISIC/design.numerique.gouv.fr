@@ -18,7 +18,7 @@
         </nav>
         <h1 class="dg-cover__title">Contact</h1>
         <p class="fr-text--lead">
-          Envoyez nous un message, nous vous répondrons rapidement.
+          Envoyez-nous un message, nous vous répondrons rapidement.
         </p>
       </div>
     </div>

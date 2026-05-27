@@ -413,6 +413,7 @@
 </template>
 
 <script>
+import * as Sentry from "@sentry/browser";
 import axios from "axios";
 export default {
   metaInfo: {

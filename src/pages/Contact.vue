@@ -137,6 +137,7 @@ export default {
   methods: {
     async sendMessage() {
       if (this.honeypot !== "") {
+        Sentry.captureMessage("Contact form honeypot triggered", "warning");
         this.$router.push("/contact/succes/");
         return;
       }

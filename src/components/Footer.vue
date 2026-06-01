@@ -4,8 +4,9 @@
     <div class="fr-container">
       <div class="footer fr-footer__body fr-footer__body--operator">
         <div class="fr-footer__brand">
-          <p class="fr-logo">République<br>
-						Française
+          <p class="fr-logo">
+            République<br />
+            Française
           </p>
           <g-link class="fr-footer__brand-link" to="/">
             <img
@@ -18,7 +19,12 @@
         </div>
         <div class="fr-footer__content">
           <div class="fr-footer__content-desc dg-numgouv">
-            <img  svg-inline src="../assets/images/numeriquegouv.svg" class="fr-header__service-title" aria-label="Numérique.gouv - L’alliance du numérique de l’État"/>
+            <img
+              svg-inline
+              src="../assets/images/numeriquegouv.svg"
+              class="fr-header__service-title"
+              aria-label="Numérique.gouv - L’alliance du numérique de l’État"
+            />
           </div>
           <p class="fr-footer__content-desc">
             DesignGouv est propulsé par la
@@ -52,18 +58,18 @@
               <a
                 class="fr-footer__content-link"
                 target="_blank"
-                title="gouvernement.fr - nouvelle fenêtre"
-                href="https://gouvernement.fr"
-                >gouvernement.fr</a
+                title="info.gouv.fr - nouvelle fenêtre"
+                href="https://info.gouv.fr"
+                >info.gouv.fr</a
               >
             </li>
             <li class="fr-footer__content-item">
               <a
                 class="fr-footer__content-link"
                 target="_blank"
-                title="service-public.fr - nouvelle fenêtre"
-                href="https://service-public.fr"
-                >service-public.fr</a
+                title="service-public.gouv.fr - nouvelle fenêtre"
+                href="https://service-public.gouv.fr"
+                >service-public.gouv.fr</a
               >
             </li>
             <li class="fr-footer__content-item">

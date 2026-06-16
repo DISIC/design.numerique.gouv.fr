@@ -1,0 +1,134 @@
+<template>
+  <Layout>
+    <div class="dg-content fr-px-2w">
+      <nav role="navigation" class="fr-breadcrumb" aria-label="vous êtes ici :">
+        <ol class="fr-breadcrumb__list">
+          <li>
+            <g-link to="/" class="fr-breadcrumb__link">Accueil</g-link>
+          </li>
+          <li>
+            <g-link to="/outils/" class="fr-breadcrumb__link">Outils</g-link>
+          </li>
+          <li>
+            <a class="fr-breadcrumb__link" aria-current="page"
+              >Bonnes pratiques pour les formulaires</a
+            >
+          </li>
+        </ol>
+      </nav>
+
+      <h1>Bonnes pratiques pour les formulaires</h1>
+      <p class="fr-text--lead">
+        Un bon formulaire doit respecter un ensemble de bonnes pratiques : 
+      </p>
+
+      <ul
+        class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w"
+      >
+        <li
+          :class="'fr-col-md-4 fr-col-12 cat' + cat.node.id"
+          v-for="cat in $page.allFormsCat.edges"
+        >
+          <div class="fr-card fr-enlarge-link">
+            <div class="fr-card__body">
+              <div class="fr-card__content">
+                <h3 class="fr-card__title fr-h6">
+                  <a href="#" class="dg-link--no-icon">{{ cat.node.title }}</a>
+                </h3>
+                <p class="fr-card__desc">
+                  {{ cat.node.content }}
+                </p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <section
+        :class="'cat' + cat.node.id"
+        v-for="cat in $page.allFormsCat.edges"
+      >
+        <h2 class="fr-my-6w">{{ cat.node.title }}</h2>
+
+        <ul class="fr-accordions-group">
+          <li
+            class="fr-accordion"
+            v-for="(
+              criterion, index
+            ) in $page.allFormsBestPractice.edges.filter(
+              (edge) => edge.node.cat.id === cat.node.id,
+            )"
+          >
+            <h3 class="fr-accordion__title">
+              <button
+                class="fr-accordion__btn"
+                aria-expanded="false"
+                :aria-controls="criterion.node.id"
+              >
+                <span>{{ criterion.node.title }} </span>
+              </button>
+            </h3>
+            <div class="fr-collapse" :id="criterion.node.id">
+              <div class="fr-accordion__inner">
+                <div v-html="criterion.node.content" />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </Layout>
+</template>
+
+<page-query>
+  query {
+    allFormsCat (sortBy: "id", order: ASC) {
+      edges {
+        node {
+          id
+          title
+          content
+        }
+      }
+    },
+    allFormsBestPractice(sort: [ { by: "id", order: ASC }]) {
+      edges {
+        node {
+          id
+          title
+          content
+          cat {
+            id
+          }
+        }
+      }
+    }
+  }
+</page-query>
+
+<script>
+export default {
+  metaInfo: {
+    title: "Bonnes pratiques pour les formulaires",
+    meta: [
+      {
+        name: "description",
+        content: "TODO Desc",
+      },
+      {
+        property: "og:title",
+        content: "Bonnes pratiques pour les formulaires - DesignGouv",
+      },
+      {
+        property: "og:description",
+        content: "TODO Desc",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
+      },
+    ],
+  },
+};
+</script>

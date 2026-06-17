@@ -132,6 +132,7 @@
           id
           title
           content
+          emoji
         }
       }
     },

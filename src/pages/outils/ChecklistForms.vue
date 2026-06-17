@@ -17,6 +17,18 @@
         </ol>
       </nav>
 
+      <div class="fr-notice fr-notice--info fr-mt-2w fr-mb-4w">
+        <div class="fr-container">
+          <div class="fr-notice__body">
+            <p>
+              <span class="fr-notice__title"
+                >Page en cours de construction<br
+              /></span>
+            </p>
+          </div>
+        </div>
+      </div>
+
       <h1>Bonnes pratiques pour les formulaires</h1>
       <p class="fr-text--lead">
         Un bon formulaire doit respecter un ensemble de bonnes pratiques : 

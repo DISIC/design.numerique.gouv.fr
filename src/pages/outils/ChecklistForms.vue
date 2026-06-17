@@ -31,7 +31,8 @@
 
       <h1>Bonnes pratiques pour les formulaires</h1>
       <p class="fr-text--lead">
-        Un bon formulaire doit respecter un ensemble de bonnes pratiques : 
+        Pour être accessible et inclusif au plus grand nombre, un bon formulaire
+        doit respecter un ensemble de bonnes pratiques : 
       </p>
 
       <ul
@@ -41,15 +42,24 @@
           :class="'fr-col-md-4 fr-col-12 cat' + cat.node.id"
           v-for="cat in $page.allFormsCat.edges"
         >
-          <div class="fr-card fr-enlarge-link">
+          <div class="fr-card fr-enlarge-link fr-card--sm">
             <div class="fr-card__body">
               <div class="fr-card__content">
                 <h3 class="fr-card__title fr-h6">
-                  <a href="#" class="dg-link--no-icon">{{ cat.node.title }}</a>
+                  <a :href="'#cat' + cat.node.id" class="dg-link--no-icon">{{
+                    cat.node.title
+                  }}</a>
                 </h3>
-                <p class="fr-card__desc">
-                  {{ cat.node.content }}
-                </p>
+                <div class="fr-card__start">
+                  <ul v-if="cat.node.tag" class="fr-badges-group">
+                    <li>
+                      <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">
+                        {{ cat.node.tag }}
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <p class="fr-card__desc" v-html="cat.node.content" />
               </div>
             </div>
           </div>
@@ -58,9 +68,20 @@
 
       <section
         :class="'cat' + cat.node.id"
+        :id="'cat' + cat.node.id"
         v-for="cat in $page.allFormsCat.edges"
       >
-        <h2 class="fr-my-6w">{{ cat.node.title }}</h2>
+        <h2 class="fr-my-6w">
+          <span class="dg-flex dg-flex--align-center">
+            <span
+              class="fr-mt-0 fr-mr-2w dg-picto dg-picto--sm"
+              aria-hidden="true"
+            >
+              {{ cat.node.emoji }}
+            </span>
+            {{ cat.node.title }}
+          </span>
+        </h2>
 
         <ul class="fr-accordions-group">
           <li
@@ -77,7 +98,7 @@
                 aria-expanded="false"
                 :aria-controls="criterion.node.id"
               >
-                <span>{{ criterion.node.title }} </span>
+                <span>{{ criterion.node.title }}</span>
               </button>
             </h3>
             <div class="fr-collapse" :id="criterion.node.id">
@@ -87,6 +108,15 @@
             </div>
           </li>
         </ul>
+
+        <div class="fr-grid-row fr-grid-row--right fr-my-2w">
+          <a
+            href="#top"
+            target="_self"
+            class="fr-link fr-icon-arrow-up-fill fr-link--icon-left"
+            >Haut de page</a
+          >
+        </div>
       </section>
     </div>
   </Layout>

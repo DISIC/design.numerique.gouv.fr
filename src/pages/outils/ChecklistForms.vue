@@ -118,7 +118,9 @@
           >
         </div>
       </section>
+      emoji
     </div>
+    tag
   </Layout>
 </template>
 

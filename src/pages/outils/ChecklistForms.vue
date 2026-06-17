@@ -45,11 +45,11 @@
           <div class="fr-card fr-enlarge-link fr-card--sm">
             <div class="fr-card__body">
               <div class="fr-card__content">
-                <h3 class="fr-card__title fr-h6">
+                <p class="fr-card__title fr-h6">
                   <a :href="'#cat' + cat.node.id" class="dg-link--no-icon">{{
                     cat.node.title
                   }}</a>
-                </h3>
+                </p>
                 <div class="fr-card__start">
                   <ul v-if="cat.node.tag" class="fr-badges-group">
                     <li>
@@ -131,6 +131,7 @@
           title
           content
           emoji
+          tag
         }
       }
     },

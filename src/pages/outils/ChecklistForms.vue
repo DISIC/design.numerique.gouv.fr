@@ -66,6 +66,8 @@
         </li>
       </ul>
 
+      <!-- Lien tout déplier / tout replier ? -->
+
       <section
         :class="'cat' + cat.node.id"
         :id="'cat' + cat.node.id"
@@ -111,7 +113,7 @@
 
         <div class="fr-grid-row fr-grid-row--right fr-my-2w">
           <a
-            href="#top"
+            href="#main"
             target="_self"
             class="fr-link fr-icon-arrow-up-fill fr-link--icon-left"
             >Haut de page</a

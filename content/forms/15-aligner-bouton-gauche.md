@@ -8,4 +8,6 @@ Aligner le bouton de validation d'un formulaire à gauche, avec le reste du text
 
 #### Aller plus loin
 
-- [Where to put buttons on forms](https://adamsilver.io/blog/where-to-put-buttons-on-forms/) - [adamsilver.io](http://adamsilver.io)
+<ul class="fr-links-group">
+	<li><a title="Where to put buttons on forms - nouvelle fenêtre" href="https://adamsilver.io/blog/where-to-put-buttons-on-forms/" target="_blank" lang="en" rel="noopener external" class="fr-link fr-link--sm">Where to put buttons on forms</a>  - Adam Silver</li>
+</ul>

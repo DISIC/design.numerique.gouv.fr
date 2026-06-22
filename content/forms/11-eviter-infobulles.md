@@ -14,6 +14,6 @@ Il est plus utile de rendre l'aide, toujours visible pour tout le monde.
 
 #### Aller plus loin
 
-<ul class="fr-links-group">
+<ul class="fr-links-group fr-text--sm">
 	<li><a title="L’infobulle à l’ère des WCAG 2.1 - nouvelle fenêtre" href="https://access42.net/infobulle-wcag-21/" target="_blank" rel="noopener external" class="fr-link fr-link--sm">L’infobulle à l’ère des WCAG 2.1</a>  - Access42</li>
 </ul>

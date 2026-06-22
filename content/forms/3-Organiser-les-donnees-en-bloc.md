@@ -8,6 +8,6 @@ Regrouper les données en bloc qui ont du sens : « identité », « coordon
 
 #### Aller plus loin
 
-<ul class="fr-links-group">
+<ul class="fr-links-group fr-text--sm">
 	<li><a title="Blocs fonctionnels - nouvelle fenêtre" href="https://www.systeme-de-design.gouv.fr/version-courante/fr/modeles/blocs-fonctionnels" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Blocs fonctionnels</a> - DSFR</li>
 </ul>

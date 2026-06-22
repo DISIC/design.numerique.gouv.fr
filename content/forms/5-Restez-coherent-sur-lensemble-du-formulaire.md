@@ -10,7 +10,7 @@ La cohérence réduit l’effort de compréhension et évite les ambiguïtés, l
 
 #### Aller plus loin
 
-<ul class="fr-links-group">
+<ul class="fr-links-group fr-text--sm">
 	<li><a title="Critère 6 de Bastien et Scapin - nouvelle fenêtre" href="https://www.lunaweb.fr/actualites/blog/evaluer-les-interfaces-avec-les-criteres-de-bastien-et-scapin/" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Critère 6 de Bastien et Scapin</a> - LunaWeb</li>
 	<li><a title="heuristique #4 (anglais) - nouvelle fenêtre" href="https://www.nngroup.com/articles/consistency-and-standards/" target="_blank" rel="noopener external" lang="en" class="fr-link fr-link--sm">Heuristique #4 de Nielsen</a> - NNGroup</li>
 	<li><a title="Consistency in the Omnichannel Experience - nouvelle fenêtre" href="https://www.nngroup.com/articles/omnichannel-consistency/" target="_blank" lang="en" rel="noopener external" class="fr-link fr-link--sm">Consistency in the Omnichannel Experience</a> - NNGroup</li>

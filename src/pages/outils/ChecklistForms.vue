@@ -50,16 +50,16 @@
                     cat.node.title
                   }}</a>
                 </p>
-                <div class="fr-card__start">
-                  <ul v-if="cat.node.tag" class="fr-badges-group">
+                <p class="fr-card__desc" v-html="cat.node.content" />
+                <div class="fr-card__end">
+                  <ul v-if="cat.node.tags" class="fr-badges-group">
                     <li>
                       <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">
-                        {{ cat.node.tag }}
+                        {{ cat.node.tags }}
                       </p>
                     </li>
                   </ul>
                 </div>
-                <p class="fr-card__desc" v-html="cat.node.content" />
               </div>
             </div>
           </div>
@@ -126,14 +126,14 @@
 
 <page-query>
   query {
-    allFormsCat (sortBy: "id", order: ASC) {
+    allFormsCat (sortBy: "id", order: ASC, filter: {}) {
       edges {
         node {
           id
           title
           content
           emoji
-          tag
+          tags
         }
       }
     },

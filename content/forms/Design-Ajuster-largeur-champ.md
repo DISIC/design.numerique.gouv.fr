@@ -1,5 +1,5 @@
 ---
-id: 9
+id: Design-4b
 title: Ajuster la largeur du champ à la valeur attendue
 cat: 2
 ---

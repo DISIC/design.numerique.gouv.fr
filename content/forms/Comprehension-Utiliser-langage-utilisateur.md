@@ -1,5 +1,5 @@
 ---
-id: 21
+id: Comprehension-1
 title: Utiliser le langage de l'utilisateur
 cat: 3
 ---

@@ -1,5 +1,5 @@
 ---
-id: 13
+id: Design-6
 title: Placer les intitulés au dessus des champs
 cat: 2
 ---

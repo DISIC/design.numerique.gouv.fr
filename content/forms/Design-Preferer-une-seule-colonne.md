@@ -1,5 +1,5 @@
 ---
-id: 16
+id: Design-7
 title: Préférer les formulaires en une seule colonne
 cat: 2
 ---

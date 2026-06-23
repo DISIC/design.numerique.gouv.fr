@@ -1,5 +1,5 @@
 ---
-id: 23
+id: Comprehension-3
 title: Préférer des intitulés concis
 cat: 3
 ---

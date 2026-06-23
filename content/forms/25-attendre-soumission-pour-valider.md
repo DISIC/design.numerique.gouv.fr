@@ -1,5 +1,0 @@
----
-id: 25
-title: 🚧 Attendre la soumission du formulaire pour le valider
-cat: 4
----

@@ -1,5 +1,5 @@
 ---
-id: 10
+id: Design-2
 title: Éviter les placeholders
 cat: 2
 ---

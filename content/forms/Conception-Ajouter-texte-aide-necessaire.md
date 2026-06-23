@@ -1,7 +1,7 @@
 ---
-id: 14
+id: Conception-14
 title: Ajouter un texte d'aide seulement si nécessaire
-cat: 2
+cat: 3
 ---
 
 Le texte d’aide (donnant des conseils, exemples ou précisions) doit être utilisé seulement quand un champ peut prêter à confusion, nécessite un format particulier ou nécessite une indication qui aide à retrouver l'information.

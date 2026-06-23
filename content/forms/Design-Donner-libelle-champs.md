@@ -1,5 +1,5 @@
 ---
-id: 8
+id: Design-1
 title: Donner un libellé à chaque champ
 cat: 2
 ---

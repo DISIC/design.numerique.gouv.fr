@@ -1,5 +1,5 @@
 ---
-id: 24
+id: Comprehension-1
 title: 🚧 Simplifier le langage
 cat: 3
 ---

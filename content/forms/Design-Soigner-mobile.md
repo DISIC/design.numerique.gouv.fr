@@ -1,5 +1,5 @@
 ---
-id: 19
+id: Design-9b
 title: Soigner l'affichage sur toutes les largeurs
 cat: 2
 ---

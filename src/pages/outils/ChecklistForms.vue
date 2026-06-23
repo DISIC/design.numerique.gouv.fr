@@ -51,7 +51,7 @@
                   }}</a>
                 </p>
                 <p class="fr-card__desc" v-html="cat.node.content" />
-                <div class="fr-card__end">
+                <!-- <div class="fr-card__end">
                   <ul v-if="cat.node.tags" class="fr-badges-group">
                     <li>
                       <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">
@@ -59,7 +59,7 @@
                       </p>
                     </li>
                   </ul>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@
 
 <page-query>
   query {
-    allFormsCat (sortBy: "id", order: ASC, filter: {}) {
+    allFormsCat (filter: { tags: { containsAny: ["general"] } }) {
       edges {
         node {
           id

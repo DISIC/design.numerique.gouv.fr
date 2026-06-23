@@ -126,7 +126,7 @@
 
 <page-query>
   query {
-    allFormsCat (filter: { tags: { containsAny: ["general"] } }) {
+    allFormsCat (filter: { tags: { containsAny: ["general"] } }, sort: [ { by: "id", order: ASC }]) {
       edges {
         node {
           id

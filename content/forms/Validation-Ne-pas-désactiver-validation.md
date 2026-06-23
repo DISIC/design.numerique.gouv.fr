@@ -9,5 +9,5 @@ Rendre le bouton de validation actionnable même lorsque le formulaire est en er
 #### Aller plus loin
 
 <ul class="fr-links-group fr-text--sm">
-	<li><a title="Disabled button suck - nouvelle fenêtre" href="https://axesslab.com/disabled-buttons-suck/" target="_blank" lang="en" rel="noopener external" class="fr-link fr-link--sm">Disabled buttons suck</a> - Axessslab</li>
+	<li><a href="https://axesslab.com/disabled-buttons-suck/" lang="en" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Disabled button suck <span class="fr-sr-only" lang="fr">nouvelle fenêtre</span></a> - <span lang="en">Axessslab</span></li>
 </ul>

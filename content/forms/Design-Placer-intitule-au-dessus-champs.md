@@ -9,6 +9,5 @@ Aligner l'intitulé d'un champ sur le bord gauche, directement au dessus du cham
 #### Aller plus loin
 
 <ul class="fr-links-group fr-text--sm">
-	<li><a title="Form Design Quick Fix: Group Form Elements Effectively Using White Space" href="https://www.nngroup.com/articles/form-design-white-space/" target="_blank" rel="noopener external" lang="en" class="fr-link fr-link--sm">Form Design Quick Fix: Group Form Elements Effectively Using White Space
-</a>  - NN Group</li>
+	<li><a href="https://www.nngroup.com/articles/form-design-white-space/" lang="en" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Form Design Quick Fix: Group Form Elements Effectively Using White Space <span class="fr-sr-only" lang="fr">nouvelle fenêtre</span></a> - <span lang="en">Nielson Norman Group</span></li>
 </ul>

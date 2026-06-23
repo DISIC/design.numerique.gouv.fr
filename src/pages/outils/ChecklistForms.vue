@@ -22,8 +22,13 @@
           <div class="fr-notice__body">
             <p>
               <span class="fr-notice__title"
-                >Page en cours de construction<br
+                >Aidez-nous à améliorer cette page !<br
               /></span>
+              Faites-nous part de vos retours en remplissant ce
+              <a
+                href="https://jedonnemonavis.numerique.gouv.fr/Demarches/avis/2332?button=4778"
+                >court formulaire de feedback</a
+              >.
             </p>
           </div>
         </div>

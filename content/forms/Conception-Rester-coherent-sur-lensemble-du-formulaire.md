@@ -12,6 +12,6 @@ La cohérence réduit l’effort de compréhension et évite les ambiguïtés, l
 
 <ul class="fr-links-group fr-text--sm">
 	<li><a title="Critère 6 de Bastien et Scapin - nouvelle fenêtre" href="https://www.lunaweb.fr/actualites/blog/evaluer-les-interfaces-avec-les-criteres-de-bastien-et-scapin/" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Critère 6 de Bastien et Scapin</a> - LunaWeb</li>
-	<li><a title="heuristique #4 (anglais) - nouvelle fenêtre" href="https://www.nngroup.com/articles/consistency-and-standards/" target="_blank" rel="noopener external" lang="en" class="fr-link fr-link--sm">Heuristique #4 de Nielsen</a> - NNGroup</li>
-	<li><a title="Consistency in the Omnichannel Experience - nouvelle fenêtre" href="https://www.nngroup.com/articles/omnichannel-consistency/" target="_blank" lang="en" rel="noopener external" class="fr-link fr-link--sm">Consistency in the Omnichannel Experience</a> - NNGroup</li>
+	<li><a href="https://www.nngroup.com/articles/consistency-and-standards/" lang="en" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Heuristique #4<span class="fr-sr-only" lang="fr">nouvelle fenêtre</span></a> - <span lang="en">Nielsen Norman Group</span></li>
+	<li><a href="https://www.nngroup.com/articles/omnichannel-consistency/" lang="en" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Consistency in the Omnichannel Experience <span class="fr-sr-only" lang="fr">nouvelle fenêtre</span></a> - <span lang="en">Nielsen Norman Group</span></li>
 </ul>

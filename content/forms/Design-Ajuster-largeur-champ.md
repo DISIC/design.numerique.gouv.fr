@@ -9,5 +9,5 @@ Utiliser une largeur de champ fixe pour les champs qui ont une longueur connue. 
 #### Aller plus loin
 
 <ul class="fr-links-group fr-text--sm">
-	<li><a title="Fixed width inputs - nouvelle fenêtre" href="https://design-system.w3.org/styles/forms.html#fixed-width-inputs" target="_blank" lang="en" rel="noopener external" class="fr-link fr-link--sm">Fixed width inputs</a>  - W3C</li>
+	<li><a href="https://design-system.w3.org/styles/forms.html#fixed-width-inputs" lang="en" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Fixed width inputs <span class="fr-sr-only" lang="fr">nouvelle fenêtre</span></a> - <span lang="en">W3C</span></li>
 </ul>

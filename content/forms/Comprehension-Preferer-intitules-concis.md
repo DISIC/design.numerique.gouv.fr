@@ -4,6 +4,7 @@ title: Préférer des intitulés concis
 cat: 3
 ---
 
-Simplifier les instructions permet de réduire la charge mentale.
+Simplifier les instructions permet de réduire la charge mentale : il a moins à lire. Par exemple :
 
-Par exemple, il est inutile de préfixer les consignes par « Merci de remplir »
+- Éviter les consignes (« Merci de remplir... », « Choisir... »)
+- Préférer « Nom » plutôt que « Quel est votre nom ? »

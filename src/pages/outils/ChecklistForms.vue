@@ -40,6 +40,12 @@
         doit respecter un ensemble de bonnes pratiques : 
       </p>
 
+      <p>
+        Ces bonnes pratiques s'intègrent pleinement dans les
+        <g-link to="/bien-concevoir/#lancer">phases de conceptions</g-link> d'un
+        service numérique.
+      </p>
+
       <ul
         class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w"
       >
@@ -125,6 +131,8 @@
           >
         </div>
       </section>
+
+      <p class="fr-text--sm">Dernière modification : 23 juin</p>
     </div>
   </Layout>
 </template>

@@ -11,5 +11,7 @@ Cela réduit la charge cognitive, facilite la complétion du formulaire et évit
 #### Pour aller plus loin
 
 <ul class="fr-links-group fr-text--sm">
+	<li><a href="https://design.numerique.gouv.fr/formations/design/simplifier-information/" class="fr-link fr-link--sm">Simplifier l’information à destination des usagers</a></li>
+	<li><a href="https://www.modernisation.gouv.fr/campus-de-la-transformation-publique/catalogue-de-ressources/outil/un-kit-pour-des-formulaires" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Kit pour des formulaires simples à remplir, compréhensibles et accessibles</a> - modernisation.gouv.fr</li>
 	<li><a href="https://contentdesign.london/blog/the-case-for-clear-language" lang="en" target="_blank" rel="noopener external" class="fr-link fr-link--sm">Making the case for clear language <span class="fr-sr-only" lang="fr">nouvelle fenêtre</span></a> - <span lang="en">Content Design London</span></li>
 </ul>

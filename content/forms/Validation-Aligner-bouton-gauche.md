@@ -1,7 +1,7 @@
 ---
-id: 15
+id: Validation-15
 title: Aligner le bouton du formulaire à gauche
-cat: 6
+cat: 5
 ---
 
 Aligner le bouton de validation d'un formulaire à gauche, avec le reste du texte, le rend plus visible ; notamment pour les personnes utilisant une loupe d'écran, ou pour les personnes peu à l'aise avec les interfaces complexes.

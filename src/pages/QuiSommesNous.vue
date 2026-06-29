@@ -84,12 +84,7 @@
             >direction interministérielle du numérique</a
           >.
         </p>
-        <g-image
-          src="~/assets/images/equipe-designgouv.jpg"
-          width="280"
-          alt=""
-        />
-        <img src="@/assets/images/equipe-designgouv.jpg" width="280" />
+        <img src="@/assets/images/equipe-designgouv.jpg" width="280" alt="" />
       </section>
       <!--
       <section class="fr-mb-8w">

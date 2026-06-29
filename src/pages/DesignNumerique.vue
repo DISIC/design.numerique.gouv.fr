@@ -113,11 +113,11 @@
             <li class="fr-mt-2w">
               <span
                 class="fr-badge fr-badge--sm fr-badge--green-tilleul-verveine fr-mb-1v"
-                >Efficace</span
+                >Efficaces</span
               >
               <span class="dg-display-block fr-pl-2w"
                 >Qui fonctionnent correctement, garantissent la protections des
-                usagers, savent évoluer en focntion des besoins et assurent la
+                usagers, savent évoluer en fonction des besoins et assurent la
                 transparence de l’action publique.</span
               >
             </li>
@@ -127,9 +127,9 @@
                 >Responables</span
               >
               <span class="dg-display-block fr-pl-2w"
-                >Qui soient frugaux, qui repectent et renforce l’autonomie des
-                citoyennes et citoyens dans leurs démarches et proposent
-                l'accompagnemnt dont ils ont besoin.</span
+                >Qui soient frugaux, qui respectent et renforcent l’autonomie
+                des citoyennes et citoyens dans leurs démarches et proposent
+                l'accompagnement dont ils ont besoin.</span
               >
             </li>
           </ul>
@@ -148,11 +148,11 @@
             </span>
           </h2>
           <p>
-            La pratique du design, comme tout métier, nécéssite un apprentissage
+            La pratique du design, comme tout métier, nécessite un apprentissage
             et de l’expérience. Il existe une diversité de profils pouvant
             pratiquer tout ou partie des métiers du design. Pour être pleinement
             intégré dans les organisations, des profils de designers managers
-            sont également nécéssaires.
+            sont également nécessaires.
           </p>
           <p>
             Voici une liste non exhaustive des praticiens du design
@@ -279,7 +279,7 @@
                     >Facile À Lire et à Comprendre (FALC)</a
                   >
                   ou encore par la simplification des textes juridiques (design
-                  juridique - <span lang="en">legal design</span>).
+                  juridique – <span lang="en">legal design</span>).
                 </p>
               </div>
             </section>
@@ -301,8 +301,8 @@
           <p class="fr-mb-0">
             <strong>Tout le temps !</strong> Le design est indispensable pour
             définir la stratégie produit, en amont de sa conception, puis tout
-            au long de sa vie, pour son amélioration continu. Il interveniont
-            donc dans toutes les phases de conception et de dévaloppement.
+            au long de sa vie, pour son amélioration continu. Il intervient donc
+            dans toutes les phases de conception et de développement.
           </p>
           <ul class="dg-list-no-decoration">
             <li class="fr-pt-2w">
@@ -322,7 +322,7 @@
               >
               organisation d’atelier d’idéation, élaboration d’un ou plusieurs
               concepts de solution, tests et validation du concept. La ou le
-              chargé de recheche utilisateur et la ou le designer (UX) sont les
+              chargé de recherche utilisateur et la ou le designer (UX) sont les
               plus impliqués dans ces phases.
             </li>
             <li class="fr-pt-2w">
@@ -332,7 +332,7 @@
               >
               création des maquettes et prototypes, réalisation des tests
               d’utilisabilité, recette suite aux développements. La ou le
-              designer (UX/UI) et le ou la chargé de recherche utilisateur sont
+              designer (UX/UI) et la ou le chargé de recherche utilisateur sont
               le plus impliqués dans ces phases.
             </li>
             <li class="fr-pt-2w">
@@ -341,7 +341,7 @@
                 et d’amélioration continue :</strong
               >
               mesure de l’atteinte des objectifs, tests utilisateurs en
-              production, mesure de la satisfaction usager. Le ou la chargé de
+              production, mesure de la satisfaction usager. La ou le chargé de
               recherche utilisateur est le plus impliqué dans ces phases.
             </li>
           </ul>
@@ -365,7 +365,7 @@
           <p>
             Il n’y a pas de secret, la première chose dont vous aurez besoin
             pour intégrer le design, ce sont des designers. S’il ne devait y en
-            avoir qu’un, préférez un profil polyvalent (designer UX/UI - product
+            avoir qu’un, préférez un profil polyvalent (designer UX/UI – product
             designer). Puis au fur et à mesure des recrutements, sélectionnez
             des profils plus spécialisés et qui se complètent.
           </p>
@@ -405,7 +405,7 @@
                     >Vous pilotez un projet numérique ?<br
                   /></span>
                   <span class="fr-notice__desc"
-                    >Décourvez notre Guide pour concevoir un service public
+                    >Découvrez notre Guide pour concevoir un service public
                     numérique de qualité<br
                   /></span>
                   <a href="/bien-concevoir/" class="fr-notice__link"

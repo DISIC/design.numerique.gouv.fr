@@ -89,6 +89,7 @@
           width="280"
           alt=""
         />
+        <img src="@/assets/images/equipe-designgouv.jpg" width="280" />
       </section>
       <!--
       <section class="fr-mb-8w">

@@ -131,6 +131,23 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        typeName: "FormsCat",
+        path: "./content/forms/cat/*.md",
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "FormsBestPractice",
+        path: "./content/forms/*.md",
+        refs: {
+          cat: "FormsCat",
+        },
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         typeName: "PidilaCriterion",
         path: "./content/pidila/*.md",
       },

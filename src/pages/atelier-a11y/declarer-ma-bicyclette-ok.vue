@@ -31,7 +31,6 @@
               >
               <input
                 required
-                tabindex="1"
                 class="fr-input"
                 type="text"
                 id="bike-brand"

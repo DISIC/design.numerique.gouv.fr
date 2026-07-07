@@ -4,7 +4,7 @@ title: S'assurer de l'accessibilité du formulaire
 cat: 4
 ---
 
-Le formulaire doit pouvoir être complété pour toutes les personnes, quelques soient leurs capacités ou leurs outils (clavier, lecteur d'écran, technologie d'assistance). Cela implique de respecter les standards d’accessibilité : navigation au clavier fluide, éléments interactifs correctement labellisés, contrastes suffisants etc.
+Le formulaire doit pouvoir être complété par toutes les personnes, quelques soient leurs capacités ou leurs outils (clavier, lecteur d'écran, technologie d'assistance). Cela implique de respecter les standards d’accessibilité : navigation au clavier fluide, éléments interactifs correctement labellisés, contrastes suffisants etc.
 
 #### Pour aller plus loin
 

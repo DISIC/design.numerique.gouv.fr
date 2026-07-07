@@ -1,6 +1,6 @@
 ---
 id: Validation-1
-title: Ne pas désactiver/cacher le bouton de validation
+title: Ne pas désactiver ni cacher le bouton de validation
 cat: 5
 ---
 

@@ -8,4 +8,4 @@ cat: 3
 
 Le texte du bouton d’action doit indiquer précisément ce qui va se passer à la soumission du formulaire. Un intitulé clair rassure l'utilisateur et annonce la conséquence de son action.
 
-Par exemple, « Envoyer la demande », « S'inscrire », ou « Obtenir mon estimation ».
+Par exemple : « Envoyer la demande », « S'inscrire » ou « Obtenir mon estimation ».

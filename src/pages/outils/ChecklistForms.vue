@@ -37,14 +37,26 @@
       <h1>Bonnes pratiques pour les formulaires</h1>
       <p class="fr-text--lead">
         Pour être accessible et inclusif au plus grand nombre, un bon formulaire
-        doit respecter un ensemble de bonnes pratiques : 
+        doit respecter un ensemble de bonnes pratiques. 
       </p>
 
-      <p>
-        Ces bonnes pratiques s'intègrent pleinement dans les
-        <g-link to="/bien-concevoir/#lancer">phases de conceptions</g-link> d'un
-        service numérique.
-      </p>
+      <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
+        <p class="fr-callout__text">
+          <strong
+            >Testez votre formulaire avec des utilisateurs
+            représentatifs</strong
+          >. <br />C'est le meilleur moyen de vérifier qu'il est compréhensible,
+          simple à compléter par vos utilisateurs et qu'il répond réellement à
+          leurs besoins.
+          <br />
+        </p>
+        <p>
+          Pour aller plus loin, découvrez comment
+          <a href="/bien-concevoir/#lancer"
+            >concevoir un service numérique de qualité</a
+          >.
+        </p>
+      </div>
 
       <ul
         class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w"

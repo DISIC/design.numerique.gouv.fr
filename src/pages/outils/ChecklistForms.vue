@@ -40,24 +40,6 @@
         doit respecter un ensemble de bonnes pratiques. 
       </p>
 
-      <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
-        <p class="fr-callout__text">
-          <strong
-            >Testez votre formulaire avec des utilisateurs
-            représentatifs</strong
-          >. <br />C'est le meilleur moyen de vérifier qu'il est compréhensible,
-          simple à compléter par vos utilisateurs et qu'il répond réellement à
-          leurs besoins.
-          <br />
-        </p>
-        <p>
-          Pour aller plus loin, découvrez comment
-          <a href="/bien-concevoir/#lancer"
-            >concevoir un service numérique de qualité</a
-          >.
-        </p>
-      </div>
-
       <ul
         class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w"
       >
@@ -88,6 +70,24 @@
           </div>
         </li>
       </ul>
+
+      <div class="fr-callout fr-callout--purple-glycine fr-mt-4w">
+        <p class="fr-callout__text">
+          <strong
+            >Testez votre formulaire avec des utilisateurs
+            représentatifs</strong
+          >. <br />C'est le meilleur moyen de vérifier qu'il est compréhensible,
+          simple à compléter par vos utilisateurs et qu'il répond réellement à
+          leurs besoins.
+          <br />
+        </p>
+        <p>
+          Pour aller plus loin, découvrez comment
+          <a href="/bien-concevoir/#lancer"
+            >concevoir un service numérique de qualité</a
+          >.
+        </p>
+      </div>
 
       <!-- Lien tout déplier / tout replier ? -->
 

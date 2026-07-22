@@ -184,7 +184,7 @@ export default {
     meta: [
       {
         name: "description",
-        content: "TODO Desc",
+        content: "La checklist pour faire des formulaires inclusifs",
       },
       {
         property: "og:title",
@@ -192,7 +192,7 @@ export default {
       },
       {
         property: "og:description",
-        content: "TODO Desc",
+        content: "La checklist pour faire des formulaires inclusifs",
       },
       {
         property: "og:image",

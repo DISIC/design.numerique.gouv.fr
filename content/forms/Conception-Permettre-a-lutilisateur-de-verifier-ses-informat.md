@@ -1,10 +1,10 @@
 ---
 id: Conception-5
-title: Permettre à l'utilisateur de vérifier ses informations
+title: Permettre à l’utilisateur de vérifier ses informations
 cat: 1
 ---
 
-Avant la soumission d'un formulaire, afficher un récapitulatif permet de modifier ses réponses, et ainsi de réduire le risque d'erreur de saisie. C'est aussi un moyen de rassurer l'utilisateur.
+Avant la soumission d’un formulaire, afficher un récapitulatif permet de modifier ses réponses, et ainsi de réduire le risque d’erreur de saisie. C’est aussi un moyen de rassurer l’utilisateur.
 
 #### Aller plus loin
 

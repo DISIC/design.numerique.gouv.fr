@@ -49,6 +49,19 @@
 
       <h2>Pièges à éviter</h2>
 
+      <div class="fr-toggle fr-toggle--border-bottom fr-mb-4w">
+        <input
+          type="checkbox"
+          class="fr-toggle__input"
+          id="toggle-input-open"
+          aria-describedby="toggle-input-open"
+          @change="toggleAll"
+        />
+        <label class="fr-toggle__label" for="toggle-input-open">{{
+          allOpen ? "Replier tout" : "Déplier tout"
+        }}</label>
+      </div>
+
       <section
         :class="'cat' + cat.node.id"
         :id="'cat' + cat.node.id"
@@ -98,6 +111,13 @@
           >Haut de page</a
         >
       </div>
+
+      <h2>Comment utiliser Chartability ?</h2>
+
+      <p>
+        Blabla, n'empêche pas d'auditer. et pour les cartographies exemptes, ça
+        reste une bonne pratique
+      </p>
 
       <div class="fr-callout fr-mt-4w">
         <p class="fr-callout__text fr-text--sm">
@@ -164,6 +184,23 @@ export default {
           "https://design.numerique.gouv.fr/assets/meta-images/designgouv.png",
       },
     ],
+  },
+  data() {
+    return {
+      allOpen: false,
+    };
+  },
+  methods: {
+    toggleAll() {
+      document.querySelectorAll(".fr-collapse").forEach((collapse) => {
+        if (this.allOpen) {
+          window.dsfr(collapse).collapse.conceal();
+        } else {
+          window.dsfr(collapse).collapse.disclose();
+        }
+      });
+      this.allOpen = !this.allOpen;
+    },
   },
 };
 </script>

@@ -6,7 +6,7 @@ cat: 1
 
 Collecter uniquement les données et les documents justificatifs qui sont nécessaires pour fournir le service associé au formulaire.
 
-Demander des données inutiles allonge le formulaire et augmente la charge cognitive pour l'utilisateur.
+Demander des données inutiles allonge le formulaire et augmente la charge cognitive pour l’utilisateur.
 
 #### Aller plus loin
 

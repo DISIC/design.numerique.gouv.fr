@@ -4,7 +4,7 @@ title: Aligner le bouton du formulaire à gauche
 cat: 5
 ---
 
-Aligner le bouton de validation d'un formulaire à gauche, avec le reste du texte, le rend plus visible ; notamment pour les personnes utilisant une loupe d'écran, ou pour les personnes peu à l'aise avec les interfaces complexes.
+Aligner le bouton de validation d'un formulaire à gauche, avec le reste du texte, le rend plus visible ; notamment pour les personnes utilisant une loupe d’écran, ou pour les personnes peu à l’aise avec les interfaces complexes.
 
 #### Aller plus loin
 

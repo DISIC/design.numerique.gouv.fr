@@ -72,7 +72,7 @@
         <ul
           class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w"
         >
-          <li class="fr-col-md-6 fr-col-12">
+          <li class="fr-col-md-4 fr-col-12">
             <div class="fr-card fr-enlarge-link">
               <div class="fr-card__body">
                 <div class="fr-card__content">
@@ -89,7 +89,7 @@
               </div>
             </div>
           </li>
-          <li class="fr-col-md-6 fr-col-12">
+          <li class="fr-col-md-4 fr-col-12">
             <div class="fr-card fr-enlarge-link">
               <div class="fr-card__body">
                 <div class="fr-card__content">
@@ -106,7 +106,7 @@
               </div>
             </div>
           </li>
-          <li class="fr-col-md-6 fr-col-12">
+          <li class="fr-col-md-4 fr-col-12">
             <div class="fr-card fr-enlarge-link">
               <div class="fr-card__body">
                 <div class="fr-card__content">
@@ -123,7 +123,7 @@
               </div>
             </div>
           </li>
-          <li class="fr-col-md-6 fr-col-12">
+          <li class="fr-col-md-4 fr-col-12">
             <div class="fr-card fr-enlarge-link">
               <div class="fr-card__body">
                 <div class="fr-card__content">
@@ -133,6 +133,23 @@
                   <p class="fr-card__desc">
                     Ensemble de règles pour réaliser un document PDF accessible
                     à partir d’un traitement de texte
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="fr-col-md-4 fr-col-12">
+            <div class="fr-card fr-enlarge-link">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title fr-h6">
+                    <g-link to="/outils/checklist-chartability/"
+                      >Chartability (français)</g-link
+                    >
+                  </h3>
+                  <p class="fr-card__desc">
+                    Ensemble de règles pour réaliser une datavisualisation
+                    accessible
                   </p>
                 </div>
               </div>

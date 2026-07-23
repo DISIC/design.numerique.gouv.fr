@@ -47,6 +47,58 @@
         et flexible.
       </p>
 
+      <h2>Pièges à éviter</h2>
+
+      <section
+        :class="'cat' + cat.node.id"
+        :id="'cat' + cat.node.id"
+        v-for="cat in $page.allChartabilityCat.edges"
+      >
+        <h3>{{ cat.node.title }}</h3>
+        <p class="fr-text--lead" v-html="cat.node.content" />
+
+        <ul class="accordions fr-mb-4w" :id="'accordeon' + cat.node.id">
+          <li
+            class="fr-accordion"
+            v-for="(
+              criterion, index
+            ) in $page.allChartabilityHeuristics.edges.filter(
+              (edge) => edge.node.cat.id === cat.node.id,
+            )"
+          >
+            <h3 class="fr-accordion__title">
+              <button
+                class="fr-accordion__btn"
+                aria-expanded="false"
+                :aria-controls="criterion.node.id"
+              >
+                <span>{{ criterion.node.title }}</span>
+
+                <span
+                  class="fr-badge fr-badge--sm fr-badge--warning fr-ml-2w"
+                  v-if="criterion.node.critical"
+                  >Problème majeur</span
+                >
+              </button>
+            </h3>
+            <div class="fr-collapse" :id="criterion.node.id">
+              <div class="fr-accordion__inner">
+                <div v-html="criterion.node.content" />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <div class="fr-grid-row fr-grid-row--right fr-my-2w">
+        <a
+          href="#main"
+          target="_self"
+          class="fr-link fr-icon-arrow-up-fill fr-link--icon-left"
+          >Haut de page</a
+        >
+      </div>
+
       <div class="fr-callout fr-mt-4w">
         <p class="fr-callout__text fr-text--sm">
           Cette page est une traduction libre du travail de Frank Elavsky, sur
@@ -63,6 +115,30 @@
 </template>
 
 <page-query>
+  query {
+    allChartabilityCat (filter: {}, sort: [ { by: "id", order: ASC }]) {
+      edges {
+        node {
+          id
+          title
+          content
+        }
+      }
+    },
+    allChartabilityHeuristics(sort: [ { by: "id", order: ASC }]) {
+      edges {
+        node {
+          id
+          title
+          content
+          critical
+          cat {
+            id
+          }
+        }
+      }
+    }
+  }
 </page-query>
 
 <script>
@@ -92,4 +168,9 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.accordions {
+  list-style-type: none;
+  padding-left: 0;
+}
+</style>

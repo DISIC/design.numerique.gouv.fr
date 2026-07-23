@@ -5,4 +5,4 @@ emoji: 🎨
 tags: ["general"]
 ---
 
-Pour tout ce qui est propre à l'interface utilisateur.
+Pour tout ce qui est propre à l’interface utilisateur.

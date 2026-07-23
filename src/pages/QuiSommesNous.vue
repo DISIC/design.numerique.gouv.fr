@@ -58,7 +58,7 @@
             >Le numérique doit nous permettre d'améliorer la relation entre les
             usagers et l'administration, à travers des services utiles,
             utilisables, simples, inclusifs et humains.</strong
-          >. En partenariat avec les ministères, nous travaillons pour qu'un
+          > En partenariat avec les ministères, nous travaillons pour qu'un
           plus grand nombre puissent utiliser ces services en toute autonomie.
         </p>
         <p>
@@ -66,7 +66,7 @@
           <g-link to="/accompagnement/">accompagnements d'experts</g-link> : des
           designers, chargées de recherche utilisateur, experts en référencement
           naturel, expertes en accessibilité numérique, designers de contenu,
-          développeuses déployées au sein des administrations qui concoivent ces
+          développeuses déployées au sein des administrations qui conçoivent ces
           services publics pour les améliorer.
         </p>
         <p>

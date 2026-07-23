@@ -70,7 +70,7 @@
           Depuis septembre 2020 nous avons mis en place le
           <a href="https://design.numerique.gouv.fr/commando-ux">Commando UX</a>
           : des designers et développeurs déployés au sein des ministères qui
-          concoivent ces services publics pour les améliorer.
+          conçoivent ces services publics pour les améliorer.
         </p>
         <p>
           Enfin, nous participons au développement d’une culture de design

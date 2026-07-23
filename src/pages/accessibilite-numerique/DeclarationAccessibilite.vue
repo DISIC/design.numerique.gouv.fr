@@ -63,7 +63,7 @@
       <section>
         <h2>Réponse aux usagers</h2>
         <p>L’organisme concerné fournit en ligne aux utilisateurs la possibilité de faire des réclamations relatives à l’accessibilité de ses services de communication au public en ligne. Il accuse réception de ces réclamations conformément aux dispositions de l’article R112-3 du code des relations entre le public et l’Administration. L’accusé de réception comporte les informations mentionnées à l’article R112-5 du même code.</p>
-        <p>L’organisme concerné répond à toute réclamation dans un délai d’une semaine à compte de sa date d’envoi. Si la réclamation de l’utilisateur soulève une ou plusieurs questions complexes justifiant un délai d’examen plus long, la réponse indique un délai raisonnable pour la réponse définitive. Le caractère complexe des questions soulevées doit être dûment motivé.</p>
+        <p>L’organisme concerné répond à toute réclamation dans un délai d’une semaine à compter de sa date d’envoi. Si la réclamation de l’utilisateur soulève une ou plusieurs questions complexes justifiant un délai d’examen plus long, la réponse indique un délai raisonnable pour la réponse définitive. Le caractère complexe des questions soulevées doit être dûment motivé.</p>
         <p>L’utilisateur  doit s’identifier dans sa réclamation en suivant les prescriptions de l’article R112-9-1 du même code.</p>
         <p>Si les informations transmises par l’utilisateur dans sa réclamation sont incomplètes ou ne sont pas suffisamment claires, l’organisme concerné lui demande de les compléter ou de les clarifier et lui communique le délai raisonnable de traitement ou sa réponse définitive après réception des compléments demandés.</p>
       </section>

@@ -107,7 +107,7 @@ export default {
       {
         name: "description",
         content:
-          "Rester en contact avec l’équipe de Design des services numériques.",
+          "Restez en contact avec l’équipe de Design des services numériques.",
       },
       {
         property: "og:title",
@@ -116,7 +116,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Rester en contact avec l’équipe de Design des services numériques.",
+          "Restez en contact avec l’équipe de Design des services numériques.",
       },
       {
         property: "og:image",

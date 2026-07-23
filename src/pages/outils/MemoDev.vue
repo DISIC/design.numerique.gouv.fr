@@ -81,7 +81,7 @@
         <li>Définir un <code>alt</code> sur toutes les images <code>img</code>.</li>
         <li>Définir un <code>alt=""</code> sur les images de décoration.</li>
         <li>Définir une alternative conforme et pertinente lorsqu'elle est porteuse d'information.</li>
-        <li>Éviter le plus possibles les images textes</li>
+        <li>Éviter le plus possible les images texte</li>
       </ul>
       <h2 class="fr-h3"><a target="_blank" href="https://disic.github.io/guide-integrateur/10-infos-forme-couleur.html" title="Informations par la forme et la couleur - nouvelle fenêtre" >Informations par la forme et la couleur</a></h2>
       <ul>

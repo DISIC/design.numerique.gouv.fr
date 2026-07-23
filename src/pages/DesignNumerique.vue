@@ -27,7 +27,7 @@
           />Design numérique
         </h1>
         <p class="fr-text--lead">
-          Le design permet la création services numériques
+          Le design permet la création de services numériques
           <strong>simples</strong> et <strong>inclusifs</strong>. Concevoir par
           le design, c’est mettre en œuvre une approche centrée sur
           <strong>les usagers</strong> et <strong>leurs besoins</strong>, tout
@@ -240,7 +240,7 @@
                   Donner forme au service numérique en concevant son identité
                   graphique : marque, couleurs, typographie, forme des
                   composants, etc. Pour cela et s’il existe, l’utilisation d’un
-                  système de design est essentiel.
+                  système de design est essentielle.
                 </p>
                 <a
                   href="https://www.systeme-de-design.gouv.fr/"
@@ -717,7 +717,7 @@
                     </ul>
                   </div>
                   <p class="fr-card__desc">
-                    Faîtes tester vos services en ligne par des utilisateurs en
+                    Faites tester vos services en ligne par des utilisateurs en
                     situation de handicap.
                   </p>
                 </div>
@@ -947,7 +947,7 @@ export default {
       {
         name: "description",
         content:
-          "Le design permet la création services numériques simples, inclusifs et humains.",
+          "Le design permet la création de services numériques simples, inclusifs et humains.",
       },
       {
         property: "og:title",
@@ -956,7 +956,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Le design permet la création services numériques simples, inclusifs et humains.",
+          "Le design permet la création de services numériques simples, inclusifs et humains.",
       },
       {
         property: "og:image",

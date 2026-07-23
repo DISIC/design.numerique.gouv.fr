@@ -29,7 +29,7 @@
       </section>
 <!--       <section >
         <h2>Notre guichet France Relance</h2>
-        <p>Obtenez un financement ou des ressources pour concrétiser un projet d'améliorer de la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
+        <p>Obtenez un financement ou des ressources pour concrétiser un projet d'amélioration de la qualité de vos démarches en ligne (Expérience utilisateur, Accessibilité, Design, FranceConnect, Dites-le nous une fois).</p>
         <h3>Qui</h3>
         <p>Les démarches qui apparaissent dans le Top 250 de l'<a href="https://observatoire.numerique.gouv.fr/observatoire/" title="Observatoire de la qualité des démarches en ligne - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener">Observatoire de la qualité des démarches en ligne</a>.</p>
         <h3>Comment</h3>

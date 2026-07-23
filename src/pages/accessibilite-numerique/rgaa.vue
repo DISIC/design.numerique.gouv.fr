@@ -21,10 +21,10 @@
       <section>
         <h2>À quoi ça sert ?</h2>
         <p>
-          Le RGAA permet de contrôler l’accessibilité d’un site et de ses contenus suivant les normes internationales de l’accessibilité numérique connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><abbr lang="en" title="web content accessibilty guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
+          Le RGAA permet de contrôler l’accessibilité d’un site et de ses contenus suivant les normes internationales de l’accessibilité numérique connues sous l’appellation de <a href="https://www.w3.org/TR/WCAG21/" title="WCAG - Nouvelle fenêtre" target="_blank" rel="noreferrer noopener"><abbr lang="en" title="web content accessibility guidelines">WCAG</abbr></a>. <strong>En France, le taux d’accessibilité d’un site est calculé en l’auditant au regard des critères du RGAA.</strong>
         </p>
         <p>
-          Le RGAA définit une méthode technique et propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critères. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
+          Le RGAA définit une méthode technique et propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité. Elle comporte 106 critères de contrôle RGAA incluant une moyenne de 2,5 tests par critère. Certains tests font référence à des techniques d'implémentation (HTML, CSS, JavaScript...) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
         </p>
 
         <p>

@@ -1,12 +1,12 @@
 ---
 id: Conception-14
-title: Ajouter un texte d'aide seulement si nécessaire
+title: Ajouter un texte d’aide seulement si nécessaire
 cat: 3
 ---
 
-Le texte d’aide (donnant des conseils, exemples ou précisions) doit être utilisé seulement quand un champ peut prêter à confusion, nécessite un format particulier ou nécessite une indication qui aide à retrouver l'information.
+Le texte d’aide (donnant des conseils, exemples ou précisions) doit être utilisé seulement quand un champ peut prêter à confusion, nécessite un format particulier ou nécessite une indication qui aide à retrouver l’information.
 
-Un texte d'aide bien placé améliore la compréhension et facilite la complétion du formulaire. Des textes d'aide inutiles surcharge visuellement le questionnaire et distraient l'utilisateur.
+Un texte d’aide bien placé améliore la compréhension et facilite la complétion du formulaire. Des textes d’aide inutiles surcharge visuellement le questionnaire et distraient l’utilisateur.
 
 #### Aller plus loin
 

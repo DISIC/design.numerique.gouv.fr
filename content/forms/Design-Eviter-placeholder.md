@@ -4,7 +4,7 @@ title: Éviter les placeholders
 cat: 2
 ---
 
-Les placeholders sont peu lisibles (contrastes trop faibles) et disparaissent à la saisie. Par ailleurs, ils ne sont pas vocalisés par les lecteurs d'écrans.
+Les placeholders sont peu lisibles (contrastes trop faibles) et disparaissent à la saisie. Par ailleurs, ils ne sont pas vocalisés par les lecteurs d’écrans.
 
 #### Aller plus loin
 

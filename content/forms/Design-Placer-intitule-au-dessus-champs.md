@@ -1,10 +1,10 @@
 ---
 id: Design-6
-title: Placer les intitulés au dessus des champs
+title: Placer les intitulés au-dessus des champs
 cat: 2
 ---
 
-Aligner l'intitulé d'un champ sur le bord gauche, directement au dessus du champ, facilite sa découvrabilité. C'est aussi plus accessible pour les personnes qui utilisent une loupe d’écran.
+Aligner l’intitulé d'un champ sur le bord gauche, directement au dessus du champ, facilite sa découvrabilité. C’est aussi plus accessible pour les personnes qui utilisent une loupe d’écran.
 
 #### Aller plus loin
 

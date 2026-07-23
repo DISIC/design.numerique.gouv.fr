@@ -16,6 +16,10 @@ li.fr-card {
   padding-bottom: 0;
 }
 
+code {
+  word-break: break-all;
+}
+
 .dg {
   &-link {
     &--no-icon::after {

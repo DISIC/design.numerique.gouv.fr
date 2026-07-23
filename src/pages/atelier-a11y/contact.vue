@@ -1,5 +1,5 @@
 <template>
-  <Exercise>
+  <Atelier>
     <section class="dg-cover dg-cover--linear fr-mb-6w">
       <div class="dg-cover__container fr-mb-1w">
         <nav
@@ -20,7 +20,7 @@
         <p class="fr-text--lead">Vous pouvez nous écrire à l'adresse électronique suivante <b>aide [à] declarer-sa-bicyclette [point] fr</b>.</p>
       </div>
     </section>
-  </Exercise>
+  </Atelier>
 </template>
 
 <script>

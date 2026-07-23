@@ -1,5 +1,5 @@
 <template>
-  <Exercise>
+  <Atelier>
     <section class="dg-cover dg-cover--linear fr-mb-6w">
       <div class="dg-cover__container fr-mb-1w">
         <nav
@@ -36,7 +36,7 @@
         <img class="fr-responsive-img fr-ratio-16x9" src="/assets/images/gravel.jpg" alt="Tu es perdu ? C'est tout droit !" />
     </div>
 </figure>
-  </Exercise>
+  </Atelier>
 </template>
 
 <script>

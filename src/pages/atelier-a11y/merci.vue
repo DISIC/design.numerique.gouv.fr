@@ -1,5 +1,5 @@
 <template>
-  <Exercise>
+  <Atelier>
     <section class="dg-cover dg-cover--linear fr-mb-6w">
       <div class="dg-cover__container fr-mb-1w">
         <nav
@@ -37,7 +37,7 @@
         /></a>
       </div>
     </div>
-  </Exercise>
+  </Atelier>
 </template>
 
 <script>

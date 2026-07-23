@@ -27,6 +27,7 @@ $whitelist = [
     "POST $baseUrl/api/docs/$request/tables/Accompagnements/records" => true,
     "GET $baseUrl/api/docs/$request/tables/Accompagnements/columns" => true,
     "POST $baseUrl/api/docs/$request/tables/Candidats_Tous_les_profils/records" => true,
+    "POST $baseUrl/api/docs/$request/tables/Contact/records" => true,
     "POST $baseUrl/api/docs/$training/tables/Inscriptions/records" => true,
     "GET $baseUrl/api/docs/$training/tables/Inscriptions/columns" => true,
 ];

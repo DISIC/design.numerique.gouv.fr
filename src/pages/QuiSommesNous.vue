@@ -84,8 +84,9 @@
             >direction interministérielle du numérique</a
           >.
         </p>
+        <img src="@/assets/images/equipe-designgouv.jpg" width="280" alt="" />
       </section>
-<!--
+      <!--
       <section class="fr-mb-8w">
         <h2>Notre équipe</h2>
         <ul class="dg-team">

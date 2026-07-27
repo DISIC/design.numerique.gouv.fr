@@ -1,0 +1,8 @@
+---
+id: 5
+title: Validation
+emoji: ✅
+tags: ["general"]
+---
+
+Afin de bien gérer les erreurs.

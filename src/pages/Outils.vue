@@ -68,27 +68,75 @@
 
       <section>
         <h2 id="tech">Les checklists pour toutes et tous</h2>
-        <ul class="fr-mb-3w">
-          <li>
-            La
-            <g-link to="/outils/checklist-pdf/">checklist PDF</g-link> propose
-            un ensemble de règles pour réaliser un
-            <strong>document PDF accessible</strong> à partir d’un traitement de
-            texte ;
+
+        <ul
+          class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w"
+        >
+          <li class="fr-col-md-6 fr-col-12">
+            <div class="fr-card fr-enlarge-link">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title fr-h6">
+                    <g-link to="/outils/checklist-pdf/"
+                      >Diagnostic Flash</g-link
+                    >
+                  </h3>
+                  <p class="fr-card__desc">
+                    Estimation rapide et partielle l’accessibilité d’un site ou
+                    d’une démarche en ligne, sans expertise technique
+                  </p>
+                </div>
+              </div>
+            </div>
           </li>
-          <li>
-            le
-            <g-link to="/outils/diagnostic-flash/">diagnostic flash</g-link>
-            permet d’estimer de manière
-            <strong>rapide et partielle</strong> l’accessibilité d’un site ou
-            d’une démarche en ligne, sans avoir d’expertise particulière et en
-            n’y consacrant que peu de temps ;
+          <li class="fr-col-md-6 fr-col-12">
+            <div class="fr-card fr-enlarge-link">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title fr-h6">
+                    <g-link to="/outils/checklist-forms/"
+                      >Checklist Formulaires</g-link
+                    >
+                  </h3>
+                  <p class="fr-card__desc">
+                    Bonnes pratiques pour créer des formulaires accessibles et
+                    inclusifs au plus grand nombre
+                  </p>
+                </div>
+              </div>
+            </div>
           </li>
-          <li>
-            la
-            <g-link to="/outils/checklist-pidila/">checklist Pidila</g-link>
-            regroupe les critères des différents référentiels et bonnes
-            pratiques du web.
+          <li class="fr-col-md-6 fr-col-12">
+            <div class="fr-card fr-enlarge-link">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title fr-h6">
+                    <g-link to="/outils/checklist-pidila/"
+                      >Checklist Pidila</g-link
+                    >
+                  </h3>
+                  <p class="fr-card__desc">
+                    Regroupement de critères des différents référentiels et
+                    bonnes pratiques du web.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="fr-col-md-6 fr-col-12">
+            <div class="fr-card fr-enlarge-link">
+              <div class="fr-card__body">
+                <div class="fr-card__content">
+                  <h3 class="fr-card__title fr-h6">
+                    <g-link to="/outils/checklist-pdf/">Checklist PDF</g-link>
+                  </h3>
+                  <p class="fr-card__desc">
+                    Ensemble de règles pour réaliser un document PDF accessible
+                    à partir d’un traitement de texte
+                  </p>
+                </div>
+              </div>
+            </div>
           </li>
         </ul>
       </section>

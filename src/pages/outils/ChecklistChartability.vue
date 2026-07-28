@@ -28,26 +28,30 @@
 
       <p>
         <b>Chartability</b> est conçu pour repérer les lacunes en matière
-        d'accessibilité dans la conception de datavisualisations et
+        d'accessibilité dans la conception de datavisualisations, dashboard ou
         cartographies. Chaque heuristique est formulée à la négative : ce sont
         des barrières à éviter.
       </p>
 
-      <p>
-        Ces heuristiques s'organisent en sept catégories, dont quatre reposent
-        sur des
-        <a href="https://www.w3.org/WAI/standards-guidelines/wcag/glance/fr"
-          >principes généraux d'accessibilité</a
-        >
-        : perceptible, utilisable, compréhensible et robuste. Les trois
-        dernières catégories étendent le principe de robustesse : accomodant (<i
-          ><span lang="en">compromising</span></i
-        >
-        en anglais), aidant (<i><span lang="en">assistive</span></i> en anglais)
-        et flexible.
-      </p>
+      <p class="fr-mb-0">Ces heuristiques s'organisent en sept catégories :</p>
+      <ul>
+        <li>
+          <b>Perceptible</b>, <b>Utilisable</b>, <b>Compréhensible</b> et
+          <b>Robuste</b> ; selon les
+          <a href="https://www.w3.org/WAI/standards-guidelines/wcag/glance/fr"
+            >principes généraux d'accessibilité</a
+          >.
+        </li>
+        <li>
+          <b>Accomodant</b> (<i><span lang="en">compromising</span></i> en
+          anglais), <b>Aidant</b> (<i><span lang="en">assistive</span></i> en
+          anglais) et <b>Flexible</b>, qui étendent le principe de robustesse.
+        </li>
+      </ul>
 
-      <h2>Pièges à éviter</h2>
+      <!-- TODO expliquer le vocabulaire utilisé une fois, pour être inclusif de toutes les expériences -->
+
+      <h2 class="fr-mt-4w">Pièges à éviter</h2>
 
       <div class="fr-toggle fr-toggle--border-bottom fr-mb-4w">
         <input

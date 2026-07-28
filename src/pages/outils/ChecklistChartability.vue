@@ -17,11 +17,12 @@
 
       <h1>Chartability</h1>
       <p class="fr-text--lead">
-        Chartability permet d'<b
-          >évaluer l'accessibilité de datavisualisations</b
-        >. L'outil propose des heuristiques vérifiables, pour aider les
-        designers et les développeurs à évaluer et à améliorer l'inclusivité des
-        visualisations de données et des interfaces fondées sur des données.
+        Chartability permet aux designers et développeurs d'<b
+          >évaluer l'accessibilité des interfaces autour des données
+          (datavisualisations, cartographies, dashboards...)</b
+        >
+        avec des heuristiques vérifiables, pour évaluer et améliorer
+        l'inclusivité de ces interfaces.
       </p>
 
       <h2>À propos</h2>
@@ -45,7 +46,7 @@
         <li>
           <b>Accomodant</b> (<i><span lang="en">compromising</span></i> en
           anglais), <b>Aidant</b> (<i><span lang="en">assistive</span></i> en
-          anglais) et <b>Flexible</b>, qui étendent le principe de robustesse.
+          anglais) et <b>Flexible</b>, qui étendent le principe de Robustesse.
         </li>
       </ul>
 
@@ -74,7 +75,10 @@
         <h3>{{ cat.node.title }}</h3>
         <p class="fr-text--lead" v-html="cat.node.content" />
 
-        <ul class="accordions fr-mb-4w" :id="'accordeon' + cat.node.id">
+        <ul
+          class="accordions fr-accordions-group fr-mb-4w"
+          :id="'accordeon' + cat.node.id"
+        >
           <li
             class="fr-accordion"
             v-for="(
@@ -83,24 +87,28 @@
               (edge) => edge.node.cat.id === cat.node.id,
             )"
           >
-            <h3 class="fr-accordion__title">
+            <h4 class="fr-accordion__title">
               <button
                 class="fr-accordion__btn"
                 aria-expanded="false"
                 :aria-controls="criterion.node.id"
               >
-                <span>{{ criterion.node.title }}</span>
-
+                <span>{{ criterion.node.title }} </span>
                 <span
                   class="fr-badge fr-badge--sm fr-badge--warning fr-ml-2w"
                   v-if="criterion.node.critical"
                   >Problème majeur</span
                 >
               </button>
-            </h3>
+            </h4>
             <div class="fr-collapse" :id="criterion.node.id">
               <div class="fr-accordion__inner">
                 <div v-html="criterion.node.content" />
+
+                <p class="fr-text--sm fr-quote__source fr-mt-4w">
+                  <b>Source de la recommandation :</b><br />
+                  {{ criterionOrigin(criterion.node.origin) }}
+                </p>
               </div>
             </div>
           </li>
@@ -116,11 +124,11 @@
         >
       </div>
 
-      <h2>Comment utiliser Chartability ?</h2>
-
       <p>
-        Blabla, n'empêche pas d'auditer. et pour les cartographies exemptes, ça
-        reste une bonne pratique
+        Chartability est pensé pour fournir une base de réfléxion sur les
+        interfaces complexes comme les outils métiers, dashboards et Blabla,
+        n'empêche pas d'auditer. et pour les cartographies exemptes, ça reste
+        une bonne pratique
       </p>
 
       <div class="fr-callout fr-mt-4w">
@@ -156,6 +164,7 @@
           title
           content
           critical
+          origin
           cat {
             id
           }
@@ -167,6 +176,12 @@
 
 <script>
 export default {
+  props: {
+    criterion: {
+      type: Object,
+      required: true, // ou false si optionnel
+    },
+  },
   metaInfo: {
     title: "Chartability en français",
     meta: [
@@ -192,18 +207,34 @@ export default {
   data() {
     return {
       allOpen: false,
+      criterionOriginMapping: {
+        standard: "Cette recommandation est la synthèse d'un critère WCAG.",
+        research:
+          "Cette recommandation est la synthèse d'un papier de recherche.",
+        "community practice":
+          "Cette recommandation est synthétisées à partir de travaux de la communauté.",
+      },
     };
   },
   methods: {
     toggleAll() {
       document.querySelectorAll(".fr-collapse").forEach((collapse) => {
         if (this.allOpen) {
+          document
+            .querySelectorAll(".accordions")
+            .forEach((el) => el.classList.add("fr-accordions-group"));
           window.dsfr(collapse).collapse.conceal();
         } else {
+          document
+            .querySelectorAll(".accordions")
+            .forEach((el) => el.classList.remove("fr-accordions-group"));
           window.dsfr(collapse).collapse.disclose();
         }
       });
       this.allOpen = !this.allOpen;
+    },
+    criterionOrigin(origin) {
+      return this.criterionOriginMapping[origin] || origin;
     },
   },
 };

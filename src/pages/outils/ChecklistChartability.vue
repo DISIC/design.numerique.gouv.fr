@@ -93,7 +93,7 @@
                 aria-expanded="false"
                 :aria-controls="criterion.node.id"
               >
-                <span>{{ criterion.node.title }} </span>
+                <span>{{ criterion.node.title }}&nbsp;</span>
                 <span
                   class="fr-badge fr-badge--sm fr-badge--warning fr-ml-2w"
                   v-if="criterion.node.critical"
@@ -108,6 +108,9 @@
                 <p class="fr-text--sm fr-quote__source fr-mt-4w">
                   <b>Source de la recommandation :</b><br />
                   {{ criterionOrigin(criterion.node.origin) }}
+                  <a :href="criterion.node.reference_link" lang="en">{{
+                    criterion.node.reference_name
+                  }}</a>
                 </p>
               </div>
             </div>
@@ -165,6 +168,8 @@
           content
           critical
           origin
+          reference_link
+          reference_name
           cat {
             id
           }
@@ -208,11 +213,11 @@ export default {
     return {
       allOpen: false,
       criterionOriginMapping: {
-        standard: "Cette recommandation est la synthèse d'un critère WCAG.",
+        standard: "Cette recommandation est la synthèse d'un critère WCAG : ",
         research:
-          "Cette recommandation est la synthèse d'un papier de recherche.",
+          "Cette recommandation est la synthèse d'un publication scientifique : ",
         "community practice":
-          "Cette recommandation est synthétisées à partir de travaux de la communauté.",
+          "Cette recommandation est synthétisée à partir de travaux de la communauté : ",
       },
     };
   },

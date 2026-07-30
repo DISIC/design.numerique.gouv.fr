@@ -158,7 +158,10 @@
                 <div class="fr-accordion__inner">
                   <div v-html="criterion.node.content" />
 
-                  <p class="fr-text--sm fr-quote__source fr-mt-4w">
+                  <p
+                    v-if="criterion.node.reference_link"
+                    class="fr-text--sm fr-quote__source fr-mt-4w"
+                  >
                     <b>Source de la recommandation :</b><br />
                     {{ criterionOrigin(criterion.node.origin) }}
                     <a :href="criterion.node.reference_link" lang="en">{{

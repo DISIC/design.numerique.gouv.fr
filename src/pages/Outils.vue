@@ -77,7 +77,7 @@
               <div class="fr-card__body">
                 <div class="fr-card__content">
                   <h3 class="fr-card__title fr-h6">
-                    <g-link to="/outils/checklist-pdf/"
+                    <g-link to="/outils/diagnostic-flash/"
                       >Diagnostic Flash</g-link
                     >
                   </h3>

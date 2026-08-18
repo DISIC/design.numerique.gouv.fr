@@ -34,16 +34,16 @@
       </section>
 
       <section>
-        <h2>Directrice de publication</h2>
+        <h2>Directeur de publication</h2>
         <p>
-          Stéphanie Schaer, directrice interministérielle du numérique.
+          Walter Arnaud, directeur interministériel du numérique.
         </p>
       </section>
 
       <section>
         <h2>Conception et gestion du site</h2>
         <p>
-          Ce site est conçu et développé par l’équipe Design des services numériques. De nouvelles
+          Ce site est conçu et développé par l’équipe Design et Accessibilité. De nouvelles
           fonctionnalités sont ajoutées en continu.
         </p>
       </section>

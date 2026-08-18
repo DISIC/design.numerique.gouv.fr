@@ -32,12 +32,12 @@
           Chartability
         </h1>
         <p class="fr-text--lead">
-          Chartability permet aux designers et développeurs d'<b
-            >évaluer l'accessibilité des interfaces autour des données
+          Chartability permet aux designers et développeurs d’<b
+            >évaluer l’accessibilité des interfaces autour des données
             (datavisualisations, cartographies, dashboards...)</b
           >
           avec des heuristiques vérifiables, pour évaluer et améliorer
-          l'inclusivité de ces interfaces.
+          l’inclusivité de ces interfaces.
         </p>
       </div>
     </section>
@@ -55,7 +55,7 @@
             <li><a class="fr-summary__link" href="#cat2">Utilisable</a></li>
             <li><a class="fr-summary__link" href="#cat3">Compréhensible</a></li>
             <li><a class="fr-summary__link" href="#cat4">Robuste</a></li>
-            <li><a class="fr-summary__link" href="#cat5">Accomodant</a></li>
+            <li><a class="fr-summary__link" href="#cat5">Accommodant</a></li>
             <li><a class="fr-summary__link" href="#cat6">Aidant</a></li>
             <li><a class="fr-summary__link" href="#cat7">Flexible</a></li>
           </ol>
@@ -81,13 +81,12 @@
           >. Ce contenu est donc est sous licence
           <a href="https://creativecommons.org/licenses/by-sa/3.0/" lang="en"
             >CC-BY-SA (Creative Commons Attribution-ShareAlike 3.0 Unported)</a
-          >, comme l'outil original.
+          >, comme l’outil original.
         </p>
 
         <div class="fr-alert fr-alert--warning fr-alert--sm">
           <p>
-            Chartability ne remplace pas un audit RGAA pour les interfaces
-            soumises à cette réglementation. L&#39;outil s&#39;utilise en
+            Chartability ne remplace pas un audit RGAA. L’outil s’utilise en
             complément.
           </p>
         </div>
@@ -99,16 +98,16 @@
         <h2>À propos</h2>
         <p>
           <b>Chartability</b> est conçu pour repérer les problèmes
-          d'accessibilité dans les datavisualisations, dashboards ou
+          d’accessibilité dans les datavisualisations, dashboards ou
           cartographies. Chaque heuristique est formulée à la négative : ce sont
           des barrières à éviter.
         </p>
 
         <p>
-          Ces heuristiques s'organisent en sept catégories : <i>Perceptible</i>,
+          Ces heuristiques s’organisent en sept catégories : <i>Perceptible</i>,
           <i>Utilisable</i>, <i>Compréhensible</i> et <i>Robuste</i>, selon les
           <a href="https://www.w3.org/WAI/standards-guidelines/wcag/glance/fr"
-            >principes généraux d'accessibilité</a
+            >principes généraux d’accessibilité</a
           >
           ; ainsi que <i>Accomodant</i> (<i
             ><span lang="en">compromising</span></i
@@ -251,9 +250,9 @@ export default {
     return {
       allOpen: false,
       criterionOriginMapping: {
-        standard: "Cette recommandation est la synthèse d'un critère WCAG : ",
+        standard: "Cette recommandation est la synthèse d’un critère WCAG : ",
         research:
-          "Cette recommandation est la synthèse d'un publication scientifique : ",
+          "Cette recommandation est la synthèse d’un publication scientifique : ",
         "community practice":
           "Cette recommandation est synthétisée à partir de travaux de la communauté : ",
       },

@@ -18,7 +18,7 @@
       <section>
         <h2>Éditeur</h2>
         <p>
-          Ce site est édité par l’équipe Design des services numériques, au sein de la direction interministérielle
+          Ce site est édité par l’équipe Design et Accessibilité de la direction interministérielle
           du numérique, un service du Premier ministre.
         </p>
         <p>

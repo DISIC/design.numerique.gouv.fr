@@ -3,4 +3,4 @@ id: 2
 title: Utilisable
 ---
 
-Les informations sont-elle perceptibles de plusieurs moyens ?
+Les interfaces sont-elles utilisables par toutes et tous quelque soit le moyen naviguer ?

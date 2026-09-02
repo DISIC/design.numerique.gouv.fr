@@ -83,7 +83,7 @@
                   <input
                     type="checkbox"
                     value="Designer UX"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-designer-ux"
                   /><label class="fr-label" for="job-designer-ux"
                     >Designer UX</label
@@ -93,7 +93,7 @@
                   <input
                     type="checkbox"
                     value="Designer UI"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-designer-ui"
                   /><label class="fr-label" for="job-designer-ui"
                     >Designer UI</label
@@ -103,7 +103,7 @@
                   <input
                     type="checkbox"
                     value="Designer de services"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-designer-services"
                   /><label class="fr-label" for="job-designer-services"
                     >Designer de services</label
@@ -113,7 +113,7 @@
                   <input
                     type="checkbox"
                     value="Product Owner"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-po"
                   /><label class="fr-label" for="job-po"
                     >Chef / cheffe de produit (<span lang="en"
@@ -125,7 +125,7 @@
                   <input
                     type="checkbox"
                     value="User Researcher"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-researcher"
                   /><label class="fr-label" for="job-researcher"
                     >Chercheur / chercheuse utilisateur (<span lang="en"
@@ -137,7 +137,7 @@
                   <input
                     type="checkbox"
                     value="Scrum Master"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-scrum"
                   /><label class="fr-label" for="job-scrum" lang="en"
                     >Scrum master</label
@@ -147,7 +147,7 @@
                   <input
                     type="checkbox"
                     value="Développeur front-end"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-frontend"
                   /><label class="fr-label" for="job-frontend"
                     >Développeur / développeuse
@@ -158,7 +158,7 @@
                   <input
                     type="checkbox"
                     value="Développeur back-end"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-backend"
                   /><label class="fr-label" for="job-backend"
                     >Développeur / développeuse
@@ -169,7 +169,7 @@
                   <input
                     type="checkbox"
                     value="Développeur accessibilité"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-a11y"
                   /><label class="fr-label" for="job-a11y"
                     >Développeur / développeuse accessibilité</label
@@ -179,7 +179,7 @@
                   <input
                     type="checkbox"
                     value="Spécialiste sciences comportementales"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-behavioral"
                   /><label class="fr-label" for="job-behavioral"
                     >Spécialiste en sciences comportementales</label
@@ -189,7 +189,7 @@
                   <input
                     type="checkbox"
                     value="UX Writer"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-writer"
                   /><label class="fr-label" for="job-writer"
                     >Rédacteur (<span lang="en">UX writer</span>)</label
@@ -199,7 +199,7 @@
                   <input
                     type="checkbox"
                     value="Juriste"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-juriste"
                   /><label class="fr-label" for="job-juriste">Juriste</label>
                 </div>
@@ -207,7 +207,7 @@
                   <input
                     type="checkbox"
                     value="Data Scientist"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-data"
                   /><label class="fr-label" for="job-data" lang="en"
                     >Data scientist</label
@@ -217,7 +217,7 @@
                   <input
                     type="checkbox"
                     value="Autre"
-                    name="JOB_TITLE[]"
+                    v-model="selectedJobs"
                     id="job-autre"
                   /><label class="fr-label" for="job-autre">Autre</label>
                 </div>
@@ -250,6 +250,12 @@
             class="input--hidden"
           />
           <input type="hidden" name="locale" value="fr" />
+          <input
+            v-if="jobTitle"
+            type="hidden"
+            name="JOB_TITLE"
+            :value="jobTitle"
+          />
 
           <div class="clear">
             <input
@@ -268,6 +274,16 @@
 
 <script>
 export default {
+  data() {
+    return {
+      selectedJobs: [],
+    };
+  },
+  computed: {
+    jobTitle() {
+      return this.selectedJobs.join(", ");
+    },
+  },
   metaInfo: {
     title: "Newsletter",
     description:

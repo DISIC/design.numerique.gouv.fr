@@ -61,14 +61,14 @@ Intégrez concrètement l’accessibilité dans les services publics numériques
 - 19 novembre — <span aria-hidden="true">📍</span> Présentiel à Paris
 - 3 décembre — <span aria-hidden="true">📍</span> Présentiel à Paris
 
-<h3 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l'accessibilité avec le RGAA</a></h3>
+<h3 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-coder-accessible/">Vérifier l’accessibilité avec le RGAA</a></h3>
 
-Contrôlez l'accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
+Contrôlez l’accessibilité des interfaces comme premier pas vers l’audit de conformité au Référentiel général d’amélioration de l’accessibilité (RGAA).
 
 - 24 novembre — <span aria-hidden="true">📍</span> Présentiel à Paris
 - 10 décembre — <span aria-hidden="true">📍</span> Présentiel à Paris
 
-<span aria-hidden="true">🚩</span>Attention&nbsp;! Cette formation nécessite de <strong>bonnes connaissances en accessibilité numérique</strong> ou d'avoir suivi la formation «&nbsp;l’accessibilité numérique dans la pratique&nbsp;». 
+<span aria-hidden="true">🚩</span>Attention&nbsp;! Cette formation nécessite de <strong>bonnes connaissances en accessibilité numérique</strong> ou d’avoir suivi la formation «&nbsp;l’accessibilité numérique dans la pratique&nbsp;». 
 
 <h3 class="fr-mt-4w fr-h6"><a href="/formations/accessibilite/atelier-pdf-accessible/">Créer un PDF accessible avec un traitement de texte</a></h3>
 

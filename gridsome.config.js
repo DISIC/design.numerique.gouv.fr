@@ -148,6 +148,23 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
+        typeName: "ChartabilityCat",
+        path: "./content/chartability/cat/*.md",
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        typeName: "ChartabilityHeuristics",
+        path: "./content/chartability/*.md",
+        refs: {
+          cat: "ChartabilityCat",
+        },
+      },
+    },
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
         typeName: "PidilaCriterion",
         path: "./content/pidila/*.md",
       },

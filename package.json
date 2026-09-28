@@ -2,7 +2,7 @@
   "name": "design.numerique.gouv.fr",
   "private": true,
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider --max-old-space-size=2048 gridsome build && cp grist-proxy.php dist/",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider gridsome build && cp grist-proxy.php dist/",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "prepare": "husky"

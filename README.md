@@ -51,6 +51,13 @@ Le proxy PHP est nécessaire pour gérer les appels à l'API Grist en contournan
 Le proxy PHP inclut un mécanisme de whitelist.
 Chaque route accessible est un champ texte avec la méthode HTTP puis l'URL Grist. Cette vérification se trouve dans le fichier `grist-proxy.php`.
 
+Le corps des requêtes n'est jamais transmis tel quel à Grist : pour chaque table, le proxy n'accepte qu'un seul enregistrement, composé uniquement des champs envoyés par le formulaire correspondant, et vérifie leur format (e-mail, URL, longueur, valeurs de choix). **Tout nouveau champ ajouté à un formulaire doit aussi être déclaré dans `grist-proxy.php`**, sinon l'envoi est refusé.
+
+Variables optionnelles du proxy :
+
+- `GRIST_PROXY_ALLOWED_ORIGINS` : origines autorisées en CORS, séparées par des virgules (inutile en production où le site et le proxy sont sur le même domaine ; `http://localhost:8080` en local via `docker-compose`)
+- `GRIST_PROXY_RATE_LIMIT` : nombre maximum d'envois par adresse IP sur 10 minutes (20 par défaut)
+
 **Note** : Cette solution utilise les capacités PHP du module Static de CleverCloud pour gérer les appels API sans avoir besoin d'un backend dédié. Le fichier grist-proxy.php est automatiquement inclus dans le build (dossier /dist) lors du déploiement en production.
 
 # Licence

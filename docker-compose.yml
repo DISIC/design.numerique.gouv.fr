@@ -9,6 +9,7 @@ services:
       - GRIDSOME_GRIST_URL=${GRIDSOME_GRIST_URL}
       - GRIDSOME_GRIST_TRAINING_DOC_ID=${GRIDSOME_GRIST_TRAINING_DOC_ID}
       - GRIDSOME_GRIST_REQUESTS_DOC_ID=${GRIDSOME_GRIST_REQUESTS_DOC_ID}
+      - GRIST_PROXY_ALLOWED_ORIGINS=http://localhost:8080
     volumes:
       - ./grist-proxy.php:/var/www/html/grist-proxy.php
     command: >

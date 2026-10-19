@@ -13,10 +13,11 @@ tag:
 Ce qui se traduit, en termes de chiffres&nbsp;:
 
 > Ainsi, en 2022, en France métropolitaine, 14,5 millions de personnes de 15 ans ou plus (28%) déclarent avoir au moins une limitation fonctionnelle sévère (comme avoir des problèmes de vue ou d’audition malgré une correction, des difficultés pour monter un escalier, des trous de mémoire fréquents, des difficultés à se faire comprendre des autres, etc.) et 5,4 millions (10%) déclarent être fortement restreintes dans des activités essentielles du quotidien (se coucher et se lever, s’habiller, faire ses courses, manger et boire, se laver, etc.).
-> 
-> Au total, en France […], le nombre d’enfants et d’adultes handicapés (de 5 ans ou plus) […] peut varier selon le critère ou le croisement de critères utilisés de *5,7 millions à 18,2 millions de personnes*.
+>
+> Au total, en France […], le nombre d’enfants et d’adultes handicapés (de 5 ans ou plus) […] peut varier selon le critère ou le croisement de critères utilisés de _5,7 millions à 18,2 millions de personnes_.
 
-Il existe par ailleurs des chiffres éparses qui dépendent de l’année (la population augmente), du périmètre (certains calculs se basent sur la population de plus de 15 ans), de ce qu’on inclut dans les handicaps, de comment on définit chacun d’entre eux, du fait qu’une personne peut cumuler plusieurs handicaps… Nous avons regroupé un certains nombres de sources sur [les chiffres du handicaps (et de l’illectronisme) sur une page dédiée](https://www.notion.so/a151267860a540fda600a6bc24e2ed32?pvs=21), et nous en avons déduis les chiffres suivants pour la prévalence du handicap en France&nbsp;:
+Il existe par ailleurs des chiffres éparses qui dépendent de l’année (la population augmente), du périmètre (certains calculs se basent sur la population de plus de 15 ans), de ce qu’on inclut dans les handicaps, de comment on définit chacun d’entre eux, du fait qu’une personne peut cumuler plusieurs handicaps… Nous avons regroupé un certains nombres de sources sur les chiffres du handicaps (et de l’illectronisme), et nous en avons déduis les chiffres suivants pour la prévalence du handicap en France&nbsp;:
+
 - Vue&nbsp;: 2 millions
 - Daltonisme&nbsp;: 3,3 millions
 - Audition&nbsp;: 5,4 millions

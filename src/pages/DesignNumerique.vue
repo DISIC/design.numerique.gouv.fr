@@ -194,13 +194,6 @@
                   comme les enquêtes, les entretiens utilisateurs et les tests
                   utilisateurs.
                 </p>
-                <a
-                  href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4"
-                  target="_blank"
-                  title="La recherche utilisateur en détails - Nouvelle fenêtre"
-                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right"
-                  >La recherche utilisateur en détails</a
-                >
               </div>
             </section>
             <section class="fr-accordion">
@@ -530,20 +523,9 @@
               <div class="fr-collapse" id="accordion-16">
                 <h4 class="fr-h6 fr-mb-2w">En autonomie</h4>
                 <p class="fr-mb-2w">
-                  Nous avons élaboré un guide sur la recherche utilisateur pour
-                  vous aider. Toutefois, pour assurer leur qualité, il est
-                  préférable que les tests utilisateurs soient réalisés par des
-                  personnes formées. Consultez également nos formations si
-                  besoin.
+                  Un guide sur la recherche utilisateur pour vous aider est en
+                  cours d’élaboration. Consultez également nos formations.
                 </p>
-                <a
-                  href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4"
-                  target="_blank"
-                  title="La recherche utilisateur en détails - Nouvelle fenêtre"
-                  class="fr-btn fr-btn--secondary fr-btn--sm fr-fi-arrow-right-line fr-btn--icon-right fr-mb-4w"
-                  >La recherche utilisateur en détails</a
-                >
-
                 <h4 class="fr-h6 fr-mb-2w">Avec un accompagnement</h4>
                 <p class="fr-mb-2w">
                   Le pôle Design et Accessibilité peut vous aider à tester vos
@@ -608,71 +590,6 @@
         <ul
           class="fr-grid-row fr-grid-row--gutters dg-list-no-decoration fr-mb-4w"
         >
-          <li class="fr-col-md-4 fr-col-12">
-            <div class="fr-card fr-enlarge-link">
-              <div class="fr-card__body">
-                <div class="fr-card__content">
-                  <h3 class="fr-card__title fr-h6">
-                    <a
-                      href="https://designgouv.notion.site/La-recherche-utilisateur-27f77d6e829a4187817be6f91398a78e?pvs=4"
-                      target="_blank"
-                      title="La recherche utilisateur - Nouvelle fenêtre"
-                      class="dg-link--no-icon"
-                      >La recherche utilisateur</a
-                    >
-                  </h3>
-                  <div class="fr-card__start">
-                    <ul class="fr-badges-group">
-                      <li>
-                        <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">
-                          Recherche
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                  <p class="fr-card__desc">
-                    Découvrez la recherche utilisateur et les ressources pour
-                    vous aider à la mettre en œuvre.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="fr-col-md-4 fr-col-12">
-            <div class="fr-card fr-enlarge-link">
-              <div class="fr-card__body">
-                <div class="fr-card__content">
-                  <h3 class="fr-card__title fr-h6">
-                    <a
-                      href="https://designgouv.notion.site/Fiches-de-poste-832419ace6ac4514831ac2f43fe23401?pvs=4"
-                      target="_blank"
-                      title="Les fiches de poste - Nouvelle fenêtre"
-                      class="dg-link--no-icon"
-                      >Les fiches de poste</a
-                    >
-                  </h3>
-                  <div class="fr-card__start">
-                    <ul class="fr-badges-group">
-                      <li>
-                        <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">
-                          Recherche
-                        </p>
-                      </li>
-                      <li>
-                        <p class="fr-badge fr-badge--sm fr-badge--pink-macaron">
-                          Design
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                  <p class="fr-card__desc">
-                    Consultez nos fiches de postes pour vous aider dans vos
-                    recrutements.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </li>
           <li class="fr-col-md-4 fr-col-12">
             <div class="fr-card fr-enlarge-link">
               <div class="fr-card__body">
